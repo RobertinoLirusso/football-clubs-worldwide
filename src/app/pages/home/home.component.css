@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.w3-container {
+    flex-grow: 1
+}
