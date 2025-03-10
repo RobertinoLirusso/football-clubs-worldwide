@@ -244,6 +244,84 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc-RE6AidZ01c1tcMmlRQ9DhP_UECI_n92gyPcxlIA5NAKIek_yLzzmqvQxzvuO2A46C9XmbiKdYSqSi9F-o_4uFD4EfHuoj0IVKPvIH5_f1uFycbBTIrkV7s4iShhfSkmiNvjCI8AcwX8/s1600/Sevilla+FC256x.png",
     "city_country": "Seville, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Sevilla_FC"
+  },
+  {
+    "club_name": "Barcelona",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv3b0R3I-cJzSfZeP07nIPz_6jaaYt2uNEm82egojp296T5r5jS8yrgBEtuaQ9fmM8SJ7EvFBeNg5rmQP4AL1b4chuovzrmNuxlsPjnVx8HJAyN0G-_s8FE7tp517KnXg5bePRMsp_KD8/s256/FC+Barcelona256x.png",
+    "city_country": "Barcelona, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Barcelona"
+  },
+  {
+    "club_name": "Real Madrid",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYaqFFMvwqFITvC8H-Q7C2UfT9dLxq4DF6obIqhOLtxq7O5CWTgzeU93OAlo1sJpOwRZC1-0OTNnaTp9OH3fZyHTJBTbv0QX05cEzXc0DQG7vKBvptGPvBVwifXiPmpRuHLm4OnouDhns/s1600/Real+Madrid+CF256x.png",
+    "city_country": "Madrid, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+  },
+  {
+    "club_name": "Paris Saint-Germain",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAdTYkLdBJOjWvbFESkv7PvQk3EHtZo9E4VUhiPbaWkvGRSuyhbQ5aPxt5kDe6ZIx855swgpcQy2l7JB5r7aWPjuLj22F4NaWbzDI7TTV_fxVHmOllURi2uS9EvOa9X18lksk7-AazSDyv/s1600/Paris+Saint+Germain256x.png",
+    "city_country": "Paris, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC"
+  },
+  {
+    "club_name": "KRC Genk",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEie7n-6II3aUskBM5qMhrQ8Gp7h5Za_oOp7BEr5ddG1O_2lPfGeZnF7_ThzCbPigmgSm97-ylCeaY2iufgi-sOx-oqhqHxxsLO0kiIWy517mOz5qW32BypHVJXP01kozwtLG7jKpMu4iHgV/s1600/KRC+Genk256x.png",
+    "city_country": "Genk, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/K.R.C._Genk"
+  },
+  {
+    "club_name": "Red Bull Salzburg",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMt8BC49mMAoJDGp9rAGJEFCAWsT0Y6Gxu3AsIMoGhXjYi7LPTryndATwNx0d7GUDt6qEUNsZbh_5UcnI_FD1MVIlO8pLa7SJp_62Y_a55He7DcuQhkkaC1RyZD4x2f8JyoTQ1b24Jyic/s1600/FC+Red+Bull+Salzburg256x.png",
+    "city_country": "Salzburg, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Red_Bull_Salzburg"
+  },
+  {
+    "club_name": "FCSB",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4fgRrpFzc42-DViuhKZt41EV6obAVkvh52aKFvTiHhaNiZ1OG0vZ-UItKllMG4SSigAkDN6ZR86GVNg-qUW7sd8JfW-0Fm3-ahYoMJR25dly5ALhCd87_6-G8-IlAXAoXKhntvRBxQvU/s1600/FC+Steaua+Bucuresti256x.png",
+    "city_country": "Bucharest, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Steaua_Bucure%C8%99ti"
+  },
+  {
+    "club_name": "Borusia Dortmund",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoLFz604OYH32vzCcaTG4m9ltyGjVanlc2ZPYg8cWDe5pefbNPkGOsj5byPeWpPJkm7u-nErJbaSTIo2eeiKUlxdbpPQ8KTAch0qnXB3QP6G47AUag03JxCHEhuf2P4gvGoDvh6Kk8x3XT/s1600/Borussia+Dortmund256x.png",
+    "city_country": "Dortmund, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
+  },
+  {
+    "club_name": "AS Roma",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2JGaEdNjaoO3aW9PCzhMQiGsrza2COnLG7swGgM9QO0ufbp-eAkYMie2E_TILpXUQMpWl9q5D0azxNJtc5rRdpWHXGdkjUgfT-76AKUTUEEQ-kXNqUxerDQBZCc6SCgUuh4On4nwLLc0/s1600/AS+Roma256x.png",
+    "city_country": "Rome, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Roma"
+  },
+  {
+    "club_name": "Genoa",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiztJPu2mykT6UPlT9i0JmTYhDIGM2Op_vgYWa7KsyCvFFkgerlmfaly8hymVB1PYLm8iEH9x0DLtaPUPZ7JOzWEhzwWlgAljMrHS2ova-03TqhsVtoL2T78K8AmCIpFTV3TtVg2qh2hi9hhHYythhkMywebv03aryO3mJjw9ppJdQndYQILmKap7ja/s256/Genoa%20CFC256x.png",
+    "city_country": "Genoa, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Genoa_C.F.C."
+  },
+  {
+    "club_name": "Empoli",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiR4jXdYB-PuRGx3oiajyaK8j6ovkkNeB9XuCr3yRJOQc1p7czawohQlonsXo6MvUWUWUhnLbUl5Sg8aVorJrU-N7qunNVJrGODfWaksITLwifANxE2h4AL9Yu0pfAFg7Bhv7fbfAjtrRw/s256/Empoli+FC256x.png",
+    "city_country": "Empoli, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Empoli_F.C."
+  },
+  {
+    "club_name": "Beijing Guoan",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgxIXDGiRmxwOq9rjRNItC3R4dGuy0shvUO2I2e3YABFGT3HDulftGyThkodcrfcYb3R28wj2pd2nB20134LiPv6pxe3ZUIlmk1WCXIZSjspzVkZ9KE9e2-UtMChzyoSC8A8wQvpw24ug0a72gNJiRzGnRE6jZMugGxcOLXmSu7F51T9MJLkbtkdEgH=s256",
+    "city_country": "Beijing, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Beijing_Guoan_F.C."
+  },
+  {
+    "club_name": "ASEC Mimosas",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCjS5QYrsYF8YDyOGQm03m24shFcJ3QMIMEPR341cSUD4TtnrdSDE0dExC_lPxPJRYwC7BRIgDGA1y5nMBqtsYr-VppARraNuTmuzEuDJytR0G4U80q0EYJvmWVKoIzAlwQgI7VXd9eqQpKxuFre8Z0PTqE8-iv84xYUG5qSmYZdchI6V0i9hNFeZ5mOs/s256/ASEC%20Mimosas256x.png",
+    "city_country": "Abidjan, Ivory Coast",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASEC_Mimosas"
+  },
+  {
+    "club_name": "Chiangrai United",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihZQZxfkO6f_zLW5GMQ80qhu3srPzTMhdwjqWdWrlirXWhXEFzc0sCSjVthk-Xt3T65tEnNe2485nX7hzUJZZnZ2lc-v4qEn801LhRVK6-WYI_Y7wheqrGRgP6V0lDMn71RYjv65qoDMQ/s1600/Chiangrai+United+FC256x.png",
+    "city_country": "Chiang Rai, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chiangrai_United_F.C."
   }
   
   
