@@ -2,7 +2,7 @@
   {
     "club_name": "TSV 1860 München",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCNwKlnXlyxiSxoL64fnMHKvY8vK6IqyHb19bq4F_w6MJvj9qNKPw1ekwOagzY1cqUepTq6i-sUjh8wsW67ljKWIKNyOto10fn1Eg0RooZSLdBa4wb3I61bdU7h_T3nw8-8StMoWV4YIc/s1600/TSV256x.png",
-    "city_country": "München, Germany",
+    "city_country": "Munich, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/TSV_1860_Munich"
   },
   {
@@ -174,9 +174,9 @@
     "wiki_url": "https://en.wikipedia.org/wiki/SK_Slavia_Prague"
   },
   {
-    "club_name": "Viktoria Plzeň",
+    "club_name": "Viktoria Plzen",
     "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEioW-T1U5h4vj0d-j76yZ1A0ut7vKUIpyXzW1lIGiKkHOmJUpW_CITOqigeG9oORRI2sHc1JP7IV7O4IhTRVKnix1431C1OSpK_jRttbfwhgyFQ5lxeFs6dqz2hmKh0-VQHcJQlORQtRDRpcPCUxjPfEVTZlDMbmBAoj9CkebHV-cZi61NIC45qUn_g=s256",
-    "city_country": "Plzeň, Czech Republic",
+    "city_country": "Plzen, Czech Republic",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Viktoria_Pilsen"
   },
   {
@@ -322,6 +322,90 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihZQZxfkO6f_zLW5GMQ80qhu3srPzTMhdwjqWdWrlirXWhXEFzc0sCSjVthk-Xt3T65tEnNe2485nX7hzUJZZnZ2lc-v4qEn801LhRVK6-WYI_Y7wheqrGRgP6V0lDMn71RYjv65qoDMQ/s1600/Chiangrai+United+FC256x.png",
     "city_country": "Chiang Rai, Thailand",
     "wiki_url": "https://en.wikipedia.org/wiki/Chiangrai_United_F.C."
+  },
+  {
+    "club_name": "Liverpool",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpLtVzydDRxAEjJQcjkLnisrwDKipCzXrEinAPBHhwy-jh7oplBeMUFh7q5IMZRR0aqJtR7ahyphenhyphen0sqDQv6E58oNMx9CA792XRidhUAb3Gm76nozZvhXnAQyrPpOWGVa_7SFz7mEhFrMP6gepilR3sZWTNMy9iJhZo0LuKEGlMEa9GoA4L01Bxq4UTMmnek/s256/LIV256x.png",
+    "city_country": "Liverpool, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Liverpool_F.C."
+  },
+  {
+    "club_name": "Tottenham Hotspur",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuD35NKdSm1ya2vS5eA-ScjEEhIRXvR9vSInbiNKmSjYztrRQrjq2vLKo8pKX2qx3obOkj8C-Q_o8VG9mRmGu-tyd26okU26MiEBHvq7WbXqILgVw44-0YQj6igdi3lSxfPgSGgXls8oljQ7KWJ0zKTF0SYfSJJl-UWfcsAaLX7R65iS6_bQRTW5T1eBA/s256/TOT256x.png",
+    "city_country": "London, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C." 
+  },
+  {
+    "club_name": "Manchester City",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzNMxaYnUltuzjX_1qqBtMmXzIaWAlY2b3ow_27DPB55VlXFi3xlXQfOtLo1fPoIBZ6bHd9bFX8XHdcQsKbyEeZH0I5rYeZek5YB7_ST_Wf62I8ONNmnVfvoeWOHePR6NLAP_hEIlb8o7t/s1600/Manchester+City+FC256x.png",
+    "city_country": "Manchester, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+  },
+  {
+    "club_name": "Manchester United",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhognDpgXFZAdL7b0Ho7dE-z2ou594q2ia7C9cb_v-9bYsBy1WW-6XNtYDdsHm5AIrg9XkgcgjRp1NCK3hrOCA1NAGEjYo9MZIF54EFsJmuP8JbdhPCJIgMT8eHyY-lWwtkn3pUAq5COln2/s1600/Manchester+United+FC256x.png",
+    "city_country": "Manchester, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Manchester_United_F.C."
+  },
+  {
+    "club_name": "Arsenal",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqRFjNbg_iFTfpQhyphenhyphenNbqxiAxu4GrOsZioihyphenhyphen1JpJR2T3EiroGjaanSB37ZwND0Rkc8Psbm3INgaEfPaImEIXFJNXXdQTHknw0kpD5eMBF_9x7M5fE3jchxNxwwuJSL-soZNl92cbWs28TF/s1600/Arsenal+FC256x.png",
+    "city_country": "London, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Arsenal_F.C."
+  },
+  {
+    "club_name": "Seattle Sounders",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2J87Nq6yPRxAJRQOZdLhDrZKzNhV9bX0lfkj4xgdjjsAg9mrxNVU8h2JOsAugheyH1mP8zliV2b2QlknsKx9D0fIaubIxk_qR-cA2NHvZbZ6h7amSa36vOCZqJmayKHq58CZNays3qqS-16APaAEceKk0cR35IwjEglyGTMWwynlcLn1sQJxD1QSs_v8/s256/Seattle%20Sounders%20FC256x.png",
+    "city_country": "Seattle, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC"
+  },
+  {
+    "club_name": "Vancouver Whitecaps",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHQegP6mB-OmsvIkpnlDo3Sx-Z28nYTVfqDJL7oJ6wIbhwcSmg7kHatkhYrc1ALvMaXEb_fhiqq1HfLpk-wSRbjFPF2iwZoX30MnqPp1_W630g1MYGpMZLSG2dDRV9oLWZuEJFUMBj2hY/s1600/Vancouver+Whitecaps+FC256x.png",
+    "city_country": "Vancouver, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC"
+  },
+  {
+    "club_name": "Los Angeles Galaxy",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKjGuJfe7Y3NyYX1ztihhqaKB2N95uM_0jqPwqyPMg7rIC255ogTSSlWE5-QLWY30pxuMg-0Ie9F95NZrmUrHQM8RxMVDcLZlJPmlOdO2YRQjev0NvKtrcj-BndrKcvx40rOjr5QR-5BI/s1600/Los+Angeles+Galaxy256x.png",
+    "city_country": "Los Angeles, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Los_Angeles_Galaxy"
+  },
+  {
+    "club_name": "New York City FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJr6FQshkxLiMoR73D_JTw-iJBYoyZH8pCkmWrJcwj9WAVi0j_U8nqbq48JXfYFA9kVXp5yfh5BCnmKK7KvOWCiCpe0mckcDsuRZmFMdoTQtzr9hfuc6ZNzEczF_pQck-QHtIjZf9z-5OYiKKmM2KW1kEIL9oY4nfKZ8Gq-CBenY4uvajFXLPmsMQjTiE/s256/New%20York%20City%20FC256x.png",
+    "city_country": "New York, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/New_York_City_FC"
+  },
+  {
+    "club_name": "Los Angeles FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJlTk7ZwFJOVdyQTmvh2EqELroD-yXW9TXawcKGbS1dupVgCEaF0P_ae7szpCzknCyk2_XIcJwbDDEK_wPr3C1h6S8WUQjkNEz5BoWtcewm-eoWxzpi61H9Dp4aZB4zXHHLSoSIh0bb00/s1600/Los+Angeles+FC256x.png",
+    "city_country": "Los Angeles, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Los_Angeles_FC"
+  },
+  {
+    "club_name": "Bayern Munich",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpLSgDpKSkjhJUGkTQQKMmByaNmZq7d-q5-rjwMIrJDXlTiCE7GysEWg90UAkuCYOVXunxSH7XgZZQplKi-WN3eaegDC3MQbor3Ou0mkhtCyGpFREBEeh-w7t96kEruqqFv04Eny7JdMSeR6hfCfdMpL97YcPFCErjWRvNq9HhnKbqEk7rXjNk1iEBnrU/s256/FC%20Bayern%20Munchen256x.png",
+    "city_country": "Munich, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Bayern_Munich"
+  },
+  {
+    "club_name": "SC Freiburg",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEboUQGvsF21gZgpPIRu2xRLbhhR7OYtPzbJgl_QqnWBBUF5RqFA07Uv_fmTY56V8arBmbU513cdeSmKAYiB8MPX3oYorUxduibutQLDmfBQb023dWfwX8bR82otlrLfaaaRUQ3yqsEcQt/s1600/Sport+Club+Freiburg256x.png",
+    "city_country": "Freiburg im Breisgau, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Freiburg"
+  },
+  {
+    "club_name": "Umeå IK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Umea_IK_logo.svg/274px-Umea_IK_logo.svg.png",
+    "city_country": "Umeå, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ume%C3%A5_IK"
+  },
+  {
+    "club_name": "Tyresö FF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Tyres%C3%B6_FF_logo.svg/320px-Tyres%C3%B6_FF_logo.svg.png",
+    "city_country": "Stockholm, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tyres%C3%B6_FF"
   }
   
   

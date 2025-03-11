@@ -13,6 +13,7 @@
     transform: scale(1.05);
 }
 
+
 .img {
     width: 100%;
     height: 170px;
@@ -96,6 +97,15 @@ footer p {
   font-size: 1.7rem; /* Ajustar tamaño de fuente */
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .w3-modal-content {
+    width: 90% !important; /* Hace que el modal use el 90% del ancho de la pantalla */
+    max-width: none !important;
+    margin: 20px auto !important; /* Agrega margen arriba y abajo */
+  }
+}
+
 
 
 

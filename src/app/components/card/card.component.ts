@@ -43,11 +43,18 @@ export class CardComponent implements OnInit {
     }
 
     get filteredClubs(): any[] {
-      const filtered = this.clubs.filter(club => 
-        club.club_name.toLowerCase().includes(this.searchTerm.toLowerCase())
+      if (!this.searchTerm) {
+        return this.clubs;
+      }
+    
+      const searchTermLower = this.searchTerm.toLowerCase();
+    
+      return this.clubs.filter(club => 
+        club.club_name.toLowerCase().includes(searchTermLower) ||
+        club.city_country.toLowerCase().includes(searchTermLower) // Filtra por ciudad y país
       );
-      return filtered.length ? filtered : [];
     }
+    
 
     clearSearch()  {
       this.searchTerm = '';
