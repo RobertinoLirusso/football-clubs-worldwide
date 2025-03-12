@@ -50,7 +50,7 @@
   {
     "club_name": "Figueirense",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEy1kR_6NR6qdodeWdGY7-lQ5At9xoe3cYjDw8ntzRx9Eodv66vT2GT6br6I1vklgmfM3NhVG5xO2U8DuE9G66Bj0U_wfYqaXlvBzu2YCLluBmsjFDrR27GTgtnSxSbVaUGlwrg67gJ84/s1600/Figueirense+Futebol+Clube256x.png",
-    "city_country": "Florianópolis, Brasil",
+    "city_country": "Florianópolis, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Figueirense_FC"
   },
   {
@@ -478,7 +478,120 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1v8vyUSInqZPJJKyrZqjZd9_Z9IURR_xFyZYuvWsQwBvsO2SiWwXRGCyLu46uU0NKolH38r80FjeOhswvpORmTHCLCuL3Gu0AXD6dLpZz9WTvJTBXuND4_1r4lGybq2mjXSknY8H1XCY6xmWrwxEgdWIKBEi15-gjKtMgGoE1tv_HZaobW5-Xj3nkpnM/s256/FC%20Anzhi%20Makhachkala256x.png",
     "city_country": "Makhachkala, Russia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Anzhi_Makhachkala"
+  },
+  {
+    "club_name": "Cercle Brugge",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFeoIMfYrW2EhRTHKgwvNA7Q_vL6Y01135J3vr3clVREM6Eh-qWcyVTsU7OEwO_2JVb2FU_-8u3BDI4n1nIiuLfJlQDzN03ezDcpYAMfIEWKWjQ3id831kaMS95wm1DxNPxkgGY_XG4_y9IwcrWBGih2A8uPXkbYIeczUOH4QPrG1rfyYv80GuK1zo/s256/Cercle%20Brugge256x.png",
+    "city_country": "Bruges, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cercle_Brugge_K.S.V."
+  },
+  {
+    "club_name": "Club Brugge",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3QFOXP7X2dgVWILxzaGEs7kLnYMF-VfW38E1fgr7vxMHcOLiCvp5E_bQqZoeB2r2MhIPM2j7NnlwufFLn2g33zjlDDw4_TtKFYZQdtWVCLgytqeKhG1sipAfImVG_Ky4aEYObrIh30RlQ/s1600/Club+Brugge+KV256x.png",
+    "city_country": "Bruges, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Brugge_K.V."
+  },
+  {
+    "club_name": "AFC Ajax",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZijm2kBtA8gzFVSHqgw1EceDHjvFB5eTcOTPSekOYyTta1BWp8m8IVGnoLxLBZd9lT5rPRUgUDi40Ovyc7Oc876HFe56kB75Lf_6w2vPzjoym-61JYJhr5bN8LKzy33IiL5oHhhcyhZAtuTsUHu0EgtOWunjozuWBuo2HvmiFoVDppk5w_ridCUWMNN4/s256/AFC%20Ajax256x.png",
+    "city_country": "Amsterdam, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/AFC_Ajax"
+  },
+  {
+    "club_name": "PSV Eindhoven",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfoio0BOrd0Zrjh7FMYKinaNW0U3tqaZt0PFQAb_GvSggKzg4c9NsWr87eRjPLB_OphpKubFGBIMUb4gO8WjVTv1SH5iZGrb_bSfsIxkhvng8uhVEHLh6mNgu67t6ASxk-rmhEf9ZhOug/",
+    "city_country": "Eindhoven, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/PSV_Eindhoven"
+  },
+  {
+    "club_name": "SuperSport United",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8z9DxRK9Lwbhf7mHvyQQL02Hrqw479mB-n4XFgXNWFtpliyMBcZLPWWjEerRuyIF0z0lYvaiVf0ltTSiEWkYvYblG-9g0k5FniUQwB30_Hq5xXPOU0qMaqx-tTax3nlVG45o_VauUAinfAQL4tNLY2O3QNqnKL6kEdDBWG0hA-Cahb4OpiFvfYR54GZw/s256/SuperSport%20United%20FC256x.png",
+    "city_country": "Pretoria, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/SuperSport_United_F.C."
+  },
+  {
+    "club_name": "Kaiser Chiefs",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzru99ReVadiOmKjp0zdMmKftYgAQAKB3giDw_sgHU8dpbI0UX3jPgXytw2cDTcCBTBvK5Js2EK8_OBU-14qFHENstk8MU-4bDJiYqVyrF0DeuxLgAfJKlgYYhJ0gTtYBHCUKjZToZM451MtwV3UKbMww-3TtTjmXwFuAVHGg8qwdnlBL7AnP1rR773jY/s256/Kaizer%20Chiefs%20FC256x.png",
+    "city_country": "Johannesburg, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kaizer_Chiefs_F.C."
+  },
+  {
+    "club_name": "Esperance Sportive de Tunis",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_fTi26KHEUm-uSiU5LxXFlBBoIxpN-7WeDsK62S5QYtIhR7i0QXIm6FqbK8FvJS8KxoKD36V14d2Blqsm6Qeig-8tkOiVWKMWdjVzF31WLeFDJSVfHO6B1gzuYH61ycAYFc7u54jZiAx72QwMDEeXqx4b9IX-em5GDELJ74u1aZDZ1XJMySIaRx4KOJc/s256/Esp%C3%A9rance%20Sportive%20de%20Tunis256x.png",
+    "city_country": "Tunis, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Esperance_Sportive_de_Tunis"
+  },
+  {
+    "club_name": "Al Ain",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFGFrwSz3PjOZjHc3HDzHdRwbfC59LqPC8lpVZ5M8cBYkWqaqUoHv-cyq9rpgOGY_TcVTjBg_UWYtKBhWToPfyF9U65MCigdb-p0ci8PGB7G4BG32jdKS3V-wVLtBXGmoNTo4rY_t54wGAJhn9eLT28wnICf7l7q3rVISmkjNi_q1P_TTl4YJY4u5NcC8/s256/Al%20Ain%20Football%20Club256x.png",
+    "city_country": "Al Ain, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Ain_FC"
+  },
+  {
+    "club_name": "Jiangsu Suning (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Jiangsu_Suning_FC_logo.svg/183px-Jiangsu_Suning_FC_logo.svg.png",
+    "city_country": "Nanjing, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jiangsu_Suning_F.C."
+  },
+  {
+    "club_name": "Deportivo La Guaira",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRtWL_M2fAFXmH33qCWspcK7yZl4ePMIGUVR3Bg_7fbCv8fv2zQDiYYvBStx2F-3EUYDMMSu3mkAKId3QEI3H0-VyiS4omqfAmXvlwWtKHOer5-9vi2WVwnG2fJt2bZQUXiDc4qdhvSeiHc0MaNSYiJ09b8Fnvwo0TzPKrT-b8xPLJzlIAZM5q9EBR/s256/Deportivo%20La%20Guaira256x.png",
+    "city_country": "La Guaria & Caracas, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_La_Guaira"
+  },
+  {
+    "club_name": "Mumbai City",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH2iBOtE_aenOUZAZICC01B_I3bt54LftuSj5j2rZ1KgVao8RXU9pwyOOTFWe4NLhbSUcIlqB-3KUlfE-LFIbE7yi_513zpv8QwZYZkICNxGZq0SOTNIuOnkHnbNuP0Q2wIEbdvXDb8YJLZKyd4cN0p-jtYzoqEYEAf12_pzJDGcXL54oC5Pb4NZz42Ms/s256/Mumbai%20City%20FC256x.png",
+    "city_country": "Mumbai, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mumbai_City_FC"
+  },
+  {
+    "club_name": "Chennaiyin FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Chennaiyin_FC_logo.svg/209px-Chennaiyin_FC_logo.svg.png",
+    "city_country": "Chennai, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chennaiyin_FC"
+  },
+  {
+    "club_name": "Atlético Mineiro",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6066IwYD41ZLiVn-5-KYL48lYvzdzefgFVdHw2R5Gp8nT1VMN5TA7FiAVJhrDs-yAR7Fy6o-A5M66sFAT6LRaGcYboUyVySOAPXlzNO8x2yGFjnZQaC9ZoqcWp-MQlkKNHvWU71KWrOA/s1600/Clube+Atletico+Mineiro256x.png",
+    "city_country": "Belo Horizonte, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Clube_Atl%C3%A9tico_Mineiro"
+  },
+  {
+    "club_name": "Botafogo",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirLZoCBkLf5zm77e8nhEUk3WRJtNK87HVz24MqnS-M_DyNhYH9oSu4_Tgd8EBJDZiHeLv-qElkicta66PyTrdKnQxJjCuyYQeqL2m8yhNGaQg24G7aFqTME8ssio0vBqpMAV4g43yeR8k/s1600/Botafago256x.png",
+    "city_country": "Rio de Janeiro, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Botafogo_de_Futebol_e_Regatas"
+  },
+  {
+    "club_name": "EC Vitória",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdpNePe3_LYvvum-hyG_cGgbvSffVZKV-ZJmz-NMdU9YwB4ivaMh26o9M_W9d8o5IIhC_1aKqaJBnXO1DwxXEmFXk0MQd-S_5OsOFadPI0wptknJNVcpOKuPKON_4SHPlpnruTBd4ynkB0q1zWGEtwsPqp7GrSNj8M9rouSOmu_EsBIGL5hqOIZ7xWIRQ/s256/Esporte%20Clube%20Vitoria256x.png",
+    "city_country": "Salvador, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Esporte_Clube_Vit%C3%B3ria"
+  },
+  {
+    "club_name": "Santos FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/240px-Santos_Logo.png",
+    "city_country": "Santos, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Santos_FC"
+  },
+  {
+    "club_name": "São Paulo FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLAc-Y68Y0IuAoa38P1MtjOIOqNanUvOEWyHlyI6yzbOamjs-6FxwFb5hf9aVw3xOjXyzKC-8d87-zhbRM9tX9vk5fIge00gdUONsts0KNq_A6ifiiz8q9YDjsvRgpZVOOyrMgRXMRRTU/s256/Sao+Paulo+Futebol+Clube256x.png",
+    "city_country": "São Paulo, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_FC"
+  },
+  {
+    "club_name": "Sheriff Tiraspol",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivSY4g9lkZO4PrORKW_yPd4x1peGxezIT302oGXHJURfT2lbpf4bCUR_3R40fy88RgHkW5RAfJKCe5PZlGXJmMCJQk8WkYRe-HH1jPfZ-LEJZA1STXAn2Lpamlg3eirg9wxkSkXVD-SHmy-3mh9WqEFJpCwjXdaPnz3zVvdw1t55kWiMsFEo6674FF/s256/FC%20Sheriff%20Tiraspol256x.png",
+    "city_country": "Tiraspol, Moldova",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Sheriff_Tiraspol"
+  },
+  {
+    "club_name": "Atletico de Rafaela",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihJpZnWPbvGrOaJaM4z8YkZhk0qAkUIL_FNVBsdDEZvq1PKk8P_wRCrVLaQVaYM1knIcJKw0jwy3e80GjnOfHmbv8fk2BEVMrn3Pol9tmmrrmej1WFxsp6jcIT1TozkFlfuZSv63cLNQs/s1600/Atletico+de+Rafaela256x.png",
+    "city_country": "Rafaela, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_de_Rafaela"
   }
-
   
 ]
