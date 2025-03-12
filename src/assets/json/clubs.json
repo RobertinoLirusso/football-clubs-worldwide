@@ -418,7 +418,67 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga8GNbsUXaY0NDC6UbXdptuoAx2oh6kFfKcdghqly5kA1CbTTBU2TpHHZqR3qTZLwOBK2vc7EfpOnOGntiaEbpuWQlgRymtR1UGmSJi_nMQ2jtsHxxc4ck1pM-VMgwkqAyWDRUgLZ3dWk/s256/FC+Kairat+Almaty256x.png",
     "city_country": "Almaty, Kazakhstan",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Kairat"
+  },
+  {
+    "club_name": "Olympique Lyonnais",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhluzo11wa3Kk6E5Sk-ZOypF7oSEYfNv9Y5JSa-SybO2Bz_THPKM5ZnLO1vmML42OFZWBIPs5o9xLRev6dlF5iVzSx6uKyZ_Wq1pIYw4uX0WJGZ7tKhr2PcSgspc59dcqP9vam6exDS5X_Kqm6-ob1UAkuS2tY_7Yn5F5TuZcxtuS70MykhS9ecjKUV/s256/Olympique%20Lyonnais256x.png",
+    "city_country": "Lyon, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Olympique_Lyonnais"
+  },
+  {
+    "club_name": "Angers SCO",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRJrNiXpM_Qi7LYJX76h6g9ybsL7pZEggKd92YNryWSjBKkrAAOlM0ktXZc_SWAyFkn11aej6O5Nf3K4KvTfB2tQArAEAS-4f-aBAbV1ECTetCSD9TZy86OovEdTSWh4e2pMetc22Pssw/s256/Angers+SCO256x.png",
+    "city_country": "Angers, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Angers_SCO"
+  },
+  {
+    "club_name": "AS Monaco",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXtBl-2td1CWgawQElJiEvVJ1EIB2_350rjPnttNJsx4BQKR6T9y81SGeba0m-nGaZmlRJtnbrNLKIwGkdtC1xfgnDSVjs826kuhYt7TrzoU80bWdqZENiIp1t7gtwalyjW9XE4Tpeky8/s256/AS+Monaco+FC256x.png",
+    "city_country": "Monaco, Monaco",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Monaco_FC"
+  },
+  {
+    "club_name": "San Antonio Bulo Bulo",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZ9GI_GyXigA1L8ItMXBJYuNwgOrMaaTJxfkQsAaxkQqWFvkUz748WwuDrbQ8eC394fPtAkYOraeHQ0-FegqxCK2nr-0tyVUPukB3_vpELWsDfcoTdBLRDLdGRrZlrUpFxKiA2UfsvLt5MCUAzsUwMiL2KxPf_rgKbKwgKJhBICwTT16rUFusSbLLAURY/s256/San%20Antonio%20Bulo%20Bulo256x.png",
+    "city_country": "Entre Ríos, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._San_Antonio_Bulo_Bulo"
+  },
+  {
+    "club_name": "Club Bolívar",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUir7eEc3T_tfGVC_P4UEx66Yu-8TSM99RAB5zGyORky1birmlLWbchGM6yvwhqajCWRCjMYF-YpqUmprLNOJWlaY28m1CpDybQw6eYW3wQa8Ah92ctKU5wZJS-oWwFhNIjuGOe81wSXk/s1600/Club+Bolivar256x.png",
+    "city_country": "La Paz, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Bol%C3%ADvar"
+  },
+  {
+    "club_name": "Barcelona SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqDh5VsePUSRkCx6Yp_TrwbOkXxFQI8DmHwLGBdhnFcj2y05wdhROtPwQdXFAuPWdaaF_IuHHLBb_NPM3VR63KfZp6pfnYFvRVi2APhWz8Vq_6YU6LDKmCMRh0vmlQJPmuvw7CmaFNqRI/s256/Barcelona+Sporting+Club256x.png",
+    "city_country": "Guayaquil, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/Barcelona_SC"
+  },
+  {
+    "club_name": "Club Tijuana",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRMxW9-ettFsJk6E2CGiHx-FZvli5D6VnoxNBCxAMCBdyuEHXWthqJ563BQF-ppXP_lXZSIh9H9lktWWx4OnGRd-RNtJUHlpmi6hbZM7nBX6WxnsasFSmlNfE_Tzej5sH3iLlJzRwWnog/s1600/Club+Tijuana256x.png",
+    "city_country": "Tijuana, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Tijuana"
+  },
+  {
+    "club_name": "Monterrey",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgsYOhjNDooL6bSBmO5NcA5VGwNb-1iM-8of48W9xr9blB_PqL9Quod_u9uyxhsY68y3wx74VEzZjVln43XC3wlNJXMc85BtUeLeEdbY_RQs2z7pwvYZVmaFYecFwnLgsvDH5BAnL3P2x9lZMCeRo2yRgNAMHc7AAvQ7Fxu167JH2DJXd0zig4v0rrr=s256",
+    "city_country": "Monterrey, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.F._Monterrey"
+  },
+  {
+    "club_name": "FC Dnipro (Defunct)",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLLjib-TR0VU8eTvELrMlBBdDqKup4Y3qSgRFfr8FVn-tdY1w7xThiVeKalGgH3Jkk8rq9nYPE8z7COtGsBTUw8mgorcYstqQIvQe10QCmrioa8PVcUoTbPOxMQc51VtnitZR-q1qivrw/s256/FC+Dnipro256x.png",
+    "city_country": "Dnipro, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dnipro"
+  },
+  {
+    "club_name": "Anzhi Makhachkala (Defunct)",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1v8vyUSInqZPJJKyrZqjZd9_Z9IURR_xFyZYuvWsQwBvsO2SiWwXRGCyLu46uU0NKolH38r80FjeOhswvpORmTHCLCuL3Gu0AXD6dLpZz9WTvJTBXuND4_1r4lGybq2mjXSknY8H1XCY6xmWrwxEgdWIKBEi15-gjKtMgGoE1tv_HZaobW5-Xj3nkpnM/s256/FC%20Anzhi%20Makhachkala256x.png",
+    "city_country": "Makhachkala, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Anzhi_Makhachkala"
   }
-  
+
   
 ]
