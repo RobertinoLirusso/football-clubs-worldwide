@@ -29,9 +29,17 @@
 
  
 footer p {
-    font-size: 17px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
+
+.modal-title {
+  background: linear-gradient(90deg, #000000, #946b05, #d4af37, #b8860b, #000000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .search-box {
     position: relative;
@@ -105,7 +113,17 @@ footer p {
     max-width: none !important;
     margin: 20px auto !important; /* Agrega margen arriba y abajo */
   }
+
 }
+
+@media (max-width: 480px) {
+  .search-input {
+    font-size: 14px; /* Reducir un poco el tamaño del texto */
+    padding: 12px 35px 12px 35px; /* Ajustar padding si es necesario */
+    min-width: 100%; /* Asegurar que el input ocupe todo el ancho disponible */
+  }
+}
+
 
 
 
