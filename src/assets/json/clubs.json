@@ -766,6 +766,120 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9RwzxapgW_Ny0TMFgBjpwxiBQ0Me-sa_PBcFZMuxBx_Tj_dLunmZcbYuiyZ-b6D0a53axJ7ZmCVA8_JpS6bMBkMAv3MnJLiEdwtuAdnsuTqLNLnTzRc4K-BteqjIc2zb1zqXlhem1dzE/s256/Chievo+Verona256x.png",
     "city_country": "Verona, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/AC_ChievoVerona"
+  },
+  {
+    "club_name": "Çaykur Rizespor",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipoqAhiQ9vWobCrV20Y936GMJGk6a56jtGz5mACfG3OZnXzloi5GwYxGC6o3aH2BbvuswVDgjoON2-rYc1JR5zz7BXMuPSIFXb3ep5Pb5mbsRlEakxN-utgsBBF7xIsAzCTOEYj_8228A/s1600/Caykur+Rizespor256x.png",
+    "city_country": "Rize, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%87aykur_Rizespor"
+  },
+  {
+    "club_name": "Galatasaray",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgg_7dhAdLUxeUgeXTPpwEyRYvPKmosvhgIZ1ko1sk1S9VutFfwN8hkPX53j4zSf8qjYI0jAGTN6VFaAfuDDifT002cLheCYREUSYS1J4TrUEHw1qy31S49iLnVTIiDwJhWQS1KAxTTlLA/s1600/Galatasaray+SK256x.png",
+    "city_country": "Istanbul, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)"
+  },
+  {
+    "club_name": "Istanbul Basaksehir",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOBvUHoVwQ2CA2gcP9S1WZwqVFoAnsiMS6N2H5-NGrrMUiHbaZ2jtE9_W8ye_IdqEnVrvKKlQ0GRGm3Zjga7rm593IxjvY-Z3rMbbZv1vHLbWCSU3mVu1WbiMTEwePq9Y0jkpNgEGeP7I/s256/Istanbul+Basaksehir+FK256x.png",
+    "city_country": "Istanbul, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K."
+  },
+  {
+    "club_name": "Fenerbahçe",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidm7Fvy5eNPnFDlF5kujUHEXdCEyllaqL_wq4ghZ9DgObIviTDCut0XVua3BPQf-JrkjFLW4ALty3WlQZoPHJeDeIZJFEAdxk4muG7xT8yKgW_c1-HCJyGmOoefr9kusg_AjaviyUpAOHMq8oxrKoPXxotjEjDYxPDmJc01FPNoNmON0VF_uBEtfl6/s256/Fenerbahce256x.png",
+    "city_country": "Istanbul, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)"
+  },
+  {
+    "club_name": "Besiktas",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWafFXDiklgW1C5ue9GkQRIc1_IpLH97FqSPvH7xZhJFu0U8nvfcMvYM0HviBcyXDcg0_EQdjevhitLITHgGw8k8aygwizyLYUdPneitegrXMp55KskMD9ea5kfZDX7__1ENuhlexd7ig/s1600/Besiktas+JK256x.png",
+    "city_country": "Istanbul, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K."
+  },
+  {
+    "club_name": "Antalyaspor",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOdqhnbhNqZy9c_gumhmJz1W-QTUyatGw8_S1eOBKegfcXq6_26wcCzGvG0xaFJUzemOVTmQkzrkrMPn-V6rllTNSa8m7Kx_EutKA9bu2H3fVByuD1tVwLwpeEFYHSyqBXg5ewbAdD71E/s1600/Antalyaspor256x.png",
+    "city_country": "Antalya, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Antalyaspor"
+  },
+  {
+    "club_name": "IF Brommapojkarna",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhukcq3b6f7LAvPXUqWumcM6efWPS34KTOhy2q6Ii-nxTyCq36i8teLv5L5_sHv_i2ZscJmx6SDQ8p8yvzgG256NHRXpTJB86m1Z-c4rchhCCgW-UvR9KJ1yjjMLxLuAVgIgPlusqXCpm7pS7CUEQc0aMKHqxX2LgTikqRwQS7MMKZj-M2O5MIgLOq-/s256/IF%20Brommapojkarna256x.png",
+    "city_country": "Stockholm, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/IF_Brommapojkarna"
+  },
+  {
+    "club_name": "IFK Norrköping",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEWhQt35eTKQHddxPQbFA6n5wmxVCgw-LggzWLpeH7CDkKvPOEm0ddXCHLRTQsGjndA4w_e4xB_eFcuRqTpHMTLPoqSbdZ9rE0qfE5T0iJs3P6AB50nzHeEIQ7p65PmEwQohosBoDRrog/",
+    "city_country": "Norrköping, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/IFK_Norrk%C3%B6ping"
+  },
+  {
+    "club_name": "IFK Göteborg",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh32KOnXDu4LvcOuYNN_yMLptWvt_Les5omAf56nG7FgZiR6xRb3xbIcbVhhnyn_QMi7xpCd5bQYNbX4sYaEtrG4h_h8ruwHD0-_Uevo3ySvtTrBMvifNCNxWfMwhtSpDQC-OeiyqZbKrE/",
+    "city_country": "Gothenburg, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/IFK_G%C3%B6teborg"
+  },
+  {
+    "club_name": "IF Elfsborg",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib8Bcc4xuJ5Sr2DAy4Lg-0khnuQ4yXyVrRSnM7D9z1ww7Ul8D4sX6-9V5UE9wSIugvft3mFqAwwuNg8ih-oNmPp9DWyFk7ULJCb9675tCMLOY8szwwfVkeLQwKBMthcc22o5TJSFZqj_Q/",
+    "city_country": "Borås, Sweden",
+    "wiki_url": "http://en.wikipedia.org/wiki/IF_Elfsborg"
+  },
+  {
+    "club_name": "Malmö FF",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0gNnEJggMDMpHQC1w9oQ-JbntIr-5HODmiUpDGNKp-4BxIN7YArHjEDUIoE_6wTwyJGASfd99nwo8VhioXR1QEU8GQ1clTv9hAI9mTgy2iNkVRux9shhHZaireQ31Sywgf_JLGJr-hJw/s1600/Malmo+FF256x.png",
+    "city_country": "Malmö, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Malm%C3%B6_FF"
+  },
+  {
+    "club_name": "CFR Cluj",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKbG-JqigY_CPrx8PEFkh3jPXYYQRgZHjF3DlM9zCOn9xLunS3kZbJwkumsxH0iQ3X8wbDZB3iBS-04q8VyreDSSSMfXNp6LMa4Ryypes9dFAXF_2Vuvi2i35LO3mSWSBNIwNVkt_l73U/s1600/CFR+Cluj256x.png",
+    "city_country": "Cluj-Napoca, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CFR_Cluj"
+  },
+  {
+    "club_name": "Piacenza",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Piacenza_Calcio_1919_crest.svg/240px-Piacenza_Calcio_1919_crest.svg.png",
+    "city_country": "Piacenza, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Piacenza_Calcio_1919"
+  },
+  {
+    "club_name": "Siena",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL9LLgiXaOLOLL0Q0u7KWl-YjzdboRVDYHH__wze-MoalVeiWoIWmrDTh3sJkxjIWpBsCQydz36eM0i16TZCbVZ_gnoJiXh2AHZG-eA583MnXN-Tk9QRGc3EkzBpTyIjrlmcP8uAPlOYUxhQUw5PfiSFnbQJ3-3QRx8iSEhSwCQwM_EumMxXWM7cM90E4/s256/Siena%20FC256x.png",
+    "city_country": "Siena, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Siena_FC_SSD"
+  },
+  {
+    "club_name": "Reggina 1914",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvA5t8CIs6QktVumQav9oSFlcBxWbE8erw50ylWTbpAL9rw_rNuoqtn4v0HHn5BCeJAuGx0HgEKCPQtC3cqqzckmfRwpvpCVoMF3COe2l0b03RbGNbormMgCjF6ak_ZTf7MNMlEpsuIU0/s256/Reggina256x.png",
+    "city_country": "Reggio Calabria, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Reggina_1914"
+  },
+  {
+    "club_name": "Auckland City",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZISZG6q1ibvUtXgJ1Jqf5vD5a3ZkyH0-MN5k_6_WxTvnCa8FeGZI206OPESnQa9sWkbgpni78T0p98G7r1M1BwON-OXKvTemtkAha7ydJnPg1d_opMm1bzFuXKyN58JlW6n7kk53t0iiVCr3US_u-naS3A0TWdmKioetBAZz1XxaRk-r50ovX5WY5/s256/Auckland%20City%20FC256x.png",
+    "city_country": "Auckland, New Zealand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Auckland_City_FC"
+  },
+  {
+    "club_name": "Athletic Bilbao",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQvfY8moiN75U6SR8JSyj_172-S3HeX_pIIgrQy7Y0jra5equsTMmqX4m5yxa3lo8RhwvtdjmzA5-9UCmvMd-sxQ23SnpKc_aLErfOwbybz2hMObkB8F_tNc48Sd0aOysfH4FNhlXPdu0/s1600/Athletic+Club56x.png",
+    "city_country": "Bilbao, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Athletic_Bilbao"
+  },
+  {
+    "club_name": "Atlético Madrid",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzxwNLfRkZg7U2FdpxT9QYygjG-B5yu2tmPytgQCInWh0LTZBcgk2E2eLbabAbhc-N0dow09ICfefmRGOwahKGt8oNSrlGSocH6Rm4oCdfYwvm-2Xafp5t1hV3fhOpyRYZTxx2ppoIQMSoiv0HUf_ptj_mrW_U6NnaKehJM0AmokvOc-my-DtobEI3MW4/s256/Club%20Atl%C3%A9tico%20de%20Madrid256x.png",
+    "city_country": "Madrid, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+  },
+  {
+    "club_name": "Valencia",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP8xk3l0h8v-7awB4oecWnnp48RSNgnYmAPUnqnYcBr2CmsRT-nQv6iTjjyzVcdMWZyFmAMBTYm6GPtw_uwxqkapV1fvyjsRyXC1zr-lEoetuCrP9rcTCvHN9CsZZakECxSHa6B9574y8/",
+    "city_country": "Valencia, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Valencia_CF"
   }
   
 ]
