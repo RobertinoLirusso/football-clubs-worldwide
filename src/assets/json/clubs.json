@@ -8,7 +8,7 @@
   {
     "club_name": "Vasco da Gama",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIbFUeR-EN3n3aBSbwTxxEQ8WT8eCGD-aiKL5wIUAeuwg9jpdSoUyzMzNzXqkTW0bbGQh832tzEin0-5tX4DMz89iJ8Po_SiJ7OgESoW0l2Nq2NUxQwU-w9Mi0RGn-TZYJf9O05fL_WvA/s256/Vasco+da+Gama256x.png",
-    "city_country": "Rio de Janeiro, Brasil",
+    "city_country": "Rio de Janeiro, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/CR_Vasco_da_Gama"
   },
   {
@@ -1378,5 +1378,30 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJMS41AdJU7VoYqVhPrM5l784HvoSIj-UfD7OHl3ZrVeYdHgZESTOk8Li85BFMZSBUJu2C7ld8H5xfB2UrHIPo2_mg-YWrHFFfGvl_rUP0Nz6SFaFW3nQe-mSHq5UBQTidzZQiEExaulm8/s1600/PAOK+FC256x.png",
     "city_country": "Thessaloniki, Greece",
     "wiki_url": "https://en.wikipedia.org/wiki/PAOK_FC"
+  },
+  {
+    "club_name": "Al Nassr",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV_zZw6n9qxdPO3WRcHKuckcUoO_oGRzSHPo3tdVQu8-YTtYKNvv1tPnnB0a7ODXMn2VnYSlMe2SEPD9xMLagtdDI7yJsk8ZoYYfAQN-Y6qdFpANjV76S8RIXc0yLCMh6ZR72C7G7C4xa3kReBGyfX3rrsNaWuW8LBI1pr4UGRRGDjJOhK_qPSinDd/s256/Al-Nassr%20FC256x.png",
+    "city_country": "Riyadh, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Nassr_FC"
+  },
+  {
+    "club_name": "Al Hilal",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3QytAZCExOaQqWPAhRR6Kb9un9TlFjnQ-sIoyJ0e5ph7_vNGzMlZpkHJx48wToB5lZKpbrbx5VdaTu9bqZbweUzJ_YRGENjiwsN1jleG4Wf3gde9JfLad7fKFiRojha_-2VjkiEQ3tU5PlpciL-utPrr0FHN61ynNp-PV9KydUdFBqYMrKvt4ajWo/s256/Al-Hilal%20FC256x.png",
+    "city_country": "Riyadh, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Hilal_SFC"
+  },
+  {
+    "club_name": "Asante Kotoko",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fd/Asante_Kotoko_SC_%28logo%29.png",
+    "city_country": "Kumasi, Ghana",
+    "wiki_url": "https://en.wikipedia.org/wiki/Asante_Kotoko_S.C."
+  },
+  {
+    "club_name": "Flamengo",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj20pS7GWMG46V5vhnBK2STmHkqJoH3AotGG54ziAgkl0to2AnWfs07l0ZZk7AQ9MWPm-CTgpGYDA_Ta35dotdcsn2loEcAkymAF_RCe7vphzkM2_0fhTZmqZhjGSJEL8DTzKUEo8i0NTAJmML_cBIgSRmlfqEMrGMlTqE3uHWSvmKTtI1Z-h0DBaoQH4c/s256/Clube%20de%20Regatas%20do%20Flamengo256x.png",
+    "city_country": "Rio de Janeiro, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/CR_Flamengo"
   }
+
 ]
