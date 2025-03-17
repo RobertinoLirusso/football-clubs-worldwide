@@ -61,6 +61,5 @@ export class CardComponent implements OnInit {
   loadMore() {
     this.visibleClubs += 100; // Cargar 100 clubes adicionales
   }
-    
-    
+   
 }
