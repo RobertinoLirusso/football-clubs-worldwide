@@ -1402,6 +1402,72 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj20pS7GWMG46V5vhnBK2STmHkqJoH3AotGG54ziAgkl0to2AnWfs07l0ZZk7AQ9MWPm-CTgpGYDA_Ta35dotdcsn2loEcAkymAF_RCe7vphzkM2_0fhTZmqZhjGSJEL8DTzKUEo8i0NTAJmML_cBIgSRmlfqEMrGMlTqE3uHWSvmKTtI1Z-h0DBaoQH4c/s256/Clube%20de%20Regatas%20do%20Flamengo256x.png",
     "city_country": "Rio de Janeiro, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/CR_Flamengo"
+  },
+  {
+    "club_name": "Grêmio",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV1KXTmFRyU28-DTTQ-VVqusa_XpG-QOMaGz6O3wtuYKLNb8yTzVAgesggpcCRGAlaS28-DAtv7WXsxd4liphpVG3q7V76G0rnJBqs9Ejj8996R0AZkYSibbk827NSc2c-sngTDzXxDHc/s1600/Gremio+Foot+Ball+Porto+Alegrense256x.png",
+    "city_country": "Porto Alegre, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gr%C3%AAmio_FBPA"
+  },
+  {
+    "club_name": "Palmeiras",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhr5oK2Sn0-0L3XG7T_7Sk1mU0BaIQiYLg5dxDEM7ZIJxhNAvHKBTHygJoyBVtdIqyBwojkD9h-CQy9g-3Epta4NNaJswRDw_pKA6MLTl72PKxFgzQuymre2lYG-iqxP0a5ZZVAz9HbmOs/s256/Sociedade+Esportiva+Palmeiras256x.png",
+    "city_country": "São Paulo, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/SE_Palmeiras"
+  },
+  {
+    "club_name": "Fluminense",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0qAxO5-AnyMZdI38NI1YZoNkwpJvJpuK3MZ0v-jcgOrXSAQYQbld9f7P4G5XIFuRvnGomolqg_xQNILnTbGncC1MjYIHlf3EGjotp0fjwyHJ135ohzP96450Q92GxyUEFl0aqrMG2pqM/s1600/Fluminense+Football+Club256x.png",
+    "city_country": "Rio de Janeiro, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fluminense_FC"
+  },
+  {
+    "club_name": "SC Corinthians",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjl2J-qL6qnwKiVvoCJaoMIzeKw8WIh3u5ZkfjAAAL9oVU76jSHJn27Yx9mibzrVFCmVt7bqQwAT0ZhPrB2S16151kH4erMKxitiGjLk65XDG2IyKwV57pg7bv_2c8n1grPyDmmFpoOv0/s1600/SC+Corinthians+Paulista256x.png",
+    "city_country": "São Paulo, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista"
+  },
+  {
+    "club_name": "Internacional",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYIMTTSDbOsMW_p42_CZjyWJyiXVovcOfFmyEjXfiqRlsAEX9NwMjq1qYB4yO8o4bclpYQp5NaFa78bOcNSDRaMawNw_byVgHNT2SFp9iKOU2UqXfw_usG6Lc0MWTipA3p7T44FAFz6IY/s1600/Sport+Club+Internacional256x.png",
+    "city_country": "Porto Alegre, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Internacional"
+  },
+  {
+    "club_name": "Cruzeiro",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7OA504SrilHFtItqFjkV87f9xik5jHscmGOsYN9GOZXhSMJpEoPge-Le-GE1XH6wJOnX6A4OBz-F9vJxT_BDqG1Ivqk6zw_1ZsPahRXyKzhJ7V46EuJL_86GUI-mDUd6dqggE5QwIfTc/s256/Cruzeiro+Esporte+Clube256x.png",
+    "city_country": "Belo Horizonte, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cruzeiro_Esporte_Clube"
+  },
+  {
+    "club_name": "Bahia",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOu2DUB-hSWXsVH7AcOT7skKTYnXftSiWlTbSrBDx4r-d3LWEE5CtCYeQzN_gnZ38EfolrsYfFNf24Q2sKe30KBmtr4mJLcYZ7N6J-96f8C40g1j-EHrwXGYFnmuHS8bOpYRdD1saHG_g/s1600/Esporte+Clube+Bahia256x.png",
+    "city_country": "Salvador, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Esporte_Clube_Bahia"
+  },
+  {
+    "club_name": "Aston Villa",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtfZ08PzXetXG52LCyCWKnxdMyBcIgyhb6_kqTfgBYz40tDUeHAL7zRRYUk8XlEE7NDNuzopMy_W0aIKVo_-xO-QeCdkz8c2JkSdlVFKCUrx-NAmHfqmFUA7OJGZbBf0FBxiPpJUQN1Jqfb7xTmrNYXc68VIdr9hR3DxhLkEkfFs98_BzMY87VziP-4Vk/s256/Aston%20Villa%20FC256x.png",
+    "city_country": "Birmingham, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aston_Villa_F.C."
+  },
+  {
+    "club_name": "West Ham United",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRCMOjTE3f0sexR-chlOvCIoGdum1BLPqCawBayj3NbxTIhHLeXx29umD1wi4TxWvRQM2iLKfrU7XfMH7FCenyB02tWaGsonw3yQrzPj4n1Wp0Edkrgwib_nV8L9OUc7mNiYXcMxY4c94/s1600/West+Ham+United+FC256x.png",
+    "city_country": "London, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/West_Ham_United_F.C."
+  },
+  {
+    "club_name": "Nottingham Forest",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOhoHG6GpZeCwKJESGqmA2NV-LT0w96GzRIlp7FS7LhesMdjKY04hECH6JxOB9vy_p1hVQkp5UPn93YiDWDBELmDjvXml0Zub7NLggCKjsfTPYmt6PjWhkhGmey6d0irQTsTvvSIymHj4/s1600/Nottingham+Forest+FC256x.png",
+    "city_country": "Nottingham, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C."
+  },
+  {
+    "club_name": "Leicester City",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglOR_PG5USwQt9cgO-G1OjoDtWmUijFsyp5yLBCbKGnTESUEovf7vUmvlBj905A0uLxCbwg1nH__aD4f_-WYDgSqSfCjML_MG2tV_rLjVkN4zzQ4eMZ4xk88dvRcDmqI4pPKgjxSrqBkSt/s1600/Leicester+City+FC256x.png",
+    "city_country": "Leicester, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Leicester_City_F.C."
   }
 
 ]
