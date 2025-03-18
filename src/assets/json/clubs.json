@@ -1548,7 +1548,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Trabzonspor"
   },
   {
-    "club_name": "Gaziantepspor",
+    "club_name": "Gaziantepspor (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Gaziantepspor_logo.svg/286px-Gaziantepspor_logo.svg.png",
     "city_country": "Gaziantep, Turkey",
     "wiki_url": "https://en.wikipedia.org/wiki/Gaziantepspor"
@@ -1578,7 +1578,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/S.D._Aucas"
   },
   {
-    "club_name": "L.D.U de Quito",
+    "club_name": "L.D.U. de Quito",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivxQODFvngLDdaZyKLNiZAe9WlocdkZjgZr0_UpSq-v5fF0HAAlPRHKWsAnWChN9QxvLCSXj0kcFRtOTBhbtp_GBSOomB5Oibg1H-SH1R3AqyO01eVCBnDQocRHhQfb62-P0ulSkGnG4AppnShV6BKblnvpkMQ_1-ywDbt58NT_NiFpAmSA-Aq6P2U_N0/s256/LDU%20de%20Quito256x.png",
     "city_country": "Quito, Ecuador",
     "wiki_url": "https://en.wikipedia.org/wiki/L.D.U._Quito"
@@ -1732,6 +1732,276 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNvDFo_I_oXJF1BU_aIrp0bVT7tFXPu_bur5wfZOKg6zBowgCR9bYaatw4uELB-Tl1MTHJB8TXM5SeYzojmkUG5l0XLQrsF_UEuKZgH7vW78n33MfZQPBCP74bIgsk020rlfM2gK6uGCY/s256/FC+TorpedoBelAZ256x.png",
     "city_country": "Zhodzina, Belarus",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Torpedo-BelAZ_Zhodino"
+  },
+  {
+    "club_name": "Racing de Córdoba",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcf8KbPLHBPU0fbC1yqjpnftY0ePsSQ6LJ-oXBb64joOfVDnRC_WYHFOE03-zhXc3917S49jSKMzFJRynMRIX37WYWJqUw4x5tp3Xgn2BKF-bVFMTgy2TOHuPbCnxPimbA7cHYaiI0H1ikiCqIuw5yiAneTrcv-RMstdgtM1L_TTIn6-ZRqYz62BJk/s256/Club%20Atletico%20Racing256x.png",
+    "city_country": "Córdoba, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Racing_de_C%C3%B3rdoba"
+  },
+  {
+    "club_name": "Instituto",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpbOgsAy-BUunGKsTpPzrXDFTOjyblFEWpUsfnS2FgwUMqYMiY2LAn8srG_ileJhAVmqFrCKQkEQt0HtHKlX24OnwCp6XPnRFFVufF9BBNUwEGjs_pCG_FgLwXNGDyxijhOs6Qgd2P1ag/s1600/Instituto+Atletico+Central+Cordoba256x.png",
+    "city_country": "Córdoba, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Instituto_Atl%C3%A9tico_Central_C%C3%B3rdoba"
+  },
+  {
+    "club_name": "CA Las Palmas",
+    "club_logo": "https://seeklogo.com/images/L/las-palmas-de-cordoba-logo-1209B4F01A-seeklogo.com.png",
+    "city_country": "Córdoba, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Las_Palmas"
+  },
+  {
+    "club_name": "Alumni de Villa María",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Escudo_del_Club_Alumni_de_Villa_Maria.svg/238px-Escudo_del_Club_Alumni_de_Villa_Maria.svg.png",
+    "city_country": "Villa María, Córdoba",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alumni_de_Villa_Mar%C3%ADa"
+  },
+  {
+    "club_name": "Sportivo Belgrano",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSwW5k3zYYMkTkcXXwDwhVgxydD5I082vipStwLCWHfm6kf1YXQWIzNarZdYkwbGTpk8R96r-BH8MURw4SYmGeY9ac5s1tgBxQb1T1Xt3gFk9Fa7ddhY0KW8jIOCKzYvNuDtFQX5HPLRY/s1600/Club+Sportivo+Belgrano256x.png",
+    "city_country": "San Francisco, Córdoba",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sportivo_Belgrano"
+  },
+  {
+    "club_name": "Estudiantes de Río Cuarto",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgkMniy5fpwmB8QCo_aMvzfjY0b8hV6_SXh3SQYFJ2LPb5IPhigJIeJpZRFzwZevitGyMthF9F-O3a_LRiiQIpC4kqE7bgAhG-wHJlEo_Nyp0cB67n0yMz9LPu1HgjD7lm2ynqqPN5hJTN7niXiSxQeEBe6WvRA9w5DJ03bS24R90Lh19ah5wT5HGW/s256/Asociacion%20Atletica%20Estudiantes256x.png",
+    "city_country": "Río Cuarto, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Estudiantes_de_R%C3%ADo_Cuarto"
+  },
+  {
+    "club_name": "General Paz Juniors",
+    "club_logo": "https://imagecache.365scores.com/image/upload/f_png,w_250,h_250,c_limit,q_auto:eco,d_Competitors:default1.png/v2/Competitors/11908",
+    "city_country": "Córdoba, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/General_Paz_Juniors"
+  },
+  {
+    "club_name": "Olimpo",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2D2Nbd5opsl8tE0eSqWyLjrgx4n7c4vaKKlakWC2XPuz4TwKQEueCT4ddgnSpoT4ItJw0QD3JeHkGaNjAFSxImiX51A2Q-t7MTV-_p72A7S4HDdLsYGB32lnYAsuGrGeiF-_QNBL1ZlI/s1600/Club+Olimpo256x.png",
+    "city_country": "Bahía Blanca, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Olimpo"
+  },
+  {
+    "club_name": "Guillermo Brown",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp5FV_KYxgZC_sd_pGrbw0avnLwe3QlSqkiiJi9smaCZ-C_UUGzJuXcc4AILNxJMEPQtwX0hWl_nROHJyK5IxdKK_TSnz9Eb8aDT6azhxqyvfMtRECh7gBmLH1h-5qlGMsdnWpoMVCpUykhVDeZGAdv8TtgXex-nobvx7E742Ls0wZe7HoNv9n4a_JU5U/s256/Guillermo%20Brown256x.png",
+    "city_country": "Puerto Madryn, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guillermo_Brown_de_Puerto_Madryn"
+  },
+  {
+    "club_name": "Boca Unidos",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnAhiEOzn7HedUhzY2fRey54FLVyCkPb_WlZN0e9v_J1RwN59x7lWcY5oYwX1FW5J0dvY2OPBII2OOtj4C8ieYa5s6aCV3VS7DKq6yPqjpV9J2ZY9Xzkg8byAzosBCB-i6sRwonr93Gvc/s1600/Club+Atletico+Boca+Unidos256x.png",
+    "city_country": "Corrientes, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Boca_Unidos"
+  },
+  {
+    "club_name": "Ben Hur",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpyws-YucxTLAO9tnpohk-LdFmHdnXm13hLSZAsCkrI4tQSlaWTUhKzYihaKC3B9LHJwI494DuG8ZtgVupGummysgO-XWHtjPAUAiR_hkgrz1RnXnUfquBqE0J_aUSWF9RM3fW_cUA98U/s1600/Ben+Hur+de+Rafaela256x.png",
+    "city_country": "Rafaela, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Sportivo_Ben_Hur"
+  },
+  {
+    "club_name": "San Diego FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgKiVLi6RXflif2-KCdeJr1Q7ssbTKsaWKAKYqGBreRI70jEuSaMe1FuY9Ddu0jisO3GuhLW5RYHu_1E-3kY2d6wvJZh2zZSKJ-6SoKc476g7eBezNevzPZHbkzd5Dkcw0V3y0OxsE0trIsEwq_PYO0olOKhQ6yBg1AMvMF_90EMuoHylPKwFj_gef2bY/s256/San%20Diego%20FC256x.png",
+    "city_country": "San Diego, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/San_Diego_FC"
+  },
+  {
+    "club_name": "CF Montréal",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIf-WG9VO2LYAL-WCY3PMmzDLawi1CdRZSo2uAdN6grXXgruSTr5f4T2cKZypZ03evDKwZHHHAvJZxViY4uGMgGe_nx8JZ3B-oK-gu-Mt0nypzjHzR2E1ScfLHwk_vuYqQodA30c7iC-wpvn-e-MQhe4CGCykrC7DLdXtF7dmveZH3ceB-euaPgRBi/s256/CF%20Montreal256x.png",
+    "city_country": "Montreal, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al"
+  },
+  {
+    "club_name": "New England Revolution",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4cC3mW2zX9oU5nOGznu4KOxroPK8Nu3sywagRTbF9gM_BBw5-OTbGQz5H5hAxn9dHMb088G-DxJhRPaPhmu8GBVzsMJtsvIsWQg5b_ZqB6AXdnLpRNkA3CA0RpgNTgfW0S5Q9lhohTlo/s256/New+England+Revolution256x.png",
+    "city_country": "Greater Boston, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/New_England_Revolution"
+  },
+  {
+    "club_name": "Chicago Fire",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk_nDOwDLK_5rwuOgKk9fO-UvgbLjEcC4K4qWR_8Ljg9KhwAzYyWrJKOc0mAZJKrh3UzWlp3NV0JW6yRGv65oMBjecifcNYiAZzfJJyAos7wfoDF_BzezvolTgKhjlmzlYlEyiFC3LRp4/s256/Chicago+Fire+FC256x.png",
+    "city_country": "Chicago, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chicago_Fire_FC"
+  },
+  {
+    "club_name": "Houston Dynamo",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFf6mH_Hogya1TuhZngJoJyB3nXNewGLrCcMpnA27kJAAN1ZXQgM656ZSV81DG4P3v0UEL_WLa1SJbC6AZIT0sb5YnYBp9LqbKOxMpDeusz7l25D1iFLNnkoaSqUxNEovo6tveK3FcGFo/s256/Houston+Dynamo+FC256x.png",
+    "city_country": "Houston, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Houston_Dynamo"
+  },
+  {
+    "club_name": "St. Louis City",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEf3iYkxd6KLgPwzcc20XRiVxrQcWqTgj4B5PkuBnd6dlqyQidfjlBU4MJ_SR3ILJwMbTisQDjTiKpmkwbX9yKTx15ix55yWC2R4rz9uUnLgwI0wiP7Q7Fcm_WRq79X3Hgh4sMv7TB0HQ/s256/St+Louis+City+SC256x.png",
+    "city_country": "St. Louis, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/St._Louis_City_SC" 
+  },
+  {
+    "club_name": "FC Cincinnati",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_A-SI9Wq_6_gzFCYkbxgP0Q9EPiNBdNN1HipkFi4_mZKAKR8XaicovGJarp93RmgJb3Yr8O5tjdbV0B7ACh8Tm3p113YzZKMpxPhViuwGmrtcoHm8N0WzYlNO17TJ5ixTuHD0WViLZL8/s1600/FC+Cincinnati256x.png",
+    "city_country": "Cincinnati, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Cincinnati"
+  },
+  {
+    "club_name": "Austin FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBeNWM0hBsSw9fJhJEKcIP4E_YcdHT63ix4MMNrH6mctawnhTMFKZOXQZ5Lbc1vF5xAoSnRXFkfHtxmB0Ud1GuXlgInVxRGOKEcnnUhSQqWw81gS9j-TwYgRRg8CS1U3FWRSlvGIjVbD8/s1600/Austin+FC256x.png",
+    "city_country": "Austin, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Austin_FC"
+  },
+  {
+    "club_name": "Inter Miami",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5I_S87hLKIZZ14aVaKAY1lTR90yxrm89YP95ATn0-ZMbFZSTVyypf-byskhRCNRtnJgniv_ujW2j6DdqPshwEld3sLSb7ObNPLD15m33Gygrgh_8evNDS32v8ndt1sIlnJm9wYSZdVdMrcEQ9hYPJGeLkxrNqayWiJx8f89FtU6DPqkN_wQPz_ZGnL1w/s256/Inter%20de%20Miami%20CF256x.png",
+    "city_country": "Miami, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Inter_Miami_CF"
+  },
+  {
+    "club_name": "Minnesota United",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCZfILPmGJjSjegrMBLGu9J5_NVLwq88hBQEHS5sKxuKQMh8cSz6x3IGURYDtfM-Rh0lnH9MG5kSceHOeiKxv9iY1Yr47XofXXapY73aHpJHqxM8eXBtTUGSv0R-yRdwbJO0q0kN7Dx6s/s256/Minnesota+United+FC256x.png",
+    "city_country": "Minneapolis, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Minnesota_United_FC"
+  },
+  {
+    "club_name": "Toronto FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiR28ebYo6hXqGEMRmB6VMSWG4MPw_VqjcAgfA3pYE9sztlEFkClGTUkjCYkqxSciMJ0xPLG1zRm5-xg0lqTcAH2a_2Eo5VfY8NqzRekJjCoAON2K7lKT12-lv3IAUnDNJVhS_aEUv8k4I/s1600/Toronto+FC256x.png",
+    "city_country": "Toronto, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Toronto_FC"
+  },
+  {
+    "club_name": "San Jose Earthquakes",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6F7ElpMZM5DkxV-xQE5-YPivhwp18Ky-UMs0FDiGWzBKf7uxHtPXscsrH4RsczPrhV4IZhfy4u4smJtx08UTa45D0U0RTkisx5Af2MUsy_lvoCQzu4YTV8DD9ABnR1MHGvBlktquyTK0/s1600/San+Jose+Earthquakes256x.png",
+    "city_country": "San Jose, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes"
+  },
+  {
+    "club_name": "Real Salt Lake",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUtD-gdYkIkmctVGsF6Vi-FKkKZOUpRYsu7U6x69sSfjFVoPzZzKiFHaUAYk85RnyT40dC19GAFo14JMN8xLsxZyL8CMPlL-Ko1g17AiFDcuEBWrweWRcf6fky6xqbxHhG44I3fLi1kx1tY9fzlS6y2XkkmwJtKmU2uCmUiql8Bc9Mo1JXJ9yynWIe/s256/Real%20Salt%20Lake256x.png",
+    "city_country": "Salt Lake City, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Salt_Lake"
+  },
+  {
+    "club_name": "Portland Timbers",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU_eNb9HaTjHBlKAzdVblbuESqovLZpv_aNbeFqNZRUBjMdjBUybM94Hvi-60HHcgmoK0aGPxeotOD_pIPIitpW70BiV-5lxFw8rep4kakfzgpXGKSEmbD-VmmerC55TsYOLXL3c35wbFWV2ikj0gjM-ZAZuruTG-Q9rfBUdeRbnVFaSUGu5XkrkEq/s256/Portland%20Timbers256x.png",
+    "city_country": "Portland, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Portland_Timbers"
+  },
+  {
+    "club_name": "Orlando City",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt0uiVJzuZxEsSjOqTpp6r95MYhCBi5GPwJYdmXmTcz_OrMI0y2-t2mPgBNKfrfkm3eaEzX41e7JMoqYOrGRMoTdN5JzpVNvD87NNn7Bag7DtsUwOSQTWS81ruxWHBCNpfLMH_qqvKjgs/s1600/Orlando+City+SC256x.png",
+    "city_country": "Orlando, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Orlando_City_SC"
+  },
+  {
+    "club_name": "New York Red Bulls",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXdYUqy3seThthyrlN1BHwfHsppXmjGsQSoU36i3MWVWLLU3AhJWulxlQJMCtu5KMfLO5Z4tf55seLP1gx9iFvWBeHT5RAdRXUZWWiq514s6y32ifUS6K7bVfvBQJ7hGgZyKlCQgU8mHA/s1600/New+York+Red+Bulls256x.png",
+    "city_country": "New York, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/New_York_Red_Bulls"
+  },
+  {
+    "club_name": "Philadelphia Union",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCnN0rP3daDPFm0x2ndaBxF8cBHdiqYKMqaKcrqeQQYryGRU7Gc_R0tayOCY4dSjhI58xn_RPHs3olTo7hS7kaRhhv4UGrmVCrzHAZJ0GjcI-PZJdIEZlsGKHF2QboYeQYCn8NrwmHXg4/s1600/Philadelphia+Union256x.png",
+    "city_country": "Philadelphia, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Philadelphia_Union"
+  },
+  {
+    "club_name": "FC Dallas",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTotUZvMT4VsD6UktLnhhstnFEM7Codk6pSXj7QuW8P9Gd0317OAMBYobzIgd1cyPwbL4ShTZupBvtO3pJHS_p0hrA_QVpovmsRa1It5BNEMON4re5WtV14BLY9qzgXX5Yvc6AO5o_pQ0/s1600/FC+Dallas256x.png",
+    "city_country": "Dallas, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dallas"
+  },
+  {
+    "club_name": "DC United",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXb_BUWSyteceuPmF8u-iuSkGF-2dsOXNvjVczSdZB7bi_c6ierAALHLFegDhS8OLCdCis45sITs2CViAfOv7zUJNPXFWNvlygELXPiIfTKX61jJVZz5rl7jqCDGpooiBwlVevm84YsOqfyFcCyzOeoS6hDEpr14lYT2Wg1g8potbSDm3TnrkmbZ7S/s256/DC%20United256x.png",
+    "city_country": "Washington, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/D.C._United"
+  },
+  {
+    "club_name": "Colorado Rapids",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOBDqpDACef3Mnza60MZXMpvosqJtyMMy6wDdA0tB8am__LkWMV5Tz__KIa2KBsEO_b_ix1K-BqRmLvGU-28B4Koq7msyeZVoo6auzep_JGn7JpUiFnR8OsjlQcfAD21EOrZnY6YJeYwA/s1600/Colorado+Rapids256x.png",
+    "city_country": "Denver, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Colorado_Rapids"
+  },
+  {
+    "club_name": "Atlanta United",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgD_bxm-NVwEkeKlN8q0Rylqa1DgG7C7kW5u2cUhmJiyI8oEoG0KFXctkV9R0qLuEThFJmA8gRtlMzLe8PVhVSeCRpqSnYJ3m3EjCJHlpkVMGsEO39xkrSyyfNzV_fFMfHglycQ7mqHhaA/s1600/Atlanta+United+FC256x.png",
+    "city_country": "Atlanta, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atlanta_United_FC"
+  },
+  {
+    "club_name": "Portland Thorns",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Portland_Thorns_logo.svg/198px-Portland_Thorns_logo.svg.png",
+    "city_country": "Portland, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Portland_Thorns_FC"
+  },
+  {
+    "club_name": "Seattle Reign",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Seattle_Reign_logo.svg/320px-Seattle_Reign_logo.svg.png",
+    "city_country": "Seattle, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/OL_Reign"
+  },
+  {
+    "club_name": "Gotham FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/NJ_NY_Gotham_FC_logo.svg/331px-NJ_NY_Gotham_FC_logo.svg.png",
+    "city_country": "New York, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/NJ/NY_Gotham_FC"
+  },
+  {
+    "club_name": "Angel City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Angel_City_FC_logo.svg/332px-Angel_City_FC_logo.svg.png",
+    "city_country": "Los Angeles, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Angel_City_FC"
+  },
+  {
+    "club_name": "Chicago Stars",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Chicago_Stars_FC_logo.svg/320px-Chicago_Stars_FC_logo.svg.png",
+    "city_country": "Chicago, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chicago_Stars_FC"
+  },
+  {
+    "club_name": "Racing Louisville",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Racing_Louisville_FC_logo.svg/240px-Racing_Louisville_FC_logo.svg.png",
+    "city_country": "Louisville, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Racing_Louisville_FC"
+  },
+  {
+    "club_name": "Western United",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmOwLCKSrx1HDnXIUkYq0nojqPvQb1qjGqibs1jB96ZbzYV6p99IpoEUQksoKM0e3hjO0CoXgSHLYA5g8C9DXdLGBwdeee8SnElo_CqxMQBTHC6Uvo_z_28BM3Xe17TLDj5_U42WLTXG4/s1600/Western+United+FC256x.png",
+    "city_country": "Melbourne, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Western_United_FC"
+  },
+  {
+    "club_name": "Western Sydney Wanderers",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF3PlSQgGvvlsB2CpFioLP5Ghs54F18JL_5uqqXcNKOGoH7V-rSG23e0cFN099Y_C_zYkzVvuObTDPI9-L-aODhPSL-cEkUX6iGahSv2xrMwtTOq6QorVODJDurQJJoY760TH_FBCejis/s1600/Western+Sydney+Wanderers+FC256x.png",
+    "city_country": "Sydney, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Western_Sydney_Wanderers_FC"
+  },
+  {
+    "club_name": "Wellington Phoenix",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3f_oQhxvtGeiu83NA_l1GAYkPczogO66jK9AoBNqd6zVgq3X7IV4r-rL2-kQAG6j3rTbGi5_teW5BMPEgo0-OkzMxqHv3uKokR0TKq5-6kGEEt-AoZjXaK1-gU9F-_3Mk-h9xjYdtDjE/s1600/Wellington+Phoenix+FC+256x.png",
+    "city_country": "Wellington, New Zealand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wellington_Phoenix_FC"
+  },
+  {
+    "club_name": "Gold Coast United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/27/Gold_Coast_United_Logo_2018.png",
+    "city_country": "Gold Coast, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gold_Coast_United_FC"
+  },
+  {
+    "club_name": "Central Coast Mariners",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKef9PLFBcqteQWrx1T0M582wwSVRd4Y1UgUwt8UPSX1S0nbbL2POyzpUNCQHQAsuZj1XHv5xUx276dNYwxKK1iWZ4BQWmkgq3qghuTUbMqqk4oZ8D0ANa5ZZhpjCN7fUV5o7kOGvMoQc/s1600/Central+Coast+Mariners+FC256x.png",
+    "city_country": "Gosford, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Central_Coast_Mariners_FC"
+  },
+  {
+    "club_name": "Brisbane Roar",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT2rfozjIQJTo-sKBcV4FvjdhhtkR261nsi99TKRgoPYNi_QMTfXht2F2B2cHn06Ifm59yu1JgeUDeQvlGhhukOz_rfjQ15puk6Yw0Fw1e0oX3K_lR7mOisDMZJwQ4yjar9ZeC8wvKBsc/s1600/Brisbane+Roar+FC256x.png",
+    "city_country": "Brisbane, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brisbane_Roar_FC"
+  },
+  {
+    "club_name": "Kitchee SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXMetbZE-_PW6Er6uVzQT6sB4WeYBpMOWT_0as4xp1HYoMA-_YuZ6xT7T7XvsudauWjoLeqQMoHi8YWieyWKtQ-vlkjPjqc4r30g0b5_GcosF_xvC9eICxiRZ9Ua2n9jG61l9kK8drOI4/s1600/Kitchee+SC256x.png",
+    "city_country": "Kowloon, Hong Kong",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kitchee_SC"
   }
 
 
