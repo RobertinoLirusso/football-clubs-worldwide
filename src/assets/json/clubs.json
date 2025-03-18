@@ -1564,6 +1564,174 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/22/FC_Minsk_logo.png",
     "city_country": "Minsk, Belarus",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Minsk"
+  },
+  {
+    "club_name": "Caracas FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnBDBM4QEl4GKDnpppG4dC9IFTzr7iEo8Y8Oq3RJxomBvSVmgSOmF03P8KvBK7zZ6RngMaenwMeA3LaP4ED7XlDxV2bHwQWbDOVhZVBGaFWdYggdlA7hFxpfyL3F-PLiSjCUBAFf1ckxs/s1600/Caracas+FC256x.png",
+    "city_country": "Caraca, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Caracas_F.C."
+  },
+  {
+    "club_name": "Aucas",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh492BxAEQDuJhjkrEyPqotwmDnKrvMmfr8QOfipJxNye8BLldIdTJA_1TW_jxtaDAfPPtTziLwUlz8dHqJPhqqTb_sgaBiKPWEYoCW3fKe31b6dRq09PEGUD3CG79s4plZjguya4MgEwE/s1600/Sociedad+Deportiva+Aucas256x.png",
+    "city_country": "Quito, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.D._Aucas"
+  },
+  {
+    "club_name": "L.D.U de Quito",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivxQODFvngLDdaZyKLNiZAe9WlocdkZjgZr0_UpSq-v5fF0HAAlPRHKWsAnWChN9QxvLCSXj0kcFRtOTBhbtp_GBSOomB5Oibg1H-SH1R3AqyO01eVCBnDQocRHhQfb62-P0ulSkGnG4AppnShV6BKblnvpkMQ_1-ywDbt58NT_NiFpAmSA-Aq6P2U_N0/s256/LDU%20de%20Quito256x.png",
+    "city_country": "Quito, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/L.D.U._Quito"
+  },
+  {
+    "club_name": "Deportivo Quito",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1BTApCAp-52zISBtjcFou4jESN0vNJWpipw-wC0XtTELoyfb_1gpx0MF5nr2VYwkcqHy-a8wy5zv_R-MvJLCxr66TeoshFyu6Jrqw4vvWCle4_XzIhBlvuwW_02IYY6g6sn3bSaUhIvY/s1600/Sociedad+Deportivo+Quito256x.png",
+    "city_country": "Quito, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.D._Quito"
+  },
+  {
+    "club_name": "Santos Laguna",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7oJKEBkN7fYXnCUcnJKH0UA7o1iOAlJeKJmhlNidYiOw7kVltdx4VFwB4L2rEcJJ0of6bRNJTVufdtAnHNCAkSTXTcl3MA8Fx2YrGfDlu0F4zZGx7scnKM-rxh3J8pIIFxFNqPiwQq9BhyN0h_CoIIVHYdNiDbokE_Csu4dUb2HAJZcBczZBQRDOhAO8/s256/Club%20Santos%20Laguna256x.png",
+    "city_country": "Torreón, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Santos_Laguna"
+  },
+  {
+    "club_name": "Mazatlán FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU3jxIVUOyV7iHYyNtGAgliAcqpOlHPw5Plkd488BATnAB9aWbqCt9rLboXMoOWwzfa1_nL0EhN4sZ5SfJdl8gD8vhVS2svQ0lptWuTvFKLT52FcKsp0kYcyOnrZlG8snezw-fcJDQrGQ/s256/Mazatlan+FC256x.png",
+    "city_country": "Mazatlán, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mazatl%C3%A1n_F.C."
+  },
+  {
+    "club_name": "Chivas de Guadalajara",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcAGJGE6qWeb7wnGt8xbNZASuyAzEWiwRFoYSmUzaugsGfZX3dbzGCj9bfjF9DVHYgGyYtmPuDOWlsZumYMxJJfGQXYt-iP_1lyLgY02hNBLwhRCWEy1Yqa9KNJhWka-r8tO1o0i8lAgc/s1600/Club+Deportivo+Guadalajara256x.png",
+    "city_country": "Guadalajara, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Guadalajara"
+  },
+  {
+    "club_name": "Club Puebla",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-ahK99uVFHe3DJbCdx8lp9tr1hQa_sj4w-HqNXHcztC5jIpkmpIuteGTrqn_8o56HJzGBsQzATpns9nagjaZXKolwhp7o0zfTjfgvLfkw1NYVmRbAtSMrErcF0eXEL0vHOV46tB9FyHvlkPFoiZtoF4KbVsfBseaERtZmOnEnQGusi5eNtsuxo0PIJ6g/s256/Club%20Puebla256x.png",
+    "city_country": "Puebla de Zaragoza, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Puebla"
+  },
+  {
+    "club_name": "Pumas UNAM",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFubUWrYZ8OmYl77DSCHkVvGiiDITkNLsNJ9KRGVnY42f4keOsUBI2cZHI1JN_ah57jMX6lO-FkNnAwkvwToaljlfG0MW9zphxomlWDMMB5jG9D5uVy7IZ8VLp4k-37_CRmbl7YyFLCHw/s1600/Pumas+UNAM256x.png",
+    "city_country": "Mexico City, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Universidad_Nacional"
+  },
+  {
+    "club_name": "Tigres UANL",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCjHFtPzy5DdLcPJ2SVtMWhNnNA2Tmh6mQnvArCYD54LWSx0v4qOrGDKiXn5n-Ef4uf_66hZy4hmGacc3m0szy6ffzfMGHn-5ywUMJbeYCfMWpKlvIdQGlVqC2WsUUmTWsjDWExy1fandaxywO7mN6hZ-RuTa1XRdBB68KXfAH176AwYqvn59pjwyyi24/s256/Tigres%20UANL256x.png",
+    "city_country": "Monterrey, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tigres_UANL"
+  },
+  {
+    "club_name": "Querétaro",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgddfBh-ieqPNcA-48QjlK6EQ7Nb6y6hUhoJWC8XU5b-5FtK5LPPGO1P1bOQKdRfRZ8pN5zqGK9GJljj_84csWXqtKXHeJGV8VSa4i4sK7KwcPzPx6__lx8nMVmTIER4uig5LbVN-Gqft4/s1600/Queretaro+FC256x.png",
+    "city_country": "Santiago de Querétaro, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Quer%C3%A9taro_F.C."
+  },
+  {
+    "club_name": "Pachuca",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBUG85eYCJ0BugcnqT8KzkHj2XKI2Lort1AwScKAVJFQmZGdOMwUHkYvlceCSXBA9cxOAGxQcB5G5lnWcCFtj6kl4tad8XQR0LGLUR5Q7iwaXndP61A4BXFEhs-MvrnPEdSkspOV9yaBnlRJ_nrRIQL1kQ92AY0OmzE4bxyFrfwSsivZJ48cc0aY7mme8/s256/Club%20de%20Futbol%20Pachuca256x.png",
+    "city_country": "Pachuca, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.F._Pachuca"
+  },
+  {
+    "club_name": "Atlas",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1v8TtlHiT3K8q_BfIsYIIs3O-964LK2JX5SdhS9XtoStg4AvJdjNq58vCJ7ifZooFP_XpCzDf59H1dQj1hRZfKp3RVS5ubD89b7pvdvIH7YStzzaKUR-nh4_wANt8kywdDhMkMAen3FCVnMo-700RijTUHyOVTAh3LMuWciXod2PbrdJHF15ETlTw/s256/Atlas%20FC256x.png",
+    "city_country": "Guadalajara, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atlas_F.C."
+  },
+  {
+    "club_name": "Necaxa",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPQowXdUYavK2jem7QowD83NHO0r1zEEwfz_zqwuQ0BzV0jMewe_cMIM3nkTWszh5p_Ozlv36dmaqNagWt056ZkObf6GEO2Nlvd9TBx7CfgWztcytP2jo8JM9oCa8-9Ze_ldw6GRxfeDM/s1600/Club+Necaxa256x.png",
+    "city_country": "Aguascalientes, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Necaxa"
+  },
+  {
+    "club_name": "América",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm9xoiwX4wvvj4jK00NPZkRvRnmg4ShXSFuusBwuZRy2B2vcBh-cryOac86yNMKmGz42JWhp2tQFOj0rH6SDIfQ74OY6D-IIqb5FxApduOtdRnKLt8Zlj9GzYhT8rjLGNcZ4ml7e_QL0s/s1600/Club+America256x.png",
+    "city_country": "Mexico City, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica"
+  },
+  {
+    "club_name": "Atlante",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiHwUDCQJLzeTGYJrNb5EqVcqliQDugWc25V9oTL-nW555d2Jq689TV-SIWNkMAQi7lrKZfyitykc-J8WMmpY0NwvFdGmkCu42xk7z25rO2EXPELnXol8dUZ6HtBFSdKdSYzCgVcrZ-442ksD6CeUpyhDG7liBhPDkVT6Z6uOe19aw_ChHPv6KcU6J/s256/Atlante%20FC256x.png",
+    "city_country": "Mexico City, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atlante_F.C."
+  },
+  {
+    "club_name": "Pohang Steelers",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXL5tlk9K_i9StthanNmr0MenaUo9dP2S2TT5OK61M2c1ghSyljJToPRfixdUBgY6pfLZBfA-eEM1pseqczevL3Nqf3uTyagCFG08zT2SmRcZq0VElifb3XMDiKXvvbVlHYnmKODsXj68rrSIbqdAXtIfvLQa9Tqg3t5Si3H9WX6wfLlP7-juzaxkQkHI/s256/Pohang%20Steelers256x.png",
+    "city_country": "Pohang, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pohang_Steelers"
+  },
+  {
+    "club_name": "FC Seoul",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT2Q36JMZf_mzS8AbRJu7UJElqiEomC1s190iphOG1YVmrkoqzKlFb2rbHTWFpcSJhu4M1Gx1lKK9IfvUD2lHtp8ugpU3S8jYWQ8qm3B5IY7jMnVYB4rGcHrucuMtm5OQqlXDrk_nlerI/s1600/FC+Seoul256x.png",
+    "city_country": "Seoul, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Seoul"
+  },
+  {
+    "club_name": "Suwon FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO_XkfqpAiClMFoOqnO0gJ0PP12nU2mpSpGDGs6WlET2yqxGvdM3QatGLhQFAD3eY1AHmGiCZjiS9TDVJqfs0Ie1FJPpZYWb-hn7OJLkwIe46U7y9xXBI1NWb3QLTax-NQVSRn_ytQ8QU/s256/Suwon+FC256x.png",
+    "city_country": "Suwon, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Suwon_FC"
+  },
+  {
+    "club_name": "Ulsan HD FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEOQ4MmIF1wC948npRPcukc8LMuI6FUFBU3QZ1te8m6N0pSJWARZ1kj2FGuSVgWht4sD5qesvqIx3vFLeT3czb3ERoyzHxECjJEG7eh4k7yT9111lLWwisyI-2hPb0ifM-AQpyYxS9DjQzXXcMIjAAcHdMctxYyNzv-lvI5TOpRk52ylftFKfKrRb8-ME/s256/Ulsan%20Hyundai%20FC256x.png",
+    "city_country": "Ulsan, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ulsan_HD_FC"
+  },
+  {
+    "club_name": "Kilmarnock",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb9QoctX1yFP1RWloxNzex3TiUGcMPAAHzXvjWcTBltPddjdPACxH8dLGCxbhqf1J-zBsn-0DGcBs0PjI3QovHkzgB5Qwr7t6XpKMYsvBPRTQ72J25TQqm9XTXuwSEMEoE21efcWIApAc/s1600/Kilmarnock+FC256x.png",
+    "city_country": "Kilmarnock, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kilmarnock_F.C."
+  },
+  {
+    "club_name": "Al Ahly SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSjFtj6By1UPxxAYM5XgJ-28ijUTODRS5kRa2GZwOScLV4fjugBb0KQQw77U0D6-xzsCn3Okrkc7hnZvyv-MUpzWgyicMso-vtvYUHqOV8YJkvTqyd0CdItgmob2mhA4rkbbryjzdNyDZ0IQEF_M7YQr5bB5FjGJJ37RI8KYxDhCAkVvc8Aq48mjQ2yQw/s256/Al%20Ahly%20SC256x.png",
+    "city_country": "Cairo, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Ahly_SC"
+  },
+  {
+    "club_name": "Al Ittihad",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEhysyfDUsNFgebQdT_4VeqBX75pTUE32VkkxoLOs9t4Md9OFOgCZDqX4uYgFYtxlIv-ifL5LhsJAlmqhlUYUKArjrCxwmANsnDv04sVHBpdTuqB71TqAcfvMl2lgya8P2J0gPjvUtCalN8nh2Da3b1_5Qo4JYWkpnRf26knC60jFFo4hitNkvPXbI7R=s256",
+    "city_country": "Jeddah, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Ittihad_Club_(Jeddah)"
+  },
+  {
+    "club_name": "Sheffield FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Sheffield_FC.svg/330px-Sheffield_FC.svg.png",
+    "city_country": "Sheffield, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sheffield_F.C."
+  },
+  {
+    "club_name": "FC Santa Claus",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/56/FC_Santa_original.png",
+    "city_country": "Rovaniemi, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Santa_Claus"
+  },
+  {
+    "club_name": "Basel",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiicpzXSW9dU70q8YFBUfHbW22XxFju7D2ZJgB2D5Ttw8w-e-becmOQ9pczBbikael5XE399r8dMdmE02wTFGgbqMyBVLRdXYarH2OEidGB-5psOhSgUvtz13pGWsljwLO38Tyd8smwiI/s1600/FC+Basel256x.png",
+    "city_country": "Basel, Switzerland",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Basel"
+  },
+  {
+    "club_name": "Bate Borisov",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioi4ZuweFn3vcQPdpqoRcs7wl0zyGZEeGZi0E7I-VrMUpX5Y68I2-SQxY4VK6VyvlZv7b5ECYpbZoaGh2aisdR-j-n267eDwybB8p6IJrQpXjvCTLpgcbBEfiIXKmweByE6X9xqfHDXFQ/s1600/FC+BATE+Borisov256x.png",
+    "city_country": "Borisov, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_BATE_Borisov"
+  },
+  {
+    "club_name": "Torpedo-BelAZ",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNvDFo_I_oXJF1BU_aIrp0bVT7tFXPu_bur5wfZOKg6zBowgCR9bYaatw4uELB-Tl1MTHJB8TXM5SeYzojmkUG5l0XLQrsF_UEuKZgH7vW78n33MfZQPBCP74bIgsk020rlfM2gK6uGCY/s256/FC+TorpedoBelAZ256x.png",
+    "city_country": "Zhodzina, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Torpedo-BelAZ_Zhodino"
   }
 
 
