@@ -61,5 +61,14 @@ export class CardComponent implements OnInit {
   loadMore() {
     this.visibleClubs += 100; // Cargar 100 clubes adicionales
   }
+
+  selectRandomClub() {
+    if (this.clubs.length > 0) {
+      const randomIndex = Math.floor(Math.random() * this.clubs.length);
+      this.searchTerm = this.clubs[randomIndex].club_name; // Establece la búsqueda con el nombre del club aleatorio
+    }
+  }
+  
+  
    
 }
