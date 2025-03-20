@@ -2002,7 +2002,323 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXMetbZE-_PW6Er6uVzQT6sB4WeYBpMOWT_0as4xp1HYoMA-_YuZ6xT7T7XvsudauWjoLeqQMoHi8YWieyWKtQ-vlkjPjqc4r30g0b5_GcosF_xvC9eICxiRZ9Ua2n9jG61l9kK8drOI4/s1600/Kitchee+SC256x.png",
     "city_country": "Kowloon, Hong Kong",
     "wiki_url": "https://en.wikipedia.org/wiki/Kitchee_SC"
+  },
+  {
+    "club_name": "Real Betis",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9PWUQauvXmoRYMJJkUS560scLzIfTU5r07xZc_M85cAyFF_29oDTT5V6rCiwdsgLSTtdkGqWt1Zreb7TsnLz19acmgZcMMR1nV9WXJ8RwJZDhH5-rnleUEO4fYgHSZmRVeC1Vj4IOuToH9PxX-f3-qkhmGwPnGmwbTGV8hQLvyuPTaflBxLU6SCpE/s256/Real%20Betis256x.png",
+    "city_country": "Seville, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Betis"
+  },
+  {
+    "club_name": "Girona",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXHrVOvpeTHBNzBBojQ1d_sfkEu44q7hie-Yz_aNPbDkuppoDw_e0XrsrUaMzcnPGyNZY_aDWnwP74GlSFykUSu4XtmM2OCctQ2RKvfEjO091ECvkL3L-ohKO_uiC1jsVFqMsJzCICWlQ/s256/Girona+FC256x.png",
+    "city_country": "Girona, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Girona_FC"
+  },
+  {
+    "club_name": "Deportivo Alavés",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI2rhUSoVHk4AF6f82Gx67riKF3a-MQKJlY5aR3qqhyphenhyphenUbZOLnmB1WafQRUr3SAA7sRSBVYFdbQ1jHL6LibMeLFb7gNw1VYhVaSBZHZcNJzYvnkdayo69aCijzsjChT4gq16m0deWxrMy8/s256/Deportivo+Alaves256x.png",
+    "city_country": "Vitoria-Gasteiz, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s"
+  },
+  {
+    "club_name": "RCD Espanyol",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh14dyA0LvvmAyJRJiJfm8A0R6Mn-44pWrOEcu-IWFl8aMSumoE-z1pqfM8zZIH_KjfqMCWuu5oU0WedQPOMKuFvK6ESR0o0k9VfvG_nAu1hNLzuurlpomOdq-8h_cGsPMcVLUk0xcw9K8/s1600/RCD+Espanyol256x.png",
+    "city_country": "Barcelona, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/RCD_Espanyol"
+  },
+  {
+    "club_name": "RCD Mallorca",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS_NLbyF8PXOeMoeV97YP8JQQ2cxUUfnP9W7n-RKl9j1I6ZlNhBlNmFmaVZGqihLmYfPTZ4ASUafynGUrleNWU_i4pFcx4QwiAIpMwkuPGoWGGfj3wqqdm_DwCwnbaxHkdYfPK5zEM1pM/s256/RCD+Mallorca256x.png",
+    "city_country": "Palma, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/RCD_Mallorca"
+  },
+  {
+    "club_name": "Celta de Vigo",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhx7VOmS6a1a1p0mPCupsYYTDT7HZ9NeI6ONd4b69cd2gIKDGnKGGKIySpyZLTJuofP-uRlUA1rodLCI9bbtiKPUKeesC0ht4qAyiUfuBZBwZTocZmiRJSswvHQ8Ob3tvnWL9B2bf7kDRM/s1600/Celta+de+Vigo256x.png",
+    "city_country": "Vigo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo"
+  },
+  {
+    "club_name": "Getafe",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR2hOxiGkukfFTA_3Y0erK5-FhTHvtUeAXOrcOeaB9s1D92lsF4ql4T-ClEH4WpNMHlRBloFjvyPu4F74VYfBEazGzRLMB7rLn1-1AIZtNd6FmCULJmz7pGUYP9HejAYmMFWPk6wO2clJXqlIa0547TNTmEZRphvcox7Y8uKAJxVAhqcJobZ5wevxDCJw/s256/Getafe%20CF256x.png",
+    "city_country": "Getafe, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Getafe_CF"
+  },
+  {
+    "club_name": "Real Sociedad",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVTAWjWQGqXt3BRHcMnQ6DTkyHpOVwU09JYuD_VMS8y5DbpA755azMF3adNPA6Oasbcxq2YbvInjH18sj1bfwrbrAsHXF2hLpAwPgoEVX2N3BdaMR8ptJoG-m0puEcMlyoTzzK5ausLhU/s1600/Real+Sociedad256x.png",
+    "city_country": "San Sebastián, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Sociedad"
+  },
+  {
+    "club_name": "CD Leganés",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEg4MoO-S5Y59WGiXe4G9KGDLKE3-KsQ8ftHHn-c24ellITPD-PEqdj1B8oDrocsR9Y9iq3ROCmx5Q212i0uwFsWCRFZ3Q6pq8MT_3p_xrNW-Z-70yPxixkndb42tja6S5t4jCYyLPy3zWkaYrUUfuIUxDazj8VQpucUpm-6e3KHpnDqX-HE4-h1grPS=s256",
+    "city_country": "Leganés, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Legan%C3%A9s"
+  },
+  {
+    "club_name": "Real Valladolid",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIHyiQd5R7d8XCLx_ew1oBBSPO4kzmJYrXQBJIt-LQE8veBKcNwtJiVEu2RG2S_r797dUMlFHzPK6Dy0PyqLHk14xfPAO6aopX_v4kO8fuMGN7gG6VcqJ9ajebcxaJIvimCtbJEFNSudQ/s256/Real+Valladolid256x.png",
+    "city_country": "Valladolid, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Valladolid"
+  },
+  {
+    "club_name": "Rayo Vallecano",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJEMv11eDEF6w151iTjUBDvBfaPU9zKWY6FEgtKC7LoaQ0Gyrxecbsd2d5vafiUJuqtcav6uIWKMLyQLtBhVRa0R_U4RujJB_pDCAEH8ZMkSpOqcYlRa5YXpLsQn7nqNfTkH-bkHq1o8JX/s1600/Rayo+Vallecano256x.png",
+    "city_country": "Madrid, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rayo_Vallecano"
+  },
+  {
+    "club_name": "Osasuna",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuCz4fThQEa7MC3qctj_NKACLFN5FgNJgJIXbifEH9YptIRGvzhQTgTYX5NejEVeLnUKUPisM7jcII2vGUFAUpPUE_lZF_ENOUZU3YRnHrlKfkzM0thmGuy0EA2tlTW95qN6X86rMQJvg/s256/CA+Osasuna256x.png",
+    "city_country": "Pamplona, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CA_Osasuna"
+  },
+  {
+    "club_name": "Feyenoord",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRZOtzXLC35EcgZLVKxsmZnSiAXkTWlV4ZSaT1mx8PTAlC3_QCSThgQKtehIFf_Au3x-HnbHsGbRfCZEX2_PoJyKcebqDhR4vXtPrA8xNhElvVVvhOIZhEmOyH8MPdQxmtZzu9ZUa0kAvWifJUfu7ZMFDbFQ88Dm6izBEJUn8M3I2M1rH5Jbj8mt_rwcI/s256/Feyenoord%20Rotterdam256x.png",
+    "city_country": "Rotterdam, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Feyenoord"
+  },
+  {
+    "club_name": "AZ Alkmaar",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6qKYs4FcdPaXdNxRtf7cEmRHgepqoxXCr4YfYIwbuGWKACv1HH-jV8dJFUReRAVf9a1cguK_XpQfkwOQhCiS4FrI3IPn1VNssi-wKEY_VCfCfsXHs10hqSD1LFaOlhIx_KBeD3PlorIM/s1600/AZ+Alkmaar256x.png",
+    "city_country": "Alkmaar, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/AZ_Alkmaar"
+  },
+  {
+    "club_name": "FC Utrecht",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLt-YCm1oaXgkoHDi6jedamdbVi6683TaFEt1JzXnBBV5F8B6sRnkQyZKPXFU4k0livi2XOU60Xfdw_mxWphRyVtAWSebmso4D6MzfUCVmy1I0BYwZScpZp7Q2aC065IPHRXjuZuZQo7U/s256/FC+Utrecht256x.png",
+    "city_country": "Utrecht, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Utrecht"
+  },
+  {
+    "club_name": "Sparta Rotterdam",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-jaFMS-rbJIZ6uG5qRTLDqp9Zr3bpoPpwVMySfSAQRGg0fTD7XcBA-QwoZJHobBqhzU0mDCGKKYYlTgr1NK7EMZp-zmQ3v-tmeLaTvY8Y1ELceEnFA6d2E2d56zl8M9GKdOKD_HHzyOo/s1600/Sparta+Rotterdam256x.png",
+    "city_country": "Rotterdam, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sparta_Rotterdam"
+  },
+  {
+    "club_name": "RKC Waalwijk",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN_83sfUHk8LqFjzP4osVdzrf3GYzO0j0-XmOEY73L80xlKV_F9l3eio79ngBWwX2939WBN4SFlAlfdgO_Awqf86COGi425XYJQAhCcySmpsjxZ7jFcKFh9Vn1MP846nBQ1X-TslXk-Xs/s1600/RKC+Waalwijk256x.png",
+    "city_country": "Waalwijk, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/RKC_Waalwijk"
+  },
+  {
+    "club_name": "Fortuna Sittard",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm17YVnISyo7dEKWtY3NsHzyvvlDVMxWw4R9-1KDLniZ4ugtVhRxdqyHiN9e21U5erKWP4Q0Ii9nwC25XEJkKVMjfTMDOm_hapYuOzbz67uECmxRPprghnrDuj0yMpJWNYOgprGSL7Nn8/s1600/Fortuna+Sittard256x.png",
+    "city_country": "Sittard, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fortuna_Sittard"
+  },
+  {
+    "club_name": "FC Twente",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhG8vcMpg4upwGviTFNGkd5Fqsc2c_H6FHGhxnpQOs3h4rtrphuC0Z7IiipQWdUCKV-0_Z8htr5vw2h8Xl6dmoX3uxdLR_HF_8Wl4uwHSNVmgwQEffxRjuwAUUr8Kn8QZ_CS2L8A3CwgDI/s1600/FC+Twente256x.png",
+    "city_country": "Enschede, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Twente"
+  },
+  {
+    "club_name": "VVV-Venlo",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuj5i9vX_XVZavAs_dUe9Ft9UK4QUmEhkc6Dhab8zK1OAawFn0pQY3c-jt-_-A6mImyZwG9FDKzbp8R8qwt8QGqdse2OuOHlou-H_MLHo8ipE0yfi-fLZ5Gk_fugwuHW76LDu8960qPco/s1600/VVV+Venlo256x.png",
+    "city_country": "Venlo, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/VVV-Venlo"
+  },
+  {
+    "club_name": "KAA Gent",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_xaBOHdXO10isXmZ1XrUdWMYZat3JQnrR7W0RgBNcxRH8LATc6gBSb12ZwMmfHH0HHWO8zpStbDCc6o7XSp1VHxE-yHgeNCV1dbS5lpoMQqg5yNe5ULNiK5tMAOcbvMU6aS3iHJULq_r4Sy4jsJX_o-fTUbxRe7CvvB_MQonIF689H2RH2IVXKSorswM/s256/KAA%20Gent256x.png",
+    "city_country": "Ghent, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/K.A.A._Gent"
+  },
+  {
+    "club_name": "Sporting De Charleroi",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAPvv6nD40Dygaptgu_ycBMnKlz0KbjJ9D0NQDBdmGgZChTpwGSAFZ69iETeG3R8m1PDOew4w6p12mWSi4Xk_Bf_Kn41abFVT5CQbbzryBVV-GhInPjyY8PEc4l3L15WeG4oJTqGzlRU88/s1600/Royal+Charleroi+Sporting+Club256x.png",
+    "city_country": "Charleroi, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/Royal_Charleroi_SC"
+  },
+  {
+    "club_name": "Anderlecht",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBY9iJgMBl1T90vOsTkR5gEhb_p1Xl7mev9bLeuvxwSRPeZaE5OcIsS2mAIqcPivGiQgGLEziyAaxf550tPFHgTnCrJQj208hkHslQ2eXFY8TnVWglQC4XWdRoP053M5YL9IpuKBu6CWT2U_iaJTmkA8JaeLX6JQLCAuAZHWuPum3K3P9Z4jSvwnrBgDA/s256/RSC%20Anderlecht256x.png",
+    "city_country": "Anderlecht, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/R.S.C._Anderlecht"
+  },
+  {
+    "club_name": "Union Saint-Gilloise",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNEs8Sb31nLc8ZddxjTrmel4z3-pLR7xFei9noYcRYx4UtRqiopvc8sF_4ybk-3Fvnih5s6ER2TVYBoN4ayxlNwD1bxMdwTtOp9nwOjiY2lNOZov7jkMfNRUXjHRJLy9cZYissvwe4qKTHVct2_nHR_-ZOxGwrXITrLSewKEY0oF_1EoRy76-Ctc9a1_0/s256/Royale%20Union%20Saint-Gilloise256x.png",
+    "city_country": "Saint-Gilles, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise"
+  },
+  {
+    "club_name": "Brighton & Hove Albion",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB2qIKUOn3LLZDFOnXrqh5eO8ovQV8qX_WVMJSSS-dtNIUDX_sBh3fZgjQLThPOhZFwXX7lqNi0kf6L7gQaSOvJC4SKux-r9wJ6nXcEGwFEbrBDsbyTEbX7npmk4JGnaHuRQD8BVEqSjnd/s1600/Brighton+Hove+Albion256x.png",
+    "city_country": "Brighton & Hove, United Kingdom",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."
+  },
+  {
+    "club_name": "Royal Antwerp",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR0aNkohqR5apurCupcsHKmFIY9fsvm2Fd9HEhauaumYJmy2uOQ_RakQ3VRW2cTbRQqPCmqGaW6XbFALSpHtp2_OUi900F9n3vGVOOtERPqa-ONPFaSZh7PhCOcE5HMxyYl-9DMDl4kOVa/s1600/Royal+Antwerp+FC256x.png",
+    "city_country": "Antwerp, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/Royal_Antwerp_FC"
+  },
+  {
+    "club_name": "AEK Athens",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0yadMw3k18PWWCSmskGa-UHJnZx4R12ddJ9lUZvxA30GtAJ1dS_WPWSO0Nv-wEa4GXAxXO6zuiLzfVjbvkQgXagKoTUnRGyQ2mm_jrMO-yFPOZZ8wr9XT8m6ITUzYDMAHqf74QjHAbMc/s256/AEK+FC256x.png",
+    "city_country": "Athens, Greece",
+    "wiki_url": "https://en.wikipedia.org/wiki/AEK_Athens_F.C."
+  },
+  {
+    "club_name": "Panathinaikos",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgIkgb5poPZCI363WNbotM8etOEb5VT0cnq4k-M_kX91o8ERoiC7BXN9YojpDq6m6iz9XSFmT5tfDrZ3kEMN5z7jYL5FLshQ02D0ZFOkBPUOdKvx84dKp16PLeG1DuBURyacfFkR6cW4n110ujJQ9VCSZk2fRBRMVkGDk0pQrDPVZcZb_mmfHIifQs/s256/Panathinaikos%20FC256x.png",
+    "city_country": "Athens, Greece",
+    "wiki_url": "https://en.wikipedia.org/wiki/Panathinaikos_F.C."
+  },
+  {
+    "club_name": "Sparta Prague",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIsgAvDFKO2ivBVwVTSRY8NOzq4gaK5BPKbiuGgaRf7GtdvkybK9K4TYVhyphenhyphenttdvAyS0LlCoCFnPb9Yn-7oJInnXwG5jQFV3jSqxfv32M4FvUcPB3zpZiwCmoCvkHmLhQXgnsSVU4_gQY0/s256/AC+Sparta+Prague256x.png",
+    "city_country": "Prague, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Sparta_Prague"
+  },
+  {
+    "club_name": "Sporting CP",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOYXOx4Dwn8pf7C-JstTcEjSflI8PYDopVhyjsLcNtb0BrNoPgV5-D9G9mkEncckkvIf619vJ7TtTYjD1B9YByEvOy1TWuJG5qBX1xQX7I8Q2Jnlx6WuXqly_lcMqs5ser0frHeT3Yedd2MgAGlit6sgfF_wJJ0MIpsQ0F8ajZlq4SZ9YVhbjEOfcXlig/s256/Sporting%20CP256x.png",
+    "city_country": "Lisbon, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sporting_CP"
+  },
+  {
+    "club_name": "Benfica",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhovWI-jqtCw2jkePN2g-ztlt0SOW9Kz3J2DAXUccywvp8vkalbmUXRSGLgJHsSjwCWaq-r-37-8Eh0FwVwVBz7i31bfTlYgI7Q5JQjtFFzXBVdQqHubodlfbr16RRtz6CQrGc9sJTj74w/",
+    "city_country": "Lisbon, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.L._Benfica"
+  },
+  {
+    "club_name": "Carl Zeiss Jena",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZ7aFbAzXB1lePn2B98AXU_teKUyQvWC_7neY1vV1KzHiaXZX1vHSCcRYx8l4Ec2RpV0cN-0oVxtiokN4ubpHcVtkWOZ0Wx5mItAysMkTb7ocSC2K8xXGNnyMJoBNqrKPsG_cvS9tV9ck/",
+    "city_country": "Jena, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Carl_Zeiss_Jena"
+  },
+  {
+    "club_name": "Fortuna Düsseldorf",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgq2FE9IhsoM5xfz0nHOnmkKb3c1D0mMowkIU1jm7eCKvZVBcG8vneVUBHa9KOvC0ls14h8cLBrmMP4W77xKl1ie056-sCjkjuL8EYUa0y5S3REVe5vxUXvv4M6lny_C3CwMxOdngrWHQ5/s1600/Fortuna+Dusseldorf256x.png",
+    "city_country": "Düsseldorf, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fortuna_D%C3%BCsseldorf"
+  },
+  {
+    "club_name": "Dinamo Tbilisi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/38/FC_Dinamo_Tbilisi_logo.png",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dinamo_Tbilisi"
+  },
+  {
+    "club_name": "Dinamo Minsk",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5kQzYR5rFMyhkR6ETtQ1mGCaM47tWzODv5Ytwy2_VzcRFhWs_F7Bbsno5dH4OMQdkAexjpd9E2iWGNdSgxCPkDsXeRiM_QQl24n80FpY_he5DyC15yY4FTR1ANO9LAD5ka4uUe3Z6hoU/s1600/FC+Dinamo+Minsk256x.png",
+    "city_country": "Minsk, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dinamo_Minsk"
+  },
+  {
+    "club_name": "Dinamo Brest",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtLlR7vw193x7lxNGR65RL77kK-7FsUiZ6PxwwCGGliL-L2Xv9NJpl8AAYkXY1R0hizynV11qcVJXo0IBRgnAwCvH0h8qMGo6sUlwwWXYixsuN9vsQz4nQKEF00by46qgc8j_rqdNNZrs/s1600/FC+Dynamo+Brest256x.png",
+    "city_country": "Brest, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dinamo_Brest"
+  },
+  {
+    "club_name": "Dinamo Batumi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d7/Dinamo_Batumi_Logo.png",
+    "city_country": "Batumi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dinamo_Batumi"
+  },
+  {
+    "club_name": "FC Astana",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkrd4mw6hdTJWnJktPyU311f6GkDyrYeA5Z1HKr_4fdJ4OncZsLwsACzmKuhwxGhEyljPvHM_FF4pqzh7nESHtKPsQ6UJL1hTgYnhctiaofRgIplpkG94pAbkr32s-UWn3n1yVylHsTjk/s1600/FC+Astana256x.png",
+    "city_country": "Astana, Kazakhstan"
+  },
+  {
+    "club_name": "Shakther Karagandy",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/big/10480.png?lm=1453234248",
+    "city_country": "Karagandy, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Shakhter_Karagandy"
+  },
+  {
+    "club_name": "Kaysar Kyzylorda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/FC_Kaisar_logo.svg/278px-FC_Kaisar_logo.svg.png",
+    "city_country": "Kyzylorda, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kaisar_Kyzylorda"
+  },
+  {
+    "club_name": "FC Tobol",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/FC_Tobol_Logo.svg/276px-FC_Tobol_Logo.svg.png",
+    "city_country": "Kostanay, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Tobol"
+  },
+  {
+    "club_name": "FC Kyzyl-Zhar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/c/cd/FC_Qyzyljar_logo_2019.png/240px-FC_Qyzyljar_logo_2019.png",
+    "city_country": "Petropavl, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kyzylzhar"
+  },
+  {
+    "club_name": "Austria Wien",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiXFTvlEZBIv2xgSVtsYFR6zv8wA5jTf-TrmkAe2hjcy_cr5z_ip9HpXy0Re4Kw82XkQ9qEhUeGX6AkrT2crffXgRAGU8D5WswZH7EB_ecHbowEM3HXsqN-h6hvwaJRPmSBz9vutqz2oU/s1600/FK+Austria+Wien256x.png",
+    "city_country": "Vienna, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Austria_Wien"
+  },
+  {
+    "club_name": "Sturm Graz",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWMll3EEZPpDIxoxVt1c-NT5NdWpopsvUmZX0QRsDQ4tKgi_6kkUrioF77CCmhbMzSwvHElWJg7caQ-YznQ_pG7ZTSGXgkuph1BXkX_LVM2o3HTO-WVl48cbplKfwsW_cqHHubFJA-kIU/s1600/SK+Sturm+Graz256x.png",
+    "city_country": "Graz, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Sturm_Graz"
+  },
+  {
+    "club_name": "Rapid Wien",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH2NGf6ojPFE1KXKOVy9VqA9erEUC5trGZYWicnud3_de7aSR6X35890Dj4Dmspe-QA7MfCbTt0qJksP4WSw4olg2q9E8whlmuoJSvZCWCzjtPkTbCY5HF3PXJyzDcz0e5EZyX54FbCFI/s1600/SK+Rapid+Wien256x.png",
+    "city_country": "Vienna, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Rapid_Wien"
+  },
+  {
+    "club_name": "Juve Stabia",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-62NTS7hzSHUzZa_hcEYSzkWSOJWtK5pwCxWyjXo897EWZfpMZEiuzejriEwQ2q0yunhxhciLCwiUF2rSOVJCD2jF4RJI0AkXfLBdY8Vzov3yKh_-jVpcO7hTePSrjd3W9aIsaEMp9Or_umOHhMzbs7cwa_PnDJAUR3tsqCbJyGU2p-1HfUAZFA345jQ/s256/SS%20Juve%20Stabia256x.png",
+    "city_country": "Castellammare di Stabia, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.S._Juve_Stabia"
+  },
+  {
+    "club_name": "Vicenza",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/LR_Vicenza_Virtus_%28logo%29.svg/240px-LR_Vicenza_Virtus_%28logo%29.svg.png",
+    "city_country": "Vicenza, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/LR_Vicenza"
+  },
+  {
+    "club_name": "Cesena",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaPefXajR-DlYzagsnnDLVK44XgMo5NpXhIyeFq_lGnyBm3fwgXlA_C1a-UW0K3vqOC7j7i_-4bYHgh8IZ9YWdStYjT5UyQ8boEyqhRyjQDV5_EUEpviE9ImGuaNdTaG6r58RXUTcxums/s256/Cesena+FC256x.png",
+    "city_country": "Cesena, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.C._Cesena"
+  },
+  {
+    "club_name": "Calcio Lecco",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggkSWQAJ24q1bOuoFtIa0e-qeKhut1ZT-JFGtkzMNcTwhDc0I9iGj9mKrXpwR2eyAgx3F1ZYrlYRtfFma-kcvb0th6PztubNYgG6lWrq1GQmKKblgA9SNiXfEePR0gAiw0DPAwS4QqTWkP7T_Z8ig3MypOUOq2caiJyXX7PNL4oklv7zI1v3dJV50_zrw/s256/Calcio%20Lecco256x.png",
+    "city_country": "Lecco, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Calcio_Lecco_1912"
+  },
+  {
+    "club_name": "Delfino Pescara",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIG09DxW7F66nsrtODbqkfBforEHNm1O_3Sjbtp8R5tguA18sd9zkCF-aWV2ggRfYr4MK8xOowZw09M5j2vIja7bjTlah7XckIKjWBJfsZ0M5YX12p5ZOmiL_On2C2ADSmA1CHUqIMdLw/s1600/Delfino+Pescara+1936256x.png",
+    "city_country": "Pescara, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Delfino_Pescara_1936"
+  },
+  {
+    "club_name": "Benevento",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVVj-h5syQYtwLqKZkksC2albM1gVorU_IX5yT4ikd-Nef-gVYWoGrlhsesLCtYM-31kdDtHGij1yeGh36hLUmi1JZ7RzDqfkbFW7Z0A-2Sb3hHStHisEh2_qwtwIoPyqzai57l5-iLaU/s1600/Benevento+Calcio256x.png",
+    "city_country": "Benevento, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Benevento_Calcio"
+  },
+  {
+    "club_name": "FC Crotone",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisxuyhf9zMJ3m-D2bjdRn9ZQglf5GqU0KQkl1dYkU06sNg7MBiBFTpJsKnpv4CWXNQF4-y2dq12kFE3B-X2YW1XW2xPMJyjkclTWJtj8xFih0u92EY7dWG3TW6scff1C5DwHTkmE8IAIg/s256/FC+Crotone256x.png",
+    "city_country": "Crotone, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._Crotone"
+  },
+  {
+    "club_name": "US Avellino",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ3GQMrZfpDOGHz5bsGetndOngtG4L1j2W8VieydclS3VlyvldVwXykI6vzHxoO3fn5rE3QDC-gksgRpfRnruTX2bydkA7dSVSwSHpMvHDLF00NXOLX4YL5HURkh4sjkHlCmTDPTwQw98/s1600/US+Avellino+1912256x.png",
+    "city_country": "Avellino, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/U.S._Avellino_1912"
   }
-
 
 ]
