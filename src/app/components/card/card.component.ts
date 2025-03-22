@@ -68,7 +68,12 @@ export class CardComponent implements OnInit {
       this.searchTerm = this.clubs[randomIndex].club_name; // Establece la búsqueda con el nombre del club aleatorio
     }
   }
+
   
-  
+  getTwitterShareUrl(club: any): string {
+    const text = `Check out ${club.club_name} from ${club.city_country}! ⚽\n`;
+    const url = `https://footballclubsworldwide.vercel.app/`;
+    return `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
+  }
    
 }

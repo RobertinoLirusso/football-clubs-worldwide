@@ -21,7 +21,7 @@
     padding: 8px;
     transition: filter 0.3s ease;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2)); /* Sombra negra con opacidad */
-}
+  }
 
 .card:hover .img {
     filter: brightness(1.2);
@@ -121,7 +121,10 @@ footer p {
     color: black;
 }
 
-  
+.icon {
+  color: #e1b661;
+}
+
 
   
 /* Responsividad */
