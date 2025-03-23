@@ -21,10 +21,12 @@
     padding: 8px;
     transition: filter 0.3s ease;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2)); /* Sombra negra con opacidad */
+    transition: transform 0.3s ease-in-out;
   }
 
 .card:hover .img {
     filter: brightness(1.2);
+    transform: scale(1.1);
 }
 
 
