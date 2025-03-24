@@ -282,7 +282,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Steaua_Bucure%C8%99ti"
   },
   {
-    "club_name": "Borusia Dortmund",
+    "club_name": "Borussia Dortmund",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoLFz604OYH32vzCcaTG4m9ltyGjVanlc2ZPYg8cWDe5pefbNPkGOsj5byPeWpPJkm7u-nErJbaSTIo2eeiKUlxdbpPQ8KTAch0qnXB3QP6G47AUag03JxCHEhuf2P4gvGoDvh6Kk8x3XT/s1600/Borussia+Dortmund256x.png",
     "city_country": "Dortmund, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
@@ -2835,5 +2835,251 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK-d4NLxPNp0LXlzUZ6hbNCxMZGVw9xKixuGch-o8TETHFaUsKqhnT5c8Yt_JGXOSK44sNYvApfhglRZ3QjMLEj40eXw58RrUTpWtPgRIfFf5bV4cfErbqG0Rtn2rKurQmLlrCZYZj4RO7zSCBzNcUeXmgtTmj1crZ4ePO7VGFb9nxKsPLjOYw3-8Rb5U/s256/Cancun%20FC256x.png",
     "city_country": "Cancún, Mexico",
     "wiki_url": "https://en.wikipedia.org/wiki/Canc%C3%BAn_FC"
+  },
+  {
+    "club_name": "Tampere United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Tampere-United-logo-2016.svg/251px-Tampere-United-logo-2016.svg.png",
+    "city_country": "Tampere, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tampere_United"
+  },
+  {
+    "club_name": "Kalmar FF",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_6v95Gig_I9_oSE5rc4wW4nTWBHkGVs_EELjzM-UjZyynVEosT-yNGOCVRYh0qdAji9Lr_YMH04GIYeYKazBPweIInqO8QL5pYAofGtC4tsFmAnNYhBFj8G7CKOHg695t7E2jZ4itqB4JADbrxEarEbLy5aF9kvht5kqhV-Q7mXoAxKGLTIg198t_/s256/Kalmar%20FF256x.png",
+    "city_country": "Kalmar, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kalmar_FF"
+  },
+  {
+    "club_name": "Kayserispor",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmnWe98YvBXxW3r73-dyJCz68t-MIZEQheYuR5u6JBV1cq3Q872ZwB6Uv5NOSRP35tzQVQiLbSeHSUEexlR2t7lxVXf6tFqOty5aR58WizoqRf_FYu6BXhWQtTRmoifrr9lTEzkGDDjgc/s1600/Kayserispor256x.png",
+    "city_country": "Kayseri, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kayserispor"
+  },
+  {
+    "club_name": "FC Moscow (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/1/1d/FC_Moscow_Logo.svg/365px-FC_Moscow_Logo.svg.png",
+    "city_country": "Moscow, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Moscow"
+  },
+  {
+    "club_name": "Hibernian",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3pTa8WkpBbfRhNKdIphNu19gNLhlmJ_zf3ZEz-jEeLlbyCy_dzjSMZIc_iJTuzKTBiiIAUtZzR0cr9n13d49Gml6CY9ZjImfRw_vFfefS4CQxaeqBkrtYxogAtT-DGwFOw3h8gFDT8XI/s1600/Hibernian+FC256x.png",
+    "city_country": "Edinburgh, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hibernian_F.C."
+  },
+  {
+    "club_name": "Helsingborgs IF",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4PPJeVP6XoQWZJZRKG9raOErQmvbfxZg4f7PGnx9vLe9kfS-0PAr4_Yxcjix2cRUjZrY2SjJ7_YCL7YgTPGSkTovG07q4b5vNnLuExi1TuuqKJ14bQkQ7nJPRslpmfF4qcqf2_TrKD7Y/",
+    "city_country": "Helsingborg, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Helsingborgs_IF"
+  },
+  {
+    "club_name": "St. Gallen",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv2GZujBz1q9E7zJFEBg_Ijhn2Q_9Qt3dpZty8RIBxhb1vdQWd9PEk5d1bhA48czX7l5UF9znbeaHmV3O2yN68egMLNYkhc2yLAcY8VoWfS_Xp4MdSi-qq79DoapsWBGNcTkWoHXxz1sE/s1600/FC+St+Gallen+1879256x.png",
+    "city_country": "St. Gallen, Switzerland",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_St._Gallen"
+  },
+  {
+    "club_name": "Zagłębie Lubin",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivSrudVarc0FH5yRX9UaBe22jqffN93pjHVIaQjyyGJsSK_RVn9m7Mtuq6v493R9NYsckZniNNZ_7ypDD0amK6VzdXfziNUlsB_R9emO1NiUvI5WXJLxQlzh_AvWJFNkt9rjvC9yHa2Ho/s1600/Zaglebie+Lubin+SA256x.png",
+    "city_country": "Lubin, Poland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Lubin"
+  },
+  {
+    "club_name": "União de Leiria",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha8I_Kx9n0j8oBY1nEEouqCPM4LkD9CpiqgcjuWKINRYLuR3s549RgTpriCFCev5txyUBlZZMfIE8QYbdrs8bAI0C9AqbPpRN8_BAEaoTiwqIGjAd1_lnEApbQ28Ni0pyzwX_p3k2ZrJvpPSOUqvcYrs4IbUHS8mbzZUxQccW4DCxmJAu1ijgPS93xZM0/s256/Uni%C3%A3o%20Desportiva%20de%20Leiria256x.png",
+    "city_country": "Leiria, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/U.D._Leiria"
+  },
+  {
+    "club_name": "KF Laçi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/La%C3%A7i_Club_Logo.svg/246px-La%C3%A7i_Club_Logo.svg.png",
+    "city_country": "Laç, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_La%C3%A7i"
+  },
+  {
+    "club_name": "KF Teuta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Teuta_Durr%C3%ABs_Club_Logo.svg/275px-Teuta_Durr%C3%ABs_Club_Logo.svg.png",
+    "city_country": "Durrës, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Teuta"
+  },
+  {
+    "club_name": "Perugia",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkuX-lq1nnOivRl-bRe29bBIezlqOb2vae1ivUfDbXHqSja91tVfA_3BZm3YILabpni3WxXWkw010eYLyrQJ-F7hMcs2KY18W6oWW2t-Ql-4ZpFU7HLY9zP-h9FJdhYBYJBElr1oFe8Rs/s1600/AC+Perugia+Calcio256x.png",
+    "city_country": "Perugia, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.C._Perugia_Calcio"
+  },
+  {
+    "club_name": "Krylia Sovetov Samara",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2Ng1PJvZ4gNUy17T5bZrNSdDL2n7wmBh1zlxV6G3bHbqBfXQWnKZnRdlEhGh0q84KYv9iZVNBRK8YgQfdOjd_VA847cwSnLyCRABVOokfsq1yVYYOy2Jojx7XWErHo06usr_CNMoQzDE/s1600/FC+Krylia+Sovetov+Samara256x.png",
+    "city_country": "Samara, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Krylia_Sovetov_Samara"
+  },
+  {
+    "club_name": "Rubin Kazan",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDP-nUHH_sffFKeu1E6wgv_47bDMWXXxt7qBzuIyemnF4CLJjhO-jRz0Bc0Vfu0hskD8g9IqOFeSMk49YkajXuQl8sEnhq404-SXqrHSlvPpQYJbZ_wGlM5oqtiV4QoYXnaetMDCLD9fo/s256/FC+Rubin+Kazan256x.png",
+    "city_country": "Kazan, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Rubin_Kazan"
+  },
+  {
+    "club_name": "Shanghai Port",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZ2bwQOxdgFi_lO0mBhsQBQMGlG4NAtfxRic6d0_iSCKwsJSSTCIlepufWQo9fuHD6nQ8rdZTvmCdrndQOjCFCgZjLAVmHW35jfuB6Nth-FjNbLxrQCKmi3sIKuBVzRmGRara3F_x1tHo/s256/Shanghai+Port+FC256x.png",
+    "city_country": "Shanghai, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shanghai_Port_F.C."
+  },
+  {
+    "club_name": "Buriram United",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSjVCcFwoZuyW7Cx9Jzpim7SFYVcvRHjgNw3lTeSWNpKmoPHx59XXoE2EaQg-Nhf7QcPpMLaP-0jMPKs4xh2hX57MXKZJ2ajknzAXivtfFg9SU92wiWIV_mxHz1FEmzsi9IQ1L496L88o/s1600/Buriram+United+FC256x.png",
+    "city_country": "Buriram, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Buriram_United_F.C."
+  },
+  {
+    "club_name": "Persepolis",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZMQcQhv4N-pVLyBv7XzFgo4qlznzQvCKnOiMeTcQt5mjjlnClSROsPFdwoxoXrrG4CNM7Qa0IqjD10X6M_JLl4Ey0ELhesG49q9h4ezobnvwMZqqTGekkQn6KsWaOVLYPGzUvrWqEI_A/s1600/Persepolis+FC256x.png",
+    "city_country": "Tehran, Iran",
+    "wiki_url": "https://en.wikipedia.org/wiki/Persepolis_F.C."
+  },
+  {
+    "club_name": "Pakhtakor",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEj2h39V0zAI5pumUtU0DGofeThuWYDX6iJrI6nrvF0Kd9yrIsWcSyBzGPXdcqa3iYg_MwhPiagGmtgFYggAt6uIR-4_HdAyHJtVSVg7V28-bXsk4GYAcDFzZiLDT-k880o4KwDsOXK5lZAGDVoRxRLplPbZRIrpwzF1lx0RYoC1ZHMMefgHEQ7xW6Ug=s256",
+    "city_country": "Tashkent, Uzbekistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Pakhtakor_Tashkent"
+  },
+  {
+    "club_name": "FC Nasaf",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdaY4_gEn4W0tlhIgVjQSwy83nvAHcjt0JPUKgcfTmnqf_RpfJwqfdwzlKZA21tv3YoH_kjJ6ncbiOatInQKwN3UKXK_FQdP_m9oCzlvT2UK5jbZPZQ2YKO33JM1Dnoj-60MLwFi6rkimq8MAvbfCSV6CmF1ZDHL0dDKb1C2jZZoRMizr5sW_vbaz3toc/s256/FC%20Nasaf256x.png",
+    "city_country": "Qarshi, Uzbekistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Nasaf"
+  },
+  {
+    "club_name": "Tractor",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7uxIjxy38Jt128BJ5ZeoJiF-jny_k1VJjwGgAVViF1GexYuRqYTrQUY6LWNUoOhMqEHDRspWmouaZpZIO4ppFhnYHl4Uk6tmNlqczcrSlwdK1m0ipKTaEAIpxQCcMrP48iJWBs7DlDtXt5OzimHvlzY6U2fxOEHbxyJOS2GBCf6c5vgLFWnzpzZdSUbk/s256/Tractor%20Club256x.png",
+    "city_country": "Tabriz, Iran",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tractor_S.C."
+  },
+  {
+    "club_name": "Johor Darul Ta'zim",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWepaIsJkT7ZVAcj083ZLpqU9EqhwjdfyRoQ7-gp2Y-DYqWJYTWjUTW2YRu6gbr6PZLG8zJBxyuFK5tKqPRQCz3NLee0XAcXe-DrfLCAc5XaEUSiN02zPykdgO7Iz8hrVzm0qF5AXoiC8/s1600/Johor+Darul+Takzim+FC256x.png",
+    "city_country": "Johor Bahru, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Johor_Darul_Ta%27zim_F.C."
+  },
+  {
+    "club_name": "San Luis (Defunct)",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaBeVR2mZW3fRVl2JQv2PyGZZ9rfamWNEhw5GWjRjGtQVuB0cQlGTsjQYVsyQuQ2fsDKA9RS2wpzm6Wd6kFsSo3KXunYFKx1yMctI51FRSiiktJTH_zgowJkL4RmQateaa_OASJCzfrxE/s256/Atletico+de+San+Luis256x.png",
+    "city_country": "San Luis Potosí, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_San_Luis"
+  },
+  {
+    "club_name": "Yokohama FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhr44DCSlwv-N7O0z74KaXr9FHRlWoEAzq6g83U6ppMRFQZ76C3MWTn07cc2VzKgeTrOPkUqGhuojIFi0X0QOdZDrpWfxeW1wvsnEGGojb_TLpZ4d8EZiAnRxkOqUoLItHCSOIrfprceSo/s1600/Yokohama+FC256x.png",
+    "city_country": "Yokohama, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yokohama_F.C."
+  },
+  {
+    "club_name": "Montedio Yamagata",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgne0oCu1brljqSalMCGJOz9RJVQuUWCXEx5hbUJLI6jZB7L609tm4hphtB5uTVVmtGKKcE12qRR9MfGG8CFvflNHtUfvLfDkng3_c8uwv3qAQuCV0K66UQb5YoCZQalDxhbgW6Dfwd1c5O8MGWnzzBryUUGbXhjtzkGNlRhDdCEH2E4o1EGtyNWb_-=s256",
+    "city_country": "Tendō, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Montedio_Yamagata"
+  },
+  {
+    "club_name": "Yokohama F. Marinos",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC-XKen8KNgLMpHYUTwFvdGJ6X9qrt4Z0a9fpBKgn61LcwsCCBWoeBNpIbtfylLpUkqsgnkzGcpXkxGmuNE-yiRCztLY_PYqZQSptb634FdlN77OLN2AVP863J_6-mnzxKvnEFguRKumY/s1600/Yokohama+F+Marinos256x.png",
+    "city_country": "Yokohama, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yokohama_F._Marinos"
+  },
+  {
+    "club_name": "RB Omiya Ardija",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZY4JEOVlmxtAOeWXfhN9N-XPWIWbRmR39seap7fjJlc5xL-pULcZes4s8T79sjyowZ24tkGMCqfr0sRLSjG8jV18trcIpwEe4rail8znHN5Bn2-PQSvT85HPgJmhLSIsqKQon4158oq5HE2gFoM0521pMNMlCzmGvrVbkAH_CbAkWw5LdapALWBGcF3U/s256/Omiya%20Ardija256x.png",
+    "city_country": "Saitama, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Omiya_Ardija"
+  },
+  {
+    "club_name": "Tampa Bay Mutiny (Defunct)",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7PoHH4M7CoIGL7wEuzLnYoj8nO_O0BPBuNP5ZP__svuIhKfPDFTM4EtcNzbm1JmwBYpW0O50b9L1R_XcJN42-JYuphsOLu_t_H_lZ-zR09NSxV434sScqzBOlb4aZpGj1iwJjvxo4wMs_W8DKJ0nu2TZdUBS1YbsQnxaqrNqxe_AsJVtY4unTtJhhfms/s256/Tampa%20Bay%20Mutiny256x.png",
+    "city_country": "Tampa, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tampa_Bay_Mutiny"
+  },
+  {
+    "club_name": "Miami Fusion (Defunct)",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB-QDE-8PUm0Cp5lPDe2gHI6Z4ePWwp1Fqi3jfoSpvYiVwu29NC-5cVyyCYksa3lkwB6Rh1D4aRmMziPx6SOlHtte7Cle_WBvpPK5tjw8IQWPvCwQQcvNkaavbzNLlapZjH6GjGkbb5vfs9Bf7FnjZzYcfQB2dR0UqoFjZ_Vyc1N4gBPtVoDASjlgFrOQ/s256/Miami%20Fusion%20FC256x.png",
+    "city_country": "Miami, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Miami_Fusion"
+  },
+  {
+    "club_name": "Djugården",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuPWxeKJ-eMDkz3G3fBp8JKcpYOD6bnVuOkL24Od1EU96_3syAP4dV-euzygnwY-UHHpU72hCoOeDYkr9uEOISQNwcYoXaZm6WJNwx_Y7M-0wxXrdXdpSQd5kAPNEyzoponItmlnJT9ZM/s1600/Djurgardens+IF+Fotboll256x.png",
+    "city_country": "Stockholm, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Djurg%C3%A5rdens_IF_Fotboll"
+  },
+  {
+    "club_name": "Ilves",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Ilves_logo.svg/247px-Ilves_logo.svg.png",
+    "city_country": "Tampere, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ilves"
+  },
+  {
+    "club_name": "Rosenborg",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0pCjM1fCufLjzwmjoaaqZFd6fz9A9k_7BiXrw8_ERciT365CvbHMT0UGxy2Z8ma4YROwzzt8Ipq_hDRZoauSMHKCzLvlBl5vj7Ll07aW0FVoU3NmER-wDBoL8O4bgSOcCAz4nqeCpdAM/s1600/Rosenborg+Ballkub256x.png",
+    "city_country": "Trondheim, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rosenborg_BK"
+  },
+  {
+    "club_name": "Cork City",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYiaVzqX8Ey5cjfdPFfQcDqBF397_ZDsNfbRKOCInh03J1SNWRnZhs0HCBiH6FETWk-Ut2D3ofTxmkaJvc5PFqPGr2t_8aib8MbIebCaeXWcFeMS9xASEctsbcLJZLKhg4TdVdo0XhW_Q/s256/Cork+City+FC256x.png",
+    "city_country": "Cork, Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cork_City_F.C."
+  },
+  {
+    "club_name": "Heart of Midlothian",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOK3LX9y6_MyL5TZ5u03CQvvKxKFq8OEJBrZ_tAn9AdHh8ZVmPSCwMbQzCyKXYqU_kT7XkuA8ROjw_RsBvqnSNUlfdH_y3p1J5Ej4AZVoqF5Sbr79UXkI-XNyoKaIGXhLFzW4Ih4q1xhM/s1600/Heart+of+Midlothian+FC256x.png",
+    "city_country": "Edinburgh, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Heart_of_Midlothian_F.C."
+  },
+  {
+    "club_name": "Chapecoense",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhSHXqoCCYluzpXL3dPRZZpexaULyIp5hW-q7OEvvYgKSI_pDZziTkfwgOrS4fx2ZRdlOmLWIUrOotEA-QS1sUMFkj_DEzz4XoDTAgt7qqBtl8nIMM0XMQgw1sU43sLkXWsOqr9NpSa-s/s256/Associacao+Chapecoense+de+Futebol256x.png",
+    "city_country": "Chapecó, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Chapecoense_de_Futebol"
+  },
+  {
+    "club_name": "Joinville",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwF6HG3OJs2tPlAQ9J3EUch7tz0jr4LmyhY2soxAXxVjUklynlNEot1mZwijNdYqLcUz2yHOp2yO_ZP5viD78OuVbwBdE1fVh_2qe7o-Sm3C4tMwlKwtYr6MNnP7dKD5Wsp_myKcWOx3Y/s1600/Joinville+Esporte+Clube256x.png",
+    "city_country": "Joinville, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Joinville_Esporte_Clube"
+  },
+  {
+    "club_name": "Ponte Preta",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYx2cTvIFd7Vp3zgGeG7HqycwfTipYPhXQyAMrLn4yjwFwWIzhOc4mppRCotoVMkj8dsHep55F9sXbkygFyKYpO8hv-dCHnvcNuIxZ3rdBiGdwqnzYwhoidN2v-0UPpDr8T0BOJbuxS6w/s256/Associacao+Atletica+Ponte+Preta256x.png",
+    "city_country": "Campinas, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Atl%C3%A9tica_Ponte_Preta"
+  },
+  {
+    "club_name": "Paulista FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghavxeQv-254eIe3mJyWjfhmOEoyMJn33moflu0XmfkQRisPPyptj6sMnhPaekntqeVy-aXDZ0RcC4TCYdjV5h7cTSwZ4SACqmE_LghRU3ACPs6OzVNy8LO38pYQyl1nVeNMzQC-K6Pac/s256/Paulista+Futebol+Clube256x.png",
+    "city_country": "Jundiaí, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Paulista_Futebol_Clube"
+  },
+  {
+    "club_name": "Coritiba",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3PIl4Vst-_TRnfhi_lmhz7U1CFITfB-gF06HeAclLeU63Tn22suLL2A-EbZdWfYn1p5jgJZp8hzfMPLqDaWWHgoITgEE3xvem2woP8qK9xS_kFxAJV622jqJYWSMhX3C-RASi7QVRfcU/s1600/Coritiba+Foot+Ball+Club256x.png",
+    "city_country": "Curitiba, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Coritiba_Foot_Ball_Club"
+  },
+  {
+    "club_name": "Athletico Paranaense",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggDd-6d2IWMxzXuA4D4j2JIkn8YSo2xOwIXxTnaaoMJVtk-EK_05KoKlZ6OVZPv7tFpsbcDLDUmZOGnC3TZGja6jo-RYW5ePZT-ko-T33Y4xrZL0E4-vtzU7h4_mJNW8JIGQRewo0oyZ8/s256/CAP256x.png",
+    "city_country": "Curitiba, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Athletico_Paranaense"
+  },
+  {
+    "club_name": "Goias",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0DOFNQHwTIvyYdgV6thyphenhyphenPst4ufHFUP3s81SSiuI8qaA8NfepDoJcJbczm6sk_oEuEgE6SO5xAWXvD9INMtyV2h5pgNVoeoXHHdM1DVoQRmqlY9iehyphenhypheneRi-6O0ZtdFv05x951APdGL71E/s256/Goias+Esporte+Clube256x.png",
+    "city_country": "Goiânia, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Goias_Esporte_Clube"
+  },
+  {
+    "club_name": "Fortaleza",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFK6aaBHgSr4hI081d861ElTOmwzu5HazuHKBV9pWNLIwYmbg7456YeHFDHbBOGcCGztDDtGUATRsnjuSFRAc5nqW6jj9PCC5TkBxnJaOhKxkF3hbJOYEB_7QzKk0lsKY-_oVGzZtFceQ/s1600/Fortaleza+Esporte+Clube256x.png",
+    "city_country": "Fortaleza, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fortaleza_Esporte_Clube"
   }
 ]

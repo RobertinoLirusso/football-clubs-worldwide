@@ -5,30 +5,29 @@
 }
 
 .card {
-    cursor: pointer;
-    transition: transform 0.3s ease;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform;
+  overflow: hidden;
 }
 
 .card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
-
 
 .img {
-    width: 100%;
-    height: 170px;
-    object-fit: contain;
-    padding: 8px;
-    transition: filter 0.3s ease;
-    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2)); /* Sombra negra con opacidad */
-    transition: transform 0.3s ease-in-out;
-  }
-
-.card:hover .img {
-    filter: brightness(1.2);
-    transform: scale(1.1);
+  width: 100%;
+  height: 170px;
+  object-fit: contain;
+  padding: 8px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
 }
 
+.card:hover .img {
+  transform: scale(1.08); /* La imagen crece junto con la tarjeta */
+  filter: brightness(1.1);
+}
 
 
  
