@@ -2977,7 +2977,7 @@
   {
     "club_name": "Montedio Yamagata",
     "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgne0oCu1brljqSalMCGJOz9RJVQuUWCXEx5hbUJLI6jZB7L609tm4hphtB5uTVVmtGKKcE12qRR9MfGG8CFvflNHtUfvLfDkng3_c8uwv3qAQuCV0K66UQb5YoCZQalDxhbgW6Dfwd1c5O8MGWnzzBryUUGbXhjtzkGNlRhDdCEH2E4o1EGtyNWb_-=s256",
-    "city_country": "Tendō, Japan",
+    "city_country": "Tendo, Japan",
     "wiki_url": "https://en.wikipedia.org/wiki/Montedio_Yamagata"
   },
   {
@@ -3081,5 +3081,251 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFK6aaBHgSr4hI081d861ElTOmwzu5HazuHKBV9pWNLIwYmbg7456YeHFDHbBOGcCGztDDtGUATRsnjuSFRAc5nqW6jj9PCC5TkBxnJaOhKxkF3hbJOYEB_7QzKk0lsKY-_oVGzZtFceQ/s1600/Fortaleza+Esporte+Clube256x.png",
     "city_country": "Fortaleza, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Fortaleza_Esporte_Clube"
+  },
+  {
+    "club_name": "Arsenal de Sarandí",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUsZTFDChegWGA1pvjAUzgDQz23g0LoEl3jtJRM-JZd1XXHdIK-yHeidB1o6lw0hlzMuuBAfvTxSelhcLKp4dDJ6NKpZCxhn2AJuHWpV4cN2Py6J___R_eTz_vnFbrVX-uhQ-ugGSkt1c/s1600/Arsenal+Futbol+Club256x.png",
+    "city_country": "Sarandí, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Arsenal_de_Sarand%C3%AD"
+  },
+  {
+    "club_name": "Colón",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZTpqDxw69JtnvfYQzNi75lyrmR2N6Ep76R46XJsfzc8u5Y4p8CLfAlAwauMB_nqRWH1J2t8_H6VHlt44h1-JrmTCwhZBUYEnwGiBqgahDpvFb8-7YeCixd6FcaQvha9Yd_kbcn5IJRPA/s256/Club+Atletico+Colon256x.png",
+    "city_country": "Santa Fe, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Col%C3%B3n"
+  },
+  {
+    "club_name": "Chacarita Juniors",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLZWEPc4zp34ZXbUmBhGV8f7XWuy-MUXbMhS66urqMUa3TeYe5XEoEA84YndDSQALqfZEShb7j85cMDY_8QuZgnk7zqYjROILwRcOTPAu8TMxYLa3u9ibvNXp5fdvwktrcUs7CG-AZ5tTtpG39sq6Fa0Qho9eHeOtjLnFURfbV4TPQxUdaPVlgHlke8Zc/s256/CA%20Chacarita%20Juniors256x.png",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chacarita_Juniors"
+  },
+  {
+    "club_name": "Nueva Chicago",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgURZNl6LKL-OIvGQ_G0Z69bZhtcxhBgswIeXl8oGyCkfRSENdEGMye9o_uX_lIiWy5L_2hDnnQWKXUG7wJ5ezmScQ-_jm45aHxAEUogNAQ0y-1XO4LUujawpR7D_3xjEkJ13heLxotpVG11BIl5PzukonUmbIDAaB2lxQahteAouhl_7UM-pIqoliJu8Q/s256/CA%20Nueva%20Chicago256x.png",
+    "city_country": "Mataderos, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Nueva_Chicago"
+  },
+  {
+    "club_name": "Agropecuario",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSEk-WpxYB1cfwkFTgZkgAjkNJ1vhNWB9ax4PTJDcILSNLXZOC9tmAkYcrL9hQohlBWuObwTToW2YoPV2zF1j5FApph6OMVWb_saAyrwYG076PssBuBtBtA6QW8mfw3opvu6wr2rlaBnWR8bZOTI1S642YH9o5tPWtopnxvZUz8GUxDUUuHwhIfaGhzNo/s256/Club%20Agropecuario%20Argentino256x.png",
+    "city_country": "Carlos Casares, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Agropecuario_Argentino"
+  },
+  {
+    "club_name": "Ferro Carril Oeste",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOTiUHoHL8NM4KECDUKnlulI47TWpZPCmAauAAN4M_tGx9DMz0drGoVuORfVwthMXOWLr6rrMS3I2emJ1NZ5SBzVrPK2BfLs6EjVQEYK8WkS5CdodDhDflmY5eO54UJXBZVU6gznZ9e-E/s1600/Club+Ferro+Carril+Oeste256x.png",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Ferro_Carril_Oeste"
+  },
+  {
+    "club_name": "Independiente Rivadavia",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTP0pS27wqccGz5otNvK8VnJ69apCMU-0aXcJsiytXDak1Iks7O6-RJLT7OMd70wMt4j78_fLt6hYqZNF7O-q4KiakrqnfxJ1HoE2n0ztMpJeRdKJC6mdCQp05X0kaVaIH1PUhoXQkkqegX03BXAagupfFUXGfdiBVTxVqhAgNAfDAdvr46iQTUPzS0Pg/s256/Independiente%20Rivadavia256x.png",
+    "city_country": "Mendoza, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Independiente_Rivadavia"
+  },
+  {
+    "club_name": "Deportivo Morón",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-y1UdOUm6e4WoKs-qAUPLK_86hDuV6ijhHlgarZyXueVrBDxlncTJ_HF1CAv7XYhTaMGNmaoltwJi1dLM9sVynCiuqqA4-MgIcVcJiPTEKuiGx7xwQ14q4eR_w4i6ZGRb-XCnledizv0/s1600/Club+Deportivo+Moron256x.png",
+    "city_country": "Morón, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Mor%C3%B3n"
+  },
+  {
+    "club_name": "Argentinos Juniors",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhenApBzFHf-mK5cRv1uhyPWB89ieboJKLH75CYfbnmXkGS1gnIR0ikDXJh9XgeyOTP_aALrMADCci-73LGPrM_T6RR4Vh3dj9BsVYnDcj_z03WY4Q0DXRbteh6xS6w5iAZOMhAobsBIFM/s1600/Argentinos+Juniors256x.png",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Argentinos_Juniors"
+  },
+  {
+    "club_name": "Gimnasia y Esgrima (LP)",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT_dyF7Ey3xOCzmwuEDNrBHRmOl95aBypQJz2lz03V37C6XPOLMooWFkiwvtt9ZHbJWH3wbjMqK7NGyrEvlQc-C62ATqy4q_OwqCQFl9q6L7ebbz7lV_Xt-XlGZyXPIfVthMOSrcl7TfA/s1600/Club+de+Gimnasia+y+Esgrima+La+Plata256x.png",
+    "city_country": "La Plata, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gimnasia_y_Esgrima_La_Plata"
+  },
+  {
+    "club_name": "Lanús",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdT3qtTE8Fy-7c_lTDZOmHUJIO2Imjw8zDRGrDb86cctAP8lW1qwJ14WDUGNsRKOu1pJXMeBNUo98YuRGv-ivO6sQpxCBy6XPy2wBpvzmc6t9qhA9ex4j_zGB_9hMUEiIjLkoMChbNPnglGnAFYRq2ij00VB4J_qvmcJxAnc19G3jw-vCsWdo1B_5YJRE/s256/CA%20Lanus256x.png",
+    "city_country": "Lanús, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Lan%C3%BAs"
+  },
+  {
+    "club_name": "Newell's Old Boys",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAW-wmKhkrHhoFBgfqVgoagZZkdB_m9jK-zrWsEcap3iVdbnpmCC5ylCzFTZEW50TMN4mrp6qdC_DWNMAKP6P2Gp_gYdtmcGj89KOgkl-HeGaC188vXqcs9FxZPqeGuGB_-oVF2huVnxw/s1600/Club+Atletico+Newells+Old+Boys256x.png",
+    "city_country": "Rosario, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Newell%27s_Old_Boys"
+  },
+  {
+    "club_name": "Gimnasia y Esgrima (J)",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSUt8b4ELOkqYLhzYVTVXq92R0A9tLUGUWHB61Pt2TFGDMGgc2QHLY8SjSQY-6otaFjR1eQGsbi_SJ5g2ME541mTGxzfi77O_t3sG4LnWVUtXT6iCwkJIu_b16dtWhduP3QpyhL2BdLmY/s256/Club+Atletico+Gimnasia+y+Esgrima+de+Jujuy256x.png",
+    "city_country": "San Salvador de Jujuy, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Gimnasia_y_Esgrima_(Jujuy)"
+  },
+  {
+    "club_name": "Gimnasia y Esgrima (M)",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3iJg2e9ZXLx_0XyWiM6czKRgebzgzoPQeR_rdyRCV10U84CZ92ggh_PTdhshhd2MUuTRdYcgM6htEf2D6ux8sPCgKERVuZFBThl3q5DIhSXWjbquFBZrZwgNQkiKJt6Dtk45vkR38lRM/s1600/Club+Atletico+Gimnasia+y+Esgrima+Mendoza256x.png",
+    "city_country": "Mendoza, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gimnasia_y_Esgrima_de_Mendoza"
+  },
+  {
+    "club_name": "Gimnasia y Esgrima (CdU)",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-YQZGOmIh_Gi8mmvRlnA3SkN0ZHoKvVHPW3gsT5EBAGuHLkToPApOO4yhyOPuegm-evaWZW25TMlczNx59I8VsD-7m3NuCqIhkWAkpl2_L_nQvgNFqm-66_lbcOG94J9GM8XxUxThcXI/s1600/Club+Gimnasia+y+Esgrima256x.png",
+    "city_country": "Concepción del Uruguay, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gimnasia_y_Esgrima_de_Concepci%C3%B3n_del_Uruguay"
+  },
+  {
+    "club_name": "Dorados de Sinaloa",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2Zzssq8Mff4kvhF__L7Y-UDbP9qDRCy0O1uuL9TvOje1AcmMrO2Rj20UpiXE1AwCgcBoom4LVNUWZQ2MAY8YoQRMQrZj6ehy_SxHWO1Uijb11ptNBJja51Xmwo6HqRl-6JtwKET9Vfb0/s1600/Dorados+de+Sinaloa256x.png",
+    "city_country": "Culiacán, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dorados_de_Sinaloa"
+  },
+  {
+    "club_name": "Patronato",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha11_9g19c6XWK8EF0TCzCqZS5Q0Ngukc3YIev72RMgF63yFDBDpxrRAXYt3Ji5vj70_MHGnIghpivFFzEf9X0Wf6sDywfWJ9U-AJaaZ5Vqy8dq8scor-DSvlHJzlabGPU1N9eqLNp6Cp_DSXY-_6u9tJCpdulsxxxXUwJKTa6wW_x0OqFKOmtbK4i/s256/Club%20Atletico%20Patronato256x.png",
+    "city_country": "Paraná, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Patronato"
+  },
+  {
+    "club_name": "San Martín (SJ)",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyR1H3VxBpCqlTbmbAOXjNHI7D7mZRwHJZ57o6f7DczRb5abExcl-6utlk888jApvUcb6pax7Ea7dMjQJ4PdhyphenhyphenSt_RphwFLMGY3q5ur9kn1lRVb6CWZUuTbgS2G9MvdW-FPCKZL-ojqlo1H6-MjF5s3hV1v4n4g9_ZcLBC2DeAwuSUASicaoWBykVZbbM/s256/Club%20Atl%C3%A9tico%20San%20Mart%C3%ADn256x.png",
+    "city_country": "San Juan, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_San_Mart%C3%ADn_(San_Juan)"
+  },
+  {
+    "club_name": "Temperley",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6cJrYN5GeGAUWOKxvCzF9hpggJcUPat8UvYkpscUBPRppm91rxaaQLYCZNjCMcV2x85uqGHvbsmnLAco7f19Z8aeZun29Wc4OynYt_Qhq_fBn4ykRbZz7mfsGAu8zCtrPVxcl9ChM3Xg/s1600/Club+Atletico+Temperley256x.png",
+    "city_country": "Temperley, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Temperley"
+  },
+  {
+    "club_name": "Tigre",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEibnZkIo6PH1uO3pLMdeqJSRakj-Svey2zi6goThTLqv4j6uUuxabKPGMZ2ZUnT2N31w_yNsH8AV9m0Zmo80rsG1XIz8OXh4Br-n-4elW6bPgnGHqaGWiMRebHmh99YJz3kI_xdBJznjz8m_fYqUh7oU8veVYc0x-jO_bKY1w1f243RnV4RLNnFApJp=s256",
+    "city_country": "Victoria, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Tigre"
+  },
+  {
+    "club_name": "Unión",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgbWlOBpEa43agZLbHVnKF-05jruV4ustL8LOdd0gUUSUmn6KDM_PirvaJoud6yU4zMluVuTRyyc2RqQ5kMmWes27U0lAWmn9yX83XN17nFaYQMcV7qPXckQellGRMK4UbAXU4S-YGdGaQ3MiAvpDSiFCryJeKGpNXGEO-yyMaOTAcmY1z4wIphFdCK=s256",
+    "city_country": "Santa Fe, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Uni%C3%B3n"
+  },
+  {
+    "club_name": "Velez Sarsfield",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxleoAZPwANsai-u-Rnvla1rRpdoEAtW6RoTvafc_kagXmObtqfsJOd6LyHBttbvqn6Ga8xYVA8B_QcYG9Q5PDq-5qhDBUVBjI87iIQlrm6LLRNgYmKIffkFcwQEseWYy47kkQTIjmFKJfW5E-wGiHdQUAq1cZF9aEW_knltGfmFEdXAKdP-FdTiia/s256/Velez%20Sarsfield256x.png",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield"
+  },
+  {
+    "club_name": "Riestra",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqj6RsY4X3i9f3WariRxQG80KRD68FkQFhcMj42HlRNwpYgJ6iC5cYEjAXJEWc_wCrLBcK1GcurW6dLFrHlNqC3vdONyu5b6FfAGqaJpbuwL7tCIWY6dXw4ZwnM0RGyg4Vk0vbfDb-9rskU-VzHCoaEnOeex6tVQ5e2GLgdvIBATaKevGm4tNundlXKIo/s256/Club%20Deportivo%20Riestra256x.png",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Deportivo_Riestra"
+  },
+  {
+    "club_name": "Barracas Central",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsI95Y462L2Ypkh6hw5cJ7881nQAiZI194MMDVAQcVcRu1QrtlTvfDbndDdiuwKGWRsQA51ecxBeFJY0H8u3uolg7Dr1BVTo5ybxnJRAXtjuJwz6YCYcqrY4STFJsm6TfzIpwvZG1MOS9zvpAtzBcoXtKadrbmej85gtv9vMIDOQlQMWP8Rj5aIYSq/s256/CA%20Barracas%20Central256x.png",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Barracas_Central"
+  },
+  {
+    "club_name": "Sportivo Barracas",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnDtmF3DZwB3PghNBU3S_6JNaGuSp1Pd3U9xjqReZ5WhE7iTxiZWtTDBjQA1k9Up0HxWS1ELdVvjnRx4-FOas2N9xcXbsBW41Ky_5sS0DAuXvWWV8pb-TGtZHHgA13byp7pQI331UxJ06dV9AOhF6S4ZCO44Zduqirgc_byK_7_uzZ04l0nmo0prrLzCQ/s256/Club%20Sportivo%20Barracas256x.png",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Sportivo_Barracas"
+  },
+  {
+    "club_name": "Aldosivi",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP__6mWuM7NXFOb6tFWu3aekiDeK9n1okSaRFFFeaHbvN0sQIRsqFvgwcXSxI1ZSIzO8zEpG__oXL1idac-2UdzJSw76dNHw0vssIYGKv_rrZCqSdjJELhoPLigiySgJ3D3FOvHXO9VOgxkAwh9kdACYmtj2d1eG1iPdjB3hGDtv-x17ceJ9g5zk57/s256/Club%20Atletico%20Aldosivi256x.png",
+    "city_country": "Mar del Plata, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Aldosivi"
+  },
+  {
+    "club_name": "Atlético Ottawa",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEjMT4QoFNfDMP3tkZpzOjpV5JlvdicTiypgJKIJOzj-JVQKtejy4TAE5iO-Y8TItlX_84SBE1WYQgwTCkxemUOfQ3hVa1VIvKhMEYxLA5O3R84s6J2SoLjQ9CjoGQZfwTotKLI3F1RuWL6jyW0xsTF3_oygpTRRkuUEB0gk8QKcwg4b2wAUVsld5H7H=s256",
+    "city_country": "Ottawa, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Ottawa"
+  },
+  {
+    "club_name": "Vancouver FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_OuU6H_YGbQ2wzamHMfWWs6HuIyOoK5GhT2DYW0saRY1CxNK9gArjoiESzbr7PCgWEULG6T0fmx3cqKnnkfLZeSbn4_LNRKe2UYXKZ2UZX6PjlhVXfIxIWaIMQq6_o4gkcICsw_jd8pJebMLXlYQV0yUXICRNHgpTRxGStIK_Z5P-5FQSsRaUNBX9/s256/Vancouver%20FC256x.png",
+    "city_country": "Vancouver, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vancouver_FC"
+  },
+  {
+    "club_name": "Valour FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgakPfPZ3FvVzzKdvdPyogrZLueTkOlCnxjK7AhtAws0qDkn6U4i2QVkfYh_0dK8CFr7zsqSTXchJwSxv2IW6qfdXjVF-bTbaoiQP0sCmOZlK7HQio32WsPtdOxB0QpdwUj651-J6JiIiMm9RHtHOHmCqu33f2mEzHOm_vItvtoABU56ZVg0fra-Z05=s256",
+    "city_country": "Winnipeg, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Valour_FC"
+  },
+  {
+    "club_name": "York United FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEi5glgLhhFYcI5EKbhhZAjF9HxLSP64eGqXM0CHUNALphq5j8L7zJVHuYIORrJh2MM-IWSWMUbX4G6FaYWdO8JyTpswqHrC3r2nDUJf-rx0mNsf_FseLXfUh3yjqEd-J8knVqguNbFyzuq6UFDYgo5Bt1AuboKHJ4g7UKAFn63WxhoJLiH4kEOD3DZk=s256",
+    "city_country": "Toronto, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/York_United_FC"
+  },
+  {
+    "club_name": "Pacific FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEjOdoV9y58PqvgrorYiSe49bl6MLPTnpVx1mthFO0AF6V8N4IppIWP25cf4y2hNBfmUYzrmYv13zBStNaj4s4k980JdoTeOQ4LFGi6x7FnjQa52pShpPLdl9090ZEFlC7lZHx-8_R7ITLNaQKIuk9u9S9gvk3Ar1HIW_hMDr8kapw5cMWDCMGHjkaJD=s256",
+    "city_country": "Victoria, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pacific_FC"
+  },
+  {
+    "club_name": "Cavalry FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEhnT_XrbDgU1P2xUnU5jCqODiWmGbn5YQ0lZv4w3bv3NyxH83Me0d1TM0BZR1II-mhFunmFfVvKwLNbIUhPtaFiQjO4hPX3wSaQCtK38rwjMuZVWgqeV005bM5yYksEyt4g5h-AAgJCPJXQUXX53BQbnep-2cszHfgrcBE2JWOXplMg8giDZbhhrW9N=s256",
+    "city_country": "Calgary, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cavalry_FC"
+  },
+  {
+    "club_name": "Forge FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgre91RRqpsYoF9ezgH4FAjl9myvoFRUEqT8zgTeO8CUY0UZYXCSMPO1GPMS9LtIFIveasvXs8NSsqn6qw_pj4QG31dIwsq5nq2f7i79oYujUcjKvvhjA2YQr9wu9U6eRDunS_ZYuyOR-i2q9uGF2ceHCL8tBL6VyowiuO-0nOrutfR8VOG5YV0V7ha=s256",
+    "city_country": "Hamilton, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Forge_FC"
+  },
+  {
+    "club_name": "HFX Wanderers FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEg4wWwaq1OiN2P-HXMruYDBskbXvpl4pMOqLd6ud_Nn8EkTu5_Enm8xZs_fZa3zFOJ5Sahwj21t4UKUNYaVHyD0WrpAHd54-L7lPmfoQD0Tjde4YuwTHJnLlAp3TsLt-X33C14Y9M62QY4cECm6yZcEp0rm9vMs5OO8OnBKAaY7-lOGhBra8olTHDTm=s256",
+    "city_country": "Halifax, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/HFX_Wanderers_FC"
+  },
+  {
+    "club_name": "Chivas USA (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Chivas_USA_logo.svg/228px-Chivas_USA_logo.svg.png",
+    "city_country": "Los Angeles, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chivas_USA"
+  },
+  {
+    "club_name": "Bartolomé Mitre",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5uchiensnmazqcXMVZ66eYTPmNcSaQoP_40KSp3nj6mVOEA78gRkEgDCzx9iws6aL9enO6R10R9JN8qb0dNMVXF2qumyeyb3vCeT3VobnVjQTSx99x0nUbGo2zgYSuQ5802g_WIZVkT-y2Y35tMRSa_FgR9SAEWANw8h-vYmmPNtiTATaG5u5OvnskIU/s256/CA%20Bartolom%C3%A9%20Mitre256x.png",
+    "city_country": "Posadas, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Bartolom%C3%A9_Mitre_(Posadas)"
+  },
+  {
+    "club_name": "Santamarina",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy0MYL0WHc068KXHh5JafdT9Cc9oiyVTYp8YNG20lNaJDE4aiBbpuAseibD9XtC0eVg_owpjEjL6Nr6hsNPT8VYJPLx4xzSH8v1onJd2sCtUrt7LANkksXY0Glihx8ZmpBDuRU8fvl31k/s1600/Ramon+Santamarina256x.png",
+    "city_country": "Tandil, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_y_Biblioteca_Ram%C3%B3n_Santamarina"
+  },
+  {
+    "club_name": "Oakland Roots SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGcnb6cXzRHyLfPuGJJZHsphP48AdG01wDIbWPcI3SdLXoVJ4h5d8rf9dYgMHdeTtmABFGRwLayH3FE2pL-pd5-oSlhYgbXtOLgtDI1XYvuYZ4BImJwxvvQUombQGukW0lCRC5_LHBkzE/s256/Oakland+Roots+SC256x.png",
+    "city_country": "Oakland, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Oakland_Roots_SC"
+  },
+  {
+    "club_name": "New York Cosmos",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/New_York_Cosmos_2010.svg/316px-New_York_Cosmos_2010.svg.png",
+    "city_country": "New York, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/New_York_Cosmos_(2010)"
+  },
+  {
+    "club_name": "New York Cosmos (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/93/New_York_Cosmos_77.png",
+    "city_country": "New York, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/New_York_Cosmos_(1970%E2%80%931985)"
+  },
+  {
+    "club_name": "Steaua București",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2gTcxiym94vrvMKI4bXUxypZja5ilRLvsFahqEwCfz-6nuitrK2hzRv9vcfMqZmeyrjSvymG6iK6YdK0r7R9R0dva4Ut-uo-pFat_NAgbtsAlAmUj69Ais-LDAyjwFj81mqu8UxUmBHus/s1600/Steaua+Bucuresti256x.png",
+    "city_country": "Bucharest, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Steaua_Bucure%C8%99ti"
   }
 ]
