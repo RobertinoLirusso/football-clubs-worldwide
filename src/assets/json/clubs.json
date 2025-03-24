@@ -3327,5 +3327,275 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2gTcxiym94vrvMKI4bXUxypZja5ilRLvsFahqEwCfz-6nuitrK2hzRv9vcfMqZmeyrjSvymG6iK6YdK0r7R9R0dva4Ut-uo-pFat_NAgbtsAlAmUj69Ais-LDAyjwFj81mqu8UxUmBHus/s1600/Steaua+Bucuresti256x.png",
     "city_country": "Bucharest, Romania",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Steaua_Bucure%C8%99ti"
+  },
+  {
+    "club_name": "Montevideo City Torque",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJh102wd9RBvaYhYL78YJ6y-dm3iholxqFkuRQb4tfk7jDrypKZsk4ljR7gIYELoq_RO1vEFR7j9bFeztAdRHcC3cm6Tl5A4nwPA-k0yZQT81rtJMMwiPGQeUEi_xJmvVxrZqCOBQf918/s256/Montevideo+City+Torque256x.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Montevideo_City_Torque"
+  },
+  {
+    "club_name": "US Triestina",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/US_Triestina_Calcio_1918_crest.svg/272px-US_Triestina_Calcio_1918_crest.svg.png",
+    "city_country": "Trieste, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/U.S._Triestina_Calcio"
+  },
+  {
+    "club_name": "Ternana",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVV0yXSzoBv1i5yJYyx2PXD5GAEV66CynaO7w9GtJge08Zu2d9nFnhEWk9IKD2wR8Os034tRd6VWj6LtQLoS9Q0_qNzilxMu83gJZNqPXtdvm0gIPcs8tyI-nXIyVabVzftcNapa7nEqA/s256/Ternana+Calcio256x.png",
+    "city_country": "Terni, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ternana_Calcio"
+  },
+  {
+    "club_name": "SPAL",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvdk1e3X17eiO9izAl4fJw2A8I-U1ie9ZKKhdEdjm4bJnsciBeEDiHuWp9pEL6TY3CYCgCZQJ-T1nueoUYKfrpaLs9fsYyl3IUWv1xCkoIl9-aKq2BByptHjf2IKcifCV-4eDPFVNVFj0/s1600/SPAL+2013256x.png",
+    "city_country": "Ferrara, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.P.A.L."
+  },
+  {
+    "club_name": "Casertana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a6/Casertana_F.C._logo.png",
+    "city_country": "Caserta, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Casertana_F.C."
+  },
+  {
+    "club_name": "Foggia",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUZZG937fqupObUUBn0A9WWzculgrziRf8eVD6LtdvrRq7CCpZddBdmIifXu2Kl7w2lNZerc6jQOxDqa-klHcq3I03uL3KjvkQ-o9SqKQMoLXhbL4Dnj74BGtg1TQnc2G_nFuP8WMcpC8/s1600/Foggia+Calcio256x.png",
+    "city_country": "Foggia, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Foggia_Calcio"
+  },
+  {
+    "club_name": "ACR Messina",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Logo_of_ACR_Messina.svg/176px-Logo_of_ACR_Messina.svg.png",
+    "city_country": "Messina, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.C.R._Messina"
+  },
+  {
+    "club_name": "Salernitana",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS6KThdHc1_oxIb7S2aEiYU0cfI2-TLq6mR0ktB9FfXOGaK1dk4vE0KXfJq4Cm3yjCoy7sRo6LO1apDo0PnjAoIpE4K8TjYr2OLOnqoy7OnaYVXHmPshPcqzQHkqh3P7T-69lA3mYFiQs/s1600/US+Salernitana+1919256x.png",
+    "city_country": "Salerno, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/U.S._Salernitana_1919"
+  },
+  {
+    "club_name": "Sassuolo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/302px-US_Sassuolo_Calcio_logo.svg.png",
+    "city_country": "Sassuolo, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/U.S._Sassuolo_Calcio"
+  },
+  {
+    "club_name": "Frosinone Calcio",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1W2lgnm-RIYOrNitY1eAV69PxwLZB_EnnYd3Zub-qnqc7CS0Q5I3ImqAH1koTe1s6kNmSCTvEk1qJgG7iOeX-hleINGVJ1fqCIn_09bF9H6GzgxJrMXiwY0vdpv1sHWjq3S0ey2ZzYFQ/s1600/Frosinone+Calcio256x.png",
+    "city_country": "Frosinone, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Frosinone_Calcio"
+  },
+  {
+    "club_name": "Brescia",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjukczLKkhLU4alfYvpg8uH0tCVX4kXHaZU_OacXDE8ONIfgBX_T05FQmo0Nd2XXNklXZ7CRxWtZWwbRggwE1H6_6e9L9J26bqjASggSYNw4vtWzbof4_IUQcQdvE51ONipXdikHMneeLI/s1600/Brescia+Calcio256x.png",
+    "city_country": "Brescia, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brescia_Calcio"
+  },
+  {
+    "club_name": "FC Südtirol",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiITiJkJc1yoe1TWrpJjjeaLBh6TGNAwpu4ZbcyNXLldPc-N-aHKRlxXEJHcrP6j_fVM29yQt2QGFTbapWxdsBrqKxCYZbObEkuFYOWt1ZwxypzMr10X2Iw3Ti3IIQsKIRwiViLa8S6_RUihYnjwqe-U8jUNBu0SXeluGKE0ZlGpsAipwOPH8h_EveZ/s256/FC%20Sudtirol256x.png",
+    "city_country": "Bolzano, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._S%C3%BCdtirol"
+  },
+  {
+    "club_name": "Reggiana",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh459YSA-0gNtRUbik5Yosdgz6dQy2z6PQbqv1i7kocIRGx72phNmZSTznApZPE-Arrc-JHvvaLLEvns81-2jeeNUJVFvC8-L-ga1fR2gb1btJDjfLSJV9m8jDGCIXolMCoiXjAf-tS0SA/s256/Reggiana256x.png",
+    "city_country": "Reggio Emilia, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.C._Reggiana_1919"
+  },
+  {
+    "club_name": "Palermo",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3kHILdofdULuE2oPS_y-zDZL_4L9XqTSq5Ea-Sw-q37XImBMQ0Q5e-DRa7Di1TrQ5FDVpDVBNiQX4ukso-KDBcy9JHJmQG28D-Z6wxZCZwHCeNtgXzazBrKtx-_Y7ko1LMhqsoqcMxR4/s1600/Pal256x.png",
+    "city_country": "Palermo, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/U.S._Citt%C3%A0_di_Palermo"
+  },
+  {
+    "club_name": "Cosenza Calcio",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjdxhspjI73vCnOzE_3H6zfdsMgEPKW88LkKN0HsFe7IGnxBOW8Z539yTVytNuBZH3Hbg9YQjzojGU7p7IltXQrWsqiejHhqD9524yaB3t3TYOKII_tcXk1q-rYTqSPBzrZn9YHxYeg4hlRq5vdNidauulSg0FI-7IAc0ruWH1MZLTbFjgf6IvT39EeRM/s256/Cosenza%20Calcio256x.png",
+    "city_country": "Cosenza, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cosenza_Calcio"
+  },
+  {
+    "club_name": "Sampdoria",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPAKSznvgxjFl730gou37WJNrMgyz3n1rA7N5nYh4OlRw3DpH_ecWKtXqGMnVyr4eywUN5CwmVa89FJ4iQYN4hsy9IQ2nuzQBhIR6u_QPHwTKADOImA_gRdelxKn4dcoDXbQdXesFx0s4/s1600/Sampdoria256x.png",
+    "city_country": "Genoa, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/U.C._Sampdoria"
+  },
+  {
+    "club_name": "Spezia",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiecd_nTCLhnTiYlGfKYwW_zHJUHq1cLQr89_5GOH9Q-Nl2lnShGU-osS1Wf6wBEN3lpBsgMiEj15fMHC3mVT4TxEiyB0SGQf7yeYufICh-cia_SbRO8o9bxT4wxeZkPEZ0G5tcIQFsUP8uWg6oat9bAPENhuVNgHOHahIPQzgHXXZuCooscxXlNXmsdoQ/s256/Spezia%20Calcio256x.png",
+    "city_country": "La Spezia, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Spezia_Calcio"
+  },
+  {
+    "club_name": "Lommel SK",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiBb-Ftfu_W_KNGt5YTj2JMj3gQoEeBUmSZf7JwZak9C2TAAE-4XpvIPywNpXqDQrT2qpmGOlksxuyonGjmLqwn3NS1wXotMv_34HmO2o8lxKByAFn0uVgJIOKKCMtNixOKXPIKB6zpUNtHODNktj461LFBatMT70AdzKzMP_u8Y0PUy7bA5grSlO2/s256/Lommel%20SK256x.png",
+    "city_country": "Lommel, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lommel_S.K."
+  },
+  {
+    "club_name": "Jamshedpur",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Jamshedpur_FC_logo.svg/240px-Jamshedpur_FC_logo.svg.png",
+    "city_country": "Jamshedpur, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jamshedpur_FC"
+  },
+  {
+    "club_name": "FC Goa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/FC_Goa_logo.svg/221px-FC_Goa_logo.svg.png",
+    "city_country": "Goa, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Goa"
+  },
+  {
+    "club_name": "Kerala Blasters",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Kerala_Blasters_FC_logo.svg/183px-Kerala_Blasters_FC_logo.svg.png",
+    "city_country": "Kochi, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kerala_Blasters_FC"
+  },
+  {
+    "club_name": "Đông Á Thanh Hóa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/DATHFC_logo.svg/239px-DATHFC_logo.svg.png",
+    "city_country": "Thanh Hóa, Vietnam",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C4%90%E1%BB%93ng_%C3%81_Thanh_H%C3%B3a_F.C."
+  },
+  {
+    "club_name": "Quảng Nam",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Quang_Nam_FC_logo.svg/273px-Quang_Nam_FC_logo.svg.png",
+    "city_country": "Tam Kỳ, Vietnam",
+    "wiki_url": "https://en.wikipedia.org/wiki/Qu%E1%BA%A3ng_Nam_FC"
+  },
+  {
+    "club_name": "Hanoi FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/HN_FC_Logo.svg/240px-HN_FC_Logo.svg.png",
+    "city_country": "Hanoi, Vietnam",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hanoi_FC"
+  },
+  {
+    "club_name": "Al-Khor SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYsroDZXMITNpJw9eBW8o3RTQHuTzj04IFuBSFReZUqQdE7NoOqaG3hENwxQBEPZ4xKPb90CQXLXACR_ka5_ZNzG8CGZPI6MhDH97-zRxO8hxya8LM1mW-HOLpAhnvIxXFUiO3OTj6w1ZbEIk3vTzZnHLdORco_1DEunnoi-ASsbL1hR4hgvoyDPoc/s256/Al-Khor%20SC256x.png",
+    "city_country": "Al Khor, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Khor_SC"
+  },
+  {
+    "club_name": "Umm Salal SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEivenB9kZlE2YZPGe4tLbnpWXJHFma5UlYaESA4QDUjdc-tpzHyKdh0izble2NNAjE8D9Be6nRuYaFDEQrhfN-5KgBiqMBOEDOVOq1-kFLVJmR8pnlsBoUpNLxo0n2CGt_1gCn02WTjOBiUEnGjbCHO35svyp8S4z6wqVOak64EPTMfQL2Ma_V_bQRU=s256",
+    "city_country": "Umm Salal, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Umm_Salal_SC"
+  },
+  {
+    "club_name": "Al Sadd SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyqmY9Un_i610Y5yn7cGk0FZ5dJbqlMwIpLNQPUNPLRfLrcZIhdPvs_rPBzdEbQGh3amjyka23HhLod3rVjrvg4uYwxwPYgiif6NiW4oZAaie2m2Cwtn-GCgfYvnyhyphenhyphenJCt0LurLBwgzN8/s256/Al+Sadd+SC256x.png",
+    "city_country": "Al Sadd, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Sadd_SC"
+  },
+  {
+    "club_name": "Qatar SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtTzCZHOpP3V-PI9hU1dkqA3UEg9hJqZZS2iEVfotF_t7DP9QzmHwcayEW65Y2BvlgxkfiujAdhlAzxfsz2QVprMqast6F_4h0QUFg8Gf-skFbgIjtWkJXJOyRR5-ON4mdkl3LceYaool1Ci4bkuGs_pBQYFc5bcPsn_dnFPr5TY6ELVl3ox8KSdLq/s256/Qatar%20SC256x.png",
+    "city_country": "Doha, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Qatar_SC"
+  },
+  {
+    "club_name": "Al-Duhail SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXhuANrnbVBcmh694_kd4SXAAT7cVUzUtxgxdvil1tPtKFcv4wUVyN7xqA8FyPeiBcVYEKwfoFeSUD9Vep5DRjWTslRVdGqBymVAOfAyK5vn1VXP_hsfAxA2OymvWpP8oX1UEOJ8nO7gNexPNv6egRKrwEsWvnZ-FcdGbqFfyYVlpnPhhjfxEN7r_e/s256/Al-Arabi%20SC256x.png",
+    "city_country": "Doha, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Duhail_SC"
+  },
+  {
+    "club_name": "Al-Rayyan SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhORz-dDR8FSviNdHfUG3kP-vrjjZAPwcv1OXmiDE-Fc-ERPTJlFxPEnh1DwAIQwYa1Uk-dqklRZUOh5ksgy0wAEEhWX5ZlRMvqtiNhz2xby8g9PQgNR1hH_Ik8yI_JipSe-fVmXpe2j6A/s256/Al-Rayyan+SC256x.png",
+    "city_country": "Al-Rayyan, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Rayyan_SC"
+  },
+  {
+    "club_name": "Al-Arabi",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXhuANrnbVBcmh694_kd4SXAAT7cVUzUtxgxdvil1tPtKFcv4wUVyN7xqA8FyPeiBcVYEKwfoFeSUD9Vep5DRjWTslRVdGqBymVAOfAyK5vn1VXP_hsfAxA2OymvWpP8oX1UEOJ8nO7gNexPNv6egRKrwEsWvnZ-FcdGbqFfyYVlpnPhhjfxEN7r_e/s256/Al-Arabi%20SC256x.png",
+    "city_country": "Doha, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Arabi_SC_(Qatar)"
+  },
+  {
+    "club_name": "Al-Gharafa",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEioIwfErOGVIW07KgX-LXmSHBlxPjsUWtDwouv7bC0eRt7_O9PZLpNZEcZiupfIO9Tyh9kGMPQQ_LdRD9CQSrfEQIXI_JwumSWErMRCxRM-fUjgvlnZUikPJ_jON13rL5hjCLi6-8VZqdPCWThjnGpYIaYtSLFe4SDXgqnyPFAqb5klRp0OyYZrBlmA=s256",
+    "city_country": "Al-Rayyan, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Gharafa_SC"
+  },
+  {
+    "club_name": "Al-Markhiya SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgADSAJgnjj6GqKaAOn6cdnLbTbTRijrJp4GJx4Ju5vpzvy7DJz5_yY6WUlOvA6emcb8YUjKtuI9LfQEGcA2FMdyX-j_dx-ubmy8FZcCbyAoucyAR5cCLzw4kIPRmEZXV_teZtI0mqxtKLA75JRa3oHMBMNangDPDNAEw4gGYAExNpdGtXH9dmHR1a7Fw/s256/Al-Markhiya%20SC256x.png",
+    "city_country": "Doha, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Markhiya_SC"
+  },
+  {
+    "club_name": "Al-Sailiya SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi66bnfdi-SRfLcaHk68Z8xHGIPlFpUhVzncT0oyzKQti_jRmUW_2aQShe-gf2nHWt771FWZWh8DmYKeTF-HYvKKjlc3zEyHCZg4pz3omC20ckgGtW_rn4uP-GqUlfPgJIW9ygje59IAlMfwFmha_E4rot4wC4mFjdcfatIQqBOvMLpKhkKkPJABEjD/s256/Al-Sailiya%20SC256x.png",
+    "city_country": "Doha, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Sailiya_SC"
+  },
+  {
+    "club_name": "Zamalek SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibnHBdHpJsY9pzlzlvP8CLe9Rib5xB98YoteJQDf_W1i9livZPUm46W37OZ_rCwKD6ITfF0JaAPAMcERPqGOT0n5M-kDVYGUtLUVhy9_9GsYQ3Tho9XSKac3eROchoJaRve4HtOgfDsYXbeT7ua7Zbis-dn88jzfUhMnmkMKmyYJwdW1UnloFR1v47/s256/Zamalek%20SC256x.png",
+    "city_country": "Cairo, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zamalek_SC"
+  },
+  {
+    "club_name": "Sharjah",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgewcBKmUHhX0kjhE9vNHK9vpxb2qg31TcKaQebTxO80qhki9-rP80Ez9VDnqknUhn50W9uncjNl-WjwStM9aOaBaWnQogCrTH0zyzSvZwUIpSXoDO-2QD0mmRA8kvDfivo-fDs-4_Lslo/",
+    "city_country": "Sharjah, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sharjah_FC"
+  },
+  {
+    "club_name": "Shabab Al-Ahli",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH332EZ0Xs3gESqV0CDPf6wrGqvZYsXZv5cQpW4zPV3nK0UWgyMoSwibYK7HyEQ99J1rtpTiPT87kmE9IDtvClX1G1uKat5NvggCMUOUGMg3PrvagMlVEUIsAN6NRAKj_MSLGPaA4Xh28/",
+    "city_country": "Dubai, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shabab_Al-Ahli_Dubai_FC"
+  },
+  {
+    "club_name": "Al Bataeh",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1C6NRRxS-F6Zfx7mZu5ujDRsHTcgeUmE2GT09K8wM8iFZFq8DmJXKM2scoOuVt2nIGT8KdIrJE1rnReoTpq7alhUUIQetnMdM4MZ3U0mS9H7mv3HuLjYPE5G5Yh0XerLnUCUDr6uiWbs9eEbnnaQe-nGXdqd_aHWEYV3J-mo728nVF_zcMIgow4H02fk/s256/Al%20Bataeh%20Club256x.png",
+    "city_country": "Al-Bataeh, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Bataeh_Club"
+  },
+  {
+    "club_name": "Al Jazira",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM42emo5fjSRk2ARnNod7S9KHXh_4poPZvzQz-C5WhyzrdmdDhIdGHptWii1HE7oDFQY3eIxxFbqKHj3hv81gaTEFqMezcjUL3e0waZCrwMP28K-eabkFub5diIjdQpi-h2ZbNH27UESY/s256/Al+Jazira+Club256x.png",
+    "city_country": "Abu Dhabi, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Jazira_Club"
+  },
+  {
+    "club_name": "Al Nasr SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKyGt-exxYCT0Yua9klrC2m6bwVgRbaL0LBsvdt0HLv84C0tBQZwRBPA66awwkSXL1Xhflz4kN47kHuxhNDNWSCYlEco62Awh17Qxz5_XO7u2gsDln8YCR2ME1GzVBDgeJ9DVKhnblE3AkwcbL3EXpyck34pl3_n96TfnIAYJGtiSZJq4bZz8sP7Kl/s256/Al-Nasr%20SC256x.png",
+    "city_country": "Dubai, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Nasr_SC_(Dubai)"
+  },
+  {
+    "club_name": "Al Wahda",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEho59tyd7rWYvJS_YBb5EbN2XdOkmcpJG_41Si_aJpB9PRgAnevZaO2MSqCOZtBXOtjDyrWspBE-G67wENGIjRnvtcfZLZBZ3Xl5x9vg0YZwQi6qq833jXfhVFxFH45BBSVTL96cq6czw_7V83h1AOH4FSkxx8zwg_Y2vJ_-UtpHilqqjfkVw0CDzJrczM/s256/AlWahda%20FC256x.png",
+    "city_country": "Abu Dhabi, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Wahda_FC_(Abu_Dhabi)"
+  },
+  {
+    "club_name": "Al Wasl",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnoac1ZZhO-pq1JRp45_L9mZ-Q9DzwqJNSuPzaerZdNW8msnOs9KPYvFrMv9e1Ouifx2A5WCWgAt-Yxi9aFGyX8U8GERVb3wWEitTCnFe4Wv6wj9iRPk_0IQaoNXM0a0rSe4rAyHPjnfk/s1600/AlWasl+FC256x.png",
+    "city_country": "Dubai, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Wasl_FC"
+  },
+  {
+    "club_name": "Baniyas Club",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUQTflUlxw-3kOrIgDUvDEjDdJ2rF5TUqbT3jZIT6VUqik_y7-UYYFFnThZdAAvZKcYN3QS6lAhNbUWPHhU_SD0hU028gdk-JHGFobosLQ4BoGetiN-HuU7jUJyfsxgqRJf4FDjK8-Rmc/",
+    "city_country": "Abu Dhabi, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Baniyas_Club"
+  },
+  {
+    "club_name": "Fujairah FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAcSFfUz_70LtdU6JgIri6mNH2ff8MZ0ITHESLDaDCb4udhMsdNFlCiOxlp8bj0ePvWqSMU639KSu8HXvmHOu584eZXDXc4hyifklnUruMasEKahaDHObBUyJEevSFVzebJ0h16jLfhEI/s256/Fujairah+FC256x.png",
+    "city_country": "Fujairah, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fujairah_FC"
+  },
+  {
+    "club_name": "Östersunds FK",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXdcmohqlR5UY1YwensxeTZwe7gNqi2dVs6NXE_REoZlH_4kxcdj1qsUmZ61x4_4ryIkNPW8D48VvpWVDSkIIoZSJz2SPIr3G5EmVza5LOJM0DcaGyvD39Vua3KXTTuUJQRvvD9aE5Hjc/",
+    "city_country": "Östersund, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%96stersunds_FK"
   }
 ]
