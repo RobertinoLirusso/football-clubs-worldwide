@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ClubService } from '../../services/club.service';
 
+
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
