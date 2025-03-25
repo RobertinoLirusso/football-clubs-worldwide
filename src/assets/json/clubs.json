@@ -3723,5 +3723,59 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbGCLJEQ3iM4s5MS99GXXn0Mc3hTwBvG8k9So0u2AP8aHQGynYIjy6EmajOFKDX77NYGUDPLgsbwCGfhEkCEGIkvHSSAuBkjYeShIlrewq6GnBn2IkwrKN-f3ov1Q2M5qF5yDw-yV_aWiL/s1600/AFC+Bournemouth256x.png",
     "city_country": "Bournemouth, England",
     "wiki_url": "https://en.wikipedia.org/wiki/AFC_Bournemouth"
+  },
+  {
+    "club_name": "Bolton Wanderers",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip8N86AlHHxqv8OZcmvLrUpUGPr-uJ72SJUOfQ_v3hAcXgKhfU8IIaiwtfeWgO31zeXeyOedWU26dLE9vyHnvvSgPz3hydM7e0O3Rhww_ei4QPXVyrny_ApPqyO64HygA1kYu67UwN6wyf/s1600/Bolton+Wanderers+FC256x.png",
+    "city_country": "Bolton, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bolton_Wanderers_F.C."
+  },
+  {
+    "club_name": "Oldham Athletic",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYqUcc_OtqHmdMG2-IbcC8vNw5ecMxVf4gtPrK8wZetG-E7a_B0ZL7mrCq5tMIC088u1qwQbi11-KzAnatNJ9hg5ptZPb7lz6EfRfa5aArHWxpEU7ycOLtrJITbUWj-Skf5rueS5Xrrn0/s256/Oldham+Athletic+AFC256x.png",
+    "city_country": "Oldham, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Oldham_Athletic_A.F.C."
+  },
+  {
+    "club_name": "Bradford City",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBCTR7B_Y9Le0tiQoUZ0mZDj_PSwuK2HHzs9x0X5U-tzWEg02eSEBEe-nMPg0H5mUM7dmN8xtuD5gT1V_5bZmSEmuRssdfNFsNpDe48Hv_91l9PwcTTvrjJiSQotj8uSCJ9iz1Cj1orkA/s1600/Bradford+City256x.png",
+    "city_country": "Bradford, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bradford_City_A.F.C."
+  },
+  {
+    "club_name": "Huddersfield Town",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfKGtnCqe5UWFXRQn46aMV7bbOlUtVBmVpZ708M-nC-yHcqAXhTFKkJ0k0GZGuIqg69IZpSQYuNvpYhC_JxYLFG7V38H47zQ5boW8wPvm9FHVzw_tmgO2EoAEv3cruA0K1S1y7MMWpkPE/s1600/Huddersfield+Town+FC256x.png",
+    "city_country": "Huddersfield, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Huddersfield_Town_A.F.C."
+  },
+  {
+    "club_name": "Blackpool",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5hdZe_KQCi5gZdnkYNHY_4r6IG2dGGh_n48dVD9FraDKxjlacgYpQX3VL09lKsGSIL0fiS86xEj9dhjNmHhW2CU_CizklLcBNSEaykGxHh-H2MD8HbPsYBRSCnz0ZXjMPUUW1-8RTIr8/s256/Blackpool+FC256x.png",
+    "city_country": "Blackpool, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Blackpool_F.C."
+  },
+  {
+    "club_name": "Swindon Town",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj5PEG3jfxVxCIsXyIAjxa4afQnL80oWh1pc-3ReiUUoihsJoA0AQOOw9WCmzBZSvIY3HoBF1-K_vpOd8UcyvEvI6xadn4JHpcYs2MlIQsnJMGpyc0scwYTn2sNeFm43rTXRKqS4y_m1o/",
+    "city_country": "Swindon, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Swindon_Town_F.C."
+  },
+  {
+    "club_name": "Stevenage",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7-sW5ZEo__PMNy2titp0cwv5K3yRVLZ0UW6ZHBVrSrvlcEt3_Lz6QMjdSQNMr_6ovgb53PV5pXWlsKO4qofvnq8MV9fm5rEpl66LqSZDKRQlCdkf-yk-1-KthvvRowrQ6kCHo_WNgBXw/",
+    "city_country": "Stevenage, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stevenage_F.C."
+  },
+  {
+    "club_name": "Wycombe Wanderers",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqLTIp29iTplpmb9HgS2CBLCUrcMH52m1bjFj4g1LIU3ooU360ATO4VQRBBPBaXwe5z8EhRDpcZXoSTs9e9AkO6t9CyWfo0GvKJjEhUEjb0j9d0eEMsSBdA2eq1hQVgLPt5MCRmRknka4/s1600/Wycombe+Wanderers+FC256x.png",
+    "city_country": "High Wycombe, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wycombe_Wanderers_F.C."
+  },
+  {
+    "club_name": "Wrexham",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimjsKnhA0gnlTa5EdqKyrxRyqj8dfryDrGfzF0qZWGV6yAwK3VlsFyHa5dc2rJmUX4hsqoOdEV4y0y1DG_ihrf34hu67H6Uczx57GLcW5hnlCNB9yfguqFQpZ9bLIL63DigwhqmSSd63ztDAjKf-Dp7RiwQLllj2jSNKFQ-UpYG4LvFqu1R7p0FWl4asg/s256/Wrexham%20AFC256x.png",
+    "city_country": "Wrexham, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wrexham_A.F.C."
   }
 ]
