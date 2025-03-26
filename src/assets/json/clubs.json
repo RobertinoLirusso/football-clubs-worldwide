@@ -2172,7 +2172,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Panathinaikos_F.C."
   },
   {
-    "club_name": "Sparta Prague",
+    "club_name": "Sparta Praha",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIsgAvDFKO2ivBVwVTSRY8NOzq4gaK5BPKbiuGgaRf7GtdvkybK9K4TYVhyphenhyphenttdvAyS0LlCoCFnPb9Yn-7oJInnXwG5jQFV3jSqxfv32M4FvUcPB3zpZiwCmoCvkHmLhQXgnsSVU4_gQY0/s256/AC+Sparta+Prague256x.png",
     "city_country": "Prague, Czech Republic",
     "wiki_url": "https://en.wikipedia.org/wiki/AC_Sparta_Prague"
@@ -3777,5 +3777,77 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimjsKnhA0gnlTa5EdqKyrxRyqj8dfryDrGfzF0qZWGV6yAwK3VlsFyHa5dc2rJmUX4hsqoOdEV4y0y1DG_ihrf34hu67H6Uczx57GLcW5hnlCNB9yfguqFQpZ9bLIL63DigwhqmSSd63ztDAjKf-Dp7RiwQLllj2jSNKFQ-UpYG4LvFqu1R7p0FWl4asg/s256/Wrexham%20AFC256x.png",
     "city_country": "Wrexham, Wales",
     "wiki_url": "https://en.wikipedia.org/wiki/Wrexham_A.F.C."
+  },
+  {
+    "club_name": "Slovan Liberec",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic6un_Z70jnTx_9N5kcabAuWxSyJi6blB_eX-zq7pGSvjthy_glwBmkD2eAA9NOKXabfUAy7BQCvkLV3wjzLcfKo8jeIMAoE-jcsP-ujk_wTLHE5ADzwr4uxxfX8aB1xaHb-1t3aNa_f1PtSvEZoYxaO9xzAhpR1i90r5JiJsyAAnJdtivJ1YFXhWa8Fo/s256/FC%20Slovan%20Liberec256x.png",
+    "city_country": "Liberec, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Slovan_Liberec"
+  },
+  {
+    "club_name": "Dukla Praha",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1NmCUCNPEzO_blUKBV5YamIGtJMH0ZswargxHuuuCZxFTgLTv07BYdCWpkGnEoMHAcEDkxV7xuPWobmFlEFGlhOnyO3kGvU3OF9Oi8f1lgaHpzpezcpk7wmrHmMSHpedJ0ggGzN_NAXQtyg44eDxgjbwHJacm-6Yy156BggNoAoaKzQiLnCP9uY6sVaQ/s256/Dukla%20Praga256x.png",
+    "city_country": "Prague, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dukla_Prague"
+  },
+  {
+    "club_name": "FK Jablonec",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpmuzyS3aMh_UlgC-L_zaIpU41fJdfBg97Lt9BN7-OtpORyGO7Is7XjdzYcTSfF9Lm7nTpYpo7I-X-rp8JpiNvNKOupNkNWc95-MWr9roYVHny45dFCMn7Dmho8-zqgKizFVmjTwJC4EM/s1600/FK+Jablonec256x.png",
+    "city_country": "Jablonec nad Nisou, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Jablonec"
+  },
+  {
+    "club_name": "SK Sigma Olomouc",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx9ZDlBJI6t2Or2PtuWBHFM6UUbJDg1QEapbOkbqwX_1Ba2iVy2awpwdjON0kD0E26emIg79tmsdI4a_Q-TArOZ8XMBUHNhZrPQMgIBn5bI2zLJchMNMOp3FqCwYylY6ZyFXBsMS-2oEk/s256/SK+Sigma+Olomouc256x.png",
+    "city_country": "Olomouc, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Sigma_Olomouc"
+  },
+  {
+    "club_name": "FC Hradec Králové",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ8NnpU4pK6yabYs1p7oHCyIYvxQJRLghVFWxwFafvBAwkYtsiHIaf1pbqmFqZX-ePMWevyYPMdlrbIKTYvdVvZnbpabpCnIK63hcF_uaphzksimrFf3kI6_epHHs25uhnbvR17PAT8XnosYLFPgYixe_soPStsoJ_BMjAG8ccj4XuElyvDlUmeQ9GiNc/s256/FC%20Hradec%20Kralove256x.png",
+    "city_country": "Hradec Králové, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Hradec_Kr%C3%A1lov%C3%A9"
+  },
+  {
+    "club_name": "Baník Ostrava",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwh-z6ZDUP4wGIyKwSFS0UQQe7AdkL5_2kdaSeSMKFcnpeY9PEpkYRSXnlLUNPLnaN0DznbTpKIdelXUoQKEmMev0jTCb52FmpBWU8indvPChBi78x8HVKAOzgeUcUxas62vlPKnAkZts/s256/FC+Banik+Ostrava256x.png",
+    "city_country": "Ostrava, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ban%C3%ADk_Ostrava"
+  },
+  {
+    "club_name": "Spartak Trnava",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWe_rB494w2sq8cogzOb5wVz20SV_xD5chjsi01UItNgrODbX-H8mnkjqAFPRrYl2LntissvSR4yIgDpwb5oOeyA6pes9wmYKzSapGnCH9LUb0dMADuWvS3gZ_XcnVotQczkaDHDUxcgk/s1600/FC+Spartak+Trnava256x.png",
+    "city_country": "Trnava, Slovakia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Spartak_Trnava"
+  },
+  {
+    "club_name": "Slovan Bratislava",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH-_kdike1qM_qg3AxfvqQa-MBS_xVm3j1muyy_PZFNX8l4eIBKmGgXSrdc4MfG4YAdw-J6UHSUqYKS4Q9aG1DN51-zcifJ-wIbjqajb9h9c5AkIW2kSwv-FHt4uhks9sr7CLC_EHy9EQ/s1600/SK+Slovan+Bratislava256x.png",
+    "city_country": "Bratislava, Slovakia",
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Slovan_Bratislava"
+  },
+  {
+    "club_name": "MSK Zilina",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmiZGsbdQOlfUylmEtA801J8oCB3Vh4G9Z9Or1Ed6NTcWU8xMW4Q61z6VBcacmZ5mPc0a55CGRTs49VIL6irFe4ApBOYB9wEzHF37Z4YFq1zK65uBQ9ZtNl5I2Lzs1yUeRR3Z3Pt1Slyw/s256/MSK+Zilina256x.png",
+    "city_country": "Zilina, Slovakia",
+    "wiki_url": "https://en.wikipedia.org/wiki/M%C5%A0K_%C5%BDilina"
+  },
+  {
+    "club_name": "Koper",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/79/FC_Koper.png",
+    "city_country": "Koper, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Koper"
+  },
+  {
+    "club_name": "NK Celje",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVMrRXzR8jSH2U9YD8NGtd7TK8WRk-vhEmJy358MOMHT9sjmd11xYJmdgptxgcLJJOjLfIB-KwdfQ-7YATh9UdOrpcQFKyvHaelHJlvMbD7vEzq4HK2FjmjfcoFzwG7bejxXiUo1030bBeEnoKIfyNWEJOFnTyg0SUuTitOw4_UdYPpDsIiHEe_QQb4S4/s256/NK%20Celje256x.png",
+    "city_country": "Celje, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Celje"
+  },
+  {
+    "club_name": "Olimpija Ljubljana",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4Wrka06v44g23enHwSszp7I_w8dxg1XpWYOL60CAYitAYalvjyq0YYlj8e_Mwu9tYThUBjjsDsGMzcsIGUeGAmOUpqnjuth7Lv2S9puVhSrLhB7Y4yPTsl225gmvDGHPKGaZ86rtfF-cdgB2uCmtTBkPmL19PyAL0hhEMas3RY2wZbdWEIO-RA6Cc/s256/NK%20Olimpija%20Ljubljana256x.png",
+    "city_country": "Ljubljana, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Olimpija_Ljubljana"
   }
 ]
