@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ClubService } from '../../services/club.service';
 
 
+
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
@@ -13,6 +14,7 @@ export class CardComponent implements OnInit {
   selectedClub: any = null;
   searchTerm: string = '';
   visibleClubs: number = 100; // Mostrar inicialmente 100 clubes
+  
   
   constructor(private clubService: ClubService) {}
 

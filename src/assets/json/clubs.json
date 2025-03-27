@@ -3849,5 +3849,47 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4Wrka06v44g23enHwSszp7I_w8dxg1XpWYOL60CAYitAYalvjyq0YYlj8e_Mwu9tYThUBjjsDsGMzcsIGUeGAmOUpqnjuth7Lv2S9puVhSrLhB7Y4yPTsl225gmvDGHPKGaZ86rtfF-cdgB2uCmtTBkPmL19PyAL0hhEMas3RY2wZbdWEIO-RA6Cc/s256/NK%20Olimpija%20Ljubljana256x.png",
     "city_country": "Ljubljana, Slovenia",
     "wiki_url": "https://en.wikipedia.org/wiki/NK_Olimpija_Ljubljana"
+  },
+  {
+    "club_name": "Ferencváros",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgC3ApdE_B6V-ML3Zh2aEkP_XZJJlF0wErzC2E1IxCPSQ1JfAIz-fZm2_A9arFYgrJDsYxEp0RWZT4inyd5w_8G4jn9ennuqHcrMqou-p3ed5bxjDr2f3Szjf1mdLip0lbrfQcaITNl-Jw/s1600/Ferencvarosi+TC256x.png",
+    "city_country": "Budapest, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ferencv%C3%A1rosi_TC"
+  },
+  {
+    "club_name": "FK Sarajevo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/FK_Sarajevo_logo.svg/191px-FK_Sarajevo_logo.svg.png",
+    "city_country": "Sarajevo, Bosnia and Herzegovina",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Sarajevo"
+  },
+  {
+    "club_name": "Aalborg BK",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaXetlrnrj0zl6uq9vz79BMrO0tNsjnvgDsJDi9sxrLxVY3KJ6Uwd5TcN2eapXxFo0tRmnU0y93lBOW6U0ozKxYNwHkffKtLgnrk_trbHe7gUI6A1O_3reWBfrKmBMB0AcBkN4I_MDMBg/s1600/AaB+Fodbold256x.png",
+    "city_country": "Aalborg, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aalborg_BK"
+  },
+  {
+    "club_name": "Nordsjælland",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRYk3gbbEFvgzSsdvmeM37gNrzE_momer3NrcnYVqU9UUKW1ue28IjdvIoB8L_a3w-1N0WruVcmVKuV0iYrLJsGybemGYEcHqIWEryoTXyaA67P1iezMd1fv7k5i8AjUWCshwTsrqmo0s/s1600/FC+Nordsj%25C3%25A6lland256x.png",
+    "city_country": "Farum, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Nordsj%C3%A6lland"
+  },
+  {
+    "club_name": "Aarhus GF",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJBo7qFLyh3GtkbUNiAJxALTe5-aDVMgwfJMnGnLuDLUxBD3PnrRA7aBtRITH1TV4SZGwGv6GntGZuFlE-496lY8OzKAk8fwJKgCM2v7eRcfVhrb_aEfnvDCZZH9M5IWmqmVLh29fM1aE/s1600/Aarhus+Gymnastikforening256x.png",
+    "city_country": "Aarhus, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aarhus_Gymnastikforening"
+  },
+  {
+    "club_name": "Brøndby IF",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGYUF_AzweG4UZ5sK3s_-vXzXMk0mJHX8_oDZ0_LtADEFIKmgmWTF9Qa4H4ju8Qz5Gz4r3CdPhr3s1s04GlfkIYRu4nsbswBvQWyVOyhzJefVnivyOh3lZZmFJHfi18cNMLbVi82XKJoI/s1600/Brondby+IF256x.png",
+    "city_country": "Brøndby, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Br%C3%B8ndby_IF"
+  },
+  {
+    "club_name": "Viborg FF",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWNmNPcfY4oyS5YsxbzAYSko8bKMzrfxzteHd6d1I-mk0sAJlWTL8Ezsfl0KBIC4JMDxqmamh06eW7NO4XgGvL1lv45SKSyMFeZJbsvpylc-W3hmSUmfOfNPtnQSnoRKxl0TRHDt9KKl0/s256/Viborg+FF256x.png",
+    "city_country": "Viborg, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Viborg_FF"
   }
 ]
