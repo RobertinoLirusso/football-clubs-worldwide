@@ -2879,7 +2879,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_St._Gallen"
   },
   {
-    "club_name": "Zagłębie Lubin",
+    "club_name": "Zaglebie Lubin",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivSrudVarc0FH5yRX9UaBe22jqffN93pjHVIaQjyyGJsSK_RVn9m7Mtuq6v493R9NYsckZniNNZ_7ypDD0amK6VzdXfziNUlsB_R9emO1NiUvI5WXJLxQlzh_AvWJFNkt9rjvC9yHa2Ho/s1600/Zaglebie+Lubin+SA256x.png",
     "city_country": "Lubin, Poland",
     "wiki_url": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Lubin"
@@ -3288,7 +3288,7 @@
   },
   {
     "club_name": "Chivas USA (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Chivas_USA_logo.svg/228px-Chivas_USA_logo.svg.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQz7qPeLg2xoCp96E2Ngz1jRkXvT8wNDKwDBUXkc02PDsgFmvaWA-MvtefuAl4U6TcOJHphRP4tQt6O3rjv-UwQvkyvGekpwNUuVi8yqvMOkvEAnOWHoj7bDHEJhsvObDfwmz5k8oVQLzd2rZojBrt5pFsIR1nJhqezJ8HHE2Glm2kKZhrXr2F0iY9xFY/s256/Chivas%20USA256x.png",
     "city_country": "Los Angeles, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Chivas_USA"
   },
@@ -3455,7 +3455,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Kerala_Blasters_FC"
   },
   {
-    "club_name": "Đông Á Thanh Hóa",
+    "club_name": "Dông Á Thanh Hóa",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/DATHFC_logo.svg/239px-DATHFC_logo.svg.png",
     "city_country": "Thanh Hóa, Vietnam",
     "wiki_url": "https://en.wikipedia.org/wiki/%C4%90%E1%BB%93ng_%C3%81_Thanh_H%C3%B3a_F.C."
@@ -3891,5 +3891,161 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWNmNPcfY4oyS5YsxbzAYSko8bKMzrfxzteHd6d1I-mk0sAJlWTL8Ezsfl0KBIC4JMDxqmamh06eW7NO4XgGvL1lv45SKSyMFeZJbsvpylc-W3hmSUmfOfNPtnQSnoRKxl0TRHDt9KKl0/s256/Viborg+FF256x.png",
     "city_country": "Viborg, Denmark",
     "wiki_url": "https://en.wikipedia.org/wiki/Viborg_FF"
+  },
+  {
+    "club_name": "Mineros de Guayana",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBu3IVjyeUdGSfaxqL61NIvJ6aH6Z36QoW47NZ38FG4UWI5rd-vlVW3azmzvUeOX1rQrKn0TRtudi-bPdjtrR92p_08-bWKATe5ThcXP9MibTpIC3undcvKVE81Li0IpfD_m2ACnMKwTFW7lAhnXjYRLWtIflZRxJBP02pbhkIdJqPiZhrBx-v3WSeCjY/s256/Mineros%20de%20Guayana256x.png",
+    "city_country": "Puerto Ordaz, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mineros_de_Guayana"
+  },
+  {
+    "club_name": "Lugano",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5BlfKTqjKfPnt_RzqqQUwcGeeAEY8QQHY9d8OHlQmn0M1VRIZBMh9i366VepxojRTe0Ij2YHUYmu0jSvbB6639Lapi4Evs6bH5p7Of9GgN538iOwVge_EHNxRexhFs7d59t4FaZ2a3k47VN1OG4NPpuAUCAxfz9X6yF7EdoNHB2WYPjT0-1DerOt0rO0/s256/FC%20Lugano256x.png",
+    "city_country": "Lugano, Switzerland",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Lugano"
+  },
+  {
+    "club_name": "FC Zürich",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX2QCQ6-wGByxNrStk0Ik4S3MZgwNNbA56IuE133wnBpmZxMITmoNYryjRO7Ma09_ZSsk5pgs4RkTdndV9gHG8sar2GxZFUS3RgzSErdMjq-FPwvKs1B2FE7nLOLyVgCT-GUCPlVmkr1KcI2Kmv_Nl9Yl9Gwihb6dsuwioZ267s1U9spkouOY4UqCq/s256/FC%20Zurich256x.png",
+    "city_country": "Zürich, Switzerland",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Z%C3%BCrich"
+  },
+  {
+    "club_name": "Deportivo Táchira",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE3sOobyp7nvTdasCB6Jvl64RKLFZIuRGzzUT5685QNtO1egnlyZ180eQ9Rx0kcMUtorYvgh1ScJWg1nNz027yDbhjwK0EQg5ie2tltl1fKgQab9DOS_9LVwp3TG-CYV9zfTwwaxrW3dOAyIJJ4UheFHJAUwHWobdPEvIpMBIAfihQlpihS9FdjrPWiqY/s256/Deportivo%20Tachira%20FC256x.png",
+    "city_country": "San Cristóbal, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_T%C3%A1chira_FC"
+  },
+  {
+    "club_name": "Zamora",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7QTInv1Rs10Y0-KIRDVSkZ5RV4L1Lpu5uR8LQ1PPMEF0i-510QC1_UKvo0L8oGpRZoFvXN0vNI0k9Koa6jz5mVPvVliYj3h1KdeTqct8COZS3tGY5BzPQxmXjc2XWOCP2VlCQBoC1eE0/s1600/Zamora+FC256x.png",
+    "city_country": "Barinas, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zamora_FC"
+  },
+  {
+    "club_name": "Fuenlabrada",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS5bxoIVLttpSA_CFHdK5gw8SnysT6A8yDw8ON7oq6h5cODf9iN43eCPA695XEYMImFqyT8z-qQxXxkP4zib1bHXNRn2o_bMfpMDrA2424ImhQBqSu6lLLGnKfZsEmoRvRJhHaknPuy3A/s1600/CF+Fuenlabrada256x.png",
+    "city_country": "Fuenlabrada, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CF_Fuenlabrada"
+  },
+  {
+    "club_name": "CD El Ejido",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI_uUUu5pLCEwSqOFOUMwtyp0hFnjXjc3zS9vQWdnGBjaavFMWm1-5q0UKdyhzRsbE00Y1gmHTm_uo5gnYXwlgPCsueR5QJJzCVfP2ycyv7bmJ3SqxezbkwT1sTMhUsKnnClKHBBEkyw4/s256/CD+El+Ejido256x.png",
+    "city_country": "El Ejido, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_El_Ejido"
+  },
+  {
+    "club_name": "Gençlerbirliği",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHa0oZekaqvidSOjX6tgF7uVfujH3j2j9VCCafvnCXL_S51ZlEjiGAVM7KpCSJA0otvrKp6vvWg_3Rm1J4q4U0CC8qoVde8y4XvO1vdM6FloImJJraGppPIM3M2ZlhJdAUOa5bJrfKInElNlmlDKH7eDusrlFdSPdmTX-V-UzheD9ygTyOdctR63MJ/s256/Genclerbirligi%20SK256x.png",
+    "city_country": "Ankara, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gen%C3%A7lerbirli%C4%9Fi_S.K."
+  },
+  {
+    "club_name": "MKE Ankaragücü",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6LQrCkyqeugAraajTaS9h_kZP3n58j_s85_BooxQ7pdDOMNK5ToPaVAB_t_DlG7Sl9jauls05Se5rYMioRKS4QX3IxFfJYldKwYNqV8YTlWYhLPwc5tqIpvqWbgLEzWU6-87t6cnhlJk/s1600/MKE+Ankaragucu256x.png",
+    "city_country": "Ankara, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/MKE_Ankarag%C3%BCc%C3%BC"
+  },
+  {
+    "club_name": "Bursaspor",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHY8pznBTNMpLVQUEuSY0nkCSK5dvn1YU4Yo2NJcG279jQlTn9CuvDK3KcBPzE_iaNpSTuHP7VOZDlxo4pWsf14UUPgGklBfiqt8JMeYkcvIFPq1BnaHcsdeHZ_uoAtgvOjCx4485V7mU/s1600/Bursaspor256x.png",
+    "city_country": "Bursa, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bursaspor"
+  },
+  {
+    "club_name": "Midtjylland",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqfdnWTMauossSMNlsTdX58MeJP85758WZK6g8BYcTZiAKvZBx6HmMhF8FIDHMof4566sBv1BYFKMDdEfUxYavjCufrgW3EcLMIkf9J8UMolXCpisx6GrYNrGspXuLmmbW3WCdsz8IkkU/s1600/FC+Midtjylland256x.png",
+    "city_country": "Herning, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Midtjylland"
+  },
+  {
+    "club_name": "Lincoln Red Imps",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWldJ1tQKZF3avl8uhfnnHwY67fOry1uVXXOEuWty53nRXHdMXhC0qEya0oqnhyj2tMAFd-NLbZomoB3wI4W20zePs4ODgBb_XZWabXeIEsYyT1Cn2a8iSRjsneD19xkPK1TFSC_S23AA/s256/Lincoln+Red+Imps+FC256x.png",
+    "city_country": "Gibraltar, Gibraltar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lincoln_Red_Imps_F.C."
+  },
+  {
+    "club_name": "Pafos FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkvStlF-Lc5iWWjBzwTw3W8zN_vyMjoxOQupKs7zoljVYPWL7TfBVdfDYqY4zpqThovN6fm0dMuIjeiTtbgzQ2XpQQ9MFCWiS6pB3vS8lTpp1utHaB1KTzEtTsUP9_9T1k93m7BM2vz98kyIjK1EYeG2KqS2pJNcRtQGHWVV06N8NiYkv_TiFOg9L_kto/s256/Pafos%20FC256x.png",
+    "city_country": "Paphos, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pafos_FC"
+  },
+  {
+    "club_name": "Riga FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjwDv4IRHoZjnzti-kY80spuUSi9VIlyQ-2mPlQIFk6IONY3k6J8_8fR3L5vMRq1TtbUfR4n2OGOvphdqWkP8GiOf4wM8CUBef3Dbi39LQfdkd-WCkIZ1N0q2UxEOnEqySrUorBPFpVl718ZY5b7zWoz6XAwIpE3OOdnFNwsFlsUES8UaERFyhw6aa/s256/Riga%20FC256x.png",
+    "city_country": "Riga, Latvia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Riga_FC"
+  },
+  {
+    "club_name": "CSKA Sofia",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0lHqtuf_Xy-DkrrD0PbxaWV4Jne-9nWQ6TxnkgatMtlwFiE8apj8Y3meAyQjGs93BTRDKmOHHOzCG8mBNKITHMh5oIWODaytRa5nQkT8O9BOhkw9q7Bt7pz7mVBN8CXsBKt21J1fnDoI/s256/PFC+CSKA+Sofia256x.png",
+    "city_country": "Sofia, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/PFC_CSKA_Sofia"
+  },
+  {
+    "club_name": "Dundalk",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2j0RKaR0IuZ9WV2zV96uQLKRpaQ1yCedz_JYzH8ELO0e56wtfHJsl7IB-WEZhrXG7jZW35_48B-KwPzDAf3SYWw_Emb-Aej47MlNZ-tfFB-dR5V_54JvrMzVyWzce2hGXTDxT_-v_2Dg/s1600/Dundalk+FC256x.png",
+    "city_country": "Dundalk, Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dundalk_F.C."
+  },
+  {
+    "club_name": "Tre Fiori",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/50/Tre_Fiori_FC_logo.png",
+    "city_country": "Fiorentino, San Marino",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tre_Fiori_F.C."
+  },
+  {
+    "club_name": "HJK Helsinki",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT3e5_GvYEwhgvCUNSNdJ7Pw3eh-MRoOuZ9XXabxYeJq1PTsjbC1FiFzkRuS9ZTgCxWpk15IVqEJxtNghkujILKKf2TnU5ceD_qKN2Gnn4i1anPfIgY10FsreeFXxjSAItFmR8ia_w-bHY5capnNUwMBv3yKoKSGJgHKQDaom0Zko6-bQnjLtlW-mx/s256/HJK%20Helsinki256x.png",
+    "city_country": "Helsinki, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/HJK_Helsinki"
+  },
+  {
+    "club_name": "RFS",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTKA34duIPNJZonXLxed2k53ewkivwz3CiV3huBdIQa4LpoVdZAfL2JA6fJ4YvaQC_VSaPpocUEXDuDcRTCvL6CX2Wcf1xdUwAiAp-iVVdOg8O2TO7CVEkq_0pVgqbE-H-nt2o8kG_NKfcpMXMpUGMw_u6UIF8OyyG-JJ3A74l0Fe370Q0681xDXuz/s256/FK%20RFS256x.png",
+    "city_country": "Riga, Latvia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_RFS"
+  },
+  {
+    "club_name": "Legia Warsaw",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrK_DlFwMBb-_3bggvqZoqieoji1m04BUHSgPxxq4B0dCwiSNjZfqKgY9G6xQIQ1nfceZLYgXXsdJPw7y1RWrhdobdRJ6f056iw35KcHY1AtK6FhTqZiu7lqbeE7OBWcHaRSIPn91Bbqw/s1600/Legia+Warszawa256x.png",
+    "city_country": "Warsaw, Poland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Legia_Warsaw"
+  },
+  {
+    "club_name": "Raków Czestochowa",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgloyFwHKBSym4-zQPm6_oLmEE03xqVQhvPSKDt8_SXgbSp7achPCOlZDFq5fAHsacKhrJdDNS_QWfUFbtaHcN8qRz8G15tAXdYt1EM1xxdSc7lVho1DQvGL4xBAXhCeViHiEGMzJupEOc/s1600/Rakow+Czestochow256x.png",
+    "city_country": "Czestochowa, Poland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rak%C3%B3w_Cz%C4%99stochowa"
+  },
+  {
+    "club_name": "Lechia Gdansk",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy6vv0wPOM5M9NzDR8iuXmlBZhVO_KUyYSwLcYyC-A56B-OJI78JcJcgzyZm4VsavCVhyFyGY1gq5OBhnRHuU-9X0FT3r7tvElkvAxpmPR_S3ChGd9h9p6cb76K59N4cqzzwpXbiWMqBRYN2BiZKlF-7e3yDJc-K6KIlE4rrABUSLInlCpU4b0TpOreVA/s256/Lechia%20Gdansk256x.png",
+    "city_country": "Gdansk, Poland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lechia_Gda%C5%84sk"
+  },
+  {
+    "club_name": "Qarabag",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIIBnNuzI9T_elX6ywoRNL7oEZq101yhHuhyCC1eelITX-0eSWSlAjHQ0EmRpqgT4KudAtcggGCRgZXypjXHXud1U-QumxPT4VARaz6ApA-OywBlREdUV0bLmy_Bxmvxqdcuan0p7PbiDZoOAUspGj3j1p0VxQuMom_8R3AaBsC6HPTP_3yy6tBalfB2k/s256/Qarabag%20FK256x.png",
+    "city_country": "Aghdam & Baku, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Qaraba%C4%9F_FK"
+  },
+  {
+    "club_name": "Gabala",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTvT4fgkJz0RyeEnWl5MG1gk850VphElRotxJoN5kdbq5WKnba_IRJEP7IFSCCGa8FIxigAM1IxjT1GVF5rbs6Wj4tMhaDGoRWdozTn1VCGg-ITX22gHxLcWz7tohHHKBaz4GCPGa9_U6BpeBhCoQHzs5FwDFgrNtl3Zk1vTecE1zRfHMzqPEhjiZq_3Q/s256/Gabala%20FK256x.png",
+    "city_country": "Gabala, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gabala_FK"
+  },
+  {
+    "club_name": "Neftçi",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH3kkGQo4pTIzECckKn5roL0JvxuX6aUBs9dVTubVUOQFSLqBq8Ew8DoSjgxbzWFyQwvbfhvfVdhCOTpUW4kRHqtnUyuWSjZVeMb1vyYXLO9TIc8hUAyik4pp6LE3Mq2d6MyjfuGAhqFv7A2P5fbL98a6l0l_dDSWZ5aGL5q-oYi1U81pFOtCywL2TI8M/s256/Neft%C3%A7i%20PFK256x.png",
+    "city_country": "Baku, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Neft%C3%A7i_PFK"
+  },
+  {
+    "club_name": "Shamakhi FK",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7vNWigd-WO8S0RUAFIQrxBy1Tu8-b7wijRoW2DIh8BQfsney5yfJhg8kStK2ZEl2S9bl90BjOWkL__yHrmR00GNzMSIfXDB_eUiR4SemrHltq8Wm-LbMmy3kcKwjs6pD7f-f2PkY1ovNHiCj56pN-KooqKg05pPpglSVrSHjA4Ek_mdzC8nFuBlcv/s256/Shamakhi%20FK%20256x.png",
+    "city_country": "Shamakhi, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shamakhi_FK"
   }
 ]
