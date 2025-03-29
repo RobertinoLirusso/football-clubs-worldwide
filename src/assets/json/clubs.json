@@ -793,7 +793,7 @@
   },
   {
     "club_name": "Besiktas",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWafFXDiklgW1C5ue9GkQRIc1_IpLH97FqSPvH7xZhJFu0U8nvfcMvYM0HviBcyXDcg0_EQdjevhitLITHgGw8k8aygwizyLYUdPneitegrXMp55KskMD9ea5kfZDX7__1ENuhlexd7ig/s1600/Besiktas+JK256x.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1M4sFJO8N4sdT5_5MJhrh8dYYvNDHGXuKYN08Twje6ny_srjJ16DR01zG8olr_499BQn2jm-mHFPzPoZghsjij-q7hYm6yj72IWpDlm6LHIlhnHlkiLF2hDWMi5rcUdgmjKV3Y9-BtABNr7KS1JANrciMlLMBiCpMi1hLxzca36w-UEb0T84UqHrbIbc/s256/Be%C5%9Fikta%C5%9F%20JK256x.png",
     "city_country": "Istanbul, Turkey",
     "wiki_url": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K."
   },
@@ -4047,5 +4047,335 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7vNWigd-WO8S0RUAFIQrxBy1Tu8-b7wijRoW2DIh8BQfsney5yfJhg8kStK2ZEl2S9bl90BjOWkL__yHrmR00GNzMSIfXDB_eUiR4SemrHltq8Wm-LbMmy3kcKwjs6pD7f-f2PkY1ovNHiCj56pN-KooqKg05pPpglSVrSHjA4Ek_mdzC8nFuBlcv/s256/Shamakhi%20FK%20256x.png",
     "city_country": "Shamakhi, Azerbaijan",
     "wiki_url": "https://en.wikipedia.org/wiki/Shamakhi_FK"
+  },
+  {
+    "club_name": "Jianxi Dingnan United",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm0-y1XXDLr4nc0C2YWhmZY5LcQvQ8Y3zyMjOfscjnx32PTJQIefGQ2djNysiQhL9z9VjcBQrvSj5viV-tZ-kcyqnY4L52eQc_fXxs8CnnvGvMVJNCpP1CIo921Y7igEbDYOVmV5muA8pjWFuV2isKxSrWPOICVJgGZ_KIwEYd4sXK0Ku2TFtc9zvg3C4/s256/Jiangxi%20Dingnan%20United%20FC256x.png",
+    "city_country": "Dingnan, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jiangxi_Dingnan_United_F.C."
+  },
+  {
+    "club_name": "Guanxxi Pingguo",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtK-Bfi7ZNdtxQ5a_RXk6AG4II71EbYDxF98749bSrfWlMDRTubjjyApsvKV94XROy4NApvzyB4jTAM_sTW1L4jtpuC_WSAWmvXHa9ZAIoycsZPlxFQLKZlLYOHo_yzgKjIiG5hIXqosxcxV8TMgKWVZuRCKYfh_xQD8aogyt03LtE1y4bzDIamGiyLy4/s256/Guangxi%20Pingguo%20FC256x.png",
+    "city_country": "Pingguo, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guangxi_Pingguo_F.C."
+  },
+  {
+    "club_name": "AVS",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJx5p8kIjeLM68UpMq6Q-eQ7Bs-wQpIW-QTw2cbjgNR6VNTdjyWm1JL450OrPDKDwLKFDIJb7SQueuOyW2cNxudxtoJlxSo-TkJBeVAVTQreDLqnvMs6Zh6zdOe48_8IrqrAgCsgqDOIzaVr1yaW1kOsWw_cF0R15ThdJFAv9E8wszhmSmITATugRxaag/s256/AVS%20Futebol%20SAD256x.png",
+    "city_country": "Aves, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/AVS_Futebol"
+  },
+  {
+    "club_name": "Desportivo das Aves (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/CD_Aves_logo.svg/286px-CD_Aves_logo.svg.png",
+    "city_country": "Aves, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Aves"
+  },
+  {
+    "club_name": "Telstar",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMTtU05rn9VlyIMP8ZqyV2zMSL4HxBksi9Hev41W9Ka0yF3gLsjwj-mvY9rqQWHs25hwHawphuXVGuOXH5D85-tqW099owPTY3Tj0VLHHrHH_0Trc_aOkRXXuVPsxhFGCrvTNRVO6_h6I/s1600/SC+Telstar256x.png",
+    "city_country": "Velsen-Zuid, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Telstar"
+  },
+  {
+    "club_name": "De Graafschap",
+    "club_logo": "https://cdn.sportmonks.com/images/soccer/teams/17/1073.png",
+    "city_country": "Doetinchem, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/De_Graafschap"
+  },
+  {
+    "club_name": "ADO Den Haag",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhatvIU-gpteeMFWhtTRRjquOd9Z106Wn8yx8Jxok5jyDMFn-FqeHFf4n7gtDuGDQrXntgEEkvhAwezuvzBloaYvcJQ1OFkz2SkxO3mGjAtZIhjzDtp4YqWsFcs-a8snSGh30BYES_4FTc/s1600/ADO+Den+Haag256x.png",
+    "city_country": "The Hague, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/ADO_Den_Haag"
+  },
+  {
+    "club_name": "Estoril Praia",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEicLMUQVGJgRQPxmX2ALcAKvDcp5ANpxcJq3ltDq03aJ7J2Xne5iJP3Msa3oRe6e0fJzTK1yEiIVp4Ykw0KmZGbEj3k7wWJjR_UrWfQdc1PmLPl9XPvBvErlWfuhY2OipLdUZ7e6vZuBd/s1600/Estoril+Praia+Futebol+Sad256x.png",
+    "city_country": "Estoril, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/Estoril_Praia"
+  },
+  {
+    "club_name": "Académica de Coimbra",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj61dfQ3-buJqZeM7HB4IaEvtaQihM7JfkjJreDFzvgoW_WPj9LnRgVN1mfirpxmtvQXTYLKMNj7B8gNWlXLKdsGXcDPShDhNSlJWDrgBLjP7Lhs6DruypjU_fUgzdOy7w6jiD0iVva_EE/s1600/Associacao+Academica+de+Coimbra256x.png",
+    "city_country": "Coimbra, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/Acad%C3%A9mica_de_Coimbra_(football)"
+  },
+  {
+    "club_name": "Boavista",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1SF2QjcsW4YcmtjtF8_UW2d34xiNiShKRwI8dGaGxnp_dK1MfWirBT_dqotM9RLhzkwzBL1NGQ9It5IMmiSFeuU5X_XKRy5rSbAEM18hGj5Hbqnrl7SKIfCektUn5OPBw3SmRTMDDLYih/s1600/Boavista+FC256x.png",
+    "city_country": "Porto, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/Boavista_F.C."
+  },
+  {
+    "club_name": "Vizela",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0Sy0foSq5LEY2yY-cb_LFaVeOlSm2q4aNgwKSiENdJySQjH4XJJW_ajUWsxT6B5c2p-LQeyCclFI2G2iKbwBbNM9cozwFqwMM_rh__vfsbLZW0ykVZswqHI_cD3jVSvM8xK72sEjb8cs/s256/FC+Vizela256x.png",
+    "city_country": "Vizela, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Vizela"
+  },
+  {
+    "club_name": "Cagliari",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyuc_xKB6Q98MkBR9o_39r_NDhe57LTAh7p5WKiPXkDkvKiI7CK1hvcnGSaN5B8ZSbHI1977jL1nw6j82hi-lCj0j7xD9eMDAZs_f8CqqcsTI8Vo7EEF0O8WfZ8xG55kHxKHlxRqcJdWA/s1600/Cagliari+Calcio256x.png",
+    "city_country": "Cagliari, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cagliari_Calcio"
+  },
+  {
+    "club_name": "Como 1907",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7XZUySocm2ynIJu3pptd4LwrZjNmRmgv7H6BNKF1LMXmfaP4n-ypbe31FZRJLU987wqCwJmpUNd4plha_wLDtcRSUObv5_t4rf-aCdQ7s-mWHT7EQMtFOFYs7AmgIzopm_L3el6Gvoj8/s256/Como+1907256x.png",
+    "city_country": "Como, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Como_1907"
+  },
+  {
+    "club_name": "Fiorentina",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh042NKxa5ZdbWuGNaHC-h6Lc-KedtMdI0dK1AHu-1JEsJWu6yv4nuG96Sy5Bf8spERazmr4KuKV84mDDykssQgXiYtN5D2Ow1iS6wbvFgyjyMXQJ1XKISrc2PnoI1ZfIYwUBmcoUeNt2eVX6OLI-qICMD9J8XW4hC_7PsXlvrMAkwUHe1tIeFCEnU_/s256/Fiorentina256x.png",
+    "city_country": "Florence, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/ACF_Fiorentina"
+  },
+  {
+    "club_name": "Hellas Verona",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3fdVWZC6U-Qac8pkPmaEeVRbrj53H4x4AaltooRv20YTpkqUWIipzOFVaBTSeOmpd9QluHMkZZwWblOLgYZsZxksWdEYx9JMBefxyIzTW0izkPXn0e3AWCE4Z1mECU4mZJOQxoM0NXG8/",
+    "city_country": "Verona, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hellas_Verona_F.C."
+  },
+  {
+    "club_name": "Monza",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSC6sCpnxP9z7VG5Hvqqg_UEWldgvSmyHJnH90JmLZqtjcxtP2CSz-BmgYJ1f8XTtLcBNYLD9dBxx2yfMzaIInEClhhDfVcQmuEcZQVwhWIZQBULcXtoZ4VdEepmWhMn7NqzA7zuH1Q_8/s1600/AC+Monza256x.png",
+    "city_country": "Monza, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Monza"
+  },
+  {
+    "club_name": "Pro Vercelli",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPlMbDD8JHXdqXU5Zr1ftvP7BzGxgTbhlQKvNoY8UZWk2_uBsnYgv7gZJUHWt16clsS5jQSNdRbkeGcaeYq9PTPTsQluKll7fo2i0F2rJDOqWWMVSqHY6ANRQvNd1htOa56WOnlgFKNPg/s1600/FC+Pro+Vercelli+1892256x.png",
+    "city_country": "Vercelli, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Pro_Vercelli_1892"
+  },
+  {
+    "club_name": "Treviso",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3c/Treviso_FBC_1993_logo.png",
+    "city_country": "Treviso, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Treviso_FBC_1993"
+  },
+  {
+    "club_name": "Livorno",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJJLag57efp070tPEYEH3GkofnCNkumoMrOxm_mgWRPG3AMFCEJb1rcIPqYEkNnnatp5vP2lNFnXOca_8EK0TmjBSGw8cpd0h8P4DHbs9AVbuV6yJiW65h5YcY55KHN8V57Ny-5ra1m1twEMcLf-ExEIR_nl0Qkap2ibIz76rhclB37yM8eC1NBDU3/s256/Unione%20Sportiva%20Livorno256x.png",
+    "city_country": "Livorno, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Livorno_1915"
+  },
+  {
+    "club_name": "Pordenone",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Nuovo_Pordenone_2024_FC_ASD_crest.svg/300px-Nuovo_Pordenone_2024_FC_ASD_crest.svg.png",
+    "city_country": "Pordenone, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nuovo_Pordenone_2024_FC_ASD"
+  },
+  {
+    "club_name": "1.FC Nürnberg",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyjU6nAiJEiK2NpFhGUSZpAD2KmvIYSU85tSPNOvJh7rKCyB603J-ZJoZDo4KMNfncp7y0H1xJGpfaleSxaDhLmeaVrNXsTqhvlDMu04E_cYWfrWaIXHffrGs_JUR2OuEeMQEt4Cr0ZjCO/s1600/1+FC+Nurnberg256x.png",
+    "city_country": "Nuremberg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/1._FC_N%C3%BCrnberg"
+  },
+  {
+    "club_name": "1.FC Magdeburg",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe4-heIV1ir_E9pxhuWPYBUsRKbVV5a1GHC57NMFBPTSF0UFE9Z0O4H2gnHcQAyQpUt3Toj4afjx-bRhgGud-qVcZCJt3nWxOUBx7nuBrBfC-C3wQyiuEThveR5J-D36Kt-d8wdScHeXY/s1600/1+FC+Magdeburg256x.png",
+    "city_country": "Magdeburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Magdeburg"
+  },
+  {
+    "club_name": "1.FC Kaiserslautern",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcGcfi1z5WHqd3CYOv78zncHHKHrnLKONLS8i0z3JWkW7HjlBtQuoOWpmg8TZapYe-FYoVxKzUEKaYos6uYJHIDEWpZ6_z6WEQswiRksU8tNGr2_qpgnsx21cLV8WsMtHKqd3t0oR8H8rs/s1600/1+FC+Kaiserslautern256x.png",
+    "city_country": "Kaiserslautern, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Kaiserslautern"
+  },
+  {
+    "club_name": "Darmstadt 98",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMuy6riucSift_NDmSNb_5pOoKK-OHv0jUw0hVMszNeNisFkYdE5H2lLtYfUI4Wd5_vaZYfGHjigk91uJ7UkqL8CGWgyZgnrlITlvoLG5tx_mxPZCrJ8gLcBucPA2wgqkQt0f5nTaIyGUi/s1600/SV+Darmstadt+98256x.png",
+    "city_country": "Darmstadt, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Darmstadt_98"
+  },
+  {
+    "club_name": "Greuther Fürth",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggK5YsQFuIGm7Wg8E-P-f030EaP7GVpRMJCG1V6Hj9f9noIWjHOiVKYZ8MAzo6G8pkzxYgZ9GDxsEkr2rIeDevyp8389NxsmC0srqh4tnIOXUOz6qFczGa6mbxeUe62hcP_jq__bqaNuE/s1600/SpVgg+Greuther+Furth+256x.PNG",
+    "city_country": "Fürth, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SpVgg_Greuther_F%C3%BCrth"
+  },
+  {
+    "club_name": "SSV Jahn Regensburg",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtmxVXb4HU1l-NrrQrIV6-w4QlB0O0f79zkaZP6MmV_8rR3LQJC4eE64yX0pUXadA2oxDtor-uTzvmi2fnCSHv0COlhWN8XyYHgYhy6P7z2f00RQsfS0BjH7M0w1pPrE5UQQUrqeKhgnQ0/s1600/SSV+Jahn+Regensburg256x.png",
+    "city_country": "Regensburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SSV_Jahn_Regensburg"
+  },
+  {
+    "club_name": "SSV Ulm 1846",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvqDOdtY7QbatcEDbD33xz87yl7n6NCMK6upVhRbIyuR31478TSJ3HKf87t0Olsl9sPt2HOxczciBhNRSC6KhA0vQkkHNuoh1NFJGGYLzCbuLtqt9Rt_5kMCHa6mK3HOK1HzXVi60fioGfs34DG932FxDSvUDgWTPgZicWwBYq4t1pRsI5uFbNH3tm5Ns/s256/SSV%20Ulm%201846256x.png",
+    "city_country": "Ulm, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SSV_Ulm_1846"
+  },
+  {
+    "club_name": "SC Paderborn 07",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG0cPO9K-EWqlxwoKy5JdG_fDZ454WRQ-c2Df8EYUMQ3y51xDchaWiZFC_odi_RvF1p_rkmzEqJErRaWAkMJ7wT_p-cqva8n-1r4G4yXl2NbDK5LPRF4w6P95kI8Nb2oNsnyFGdzpM5_0/s1600/SC+Paderborn+07256x.png",
+    "city_country": "Paderborn, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Paderborn_07"
+  },
+  {
+    "club_name": "Alemannia Aachen",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje_jTKPX6-rUtESGj-15x85Kj7690TZh3_rRrS_dG63Dg9FPqhMvf0ux6bVQYFA0gFZp9d4kAh0Pgp-AohH067SFP3qx973rqVzCXVe9AYImi92Xy735bjQRL9DBPOwcT3fkcGsfC1AMN9KSYDm9CLcTk68rsks0caCmny-0N2JTS8mmXIjEW_fAWwi_4/s256/Alemannia%20Aachen256x.png",
+    "city_country": "Aachen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alemannia_Aachen"
+  },
+  {
+    "club_name": "Arminia Bielefeld",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqK5ZKVhf6Vs6LGvxdaZPHDCMpoO5-nSSiAp2hssThesS1dqvB8laDYWdHy12l0yvBLkSF-C0rxPFV2g2o4Xqwhmi5ZWy-UyiyhgDura57OXjYFBrkkJT2IqwajFmsjkE5wnhEbv6z-_P7NOPTNRcEDdhtJHqtVYU_Xf-OhMDM6eR8BmArhPMU_IWC/s256/DSC%20Arminia%20Bielefeld256x.png",
+    "city_country": "Bielefeld, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Arminia_Bielefeld"
+  },
+  {
+    "club_name": "Hansa Rostock",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHFNTC8ugzdmXloDFXHeCIWia0gHgDbhfztCMSlog2uKe8350xhdF6O1a34hrlGj4WKMVQyx0v-RIRJn6-SXI59KpnpZdEOUwBk158-LuTtEaUnuhNRxaE-QKXcOdS5mlq78IiylGLgxc/s1600/FC+Hansa+Rostock256x.png",
+    "city_country": "Rostock, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Hansa_Rostock"
+  },
+  {
+    "club_name": "Energie Cottbus",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjauPNrcQoUeyE_XwX4amSEwQHp-4c5vAddcyPh4tUlTduvPL41wKObhXd4SxQXsOMOW6kXFedEGaJ4QEFa1Krl8nZh_xR3ihM6MVwrz_2rUr-h8BKv71c691zkW4bOIYycIaDH3yytk7o/s1600/FC+Energie+Cottbus256x.png",
+    "city_country": "Cottbus, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Energie_Cottbus"
+  },
+  {
+    "club_name": "Waldhof Mannheim",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWtra9rTHXMHZKPnBIum-BLIM2IHACLi8gbOmNtpMqsgtsZ6TcQuL0PpAzCbXOSvn9qR-Wqx3gLhJQ0L7sunPbL2yfQUAO61l9iAvG1jlfTzGjsJe0ShdW-d13OvwPyScNdiqFFZS-alI/s1600/Waldhof+Mannheim256x.png",
+    "city_country": "Mannheim, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Waldhof_Mannheim"
+  },
+  {
+    "club_name": "SV Wehen Wiesbaden",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKVcLrHJBaNhGQVzcaF3E8BnyxSofEZZMwou2ymyNc2xqgtzsCLlvwPiGh5nUSRKaZy70U2dO6DYZjeWYBcHcIYga03JtuTsnjV4X-Vny0gMZtAUJcqsDK3F6oji3F1mow2QVSm_yuQWg/s1600/SV+Wehen+Wiesbaden256x.png",
+    "city_country": "Wiesbaden, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Wehen_Wiesbaden"
+  },
+  {
+    "club_name": "FC Ingolstadt 04",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDw-EZZk3CJvK-V7x0YxfeWwTF6ZuxDQ1pnPHy5UBXhpmE526SeOZS0c8bxgZ2xH8MZ6CNEbqIFr2QPrhvHGShz-jeOCO4y-dGfEYtlj-vXvbZL8GzZzBZbXE5pjFZmaHeTSIXBEPQsCUr/s1600/FC+Ingolstadt+04256x.png",
+    "city_country": "Ingolstadt, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ingolstadt_04"
+  },
+  {
+    "club_name": "Erzgebirge Aue",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_0FWtAch8mfbgVORlFoEDvwEPV4iE2RWGGMRwqSZrUyRrAl6bIkP6Soaw0WZCZjh6vZ4ihV9DQdci9UnxBPNJguUuqiufWA-SKTz3-TTrusrmppNzQIEmTxSmbG_u3cacFM9RWOjXk1wF/s1600/FC+Erzgebirge+Aue256x.png",
+    "city_country": "Aue, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Erzgebirge_Aue"
+  },
+  {
+    "club_name": "1. FC Saarbrücken",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCu0cRfrrmfoSDSiRzKf84OyGBFJDz-LJvUm5X4ycCsIz6tFDu35GIbxTjEr2RnYzTSatF2VqoMucx6jnID1ITvMRunDMeAmhcw9zIBiDAg257CeXX0mLkN9KpAJ5elJDgrls_HI3yF0A/s256/1+FC+Saarbrucken256x.png",
+    "city_country": "Saarbrücken, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Saarbr%C3%BCcken"
+  },
+  {
+    "club_name": "San Martín de Tucumán",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK_ke_Hbb5fqWbteX_T9W6ahmbZflDz9HualslllgyHpxLbIK1DWW3j2UcBzHoj89pqo5pqK1MR4Ciuqhs_GGi2FHLTxmjg9mWxCzaUd5XUSPdsQETpivtKuOgdDfWokFUVC90ZGRoRtw/s1600/Club+Atletico+San+Martin256x.png",
+    "city_country": "San Miguel de Tucumán, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_San_Mart%C3%ADn_(Tucum%C3%A1n)"
+  },
+  {
+    "club_name": "Mitre",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJWu6DhYn0ROs7YMzcT7ztwNeT1NNtMbk9sB3iUPciO7CHZnRoiiY8vt-bpjkSi-MutnB7lBpTSqSmArqQJkfGOehtdSpCUIwDx5pGCFYyfRJSWC68HE-P9_6yCjQX-SgtMqMNIo3Ye4Y/s1600/Club+Atletico+Mitre256x.png",
+    "city_country": "Santiago del Estero, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Mitre"
+  },
+  {
+    "club_name": "Sporting Cristal",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3rtlhrGDj2xV-5N174wFzvVUWk1Psn8lWeJ-p1XB7aS-IytxLbQnLEvkqpG6f99Vc2VyXIhbbcB7kalNSE0mTh_8q3NImgPFNEf5HTSfTScWIFH2OkZGjCuCNsMj04wSvt4zkLsoLjEJdZMkKm74oPy21verBM0LPuFk_mEt6mtLDwvtzeofm5CmW1oU/s256/Club%20Sporting%20Cristal256x.png",
+    "city_country": "Lima, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Sporting_Cristal"
+  },
+  {
+    "club_name": "Juan Pablo II College",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7kH78B0m_z84ZQTPN48yFWBvK7w-ZqO8ck7zcmlG3IffEF-wb23PsPCVSXiVzh2WUvlGchjXsBPQagSuj2KeieDpSL7PjuZ9QWv3CcOaD5d3Nj5uczLU16OPgUjWUP6VR4IQ9COt9bE_w_6sURPlKkLfkTLpAxw_W5bKvG4hCVRvJwqfzwZA5xCvUppU/s256/Juan%20Pablo%20II%20College256x.png",
+    "city_country": "Lima, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Juan_Pablo_II"
+  },
+  {
+    "club_name": "Cienciano",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFE6ADVY9OrLBanScn007Wx7m5JjRORcUHB8m_8XJD3soQ8KRgGrCjRqP1Jo4QwQWRyaMIwb6GBL2WecJKm6xqjL9-Kli759cF3m7JVTGENfKB4WMgrnOaRFAd1tmJ6MRZ8I5dfZxS-Rw/s1600/Club+Sportivo+Cienciano+256x.png",
+    "city_country": "Cusco, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Sportivo_Cienciano"
+  },
+  {
+    "club_name": "Cusco FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwPkXICR7t3E4gpl8fIr2vL7sV1JjkHqPKEjmKPUq2z_QsVQNi9ug-nH1XbpWA3eu2OJ7HTn_T0q06ELe8HSpAhVVpcrYqHTBB4c8EfJACgg2fjzOP-byCak0TGzbgPxMK-mz6mmLTDHc/s256/Cusco+FC256x.png",
+    "city_country": "Cusco, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cusco_FC"
+  },
+  {
+    "club_name": "FBC Melgar",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5M1NDqBo1SRBhNQTPKRH3eaDW4fGlZC3KdTcktNpPco2A4HmuWR4HinwHCKYt5iLRvVb4sDH2PfJ3mYHeaOfaWdJh7eobqek2jTOVFfTmmdlJGfW1ziFT_WaX3ssQT6AN6VSunu40zI8/s1600/FBC+Melgar256x.png",
+    "city_country": "Arequipa, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/FBC_Melgar"
+  },
+  {
+    "club_name": "Oriente Petrolero",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHmpS4QdiNkkFBXronJXl0By7QPqo-HUEsHatLeWTIVAAWEeac-AubA6wLNS8k_MRHwPcq6lwZu-hLpQIkG74UIhumx52w9mijlhDaoJ5LswsF5mXLFXkM3kRB-bvuL9P9LbYmbibAwy4/s1600/CD+Oriente+Petrolero256x.png",
+    "city_country": "Santa Cruz de la Sierra, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Oriente_Petrolero"
+  },
+  {
+    "club_name": "The Strongest",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNZTY0NVVnAN_gMtpOvFsJuISDq_dO16vjIn85o3MTPjHzIpR0javC4FxqmwsKfW_LCdIcAGN2C24FWKQQj0_9TiXdvZTgXS_6x4KdOhEt_nn6-Gyu_Khs6wlkwtG3cr1kPdPkVe5ACDs/s1600/The+Strongest256x.png",
+    "city_country": "La Paz, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/The_Strongest"
+  },
+  {
+    "club_name": "Always Ready",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMlDUEpyPwkgo_7UKbGmjXtMLHIfCkCnM0MX5pa0Ll-_fy4q71rZbxxNOTZKYHOKHoNN6fiAklXbNrL5975oMvfQB6sb5QQtK_M30lygrufo0nHV_KZPtgcPR9nRrz20ot0F_-6x5mOgk/s256/Club+Always+Ready256x.png",
+    "city_country": "La Paz, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Always_Ready"
+  },
+  {
+    "club_name": "Universitario",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8pOeNtT4wMZbbvyLOhNXC8byaSoLmsXCSnG8GSjwEJXanr9maSOBciRNLhqTkVQ1LVO1UAhOLri9D4Nt9OZFADhJh-UelGmipI5zUu46kvs9wyp30cJoSl_QoAijCabeEM45kgQ14mS4/s1600/Club+Universitario+de+Deportes256x.png",
+    "city_country": "Lima, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Universitario_de_Deportes"
+  },
+  {
+    "club_name": "Alianza Lima",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF1WXMNyE13kYKeyPHk22jRgPrvmPp1hrMwicQgYYIbJSJs4CVKV4P2nAw7aVVjMphDn-0m-L8KvaFZ-VT_56XUal7sTULdWpJkrz47q4PTKO4_MKdE7DYhDHR74t8DAl3aYrlOyH5HyE/s1600/Alianza+Lima256x.png",
+    "city_country": "Lima, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alianza_Lima"
+  },
+  {
+    "club_name": "Cerro Porteño",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_jS_AYV_ihhYe_14586-lcoLWE-4uCQAe3PH3clCv4tra2qEtl6aCNziIMQ91vgfyUIfIjnx0MCJ2OgE6J-Oflwb4jcL9z2tnb0Jp9ah2SirVVYFzOFQtrF00o-CNKL3qazE6J4C2UxVhJcn028iSfDPLEbjZLNJ0JbRw2SoK57QYpunfU4b9NgeP/s256/Club%20Cerro%20Porteno256x.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cerro_Porte%C3%B1o"
+  },
+  {
+    "club_name": "Guarani",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEganiug6BiC7NWF3jNxtI6Un2akwOTvdeXFDjrVwyF9YbKRlBHkQdLP7mdXzIcaiiuMbpN-Pxj_uHTEJ8gQ_gdcl98pzN2jzzRlHtrbDrtMs7m-vCnwTvHrma4Q1CtwttsIPcBPsPVvIPc/s256/Club+Guarani256x.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Guarani"
+  },
+  {
+    "club_name": "Club Nacional",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwgh6os5Tc22Mj9ALtNr-mF2N7cyfiA6uwCW74_azCxfVThgLF5g90Po3TJglMJ3iRtmdgJQSSbUyveNnMG_mjyhkkc2mhPdbPGzcTbl-gSqh3A_08zis4oVor8QiwlQDyEUq3axGVc-E/s1600/Club+Nacional256x.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Nacional_de_Football"
+  },
+  {
+    "club_name": "Olimpia",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRr8MPwHP8YV3U-pdt5a5hbPU9Yk_xi6l7OVWhyZQ6klQP2qsaBI_PCPeTE_Gvd4ZBZvl2zUz0iOE_tWWfmRIZLCAQttGnYY15A8D7-ZTMqvRGkpZnDCq7zrJgBQF55PKOqC1KgzKNa9o/s1600/Club+Olimpia256x.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Olimpia"
+  },
+  {
+    "club_name": "Libertad",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnseUSgGl0u5re4DbO0e_ELTIsM5CqWHspQWgITux3KsLSk8gfhVmpJVlUpYtbTb6u6buE6G6AEp6PWhHI2PbzObo1gq5znrSChZL0eL5MsAWAHrAcuhpgC-oNY08IYsJsenG3JsREpEs/s1600/Club+Libertad256x.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Libertad"
+  },
+  {
+    "club_name": "Sportivo Luqueño",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnSSYJXqWwJBlutNMPZQGN0QyLNbGpbnWKr_f3b5IyW3kBDnKQDfpm5HI8P-auVBPFLZalYwkUNiHJtPgrAU75d8nzeqxxf6l9zOlq9iozSTFDW5tLh9Fs7Khf_Cm-eFoLTdWdISz3X0jr88jwjBJt3tMfexnQtJ-CmY62S6R6uDd4Y2f_UvZ9vS59/s256/Club%20Sportivo%20Luque%C3%B1o256x.png",
+    "city_country": "Luque, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sportivo_Luque%C3%B1o"
   }
 ]
