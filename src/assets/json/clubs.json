@@ -4791,5 +4791,89 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Weston-super-Mare_AFC_logo.svg/240px-Weston-super-Mare_AFC_logo.svg.png",
     "city_country": "Weston-super-Mare, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Weston-super-Mare_AFC"
+  },
+  {
+    "club_name": "Chonburi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1b/Chonburi_FC_Logo_2024.png",
+    "city_country": "Chonburi, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chonburi_F.C."
+  },
+  {
+    "club_name": "Police Tero",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOsJ8Dz4gqE6HCNOBGzV7ioyENdvddfIikW8kHvs1BaCJqXFgu_7WaYR1Or0r8UF50Z4rdkVYr0y87lc2vOSD8GygEG7bQerztB-xqUC9QWvDjt_FxZ0B3I3yBKKHBKFd7XgnOz2YiNp4/s1600/Police+Tero+FC256x.png",
+    "city_country": "Bangkok, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Police_Tero_F.C."
+  },
+  {
+    "club_name": "Nakhon Ratchasima",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI1bKAIa1fsUbeNfVW-hG0iRIQkGE_BsT0OYw8upUPrNkri7_f_DdWMqUrq1xifX2yPnvhoM5tla_IGTo2eyhvaUICa5_P1dc7zzW7zZjXTR3DIJ5kbPlhO4AJc-3JbQeX42jzgJHDew8/s1600/Nakhon+Ratchasima+FC256x.png",
+    "city_country": "Nakhon Ratchasima, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nakhon_Ratchasima_F.C."
+  },
+  {
+    "club_name": "BG Pathum United",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhP3nHhi6Zj3S1-NBeaRW0TW8f455qTuuNcOLsV-k2hbO_XyQIz3rVPjgRv3bcdBJ14YYvWZFsJjWaY6ZquInU9aFMJX-BlwCdIAEvSnQt7W-KIDzCv-kXtTtvRi2pDNUbdqBLgqygj3gQ/s1600/BG+Pathum+United+FC256x.png",
+    "city_country": "Pathum Thani, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/BG_Pathum_United_F.C."
+  },
+  {
+    "club_name": "Rayong FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDr3JjCti9uDhOIf68bsy4DHvKtmmd1quKdLQc-ndeiFn8oD7GsCtZ-8PR1GWcAikwOUr2zWr_CNNrYmqRngpp3SKF6DH03jM-6HHrF68pfidY5EbyVBJpUCSYYUZD9_sm2ikFXNNHHTPU-S4RTOx0lG1gStzJU0ru3EFSerFyrLnjrhMehvRRckvx/s256/Rayong%20FC256x.png",
+    "city_country": "Rayong, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rayong_FC"
+  },
+  {
+    "club_name": "Ratchaburi",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisyMQYUcAiiFwZx3vOz6rOkd1493BbOA2sjaPJsx3U10Y1GUKsnO3-93alQ5Rr1LDpaiWcWmypKKKKtW8CrK_8o5hT2U6RXzAP_QmkUE5DlaqcIGMMZkoz9sTAKc5qpH8q64NdSlCXJUCwILjUW3WszceJw1fxSqR3eG_z0sUr8qmKtqnsD94cFbGD/s256/Ratchaburi%20FC256x.png",
+    "city_country": "Ratchaburi, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ratchaburi_F.C."
+  },
+  {
+    "club_name": "Muangthong United",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicwggDVpP3h9nF5ybof0wEFEvQ4DVinIVUoDZjhEiEO0jVUDFF16wgdu3kKNja1P-XH_jAbr1e0QTJA2rmvFYmnuAiMWmZvyvYaZisfrzzk8ZX4oVHfkxTAjoUyqw-E2VQa0CeATgomaw/s1600/SCG+Muangthong+United256x.png",
+    "city_country": "Nonthaburi, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Muangthong_United_F.C."
+  },
+  {
+    "club_name": "Arema",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Arema_FC_2017_logo.svg/227px-Arema_FC_2017_logo.svg.png",
+    "city_country": "Malang, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Arema_F.C."
+  },
+  {
+    "club_name": "Borneo Samarinda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Borneo_FC_logo_%282021%29.svg/233px-Borneo_FC_logo_%282021%29.svg.png",
+    "city_country": "Samarinda, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Borneo_FC"
+  },
+  {
+    "club_name": "Barito Putera",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Barito_Putera_logo-en.svg/239px-Barito_Putera_logo-en.svg.png",
+    "city_country": "Banjarmasin, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Barito_Putera_F.C."
+  },
+  {
+    "club_name": "Persib Bandung",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/85/Persib_Bandung_Football_Logo.png",
+    "city_country": "Bandung, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Persib_Bandung"
+  },
+  {
+    "club_name": "Persija Jakarta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Lambang_Persija_Jakarta.svg/391px-Lambang_Persija_Jakarta.svg.png",
+    "city_country": "Jakarta, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Persija_Jakarta"
+  },
+  {
+    "club_name": "PSIS Semarang",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/PSIS_Logo_with_1_star.svg/252px-PSIS_Logo_with_1_star.svg.png?20230705000541",
+    "city_country": "Semarang, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/PSIS_Semarang"
+  },
+  {
+    "club_name": "Chita",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/30/Logo_of_FC_Chita.png",
+    "city_country": "Chita, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Chita"
   }
 ]
