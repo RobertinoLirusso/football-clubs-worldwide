@@ -33,8 +33,14 @@
  
 footer p {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 300;
 }
+
+.w3-modal p {
+  font-weight: 300;
+}
+
+
 
 .modal-title {
   background: linear-gradient(90deg, #000000, #946b05, #d4af37, #b8860b, #000000);

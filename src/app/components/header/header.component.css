@@ -4,10 +4,10 @@ header {
 }
 
 .title {
-    font-optical-sizing: auto;
+    font-size: 30px;
+    font-family: "Glass Antiqua", cursive;
     font-weight: 400;
-    font-style: italic;
-  
+    font-style: normal;
 }
 
 

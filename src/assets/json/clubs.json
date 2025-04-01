@@ -4872,8 +4872,62 @@
   },
   {
     "club_name": "Chita",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/30/Logo_of_FC_Chita.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/d/dd/LogoFCChita2018.svg/250px-LogoFCChita2018.svg.png",
     "city_country": "Chita, Russia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Chita"
+  },
+  {
+    "club_name": "Pyramids FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUmyvWDIuLjtltBUu74Ba5sc9FYk393W2ZYciKSFu7UjicKoWj6yKnSBH9MhLEifarEk3wxPSgS5zlxqcenR8bpi7i7Pk1fcfDVhi_ddZQ5fBKneeEUB4IM2ly6fZy8sAVnecP-0JTFdyWJti9RwF5-qi4jD7rPk8hNHFP6T8ZLC8l6M-I8d4sgfTTtKI/s256/Pyramids%20FC256x.png",
+    "city_country": "New Cairo, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pyramids_F.C."
+  },
+  {
+    "club_name": "El Gouna",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/El_Gouna_FC_Logo_2017.png",
+    "city_country": "El Gouna, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/El_Gouna_F.C."
+  },
+  {
+    "club_name": "Petrojet",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/5d/Petrojet_SC_2017.png",
+    "city_country": "Suez, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Petrojet_SC"
+  },
+  {
+    "club_name": "Ghazl El Mahalla",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b0/Ghazl_El_Mahalla_SC_new_logo.png",
+    "city_country": "El Mahalla El Kubra, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ghazl_El_Mahalla_SC"
+  },
+  {
+    "club_name": "Ceramica Cleopatra",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/94/Ceramica_Cleopatra_FC_logo.png",
+    "city_country": "Giza, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ceramica_Cleopatra_FC"
+  },
+  {
+    "club_name": "ENPPI SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/22/ENPPI_Club_Logo.png",
+    "city_country": "Cairo, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/ENPPI_SC"
+  },
+  {
+    "club_name": "Club Africain",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c5/ClubAfricainlogo.gif",
+    "city_country": "Tunis, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Africain"
+  },
+  {
+    "club_name": "CS Sfaxien",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYAhoqMwHZkSd-vuD4AQnjSgBRhkirK3-833D6Lgb9zLREs4vlXIebVfEA30yR3V2wGLzIiwoyfCqiEYJ_aG4xznuf3kb8tZFYSNKSpW6yXN1OqHfVQGbfFAa9dy_vBMpiYLC_9TTxIM4/",
+    "city_country": "Sfax, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/CS_Sfaxien"
+  },
+  {
+    "club_name": "Etoile Sportive du Sahel",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXbgNuoNgZ7KZ84yrdg3zaqKoTuqE5CzbUanvcYZQLD-S2-NKWLjzJYYgLaBSQ4I_XWmwRFtKuGkglo4K6XfeIbZweXZsPaWDNp7DoJ4_GX1uS0rmMVINZAWq0pBTxSiHekB9v766HE9KtMnFHPkrjT--hsJETCCUU4DJczyRBmaiOPhh8NgCTdx9J/s256/%C3%89toile%20Sportive%20du%20Sahel256x.png",
+    "city_country": "Sousse, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%89toile_Sportive_du_Sahel"
   }
 ]
