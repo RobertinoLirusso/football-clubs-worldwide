@@ -10,6 +10,7 @@ import { CardComponent } from './components/card/card.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
+import { GuessClubComponent } from './pages/guess-club/guess-club.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     NotfoundComponent,
     CardComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    GuessClubComponent
   ],
   imports: [
     BrowserModule,
