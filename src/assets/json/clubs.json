@@ -18,22 +18,22 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Orlando_Pirates_F.C."
   },
   {
-    "club_name":"Alebrijes de Oaxaca", 
-    "club_logo":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzWCd4j0HhJ1BGX7qicYjXhsk-1nZcFUervJBf9JU9zZgGeT-NaSiENx5x0L6vh4p6KiLgOD-XvXOC4Lr67q2aaxs3AiW1MA0n8vr4rpk9Bp_UJD4l4wRBcBJGouJ0NBOz2FNlZKpgSLwubVhIBE1KQsLOVjL3MsRhVjOQbTTLukcWHyrFrL2NZW3Qzbc/s256/Alebrijes%20de%20Oaxaca256x.png",
-    "city_country":"Oaxaca de Juarez, Mexico",
-    "wiki_url":"https://en.wikipedia.org/wiki/Alebrijes_de_Oaxaca"
+    "club_name": "Alebrijes de Oaxaca",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzWCd4j0HhJ1BGX7qicYjXhsk-1nZcFUervJBf9JU9zZgGeT-NaSiENx5x0L6vh4p6KiLgOD-XvXOC4Lr67q2aaxs3AiW1MA0n8vr4rpk9Bp_UJD4l4wRBcBJGouJ0NBOz2FNlZKpgSLwubVhIBE1KQsLOVjL3MsRhVjOQbTTLukcWHyrFrL2NZW3Qzbc/s256/Alebrijes%20de%20Oaxaca256x.png",
+    "city_country": "Oaxaca de Juarez, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alebrijes_de_Oaxaca"
   },
   {
-    "club_name":"Bristol Rovers",
-    "club_logo":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgZ1rmZ0ZgguRSdePLXmEDy5Cwtsx3qEwNJNHuPwSB8LlW7wVGChQGVRJevJihEEASuFop1g3B-ATJkMrkVn3WVbOaBTu2qZzfahOV_87karUnCdA5BiZawLts8ATEN7Q8rL-kCUNxQ1g/s1600/Bristol+Rovers+FC256x.png",
-    "city_country":"Bristol, England",
-    "wiki_url":"https://en.wikipedia.org/wiki/Bristol_Rovers_F.C."
+    "club_name": "Bristol Rovers",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgZ1rmZ0ZgguRSdePLXmEDy5Cwtsx3qEwNJNHuPwSB8LlW7wVGChQGVRJevJihEEASuFop1g3B-ATJkMrkVn3WVbOaBTu2qZzfahOV_87karUnCdA5BiZawLts8ATEN7Q8rL-kCUNxQ1g/s1600/Bristol+Rovers+FC256x.png",
+    "city_country": "Bristol, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bristol_Rovers_F.C."
   },
   {
-    "club_name":"FC Den Bosch",
-    "club_logo":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSidzl1LoeOiU1AKbbaZmqforhUSiw6RKHVrBOAPkHTqybOJUJHD6yDCUmgg_J_5w3ix3vPosd1OtO4cNxJy4qaH5oUB6Wt_LtVu0Y39IKkBu3pFH4shEPDB9TLHoTUzjen9_fb4tC8ys/s1600/FC+Den+Bosch256x.png",
-    "city_country":"s-Hertogenbosch, Netherlands",
-    "wiki_url":"https://en.wikipedia.org/wiki/FC_Den_Bosch"
+    "club_name": "FC Den Bosch",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSidzl1LoeOiU1AKbbaZmqforhUSiw6RKHVrBOAPkHTqybOJUJHD6yDCUmgg_J_5w3ix3vPosd1OtO4cNxJy4qaH5oUB6Wt_LtVu0Y39IKkBu3pFH4shEPDB9TLHoTUzjen9_fb4tC8ys/s1600/FC+Den+Bosch256x.png",
+    "city_country": "s-Hertogenbosch, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Den_Bosch"
   },
   {
     "club_name": "Ascoli Calcio",
@@ -168,10 +168,10 @@
     "wiki_url": "https://en.wikipedia.org/wiki/M%C3%A9rida_AD"
   },
   {
-    "club_name": "Slavia Praha",
-    "club_logo": "https://slavia.esports.cz/files/logos/sla.png",
-    "city_country": "Prague, Czech Republic",
-    "wiki_url": "https://en.wikipedia.org/wiki/SK_Slavia_Prague"
+    "club_name"   : "Slavia Praha"                                  ,
+    "club_logo"   : "https://slavia.esports.cz/files/logos/sla.png" ,
+    "city_country": "Prague, Czech Republic"                        ,
+    "wiki_url"    : "https://en.wikipedia.org/wiki/SK_Slavia_Prague"
   },
   {
     "club_name": "Viktoria Plzen",
@@ -333,7 +333,7 @@
     "club_name": "Tottenham Hotspur",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuD35NKdSm1ya2vS5eA-ScjEEhIRXvR9vSInbiNKmSjYztrRQrjq2vLKo8pKX2qx3obOkj8C-Q_o8VG9mRmGu-tyd26okU26MiEBHvq7WbXqILgVw44-0YQj6igdi3lSxfPgSGgXls8oljQ7KWJ0zKTF0SYfSJJl-UWfcsAaLX7R65iS6_bQRTW5T1eBA/s256/TOT256x.png",
     "city_country": "London, England",
-    "wiki_url": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C." 
+    "wiki_url": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
   },
   {
     "club_name": "Manchester City",
@@ -1833,7 +1833,7 @@
     "club_name": "St. Louis City",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEf3iYkxd6KLgPwzcc20XRiVxrQcWqTgj4B5PkuBnd6dlqyQidfjlBU4MJ_SR3ILJwMbTisQDjTiKpmkwbX9yKTx15ix55yWC2R4rz9uUnLgwI0wiP7Q7Fcm_WRq79X3Hgh4sMv7TB0HQ/s256/St+Louis+City+SC256x.png",
     "city_country": "St. Louis, United States",
-    "wiki_url": "https://en.wikipedia.org/wiki/St._Louis_City_SC" 
+    "wiki_url": "https://en.wikipedia.org/wiki/St._Louis_City_SC"
   },
   {
     "club_name": "FC Cincinnati",
@@ -3614,12 +3614,12 @@
     "club_name": "Burnley",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkmTQmEl8i_XFy-f8G3L4u9yJp72NO0kmGeFRm6r7yW4a7DGwucTOUco88-03o8CahpLyA4im6AASvtUmRxmU7EQTHjQnx_njFyuT8FfA-x3LFt-kIoVWFRahLlSPg5qjY9Hqm7vG0kJiSjGoiA87T5wf3nsvC09mKMHBv_n-dY58BvUCxFRYtCn6Qvxk/s256/Burnley%20FC256x.png",
     "city_country": "Burnley, England",
-    "wiki_url": "https://en.wikipedia.org/wiki/Burnley_F.C."  
+    "wiki_url": "https://en.wikipedia.org/wiki/Burnley_F.C."
   },
   {
     "club_name": "Middleborough",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizS_9Wkj_B9VhttSqYlpXtJOxR5MpuoMymMhfB2lb5mX-xHOTeLXyXnYXX945YyQEuNJKYn_zkJ228uXgsBskIwlEAE7gIwskpYM4mdzKF_adusZUDbyzXVjSvYYg8GNacvwGsTu-nv1d5/s1600/Middlesbrough+FC256x.png",
-    "city_country": "Middlesbrough, England", 
+    "city_country": "Middlesbrough, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Middlesbrough_F.C."
   },
   {
@@ -3631,11 +3631,11 @@
   {
     "club_name": "Sheffield United",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtQKgfEvigrXxZRZnDNxI1ZuB6SjFjlaoJewX1200213yYTUV6iLHcUCSHTBT8_ctKvDGesqlMWxVv_SCkxTaNxTM2RIrSV-eq7e3ndLdOUOBivnxoe0mHkMynAW4SHYVv6QoVQGajXUc/s1600/Sheffield+United+FC256x.png",
-    "city_country": "Sheffield, England", 
+    "city_country": "Sheffield, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Sheffield_United_F.C."
   },
   {
-    "club_name": "Hull City", 
+    "club_name": "Hull City",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCZNS5qqHBwixkyYnBlwGuuxcYvb7snwFs0Pt9tl_NejgM303YL_5UwWBM_pvnZVRCyNCNWQFWCinRYQOlbPuFWQWlOaiFrX_-ylJZCQ7IUwC449kVzyNBN6cXQC7Zxav_EZzJg-8P-fw/s256/Hull+City+FC256x.png",
     "city_country": "Kingston upon Hull, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Hull_City_A.F.C."
@@ -4947,5 +4947,125 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGRTpZCC7nHdJyRKHlSJgmhfAnFvwMBj5zMQmGuV8pklPGezpzJeGIYMQl1aFGizZQENYTjoUia-QFzuUsvXo2JmceMAPMERvuJbvSr8UANEdtKpvbQskBx__ex1nuOFi7M-TitxCtTgc4G4Fm7oB-0zZCPsHuQiJB-W6a3Y4QY0fh8lEdhAkplC6Q/s256/CS%20Sedan%20Ardennes256x.png",
     "city_country": "Sedan, France",
     "wiki_url": "https://en.wikipedia.org/wiki/CS_Sedan_Ardennes"
+  },
+  {
+    "club_name": "Aberystwyth Town",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/29/Aberystwyth_Town_FC_logo.png",
+    "city_country": "Aberystwyth, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aberystwyth_Town_F.C."
+  },
+  {
+    "club_name": "Bala Town",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/35/Bala_Town_F.C.png",
+    "city_country": "Bala, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bala_Town_F.C."
+  },
+  {
+    "club_name": "Barry Town United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fd/Barry_Town_United_F.C._Crest.png",
+    "city_country": "Barry, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Barry_Town_United_F.C."
+  },
+  {
+    "club_name": "Briton Ferry Llansawel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/6d/Briton_Ferry_Llansawel_A.F.C.png",
+    "city_country": "Briton Ferry, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Briton_Ferry_Llansawel_A.F.C."
+  },
+  {
+    "club_name": "Caernarfon Town",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4a/Caernarfon_Town_F.C.png",
+    "city_country": "Caernarfon, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Caernarfon_Town_F.C."
+  },
+  {
+    "club_name": "Cardiff Metropolitan University",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0f/Cardiff_Metropolitan_University_F.C..png",
+    "city_country": "Cardiff, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cardiff_Metropolitan_University_F.C."
+  },
+  {
+    "club_name": "Connah's Quay Nomads",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Connahs_Quay_Nomads_FC_logo.svg/295px-Connahs_Quay_Nomads_FC_logo.svg.png",
+    "city_country": "Connah's Quay, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Connah%27s_Quay_Nomads_F.C."
+  },
+  {
+    "club_name": "Flint Town United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/8c/Flint_Town_United_F.C._logo.png",
+    "city_country": "Flint, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Flint_Town_United_F.C."
+  },
+  {
+    "club_name": "Haverfordwest County",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/7b/Haverfordwest_County_FC_badge.png",
+    "city_country": "Haverfordwest, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Haverfordwest_County_A.F.C."
+  },
+  {
+    "club_name": "Newtown",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/70/Newtown_FC.PNG",
+    "city_country": "Newtown, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Newtown_A.F.C."
+  },
+  {
+    "club_name": "Penybont",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Pen-y-Bont_F.C.svg/289px-Pen-y-Bont_F.C.svg.png",
+    "city_country": "Bridgend, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Penybont_F.C."
+  },
+  {
+    "club_name": "F91 Dudelange",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDfnFQTjaqTyW2Ggu9ZsPuu33S-1oNxmjs0rGmPy8127ZurQqrK5i8rJ6zPdltkvnnqMx_7otKpnFYsrrmqk1AIx031cPEoU_GakI5AsYglM9_DZzqJetmf10nLtC_QOi8M7-Y9ZvgzLstTJWh0ZVVcwtluMQQtd8Yj1hWgDqkIbMwCI7nAGt2lzwN/s256/F91%20Dudelange256x.png",
+    "city_country": "Dudelange, Luxembourg",
+    "wiki_url": "https://en.wikipedia.org/wiki/F91_Dudelange"
+  },
+  {
+    "club_name": "Differdange 03",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Logo_fcd_grand.svg/327px-Logo_fcd_grand.svg.png",
+    "city_country": "Differdange, Luxembourg",
+    "wiki_url": "https://en.wikipedia.org/wiki/Differdange_03"
+  },
+  {
+    "club_name": "Racing FC Union Luxembourg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/RacingUnion.png/250px-RacingUnion.png",
+    "city_country": "Luxembourg City, Luxembourg",
+    "wiki_url": "https://en.wikipedia.org/wiki/Racing_FC_Union_Luxembourg"
+  },
+  {
+    "club_name": "US Mondorf-Les-Bains",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/24/US_Mondorf-les-Bains.png",
+    "city_country": "Mondorf-les-Bains, Luxembourg",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Mondorf-les-Bains"
+  },
+  {
+    "club_name": "LASK",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzVaNVv9YAkupxjcgM01RktahjDJe7hk5vvJa7y9eJo5RxGjs-bzF_OOGF6U7ZBruSpHFnhIZ4GFw6ZujT3ThG-Q06nDk91DTlPvQAabw_nAeISxAB9BrNmsvgCCcegQm9bKG8HMmCKMSTTUTNzoJy-ZXdbyPAAeyyHImY1wHdFMtdsyt26OAli7bGFBo/s256/LASK256x.png",
+    "city_country": "Linz, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/LASK"
+  },
+  {
+    "club_name": "FC Wacker Innsbruck",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLODECnawu2GILl2_AfmFaMnvodt03LuTBQzeyerLXXAE2XIlRyQTA1fbtRYq-l9Jm7s0wsJPIQ-_2tvytBhKK0HOEiYRt0etltDEFaZNkspsGAWtqEw_VS23QV-lxctCkyRUGslDp5FU/s256/FC+Wacker+Innsbruck256x.png",
+    "city_country": "Innsbruck, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Wacker_Innsbruck"
+  },
+  {
+    "club_name": "Admira Wacker",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1houdCF6OVTiJlm90wcN9nODmIcbvgx2rKh2RxDH40abSrGRH9cEvwUvpXNMartfU0neW_ZoH3rAB5Y9d0QX-ULI71i3M_TzYxzYGMxQpHz3UTM4avsAp8V-z07q-LI954BgukuDZxBLxxrFB2ZvfFKIAW5jVop_XIN3QywwMSHFDtrYM2KgybgI2UKY/s256/FC%20Admira%20Wacker256x.png",
+    "city_country": "Maria Enzersdorf, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Admira_Wacker_M%C3%B6dling"
+  },
+  {
+    "club_name": "FC Liefering",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a0/FC_Liefering_logo.png",
+    "city_country": "Salzburg, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Liefering"
+  },
+  {
+    "club_name": "Wolfsberger AC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxERqJki6LkVXse-wKJQdG6MfIZmhsMZ5wtyUqA3Pq_Bu1XwWfYuX1mPckMNJdGHQKTz0roZDI7W3NylFuYZLWQYFUo2IXMY7wOM7a9CsnEubGZDxyWhz8SBSlAGeguOFNVSLTrSwI2PM/s1600/Wolfsberger+AC256x.png",
+    "city_country": "Wolfsberg, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wolfsberger_AC"
   }
 ]

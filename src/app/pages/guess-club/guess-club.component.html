@@ -1,15 +1,13 @@
 <div class="container">
     <app-header></app-header>
-    <div class="w3-container w3-center w3-padding">
+    <div class="w3-container w3-center">
         <h2><i class="fas fa-gamepad"></i> Guess the Club!</h2>
 
         <div *ngIf="!gameOver">
-            <!-- Logo del Club -->
+            <!-- Club Logo Blurred -->
             <div *ngIf="selectedClub">
                 <img [src]="selectedClub.club_logo" class="club-logo blurred">
             </div>
-
-            <!-- Opciones de Respuesta -->
             <div class="w3-margin-top">
                 <button *ngFor="let option of options" 
                         (click)="checkAnswer(option)" 
@@ -18,30 +16,28 @@
                 </button>
             </div>
         </div>
-
-        <!-- Mensaje Final y Logo sin desenfoque -->
         <div *ngIf="gameOver">
-            <!-- Logo del Club sin desenfoque -->
+            <!-- Club Logo Normal -->
             <div *ngIf="selectedClub">
                 <img [src]="selectedClub.club_logo" class="club-logo">
             </div>
 
-            <!-- Mensaje de Acierto -->
+            <!-- Exit Message -->
             <h3 *ngIf="isCorrect">
                 <i class="fas fa-check-circle"></i> Correct! It's {{ selectedClub.club_name }}!
             </h3>
 
-            <!-- Mensaje de Error -->
+            <!-- Error Message -->
             <h3 *ngIf="!isCorrect">
                 <i class="fas fa-times-circle"></i> Wrong! The correct answer was {{ selectedClub.club_name }}.
             </h3>
 
-            <!-- Mostrar la racha actual si el jugador acierta -->
+            <!-- Player Streak -->
             <h3 *ngIf="isCorrect">
                 Your Streak: {{ streak }} correct answers in a row!
             </h3>
 
-            <!-- Mostrar el resultado final si el jugador pierde -->
+            <!-- Final Player Streak -->
             <h3 *ngIf="!isCorrect && lastScore > 0">
                 You got {{ lastScore }} correct answers in total!
             </h3>
