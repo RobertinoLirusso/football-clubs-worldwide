@@ -13,6 +13,9 @@ export class GuessClubComponent implements OnInit {
   options: string[] = [];
   gameOver: boolean = false;
   isCorrect: boolean = false;
+  streak: number = 0; // Inicializa la racha
+  lastScore: number = 0; // Última cantidad de respuestas correctas antes de fallar
+  totalCorrectAnswers: number = 0; // Total acumulado de respuestas correctas en todo el juego
 
   constructor(private clubService: ClubService) {}
 
@@ -47,6 +50,15 @@ export class GuessClubComponent implements OnInit {
   checkAnswer(answer: string): void {
     this.gameOver = true;
     this.isCorrect = (answer === this.selectedClub.club_name);
+    
+    if (this.isCorrect) {
+      this.streak++; // Incrementar la racha
+    } else {
+      this.lastScore = this.streak; // Guardar la última racha
+      this.streak = 0; // Reiniciar la racha si la respuesta es incorrecta
+    }
   }
+  
+  
 
 }
