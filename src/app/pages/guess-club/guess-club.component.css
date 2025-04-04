@@ -4,6 +4,7 @@
   min-height: 100vh;
 }
 
+
 .w3-container {
   flex-grow: 1;
   display: flex;
@@ -22,7 +23,7 @@
 }
 
 .blurred {
-  filter: blur(4px);
+  filter: blur(5px);
 }
 
 .w3-margin-top {
@@ -35,8 +36,16 @@
 .w3-btn {
   padding: 10px 20px;
   font-size: 18px;
+  color: #e1b661 !important;
+  text-transform: uppercase;
+}
+
+.back-btn{
+  color: white !important;
+  text-transform: none;
 }
 
 h3 {
   margin: 10px 0;
+  
 }

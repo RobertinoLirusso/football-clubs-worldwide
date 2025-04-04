@@ -1,7 +1,7 @@
 <div class="container">
     <app-header></app-header>
     <div class="w3-container w3-center">
-        <h2><i class="fas fa-gamepad"></i> Guess the Club!</h2>
+        <h2 class="w3-padding"><i class="fas fa-gamepad"></i> Guess the Club!</h2>
 
         <div *ngIf="!gameOver">
             <!-- Club Logo Blurred -->
@@ -49,6 +49,14 @@
         </button>    
         </div>
 
+        <!-- Back Button -->
+        <div class="w3-margin w3-padding">
+            <a href="/">
+                <button class="w3-btn w3-black w3-medium back-btn">
+                    <i class="fas fa-arrow-left"></i> Go Back
+                </button>
+            </a>
+        </div>
     </div>
     <app-footer></app-footer>
 </div>
