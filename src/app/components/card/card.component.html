@@ -1,6 +1,6 @@
 <div class="w3-container w3-center w3-margin">
   <div class="promo-link w3-margin-bottom">
-    <a routerLink="/game" class="w3-btn w3-black" title="Play Guess the Club!">
+    <a routerLink="/game" class="w3-btn w3-black title-game" title="Play Guess the Club!">
       <i class="fas fa-gamepad"></i> Guess the Club Game
     </a>
   </div>
@@ -55,7 +55,7 @@
       <p><strong>Location:</strong> {{ selectedClub.city_country }}</p>
       <p><strong>More Info:</strong></p>
       <div class="w3-center">
-      <a [href]="selectedClub.wiki_url" target="_blank" class="w3-btn w3-medium w3-border w3-margin-bottom">
+      <a [href]="selectedClub.wiki_url" target="_blank" class="w3-btn w3-black w3-medium w3-border w3-margin-bottom">
         Visit Additional Link
       </a>
       </div>
