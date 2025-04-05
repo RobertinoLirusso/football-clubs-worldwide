@@ -5157,5 +5157,41 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/39/Queens_Park_FC_crest.png",
     "city_country": "Glasgow, Scotland",
     "wiki_url": "https://en.wikipedia.org/wiki/Queen%27s_Park_F.C."
+  },
+  {
+    "club_name": "AEL Limassol",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC8MVDG1ZUdyC8XrtWaHTnrE2JIQlpvj79SfgCjir1xUtFKTUEVzOYMd5QHcMWRuXtj4HYfq2hJN3omBFeJg-w-3ql34lbK2kAr_DWGYrsdNkQSbNdALqIlei-JP-_CLYWWygSRmqvH7c/s256/AEL+Limassol+FC256x.png",
+    "city_country": "Limassol, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/AEL_Limassol_FC"
+  },
+  {
+    "club_name": "Apollon Limassol",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc5nLH4BdUeFloVW4JQPvw6FcUJSYFqvKqwPWbziQemNPfAy53PG1BV81KRFO9e1871oUftijWvWM_CM5yOmExPOqJ2jXRmuzP4izls7Nt8pU2aQoBSYRJAUQupCC6Mqdf-teYPH3GvUg/s256/Apollon+Limassol256x.png",
+    "city_country": "Limassol, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Apollon_Limassol_FC"
+  },
+  {
+    "club_name": "Omonia Nicosia",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3O30Hdv7kSsjhZTztH_cmIHIMS71atjXCJ9WZ0cVXklLfbDOy0NytBzIC18ycPvG1ndpmj7PT4k_ReR4xueWS6XiUiWwYZhVn7YMPTenoqkPvijDADNMlUDFew56mF_kK64FhMfiJfMc/s256/AC+Omonia256x.png",
+    "city_country": "Nicosia, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Omonia_Nicosia"
+  },
+  {
+    "club_name": "Anorthosis Famagusta",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxC63h-IATMGRybs0pJDgS7cLQOv3yTMM3halIuJ809ScqJNgCgBRFQbikwm_WKK1eZF0R84pc-Dk6tbdu0Rdzji6A9L-LCjeiX23faxckkWURK4BWTZlSx2zm9ptb98ywQlHkAIPBIYQ/s256/Anorthosis+Famagusta+FC256x.png",
+    "city_country": "Famagusta, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Anorthosis_Famagusta_FC"
+  },
+  {
+    "club_name": "Volos FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbEqnp9FF9lE8_mqApNfkp-Pgpq2ZB3HvZ57_n1dUunhIqLS6L8tegFjJIYzo9kvscPiSa2UTqhI7AsZeF9hKNWtpP7w4WDJTNIJrHHkAYz0sk9_Fb1RiUqwu0W2fIMuFfaLy36t759uM/s256/Volos256x.png",
+    "city_country": "Volos, Greece",
+    "wiki_url": "https://en.wikipedia.org/wiki/Volos_FC"
+  },
+  {
+    "club_name": "Aris Thessaloniki",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu1cmM3zwkAs985n7U_VHQlGCqbnXUR1pEQWb4meTsQJFqeMJCI3MvXOybRd__kvM87FvPN-EFc97tKUqX5bFjEjPNipX_ZFevEWxEX0Rs4EFv9_8CQYAPWgBOcQKlvVprkBOKEiSYoVo/s1600/%25CE%2591ris+Thessaloniki+FC256x.png",
+    "city_country": "Thessaloniki, Greece",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aris_Thessaloniki_F.C."
   }
 ]

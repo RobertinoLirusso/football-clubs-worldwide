@@ -41,6 +41,10 @@ footer p {
 }
 
 
+a {
+  color:#e1b661 !important;
+}
+
 
 .modal-title {
   background: linear-gradient(90deg, #000000, #946b05, #d4af37, #b8860b, #000000);
@@ -131,6 +135,7 @@ footer p {
 .icon {
   color: #e1b661;
 }
+
 
 
   

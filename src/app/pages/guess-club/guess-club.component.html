@@ -1,7 +1,7 @@
 <div class="container">
     <app-header></app-header>
     <div class="w3-container w3-center">
-        <h2 class="w3-padding"><i class="fas fa-gamepad"></i> Guess the Club!</h2>
+        <h2 class="w3-padding"><i class="fas fa-gamepad" style="margin-right: 4px;"></i>Guess the Club!</h2>
 
         <div *ngIf="!gameOver">
             <!-- Club Logo Blurred -->
@@ -43,7 +43,7 @@
             </h3>
 
             <button (click)="startGame()" class="w3-btn w3-margin" 
-            [ngClass]="isCorrect ? 'w3-black' : 'w3-blue'">
+            [ngClass]="isCorrect ? 'w3-black' : 'w3-black'">
             <i class="fas" [ngClass]="isCorrect ? 'fa-arrow-right' : 'fa-redo'"></i> 
             {{ isCorrect ? 'Next' : 'Play Again' }}
         </button>    

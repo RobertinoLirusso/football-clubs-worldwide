@@ -40,12 +40,25 @@
   text-transform: uppercase;
 }
 
-.back-btn{
+.back-btn {
   color: white !important;
   text-transform: none;
 }
 
 h3 {
   margin: 10px 0;
-  
 }
+
+/* Responsive buttons */
+@media (max-width: 600px) {
+  .w3-btn {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  .club-logo {
+    max-width: 250px;
+    height: auto;
+  }
+}
+
