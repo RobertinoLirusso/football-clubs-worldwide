@@ -5193,5 +5193,35 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu1cmM3zwkAs985n7U_VHQlGCqbnXUR1pEQWb4meTsQJFqeMJCI3MvXOybRd__kvM87FvPN-EFc97tKUqX5bFjEjPNipX_ZFevEWxEX0Rs4EFv9_8CQYAPWgBOcQKlvVprkBOKEiSYoVo/s1600/%25CE%2591ris+Thessaloniki+FC256x.png",
     "city_country": "Thessaloniki, Greece",
     "wiki_url": "https://en.wikipedia.org/wiki/Aris_Thessaloniki_F.C."
+  },
+  {
+    "club_name": "1. FC Schweinfurt 05",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/1._FC_Schweinfurt_05_logo.svg/250px-1._FC_Schweinfurt_05_logo.svg.png",
+    "city_country": "Schweinfurt, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Schweinfurt_05"
+  },
+  {
+    "club_name": "Spvgg Bayreuth",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_n7k1UEvixcs5ldndKPwSHD7IBIOf-VKmUnl9Rc-opXcreFYF180sir8ajFXxU8GIqfiwiAixFZlgMsBXI3JuF7T1Ukd78auDYMEWb2AQiKPe1NXnjfZJrM2WBLLFQkksXNuJ10enCvMXSS4MPGW2v5AQ1FETmxrijycY0mDqDFXxnlZzjnM1eY5N/s256/SpVgg%20Bayreuth256x.png",
+    "city_country": "Bayreuth, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SpVgg_Bayreuth"
+  },
+  {
+    "club_name": "VfB Oldenburg",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDB8Xjq_DSMCccDbvcA7ioV0DCDyTA1mRUqHejKm9StPI6xHppEWwKfrA5NcKXoCHoGkOW89JMlGZ0Kfovg2Whcy1W3YZGAZjE_8PWCTITxbt0wkvgGLeqDcwLad7z0kSCIXyaJ8oQyC9-5YfLhNoAZI8U8-baRSKLYA8QwHDAWwfgVhIT4cAyNJRU/s256/VfB%20Oldenburg256x.png",
+    "city_country": "Oldenburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/VfB_Oldenburg"
+  },
+  {
+    "club_name": "Tennis Borussia Berlin",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Tennis_Borussia_Berlin_logo.svg/240px-Tennis_Borussia_Berlin_logo.svg.png",
+    "city_country": "Berlin, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tennis_Borussia_Berlin"
+  },
+  {
+    "club_name": "Viktoria Aschaffenburg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/SVA01_Vereinswappen_%282015%29.svg/250px-SVA01_Vereinswappen_%282015%29.svg.png",
+    "city_country": "Aschaffenburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Viktoria_Aschaffenburg"
   }
 ]
