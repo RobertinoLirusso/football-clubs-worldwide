@@ -20,6 +20,7 @@
   object-fit: contain;
   padding: 8px;
   transition: filter 0.3s ease-in-out;
+  pointer-events: none;
 }
 
 .blurred {
@@ -59,6 +60,7 @@ h3 {
   .club-logo {
     max-width: 250px;
     height: auto;
+    pointer-events: none;
   }
 }
 
