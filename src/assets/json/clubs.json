@@ -5883,6 +5883,42 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Logo_Dolomiti_Bellunesi_Calcio_2024.svg/250px-Logo_Dolomiti_Bellunesi_Calcio_2024.svg.png",
     "city_country": "Belluno, Sedico, Feltre, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Dolomiti_Bellunesi_Calcio"
+  },
+  {
+    "club_name": "Mushuc Runa",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirmw-aHJJVwMDnOwqrYNfyvLC8wwpU3areV3T5yUOYM5BPdfdO96F3zj9svn_g7dUOfrd9FgnGHvb-ug76ob9zqcAtHNy9vJhR434obhEyGpjt0FfDgPyk2vBw8QVg2PKK7FSuDiQCAHg/s1600/Mushuc256x.png",
+    "city_country": "Ambato, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mushuc_Runa_S.C."
+  },
+  {
+    "club_name": "Toluca",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0zsPyWdbWi98e0mMAhLVoN93Wzv7jxeI4eTEJP9_G0_oKSbSeBX7b4pJiX5OmhvijxGzMhcivxGxqXb_B5HLukCJLqAl1ugnQSNXKrpAJ7vs3ELTMq2WinKDuXCn9ApfeTmzkyIlg5gY/s1600/Deportivo+Toluca+FC256x.png",
+    "city_country": "Toluca, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Toluca_F.C."
+  },
+  {
+    "club_name": "Cruz Azul",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcliBYwfRWjLuTYNLNk1nOWEsPHzljkW2n0f4TsdFtYkxzeb5ih26K6-Ynuok5kOlSWJp5U1PXC9E7HD-G2ppEVdV3KT-36wsYmOhvuvOrbglIxa0XlamQuKidVoju4q3L69uQsKWBv7EWGmQzlJgHsbC8Rth7-dfsEshqxr1SWfM1g9wTKHpSsqYb/s256/Club%20de%20Futbol%20Cruz%20Azul256x.png",
+    "city_country": "Mexico City, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cruz_Azul_FC"
+  },
+  {
+    "club_name": "Club León",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglx4pKNVMBAH_gso8ZEMHb-K8hHjt5XBw-qzKWz6GR7plmj8zICMHPOA2lwjOOrVBhy7gpUtZx0cZhOUha6HhaJq34jdB_OjLus3k14_PDZK6mD3Ux1HZ3sz4SNfi5oHBa0zIiCVQyTfBBOoazeqn_PupbZH1Sa9s4_KwRgyjXSs0EnbP5fthh-dmCLRU/s256/Club%20Leon256x.png",
+    "city_country": "León, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Le%C3%B3n"
+  },
+  {
+    "club_name": "FC Juárez",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtzrX7dYTFFqZAxRhnQ-u4nJiYX1h2S39ohVC_9_W8oYajNjQdhV6T1dLId75JTSHFIBfPRm6Vxjv3E3mE0T1RUuJJt5-4elBM7UOLRiI_YaX1hb45b9pPZ5AjhIvlCKzYUew8D7HYX3g/s1600/Futbol+Club+Juarez256x.png",
+    "city_country": "Ciudad Juárez, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ju%C3%A1rez"
+  },
+  {
+    "club_name": "Atlético San Luis",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsxyGhYEu995K3swcC4TZSTMm1wPQrxxbsfau7VP_QCvVh9tHW9KtcoeWh3Vutf6LKAbYU84uUvwyJOYQdg-yioWaoVWDCNwWHyNTu6TwlmBWlmZQSOfNLe0fne6vy5fpz0p5_9HQ2-JFnXkcVI6YpkVFx1AVwsh2yoPaPUgUzQLuttMef0mjmNHs-Fsk/s256/Atl%C3%A9tico%20de%20San%20Luis256x.png",
+    "city_country": "San Luis Potosí, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_San_Luis"
   }
 
 ]
