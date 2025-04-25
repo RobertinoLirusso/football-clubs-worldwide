@@ -5985,6 +5985,96 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/FC_Wil_logo.svg/240px-FC_Wil_logo.svg.png",
     "city_country": "Wil, Switzerland",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Wil_1900"
-  }
+  },
+  {
+    "club_name": "Chornomorets Odesa",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIFqdRmtPpXwVNeNkBPXcDouiQzXKqTstAiBDYcdcVBYY2st7_JMnIXpS24WgoLTaMk7sizC6E3xuVe1cqvJ3Tc6qttjtfeb6karwBksIpK7vgyNpHAKE0wSFIdwGu3OYwvpo0ENI7GSs/s1600/FC+Chornomorets+Odesa256x.png",
+    "city_country": "Odesa, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Chornomorets_Odesa"
+},
+{
+    "club_name": "Inhulets Petrove",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBl1xrabHCr57j73j1OgyFAjmb9f9bQwIeM8iNg_75t8FAFuaMt7vd9rzCnHCorF6H4j2srdQYcYfo78wIEBOyHl7YUl7Uhy9NRV_9XbGY1omUXwaq_yBWJDR68GAHKNGDfX017kbhV_8/s256/FC+Inhulets256x.png",
+    "city_country": "Petrove, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Inhulets_Petrove"
+},
+{
+    "club_name": "Karpaty Lviv",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8TEVwnCs2BtHCzz7zyzQwOmf_XDz4ehA1JO0eE9SSFlHwVG5a2lI6QlOHDY7qbFjCvPV3IZaBflz4MUQPLdq4QeM6Pn1bREB7BwOHI7qzOvbZcUq8OijtuquVUqozZzaCtkevDP744MYNBCauzNdnpf_sX7Qv1_GOZXwTl-363gPmIehuEU_szM1_-rw/s256/FC%20Karpaty%20Lviv256x.png",
+    "city_country": "Lviv, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Karpaty_Lviv"
+},
+{
+    "club_name": "Kolos Kovalivka",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyyIop3ZrlW6qkWZjj7wrFWgBuP74QNp0J6iBPzNAPfk4L4NPVozTnQZli7BhJf985_jR5i7dLcZPM7buvS4bdNv_RbNYKzYHfPP7nQ7mCEh4KLa6_EBChn8DQ_hajqbaFA9uLo_x4pGk/s1600/FC+Kolos+Kovalivka256x.png",
+    "city_country": "Kovalivka, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kolos_Kovalivka"
+},
+{
+    "club_name": "Kryvbas Kryvyi Rih",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqhTSo5cSXTLfUhlaz3zoU3kQFmurHvSdAYHG-c0UlMYEExKCismNVZ1vw7zYuIb-58O3N9FgVgBimzxiiM0LkRhpLiNILUgxWs3VXVFND3R-sagbAa1WjSk8Gk1MAzb2wLZpABrBaTLLSFMlEPFC_bUiTxTT8jMsJrDZqBvKve-hvRtKee4cZaQDW/s256/FC%20Kryvbas%20Kryvyi%20Rih256x.png",
+    "city_country": "Kryvyi Rih, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kryvbas_Kryvyi_Rih"
+},
+{
+    "club_name": "Livyi Bereh Kyiv",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e1/FC_Livyi_Bereh_Kyiv_logo.png",
+    "city_country": "Kyiv, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Livyi_Bereh_Kyiv"
+},
+{
+    "club_name": "LNZ Cherkasy",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPULtXCmOyx7maxk70Gc4OL1jbwfLh_sGtneWjx2yseEayUOT8ysXT4cxOGo1daxRiz_56mREY8_wxhgZ16rWVQQYQAxCBvA5UFaVoogyx5PBuFmjo8sWAqo9OZmXB3qlrOMbDPHcYlV6JuZhnQfnl5EHUwfPehU0Il3KF3M-qm8GiY38kGi3x0V7clI8/s256/FC%20LNZ%20Cherkasy256x.png",
+    "city_country": "Cherkasy, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_LNZ_Cherkasy"
+},
+{
+    "club_name": "Polissya Zhytomyr",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjor1xLU-krpH2gFD3GuistoH-WnMEoGKsFv7SoQgjFLZPuNqReuGdKpnjk_LlJ5hZKbbpoTCGR1At-BVcInTDLKnKY1Jxl98CcN0WTZn5SQb705FNNrummfF59eDdATQQ87n0TyX2Z-ls-4WHJVwf6EF0lOe5b8bhQ0dg_hf7JiReQuERvyh4Lu3Z-Io4/s256/FC%20Polissya%20Zhytomyr256x.png",
+    "city_country": "Zhytomyr, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Polissya_Zhytomyr"
+},
+{
+    "club_name": "Obolon Kyiv",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwixgITziuwjcTXmHKNTe2JKR-sTMsSBn7dsJq3yzkCfoXYijErmCNBDd8pjSnWVbHrkOl8xqBmSKHfJR3B7n-o1r7va-C0_EFiNYLxGno_UIJ3JbQf2B5VU1R3OCxUUU8qLfwXg_PIln2_vQl8rVnwTPpWgE87c5l2BPCSlUAugwkq7ibUlc2jBmW45E/s256/FC%20Obolon%20Kyiv256x.png",
+    "city_country": "Kyiv, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Obolon_Kyiv"
+},
+{
+    "club_name": "Rukh Lviv",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwS5fmiI15JEWWg_cU6KMgfK8Sc5alwojWrLH6GEqKf4AVSiLIlXNhsHu3SdrR2fh5CXIs1Lx_zJrC9LPIyAP_WzoSi6DUJ8o21JPjqWiegbCUvX27Akn7PSB_ylJ_umdKDzOpvCocZVA/s256/FC+Rukh+Lviv256x.png",
+    "city_country": "Lviv, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Rukh_Lviv"
+},
+{
+    "club_name": "Veres Rivne",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6Z92SqgZifBO6ZamoT0EdM-tVvbtr1CHKOA7kaFjNvRLu2EOzCA8yhQu95k6rIaYTb3FmGBttcgE3h_v0C5YQSpjMYd_QU1YIyeSStrI1yN1ffTbYBUGWGgp51ehXshKp_kumlPlTG5c/s1600/NK+Veres+Rivne256x.png",
+    "city_country": "Rivne, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Veresa_Rivne"
+},
+{
+    "club_name": "Vorskla Poltava",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTZLaTQi9Dy7tzi7sSPDr_44JmvzfOYjRcx7gVQBCmeo5NIkNAofHcgR2OyRdRohzZYTm1hLBchckfd78JlYJOMgj5pQoPPJIRBoyiKpCdLBDITu7DE-xAtfsA9suh3YySb8i90Pn4ing/s1600/FC+Vorskla+Poltava256x.png",
+    "city_country": "Poltava, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Vorskla_Poltava"
+},
+{
+    "club_name": "FC Lviv (Defunct)",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoahx83L7rpeLiObW7ASZ0LeRXi25FsPi5U6IX4YR9SP4GmDWCCK1NQ9SRHC2NhX_ke7oCCcifuqsy5KeXi0rGAvKHggZirbH8KBuhNGPw9dAMxfTwLY_7Sk7V96fV8d1eUDS_r72Zoxs/s256/FC+Lviv256x.png",
+    "city_country": "Lviv, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Lviv"
+},
+{
+    "club_name": "FC Mynai",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQCzJifw6ftp4xLnpqo2o73TQEyIVtjzxaw_k88uLfJ2KFZpA11i8g24Kg1HSSyQOQeM0BfLKL-KDKtsg2j0MQeQvS23eVDrnmG-Lu_YvB54SrqwA8zZTGF15uF-Q0ESZpr148ePo53eI/s256/FC+Minaj256x.png",
+    "city_country": "Mynai, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Mynai"
+},
+{
+    "club_name": "Metalist 1925 Kharkiv",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGzVch1C-1f7971DgpIL9583vSW9hYQpOaxkCVypHrl_pMgFWuO2_hQo8Wo4O8M-VJarRad2Fdqwn4RpyMI4wEiiBeu-yRyWBL4R7PWbMeJ4dtZuAuzpjhyoRXurATMgvaW5iFHBfDobc/s256/Metalist+1925+Kharkiv256x.png",
+    "city_country": "Kharkiv, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Metalist_1925_Kharkiv"
+}
 
 ]
