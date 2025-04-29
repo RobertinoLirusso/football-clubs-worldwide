@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Clubs JSON
+/src/assets/json/clubs.json
