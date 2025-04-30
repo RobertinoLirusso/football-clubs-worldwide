@@ -1,62 +1,8 @@
 [
     {
-        "club_name": "Arouca",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiia3E26sM_y4xVleEInNjkY1g2TrdFdUDlzXlCRJtVpmBXFagn8FAuupwoF5VB-_lqu6YHwFzJ4czRWuDx-Rdy84lEFWXjkSAenqiPgjN7ZNU8M7Zc4ZMe87aYdEJhB0d8qnstUChVSMU/s1600/FC+Arouca256x.png",
-        "city_country": "Arouca, Portugal",
-        "wiki_url": "https://en.wikipedia.org/wiki/FC_Arouca"
-    },
-    {
-        "club_name": "Casa Pia",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9P1OHlAjjLGB86Blx9vlxk-yRFFgtHeFz0Zem6iwpREFi42_Kgk1EbI5l2fObEVs8j21dBZSnRwkQp3lFa_wOoEoNC9B5SHyfp_v3Ic9XOWPRp87XYlW9M1vdE4bn6td71mW6IKBa-Fc/s1600/Casa+Pia+Atletico+Clube256x.png",
-        "city_country": "Lisbon, Portugal",
-        "wiki_url": "https://en.wikipedia.org/wiki/Casa_Pia_AC"
-    },
-    {
-        "club_name": "Estrela da Amadora",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5M7FjRRE5fv17OfYYnwhkvw60S49sRdNy11FURHJgAp4tm2DdYGER412lzUS6dhLVcIZ7uS60nFxPkVM5Oi6axFpEmkIYTlKvX1dqnG1XdntW1pwfSpSHmLig5XOaU3Pyv2LIiFZW_qM/s256/CF+Estrela+da+Amadora256x.png",
-        "city_country": "Amadora, Portugal",
-        "wiki_url": "https://en.wikipedia.org/wiki/CF_Estrela_da_Amadora"
-    },
-    {
-        "club_name": "Famalicão",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjovSknf6nXQ76oXO6fcdDc4jqVGno5W4EzZ72C9P-ePK4xEj7VNOXja4-BC8AXbKjfenrK_reMbi4c9QCXMxju57bfYHxD7Azz5eSuf5bbNfTqgpiwUwmNZ3EkLUl0WifnFfJ0G3K2vMs/s1600/FC+Famalica256x.png",
-        "city_country": "Famalicão, Portugal",
-        "wiki_url": "https://en.wikipedia.org/wiki/F%C3%A1brica_de_Futebol_Famalic%C3%A3o"
-    },
-    {
-        "club_name": "Farense",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMoj-hFOwk5mUs3nAXhgLblCaC4Zi9FGMaRwQBJwbWCFDhWCrgwTz3oajAZlJMcnKA9rAZSo6bA4Ho755T9pznD6CJe_wzvlCRZylZ2IGkZmWsRjUgPTdV49CO0QLG3b46wNNoMW4Kdk0/s1600/SC+Farense256x.png",
-        "city_country": "Faro, Portugal",
-        "wiki_url": "https://en.wikipedia.org/wiki/S.C._Farense"
-    },
-    {
-        "club_name": "Gil Vicente",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOMSuHHPYqU6uwNQkFQyR2GmB_hDbDLXAs7q09MsZIpVPaOyJ87SzKaB2JzHFAIOdxxupMpT_0jUqkLhym7WoDsyYK5H5-b261NqYgEabJAp8H0SuNrbLdLwPG2vXXvmqfHqO-RIRAr30/s256/Gil+Vicente+FC256x.png",
-        "city_country": "Barcelos, Portugal",
-        "wiki_url": "https://en.wikipedia.org/wiki/Gil_Vicente_F.C."
-    },
-    {
-        "club_name": "Moreirense",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJY4TcvMSdqUc-55EqJgYwUlsA6IzJQ378z8D2EOyhzCJGwpbWKqQNBLPe2lizUh4fSt2KEAaXh4_ZpA6k89UzhXDsTD4V7oRvx2t9vlNQTTyIa06WMJjB8uwcCQqG_zLFUgecCiLOfQ2L/s1600/Moreirense+Futebol+Clube256x.png",
-        "city_country": "Moreira de Cónegos, Portugal",
-        "wiki_url": "https://en.wikipedia.org/wiki/Moreirense_F.C."
-    },
-    {
-        "club_name": "Nacional da Madeira",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI3M2wS_BUnw4Kh0bZdnfUIG5aRZ1_L50ijwjrzcKYjUrBXxAzlEosD8mDVEsbqjtMslKTmlaOuomdjHram0AFLXg-FzVEHMhlI1E4F5yb6WTOq8AuwIcC94BbbybPDws4_BD5Q42PF6I/s1600/Clube+Desportivo+Nacional256x.png",
-        "city_country": "Funchal, Madeira, Portugal",
-        "wiki_url": "https://en.wikipedia.org/wiki/C.D._Nacional"
-    },
-    {
-        "club_name": "Rio Ave",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHDjFV3ZzZA4EPAgjq938qoAdth-XHcpqtDIXGBpKVSBBFRl4n7lg4l2Kl-CEHC4YFuEIYQylZtZxGOcW4PlY8yDpmvtv0L7DpNxocPk64YBE4soQA7XzfJV_4e7EYwgjWuMUJ3Sf_2iPi/s1600/Rio+Ave+Futebol+Clube256x.png",
-        "city_country": "Vila do Conde, Portugal",
-        "wiki_url": "https://en.wikipedia.org/wiki/Rio_Ave_F.C."
-    },
-    {
-        "club_name": "Santa Clara",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1UjxUzPDnuvzSydr4szhJ7d0bTdhvNB4oT_A5K3YWu14xvQQqn-dzxnL3BL1rbwbbesWzwha4hovkd3nOj8Rd1WyIfrfSrU31WOarlmYIJIMQzJpDdrN3HQ7X-Tb-eh0SNtcDcSX1UUIKYTIkwpvWHasy4IRkTuOumyFNfPbpRs4yCXyg4MIpec2d9Ko/s256/CD%20Santa%20Clara256x.png",
-        "city_country": "Ponta Delgada, Azores, Portugal",
-        "wiki_url": "https://en.wikipedia.org/wiki/C.D._Santa_Clara"
+        "club_name": "NK Bravo",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/NK_Bravo_logo.svg/188px-NK_Bravo_logo.svg.png",
+        "city_country": "Ljubljana, Slovenia",
+        "wiki_url": "https://en.wikipedia.org/wiki/NK_Bravo"
     }
 ]
