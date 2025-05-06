@@ -6078,7 +6078,7 @@
   },
   {
     "club_name": "Arsenal Dzerzhinsk",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/20/FC_Arsenal_Dzerzhinsk.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/7/74/FK_Arsenal_Dziarjynsk_%282025-%29.png/250px-FK_Arsenal_Dziarjynsk_%282025-%29.png",
     "city_country": "Dzerzhinsk, Russia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Arsenal_Dzerzhinsk"
   },
@@ -6711,5 +6711,95 @@
   "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/BSG_Chemie_Leipzig_Logo.svg/330px-BSG_Chemie_Leipzig_Logo.svg.png",
   "city_country": "Leipzig, Germany",
   "wiki_url": "https://en.wikipedia.org/wiki/BSG_Chemie_Leipzig"
+},
+{
+  "club_name": "Asteras Tripolis",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUgpoqhgRUUgRM4emMM1gTlx3sNYWkX-bs-61KH6UzOFC68VV1IYeUZphXRsyoKKDJl2Hv8ejz0vt_gD3TMy9zexdwABRTGdqiILlhvgCe0PgVzG-3XHA-Xxvcxsg_zXvjnxbNvl2vlkA/s256/Asteras+Tripolis+FC256x.png",
+  "city_country": "Tripoli, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/Asteras_Tripolis_FC"
+},
+{
+  "club_name": "Atromitos",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi35VV2cynY99A8n2o4KwzEMpMTOxhaN3ag5iv4_mgQ-pCEg33I6lQ72l1MJC2SezWQSvynU8TyahfIyA6Jus-q32oSM6qyxnyKdaLOy9SkYK96sESYS2_e05cifWRdw4ouipm41hedtscK/s1600/Atromitos+FC256x.png",
+  "city_country": "Peristeri, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/Atromitos_FC"
+},
+{
+  "club_name": "Lamia",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtUGDqGpqRKIjM-8jTcbJ8awdv4l7ntuGu3V8mqT8fZNy85i19qBPI4h0qiUu_R1-Up_FgX93c71214L9PrgErqBrn6wdP5QeXE7d18E-ly6ghA8hPclHKuWTCpNnPUElEfmSAcQOkmmv7/s1600/Lamia+FC256x.png",
+  "city_country": "Lamia, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/PAS_Lamia_1964"
+},
+{
+  "club_name": "Levadiakos",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/APO_Levadiakos_%28logo%29.svg/250px-APO_Levadiakos_%28logo%29.svg.png",
+  "city_country": "Livadeia, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/Levadiakos_FC"
+},
+{
+  "club_name": "OFI Crete",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEij7jp3ckYa721PPfjn2EfmrzByQA2kdkQgODwzPPCevn0VDpRKe35R-bP_IWhu8x9G-VTywfPQPy1Xj0DD42mw9T8W3qlv0HIabrXxV6ZY78ue4wO_Iki-TbFKDE7v0Na8VoVV5CaCDIc/s256/OFI+Crete+FC256x.png",
+  "city_country": "Heraklion, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/OFI_Crete_FC"
+},
+{
+  "club_name": "Panetolikos",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijs8wya3IU5BLbUxVDmBucTqJnwpEZa4yX8_c5eAP-YeYgEy8KUzwoV71pgtrPSaZAQBm1Rnd53mD1bkJczBCHtPBHZKoq8cf2UhWssMioP2N21ofaTwxq_E89dpYKX2xOdefCsvzxwb2PIennSnrfnOxKztk1yW8ickAWqRARWsSdSTNCudoz1cbJ/s256/Panetolikos%20FC256x.png",
+  "city_country": "Agrinio, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/Panetolikos_FC"
+},
+{
+  "club_name": "Panserraikos",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSJVlYS7CumUzGnu7JWTp2XV9QEYGRIDXvNPOBvhB4q2uMZZ282MJxb3sXQxGxE6xskOfoCUuh718WT4J_p5NVGw5IhGUdkGn1BpUBymVHbaiXObnNmZB42FoyGTwLLSTLTJNIbISJxSNXpPf0FOgDzi20ULDu5LrruAw6GIPMT66oQOkbknaVkS4iSk8/s256/Panserraikos%20FC256x.png",
+  "city_country": "Serres, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/Panserraikos_FC"
+},
+{
+  "club_name": "PAS Giannina",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkdjPuz72trM5hlRdmLuwQJiNpoJTRC25KizFmYF7FFlQ5i6dQ7NtMY6wzqiBV9pHMkWXLukeZPhweXWDsJWEwaCp8uSzr2wNCNuA7cFtWuEO2ewMQx54NqifrIslrJa0QmJtpuHXKvf8/s256/PAS+Giannina+FC256x.png",
+  "city_country": "Ioannina, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/PAS_Giannina_FC"
+},
+{
+  "club_name": "AE Kifisia",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7ZMiY4z2HVMBabUNIQ34F8GMPUEd5zSnNbAbK7bKN-TlWWuinSVy08d4X5wv1ENZKPpeMJz3u4SitJkGdbyBfzO0FdmDG626xe3fsHVw7M_zi-PJkmdtY_o8agtFqA-8PR5w_adK7BPwixYWN1bJrqWGj5iPCEa0it6mXmBGec2IgO8LkAArZXhAjhZQ/s256/AE%20Kifisia%20FC256x.png",
+  "city_country": "Kifissia, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/A.E._Kifisia_F.C."
+},
+{
+  "club_name": "Panionios",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/70/Panionios_FC.png",
+  "city_country": "Nea Smyrni, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/Panionios_FC"
+},
+{
+  "club_name": "Panargiakos",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e8/Panargiakoslogofc.png",
+  "city_country": "Argos, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/Panargiakos_F.C."
+},
+{
+  "club_name": "Xanthi",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3i5J7hdI4fbS8sJMud8SOLm5ZLrR40fkzwrHylvdTVzqD2yzkggUohA3qYHALEVFzRyhl7hGi-3WGRVfdrPKDBTVQJP6x7yr5xtpxRwC1ewrJd0omrJ5NyFmkvaa8BSC190QnSegRKRw/s1600/Xanthi+FC256x.png",
+  "city_country": "Xanthi, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/Xanthi_FC"
+},
+{
+  "club_name": "Veria",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7m9EFCdGJaJggyqdUenVLTpo9TulaH89broJybZPt-cIOJmei4KC8w-DO9GQR-LpAb3QPwe02lWsaw2877Aw8xlhszIoM-6HsINCTM9rsGmQYZO4Vohg5UlEMYRjhdMRcojYhCUgChBecVlAI-EICKRqK2TaZp8D-ewJoIiuB1X48iQNjY1y422mI/s256/Veria%20NFC256x.png",
+  "city_country": "Veria, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/Veria_NFC"
+},
+{
+  "club_name": "Doxa Drama",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8GjU743B_PL_abNfGYMJgs50VQSTb_6FbiP3BVtF-sOuLdfhdS0QTouEBRFOkkWc9wud7d1snPJeX5cPW3AkR4DXnYGgH_0S5fhNNB8uht0YnS48vb0t_3hwPQu_Jn9QcYjR0dLayuXI/s256/Doxa+Drama+FC256x.png",
+  "city_country": "Drama, Greece",
+  "wiki_url": "https://en.wikipedia.org/wiki/Doxa_Drama_FC"
+},
+{
+  "club_name": "FC La Chaux-de-Fonds",
+  "club_logo": "https://fccdf.ch/wp-content/uploads/2022/09/La-Chaux-De-Fonds_marchio.png",
+  "city_country": "La Chaux-de-Fonds, Switzerland",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_La_Chaux-de-Fonds"
 }
 ]
