@@ -3426,7 +3426,7 @@
   },
   {
     "club_name": "Spezia",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiecd_nTCLhnTiYlGfKYwW_zHJUHq1cLQr89_5GOH9Q-Nl2lnShGU-osS1Wf6wBEN3lpBsgMiEj15fMHC3mVT4TxEiyB0SGQf7yeYufICh-cia_SbRO8o9bxT4wxeZkPEZ0G5tcIQFsUP8uWg6oat9bAPENhuVNgHOHahIPQzgHXXZuCooscxXlNXmsdoQ/s256/Spezia%20Calcio256x.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6XMasYLSw28nDj0d6vVKQhB_8h-F320w4SxCeTSbpw83ziqWF2qxn04CskhA92vi5RHzRsMy6NM4YgYvQ7xzoIMX2IbEZJxiLlLZdRxW372Pbx6U9v15wJe321Iq_1pIuvQdIUW4mg4RroqRjPs2lE0bXZEi1kp5bYm3Un0yxnt8ofV82ObSDJjV2ceI/s256/Spezia%20Calcio256x.png",
     "city_country": "La Spezia, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Spezia_Calcio"
   },
@@ -4482,7 +4482,7 @@
   },
   {
     "club_name": "The Town FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b0/The_Town_FC_logo.jpg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/The_Town_FC_logo.svg/250px-The_Town_FC_logo.svg.png",
     "city_country": "Moraga, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/The_Town_FC"
   },
@@ -6801,5 +6801,65 @@
   "club_logo": "https://fccdf.ch/wp-content/uploads/2022/09/La-Chaux-De-Fonds_marchio.png",
   "city_country": "La Chaux-de-Fonds, Switzerland",
   "wiki_url": "https://en.wikipedia.org/wiki/FC_La_Chaux-de-Fonds"
-}
+},
+    {
+        "club_name": "Milton Keynes Dons",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6hdDecK4fni-ZBMh3toEMhYcfHALbao0uHQDQhHMWBXA6t2sE_pmFUXrJGl_9TUG0xxkTJokkD4fjiQr7sVfC3xdOJYnUGlUXuclJjhMZibdrLTja2C_gQdc6Y2uih2VxGYmH69VlLslgEbTtmypZ2CJLMhMfJHY6Ul0RQ3-GUEupp1N4SUKygcvHZfw/s256/Milton%20Keynes%20Dons%20FC256x.png",
+        "city_country": "Milton Keynes, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Milton_Keynes_Dons_F.C."
+    },
+    {
+        "club_name": "Doncaster Rovers",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMrhng3o5tMiDc7pCORArL-dFxU92a1vZ9lEFsoCnwR67GhJ32yPfR9N5Yl6hwla0xTFoAcRvX12gGwP5TFpZhdNykLe20mb4-cKZ2ClpCXvOa1NdI1zy9DUCJONzT39KWnCf5HTNYLH4/s1600/Doncaster+Rovers+FC256x.png",
+        "city_country": "Doncaster, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Doncaster_Rovers_F.C."
+    },
+    {
+        "club_name": "Crewe Alexandra",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghfaM1KHETYy4K8zvU_vpmnW1mgwOVj07eCmb8jES9gVKSvt9dQHgm-23u4RlmtUSbWo9cgy7BJxqS9KSfaemaoZKlqmQu5QStSLi2HiKitLeryMtWCAE4NLOzlCLd-sDZBd-cL711ZAw/",
+        "city_country": "Crewe, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Crewe_Alexandra_F.C."
+    },
+    {
+        "club_name": "Port Vale",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLuA5ltuBQnI1s_hDP2mjdb9-5ruC-dpDr3l29PnczGi5pV_qqaclRr5buaCoqrg61Ru9Z4DXgqd-2i61voTTquC3QZeDUxBH23tyhyGkD4yGwmV0YbVP-NRLkhhSqjzhAK_iXxgLxYVk/",
+        "city_country": "Burslem, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Port_Vale_F.C."
+    },
+    {
+        "club_name": "Walsall",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEWkE_ta4ERTzM_GiSOfSjza79m3WXIZ0YlFGmU5FLN2IehLmB51hFifrA9qDxXqwavom1ZLek7pVnm_gRdWzGhwEhIZEXl-3L7xSSVZ9tvjRoepKrSGCPZjNhmGkMO7qZvLqYJ_d-uZY/s1600/Walsall+FC256x.png",
+        "city_country": "Walsall, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Walsall_F.C."
+    },
+    {
+        "club_name": "Cheltenham Town",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZczGbZ5fSprUNSLxQq_pXc6D3pi9qL_o9MjhNC8cueCWm6JMCMhYe79XWX4aD-7nXZoOcs84sucDUXyfbNoHQ9YubfxaS8DBGYuVl7prnSxNzqKHzWBa2Q-9dGvs71A7CLAcbWjPr9kM/",
+        "city_country": "Cheltenham, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Cheltenham_Town_F.C."
+    },
+    {
+        "club_name": "Colchester United",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz-zQhDVWmQOCnGMecgzmjXtOOmckyDpe_i233C1HJeAssK-d36cNduDhOuYJtvZsZaF6anEP7IYG5HIEVxiixJnwuon-hIYnVaXF9KkcNovaW5O_nUkk30OgpgzELt2rqpk43pdlkqYs/",
+        "city_country": "Colchester, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Colchester_United_F.C."
+    },
+    {
+        "club_name": "Gillingham",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_eEPtuM1DC0hSxdHtyWmNbJZFT7oiQ7JLxss5tQPJcKtIhEM6UlsS8AJPI5LDu7xerilDcmVF2UZossi4shknakbxmsVUEtlex6DSh7lXPTovlOMF0y-AOo3j3K-6jB6fLj16xWUgzoc/s1600/Gillingham+FC256x.png",
+        "city_country": "Gillingham, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gillingham_F.C."
+    },
+    {
+        "club_name": "Wimbledon (Defunct)",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Wimbledon_FC_crest.svg/288px-Wimbledon_FC_crest.svg.png",
+        "city_country": "London, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Wimbledon_F.C."
+    },
+    {
+        "club_name": "Gateshead",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Gateshead_FC.svg/250px-Gateshead_FC.svg.png",
+        "city_country": "Gateshead, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gateshead_F.C."
+    }
 ]
