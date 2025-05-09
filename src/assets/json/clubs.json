@@ -6079,7 +6079,7 @@
   {
     "club_name": "Arsenal Dzerzhinsk",
     "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/7/74/FK_Arsenal_Dziarjynsk_%282025-%29.png/250px-FK_Arsenal_Dziarjynsk_%282025-%29.png",
-    "city_country": "Dzerzhinsk, Russia",
+    "city_country": "Dzerzhinsk, Belarus",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Arsenal_Dzerzhinsk"
   },
   {
@@ -6861,5 +6861,77 @@
         "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Gateshead_FC.svg/250px-Gateshead_FC.svg.png",
         "city_country": "Gateshead, England",
         "wiki_url": "https://en.wikipedia.org/wiki/Gateshead_F.C."
+    },
+        {
+        "club_name": "Borac Banja Luka",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNo75uq5JKufVce91GtiYsTQHP5AFBQZWjHKqsBv9Djs9q2IZMyI1tk7QSRT4IlGQ7uJ09P0KpmMfzIwNvP7lfrsTc-0NsMRu40OoTDFkcuxYfIlmLcz1uZDg74Ta0KSKgEFzqIfWWJGph8fNxvH3Ump6DJET3GD5xXAoW6LZqafkI7ltUNfS8rhb55V4/s256/FK%20Borac%20Banja%20Luka256x.png",
+        "city_country": "Banja Luka, Bosnia and Herzegovina",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Borac_Banja_Luka"
+    },
+    {
+        "club_name": "GOŠK Gabela",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1e/NK_GO%C5%A0K_Gabela_crest.png",
+        "city_country": "Gabela, Bosnia and Herzegovina",
+        "wiki_url": "https://en.wikipedia.org/wiki/NK_GO%C5%A0K_Gabela"
+    },
+    {
+        "club_name": "Velež Mostar",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/FK_Velez_Mostar.svg/250px-FK_Velez_Mostar.svg.png",
+        "city_country": "Mostar, Bosnia and Herzegovina",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Vele%C5%BE_Mostar"
+    },
+    {
+        "club_name": "Zrinjski Mostar",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/H%C5%A0K_Zrinjski_Mostar.svg/250px-H%C5%A0K_Zrinjski_Mostar.svg.png",
+        "city_country": "Mostar, Bosnia and Herzegovina",
+        "wiki_url": "https://en.wikipedia.org/wiki/H%C5%A1K_Zrinjski_Mostar"
+    },
+    {
+        "club_name": "Željezničar",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Zeljeznicar_logo.svg/250px-Zeljeznicar_logo.svg.png",
+        "city_country": "Sarajevo, Bosnia and Herzegovina",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_%C5%BDeljezni%C4%8Dar_Sarajevo"
+    },
+    {
+        "club_name": "Sloboda Tuzla",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/6c/Logo_FK_Sloboda.png",
+        "city_country": "Tuzla, Bosnia and Herzegovina",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Sloboda_Tuzla"
+    },
+    {
+        "club_name": "Široki Brijeg",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_NKSB_final.png/250px-Logo_NKSB_final.png",
+        "city_country": "Široki Brijeg, Bosnia and Herzegovina",
+        "wiki_url": "https://en.wikipedia.org/wiki/NK_%C5%A0iroki_Brijeg"
+    },
+    {
+        "club_name": "Sloga Doboj",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1c/FK_Sloga_Doboj.png",
+        "city_country": "Doboj, Bosnia and Herzegovina",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Sloga_Doboj"
+    },
+    {
+        "club_name": "Radnik Bijeljina",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/60/Radnik_Bijeljina.png",
+        "city_country": "Bijeljina, Bosnia and Herzegovina",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Radnik_Bijeljina"
+    },
+    {
+        "club_name": "Leotar Trebinje",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/FK_Leotar_Trebinje.png/250px-FK_Leotar_Trebinje.png",
+        "city_country": "Trebinje, Bosnia and Herzegovina",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Leotar_Trebinje"
+    },
+    {
+        "club_name": "HŠK Posušje",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b2/H%C5%A0K_Posu%C5%A1je_Logo.png",
+        "city_country": "Posušje, Bosnia and Herzegovina",
+        "wiki_url": "https://en.wikipedia.org/wiki/H%C5%A0K_Posu%C5%A1je"
+    },
+    {
+        "club_name": "Igman Konjic",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a9/FK_Igman_Konjic_%28crest%29.png",
+        "city_country": "Konjic, Bosnia and Herzegovina",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Igman_Konjic"
     }
 ]
