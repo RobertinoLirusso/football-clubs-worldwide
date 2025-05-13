@@ -1,56 +1,8 @@
 [
     {
-        "club_name": "FK Teplice",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0QJALZgLD64S9ejadoHzKBY9AS5jREroNDVBp7LM_60v_xGuyufnmW5_O7mCXA399eCc1zoYPj_lFdQrgKRxdeNqrqpFd4LEBVsGPlVP0DZD8EnHeD2V0ICHW8xCVyfGpD2NfOuQZch_NAKfAKK3a8fnX8Bo3zlMIqQYWv_Cj1rcdsaUzDiBCXEUb/s256/FK%20Teplice256x.png",
-        "city_country": "Teplice, Czech Republic",
-        "wiki_url": "https://en.wikipedia.org/wiki/FK_Teplice"
-    },
-    {
-        "club_name": "MFK Karviná",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiauOUhi6QJ2w-0A8uvZWvepIXNsy4JJYXGo1-cc0GkUMzaYD7Gi1e6OUw9CbE0vJic6Tkr2XPPBoPiOoUP5TycN2b07tf2okFVt06iQQhgvETJ0KvW9H9hg7ubB9DxCBLLFU2VAkOb1T8/s256/MFK+Karvina256x.png",
-        "city_country": "Karviná, Czech Republic",
-        "wiki_url": "https://en.wikipedia.org/wiki/MFK_Karvin%C3%A1"
-    },
-    {
-        "club_name": "FK Pardubice",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVMe0UqJNQ5k59zJy3eCtzFotlsSvdITZMKRQ6MFSVuJkAo_x33fZE10txQUuyligSHcgRCDL4L2XZjk7scWZLBe_rpmYS5srsoEgmtF9Ka2tfA3RceacnpQ6AtXya-wTI9K6JfgR9Hr8/s256/FK+Pardubice256x.png",
-        "city_country": "Pardubice, Czech Republic",
-        "wiki_url": "https://en.wikipedia.org/wiki/FK_Pardubice"
-    },
-    {
-        "club_name": "Dynamo České Budějovice",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRt3AH2WYdfh9AQxVnFPQ06E8WGpsebDC0C6rc37V3JR-J2u26AYZSka5vmdoyCO1Ufsp2b2okqYHmNmvS49E3hpwgLtAlviDKtvgChx3IBJ3ZSNjl6zbZxcVfRJXO6btXyt2CcmbJt5nPgc56FJniAU_LnyBvvr8QdaovO_ExwIUSFdEr7LNVY0uoeto/s256/Dynamo%20Ceske%20Budejovice256x.png",
-        "city_country": "České Budějovice, Czech Republic",
-        "wiki_url": "https://en.wikipedia.org/wiki/Dynamo_%C4%8Cesk%C3%A9_Bud%C4%9Bjovice"
-    },
-    {
-        "club_name": "Bohemians Praha 1905",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8mSlpGlhoiZdiK_W7hSAGzxnfdmwKPxOUlfFYxSF7ge2guiRKyCMRESsLSCgNK7JnkCuoFEHttGItvCF8NuEU49f8F27ey0MkQvqqbNXHWzqWDwjSFQlOXIHldGowiSERkB6aavvB5y4/s256/Bohemians+Praha256x.png",
-        "city_country": "Prague, Czech Republic",
-        "wiki_url": "https://en.wikipedia.org/wiki/Bohemians_Praha_1905"
-    },
-    {
-        "club_name": "1. FC Slovácko",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdmZKZgpJHO3SCiASkbcAWInf7Bpkv4yWpyaXDE-G9gXxY1Z3HSHZNGnsSxbaxf6ftZ0p0ECvzOlG9DCspGaS4ktTz8-GF8OsQkSWXOuWOHkkD2kylwztfl0IuZUn8QU-b0-mtdr7Kq3VBQrOFreEXDieabyK-ATnCPE7SnEMNYdr_LjdARjaYe_7po1w/s256/1FC%20Slovacko256x.png",
-        "city_country": "Uherské Hradiště, Czech Republic",
-        "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Sl%C3%B3vcko"
-    },
-    {
-        "club_name": "FC Zlín",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrUns3y2B8J9dK4-pwtEurlSFuYZaSfxLrpqkH13OyZGEbyspe2CwH-jGzJO9_SICF8s5OQNgsRcAowbTf-XC8tbdr5AHWrwsOCvine0-sD9jGMOk2zZRePe4vESOIrDA8ZXZhA_apSMozlQApnn1cDKGYInvqs0Up53us9zYh4ztYCD7qd65UcoDer0w/s256/FC%20Zl%C3%ADn256x.png",
-        "city_country": "Zlín, Czech Republic",
-        "wiki_url": "https://en.wikipedia.org/wiki/FC_Zl%C3%ADn"
-    },
-    {
-        "club_name": "SFC Opava",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5rTTWGjtqpHl4EVRzydLun7IkRpPpVmS4ItfEJ2PDUXfOeUUdbAeEstLsgBOt9InKOat2ptyr2uNBUcMGrUGtsmpHbvRlqRg4TgXHc6t7wqEdlyo8h98mZ4Kb8euKz4HFOvdk0vmMNDGd9v9gVcpsf5cRFNiC7HmXl8b3P9F-H7nWpNA-W33hXUSW/s256/SFC%20Opava256x.png",
-        "city_country": "Opava, Czech Republic",
-        "wiki_url": "https://en.wikipedia.org/wiki/SFC_Opava"
-    },
-    {
-        "club_name": "FC Zbrojovka Brno",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL9CRGA-OMnI7X7GLnV7TE0HQez0gIDoNlP26y4H57Vh7uIDt6WrNu8jEoE_E6aUxNIA1Z1fmmLhLKLYj4qf-NdqC4WSp5xTCTnJpgNuh1tDVgEdVSNUR-c9NNclCGgxWelHq3byHPRUS3Jlb7SmXDj-uuUo3qO7L9HPpYtJRb5nbIdx4usEWVaeoE/s256/FC%20Zbrojovka%20Brno256x.png",
-        "city_country": "Brno, Czech Republic",
-        "wiki_url": "https://en.wikipedia.org/wiki/FC_Zbrojovka_Brno"
+        "club_name": "FCV Dender",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS5LvZ4hoEBNsc1O36H-Vx7PIDMNvov6MEx3NRsSKVHgLlKS7bLuCh1pNTjuyNFawYcmE8vEVw0R5gYM4BWEDjcn_AHGVGCksSqVHxVaQvufcP4_46cCo1nV2LPeE5zndmfoBCCeRAneKGkryNRntTHg8Mg3nBMhxZeWIlbkk6u0vXNJvbPygvqCz8/s256/FCV%20Dender256x.png",
+        "city_country": "Denderleeuw, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/FCV_Dender_EH"
     }
 ]

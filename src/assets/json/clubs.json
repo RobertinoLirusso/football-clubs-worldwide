@@ -7083,5 +7083,113 @@
         "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL9CRGA-OMnI7X7GLnV7TE0HQez0gIDoNlP26y4H57Vh7uIDt6WrNu8jEoE_E6aUxNIA1Z1fmmLhLKLYj4qf-NdqC4WSp5xTCTnJpgNuh1tDVgEdVSNUR-c9NNclCGgxWelHq3byHPRUS3Jlb7SmXDj-uuUo3qO7L9HPpYtJRb5nbIdx4usEWVaeoE/s256/FC%20Zbrojovka%20Brno256x.png",
         "city_country": "Brno, Czech Republic",
         "wiki_url": "https://en.wikipedia.org/wiki/FC_Zbrojovka_Brno"
+    },
+        {
+        "club_name": "FCV Dender",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS5LvZ4hoEBNsc1O36H-Vx7PIDMNvov6MEx3NRsSKVHgLlKS7bLuCh1pNTjuyNFawYcmE8vEVw0R5gYM4BWEDjcn_AHGVGCksSqVHxVaQvufcP4_46cCo1nV2LPeE5zndmfoBCCeRAneKGkryNRntTHg8Mg3nBMhxZeWIlbkk6u0vXNJvbPygvqCz8/s256/FCV%20Dender256x.png",
+        "city_country": "Denderleeuw, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/FCV_Dender_EH"
+    },
+    {
+        "club_name": "Beerschot",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpzAKsHaBpyVn30SYh5qJ77N6K_8mLo-P3gdb3SJH5jdsPkj8c6LlkpLvtpuBtlGZTtnI8TUbce4Y741ejxCc4ZdiDv3dQVj3h0730NG-9XAakY5xrKtEPeF2gJh4Rx40tXFmDdUw81BA/s256/K+Beerschot+VA256x.png",
+        "city_country": "Antwerp, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/Beerschot_VA"
+    },
+    {
+        "club_name": "KV Mechelen",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ9a9x0Cb9IFaN2cFH20z3DD-kvEfrUgmvK4yBlsNAI2rAv2qiLitvUMMIwB47bfMLRTf5ezKa9MZ3wKc6KUwdGdFdvFDgth6U9OLlo1trHHKFq_OaUSVxyoKpCEElXtlC6ogM-prT8iD088x8a_pXLHKclxXRTzEIB2Hg4QRphN7RaFKGTFAJeqlEjRY/s256/KV%20Mechelen256x.png",
+        "city_country": "Mechelen, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/KV_Mechelen"
+    },
+    {
+        "club_name": "KV Kortrijk",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg84ExeBnXVNTICSuAf4HiXG5g1we7YEwhG4K_b_43HJwWVCVaK7h816Gkc9HKVompuswZogACkw1bvhJPN5PWnKnerm7P49M63vKLqqg7Gl9TNG7SkmMA00kZTNpU07MQpp-Dw595U13me/s1600/KV+Kortrijk256x.png",
+        "city_country": "Kortrijk, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/KV_Kortrijk"
+    },
+    {
+        "club_name": "OH Leuven",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjau7aTN0mOLSKmX2cTFklIU-QYMsupwq_Yev9kUB1DVw-2Ll_TDN9PNG53S8QRv6q-qUISPMiUSvFNu7l8Ot_5Q_wmWPkDVdyNfJJ8JbTQR0kn1vTmIXJItPVYZ1c_SLEPBiJAuZPP3YI/s256/Oud+Heverlee+Leuven256x.png",
+        "city_country": "Leuven, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/Oud-Heverlee_Leuven"
+    },
+    {
+        "club_name": "Sint-Truidense",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijxFnlHSkucnUUoBXHKGGik5EDso3HeTFhFG54tpMRFzPbwXsTz6U3O3IDNEwxnrMvwZxkNNgdgJN6dyEkw5moE8IFQmxcizIYMsrRC1l0BsO7Vgi8AZOTdA-VsQBhNTsE303Nt4qq9Uha/s1600/K+Sint+Truidense+VV256x.png",
+        "city_country": "Sint-Truiden, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/Sint-Truidense_VV"
+    },
+    {
+        "club_name": "Westerlo",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7nRseiTRQw7dy0bj5GuBcs8mIJFqTS3vE7SlncwlHi2SjgoFrQtLr1ao2-OA3zOYJu3PQklj9L9uoU5l4EgUqXjLB1JL3MGDOzDetUrnrvxVl456gouaXLgTTdkwUPIUtHvoAQNfahyphenhyphenU/s256/KVC+Westerlo256x.png",
+        "city_country": "Westerlo, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/KVC_Westerlo"
+    },
+    {
+        "club_name": "Zulte Waregem",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlQBJ2StsA6eIM0HywFH7n1asx-khHlTbFr1oo1IZZZDW7wCotQehpATgdp62LjGk_WulnEomgEOYzFmh9-eRjZKyEF8ov0AoqX0wkzrPZOYIfbwpXfUh2MBKEgX68Xcve1eXWqsjTgHU/s256/SV+Zulte+Waregem256x.png",
+        "city_country": "Waregem, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/SV_Zulte_Waregem"
+    },
+    {
+        "club_name": "KAS Eupen",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6s2GTAyDhVD4uWCq9tqxC4A-zbIL1pRElrmwrl30zlHF_WBeBa2-qBKxrrg61-5ZmL9MJepSyeJdN0xVhRopvL3GtQR1s-yKY35vqDPaIcKn2kOdHAVXxjfmZx60Lltvd_k3in3MF6cMN/s1600/KAS+Eupen256x.png",
+        "city_country": "Eupen, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/KAS_Eupen"
+    },
+    {
+        "club_name": "RWD Molenbeek",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoL9iUpMX1I5uovAaw4xoTBw9Jf2M9-b6vsIqqp4u412EjCz9wq7nCoqxE93Nl0ZlY83QSuqOAhxHKJ5pOMhaHGCl8By71CI8MqhJCFrVI6T8G-JZ0IQ39w4qgWFDW0oLjV9hu-QLNMexU_Rn5n79D8IlYHBHyiKlkIIjB7mcvGtS_7tA22R4pg7kQ7Nc/s256/RWD%20Molenbeek256x.png",
+        "city_country": "Brussels, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/RWD_Molenbeek"
+    },
+    {
+        "club_name": "RFC Liège",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp7mNcNYD9ofXmpjGSexlD9Oze4D_aJ9zj-JQJaNTjQaZvwx-F7mAYobJaL2coeRkpARQ4gvrh2Dgqlx0UzZ0v0Z-_XQPpNhiylyYlEXwhHWIQWXYBYvjl0HqxY2732CAcnFSjZhisqJR_lNpnme9r8keC_5pA0W2FgHLNgDmVIAI6VDu5B4xDlRAOvWk/s256/RFC%20Li%C3%A8ge256x.png",
+        "city_country": "Liège, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/RFC_Li%C3%A8ge"
+    },
+    {
+        "club_name": "KSC Lokeren-Temse",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiyJEvFwUWRk0ZFQ4xiqCXxBO6ecCq9FsoTAG6lU_DoJ2qTEyJYv1KBqUROPWHZkaGuvJ5chV6hHJA1Z6Tdt5xf_n3947oNbqgxxD5Z-o8YkpD_Rpvki8NqHllEAZKAXToPAUiRp_kaCn9S9Kynp0mAeQu-xrXdab6wbM3ygsneZcBJQUIJkhp9DIaLOM/s256/KSC%20Lokeren-Temse256x.png",
+        "city_country": "Lokeren, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/KSC_Lokeren-Temse"
+    },
+    {
+        "club_name": "RAAL La Louvière",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXx7gok_nlM_wRh1bCZwSQNdTJS4cKXPh7hCir9tx4XkxOLuWrErpGgu_yO3hU8nyGv7q_icoYgQV0uu_Ottw8T9YBnGrTrZG5J2GAueyf-ts7149a2tDiXE0hItlAoHt_T6I5tiNVM3y5C0xUXUmiwoomi6FsRzqeCULjwP93-faJ1U3_t7QPTv7V4Ak/s256/RAAL%20La%20Louvi%C3%A8re256x.png",
+        "city_country": "La Louvière, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/RAAL_La_Louvi%C3%A8re"
+    },
+    {
+        "club_name": "Patro Eisden",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhv3psM1bK24PQmlgEgkBpUOyg7VUXZvmozj_MWJi95QO8v05bhl2FDNQsm4OUP5BvNcKKrPXc7R1YMf08qIGb8UiB0niqBRdtahXzoUdx1LycssiV9JwDNa7rMHeN7lJXcQuXINU1Dr49xfwtGr-IcDV4WGqUNxyCil_qhhj0i8NM5-9hZAaYnBvPkwpo/s256/Patro%20Eisden256x.png",
+        "city_country": "Maasmechelen, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/Patro_Eisden_Maasmechelen"
+    },
+    {
+        "club_name": "RFC Seraing",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikmwSJEDcLWrhZspAGggbc4CpZOKsbibav15HgBX7msQ_ftOYaMlg1otc4mSUqJfDolt9r9b1FBPS6V-hskAjjTAmrGnZBN19Ahu1j3YLPK9s7WyAoCJHqsTjlVhCgsC2IPdqTnVwHRuI/s256/RFC+Seraing256x.png",
+        "city_country": "Seraing, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/RFC_Seraing"
+    },
+    {
+        "club_name": "Deinze (Defunct)",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKJXlZpkDq2J4lW2jiJYfsOvgFjOHG7VBX7iQ8u83LcDfk2wt4pCwirf9vwMxFbBt505fRue1BDo1D_TNNOMCdjD4o4blYAeVWBbW29PRpB6CK3Bu-fkV6c9LwjjjT0Vf1G8MKCC4uC9g/s256/KMSK+Deinze256x.png",
+        "city_country": "Deinze, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/KMSK_Deinze"
+    },
+    {
+        "club_name": "Francs Borains",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh24Wci9UZ_VaOh9VqxVg6QWAIw4z7N6vmWDqjU7Fsgt5LcSSxQd08EVZAVo1y_u9T-yGc6HqXHtxv5_9Vp5S4RSAs9v0-el0Fy0o45aTXNpWt3I46uxZmaBSX8xmNKivXInSQzTGqriRUbUYXVpgOxDm6B990kdaGLCNhyMThSEmaJvrlvab6PyqaT2L8/s256/Francs%20Borains256x.png",
+        "city_country": "Boussu, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/Francs_Borains"
+    },
+    {
+        "club_name": "Lierse",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyIIOqw6YPas5TYfYWjzNTL0CWUpxGwWekfFMTisDRLJ-uCDKogiC5Mvq0aBZwHuMzmPYR-t7Q5iNywchYCv6C2FoYaKiVpqQEm3lvVq1_v41bBUAZgM8DW9YjxoXl1ebYNSY05lpNt04/s256/Lierse+Kempenzonen256x.png",
+        "city_country": "Lierse, Belgium",
+        "wiki_url": "https://en.wikipedia.org/wiki/Lierse_S.K._(2018)"
     }
 ]
