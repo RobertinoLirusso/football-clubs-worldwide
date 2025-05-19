@@ -7229,10 +7229,10 @@
         "wiki_url": "https://en.wikipedia.org/wiki/FC_Rouen"
     },
     {
-        "club_name": "Quevilly-Rouen",
+        "club_name": "US Quevilly-Rouen",
         "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQffuGoIzJ1qMa81dpWERqA-lOu5T-DzUgf-WjY6MzzcO9UkiVKH4-SVa7EI2vDxF8k6-6QoVFkrwScaVwyETbBcmWv5PXR40fnU3W_GtEEf5IUBd9fP_U_kVrZdZu2lDw-laDwN-2mlE/s1600/Quevilly+Rouen+Metropole256x.png",
         "city_country": "Le Petit-Quevilly, France",
-        "wiki_url": "https://en.wikipedia.org/wiki/Quevilly-Rouen_Métropole"
+        "wiki_url": "https://en.wikipedia.org/wiki/US_Quevilly-Rouen_M%C3%A9tropole"
     },
     {
         "club_name": "Versailles",
@@ -7244,7 +7244,7 @@
         "club_name": "Paris 13 Atletico",
         "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha89KJ6Pu4U_ph96mAFpH8HfWYAsIR0nUBUKD04kev-UQ6R7XLT39fQXZRhgXwCDzHtit81R_KWtYCuvbnO1sVbdz-p8spahWzDYERdJHR2VBAHeJUb1mJP98mVfm9kAqLBauQCy07f-2DVod7KHyqsC2qogPENfH0j_g6sJAm_sApK6mcNy3h6muJ/s256/Paris%2013%20Atletico256x.png",
         "city_country": "Paris, France",
-        "wiki_url": "https://en.wikipedia.org/wiki/Paris_13_Atlético"
+        "wiki_url": "https://en.wikipedia.org/wiki/Paris_13_Atletico"
     },
     {
         "club_name": "Villefranche Beaujolais",
@@ -7257,5 +7257,77 @@
         "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY3kS5GG08aXFd6wsomlTyAti5cEaYh0QW6v0qUA-LKuEM_TsSS1D9V9Q9OaveZTHdesJi0EjQk-50BwU1VojFD8t0GSLy3DjJRsZCh1bVzdoODHuBFyclTimGbeOJUL6-jpd_9zWewKw/s1600/Nimes+Olympique256x.png",
         "city_country": "Nîmes, France",
         "wiki_url": "https://en.wikipedia.org/wiki/Nîmes_Olympique"
+    },
+        {
+        "club_name": "Almere City",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil8axWEpkEMqRt7LRNAatjP8O15j5wBWip54hXlvWKtEmWsIM1kx7Mrc3DTGhNOjQJeoezZGVqiRc0MAqH4EWYkddCQnP-SKk8u5z5Jz5PIOZnk8tgkMZc2_ZeqoxfILNH230pEVuTWdk/s1600/Almere+City+FC256x.png",
+        "city_country": "Almere, Netherlands",
+        "wiki_url": "https://en.wikipedia.org/wiki/Almere_City_FC"
+    },
+    {
+        "club_name": "PEC Zwolle",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVpkWwqgcABxL-y2EHrcoH_FQcm1OeqI4jEFr6lUB8-_xRH6iW0vSFHOrGb_BXnthwBI_KMsRupsR3J_rgP_RjDLij30lQDglrGNmTxSc9L5Rv1UC_LhtKcVF-Ddv95HTcvjedlpnzddY/s1600/PEC+Zwolle256x.png",
+        "city_country": "Zwolle, Netherlands",
+        "wiki_url": "https://en.wikipedia.org/wiki/PEC_Zwolle"
+    },
+    {
+        "club_name": "Heracles Almelo",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGlroUqRsKNclECnYb9OkPu8dnmCHXeY9S8e0Rbs1REWLH0hLbah8uGVP1RZtSJLc9koT2EQINZu_Rg1EHZMAmEXnWEc4AZoSa0SlRwh_Sobh8K9iQAGOhTC-TW3YF-OOIYAW6T4mAA_w/s1600/Heracles+Almelo256x.png",
+        "city_country": "Almelo, Netherlands",
+        "wiki_url": "https://en.wikipedia.org/wiki/Heracles_Almelo"
+    },
+    {
+        "club_name": "SC Cambuur Leeuwarden",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEDuhR3rwnKPrAV5_Jfi28pyLE4mSBUUlADZNQEPdYOitHIWO4-qtS_BGe1DYyTmLNi19cQOf2juPp1TOwFiMhF-DUq5atoAw3ONIG2gBEAT9XFberuraXyPq5gs7jICEdTrsfo3u6K9U/s1600/SC+Cambuur256x.png",
+        "city_country": "Leeuwarden, Netherlands",
+        "wiki_url": "https://en.wikipedia.org/wiki/SC_Cambuur_Leeuwarden"
+    },
+    {
+        "club_name": "Emmen",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/FC_Emmen_logo.svg/276px-FC_Emmen_logo.svg.png",
+        "city_country": "Emmen, Netherlands",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Emmen"
+    },
+    {
+        "club_name": "FC Volendam",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVHCJrmkhTEak-8DR7G1wI2180-ZN371uRZfGHb5ze50PDN-8j7Cwk7JxKmDDL90asWWWlVspzy_zeS1BKjZR5DXRsfUWLzos7AgAIJRgd3lo1bzFBX-jPh065h7Wo9UQdtZoEu9L0moE/s1600/FC+Volendam256x.png",
+        "city_country": "Volendam, Netherlands",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Volendam"
+    },
+    {
+        "club_name": "TOP Oss",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlSNTVCVsCTIoGUKLqrH6LahSjYK9y1uv0zYlcQW6eTcLjrB_TdfNx0DwWNcPGDCpOvQseX6GPeMUcmDgR4_T2eQ47jgsCGFRbTY8eJrPFibIfcbzqitYJxncHFE_atahV6HFd4y9ugKw/s1600/TOP+Oss256x.png",
+        "city_country": "Oss, Netherlands",
+        "wiki_url": "https://en.wikipedia.org/wiki/TOP_Oss"
+    },
+        {
+        "club_name": "Helmond Sport",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrDsPw2pduBdQQ0PSAB_K7oecabCMVBtUlUCa1V34Qt_8fD8osJf08gZLf5VfO8JRKUWQxDlLqAs8bhl8vOaDkseoY4mUK_W1aLRPqDihsuP1K2sxjNKV1uzINCDfBiGynklHPpWn9LlY/s1600/Helmond+Sport256x.png",
+        "city_country": "Helmond, Netherlands",
+        "wiki_url": "https://en.wikipedia.org/wiki/Helmond_Sport"
+    },
+    {
+        "club_name": "Excelsior",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM1PmuN-5XFjRdjU2VfFnvhYN582rvZOSy6eXm85BWnbiOZ6kT2EREdpC6uQ_P4yIq3CjmicjopEfl2GlTKBAydNR_MCiHWoRg0dytyrrRt2CIpkZe_3Me-oq_5jAjanTqQP26psTQ1JY/s256/SBV+Excelsior256x.png",
+        "city_country": "Rotterdam, Netherlands",
+        "wiki_url": "https://en.wikipedia.org/wiki/SBV_Excelsior"
+    },
+    {
+        "club_name": "MVV Maastricht",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2ujsQ6dPp-ho2fSqZJy-_LB6Si7DDQN_oJCEysIVIknVCUNxpEJ0UHLl_cwu_adVMyNJz2ByUksU9Ka537GVb8BSiQlQyNlnljDVzm3B0TDpY4rhpTSQ0AyRfKZHetfCbaL1cdyJ3Y9o/s1600/MVV+Maastricht256x.png",
+        "city_country": "Maastricht, Netherlands",
+        "wiki_url": "https://en.wikipedia.org/wiki/MVV_Maastricht"
+    },
+    {
+        "club_name": "Dordrecht",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4aBjtW5F99Jr9GWu54CXu1m3iZfxy4t5i4jgBugNPRhNo1D18ui0jc3GxfF_WIHAvdL3O3oeB6Jh-zfAX43tBLK7N5OETXidw8n8-3Rbt3CivIM-1B5IHHwcDZb_GTThUaORRy_5cGUU/s1600/FC+Dordrecht256x.png",
+        "city_country": "Dordrecht, Netherlands",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Dordrecht"
+    },
+    {
+        "club_name": "FC Eindhoven",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF2p1gRjCcrg1R17gAOSGklDb-Q5by_4f9RjAoDDm_7CL4qK78KV5DE_hs5UDs50vAIcVWc-R9mA3bUSsm8Qlx7AgVObG8YTbTlMXwiKn-8DtkBwgzxiSohy3wizYsgcZ5y6d_4MJX2rZ2C5UNRH-7VIfjCyee0Uo-v2aNHUvsGT0RhIzFchr4A35W/s256/FC%20Eindhoven256x.png",
+        "city_country": "Eindhoven, Netherlands",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Eindhoven"
     }
 ]
