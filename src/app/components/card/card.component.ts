@@ -14,6 +14,17 @@ export class CardComponent implements OnInit {
   selectedClub: any = null;
   searchTerm: string = '';
   visibleClubs: number = 100; // Mostrar inicialmente 100 clubes
+
+  highlightedClubs: string[] = [
+    'Real Madrid',
+    'Inter Milan',
+    'Racing Club',
+    'Barcelona',
+    'Chelsea',
+    'Paris Saint-Germain',
+  ];
+
+
   
   
   constructor(private clubService: ClubService) {}
@@ -37,26 +48,31 @@ export class CardComponent implements OnInit {
   }
 
   openModal(index: number) {
-    this.selectedClub = this.filteredClubs[index];
+    this.selectedClub = this.filteredClubs[index];    
   }
 
   closeModal() {
     this.selectedClub = null;
   }
 
-  get filteredClubs(): any[] {
-    if (!this.searchTerm) {
-      return this.clubs.slice(0, this.visibleClubs); // Solo mostrar hasta visibleClubs
-    }
-
-    const searchTermLower = this.searchTerm.toLowerCase();
-  
-    return this.clubs.filter(club => 
-      club.club_name.toLowerCase().includes(searchTermLower) ||
-      club.city_country.toLowerCase().includes(searchTermLower)
-    ).slice(0, this.visibleClubs); // Aplicar límite después de filtrar
+get filteredClubs(): any[] {
+  if (!this.searchTerm) {
+    // Separar los destacados
+    const highlighted = this.clubs.filter(club => this.highlightedClubs.includes(club.club_name));
+    const rest = this.clubs.filter(club => !this.highlightedClubs.includes(club.club_name));
+    const result = [...highlighted, ...rest].slice(0, this.visibleClubs);
+    return result;
   }
 
+  const searchTermLower = this.searchTerm.toLowerCase();
+
+  const filtered = this.clubs.filter(club =>
+    club.club_name.toLowerCase().includes(searchTermLower) ||
+    club.city_country.toLowerCase().includes(searchTermLower)
+  );
+
+  return filtered.slice(0, this.visibleClubs);
+ }
   clearSearch() {
     this.searchTerm = '';
   }
@@ -78,5 +94,11 @@ export class CardComponent implements OnInit {
     const url = `https://footballclubsworldwide.vercel.app/`;
     return `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
   }
+
+
+
+
+
+
    
 }

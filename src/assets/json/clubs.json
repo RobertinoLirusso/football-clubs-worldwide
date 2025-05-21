@@ -678,7 +678,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Adelaide_United_FC"
   },
   {
-    "club_name": "Melbourne Victory",
+    "club_name": "Melbourne City",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzW0ljXhtIzJdmZTExjeYuR5ZwVNVH8lMhd5JPh22Mv3bXm5KExAcFmnDYnYLmvESy-KXUhPwNMwUNKAHKef7drRU8ppmb5yrIO9A892jLRl8Nr5Midgzu-55yXAY4yE62nI06JeF-c8E/s1600/Melbourne+City+FC256x.png",
     "city_country": "Melbourne, Australia",
     "wiki_url": "https://en.wikipedia.org/wiki/Melbourne_City_FC"
@@ -1381,7 +1381,7 @@
   },
   {
     "club_name": "Al Nassr",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV_zZw6n9qxdPO3WRcHKuckcUoO_oGRzSHPo3tdVQu8-YTtYKNvv1tPnnB0a7ODXMn2VnYSlMe2SEPD9xMLagtdDI7yJsk8ZoYYfAQN-Y6qdFpANjV76S8RIXc0yLCMh6ZR72C7G7C4xa3kReBGyfX3rrsNaWuW8LBI1pr4UGRRGDjJOhK_qPSinDd/s256/Al-Nassr%20FC256x.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/1/10/Nassar_F.C_new_logo.png",
     "city_country": "Riyadh, Saudi Arabia",
     "wiki_url": "https://en.wikipedia.org/wiki/Al_Nassr_FC"
   },
@@ -7329,5 +7329,113 @@
         "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF2p1gRjCcrg1R17gAOSGklDb-Q5by_4f9RjAoDDm_7CL4qK78KV5DE_hs5UDs50vAIcVWc-R9mA3bUSsm8Qlx7AgVObG8YTbTlMXwiKn-8DtkBwgzxiSohy3wizYsgcZ5y6d_4MJX2rZ2C5UNRH-7VIfjCyee0Uo-v2aNHUvsGT0RhIzFchr4A35W/s256/FC%20Eindhoven256x.png",
         "city_country": "Eindhoven, Netherlands",
         "wiki_url": "https://en.wikipedia.org/wiki/FC_Eindhoven"
+    },
+        {
+        "club_name": "Samsunspor",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXdBIZJuJgO4BAIXJxaZ28-l6fJjW2TmW6R7EuJQ64Nfw_Gtcxl5XbM8ltfWciM7D82rqWlxq8zIqQ90IIc3Xz612wlcbre5xLGKyqn3vEpQGUk7d9NNGwmSqvVK9sd7lfKLhlU4WBEZA/s256/Samsunspor256x.png",
+        "city_country": "Samsun, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Samsunspor"
+    },
+    {
+        "club_name": "Göztepe",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKdRCFOdJpnu-Us64zJDcfW24vw5mmZDLAfUia78uVaoLkZ26yOneHalUjB1nGxAhG3HfhLvZOL8mB2JZu8injgRN5jS_RVDrNabQbfCrybH6kYXdBjFUlAOsK5clSnqJhYYbePF2FWHY/s1600/Goztepe+SK256x.png",
+        "city_country": "Izmir, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/G%C3%B6ztepe_S.K."
+    },
+    {
+        "club_name": "Konyaspor",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiW5yNEnfkqFBXCNiJvWZ-KB4AyXHvQujqapnBauUY8CjLhcNlEfd4_DZdGpIEAVBGpsQivsGEOJbIyuOrx5fmTmZIER6BCkeHvFb-_cUfmHMQuCKNQHqCfYPLY60EqebekKT3YKxTtD80/s1600/Konyaspor256x.png",
+        "city_country": "Konya, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Konyaspor"
+    },
+    {
+        "club_name": "Adana Demirspor",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjY0LKKM0u8wklGODdiduwwmQdB20ePT3gaqHprYQ2OkrQDNs5wBIRFBRjo4bic6hKhUnWJ6tRYaYwAGdrF5BJLgRA80lrfxckHdu0ZUNKE0u0WAZHvnfEJ5-nEtkdR7_Z5u2kNNimXBo4/s256/Adana+Demirspor256x.png",
+        "city_country": "Adana, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Adana_Demirspor"
+    },
+    {
+        "club_name": "Gaziantep FK",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmWqXocz_41ey3tTno5TREtAjCw0DXne_08U7qcRGXj2Pdo_WW3r8CHrOujpW3P0r3zHZSJw4IZBsHtlTvXmS6qB0pfLq7WhJ8jHiiMTxrNRQaatE0Uf86m2i66MsDQ6F216pcb9jcKI8/s1600/Gazisehir+Gaziantep+FK256x.png",
+        "city_country": "Gaziantep, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gaziantep_F.K."
+    },
+    {
+        "club_name": "Hatayspor",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIrReyihhgK7ykYKl9BtvzoqBpuubxwBd6KoSeQDOhTlj6ZfqU9VYodck33OPFEXEvzNq2Vt54x6JJH-YswB46FeVJaN5v09xWWKLryNkm7HcwO6JKnQZZYEiDuhwwsiy5b0yq6AyknPc/s256/Hatayspor256x.png",
+        "city_country": "Antakya, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hatayspor"
+    },
+    {
+        "club_name": "Alanyaspor",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpnpiI_kWrZqC5_jWpZOCBUgAmM9PSSzSjbp0xTMS7ctx6WrYN0gBeDz7riMvR1Hos_f82wpDwzcr08czpQhnc8j6n671slfeZDLEgjQTNFCsYCxlNqXaBHeAWXB0ZiirUCwIeuC4ndIk/s1600/Alanyaspor256x.png",
+        "city_country": "Alanya, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Alanyaspor"
+    },
+    {
+        "club_name": "Bodrum",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRLiNBn9XOkpXwxAeL7RRlqIh6CABW3AAsuRKm3mE-C6dPpjXR0urSrWdc72zQjsCF98BH9KRctsIKNjGo_XuEBmJ4YxmI4-0FsiEbhTflXNuhnSb3_xslrLnFX0BWmcTzUEW1eAVMJi13JQNGsyZZhLfUYHqTObXboJ1GuwFtUTfjW2DnsSZBT5p_/s256/Bodrumspor256x.png",
+        "city_country": "Bodrum, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Bodrumspor"
+    },
+    {
+        "club_name": "Eyüpspor",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnH7XVIdTXcyM7p-o79LW-LPmBo7Vob_AkpQTF4xKZwkyiDXToMRhRORpbPzHqLrDpbAX-FxDQclM99nlM7Y5SwrovMq-5PgxQomSXLds99yU1GVdB_TzBxFdJWhYWlBEU9ybKxvEKKcg/s256/Eyupspor256x.png",
+        "city_country": "Istanbul, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ey%C3%BCpspor"
+    },
+    {
+        "club_name": "Kasımpaşa",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsE9ElNRq_EtEouHFqUFZwIQ1YJHNQwKu4dzdtRsRxKQf79CfiNVBAYQnkGnkx-xZed8TSv7f2ghYBecL6S3JSMa9GRApCk38c51kJmy1VYaL7cRk6hcE-DrWGk7voSs12-nmbOVmuQYNJYvPw72GIOQVzb3oeUTHMIdn0xLEmfYNBCMRv1o7cRnqkBdM/s256/Kasimpasa%20SK256x.png",
+        "city_country": "Istanbul, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Kas%C4%B1mpa%C5%9Fa_S.K."
+    },
+        {
+        "club_name": "Adanaspor",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGOFcKNpny8o4JE6_S0sndrRyzQ4xuqsCQMES8fs3mF1HdWlLrQbE00ZA_TVl8RMGwqhW0gTc_3NW3lliXfldPt5yLlV-b7zYciz4G5xSBMVisIY3SMdOtsFWlswb3QxN9Cr0Cnva_LkU/s256/Adanaspor256x.png",
+        "city_country": "Adana, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Adanaspor"
+    },
+    {
+        "club_name": "Yeni Malatyaspor",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIBsdTqGVY_FH0IqG_rUThBKHHGVka3BUc80SBu5oFHsBg8boH5nuBbSLC5yGJXtRGIB90_CnfGf6cFb5P_Um18XkIt93SGVcl7EJdmd_BJV_ecXdaH6VixylDNYa5uGgWjXBW6jfe96E/s1600/Yeni+Malatyaspor+SK256x.png",
+        "city_country": "Malatya, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Yeni_Malatyaspor"
+    },
+    {
+        "club_name": "Erzurumspor FK",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/95/Erzurumspor_FK_logo.png",
+        "city_country": "Erzurum, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Erzurumspor_FK"
+    },
+    {
+        "club_name": "Kocaelispor",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOFdTQzimIcYaMGWHRIYSTZdLzb1AgL6-CeyFo9qvsAeaJtQ1y0O2a8pryWZ571s7kUu6IrCZwHukxYhXDDz4SOo9-Mei-U6OB9bfJRsXJh42SzgtHfdKpEe_SNxIxbdvX4OX67KA_adg/s256/Kocaelispor+Kulubu256x.png",
+        "city_country": "İzmit, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Kocaelispor"
+    },
+    {
+        "club_name": "Sakaryaspor",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD8VX1jIQOzeqEfXGgebqDizPdadDFXCxj2Rac132vIsz86H0-9akYcahPDZScswOZ8w7TesZGOpAXvXTwbGZRgTLrS0XNuAl1UMzAk4y45HjbDNDfB7OFsknehaMH7IzZ3bhp7q3AMGDEGmPiymx1oFMrCu43mvCDNfdDTtkZXvmxLqTOYQrd-GXo/s256/Sakaryaspor256x.png",
+        "city_country": "Adapazarı, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Sakaryaspor"
+    },
+    {
+        "club_name": "Fatih Karagümrük",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6U6wkvMKcuJvqBAoE1OjZWC0d1gOjkbT07-LFtWCyyIQd9Wt3QCe-TdiwGhvZwBQEeFvXrVBOA0hc5SqlGfJ5ydml3iI-qeqCw3VlV530sQwOH9xdf3B1szz53sunR7q5Pd8-NxUQkM0/s256/Fatih256x.png",
+        "city_country": "Istanbul, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/Fatih_Karag%C3%BCmr%C3%BCk_S.K."
+    },
+    {
+        "club_name": "İstanbulspor",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqdra7D_HDSyzAbTWt8r0ijiHEJtUMH29IL4QtKT73bZfpnQnIMsdw0U6g0hFysRKYpS5ya7eVTcyVFEwpP4FTlLtcW_gdmJaTgdUff7qFBnqk4wkLgaL7L9PB8CmSZeYZXFCgO3eD3qg/s256/Istanbulspor256x.png",
+        "city_country": "Istanbul, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/%C4%B0stanbulspor"
+    },
+    {
+        "club_name": "Ümraniyespor",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC0OY-KT_dxaKZ3dI8ofFhwxjpP_gSLLCxADTMiehGbnsSiTH1NiDmPOUL0ubfGB2GpX_9oHVD7I6E-KA0WdDSWaQOu6ziXlFczhQLLj4obLCh-mWVoa8Lbii7SOE0ENbonS3uGdqL3No/s256/Umraniyespor256x.png",
+        "city_country": "Istanbul, Turkey",
+        "wiki_url": "https://en.wikipedia.org/wiki/%C3%9Cmraniyespor"
     }
 ]
