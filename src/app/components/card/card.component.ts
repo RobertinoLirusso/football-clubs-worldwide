@@ -22,9 +22,9 @@ export class CardComponent implements OnInit {
     'Barcelona',
     'Chelsea',
     'Paris Saint-Germain',
+    'Liverpool',
+    'Tottenham Hotspur'
   ];
-
-
   
   
   constructor(private clubService: ClubService) {}

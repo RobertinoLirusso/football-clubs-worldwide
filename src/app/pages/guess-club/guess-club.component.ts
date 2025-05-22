@@ -16,6 +16,11 @@ export class GuessClubComponent implements OnInit {
   streak: number = 0; // Inicializa la racha
   lastScore: number = 0; // Última cantidad de respuestas correctas antes de fallar
   totalCorrectAnswers: number = 0; // Total acumulado de respuestas correctas en todo el juego
+  timer: any;
+  timeLeft: number = 20; // Segundos disponibles por pregunta 
+  maxTime: number = 20;  // Para calcular la barra de progreso
+  timeOut: boolean = false; // Saber si se terminó el tiempo
+
 
   constructor(private clubService: ClubService) {}
 
@@ -30,34 +35,51 @@ export class GuessClubComponent implements OnInit {
     });
   }
 
-  startGame(): void {
+startGame(): void {
     this.gameOver = false;
-    
-    // Seleccionar un club aleatorio como respuesta correcta
-    this.selectedClub = this.clubs[Math.floor(Math.random() * this.clubs.length)];
+    this.timeOut = false;
+    this.timeLeft = this.maxTime;
 
-    // Generar dos opciones falsas
-    let otherClubs = this.clubs
-      .filter(club => club.club_name !== this.selectedClub.club_name) // Excluir el club correcto
-      .sort(() => Math.random() - 0.5) // Mezclar
-      .slice(0, 2) // Tomar dos clubes falsos
-    
-    // Mezclar las opciones y asignarlas
-    this.options = [this.selectedClub.club_name, ...otherClubs.map(club => club.club_name)]
-      .sort(() => Math.random() - 0.5); // Mezclar las opciones
-  }
+  // Seleccionar un club aleatorio como respuesta correcta
+  this.selectedClub = this.clubs[Math.floor(Math.random() * this.clubs.length)];
 
-  checkAnswer(answer: string): void {
-    this.gameOver = true;
-    this.isCorrect = (answer === this.selectedClub.club_name);
-    
-    if (this.isCorrect) {
-      this.streak++; // Incrementar la racha
-    } else {
-      this.lastScore = this.streak; // Guardar la última racha
-      this.streak = 0; // Reiniciar la racha si la respuesta es incorrecta
+  // Generar dos opciones falsas
+  let otherClubs = this.clubs
+    .filter(club => club.club_name !== this.selectedClub.club_name)
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 2);
+
+  // Mezclar las opciones y asignarlas
+  this.options = [this.selectedClub.club_name, ...otherClubs.map(club => club.club_name)]
+    .sort(() => Math.random() - 0.5);
+
+  this.startTimer();
+}
+
+startTimer(): void {
+  this.timer = setInterval(() => {
+    this.timeLeft--;
+    if (this.timeLeft === 0) {
+      clearInterval(this.timer);
+      this.checkAnswer(null); // Tiempo agotado, respuesta incorrecta
     }
+  }, 1000);
+}
+
+checkAnswer(answer: string | null): void {
+  clearInterval(this.timer);
+  this.gameOver = true;
+
+  this.timeOut = (answer === null); // Se acabó el tiempo si no se respondió
+  this.isCorrect = (answer === this.selectedClub.club_name);
+
+  if (this.isCorrect) {
+    this.streak++;
+  } else {
+    this.lastScore = this.streak;
+    this.streak = 0;
   }
+}
   
   
 

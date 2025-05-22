@@ -8,6 +8,11 @@
             <div *ngIf="selectedClub">
                 <img [src]="selectedClub.club_logo" class="club-logo blurred">
             </div>
+            <div *ngIf="!gameOver" class="w3-light-grey w3-round-xlarge w3-margin">
+                <div class="w3-container w3-green w3-round-xlarge" [style.width.%]="(timeLeft / maxTime) * 100">
+                    {{ timeLeft }}s
+                </div>
+            </div>
             <div class="w3-margin-top">
                 <button *ngFor="let option of options" 
                         (click)="checkAnswer(option)" 
@@ -28,8 +33,12 @@
             </h3>
 
             <!-- Error Message -->
-            <h3 *ngIf="!isCorrect">
+            <h3 *ngIf="!isCorrect && !timeOut">
                 <i class="fas fa-times-circle"></i> Wrong! The correct answer was {{ selectedClub.club_name }}.
+            </h3>
+
+            <h3 *ngIf="timeOut">
+                <i class="fas fa-clock"></i> Time's up! The correct answer was {{ selectedClub.club_name }}.
             </h3>
 
             <!-- Player Streak -->
