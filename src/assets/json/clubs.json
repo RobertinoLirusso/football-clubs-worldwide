@@ -7581,5 +7581,167 @@
         "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiizUN3JxqnbG1iRQo7IhE9eN7c4ZO5gpVcienDWUJTjdWt0D-D7FgKQXisWybCT5rz8vZi0Fie3fLxXFJbIisnYv-0Tl09S2OQrB3fFVwS1-zNMXVP4Yg7yd3yflkhGWYt0vEPK-adwJNuRaaGyETczM5P5PU3NF9Ii9q9HFv4bzIIUNoOo9PjS60U/s256/PFC%20Beroe256x.png",
         "city_country": "Stara Zagora, Bulgaria",
         "wiki_url": "https://en.wikipedia.org/wiki/PFC_Beroe_Stara_Zagora"
+    },
+        {
+        "club_name": "Austria Klagenfurt",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8IubV19EN9RFlmNDxWtb5r5ShJ_yLewiEblFurEKL4xLPMMGKlt2ORtGjxEA9Tj-shBpKi5EmkfTni54-KhKeMwrXHLYke-GBx2dqlhqpc1leCVsb15TCYwgfUSI_2QL01_ridip1lVk/s256/SK+Austria+Klagenfurt256x.png",
+        "city_country": "Klagenfurt, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/SK_Austria_Klagenfurt"
+    },
+    {
+        "club_name": "FC Blau-Weiß Linz",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5gNasRPNU-tby7UUWuYLZTWfgnkzPnQt5Og16u1TgQIjCHJ6bTovmqpjzUEw1ZHNv_3Dlh69BTJlbl45xD2IMuoFIROqbVDtHXSVcqBc8J8w-5MSSDHFcgzSpcD42xBKgsKGmP3jBAZLwVzARQDnuPxqN-q7UHFrD3kvI5Ps4sAysBNT7Ohdm4B4ZOjk/s256/FC%20Blau-Wei%C3%9F%20Linz256x.png",
+        "city_country": "Linz, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Blau-Weiß_Linz"
+    },
+    {
+        "club_name": "Grazer AK",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtkFpJydO3JQ4bCT1DDK71U8MbQXfEA4MvtxGmxj2b7QwCCXkj8de_E00cBKlP43vLzcURQU2Qcrflj_w9V7hp-NT6y0AK1RgzIB4dywsDG-ke4b7J-rAk49k5mpemCiAunqhlJby0PoDV7cLAUUQ1ZqN94ko346PyKrgasPMg43xvxIpmikpGsGsYIF0/s256/Grazer%20AK256x.png",
+        "city_country": "Graz, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Grazer_AK"
+    },
+    {
+        "club_name": "Rheindorf Altach",
+        "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEg_heDZ2GE_BRyxDmz70b4FSc4LSj7s_1KpMuZhjYG1M5ZAIuQ-CKOIlCKO0wI5GB0mjUg9PNYtJVLzL3nzF5XeEcn7ckgvtbqNIGQ82n8PlGeQWri1sjcgmi1Ek65tZXIndzAr021kwNfF2g978eUu-78VE6uoQspoTrjI_r5_0nGCFTfETGtJtMEy=s256",
+        "city_country": "Altach, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Rheindorf_Altach"
+    },
+    {
+        "club_name": "TSV Hartberg",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFFpm_c283Dtq4vhtmOyEOZk0WmHkxqW4l02n_bK8jCY1g-NkvFPeQJsYf28VYZpiYiEqL0csjZy1w2-IA4NOatHR8UzVrAHHbn6fgAh-YyhaZk0JeKbsU8X6Xk8JUh7fTwrZRAcJgHtI/s1600/TSV+Hartberg256x.png",
+        "city_country": "Hartberg, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/TSV_Hartberg"
+    },
+    {
+        "club_name": "WGS Tirol",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5WJIaAlNDLue2iCDD7I-VFfvIr72joaNn9U2Fio3XlkKV_eLc7MBFWPAPZ38HEzu6wIMckwYE8oDskW-2qTcfPnIepPZZHyai3FjA99z4bnQecsDtcvHpl0-szgdkEzuJJbZNMVcE72A/s256/WSG+Tirol256x.png",
+        "city_country": "Wattens, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/WSG_Tirol"
+    },
+    {
+        "club_name": "SV Ried",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkftrPt05CKBQCzFsB56N_I2EqFjb9fjgFqfjynFq3QTSY26NuaW34bzgdWjEmSSwdwOsUoFR-Hw0y1nlk15oYD21XL4X2RK9bF28oJT-0KnKtwCAcRdcUQ1UfhQVQ5IGeuYLmD1OiSGQ/s256/SV+Ried256x.png",
+        "city_country": "Ried im Innkreis, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/SV_Ried"
+    },
+    {
+        "club_name": "SV Mattersburg (Defunct)",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOb1o82VkQBH9GjinW6nV-931GdaQdyrkZQTXI_RNkBP3tmlajk6qcLW5FKFQgvaf6nZ2oaFfdLXVIHHPTqN6BIw6F1st6IlsfJlGihu86vfPDMI2RdV4SKEmWVLQ4lS_8D62hICPkysY/s1600/SV+Mattersburg256x.png",
+        "city_country": "Mattersburg, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/SV_Mattersburg"
+    },
+    {
+        "club_name": "SKN St. Pölten",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPBq6zOgb8XWUQnk9Wm1RUTe5j43todwAn4m-wDaNH3bOTfIjIrQuO6db_uDyRbssiRELw_tx3WVSDtV9Tu0sh20DyBG5K1oe4DkXtBq-_KxZGZ_kjwUQiC6m0Kf1oAXBMrxb_9-lrSJI/s256/SKN+St+Polten256x.png",
+        "city_country": "St. Pölten, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/SKN_St._Pölten"
+    },
+    {
+        "club_name": "First Vienna FC",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/First_Vienna_FC_logo.svg/250px-First_Vienna_FC_logo.svg.png",
+        "city_country": "Vienna, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/First_Vienna_FC"
+    },
+    {
+        "club_name": "Austria Lustenau",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuNmB1Fi2WDF5VJU36WLw4aaAZGI9HLD3fICcSpNqIBXa6I8w2fBodUWlPmBA0q0WRyU2KfXnMjlEe7WC5ZkxCIQPK_Fi5I-dlcGFgyhqzGf12v3bLjHgUVvG0Q60VM-lpcTZVPUuiSJu3xueR_T2xq7_vyHJOIyGfMTi0rMytX7j7Hd7M0ogDxRPV/s256/SC%20Austria%20Lustenau256x.png",
+        "city_country": "Lustenau, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/SC_Austria_Lustenau"
+    },
+    {
+        "club_name": "SV Horn",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/59/SV_Horn_logo.png",
+        "city_country": "Horn, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/SV_Horn"
+    },
+    {
+        "club_name": "FC Mohren Dornbirn 1913",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/94/FC_Dornbirn_1913_logo.png",
+        "city_country": "Dornbirn, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Dornbirn_1913"
+    },
+    {
+        "club_name": "Schwarz-Weiß Bregenz",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Schwarz-Wei%C3%9F_Bregenz_logo.svg/278px-Schwarz-Wei%C3%9F_Bregenz_logo.svg.png",
+        "city_country": "Bregenz, Austria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Schwarz-Weiß_Bregenz"
+    },
+        {
+        "club_name": "All Boys",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHJSpsTaUNq3IBwGBfuNl76CeiUCqEvMNhTnYqWjjcs_qr75GStNLW2zLmpRMZnraW8Qdh0RA78RtOUeaiAytCZkO9RpZdazUSNfr_b35vtp7Bl3SPsv0fEYrjkXeqilV-GP37FCyaEQg_pMfaMgeOqL4Cahc49xoAxS3lATBeG4bVtt_MmpL-A-ng/s256/Club%20Atletico%20All%20Boys256x.png",
+        "city_country": "Buenos Aires, Argentina",
+        "wiki_url": "https://en.wikipedia.org/wiki/All_Boys"
+    },
+    {
+        "club_name": "Almagro",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimFvq2O-__XqZnogaHwsCbZNZW7xsdO3eHTmlmdhJHGxBvOjF_-m-4SVoOwbHp9OTYnzpbeMbFb407TkFvuJIg9Ptlkvj1U4ANS_j8XHAiY-1CppbA56VDi-iyN_ssoXl6bNEvpr6GFeyDBANWXRwgnC7CcKPdebZTdHxEoNKwLFdrlSFh6UmeNGEP/s256/Club%20Almagro256x.png",
+        "city_country": "Buenos Aires, Argentina",
+        "wiki_url": "https://en.wikipedia.org/wiki/Club_Almagro"
+    },
+    {
+        "club_name": "Almirante Brown",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhq95gmlJ8TWnR5oPk5q-r0XRAVuFTdrk9I2VRuW0X8pvhLNWQovs-dszti07sGgEjpi4APtr0niCAo8e6m-nltj8EcwcNc-VHoswdiAUgfDxFECMcY9kDfJuhyO8V9ht0WnDQzR6c3zkk/s1600/Club+Almirante+Brown256x.png",
+        "city_country": "Buenos Aires, Argentina",
+        "wiki_url": "https://en.wikipedia.org/wiki/Club_Almirante_Brown"
+    },
+    {
+        "club_name": "Alvarado",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1wQFejHzC7fImcdeV47YKTygtKT83TCXe4a-JfnWDf7Cp0Zp9jFNssab8S0ckgmHmOUYHd79XueS91SqMn7lOKPnhXqaFCGAGC5MWCXumaUy4bOO4yvzoNj5DAWuzpctKtC_sYz_2oxc/s1600/Club+Atletico+Alvarado256x.png",
+        "city_country": "Mar del Plata, Argentina",
+        "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Alvarado"
+    },
+    {
+        "club_name": "Atlanta",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6knGCtSH7w-zpSVve1veYwwYnfgTw7LLhMkeuoq1TGooe767K2wqxkuibXB-eiJ6Mv9zbuOTHuxfsX20B1rA4loOw9RMgkJWQaqncGNlUr2kC7PpyJJ5CZ2d8mdWDNYnmErzXlZ7D_yo/s256/Club+Atletico+Atlanta256x.png",
+        "city_country": "Buenos Aires, Argentina",
+        "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Atlanta"
+    },
+    {
+        "club_name": "Central Norte",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMihAbBt2hCZXhTcC-LxICMClFpGkNiWxxQORKB73sibB4ku0qvRl3rH8NzNoCdmwsONt3RmznwvxeIItdD5w_f_e-r-fmXrTxtOSs0KbBHYJDCwkM_jSFSnO5bqg95s-TLvkmnIX_0UY/s1600/CA+Central+Norte256x.png",
+        "city_country": "Salta, Argentina",
+        "wiki_url": "https://en.wikipedia.org/wiki/Central_Norte"
+    },
+    {
+        "club_name": "Chaco For Ever",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh61lR7Vi4uhI3bH-U-KaT-P9fTRPOygWxvDh7XYsekvQHz6py-XfMe5h9cfROvojiKDjOX0xjJ5SyBqC0LV1EVcHXd6-fGLuWisqchbNMdBI9CS6w73GFy6i_4HpV13zhq-5zb0LrmwL0/s1600/Chaco+For+Ever256x.png",
+        "city_country": "Resistencia, Argentina",
+        "wiki_url": "https://en.wikipedia.org/wiki/Chaco_For_Ever"
+    },
+    {
+        "club_name": "Los Andes",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzg0Jq-vqjyMfuMxUG3uP2MOqB0VyW_65mpztEl2VOk6PBJ2emszXVwoi_UK2nVzmUTYTuAb2rSq4xzfefBpnFnAow1sv4S0rILM7a4ZX-eqBINOdt3KoMoaErvmqkRsCBlhF8Vf13bGQ/s1600/Club+Atletico+Los+Andes256x.png",
+        "city_country": "Lomas de Zamora, Argentina",
+        "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Los_Andes"
+    },
+    {
+        "club_name": "Quilmes",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUCljhpxF5Y5IhvfIEabOKsyPfs6FYGz-G5Z__nZYP3_7XDn_-Oe9luojUGU5Wf_F8rNtO9FcvdcGD0sth3olWnYP_Mi9os3JaJZ-Z1hqkVAqKmgNFdqLw5xfumRB29E8KibDOb-waU9CnUG8vAxLfBw0ZUwKnWQngZLZP5PGdLHinyqO68udq7jFg/s256/Quilmes%20Atletico%20Club256x.png",
+        "city_country": "Quilmes, Argentina",
+        "wiki_url": "https://en.wikipedia.org/wiki/Quilmes_Atl%C3%A9tico_Club"
+    },
+    {
+        "club_name": "Estudiantes de Buenos Aires",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHaPkComlyS439zmb3Y40CIQSwfXh0qQVaGXeHH5_Mf5EW-6Vi89TJfD2W0EKJ0qgdI4w_hFJnkGpkG7BcHztB69pPsrkMf2qVZ1Y4h5ZnkKckXuEsHz3GKM8ZQRHFV8etxGUYYAPJDd0/s256/Club+Atletico+Estudiantes256x.png",
+        "city_country": "Buenos Aires, Argentina",
+        "wiki_url": "https://en.wikipedia.org/wiki/Estudiantes_de_Buenos_Aires"
+    },
+    {
+        "club_name": "Deportivo Maípu",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibQrO8lqDqTGCrDS7mWnhRLdZUBPNdB6tLwAIMZcvmXJ1cQORLo-t6d9xWXq179xe9ZiFlW5d9vjkxVy6u7teaFL1HMPcQn4sNCCh82GiV9IwRBGWdl7BGp0pURsVfMHElsCPe9RLuhpo/s256/Club+Deportivo+Maipu256x.png",
+        "city_country": "Maipú, Argentina",
+        "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Maip%C3%BA"
+    },
+    {
+        "club_name": "Colegiales",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiE1fn7KG1IMMfXXZYcVO5Oy5TyhkahXtWxBQtkTl0r4YzGe3pxClJVnFnwYR8W_QcjZiKTd2g8cnu75fQmWGkp4iyWGKXm7RWEzWEAnNYuCQUIBrWSjFjSuIztLlKj-Eqp_X12SFG0XE/s1600/Colegiales256x.png",
+        "city_country": "Munro, Argentina",
+        "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Colegiales_(Argentina)"
+    },
+    {
+      "club_name": "Limón",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9e/Lim%C3%B3nFClogo.PNG",
+      "city_country": "Puerto Limón, Costa Rica",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lim%C3%B3n_F.C."
     }
 ]
