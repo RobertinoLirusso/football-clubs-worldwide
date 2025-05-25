@@ -1381,7 +1381,7 @@
   },
   {
     "club_name": "Al Nassr",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/1/10/Nassar_F.C_new_logo.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL51C9CRoZZ3tdyutD_ioYsRA332hBmdRPezGjtL1O3iN2xTxI7Jy3pwaNxBbi3zSoC0MaXCHp-F_scM1kD0HimkRUJtNxDgUGd5OXvXDY8P6lnGfkkr_iq6-6lOgODLRXa3okyALgUN28bHabKfcOv5iclsFdc6gOcYk7fBefDzaBZsgMB8G694LEJHo/s256/Al-Nassr%20FC256x.png",
     "city_country": "Riyadh, Saudi Arabia",
     "wiki_url": "https://en.wikipedia.org/wiki/Al_Nassr_FC"
   },
@@ -5789,12 +5789,6 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Calcio_Padova"
   },
   {
-    "club_name": "Padova",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4sSdwh63ekzO0zoVozoXNt1U92-iQFTLXzT1ARdH7WU1Iv3Y7wplucnajl1_TF408uSCmxAs3qrLmJRsou_TCWSrrgtxRvGSZziiPrxFlwPsDKdMIY-x3wmOn32n6GOP13P0FdZxPTOE/s1600/Padova256x.png",
-    "city_country": "Padua, Italy",
-    "wiki_url": "https://en.wikipedia.org/wiki/Calcio_Padova"
-  },
-  {
     "club_name": "Feralpisalò",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Feralpisalo_crest.svg/264px-Feralpisalo_crest.svg.png",
     "city_country": "Salò, Italy",
@@ -7739,9 +7733,231 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Colegiales_(Argentina)"
     },
     {
-      "club_name": "Limón",
+      "club_name": "Limón (Defunct)",
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9e/Lim%C3%B3nFClogo.PNG",
       "city_country": "Puerto Limón, Costa Rica",
       "wiki_url": "https://en.wikipedia.org/wiki/Lim%C3%B3n_F.C."
+    },
+        {
+        "club_name": "Ross County",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj83HsG4zpKSrhjnfQRv33RXfozKlXz5-wrR0awZf_k2FWbqfR0kIRVbljiiWgYMv6NjirYkxBWp_ocrMnk5s1xihNxkuv6ywi5wQM_hP1esIYd2kr7MnY5KnhyYEBwQMGwYPpZf3wML6M/s1600/Ross+County+FC256x.png",
+        "city_country": "Dingwall, Scotland",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ross_County_FC"
+    },
+    {
+        "club_name": "Ayr United",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Ayr_United_FC_crest.svg/300px-Ayr_United_FC_crest.svg.png",
+        "city_country": "Ayr, Scotland",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ayr_United_FC"
+    },
+    {
+        "club_name": "Inverness CT",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsZR-tGFLMHl_9cJDmptaUJ0M70OsV8Vp7iUZXYYQnVPF1ZFZpUa1qpOKUAx4RjeI6tkATDAYX6CsZEGit3fp011WivdKAPwPGhAdQ_x8SbCyNmpsAzPRIcfVXiaxCHkpk36sG27SFbPI/s1600/Inverness+Caledonian+Thistle+FC256x.png",
+        "city_country": "Inverness, Scotland",
+        "wiki_url": "https://en.wikipedia.org/wiki/Inverness_Caledonian_Thistle_FC"
+    },
+    {
+        "club_name": "Hamilton Academical",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwUdzFR3tTE2B8zDQgDW3MuulZCS2IwViy1TDepGxylppbGyhkrZTg8OGLUMbHig1f5VCjbr6ryZ8WTdSfGW9G2Z7c66HuJ0spGP71-bIzBkSLXXTHSrLeLQ2xOrAhVNM1KVxV3c3y-oc/s1600/Hamilton+Academical+FC256x.png",
+        "city_country": "Hamilton, Scotland",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hamilton_Academical_FC"
+    },
+    {
+        "club_name": "Greenock Morton",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Greenock_Morton_FC_logo.svg/314px-Greenock_Morton_FC_logo.svg.png",
+        "city_country": "Greenock, Scotland",
+        "wiki_url": "https://en.wikipedia.org/wiki/Greenock_Morton_FC"
+    },
+    {
+        "club_name": "Airdrieonians",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1b/Airdrieonians_FC_logo.png",
+        "city_country": "Airdrie, Scotland",
+        "wiki_url": "https://en.wikipedia.org/wiki/Airdrieonians_FC"
+    },
+    {
+        "club_name": "Raith Rovers",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/bc/Raith_Rovers_Logo.png",
+        "city_country": "Kirkcaldy, Scotland",
+        "wiki_url": "https://en.wikipedia.org/wiki/Raith_Rovers_FC"
+    },
+        {
+        "club_name": "FK TransINVEST",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f9/FK_TransINVEST_logo.png",
+        "city_country": "Vilnius, Lithuania",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_TransINVEST"
+    },
+    {
+        "club_name": "FK Žalgiris",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHAeGgmjINH5UsmW1hmUyqmIpX9hfJpAp0JqUN56-FrACqbW8S3BeOiCFT-S8jlfxfBA8UEhXZuPKBh5-AY8Q9Du9lInB2WSqahhQcunh3yPm0Xyx7i5K0DYQ6-kuhTfdY8NmtL5B5LqB4_nE4Mz1B6VuZN_BPhhr21lr46yka19BEw_6wZwX1YbM8/s256/FK%20Zalgiris256x.png",
+        "city_country": "Vilnius, Lithuania",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_%C5%BDalgiris"
+    },
+    {
+        "club_name": "Kauno Žalgiris",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/commons/b/b8/BC_%C5%BDalgiris_2023.png",
+        "city_country": "Kaunas, Lithuania",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Kauno_%C5%BDalgiris"
+    },
+    {
+        "club_name": "FK Sūduva",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/FK_Suduva_logo.svg/314px-FK_Suduva_logo.svg.png",
+        "city_country": "Marijampolė, Lithuania",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_S%C5%ABduva"
+    },
+    {
+        "club_name": "Džiugas Telšiai",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ec/Dziugas.png",
+        "city_country": "Telšiai, Lithuania",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_D%C5%BEiugas_Tel%C5%A1iai"
+    },
+    {
+        "club_name": "DFK Dainava",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/8a/DFK_Dainava_logo.png",
+        "city_country": "Alytus, Lithuania",
+        "wiki_url": "https://en.wikipedia.org/wiki/DFK_Dainava"
+    },
+    {
+        "club_name": "Hegelmann",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/FC_Hegelmann_logo.svg/242px-FC_Hegelmann_logo.svg.png",
+        "city_country": "Kaunas, Lithuania",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Hegelmann"
+    },
+    {
+        "club_name": "FK Banga Gargždai",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3f/FK_Banga_Gargzdai.png",
+        "city_country": "Gargždai, Lithuania",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Banga_Garg%C5%BEdai"
+    },
+    {
+        "club_name": "FA Šiauliai",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/ca/FA_%C5%A0iauliai_logo.png",
+        "city_country": "Šiauliai, Lithuania",
+        "wiki_url": "https://en.wikipedia.org/wiki/FA_%C5%A0iauliai"
+    },
+    {
+        "club_name": "FK Panevėžys",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/FK_Panevezys_logo.svg/252px-FK_Panevezys_logo.svg.png",
+        "city_country": "Panevėžys, Lithuania",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Panev%C4%97%C5%BEys"
+    },
+        {
+        "club_name": "FK Liepāja",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/FK_Liepaja_logo.svg/185px-FK_Liepaja_logo.svg.png",
+        "city_country": "Liepāja, Latvia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Liep%C4%81ja"
+    },
+    {
+        "club_name": "FK Grobiņa",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/zh/d/d3/Grobinas_SC_LFS_Logo.png",
+        "city_country": "Grobiņa, Latvia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Grobi%C5%86a"
+    },
+    {
+        "club_name": "FK Tukums 2000",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/07/FK_Tukums_2000.png",
+        "city_country": "Tukums, Latvia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Tukums_2000"
+    },
+    {
+        "club_name": "FK Auda",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/de/e/e3/Audafk.gif",
+        "city_country": "Riga, Latvia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Auda"
+    },
+    {
+        "club_name": "BFC Daugavpils",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/34/BFC_Daugavpils.png",
+        "city_country": "Daugavpils, Latvia",
+        "wiki_url": "https://en.wikipedia.org/wiki/BFC_Daugavpils"
+    },
+    {
+        "club_name": "SK Super Nova",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b3/SK_Super_Nova_logo_2024.png",
+        "city_country": "Riga, Latvia",
+        "wiki_url": "https://en.wikipedia.org/wiki/SK_Super_Nova"
+    },
+    {
+        "club_name": "FK Metta",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/FK_METTA.png/250px-FK_METTA.png",
+        "city_country": "Riga, Latvia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FK_Metta"
+    },
+    {
+        "club_name": "Dynamo Makhachkala",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_KRESL9aapQ6kK0bTtt-iEz63Tq8PA7-RBPnRudqIncbG7jBHKRE44wIE9Nc5TIu-_mwegHVFux1lBJjG47U-Re7KoL8ho2gBBUzA_LWGSRBWBNBKXjStKjpQhIW9kO6pFNQN9-FOzNBSryx3BG_1XavJkMr4SIdUwQLTRjLX-wGCwZDf8d7ES93vwiI/s256/FC%20Dynamo%20Makhachkala256x.png",
+        "city_country": "Makhachkala, Russia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Dynamo_Makhachkala"
+    },
+    {
+        "club_name": "FC Akron Tolyatti",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbCOW5MvYHnevJ-yLVQGHxfrLaxMYN_5oZaQ6IArcQrqgCWoT7ONyULZyCT2Dkzey0VCdSPe1-6DeaUPNAyizFmwCvKDc39q_bAEyWmlHswk7yXCqC4HYrtATK8byrFrEcPkKRquhtkmXAAm17Jg8jiUnkQ-94YLuyPqYPFDjpdbvIOng4Mow-nuRURnM/s256/FC%20Akron256x.png",
+        "city_country": "Tolyatti, Russia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Akron_Tolyatti"
+    },
+    {
+        "club_name": "Pari Nizhny Novgorod",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIsMTouNsNkmLGM3vJ8MELxUrPTNNF-PQtEhEV2R-mf6Gh8ubSSO0hho0H-8DwqQoeHBqFiHAsPdN7R3R9LizUTPlF5F5c6-dF2huHM_WaRJBuo2a5Sk38CEhGH1QUx5F4mOxL411x9TZR5BXB9XxH3C52VXKro1UfKcKIyXUz_uutx3G4FCzOECvP/s256/FC%20Pari%20Nizhny%20Novgorod256x.png",
+        "city_country": "Nizhny Novgorod, Russia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Pari_Nizhny_Novgorod"
+    },
+    {
+        "club_name": "Khimki",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqORVQPuTB4L2Ybwls-IOYGGhzSYh6J4ySFfwNswjccyD3lSDu82uQrKmW5PdBIZKHGNkLltueGsKxIMafgHmm9qD_Vf2nkCCPL2LC6DxWtrofRZ5ZEF4LRydI2pdyifPxj3HGZsqDew4/s1600/FC+Khimki256x.png",
+        "city_country": "Khimki, Russia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Khimki"
+    },
+    {
+        "club_name": "Fakel Voronezh",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cb/FC_Fakel_Voronezh.png",
+        "city_country": "Voronezh, Russia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Fakel_Voronezh"
+    },
+    {
+        "club_name": "Orenburg",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimNS5RDHJ47aEV_5XwVaXvyIU97OLxNO85y5osUBOYOqjOAHacXCxS16Clj6EOw6ctkR989dPW0Vh1kDcXEhhkzQvZTLtYHuqr7i_CV_EzRJ5BaTk03dXpySSs6f6bIGee8UpxJSvLrdw/s1600/FC+Orenburg256x.png",
+        "city_country": "Orenburg, Russia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Orenburg"
+    },
+        {
+        "club_name": "Baltika Kaliningrad",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhE0EGrMYQuOcizOSWB9Pczb-DqSnfAD3O_bW2w6s3SQcQcfs7VgJDiJN-8eSZyxSMx_5GjlcVEB2W3XAErUHpEYWuT547J3ScgEZcHiYbvbQRVlzHs-VAkzW3wEQMAk-vlkmJFWePr6C2493z8a1IQ-gfqPvTOgNQnBpCRweUwsJRqMQhWSG0qiT_A/s256/FC%20Baltika256x.png",
+        "city_country": "Kaliningrad, Russia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Baltika_Kaliningrad"
+    },
+    {
+        "club_name": "FC Ufa",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHg_3JAu_TxgJj74OJNxG6pRHbQpjvdnFSry2W7sKj1qaWFYUFkXsTNVAFQpkSVN1m-eY-VlEtmj6VtGEw_SfAfr8AicxNoCS-7DtlTW4SG_iS0BWPVbtli9Kp-VdQmK6lyY9WBWFOIB8/s256/FC+Ufa256x.png",
+        "city_country": "Ufa, Russia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Ufa"
+    },
+    {
+        "club_name": "KAMAZ",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgThV9KIAwlHcRhAwknRRVdRAY2zib76_VMxnZwc_9UFyr5PFB39I6Pk7AERs3SYHgjM3YBAjsqJoiiFuhoPTOdA_RD5sc3BWJuLAlDbYT40n040lNT3WCOtmcIO0SSd4cfb9IV9b4QiQM/s256/FC+KAMAZ256x.png",
+        "city_country": "Naberezhnye Chelny, Russia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_KAMAZ_Naberezhnye_Chelny"
+    },
+    {
+        "club_name": "FC Sochi",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg51WsXYF7PzvQvTyC_QCLieVy7FUtmuHmjoLS_5_gIkkHGKh1LEATMnKvoqrBF-PlCQjceKSnr7MS32ufnIMXdR7apebb2d5OX-_MJX_jD4fj5xNpMLMCq5vXPlRPR11BuSFsO-6Je3iI/s1600/PFC+Sochi256x.png",
+        "city_country": "Sochi, Russia",
+        "wiki_url": "https://en.wikipedia.org/wiki/PFC_Sochi"
+    },
+    {
+        "club_name": "Rotor Volgograd",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6wJlYifrGJfkYzAPgYHBV-c3oawBedhVay8Y61W-B1jm3m-TbK1bS4E43g12SiYbETnS5Zl8rtUE91h4OrpTe3bLwd5VCXOZ27kYxQpfI3PDU30OD642r8ZEub6zQ4mU04mu3jvR2OUs/s1600/FC+Rotor+Volgograd256x.png",
+        "city_country": "Volgograd, Russia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Rotor_Volgograd"
+    },
+    {
+        "club_name": "Arsenal Tula",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhexV6EO5Z0y2-ovfk5pOGbGm72guX649Mkzzri4jdp2lk5etDBs0JYinsl57dhmgToQoNOEdoFfCkeuHzhwTUPeZ4iBTiHdrMPfTlvFBi_YbU-vW7tg2s4IWYj1DD-JUer0M-gKjcBEdE/s1600/FC+Arsenal+Tula256x.png",
+        "city_country": "Tula, Russia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Arsenal_Tula"
+    },
+    {
+        "club_name": "Irtysh Omsk",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTpawAcjTtwCTCUu3VZ0uFAVg_hi8g7pDjoekIho7DPeSQBtAGBtbVKjmJJ9tJfew592q6A1s30DkVAIm0UtOAX2IonARZT38fO7ouU3hOJHsxZtgzZ6-H6XUc9gZBUIfLVXyXCmLnqjc/s256/FC+Irtysh+Omsk256x.png",
+        "city_country": "Omsk, Russia",
+        "wiki_url": "https://en.wikipedia.org/wiki/FC_Irtysh_Omsk"
     }
 ]
