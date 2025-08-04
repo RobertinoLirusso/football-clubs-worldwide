@@ -3389,8 +3389,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Frosinone_Calcio"
   },
   {
-    "club_name": "Brescia",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjukczLKkhLU4alfYvpg8uH0tCVX4kXHaZU_OacXDE8ONIfgBX_T05FQmo0Nd2XXNklXZ7CRxWtZWwbRggwE1H6_6e9L9J26bqjASggSYNw4vtWzbof4_IUQcQdvE51ONipXdikHMneeLI/s1600/Brescia+Calcio256x.png",
+    "club_name": "Union Brescia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Union_Brescia_logo.svg/250px-Union_Brescia_logo.svg.png",
     "city_country": "Brescia, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Brescia_Calcio"
   },
@@ -3642,7 +3642,7 @@
   },
   {
     "club_name": "Stoke City",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAzPM6HLfQL3KhXWoVKN1Nbxp0P8a0-9RtbxNT_sSH8MqKB436DFq5iSbjmFW8wtJWSm1TAC-fsFPXrLqXcF8NUD-CtsVQuQHt78g4Tn6U8Y6dbkAxJiLoxAZUlSavALBGO2zf0Cr52DE-/s1600/Stoke+City+FC256x.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUw9n0PN3vXfLWWERcVESvlpi0Q_4LAq85YKNJKiJN_fSazfEWVTuD2FbsBSXAXngMZmHh5lUf7Jet06MowoIA8LVRUKy_VJRQmj1gwIjvN5q7NuXdkTm_AhkJrMwm0PRie19zLuCzXYHHnxSw6VPCwFapWY3Q3Gf6RwOmqf49jzF3Qu_fxRy0Wavo2Xo/s256/Stoke%20City%20FC256x.png",
     "city_country": "Stoke-on-Trent, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Stoke_City_F.C."
   },
@@ -5136,7 +5136,7 @@
   },
   {
     "club_name": "Dunfermline Athletic",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a0/DAFC_current_logo_2011_onwards_trans.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Dunfermline_Athletic_FC_crest.svg/291px-Dunfermline_Athletic_FC_crest.svg.png",
     "city_country": "Dunfermline, Scotland",
     "wiki_url": "https://en.wikipedia.org/wiki/Dunfermline_Athletic_F.C."
   },
@@ -5789,7 +5789,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Calcio_Padova"
   },
   {
-    "club_name": "Feralpisalò",
+    "club_name": "Feralpisalò (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Feralpisalo_crest.svg/264px-Feralpisalo_crest.svg.png",
     "city_country": "Salò, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Feralpisal%C3%B2"
@@ -7769,14 +7769,14 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Greenock_Morton_FC"
     },
     {
-        "club_name": "Airdrieonians",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1b/Airdrieonians_FC_logo.png",
+        "club_name": "https://Airdrieonians",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Airdrieonians_FC_crest.svg/297px-Airdrieonians_FC_crest.svg.png",
         "city_country": "Airdrie, Scotland",
         "wiki_url": "https://en.wikipedia.org/wiki/Airdrieonians_FC"
     },
     {
         "club_name": "Raith Rovers",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/bc/Raith_Rovers_Logo.png",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Raith_Rovers_FC_crest.svg/285px-Raith_Rovers_FC_crest.svg.png",
         "city_country": "Kirkcaldy, Scotland",
         "wiki_url": "https://en.wikipedia.org/wiki/Raith_Rovers_FC"
     },
@@ -7959,5 +7959,23 @@
         "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTpawAcjTtwCTCUu3VZ0uFAVg_hi8g7pDjoekIho7DPeSQBtAGBtbVKjmJJ9tJfew592q6A1s30DkVAIm0UtOAX2IonARZT38fO7ouU3hOJHsxZtgzZ6-H6XUc9gZBUIfLVXyXCmLnqjc/s256/FC+Irtysh+Omsk256x.png",
         "city_country": "Omsk, Russia",
         "wiki_url": "https://en.wikipedia.org/wiki/FC_Irtysh_Omsk"
+    },
+        {
+        "club_name": "Neom SC",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx13yNBzk2P2Fv99jQa6GrZzDDitmGGFS5ezLdexnKQhPHT_4RpqwO0N6Hhh0nM_N0j5TxyXZdLyT48oD4oQDvILRoxcIFs_H_nyXU_CAJU8oZk6LashSkKEW5KPkBzBg-Hz33IkouAHWhsgjtMGLXsabMi4xpvojvWQLeglujF1LpzFWEYmjmcKWDVJc/s256/Neom%20SC256x.png",
+        "city_country": "Tabuk, Saudi Arabia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Neom_SC"
+    },
+    {
+        "club_name": "Truro City",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Truro_City_FC_crest.svg/261px-Truro_City_FC_crest.svg.png",
+        "city_country": "Truro, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Truro_City_F.C."
+    },
+    {
+        "club_name": "Southend United",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTgUPO3EueE-V7yQuW4PdzMNhjQOlZvNQwS6X6LFT5_RFYg63Qkym2Zro-VG1MTYgUWrojHulJP-FCQaGjAhwwaY_u2oniudg7pc2mCfckqHRpNAXJOPHYRM-DAp5a6zFoaHohZV8gmQo/s1600/Southend+United+FC256x.png",
+        "city_country": "Southend-on-Sea, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Southend_United_F.C."
     }
 ]

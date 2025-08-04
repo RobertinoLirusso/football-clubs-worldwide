@@ -1,8 +1,20 @@
 [
     {
-        "club_name": "Baltika Kaliningrad",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhE0EGrMYQuOcizOSWB9Pczb-DqSnfAD3O_bW2w6s3SQcQcfs7VgJDiJN-8eSZyxSMx_5GjlcVEB2W3XAErUHpEYWuT547J3ScgEZcHiYbvbQRVlzHs-VAkzW3wEQMAk-vlkmJFWePr6C2493z8a1IQ-gfqPvTOgNQnBpCRweUwsJRqMQhWSG0qiT_A/s256/FC%20Baltika256x.png",
-        "city_country": "Kaliningrad, Russia",
-        "wiki_url": "https://en.wikipedia.org/wiki/FC_Baltika_Kaliningrad"
+        "club_name": "Neom SC",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx13yNBzk2P2Fv99jQa6GrZzDDitmGGFS5ezLdexnKQhPHT_4RpqwO0N6Hhh0nM_N0j5TxyXZdLyT48oD4oQDvILRoxcIFs_H_nyXU_CAJU8oZk6LashSkKEW5KPkBzBg-Hz33IkouAHWhsgjtMGLXsabMi4xpvojvWQLeglujF1LpzFWEYmjmcKWDVJc/s256/Neom%20SC256x.png",
+        "city_country": "Tabuk, Saudi Arabia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Neom_SC"
+    },
+    {
+        "club_name": "Truro City",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Truro_City_FC_crest.svg/261px-Truro_City_FC_crest.svg.png",
+        "city_country": "Truro, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Truro_City_F.C."
+    },
+    {
+        "club_name": "Southend United",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTgUPO3EueE-V7yQuW4PdzMNhjQOlZvNQwS6X6LFT5_RFYg63Qkym2Zro-VG1MTYgUWrojHulJP-FCQaGjAhwwaY_u2oniudg7pc2mCfckqHRpNAXJOPHYRM-DAp5a6zFoaHohZV8gmQo/s1600/Southend+United+FC256x.png",
+        "city_country": "Southend-on-Sea, England",
+        "wiki_url": "https://en.wikipedia.org/wiki/Southend_United_F.C."
     }
 ]
