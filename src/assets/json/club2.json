@@ -1,20 +1,8 @@
 [
-    {
-        "club_name": "Neom SC",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx13yNBzk2P2Fv99jQa6GrZzDDitmGGFS5ezLdexnKQhPHT_4RpqwO0N6Hhh0nM_N0j5TxyXZdLyT48oD4oQDvILRoxcIFs_H_nyXU_CAJU8oZk6LashSkKEW5KPkBzBg-Hz33IkouAHWhsgjtMGLXsabMi4xpvojvWQLeglujF1LpzFWEYmjmcKWDVJc/s256/Neom%20SC256x.png",
-        "city_country": "Tabuk, Saudi Arabia",
-        "wiki_url": "https://en.wikipedia.org/wiki/Neom_SC"
-    },
-    {
-        "club_name": "Truro City",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Truro_City_FC_crest.svg/261px-Truro_City_FC_crest.svg.png",
-        "city_country": "Truro, England",
-        "wiki_url": "https://en.wikipedia.org/wiki/Truro_City_F.C."
-    },
-    {
-        "club_name": "Southend United",
-        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTgUPO3EueE-V7yQuW4PdzMNhjQOlZvNQwS6X6LFT5_RFYg63Qkym2Zro-VG1MTYgUWrojHulJP-FCQaGjAhwwaY_u2oniudg7pc2mCfckqHRpNAXJOPHYRM-DAp5a6zFoaHohZV8gmQo/s1600/Southend+United+FC256x.png",
-        "city_country": "Southend-on-Sea, England",
-        "wiki_url": "https://en.wikipedia.org/wiki/Southend_United_F.C."
-    }
+{
+    "club_name": "AC Juvenes/Dogana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3e/A.C._JuvenesDogana_logo.png",
+    "city_country": "Dogana, San Marino",
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Juvenes/Dogana"
+  }
 ]
