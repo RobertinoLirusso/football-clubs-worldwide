@@ -1,5 +1,6 @@
 # ClubsApp
 
+Repository Explanation
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/RobertinoLirusso/football-clubs-worldwide)
 
 
