@@ -3347,8 +3347,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Ternana_Calcio"
   },
   {
-    "club_name": "SPAL",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvdk1e3X17eiO9izAl4fJw2A8I-U1ie9ZKKhdEdjm4bJnsciBeEDiHuWp9pEL6TY3CYCgCZQJ-T1nueoUYKfrpaLs9fsYyl3IUWv1xCkoIl9-aKq2BByptHjf2IKcifCV-4eDPFVNVFj0/s1600/SPAL+2013256x.png",
+    "club_name": "Ferrara Calcio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Ferrara_Calcio_Ars_et_Labor_Logo.webp/930px-Ferrara_Calcio_Ars_et_Labor_Logo.webp.png",
     "city_country": "Ferrara, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/S.P.A.L."
   },
@@ -4908,7 +4908,7 @@
   },
   {
     "club_name": "ENPPI SC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/22/ENPPI_Club_Logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/ENPPI_SC_Logo.svg/250px-ENPPI_SC_Logo.svg.png",
     "city_country": "Cairo, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/ENPPI_SC"
   },
@@ -8067,5 +8067,95 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Virtus_AC_San_Marino_logo.svg/250px-Virtus_AC_San_Marino_logo.svg.png",
     "city_country": "Acquaviva, San Marino",
     "wiki_url": "https://en.wikipedia.org/wiki/AC_Virtus"
+  },
+    {
+    "club_name": "Denver Summit",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEjY5noysQGvfCVEWJSq45J9Q3lm_ePz1Id0SyaKt9Sq03sXAQbndy81eHcbhFM54srl4JZqsZN1h4V7VbtpB9q2O_nTRKX0B7rl9iFziSY8abH3DtYUdxphyY4Yyp_RcfFHofBh0XuOGTyjG1EC1de7pBNDExvAwYN8w9o1rUqeluxMXDovoC0Xla8ZL1M=w245-h320",
+    "city_country": "Denver, United States",
+    "wiki_url":  "https://en.wikipedia.org/wiki/Denver_Summit_FC"
+  },
+    {
+    "club_name": "B36 Tórshavn",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/B36_T%C3%B3rshavn_logo.svg/250px-B36_T%C3%B3rshavn_logo.svg.png",
+    "city_country": "Tórshavn, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/B36_Tórshavn"
+  },
+  {
+    "club_name": "B68 Toftir",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/B68_Toftir_logo.svg/180px-B68_Toftir_logo.svg.png",
+    "city_country": "Toftir, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/B68_Toftir"
+  },
+  {
+    "club_name": "EB/Streymur",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fd/EBStreymur_logo.png",
+    "city_country": "Eiði/Streymnes, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/EB/Streymur"
+  },
+  {
+    "club_name": "Havnar Bóltfelag",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Havnar_B%C3%B3ltfelag_logo.svg/250px-Havnar_B%C3%B3ltfelag_logo.svg.png",
+    "city_country": "Tórshavn, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Havnar_B%C3%B3ltfelag"
+  },
+  {
+    "club_name": "KÍ Klaksvík",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCW39ZBrI0-Vd7_vu5TOVhP8ZxAdTJtu-KbDCrjHY5dSzcenCAWpUFoF51Dvgq-MivXRY2vsHk_RkwbAtXtQUJek378gYD_y_upCYlUMSDhcOOCw0OcfuUlYHytvQGzuFkTQrmcA_ZpXLfQugVcvSxsDIDf6iIGFcLmIxzDIol6cZb8i-pxIQL_DDP6GI/s256/K%C3%8D%20Klaksvik256x.png",
+    "city_country": "Klaksvík, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Klaksv%C3%ADkar_%C3%8Dtr%C3%B3ttarfelag"
+  },
+  {
+    "club_name": "NSÍ Runavík",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/NS%C3%8D_Runav%C3%ADk.png/250px-NS%C3%8D_Runav%C3%ADk.png",
+    "city_country": "Runavík, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/NSI_Runav%C3%ADk"
+  },
+  {
+    "club_name": "Suðuroy",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/16/Fcsuduroy_logo.png",
+    "city_country": "Vágur, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Su%C3%B0uroy"
+  },
+  {
+    "club_name": "07 Vestur",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/07-Vestur-Logo.svg/250px-07-Vestur-Logo.svg.png",
+    "city_country": "Sørvágur, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/07_Vestur"
+  },
+  {
+    "club_name": "Tvøroyrar Bóltfelag",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/TB_Tvoroyri_Logo.png/180px-TB_Tvoroyri_Logo.png",
+    "city_country": "Tvøroyri, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/TB_Tv%C3%B8royri"
+  },
+  {
+    "club_name": "Víkingur Gøta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/V%C3%ADkingur_G%C3%B8ta_logo.svg/250px-V%C3%ADkingur_G%C3%B8ta_logo.svg.png",
+    "city_country": "Leirvík, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/V%C3%ADkingur_G%C3%B8ta"
+  },
+    {
+    "club_name": "Alverca",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLyGyCWTBw7qPxNJP3MbBq2I0c6xPo5FhdYAaiOF47YQeZ2VlbfHkFqKSVV2Mmv9wJfsmQZ3_1rw6ngxdzsR7b04kMIgFwRTixVNNoLPgCFAHWJv9Cb2OpSCcmfHfSDpyxXqQLkUz-LZE-u_qn4eT_I64TedVy3Psdxm0YlSFJFlD6cjk5_oNnyEfu/s256/FC%20Alverca256x.png",
+    "city_country": "Alverca do Ribatejo, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._Alverca"
+  },
+  {
+    "club_name": "Sorrento Calcio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/4/4a/Logo_Sorrento_2025.png/250px-Logo_Sorrento_2025.png",
+    "city_country": "Sorrento, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sorrento_Calcio_1945"
+  },
+  {
+    "club_name": "Audace Cerignola",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/SS_Audace_Cerignola_crest.svg/250px-SS_Audace_Cerignola_crest.svg.png",
+    "city_country": "Cerignola, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/SS_Audace_Cerignola"
+  },
+  {
+    "club_name": "Rimini FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Rimini_FC_1912_crest.svg/250px-Rimini_FC_1912_crest.svg.png",
+    "city_country": "Rimini, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rimini_FC_1912"
   }
 ]
