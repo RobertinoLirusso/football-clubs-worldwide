@@ -8223,5 +8223,59 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/KF_Bashkimi_Kumanov%C3%AB.svg/250px-KF_Bashkimi_Kumanov%C3%AB.svg.png",
     "city_country": "Kumanovo, North Macedonia",
     "wiki_url": "https://en.wikipedia.org/wiki/KF_Bashkimi_1947"
+  },
+    {
+    "club_name": "US Sambenedettese",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/US_Sambenedettese.png/250px-US_Sambenedettese.png",
+    "city_country": "San Benedetto del Tronto, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/U.S._Sambenedettese"
+  },
+  {
+    "club_name": "Siracusa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Siracusa_crest.svg/250px-Siracusa_crest.svg.png",
+    "city_country": "Siracusa, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Siracusa_Calcio_1924"
+  },
+  {
+    "club_name": "Ravenna",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnpNiMziwRwofiT1-NjfReG_22QF4SubnT1HZrps_HJCdmEbNrjc4SlZSQ_IS5TR6MJ34&usqp=CAU",
+    "city_country": "Ravenna, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ravenna_FC"
+  },
+  {
+    "club_name": "Sestri Levante",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/US_Sestri_Levante_1919_crest.svg/250px-US_Sestri_Levante_1919_crest.svg.png",
+    "city_country": "Sestri Levante, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Sestri_Levante_1919"
+  },
+  {
+    "club_name": "Turris Calcio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/SS_Turris_Calcio_crest.svg/250px-SS_Turris_Calcio_crest.svg.png",
+    "city_country": "Torre del Greco, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/SS_Turris_Calcio"
+  },
+  {
+    "club_name": "Taranto",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Taranto_FC_1927_crest.svg/250px-Taranto_FC_1927_crest.svg.png",
+    "city_country": "Taranto, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Taranto_FC_1927"
+  },
+  {
+    "club_name": "Aurora Pro Patria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Aurora_Pro_Patria_1919_crest.svg/145px-Aurora_Pro_Patria_1919_crest.svg.png",
+    "city_country": "Busto Arsizio, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aurora_Pro_Patria_1919"
+  },
+  {
+    "club_name": "Virtus Verona",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Logo_Virtus_Verona.svg/250px-Logo_Virtus_Verona.svg.png",
+    "city_country": "Verona, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Virtus_Verona"
+  },
+  {
+    "club_name": "Campobasso",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Logo_of_Campobasso_Football_Club.svg/250px-Logo_of_Campobasso_Football_Club.svg.png",
+    "city_country": "Campobasso, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Campobasso_FC"
   }
 ]
