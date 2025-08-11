@@ -8157,5 +8157,71 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Rimini_FC_1912_crest.svg/250px-Rimini_FC_1912_crest.svg.png",
     "city_country": "Rimini, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Rimini_FC_1912"
+  },
+    {
+    "club_name": "KF Arsimi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/KF_Arsimi.png/250px-KF_Arsimi.png",
+    "city_country": "Čegrane , North Macedonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Arsimi"
+  },
+  {
+    "club_name": "AP Brera Strumica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Brera_Strumica_logo.png/250px-Brera_Strumica_logo.png",
+    "city_country": "Strumica, North Macedonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_AP_Brera_Strumica"
+  },
+  {
+    "club_name": "Shkëndija",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/KF_Shk%C3%ABndija_Logo.svg/250px-KF_Shk%C3%ABndija_Logo.svg.png",
+    "city_country": "Tetovo, North Macedonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Shk%C3%ABndija"
+  },
+  {
+    "club_name": "Rabotnichki",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/FK_Rabotni%C4%8Dki_logo.svg/180px-FK_Rabotni%C4%8Dki_logo.svg.png",
+    "city_country": "Skopje, North Macedonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Rabotnichki"
+  },
+  {
+    "club_name": "Shkupi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/KF_Shkupi_logo.svg/250px-KF_Shkupi_logo.svg.png",
+    "city_country": "Skopje, North Macedonia",
+    "wiki_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/FK_Sileks_logo.svg/250px-FK_Sileks_logo.svg.png"
+  },
+  {
+    "club_name": "Sileks",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/FK_Sileks_logo.svg/250px-FK_Sileks_logo.svg.png",
+    "city_country": "Kratovo, North Macedonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Sileks"
+  },
+  {
+    "club_name": "Struga",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/FC_Struga_logo.svg/250px-FC_Struga_logo.svg.png",
+    "city_country": "Struga, North Macedonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Struga"
+  },
+  {
+    "club_name": "Tikvesh",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Gfk_tikves_logo.jpg/250px-Gfk_tikves_logo.jpg",
+    "city_country": "Kavadarci, North Macedonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/GFK_Tikvesh"
+  },
+  {
+    "club_name": "Pelister",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/FK_Pelister_Bitola.png/250px-FK_Pelister_Bitola.png",
+    "city_country": "Bitola, North Macedonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Pelister"
+  },
+  {
+    "club_name": "Makedonija G.P.",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/FK_Makedonija_Gorce_Petrov.svg/190px-FK_Makedonija_Gorce_Petrov.svg.png",
+    "city_country": "Skopje, North Macedonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Makedonija_G.P."
+  },
+  {
+    "club_name": "Bashkimi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/KF_Bashkimi_Kumanov%C3%AB.svg/250px-KF_Bashkimi_Kumanov%C3%AB.svg.png",
+    "city_country": "Kumanovo, North Macedonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Bashkimi_1947"
   }
 ]
