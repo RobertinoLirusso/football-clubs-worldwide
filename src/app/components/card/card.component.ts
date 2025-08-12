@@ -12,6 +12,8 @@ export class CardComponent implements OnInit {
   searchTerm: string = '';
   visibleClubs: number = 100;
 
+  animatedClubsCount: number = 0;  // <--- contador animado
+
   highlightedClubs: string[] = [
     'Real Madrid',
     'Inter Milan',
@@ -34,6 +36,7 @@ export class CardComponent implements OnInit {
   getClubs(): void {
     this.clubService.getClubs().subscribe(data => {
       this.clubs = this.shuffleArray(data);
+      this.animateCounter();   // <-- inicio animación cuando cargan clubes
     });
   }
 
@@ -43,6 +46,26 @@ export class CardComponent implements OnInit {
       [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
+  }
+
+  animateCounter(): void {
+    const duration = 1500; // duración animación en ms
+    const frameRate = 30;  // frames por segundo
+    const totalFrames = Math.round((duration / 1000) * frameRate);
+    let frame = 0;
+
+    const total = this.clubs.length;
+
+    const counter = setInterval(() => {
+      frame++;
+      this.animatedClubsCount = Math.min(
+        Math.round((frame / totalFrames) * total),
+        total
+      );
+      if (frame >= totalFrames) {
+        clearInterval(counter);
+      }
+    }, 1000 / frameRate);
   }
 
   openModal(index: number): void {
@@ -103,7 +126,6 @@ export class CardComponent implements OnInit {
     ).length;
   }
 
-
   getGoogleNewsUrl(club: any): string {
     return `https://www.google.com/search?q=${encodeURIComponent(club.club_name)}`
   }
@@ -111,6 +133,4 @@ export class CardComponent implements OnInit {
   get totalClubs(): number {
     return this.clubs.length;
   }
-
-
 }
