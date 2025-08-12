@@ -105,7 +105,12 @@ export class CardComponent implements OnInit {
 
 
   getGoogleNewsUrl(club: any): string {
-  return `https://www.google.com/search?q=${encodeURIComponent(club.club_name)}`;
-}
+    return `https://www.google.com/search?q=${encodeURIComponent(club.club_name)}`
+  }
+
+  get totalClubs(): number {
+    return this.clubs.length;
+  }
+
 
 }

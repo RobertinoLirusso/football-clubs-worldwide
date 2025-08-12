@@ -1,8 +1,32 @@
 [
   {
-    "club_name": "US Sambenedettese",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/US_Sambenedettese.png/250px-US_Sambenedettese.png",
-    "city_country": "San Benedetto del Tronto, Italy",
-    "wiki_url": "https://it.wikipedia.org/wiki/U.S._Sambenedettese"
+    "club_name": "CD Tondela",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP0QtWVlv7yw7zk2plSed5gyeVk8NtQo64Cv2h9LhwW1VxYY_YxkVaJykvOUCldaybrdasjN38jiQTejMiHVyl9PPVLTHB_cIx_cQb2V_k3lhwhy9Z6RU67CfOVHSsz6W4QQhx4fcHkGcg/s1600/CD+Tondela256x.png",
+    "city_country": "Tondela, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Tondela"
+  },
+  {
+    "club_name": "Chaves",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh2bnHldVje0weRLdl5uxVdOiJRPvtPT5Q1y-V0lMKERnwyD7XV7XvjqcpFuXs-p6FmxUjspa_JBXag20bxi_Z_bzANhjC5NS7iq4hOVgvDeBWdeCFDitahfT6kA4tyDGjgKlTFt4Z200o/s1600/Grupo+Desportivo+de+Chaves256x.png",
+    "city_country": "Chaves, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/G.D._Chaves"
+  },
+  {
+    "club_name": "Paços de Ferreira",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/F.C._Pa%C3%A7os_de_Ferreira.svg/250px-F.C._Pa%C3%A7os_de_Ferreira.svg.png",
+    "city_country": "Paços de Ferreira, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._Pa%C3%A7os_de_Ferreira"
+  },
+  {
+    "club_name": "Penafiel",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNUvJ2issMl4s4wJw3nedDlcaY8mgzxXRO_oe-aolQc-3b8U3A4HdBycCHZ0_G_tyMBRqkAIV7mMERO9fAoN4R-jl9liIzs4AeB-Yrxh4uzl2ouWxpRQggXlyczn0bqdNPozYCk7vZ2WPrtXnljDQH3-vWhptbujn47j7uaPbXEfXCgeEA0bQfDJbWsbg/s1600/FC%20Penafiel256x.png",
+    "city_country": "Penafiel, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._Penafiel"
+  },
+  {
+    "club_name": "Portimonense",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLVl0tzuJMUz4_iGT1fit8mndCitGaDMBUJvYgx6JM2o-chGbp1fm0kXYiKzgwUnHLLdWOPPgABs_Sp_PK0jeoJ5taK-hdVgKfD1Y0au2wY1i-9JNzj8J0J1pLDJpXpnZ-n04UyYxtTrG-/s1600/Portimonense+Sporting+Clube256x.png",
+    "city_country": "Portimão, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/Portimonense_S.C."
   }
 ]

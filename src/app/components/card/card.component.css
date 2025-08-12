@@ -138,6 +138,25 @@ footer p {
   color: #e1b661;
 }
 
+.highlight-text {
+  background-color: #e1b661;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: inline-block;
+  animation: fadeIn 2s ease-in-out infinite alternate;
+  box-shadow: 0 0 10px rgba(225, 182, 97, 0.8);
+  border-radius: 0; /* Sin bordes redondeados */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0.6; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+
+
+
 
 
   
@@ -171,4 +190,12 @@ footer p {
     min-width: 100%; /* Asegurar que el input ocupe todo el ancho disponible */
   }
 }
+
+@media (max-width: 600px) {
+  .highlight-text {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
 
