@@ -8439,5 +8439,83 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/SC_Wiedenbrueck_Logo.svg/250px-SC_Wiedenbrueck_Logo.svg.png",
     "city_country": "Rheda-Wiedenbrück, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/SC_Wiedenbr%C3%BCck"
+  },
+      {
+    "club_name": "Linfield",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Linfield_F.C._%28badge%29.png/250px-Linfield_F.C._%28badge%29.png",
+    "city_country": "Belfast, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Linfield_F.C."
+  },
+  {
+    "club_name": "Cliftonville",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Cliftonville.png/250px-Cliftonville.png",
+    "city_country": "Belfast, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cliftonville_F.C."
+  },
+  {
+    "club_name": "Crusaders",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Crusaders_F.C._logo.png/250px-Crusaders_F.C._logo.png",
+    "city_country": "Belfast, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Crusaders_F.C."
+  },
+  {
+    "club_name": "Glentoran",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Glentoran_FC_logo.png/140px-Glentoran_FC_logo.png",
+    "city_country": "Belfast, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Glentoran_F.C."
+  },
+  {
+    "club_name": "Larne",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Larne_FC_crest.svg/250px-Larne_FC_crest.svg.png",
+    "city_country": "Larne, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Larne_F.C."
+  },
+  {
+    "club_name": "Portadown",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Portadown_F.C.png/250px-Portadown_F.C.png",
+    "city_country": "Portadown, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Portadown_F.C."
+  },
+  {
+    "club_name": "Ballymena United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Ballymena_United_crest_2015.png/250px-Ballymena_United_crest_2015.png",
+    "city_country": "Ballymena, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ballymena_United_F.C."
+  },
+  {
+    "club_name": "Bangor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Bangor_FC_logo.svg/250px-Bangor_FC_logo.svg.png",
+    "city_country": "Bangor, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bangor_F.C."
+  },
+  {
+    "club_name": "Carrick Rangers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Carrick_Rangers_F.C.png/250px-Carrick_Rangers_F.C.png",
+    "city_country": "Carrickfergus, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Carrick_Rangers_F.C."
+  },
+  {
+    "club_name": "Coleraine",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Coleraine_FC_Club_Crest.png/500px-Coleraine_FC_Club_Crest.png",
+    "city_country": "Coleraine, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Coleraine_F.C."
+  },
+  {
+    "club_name": "Dungannon Swifts",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Dungannon_swifts_logo.png/140px-Dungannon_swifts_logo.png",
+    "city_country": "Dungannon, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dungannon_Swifts_F.C."
+  },
+  {
+    "club_name": "Glenavon",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/GlenavonLogo.png/250px-GlenavonLogo.png",
+    "city_country": "Lurgan, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Glenavon_F.C."
+  },
+  {
+    "club_name": "Bangor City (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Bangor_City_FC_Logo.png/250px-Bangor_City_FC_Logo.png",
+    "city_country": "Bangor, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bangor_City_F.C."
   }
 ]
