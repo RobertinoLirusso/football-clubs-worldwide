@@ -45,7 +45,7 @@
 </div>
 
 <div class="w3-center w3-padding" *ngIf="filteredClubs.length < clubs.length">
-  <button (click)="loadMore()" class="w3-btn w3-black w3-margin-top" *ngIf="!searchTerm">
+  <button (click)="loadMore()" class="w3-btn w3-black w3-margin-top title-game" *ngIf="!searchTerm">
     Load More
   </button>
 </div>
@@ -98,3 +98,14 @@
 
   </div>
 </div>
+
+<button 
+  class="back-to-top" 
+  [ngClass]="{'fade-out': isFadingOut}"
+  *ngIf="showBackToTop || isFadingOut" 
+  (click)="scrollToTop()" 
+  title="Back to Top">
+  <i class="fa fa-arrow-up"></i>
+</button>
+
+

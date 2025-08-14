@@ -8003,8 +8003,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/AC_Libertas"
   },
   {
-    "club_name": "San Marino Academy",
-    "club_logo": "https://i.namu.wiki/i/W1Ozkdbn5M7jXUkOqgfNaKG4bFNbABI7fqYR-GVcOz7KAZODzzWyAJmo9I3-ja0R8Al25cusdxlkeXf4a6l-Vch55XwPi_AMIk--NPyEXVUQwufBL-kQeuBJ1odX8cqzNqNAt7ymMyTCdgM2sO_zMA.webp",
+    "club_name": "San Marino Academy U22",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/San_Marino_Academy_logo.png/250px-San_Marino_Academy_logo.png",
     "city_country": "City of San Marino, San Marino",
     "wiki_url": "https://en.wikipedia.org/wiki/San_Marino_Academy"
   },
@@ -8517,5 +8517,65 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Bangor_City_FC_Logo.png/250px-Bangor_City_FC_Logo.png",
     "city_country": "Bangor, Wales",
     "wiki_url": "https://en.wikipedia.org/wiki/Bangor_City_F.C."
+  },
+    {
+    "club_name": "Alashkert",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfYLihI2NPGMjWXDTU46WVWOMtqExuvnV8LiQD6n8Mciusejy9-J8k-1b6XASgE3e8Fx8Adx57ua3aoFKX-ItxBO6xXGMxz9cJEbpP538UycKTXmm2imI3EYxVduDqv_EKYa3ceR1V6jw/s0/FC+Alashkert256x.png",
+    "city_country": "Yerevan, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Alashkert"
+  },
+  {
+    "club_name": "Ararat Yerevan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Ararat_Yerevan_logo.svg/180px-Ararat_Yerevan_logo.svg.png",
+    "city_country": "Yerevan, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ararat_Yerevan"
+  },
+  {
+    "club_name": "Ararat-Armenia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/FC_Ararat-Armenia_logo.svg/220px-FC_Ararat-Armenia_logo.svg.png",
+    "city_country": "Yerevan, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ararat-Armenia"
+  },
+  {
+    "club_name": "BKMA Yerevan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/FC_BKMA_Yerevan_logo.png/250px-FC_BKMA_Yerevan_logo.png",
+    "city_country": "Yerevan, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_BKMA_Yerevan"
+  },
+  {
+    "club_name": "Gandzasar Kapan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ef/Gandzasar_FC_Logo_2009.png",
+    "city_country": "Kapan, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Gandzasar_Kapan"
+  },
+  {
+    "club_name": "Noah",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRdCNAJ2-aUTsg5-Jfq4MMOiiYEntyVX9S2dbd1qo6FTyJaWL_CSEa1PLPygKzgVcxIrdnrQ6un-4qQJEzznu9Hykvr6WziOPa3g9U-j-29URxca8yysxggCngSQdiTJVRYtpFd5UVZcwN7Wp1qwSWGcOgE09hLAZMYCKIVPkOwix10YpVspxG9Bss43I/s1600/FC%20Noah256x.png",
+    "city_country": "Yerevan, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Noah"
+  },
+  {
+    "club_name": "Pyunik",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2_1WRs0gAN5SNsxP9ApFrd1V_PrIbyeF10ucoIfhgYfjdFrGREG79_zx1yPoRw8rkLCWmKCjkhPM0yXHOWEOjZ6jveTShOHbA2QNQXm4d8SYJ30LfJXQvLF8jZoRnuj3F4UDmmLxdOuzNr3Pmta5ZG8zPcXY4SpfRBjOtcLPBZEeanD1keZbbWXHx/s1600/FC%20Pyunik256x.png",
+    "city_country": "Yerevan, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Pyunik"
+  },
+  {
+    "club_name": "Shirak",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/da/FC_Shirak_logo.svg/150px-FC_Shirak_logo.svg.png",
+    "city_country": "Gyumri, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shirak_SC"
+  },
+  {
+    "club_name": "Urartu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/FC_Banants_Logo.png/250px-FC_Banants_Logo.png",
+    "city_country": "Yerevan, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Urartu"
+  },
+  {
+    "club_name": "Van",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/5c/FC_Van_logo.png",
+    "city_country": "Charentsavan, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Van"
   }
 ]

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { ClubService } from '../../services/club.service';
 
 @Component({
@@ -12,7 +12,10 @@ export class CardComponent implements OnInit {
   searchTerm: string = '';
   visibleClubs: number = 100;
 
-  animatedClubsCount: number = 0;  // <--- contador animado
+  showBackToTop: boolean = false;
+  isFadingOut: boolean = false;
+
+  animatedClubsCount: number = 0;
 
   highlightedClubs: string[] = [
     'Real Madrid',
@@ -33,10 +36,27 @@ export class CardComponent implements OnInit {
     this.getClubs();
   }
 
+  // Detectar scroll con HostListener
+  @HostListener('window:scroll', [])
+  onWindowScroll(): void {
+    const shouldShow = window.scrollY > 500;
+
+    if (shouldShow && !this.showBackToTop) {
+      this.isFadingOut = false;
+      this.showBackToTop = true;
+    } else if (!shouldShow && this.showBackToTop) {
+      this.isFadingOut = true;
+      setTimeout(() => {
+        this.showBackToTop = false;
+        this.isFadingOut = false;
+      }, 400); // tiempo de animación fadeOut
+    }
+  }
+
   getClubs(): void {
     this.clubService.getClubs().subscribe(data => {
       this.clubs = this.shuffleArray(data);
-      this.animateCounter();   // <-- inicio animación cuando cargan clubes
+      this.animateCounter();
     });
   }
 
@@ -49,11 +69,10 @@ export class CardComponent implements OnInit {
   }
 
   animateCounter(): void {
-    const duration = 1500; // duración animación en ms
-    const frameRate = 30;  // frames por segundo
+    const duration = 1500;
+    const frameRate = 30;
     const totalFrames = Math.round((duration / 1000) * frameRate);
     let frame = 0;
-
     const total = this.clubs.length;
 
     const counter = setInterval(() => {
@@ -102,6 +121,13 @@ export class CardComponent implements OnInit {
     this.visibleClubs += 100;
   }
 
+  scrollToTop(): void {
+    window.scroll({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
   selectRandomClub(): void {
     if (this.clubs.length > 0) {
       const randomIndex = Math.floor(Math.random() * this.clubs.length);
@@ -127,7 +153,7 @@ export class CardComponent implements OnInit {
   }
 
   getGoogleNewsUrl(club: any): string {
-    return `https://www.google.com/search?q=${encodeURIComponent(club.club_name)}`
+    return `https://www.google.com/search?q=${encodeURIComponent(club.club_name)}`;
   }
 
   get totalClubs(): number {

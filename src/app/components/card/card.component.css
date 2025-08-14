@@ -190,4 +190,59 @@ footer p {
   }
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: #e1b661; /* dorado */
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s, background-color 0.3s, opacity 0.4s ease;
+  z-index: 1000;
+  opacity: 0;
+  animation: fadeIn 0.4s forwards;
+}
+
+.back-to-top:hover {
+  background-color: #e1b661;
+  color: black;
+  transform: scale(1.1);
+}
+
+/* Animación para mostrar */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Animación para ocultar */
+.fade-out {
+  animation: fadeOut 0.4s forwards;
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(20px); }
+}
+
+/* Responsividad para el botón back-to-top */
+@media (max-width: 600px) {
+  .back-to-top {
+    bottom: 20px;
+    right: 50%;
+    transform: translateX(50%); /* Centrado horizontal */
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+}
 
