@@ -6912,7 +6912,7 @@
     },
     {
         "club_name": "HŠK Posušje",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b2/H%C5%A0K_Posu%C5%A1je_Logo.png",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/H%C5%A0K_Posu%C5%A1je_Logo.svg/250px-H%C5%A0K_Posu%C5%A1je_Logo.svg.png",
         "city_country": "Posušje, Bosnia and Herzegovina",
         "wiki_url": "https://en.wikipedia.org/wiki/H%C5%A0K_Posu%C5%A1je"
     },
@@ -8577,5 +8577,65 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/5c/FC_Van_logo.png",
     "city_country": "Charentsavan, Armenia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Van"
+  },
+    {
+    "club_name": "Ballkani",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4jBiFeCITH-LnoFwN5iLtNTGjge-vLrzh5_m1ZU1aUNPvJ2W2V8NmYUYz5iVKlhBnWKg1nealYtHH41c1uqHtidOMeSxY4qrmZWIbx6FA5DNNEhZIqpknZiAfwOYV4tM4ok2ZYKe0tpLAz_vxyyWBS39GOBhD5Msiy2ZQ-puKDh-IYiJf75AiTdA9/s1600/FC%20Ballkani256x.png",
+    "city_country": "Suva Reta, Kosovo",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ballkani"
+  },
+  {
+    "club_name": "Drenica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/FC_Drenica.svg/250px-FC_Drenica.svg.png",
+    "city_country": "Skenderaj, Kosovo",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Drenica"
+  },
+  {
+    "club_name": "Drita",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/FC_Drita.svg/250px-FC_Drita.svg.png",
+    "city_country": "Gjilan, Kosovo",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Drita"
+  },
+  {
+    "club_name": "Dukagjini",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/FC_Dukagjini.svg/250px-FC_Dukagjini.svg.png",
+    "city_country": "Klina, Kosovo",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Dukagjini"
+  },
+  {
+    "club_name": "Ferizaj",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/FC_Ferizaj.svg/180px-FC_Ferizaj.svg.png",
+    "city_country": "Ferizaj, Kosovo",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ferizaj"
+  },
+  {
+    "club_name": "SC Gjilani",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/SCGjilani.svg/180px-SCGjilani.svg.png",
+    "city_country": "Gjilan, Kosovo",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Gjilani"
+  },
+  {
+    "club_name": "Llapi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/FC_Llapi.svg/250px-FC_Llapi.svg.png",
+    "city_country": "Podujevë, Kosovo",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Llapi"
+  },
+  {
+    "club_name": "Malisheva",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/FC_Malisheva.svg/250px-FC_Malisheva.svg.png",
+    "city_country": "Malisheva, Kosovo",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Malisheva"
+  },
+  {
+    "club_name": "Prishtina",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/FC_Prishtina.svg/250px-FC_Prishtina.svg.png",
+    "city_country": "Prishtina, Kosovo",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Prishtina"
+  },
+  {
+    "club_name": "Prishtina e Re",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/KF_Prishtina_e_Re_Logo.svg/150px-KF_Prishtina_e_Re_Logo.svg.png",
+    "city_country": "Hajvalia, Kosovo",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Prishtina_e_Re"
   }
 ]

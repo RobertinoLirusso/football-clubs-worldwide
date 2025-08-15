@@ -234,15 +234,3 @@ footer p {
   to { opacity: 0; transform: translateY(20px); }
 }
 
-/* Responsividad para el botón back-to-top */
-@media (max-width: 600px) {
-  .back-to-top {
-    bottom: 20px;
-    right: 50%;
-    transform: translateX(50%); /* Centrado horizontal */
-    width: 45px;
-    height: 45px;
-    font-size: 20px;
-  }
-}
-
