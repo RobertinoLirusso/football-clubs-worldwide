@@ -8637,5 +8637,89 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/KF_Prishtina_e_Re_Logo.svg/150px-KF_Prishtina_e_Re_Logo.svg.png",
     "city_country": "Hajvalia, Kosovo",
     "wiki_url": "https://en.wikipedia.org/wiki/KF_Prishtina_e_Re"
+  },
+    {
+    "club_name": "Trapani",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/FC_Trapani_1905_Logo.svg/250px-FC_Trapani_1905_Logo.svg.png",
+    "city_country": "Trapani, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Trapani_1905"
+  },
+  {
+    "club_name": "Skonto FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Skonto_FC_logo.svg/250px-Skonto_FC_logo.svg.png",
+    "city_country": "Riga, Latvia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Skonto_FC"
+  },
+  {
+    "club_name": "Eskişehirspor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/b/b1/Eskisehirspor.svg/250px-Eskisehirspor.svg.png",
+    "city_country": "Eskişehir, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Eski%C5%9Fehirspor"
+  },
+  {
+    "club_name": "Wiener Sport-Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Logo_Wiener_Sport-Club_2017.png/250px-Logo_Wiener_Sport-Club_2017.png",
+    "city_country": "Vienna, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wiener_Sport-Club"
+  },
+    {
+    "club_name": "Budućnost Podgorica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Fk_Buducnost_Logo.png/130px-Fk_Buducnost_Logo.png",
+    "city_country": "Podgorica, Montenegro",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Budu%C4%87nost_Podgorica"
+  },
+  {
+    "club_name": "Arsenal Tivat",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Arsenal-tivat-logo.png/250px-Arsenal-tivat-logo.png",
+    "city_country": "Tivat, Montenegro",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Arsenal_Tivat"
+  },
+  {
+    "club_name": "Bokelj Kotor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/FK_Bokelj.png/190px-FK_Bokelj.png",
+    "city_country": "Kotor, Montenegro",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Bokelj"
+  },
+  {
+    "club_name": "Dečić",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1-DYZQs_rf-_6r7m8At9f9EaKcEOruB17CsiBA-jyWzQWOI9BbHPKtuyektNG8GUwPRdRn7nuvt3UjdYC2beDiXzQzAti7aBWn-XgCKFBu34KPFRWRDQM2BL7tMbvi2TUmGA-loC5uDcnzfOzLdbx7WxnirLcUC3dmBh4j767wTHj0DEDLIur4WsfjQw/s1600/FK%20De%C4%8Di%C4%87256x.png",
+    "city_country": "Tuzi, Montenegro",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_De%C4%8Di%C4%87"
+  },
+  {
+    "club_name": "Jedinstvo Bijelo Polje",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Jedinstvo.png/250px-Jedinstvo.png",
+    "city_country": "Bijelo Polje, Montenegro",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Jedinstvo_Bijelo_Polje"
+  },
+  {
+    "club_name": "Jezero",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cb/FK_Jezero_Plav.png",
+    "city_country": "Plav, Montenegro",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Jezero"
+  },
+  {
+    "club_name": "OFK Mladost Donja Gorica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/OFK_Mladost_DG.png",
+    "city_country": "Podgorica, Montenegro",
+    "wiki_url": "https://en.wikipedia.org/wiki/OFK_Mladost_Donja_Gorica"
+  },
+  {
+    "club_name": "Mornar Bar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/FK_Mornar_Bar_Logo.png/185px-FK_Mornar_Bar_Logo.png",
+    "city_country": "Bar, Montenegro",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Mornar"
+  },
+  {
+    "club_name": "OFK Petrovac",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/OFK_Petrovac.png/250px-OFK_Petrovac.png",
+    "city_country": "Petrovac, Montenegro",
+    "wiki_url": "https://en.wikipedia.org/wiki/OFK_Petrovac"
+  },
+  {
+    "club_name": "Sutjeska Nikšić",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/FK_Sutjeska_Nik%C5%A1i%C4%87.png/250px-FK_Sutjeska_Nik%C5%A1i%C4%87.png",
+    "city_country": "Nikšić, Montenegro",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Sutjeska_Nik%C5%A1i%C4%87"
   }
 ]
