@@ -8,7 +8,7 @@
   
 
   <div class="w3-container w3-center w3-margin-top">
-    <p class="highlight-text">
+    <p class="highlight-text modal-title">
       <span>+{{ animatedClubsCount }}</span> football clubs
     </p>
   </div>
@@ -22,18 +22,58 @@
   </div>
 </div>
 
+<!-- Contenedor de acciones (Filter + Random) -->
+<div class="action-container w3-margin">
+  <!-- Botón abrir modal -->
+  <button class="filter-btn action-btn" (click)="openCountryModal()" title="Click to filter clubs by country">
+    <i class="fa fa-filter w3-margin-right"></i> Filter
+  </button>
 
+  <!-- Botón limpiar país seleccionado -->
+  <button *ngIf="selectedCountry" 
+          class="clear-btn action-btn" 
+          (click)="clearCountryFilter()">
+    <i class="fa fa-times w3-margin-right"></i> Clear
+  </button>
 
-<div class="w3-container w3-center w3-margin">
-  <i class="fa fa-random random-icon icon" (click)="selectRandomClub()" title="Click to generate random club"></i>
+  <!-- Icono Random -->
+  <button class="filter-btn action-btn" (click)="selectRandomClub()" title="Click to generate random club" >
+    <i class="fa fa-random w3-margin-right"></i> Random
+  </button>
 </div>
-
 
 <div *ngIf="filteredClubs.length === 0" class="w3-container w3-center no-results">
   <p>No clubs found</p>
 </div>
 
+<!-- Modal Países -->
+<div *ngIf="isCountryModalOpen" class="w3-modal" style="display:block;">
+  <div class="w3-modal-content w3-animate-zoom" style="max-width:600px; margin:auto;">
+    <header class="w3-container w3-center w3-black title-game">
+      <span (click)="closeCountryModal()" class="w3-button w3-display-topright w3-black title-game">
+        <i class="fa fa-times"></i>
+      </span>  
+            <h5>Select a Country</h5>
+    </header>
 
+    <div class="w3-container w3-padding">
+      <!-- buscador dentro del modal -->
+      <input type="text" class="w3-input w3-margin-bottom" 
+             placeholder="Search country..." 
+             [(ngModel)]="countrySearch">
+
+      <!-- lista de países -->
+      <ul class="w3-ul w3-hoverable" style="max-height:300px; overflow-y:auto;">
+        <li *ngFor="let country of filteredCountries()" 
+            (click)="selectCountry(country)"
+            [ngClass]="{'w3-light-grey': selectedCountry === country}"
+            class="w3-padding w3-hover-light-grey">
+          {{ country }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 <div class="responsive-grid w3-padding-16">
   <div class="w3-card-2 w3-hover-shadow card" *ngFor="let club of filteredClubs; let i = index" (click)="openModal(i)">
@@ -44,12 +84,15 @@
   </div>
 </div>
 
-<div class="w3-center w3-padding" *ngIf="filteredClubs.length < clubs.length">
-  <button (click)="loadMore()" class="w3-btn w3-black w3-margin-top title-game" *ngIf="!searchTerm">
+<!-- Load More (ajustado) -->
+<div class="w3-center w3-padding" 
+     *ngIf="filteredClubs.length < totalFilteredCount">
+  <button (click)="loadMore()" 
+          class="w3-btn w3-black w3-margin-top title-game" 
+          *ngIf="!searchTerm || selectedCountry">
     Load More
   </button>
 </div>
-
 
 <!-- Modal W3.CSS-->
 

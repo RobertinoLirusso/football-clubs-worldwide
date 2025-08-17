@@ -8721,5 +8721,83 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/FK_Sutjeska_Nik%C5%A1i%C4%87.png/250px-FK_Sutjeska_Nik%C5%A1i%C4%87.png",
     "city_country": "Nikšić, Montenegro",
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Sutjeska_Nik%C5%A1i%C4%87"
+  },
+    {
+    "club_name": "FC Gütersloh",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/FC_Gutersloh_crest.svg/250px-FC_Gutersloh_crest.svg.png",
+    "city_country": "Gütersloh, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_G%C3%BCtersloh"
+  },
+  {
+    "club_name": "Sonnenhof Großaspach",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/SG_Sonnenhof_Gro%C3%9Faspach_logo.svg/250px-SG_Sonnenhof_Gro%C3%9Faspach_logo.svg.png",
+    "city_country": "Aspach, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SG_Sonnenhof_Gro%C3%9Faspach"
+  },
+  {
+    "club_name": "FK Pirmasens",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/FK_Pirmasens.png/250px-FK_Pirmasens.png",
+    "city_country": "Pirmasens, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Pirmasens"
+  },
+  {
+    "club_name": "FC Eintracht Norderstedt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/FC_Eintracht_Norderstedt_03_logo.svg/250px-FC_Eintracht_Norderstedt_03_logo.svg.png",
+    "city_country": "Norderstedt, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Eintracht_Norderstedt_03"
+  },
+  {
+    "club_name": "Bahlinger SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/BSC_Logo_rot_wei%E2%94%9C%C6%92.jpg/250px-BSC_Logo_rot_wei%E2%94%9C%C6%92.jpg",
+    "city_country": "Bahlingen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bahlinger_SC"
+  },
+  {
+    "club_name": "FV Illertissen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/FV_Illertissen_logo.svg/250px-FV_Illertissen_logo.svg.png",
+    "city_country": "Illertissen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FV_Illertissen"
+  },
+  {
+    "club_name": "VfB Lübeck",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/VfB_L%C3%BCbeck_logo.svg/250px-VfB_L%C3%BCbeck_logo.svg.png",
+    "city_country": "Lübeck, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/VfB_L%C3%BCbeck"
+  },
+  {
+    "club_name": "VfL Sportfreunde Lotte",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_SF_Lotte.svg/250px-Logo_SF_Lotte.svg.png",
+    "city_country": "Lotte, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sportfreunde_Lotte"
+  },
+  {
+    "club_name": "FV Engers 07",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/FV_Engers.png/250px-FV_Engers.png",
+    "city_country": "Engers, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FV_Engers_07"
+  },
+  {
+    "club_name": "Atlas Delmenhorst",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Atlas_Delmenhorst.jpg",
+    "city_country": "Delmenhorst, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atlas_Delmenhorst"
+  },
+  {
+    "club_name": "Blau-Weiß Lohne",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/6/6e/Blau-Wei%C3%9F_Lohne_%282016%29.png/120px-Blau-Wei%C3%9F_Lohne_%282016%29.png",
+    "city_country": "Lohne, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Blau-Wei%C3%9F_Lohne"
+  },
+  {
+    "club_name": "ZFC Meuselwitz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/ZFC_Meuselwitz_logo.svg/250px-ZFC_Meuselwitz_logo.svg.png",
+    "city_country": "Meuselwitz, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/ZFC_Meuselwitz"
+  },
+  {
+    "club_name": "FC 08 Homburg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/FC_08_Homburg_crest.svg/250px-FC_08_Homburg_crest.svg.png",
+    "city_country": "Homburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_08_Homburg"
   }
 ]

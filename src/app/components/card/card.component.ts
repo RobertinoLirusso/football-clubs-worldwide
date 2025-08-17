@@ -17,6 +17,11 @@ export class CardComponent implements OnInit {
 
   animatedClubsCount: number = 0;
 
+  isCountryModalOpen: boolean = false;
+  selectedCountry: string = '';
+  countrySearch: string = '';
+  countries: string[] = [];
+
   highlightedClubs: string[] = [
     'Real Madrid',
     'Inter Milan',
@@ -27,7 +32,12 @@ export class CardComponent implements OnInit {
     'Liverpool',
     'Tottenham Hotspur',
     'Al Nassr',
-    'Manchester City'
+    'Manchester City',
+    'Inter Miami',
+    'Flamengo',
+    'Arsenal',
+    'AC Milan',
+    'Atletico de Madrid',
   ];
 
   constructor(private clubService: ClubService) {}
@@ -56,6 +66,7 @@ export class CardComponent implements OnInit {
   getClubs(): void {
     this.clubService.getClubs().subscribe(data => {
       this.clubs = this.shuffleArray(data);
+      this.extractCountries(); // generar países únicos
       this.animateCounter();
     });
   }
@@ -95,19 +106,65 @@ export class CardComponent implements OnInit {
     this.selectedClub = null;
   }
 
-  get filteredClubs(): any[] {
-    let filtered: any[] = [];
+  extractCountries(): void {
+    const countrySet = new Set<string>();
+    this.clubs.forEach(club => {
+      const parts = club.city_country.split(',');
+      if (parts.length > 1) {
+        countrySet.add(parts[1].trim());
+      }
+    });
+    this.countries = Array.from(countrySet).sort();
+  }
 
-    if (!this.searchTerm) {
-      const highlighted = this.clubs.filter(club => this.highlightedClubs.includes(club.club_name));
-      const rest = this.clubs.filter(club => !this.highlightedClubs.includes(club.club_name));
-      filtered = [...highlighted, ...rest];
-    } else {
+  openCountryModal(): void {
+    this.isCountryModalOpen = true;
+  }
+
+  closeCountryModal(): void {
+    this.isCountryModalOpen = false;
+  }
+
+  selectCountry(country: string): void {
+    this.selectedCountry = country;
+    this.isCountryModalOpen = false;
+  }
+
+  clearCountryFilter(): void {
+    this.selectedCountry = '';
+    this.isCountryModalOpen = false;
+  }
+
+  filteredCountries(): string[] {
+    if (!this.countrySearch) return this.countries;
+    return this.countries.filter(c =>
+      c.toLowerCase().includes(this.countrySearch.toLowerCase())
+    );
+  }
+  get filteredClubs(): any[] {
+    let filtered = this.clubs;
+
+    if (this.selectedCountry) {
+      filtered = filtered.filter(club =>
+        club.city_country.toLowerCase().includes(this.selectedCountry.toLowerCase())
+      );
+    }
+
+    if (this.searchTerm) {
       const searchTermLower = this.searchTerm.toLowerCase();
-      filtered = this.clubs.filter(club =>
+      filtered = filtered.filter(club =>
         club.club_name.toLowerCase().includes(searchTermLower) ||
         club.city_country.toLowerCase().includes(searchTermLower)
       );
+    } else if (!this.selectedCountry) {
+      // mantener destacados si no hay búsqueda ni país
+      const highlighted = filtered.filter(club =>
+        this.highlightedClubs.includes(club.club_name)
+      );
+      const rest = filtered.filter(club =>
+        !this.highlightedClubs.includes(club.club_name)
+      );
+      filtered = [...highlighted, ...rest];
     }
 
     return filtered.slice(0, this.visibleClubs);
@@ -141,16 +198,15 @@ export class CardComponent implements OnInit {
     return `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
   }
 
-  get totalFilteredCount(): number {
-    if (!this.searchTerm) {
-      return this.clubs.length;
-    }
-    const searchTermLower = this.searchTerm.toLowerCase();
-    return this.clubs.filter(club =>
-      club.club_name.toLowerCase().includes(searchTermLower) ||
-      club.city_country.toLowerCase().includes(searchTermLower)
-    ).length;
-  }
+get totalFilteredCount(): number {
+  return this.selectedCountry || this.searchTerm
+    ? this.clubs.filter(club =>
+        (!this.selectedCountry || club.city_country.toLowerCase().includes(this.selectedCountry.toLowerCase())) &&
+        (!this.searchTerm || club.club_name.toLowerCase().includes(this.searchTerm.toLowerCase()) || club.city_country.toLowerCase().includes(this.searchTerm.toLowerCase()))
+      ).length
+    : this.clubs.length;
+}
+
 
   getGoogleNewsUrl(club: any): string {
     return `https://www.google.com/search?q=${encodeURIComponent(club.club_name)}`;
