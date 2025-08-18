@@ -1754,13 +1754,13 @@
   {
     "club_name": "Alumni de Villa María",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Escudo_del_Club_Alumni_de_Villa_Maria.svg/238px-Escudo_del_Club_Alumni_de_Villa_Maria.svg.png",
-    "city_country": "Villa María, Córdoba",
+    "city_country": "Villa María, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Alumni_de_Villa_Mar%C3%ADa"
   },
   {
     "club_name": "Sportivo Belgrano",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSwW5k3zYYMkTkcXXwDwhVgxydD5I082vipStwLCWHfm6kf1YXQWIzNarZdYkwbGTpk8R96r-BH8MURw4SYmGeY9ac5s1tgBxQb1T1Xt3gFk9Fa7ddhY0KW8jIOCKzYvNuDtFQX5HPLRY/s1600/Club+Sportivo+Belgrano256x.png",
-    "city_country": "San Francisco, Córdoba",
+    "city_country": "San Francisco, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Sportivo_Belgrano"
   },
   {
@@ -5875,7 +5875,7 @@
   {
     "club_name": "Dolomiti Bellunesi",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Logo_Dolomiti_Bellunesi_Calcio_2024.svg/250px-Logo_Dolomiti_Bellunesi_Calcio_2024.svg.png",
-    "city_country": "Belluno, Sedico, Feltre, Italy",
+    "city_country": "Belluno-Sedico-Feltre, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Dolomiti_Bellunesi_Calcio"
   },
   {
@@ -6331,7 +6331,7 @@
   {
     "club_name": "Nacional da Madeira",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI3M2wS_BUnw4Kh0bZdnfUIG5aRZ1_L50ijwjrzcKYjUrBXxAzlEosD8mDVEsbqjtMslKTmlaOuomdjHram0AFLXg-FzVEHMhlI1E4F5yb6WTOq8AuwIcC94BbbybPDws4_BD5Q42PF6I/s1600/Clube+Desportivo+Nacional256x.png",
-    "city_country": "Funchal, Madeira, Portugal",
+    "city_country": "Funchal (Madeira), Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/C.D._Nacional"
   },
   {
@@ -6343,7 +6343,7 @@
   {
     "club_name": "Santa Clara",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1UjxUzPDnuvzSydr4szhJ7d0bTdhvNB4oT_A5K3YWu14xvQQqn-dzxnL3BL1rbwbbesWzwha4hovkd3nOj8Rd1WyIfrfSrU31WOarlmYIJIMQzJpDdrN3HQ7X-Tb-eh0SNtcDcSX1UUIKYTIkwpvWHasy4IRkTuOumyFNfPbpRs4yCXyg4MIpec2d9Ko/s256/CD%20Santa%20Clara256x.png",
-    "city_country": "Ponta Delgada, Azores, Portugal",
+    "city_country": "Ponta Delgada (Azores), Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/C.D._Santa_Clara"
   },
   {
@@ -8718,7 +8718,7 @@
   },
   {
     "club_name": "Sutjeska Nikšić",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/FK_Sutjeska_Nik%C5%A1i%C4%87.png/250px-FK_Sutjeska_Nik%C5%A1i%C4%87.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/4/44/FK_Sutjeska_Nik%C5%A1i%C4%87.jpg",
     "city_country": "Nikšić, Montenegro",
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Sutjeska_Nik%C5%A1i%C4%87"
   },
@@ -8799,5 +8799,65 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/FC_08_Homburg_crest.svg/250px-FC_08_Homburg_crest.svg.png",
     "city_country": "Homburg, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_08_Homburg"
+  },
+    {
+    "club_name": "Mirassol",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mirassol_FC_logo.png/250px-Mirassol_FC_logo.png",
+    "city_country": "Mirassol, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mirassol_Futebol_Clube"
+  },
+  {
+    "club_name": "RB Bragantino",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Red_Bull_Bragantino_logo.svg/250px-Red_Bull_Bragantino_logo.svg.png",
+    "city_country": "Bragança Paulista, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Red_Bull_Bragantino"
+  },
+  {
+    "club_name": "Juventude",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/EC_Juventude.svg/245px-EC_Juventude.svg.png",
+    "city_country": "Caxias do Sul, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Esporte_Clube_Juventude"
+  },
+  {
+    "club_name": "Ceará",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Cear%C3%A1_Sporting_Club_logo.svg/250px-Cear%C3%A1_Sporting_Club_logo.svg.png",
+    "city_country": "Fortaleza, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cear%C3%A1_Sporting_Club"
+  },
+  {
+    "club_name": "Sport Recife",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Sport_Club_Recife.svg/250px-Sport_Club_Recife.svg.png",
+    "city_country": "Recife, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sport_Club_do_Recife"
+  },
+  {
+    "club_name": "Criciúma",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/EscudoCriciumaEC.svg/250px-EscudoCriciumaEC.svg.png",
+    "city_country": "Criciúma, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Crici%C3%BAma_Esporte_Clube"
+  },
+  {
+    "club_name": "Atlético Goianiense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Atl%C3%A9tico_Clube_Goianiense_logo.svg/130px-Atl%C3%A9tico_Clube_Goianiense_logo.svg.png",
+    "city_country": "Goiânia, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Clube_Goianiense"
+  },
+  {
+    "club_name": "Cuiabá",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cuiab%C3%A1_EC.svg/165px-Cuiab%C3%A1_EC.svg.png",
+    "city_country": "Cuiabá, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cuiab%C3%A1_Esporte_Clube"
+  },
+  {
+    "club_name": "Amazonas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Amazonas_Futebol_Clube.png/250px-Amazonas_Futebol_Clube.png",
+    "city_country": "Manaus, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Amazonas_Futebol_Clube"
+  },
+  {
+    "club_name": "América Mineiro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Escudo_Am%C3%A9rica_de_Minas.png/250px-Escudo_Am%C3%A9rica_de_Minas.png",
+    "city_country": "Belo Horizonte, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Am%C3%A9rica_Futebol_Clube_(MG)"
   }
 ]
