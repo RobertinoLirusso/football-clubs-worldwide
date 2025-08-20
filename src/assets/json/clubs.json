@@ -8961,5 +8961,65 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/3/31/Oqschetpes_K%C3%B6kschetau.svg/250px-Oqschetpes_K%C3%B6kschetau.svg.png",
     "city_country": "Kokshetau, Kazakhstan",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Okzhetpes"
+  },
+    {
+    "club_name": "Gorica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/HNK_Gorica.png/250px-HNK_Gorica.png",
+    "city_country": "Velika Gorica, Croatia",
+    "wiki_url": "https://en.wikipedia.org/wiki/HNK_Gorica"
+  },
+  {
+    "club_name": "Istra 1961",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/NKIstra1961_logo.svg/250px-NKIstra1961_logo.svg.png",
+    "city_country": "Pula, Croatia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Istra_1961"
+  },
+  {
+    "club_name": "Lokomotiva Zagreb",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/NK_Lokomotiva_Zagreb.svg/200px-NK_Lokomotiva_Zagreb.svg.png",
+    "city_country": "Zagreb, Croatia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Lokomotiva_Zagreb"
+  },
+  {
+    "club_name": "Osijek",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/NK_Osijek_logo.svg/200px-NK_Osijek_logo.svg.png",
+    "city_country": "Osijek, Croatia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Osijek"
+  },
+  {
+    "club_name": "Rijeka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/HNK_Rijeka_Hrvatska.png/250px-HNK_Rijeka_Hrvatska.png",
+    "city_country": "Rijeka, Croatia",
+    "wiki_url": "https://en.wikipedia.org/wiki/HNK_Rijeka"
+  },
+  {
+    "club_name": "Slaven Belupo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Slaven_Belupo_2022_logo.png/250px-Slaven_Belupo_2022_logo.png",
+    "city_country": "Koprivnica, Croatia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Slaven_Belupo"
+  },
+  {
+    "club_name": "Varaždin",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/NK_Varazdin_%282012%29.svg/250px-NK_Varazdin_%282012%29.svg.png",
+    "city_country": "Varaždin, Croatia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Vara%C5%BEdin_(2012)"
+  },
+  {
+    "club_name": "Vukovar 1991",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a6/HNK_Vukovar_1991_logo.png",
+    "city_country": "Vukovar, Croatia",
+    "wiki_url": "https://en.wikipedia.org/wiki/HNK_Vukovar_1991"
+  },
+  {
+    "club_name": "ND Gorica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/ND_Gorica_logo.svg/180px-ND_Gorica_logo.svg.png",
+    "city_country": "Nova Gorica, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/ND_Gorica"
+  },
+  {
+    "club_name": "Tatran Prešov",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/1FC_Tatran.png/250px-1FC_Tatran.png",
+    "city_country": "Prešov, Slovakia",
+    "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Tatran_Pre%C5%A1ov"
   }
 ]

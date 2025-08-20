@@ -37,7 +37,8 @@ export class CardComponent implements OnInit {
     'Flamengo',
     'Arsenal',
     'AC Milan',
-    'Atletico de Madrid',
+    'Atlético Madrid',
+    'Borussia Dortmund'
   ];
 
   constructor(private clubService: ClubService) {}
@@ -215,4 +216,50 @@ get totalFilteredCount(): number {
   get totalClubs(): number {
     return this.clubs.length;
   }
+
+//   generateWallpaper(club: any) {
+//   // Crear un canvas
+//   const canvas = document.createElement('canvas');
+//   const width = 800;
+//   const height = 600;
+//   canvas.width = width;
+//   canvas.height = height;
+//   const ctx = canvas.getContext('2d');
+
+//   if (!ctx) return;
+
+//   // Fondo degradado
+//   const gradient = ctx.createLinearGradient(0, 0, width, height);
+//   gradient.addColorStop(0, '#1e3c72'); // azul oscuro
+//   gradient.addColorStop(1, '#2a5298'); // azul más claro
+//   ctx.fillStyle = gradient;
+//   ctx.fillRect(0, 0, width, height);
+
+//   // Logo del club
+//   const logo = new Image();
+//   logo.crossOrigin = 'anonymous'; // para evitar problemas CORS
+//   logo.src = club.club_logo;
+
+//   logo.onload = () => {
+//     const logoSize = 200;
+//     ctx.drawImage(logo, (width - logoSize)/2, 50, logoSize, logoSize);
+
+//     // Nombre del club
+//     ctx.fillStyle = '#ffffff';
+//     ctx.font = 'bold 48px Arial';
+//     ctx.textAlign = 'center';
+//     ctx.fillText(club.club_name, width / 2, 350);
+
+//     // Ciudad / país
+//     ctx.font = 'italic 28px Arial';
+//     ctx.fillText(club.city_country, width / 2, 400);
+
+//     // Botón de descarga
+//     const link = document.createElement('a');
+//     link.download = `${club.club_name}-wallpaper.png`;
+//     link.href = canvas.toDataURL('image/png');
+//     link.click();
+//   };
+// }
+
 }
