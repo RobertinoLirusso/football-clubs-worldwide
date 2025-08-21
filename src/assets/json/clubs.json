@@ -9021,5 +9021,53 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/1FC_Tatran.png/250px-1FC_Tatran.png",
     "city_country": "Prešov, Slovakia",
     "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Tatran_Pre%C5%A1ov"
+  },
+    {
+    "club_name": "Arda Kardzhali",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/FC_Arda_logo_2018.png/250px-FC_Arda_logo_2018.png",
+    "city_country": "Kardzhali, Bulgaria",  
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Arda_Kardzhali"
+  },
+  {
+    "club_name": "Botev Vratsa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Botev_Vratsa_crest.png/250px-Botev_Vratsa_crest.png",
+    "city_country": "Vratsa, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/POFC_Botev_Vratsa"
+  },
+  {
+    "club_name": "Dobrudzha",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/FC_Dobrudzha_Dobrich_2018_emblem.png/250px-FC_Dobrudzha_Dobrich_2018_emblem.png",
+    "city_country": "Dobrich, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dobrudzha_Dobrich"
+  },
+  {
+    "club_name": "PFC Montana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ee/PFC_Montana_logo.png",
+    "city_country": "Montana, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Montana"
+  },
+  {
+    "club_name": "Septemvri Sofia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a9/PFCSeptemvriSofia.png",
+    "city_country": "Sofia, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/PFC_Septemvri_Sofia"
+  },
+  {
+    "club_name": "Spartak Varna",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Spartak_Varna.png/250px-Spartak_Varna.png",
+    "city_country": "Varna, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Spartak_Varna"
+  },
+  {
+    "club_name": "Breiðablik",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Brei%C3%B0ablik_men%27s_football_logo.png/250px-Brei%C3%B0ablik_men%27s_football_logo.png",
+    "city_country": "Kopavogur, Iceland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brei%C3%B0ablik_(men%27s_football)"
+  },
+  {
+    "club_name": "Valur",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/a9/Valur.png/120px-Valur.png",
+    "city_country": "Reykjavik, Iceland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Valur_(men%27s_football)"
   }
 ]
