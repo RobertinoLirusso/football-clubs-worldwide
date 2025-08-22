@@ -9066,8 +9066,128 @@
   },
   {
     "club_name": "Valur",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/a9/Valur.png/120px-Valur.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/26/Valur_Reykjavik_%28logo%29.svg/250px-Valur_Reykjavik_%28logo%29.svg.png",
     "city_country": "Reykjavik, Iceland",
     "wiki_url": "https://en.wikipedia.org/wiki/Valur_(men%27s_football)"
+  },
+    {
+    "club_name": "Arka Gdynia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Arka_Gdynia_crest.svg/200px-Arka_Gdynia_crest.svg.png",
+    "city_country": "Gydnia, Poland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Arka_Gdynia"
+  },
+  {
+    "club_name": "Bruk-Bet Termalica Nieciecza",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Bruk-Bet_Termalica_Nieciecza_crest.svg/250px-Bruk-Bet_Termalica_Nieciecza_crest.svg.png",
+    "city_country": "Nieciecza, Poland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bruk-Bet_Termalica_Nieciecza"
+  },
+  {
+    "club_name": "Wisła Płock",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Wisla_P%C5%82ock.png/250px-Wisla_P%C5%82ock.png",
+    "city_country": "Płock, Poland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wis%C5%82a_P%C5%82ock"
+  },
+  {
+    "club_name": "Randers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Randers_FC_logo.svg/250px-Randers_FC_logo.svg.png",
+    "city_country": "Randers, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Randers_FC"
+  },
+  {
+    "club_name": "Silkeborg IF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Silkeborg_IF_logo.svg/200px-Silkeborg_IF_logo.svg.png",
+    "city_country": "Silkeborg, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Silkeborg_IF"
+  },
+  {
+    "club_name": "Vejle Boldklub",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Vejle_Boldklub.png/250px-Vejle_Boldklub.png",
+    "city_country": "Vejle, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vejle_Boldklub"
+  },
+  {
+    "club_name": "FC Fredericia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/FC_Fredericia.png/250px-FC_Fredericia.png",
+    "city_country": "Fredericia, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Fredericia"
+  },
+  {
+    "club_name": "Sønderjyske",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/SonderjyskE_logo.svg/250px-SonderjyskE_logo.svg.png",
+    "city_country": "Haderslev, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/S%C3%B8nderjyske_Fodbold"
+  },
+    {
+    "club_name": "Zhejiang FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Zhejiang_Professional_F.C.svg/250px-Zhejiang_Professional_F.C.svg.png",
+    "city_country": "Hangzhou, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zhejiang_Professional_F.C."
+  },
+  {
+    "club_name": "Wuhan Three Towns",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Wuhan_Three_Towns_F.C.svg/250px-Wuhan_Three_Towns_F.C.svg.png",
+    "city_country": "Wuhan, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wuhan_Three_Towns_F.C."
+  },
+  {
+    "club_name": "Yunnan Yukun",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Yunnan_Yukun_F.C.svg/250px-Yunnan_Yukun_F.C.svg.png",
+    "city_country": "Yuxi, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yunnan_Yukun_F.C."
+  },
+  {
+    "club_name": "Qingdao West Coast",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Qingdao_West_Coast_F.C.svg/250px-Qingdao_West_Coast_F.C.svg.png",
+    "city_country": "Qingdao, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Qingdao_West_Coast_F.C."
+  },
+  {
+    "club_name": "Qingdao Hainiu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Qingdao_Hainiu_F.C.svg/250px-Qingdao_Hainiu_F.C.svg.png",
+    "city_country": "Qingdao, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Qingdao_Hainiu_F.C."
+  },
+  {
+    "club_name": "Qingdao FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Qingdao_Huanghai_logo.svg/190px-Qingdao_Huanghai_logo.svg.png",
+    "city_country": "Qingdao, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Qingdao_F.C."
+  },
+  {
+    "club_name": "Meizhou Hakka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Meizhou_Hakka_F.C.svg/250px-Meizhou_Hakka_F.C.svg.png",
+    "city_country": "Meizhou, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Meizhou_Hakka_F.C."
+  },
+  {
+    "club_name": "Eastern Sports Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Eastern_Sports_Club.svg/180px-Eastern_Sports_Club.svg.png",
+    "city_country": "Kowloon, Hong Kong",
+    "wiki_url": "https://en.wikipedia.org/wiki/Eastern_Sports_Club" 
+  },
+  {
+    "club_name": "Lee Man Football Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Lee_Man_FC.svg/250px-Lee_Man_FC.svg.png",
+    "city_country": "Tseung Kwan O, Hong Kong",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lee_Man_FC"
+  },
+  {
+    "club_name": "Kowloon City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Kowloon_City_District_SA.svg/250px-Kowloon_City_District_SA.svg.png",
+    "city_country": "Kowloon, Hong Kong",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kowloon_City_District_SA"
+  },
+  {
+    "club_name": "HKFC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/HKFC_crest.svg/250px-HKFC_crest.svg.png",
+    "city_country": "Hong Kong",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hong_Kong_FC_(football)"
+  },
+  {
+    "club_name": "Eastern District",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Eastern_District_FC.png/250px-Eastern_District_FC.png",
+    "city_country": "Hong Kong",
+    "wiki_url": "https://en.wikipedia.org/wiki/Eastern_District_SA"
   }
 ]
