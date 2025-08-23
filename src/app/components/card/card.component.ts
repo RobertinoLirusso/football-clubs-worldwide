@@ -41,6 +41,30 @@ export class CardComponent implements OnInit {
     'Borussia Dortmund'
   ];
 
+  // 🚩 Mapeo de países a código ISO Alpha-2 (para banderas)
+  countryFlagMap: { [key: string]: string } = {
+    'peru': 'pe',
+    'italy': 'it',
+    'england': 'gb-eng',
+    'spain': 'es',
+    'germany': 'de',
+    'france': 'fr',
+    'argentina': 'ar',
+    'brazil': 'br',
+    'uruguay': 'uy',
+    'chile': 'cl',
+    'portugal': 'pt',
+    'mexico': 'mx',
+    'usa': 'us',
+    'japan': 'jp',
+    'china': 'cn',
+    'colombia': 'co',
+    'paraguay': 'py',
+    'ecuador': 'ec',
+    'venezuela': 've'
+    // agrega más según tu JSON
+  };
+
   constructor(private clubService: ClubService) {}
 
   ngOnInit(): void {
@@ -60,14 +84,14 @@ export class CardComponent implements OnInit {
       setTimeout(() => {
         this.showBackToTop = false;
         this.isFadingOut = false;
-      }, 400); // tiempo de animación fadeOut
+      }, 400);
     }
   }
 
   getClubs(): void {
     this.clubService.getClubs().subscribe(data => {
       this.clubs = this.shuffleArray(data);
-      this.extractCountries(); // generar países únicos
+      this.extractCountries();
       this.animateCounter();
     });
   }
@@ -142,13 +166,16 @@ export class CardComponent implements OnInit {
       c.toLowerCase().includes(this.countrySearch.toLowerCase())
     );
   }
+
   get filteredClubs(): any[] {
     let filtered = this.clubs;
 
     if (this.selectedCountry) {
-      filtered = filtered.filter(club =>
-        club.city_country.toLowerCase().includes(this.selectedCountry.toLowerCase())
-      );
+      filtered = filtered.filter(club => {
+        const parts = club.city_country.split(',');
+        const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
+        return country === this.selectedCountry.toLowerCase();
+      });
     }
 
     if (this.searchTerm) {
@@ -158,7 +185,6 @@ export class CardComponent implements OnInit {
         club.city_country.toLowerCase().includes(searchTermLower)
       );
     } else if (!this.selectedCountry) {
-      // mantener destacados si no hay búsqueda ni país
       const highlighted = filtered.filter(club =>
         this.highlightedClubs.includes(club.club_name)
       );
@@ -199,15 +225,20 @@ export class CardComponent implements OnInit {
     return `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
   }
 
-get totalFilteredCount(): number {
-  return this.selectedCountry || this.searchTerm
-    ? this.clubs.filter(club =>
-        (!this.selectedCountry || club.city_country.toLowerCase().includes(this.selectedCountry.toLowerCase())) &&
-        (!this.searchTerm || club.club_name.toLowerCase().includes(this.searchTerm.toLowerCase()) || club.city_country.toLowerCase().includes(this.searchTerm.toLowerCase()))
-      ).length
-    : this.clubs.length;
-}
-
+  get totalFilteredCount(): number {
+    return this.selectedCountry || this.searchTerm
+      ? this.clubs.filter(club => {
+          const parts = club.city_country.split(',');
+          const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
+          return (
+            (!this.selectedCountry || country === this.selectedCountry.toLowerCase()) &&
+            (!this.searchTerm ||
+              club.club_name.toLowerCase().includes(this.searchTerm.toLowerCase()) ||
+              club.city_country.toLowerCase().includes(this.searchTerm.toLowerCase()))
+          );
+        }).length
+      : this.clubs.length;
+  }
 
   getGoogleNewsUrl(club: any): string {
     return `https://www.google.com/search?q=${encodeURIComponent(club.club_name)}`;
@@ -217,49 +248,16 @@ get totalFilteredCount(): number {
     return this.clubs.length;
   }
 
-//   generateWallpaper(club: any) {
-//   // Crear un canvas
-//   const canvas = document.createElement('canvas');
-//   const width = 800;
-//   const height = 600;
-//   canvas.width = width;
-//   canvas.height = height;
-//   const ctx = canvas.getContext('2d');
-
-//   if (!ctx) return;
-
-//   // Fondo degradado
-//   const gradient = ctx.createLinearGradient(0, 0, width, height);
-//   gradient.addColorStop(0, '#1e3c72'); // azul oscuro
-//   gradient.addColorStop(1, '#2a5298'); // azul más claro
-//   ctx.fillStyle = gradient;
-//   ctx.fillRect(0, 0, width, height);
-
-//   // Logo del club
-//   const logo = new Image();
-//   logo.crossOrigin = 'anonymous'; // para evitar problemas CORS
-//   logo.src = club.club_logo;
-
-//   logo.onload = () => {
-//     const logoSize = 200;
-//     ctx.drawImage(logo, (width - logoSize)/2, 50, logoSize, logoSize);
-
-//     // Nombre del club
-//     ctx.fillStyle = '#ffffff';
-//     ctx.font = 'bold 48px Arial';
-//     ctx.textAlign = 'center';
-//     ctx.fillText(club.club_name, width / 2, 350);
-
-//     // Ciudad / país
-//     ctx.font = 'italic 28px Arial';
-//     ctx.fillText(club.city_country, width / 2, 400);
-
-//     // Botón de descarga
-//     const link = document.createElement('a');
-//     link.download = `${club.club_name}-wallpaper.png`;
-//     link.href = canvas.toDataURL('image/png');
-//     link.click();
-//   };
-// }
+getCountryCode(value: string): string {
+  // Puede venir "City, Country" o solo "Country"
+  let country = value;
+  if (value.includes(',')) {
+    const parts = value.split(',');
+    country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
+  } else {
+    country = value.trim().toLowerCase();
+  }
+  return this.countryFlagMap[country] || 'un'; // 'un' = Naciones Unidas por defecto
+}
 
 }

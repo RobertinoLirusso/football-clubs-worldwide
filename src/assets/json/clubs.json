@@ -2150,7 +2150,7 @@
   {
     "club_name": "Brighton & Hove Albion",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB2qIKUOn3LLZDFOnXrqh5eO8ovQV8qX_WVMJSSS-dtNIUDX_sBh3fZgjQLThPOhZFwXX7lqNi0kf6L7gQaSOvJC4SKux-r9wJ6nXcEGwFEbrBDsbyTEbX7npmk4JGnaHuRQD8BVEqSjnd/s1600/Brighton+Hove+Albion256x.png",
-    "city_country": "Brighton & Hove, United Kingdom",
+    "city_country": "Brighton & Hove, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."
   },
   {
@@ -9189,5 +9189,53 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Eastern_District_FC.png/250px-Eastern_District_FC.png",
     "city_country": "Hong Kong",
     "wiki_url": "https://en.wikipedia.org/wiki/Eastern_District_SA"
+  },
+    {
+    "club_name": "Defensores de Belgrano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Defensores_de_Belgrano_Logo.svg/250px-Defensores_de_Belgrano_Logo.svg.png",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Defensores_de_Belgrano"
+  },
+  {
+    "club_name": "Defensores Unidos",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/CADU_zarate.png/120px-CADU_zarate.png",
+    "city_country": "Zárate, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Defensores_Unidos"
+  },
+  {
+    "club_name": "Gimnasia y Tiro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Gimnasio_y_tiro_de_salta.png/120px-Gimnasio_y_tiro_de_salta.png",
+    "city_country": "Salta, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gimnasia_y_Tiro"
+  },
+  {
+    "club_name": "Güemes",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Club_Atletico_Guemes512x.png/250px-Club_Atletico_Guemes512x.png",
+    "city_country": "Santiago del Estero, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_G%C3%BCemes"
+  },
+  {
+    "club_name": "San Miguel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Escudo_C.A.S.M.png/120px-Escudo_C.A.S.M.png",
+    "city_country": "San Miguel, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_San_Miguel"
+  },
+  {
+    "club_name": "San Telmo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Club_santelmo_logo.png/120px-Club_santelmo_logo.png",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_San_Telmo"
+  },
+  {
+    "club_name": "Talleres de Remedios de Escalada",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKeEsm36sBlh_afX2xnHfU7eWKUYY7vFwN0hryGFOCTjN3kSXRtZQDGKEH8kgEXw6l_ddDjDF5v6V9Jh7Ste3xYO0L-0qKCAzvMbDmH35dhoxj7sufk51hdImF-H-T4xMywbFkAC6frDXogCY060l-BvTF6s60KJsQgb5FsbXzBpZydfh7o-ObJBudgAI/s1600/Remedios%20de%20Escalada256x.png",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Talleres_de_Remedios_de_Escalada"
+  },
+  {
+    "club_name": "Tristán Súarez",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Escudo_Final_TS_PNG.png/250px-Escudo_Final_TS_PNG.png",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/CSyD_Trist%C3%A1n_Su%C3%A1rez"
   }
 ]
