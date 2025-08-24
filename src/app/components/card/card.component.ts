@@ -22,6 +22,7 @@ export class CardComponent implements OnInit {
   selectedCountry: string = '';
   countrySearch: string = '';
   countries: string[] = [];
+  sortOption: string = 'default';
 
   highlightedClubs: string[] = [
     'Real Madrid',
@@ -145,35 +146,50 @@ export class CardComponent implements OnInit {
     );
   }
 
-  get filteredClubs(): any[] {
-    let filtered = this.clubs;
+get filteredClubs(): any[] {
+  let filtered = this.clubs;
 
-    if (this.selectedCountry) {
-      filtered = filtered.filter(club => {
-        const parts = club.city_country.split(',');
-        const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
-        return country === this.selectedCountry.toLowerCase();
-      });
-    }
-
-    if (this.searchTerm) {
-      const searchTermLower = this.searchTerm.toLowerCase();
-      filtered = filtered.filter(club =>
-        club.club_name.toLowerCase().includes(searchTermLower) ||
-        club.city_country.toLowerCase().includes(searchTermLower)
-      );
-    } else if (!this.selectedCountry) {
-      const highlighted = filtered.filter(club =>
-        this.highlightedClubs.includes(club.club_name)
-      );
-      const rest = filtered.filter(club =>
-        !this.highlightedClubs.includes(club.club_name)
-      );
-      filtered = [...highlighted, ...rest];
-    }
-
-    return filtered.slice(0, this.visibleClubs);
+  if (this.selectedCountry) {
+    filtered = filtered.filter(club => {
+      const parts = club.city_country.split(',');
+      const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
+      return country === this.selectedCountry.toLowerCase();
+    });
   }
+
+  if (this.searchTerm) {
+    const searchTermLower = this.searchTerm.toLowerCase();
+    filtered = filtered.filter(club =>
+      club.club_name.toLowerCase().includes(searchTermLower) ||
+      club.city_country.toLowerCase().includes(searchTermLower)
+    );
+  } else if (!this.selectedCountry) {
+    const highlighted = filtered.filter(club =>
+      this.highlightedClubs.includes(club.club_name)
+    );
+    const rest = filtered.filter(club =>
+      !this.highlightedClubs.includes(club.club_name)
+    );
+    filtered = [...highlighted, ...rest];
+  }
+
+if (this.sortOption === 'az') {
+  filtered = [...filtered].sort((a, b) => a.club_name.localeCompare(b.club_name));
+} else if (this.sortOption === 'za') {
+  filtered = [...filtered].sort((a, b) => b.club_name.localeCompare(a.club_name));
+} else if (this.sortOption === 'default') {
+  const highlighted = filtered.filter(club =>
+    this.highlightedClubs.includes(club.club_name)
+  );
+  const rest = filtered.filter(club =>
+    !this.highlightedClubs.includes(club.club_name)
+  );
+  filtered = [...highlighted, ...rest];
+}
+
+  return filtered.slice(0, this.visibleClubs);
+}
+
 
   clearSearch(): void {
     this.searchTerm = '';
@@ -236,5 +252,6 @@ getCountryCode(value: string): string {
   }
     return COUNTRY_FLAG_MAP[country] || 'un';
 }
+
 
 }

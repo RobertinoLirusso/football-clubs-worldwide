@@ -22,25 +22,31 @@
   </div>
 </div>
 
-<!-- Contenedor de acciones (Filter + Random) -->
 <div class="action-container w3-margin">
-  <!-- Botón abrir modal -->
+
   <button class="filter-btn action-btn" (click)="openCountryModal()" title="Click to filter clubs by country">
     <i class="fa fa-filter w3-margin-right"></i> Filter
   </button>
 
-  <!-- Botón limpiar país seleccionado -->
   <button *ngIf="selectedCountry" 
           class="clear-btn action-btn" 
           (click)="clearCountryFilter()">
     <i class="fa fa-times w3-margin-right"></i> Clear
   </button>
 
-  <!-- Icono Random -->
   <button class="filter-btn action-btn" (click)="selectRandomClub()" title="Click to generate random club" >
     <i class="fa fa-random w3-margin-right"></i> Random
   </button>
+
+  <select [(ngModel)]="sortOption" class="filter-btn action-btn" title="Sort clubs">
+  <option value="default"> Default</option>
+  <option value="az">A–Z</option>
+  <option value="za">Z–A</option>
+</select>
+
+
 </div>
+
 
 <div *ngIf="filteredClubs.length === 0" class="w3-container w3-center no-results">
   <p>No clubs found</p>
@@ -68,6 +74,7 @@
             (click)="selectCountry(country)"
             [ngClass]="{'w3-light-grey': selectedCountry === country}"
             class="w3-padding w3-hover-light-grey">
+            <span class="w3-margin-right fi" [ngClass]="'fi-' + getCountryCode(country)"></span>
           {{ country }}
         </li>
       </ul>
