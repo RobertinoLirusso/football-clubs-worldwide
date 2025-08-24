@@ -158,6 +158,11 @@ footer p {
   font-size: 1.7rem; /* Aumenta el tamaño del texto */
 }
 
+.club-flag {
+  font-size: 1.8rem; 
+  display: inline-block;
+  margin-bottom: 7px;
+}
   
 /* Responsividad */
 

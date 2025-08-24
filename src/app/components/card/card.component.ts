@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { ClubService } from '../../services/club.service';
+import { COUNTRY_FLAG_MAP } from '../../utils/country-flags';
 
 @Component({
   selector: 'app-card',
@@ -41,29 +42,6 @@ export class CardComponent implements OnInit {
     'Borussia Dortmund'
   ];
 
-  // 🚩 Mapeo de países a código ISO Alpha-2 (para banderas)
-  countryFlagMap: { [key: string]: string } = {
-    'peru': 'pe',
-    'italy': 'it',
-    'england': 'gb-eng',
-    'spain': 'es',
-    'germany': 'de',
-    'france': 'fr',
-    'argentina': 'ar',
-    'brazil': 'br',
-    'uruguay': 'uy',
-    'chile': 'cl',
-    'portugal': 'pt',
-    'mexico': 'mx',
-    'usa': 'us',
-    'japan': 'jp',
-    'china': 'cn',
-    'colombia': 'co',
-    'paraguay': 'py',
-    'ecuador': 'ec',
-    'venezuela': 've'
-    // agrega más según tu JSON
-  };
 
   constructor(private clubService: ClubService) {}
 
@@ -249,7 +227,6 @@ export class CardComponent implements OnInit {
   }
 
 getCountryCode(value: string): string {
-  // Puede venir "City, Country" o solo "Country"
   let country = value;
   if (value.includes(',')) {
     const parts = value.split(',');
@@ -257,7 +234,7 @@ getCountryCode(value: string): string {
   } else {
     country = value.trim().toLowerCase();
   }
-  return this.countryFlagMap[country] || 'un'; // 'un' = Naciones Unidas por defecto
+    return COUNTRY_FLAG_MAP[country] || 'un';
 }
 
 }
