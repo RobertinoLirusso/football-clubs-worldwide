@@ -132,6 +132,7 @@ export const COUNTRY_FLAG_MAP: { [key: string]: string } = {
   'north macedonia': 'mk',
   'norway': 'no',
   'oman': 'om',
+  'ivory coast': 'ci',
   'pakistan': 'pk',
   'palau': 'pw',
   'palestine': 'ps',

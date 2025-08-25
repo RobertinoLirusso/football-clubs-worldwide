@@ -3366,7 +3366,7 @@
   },
   {
     "club_name": "ACR Messina",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Logo_of_ACR_Messina.svg/176px-Logo_of_ACR_Messina.svg.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEi7lC-EESkp5isvaB1gNge8n7nHgZ1LYpddZLSXKXkNkjdvaN1tzte5eTyRc4P-4IaTve7fhgpDJR_HNEqol5wN0oBugZ-JDVO65mWJvY5Pu1PpzPtlkO1mwiotk7MWakj179H7aCZ1lt5RkfDOpXz1aVYRsEQahn3V34hWED3Yk1-W3hRtVkJU1ZoC-f8=w243-h320",
     "city_country": "Messina, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/A.C.R._Messina"
   },
@@ -8520,7 +8520,7 @@
   },
     {
     "club_name": "Alashkert",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfYLihI2NPGMjWXDTU46WVWOMtqExuvnV8LiQD6n8Mciusejy9-J8k-1b6XASgE3e8Fx8Adx57ua3aoFKX-ItxBO6xXGMxz9cJEbpP538UycKTXmm2imI3EYxVduDqv_EKYa3ceR1V6jw/s0/FC+Alashkert256x.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEiJ_QP3Q0XmJRAtvA_-2dfUceWEOK4-OQx-Hv_O9dKxsU3QalMtwWxHgokvxe7FuGaCbFc2YkExuk6E-gPJv3FgMoSYiKTxPHgLaSFdMYUqNSJ3DN92DKdZ8fY_VqZ8Z4gajZm-QFLa6WKpb0A94jWoJxia4m6ZWCH_aexbnBBcq8uF92yDJyyUOGgo4DA=w320-h320",
     "city_country": "Yerevan, Armenia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Alashkert"
   },
@@ -9253,31 +9253,163 @@
    {
     "club_name": "FC Aarau",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Wappen_FCAg.svg/250px-Wappen_FCAg.svg.png",
-    "city_country": "Aarau, Suiza",
+    "city_country": "Aarau, Switzerland",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Aarau"
   },
   {
     "club_name": "Étoile Carouge FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/%C3%89toile_Carouge_FC_2023_Logo.svg/180px-%C3%89toile_Carouge_FC_2023_Logo.svg.png",
-    "city_country": "Carouge, Suiza",
+    "city_country": "Carouge, Switzerland",
     "wiki_url": "https://en.wikipedia.org/wiki/%C3%89toile_Carouge_FC"
   },
   {
     "club_name": "FC Rapperswil-Jona",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/FC_Rapperswil-Jona_logo.svg/250px-FC_Rapperswil-Jona_logo.svg.png",
-    "city_country": "Rapperswil, Suiza",
+    "city_country": "Rapperswil, Switzerland",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Rapperswil-Jona"
   },
   {
     "club_name": "Stade Lausanne-Ouchy",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/FC_Stade_Lausanne_Ouchy-en.png/250px-FC_Stade_Lausanne_Ouchy-en.png",
-    "city_country": "Ouchy, Suiza",
+    "city_country": "Ouchy, Switzerland",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Stade_Lausanne_Ouchy"
   },
   {
     "club_name": "Stade Nyonnais",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/FC_Stade_Nyonnais_logo.png/250px-FC_Stade_Nyonnais_logo.png",
-    "city_country": "Nyon, Suiza",
+    "city_country": "Nyon, Switzerland",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Stade_Nyonnais"
+  },
+    {
+    "club_name": "Akritas Chlorakas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Akritas_Chlorakas.png/250px-Akritas_Chlorakas.png",
+    "city_country": "Chlorakas, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Akritas_Chlorakas"
+  },
+  {
+    "club_name": "Al-Muharraq SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Al-Muharraq_SC_%28logo%29.png/250px-Al-Muharraq_SC_%28logo%29.png",
+    "city_country": "Muharraq, Bahrain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Muharraq_SC"
+  },
+  {
+    "club_name": "Bashundara Kings",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Logo_de_Bashundhara_Kings.svg/250px-Logo_de_Bashundhara_Kings.svg.png",
+    "city_country": "Dhaka, Bangladesh",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bashundhara_Kings"
+  },
+  {
+    "club_name": "Paro FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/70/Paro_FC.png",
+    "city_country": "Paro, Bhutan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Paro_FC"
+  },
+  {
+    "club_name": "MS ABDB FT",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Royal_Brunei_Armed_Forces_Sports_Council_logo.png/250px-Royal_Brunei_Armed_Forces_Sports_Council_logo.png",
+    "city_country": "Tutong, Brunei",
+    "wiki_url": "https://en.wikipedia.org/wiki/Royal_Brunei_Armed_Forces_Sports_Council#Football_team"
+  },
+  {
+    "club_name": "Preah Khan Reach Svay Rieng",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Svay_Rieng_FC_logo.png/250px-Svay_Rieng_FC_logo.png",
+    "city_country": "Svay Rieng, Cambodia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Preah_Khan_Reach_Svay_Rieng_FC"
+  },
+  {
+    "club_name": "SLB Laulara",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Sport_Laulara_e_Benfica_logo.png/250px-Sport_Laulara_e_Benfica_logo.png",
+    "city_country": "Laulara, Timor-Leste",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sport_Laulara_e_Benfica"
+  },
+  {
+    "club_name": "Inter Kashi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Inter_Kashi_logo.svg/250px-Inter_Kashi_logo.svg.png",
+    "city_country": "Varanasi, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Inter_Kashi_FC"
+  },
+  {
+    "club_name": "Al-Shorta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/04/Al-Shorta_Sports_Club_%28Iraq%29_Crest.png",
+    "city_country": "Baghdad, Iraq",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Shorta_SC"
+  },
+  {
+    "club_name": "Al-Faisaly",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Al-Faisaly_SC_%28logo%29.png/180px-Al-Faisaly_SC_%28logo%29.png",
+    "city_country": "Amman, Jordan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Faisaly_SC"
+  },
+  {
+    "club_name": "Kuwait SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Kuwait_Sporting_Club_logo.png/250px-Kuwait_Sporting_Club_logo.png",
+    "city_country": "Kuwait City, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kuwait_SC"
+  },
+  {
+    "club_name": "Dordoi Bishkek",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/FK_Dordoi_Bishkek.svg/250px-FK_Dordoi_Bishkek.svg.png",
+    "city_country": "Bishkek, Kyrgyzstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dordoi_Bishkek"
+  },
+  {
+    "club_name": "Young Elephants",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Young_Elephants_logo.png/250px-Young_Elephants_logo.png",
+    "city_country": "Vientiane, Laos",
+    "wiki_url": "https://en.wikipedia.org/wiki/Young_Elephants_FC"
+  },
+  {
+    "club_name": "FC Chanthabouly",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/F.C._Chanthabouly.png/200px-F.C._Chanthabouly.png",
+    "city_country": "Vientiane, Laos",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._Chanthabouly"
+  },
+  {
+    "club_name": "Al-Ansar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fc/Alansar_logo.png",
+    "city_country": "Beirut, Lebanon",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Ansar_FC"
+  },
+  {
+    "club_name": "Lalitpur City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Lalitpur_City_FC.png/300px-Lalitpur_City_FC.png",
+    "city_country": "Lalitpur, Nepal",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lalitpur_City_F.C."
+  },
+  {
+    "club_name": "Jhapa FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Jhapa_FC_logo_File.png/250px-Jhapa_FC_logo_File.png",
+    "city_country": "Jhapa, Nepal",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jhapa_FC"
+  },
+  {
+    "club_name": "Pokhara Thunders",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Pokhara_Thunders_logo.png/250px-Pokhara_Thunders_logo.png",
+    "city_country": "Pokhara, Nepal",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pokhara_Thunders"
+  },
+  {
+    "club_name": "Istiklol Dushanbe",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/FC_Istiklol_logo.svg/250px-FC_Istiklol_logo.svg.png",
+    "city_country": "Dushanbe, Tajikistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Istiklol"
+  },
+  {
+    "club_name": "CSKA Pamir Dushanbe",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/5/5f/SSKA_Pomir.png",
+    "city_country": "Dushanbe, Tajikistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/CSKA_Pamir_Dushanbe"
+  },
+  {
+    "club_name": "Shan United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Shan_United_Crest_2015.png/250px-Shan_United_Crest_2015.png",
+    "city_country": "Taunggyi, Myanmar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shan_United_F.C."
+  },
+  {
+    "club_name": "Yanadabon",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Yadanabon_FC.png/250px-Yadanabon_FC.png",
+    "city_country": "Mandalay, Myanmar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yadanarbon_F.C."
   }
 ]

@@ -1,8 +1,14 @@
 [
   {
-    "club_name": "Veracruz (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/CD_Veracruz_logo.svg/250px-CD_Veracruz_logo.svg.png",
-    "city_country": "Veracruz, Mexico",
-    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Veracruz"
+    "club_name": "Cebu FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c3/Dynamic_Herb_Cebu_F.C.png",
+    "city_country": "Cebu City, Philippines",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cebu_F.C."
+  },
+  {
+    "club_name": "Dhofar Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Dhofar_Club.png/180px-Dhofar_Club.png",
+    "city_country": "Salalah, Oman",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dhofar_Club"
   }
 ]
