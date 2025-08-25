@@ -9237,5 +9237,47 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Escudo_Final_TS_PNG.png/250px-Escudo_Final_TS_PNG.png",
     "city_country": "Buenos Aires, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/CSyD_Trist%C3%A1n_Su%C3%A1rez"
+  },
+    {
+    "club_name": "Veracruz (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/CD_Veracruz_logo.svg/250px-CD_Veracruz_logo.svg.png",
+    "city_country": "Veracruz, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Veracruz"
+  },
+  {
+    "club_name": "Leones Negros de UdeG",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Leones_Negros_Guadalajara.svg/250px-Leones_Negros_Guadalajara.svg.png",
+    "city_country": "Guadalajara, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Leones_Negros_UdeG"
+  },
+   {
+    "club_name": "FC Aarau",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Wappen_FCAg.svg/250px-Wappen_FCAg.svg.png",
+    "city_country": "Aarau, Suiza",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Aarau"
+  },
+  {
+    "club_name": "Étoile Carouge FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/%C3%89toile_Carouge_FC_2023_Logo.svg/180px-%C3%89toile_Carouge_FC_2023_Logo.svg.png",
+    "city_country": "Carouge, Suiza",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%89toile_Carouge_FC"
+  },
+  {
+    "club_name": "FC Rapperswil-Jona",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/FC_Rapperswil-Jona_logo.svg/250px-FC_Rapperswil-Jona_logo.svg.png",
+    "city_country": "Rapperswil, Suiza",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Rapperswil-Jona"
+  },
+  {
+    "club_name": "Stade Lausanne-Ouchy",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/FC_Stade_Lausanne_Ouchy-en.png/250px-FC_Stade_Lausanne_Ouchy-en.png",
+    "city_country": "Ouchy, Suiza",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Stade_Lausanne_Ouchy"
+  },
+  {
+    "club_name": "Stade Nyonnais",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/FC_Stade_Nyonnais_logo.png/250px-FC_Stade_Nyonnais_logo.png",
+    "city_country": "Nyon, Suiza",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Stade_Nyonnais"
   }
 ]
