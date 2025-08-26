@@ -3348,7 +3348,7 @@
   },
   {
     "club_name": "Ferrara Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Ferrara_Calcio_Ars_et_Labor_Logo.webp/930px-Ferrara_Calcio_Ars_et_Labor_Logo.webp.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ars_Et_Labor_-_Ferrara_Calcio_1907.png/140px-Ars_Et_Labor_-_Ferrara_Calcio_1907.png",
     "city_country": "Ferrara, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/S.P.A.L."
   },
@@ -3391,6 +3391,12 @@
   {
     "club_name": "Union Brescia",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Union_Brescia_logo.svg/250px-Union_Brescia_logo.svg.png",
+    "city_country": "Brescia, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Union_Brescia"
+  },
+    {
+    "club_name": "Brescia Calcio (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Brescia_calcio_badge.svg/180px-Brescia_calcio_badge.svg.png",
     "city_country": "Brescia, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Brescia_Calcio"
   },
@@ -4158,7 +4164,7 @@
   },
   {
     "club_name": "Livorno",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJJLag57efp070tPEYEH3GkofnCNkumoMrOxm_mgWRPG3AMFCEJb1rcIPqYEkNnnatp5vP2lNFnXOca_8EK0TmjBSGw8cpd0h8P4DHbs9AVbuV6yJiW65h5YcY55KHN8V57Ny-5ra1m1twEMcLf-ExEIR_nl0Qkap2ibIz76rhclB37yM8eC1NBDU3/s256/Unione%20Sportiva%20Livorno256x.png",
+    "club_logo": "https://www.uslivorno.com/wp-content/themes/zaki/assets/img/logo@2x.png",
     "city_country": "Livorno, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/US_Livorno_1915"
   },
@@ -8256,7 +8262,7 @@
   },
   {
     "club_name": "Taranto",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Taranto_FC_1927_crest.svg/250px-Taranto_FC_1927_crest.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Taranto_Logo_2025.png/250px-Taranto_Logo_2025.png",
     "city_country": "Taranto, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Taranto_FC_1927"
   },
@@ -9411,5 +9417,101 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Yadanabon_FC.png/250px-Yadanabon_FC.png",
     "city_country": "Mandalay, Myanmar",
     "wiki_url": "https://en.wikipedia.org/wiki/Yadanarbon_F.C."
+  },
+    {
+    "club_name": "Motagua",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/F.C._Motagua.png/250px-F.C._Motagua.png",
+    "city_country": "Tegucigalpa, Honduras",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._Motagua"
+  },
+  {
+    "club_name": "Real Estelí",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Escudo_del_Real_Estel%C3%AD.png/250px-Escudo_del_Real_Estel%C3%AD.png",
+    "city_country": "Estelí, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Estel%C3%AD_FC"
+  },
+  {
+    "club_name": "Diriangén",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Diriang%C3%A9n_FC_logo.png/250px-Diriang%C3%A9n_FC_logo.png",
+    "city_country": "Diriamba, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/Diriang%C3%A9n_FC"
+  },
+  {
+    "club_name": "Antigua GFC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Antigua_GFC_LOGO.jpg/250px-Antigua_GFC_LOGO.jpg",
+    "city_country": "Antigua Guatemala, Guatemala",
+    "wiki_url": "https://en.wikipedia.org/wiki/Antigua_GFC"
+  },
+  {
+    "club_name": "Cibao FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9b/Cibao_FC_logo.png",
+    "city_country": "Santiago de los Caballeros, Dominican Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cibao_FC"
+  },
+  {
+    "club_name": "Comunicaciones FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Comunicaciones_fc_logo.png/250px-Comunicaciones_fc_logo.png",
+    "city_country": "Guatemala City, Guatemala",
+    "wiki_url": "https://en.wikipedia.org/wiki/Comunicaciones_F.C."
+  },
+  {
+    "club_name": "CD Olimpia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/OLIMPIA_ESCUDO_2_japa.png/250px-OLIMPIA_ESCUDO_2_japa.png",
+    "city_country": "Tegucigalpa, Honduras",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Olimpia"
+  },
+  {
+    "club_name": "Municipal",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/CSD_Municipal.svg/250px-CSD_Municipal.svg.png",
+    "city_country": "Guatemala City, Guatemala",
+    "wiki_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/CSD_Municipal.svg/250px-CSD_Municipal.svg.png"
+  },
+  {
+    "club_name": "Santa Tecla FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Santa_Tecla_FC.png/250px-Santa_Tecla_FC.png",
+    "city_country": "Santa Tecla, El Salvador",
+    "wiki_url": "https://en.wikipedia.org/wiki/Santa_Tecla_F.C."
+  },
+  {
+    "club_name": "Herediano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/C.S._Herediano.svg/250px-C.S._Herediano.svg.png",
+    "city_country": "Heredia, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.S._Herediano"
+  },
+  {
+    "club_name": "Central FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Central_F.C.png/330px-Central_F.C.png",
+    "city_country": "Couva, Trinidad and Tobago",
+    "wiki_url": "https://en.wikipedia.org/wiki/Central_F.C."
+  },
+  {
+    "club_name": "Alianza FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Alianza_FC.jpg/250px-Alianza_FC.jpg",
+    "city_country": "Panama City, Panama",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alianza_F.C._(Panama)"
+  },
+  {
+    "club_name": "Tauro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Tauro_FC_%282017%29.png/250px-Tauro_FC_%282017%29.png",
+    "city_country": "Panama City, Panama",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tauro_F.C."
+  },
+  {
+    "club_name": "Árabe Unido",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3_A7KVZIyKpOInTDnvNwscY0UREQyUkHSF4EeSy1ttJ0lKnapo6-_ScubIm-A0rBBJOK7-OCe32BmGXYCgiz0MtPxoakLpi2wAQ3gVihrvYFYX_UcsceVjhihLQEhUkDFcox59WfvpaM/s1600/Deportivo+Arabe+Unido256x.png",
+    "city_country": "Colón, Panama",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._%C3%81rabe_Unido"
+  },
+  {
+    "club_name": "San Francisco",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/San_Francisco_FC_%28Panama%29.svg/250px-San_Francisco_FC_%28Panama%29.svg.png",
+    "city_country": "La Chorrera, Panama",
+    "wiki_url": "https://en.wikipedia.org/wiki/San_Francisco_F.C."
+  },
+  {
+    "club_name": "Sporting San Miguelito",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPgzJkoYOUPzxUW2cmEZ0SHDm2TMAGMez2efXkC6Jv4cyi4uhe-bun6BnB8T8xKukaWKmZDfusdtiHoJUD7v3w1dHozLHOQZ-qzEbsua1AhbzjOvVreO1IIQ2znM09l5n2r6JJLyYki7M/s1600/Sporting+SM256x.png",
+    "city_country": "San Miguelito, Panama",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sporting_San_Miguelito"
   }
 ]

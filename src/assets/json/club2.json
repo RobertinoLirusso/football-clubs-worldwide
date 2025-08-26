@@ -1,14 +1,14 @@
 [
   {
-    "club_name": "Cebu FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c3/Dynamic_Herb_Cebu_F.C.png",
-    "city_country": "Cebu City, Philippines",
-    "wiki_url": "https://en.wikipedia.org/wiki/Cebu_F.C."
+    "club_name": "FC Petržalka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/FC_Petr%C5%BEalka_crest.png/250px-FC_Petr%C5%BEalka_crest.png",
+    "city_country": "Bratislava, Slovakia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Petr%C5%BEalka"
   },
   {
-    "club_name": "Dhofar Club",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Dhofar_Club.png/180px-Dhofar_Club.png",
-    "city_country": "Salalah, Oman",
-    "wiki_url": "https://en.wikipedia.org/wiki/Dhofar_Club"
+    "club_name": "FC VSS Košice (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Fcvsskosice.png/250px-Fcvsskosice.png",
+    "city_country": "Košice, Slovakia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_VSS_Ko%C5%A1ice"
   }
 ]
