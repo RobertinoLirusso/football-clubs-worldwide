@@ -1309,7 +1309,7 @@
   },
   {
     "club_name": "Celtic",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8UUYyoSJ9pEXlzmXvMZp0Jyo_7iVfIpF_yPJhpqj_ZCYFf1nR6C3H79vbKn9qHCdPZgvF4-1Yz-iJ_CMIqTuEDGA83kjOZpkU19bnPosse6KVep8DBQws5Siac38_r2EnZzAWMyoPhuc/s1600/Celtic+FC256x.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Celtic_FC_crest.svg/250px-Celtic_FC_crest.svg.png",
     "city_country": "Glasgow, Scotland",
     "wiki_url": "https://en.wikipedia.org/wiki/Celtic_F.C."
   },
@@ -2214,7 +2214,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Dinamo_Minsk"
   },
   {
-    "club_name": "Dinamo Brest",
+    "club_name": "Dynamo Brest",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtLlR7vw193x7lxNGR65RL77kK-7FsUiZ6PxwwCGGliL-L2Xv9NJpl8AAYkXY1R0hizynV11qcVJXo0IBRgnAwCvH0h8qMGo6sUlwwWXYixsuN9vsQz4nQKEF00by46qgc8j_rqdNNZrs/s1600/FC+Dynamo+Brest256x.png",
     "city_country": "Brest, Belarus",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Dinamo_Brest"
@@ -4788,7 +4788,7 @@
   },
   {
     "club_name": "Torquay United",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/TUFC_125.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/TUFC-est1899.png/250px-TUFC-est1899.png",
     "city_country": "Torquay, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Torquay_United_F.C."
   },
@@ -9657,5 +9657,71 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/37/AS_Pirae.png/250px-AS_Pirae.png",
     "city_country": "Pirae, French Polynesia",
     "wiki_url": "https://en.wikipedia.org/wiki/A.S._Pirae"
+  },
+    {
+    "club_name": "FC Chelyabinsk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d3/FC_Chelyabinsk_new_logo.png",
+    "city_country": "Chelyabinsk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Chelyabinsk"
+  },
+  {
+    "club_name": "FC Neftekhimik Nizhnekamsk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Neftekhimik_Nizhnekamsk_logo.png/250px-Neftekhimik_Nizhnekamsk_logo.png",
+    "city_country": "Nizhnekamsk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Neftekhimik_Nizhnekamsk"
+  },
+  {
+    "club_name": "Volga Ulyanovsk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/FC_Volga_Ulyanovsk_logo.png/250px-FC_Volga_Ulyanovsk_logo.png",
+    "city_country": "Ulyanovsk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Volga_Ulyanovsk"
+  },
+  {
+    "club_name": "PFC Sokol",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Logo_of_FC_Sokol-Saratov.png/250px-Logo_of_FC_Sokol-Saratov.png",
+    "city_country": "Saratov, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Sokol_Saratov"
+  },
+  {
+    "club_name": "Chernomorets Novorossiysk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/FC_Chernomorets_Novorossiysk_logo.png/250px-FC_Chernomorets_Novorossiysk_logo.png",
+    "city_country": "Novorossiysk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Chernomorets_Novorossiysk"
+  },
+  {
+    "club_name": "Shinnik Yaroslavl",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/FC_Shinnik_Logo.png/160px-FC_Shinnik_Logo.png",
+    "city_country": "Yaroslavl, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Shinnik_Yaroslavl"
+  },
+  {
+    "club_name": "Spartak Kostroma",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Logo_of_FC_Spartak_Kostroma.gif/250px-Logo_of_FC_Spartak_Kostroma.gif",
+    "city_country": "Kostroma, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Spartak_Kostroma"
+  },
+  {
+    "club_name": "Rodina Moscow",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/FC_Rodina_Moscow_logo.png/250px-FC_Rodina_Moscow_logo.png",
+    "city_country": "Moscow, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Rodina_Moscow"
+  },
+    {
+    "club_name": "Tosno",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoitVBv6DjgRdADeZqQpUWUFHvXkSb-4NyK0iKdkLxlmq_uB_PtOC2N8re8xhw0rGYRyZwR4XXVACrqgQxr3w7-THUrpsM7cu4Qs1B5PCjhyphenhyphenvTuCpTTJzH_HGMswfSPwuiDJdzbJkeKzaixGb-qAI2wlkRd2mbwDvbwv92xIOS_Zg6e8oWNGIFIslOmEU/s1600/FC%20Tosno256x.png",
+    "city_country": "Tosno, Russia",
+    "wiki_url": "https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D1%81%D0%BD%D0%BE_(%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BB%D1%83%D0%B1)"
+  },
+    {
+    "club_name": "FC Irkutsk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/FC_Irkutsk_logo.png/250px-FC_Irkutsk_logo.png",
+    "city_country": "Irkutsk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Irkutsk"
+  },
+  {
+    "club_name": "FC Luki-Energiya Velikiye Luki",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/5a/FC_Luki-Energiya_Velikiye_Luki_logo.png",
+    "city_country": "Velikiye Luki, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Luki-Energiya_Velikiye_Luki"
   }
 ]

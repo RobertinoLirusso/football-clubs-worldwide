@@ -127,7 +127,7 @@ export const COUNTRY_FLAG_MAP: { [key: string]: string } = {
   'new zealand': 'nz',
   'nicaragua': 'ni',
   'niger': 'ne',
-  'french polinesia': 'pf',
+  'french polynesia': 'pf',
   'puerto rico': 'pr',
   'new caledonia': 'nc',
   'nigeria': 'ng',
