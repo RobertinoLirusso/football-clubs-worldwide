@@ -570,7 +570,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Esporte_Clube_Vit%C3%B3ria"
   },
   {
-    "club_name": "Santos FC",
+    "club_name": "Santos",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/240px-Santos_Logo.png",
     "city_country": "Santos, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Santos_FC"
@@ -9621,5 +9621,41 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/FC_Ju%C3%A1rez_logo.svg/250px-FC_Ju%C3%A1rez_logo.svg.png",
     "city_country": "Ciudad Juárez, Mexico",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Ju%C3%A1rez"
+  },
+    {
+    "club_name": "Missile FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/37/Missile_FC_logo.png",
+    "city_country": "Libreville, Gabon",
+    "wiki_url": "https://en.wikipedia.org/wiki/Missile_FC"
+  },
+  {
+    "club_name": "Sheikh Russel KC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Sheikh_Russel_KC_logo.svg/250px-Sheikh_Russel_KC_logo.svg.png",
+    "city_country": "Dhaka, Bangladesh",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sheikh_Russel_KC"
+  },
+  {
+    "club_name": "Santos FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Santos_%28RSA%29_logo.svg/250px-Santos_%28RSA%29_logo.svg.png",
+    "city_country": "Cape Town, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Santos_F.C._(South_Africa)"
+  },
+  {
+    "club_name": "AS Magenta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/ASMagenta.png/250px-ASMagenta.png",
+    "city_country": "Nouméa, New Caledonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Magenta"
+  },
+  {
+    "club_name": "AS Dragon",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/AS_Dragon_%28Tahiti%29.svg/250px-AS_Dragon_%28Tahiti%29.svg.png",
+    "city_country": "Papeete, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Dragon_(football_club)"
+  },
+  {
+    "club_name": "AS Pirae",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/37/AS_Pirae.png/250px-AS_Pirae.png",
+    "city_country": "Pirae, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Pirae"
   }
 ]
