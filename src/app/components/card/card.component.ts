@@ -1,6 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { ClubService } from '../../services/club.service';
 import { COUNTRY_FLAG_MAP } from '../../utils/country-flags';
+import { FootballService } from '../../services/football.service';
 
 @Component({
   selector: 'app-card',
@@ -24,6 +25,10 @@ export class CardComponent implements OnInit {
   countries: string[] = [];
   sortOption: string = 'default';
   selectedImage: any = null;
+  matches: any[] = [];  
+  loadingMatches = true;
+  isMatchesModalOpen: boolean = false; 
+
 
 
   highlightedClubs: string[] = [
@@ -42,17 +47,21 @@ export class CardComponent implements OnInit {
     'Arsenal',
     'AC Milan',
     'Atlético Madrid',
-    'Borussia Dortmund'
+    'Borussia Dortmund',
+    'Palmeiras'
   ];
 
 
-  constructor(private clubService: ClubService) {}
+  constructor(
+  private clubService: ClubService,
+  private footballService: FootballService,
+  ) {}
 
   ngOnInit(): void {
     this.getClubs();
+    this.getTodayMatches();
   }
 
-  // Detectar scroll con HostListener
   @HostListener('window:scroll', [])
   onWindowScroll(): void {
     const shouldShow = window.scrollY > 500;
@@ -261,5 +270,23 @@ openImageModal(club: any, event: Event) {
 closeImageModal() {
   this.selectedImage = null;
 }
+  getTodayMatches(): void {
+    this.footballService.getTodayMatches().subscribe({
+      next: (res) => {
+        this.matches = res.matches || [];
+      },
+      error: (err) => {
+        console.error('Error al cargar partidos', err);
+        this.loadingMatches = false;
+      }
+    });
+  }
 
+  openMatchesModal(): void {
+    this.isMatchesModalOpen = true;
+  }
+
+  closeMatchesModal(): void {
+    this.isMatchesModalOpen = false;
+  }
 }

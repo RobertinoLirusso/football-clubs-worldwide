@@ -310,5 +310,53 @@
     "club_logo": "",
     "city_country": "Jerez de la Frontera, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+    {
+    "club_name": "Harju JK Laagri",
+    "club_logo": "",
+    "city_country": "Laagri, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Harju_JK_Laagri"
+  },
+  {
+    "club_name": "Kuressaare",
+    "club_logo": "",
+    "city_country": "Kuressaare, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kuressaare"
+  },
+  {
+    "club_name": "Narva Trans",
+    "club_logo": "",
+    "city_country": "Narva, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Narva_Trans"
+  },
+  {
+    "club_name": "Nõmme Kalju",
+    "club_logo": "",
+    "city_country": "Tallinn, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/N%C3%B5mme_Kalju_FC"
+  },
+  {
+    "club_name": "Paide Linnameeskond",
+    "club_logo": "",
+    "city_country": "Paide, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Paide_Linnameeskond"
+  },
+  {
+    "club_name": "Tallinna Kalev",
+    "club_logo": "",
+    "city_country": "Tallinn, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tallinna_Kalev"
+  },
+  {
+    "club_name": "Tammeka",
+    "club_logo": "",
+    "city_country": "Tartu, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tammeka"
+  },
+  {
+    "club_name": "Vaprus",
+    "club_logo": "",
+    "city_country": "Pärnu, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vaprus"
   }
 ]
