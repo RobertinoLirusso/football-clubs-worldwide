@@ -1,116 +1,314 @@
-[
+  [
   {
-    "club_name": "CD Arenteiro",
-    "club_logo": "",
-    "city_country": "O Carballiño, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "club_name": "Real Unión",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Real_uni%C3%B3n_club_180px.png/160px-Real_uni%C3%B3n_club_180px.png",
+    "city_country": "Irun, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Uni%C3%B3n"
   },
   {
-    "club_name": "Ourense CF",
+    "club_name": "Alcalá",
     "club_logo": "",
-    "city_country": "Ourense, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Alcalá de Henares, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "Pontevedra CF",
+    "club_name": "Atlètic Lleida",
     "club_logo": "",
-    "city_country": "Pontevedra, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Lérida, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "Unionistas de Salamanca CF",
+    "club_name": "Atlético Astorga F. C.",
     "club_logo": "",
-    "city_country": "Salamanca, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Astorga, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "Zamora CF",
+    "club_name": "Atlético Antoniano",
     "club_logo": "",
-    "city_country": "Zamora, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Lebrija, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "Arenas Club de Getxo",
+    "club_name": "Atlético Baleares",
     "club_logo": "",
-    "city_country": "Getxo, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Palma de Mallorca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "Barakaldo CF",
+    "club_name": "Atlético Malagueño",
     "club_logo": "",
-    "city_country": "Barakaldo, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Málaga, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "CD Guadalajara",
+    "club_name": "Águilas F. C.",
     "club_logo": "",
-    "city_country": "Guadalajara, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Águilas, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "CF Talavera de la Reina",
+    "club_name": "Alfaro",
     "club_logo": "",
-    "city_country": "Talavera de la Reina, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Alfaro, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "Real Avilés Industrial",
+    "club_name": "Barbastro",
     "club_logo": "",
-    "city_country": "Avilés, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Barbastro, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "CD Tenerife",
+    "club_name": "Basconia",
     "club_logo": "",
-    "city_country": "Santa Cruz de Tenerife, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Basauri, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "Real Madrid Castilla",
+    "club_name": "Bergantiños",
+    "club_logo": "",
+    "city_country": "Galicia, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Cacereño",
+    "club_logo": "",
+    "city_country": "Cáceres, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "CD Alcoyano",
+    "club_logo": "",
+    "city_country": "Alcoy, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "CD Andratx",
+    "club_logo": "",
+    "city_country": "Andratx, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Coria",
+    "club_logo": "",
+    "city_country": "Coria, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Coruxo",
+    "club_logo": "",
+    "city_country": "Coruxo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Deportivo Fabril",
+    "club_logo": "",
+    "city_country": "A Coruña, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Ebro",
+    "club_logo": "",
+    "city_country": "Zaragoza, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Ejea",
+    "club_logo": "",
+    "city_country": "Ejea de los Caballeros, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Extremadura",
+    "club_logo": "",
+    "city_country": "Almendralejo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Fuenlabrada",
+    "club_logo": "",
+    "city_country": "Fuenlabrada, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Jaén",
+    "club_logo": "",
+    "city_country": "Jaén, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Lealtad",
+    "club_logo": "",
+    "city_country": "Villaviciosa, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Lorca Deportiva",
+    "club_logo": "",
+    "city_country": "Lorca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Malacitano",
+    "club_logo": "",
+    "city_country": "Málaga, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Marino Luanco",
+    "club_logo": "",
+    "city_country": "Luanco, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Melilla",
+    "club_logo": "",
+    "city_country": "Melilla, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Minera",
+    "club_logo": "",
+    "city_country": "Llano del Beal, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Moscardó",
     "club_logo": "",
     "city_country": "Madrid, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "Antequera CF",
+    "club_name": "Navalcarnero",
     "club_logo": "",
-    "city_country": "Antequera, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Alcalá de Henares, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "Atlético Sanluqueño CF",
+    "club_name": "Numancia",
     "club_logo": "",
-    "city_country": "Sanlúcar de Barrameda, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Soria, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "Juventud de Torremolinos CF",
+    "club_name": "Olot",
     "club_logo": "",
-    "city_country": "Torremolinos, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Olot, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "Sevilla Atlético (Sevilla B)",
+    "club_name": "Orihuela",
     "club_logo": "",
-    "city_country": "Seville, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Orihuela, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "CE Europa",
+    "club_name": "Oviedo Vetusta",
+    "club_logo": "",
+    "city_country": "Oviedo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Poblense",
+    "club_logo": "",
+    "city_country": "La Puebla, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Porreres",
+    "club_logo": "",
+    "city_country": "Porreres, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Puente Genil",
+    "club_logo": "",
+    "city_country": "Puente Genil, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Quintanar del Rey",
+    "club_logo": "",
+    "city_country": "Quintanar del Rey, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Rayo Cantabria",
+    "club_logo": "",
+    "city_country": "Cantabria, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Rayo Majadahonda",
+    "club_logo": "",
+    "city_country": "Madrid, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Sámano",
+    "club_logo": "",
+    "city_country": "Sámano, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Salamanca",
+    "club_logo": "",
+    "city_country": "Salamanca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "San Sebastián de los Reyes",
+    "club_logo": "",
+    "city_country": "San Sebastián de los Reyes, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Sant Andreu",
     "club_logo": "",
     "city_country": "Barcelona, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "CE Sabadell FC",
+    "club_name": "Terrassa",
     "club_logo": "",
-    "city_country": "Sabadell, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Terrassa, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   },
   {
-    "club_name": "CD Teruel",
+    "club_name": "Torrent",
     "club_logo": "",
-    "city_country": "Teruel, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+    "city_country": "Valencia region, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Tudelano",
+    "club_logo": "",
+    "city_country": "Tudela, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "UCAM Murcia",
+    "club_logo": "",
+    "city_country": "Murcia, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Utebo",
+    "club_logo": "",
+    "city_country": "Utebo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Xerez CD",
+    "club_logo": "",
+    "city_country": "Jerez de la Frontera, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Xerez Deportivo FC",
+    "club_logo": "",
+    "city_country": "Jerez de la Frontera, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Federaci%C3%B3n"
   }
 ]
