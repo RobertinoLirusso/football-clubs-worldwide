@@ -1,8 +1,116 @@
 [
-    {
-      "club_name": "AFC Totton",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/AFC_Totton_2024_crest.svg/250px-AFC_Totton_2024_crest.svg.png",
-      "city_country": "Totton, England",
-      "wiki_url": "https://en.wikipedia.org/wiki/A.F.C._Totton"
-    }
+  {
+    "club_name": "CD Arenteiro",
+    "club_logo": "",
+    "city_country": "O Carballiño, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Ourense CF",
+    "club_logo": "",
+    "city_country": "Ourense, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Pontevedra CF",
+    "club_logo": "",
+    "city_country": "Pontevedra, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Unionistas de Salamanca CF",
+    "club_logo": "",
+    "city_country": "Salamanca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Zamora CF",
+    "club_logo": "",
+    "city_country": "Zamora, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Arenas Club de Getxo",
+    "club_logo": "",
+    "city_country": "Getxo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Barakaldo CF",
+    "club_logo": "",
+    "city_country": "Barakaldo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "CD Guadalajara",
+    "club_logo": "",
+    "city_country": "Guadalajara, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "CF Talavera de la Reina",
+    "club_logo": "",
+    "city_country": "Talavera de la Reina, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Real Avilés Industrial",
+    "club_logo": "",
+    "city_country": "Avilés, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "CD Tenerife",
+    "club_logo": "",
+    "city_country": "Santa Cruz de Tenerife, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Real Madrid Castilla",
+    "club_logo": "",
+    "city_country": "Madrid, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Antequera CF",
+    "club_logo": "",
+    "city_country": "Antequera, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Atlético Sanluqueño CF",
+    "club_logo": "",
+    "city_country": "Sanlúcar de Barrameda, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Juventud de Torremolinos CF",
+    "club_logo": "",
+    "city_country": "Torremolinos, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "Sevilla Atlético (Sevilla B)",
+    "club_logo": "",
+    "city_country": "Seville, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "CE Europa",
+    "club_logo": "",
+    "city_country": "Barcelona, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "CE Sabadell FC",
+    "club_logo": "",
+    "city_country": "Sabadell, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  },
+  {
+    "club_name": "CD Teruel",
+    "club_logo": "",
+    "city_country": "Teruel, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primera_Federaci%C3%B3n"
+  }
 ]

@@ -40,7 +40,6 @@
 
   <select [(ngModel)]="sortOption" class="filter-btn action-btn" title="Sort clubs">
   <option value="default"> Sort by</option>
-  <option value="default">Default</option>
   <option value="az">A–Z</option>
   <option value="za">Z–A</option>
 </select>
@@ -86,9 +85,21 @@
 <div class="responsive-grid w3-padding-16">
   <div class="w3-card-2 w3-hover-shadow card" *ngFor="let club of filteredClubs; let i = index" (click)="openModal(i)">
     <img src="{{club.club_logo}}" alt="{{club.club_name}}" class="w3-image img w3-hover-opacity-off">
+      <span class="zoom-icon" (click)="openImageModal(club, $event)">
+    <i class="fa fa-search-plus"></i>
+  </span>
     <footer class="w3-container w3-center">
       <p>{{club.club_name}}</p>
     </footer>
+  </div>
+</div>
+
+  <div *ngIf="selectedImage" class="w3-modal" style="display:block;">
+  <div class="w3-modal-content w3-animate-zoom" style="max-width:500px; margin:auto;">
+    <span (click)="closeImageModal()" class="w3-button w3-display-topright w3-black title-game">
+      <i class="fa fa-times"></i>
+    </span>
+    <img [src]="selectedImage" class="w3-image" style="width:100%; object-fit:contain;">
   </div>
 </div>
 
@@ -159,6 +170,7 @@
     </footer>
 
   </div>
+
 </div>
 
 <button 

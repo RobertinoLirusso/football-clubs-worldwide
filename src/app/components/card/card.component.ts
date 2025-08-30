@@ -23,6 +23,8 @@ export class CardComponent implements OnInit {
   countrySearch: string = '';
   countries: string[] = [];
   sortOption: string = 'default';
+  selectedImage: any = null;
+
 
   highlightedClubs: string[] = [
     'Real Madrid',
@@ -252,6 +254,12 @@ getCountryCode(value: string): string {
   }
     return COUNTRY_FLAG_MAP[country] || 'un';
 }
-
+openImageModal(club: any, event: Event) {
+  event.stopPropagation(); // Evita que se active click de la card
+  this.selectedImage = club.club_logo; // O todo el club si quieres info extra
+}
+closeImageModal() {
+  this.selectedImage = null;
+}
 
 }

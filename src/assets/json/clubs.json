@@ -10035,5 +10035,59 @@
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/SmallMetPolicelogo.png/250px-SmallMetPolicelogo.png",
       "city_country": "East Moseley, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Metropolitan_Police_F.C."
-    }
+    },
+      {
+    "club_name": "Dila Gori",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/a/a5/FC_Dila_Gori.svg/250px-FC_Dila_Gori.svg.png",
+    "city_country": "Gori, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dila_Gori"
+  },
+  {
+    "club_name": "Gagra",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Gagra_2018.png/250px-Gagra_2018.png",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Gagra"
+  },
+  {
+    "club_name": "Gareji Sagarejo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/7d/FC_Gareji_1960.png",
+    "city_country": "Sagarejo, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Gareji_Sagarejo"
+  },
+  {
+    "club_name": "Iberia 1999",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Saburtalo_Tbilisi_Logo.png/250px-Saburtalo_Tbilisi_Logo.png",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Iberia_1999"
+  },
+  {
+    "club_name": "Kolkheti-1913 Poti",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/7e/FC_Kolkheti_Poti_Logo.png",
+    "city_country": "Poti, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kolkheti-1913_Poti"
+  },
+  {
+    "club_name": "Samgurali Tskaltubo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0e/FC_Samgurali_Tskhaltubo.png",
+    "city_country": "Tskaltubo, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Samgurali_Tskaltubo"
+  },
+  {
+    "club_name": "Telavi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/FC_Telavi_Logo.png/180px-FC_Telavi_Logo.png",
+    "city_country": "Telavi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Telavi"
+  },
+  {
+    "club_name": "Torpedo Kutaisi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ka/thumb/6/6f/FC_Torpedo_Kutaisi_Old_Logo_%28v.4%29.png/250px-FC_Torpedo_Kutaisi_Old_Logo_%28v.4%29.png",
+    "city_country": "Kutaisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Torpedo_Kutaisi"
+  },
+  {
+    "club_name": "UD Las Palmas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/UD_Las_Palmas_logo.svg/130px-UD_Las_Palmas_logo.svg.png",
+    "city_country": "Las Palmas, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Las_Palmas"
+  }
 ]
