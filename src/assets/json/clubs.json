@@ -10275,5 +10275,65 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/FC_Atert_Bissen_Logo.svg/250px-FC_Atert_Bissen_Logo.svg.png",
     "city_country": "Bissen, Luxembourg",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Atert_Bissen"
+  },
+    {
+    "club_name": "FCB Magpies",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/FCB_Magpies.png/250px-FCB_Magpies.png",
+    "city_country": "Gibraltar, Gibraltar",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._Magpies"
+  },
+  {
+    "club_name": "College 1975",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/College_1975_FC_logo.jpeg/250px-College_1975_FC_logo.jpeg",
+    "city_country": "Gibraltar, Gibraltar",
+    "wiki_url": "https://en.wikipedia.org/wiki/College_1975_F.C."
+  },
+  {
+    "club_name": "Europa Point",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Europa_Point_F.C.png/250px-Europa_Point_F.C.png",
+    "city_country": "Gibraltar, Gibraltar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Europa_Point_F.C."
+  },
+  {
+    "club_name": "Glacis United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Glacis_United_F.C.png/250px-Glacis_United_F.C.png",
+    "city_country": "Gibraltar, Gibraltar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Glacis_United_F.C."
+  },
+  {
+    "club_name": "Hound Dogs",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/F.C._Hound_Dogs_logo.png/250px-F.C._Hound_Dogs_logo.png",
+    "city_country": "Gibraltar, Gibraltar",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._Hound_Dogs"
+  },
+  {
+    "club_name": "Lions Gibraltar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Lions_Gibraltar_F.C.png/250px-Lions_Gibraltar_F.C.png",
+    "city_country": "Gibraltar, Gibraltar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lions_Gibraltar_F.C."
+  },
+  {
+    "club_name": "Lynx",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Lynx_football_club.png/250px-Lynx_football_club.png",
+    "city_country": "Gibraltar, Gibraltar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lynx_F.C."
+  },
+  {
+    "club_name": "Manchester 62",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Manchester_62_FC_badge.png/190px-Manchester_62_FC_badge.png",
+    "city_country": "Gibraltar, Gibraltar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Manchester_62_F.C."
+  },
+  {
+    "club_name": "Mons Calpe",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Mons_Calpe_FC_logo.svg/120px-Mons_Calpe_FC_logo.svg.png",
+    "city_country": "Gibraltar, Gibraltar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mons_Calpe_S.C."
+  },
+  {
+    "club_name": "St Joseph's",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/St_Joseph%27s_F.C._logo.png/250px-St_Joseph%27s_F.C._logo.png",
+    "city_country": "Gibraltar, Gibraltar",
+    "wiki_url": "https://en.wikipedia.org/wiki/St_Joseph%27s_F.C."
   }
 ]
