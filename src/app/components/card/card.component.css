@@ -351,6 +351,29 @@ select.filter-btn:hover {
   color: black;
 }
 
+.promo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* permite que baje en móviles */
+  gap: 10px; /* espacio uniforme */
+}
+
+/* Responsividad para promo-link igual a action-container */
+@media screen and (max-width: 600px) {
+  .promo-link {
+    justify-content: center; /* centrado en móviles */
+    gap: 8px;
+  }
+
+  .promo-link a,
+  .promo-link button {
+    height: 36px;
+    min-width: 100px;
+    font-size: 14px;
+  }
+}
+
 
 /* Responsividad */
 @media screen and (max-width: 600px) {
