@@ -10335,5 +10335,461 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/St_Joseph%27s_F.C._logo.png/250px-St_Joseph%27s_F.C._logo.png",
     "city_country": "Gibraltar, Gibraltar",
     "wiki_url": "https://en.wikipedia.org/wiki/St_Joseph%27s_F.C."
+  },
+    {
+    "club_name": "Real Unión",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Real_uni%C3%B3n_club_180px.png/160px-Real_uni%C3%B3n_club_180px.png",
+    "city_country": "Irun, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Uni%C3%B3n"
+  },
+  {
+    "club_name": "RSD Alcalá",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Real_Sociedad_Deportiva_Alcala%2C_SAD.png/250px-Real_Sociedad_Deportiva_Alcala%2C_SAD.png",
+    "city_country": "Alcalá de Henares, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/RSD_Alcal%C3%A1"
+  },
+  {
+    "club_name": "Atlètic Lleida",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Atletic_Lleida_logo_2024.png/250px-Atletic_Lleida_logo_2024.png",
+    "city_country": "Lleida, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CE_Atl%C3%A8tic_Lleida"
+  },
+  {
+    "club_name": "Atlético Astorga",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Atl%C3%A9tico_Astorga_FC.png/250px-Atl%C3%A9tico_Astorga_FC.png",
+    "city_country": "Astorga, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Astorga_FC"
+  },
+  {
+    "club_name": "Atlético Antoniano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/CA_Antoniano.png/250px-CA_Antoniano.png",
+    "city_country": "Lebrija, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CA_Antoniano"
+  },
+  {
+    "club_name": "Atlético Baleares",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/AtleticoBaleares.png/200px-AtleticoBaleares.png",
+    "city_country": "Palma de Mallorca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Atl%C3%A9tico_Baleares"
+  },
+  {
+    "club_name": "Águilas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/%C3%81guilas_FC_logo.png/250px-%C3%81guilas_FC_logo.png",
+    "city_country": "Águilas, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%81guilas_FC"
+  },
+  {
+    "club_name": "CD Alfaro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/CD_Alfaro_logo.png/250px-CD_Alfaro_logo.png",
+    "city_country": "Alfaro, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Alfaro"
+  },
+  {
+    "club_name": "Barbastro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/UD_Barbastro.png/250px-UD_Barbastro.png",
+    "city_country": "Barbastro, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Barbastro"
+  },
+  {
+    "club_name": "Basconia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/CD_Baskonia.png/250px-CD_Baskonia.png",
+    "city_country": "Basauri, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Basconia"
+  },
+  {
+    "club_name": "Bergantiños",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Berganti%C3%B1os_CF.png/250px-Berganti%C3%B1os_CF.png",
+    "city_country": "Carballo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Berganti%C3%B1os_FC"
+  },
+  {
+    "club_name": "CE Andratx",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Official_logo_of_CE_Andratx.png/250px-Official_logo_of_CE_Andratx.png",
+    "city_country": "Andratx, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CE_Andratx"
+  },
+  {
+    "club_name": "Coria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/CD_Coria.png/250px-CD_Coria.png",
+    "city_country": "Coria, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Coria"
+  },
+  {
+    "club_name": "Coruxo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Coruxo_FC.png/250px-Coruxo_FC.png",
+    "city_country": "Coruxo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Coruxo_FC"
+  },
+  {
+    "club_name": "Ebro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/CD_Ebro_logo.png/250px-CD_Ebro_logo.png",
+    "city_country": "Zaragoza, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Ebro"
+  },
+  {
+    "club_name": "SD Ejea",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/SD_Ejea.png/250px-SD_Ejea.png",
+    "city_country": "Ejea de los Caballeros, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SD_Ejea"
+  },
+  {
+    "club_name": "CD Extremadura",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/CD_Extremadura_1924.png/250px-CD_Extremadura_1924.png",
+    "city_country": "Almendralejo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Extremadura"
+  },
+    {
+    "club_name": "Extremadura UD (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Extremadura_UD.png/250px-Extremadura_UD.png",
+    "city_country": "Almendralejo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Extremadura_UD"
+  },
+  {
+    "club_name": "Real Jaén",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Real_Ja%C3%A9n_logo_2022.png/250px-Real_Ja%C3%A9n_logo_2022.png",
+    "city_country": "Jaén, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Ja%C3%A9n"
+  },
+  {
+    "club_name": "Lealtad",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/CD_Lealtad.png/250px-CD_Lealtad.png",
+    "city_country": "Villaviciosa, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Lealtad"
+  },
+  {
+    "club_name": "Lorca Deportiva",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/CF_Lorca_Deportiva_2012.png/250px-CF_Lorca_Deportiva_2012.png",
+    "city_country": "Lorca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CF_Lorca_Deportiva"
+  },
+  {
+    "club_name": "Lorca FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Lorca_FC_logo.png/180px-Lorca_FC_logo.png",
+    "city_country": "Lorca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lorca_FC"
+  },
+  {
+    "club_name": "Malacitano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/CDU_Malacitano.png/250px-CDU_Malacitano.png",
+    "city_country": "Málaga, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CDU_Malacitano"
+  },
+  {
+    "club_name": "Marino de Luanco",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Club_Marino_de_Luanco_escudo.png/250px-Club_Marino_de_Luanco_escudo.png",
+    "city_country": "Luanco, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Marino_de_Luanco"
+  },
+  {
+    "club_name": "UD Melilla",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/UD_Melilla_escudo.png/250px-UD_Melilla_escudo.png",
+    "city_country": "Melilla, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Melilla"
+  },
+  {
+    "club_name": "Deportiva Minera",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Deportiva_Minera.png/250px-Deportiva_Minera.png",
+    "city_country": "Llano del Beal, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Minera"
+  },
+  {
+    "club_name": "CDC Moscardó",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/CD_Colonia_Moscard%C3%B3.png/140px-CD_Colonia_Moscard%C3%B3.png",
+    "city_country": "Madrid, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CDC_Moscard%C3%B3"
+  },
+  {
+    "club_name": "Navalcarnero",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/CDA_Navalcarnero.png/250px-CDA_Navalcarnero.png",
+    "city_country": "Navalcarnero, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CDA_Navalcarnero"
+  },
+  {
+    "club_name": "Numancia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/CD_Numancia_logo.svg/150px-CD_Numancia_logo.svg.png",
+    "city_country": "Soria, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Numancia"
+  },
+  {
+    "club_name": "Olot",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/UE_Olot_logo.png/250px-UE_Olot_logo.png",
+    "city_country": "Olot, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UE_Olot"
+  },
+  {
+    "club_name": "Orihuela",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Orihuela_CF.png/250px-Orihuela_CF.png",
+    "city_country": "Orihuela, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Orihuela_CF"
+  },
+  {
+    "club_name": "Poblense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/UD_Poblense.png/250px-UD_Poblense.png",
+    "city_country": "Sa Pobla, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Poblense"
+  },
+  {
+    "club_name": "Porreres",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/UE_Porreres.png/250px-UE_Porreres.png",
+    "city_country": "Porreres, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UE_Porreres"
+  },
+  {
+    "club_name": "Puente Genil",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/SALERM_COSMETICS_PUENTE_GENIL_F.C.png/250px-SALERM_COSMETICS_PUENTE_GENIL_F.C.png",
+    "city_country": "Puente Genil, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Puente_Genil_FC"
+  },
+  {
+    "club_name": "Quintanar del Rey",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/CD_Quintanar_del_Rey.png/250px-CD_Quintanar_del_Rey.png",
+    "city_country": "Quintanar del Rey, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Quintanar_del_Rey"
+  },
+  {
+    "club_name": "Rayo Majadahonda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/CF_Rayo_Majadahonda.png/140px-CF_Rayo_Majadahonda.png",
+    "city_country": "Majadahonda, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CF_Rayo_Majadahonda"
+  },
+  {
+    "club_name": "Sámano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/UD_S%C3%A1mano_logo.png/250px-UD_S%C3%A1mano_logo.png",
+    "city_country": "Sámano, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_S%C3%A1mano"
+  },
+  {
+    "club_name": "Salamanca UDS",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Salamanca_CF_UDS.png/250px-Salamanca_CF_UDS.png",
+    "city_country": "Salamanca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Salamanca_CF_UDS"
+  },
+  {
+    "club_name": "Salamanca",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/UD_Salamanca_logo.svg/180px-UD_Salamanca_logo.svg.png",
+    "city_country": "Salamanca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Salamanca"
+  },
+  {
+    "club_name": "SS Reyes",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Shield_of_UD_San_Sebastian_de_los_Reyes.png/250px-Shield_of_UD_San_Sebastian_de_los_Reyes.png",
+    "city_country": "San Sebastián de los Reyes, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_San_Sebasti%C3%A1n_de_los_Reyes"
+  },
+  {
+    "club_name": "UE Sant Andreu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/UESantAndreu.png/250px-UESantAndreu.png",
+    "city_country": "Barcelona, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UE_Sant_Andreu"
+  },
+  {
+    "club_name": "Terrassa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Terrassa_FC_logo.svg/250px-Terrassa_FC_logo.svg.png",
+    "city_country": "Terrassa, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Terrassa_FC"
+  },
+  {
+    "club_name": "Torrent",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Torrent_CF.png/250px-Torrent_CF.png",
+    "city_country": "Torrent, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Torrent_CF"
+  },
+  {
+    "club_name": "Tudelano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/CD_Tudelano.png/250px-CD_Tudelano.png",
+    "city_country": "Tudela, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Tudelano"
+  },
+  {
+    "club_name": "UCAM Murcia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Escudo_Deportivo_UCAM_-_UCAM_Murcia_CF_-_UCAM_Murcia_CB.png/250px-Escudo_Deportivo_UCAM_-_UCAM_Murcia_CF_-_UCAM_Murcia_CB.png",
+    "city_country": "Murcia, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UCAM_Murcia_CF"
+  },
+  {
+    "club_name": "Utebo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Utebo_FC.png/250px-Utebo_FC.png",
+    "city_country": "Utebo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Utebo_FC"
+  },
+  {
+    "club_name": "Xerez CD",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Xerez_CD_logo.png/250px-Xerez_CD_logo.png",
+    "city_country": "Jerez de la Frontera, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Xerez_CD"
+  },
+  {
+    "club_name": "Xerez Deportivo FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Xerez_Deportivo_FC_logo.png/250px-Xerez_Deportivo_FC_logo.png",
+    "city_country": "Jerez de la Frontera, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Xerez_Deportivo_FC"
+  },
+    {
+    "club_name": "SD Amorebieta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/SD_Amorebieta.png/180px-SD_Amorebieta.png",
+    "city_country": "Amorebieta-Etxano, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SD_Amorebieta"
+  },
+    {
+    "club_name": "Barça Atlètic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/180px-FC_Barcelona_%28crest%29.svg.png",
+    "city_country": "Sant Joan Despí, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Barcelona_Atl%C3%A8tic"
+  },
+    {
+    "club_name": "Gimnástica Segoviana CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Gimnastica_Segoviana_shield.png/250px-Gimnastica_Segoviana_shield.png",
+    "city_country": "Segovia, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gimn%C3%A1stica_Segoviana_CF"
+  },
+    {
+    "club_name": "SD Logroñés",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/SD_Logro%C3%B1%C3%A9s_logo.png/250px-SD_Logro%C3%B1%C3%A9s_logo.png",
+    "city_country": "Logroño, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SD_Logro%C3%B1%C3%A9s"
+  },
+  {
+    "club_name": "UD Logroñés",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/UD_Logro%C3%B1es.png/250px-UD_Logro%C3%B1es.png",
+    "city_country": "Logroño, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Logro%C3%B1%C3%A9s"
+  },
+      {
+    "club_name": "Náxara CD",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/N%C3%A1xara_CD.png/155px-N%C3%A1xara_CD.png",
+    "city_country": "Nájera, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/N%C3%A1xara_CD"
+  },
+    {
+    "club_name": "UD Ourense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/UD_Ourense_shield.png/250px-UD_Ourense_shield.png",
+    "city_country": "Ourense, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Ourense"
+  },
+    {
+    "club_name": "Real Ávila CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Real_%C3%81vila_CF.png/180px-Real_%C3%81vila_CF.png",
+    "city_country": "Ávila, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_%C3%81vila_CF"
+  },
+  {
+    "club_name": "Reus FC Reddis",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Reus_FC_Reddis.png/250px-Reus_FC_Reddis.png",
+    "city_country": "Reus, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Reus_FC_Reddis"
+  },
+  {
+    "club_name": "Sestao River Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Sestao_River_Club.png/250px-Sestao_River_Club.png",
+    "city_country": "Sestao, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sestao_River_Club"
+  },
+  {
+    "club_name": "SD Sarriana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/7e/SD_Sarriana.png",
+    "city_country": "Sarria, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SD_Sarriana"
+  },
+  {
+    "club_name": "UB Conquense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/UB_Conquense_logo.svg/165px-UB_Conquense_logo.svg.png",
+    "city_country": "Cuenca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UB_Conquense"
+  },
+  {
+    "club_name": "UD Socuèllamos",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/UD_Socu%C3%A9llamos.png/250px-UD_Socu%C3%A9llamos.png",
+    "city_country": "Socuèllamos, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Socu%C3%A9llamos"
+  },
+  {
+    "club_name": "Gernika Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/SD_Gernika_Club.png/250px-SD_Gernika_Club.png",
+    "city_country": "Gernika, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gernika_Club"
+  },
+  {
+    "club_name": "SD Beasain",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/SD_Beasain.png/250px-SD_Beasain.png",
+    "city_country": "Beasain, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SD_Beasain"
+  },
+    {
+    "club_name": "UD Mutilvera",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/UD_Mutilvera.png/250px-UD_Mutilvera.png",
+    "city_country": "Mutilva, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Mutilvera"
+  },
+  {
+    "club_name": "Linares Deportivo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Linares_Deportivo_shield.png/250px-Linares_Deportivo_shield.png",
+    "city_country": "Linares, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Linares_Deportivo"
+  },
+  {
+    "club_name": "Estepona",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/CD_Estepona_official_logo.png/250px-CD_Estepona_official_logo.png",
+    "city_country": "Estepona, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Estepona_FS"
+  },
+  {
+    "club_name": "Yeclano Deportivo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Yeclano_Deportivo_%28logo%29.png/250px-Yeclano_Deportivo_%28logo%29.png",
+    "city_country": "Yecla, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yeclano_Deportivo"
+  },
+  {
+    "club_name": "UP Langreo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/44/UP_Langreo_logo.png",
+    "city_country": "Langreo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UP_Langreo"
+  },
+    {
+    "club_name": "Harju JK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Harjujk_logo.png/250px-Harjujk_logo.png",
+    "city_country": "Laagri, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Harju_JK_Laagri"
+  },
+  {
+    "club_name": "Kuressaare",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Kuressaare.png/250px-Kuressaare.png",
+    "city_country": "Kuressaare, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kuressaare"
+  },
+  {
+    "club_name": "Narva Trans",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/JK_Narva_Trans_Logo.png/250px-JK_Narva_Trans_Logo.png",
+    "city_country": "Narva, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/JK_Narva_Trans"
+  },
+  {
+    "club_name": "Nõmme Kalju",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/N%C3%B5mme_Kalju_FC_logo_2024.png/250px-N%C3%B5mme_Kalju_FC_logo_2024.png",
+    "city_country": "Tallinn, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/N%C3%B5mme_Kalju_FC"
+  },
+  {
+    "club_name": "Paide Linnameeskond",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Paide_Linnameeskond_logo.png/250px-Paide_Linnameeskond_logo.png",
+    "city_country": "Paide, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Paide_Linnameeskond"
+  },
+  {
+    "club_name": "Tallinna Kalev",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/KalevTallinn.png/250px-KalevTallinn.png",
+    "city_country": "Tallinn, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/JK_Tallinna_Kalev"
+  },
+  {
+    "club_name": "Tartu Tammeka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/JK_Tammeka_crest.png/250px-JK_Tammeka_crest.png",
+    "city_country": "Tartu, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tartu_JK_Tammeka"
+  },
+  {
+    "club_name": "Pärnu Vaprus",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/P%C3%A4rnu_JK_Vaprus_logo.png/250px-P%C3%A4rnu_JK_Vaprus_logo.png",
+    "city_country": "Pärnu, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/P%C3%A4rnu_JK_Vaprus"
   }
 ]
