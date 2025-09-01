@@ -529,14 +529,14 @@
   },
   {
     "club_name": "Jiangsu Suning (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Jiangsu_Suning_FC_logo.svg/183px-Jiangsu_Suning_FC_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Jiangsu_Football_Club_Crest.png/250px-Jiangsu_Football_Club_Crest.png",
     "city_country": "Nanjing, China",
     "wiki_url": "https://en.wikipedia.org/wiki/Jiangsu_Suning_F.C."
   },
   {
     "club_name": "Deportivo La Guaira",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRtWL_M2fAFXmH33qCWspcK7yZl4ePMIGUVR3Bg_7fbCv8fv2zQDiYYvBStx2F-3EUYDMMSu3mkAKId3QEI3H0-VyiS4omqfAmXvlwWtKHOer5-9vi2WVwnG2fJt2bZQUXiDc4qdhvSeiHc0MaNSYiJ09b8Fnvwo0TzPKrT-b8xPLJzlIAZM5q9EBR/s256/Deportivo%20La%20Guaira256x.png",
-    "city_country": "La Guaria & Caracas, Venezuela",
+    "city_country": "La Guaira & Caracas, Venezuela",
     "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_La_Guaira"
   },
   {
@@ -8148,7 +8148,7 @@
   },
   {
     "club_name": "Sorrento Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/4/4a/Logo_Sorrento_2025.png/250px-Logo_Sorrento_2025.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Sorrento_Calcio_1945_crest.svg/250px-Sorrento_Calcio_1945_crest.svg.png",
     "city_country": "Sorrento, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Sorrento_Calcio_1945"
   },
@@ -10565,7 +10565,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Salamanca_CF_UDS"
   },
   {
-    "club_name": "Salamanca",
+    "club_name": "Salamanca (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/UD_Salamanca_logo.svg/180px-UD_Salamanca_logo.svg.png",
     "city_country": "Salamanca, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/UD_Salamanca"
@@ -10791,5 +10791,77 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/P%C3%A4rnu_JK_Vaprus_logo.png/250px-P%C3%A4rnu_JK_Vaprus_logo.png",
     "city_country": "Pärnu, Estonia",
     "wiki_url": "https://en.wikipedia.org/wiki/P%C3%A4rnu_JK_Vaprus"
+  },
+    {
+    "club_name": "Ahrobiznes Volochysk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ahrobiznes_Volochysk_logo.png/250px-Ahrobiznes_Volochysk_logo.png",
+    "city_country": "Volochysk, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ahrobiznes_Volochysk"
+  },
+  {
+    "club_name": "FSC Bukovyna Chernivtsi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/61/Bukovyna_Chernivtsi.png",
+    "city_country": "Chernivtsi, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FSC_Bukovyna_Chernivtsi"
+  },
+  {
+    "club_name": "FC Chernihiv",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/FC_Chernihiv.png/250px-FC_Chernihiv.png",
+    "city_country": "Chernihiv, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Chernihiv"
+  },
+  {
+    "club_name": "FSC Mariupol",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Feniks-Mariupol_2025.png",
+    "city_country": "Lviv, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FSC_Mariupol"
+  },
+  {
+    "club_name": "SC Metalurh Zaporizhzhia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Metalurh_Zaporizhzhia_2025.png",
+    "city_country": "Zaporizhzhia, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Metalurh_Zaporizhzhia"
+  },
+  {
+    "club_name": "FC Nyva Ternopil",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/FC_Nyva_Ternopil_logo.png/250px-FC_Nyva_Ternopil_logo.png",
+    "city_country": "Ternopil, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Nyva_Ternopil"
+  },
+  {
+    "club_name": "FC Podillya Khmelnytskyi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d9/Podillya_khmelnytskyy_logo.png",
+    "city_country": "Khmelnytskyi, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Podillya_Khmelnytskyi"
+  },
+  {
+    "club_name": "Probiy Horodenka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/FC_Probiy_Horodenka_logo.png/250px-FC_Probiy_Horodenka_logo.png",
+    "city_country": "Horodenka, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Probiy_Horodenka"
+  },
+  {
+    "club_name": "Prykarpattia Ivano-Frankivsk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/FC_Prykarpattia_Ivano-Frankivsk_%281998%29_logo.png/180px-FC_Prykarpattia_Ivano-Frankivsk_%281998%29_logo.png",
+    "city_country": "Ivano-Frankivsk, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Prykarpattia_Ivano-Frankivsk_(1998)"
+  },
+  {
+    "club_name": "UCSA Tarasivka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/UCSA_Tarasivka.svg/250px-UCSA_Tarasivka.svg.png",
+    "city_country": "Tarasivka, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_UCSA_Tarasivka"
+  },
+  {
+    "club_name": "Viktoriya Sumy",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Viktoriya_Mykolaivka_logo.png/170px-Viktoriya_Mykolaivka_logo.png",
+    "city_country": "Sumy, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Viktoriya_Sumy"
+  },
+    {
+    "club_name": "Arsenal Kyiv",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/FC_Arsenal_Kyiv_logo.png/250px-FC_Arsenal_Kyiv_logo.png",
+    "city_country": "Kyiv, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Arsenal_Kyiv"
   }
 ]
