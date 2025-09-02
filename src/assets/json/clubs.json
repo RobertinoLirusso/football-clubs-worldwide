@@ -10660,13 +10660,13 @@
     "city_country": "Nájera, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/N%C3%A1xara_CD"
   },
-    {
+  {
     "club_name": "UD Ourense",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/UD_Ourense_shield.png/250px-UD_Ourense_shield.png",
     "city_country": "Ourense, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/UD_Ourense"
   },
-    {
+  {
     "club_name": "Real Ávila CF",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Real_%C3%81vila_CF.png/180px-Real_%C3%81vila_CF.png",
     "city_country": "Ávila, Spain",
@@ -10794,7 +10794,7 @@
   },
     {
     "club_name": "Ahrobiznes Volochysk",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ahrobiznes_Volochysk_logo.png/250px-Ahrobiznes_Volochysk_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/uk/8/85/FC_Ahrobiznes_Volochysk_logo.png",
     "city_country": "Volochysk, Ukraine",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Ahrobiznes_Volochysk"
   },
@@ -10863,5 +10863,65 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/FC_Arsenal_Kyiv_logo.png/250px-FC_Arsenal_Kyiv_logo.png",
     "city_country": "Kyiv, Ukraine",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Arsenal_Kyiv"
+  },
+    {
+    "club_name": "Al-Fateh",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Al_Fateh_SC_Logo.svg/250px-Al_Fateh_SC_Logo.svg.png",
+    "city_country": "Al-Mubarraz, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Fateh_SC"
+  },
+  {
+    "club_name": "Al-Fayha Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Al-Fayha_FC.svg/250px-Al-Fayha_FC.svg.png",
+    "city_country": "Al-Majma'ah, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Fayha_FC"
+  },
+  {
+    "club_name": "Al-Hazem",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Al-Hazem_FC_Logo.svg/145px-Al-Hazem_FC_Logo.svg.png",
+    "city_country": "Ar Rass, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Hazem_F.C."
+  },
+  {
+    "club_name": "Al-Najma SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/35/Al-Najma_Sports_Club2023.svg/langfr-200px-Al-Najma_Sports_Club2023.svg.png",
+    "city_country": "Unaizah, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Najma_SC_(Saudi_Arabia)"
+  },
+  {
+    "club_name": "Al-Riyadh",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Al-Riyadh_SC.svg/250px-Al-Riyadh_SC.svg.png",
+    "city_country": "Riyadh, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Riyadh_SC"
+  },
+  {
+    "club_name": "Al-Taawoun",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Al_Taawoun_FC_Logo.svg/250px-Al_Taawoun_FC_Logo.svg.png",
+    "city_country": "Buraidah, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Taawoun_FC"
+  },
+  {
+    "club_name": "Khaleej Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Al-Khaleej_FC_Logo.svg/180px-Al-Khaleej_FC_Logo.svg.png",
+    "city_country": "Saihat, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Khaleej_FC"
+  },
+  {
+    "club_name": "Al-Kholood",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1aXJvtDz_dlfjeA9MUiXlVg-Uj_QrHlY7vFUqmDHPjCl0gyjOpCl9sE73IkCC5T7kWhxD-4Y1WTYB3hHN6sP76bxRVMLimw0GeD-hvM07xsu50FkvS5WZ_1EjCYDEP9clHT064Wa5tqhCiuXgJxjBiJhNQ2zwEptY4u8CRtGZ_vh4DU9q74HOBvUBEVk/s1600/Al-Kholood%20Club256x.png",
+    "city_country": "Ar Rass, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Kholood_Club"
+  },
+  {
+    "club_name": "Al-Okhdood",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Al-Okhdood_Club.svg/250px-Al-Okhdood_Club.svg.png",
+    "city_country": "Najran, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Okhdood_Club"
+  },
+  {
+    "club_name": "Damac",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Damac_FC_Logo.svg/250px-Damac_FC_Logo.svg.png",
+    "city_country": "Khamis Mushait, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Damac_FC"
   }
 ]

@@ -89,15 +89,20 @@
   </div>
 </div>
 
-<!-- Modal Imagen -->
 <div *ngIf="selectedImage" class="w3-modal" style="display:block;">
-  <div class="w3-modal-content w3-animate-zoom" style="max-width:500px; margin:auto;">
-    <span (click)="closeImageModal()" class="w3-button w3-display-topright w3-black title-game">
-      <i class="fa fa-times"></i>
-    </span>
-    <img [src]="selectedImage" class="w3-image" style="width:100%; object-fit:contain;">
+  <div class="w3-modal-content w3-animate-zoom" style="max-width:400px; margin:auto; text-align:center;">
+    
+    <img [src]="selectedImage" class="w3-image" style="width:80%; object-fit:contain; margin:auto; display:block;">
+
+    <div style="margin-top:10px;">
+      <button (click)="closeImageModal()" class="w3-button w3-black title-game" style="width: 100%;">
+        <i class="fa fa-times"></i>
+      </button>
+    </div>
+    
   </div>
 </div>
+
 
 <!-- Load More -->
 <div class="w3-center w3-padding" *ngIf="filteredClubs.length < totalFilteredCount">
