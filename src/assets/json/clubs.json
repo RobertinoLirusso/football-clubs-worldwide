@@ -4164,7 +4164,7 @@
   },
   {
     "club_name": "Livorno",
-    "club_logo": "https://www.uslivorno.com/wp-content/themes/zaki/assets/img/logo@2x.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_UVPPZ2axb8dJSZFLRK5NSH_IheQZ06ImWJhpiDmVinQjYT2GDgBzTGqSvPAzozYeWiUomHnl2JHkX6AYRJDbeEMVGRGzFkCbdLB3KMG64TeBVYdSR-WCLzod5bVlYrJnA6YDcK4Ff-1rNAlOHQZhCxTTYC-gOvM9pknsslPygU2DGKQzwjzq_pWPGto/s1600/US%20Livorno%20256x.png",
     "city_country": "Livorno, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/US_Livorno_1915"
   },
@@ -5868,7 +5868,7 @@
   },
   {
     "club_name": "AC Bra",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/8e/A.C._Bra_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/2/21/Logo_AC_Bra_2025.png/250px-Logo_AC_Bra_2025.png",
     "city_country": "Bra, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/A.C._Bra"
   },
@@ -6275,7 +6275,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/KFUM_Oslo"
   },
   {
-    "club_name": "Fredikstad FK",
+    "club_name": "Fredrikstad FK",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXIYuUgm8b7zbCUXnEMhuVmN4XET4WG8lpacZ48NbmRIFmvhKY1FFpkT7xsDMgShmTOa1NrVDzaBcPduyKlP3UjmUBACdoPABeT_0q1DNxXaQuqDo8H5Wr0y1haSTdNViut8ZaySZwubV-I3_9gBltdq8VB8qkUbM4T_VAWifcI6Ip4B_UONOi2Yt-qxI/s256/Fredrikstad%20FK256x.png",
     "city_country": "Fredrikstad, Norway",
     "wiki_url": "https://en.wikipedia.org/wiki/Fredrikstad_FK"
@@ -10923,5 +10923,209 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Damac_FC_Logo.svg/250px-Damac_FC_Logo.svg.png",
     "city_country": "Khamis Mushait, Saudi Arabia",
     "wiki_url": "https://en.wikipedia.org/wiki/Damac_FC"
+  },
+    {
+    "club_name": "Tokyo Verdy",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Tokyo_Verdy_logo.svg/150px-Tokyo_Verdy_logo.svg.png",
+    "city_country": "Tokyo, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tokyo_Verdy"
+  },
+  {
+    "club_name": "Machida Zelvia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/FC_Machida_Zelvia_logo.svg/250px-FC_Machida_Zelvia_logo.svg.png",
+    "city_country": "Tokyo (Machida), Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Machida_Zelvia"
+  },
+  {
+    "club_name": "Shonan Bellmare",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Shonan_Bellmare_logo.svg/250px-Shonan_Bellmare_logo.svg.png",
+    "city_country": "Hiratsuka, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shonan_Bellmare"
+  },
+  {
+    "club_name": "Shimizu S-Pulse",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Shimizu_S-Pulse_logo.svg/250px-Shimizu_S-Pulse_logo.svg.png",
+    "city_country": "Shizuoka, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shimizu_S-Pulse"
+  },
+  {
+    "club_name": "Nagoya Grampus",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Nagoya_Grampus_Logo.svg/250px-Nagoya_Grampus_Logo.svg.png",
+    "city_country": "Nagoya, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nagoya_Grampus"
+  },
+  {
+    "club_name": "Kyoto Sanga",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Kyoto_Sanga_FC_logo.svg/150px-Kyoto_Sanga_FC_logo.svg.png",
+    "city_country": "Kyoto, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kyoto_Sanga_FC"
+  },
+  {
+    "club_name": "Fagiano Okayama",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Fagiano_Okayama_logo.svg/160px-Fagiano_Okayama_logo.svg.png",
+    "city_country": "Okayama, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fagiano_Okayama"
+  },
+  {
+    "club_name": "Avispa Fukuoka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Avispa_Fukuoka_logo.svg/250px-Avispa_Fukuoka_logo.svg.png",
+    "city_country": "Fukuoka, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Avispa_Fukuoka"
+  },
+    {
+    "club_name": "Blaublitz Akita",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Blaublitz_Akita_logo.svg/250px-Blaublitz_Akita_logo.svg.png",
+    "city_country": "Akita, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Blaublitz_Akita"
+  },
+  {
+    "club_name": "Ehime FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Ehime_FC_logo.svg/250px-Ehime_FC_logo.svg.png",
+    "city_country": "Matsuyama, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ehime_FC"
+  },
+  {
+    "club_name": "Fujieda MYFC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Fujieda_MYFC_logo.svg/250px-Fujieda_MYFC_logo.svg.png",
+    "city_country": "Fujieda, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fujieda_MYFC"
+  },
+  {
+    "club_name": "Hokkaido Consadole Sapporo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Hokkaido_Consadole_Sapporo_logo.svg/250px-Hokkaido_Consadole_Sapporo_logo.svg.png",
+    "city_country": "Sapporo, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hokkaido_Consadole_Sapporo"
+  },
+  {
+    "club_name": "FC Imabari",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/FC_Imabari_logo.svg/330px-FC_Imabari_logo.svg.png",
+    "city_country": "Imabari, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Imabari"
+  },
+  {
+    "club_name": "Iwaki FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Iwaki_FC_logo.svg/250px-Iwaki_FC_logo.svg.png",
+    "city_country": "Iwaki, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Iwaki_FC"
+  },
+  {
+    "club_name": "JEF United Chiba",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/JEF_United_Chiba_logo.svg/250px-JEF_United_Chiba_logo.svg.png",
+    "city_country": "Chiba, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/JEF_United_Chiba"
+  },
+  {
+    "club_name": "Júbilo Iwata",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Jubilo_Iwata_logo.svg/250px-Jubilo_Iwata_logo.svg.png",
+    "city_country": "Iwata, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/J%C3%BAbilo_Iwata"
+  },
+  {
+    "club_name": "Kataller Toyama",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Kataller_Toyama_logo.svg/250px-Kataller_Toyama_logo.svg.png",
+    "city_country": "Toyama, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kataller_Toyama"
+  },
+  {
+    "club_name": "Mito HollyHock",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Mito_HollyHock_logo.svg/250px-Mito_HollyHock_logo.svg.png",
+    "city_country": "Mito, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mito_HollyHock"
+  },
+  {
+    "club_name": "Oita Trinita",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Oita_Trinita_logo.svg/250px-Oita_Trinita_logo.svg.png",
+    "city_country": "Ōita, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Oita_Trinita"
+  },
+  {
+    "club_name": "Roasso Kumamoto",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Roasso_Kumamoto_logo.svg/250px-Roasso_Kumamoto_logo.svg.png",
+    "city_country": "Kumamoto, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Roasso_Kumamoto"
+  },
+  {
+    "club_name": "Sagan Tosu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Sagan_Tosu_logo.svg/250px-Sagan_Tosu_logo.svg.png",
+    "city_country": "Tosu, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sagan_Tosu"
+  },
+  {
+    "club_name": "Tokushima Vortis",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Tokushima_Vortis_logo.svg/200px-Tokushima_Vortis_logo.svg.png",
+    "city_country": "Tokushima, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tokushima_Vortis"
+  },
+  {
+    "club_name": "V-Varen Nagasaki",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/V-Varen_Nagasaki_logo.svg/160px-V-Varen_Nagasaki_logo.svg.png",
+    "city_country": "Nagasaki, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/V-Varen_Nagasaki"
+  },
+  {
+    "club_name": "Vegalta Sendai",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Vegalta_Sendai_logo.svg/250px-Vegalta_Sendai_logo.svg.png",
+    "city_country": "Sendai, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vegalta_Sendai"
+  },
+  {
+    "club_name": "Ventforet Kofu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Ventforet_Kofu_logo.svg/250px-Ventforet_Kofu_logo.svg.png",
+    "city_country": "Kōfu, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ventforet_Kofu"
+  },
+  {
+    "club_name": "Renofa Yamaguchi FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Renofa_Yamaguchi_FC_logo.svg/200px-Renofa_Yamaguchi_FC_logo.svg.png",
+    "city_country": "Yamaguchi, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Renofa_Yamaguchi_FC"
+  },
+    {
+    "club_name": "Iwate Grulla Morioka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Iwate_Grulla_Morioka_logo.svg/150px-Iwate_Grulla_Morioka_logo.svg.png",
+    "city_country": "Morioka, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Iwate_Grulla_Morioka"
+  },
+  {
+    "club_name": "Daegu FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Daegu_FC.svg/230px-Daegu_FC.svg.png",
+    "city_country": "Daegu, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Daegu_FC"
+  },
+  {
+    "club_name": "Daejeon Hana Citizen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Daejeon_Hana_Citizen.svg/250px-Daejeon_Hana_Citizen.svg.png",
+    "city_country": "Daejeon, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Daejeon_Hana_Citizen"
+  },
+  {
+    "club_name": "FC Anyang",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/FC_Anyang.png/250px-FC_Anyang.png",
+    "city_country": "Anyang, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Anyang"
+  },
+  {
+    "club_name": "Gangwon FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Gangwon_FC.svg/250px-Gangwon_FC.svg.png",
+    "city_country": "Chuncheon & Gangneung, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gangwon_FC"
+  },
+  {
+    "club_name": "Gimcheon Sangmu FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Gimcheon_Sangmu_FC.svg/250px-Gimcheon_Sangmu_FC.svg.png",
+    "city_country": "Gimcheon, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gimcheon_Sangmu_FC"
+  },
+  {
+    "club_name": "Gwangju FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Gwangju_FC.svg/250px-Gwangju_FC.svg.png",
+    "city_country": "Gwangju, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gwangju_FC"
+  },
+  {
+    "club_name": "Jeju SK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Jeju_SK_FC.svg/250px-Jeju_SK_FC.svg.png",
+    "city_country": "Seogwipo, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jeju_SK_FC"
   }
 ]
