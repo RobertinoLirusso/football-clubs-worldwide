@@ -11127,5 +11127,83 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Jeju_SK_FC.svg/250px-Jeju_SK_FC.svg.png",
     "city_country": "Seogwipo, South Korea",
     "wiki_url": "https://en.wikipedia.org/wiki/Jeju_SK_FC"
+  },
+    {
+    "club_name": "AmaZulu FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/AmaZulu_logo.svg/150px-AmaZulu_logo.svg.png",
+    "city_country": "Durban, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/AmaZulu_FC"
+  },
+  {
+    "club_name": "Chippa United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Chippa_United_FC_logo.png/250px-Chippa_United_FC_logo.png",
+    "city_country": "East London, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chippa_United_F.C."
+  },
+  {
+    "club_name": "Durban City",
+    "club_logo": "https://durbancityfc.com/wp-content/uploads/2024/09/DC.png",
+    "city_country": "Durban, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Durban_City_F.C._(2024)"
+  },
+  {
+    "club_name": "Golden Arrows",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Lamontville_Golden_Arrows_logo.svg/180px-Lamontville_Golden_Arrows_logo.svg.png",
+    "city_country": "Durban, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lamontville_Golden_Arrows_F.C."
+  },
+  {
+    "club_name": "Magesi FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Magesi_F.C._logo.png/250px-Magesi_F.C._logo.png",
+    "city_country": "Moletši, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Magesi_F.C."
+  },
+  {
+    "club_name": "Marumo Gallants",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Marumo_Gallants_FC.jpg/250px-Marumo_Gallants_FC.jpg",
+    "city_country": "Bloemfontein, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Marumo_Gallants_F.C."
+  },
+  {
+    "club_name": "Orbit College FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Orbit_College_FC_logo.jpg/250px-Orbit_College_FC_logo.jpg",
+    "city_country": "Rustenburg, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Orbit_College_FC"
+  },
+  {
+    "club_name": "Polokwane City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/02/Polokwane_City_FC_logo.png",
+    "city_country": "Polokwane, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Polokwane_City_F.C."
+  },
+  {
+    "club_name": "Richards Bay FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b2/Richards_Bay_F.C._logo.png",
+    "city_country": "Richards Bay, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Richards_Bay_F.C."
+  },
+  {
+    "club_name": "Sekhukhune United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Sekhukhune_United_F.C._logo.png/250px-Sekhukhune_United_F.C._logo.png",
+    "city_country": "Burgersfort, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sekhukhune_United_F.C."
+  },
+  {
+    "club_name": "Siwelele FC",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwjzn67MqhX-07VEZC-1qi9P8eVQ-JhZn6_Q&s",
+    "city_country": "Bloemfontein, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Siwelele_F.C."
+  },
+  {
+    "club_name": "Stellenbosch FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Stellenbosch_FC_logo.png/250px-Stellenbosch_FC_logo.png",
+    "city_country": "Stellenbosch, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stellenbosch_F.C."
+  },
+  {
+    "club_name": "TS Galaxy",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/TS_Galaxy.png/160px-TS_Galaxy.png",
+    "city_country": "Kameelrivier, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/TS_Galaxy_F.C."
   }
 ]

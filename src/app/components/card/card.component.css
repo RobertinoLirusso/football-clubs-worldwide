@@ -357,6 +357,8 @@ select.filter-btn:hover {
   align-items: center;
   flex-wrap: wrap; /* permite que baje en móviles */
   gap: 10px; /* espacio uniforme */
+  height: 40px;         
+  min-width: 140px;
 }
 
 /* Responsividad para promo-link igual a action-container */
@@ -366,8 +368,7 @@ select.filter-btn:hover {
     gap: 8px;
   }
 
-  .promo-link a,
-  .promo-link button {
+  .promo-link a {
     height: 36px;
     min-width: 100px;
     font-size: 14px;

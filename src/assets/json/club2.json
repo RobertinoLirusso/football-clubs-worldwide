@@ -1,8 +1,98 @@
 [
   {
-    "club_name": "Iwate Grulla Morioka",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Iwate_Grulla_Morioka_logo.svg/150px-Iwate_Grulla_Morioka_logo.svg.png",
-    "city_country": "Morioka, Japan",
-    "wiki_url": "https://en.wikipedia.org/wiki/Iwate_Grulla_Morioka"
+    "club_name": "AS FAR",
+    "club_logo": "",
+    "city_country": "Rabat, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_FAR"
+  },
+  {
+    "club_name": "KAC Marrakech",
+    "club_logo": "",
+    "city_country": "Marrakech, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/KAC_Marrakech"
+  },
+  {
+    "club_name": "Maghreb de Fès",
+    "club_logo": "",
+    "city_country": "Fez, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/Maghreb_de_Fès"
+  },
+  {
+    "club_name": "Hassania Agadir",
+    "club_logo": "",
+    "city_country": "Agadir, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hassania_Agadir"
+  },
+  {
+    "club_name": "COD Meknès",
+    "club_logo": "",
+    "city_country": "Meknès, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/COD_Meknès"
+  },
+  {
+    "club_name": "Olympique Safi",
+    "club_logo": "",
+    "city_country": "Safi, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/Olympique_de_Safi"
+  },
+  {
+    "club_name": "Olympique Dcheira",
+    "club_logo": "",
+    "city_country": "Dcheira, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/Olympique_Dcheira"
+  },
+  {
+    "club_name": "RS Berkane",
+    "club_logo": "",
+    "city_country": "Berkane, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/RS_Berkane"
+  },
+  {
+    "club_name": "Raja CA",
+    "club_logo": "",
+    "city_country": "Casablanca, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/Raja_Club_Athletic"
+  },
+  {
+    "club_name": "Fath Union Sport",
+    "club_logo": "",
+    "city_country": "Rabat, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/FUS_Rabat"
+  },
+  {
+    "club_name": "Ittihad Tanger",
+    "club_logo": "",
+    "city_country": "Tanger, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ittihad_Tanger"
+  },
+  {
+    "club_name": "Union de Touarga",
+    "club_logo": "",
+    "city_country": "Rabat, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/Union_de_Touarga"
+  },
+  {
+    "club_name": "US Yacoub El Mansour",
+    "club_logo": "",
+    "city_country": "Rabat, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Yacoub_El_Mansour"
+  },
+  {
+    "club_name": "Wydad AC",
+    "club_logo": "",
+    "city_country": "Casablanca, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wydad_AC"
+  },
+  {
+    "club_name": "Difaâ El Jadidi",
+    "club_logo": "",
+    "city_country": "El Jadida, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/Difaâ_El_Jadidi"
+  },
+  {
+    "club_name": "RCA Zemamra",
+    "club_logo": "",
+    "city_country": "Zemamra, Morocco",
+    "wiki_url": "https://en.wikipedia.org/wiki/RCA_Zemamra"
   }
 ]
