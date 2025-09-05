@@ -206,6 +206,7 @@ footer p {
   text-align: center;
 }
 
+
 @media screen and (max-width: 600px) {
   .w3-modal-content {
     width: 90% !important; /* Hace que el modal use el 90% del ancho de la pantalla */
@@ -361,19 +362,27 @@ select.filter-btn:hover {
   min-width: 140px;
 }
 
-/* Responsividad para promo-link igual a action-container */
+/* Ajustes solo en móviles */
 @media screen and (max-width: 600px) {
-  .promo-link {
-    justify-content: center; /* centrado en móviles */
-    gap: 8px;
+  .promo-link a {
+    flex: 1 1 auto;          /* Que se repartan de forma pareja */
+    min-width: 120px;        /* Mismo ancho mínimo */
+    text-align: center;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .promo-link a {
-    height: 36px;
-    min-width: 100px;
-    font-size: 14px;
+  .promo-link a i {
+    margin-right: 6px;      
+  }
+
+  .highlight-text  {
+    margin-top: 30px;    
   }
 }
+
 
 
 /* Responsividad */

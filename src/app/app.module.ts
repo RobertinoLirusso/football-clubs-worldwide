@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { GuessClubComponent } from './pages/guess-club/guess-club.component';
+import { NgxImageZoomModule } from 'ngx-image-zoom';
 
 @NgModule({
   declarations: [
@@ -20,13 +21,14 @@ import { GuessClubComponent } from './pages/guess-club/guess-club.component';
     CardComponent,
     HeaderComponent,
     FooterComponent,
-    GuessClubComponent
+    GuessClubComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    NgxImageZoomModule,
   ],
   providers: [
     provideClientHydration(),

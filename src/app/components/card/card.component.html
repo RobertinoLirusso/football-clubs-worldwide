@@ -90,9 +90,17 @@
 </div>
 
 <div *ngIf="selectedImage" class="w3-modal" style="display:block;">
-  <div class="w3-modal-content w3-animate-zoom" style="max-width:400px; margin:auto; text-align:center;">
+  <div class="w3-modal-content w3-animate-zoom" style="max-width:500px; margin:auto; text-align:center; padding: 10px;">
     
-    <img [src]="selectedImage" class="w3-image" style="width:80%; object-fit:contain; margin:auto; display:block;">
+    <lib-ngx-image-zoom
+      [thumbImage]="selectedImage"
+      [fullImage]="selectedImage"
+      [magnification]="2"
+      [enableScrollZoom]="true"
+      [lensWidth]="150"
+      [lensHeight]="150"
+      style="display:block; margin:auto; max-width:80%;"
+    ></lib-ngx-image-zoom>
 
     <div style="margin-top:10px;">
       <button (click)="closeImageModal()" class="w3-button w3-black title-game" style="width: 100%;">
