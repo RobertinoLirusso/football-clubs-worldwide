@@ -2801,7 +2801,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Clermont_Foot"
   },
   {
-    "club_name": "AC Ajaccio",
+    "club_name": "AC Ajaccio (Defunct)",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8sUVhJjxlzx2AagGkEO03qX00Ekm47wpQ1fcMen0ulQIBzxvZhOE25s8tSuXqGgYLqtnSpr7Sk1ftzM_4feU9tTy9mPVDkyDNMSbc25S5lZOdylb1QF9Jd-u9veZH4LR8LOZ8_dDQ-mAM/s1600/AC+Ajaccio256x.png",
     "city_country": "Ajaccio, France",
     "wiki_url": "https://en.wikipedia.org/wiki/AC_Ajaccio"
@@ -11289,5 +11289,347 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d0/RCAZ-Logo.jpg/150px-RCAZ-Logo.jpg",
     "city_country": "Zemamra, Morocco",
     "wiki_url": "https://en.wikipedia.org/wiki/RCA_Zemamra"
-  }
+  },
+    {
+    "club_name": "SC Aubagne Air Bel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/SC_Aubagne_Air_Bel_logo.png/250px-SC_Aubagne_Air_Bel_logo.png",
+    "city_country": "Aubagne, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Aubagne_Air_Bel"
+  },
+  {
+    "club_name": "Fleury 91",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/FC_Fleury_91_%28men%29_logo.svg/250px-FC_Fleury_91_%28men%29_logo.svg.png",
+    "city_country": "Fleury-Mérogis, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Fleury_91_(men)"
+  },
+  {
+    "club_name": "Le Puy",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Le_Puy_Foot_43_Auvergne_logo.svg/250px-Le_Puy_Foot_43_Auvergne_logo.svg.png",
+    "city_country": "Le Puy-en-Velay, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Le_Puy_Foot_43_Auvergne"
+  },
+  {
+    "club_name": "Stade Briochin",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Stade_Briochin_logo.svg/250px-Stade_Briochin_logo.svg.png",
+    "city_country": "Saint-Brieuc, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stade_Briochin"
+  },
+    {
+    "club_name": "Angoulême",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Angouleme_Charente_FC_logo.svg/250px-Angouleme_Charente_FC_logo.svg.png",
+    "city_country": "Angoulême, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Angoul%C3%AAme_Charente_FC"
+  },
+  {
+    "club_name": "Aviron Bayonnais",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Aviron_Bayonnais_FC_logo.svg/250px-Aviron_Bayonnais_FC_logo.svg.png",
+    "city_country": "Bayonne, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aviron_Bayonnais_FC"
+  },
+  {
+    "club_name": "Voltigeurs de Châteaubriant",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b4/Logo_Voltigeurs_Ch%C3%A2teaubriant.svg/langfr-250px-Logo_Voltigeurs_Ch%C3%A2teaubriant.svg.png",
+    "city_country": "Châteaubriant, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Voltigeurs_de_Ch%C3%A2teaubriant"
+  },
+  {
+    "club_name": "FC Chauray",
+    "club_logo": "https://static.wixstatic.com/media/143fa0_274bd8f803eb485dad690d9b7475e563~mv2.png",
+    "city_country": "Chauray, France",
+    "wiki_url": "https://es.wikipedia.org/wiki/FC_Chauray"
+  },
+  {
+    "club_name": "Dinan Léhon",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Dinan_L%C3%A9hon_FC_logo.svg/250px-Dinan_L%C3%A9hon_FC_logo.svg.png",
+    "city_country": "Dinan & Léhon, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dinan_L%C3%A9hon_FC"
+  },
+  {
+    "club_name": "US Granville",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/US_Granville_logo.svg/250px-US_Granville_logo.svg.png",
+    "city_country": "Granville, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Granville"
+  },
+  {
+    "club_name": "VFC La Roche-sur-Yon",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/01/Logo_VFCLRSY.png/250px-Logo_VFCLRSY.png",
+    "city_country": "La Roche-sur-Yon, France",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Vend%C3%A9e_Foot_Club_La_Roche-sur-Yon"
+  },
+  {
+    "club_name": "FC Montlouis",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/95/Logo_FC_Montlouis_-_2020.svg/langfr-250px-Logo_FC_Montlouis_-_2020.svg.png",
+    "city_country": "Montlouis-sur-Loire, France",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Football_Club_de_Montlouis"
+  },
+  {
+    "club_name": "Stade Poitevin FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Stade_Poitevin_FC_logo.svg/250px-Stade_Poitevin_FC_logo.svg.png",
+    "city_country": "Poitiers, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stade_Poitevin_FC"
+  },
+  {
+    "club_name": "Saint-Colomban Locminé",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/20/Logo_Saint-Colomban_Sportive_Locmin%C3%A9.svg/langfr-250px-Logo_Saint-Colomban_Sportive_Locmin%C3%A9.svg.png",
+    "city_country": "Locminé, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Saint-Colomban_Sportive_Locmin%C3%A9"
+  },
+  {
+    "club_name": "US Saint-Malo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Logo_US_Saint-Malo_-_2012.svg/langfr-250px-Logo_US_Saint-Malo_-_2012.svg.png",
+    "city_country": "Saint-Malo, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Saint-Malo"
+  },
+  {
+    "club_name": "Olympique de Saumur",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/e/e8/Logo_Olympique_Saumur.svg/langfr-250px-Logo_Olympique_Saumur.svg.png",
+    "city_country": "Saumur, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Olympique_Saumur_FC"
+  },
+    {
+      "club_name": "AS Beauvais Oise",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/AS_Beauvais_Oise_logo.svg/250px-AS_Beauvais_Oise_logo.svg.png",
+      "city_country": "Beauvais, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/AS_Beauvais_Oise"
+    },
+    {
+      "club_name": "AS Furiani-Agliani",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/5/52/Logo_AS_Furiani_Agliani_-_2020.svg/langfr-250px-Logo_AS_Furiani_Agliani_-_2020.svg.png",
+      "city_country": "Furiani, France",
+      "wiki_url": "https://fr.wikipedia.org/wiki/Association_sportive_Furiani-Agliani"
+    },
+    {
+      "club_name": "ASC Biesheim",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/ASC_Biesheim_logo.svg/250px-ASC_Biesheim_logo.svg.png",
+      "city_country": "Biesheim, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/ASC_Biesheim"
+    },
+    {
+      "club_name": "Blois Football 41",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b0/Logo_Blois_Football_41.svg/langfr-250px-Logo_Blois_Football_41.svg.png",
+      "city_country": "Blois, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Blois_Football_41"
+    },
+    {
+      "club_name": "Bourges FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/a/a3/Logo_Bourges_Foot_18_-_2021.svg/langfr-250px-Logo_Bourges_Foot_18_-_2021.svg.png",
+      "city_country": "Bourges, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Bourges_Foot_18"
+    },
+    {
+      "club_name": "Entente Feignies Aulnoye FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/bd/Logo_Entente_Feignies-Aulnoye_FC_2016.svg/langfr-250px-Logo_Entente_Feignies-Aulnoye_FC_2016.svg.png",
+      "city_country": "Feignies, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Entente_Feignies_Aulnoye_FC"
+    },
+    {
+      "club_name": "FC Borgo",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/a/ab/Logo_FC_Borgo_-_2020.svg/langfr-250px-Logo_FC_Borgo_-_2020.svg.png",
+      "city_country": "Borgo, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/FC_Borgo"
+    },
+    {
+      "club_name": "FC Dieppe",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/38/Logo_FC_Dieppois.svg/langfr-250px-Logo_FC_Dieppois.svg.png",
+      "city_country": "Dieppe, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/FC_Dieppe"
+    },
+    {
+      "club_name": "FCSR Haguenau",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/FCSR_Haguenau_logo.svg/250px-FCSR_Haguenau_logo.svg.png",
+      "city_country": "Haguenau, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/FCSR_Haguenau"
+    },
+    {
+      "club_name": "Saint-Pryvé Saint-Hilaire FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/41/Logo_Saint-Pryv%C3%A9_Saint-Hilaire_FC.svg/langfr-250px-Logo_Saint-Pryv%C3%A9_Saint-Hilaire_FC.svg.png",
+      "city_country": "Saint-Pryvé-Saint-Mesmin, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Saint-Pryv%C3%A9_Saint-Hilaire_FC"
+    },
+    {
+      "club_name": "SAS Épinal",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/01/Logo_SAS_%C3%89pinal_Football_-_2021.svg/langfr-250px-Logo_SAS_%C3%89pinal_Football_-_2021.svg.png",
+      "city_country": "Épinal, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/SAS_%C3%89pinal"
+    },
+    {
+      "club_name": "SR Colmar",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/e/eb/Logo_SR_Colmar_-_2016.svg/langfr-250px-Logo_SR_Colmar_-_2016.svg.png",
+      "city_country": "Colmar, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/SR_Colmar"
+    },
+    {
+      "club_name": "US Chantilly",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b2/Logo_US_Chantilly.svg/langfr-250px-Logo_US_Chantilly.svg.png",
+      "city_country": "Chantilly, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/US_Chantilly"
+    },
+    {
+      "club_name": "US Thionville Lusitanos",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b0/Logo_US_Thionville-Lusitanos_-_2021.svg/langfr-250px-Logo_US_Thionville-Lusitanos_-_2021.svg.png",
+      "city_country": "Thionville, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/US_Thionville_Lusitanos"
+    },
+    {
+      "club_name": "Wasquehal Football",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Wasquehal_Football_logo.svg/250px-Wasquehal_Football_logo.svg.png",
+      "city_country": "Wasquehal, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Wasquehal_Football"
+    },
+        {
+      "club_name": "Andrézieux-Bouthéon FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Logo_Andr%C3%A9zieux-Bouth%C3%A9on_FC_2019.svg/langfr-250px-Logo_Andr%C3%A9zieux-Bouth%C3%A9on_FC_2019.svg.png",
+      "city_country": "Andrézieux-Bouthéon, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Andr%C3%A9zieux-Bouth%C3%A9on_FC"
+    },
+    {
+      "club_name": "AS Saint-Priest",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/46/Logo_AS_St_Priest.svg/langfr-250px-Logo_AS_St_Priest.svg.png",
+      "city_country": "Saint-Priest, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/AS_Saint-Priest"
+    },
+    {
+      "club_name": "ÉFC Fréjus Saint-Raphaël",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/%C3%89FC_Fr%C3%A9jus_Saint-Rapha%C3%ABl_logo.svg/250px-%C3%89FC_Fr%C3%A9jus_Saint-Rapha%C3%ABl_logo.svg.png",
+      "city_country": "Saint-Raphaël, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/%C3%89FC_Fr%C3%A9jus_Saint-Rapha%C3%ABl"
+    },
+    {
+      "club_name": "FC 93 BBG",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/FC_93_BBG_logo.png/250px-FC_93_BBG_logo.png",
+      "city_country": "Bobigny, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/FC_93_Bobigny-Bagnolet-Gagny"
+    },
+    {
+      "club_name": "FC Limonest Dardilly Saint Didier",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/FC_Limonest_Dardilly_Saint-Didier_logo.svg/250px-FC_Limonest_Dardilly_Saint-Didier_logo.svg.png",
+      "city_country": "Limonest, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/FC_Limonest_Dardilly_Saint-Didier"
+    },
+    {
+      "club_name": "FC Rousset SVO",
+      "club_logo": "https://tmssl.akamaized.net//images/wappen/big/64053.png?lm=1751879516",
+      "city_country": "Rousset, France",
+      "wiki_url": "https://es.wikipedia.org/wiki/FC_Rousset_SVO"
+    },
+    {
+      "club_name": "GFA Rumilly Vallières",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/GFA_Rumilly-Valli%C3%A8res_logo.svg/250px-GFA_Rumilly-Valli%C3%A8res_logo.svg.png",
+      "city_country": "Rumilly, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/GFA_Rumilly-Valli%C3%A8res"
+    },
+    {
+      "club_name": "GOAL FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Grand_Ouest_Association_Lyonnaise_Football_Club_%28logo%29.svg/250px-Grand_Ouest_Association_Lyonnaise_Football_Club_%28logo%29.svg.png",
+      "city_country": "Chasselay, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/GOAL_FC"
+    },
+    {
+      "club_name": "Hyères FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Hy%C3%A8res_FC_logo.svg/250px-Hy%C3%A8res_FC_logo.svg.png",
+      "city_country": "Hyères, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Hy%C3%A8res_FC"
+    },
+    {
+      "club_name": "Istres FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b0/Logo_Istres_FC_-_2022.svg/langfr-250px-Logo_Istres_FC_-_2022.svg.png",
+      "city_country": "Istres, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Istres_FC"
+    },
+    {
+      "club_name": "RC Pays de Grasse",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/RC_Grasse_logo.svg/250px-RC_Grasse_logo.svg.png",
+      "city_country": "Grasse, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/RC_Pays_de_Grasse"
+    },
+    {
+      "club_name": "SC Toulon",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/SC_Toulon_logo.svg/200px-SC_Toulon_logo.svg.png",
+      "city_country": "Toulon, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/SC_Toulon"
+    },
+    {
+      "club_name": "US Créteil-Lusitanos",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/US_Cr%C3%A9teil-Lusitanos_logo.svg/250px-US_Cr%C3%A9teil-Lusitanos_logo.svg.png",
+      "city_country": "Créteil, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/US_Cr%C3%A9teil-Lusitanos"
+    },
+    {
+      "club_name": "US Lusitanos Saint-Maur",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/8/89/Logo_US_Lusitanos_Saint-Maur_2018.svg/langfr-250px-Logo_US_Lusitanos_Saint-Maur_2018.svg.png",
+      "city_country": "Saint-Maur-des-Fossés, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/US_Lusitanos_Saint-Maur"
+    },
+        {
+      "club_name": "Gazelec Ajaccio",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Gazelec_Ajaccio_logo.svg/250px-Gazelec_Ajaccio_logo.svg.png",
+      "city_country": "Ajaccio, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Gaz%C3%A9lec_Ajaccio"
+    },
+    {
+      "club_name": "Vannes OC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Vannes_OC_logo.svg/250px-Vannes_OC_logo.svg.png",
+      "city_country": "Vannes, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Vannes_OC"
+    },
+        {
+      "club_name": "Pays de Cassel",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/45/US_Pays_de_Cassel_logo.png",
+      "city_country": "Arnèke, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/US_Pays_de_Cassel"
+    },
+        {
+      "club_name": "ASM Belfort",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/92/Logo_ASM_Belfort_FC_-_2022.svg/langfr-250px-Logo_ASM_Belfort_FC_-_2022.svg.png",
+      "city_country": "Belfort, France",
+      "wiki_url": "https://fr.wikipedia.org/wiki/Association_sportive_municipale_belfortaine_Football_Club"
+    },
+    {
+      "club_name": "FC Mulhouse",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/FC_Mulhouse_logo.svg/250px-FC_Mulhouse_logo.svg.png",
+      "city_country": "Mulhouse, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/FC_Mulhouse"
+    },
+    {
+      "club_name": "FC Chalon",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/FC_Chalon_logo.svg/250px-FC_Chalon_logo.svg.png",
+      "city_country": "Chalon-sur-Saône, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/FC_Chalon"
+    },
+    {
+      "club_name": "Racing Besançon",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Racing_Besan%C3%A7on_logo.svg/250px-Racing_Besan%C3%A7on_logo.svg.png",
+      "city_country": "Besançon, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Racing_Besan%C3%A7on"
+    },
+    {
+      "club_name": "Thonon Evian Grand Genève FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Thonon_Evian_Grand_Gen%C3%A8ve_FC_logo.svg/250px-Thonon_Evian_Grand_Gen%C3%A8ve_FC_logo.svg.png",
+      "city_country": "Thonon-les-Bains, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Thonon_Evian_Grand_Gen%C3%A8ve_FC"
+    },
+        {
+      "club_name": "Evian Thonon Gaillard",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Evian_logo.png/150px-Evian_logo.png",
+      "city_country": "Thonon-les-Bains, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Thonon_Evian_Grand_Gen%C3%A8ve_FC#The_Rise"
+    },
+        {
+      "club_name": "Lyon-La Duchère",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Lyon_La_Duch%C3%A8re_logo.svg/250px-Lyon_La_Duch%C3%A8re_logo.svg.png",
+      "city_country": "Lyon, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lyon-La_Duch%C3%A8re"
+    },
+        {
+      "club_name": "Olympique Alès",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Olympique_Al%C3%A8s_logo.svg/250px-Olympique_Al%C3%A8s_logo.svg.png",
+      "city_country": "Alès, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Olympique_Al%C3%A8s"
+    },
+        {
+      "club_name": "Vierzon FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Vierzon_FC_logo.svg/250px-Vierzon_FC_logo.svg.png",
+      "city_country": "Vierzon, France",
+      "wiki_url": "https://en.wikipedia.org/wiki/Vierzon_FC"
+    }
 ]
