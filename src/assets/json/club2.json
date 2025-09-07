@@ -1,8 +1,117 @@
 [
-    {
-      "club_name": "Gazelec Ajaccio",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Gazelec_Ajaccio_logo.svg/250px-Gazelec_Ajaccio_logo.svg.png",
-      "city_country": "Ajaccio, France",
-      "wiki_url": "https://en.wikipedia.org/wiki/Gaz%C3%A9lec_Ajaccio"
-    }
+  {
+    "club_name": "Birmingham Legion FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Birmingham_Legion_FC_logo.svg/250px-Birmingham_Legion_FC_logo.svg.png",
+    "city_country": "Birmingham, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Birmingham_Legion_FC"
+  },
+  {
+    "club_name": "Detroit City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Detroit_City_FC_logo.svg/280px-Detroit_City_FC_logo.svg.png",
+    "city_country": "Detroit, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Detroit_City_FC"
+  },
+  {
+    "club_name": "Hartford Athletic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Hartford_Athletic_logo.svg/250px-Hartford_Athletic_logo.svg.png",
+    "city_country": "Hartford, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hartford_Athletic"
+  },
+  {
+    "club_name": "Indy Eleven",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Indy_Eleven_Logo.svg/150px-Indy_Eleven_Logo.svg.png",
+    "city_country": "Indianapolis, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Indy_Eleven"
+  },
+  {
+    "club_name": "Lexington SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Lexington_SC_logo.png/160px-Lexington_SC_logo.png",
+    "city_country": "Lexington, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lexington_SC"
+  },
+  {
+    "club_name": "Loudoun United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Loudoun_United_FC_logo.svg/250px-Loudoun_United_FC_logo.svg.png",
+    "city_country": "Leesburg, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Loudoun_United_FC"
+  },
+  {
+    "club_name": "Louisville City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Louisville_City_FC_2020_logo_primary.svg/180px-Louisville_City_FC_2020_logo_primary.svg.png",
+    "city_country": "Louisville, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Louisville_City_FC"
+  },
+  {
+    "club_name": "North Carolina FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/North_Carolina_FC_logo.svg/160px-North_Carolina_FC_logo.svg.png",
+    "city_country": "Cary, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/North_Carolina_FC"
+  },
+  {
+    "club_name": "Pittsburgh Riverhounds SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Pittsburgh_Riverhounds_SC_2018_logo.svg/250px-Pittsburgh_Riverhounds_SC_2018_logo.svg.png",
+    "city_country": "Pittsburgh, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pittsburgh_Riverhounds_SC"
+  },
+  {
+    "club_name": "Rhode Island FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Rhode_Island_FC_logo.png/250px-Rhode_Island_FC_logo.png",
+    "city_country": "Pawtucket, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rhode_Island_FC"
+  },
+  {
+    "club_name": "FC Tulsa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/FC_Tulsa_logo.svg/250px-FC_Tulsa_logo.svg.png",
+    "city_country": "Tulsa, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Tulsa"
+  },
+  {
+    "club_name": "Sacramento Republic FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Sacramento_Republic.png/250px-Sacramento_Republic.png",
+    "city_country": "Sacramento, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sacramento_Republic_FC"
+  },
+  {
+    "club_name": "El Paso Locomotive FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/El_Paso_Locomotive_FC_logo.svg/250px-El_Paso_Locomotive_FC_logo.svg.png",
+    "city_country": "El Paso, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/El_Paso_Locomotive_FC"
+  },
+  {
+    "club_name": "Colorado Springs Switchbacks FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Colorado_Springs_Switchbacks_FC_%282020%29_logo.svg/200px-Colorado_Springs_Switchbacks_FC_%282020%29_logo.svg.png",
+    "city_country": "Colorado Springs, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Colorado_Springs_Switchbacks_FC"
+  },
+  {
+    "club_name": "Monterey Bay FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Monterey_Bay_FC_2025_Updated_Logo.svg/250px-Monterey_Bay_FC_2025_Updated_Logo.svg.png",
+    "city_country": "Seaside, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Monterey_Bay_FC"
+  },
+  {
+    "club_name": "New Mexico United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/New_Mexico_United_logo.svg/180px-New_Mexico_United_logo.svg.png",
+    "city_country": "Albuquerque, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/New_Mexico_United"
+  },
+  {
+    "club_name": "Orange County SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/OC-Primary.png/250px-OC-Primary.png",
+    "city_country": "Irvine, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Orange_County_SC"
+  },
+  {
+    "club_name": "Phoenix Rising FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Phoenix_Rising_FC_logo.svg/145px-Phoenix_Rising_FC_logo.svg.png",
+    "city_country": "Phoenix, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Phoenix_Rising_FC"
+  },
+  {
+    "club_name": "San Antonio FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/San_Antonio_FC_logo.svg/250px-San_Antonio_FC_logo.svg.png",
+    "city_country": "San Antonio, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/San_Antonio_FC"
+  }
+
 ]

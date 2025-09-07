@@ -4475,7 +4475,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Portland_Hearts_of_Pine"
   },
   {
-    "club_name": "Tormenta FC",
+    "club_name": "South Georgia Tormenta FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Tormenta_FC_logo.svg/222px-Tormenta_FC_logo.svg.png",
     "city_country": "Statesboro, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Tormenta_FC"
@@ -8202,7 +8202,7 @@
   },
   {
     "club_name": "Struga",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/FC_Struga_logo.svg/250px-FC_Struga_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/FC_Struga_Trim_%26_Lum_logo.png/250px-FC_Struga_Trim_%26_Lum_logo.png",
     "city_country": "Struga, North Macedonia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Struga"
   },
@@ -8226,7 +8226,7 @@
   },
   {
     "club_name": "Bashkimi",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/KF_Bashkimi_Kumanov%C3%AB.svg/250px-KF_Bashkimi_Kumanov%C3%AB.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Bashkimi-logo-2025.png/250px-Bashkimi-logo-2025.png",
     "city_country": "Kumanovo, North Macedonia",
     "wiki_url": "https://en.wikipedia.org/wiki/KF_Bashkimi_1947"
   },
@@ -11631,5 +11631,215 @@
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Vierzon_FC_logo.svg/250px-Vierzon_FC_logo.svg.png",
       "city_country": "Vierzon, France",
       "wiki_url": "https://en.wikipedia.org/wiki/Vierzon_FC"
-    }
+    },
+      {
+    "club_name": "Bay FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bay_FC_logo.svg/250px-Bay_FC_logo.svg.png",
+    "city_country": "San Jose, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bay_FC"
+  },
+  {
+    "club_name": "Houston Dash",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Houston_Dash_2020_logo.svg/160px-Houston_Dash_2020_logo.svg.png",
+    "city_country": "Houston, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Houston_Dash"
+  },
+  {
+    "club_name": "Kansas City Current",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Kansas_City_Current_logo.svg/160px-Kansas_City_Current_logo.svg.png",
+    "city_country": "Kansas City, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kansas_City_Current"
+  },
+  {
+    "club_name": "North Carolina Courage",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/North_Carolina_Courage_logo.svg/160px-North_Carolina_Courage_logo.svg.png",
+    "city_country": "Cary, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/North_Carolina_Courage"
+  },
+  {
+    "club_name": "Orlando Pride",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Orlando_Pride_logo.svg/250px-Orlando_Pride_logo.svg.png",
+    "city_country": "Orlando, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Orlando_Pride"
+  },
+  {
+    "club_name": "Utah Royals",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Utah_Royals_logo.svg/200px-Utah_Royals_logo.svg.png",
+    "city_country": "Salt Lake City, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Utah_Royals"
+  },
+  {
+    "club_name": "Washington Spirit",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Washington_Spirit_logo.svg/200px-Washington_Spirit_logo.svg.png",
+    "city_country": "Washington D.C., United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Washington_Spirit"
+  },
+    {
+    "club_name": "London City Lionesses",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/LCL_Crest.png/250px-LCL_Crest.png",
+    "city_country": "London, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/London_City_Lionesses"
+  },
+    {
+    "club_name": "AV Alta FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/AV_Alta_FC_logo.png/250px-AV_Alta_FC_logo.png",
+    "city_country": "Lancaster, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/AV_Alta_FC"
+  },
+  {
+    "club_name": "Charlotte Independence",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Charlotte_Independence.svg/250px-Charlotte_Independence.svg.png",
+    "city_country": "Charlotte, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Charlotte_Independence"
+  },
+  {
+    "club_name": "FC Naples",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/FC_Naples_Logo.png/250px-FC_Naples_Logo.png",
+    "city_country": "Naples, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Naples"
+  },
+  {
+    "club_name": "Greenville Triumph SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Greenville_Triumph_logo.png/140px-Greenville_Triumph_logo.png",
+    "city_country": "Greenville, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Greenville_Triumph_SC"
+  },
+  {
+    "club_name": "Richmond Kickers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Richmond_Kickers_crest.svg/250px-Richmond_Kickers_crest.svg.png",
+    "city_country": "Richmond, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Richmond_Kickers"
+  },
+  {
+    "club_name": "Spokane Velocity FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Spokane_Velocity_FC_logo_blue-black.png/250px-Spokane_Velocity_FC_logo_blue-black.png",
+    "city_country": "Spokane, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Spokane_Velocity"
+  },
+  {
+    "club_name": "Texoma FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Texoma_FC_logo.png/250px-Texoma_FC_logo.png",
+    "city_country": "Sherman, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Texoma_FC"
+  },
+  {
+    "club_name": "Westchester SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Westchester_soccer_club_logo.png/250px-Westchester_soccer_club_logo.png",
+    "city_country": "Mount Vernon, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Westchester_SC"
+  },
+    {
+    "club_name": "Birmingham Legion FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Birmingham_Legion_FC_logo.svg/250px-Birmingham_Legion_FC_logo.svg.png",
+    "city_country": "Birmingham, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Birmingham_Legion_FC"
+  },
+  {
+    "club_name": "Detroit City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Detroit_City_FC_logo.svg/280px-Detroit_City_FC_logo.svg.png",
+    "city_country": "Detroit, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Detroit_City_FC"
+  },
+  {
+    "club_name": "Hartford Athletic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Hartford_Athletic_logo.svg/250px-Hartford_Athletic_logo.svg.png",
+    "city_country": "Hartford, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hartford_Athletic"
+  },
+  {
+    "club_name": "Indy Eleven",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Indy_Eleven_Logo.svg/150px-Indy_Eleven_Logo.svg.png",
+    "city_country": "Indianapolis, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Indy_Eleven"
+  },
+  {
+    "club_name": "Lexington SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Lexington_SC_logo.png/160px-Lexington_SC_logo.png",
+    "city_country": "Lexington, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lexington_SC"
+  },
+  {
+    "club_name": "Loudoun United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Loudoun_United_FC_logo.svg/250px-Loudoun_United_FC_logo.svg.png",
+    "city_country": "Leesburg, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Loudoun_United_FC"
+  },
+  {
+    "club_name": "Louisville City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Louisville_City_FC_2020_logo_primary.svg/180px-Louisville_City_FC_2020_logo_primary.svg.png",
+    "city_country": "Louisville, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Louisville_City_FC"
+  },
+  {
+    "club_name": "North Carolina FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/North_Carolina_FC_logo.svg/160px-North_Carolina_FC_logo.svg.png",
+    "city_country": "Cary, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/North_Carolina_FC"
+  },
+  {
+    "club_name": "Pittsburgh Riverhounds SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Pittsburgh_Riverhounds_SC_2018_logo.svg/250px-Pittsburgh_Riverhounds_SC_2018_logo.svg.png",
+    "city_country": "Pittsburgh, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pittsburgh_Riverhounds_SC"
+  },
+  {
+    "club_name": "Rhode Island FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Rhode_Island_FC_logo.png/250px-Rhode_Island_FC_logo.png",
+    "city_country": "Pawtucket, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rhode_Island_FC"
+  },
+  {
+    "club_name": "FC Tulsa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/FC_Tulsa_logo.svg/250px-FC_Tulsa_logo.svg.png",
+    "city_country": "Tulsa, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Tulsa"
+  },
+  {
+    "club_name": "Sacramento Republic FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Sacramento_Republic.png/250px-Sacramento_Republic.png",
+    "city_country": "Sacramento, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sacramento_Republic_FC"
+  },
+  {
+    "club_name": "El Paso Locomotive FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/El_Paso_Locomotive_FC_logo.svg/250px-El_Paso_Locomotive_FC_logo.svg.png",
+    "city_country": "El Paso, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/El_Paso_Locomotive_FC"
+  },
+  {
+    "club_name": "Colorado Springs Switchbacks FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Colorado_Springs_Switchbacks_FC_%282020%29_logo.svg/200px-Colorado_Springs_Switchbacks_FC_%282020%29_logo.svg.png",
+    "city_country": "Colorado Springs, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Colorado_Springs_Switchbacks_FC"
+  },
+  {
+    "club_name": "Monterey Bay FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Monterey_Bay_FC_2025_Updated_Logo.svg/250px-Monterey_Bay_FC_2025_Updated_Logo.svg.png",
+    "city_country": "Seaside, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Monterey_Bay_FC"
+  },
+  {
+    "club_name": "New Mexico United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/New_Mexico_United_logo.svg/180px-New_Mexico_United_logo.svg.png",
+    "city_country": "Albuquerque, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/New_Mexico_United"
+  },
+  {
+    "club_name": "Orange County SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/OC-Primary.png/250px-OC-Primary.png",
+    "city_country": "Irvine, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Orange_County_SC"
+  },
+  {
+    "club_name": "Phoenix Rising FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Phoenix_Rising_FC_logo.svg/145px-Phoenix_Rising_FC_logo.svg.png",
+    "city_country": "Phoenix, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Phoenix_Rising_FC"
+  },
+  {
+    "club_name": "San Antonio FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/San_Antonio_FC_logo.svg/250px-San_Antonio_FC_logo.svg.png",
+    "city_country": "San Antonio, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/San_Antonio_FC"
+  }
 ]

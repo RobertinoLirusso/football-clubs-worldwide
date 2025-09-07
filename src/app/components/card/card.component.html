@@ -90,15 +90,17 @@
 </div>
 
 <div *ngIf="selectedImage" class="w3-modal" style="display:block;">
-  <div class="w3-modal-content w3-animate-zoom" style="max-width:500px; margin:auto; text-align:center; padding: 10px;">
+  <div class="w3-modal-content w3-animate-zoom" style="max-width:500px; margin:auto; text-align:center;">
     
     <lib-ngx-image-zoom
       [thumbImage]="selectedImage"
       [fullImage]="selectedImage"
       [magnification]="2"
       [enableScrollZoom]="true"
-      [lensWidth]="150"
-      [lensHeight]="150"
+      [enableLens]="true"
+      [lensWidth]="200"
+      [lensHeight]="200"
+      [zoomMode]="'hover'"
       style="display:block; margin:auto; max-width:80%;"
     ></lib-ngx-image-zoom>
 
