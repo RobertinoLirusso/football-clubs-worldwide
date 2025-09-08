@@ -12009,5 +12009,119 @@
       "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sol_de_Am%C3%A9rica.png/250px-Sol_de_Am%C3%A9rica.png",
       "city_country": "Formosa, Argentina",
       "wiki_url": "https://es.wikipedia.org/wiki/Club_Sol_de_Am%C3%A9rica_(Formosa)"
-    }
+    },
+      {
+    "club_name": "Gżira United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Gziraunitedlogo.jpg/250px-Gziraunitedlogo.jpg",
+    "city_country": "Gżira, Malta",
+    "wiki_url": "https://en.wikipedia.org/wiki/G%C5%BCira_United_F.C."
+  },
+  {
+    "club_name": "Marsaxlokk",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiilCeZRXQI55FycW4CVG_Lrax0SIOozJmJ-hqwTAf7x9CndquiFCUjMzchZ1xHLOaRESA1LxjHPuRQM0SOYb31L_GC7Ntmbm1q63sHBmnpU-Il8IDM92a0wgS9abXosF7WWiwcvG6z1kfDNv4xmtFbJR7ZmZcpO4YEnCV9_Dahpx7Mp2_fxpXxayYWGgo/w185-h200/Marsaxlokk.png",
+    "city_country": "Marsaxlokk, Malta",
+    "wiki_url": "https://en.wikipedia.org/wiki/Marsaxlokk_F.C."
+  },
+  {
+    "club_name": "Mosta",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8J_m5T4SRdM0DxkBxg8Vuw8pdVCujOxIj5rZ2Aasf0LTEAPahXyUEyvg1KSI__lSOld_QwveBvox4CWxBDhyphenhyphenI85GFYkyvnZyPVrE6J6glPA0y7v7qSeDeBCbwm1xaJ6tlVsJ_aiVT6UA/s1600/MOSTA+FC-MLT.png",
+    "city_country": "Mosta, Malta",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mosta_F.C."
+  },
+  {
+    "club_name": "Naxxar Lions",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Naxxar_Lions_FC.png/250px-Naxxar_Lions_FC.png",
+    "city_country": "Naxxar, Malta",
+    "wiki_url": "https://en.wikipedia.org/wiki/Naxxar_Lions_F.C."
+  },
+  {
+    "club_name": "Sliema Wanderers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Sliema_Wanderers_F.C._logo.png/250px-Sliema_Wanderers_F.C._logo.png",
+    "city_country": "Sliema, Malta",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sliema_Wanderers_F.C."
+  },
+  {
+    "club_name": "Tarxien Rainbows",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/TRFC_VECTOR_LOGO.png/250px-TRFC_VECTOR_LOGO.png",
+    "city_country": "Tarxien, Malta",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tarxien_Rainbows_F.C."
+  },
+  {
+    "club_name": "Żabbar St. Patrick",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/%C5%BBabbar_St._Patrick_F.C._logo.png/250px-%C5%BBabbar_St._Patrick_F.C._logo.png",
+    "city_country": "Żabbar, Malta",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C5%BBabbar_St._Patrick_F.C."
+  },
+    {
+    "club_name": "Amedspor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/AmedSFKLogo.png/200px-AmedSFKLogo.png",
+    "city_country": "Diyarbakır, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Amed_S.F.K."
+  },
+  {
+    "club_name": "Bandırmaspor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Band%C4%B1rmaspor_logo.svg/170px-Band%C4%B1rmaspor_logo.svg.png",
+    "city_country": "Bandırma, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Band%C4%B1rmaspor"
+  },
+  {
+    "club_name": "Boluspor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Boluspor_logo.svg/170px-Boluspor_logo.svg.png",
+    "city_country": "Bolu, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Boluspor"
+  },
+  {
+    "club_name": "Çorum FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b6/%C3%87orum_FK_crest.png",
+    "city_country": "Çorum, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%87orum_F.K."
+  },
+  {
+    "club_name": "Esenler Erokspor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Esenler_Erokspor_logo.png/180px-Esenler_Erokspor_logo.png",
+    "city_country": "Istanbul, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Esenler_Erokspor"
+  },
+  {
+    "club_name": "Iğdır FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/I%C4%9Fd%C4%B1r_F.K._crest.png/170px-I%C4%9Fd%C4%B1r_F.K._crest.png",
+    "city_country": "Iğdır, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/I%C4%9Fd%C4%B1r_F.K."
+  },
+  {
+    "club_name": "Ankara Keçiörengücü",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Ankara_Ke%C3%A7i%C3%B6reng%C3%BCc%C3%BC_S.K._logo.png/250px-Ankara_Ke%C3%A7i%C3%B6reng%C3%BCc%C3%BC_S.K._logo.png",
+    "city_country": "Ankara, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ankara_Ke%C3%A7i%C3%B6reng%C3%BCc%C3%BC_S.K."
+  },
+  {
+    "club_name": "Manisa FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Manisa_FK_logo.png/250px-Manisa_FK_logo.png",
+    "city_country": "Manisa, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Manisa_F.K."
+  },
+  {
+    "club_name": "Pendikspor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/6d/Pendikspor.JPG",
+    "city_country": "Istanbul, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pendikspor"
+  },
+  {
+    "club_name": "Sarıyer",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4e/SariyerSK.png",
+    "city_country": "Istanbul, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sar%C4%B1yer_S.K."
+  },
+  {
+    "club_name": "Serikspor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Serikspor_logo.png/250px-Serikspor_logo.png",
+    "city_country": "Serik, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Serikspor"
+  },
+  {
+    "club_name": "Vanspor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4d/Belediye_Vanspor.png",
+    "city_country": "Van, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vanspor_F.K."
+  }
 ]
