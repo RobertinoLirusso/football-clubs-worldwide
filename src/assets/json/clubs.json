@@ -12495,5 +12495,119 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Forl%C3%AC_FC_logo.png/250px-Forl%C3%AC_FC_logo.png", 
     "city_country": "Forlì, Italy", 
     "wiki_url": "https://en.wikipedia.org/wiki/Forl%C3%AC_FC" 
+  },
+    {
+    "club_name": "Argeș Pitești",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/FC_Arges_Pitesti_badge.png/180px-FC_Arges_Pitesti_badge.png",
+    "city_country": "Pitești, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Arge%C8%99_Pite%C8%99ti"
+  },
+  {
+    "club_name": "Csíkszereda Miercurea Ciuc",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/FK_Miercurea_Ciuc_logo.png/250px-FK_Miercurea_Ciuc_logo.png",
+    "city_country": "Miercurea Ciuc, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Cs%C3%ADkszereda_Miercurea_Ciuc"
+  },  
+  {
+    "club_name": "Metaloglobus București",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/FC_Metaloglobus_Bucure%C8%99ti_logo2.png/190px-FC_Metaloglobus_Bucure%C8%99ti_logo2.png",
+    "city_country": "Bucharest, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Metaloglobus_Bucure%C8%99ti"
+  },
+  {
+    "club_name": "Kudrivka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/FC_Kudrivka_logo.png/250px-FC_Kudrivka_logo.png",
+    "city_country": "Kudrivka, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kudrivka"
+  },
+  {
+    "club_name": "Epitsentr Kamianets-Podilskyi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Epicentr_fc_logo.png/250px-Epicentr_fc_logo.png",
+    "city_country": "Kamianets-Podilskyi, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Epitsentr_Kamianets-Podilskyi"
+  },
+    {
+    "club_name": "IF Gnistan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/IF_Gnistan_logo.svg/250px-IF_Gnistan_logo.svg.png",
+    "city_country": "Helsinki, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/IF_Gnistan"
+  },
+  {
+    "club_name": "Haka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/FC_Haka_logo.svg/250px-FC_Haka_logo.svg.png",
+    "city_country": "Valkeakoski, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Haka"
+  },
+  {
+    "club_name": "FF Jaro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/FF_Jaro_logotype.svg/250px-FF_Jaro_logotype.svg.png",
+    "city_country": "Jakobstad, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/FF_Jaro"
+  },
+  {
+    "club_name": "KTP",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/FC_KTP_logo.svg/250px-FC_KTP_logo.svg.png",
+    "city_country": "Kotka, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kotkan_Ty%C3%B6v%C3%A4en_Palloilijat"
+  },
+  {
+    "club_name": "AC Oulu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/AC_Oulu_logo.svg/250px-AC_Oulu_logo.svg.png",
+    "city_country": "Oulu, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Oulu"
+  },
+  {
+    "club_name": "VPS",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Vaasan_Palloseura_logo.svg/250px-Vaasan_Palloseura_logo.svg.png",
+    "city_country": "Vaasa, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vaasan_Palloseura"
+  },
+    {
+    "club_name": "EIF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Eken%C3%A4s_Idrottsf%C3%B6rening.png/250px-Eken%C3%A4s_Idrottsf%C3%B6rening.png",
+    "city_country": "Raseborg, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Eken%C3%A4s_IF"
+  },
+  {
+    "club_name": "JIPPO",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/JIPPO.png/150px-JIPPO.png",
+    "city_country": "Joensuu, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jippo"
+  },
+  {
+    "club_name": "JäPS",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura.png/250px-J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura.png",
+    "city_country": "Järvenpää, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura"
+  },
+  {
+    "club_name": "KäPa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/93/K%C3%A4pyl%C3%A4n_Pallo.png",
+    "city_country": "Helsinki, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/K%C3%A4pyl%C3%A4n_Pallo"
+  },
+  {
+    "club_name": "Lahti",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/FC_Lahti_logo.svg/250px-FC_Lahti_logo.svg.png",
+    "city_country": "Lahti, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Lahti"
+  },
+  {
+    "club_name": "PK-35",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/PK-35_and_PK-35_Vantaa_logo_2020.png/250px-PK-35_and_PK-35_Vantaa_logo_2020.png",
+    "city_country": "Helsinki, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/PK-35_(men)"
+  },
+  {
+    "club_name": "SalPa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Salon_Palloilijat.png/250px-Salon_Palloilijat.png",
+    "city_country": "Salo, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Salon_Palloilijat"
+  },
+  {
+    "club_name": "TPS",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Turun_Palloseura_logo.png/250px-Turun_Palloseura_logo.png",
+    "city_country": "Turku, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Turun_Palloseura"
   }
 ]
