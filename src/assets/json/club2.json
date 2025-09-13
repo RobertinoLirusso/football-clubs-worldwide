@@ -1,8 +1,38 @@
 [
   {
-    "club_name": "IF Gnistan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/IF_Gnistan_logo.svg/250px-IF_Gnistan_logo.svg.png",
-    "city_country": "Helsinki, Finland",
-    "wiki_url": "https://en.wikipedia.org/wiki/IF_Gnistan"
+    "club_name": "SKU Amstetten",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a1/SKU_Amstetten_logo.png",
+    "city_country": "Amstetten, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/SKU_Amstetten"
+  },
+  {
+    "club_name": "SV Austria Salzburg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/SV_Austria_Salzburg_crest.svg/300px-SV_Austria_Salzburg_crest.svg.png",
+    "city_country": "Salzburg, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Austria_Salzburg"
+  },
+  {
+    "club_name": "FAC Wien",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Floridsdorfer_AC_%28logo%29.svg/250px-Floridsdorfer_AC_%28logo%29.svg.png",
+    "city_country": "Vienna, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/Floridsdorfer_AC"
+  },
+  {
+    "club_name": "KSV 1919",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/58/Kapfenberger_SV.png",
+    "city_country": "Kapfenberg, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kapfenberger_SV"
+  },
+  {
+    "club_name": "SV Stripfing",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/2/20/SV_Stripfing.png",
+    "city_country": "Weikendorf, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Stripfing"
+  },
+  {
+    "club_name": "FC Hertha Wels",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/big/23158.png?lm=1754747416",
+    "city_country": "Wels, Austria",
+    "wiki_url": "https://de.wikipedia.org/wiki/FC_Hertha_Wels"
   }
 ]
