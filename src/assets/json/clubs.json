@@ -3227,12 +3227,6 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Barracas_Central"
   },
   {
-    "club_name": "Sportivo Barracas",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnDtmF3DZwB3PghNBU3S_6JNaGuSp1Pd3U9xjqReZ5WhE7iTxiZWtTDBjQA1k9Up0HxWS1ELdVvjnRx4-FOas2N9xcXbsBW41Ky_5sS0DAuXvWWV8pb-TGtZHHgA13byp7pQI331UxJ06dV9AOhF6S4ZCO44Zduqirgc_byK_7_uzZ04l0nmo0prrLzCQ/s256/Club%20Sportivo%20Barracas256x.png",
-    "city_country": "Buenos Aires, Argentina",
-    "wiki_url": "https://en.wikipedia.org/wiki/Club_Sportivo_Barracas"
-  },
-  {
     "club_name": "Aldosivi",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP__6mWuM7NXFOb6tFWu3aekiDeK9n1okSaRFFFeaHbvN0sQIRsqFvgwcXSxI1ZSIzO8zEpG__oXL1idac-2UdzJSw76dNHw0vssIYGKv_rrZCqSdjJELhoPLigiySgJ3D3FOvHXO9VOgxkAwh9kdACYmtj2d1eG1iPdjB3hGDtv-x17ceJ9g5zk57/s256/Club%20Atletico%20Aldosivi256x.png",
     "city_country": "Mar del Plata, Argentina",
@@ -12801,5 +12795,41 @@
     "club_logo": "https://tmssl.akamaized.net//images/wappen/big/23158.png?lm=1754747416",
     "city_country": "Wels, Austria",
     "wiki_url": "https://de.wikipedia.org/wiki/FC_Hertha_Wels"
+  },
+    {
+    "club_name": "FC Tirol Innsbruck (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/FC_Tirol_Innsbruck.svg/150px-FC_Tirol_Innsbruck.svg.png",
+    "city_country": "Innsbruck, Austria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Tirol_Innsbruck"
+  },
+    {
+    "club_name": "Hekari United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/b/b7/PRK_Hekari_United_Logo.png/130px-PRK_Hekari_United_Logo.png",
+    "city_country": "Port Moresby, Papua New Guinea",
+    "wiki_url": "https://en.wikipedia.org/wiki/OFC_Professional_League"
+  },
+  {
+    "club_name": "Solomon Kings FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Solomon_Kings_FC_Logo.png/175px-Solomon_Kings_FC_Logo.png",
+    "city_country": "Honiara, Solomon Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Solomon_Kings_FC"
+  },
+  {
+    "club_name": "Tahiti United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Tahiti_United_FC.png/250px-Tahiti_United_FC.png",
+    "city_country": "Pīraʻe, Tahiti",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tahiti_United_FChttps://en.wikipedia.org/wiki/Tahiti_United_FC"
+  },
+  {
+    "club_name": "Christchurch United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Christchurch_United_Logo.png/250px-Christchurch_United_Logo.png",
+    "city_country": "Christchurch, New Zealand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Christchurch_United"
+  },
+  {
+    "club_name": "South Melbourne",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/South_Melbourne_FC_logo.svg/200px-South_Melbourne_FC_logo.svg.png",
+    "city_country": "Melbourne, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/South_Melbourne_FC"
   }
 ]

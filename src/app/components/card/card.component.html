@@ -18,7 +18,7 @@
   <div class="search-box">
     <i class="fa fa-search search-icon"></i>
     <input type="text" class="w3-input search-input" 
-           placeholder="Search by club, city, country..." [(ngModel)]="searchTerm">
+           placeholder="Search by club" [(ngModel)]="searchTerm">
     <i *ngIf="searchTerm" class="w3-center fa fa-times clear-icon" (click)="clearSearch()"></i>
   </div>
 </div>
@@ -98,8 +98,8 @@
       [magnification]="2"
       [enableScrollZoom]="true"
       [enableLens]="true"
-      [lensWidth]="200"
-      [lensHeight]="200"
+      [lensWidth]="120"
+      [lensHeight]="120"
       [zoomMode]="'hover'"
       style="display:block; margin:auto; max-width:80%;"
     ></lib-ngx-image-zoom>
@@ -144,6 +144,9 @@
         </a>
         <a [href]="getGoogleNewsUrl(selectedClub)" target="_blank" class="w3-btn w3-black w3-medium w3-border" title="Search on Google">
           <i class="fa-brands fa-google fa-lg icon"></i>
+        </a>
+        <a [href]="getYouTubeUrl(selectedClub)" target="_blank" class="w3-btn w3-black w3-medium w3-border w3-margin-left" title="Search on YouTube">
+          <i class="fa-brands fa-youtube fa-lg icon"></i>
         </a>
       </div>
     </div>

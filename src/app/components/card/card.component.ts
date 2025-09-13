@@ -140,15 +140,17 @@ export class CardComponent implements OnInit {
     this.isCountryModalOpen = false;
   }
 
-  selectCountry(country: string): void {
-    this.selectedCountry = country;
-    this.isCountryModalOpen = false;
-  }
+selectCountry(country: string): void {
+  this.selectedCountry = country;
+  this.isCountryModalOpen = false;
+  this.visibleClubs = 100; // reset
+}
 
-  clearCountryFilter(): void {
-    this.selectedCountry = '';
-    this.isCountryModalOpen = false;
-  }
+clearCountryFilter(): void {
+  this.selectedCountry = '';
+  this.isCountryModalOpen = false;
+  this.visibleClubs = 100; // reset
+}
 
   filteredCountries(): string[] {
     if (!this.countrySearch) return this.countries;
@@ -171,9 +173,7 @@ get filteredClubs(): any[] {
   if (this.searchTerm) {
     const searchTermLower = this.searchTerm.toLowerCase();
     filtered = filtered.filter(club =>
-      club.club_name.toLowerCase().includes(searchTermLower) ||
-      club.city_country.toLowerCase().includes(searchTermLower)
-    );
+      club.club_name.toLowerCase().includes(searchTermLower));
   } else if (!this.selectedCountry) {
     const highlighted = filtered.filter(club =>
       this.highlightedClubs.includes(club.club_name)
@@ -202,10 +202,12 @@ if (this.sortOption === 'az') {
 }
 
 
-  clearSearch(): void {
-    this.searchTerm = '';
+clearSearch(): void {
+  this.searchTerm = '';
+  this.visibleClubs = 100; // reset
   }
-
+  
+  
   loadMore(): void {
     this.visibleClubs += 100;
   }
@@ -230,20 +232,16 @@ if (this.sortOption === 'az') {
     return `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
   }
 
-  get totalFilteredCount(): number {
-    return this.selectedCountry || this.searchTerm
-      ? this.clubs.filter(club => {
-          const parts = club.city_country.split(',');
-          const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
-          return (
-            (!this.selectedCountry || country === this.selectedCountry.toLowerCase()) &&
-            (!this.searchTerm ||
-              club.club_name.toLowerCase().includes(this.searchTerm.toLowerCase()) ||
-              club.city_country.toLowerCase().includes(this.searchTerm.toLowerCase()))
-          );
-        }).length
-      : this.clubs.length;
-  }
+ get totalFilteredCount(): number {
+  return this.clubs.filter(club => {
+    const matchesCountry = !this.selectedCountry || 
+      (club.city_country.split(',')[1]?.trim().toLowerCase() === this.selectedCountry.toLowerCase());
+    const matchesName = !this.searchTerm || 
+      club.club_name.toLowerCase().includes(this.searchTerm.toLowerCase());
+    return matchesCountry && matchesName;
+  }).length;
+}
+
 
   getGoogleNewsUrl(club: any): string {
     return `https://www.google.com/search?q=${encodeURIComponent(club.club_name)}`;
@@ -293,4 +291,10 @@ getTodayMatches(): void {
   closeMatchesModal(): void {
     this.isMatchesModalOpen = false;
   }
+
+  
+  getYouTubeUrl(club: any): string {
+    return `https://www.youtube.com/results?search_query=${encodeURIComponent(club.club_name)}`;
+  }
+
 }
