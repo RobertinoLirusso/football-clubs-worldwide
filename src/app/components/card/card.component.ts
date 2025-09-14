@@ -162,6 +162,7 @@ clearCountryFilter(): void {
 get filteredClubs(): any[] {
   let filtered = this.clubs;
 
+  // Filtrar por país seleccionado
   if (this.selectedCountry) {
     filtered = filtered.filter(club => {
       const parts = club.city_country.split(',');
@@ -170,10 +171,18 @@ get filteredClubs(): any[] {
     });
   }
 
+  // Filtrar por club_name o ciudad
   if (this.searchTerm) {
     const searchTermLower = this.searchTerm.toLowerCase();
-    filtered = filtered.filter(club =>
-      club.club_name.toLowerCase().includes(searchTermLower));
+    filtered = filtered.filter(club => {
+      const parts = club.city_country.split(',');
+      const city = parts[0].trim().toLowerCase(); // solo ciudad
+
+      return (
+        club.club_name.toLowerCase().includes(searchTermLower) ||
+        city.includes(searchTermLower) // también busca en ciudad
+      );
+    });
   } else if (!this.selectedCountry) {
     const highlighted = filtered.filter(club =>
       this.highlightedClubs.includes(club.club_name)
@@ -184,22 +193,28 @@ get filteredClubs(): any[] {
     filtered = [...highlighted, ...rest];
   }
 
-if (this.sortOption === 'az') {
-  filtered = [...filtered].sort((a, b) => a.club_name.localeCompare(b.club_name));
-} else if (this.sortOption === 'za') {
-  filtered = [...filtered].sort((a, b) => b.club_name.localeCompare(a.club_name));
-} else if (this.sortOption === 'default') {
-  const highlighted = filtered.filter(club =>
-    this.highlightedClubs.includes(club.club_name)
-  );
-  const rest = filtered.filter(club =>
-    !this.highlightedClubs.includes(club.club_name)
-  );
-  filtered = [...highlighted, ...rest];
-}
+  // Ordenamiento
+  if (this.sortOption === 'az') {
+    filtered = [...filtered].sort((a, b) =>
+      a.club_name.localeCompare(b.club_name)
+    );
+  } else if (this.sortOption === 'za') {
+    filtered = [...filtered].sort((a, b) =>
+      b.club_name.localeCompare(a.club_name)
+    );
+  } else if (this.sortOption === 'default') {
+    const highlighted = filtered.filter(club =>
+      this.highlightedClubs.includes(club.club_name)
+    );
+    const rest = filtered.filter(club =>
+      !this.highlightedClubs.includes(club.club_name)
+    );
+    filtered = [...highlighted, ...rest];
+  }
 
   return filtered.slice(0, this.visibleClubs);
 }
+
 
 
 clearSearch(): void {

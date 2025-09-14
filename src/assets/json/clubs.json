@@ -12831,5 +12831,197 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/South_Melbourne_FC_logo.svg/200px-South_Melbourne_FC_logo.svg.png",
     "city_country": "Melbourne, Australia",
     "wiki_url": "https://en.wikipedia.org/wiki/South_Melbourne_FC"
+  },
+    {
+    "club_name": "FC Košice",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/FC_Kosice_logo.png/250px-FC_Kosice_logo.png",
+    "city_country": "Košice, Slovakia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ko%C5%A1ice"
+  },
+  {
+    "club_name": "FK Železiarne Podbrezová",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/FK_%C5%BDeleziarne_Podbrezov%C3%A1_logo.png/185px-FK_%C5%BDeleziarne_Podbrezov%C3%A1_logo.png",
+    "city_country": "Podbrezová, Slovakia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_%C5%BDeleziarne_Podbrezov%C3%A1"
+  },
+  {
+    "club_name": "MFK Skalica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Mfk_skalica.png/250px-Mfk_skalica.png",
+    "city_country": "Skalica, Slovakia",
+    "wiki_url": "https://en.wikipedia.org/wiki/MFK_Skalica"
+  },
+  {
+    "club_name": "KFC Komárno",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/KFC_Kom%C3%A1rom_logo.png/250px-KFC_Kom%C3%A1rom_logo.png",
+    "city_country": "Komárno, Slovakia",
+    "wiki_url": "https://en.wikipedia.org/wiki/KFC_Kom%C3%A1rno"
+  },
+  {
+    "club_name": "FK Inter Bratislava",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/25/FK_Inter_logo.png",
+    "city_country": "Bratislava, Slovakia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Inter_Bratislava"
+  },
+  {
+    "club_name": "MFK Zemplín Michalovce",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Mfk_zemplin_michalovce.png/250px-Mfk_zemplin_michalovce.png",
+    "city_country": "Michalovce, Slovakia",
+    "wiki_url": "https://en.wikipedia.org/wiki/MFK_Zempl%C3%ADn_Michalovce"
+  },
+  {
+    "club_name": "NK Aluminij",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/NK_Aluminij_Badge.png/150px-NK_Aluminij_Badge.png",
+    "city_country": "Kidričevo, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Aluminij"
+  },
+    {
+    "club_name": "Falkenbergs FF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Falkenbergs_FF_new_logo.svg/250px-Falkenbergs_FF_new_logo.svg.png",
+    "city_country": "Falkenberg, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Falkenbergs_FF"
+  },
+  {
+    "club_name": "IK Brage",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/IK_Brage_logo.svg/250px-IK_Brage_logo.svg.png",
+    "city_country": "Borlänge, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/IK_Brage"
+  },
+  {
+    "club_name": "IK Oddevold",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/IK_Oddevold_Emblem_2020_RGB.png/250px-IK_Oddevold_Emblem_2020_RGB.png",
+    "city_country": "Uddevalla, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/IK_Oddevold"
+  },
+  {
+    "club_name": "Landskrona BoIS",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Landskrona_BoIS.svg/250px-Landskrona_BoIS.svg.png",
+    "city_country": "Landskrona, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Landskrona_BoIS"
+  },
+  {
+    "club_name": "Sandvikens IF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Sandvikens_IF_logo.svg/250px-Sandvikens_IF_logo.svg.png",
+    "city_country": "Sandviken, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sandvikens_IF"
+  },
+  {
+    "club_name": "Västerås SK",
+    "club_logo": "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s_SK_Fotboll",
+    "city_country": "Västerås, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s_SK_Fotboll"
+  },
+  {
+    "club_name": "Trelleborgs FF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Trelleborgs_FF_logo.svg/250px-Trelleborgs_FF_logo.svg.png",
+    "city_country": "Trelleborg, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Trelleborgs_FF"
+  },
+  {
+    "club_name": "Utsiktens BK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Utsiktens_BK_logo.svg/250px-Utsiktens_BK_logo.svg.png",
+    "city_country": "Västra Frölunda, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Utsiktens_BK"
+  },
+  {
+    "club_name": "Varbergs BoIS",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Varbergs_BoIS_logo.svg/150px-Varbergs_BoIS_logo.svg.png",
+    "city_country": "Varberg, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Varbergs_BoIS"
+  },
+  {
+    "club_name": "Örgryte IS",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Orgryte_IS_logo.svg/250px-Orgryte_IS_logo.svg.png",
+    "city_country": "Gothenburg, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%96rgryte_IS"
+  },
+    {
+    "club_name": "Umeå FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Umea_FC_logo.svg/250px-Umea_FC_logo.svg.png",
+    "city_country": "Umeå, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ume%C3%A5_FC"
+  },
+    {
+    "club_name": "Bistrica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/NK_Bistrica_logo.svg/250px-NK_Bistrica_logo.svg.png",
+    "city_country": "Slovenska Bistrica, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Bistrica"
+  },
+  {
+    "club_name": "ND Bilje",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/ND_Bilje_logo.svg/250px-ND_Bilje_logo.svg.png",
+    "city_country": "Bilje, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/ND_Bilje"
+  },
+  {
+    "club_name": "Beltinci",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2b/ND_Beltinci.png",
+    "city_country": "Beltinci, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/ND_Beltinci"
+  },
+  {
+    "club_name": "Brinje Grosuplje",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/NK_Brinje-Grosuplje.svg/250px-NK_Brinje-Grosuplje.svg.png",
+    "city_country": "Grosuplje, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Slovenian_Second_League"
+  },
+  {
+    "club_name": "Dravinja",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/ND_Dravinja.png/250px-ND_Dravinja.png",
+    "city_country": "Slovenske Konjice, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/ND_Dravinja"
+  },
+  {
+    "club_name": "Ilirija 1911",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/ND_Ilirija_1911.svg/250px-ND_Ilirija_1911.svg.png",
+    "city_country": "Ljubljana, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/ND_Ilirija_1911"
+  },
+  {
+    "club_name": "Jadran Dekani",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Nogometni_klub_Jadran_Dekani_%28crest%29.png/250px-Nogometni_klub_Jadran_Dekani_%28crest%29.png",
+    "city_country": "Dekani, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Dekani"
+  },
+  {
+    "club_name": "Jesenice",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/NK_Jesenice.png/180px-NK_Jesenice.png",
+    "city_country": "Jesenice, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Jesenice"
+  },
+  {
+    "club_name": "Krško Posavje",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/NK_Kr%C5%A1ko_Posavje.png/250px-NK_Kr%C5%A1ko_Posavje.png",
+    "city_country": "Krško, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Kr%C5%A1ko_Posavje"
+  },
+    {
+    "club_name": "NK Krka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/NK_Krka_Novo_Mesto.svg/250px-NK_Krka_Novo_Mesto.svg.png",
+    "city_country": "Novo Mesto, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Krka"
+  },
+  {
+    "club_name": "ND Slovan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/ND_Slovan.png/180px-ND_Slovan.png",
+    "city_country": "Ljubljana, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/ND_Slovan"
+  },
+  {
+    "club_name": "NK Rudar Velenje",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/NK_Rudar_Velenje.svg/250px-NK_Rudar_Velenje.svg.png",
+    "city_country": "Velenje, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Rudar_Velenje"
+  },
+  {
+    "club_name": "NK Triglav Kranj",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c7/NK_Triglav_logo.png",
+    "city_country": "Kranj, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Triglav_Kranj"
+  },
+  {
+    "club_name": "Tabor Sežana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/NK_Tabor_Se%C5%BEana_logo.svg/150px-NK_Tabor_Se%C5%BEana_logo.svg.png",
+    "city_country": "Sežana, Slovenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Tabor_Se%C5%BEana"
   }
 ]
