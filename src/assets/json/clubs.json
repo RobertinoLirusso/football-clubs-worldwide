@@ -3456,12 +3456,12 @@
   },
   {
     "club_name": "Dông Á Thanh Hóa",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/DATHFC_logo.svg/239px-DATHFC_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Dong_A_Thanh_Hoa_FC.png/250px-Dong_A_Thanh_Hoa_FC.png",
     "city_country": "Thanh Hóa, Vietnam",
-    "wiki_url": "https://en.wikipedia.org/wiki/%C4%90%E1%BB%93ng_%C3%81_Thanh_H%C3%B3a_F.C."
+    "wiki_url": "https://en.wikipedia.org/wiki/Dong_A_Thanh_Hoa"
   },
   {
-    "club_name": "Quảng Nam",
+    "club_name": "Quảng Nam (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Quang_Nam_FC_logo.svg/273px-Quang_Nam_FC_logo.svg.png",
     "city_country": "Tam Kỳ, Vietnam",
     "wiki_url": "https://en.wikipedia.org/wiki/Qu%E1%BA%A3ng_Nam_FC"
@@ -12906,7 +12906,7 @@
   },
   {
     "club_name": "Västerås SK",
-    "club_logo": "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s_SK_Fotboll",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Vasteras_SK_logo.svg/250px-Vasteras_SK_logo.svg.png",
     "city_country": "Västerås, Sweden",
     "wiki_url": "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s_SK_Fotboll"
   },
