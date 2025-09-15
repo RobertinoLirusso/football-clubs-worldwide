@@ -13023,5 +13023,179 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/NK_Tabor_Se%C5%BEana_logo.svg/150px-NK_Tabor_Se%C5%BEana_logo.svg.png",
     "city_country": "Sežana, Slovenia",
     "wiki_url": "https://en.wikipedia.org/wiki/NK_Tabor_Se%C5%BEana"
-  }
+  },
+      {
+      "club_name": "Hammarby Talang",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Hammarby_Talang_FF_logo.svg/250px-Hammarby_Talang_FF_logo.svg.png",
+      "city_country": "Stockholm, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Hammarby_Talang_FF"
+    },
+    {
+      "club_name": "Nordic United",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Nordic_United_FC_logo.svg/250px-Nordic_United_FC_logo.svg.png",
+      "city_country": "Södertälje, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Nordic_United_FC"
+    },
+    {
+      "club_name": "Vasalunds IF",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Vasalunds_IF_logo.svg/250px-Vasalunds_IF_logo.svg.png",
+      "city_country": "Stockholm, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Vasalunds_IF"
+    },
+    {
+      "club_name": "Stockholm Internazionale",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/FC_Stockholm_logo.svg/180px-FC_Stockholm_logo.svg.png",
+      "city_country": "Stockholm, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/FC_Stockholm"
+    },
+    {
+      "club_name": "IF Karlstad",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/IF_Karlstad_Fotboll_logo.svg/250px-IF_Karlstad_Fotboll_logo.svg.png",
+      "city_country": "Karlstad, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/IF_Karlstad_Fotboll"
+    },
+    {
+      "club_name": "Sollentuna FK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Sollentuna_FK_logo_%282022%29.svg/250px-Sollentuna_FK_logo_%282022%29.svg.png",
+      "city_country": "Sollentuna, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sollentuna_FK"
+    },
+    {
+      "club_name": "FC Arlanda",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e8/Fc_arlanda.gif",
+      "city_country": "Stockholm, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/FC_Arlanda"
+    },
+    {
+      "club_name": "Karlbergs BK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Karlbergs_BK_logo.svg/250px-Karlbergs_BK_logo.svg.png",
+      "city_country": "Stockholm, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Karlbergs_BK"
+    },
+    {
+      "club_name": "Assyriska FF",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Assyriska_FF_logo.svg/155px-Assyriska_FF_logo.svg.png",
+      "city_country": "Södertälje, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Assyriska_FF"
+    },
+    {
+      "club_name": "IFK Haninge",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/IFK_Haninge_logo.svg/250px-IFK_Haninge_logo.svg.png",
+      "city_country": "Haninge, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/IFK_Haninge"
+    },
+    {
+      "club_name": "Enköpings SK FK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Enkopings_SK_logo.svg/250px-Enkopings_SK_logo.svg.png",
+      "city_country": "Enköping, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Enk%C3%B6pings_SK_FK"
+    },
+    {
+      "club_name": "IFK Stocksund",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/IFK_Stocksund.svg/250px-IFK_Stocksund.svg.png",
+      "city_country": "Stocksund, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/IFK_Stocksund"
+    },
+    {
+      "club_name": "Örebro Syrianska IF",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Orebro_Syrianska_IF_logo.svg/250px-Orebro_Syrianska_IF_logo.svg.png",
+      "city_country": "Örebro, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/%C3%96rebro_Syrianska_IF"
+    },
+    {
+      "club_name": "Team TG",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Team_ThorenGruppen_logo.svg/250px-Team_ThorenGruppen_logo.svg.png",
+      "city_country": "Umeå, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Team_TG_FF"
+    },
+        {
+      "club_name": "Ljungskile SK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Ljungskile_SK_logo.svg/250px-Ljungskile_SK_logo.svg.png",
+      "city_country": "Ljungskile, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ljungskile_SK"
+    },
+    {
+      "club_name": "Jönköpings Södra",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Jonkopings_Sodra_IF_logo.svg/250px-Jonkopings_Sodra_IF_logo.svg.png",
+      "city_country": "Jönköping, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/J%C3%B6nk%C3%B6pings_S%C3%B6dra_IF"
+    },
+    {
+      "club_name": "Norrby IF",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Norrby_IF_logo.svg/180px-Norrby_IF_logo.svg.png",
+      "city_country": "Borås, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Norrby_IF"
+    },
+    {
+      "club_name": "Hässleholms IF",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/5a/H%C3%A4ssleholms_IF.png",
+      "city_country": "Hässleholm, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/H%C3%A4ssleholms_IF"
+    },
+    {
+      "club_name": "Lunds BK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Lunds_BK_logo.svg/250px-Lunds_BK_logo.svg.png",
+      "city_country": "Lund, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lunds_BK"
+    },
+    {
+      "club_name": "Rosengård 1917",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/FC_Roseng%C3%A5rd_logo.svg/155px-FC_Roseng%C3%A5rd_logo.svg.png",
+      "city_country": "Malmö, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/FC_Roseng%C3%A5rd_1917"
+    },
+    {
+      "club_name": "BK Olympic",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/BK_Olympic_logo.svg/250px-BK_Olympic_logo.svg.png",
+      "city_country": "Malmö, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/BK_Olympic"
+    },
+    {
+      "club_name": "Ängelholms FF",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Angelholms_FF_logo.svg/250px-Angelholms_FF_logo.svg.png",
+      "city_country": "Ängelholm, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/%C3%84ngelholms_FF"
+    },
+    {
+      "club_name": "Skövde AIK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Skovde_AIK_logo.svg/250px-Skovde_AIK_logo.svg.png",
+      "city_country": "Skövde, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sk%C3%B6vde_AIK"
+    },
+    {
+      "club_name": "Torslanda IK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Torslanda_IK_logo.svg/250px-Torslanda_IK_logo.svg.png",
+      "city_country": "Torslanda, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Torslanda_IK"
+    },
+    {
+      "club_name": "FC Trollhättan",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/FC_Trollh%C3%A4ttan_logo.svg/250px-FC_Trollh%C3%A4ttan_logo.svg.png",
+      "city_country": "Trollhättan, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/FC_Trollh%C3%A4ttan"
+    },
+    {
+      "club_name": "Eskilsminne IF",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Eskilsminne_IF_logo.svg/250px-Eskilsminne_IF_logo.svg.png",
+      "city_country": "Helsingborg, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Eskilsminne_IF"
+    },
+    {
+      "club_name": "Husqvarna FF",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Husqvarna_FF_logo.svg/130px-Husqvarna_FF_logo.svg.png",
+      "city_country": "Husqvarna, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Husqvarna_FF"
+    },
+    {
+      "club_name": "Oskarshamns AIK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Oskarshamns_AIK_logo.svg/250px-Oskarshamns_AIK_logo.svg.png",
+      "city_country": "Oskarshamn, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/Oskarshamns_AIK"
+    },
+    {
+      "club_name": "IFK Skövde",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/IFK_Skovde_Fotboll_logo.svg/150px-IFK_Skovde_Fotboll_logo.svg.png",
+      "city_country": "Skövde, Sweden",
+      "wiki_url": "https://en.wikipedia.org/wiki/IFK_Sk%C3%B6vde_Fotboll"
+    }
 ]
