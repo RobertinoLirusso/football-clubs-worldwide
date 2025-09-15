@@ -13197,5 +13197,95 @@
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/IFK_Skovde_Fotboll_logo.svg/150px-IFK_Skovde_Fotboll_logo.svg.png",
       "city_country": "Skövde, Sweden",
       "wiki_url": "https://en.wikipedia.org/wiki/IFK_Sk%C3%B6vde_Fotboll"
-    }
+    },
+     {
+    "club_name": "Aalesunds FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Aalesunds_FK_logo.svg/250px-Aalesunds_FK_logo.svg.png",
+    "city_country": "Ålesund, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aalesunds_FK"
+  },
+  {
+    "club_name": "Egersund",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Egersunds_IK_logo.png/250px-Egersunds_IK_logo.png",
+    "city_country": "Egersund, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Egersunds_IK"
+  },
+  {
+    "club_name": "Kongsvinger",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Kongsvinger_Il.svg/250px-Kongsvinger_Il.svg.png",
+    "city_country": "Kongsvinger, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kongsvinger_IL_Toppfotball"
+  },
+  {
+    "club_name": "Lillestrøm SK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Lillestrom_SK_logo.svg/250px-Lillestrom_SK_logo.svg.png",
+    "city_country": "Lillestrøm, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lillestr%C3%B8m_SK"
+  },
+  {
+    "club_name": "Lyn 1896 FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Lyn_Fotball_logo.svg/250px-Lyn_Fotball_logo.svg.png",
+    "city_country": "Oslo, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lyn_Fotball"
+  },
+  {
+    "club_name": "Mjøndalen IF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Mjondalen_IF_logo.svg/250px-Mjondalen_IF_logo.svg.png",
+    "city_country": "Mjøndalen, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mj%C3%B8ndalen_IF_Fotball"
+  },
+  {
+    "club_name": "Moss",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Moss_FK.png/250px-Moss_FK.png",
+    "city_country": "Moss, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Moss_FK"
+  },
+  {
+    "club_name": "Odd",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f3/Odds_BK_logo.png",
+    "city_country": "Skien, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Odds_BK"
+  },
+  {
+    "club_name": "Ranheim",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Ranheim_IL_logo.svg/250px-Ranheim_IL_logo.svg.png",
+    "city_country": "Trondheim, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ranheim_Fotball"
+  },
+  {
+    "club_name": "Raufoss IL",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Raufoss_IL_logo.svg/180px-Raufoss_IL_logo.svg.png",
+    "city_country": "Raufoss, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Norwegian_First_Division"
+  },
+  {
+    "club_name": "Skeid",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Skeid_logo.svg/250px-Skeid_logo.svg.png",
+    "city_country": "Oslo, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Skeid_Fotball"
+  },
+  {
+    "club_name": "Sogndal",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Sogndal_IL_logo.svg/250px-Sogndal_IL_logo.svg.png",
+    "city_country": "Sogndal, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sogndal_Fotball"
+  },
+  {
+    "club_name": "Stabæk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Stabaek_IF_logo.svg/190px-Stabaek_IF_logo.svg.png",
+    "city_country": "Bærum, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stab%C3%A6k_Fotball"
+  },
+  {
+    "club_name": "IK Start",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Start_Kristiansand_Logo.svg/250px-Start_Kristiansand_Logo.svg.png",
+    "city_country": "Kristiansand, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/IK_Start"
+  },
+  {
+    "club_name": "Åsane",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Asane_Fotball_logo.svg/250px-Asane_Fotball_logo.svg.png",
+    "city_country": "Bergen, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%85sane_Fotball"
+  }
 ]
