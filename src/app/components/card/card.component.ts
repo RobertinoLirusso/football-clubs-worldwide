@@ -48,7 +48,8 @@ export class CardComponent implements OnInit {
     'AC Milan',
     'Atlético Madrid',
     'Borussia Dortmund',
-    'Palmeiras'
+    'Palmeiras',
+    'Bayern Munich',
   ];
 
 

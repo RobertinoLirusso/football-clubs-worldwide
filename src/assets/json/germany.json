@@ -1,215 +1,5 @@
 [
   {
-    "club_name": "VfB Oldenburg",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/VfB_Oldenburg_Logo.svg/250px-VfB_Oldenburg_Logo.svg.png",
-    "city_country": "Oldenburg, Lower Saxony, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/VfB_Oldenburg"
-  },
-  {
-    "club_name": "SV Meppen",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/SV_Meppen_Logo_2022.svg/250px-SV_Meppen_Logo_2022.svg.png",
-    "city_country": "Meppen, Lower Saxony, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SV_Meppen"
-  },
-  {
-    "club_name": "SSV Jeddeloh",
-    "club_logo": null,
-    "city_country": "Jeddeloh, Lower Saxony, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SSV_Jeddeloh"
-  },
-  {
-    "club_name": "SV Drochtersen/Assel",
-    "club_logo": null,
-    "city_country": "Drochtersen, Lower Saxony, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SV_Drochtersen/Assel"
-  },
-  {
-    "club_name": "Phönix Lübeck",
-    "club_logo": null,
-    "city_country": "Lübeck, Schleswig-Holstein, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Phönix_Lübeck"
-  },
-  {
-    "club_name": "Hannover 96 II",
-    "club_logo": null,
-    "city_country": "Hanover, Lower Saxony, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Hannover_96_II"
-  },
-  {
-    "club_name": "Weiche Flensburg",
-    "club_logo": null,
-    "city_country": "Flensburg, Schleswig-Holstein, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SC_Weiche_Flensburg"
-  },
-  {
-    "club_name": "HSC Hannover",
-    "club_logo": null,
-    "city_country": "Hanover, Lower Saxony, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/HSC_Hannover"
-  },
-  {
-    "club_name": "Altona 93",
-    "club_logo": null,
-    "city_country": "Hamburg, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Altona_93"
-  },
-  {
-    "club_name": "Kickers Emden",
-    "club_logo": null,
-    "city_country": "Emden, Lower Saxony, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Kickers_Emden"
-  },
-  {
-    "club_name": "VfB Lübeck",
-    "club_logo": null,
-    "city_country": "Lübeck, Schleswig-Holstein, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/VfB_Lübeck"
-  },
-  {
-    "club_name": "Bremer SV",
-    "club_logo": null,
-    "city_country": "Bremen, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Bremer_SV"
-  },
-  {
-    "club_name": "Werder Bremen II",
-    "club_logo": null,
-    "city_country": "Bremen, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Werder_Bremen_II"
-  },
-  {
-    "club_name": "Blau-Weiß Lohne",
-    "club_logo": null,
-    "city_country": "Lohne, Lower Saxony, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Blau-Weiß_Lohne"
-  },
-  {
-    "club_name": "Eintracht Norderstedt",
-    "club_logo": null,
-    "city_country": "Norderstedt, Schleswig-Holstein, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Eintracht_Norderstedt"
-  },
-  {
-    "club_name": "FSV Schöningen",
-    "club_logo": null,
-    "city_country": "Schöningen, Lower Saxony, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FSV_Schöningen"
-  },
-  {
-    "club_name": "Hamburger SV II",
-    "club_logo": null,
-    "city_country": "Hamburg, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Hamburger_SV_II"
-  },
-  {
-    "club_name": "FC St. Pauli II",
-    "club_logo": null,
-    "city_country": "Hamburg, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_St._Pauli_II"
-  },
-  {
-    "club_name": "Hallescher FC",
-    "club_logo": "https://commons.wikimedia.org/wiki/File:Hallescher_FC_Logo_2012.svg", 
-    "city_country": "Halle an der Saale, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Hallescher_FC"
-  },
-  {
-    "club_name": "1. FC Lokomotive Leipzig",
-    "club_logo": "https://commons.wikimedia.org/wiki/File:Logo_1._FC_Lokomotive_Leipzig.svg",
-    "city_country": "Leipzig, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Lokomotive_Leipzig"
-  },
-  {
-    "club_name": "Rot-Weiß Erfurt",
-    "club_logo": null,
-    "city_country": "Erfurt, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Rot-Weiß_Erfurt"
-  },
-  {
-    "club_name": "FC Carl Zeiss Jena",
-    "club_logo": null,
-    "city_country": "Jena, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Carl_Zeiss_Jena"
-  },
-  {
-    "club_name": "VSG Altglienicke",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/VSG_Altglienicke.svg/250px-VSG_Altglienicke.svg.png",
-    "city_country": "Altglienicke (Berlin), Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/VSG_Altglienicke"
-  },
-  {
-    "club_name": "FSV Zwickau",
-    "club_logo": null,
-    "city_country": "Zwickau, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FSV_Zwickau"
-  },
-  {
-    "club_name": "Chemnitzer FC",
-    "club_logo": null,
-    "city_country": "Chemnitz, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Chemnitzer_FC"
-  },
-  {
-    "club_name": "BFC Dynamo",
-    "club_logo": null,
-    "city_country": "Berlin, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/BFC_Dynamo"
-  },
-  {
-    "club_name": "SV Babelsberg 03",
-    "club_logo": null,
-    "city_country": "Potsdam-Babelsberg, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SV_Babelsberg_03"
-  },
-  {
-    "club_name": "FSV 63 Luckenwalde",
-    "club_logo": null,
-    "city_country": "Luckenwalde, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FSV_63_Luckenwalde"
-  },
-  {
-    "club_name": "BSG Chemie Leipzig",
-    "club_logo": null,
-    "city_country": "Leipzig, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/BSG_Chemie_Leipzig"
-  },
-  {
-    "club_name": "ZFC Meuselwitz",
-    "club_logo": null,
-    "city_country": "Meuselwitz, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/ZFC_Meuselwitz"
-  },
-  {
-    "club_name": "BFC Preussen",
-    "club_logo": null,
-    "city_country": "Berlin, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/BFC_Preussen"
-  },
-  {
-    "club_name": "Hertha BSC II",
-    "club_logo": null,
-    "city_country": "Berlin, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Hertha_BSC_II"
-  },
-  {
-    "club_name": "Hertha 03 Zehlendorf",
-    "club_logo": null,
-    "city_country": "Zehlendorf, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Hertha_03_Zehlendorf"
-  },
-  {
-    "club_name": "FC Eilenburg",
-    "club_logo": null,
-    "city_country": "Eilenburg, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Eilenburg"
-  },
-  {
-    "club_name": "1. FC Magdeburg II",
-    "club_logo": null,
-    "city_country": "Magdeburg, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Magdeburg_II"
-  },
-  {
     "club_name": "Sportfreunde Siegen",
     "club_logo": "https://commons.wikimedia.org/wiki/File:Sportfreunde_Siegen_Logo_schief.svg",
     "city_country": "Siegen, Germany",
@@ -228,34 +18,10 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Fortuna_K%C3%B6ln"
   },
   {
-    "club_name": "Schalke 04 II",
-    "club_logo": null,
-    "city_country": "Gelsenkirchen, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Schalke_04_II"
-  },
-  {
-    "club_name": "Borussia Mönchengladbach II",
-    "club_logo": null,
-    "city_country": "Mönchengladbach, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach_II"
-  },
-  {
-    "club_name": "Fortuna Düsseldorf II",
-    "club_logo": null,
-    "city_country": "Düsseldorf, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Fortuna_D%C3%BCsseldorf_II"
-  },
-  {
     "club_name": "Sportfreunde Lotte",
     "club_logo": null,
     "city_country": "Lotte, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/Sportfreunde_Lotte"
-  },
-  {
-    "club_name": "SC Paderborn II",
-    "club_logo": null,
-    "city_country": "Paderborn, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SC_Paderborn_II"
   },
   {
     "club_name": "1. FC Bocholt",
@@ -264,46 +30,10 @@
     "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Bocholt"
   },
   {
-    "club_name": "1. FC Köln II",
-    "club_logo": null,
-    "city_country": "Cologne, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln_II"
-  },
-  {
-    "club_name": "Borussia Dortmund II",
-    "club_logo": null,
-    "city_country": "Dortmund, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Borussia_Dortmund_II"
-  },
-  {
-    "club_name": "Rot-Weiß Oberhausen",
-    "club_logo": null,
-    "city_country": "Oberhausen, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Rot-Weiss_Oberhausen"
-  },
-  {
-    "club_name": "Wuppertaler SV",
-    "club_logo": null,
-    "city_country": "Wuppertal, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Wuppertaler_SV"
-  },
-  {
-    "club_name": "SC Wiedenbrück",
-    "club_logo": null,
-    "city_country": "Wiedenbrück, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SC_Wiedenbr%C3%BCck"
-  },
-  {
     "club_name": "SV Rödinghausen",
     "club_logo": null,
     "city_country": "Rödinghausen, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/SV_R%C3%B6dinghausen"
-  },
-  {
-    "club_name": "VfL Bochum II",
-    "club_logo": null,
-    "city_country": "Bochum, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/VfL_Bochum_II"
   },
   {
     "club_name": "Bonner SC",
@@ -342,30 +72,6 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Stuttgarter_Kickers"
   },
   {
-    "club_name": "Sonnenhof Großaspach",
-    "club_logo": null,
-    "city_country": "Großaspach, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Sonnenhof_Gro%C3%9Faspach"
-  },
-  {
-    "club_name": "Mainz 05 II",
-    "club_logo": null,
-    "city_country": "Mainz, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Mainz_05_II"
-  },
-  {
-    "club_name": "Kickers Offenbach",
-    "club_logo": null,
-    "city_country": "Offenbach, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Kickers_Offenbach"
-  },
-  {
-    "club_name": "FC 08 Homburg",
-    "club_logo": null,
-    "city_country": "Homburg, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_08_Homburg"
-  },
-  {
     "club_name": "Hessen Kassel",
     "club_logo": null,
     "city_country": "Kassel, Germany",
@@ -384,34 +90,10 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Astoria_Walldorf"
   },
   {
-    "club_name": "Eintracht Trier",
-    "club_logo": null,
-    "city_country": "Trier, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Eintracht_Trier"
-  },
-  {
-    "club_name": "SV Sandhausen",
-    "club_logo": null,
-    "city_country": "Sandhausen, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SV_Sandhausen"
-  },
-  {
-    "club_name": "SC Freiburg II",
-    "club_logo": null,
-    "city_country": "Freiburg, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SC_Freiburg_II"
-  },
-  {
     "club_name": "TSG Balingen",
     "club_logo": null,
     "city_country": "Balingen, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/TSG_Balingen"
-  },
-  {
-    "club_name": "Schott Mainz",
-    "club_logo": null,
-    "city_country": "Mainz, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Schott_Mainz"
   },
   {
     "club_name": "Bayern Alzenau",
@@ -420,40 +102,10 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Bayern_Alzenau"
   },
   {
-    "club_name": "Bahlinger SC",
-    "club_logo": null,
-    "city_country": "Bahlingen, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/Bahlinger_SC"
-  },
-  {
-    "club_name": "SpVgg Unterhaching",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/SpVgg_Unterhaching_Logo.svg/250px-SpVgg_Unterhaching_Logo.svg.png",
-    "city_country": "Unterhaching, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SpVgg_Unterhaching"
-  },
-  {
     "club_name": "TSV Buchbach",
     "club_logo": null,
     "city_country": "Buchbach, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/TSV_Buchbach"
-  },
-  {
-    "club_name": "SpVgg Greuther Fürth II",
-    "club_logo": null,
-    "city_country": "Fürth, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SpVgg_Greuther_Fürth_II"
-  },
-  {
-    "club_name": "FC Bayern Munich II",
-    "club_logo": null,
-    "city_country": "Munich, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Bayern_Munich_II"
-  },
-  {
-    "club_name": "SpVgg Bayreuth",
-    "club_logo": null,
-    "city_country": "Bayreuth, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SpVgg_Bayreuth"
   },
   {
     "club_name": "Würzburger Kickers",
@@ -474,28 +126,10 @@
     "wiki_url": "https://en.wikipedia.org/wiki/DJK_Vilzing"
   },
   {
-    "club_name": "FV Illertissen",
-    "club_logo": null,
-    "city_country": "Illertissen, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FV_Illertissen"
-  },
-  {
     "club_name": "SpVgg Ansbach 09",
     "club_logo": null,
     "city_country": "Ansbach, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/SpVgg_Ansbach_09"
-  },
-  {
-    "club_name": "1. FC Nürnberg II",
-    "club_logo": null,
-    "city_country": "Nuremberg, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Nürnberg_II"
-  },
-  {
-    "club_name": "FC Augsburg II",
-    "club_logo": null,
-    "city_country": "Augsburg, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Augsburg_II"
   },
   {
     "club_name": "TSV Aubstadt",
@@ -508,12 +142,6 @@
     "club_logo": null,
     "city_country": "Augsburg, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/TSV_Schwaben_Augsburg"
-  },
-  {
-    "club_name": "Viktoria Aschaffenburg",
-    "club_logo": null,
-    "city_country": "Aschaffenburg, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SV_Viktoria_Aschaffenburg"
   },
   {
     "club_name": "SpVgg Hankofen-Hailing",

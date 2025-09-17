@@ -13335,5 +13335,89 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Zira_FK_logo.svg/150px-Zira_FK_logo.svg.png",
     "city_country": "Zira, Azerbaijan",
     "wiki_url": "https://en.wikipedia.org/wiki/Zira_FK"
+  },
+    {
+    "club_name": "Phönix Lübeck",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/1._FC_Phoenix_Luebeck_Logo.svg/250px-1._FC_Phoenix_Luebeck_Logo.svg.png",
+    "city_country": "Lübeck, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Ph%C3%B6nix_L%C3%BCbeck"
+  },
+  {
+    "club_name": "SC Weiche Flensburg 08",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/SC_Weiche_Flensburg_08_logo.svg/250px-SC_Weiche_Flensburg_08_logo.svg.png",
+    "city_country": "Flensburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Weiche_Flensburg_08"
+  },
+  {
+    "club_name": "Altona 93",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/df/Altonaer_FC_von_1893.png",
+    "city_country": "Hamburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Altonaer_FC_von_1893"
+  },
+  {
+    "club_name": "Kickers Emden",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Kickers_Emden_logo.svg/250px-Kickers_Emden_logo.svg.png",
+    "city_country": "Emden, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kickers_Emden"
+  },
+  {
+    "club_name": "FSV Schöningen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FSV_Sch%C3%B6ningen_2011.png/150px-FSV_Sch%C3%B6ningen_2011.png",
+    "city_country": "Schöningen, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/FSV_Sch%C3%B6ningen"
+  },
+  {
+    "club_name": "Rot-Weiß Erfurt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/FC_Rot-Wei%C3%9F_Erfurt_logo.svg/180px-FC_Rot-Wei%C3%9F_Erfurt_logo.svg.png",
+    "city_country": "Erfurt, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Rot-Wei%C3%9F_Erfurt"
+  },
+  {
+    "club_name": "VSG Altglienicke",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/VSG_Altglienicke.svg/250px-VSG_Altglienicke.svg.png",
+    "city_country": "Altglienicke, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/VSG_Altglienicke"
+  },
+  {
+    "club_name": "Chemnitzer FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Chemnitzer_FC_Logo.svg/250px-Chemnitzer_FC_Logo.svg.png",
+    "city_country": "Chemnitz, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chemnitzer_FC"
+  },
+  {
+    "club_name": "SV Babelsberg 03",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/SV_Babelsberg_03_logo.svg/250px-SV_Babelsberg_03_logo.svg.png",
+    "city_country": "Potsdam-Babelsberg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Babelsberg_03"
+  },
+  {
+    "club_name": "FSV 63 Luckenwalde",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/FSV_63_Luckenwalde_Logo.svg/250px-FSV_63_Luckenwalde_Logo.svg.png",
+    "city_country": "Luckenwalde, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FSV_63_Luckenwalde"
+  },
+  {
+    "club_name": "BFC Preussen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Bfc_preussen.png/250px-Bfc_preussen.png",
+    "city_country": "Berlin, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/BFC_Preussen"
+  },
+  {
+    "club_name": "Hertha 03 Zehlendorf",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Hertha_03_Zehlendorf_Logo.svg/250px-Hertha_03_Zehlendorf_Logo.svg.png",
+    "city_country": "Zehlendorf, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hertha_Zehlendorf"
+  },
+  {
+    "club_name": "FC Eilenburg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/FC_Eilenburg.png/250px-FC_Eilenburg.png",
+    "city_country": "Eilenburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Eilenburg"
+  },
+    {
+    "club_name": "Greifswalder FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Greifswalder_FC_Logo.svg/250px-Greifswalder_FC_Logo.svg.png",
+    "city_country": "Greifswald, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Greifswalder_FC"
   }
 ]
