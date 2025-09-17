@@ -13419,5 +13419,161 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Greifswalder_FC_Logo.svg/250px-Greifswalder_FC_Logo.svg.png",
     "city_country": "Greifswald, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/Greifswalder_FC"
+  },
+    {
+    "club_name": "Sportfreunde Siegen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Logo_Sportfreunde_Siegen.svg/250px-Logo_Sportfreunde_Siegen.svg.png",
+    "city_country": "Siegen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sportfreunde_Siegen"
+  },
+  {
+    "club_name": "FC Gütersloh",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/FC_Gutersloh_crest.svg/250px-FC_Gutersloh_crest.svg.png",
+    "city_country": "Gütersloh, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_G%C3%BCtersloh"
+  },
+  {
+    "club_name": "Fortuna Köln",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SC_Fortuna_Koeln_Logo_2019%E2%80%93.svg/200px-SC_Fortuna_Koeln_Logo_2019%E2%80%93.svg.png",
+    "city_country": "Cologne, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Fortuna_K%C3%B6ln"
+  },
+  {
+    "club_name": "1. FC Bocholt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/1._FC_Bocholt.svg/250px-1._FC_Bocholt.svg.png",
+    "city_country": "Bocholt, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Bocholt"
+  },
+  {
+    "club_name": "SV Rödinghausen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/SV_R%C3%B6dinghausen_logo.svg/200px-SV_R%C3%B6dinghausen_logo.svg.png",
+    "city_country": "Rödinghausen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_R%C3%B6dinghausen"
+  },
+  {
+    "club_name": "Bonner SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Bonner_SC.svg/250px-Bonner_SC.svg.png",
+    "city_country": "Bonn, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bonner_SC"
+  },
+  {
+    "club_name": "SSVg Velbert",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/SSVg_Velbert_crest.svg/250px-SSVg_Velbert_crest.svg.png",
+    "city_country": "Velbert, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SSVg_Velbert"
+  },
+  {
+    "club_name": "SGV Freiberg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/SGV_Freiberg_Fu%C3%9Fball_logo.svg/250px-SGV_Freiberg_Fu%C3%9Fball_logo.svg.png",
+    "city_country": "Freiberg am Neckar, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SGV_Freiberg"
+  },
+  {
+    "club_name": "FSV Frankfurt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/FSV_Frankfurt_logo.svg/250px-FSV_Frankfurt_logo.svg.png",
+    "city_country": "Frankfurt, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FSV_Frankfurt"
+  },
+  {
+    "club_name": "TSV Steinbach Haiger",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/TSV_Steinbach_Haiger_Logo.svg/250px-TSV_Steinbach_Haiger_Logo.svg.png",
+    "city_country": "Haiger, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TSV_Steinbach_Haiger"
+  },
+  {
+    "club_name": "Stuttgarter Kickers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Stuttgarter_Kickers_Logo.svg/250px-Stuttgarter_Kickers_Logo.svg.png",
+    "city_country": "Stuttgart, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stuttgarter_Kickers"
+  },
+  {
+    "club_name": "Hessen Kassel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/KSV_Hessen_Kassel_logo.svg/250px-KSV_Hessen_Kassel_logo.svg.png",
+    "city_country": "Kassel, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/KSV_Hessen_Kassel"
+  },
+  {
+    "club_name": "Barockstadt Fulda-Lehnerz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/SG_Barockstadt_Fulda-Lehnerz_logo.png/250px-SG_Barockstadt_Fulda-Lehnerz_logo.png",
+    "city_country": "Fulda, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SG_Barockstadt_Fulda-Lehnerz"
+  },
+  {
+    "club_name": "Astoria Walldorf",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/FC_Astoria_Walldorf_logo.svg/250px-FC_Astoria_Walldorf_logo.svg.png",
+    "city_country": "Walldorf, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Astoria_Walldorf"
+  },
+  {
+    "club_name": "TSG Balingen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/TSG_Balingen_crest.svg/250px-TSG_Balingen_crest.svg.png",
+    "city_country": "Balingen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TSG_Balingen"
+  },
+  {
+    "club_name": "Bayern Alzenau",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Bayern_Alzenau.png/250px-Bayern_Alzenau.png",
+    "city_country": "Alzenau, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Bayern_Alzenau"
+  },
+  {
+    "club_name": "TSV Buchbach",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TSV_Buchbach.svg/250px-TSV_Buchbach.svg.png",
+    "city_country": "Buchbach, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TSV_Buchbach"
+  },
+  {
+    "club_name": "Würzburger Kickers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/W%C3%BCrzburger_Kickers_Logo.svg/170px-W%C3%BCrzburger_Kickers_Logo.svg.png",
+    "city_country": "Würzburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_W%C3%BCrzburger_Kickers"
+  },
+  {
+    "club_name": "SV Wacker Burghausen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Wacker_Burghausen.svg/250px-Wacker_Burghausen.svg.png",
+    "city_country": "Burghausen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Wacker_Burghausen"
+  },
+  {
+    "club_name": "DJK Vilzing",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/00/DJK_Vilzing.jpg",
+    "city_country": "Vilzing, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/DJK_Vilzing"
+  },
+  {
+    "club_name": "SpVgg Ansbach 09",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/SpVgg_Ansbach.png/250px-SpVgg_Ansbach.png",
+    "city_country": "Ansbach, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SpVgg_Ansbach"
+  },
+  {
+    "club_name": "TSV Aubstadt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/TSV_Aubstadt_%28Wappen%29.jpg/250px-TSV_Aubstadt_%28Wappen%29.jpg",
+    "city_country": "Aubstadt, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TSV_Aubstadt"
+  },
+  {
+    "club_name": "TSV Schwaben Augsburg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/TSV_Schwaben_Augsburg.png/250px-TSV_Schwaben_Augsburg.png",
+    "city_country": "Augsburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TSV_Schwaben_Augsburg"
+  },
+  {
+    "club_name": "SpVgg Hankofen-Hailing",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/SpVgg_Hankofen-Hailing.jpg/150px-SpVgg_Hankofen-Hailing.jpg",
+    "city_country": "Hankofen-Hailing, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SpVgg_Hankofen-Hailing"
+  },
+  {
+    "club_name": "VfB Eichstätt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/VfB_Eichstaett.png/250px-VfB_Eichstaett.png",
+    "city_country": "Eichstätt, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/VfB_Eichst%C3%A4tt"
+  },
+  {
+    "club_name": "FC Memmingen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_FC_Memmingen.svg/250px-Logo_FC_Memmingen.svg.png",
+    "city_country": "Memmingen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Memmingen"
   }
 ]
