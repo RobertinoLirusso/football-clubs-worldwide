@@ -12817,7 +12817,7 @@
   {
     "club_name": "Tahiti United FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Tahiti_United_FC.png/250px-Tahiti_United_FC.png",
-    "city_country": "Pīraʻe, Tahiti",
+    "city_country": "Pīraʻe, French Polynesia",
     "wiki_url": "https://en.wikipedia.org/wiki/Tahiti_United_FChttps://en.wikipedia.org/wiki/Tahiti_United_FC"
   },
   {
@@ -13287,5 +13287,53 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Asane_Fotball_logo.svg/250px-Asane_Fotball_logo.svg.png",
     "city_country": "Bergen, Norway",
     "wiki_url": "https://en.wikipedia.org/wiki/%C3%85sane_Fotball"
+  },
+    {
+    "club_name": "Araz-Naxçıvan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Araz-Nax%C3%A7%C4%B1van_PFK_%28logo%29.png/250px-Araz-Nax%C3%A7%C4%B1van_PFK_%28logo%29.png",
+    "city_country": "Nakhchivan, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Araz-Nax%C3%A7%C4%B1van_PFK"
+  },
+  {
+    "club_name": "Imishli",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Imishli_FK_logo.png/250px-Imishli_FK_logo.png",
+    "city_country": "Imishli, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Imishli_FK"
+  },
+  {
+    "club_name": "Kapaz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Kapaz_PFK_logo.png/250px-Kapaz_PFK_logo.png",
+    "city_country": "Ganja, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kapaz_PFK"
+  },
+  {
+    "club_name": "Karvan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/FK_Karvan_Yevlax.png/250px-FK_Karvan_Yevlax.png",
+    "city_country": "Yevlakh, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Karvan_FK"
+  },
+  {
+    "club_name": "Sabah",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Sabah_FC_%28Azerbaijan%29.png/250px-Sabah_FC_%28Azerbaijan%29.png",
+    "city_country": "Masazir, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sabah_FC_(Azerbaijan)"
+  },
+  {
+    "club_name": "Sumgayit",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Sumgait_FC_logo.png/145px-Sumgait_FC_logo.png",
+    "city_country": "Sumgait, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sumgayit_FK"
+  },
+  {
+    "club_name": "Turan Tovuz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Turan_Tovuz_logo.png/250px-Turan_Tovuz_logo.png",
+    "city_country": "Tovuz, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Turan_Tovuz"
+  },
+  {
+    "club_name": "Zira",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Zira_FK_logo.svg/150px-Zira_FK_logo.svg.png",
+    "city_country": "Zira, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zira_FK"
   }
 ]
