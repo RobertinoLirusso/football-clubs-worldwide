@@ -13575,5 +13575,107 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_FC_Memmingen.svg/250px-Logo_FC_Memmingen.svg.png",
     "city_country": "Memmingen, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Memmingen"
+  },
+    { 
+    "club_name": "ASKÖ Pasching (Defunct)", 
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/FC_Superfund_Pasching.svg/250px-FC_Superfund_Pasching.svg.png", 
+    "city_country": "Pasching, Austria", 
+    "wiki_url": "https://en.wikipedia.org/wiki/ASK%C3%96_Pasching" 
+  },
+    { 
+    "club_name": "SK Austria Kärnten (Defunct)", 
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/SK_Austria_Kaernten.svg/120px-SK_Austria_Kaernten.svg.png", 
+    "city_country": "Klagenfurt, Austria", 
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Austria_K%C3%A4rnten" 
+  },
+  { 
+    "club_name": "Pobeda (Defunct)", 
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/61/Fk_pobeda.png", 
+    "city_country": "Prilep, North Macedonia", 
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Pobeda_(1941%E2%80%932010)" 
+  },
+  { 
+    "club_name": "Marek Dupnitsa", 
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Marekold3.png/250px-Marekold3.png", 
+    "city_country": "Dupnitsa, Bulgaria", 
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Marek_Dupnitsa" 
+  },
+  { 
+    "club_name": "Gloria Bistrița (Defunct)", 
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/bb/Gloria-Bistrita-New.png", 
+    "city_country": "Bistrița, Romania", 
+    "wiki_url": "https://en.wikipedia.org/wiki/ACF_Gloria_Bistri%C8%9Ba" 
+  },
+  { 
+    "club_name": "FK Spartak Dubnica nad Váhom", 
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Dubnica.png/250px-Dubnica.png", 
+    "city_country": "Dubnica nad Váhom, Slovakia", 
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Spartak_Dubnica_nad_V%C3%A1hom" 
+  },
+  { 
+    "club_name": "Dacia Chișinău (Defunct)", 
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/FC_Dacia_Chisinau.png/250px-FC_Dacia_Chisinau.png", 
+    "city_country": "Chișinău, Moldova", 
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dacia_Chi%C8%99in%C4%83u" 
+  },
+  { 
+    "club_name": "Allianssi (Defunct)", 
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Allianssi_Vantaa.png/250px-Allianssi_Vantaa.png", 
+    "city_country": "Vantaa, Finland", 
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Allianssi" 
+  },
+  { 
+    "club_name": "Cibalia", 
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/HNK_Cibalia_Vinkovci.svg/250px-HNK_Cibalia_Vinkovci.svg.png", 
+    "city_country": "Vinkovci, Croatia", 
+    "wiki_url": "https://en.wikipedia.org/wiki/HNK_Cibalia" 
+  },
+  {
+    "club_name": "Bylis",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Bylis_Club_Logo.svg/250px-Bylis_Club_Logo.svg.png",
+    "city_country": "Ballsh, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Bylis"
+  },
+  {
+    "club_name": "Egnatia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Egnatia_Club_Logo.svg/160px-Egnatia_Club_Logo.svg.png",
+    "city_country": "Rrogozhinë, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Egnatia_Rrogozhin%C3%AB"
+  },
+  {
+    "club_name": "Elbasani",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Elbasani_AF_Logo.svg/250px-Elbasani_AF_Logo.svg.png",
+    "city_country": "Elbasan, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/AF_Elbasani"
+  },
+  {
+    "club_name": "Flamurtari",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Flamurtari_Vlor%C3%AB_Club_Logo.svg/130px-Flamurtari_Vlor%C3%AB_Club_Logo.svg.png",
+    "city_country": "Vlorë, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Flamurtari_FC"
+  },
+  {
+    "club_name": "Partizani",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Partizani_Tirana_Club_Logo.svg/140px-Partizani_Tirana_Club_Logo.svg.png",
+    "city_country": "Tirana, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Partizani_Tirana"
+  },
+  {
+    "club_name": "Tirana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Tirana_Club_Logo.svg/250px-Tirana_Club_Logo.svg.png",
+    "city_country": "Tirana, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Tirana"
+  },
+  {
+    "club_name": "Vora",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Vora_Football_Club_Logo.svg/250px-Vora_Football_Club_Logo.svg.png",
+    "city_country": "Vorë, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vora_FK"
+  },
+  {
+    "club_name": "Vllaznia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Logo_KF_Vllaznia_PNG.png/250px-Logo_KF_Vllaznia_PNG.png",
+    "city_country": "Shkodër, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Vllaznia"
   }
 ]
