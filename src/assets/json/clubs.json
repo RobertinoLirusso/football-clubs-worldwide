@@ -1027,7 +1027,7 @@
   },
   {
     "club_name": "Estudiantes",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2KXhvwQljkAz2VRzIoyo4EpQQDEYGgipwJUFTe1bCHwcIfnTtvBS8ZiW_H5xLua8OfZYoXYP9yfkAJ675NLML1cgEGh9QXFocUb0ZtkAEwL2J3MNGjRsK3Ephdflvvvu6AYhd1t4Uwyc/s1600/Club+Estudiantes+de+La+Plata256x.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJxlsINz_co1J2sCyN1QvDIXn0aEqlf-L0vNTvDP30TqCQa2dp0j9b2qTzDuDAvJzMOjqMGMnjgPD-3Q8IXXgE37pc7G2RxcBLKhuROMoOE8azVZsCBiloY52QxIFedkrUjSrdCqILWOiC0yVWDiGmapgfsrLdIRzNHIJgp8fxOxVtm2h1mjUAF4sQylI/s1600/Club%20Estudiantes%20de%20La%20Plata256x.png",
     "city_country": "La Plata, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Estudiantes_de_La_Plata"
   },
@@ -9396,7 +9396,7 @@
   },
   {
     "club_name": "CSKA Pamir Dushanbe",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/de/5/5f/SSKA_Pomir.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/df/CSKA_Pamir_Dushanbe_logo.png",
     "city_country": "Dushanbe, Tajikistan",
     "wiki_url": "https://en.wikipedia.org/wiki/CSKA_Pamir_Dushanbe"
   },
@@ -13752,7 +13752,7 @@
     },
     {
       "club_name": "GS Marko",
-      "club_logo": "https://en.wikipedia.org/wiki/Marko_1927_F.C.",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/GS_Marko_1927_logo.png/250px-GS_Marko_1927_logo.png",
       "city_country": "Markopoulo, Greece",
       "wiki_url": "https://en.wikipedia.org/wiki/Marko_1927_F.C."
     },
@@ -13761,5 +13761,71 @@
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Athlitiki_Enosi_Larissa_F.C._logo.svg/150px-Athlitiki_Enosi_Larissa_F.C._logo.svg.png",
       "city_country": "Larissa, Greece",
       "wiki_url": "https://en.wikipedia.org/wiki/Athlitiki_Enosi_Larissa_F.C."
-    }
+    },
+      {
+    "club_name": "Barkchi Hisor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4e/Energetik_Dushanbe_Logo.png",
+    "city_country": "Hisor, Tajikistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Barkchi_Hisor"
+  },
+  {
+    "club_name": "Eskhata",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e8/Eskhata_Khujand_logo.png",
+    "city_country": "Khujand, Tajikistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Eskhata_Khujand"
+  },
+  {
+    "club_name": "Istaravshan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Fkistaravshanlogo.jpg/250px-Fkistaravshanlogo.jpg",
+    "city_country": "Istaravshan, Tajikistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Istaravshan"
+  },
+  {
+    "club_name": "Hosilot Farkhor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/FK_Hosilot_Farkhor_Logo.png/180px-FK_Hosilot_Farkhor_Logo.png",
+    "city_country": "Farkhor, Tajikistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Khosilot_Farkhor"
+  },
+  {
+    "club_name": "Hulbuk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/FC_Hulbuk_logo.png/250px-FC_Hulbuk_logo.png",
+    "city_country": "Hulbuk, Tajikistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Hulbuk"
+  },
+  {
+    "club_name": "Khujand",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/FC_Khujand.png/250px-FC_Khujand.png",
+    "city_country": "Khujand, Tajikistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Khujand"
+  },
+  {
+    "club_name": "Panjsher Balkh",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Fc_Panjsher.jpg/250px-Fc_Panjsher.jpg",
+    "city_country": "Balkh, Tajikistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Panjshir"
+  },
+  {
+    "club_name": "Ravshan Kulob",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Ravshan_Kulob_logo.png/250px-Ravshan_Kulob_logo.png",
+    "city_country": "Kulob, Tajikistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ravshan_Kulob"
+  },
+  {
+    "club_name": "Regar-TadAZ",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e6/Regar-TadAZ_Tursunzoda.png",
+    "city_country": "Tursunzoda, Tajikistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Regar-TadAZ_Tursunzoda"
+  },
+  {
+    "club_name": "Vakhsh Bokhtar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/ac/FC_Khatlon_logo.png",
+    "city_country": "Bokhtar, Tajikistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Khatlon"
+  },
+    {
+    "club_name": "Parvoz-Aeroport Khujand",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Parvoz_Bobojon_Gafurov_FC_Logo.png/250px-Parvoz_Bobojon_Gafurov_FC_Logo.png",
+    "city_country": "Khujand, Tajikistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Parvoz_Bobojon_Ghafurov"
+  }
 ]
