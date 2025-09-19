@@ -13677,5 +13677,89 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Logo_KF_Vllaznia_PNG.png/250px-Logo_KF_Vllaznia_PNG.png",
     "city_country": "Shkodër, Albania",
     "wiki_url": "https://en.wikipedia.org/wiki/KF_Vllaznia"
-  }
+  },
+      {
+      "club_name": "Anagennisi Karditsa",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Anagennisi_Karditsa.png/250px-Anagennisi_Karditsa.png",
+      "city_country": "Karditsa, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/Anagennisi_Karditsa_F.C."
+    },
+    {
+      "club_name": "Iraklis",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Logo_Iraklis.png/250px-Logo_Iraklis.png",
+      "city_country": "Thessaloniki, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/Iraklis_F.C._(Thessaloniki)"
+    },
+    {
+      "club_name": "Kampaniakos",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/el/thumb/a/ae/Kampaniakos.png/250px-Kampaniakos.png",
+      "city_country": "Chalastra, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kampaniakos_F.C."
+    },
+    {
+      "club_name": "Kavala",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Kavala_F.C._official_crest.png/250px-Kavala_F.C._official_crest.png",
+      "city_country": "Kavala, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kavala_F.C."
+    },
+    {
+      "club_name": "Makedonikos",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Makedonikos_F.C._logo.png/250px-Makedonikos_F.C._logo.png",
+      "city_country": "Efkarpia, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/Makedonikos_F.C."
+    },
+    {
+      "club_name": "Nestos Chrysoupoli",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cb/Nestos_Chrysoupoli_logo.png",
+      "city_country": "Chrysoupoli, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/Nestos_Chrysoupoli_F.C."
+    },
+    {
+      "club_name": "Niki Volos",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Niki_Volos_F.C.png/250px-Niki_Volos_F.C.png",
+      "city_country": "Volos, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/Niki_Volos_F.C."
+    },
+    {
+      "club_name": "P.A.E Chania",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Chania_FC_2023_logo.png/250px-Chania_FC_2023_logo.png",
+      "city_country": "Chania, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/P.A.E._Chania"
+    },
+    {
+      "club_name": "Egaleo City",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Aigaleo_FC_Logo.png/250px-Aigaleo_FC_Logo.png",
+      "city_country": "Aigaleo, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/Egaleo_F.C."
+    },
+    {
+      "club_name": "Hellas Syros",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/APO_Ell%C3%A1s_S%C3%BDrou_%28logo%29.svg/250px-APO_Ell%C3%A1s_S%C3%BDrou_%28logo%29.svg.png",
+      "city_country": "Ermoupoli, Greece",
+      "wiki_url": "https://es.wikipedia.org/wiki/Hellas_Syros_FC"
+    },
+    {
+      "club_name": "GS Ilioupolis",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/el/thumb/f/f7/GS_Helioupolis_%28Attica_logo%29.png/160px-GS_Helioupolis_%28Attica_logo%29.png",
+      "city_country": "Ilioupoli, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/GS_Ilioupolis"
+    },
+    {
+      "club_name": "Kalamata",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Kalamata_FC_official_emblem.png/250px-Kalamata_FC_official_emblem.png",
+      "city_country": "Kalamata, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kalamata_F.C."
+    },
+    {
+      "club_name": "GS Marko",
+      "club_logo": "https://en.wikipedia.org/wiki/Marko_1927_F.C.",
+      "city_country": "Markopoulo, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/Marko_1927_F.C."
+    },
+    {
+      "club_name": "AEL Larissa",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Athlitiki_Enosi_Larissa_F.C._logo.svg/150px-Athlitiki_Enosi_Larissa_F.C._logo.svg.png",
+      "city_country": "Larissa, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/Athlitiki_Enosi_Larissa_F.C."
+    }
 ]

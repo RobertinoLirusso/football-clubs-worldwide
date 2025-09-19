@@ -1,8 +1,9 @@
 [
-  { 
-    "club_name": "ASKÖ Pasching (Defunct)", 
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/FC_Superfund_Pasching.svg/250px-FC_Superfund_Pasching.svg.png", 
-    "city_country": "Pasching, Austria", 
-    "wiki_url": "https://en.wikipedia.org/wiki/ASK%C3%96_Pasching" 
-  }
+    {
+      "club_name": "Anagennisi Karditsa",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Anagennisi_Karditsa.png/250px-Anagennisi_Karditsa.png",
+      "city_country": "Karditsa, Greece",
+      "wiki_url": "https://en.wikipedia.org/wiki/Anagennisi_Karditsa_F.C."
+    }
 ]
+
