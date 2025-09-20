@@ -6114,7 +6114,7 @@
   },
   {
     "club_name": "FC Vitebsk",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLgrOBeGlVtIvr_QZ4uBPWC8AL0eEx-_sKptKp_DrJ-ov3okdJReokUf_IXIHuJS_PaFnv2KA2LKJaun7OifIow9eL36gSzLXuKgGCUzfh4AKPQNWEsrAvQdShPM23YllGw5uY6nQsz5A/s1600/FC+Vitebsk256x.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/FC_Vitebsk_Logo.png/250px-FC_Vitebsk_Logo.png",
     "city_country": "Vitebsk, Belarus",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Vitebsk"
   },
@@ -13827,5 +13827,101 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Parvoz_Bobojon_Gafurov_FC_Logo.png/250px-Parvoz_Bobojon_Gafurov_FC_Logo.png",
     "city_country": "Khujand, Tajikistan",
     "wiki_url": "https://en.wikipedia.org/wiki/Parvoz_Bobojon_Ghafurov"
+  },
+    {
+    "club_name": "Dnepr Mogilev",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/FC_Dnepr_Mogilev_2020_logo.png/185px-FC_Dnepr_Mogilev_2020_logo.png",
+    "city_country": "Mogilev, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dnepr_Mogilev"
+  },
+  {
+    "club_name": "Niva Dolbizno",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9d/FC_Niva_Dolbizno_logo.png",
+    "city_country": "Dolbizno, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Niva_Dolbizno"
+  },
+  {
+    "club_name": "Belshina Bobruisk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/FC_Belshyna_Babruisk.png/250px-FC_Belshyna_Babruisk.png",
+    "city_country": "Bobruisk, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Belshina_Bobruisk"
+  },
+  {
+    "club_name": "Volna Pinsk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/FCVolnaPinsk.png/250px-FCVolnaPinsk.png",
+    "city_country": "Pinsk, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Volna_Pinsk"
+  },
+  {
+    "club_name": "FC Lida",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/FK_Lida_Logo.png/250px-FK_Lida_Logo.png",
+    "city_country": "Lida, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Lida"
+  },
+  {
+    "club_name": "Bumprom Gomel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/FC_Bumprom_Gomel_logo.png/250px-FC_Bumprom_Gomel_logo.png",
+    "city_country": "Gomel, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Bumprom_Gomel"
+  },
+  {
+    "club_name": "FC Orsha",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/FC_Orsha_logo.png/250px-FC_Orsha_logo.png",
+    "city_country": "Orsha, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Orsha"
+  },
+  {
+    "club_name": "FC Ostrovets",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/FC_Ostrovets_logo.png/250px-FC_Ostrovets_logo.png",
+    "city_country": "Ostrovets, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ostrovets"
+  },
+  {
+    "club_name": "Lokomotiv Gomel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/FK_Lokomotiv_Gomel_Logo.png/250px-FK_Lokomotiv_Gomel_Logo.png",
+    "city_country": "Gomel, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Lokomotiv_Gomel"
+  },
+  {
+    "club_name": "Baranovichi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/FK_Baranovichy_Logo.png/250px-FK_Baranovichy_Logo.png",
+    "city_country": "Baranovichi, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Baranovichi"
+  },
+  {
+    "club_name": "ABFF U-19",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/4/47/Football_Federation_of_Belarus_logo.svg/183px-Football_Federation_of_Belarus_logo.svg.png",
+    "city_country": "Minsk, Belarus",
+    "wiki_url": "https://ru.wikipedia.org/wiki/%D0%90%D0%91%D0%A4%D0%A4_U-19"
+  },
+  {
+    "club_name": "Slonim-2017",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/F%D0%A1Slonim.png/250px-F%D0%A1Slonim.png",
+    "city_country": "Slonim, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Slonim-2017"
+  },
+  {
+    "club_name": "Uni X Labs Minsk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/b/b7/UniXLabs_logo.png/250px-UniXLabs_logo.png",
+    "city_country": "Minsk, Belarus",
+    "wiki_url": "https://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8_%D0%98%D0%BA%D1%81_%D0%9B%D0%B0%D0%B1%D1%81"
+  },
+  {
+    "club_name": "FC Osipovichi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/FK_Asipovichi_Logo.png/180px-FK_Asipovichi_Logo.png",
+    "city_country": "Asipovichi, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Osipovichi"
+  },
+  {
+    "club_name": "ML Vitebsk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/FC_Maxline_Rogachev.png/250px-FC_Maxline_Rogachev.png",
+    "city_country": "Vitebsk, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Maxline_Vitebsk"
+  },
+      {
+    "club_name": "Molodechno",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/FK_Molodechno-DYuSSh_4_Logo.png/250px-FK_Molodechno-DYuSSh_4_Logo.png",
+    "city_country": "Maladzyechna, Belarus",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Molodechno"
   }
 ]

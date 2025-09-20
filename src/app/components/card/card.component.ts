@@ -50,6 +50,7 @@ export class CardComponent implements OnInit {
     'Borussia Dortmund',
     'Palmeiras',
     'Bayern Munich',
+    'Manchester United'
   ];
 
 
@@ -60,7 +61,6 @@ export class CardComponent implements OnInit {
 
   ngOnInit(): void {
     this.getClubs();
-    this.getTodayMatches();
   }
 
   @HostListener('window:scroll', [])
@@ -284,21 +284,6 @@ openImageModal(club: any, event: Event) {
 closeImageModal() {
   this.selectedImage = null;
 }
-  
-getTodayMatches(): void {
-   this.loadingMatches = true; 
-    this.footballService.getTodayMatches().subscribe({
-      next: (res) => {
-        this.matches = res.matches || [];
-        this.loadingMatches = false;
-      },
-      error: (err) => {
-        console.error('Error al cargar partidos', err);
-        this.matches = [];
-        this.loadingMatches = false;
-      }
-    });
-  }
 
   openMatchesModal(): void {
     this.isMatchesModalOpen = true;
