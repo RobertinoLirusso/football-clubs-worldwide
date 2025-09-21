@@ -1,9 +1,110 @@
 [
   {
-    "club_name": "Dnepr Mogilev",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/FC_Dnepr_Mogilev_2020_logo.png/185px-FC_Dnepr_Mogilev_2020_logo.png",
-    "city_country": "Mogilev, Belarus",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dnepr_Mogilev"
+    "club_name": "APIA Leichhardt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/APAI_FC_logo.png/200px-APAI_FC_logo.png",
+    "city_country": "Sydney, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/APIA_Leichhardt_FC"
+  },
+  {
+    "club_name": "Avondale",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Avondale_FC.png/250px-Avondale_FC.png",
+    "city_country": "Melbourne, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Avondale_FC"
+  },
+  {
+    "club_name": "Marconi Stallions",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Marconi_Stallions.svg/330px-Marconi_Stallions.svg.png",
+    "city_country": "Sydney, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Marconi_Stallions_FC"
+  },
+  {
+    "club_name": "Preston Lions",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1f/Preston_Lions_FC_logo.png",
+    "city_country": "Melbourne, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Preston_Lions_FC"
+  },
+  {
+    "club_name": "Sydney Olympic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/ce/Sydney_Olympic_FC_logo.png",
+    "city_country": "Sydney, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sydney_Olympic_FC"
+  },
+  {
+    "club_name": "Sydney United 58",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Sydney_United_FC.png/250px-Sydney_United_FC.png",
+    "city_country": "Sydney, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sydney_United_58_FC"
+  },
+  {
+    "club_name": "Wollongong Wolves",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Wollongong_Wolves_FC.jpg/250px-Wollongong_Wolves_FC.jpg",
+    "city_country": "Wollongong, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wollongong_Wolves_FC"
+  },
+  {
+    "club_name": "Canberra Croatia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Canberra_FC.png/250px-Canberra_FC.png",
+    "city_country": "Canberra, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Canberra_Croatia_FC"
+  },
+  {
+    "club_name": "NWS Spirit",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/NWS_Spirit_FC_logo.png/250px-NWS_Spirit_FC_logo.png",
+    "city_country": "Sydney, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/North_West_Sydney_Spirit_FC"
+  },
+  {
+    "club_name": "Broadmeadow Magic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Broadmeadow_Magic_Logo.png/250px-Broadmeadow_Magic_Logo.png",
+    "city_country": "Newcastle, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Broadmeadow_Magic_FC"
+  },
+  {
+    "club_name": "Moreton City Excelsior",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Moreton_City_Excelsior_FC_new_logo.png/250px-Moreton_City_Excelsior_FC_new_logo.png",
+    "city_country": "Brisbane & Moreton Bay, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Moreton_City_Excelsior_FC"
+  },
+  {
+    "club_name": "South Hobart",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/South_Hobart_FC.png/250px-South_Hobart_FC.png",
+    "city_country": "Hobart, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/South_Hobart_FC"
+  },
+  {
+    "club_name": "Heidelberg United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/73/Heidelberg_United_FC_logo.png",
+    "city_country": "Melbourne, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Heidelberg_United_FC"
+  },
+  {
+    "club_name": "Bayswater City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Bayswater_City_SC.jpg/250px-Bayswater_City_SC.jpg",
+    "city_country": "Perth, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bayswater_City_SC"
+  },
+  {
+    "club_name": "MetroStars",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2a/Nemetrostars.png",
+    "city_country": "Adelaide, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/North_Eastern_MetroStars_SC"
+  },
+    {
+    "club_name": "New Zealand Knights (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/New_Zealand_Knights_FC.svg/250px-New_Zealand_Knights_FC.svg.png",
+    "city_country": "Auckland, New Zealand",
+    "wiki_url": "https://en.wikipedia.org/wiki/New_Zealand_Knights_FC"
+  },
+    {
+    "club_name": "Northern Fury (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Northern_Fury_FC_Logo_%282013%E2%80%93%29.png/250px-Northern_Fury_FC_Logo_%282013%E2%80%93%29.png",
+    "city_country": "Townsville, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/North_Eastern_MetroStars_SC"
+  },
+      {
+    "club_name": "Canberra United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Canberra_United_FC_logo.svg/210px-Canberra_United_FC_logo.svg.png",
+    "city_country": "Canberra, Australia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Canberra_United_FC"
   }
 ]
-

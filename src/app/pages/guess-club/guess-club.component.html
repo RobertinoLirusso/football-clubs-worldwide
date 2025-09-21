@@ -26,6 +26,7 @@
             <div *ngIf="selectedClub">
                 <img [src]="selectedClub.club_logo" class="club-logo">
             </div>
+            
 
             <!-- Exit Message -->
             <h3 *ngIf="isCorrect">
@@ -51,6 +52,12 @@
                 You got {{ lastScore }} correct answers in total!
             </h3>
 
+            <h3 class="w3-margin-top" *ngIf="!isCorrect || timeOut">  
+              {{ getPlayerLevel() }}
+            </h3>
+
+
+        
             <button (click)="startGame()" class="w3-btn w3-margin" 
             [ngClass]="isCorrect ? 'w3-black' : 'w3-black'">
             <i class="fas" [ngClass]="isCorrect ? 'fa-arrow-right' : 'fa-redo'"></i> 

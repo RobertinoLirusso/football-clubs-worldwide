@@ -70,16 +70,31 @@ checkAnswer(answer: string | null): void {
   clearInterval(this.timer);
   this.gameOver = true;
 
-  this.timeOut = (answer === null); // Se acabó el tiempo si no se respondió
+  this.timeOut = (answer === null);
   this.isCorrect = (answer === this.selectedClub.club_name);
 
   if (this.isCorrect) {
     this.streak++;
+    this.totalCorrectAnswers++; // ✅ Acumula el total correcto
   } else {
     this.lastScore = this.streak;
     this.streak = 0;
   }
 }
+
+// Nueva función para devolver el mensaje según el total
+getPlayerLevel(): string {
+  if (this.totalCorrectAnswers <= 10) {
+    return 'You are a beginner 🟢';
+  } else if (this.totalCorrectAnswers <= 20 ) {
+    return 'You are average ⚽⚽';
+  } else if (this.totalCorrectAnswers <= 30) {
+    return 'You know football ⚽⚽⚽';
+  } else {
+    return 'You are an football expert 🔥🔥🔥';
+  }
+}
+
   
   
 
