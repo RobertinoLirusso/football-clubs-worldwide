@@ -5903,12 +5903,6 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Le%C3%B3n"
   },
   {
-    "club_name": "FC Juárez",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtzrX7dYTFFqZAxRhnQ-u4nJiYX1h2S39ohVC_9_W8oYajNjQdhV6T1dLId75JTSHFIBfPRm6Vxjv3E3mE0T1RUuJJt5-4elBM7UOLRiI_YaX1hb45b9pPZ5AjhIvlCKzYUew8D7HYX3g/s1600/Futbol+Club+Juarez256x.png",
-    "city_country": "Ciudad Juárez, Mexico",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ju%C3%A1rez"
-  },
-  {
     "club_name": "Atlético San Luis",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsxyGhYEu995K3swcC4TZSTMm1wPQrxxbsfau7VP_QCvVh9tHW9KtcoeWh3Vutf6LKAbYU84uUvwyJOYQdg-yioWaoVWDCNwWHyNTu6TwlmBWlmZQSOfNLe0fne6vy5fpz0p5_9HQ2-JFnXkcVI6YpkVFx1AVwsh2yoPaPUgUzQLuttMef0mjmNHs-Fsk/s256/Atl%C3%A9tico%20de%20San%20Luis256x.png",
     "city_country": "San Luis Potosí, Mexico",
@@ -13427,12 +13421,6 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Sportfreunde_Siegen"
   },
   {
-    "club_name": "FC Gütersloh",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/FC_Gutersloh_crest.svg/250px-FC_Gutersloh_crest.svg.png",
-    "city_country": "Gütersloh, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_G%C3%BCtersloh"
-  },
-  {
     "club_name": "Fortuna Köln",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SC_Fortuna_Koeln_Logo_2019%E2%80%93.svg/200px-SC_Fortuna_Koeln_Logo_2019%E2%80%93.svg.png",
     "city_country": "Cologne, Germany",
@@ -13925,8 +13913,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Molodechno"
   },
     {
-    "club_name": "APIA Leichhardt",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/APAI_FC_logo.png/200px-APAI_FC_logo.png",
+    "club_name": "Wests APIA",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEjZfWgz1f4S1dmyORLMvlFNMvYgIbzq891oriAYmq49Cv0ErAMUntqBg3M8nj30rlBUchR4NYDrS59nmzWxZsN7rLL_BHs0EHiVGcQqk_BPGldTHbr-udfOhmF8XPN0Af9NazTw7jAA2Dm_0r3mvuLxfXeO-TQcQy5uDIr4OSmub_T42JruXmtZxkq9KRM=w320-h320",
     "city_country": "Sydney, Australia",
     "wiki_url": "https://en.wikipedia.org/wiki/APIA_Leichhardt_FC"
   },
@@ -14031,5 +14019,203 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Canberra_United_FC_logo.svg/210px-Canberra_United_FC_logo.svg.png",
     "city_country": "Canberra, Australia",
     "wiki_url": "https://en.wikipedia.org/wiki/Canberra_United_FC"
+  },
+    {
+    "club_name": "ASO Chlef",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/ASO_Chlef_Logo.svg/250px-ASO_Chlef_Logo.svg.png",
+    "city_country": "Chlef, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASO_Chlef"
+  },
+  {
+    "club_name": "CR Belouizdad",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/CR_Belouizdad_logo.svg/250px-CR_Belouizdad_logo.svg.png",
+    "city_country": "Algiers, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/CR_Belouizdad"
+  },
+  {
+    "club_name": "CS Constantine",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/f7/Logo_CS_Constantine.png/250px-Logo_CS_Constantine.png",
+    "city_country": "Constantine, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/CS_Constantine"
+  },
+  {
+    "club_name": "ES Ben Aknoun",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/ES_Ben_Aknoun_badge.png/250px-ES_Ben_Aknoun_badge.png",
+    "city_country": "Algiers, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/ES_Ben_Aknoun"
+  },
+  {
+    "club_name": "ES Mostaganem",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/%D8%B4%D8%B9%D8%A7%D8%B1_%D8%AC%D8%AF%D9%8A%D8%AF_%D9%84%D9%81%D8%B1%D9%8A%D9%82_%D8%AA%D8%B1%D8%AC%D9%8A_%D9%85%D8%B3%D8%AA%D8%BA%D8%A7%D9%86%D9%85.png/250px-%D8%B4%D8%B9%D8%A7%D8%B1_%D8%AC%D8%AF%D9%8A%D8%AF_%D9%84%D9%81%D8%B1%D9%8A%D9%82_%D8%AA%D8%B1%D8%AC%D9%8A_%D9%85%D8%B3%D8%AA%D8%BA%D8%A7%D9%86%D9%85.png",
+    "city_country": "Mostaganem, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/ES_Mostaganem"
+  },
+  {
+    "club_name": "ES Sétif",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/ES_S%C3%A9tif_-_logo.png/250px-ES_S%C3%A9tif_-_logo.png",
+    "city_country": "Sétif, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/ES_S%C3%A9tif"
+  },
+  {
+    "club_name": "JS Kabylie",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Logo_JS_Kabylie.svg/250px-Logo_JS_Kabylie.svg.png",
+    "city_country": "Tizi Ouzou, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/JS_Kabylie"
+  },
+  {
+    "club_name": "JS Saoura",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/JSSAOURA_LOGO.png/250px-JSSAOURA_LOGO.png",
+    "city_country": "Méridja, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/JS_Saoura"
+  },
+  {
+    "club_name": "MB Rouissat",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84_%D8%A8%D9%84%D8%AF%D9%8A%D8%A9_%D8%A7%D9%84%D8%B1%D9%88%D9%8A%D8%B3%D8%A7%D8%AA_MB.ROUISSAT.png/250px-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84_%D8%A8%D9%84%D8%AF%D9%8A%D8%A9_%D8%A7%D9%84%D8%B1%D9%88%D9%8A%D8%B3%D8%A7%D8%AA_MB.ROUISSAT.png",
+    "city_country": "Rouissat, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/MB_Rouissat"
+  },
+  {
+    "club_name": "MC Alger",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/MC_Alger_logo.png/250px-MC_Alger_logo.png",
+    "city_country": "Algiers, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/MC_Alger"
+  },
+  {
+    "club_name": "MC El Bayadh",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/MC_El_Bayadh_logo.png/250px-MC_El_Bayadh_logo.png",
+    "city_country": "El Bayadh, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/MC_El_Bayadh"
+  },
+  {
+    "club_name": "MC Oran",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/MC_Oran_-_logo.png/250px-MC_Oran_-_logo.png",
+    "city_country": "Oran, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/MC_Oran"
+  },
+  {
+    "club_name": "Olympique Akbou",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Olympique_Akbou.png/250px-Olympique_Akbou.png",
+    "city_country": "Akbou, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/Olympique_Akbou"
+  },
+  {
+    "club_name": "Paradou AC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/7/7c/Paradou_Athletic_Club.png/250px-Paradou_Athletic_Club.png",
+    "city_country": "Algiers, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/Paradou_AC"
+  },
+  {
+    "club_name": "USM Alger",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/USMA_2023.png/250px-USMA_2023.png",
+    "city_country": "Algiers, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/USM_Alger"
+  },
+  {
+    "club_name": "USM Khenchela",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/USM_Khenchela_logo.png/250px-USM_Khenchela_logo.png",
+    "city_country": "Khenchela, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/USM_Khenchela"
+  },
+    {
+    "club_name": "Calvary FC",
+    "club_logo": "https://upl.co.ug/wp-content/uploads/2025/07/Calvary-FC-Midigo.png",
+    "city_country": "Yumbe, Uganda",
+    "wiki_url": "https://x.com/calvaryfcm"
+  },
+  {
+    "club_name": "Buhimba United Saints",
+    "club_logo": "https://upl.co.ug/wp-content/uploads/2025/07/Buhimba-United-Saints.png",
+    "city_country": "Kagadi, Uganda",
+    "wiki_url": "https://x.com/buhimbaf?lang=es"
+  },
+  {
+    "club_name": "Entebbe UPPC FC",
+    "club_logo": "https://upl.co.ug/wp-content/uploads/2021/10/Entebbe-UPPC-FC-128x128.png",
+    "city_country": "Entebbe, Uganda",
+    "wiki_url": "https://uppcfc.go.ug/index.php/about/"
+  },
+  {
+    "club_name": "BUL Jinja FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/BUL_Jinja_FC.svg/250px-BUL_Jinja_FC.svg.png",
+    "city_country": "Jinja, Uganda",
+    "wiki_url": "https://en.wikipedia.org/wiki/BUL_Jinja_FC"
+  },
+  {
+    "club_name": "Express FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/EXPRESS-FC-LOGO.png/250px-EXPRESS-FC-LOGO.png",
+    "city_country": "Kampala, Uganda",
+    "wiki_url": "https://en.wikipedia.org/wiki/Express_FC"
+  },
+  {
+    "club_name": "KCCA FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Kampala_Capital_City_Authority_FC.png/170px-Kampala_Capital_City_Authority_FC.png",
+    "city_country": "Kampala, Uganda",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kampala_Capital_City_Authority_FC"
+  },
+  {
+    "club_name": "Kitara FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Kitara-FC-logo.png/250px-Kitara-FC-logo.png",
+    "city_country": "Hoima, Uganda",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kitara_F.C."
+  },
+  {
+    "club_name": "Lugazi FC",
+    "club_logo": "https://lugazifc.com/wp-content/uploads/2025/02/lugazifclogo-Photoroom.png",
+    "city_country": "Lugazi, Uganda",
+    "wiki_url": "https://lugazifc.com/about-us/"
+  },
+  {
+    "club_name": "Maroons FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Maroons-white-logo.png/250px-Maroons-white-logo.png",
+    "city_country": "Kampala, Uganda",
+    "wiki_url": "https://en.wikipedia.org/wiki/Maroons_FC"
+  },
+  {
+    "club_name": "Mbarara City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/MBARARA-CITY-LOGO.jpg/250px-MBARARA-CITY-LOGO.jpg",
+    "city_country": "Mbarara, Uganda",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mbarara_City_FC"
+  },
+  {
+    "club_name": "NEC FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/9/98/NEC_FC_emblema.png/250px-NEC_FC_emblema.png",
+    "city_country": "Kampala, Uganda",
+    "wiki_url": "https://en.wikipedia.org/wiki/National_Enterprises_Corporation_FC"
+  },
+  {
+    "club_name": "Police FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/POLICE-FC-LOGO.png/250px-POLICE-FC-LOGO.png",
+    "city_country": "Kampala, Uganda",
+    "wiki_url": "https://en.wikipedia.org/wiki/Police_FC_(Uganda)"
+  },
+  {
+    "club_name": "UPDF FC",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoFLbOiGYLLSDihLbn4513peurl1EZnTqzsw&s",
+    "city_country": "Bombo, Uganda",
+    "wiki_url": "https://en.wikipedia.org/wiki/UPDF_FC"
+  },
+  {
+    "club_name": "URA FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1e/URA-FC-logo.png",
+    "city_country": "Kampala, Uganda",
+    "wiki_url": "https://en.wikipedia.org/wiki/Uganda_Revenue_Authority_FC"
+  },
+  {
+    "club_name": "SC Villa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Sc_villa_logo.png/180px-Sc_villa_logo.png",
+    "city_country": "Kampala, Uganda",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Villa"
+  },
+  {
+    "club_name": "Vipers SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Vipers_SC_logo.png/250px-Vipers_SC_logo.png",
+    "city_country": "Kitende, Uganda",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vipers_SC"
+  },
+    {
+    "club_name": "Real Bamako",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/AS_Real_Bamako_%28logo%29.png/250px-AS_Real_Bamako_%28logo%29.png",
+    "city_country": "Bamako, Mali",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Real_Bamako"
   }
 ]
