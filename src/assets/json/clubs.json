@@ -14391,5 +14391,107 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ed/Warri_Wolves_F.C._Logo.jpeg",
     "city_country": "Lagos, Nigeria",
     "wiki_url": "https://en.wikipedia.org/wiki/Warri_Wolves_F.C."
+  },
+    {
+    "club_name": "ACV",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Asser_Christelijke_Voetbalvereniging.png/180px-Asser_Christelijke_Voetbalvereniging.png",
+    "city_country": "Assen, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Asser_Christelijke_Voetbalvereniging"
+  },
+  {
+    "club_name": "AFC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Amsterdamsche_FC_%28logo%29.svg/250px-Amsterdamsche_FC_%28logo%29.svg.png",
+    "city_country": "Amsterdam, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Amsterdamsche_FC"
+  },
+  {
+    "club_name": "BVV Barendrecht",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/6c/BVV_Barendrecht_logo.png",
+    "city_country": "Barendrecht, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/BVV_Barendrecht"
+  },
+  {
+    "club_name": "Excelsior Maassluis",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Excelsior_Maassluis_logo.png/180px-Excelsior_Maassluis_logo.png",
+    "city_country": "Maassluis, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Excelsior_Maassluis"
+  },
+  {
+    "club_name": "GVVV",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Gelders_VVV_logo.png/180px-Gelders_VVV_logo.png",
+    "city_country": "Veenendaal, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/GVVV"
+  },
+  {
+    "club_name": "HHC Hardenberg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/HHC_Hardenberg_logo.png/180px-HHC_Hardenberg_logo.png",
+    "city_country": "Hardenberg, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/HHC_Hardenberg"
+  },
+  {
+    "club_name": "Koninklijke HFC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Koninklijke_HFC_logo.png/120px-Koninklijke_HFC_logo.png",
+    "city_country": "Haarlem, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Koninklijke_HFC"
+  },
+  {
+    "club_name": "HSV Hoek",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cc/HSV_Hoek.png",
+    "city_country": "Hoek, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/HSV_Hoek"
+  },
+  {
+    "club_name": "IJsselmeervogels",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/IJsselmeervogels_logo.png/180px-IJsselmeervogels_logo.png",
+    "city_country": "Bunschoten-Spakenburg, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/IJsselmeervogels"
+  },
+  {
+    "club_name": "VV Katwijk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/VV_Katwijk_logo.png/180px-VV_Katwijk_logo.png",
+    "city_country": "Katwijk, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/VV_Katwijk"
+  },
+  {
+    "club_name": "Kozakken Boys",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Kozakken_Boys_logo.png/180px-Kozakken_Boys_logo.png",
+    "city_country": "Werkendam, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kozakken_Boys"
+  },
+  {
+    "club_name": "Quick Boys",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Quick_Boys.png/250px-Quick_Boys.png",
+    "city_country": "Katwijk aan Zee, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Quick_Boys"
+  },
+  {
+    "club_name": "Rijnsburgse Boys",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Rijnsburgse_Boys_logo.png/180px-Rijnsburgse_Boys_logo.png",
+    "city_country": "Rijnsburg, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rijnsburgse_Boys"
+  },
+  {
+    "club_name": "SV Spakenburg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/SV_Spakenburg_logo.png/180px-SV_Spakenburg_logo.png",
+    "city_country": "Bunschoten-Spakenburg, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Spakenburg"
+  },
+  {
+    "club_name": "De Treffers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/De_Treffers_logo.png/180px-De_Treffers_logo.png",
+    "city_country": "Groesbeek, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/De_Treffers"
+  },
+  {
+    "club_name": "RKAV Volendam",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/RKAV_Volendam.png/120px-RKAV_Volendam.png",
+    "city_country": "Volendam, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/RKAV_Volendam"
+  },
+    {
+    "club_name": "Achilles'29",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Achilles_29.png/180px-Achilles_29.png",
+    "city_country": "Groesbeek, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Achilles_%2729"
   }
 ]
