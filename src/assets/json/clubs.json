@@ -12492,7 +12492,7 @@
   },
   {
     "club_name": "Csíkszereda Miercurea Ciuc",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/FK_Miercurea_Ciuc_logo.png/250px-FK_Miercurea_Ciuc_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/4/48/AFKCs%C3%ADkszeredaLogo.png/800px-AFKCs%C3%ADkszeredaLogo.png",
     "city_country": "Miercurea Ciuc, Romania",
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Cs%C3%ADkszereda_Miercurea_Ciuc"
   },  
@@ -14493,5 +14493,143 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Achilles_29.png/180px-Achilles_29.png",
     "city_country": "Groesbeek, Netherlands",
     "wiki_url": "https://en.wikipedia.org/wiki/Achilles_%2729"
+  },
+    {
+    "club_name": "Afumați",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ro/thumb/9/9d/CS_Afumati.svg/180px-CS_Afumati.svg.png",
+    "city_country": "Afumați, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CS_Afuma%C8%9Bi" 
+  },
+  {
+    "club_name": "ASA 2013 Târgu Mureș (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/ASA_2013_Targu_Mures_logo.png/250px-ASA_2013_Targu_Mures_logo.png",
+    "city_country": "Târgu Mureș, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASA_2013_T%C3%A2rgu_Mure%C8%99"
+  },
+    {
+    "club_name": "ASA Târgu Mureș",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/ASA_T%C3%A2rgu_Mure%C8%99_%281962%29_logo.png/250px-ASA_T%C3%A2rgu_Mure%C8%99_%281962%29_logo.png",
+    "city_country": "Târgu Mureș, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASA_T%C3%A2rgu_Mure%C8%99_(1962)"
+  },
+  {
+    "club_name": "FC Bacău",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/ACS_FC_Bac%C4%83u_logo.png/180px-ACS_FC_Bac%C4%83u_logo.png",
+    "city_country": "Bacău, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/ACS_FC_Bac%C4%83u"
+  },
+  {
+    "club_name": "Bihor Oradea",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/FC_Bihor_Oradea_%282022%29_logo.png/250px-FC_Bihor_Oradea_%282022%29_logo.png",
+    "city_country": "Oradea, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Bihor_Oradea_(2022)"
+  },
+  {
+    "club_name": "Câmpulung Muscel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/AFC_C%C3%A2mpulung_Muscel_logo.png/250px-AFC_C%C3%A2mpulung_Muscel_logo.png",
+    "city_country": "Câmpulung Muscel, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/AFC_C%C3%A2mpulung_Muscel"
+  },
+  {
+    "club_name": "Ceahlăul Piatra Neamț",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/df/CSM_Ceahlaul_badge.png",
+    "city_country": "Piatra Neamț, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CSM_Ceahl%C4%83ul_Piatra_Neam%C8%9B"
+  },
+  {
+    "club_name": "Chindia Târgoviște",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Chindia_T%C3%A2rgovi%C5%9Fte.png/250px-Chindia_T%C3%A2rgovi%C5%9Fte.png",
+    "city_country": "Târgoviște, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/AFC_Chindia_T%C3%A2rgovi%C8%99te"
+  },
+  {
+    "club_name": "Concordia Chiajna",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Stema_Concordia.png/250px-Stema_Concordia.png",
+    "city_country": "Chiajna, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CS_Concordia_Chiajna"
+  },
+  {
+    "club_name": "CS Dinamo București",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/CS_Dinamo_Bucure%C8%99ti_logo.png/150px-CS_Dinamo_Bucure%C8%99ti_logo.png",
+    "city_country": "Bucharest, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CS_Dinamo_Bucure%C8%99ti_(football)"
+  },
+  {
+    "club_name": "Dumbrăvița",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/ACS_Dumbr%C4%83vi%C8%9Ba_logo.png/250px-ACS_Dumbr%C4%83vi%C8%9Ba_logo.png",
+    "city_country": "Dumbrăvița, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CSC_Dumbr%C4%83vi%C8%9Ba"
+  },
+  {
+    "club_name": "CS Gloria Bistrița",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c8/CS_Gloria_Bistri%C8%9Ba_%28football%29_logo.png",
+    "city_country": "Bistrița, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CS_Gloria_Bistri%C8%9Ba_(football)"
+  },
+  {
+    "club_name": "Metalul Buzău",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/AFC_Metalul_Buz%C4%83u_logo.png/180px-AFC_Metalul_Buz%C4%83u_logo.png",
+    "city_country": "Buzău, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/AFC_Metalul_Buz%C4%83u"
+  },
+  {
+    "club_name": "Olimpia Satu Mare",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/CSM_Satu_Mare_%28football%29_logo.png/250px-CSM_Satu_Mare_%28football%29_logo.png",
+    "city_country": "Satu Mare, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CSM_Olimpia_Satu_Mare_(football)"
+  },
+  {
+    "club_name": "Reșița",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/CSM_Re%C8%99i%C8%9Ba_logo.png/250px-CSM_Re%C8%99i%C8%9Ba_logo.png",
+    "city_country": "Reșița, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CSM_Re%C8%99i%C8%9Ba"
+  },
+  {
+    "club_name": "Slatina",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/df/CSM_Slatina_%28football%29_logo.png",
+    "city_country": "Slatina, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CSM_Slatina_(football)"
+  },
+  {
+    "club_name": "1599 Șelimbăr",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/CSC_1599_%C8%98elimb%C4%83r_logo.png/250px-CSC_1599_%C8%98elimb%C4%83r_logo.png",
+    "city_country": "Șelimbăr, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CSC_1599_%C8%98elimb%C4%83r"
+  },
+  {
+    "club_name": "Tunari",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/CS_Tunari_logo.png/250px-CS_Tunari_logo.png",
+    "city_country": "Tunari, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CS_Tunari"
+  },
+  {
+    "club_name": "Voluntari",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/FC_Voluntari_logo.png/250px-FC_Voluntari_logo.png",
+    "city_country": "Voluntari, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Voluntari"
+  },
+  {
+    "club_name": "Viitorul Târgu Jiu (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1b/ACS_Viitorul_T%C3%A2rgu_Jiu_logo.png",
+    "city_country": "Târgu Jiu, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/ACS_Viitorul_T%C3%A2rgu_Jiu"
+  },
+  {
+    "club_name": "CS Mioveni (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Cs_mioveni.png/200px-Cs_mioveni.png",
+    "city_country": "Mioveni, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CS_Mioveni"
+  },
+  {
+    "club_name": "CSM Focșani (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/CSM_Foc%C8%99ani_logo.png/180px-CSM_Foc%C8%99ani_logo.png",
+    "city_country": "Focșani, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CSM_Foc%C8%99ani_(football)"
+  },
+  {
+    "club_name": "Unirea Ungheni (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e8/CS_Unirea_Ungheni_logo.png",
+    "city_country": "Ungheni, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/CS_Unirea_Ungheni"
   }
 ]
