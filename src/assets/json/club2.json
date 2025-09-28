@@ -1,122 +1,362 @@
 [
+  {
+    "club_name": "Boston River",
+    "club_logo": "",
+    "city_country": "Florida, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Boston_River"
+  },
+  {
+    "club_name": "Cerro",
+    "club_logo": "",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.A._Cerro"
+  },
+  {
+    "club_name": "Cerro Largo",
+    "club_logo": "",
+    "city_country": "Melo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cerro_Largo_F.C."
+  },
+  {
+    "club_name": "Danubio",
+    "club_logo": "",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Danubio_F.C."
+  },
+  {
+    "club_name": "Juventud",
+    "club_logo": "",
+    "city_country": "Las Piedras, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.A._Juventud"
+  },
+  {
+    "club_name": "Liverpool",
+    "club_logo": "",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Liverpool_F.C._(Montevideo)"
+  },
+  {
+    "club_name": "Miramar Misiones",
+    "club_logo": "",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Miramar_Misiones"
+  },
+  {
+    "club_name": "Montevideo Wanderers",
+    "club_logo": "",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Montevideo_Wanderers"
+  },
+  {
+    "club_name": "Plaza Colonia",
+    "club_logo": "",
+    "city_country": "Colonia del Sacramento, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Plaza_Colonia"
+  },
+  {
+    "club_name": "Progreso",
+    "club_logo": "",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.A._Progreso"
+  },
+  {
+    "club_name": "Racing",
+    "club_logo": "",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Racing_Club_de_Montevideo"
+  },
+  {
+    "club_name": "River Plate",
+    "club_logo": "",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_River_Plate_(Uruguay)"
+  },
     {
-    "club_name": "ABC",
+    "club_name": "ADT",
     "club_logo": "",
-    "city_country": "Natal, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/ABC_Futebol_Clube"
+    "city_country": "Tarma, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/ADT_(Peruvian_football)"
   },
   {
-    "club_name": "Anápolis",
+    "club_name": "Alianza Atlético",
     "club_logo": "",
-    "city_country": "Anápolis, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Anápolis_Futebol_Clube"
+    "city_country": "Sullana, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alianza_Atl%C3%A9tico"
   },
   {
-    "club_name": "Botafogo-PB",
+    "club_name": "Alianza Universidad",
     "club_logo": "",
-    "city_country": "João Pessoa, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Botafogo_PB"
+    "city_country": "Huánuco, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alianza_Universidad"
   },
   {
-    "club_name": "Brusque",
+    "club_name": "Atlético Grau",
     "club_logo": "",
-    "city_country": "Brusque, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Brusque_FC"
+    "city_country": "Sullana, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Grau"
   },
   {
-    "club_name": "Caxias",
+    "club_name": "Ayacucho FC",
     "club_logo": "",
-    "city_country": "Caxias do Sul, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/ Sociedade_Esportiva_e_Recreativa_Caxias_do_Sul"
+    "city_country": "Ayacucho, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ayacucho_FC"
   },
   {
-    "club_name": "Confiança",
+    "club_name": "Binacional",
     "club_logo": "",
-    "city_country": "Aracaju, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Associação_Desportiva_Confiança"
+    "city_country": "Juliaca, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Binacional_FC"
   },
   {
-    "club_name": "CSA",
+    "club_name": "Comerciantes Unidos",
     "club_logo": "",
-    "city_country": "Maceió, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/CSA_(Brazilian_football_club)"
+    "city_country": "Cutervo, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Comerciantes_Unidos"
   },
   {
-    "club_name": "Figueirense",
+    "club_name": "Deportivo Garcilaso",
     "club_logo": "",
-    "city_country": "Florianópolis, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Figueirense_FC"
+    "city_country": "Cusco, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Garcilaso"
   },
   {
-    "club_name": "Floresta",
+    "club_name": "Los Chankas",
     "club_logo": "",
-    "city_country": "Fortaleza, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Floresta_Esporte_Clube"
+    "city_country": "Andahuaylas, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Los_Chankas"
   },
   {
-    "club_name": "Guarani",
+    "club_name": "Sport Boys",
     "club_logo": "",
-    "city_country": "Campinas, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Guarani_FC"
+    "city_country": "Callao, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sport_Boys"
   },
   {
-    "club_name": "Itabaiana",
+    "club_name": "Sport Huancayo",
     "club_logo": "",
-    "city_country": "Itabaiana, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/KF_Itabaiana"
+    "city_country": "Huancayo, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sport_Huancayo"
   },
   {
-    "club_name": "Ituano",
+    "club_name": "UTC",
     "club_logo": "",
-    "city_country": "Itu, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Ituano_Futebol_Clube"
+    "city_country": "Cajamarca, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/UTC_(Peruvian_football_club)"
+  },
+    {
+    "club_name": "2 de Mayo",
+    "club_logo": "",
+    "city_country": "Pedro Juan Caballero, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/2_de_Mayo_(Paraguayan_football_club)"
   },
   {
-    "club_name": "Londrina",
+    "club_name": "General Caballero (JLM)",
     "club_logo": "",
-    "city_country": "Londrina, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Londrina_Esporte_Clube"
+    "city_country": "Juan León Mallorquín, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/General_Caballero_(JLM)"
   },
   {
-    "club_name": "Maringá",
+    "club_name": "Sportivo Ameliano",
     "club_logo": "",
-    "city_country": "Maringá, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Maringá_FC"
+    "city_country": "Villeta, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sportivo_Ameliano"
   },
   {
-    "club_name": "Náutico",
+    "club_name": "Sportivo Trinidense",
     "club_logo": "",
-    "city_country": "Recife, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Clube_Náutico_Capibaribe"
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sportivo_Trinidense"
   },
   {
-    "club_name": "Ponte Preta",
+    "club_name": "Deportivo Recoleta",
     "club_logo": "",
-    "city_country": "Campinas, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Associação_Botafogo_Futebol_Clube"
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Recoleta_(Paraguay)"
   },
   {
-    "club_name": "Retrô",
+    "club_name": "Tembetary",
     "club_logo": "",
-    "city_country": "Camaragibe, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Retrô_FC"
+    "city_country": "Villa Elisa, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tembetary"
   },
   {
-    "club_name": "São Bernardo",
+    "club_name": "Delfín",
     "club_logo": "",
-    "city_country": "São Bernardo do Campo, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/São_Bernardo_Futebol_Clube"
+    "city_country": "Manta, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
   },
   {
-    "club_name": "Tombense",
+    "club_name": "Deportivo Cuenca",
     "club_logo": "",
-    "city_country": "Tombos, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Tombense_Futebol_Clube"
+    "city_country": "Cuenca, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
   },
   {
-    "club_name": "Ypiranga (RS)",
+    "club_name": "El Nacional",
     "club_logo": "",
-    "city_country": "Erechim, Brazil",
-    "wiki_url": "https://en.wikipedia.org/wiki/Ypiranga_Futebol_Clube_(Erechim)"
+    "city_country": "Quito, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
+  },
+  {
+    "club_name": "Emelec",
+    "club_logo": "",
+    "city_country": "Guayaquil, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
+  },
+  {
+    "club_name": "Libertad",
+    "club_logo": "",
+    "city_country": "Loja, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
+  },
+  {
+    "club_name": "Macará",
+    "club_logo": "",
+    "city_country": "Ambato, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
+  },
+  {
+    "club_name": "Manta",
+    "club_logo": "",
+    "city_country": "Manta, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
+  },
+  {
+    "club_name": "Orense",
+    "club_logo": "",
+    "city_country": "Machala, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
+  },
+  {
+    "club_name": "Técnico Universitario",
+    "club_logo": "",
+    "city_country": "Ambato, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
+  },
+  {
+    "club_name": "Universidad Católica",
+    "club_logo": "",
+    "city_country": "Quito, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
+  },
+  {
+    "club_name": "Vinotinto Ecuador",
+    "club_logo": "",
+    "city_country": "Quito, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
+  },
+    {
+    "club_name": "Audax Italiano",
+    "club_logo": "",
+    "city_country": "Santiago, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Audax_Italiano"
+  },
+  {
+    "club_name": "Coquimbo Unido",
+    "club_logo": "",
+    "city_country": "Coquimbo, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Coquimbo_Unido"
+  },
+  {
+    "club_name": "Deportes La Serena",
+    "club_logo": "",
+    "city_country": "La Serena, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_La_Serena"
+  },
+  {
+    "club_name": "Deportes Limache",
+    "club_logo": "",
+    "city_country": "Limache, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Limache"
+  },
+  {
+    "club_name": "Everton",
+    "club_logo": "",
+    "city_country": "Viña del Mar, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Everton_de_Vi%C3%B1a_del_Mar"
+  },
+  {
+    "club_name": "Huachipato",
+    "club_logo": "",
+    "city_country": "Talcahuano, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Huachipato"
+  },
+  {
+    "club_name": "Ñublense",
+    "club_logo": "",
+    "city_country": "Chillán, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%91ublense"
+  },
+  {
+    "club_name": "O'Higgins",
+    "club_logo": "",
+    "city_country": "Rancagua, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/O%27Higgins_F.C."
+  },
+  {
+    "club_name": "Palestino",
+    "club_logo": "",
+    "city_country": "Santiago, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_de_Fútbol_Palestino"
+  },
+  {
+    "club_name": "Unión La Calera",
+    "club_logo": "",
+    "city_country": "La Calera, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Unión_La_Calera"
+  },
+  {
+    "club_name": "Alianza",
+    "club_logo": "",
+    "city_country": "Valledupar, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alianza_F.C._(Colombia)"
+  },
+  {
+    "club_name": "Boyacá Chicó",
+    "club_logo": "",
+    "city_country": "Tunja, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Boyac%C3%A1_Chic%C3%B3_FC"
+  },
+  {
+    "club_name": "Deportes Tolima",
+    "club_logo": "",
+    "city_country": "Ibagué, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Tolima"
+  },
+  {
+    "club_name": "Deportivo Pereira",
+    "club_logo": "",
+    "city_country": "Pereira, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Pereira"
+  },
+  {
+    "club_name": "Envigado",
+    "club_logo": "",
+    "city_country": "Envigado, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Envigado_F.C."
+  },
+  {
+    "club_name": "Fortaleza",
+    "club_logo": "",
+    "city_country": "Bogotá, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fortaleza_C.E.I.F._F.C."
+  },
+  {
+    "club_name": "La Equidad",
+    "club_logo": "",
+    "city_country": "Bogotá, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/La_Equidad"
+  },
+  {
+    "club_name": "Llaneros",
+    "club_logo": "",
+    "city_country": "Villavicencio, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Llaneros_F.C."
+  },
+  {
+    "club_name": "Unión Magdalena",
+    "club_logo": "",
+    "city_country": "Santa Marta, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Unión_Magdalena"
   }
 ]

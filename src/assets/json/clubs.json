@@ -4327,7 +4327,7 @@
   {
     "club_name": "Always Ready",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMlDUEpyPwkgo_7UKbGmjXtMLHIfCkCnM0MX5pa0Ll-_fy4q71rZbxxNOTZKYHOKHoNN6fiAklXbNrL5975oMvfQB6sb5QQtK_M30lygrufo0nHV_KZPtgcPR9nRrz20ot0F_-6x5mOgk/s256/Club+Always+Ready256x.png",
-    "city_country": "La Paz, Bolivia",
+    "city_country": "La Paz-El Alto, Bolivia",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Always_Ready"
   },
   {
@@ -4349,7 +4349,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Cerro_Porte%C3%B1o"
   },
   {
-    "club_name": "Guarani",
+    "club_name": "Club Guaraní",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEganiug6BiC7NWF3jNxtI6Un2akwOTvdeXFDjrVwyF9YbKRlBHkQdLP7mdXzIcaiiuMbpN-Pxj_uHTEJ8gQ_gdcl98pzN2jzzRlHtrbDrtMs7m-vCnwTvHrma4Q1CtwttsIPcBPsPVvIPc/s256/Club+Guarani256x.png",
     "city_country": "Asunción, Paraguay",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Guarani"
@@ -14699,7 +14699,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Vila_Nova_Futebol_Clube"
   },
     {
-    "club_name": "FC Edmonton",
+    "club_name": "FC Edmonton (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/FC_Edmonton_logo.svg/180px-FC_Edmonton_logo.svg.png",
     "city_country": "Edmonton, Canada",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Edmonton" 
@@ -14733,5 +14733,245 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/20/Weymouth_Wales_FC_logo.png",
     "city_country": "Carrington Village, Barbados",
     "wiki_url": "https://en.wikipedia.org/wiki/Weymouth_Wales_FC"
+  },
+      {
+    "club_name": "ABC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/ABC_FC_-_RN.svg/250px-ABC_FC_-_RN.svg.png",
+    "city_country": "Natal, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/ABC_Futebol_Clube"
+  },
+  {
+    "club_name": "Anápolis",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/An%C3%A1polis_Futebol_Clube.png/250px-An%C3%A1polis_Futebol_Clube.png",
+    "city_country": "Anápolis, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/An%C3%A1polis_Futebol_Clube"
+  },
+  {
+    "club_name": "Botafogo-PB",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/BotafogoPB_logo.png/250px-BotafogoPB_logo.png",
+    "city_country": "João Pessoa, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Botafogo_Futebol_Clube_(PB)"
+  },
+  {
+    "club_name": "Brusque",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/BFC_Escudo_Novo-1920w.png/330px-BFC_Escudo_Novo-1920w.png",
+    "city_country": "Brusque, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brusque_Futebol_Clube"
+  },
+  {
+    "club_name": "Caxias",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Sociedade_Esportiva_e_Recreativa_Caxias_do_Sul_logo.svg/250px-Sociedade_Esportiva_e_Recreativa_Caxias_do_Sul_logo.svg.png",
+    "city_country": "Caxias do Sul, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sociedade_Esportiva_e_Recreativa_Caxias_do_Sul"
+  },
+  {
+    "club_name": "Confiança",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AD_Confian%C3%A7a_shield.png/250px-AD_Confian%C3%A7a_shield.png",
+    "city_country": "Aracaju, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Confian%C3%A7a"
+  },
+  {
+    "club_name": "CSA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Centro_Sportivo_Alagoano.png/250px-Centro_Sportivo_Alagoano.png",
+    "city_country": "Maceió, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Centro_Sportivo_Alagoano"
+  },
+  {
+    "club_name": "Floresta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Floresta_Esporte_Clube_logo.svg/250px-Floresta_Esporte_Clube_logo.svg.png",
+    "city_country": "Fortaleza, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Floresta_Esporte_Clube"
+  },
+  {
+    "club_name": "Guarani",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Guarani_FC_%28E%29_-_SP.svg/185px-Guarani_FC_%28E%29_-_SP.svg.png",
+    "city_country": "Campinas, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guarani_FC"
+  },
+  {
+    "club_name": "Itabaiana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/AO_Itabaiana_logo.png/250px-AO_Itabaiana_logo.png",
+    "city_country": "Itabaiana, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Ol%C3%ADmpica_de_Itabaiana"
+  },
+  {
+    "club_name": "Ituano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Ituano_Futebol_Clube_logo.svg/250px-Ituano_Futebol_Clube_logo.svg.png",
+    "city_country": "Itu, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ituano_FC"
+  },
+  {
+    "club_name": "Londrina",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Londrina_E.C..png/250px-Londrina_E.C..png",
+    "city_country": "Londrina, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Londrina_Esporte_Clube"
+  },
+  {
+    "club_name": "Maringá",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Mfc_monocromia_verde_paixao.png/250px-Mfc_monocromia_verde_paixao.png",
+    "city_country": "Maringá, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Maring%C3%A1_Futebol_Clube"
+  },
+  {
+    "club_name": "Náutico",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Clube_N%C3%A1utico_Capibaribe_%282010%29.svg/250px-Clube_N%C3%A1utico_Capibaribe_%282010%29.svg.png",
+    "city_country": "Recife, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Clube_N%C3%A1utico_Capibaribe"
+  },
+  {
+    "club_name": "Retrô",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Retr%C3%B4_FC_Brasil.png/250px-Retr%C3%B4_FC_Brasil.png",
+    "city_country": "Camaragibe, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Retr%C3%B4_Futebol_Clube_Brasil"
+  },
+  {
+    "club_name": "São Bernardo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/S%C3%A3o_Bernado_FC.png/250px-S%C3%A3o_Bernado_FC.png",
+    "city_country": "São Bernardo do Campo, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Bernardo_FC"
+  },
+  {
+    "club_name": "Tombense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Tombense_FC.png/250px-Tombense_FC.png",
+    "city_country": "Tombos, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tombense_Futebol_Clube"
+  },
+  {
+    "club_name": "Ypiranga",
+    "club_logo": "https://en.wikipedia.org/wiki/Ypiranga_Futebol_Clube",
+    "city_country": "Erechim, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ypiranga_Futebol_Clube"
+  },
+      {
+    "club_name": "ABB",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaqx3T4V583b-nLKqlNDN-E38JQ-RZLGHt1lf4u11Z5zXBVO0dGEtbLUfnCYSBxvQFlS7iF2iwQtjCw4bMnepEd5SpL41Ll7gk2D35jb-PBZOz-mqaa27p8jLtmnc0_H8X1l5IurYSwtzpxSTXPahfmcNWPBH7OPZKchoG_A3ZWBcTZ-WPekOxATXZ4vQ/s1600/ABB256x.png",
+    "city_country": "La Paz-El Alto, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Academia_del_Balompi%C3%A9_Boliviano"
+  },
+  {
+    "club_name": "Club Aurora",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Club_Aurora.png/250px-Club_Aurora.png",
+    "city_country": "Cochabamba, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Aurora"
+  },
+  {
+    "club_name": "Blooming",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhHSWbGdCPeGO53RPFq55YijhUWi2VmqEpOsNjXECFpss99arlLL1c-ig5CjiI_FK1jHb7MX6RL0ck0tbyA78ld0XrFNe9u8jvg4D6rcOFKGGHpRoQQRR1tJaRmDBHBmlXoforHbnTUM4/s0/Club+Blooming256x.png",
+    "city_country": "Santa Cruz de la Sierra, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Blooming"
+  },
+  {
+    "club_name": "Guabirá",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Guabir%C3%A1_logo.png/250px-Guabir%C3%A1_logo.png",
+    "city_country": "Montero, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Deportivo_Guabir%C3%A1"
+  },
+  {
+    "club_name": "GV San José",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png",
+    "city_country": "Oruro, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/GV_San_Jos%C3%A9"
+  },
+  {
+    "club_name": "Independiente Petrolero",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png",
+    "city_country": "Sucre, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Independiente_Petrolero"
+  },
+  {
+    "club_name": "Jorge Wilstermann",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Club_Jorge_Wilstermann.svg/280px-Club_Jorge_Wilstermann.svg.png",
+    "city_country": "Cochabamba, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Jorge_Wilstermann"
+  },
+  {
+    "club_name": "Nacional Potosí",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Club_Atletico_Nacional_Potosi.svg/250px-Club_Atletico_Nacional_Potosi.svg.png",
+    "city_country": "Potosí, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.A._Nacional_Potos%C3%AD"
+  },
+  {
+    "club_name": "Real Tomayapo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/CD_Real_Tomayapo.png/250px-CD_Real_Tomayapo.png",
+    "city_country": "Tarija, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Real_Tomayapo"
+  },
+  {
+    "club_name": "Totora Real Oruro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/CDT_Real_Oruro.png/250px-CDT_Real_Oruro.png",
+    "city_country": "Oruro, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/CDT_Real_Oruro"
+  },
+  {
+    "club_name": "Universitario de Vinto",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Universitario_de_Vinto.png/250px-Universitario_de_Vinto.png",
+    "city_country": "Cochabamba, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._Universitario_de_Vinto"
+  },
+    {
+    "club_name": "CD San José",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/CD_San_Jose.png/250px-CD_San_Jose.png",
+    "city_country": "Oruro, Bolivia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_San_Jos%C3%A9"
+  },
+    {
+    "club_name": "Academia Puerto Cabello",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Academia_Puerto_Cabello.png/250px-Academia_Puerto_Cabello.png",
+    "city_country": "Puerto Cabello, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Academia_Puerto_Cabello"
+  },
+  {
+    "club_name": "Anzoátegui",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Anzo%C3%A1tegui_FC.png/250px-Anzo%C3%A1tegui_FC.png",
+    "city_country": "Puerto La Cruz, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Anzo%C3%A1tegui_F.C."
+  },
+  {
+    "club_name": "Carabobo",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnonBcrJFKBtQ5PahEdpY_mnG3-FMkY4LdtU9KXkgFU1bz5TKhKp5K0HoqSypWSh-OQ8lJ8dZlt5ZY3G14-8VgSqpDjVr8THAkRVFHywWkYthyeDVFNJ5UubzTPuM8KXbRgTVH2CJD-fg/",
+    "city_country": "Valencia, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Carabobo_F.C."
+  },
+  {
+    "club_name": "Estudiantes de Mérida",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Estudiantes_de_M%C3%A9rida_F.C.png/250px-Estudiantes_de_M%C3%A9rida_F.C.png",
+    "city_country": "Mérida, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Estudiantes_de_M%C3%A9rida_F.C."
+  },
+  {
+    "club_name": "Metropolitanos",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Metropolitanos_FC.png/250px-Metropolitanos_FC.png",
+    "city_country": "Caracas, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Metropolitanos_F.C."
+  },
+  {
+    "club_name": "Monagas SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Monagas_SC.png/250px-Monagas_SC.png",
+    "city_country": "Maturín, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Monagas_S.C."
+  },
+  {
+    "club_name": "Portuguesa",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjREY3d188frDysTnkgWZnJQFR11bNXwvQ_l_WbyOdrkwAp8XC2WjKXXvKYCIt4RDalq4YRNWwua7SvX6XD9lWWNF23t_VCqXGhtL0JLLrY3VYlYlGjlruXJzc6PCBaHeMTUO4OisqUBKw/s1600/Portuguesa+FC256x.png",
+    "city_country": "Acarigua, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Portuguesa_F.C."
+  },
+  {
+    "club_name": "Rayo Zuliano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Deportivo_Rayo_Zuliano.png/250px-Deportivo_Rayo_Zuliano.png",
+    "city_country": "Maracaibo, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Rayo_Zuliano"
+  },
+  {
+    "club_name": "Universidad Central",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Universidad_Central_FC.png/250px-Universidad_Central_FC.png",
+    "city_country": "Caracas, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Universidad_Central_de_Venezuela_F.C."
+  },
+  {
+    "club_name": "Yaracuyanos",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Yaracuyanos_FC.png/250px-Yaracuyanos_FC.png",
+    "city_country": "San Felipe, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yaracuyanos_F.C."
   }
 ]
