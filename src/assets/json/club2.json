@@ -1,8 +1,122 @@
 [
+    {
+    "club_name": "ABC",
+    "club_logo": "",
+    "city_country": "Natal, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/ABC_Futebol_Clube"
+  },
   {
-    "club_name": "Afumați",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/ro/thumb/9/9d/CS_Afumati.svg/180px-CS_Afumati.svg.png",
-    "city_country": "Afumați, Romania",
-    "wiki_url": "https://en.wikipedia.org/wiki/CS_Afuma%C8%9Bi" 
+    "club_name": "Anápolis",
+    "club_logo": "",
+    "city_country": "Anápolis, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Anápolis_Futebol_Clube"
+  },
+  {
+    "club_name": "Botafogo-PB",
+    "club_logo": "",
+    "city_country": "João Pessoa, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Botafogo_PB"
+  },
+  {
+    "club_name": "Brusque",
+    "club_logo": "",
+    "city_country": "Brusque, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brusque_FC"
+  },
+  {
+    "club_name": "Caxias",
+    "club_logo": "",
+    "city_country": "Caxias do Sul, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/ Sociedade_Esportiva_e_Recreativa_Caxias_do_Sul"
+  },
+  {
+    "club_name": "Confiança",
+    "club_logo": "",
+    "city_country": "Aracaju, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associação_Desportiva_Confiança"
+  },
+  {
+    "club_name": "CSA",
+    "club_logo": "",
+    "city_country": "Maceió, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/CSA_(Brazilian_football_club)"
+  },
+  {
+    "club_name": "Figueirense",
+    "club_logo": "",
+    "city_country": "Florianópolis, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Figueirense_FC"
+  },
+  {
+    "club_name": "Floresta",
+    "club_logo": "",
+    "city_country": "Fortaleza, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Floresta_Esporte_Clube"
+  },
+  {
+    "club_name": "Guarani",
+    "club_logo": "",
+    "city_country": "Campinas, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guarani_FC"
+  },
+  {
+    "club_name": "Itabaiana",
+    "club_logo": "",
+    "city_country": "Itabaiana, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Itabaiana"
+  },
+  {
+    "club_name": "Ituano",
+    "club_logo": "",
+    "city_country": "Itu, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ituano_Futebol_Clube"
+  },
+  {
+    "club_name": "Londrina",
+    "club_logo": "",
+    "city_country": "Londrina, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Londrina_Esporte_Clube"
+  },
+  {
+    "club_name": "Maringá",
+    "club_logo": "",
+    "city_country": "Maringá, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Maringá_FC"
+  },
+  {
+    "club_name": "Náutico",
+    "club_logo": "",
+    "city_country": "Recife, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Clube_Náutico_Capibaribe"
+  },
+  {
+    "club_name": "Ponte Preta",
+    "club_logo": "",
+    "city_country": "Campinas, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associação_Botafogo_Futebol_Clube"
+  },
+  {
+    "club_name": "Retrô",
+    "club_logo": "",
+    "city_country": "Camaragibe, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Retrô_FC"
+  },
+  {
+    "club_name": "São Bernardo",
+    "club_logo": "",
+    "city_country": "São Bernardo do Campo, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/São_Bernardo_Futebol_Clube"
+  },
+  {
+    "club_name": "Tombense",
+    "club_logo": "",
+    "city_country": "Tombos, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tombense_Futebol_Clube"
+  },
+  {
+    "club_name": "Ypiranga (RS)",
+    "club_logo": "",
+    "city_country": "Erechim, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ypiranga_Futebol_Clube_(Erechim)"
   }
 ]
