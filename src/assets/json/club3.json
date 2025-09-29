@@ -1,0 +1,98 @@
+[
+      {
+    "club_name": "Alajuelense",
+    "club_logo": "",
+    "city_country": "Alajuela, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/LD_Alajuelense"
+  },
+  {
+    "club_name": "Cartaginés",
+    "club_logo": "",
+    "city_country": "Cartago, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/CS_Cartagin%C3%A9s"
+  },
+  {
+    "club_name": "Guadalupe",
+    "club_logo": "",
+    "city_country": "Guadalupe, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guadalupe_FC"
+  },
+  {
+    "club_name": "Municipal Liberia",
+    "club_logo": "",
+    "city_country": "Liberia, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.D._Municipal_Liberia"
+  },
+  {
+    "club_name": "Pérez Zeledón",
+    "club_logo": "",
+    "city_country": "San Isidro de El General, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Asociaci%C3%B3n_Deportiva_P%C3%A9rez_Zeled%C3%B3n"
+  },
+  {
+    "club_name": "Puntarenas",
+    "club_logo": "",
+    "city_country": "Puntarenas, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Puntarenas_FC"
+  },
+  {
+    "club_name": "San Carlos",
+    "club_logo": "",
+    "city_country": "Ciudad Quesada, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/San_Carlos_FC"
+  },
+  {
+    "club_name": "Sporting F.C.",
+    "club_logo": "",
+    "city_country": "San José, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sporting_FC_(Costa_Rica)"
+  },
+    {
+    "club_name": "ART Jalapa",
+    "club_logo": "",
+    "city_country": "Jalapa, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/ART_Jalapa"
+  },
+  {
+    "club_name": "CS Sebaco",
+    "club_logo": "",
+    "city_country": "Sebaco, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.S._Sebaco"
+  },
+  {
+    "club_name": "Managua",
+    "club_logo": "",
+    "city_country": "Managua, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/Managua_F.C."
+  },
+  {
+    "club_name": "Matagalpa",
+    "club_logo": "",
+    "city_country": "Matagalpa, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/Matagalpa_F.C."
+  },
+  {
+    "club_name": "Real Madriz",
+    "club_logo": "",
+    "city_country": "Somoto, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Madriz_F.C."
+  },
+  {
+    "club_name": "Real Madriz",
+    "club_logo": "",
+    "city_country": "Somoto, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Madriz_F.C."
+  },
+  {
+    "club_name": "Rancho Santana",
+    "club_logo": "",
+    "city_country": "San Juan del Sur, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rancho_Santana_F.C."
+  },
+  {
+    "club_name": "Rio Blanco",
+    "club_logo": "",
+    "city_country": "Rio Blanco, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/R%C3%ADo_Blanco_F.C."
+  }
+]

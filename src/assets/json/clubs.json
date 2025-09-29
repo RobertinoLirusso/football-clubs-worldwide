@@ -14973,5 +14973,221 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Yaracuyanos_FC.png/250px-Yaracuyanos_FC.png",
     "city_country": "San Felipe, Venezuela",
     "wiki_url": "https://en.wikipedia.org/wiki/Yaracuyanos_F.C."
-  }
+  },
+    {
+    "club_name": "Boston River",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Escudo_Boston_River_2019.png/250px-Escudo_Boston_River_2019.png",
+    "city_country": "Florida, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Boston_River"
+  },
+  {
+    "club_name": "Cerro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/CACerro_logo.png/250px-CACerro_logo.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.A._Cerro"
+  },
+  {
+    "club_name": "Cerro Largo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Cerro_Largo_2020.png/250px-Cerro_Largo_2020.png",
+    "city_country": "Melo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cerro_Largo_F.C."
+  },
+  {
+    "club_name": "Danubio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Escudo_oficial_de_Danubio_FC.png/250px-Escudo_oficial_de_Danubio_FC.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Danubio_F.C."
+  },
+  {
+    "club_name": "Juventud de Las Piedras",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Juventud_de_Las_Piedras.png/250px-Juventud_de_Las_Piedras.png",
+    "city_country": "Las Piedras, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Juventud_de_Las_Piedras"
+  },
+  {
+    "club_name": "Liverpool",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Liverpool_fc_uy_logo.png/250px-Liverpool_fc_uy_logo.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Liverpool_F.C._(Montevideo)"
+  },
+  {
+    "club_name": "Miramar Misiones",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/CS_Miramar_Misiones.png/250px-CS_Miramar_Misiones.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Miramar_Misiones"
+  },
+  {
+    "club_name": "Montevideo Wanderers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Escudo_del_Montevideo_Wanderers_Futbol_Club.png/250px-Escudo_del_Montevideo_Wanderers_Futbol_Club.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Montevideo_Wanderers_F.C."
+  },
+  {
+    "club_name": "Plaza Colonia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Nuevo_escudo_Club_Plaza_Colonia_de_Deportes.png/250px-Nuevo_escudo_Club_Plaza_Colonia_de_Deportes.png",
+    "city_country": "Colonia del Sacramento, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Plaza_Colonia_de_Deportes"
+  },
+  {
+    "club_name": "Progreso",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Club_Atletico_Progreso_2023.png/250px-Club_Atletico_Progreso_2023.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.A._Progreso"
+  },
+  {
+    "club_name": "Racing de Montevideo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Racing_Club_Escudo.png/250px-Racing_Club_Escudo.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Racing_Club_de_Montevideo"
+  },
+  {
+    "club_name": "CA River Plate",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Club_Atletico_River_Plate.svg/250px-Club_Atletico_River_Plate.svg.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_River_Plate_(Montevideo)"
+  },
+    {
+    "club_name": "ADT",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Asociaci%C3%B3n_Deportiva_Tarma.png/250px-Asociaci%C3%B3n_Deportiva_Tarma.png",
+    "city_country": "Tarma, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Asociaci%C3%B3n_Deportiva_Tarma"
+  },
+  {
+    "club_name": "Alianza Atlético",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Alianza_Atl%C3%A9tico.png/250px-Alianza_Atl%C3%A9tico.png",
+    "city_country": "Sullana, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alianza_Atl%C3%A9tico"
+  },
+  {
+    "club_name": "Alianza Universidad",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Alianza_Universidad.png/250px-Alianza_Universidad.png",
+    "city_country": "Huánuco, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alianza_Universidad"
+  },
+  {
+    "club_name": "Atlético Grau",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Escudo_club_atletico_grau.png/250px-Escudo_club_atletico_grau.png",
+    "city_country": "Piura, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Grau"
+  },
+  {
+    "club_name": "Ayacucho FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Ayacucho_FC.png/250px-Ayacucho_FC.png",
+    "city_country": "Ayacucho, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ayacucho_FC"
+  },
+  {
+    "club_name": "Binacional",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Deportivo_Binacional.png/250px-Deportivo_Binacional.png",
+    "city_country": "Juliaca, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Binacional_FC"
+  },
+  {
+    "club_name": "Comerciantes Unidos",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Logo_of_Comerciantes_Unidos_%282024%29.png/250px-Logo_of_Comerciantes_Unidos_%282024%29.png",
+    "city_country": "Cutervo, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Comerciantes_Unidos"
+  },
+  {
+    "club_name": "Deportivo Garcilaso",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Deportivo_Garcilaso_logo.png/250px-Deportivo_Garcilaso_logo.png",
+    "city_country": "Cusco, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Garcilaso"
+  },
+  {
+    "club_name": "Los Chankas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/LosChankasLogo.png/250px-LosChankasLogo.png",
+    "city_country": "Andahuaylas, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Deportivo_Los_Chankas"
+  },
+  {
+    "club_name": "Sport Boys",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Sport_Boys_As.svg/250px-Sport_Boys_As.svg.png",
+    "city_country": "Callao, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sport_Boys"
+  },
+  {
+    "club_name": "Sport Huancayo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Sport_Huancayo.png/250px-Sport_Huancayo.png",
+    "city_country": "Huancayo, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sport_Huancayo"
+  },
+  {
+    "club_name": "UTC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/UTC_Cajamarca.svg/250px-UTC_Cajamarca.svg.png",
+    "city_country": "Cajamarca, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Universidad_T%C3%A9cnica_de_Cajamarca"
+  },
+  {
+    "club_name": "Universidad de San Martín de Porres",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Club_USMP.png/250px-Club_USMP.png",
+    "city_country": "Lima, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Deportivo_Universidad_de_San_Mart%C3%ADn_de_Porres"
+  },
+    {
+    "club_name": "Delfín",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Delf%C3%ADn_SC_logo.png/250px-Delf%C3%ADn_SC_logo.png",
+    "city_country": "Manta, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/Delf%C3%ADn_S.C."
+  },
+  {
+    "club_name": "Deportivo Cuenca",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Deportivo_Cuenca.png/250px-Deportivo_Cuenca.png",
+    "city_country": "Cuenca, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Cuenca"
+  },
+  {
+    "club_name": "El Nacional",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/El_nacional_quito.png/250px-El_nacional_quito.png",
+    "city_country": "Quito, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._El_Nacional"
+  },
+  {
+    "club_name": "Emelec",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Club-Sport-Emelec2.png/250px-Club-Sport-Emelec2.png",
+    "city_country": "Guayaquil, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.S._Emelec"
+  },
+  {
+    "club_name": "Libertad",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Libertad_FC_Ecuador.png/250px-Libertad_FC_Ecuador.png",
+    "city_country": "Loja, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/Libertad_F.C._(Ecuador)"
+  },
+  {
+    "club_name": "Macará",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Macara_6.png/250px-Macara_6.png",
+    "city_country": "Ambato, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.S.D._Macar%C3%A1"
+  },
+  {
+    "club_name": "Manta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Manta_F.C.png/250px-Manta_F.C.png",
+    "city_country": "Manta, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/Manta_F.C."
+  },
+  {
+    "club_name": "Orense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Orense_SC_logo.png/250px-Orense_SC_logo.png",
+    "city_country": "Machala, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/Orense_S.C."
+  },
+  {
+    "club_name": "Técnico Universitario",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Rodillo_Rojo_TU.svg/250px-Rodillo_Rojo_TU.svg.png",
+    "city_country": "Ambato, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._T%C3%A9cnico_Universitario"
+  },
+  {
+    "club_name": "Universidad Católica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Universidad_Cat%C3%B3lica_del_Ecuador.png/250px-Universidad_Cat%C3%B3lica_del_Ecuador.png",
+    "city_country": "Quito, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Universidad_Cat%C3%B3lica_del_Ecuador"
+  },
+  {
+    "club_name": "Vinotinto Ecuador",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Vinotinto_FC_Ecuador.png/250px-Vinotinto_FC_Ecuador.png",
+    "city_country": "Cayambe, Ecuador",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vinotinto_F.C._Ecuador"
+  },
 ]

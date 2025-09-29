@@ -1,149 +1,5 @@
 [
-  {
-    "club_name": "Boston River",
-    "club_logo": "",
-    "city_country": "Florida, Uruguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/Boston_River"
-  },
-  {
-    "club_name": "Cerro",
-    "club_logo": "",
-    "city_country": "Montevideo, Uruguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/C.A._Cerro"
-  },
-  {
-    "club_name": "Cerro Largo",
-    "club_logo": "",
-    "city_country": "Melo, Uruguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/Cerro_Largo_F.C."
-  },
-  {
-    "club_name": "Danubio",
-    "club_logo": "",
-    "city_country": "Montevideo, Uruguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/Danubio_F.C."
-  },
-  {
-    "club_name": "Juventud",
-    "club_logo": "",
-    "city_country": "Las Piedras, Uruguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/C.A._Juventud"
-  },
-  {
-    "club_name": "Liverpool",
-    "club_logo": "",
-    "city_country": "Montevideo, Uruguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/Liverpool_F.C._(Montevideo)"
-  },
-  {
-    "club_name": "Miramar Misiones",
-    "club_logo": "",
-    "city_country": "Montevideo, Uruguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/Miramar_Misiones"
-  },
-  {
-    "club_name": "Montevideo Wanderers",
-    "club_logo": "",
-    "city_country": "Montevideo, Uruguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/Montevideo_Wanderers"
-  },
-  {
-    "club_name": "Plaza Colonia",
-    "club_logo": "",
-    "city_country": "Colonia del Sacramento, Uruguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/Plaza_Colonia"
-  },
-  {
-    "club_name": "Progreso",
-    "club_logo": "",
-    "city_country": "Montevideo, Uruguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/C.A._Progreso"
-  },
-  {
-    "club_name": "Racing",
-    "club_logo": "",
-    "city_country": "Montevideo, Uruguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/Racing_Club_de_Montevideo"
-  },
-  {
-    "club_name": "River Plate",
-    "club_logo": "",
-    "city_country": "Montevideo, Uruguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_River_Plate_(Uruguay)"
-  },
-    {
-    "club_name": "ADT",
-    "club_logo": "",
-    "city_country": "Tarma, Peru",
-    "wiki_url": "https://en.wikipedia.org/wiki/ADT_(Peruvian_football)"
-  },
-  {
-    "club_name": "Alianza Atlético",
-    "club_logo": "",
-    "city_country": "Sullana, Peru",
-    "wiki_url": "https://en.wikipedia.org/wiki/Alianza_Atl%C3%A9tico"
-  },
-  {
-    "club_name": "Alianza Universidad",
-    "club_logo": "",
-    "city_country": "Huánuco, Peru",
-    "wiki_url": "https://en.wikipedia.org/wiki/Alianza_Universidad"
-  },
-  {
-    "club_name": "Atlético Grau",
-    "club_logo": "",
-    "city_country": "Sullana, Peru",
-    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Grau"
-  },
-  {
-    "club_name": "Ayacucho FC",
-    "club_logo": "",
-    "city_country": "Ayacucho, Peru",
-    "wiki_url": "https://en.wikipedia.org/wiki/Ayacucho_FC"
-  },
-  {
-    "club_name": "Binacional",
-    "club_logo": "",
-    "city_country": "Juliaca, Peru",
-    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Binacional_FC"
-  },
-  {
-    "club_name": "Comerciantes Unidos",
-    "club_logo": "",
-    "city_country": "Cutervo, Peru",
-    "wiki_url": "https://en.wikipedia.org/wiki/Comerciantes_Unidos"
-  },
-  {
-    "club_name": "Deportivo Garcilaso",
-    "club_logo": "",
-    "city_country": "Cusco, Peru",
-    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Garcilaso"
-  },
-  {
-    "club_name": "Los Chankas",
-    "club_logo": "",
-    "city_country": "Andahuaylas, Peru",
-    "wiki_url": "https://en.wikipedia.org/wiki/Los_Chankas"
-  },
-  {
-    "club_name": "Sport Boys",
-    "club_logo": "",
-    "city_country": "Callao, Peru",
-    "wiki_url": "https://en.wikipedia.org/wiki/Sport_Boys"
-  },
-  {
-    "club_name": "Sport Huancayo",
-    "club_logo": "",
-    "city_country": "Huancayo, Peru",
-    "wiki_url": "https://en.wikipedia.org/wiki/Sport_Huancayo"
-  },
-  {
-    "club_name": "UTC",
-    "club_logo": "",
-    "city_country": "Cajamarca, Peru",
-    "wiki_url": "https://en.wikipedia.org/wiki/UTC_(Peruvian_football_club)"
-  },
-    {
+{
     "club_name": "2 de Mayo",
     "club_logo": "",
     "city_country": "Pedro Juan Caballero, Paraguay",
@@ -180,72 +36,6 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Tembetary"
   },
   {
-    "club_name": "Delfín",
-    "club_logo": "",
-    "city_country": "Manta, Ecuador",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
-  },
-  {
-    "club_name": "Deportivo Cuenca",
-    "club_logo": "",
-    "city_country": "Cuenca, Ecuador",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
-  },
-  {
-    "club_name": "El Nacional",
-    "club_logo": "",
-    "city_country": "Quito, Ecuador",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
-  },
-  {
-    "club_name": "Emelec",
-    "club_logo": "",
-    "city_country": "Guayaquil, Ecuador",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
-  },
-  {
-    "club_name": "Libertad",
-    "club_logo": "",
-    "city_country": "Loja, Ecuador",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
-  },
-  {
-    "club_name": "Macará",
-    "club_logo": "",
-    "city_country": "Ambato, Ecuador",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
-  },
-  {
-    "club_name": "Manta",
-    "club_logo": "",
-    "city_country": "Manta, Ecuador",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
-  },
-  {
-    "club_name": "Orense",
-    "club_logo": "",
-    "city_country": "Machala, Ecuador",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
-  },
-  {
-    "club_name": "Técnico Universitario",
-    "club_logo": "",
-    "city_country": "Ambato, Ecuador",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
-  },
-  {
-    "club_name": "Universidad Católica",
-    "club_logo": "",
-    "city_country": "Quito, Ecuador",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
-  },
-  {
-    "club_name": "Vinotinto Ecuador",
-    "club_logo": "",
-    "city_country": "Quito, Ecuador",
-    "wiki_url": "https://en.wikipedia.org/wiki/2025_Ecuadorian_Serie_A#Teams"
-  },
-    {
     "club_name": "Audax Italiano",
     "club_logo": "",
     "city_country": "Santiago, Chile",
@@ -358,5 +148,101 @@
     "club_logo": "",
     "city_country": "Santa Marta, Colombia",
     "wiki_url": "https://en.wikipedia.org/wiki/Unión_Magdalena"
+  },
+    {
+    "club_name": "Broki",
+    "club_logo": "",
+    "city_country": "Paramaribo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.V._Broki"
+  },
+  {
+    "club_name": "Flora",
+    "club_logo": "",
+    "city_country": "Paramaribo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.V._Flora"
+  },
+  {
+    "club_name": "Inter Moengotapoe",
+    "club_logo": "",
+    "city_country": "Moengo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/Inter_Moengotapoe"
+  },
+  {
+    "club_name": "Inter Wanica",
+    "club_logo": "",
+    "city_country": "Meerzorg, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._Inter_Wanica"
+  },
+  {
+    "club_name": "Leo Victor",
+    "club_logo": "",
+    "city_country": "Paramaribo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.V._Leo_Victor"
+  },
+  {
+    "club_name": "Notch",
+    "club_logo": "",
+    "city_country": "Moengo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.V._Notch"
+  },
+  {
+    "club_name": "Politie Voetbal Vrienden (PVV)",
+    "club_logo": "",
+    "city_country": "Paramaribo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/Politie_Voetbal_Vrienden"
+  },
+  {
+    "club_name": "Robinhood",
+    "club_logo": "",
+    "city_country": "Paramaribo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.V._Robinhood"
+  },
+  {
+    "club_name": "Voorwaarts",
+    "club_logo": "",
+    "city_country": "Paramaribo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.V._Voorwaarts"
+  },
+    {
+    "club_name": "FC Aqisseq Kangaatsiaq",
+    "club_logo": "",
+    "city_country": "Kangaatsiaq, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Aqisseq_Kangaatsiaq"
+  },
+  {
+    "club_name": "B-67 Nuuk",
+    "club_logo": "",
+    "city_country": "Nuuk, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/B-67_Nuuk"
+  },
+  {
+    "club_name": "G-44 Qeqertarsuaq",
+    "club_logo": "",
+    "city_country": "Qeqertarsuaq, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/G-44_Qeqertarsuaq"
+  },
+  {
+    "club_name": "Inuit Timersoqatigiiffiat-79",
+    "club_logo": "",
+    "city_country": "Nuuk, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Inuit_Timersoqatigiiffiat-79"
+  },
+  {
+    "club_name": "Nagdlunguaq-48",
+    "club_logo": "",
+    "city_country": "Ilulissat, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nagdlunguaq-48"
+  },
+  {
+    "club_name": "Siumut Amerdlok Kunuk",
+    "club_logo": "",
+    "city_country": "Sisimiut, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Siumut_Amerdlok_Kunuk"
+  },
+  {
+    "club_name": "UB-83 Upernavik",
+    "club_logo": "",
+    "city_country": "Upernavik, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/UB-83_Upernavik"
   }
 ]
