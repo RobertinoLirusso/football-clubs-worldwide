@@ -3384,7 +3384,7 @@
   },
   {
     "club_name": "Union Brescia",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Union_Brescia_logo.svg/250px-Union_Brescia_logo.svg.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-_qSJG66Sv_UwTsq3PjRarU6byJFdwPOOcgzN-QduBv7uQuwKJKb3oIVrvslIJP2ow2-8q3rrUwPlujc_0emwhfqu5nkbbj_t3RFKzBRiDHTJ-JbAOb8K8z4x1Erf0T1pot3zxxBd-XP3BKsxR00XXGrAgnZC0g7wuAwQF_gOElHfFNObZK2j-fcRfAA/s1600/Union%20Brescia256x.png",
     "city_country": "Brescia, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Union_Brescia"
   },
@@ -8634,7 +8634,7 @@
   },
     {
     "club_name": "Trapani",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/FC_Trapani_1905_Logo.svg/250px-FC_Trapani_1905_Logo.svg.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIKdrnwwQVKk-Aw3C5FxcrEi1jvC7Xlg3KaZwb0PTTPZR0K6HPrE8iDj_UCPtwlPnFdVJNmzVEnlUixUaOgh3xFDUUqT-XjtJLNBfvAOiQQjOLu7Hs1Qk2VxFydCZ8oQJ4n4U2nWe8eDh7y1EM_5P014Qg4y9LG3ilg5KzCpl0XKx2fmnCKbs7QMRKfDI/s1600/FC%20Trapani256x.png",
     "city_country": "Trapani, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Trapani_1905"
   },
@@ -11196,7 +11196,7 @@
   },
     {
     "club_name": "AS FAR",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/ASFAR_%28football_club%29_logo.png/250px-ASFAR_%28football_club%29_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/9/95/%D8%B4%D8%B9%D8%A7%D8%B1_%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%AC%D9%8A%D8%B4_%D8%A7%D9%84%D9%85%D9%84%D9%83%D9%8A.png/250px-%D8%B4%D8%B9%D8%A7%D8%B1_%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%AC%D9%8A%D8%B4_%D8%A7%D9%84%D9%85%D9%84%D9%83%D9%8A.png",
     "city_country": "Rabat, Morocco",
     "wiki_url": "https://en.wikipedia.org/wiki/AS_FAR"
   },
@@ -11250,7 +11250,7 @@
   },
   {
     "club_name": "Ittihad Tanger",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4b/IttihadRiadiTanger.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/7/72/%D8%B4%D8%B9%D8%A7%D8%B1_%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%B7%D9%86%D8%AC%D8%A9.png/250px-%D8%B4%D8%B9%D8%A7%D8%B1_%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%B7%D9%86%D8%AC%D8%A9.png",
     "city_country": "Tangier, Morocco",
     "wiki_url": "https://en.wikipedia.org/wiki/IR_Tangier"
   },
@@ -14838,7 +14838,7 @@
   },
   {
     "club_name": "Ypiranga",
-    "club_logo": "https://en.wikipedia.org/wiki/Ypiranga_Futebol_Clube",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ypiranga_Futebol_Clube.png/250px-Ypiranga_Futebol_Clube.png",
     "city_country": "Erechim, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Ypiranga_Futebol_Clube"
   },
@@ -15005,7 +15005,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Juventud_de_Las_Piedras"
   },
   {
-    "club_name": "Liverpool",
+    "club_name": "Liverpool FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Liverpool_fc_uy_logo.png/250px-Liverpool_fc_uy_logo.png",
     "city_country": "Montevideo, Uruguay",
     "wiki_url": "https://en.wikipedia.org/wiki/Liverpool_F.C._(Montevideo)"
@@ -15189,5 +15189,107 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Vinotinto_FC_Ecuador.png/250px-Vinotinto_FC_Ecuador.png",
     "city_country": "Cayambe, Ecuador",
     "wiki_url": "https://en.wikipedia.org/wiki/Vinotinto_F.C._Ecuador"
+  },
+  {
+    "club_name": "2 de Mayo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Escudo_Oficial_del_Club_2_de_Mayo_de_Paraguay.svg/250px-Escudo_Oficial_del_Club_2_de_Mayo_de_Paraguay.svg.png",
+    "city_country": "Pedro Juan Caballero, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_2_de_Mayo"
+  },
+  {
+    "club_name": "General Caballero (JLM)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/General_Caballero_JLM.png/250px-General_Caballero_JLM.png",
+    "city_country": "Juan León Mallorquín, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_General_Caballero_(Juan_Le%C3%B3n_Mallorqu%C3%ADn)"
+  },
+  {
+    "club_name": "Sportivo Ameliano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Club_Sportivo_Ameliano.png/250px-Club_Sportivo_Ameliano.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sportivo_Ameliano"
+  },
+  {
+    "club_name": "Sportivo Trinidense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Club_Sportivo_Trinidense.svg/250px-Club_Sportivo_Trinidense.svg.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sportivo_Trinidense"
+  },
+  {
+    "club_name": "Deportivo Recoleta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Deportivo_Recoleta_logo.png/250px-Deportivo_Recoleta_logo.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Recoleta_FC"
+  },
+  {
+    "club_name": "Tembetary",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Atl%C3%A9tico_Tembetary.png/250px-Atl%C3%A9tico_Tembetary.png",
+    "city_country": "Villa Elisa, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Tembetary"
+  },
+    {
+    "club_name": "Audax Italiano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Audax_Italiano_Escudo.png/250px-Audax_Italiano_Escudo.png",
+    "city_country": "Santiago, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Audax_Italiano"
+  },
+  {
+    "club_name": "Coquimbo Unido",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Coquimbo_Unido.png/250px-Coquimbo_Unido.png",
+    "city_country": "Coquimbo, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Coquimbo_Unido"
+  },
+  {
+    "club_name": "Deportes La Serena",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Club_de_Deportes_La_Serena_team_logo.png/250px-Club_de_Deportes_La_Serena_team_logo.png",
+    "city_country": "La Serena, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_La_Serena"
+  },
+  {
+    "club_name": "Deportes Limache",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Deportes_Limache.png/250px-Deportes_Limache.png",
+    "city_country": "Limache, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Limache"
+  },
+  {
+    "club_name": "Everton",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Everton_De_Vi%C3%B1a_Del_Mar.png/250px-Everton_De_Vi%C3%B1a_Del_Mar.png",
+    "city_country": "Viña del Mar, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Everton_de_Vi%C3%B1a_del_Mar"
+  },
+  {
+    "club_name": "Huachipato",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/LogoHFC.png/250px-LogoHFC.png",
+    "city_country": "Talcahuano, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Huachipato_FC"
+  },
+  {
+    "club_name": "Ñublense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/%C3%91ublense.png/250px-%C3%91ublense.png",
+    "city_country": "Chillán, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%91ublense"
+  },
+  {
+    "club_name": "O'Higgins",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/O%27Higgins_FC.png/250px-O%27Higgins_FC.png",
+    "city_country": "Rancagua, Chile",
+    "wiki_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/O%27Higgins_FC.png/250px-O%27Higgins_FC.png"
+  },
+  {
+    "club_name": "Palestino",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Escudo_Oficial_Palestino.png/250px-Escudo_Oficial_Palestino.png",
+    "city_country": "Santiago, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Deportivo_Palestino"
+  },
+  {
+    "club_name": "Unión La Calera",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Uni%C3%B3n_La_Calera.png/250px-Uni%C3%B3n_La_Calera.png",
+    "city_country": "La Calera, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Uni%C3%B3n_La_Calera"
+  },
+    {
+    "club_name": "Cobreloa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Escudo_cobreloa.svg/250px-Escudo_cobreloa.svg.png",
+    "city_country": "Calama, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Cobreloa"
   }
 ]

@@ -1,100 +1,4 @@
 [
-{
-    "club_name": "2 de Mayo",
-    "club_logo": "",
-    "city_country": "Pedro Juan Caballero, Paraguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/2_de_Mayo_(Paraguayan_football_club)"
-  },
-  {
-    "club_name": "General Caballero (JLM)",
-    "club_logo": "",
-    "city_country": "Juan León Mallorquín, Paraguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/General_Caballero_(JLM)"
-  },
-  {
-    "club_name": "Sportivo Ameliano",
-    "club_logo": "",
-    "city_country": "Villeta, Paraguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/Sportivo_Ameliano"
-  },
-  {
-    "club_name": "Sportivo Trinidense",
-    "club_logo": "",
-    "city_country": "Asunción, Paraguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/Sportivo_Trinidense"
-  },
-  {
-    "club_name": "Deportivo Recoleta",
-    "club_logo": "",
-    "city_country": "Asunción, Paraguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Recoleta_(Paraguay)"
-  },
-  {
-    "club_name": "Tembetary",
-    "club_logo": "",
-    "city_country": "Villa Elisa, Paraguay",
-    "wiki_url": "https://en.wikipedia.org/wiki/Tembetary"
-  },
-  {
-    "club_name": "Audax Italiano",
-    "club_logo": "",
-    "city_country": "Santiago, Chile",
-    "wiki_url": "https://en.wikipedia.org/wiki/Audax_Italiano"
-  },
-  {
-    "club_name": "Coquimbo Unido",
-    "club_logo": "",
-    "city_country": "Coquimbo, Chile",
-    "wiki_url": "https://en.wikipedia.org/wiki/Coquimbo_Unido"
-  },
-  {
-    "club_name": "Deportes La Serena",
-    "club_logo": "",
-    "city_country": "La Serena, Chile",
-    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_La_Serena"
-  },
-  {
-    "club_name": "Deportes Limache",
-    "club_logo": "",
-    "city_country": "Limache, Chile",
-    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Limache"
-  },
-  {
-    "club_name": "Everton",
-    "club_logo": "",
-    "city_country": "Viña del Mar, Chile",
-    "wiki_url": "https://en.wikipedia.org/wiki/Everton_de_Vi%C3%B1a_del_Mar"
-  },
-  {
-    "club_name": "Huachipato",
-    "club_logo": "",
-    "city_country": "Talcahuano, Chile",
-    "wiki_url": "https://en.wikipedia.org/wiki/Huachipato"
-  },
-  {
-    "club_name": "Ñublense",
-    "club_logo": "",
-    "city_country": "Chillán, Chile",
-    "wiki_url": "https://en.wikipedia.org/wiki/%C3%91ublense"
-  },
-  {
-    "club_name": "O'Higgins",
-    "club_logo": "",
-    "city_country": "Rancagua, Chile",
-    "wiki_url": "https://en.wikipedia.org/wiki/O%27Higgins_F.C."
-  },
-  {
-    "club_name": "Palestino",
-    "club_logo": "",
-    "city_country": "Santiago, Chile",
-    "wiki_url": "https://en.wikipedia.org/wiki/Club_de_Fútbol_Palestino"
-  },
-  {
-    "club_name": "Unión La Calera",
-    "club_logo": "",
-    "city_country": "La Calera, Chile",
-    "wiki_url": "https://en.wikipedia.org/wiki/Unión_La_Calera"
-  },
   {
     "club_name": "Alianza",
     "club_logo": "",
@@ -244,5 +148,107 @@
     "club_logo": "",
     "city_country": "Upernavik, Greenland",
     "wiki_url": "https://en.wikipedia.org/wiki/UB-83_Upernavik"
+  },
+  {
+    "club_name": "Brooklyn FC",
+    "club_logo": "",
+    "city_country": "New York, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brooklyn_FC"
+  },
+  {
+    "club_name": "Sporting Club Jacksonville",
+    "club_logo": "",
+    "city_country": "Jacksonville, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sporting_Club_Jacksonville"
+  },
+  {
+    "club_name": "Santa Barbara Sky FC",
+    "club_logo": "",
+    "city_country": "Santa Barbara, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Santa_Barbara_Sky_FC"
+  },
+  {
+    "club_name": "Buffalo Pro Soccer",
+    "club_logo": "",
+    "city_country": "Buffalo, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Buffalo_Pro_Soccer"
+  },
+  {
+    "club_name": "Atlético Dallas",
+    "club_logo": "",
+    "city_country": "Garland, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Dallas"
+  },
+  {
+    "club_name": "Ozark United FC",
+    "club_logo": "",
+    "city_country": "Rogers, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ozark_United_FC"
+  },
+   {
+    "club_name": "Milwaukee Pro Soccer",
+    "club_logo": "",
+    "city_country": "Milwaukee, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Milwaukee_Pro_Soccer"
+  },
+  {
+    "club_name": "USL Pro Iowa",
+    "club_logo": "",
+    "city_country": "Des Moines, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/USL_Pro_Iowa"
+  },
+  {
+    "club_name": "USL Palm Beach",
+    "club_logo": "",
+    "city_country": "Palm Beach County, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/USL_Palm_Beach"
+  },
+  {
+    "club_name": "Austin Aztex",
+    "club_logo": "",
+    "city_country": "Austin, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Austin_Aztex"
+  },
+  {
+    "club_name": "Austin Bold FC",
+    "club_logo": "",
+    "city_country": "Austin, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Austin_Bold_FC"
+  },
+  {
+    "club_name": "Charlotte Eagles",
+    "club_logo": "",
+    "city_country": "Charlotte, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Charlotte_Eagles"
+  },
+  {
+    "club_name": "Dayton Dutch Lions",
+    "club_logo": "",
+    "city_country": "West Carrollton, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dayton_Dutch_Lions"
+  },
+  {
+    "club_name": "FC Montreal",
+    "club_logo": "",
+    "city_country": "Montreal, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Montreal"
+  },
+  {
+    "club_name": "F.C. New York",
+    "club_logo": "",
+    "city_country": "New York, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._New_York"
+  },
+  {
+    "club_name": "Fresno FC",
+    "club_logo": "",
+    "city_country": "Fresno, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fresno_FC"
+  },
+  {
+    "club_name": "Harrisburg City Islanders",
+    "club_logo": "",
+    "city_country": "Harrisburg, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Harrisburg_City_Islanders"
   }
 ]
