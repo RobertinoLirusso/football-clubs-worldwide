@@ -15351,5 +15351,59 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Uni%C3%B3n_Magdalena.png/250px-Uni%C3%B3n_Magdalena.png",
     "city_country": "Santa Marta, Colombia",
     "wiki_url": "https://en.wikipedia.org/wiki/Uni%C3%B3n_Magdalena"
+  },
+    {
+    "club_name": "Broki",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/a/aa/Sport_Vereniging_Broki_emblema.png/250px-Sport_Vereniging_Broki_emblema.png",
+    "city_country": "Paramaribo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.V._Broki"
+  },
+  {
+    "club_name": "Flora",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/6/6a/Sport_Vereniging_Flora_emblema.png",
+    "city_country": "Paramaribo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/Flora_FC"
+  },
+  {
+    "club_name": "Inter Moengotapoe",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Inter_Moengotapoe.svg/250px-Inter_Moengotapoe.svg.png",
+    "city_country": "Moengo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/Inter_Moengotapoe"
+  },
+  {
+    "club_name": "Inter Wanica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/IWCLogo-500x500.png/250px-IWCLogo-500x500.png",
+    "city_country": "Meerzorg, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/N.V._Dash_F.C._Inter_Wanica"
+  },
+  {
+    "club_name": "SV Leo Victor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/SV_Leo_Victor.svg/250px-SV_Leo_Victor.svg.png",
+    "city_country": "Paramaribo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.V._Leo_Victor"
+  },
+  {
+    "club_name": "Notch",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/b/b9/SV_Notch_emblema.png/250px-SV_Notch_emblema.png",
+    "city_country": "Moengo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.V._Notch"
+  },
+  {
+    "club_name": "Politie Voetbal Vrienden (PVV)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/5/5e/Politie_Voetbal_Vrienden_emblema.png",
+    "city_country": "Paramaribo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/Politie_Voetbal_Vrienden"
+  },
+  {
+    "club_name": "Robinhood",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SV_Robinhood.png/250px-SV_Robinhood.png",
+    "city_country": "Paramaribo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.V._Robinhood"
+  },
+  {
+    "club_name": "Voorwaarts",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c0/SV_Voorwaarts.png",
+    "city_country": "Paramaribo, Suriname",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.V._Voorwaarts"
   }
 ]
