@@ -1,59 +1,5 @@
 [
   {
-    "club_name": "Alianza",
-    "club_logo": "",
-    "city_country": "Valledupar, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Alianza_F.C._(Colombia)"
-  },
-  {
-    "club_name": "Boyacá Chicó",
-    "club_logo": "",
-    "city_country": "Tunja, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Boyac%C3%A1_Chic%C3%B3_FC"
-  },
-  {
-    "club_name": "Deportes Tolima",
-    "club_logo": "",
-    "city_country": "Ibagué, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Tolima"
-  },
-  {
-    "club_name": "Deportivo Pereira",
-    "club_logo": "",
-    "city_country": "Pereira, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Pereira"
-  },
-  {
-    "club_name": "Envigado",
-    "club_logo": "",
-    "city_country": "Envigado, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Envigado_F.C."
-  },
-  {
-    "club_name": "Fortaleza",
-    "club_logo": "",
-    "city_country": "Bogotá, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Fortaleza_C.E.I.F._F.C."
-  },
-  {
-    "club_name": "La Equidad",
-    "club_logo": "",
-    "city_country": "Bogotá, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/La_Equidad"
-  },
-  {
-    "club_name": "Llaneros",
-    "club_logo": "",
-    "city_country": "Villavicencio, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Llaneros_F.C."
-  },
-  {
-    "club_name": "Unión Magdalena",
-    "club_logo": "",
-    "city_country": "Santa Marta, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Unión_Magdalena"
-  },
-    {
     "club_name": "Broki",
     "club_logo": "",
     "city_country": "Paramaribo, Suriname",
@@ -250,5 +196,107 @@
     "club_logo": "",
     "city_country": "Harrisburg, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Harrisburg_City_Islanders"
+  },
+    {
+    "club_name": "Atlético",
+    "club_logo": "",
+    "city_country": "Cali, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Atlético Huila",
+    "club_logo": "",
+    "city_country": "Neiva, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Barranquilla",
+    "club_logo": "",
+    "city_country": "Barranquilla, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Boca Juniors de Cali",
+    "club_logo": "",
+    "city_country": "Cali, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Bogotá",
+    "club_logo": "",
+    "city_country": "Bogotá, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Cúcuta Deportivo",
+    "club_logo": "",
+    "city_country": "Cúcuta, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Deportes Quindío",
+    "club_logo": "",
+    "city_country": "Armenia, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Internacional",
+    "club_logo": "",
+    "city_country": "Palmira, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Jaguares",
+    "club_logo": "",
+    "city_country": "Montería, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Leones",
+    "club_logo": "",
+    "city_country": "Itagüí, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Orsomarso",
+    "club_logo": "",
+    "city_country": "Yumbo, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Barrancabermeja",
+    "club_logo": "",
+    "city_country": "Barrancabermeja, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Patriotas",
+    "club_logo": "",
+    "city_country": "Tunja, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Real Cartagena",
+    "club_logo": "",
+    "city_country": "Cartagena, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Real Cundinamarca",
+    "club_logo": "",
+    "city_country": "Bogotá, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Real Santander",
+    "club_logo": "",
+    "city_country": "Piedecuesta, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
+  },
+  {
+    "club_name": "Tigres",
+    "club_logo": "",
+    "city_country": "Bogotá, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Categor%C3%ADa_Primera_B_season#Teams"
   }
 ]

@@ -15291,5 +15291,65 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Escudo_cobreloa.svg/250px-Escudo_cobreloa.svg.png",
     "city_country": "Calama, Chile",
     "wiki_url": "https://en.wikipedia.org/wiki/C.D._Cobreloa"
+  },
+    {
+    "club_name": "Alianza Valledupar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Alianza_FC_Colombia.png/250px-Alianza_FC_Colombia.png",
+    "city_country": "Valledupar, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alianza_Valledupar_F.C."
+  },
+    {
+    "club_name": "Alianza Petrolera (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Alianza_FC_Colombia.png/250px-Alianza_FC_Colombia.png",
+    "city_country": "Barrancabermeja, Colombia",
+    "wiki_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/EscudoAlianzaPetrolera.png/250px-EscudoAlianzaPetrolera.png"
+  },
+  {
+    "club_name": "Boyacá Chicó",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Boyac%C3%A1_Chic%C3%B3_FC.png/250px-Boyac%C3%A1_Chic%C3%B3_FC.png",
+    "city_country": "Tunja, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Boyac%C3%A1_Chic%C3%B3_F.C."
+  },
+  {
+    "club_name": "Deportes Tolima",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Tolima_Campe%C3%B3n_2018.png/250px-Tolima_Campe%C3%B3n_2018.png",
+    "city_country": "Ibagué, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Tolima"
+  },
+  {
+    "club_name": "Deportivo Pereira",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Corpereira2019.png/250px-Corpereira2019.png",
+    "city_country": "Pereira, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Pereira"
+  },
+  {
+    "club_name": "Envigado",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Envigado_FC_logo_2018.png/250px-Envigado_FC_logo_2018.png",
+    "city_country": "Envigado, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Envigado_F.C."
+  },
+  {
+    "club_name": "Fortaleza CEIF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Fortaleza_CEIF_logo.png/250px-Fortaleza_CEIF_logo.png",
+    "city_country": "Bogotá, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fortaleza_C.E.I.F."
+  },
+  {
+    "club_name": "La Equidad",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/La_Equidad_Seguros_logo.svg/180px-La_Equidad_Seguros_logo.svg.png",
+    "city_country": "Bogotá, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/La_Equidad"
+  },
+  {
+    "club_name": "Llaneros FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Llaneros_F.C.png/250px-Llaneros_F.C.png",
+    "city_country": "Villavicencio, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Llaneros_F.C."
+  },
+  {
+    "club_name": "Unión Magdalena",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Uni%C3%B3n_Magdalena.png/250px-Uni%C3%B3n_Magdalena.png",
+    "city_country": "Santa Marta, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Uni%C3%B3n_Magdalena"
   }
 ]
