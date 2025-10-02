@@ -15405,5 +15405,59 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c0/SV_Voorwaarts.png",
     "city_country": "Paramaribo, Suriname",
     "wiki_url": "https://en.wikipedia.org/wiki/S.V._Voorwaarts"
+  },
+    {
+    "club_name": "Nagtoralik-45",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/NAG2016.jpg/250px-NAG2016.jpg",
+    "city_country": "Paamiut, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nagtoralik-45"
+  },
+  {
+    "club_name": "FC Malamuk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/db/Malamuk.png",
+    "city_country": "Uummannaq, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Malamuk"
+  },
+  {
+    "club_name": "B67 Nuuk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fd/B-67_Nuuk.png",
+    "city_country": "Nuuk, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Boldklubben_af_1967"
+  },
+  {
+    "club_name": "G-44 Qeqertarsuaq",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/7/7d/G-44_logo.jpg",
+    "city_country": "Qeqertarsuaq, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/G-44_Qeqertarsuaq"
+  },
+  {
+    "club_name": "Inuit Timersoqatigiiffiat-79",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Inuit_Timersoqatigiiffiat-79.svg/250px-Inuit_Timersoqatigiiffiat-79.svg.png",
+    "city_country": "Nuuk, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Inuit_Timersoqatigiiffiat-79"
+  },
+  {
+    "club_name": "Nagdlunguaq-48",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Nagdlunguaq-48.png/250px-Nagdlunguaq-48.png",
+    "city_country": "Ilulissat, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nagdlunguaq-48"
+  },
+  {
+    "club_name": "Siumut Amerdlok Kunuk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b6/SAK_Sisimiut.png",
+    "city_country": "Sisimiut, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Siumut_Amerdlok_Kunuk"
+  },
+  {
+    "club_name": "UB-83 Upernavik",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c1/UB-83_Upernavik_Logo.png",
+    "city_country": "Upernavik, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/UB-83_Upernavik"
+  },
+  {
+    "club_name": "Narsaq-85",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d6/Narsaq-85_logo.png",
+    "city_country": "Narsaq, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Narsaq-85"
   }
 ]

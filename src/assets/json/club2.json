@@ -1,45 +1,9 @@
 [
   {
-    "club_name": "FC Aqisseq Kangaatsiaq",
-    "club_logo": "",
-    "city_country": "Kangaatsiaq, Greenland",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Aqisseq_Kangaatsiaq"
-  },
-  {
-    "club_name": "B-67 Nuuk",
-    "club_logo": "",
-    "city_country": "Nuuk, Greenland",
-    "wiki_url": "https://en.wikipedia.org/wiki/B-67_Nuuk"
-  },
-  {
-    "club_name": "G-44 Qeqertarsuaq",
-    "club_logo": "",
-    "city_country": "Qeqertarsuaq, Greenland",
-    "wiki_url": "https://en.wikipedia.org/wiki/G-44_Qeqertarsuaq"
-  },
-  {
-    "club_name": "Inuit Timersoqatigiiffiat-79",
-    "club_logo": "",
-    "city_country": "Nuuk, Greenland",
-    "wiki_url": "https://en.wikipedia.org/wiki/Inuit_Timersoqatigiiffiat-79"
-  },
-  {
-    "club_name": "Nagdlunguaq-48",
-    "club_logo": "",
-    "city_country": "Ilulissat, Greenland",
-    "wiki_url": "https://en.wikipedia.org/wiki/Nagdlunguaq-48"
-  },
-  {
-    "club_name": "Siumut Amerdlok Kunuk",
-    "club_logo": "",
-    "city_country": "Sisimiut, Greenland",
-    "wiki_url": "https://en.wikipedia.org/wiki/Siumut_Amerdlok_Kunuk"
-  },
-  {
-    "club_name": "UB-83 Upernavik",
-    "club_logo": "",
-    "city_country": "Upernavik, Greenland",
-    "wiki_url": "https://en.wikipedia.org/wiki/UB-83_Upernavik"
+    "club_name": "Tupilak-41",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/74/Tupilakken-41_logo.png",
+    "city_country": "Aasiaat, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tupilak-41"
   },
   {
     "club_name": "Brooklyn FC",

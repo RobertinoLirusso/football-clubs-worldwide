@@ -67,6 +67,7 @@ export const COUNTRY_FLAG_MAP: { [key: string]: string } = {
   'germany': 'de',
   'ghana': 'gh',
   'greece': 'gr',
+  'greenland': 'gl',
   'grenada': 'gd',
   'guatemala': 'gt',
   'guinea': 'gn',
