@@ -9414,13 +9414,13 @@
   },
   {
     "club_name": "Real Estelí",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Escudo_del_Real_Estel%C3%AD.png/250px-Escudo_del_Real_Estel%C3%AD.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2nhrPaUYC-ZDzT63Z-w6q6aaxsy9cq7ugBoPL-_iL_6fD7CoSsa6MtDCxvEnHE6_ONfDk67gB1516n-qwI_UTBJbKhxrA-ue3-6MhMkZgE3l8dl9Kc5ulWPzUFJQW3m2gVtygEKQAuFOKiUOPiZOKy4Q5hPTxyy0phuHaboooS9Ezoc9zTW09kiizlv0/s1600/Real%20Estel%C3%AD%20FC256x.png",
     "city_country": "Estelí, Nicaragua",
     "wiki_url": "https://en.wikipedia.org/wiki/Real_Estel%C3%AD_FC"
   },
   {
-    "club_name": "Diriangén",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Diriang%C3%A9n_FC_logo.png/250px-Diriang%C3%A9n_FC_logo.png",
+    "club_name": "Cacique Diriangén",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibp_A6rJ_rt0Q5pfDaiJl1ZBpzNFmXpOX-Fr6Mf462JRZh8q6LY2olsiLSuIB1yIY7Haw6F4EcwjX6nX8sJSW9xhh6zlJ1LtYlP-Msg_ojTY9jglABLhrdYRhK-PLuhzF18jTj_34WGjb1id834Ktr_FBlNS1fd7QKtLdLnFRq_HR97dC3WRCuKAoNGo8/s1600/Cacique%20Diriangen%20FC256x.png",
     "city_country": "Diriamba, Nicaragua",
     "wiki_url": "https://en.wikipedia.org/wiki/Diriang%C3%A9n_FC"
   },
@@ -15459,5 +15459,113 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d6/Narsaq-85_logo.png",
     "city_country": "Narsaq, Greenland",
     "wiki_url": "https://en.wikipedia.org/wiki/Narsaq-85"
+  },
+    {
+    "club_name": "Alajuelense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Logo_LDA.png/250px-Logo_LDA.png",
+    "city_country": "Alajuela, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Liga_Deportiva_Alajuelense"
+  },
+  {
+    "club_name": "Cartaginés",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/C.S._Cartagin%C3%A9s.svg/250px-C.S._Cartagin%C3%A9s.svg.png",
+    "city_country": "Cartago, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.S._Cartagin%C3%A9s"
+  },
+  {
+    "club_name": "Municipal Liberia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/A.D._Municipal_Liberia.svg/250px-A.D._Municipal_Liberia.svg.png",
+    "city_country": "Liberia, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.D._Municipal_Liberia"
+  },
+  {
+    "club_name": "Pérez Zeledón",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/A.D._Municipal_P%C3%A9rez_Zeled%C3%B3n.svg/250px-A.D._Municipal_P%C3%A9rez_Zeled%C3%B3n.svg.png",
+    "city_country": "San Isidro de El General, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.D._Municipal_P%C3%A9rez_Zeled%C3%B3n"
+  },
+  {
+    "club_name": "Puntarenas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Puntarenas_F.C.svg/250px-Puntarenas_F.C.svg.png",
+    "city_country": "Puntarenas, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Puntarenas_F.C."
+  },
+  {
+    "club_name": "San Carlos",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/A.D._San_Carlos.svg/250px-A.D._San_Carlos.svg.png",
+    "city_country": "Ciudad Quesada, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.D._San_Carlos"
+  },
+  {
+    "club_name": "Sporting F.C.",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Sporting_F.C.svg/250px-Sporting_F.C.svg.png",
+    "city_country": "San José, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sporting_F.C."
+  },
+  {
+    "club_name": "Guanacasteca",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/A.D._Guanacasteca.svg/250px-A.D._Guanacasteca.svg.png",
+    "city_country": "Nicoya, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.D._Guanacasteca"
+  },
+  {
+    "club_name": "Santos de Guápiles",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Escudo_del_Santos_de_Gu%C3%A1piles.svg/250px-Escudo_del_Santos_de_Gu%C3%A1piles.svg.png",
+    "city_country": "Guápiles, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Santos_de_Gu%C3%A1piles_F.C."
+  },
+  {
+    "club_name": "Municipal Santa Ana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Santa_Ana_F.C..png/250px-Santa_Ana_F.C..png",
+    "city_country": "Santa Ana, Costa Rica",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.D._Municipal_Santa_Ana"
+  },
+    {
+    "club_name": "ART Municipal Jalapa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/22/ART_Municipal_Jalapa_logo.png",
+    "city_country": "Jalapa, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/ART_Municipal_Jalapa"
+  },
+  {
+    "club_name": "CS Sebaco",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxidOMB3mvTs2GLiZTS3k09ZO14r9nyBbflDGE94jIfx4fAHRrMuLLz0cqmng9-FpdOeGnCJB3Xz0wljytqSqwA3HuhNUONWLAVfPuyrRd9A2_a1umPx2TWrLSa2X7vpcq9sHB20sx2othUqe5F8hixXZd3vJSUUTZhhl8SFOB-YmRkrRUyeS17eBp3tI/s1600/Club%20Sport%20S%C3%A9baco256x.png",
+    "city_country": "Sebaco, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Sport_Sebaco"
+  },
+  {
+    "club_name": "Managua FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Managua_FC_Logo.png/250px-Managua_FC_Logo.png",
+    "city_country": "Managua, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/Managua_FC"
+  },
+  {
+    "club_name": "Matagalpa",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5-ZKRbkFSGJwzJ3qLP8hIwn1RWKshag5KpGUmErbBNnMzfgo_h5EpbSyEcB8MoS1KnpHwg5ljvBCkCyCX9VV30o-Mc7Y0WP_sEXa_EeD6bGox6xrlEMWtGEIYCOnePWApyDQ3j3JclfswZoGLqilV3VXZs0XC3G-BQeLkBRLXJ4Km8BDuNU-JEVLG/s1600/Matagalpa%20FC256x.png",
+    "city_country": "Matagalpa, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/Matagalpa_FC"
+  },
+  {
+    "club_name": "Real Madriz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Real_Madriz_FC_logo.png/250px-Real_Madriz_FC_logo.png",
+    "city_country": "Somoto, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Madriz_FC"
+  },
+  {
+    "club_name": "Rancho Santana",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIeZrzObNbz_iBDI9NYM-YbOfp0qGgANuDc9CDqF_XOcnQtKIYUVKWMXEOC2hTj8orJn9jqzNQ6xRqaYbS2uMAERncP5yhsuiiR03qqvyU7ez5lMO_RnDbYmv0gdN_tsvQK804EGeJ2RkhXLG74coYhzrhZRLuXGQIapr7LltvfA0JSCgvsdSfN7_iluo/s1600/Rancho%20Santana%20FC256x.png",
+    "city_country": "Tola, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rancho_Santana_FC"
+  },
+  {
+    "club_name": "UNAM Managua",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/UNAN_Managua_logo.png/250px-UNAN_Managua_logo.png",
+    "city_country": "Managua, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/UNAN_Managua"
+  },
+    {
+    "club_name": "Walter Ferretti",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiePzummq4_A7qmpUkHIJO56lZcEVtxhoAth2zVfAPaPsdFLXM_8HjlCE5gB3Z4jA5XHURB9W_meR09qRQV4hU72rhznvqwwOtanzdP2urAr1vHzc8o7ZtVWRdHJlcQkzijlCztv4X-Vc4/s0/CD+Walter+Ferretti256x.png",
+    "city_country": "Managua, Nicaragua",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Walter_Ferretti"
   }
 ]
