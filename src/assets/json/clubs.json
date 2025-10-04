@@ -8190,7 +8190,7 @@
   },
   {
     "club_name": "Struga",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/FC_Struga_Trim_%26_Lum_logo.png/250px-FC_Struga_Trim_%26_Lum_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/f3/FC_Struga.png/250px-FC_Struga.png",
     "city_country": "Struga, North Macedonia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Struga"
   },
@@ -8214,7 +8214,7 @@
   },
   {
     "club_name": "Bashkimi",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Bashkimi-logo-2025.png/250px-Bashkimi-logo-2025.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Bashkimi_1947_logo.png/250px-Bashkimi_1947_logo.png",
     "city_country": "Kumanovo, North Macedonia",
     "wiki_url": "https://en.wikipedia.org/wiki/KF_Bashkimi_1947"
   },
@@ -8388,9 +8388,9 @@
   },
   {
     "club_name": "SSV Jeddeloh",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/SSV_Jeddeloh_logo.svg/250px-SSV_Jeddeloh_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Logo_SSV_Jeddeloh.svg/250px-Logo_SSV_Jeddeloh.svg.png",
     "city_country": "Jeddeloh II, Germany",
-    "wiki_url": "https://de.wikipedia.org/wiki/SSV_Jeddeloh"
+    "wiki_url": "https://en.wikipedia.org/wiki/SSV_Jeddeloh"
   },
   {
     "club_name": "Kickers Offenbach",
@@ -8735,8 +8735,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Pirmasens"
   },
   {
-    "club_name": "FC Eintracht Norderstedt",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/FC_Eintracht_Norderstedt_03_logo.svg/250px-FC_Eintracht_Norderstedt_03_logo.svg.png",
+    "club_name": "Eintracht Norderstedt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Eintracht_Norderstedt_Logo.svg/250px-Eintracht_Norderstedt_Logo.svg.png",
     "city_country": "Norderstedt, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Eintracht_Norderstedt_03"
   },
@@ -12498,7 +12498,7 @@
   },  
   {
     "club_name": "Metaloglobus București",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/FC_Metaloglobus_Bucure%C8%99ti_logo2.png/190px-FC_Metaloglobus_Bucure%C8%99ti_logo2.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/FC_Metaloglobus_Bucure%C8%99ti_logo.svg/250px-FC_Metaloglobus_Bucure%C8%99ti_logo.svg.png",
     "city_country": "Bucharest, Romania",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Metaloglobus_Bucure%C8%99ti"
   },
@@ -13404,7 +13404,7 @@
   },
   {
     "club_name": "FC Eilenburg",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/FC_Eilenburg.png/250px-FC_Eilenburg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Logo_FC_Eilenburg_neu.png/250px-Logo_FC_Eilenburg_neu.png",
     "city_country": "Eilenburg, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Eilenburg"
   },
@@ -13524,7 +13524,7 @@
   },
   {
     "club_name": "DJK Vilzing",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/00/DJK_Vilzing.jpg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/DJK_Vilzing_e.V.png/250px-DJK_Vilzing_e.V.png",
     "city_country": "Vilzing, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/DJK_Vilzing"
   },
@@ -14100,7 +14100,7 @@
   },
   {
     "club_name": "Paradou AC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/7/7c/Paradou_Athletic_Club.png/250px-Paradou_Athletic_Club.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Logoparadouac.png/250px-Logoparadouac.png",
     "city_country": "Algiers, Algeria",
     "wiki_url": "https://en.wikipedia.org/wiki/Paradou_AC"
   },
@@ -15567,5 +15567,221 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiePzummq4_A7qmpUkHIJO56lZcEVtxhoAth2zVfAPaPsdFLXM_8HjlCE5gB3Z4jA5XHURB9W_meR09qRQV4hU72rhznvqwwOtanzdP2urAr1vHzc8o7ZtVWRdHJlcQkzijlCztv4X-Vc4/s0/CD+Walter+Ferretti256x.png",
     "city_country": "Managua, Nicaragua",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Walter_Ferretti"
+  },
+    {
+    "club_name": "Génesis FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTQRLODAl021yprEw_EsrrcOCfeflW8vamcqO4DB0clAmXgWjrWOHbv5eV4CTyUeITatgmcn-RvIPj1GNLtV_SICzqszcGLzTzNSrJc9ANuEVulxeuuOAAdkbFIrC11MEbMI93MlWDLsoreBRCgLfv42trw0rIlkpNO9o7syLR0935KCxNQh9VJsiqXZ0/s1600/G%C3%A9nesis%20PN256x.png",
+    "city_country": "Comayagua, Honduras",
+    "wiki_url": "https://www.facebook.com/p/G%C3%A9nesis-FC-100094686128397/"
+  },
+  {
+    "club_name": "Juticalpa",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWTOHDPmWOzJs_pre9hFStImIcJNw9Gr_xq_UJmBMxIArNQBE3M_ezP49eHXLLdX-WfUqwCxh77HD7hXwqT_ifKPwg2ci7Y6ZuB6bduSdGLx-vQxZFjAEq97x5LxjBjkXQsWwQVKukh9F4ya6pw9uWG-7qZ-3AGFmoVJoyEG_F69K8-axcqfd6BcVToxQ/s1600/Juticalpa%20FC256x.png",
+    "city_country": "Juticalpa, Honduras",
+    "wiki_url": "https://en.wikipedia.org/wiki/Juticalpa_F.C."
+  },
+  {
+    "club_name": "Marathón",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/CD_Marathon.svg/250px-CD_Marathon.svg.png",
+    "city_country": "San Pedro Sula, Honduras",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Marath%C3%B3n"
+  },
+  {
+    "club_name": "Olancho",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTGmeGWONX02rhHTJvUOvLQ6RMO-v-MK89_KBKs0oG4TXnJExQDWAO85rfHh-py7S5qYUPlEXL3Sx4ZUHYavW3FOfhSMyLC1X8V7l7OXS-oJkEJRuOPkil8isAKXlJkWsTd0fi4zboRZOZO_xCs6_bVS1aXqewoXKsFIc8YkbTSG3rxnyclCv70c8bw6k/s1600/Olancho%20FC256x.png",
+    "city_country": "Juticalpa, Honduras",
+    "wiki_url": "https://en.wikipedia.org/wiki/Olancho_FC"
+  },
+  {
+    "club_name": "Real España",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Real_CD_Espana.svg/250px-Real_CD_Espana.svg.png",
+    "city_country": "San Pedro Sula, Honduras",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_C.D._Espa%C3%B1a"
+  },
+  {
+    "club_name": "Real Sociedad",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/C.D._Real_Sociedad_logo.png/250px-C.D._Real_Sociedad_logo.png",
+    "city_country": "Tocoa, Honduras",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Real_Sociedad"
+  },
+  {
+    "club_name": "Lobos UPNFM",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Lobos_UPNFM_logo.png/250px-Lobos_UPNFM_logo.png",
+    "city_country": "Tegucigalpa, Honduras",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lobos_UPNFM"
+  },
+  {
+    "club_name": "CD Victoria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/C.D._Victoria.png/250px-C.D._Victoria.png",
+    "city_country": "La Ceiba, Honduras",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Victoria"
+  },
+    {
+    "club_name": "Águila",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Club_Deportivo_%C3%81guila_logo.svg/200px-Club_Deportivo_%C3%81guila_logo.svg.png",
+    "city_country": "San Miguel, El Salvador",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_%C3%81guila"
+  },
+    {
+    "club_name": "CD Dragón",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/C.D._Drag%C3%B3n_logo.png/250px-C.D._Drag%C3%B3n_logo.png",
+    "city_country": "San Miguel, El Salvador",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Drag%C3%B3n"
+  },
+  {
+    "club_name": "Fuerte San Francisco",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitDNU0FgYsQRdv9iBrVnWkFc7tX94GlWCp3p6Trc_YBmUSMM8sOm9wt0NW3LYsN0me00E07roN0Y6fphmXP2JFNu5Lpf7-1Fpl4aVQ6Oo7DOZmNrbJNwcuqRQwR9zzhi2TIflh-QwkWItajOEx28ySY-PLYBuVrnEynefigqZIWtsZQQnb8v7OnZe9gLk/s1600/CD%20Fuerte%20San%20Francisco256x.png",
+    "city_country": "San Francisco Gotera, El Salvador",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Fuerte_San_Francisco"
+  },
+  {
+    "club_name": "Luis Ángel Firpo",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL6BkQerjKiv3bssSIF25ugZMrPl2Vc1q5olN6ETil8-v5zmmjLFNBc6CsY9hsWG9ML661HzVrsvnSonkhD1cEWiSm5Jpuvi4hCpppY7CQYWD5QCfS_DJGsNgM8g5Igzc_9dq34HG80II/s0/CD+Luis+Angel+Firpo256x.png",
+    "city_country": "Usulután, El Salvador",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Luis_%C3%81ngel_Firpo"
+  },
+  {
+    "club_name": "Isidro Metapán",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/A.D._Isidro_Metap%C3%A1n.png/250px-A.D._Isidro_Metap%C3%A1n.png",
+    "city_country": "Metapán, El Salvador",
+    "wiki_url": "https://en.wikipedia.org/wiki/AD_Isidro_Metap%C3%A1n"
+  },
+  {
+    "club_name": "Platense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/C.D._Platense_Municipal_Zacatecoluca.png/250px-C.D._Platense_Municipal_Zacatecoluca.png",
+    "city_country": "Zacatecoluca, El Salvador",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Platense_Municipal_Zacatecoluca"
+  },
+  {
+    "club_name": "Municipal Limeño",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_e7ipSCVZia3rI9MKi7lp3AR3IRVE50cCeWu6QMlwebqkRYrjEFi-AT4v_fH5qZC75qx1J0uMIErbcjvSmRCBUldf5VEcNd039ba5HdvhavuqBnqSiv7xBcArHu4WfOOIgM9NbisIICQ/s0/CD+Municipal+Limeno256x.png",
+    "city_country": "Santa Rosa de Lima, El Salvador",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Municipal_Lime%C3%B1o"
+  },
+  {
+    "club_name": "Hércules",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMRo4u2vZ4JuqIgoA39Px18Qy3Re3ljDQnl8PMvlCfcZwEDMQ_DyHQI7nnRT9ub3GFgvKJW_NZn2rehe5Q5iT4ekVoL75jSB8x8uNBFz0G2t-iz2j8jUnYnGiNCS-XgLxIAX8UjgkQ9Bm1n_597Oy2vnoXpww1lxh5EWM0cvGm9D56Zply-ZL5ROiGajs/s1600/Club%20Deportivo%20H%C3%A9rcules256x.png",
+    "city_country": "San Salvador, El Salvador",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_H%C3%A9rcules"
+  },
+  {
+    "club_name": "Cacahuatique",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1MgiqYLdmYtxCUI3cY9m3J5oHGQMIXFpMfPdUEwiq_cq2GPlcZiHd-1BrzsSaTGVcmxlyc8kI_eYp-NJ8wbDnB21M1vsWqN8Uv89gLN9mroRvhcGLwDzGUPuEFNc805zkNSGtLAlfqJtbK_wUaqs4dMOeohLqDeWkJPbaYHpyccYyQqn54iaiYi6Vtfw/s1600/CD%20Cacahuatique256x.png",
+    "city_country": "Ciudad Barrios, El Salvador",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Cacahuatique"
+  },
+  {
+    "club_name": "Zacatecoluca FC",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKD21MqdBwYluNnXbsVQHLjiVYW-thwX7yzg&s",
+    "city_country": "Zacatecoluca, El Salvador",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zacatecoluca_F.C."
+  },
+    {
+    "club_name": "Tupilak-41",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/74/Tupilakken-41_logo.png",
+    "city_country": "Aasiaat, Greenland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tupilak-41"
+  },
+  {
+    "club_name": "Brooklyn FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Brooklyn_FC_badge.svg/250px-Brooklyn_FC_badge.svg.png",
+    "city_country": "New York, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brooklyn_FC_(2024)"
+  },
+  {
+    "club_name": "Sporting Club Jacksonville",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sporting_Club_Jacksonville_primary_crest.png/250px-Sporting_Club_Jacksonville_primary_crest.png",
+    "city_country": "Jacksonville, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sporting_Club_Jacksonville"
+  },
+  {
+    "club_name": "Santa Barbara Sky FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Santa_Barbara_Sky_FC_logo.svg/125px-Santa_Barbara_Sky_FC_logo.svg.png",
+    "city_country": "Santa Barbara, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Santa_Barbara_Sky_FC"
+  },
+  {
+    "club_name": "Buffalo Pro Soccer",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Buffalo_Pro_Soccer_logo.jpg/250px-Buffalo_Pro_Soccer_logo.jpg",
+    "city_country": "Buffalo, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Buffalo_Pro_Soccer"
+  },
+  {
+    "club_name": "Atlético Dallas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Atl%C3%A9tico_Dallas.png/250px-Atl%C3%A9tico_Dallas.png",
+    "city_country": "Garland, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Dallas"
+  },
+  {
+    "club_name": "Ozark United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Ozark_United_logo.png/250px-Ozark_United_logo.png",
+    "city_country": "Rogers, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ozark_United_FC"
+  },
+   {
+    "club_name": "Milwaukee Pro Soccer",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Milwaukee_Pro_Soccer_wordmark.jpg/250px-Milwaukee_Pro_Soccer_wordmark.jpg",
+    "city_country": "Milwaukee, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Milwaukee_Pro_Soccer"
+  },
+  {
+    "club_name": "USL Pro Iowa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/USL_Pro_Iowa_logo.png/250px-USL_Pro_Iowa_logo.png",
+    "city_country": "Des Moines, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/USL_Pro_Iowa"
+  },
+  {
+    "club_name": "USL Palm Beach",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/USL_Palm_Beach.jpg/250px-USL_Palm_Beach.jpg",
+    "city_country": "Palm Beach County, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/USL_Palm_Beach"
+  },
+  {
+    "club_name": "Austin Aztex (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Austin_Aztex.png/250px-Austin_Aztex.png",
+    "city_country": "Austin, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Austin_Aztex"
+  },
+  {
+    "club_name": "Austin Bold (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Austin_Bold_FC_logo_2018.svg/250px-Austin_Bold_FC_logo_2018.svg.png",
+    "city_country": "Austin, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Austin_Bold_FC"
+  },
+  {
+    "club_name": "Charlotte Eagles",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Charlotte_Eagles_new_logo.png/250px-Charlotte_Eagles_new_logo.png",
+    "city_country": "Charlotte, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Charlotte_Eagles"
+  },
+  {
+    "club_name": "Dayton Dutch Lions",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Dayton_Dutch_Lions_FC_logo.svg/250px-Dayton_Dutch_Lions_FC_logo.svg.png",
+    "city_country": "Dayton, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dayton_Dutch_Lions"
+  },
+  {
+    "club_name": "FC Montréal (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/FC_Montr%C3%A9al.png/250px-FC_Montr%C3%A9al.png",
+    "city_country": "Montreal, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Montreal"
+  },
+  {
+    "club_name": "F.C. New York",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/F.C._New_York.png/250px-F.C._New_York.png",
+    "city_country": "New York, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._New_York"
+  },
+  {
+    "club_name": "Fresno FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Fresno_FC_logo.svg/250px-Fresno_FC_logo.svg.png",
+    "city_country": "Fresno, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fresno_FC"
+  },
+  {
+    "club_name": "Harrisburg City Islanders",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Harrisburg_City_Islanders.svg/250px-Harrisburg_City_Islanders.svg.png",
+    "city_country": "Harrisburg, United States",
+    "wiki_url": "https://en.wikipedia.org/wiki/Harrisburg_City_Islanders"
   }
 ]
