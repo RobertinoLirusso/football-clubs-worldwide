@@ -15879,5 +15879,83 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Tigres_FC_logo.png/250px-Tigres_FC_logo.png",
     "city_country": "Bogotá, Colombia",
     "wiki_url": "https://en.wikipedia.org/wiki/Tigres_F.C."
+  },
+    {
+    "club_name": "Pharco FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/f/ff/Pharco_FC.png/250px-Pharco_FC.png",
+    "city_country": "Alexandria, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pharco_FC"
+  },
+  {
+    "club_name": "Smouha SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Smouha_SC_logo.png/250px-Smouha_SC_logo.png",
+    "city_country": "Alexandria, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Smouha_SC"
+  },
+  {
+    "club_name": "Tala'ea El Gaish",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Tala%27ea_El_Gaish_Logo_2017.png/250px-Tala%27ea_El_Gaish_Logo_2017.png",
+    "city_country": "Cairo, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tala%27ea_El_Gaish_SC"
+  },
+  {
+    "club_name": "Al Masry",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/6/61/Masry.png/250px-Masry.png",
+    "city_country": "Port Said, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Masry_SC"
+  },
+  {
+    "club_name": "Al Mokawloon Al Arab",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Al_Mokawloon_Al_Arab_SC_logo.png/150px-Al_Mokawloon_Al_Arab_SC_logo.png",
+    "city_country": "Cairo, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Mokawloon_Al_Arab_SC"
+  },
+  {
+    "club_name": "Wadi Degla",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Wadi_Degla_Logo.png/250px-Wadi_Degla_Logo.png",
+    "city_country": "Cairo, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wadi_Degla_SC"
+  },
+  {
+    "club_name": "Kahraba Ismailia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/1/1c/%D9%86%D8%A7%D8%AF%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9.png/250px-%D9%86%D8%A7%D8%AF%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9.png",
+    "city_country": "Ismailia, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kahraba_Ismailia_SC"
+  },
+  {
+    "club_name": "Al Ittihad Alexandria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Al-Ittihad_Alexandria_Club_logo.png/250px-Al-Ittihad_Alexandria_Club_logo.png",
+    "city_country": "Alexandria, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Ittihad_Alexandria_Club"
+  },
+  {
+    "club_name": "Haras El Hodoud",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Haras_El_Hodoud_logo_2018.png/250px-Haras_El_Hodoud_logo_2018.png",
+    "city_country": "Alexandria, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Haras_El_Hodoud_SC"
+  },
+  {
+    "club_name": "Ismaily SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/3/3b/%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A.png/250px-%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A.png",
+    "city_country": "Ismailia, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ismaily_SC"
+  },
+  {
+    "club_name": "Modern Sport",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/3/31/%D9%86%D8%A7%D8%AF%D9%8A_%D9%85%D9%88%D8%AF%D8%B1%D9%86_%D8%B3%D8%A8%D9%88%D8%B1%D8%AA.png/250px-%D9%86%D8%A7%D8%AF%D9%8A_%D9%85%D9%88%D8%AF%D8%B1%D9%86_%D8%B3%D8%A8%D9%88%D8%B1%D8%AA.png",
+    "city_country": "Cairo, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Modern_Sport_FC"
+  },
+  {
+    "club_name": "National Bank of Egypt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/c/ca/NBE_SC.png/250px-NBE_SC.png",
+    "city_country": "Cairo, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/National_Bank_of_Egypt_SC"
+  },
+  {
+    "club_name": "ZED FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/39/ZED_FC_logo.png",
+    "city_country": "Giza, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/ZED_FC"
   }
 ]

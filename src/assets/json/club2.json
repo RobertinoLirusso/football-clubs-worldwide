@@ -1,101 +1,5 @@
 [
   {
-    "club_name": "Atlético",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Atl%C3%A9tico_Cali.png/250px-Atl%C3%A9tico_Cali.png",
-    "city_country": "Cali, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Cali"
-  },
-  {
-    "club_name": "Atlético Huila",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Escudo_de_Atl%C3%A9tico_Huila.svg/170px-Escudo_de_Atl%C3%A9tico_Huila.svg.png",
-    "city_country": "Neiva, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Huila"
-  },
-  {
-    "club_name": "Barranquilla",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0b/Barranquilla_FC_logo.png",
-    "city_country": "Barranquilla, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Barranquilla_F.C."
-  },
-  {
-    "club_name": "Boca Juniors de Cali",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Escudo_Boca_Juniors_de_Cali.png/250px-Escudo_Boca_Juniors_de_Cali.png",
-    "city_country": "Cali, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Boca_Juniors_de_Cali"
-  },
-  {
-    "club_name": "Bogotá",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Bogot%C3%A1_F%C3%BAtbol_Club.png/250px-Bogot%C3%A1_F%C3%BAtbol_Club.png",
-    "city_country": "Bogotá, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Bogot%C3%A1_F.C."
-  },
-  {
-    "club_name": "Cúcuta Deportivo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/C%C3%BAcuta_Deportivo_Centenario_2024.png/250px-C%C3%BAcuta_Deportivo_Centenario_2024.png",
-    "city_country": "Cúcuta, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/C%C3%BAcuta_Deportivo"
-  },
-  {
-    "club_name": "Deportes Quindío",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/ESCUDO_DEP_QUINDIO_2023.png/250px-ESCUDO_DEP_QUINDIO_2023.png",
-    "city_country": "Armenia, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Quind%C3%ADo"
-  },
-  {
-    "club_name": "Internacional",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Internacional_F.C._de_Palmira.png/250px-Internacional_F.C._de_Palmira.png",
-    "city_country": "Palmira, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Internacional_F.C._de_Palmira"
-  },
-  {
-    "club_name": "Jaguares de Córdoba",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Jaguares_de_C%C3%B3rdoba.png/250px-Jaguares_de_C%C3%B3rdoba.png",
-    "city_country": "Montería, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Jaguares_de_C%C3%B3rdoba"
-  },
-  {
-    "club_name": "Itagüí Leones",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2I3u-sQ8s2zE2KcFJfjVUtoUesbRNkpidiBpEnL_KKfF6TWBacCcPfPfohzx2DajuVxnYxzWrFsgsbRX_yotiJEcVASlIabX75HO_o4lougA5epO4hTc3Y3bUNkoEPyfEuplqo75hC5A/s1600/Leones+FC256x.png",
-    "city_country": "Itagüí, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Leones_F.C."
-  },
-  {
-    "club_name": "Orsomarso",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Orsomarso_SC_logo.png/250px-Orsomarso_SC_logo.png",
-    "city_country": "Palmira, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Orsomarso_S.C."
-  },
-  {
-    "club_name": "Patriotas",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Patriotas_logo.png/250px-Patriotas_logo.png",
-    "city_country": "Tunja, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Patriotas_Boyac%C3%A1"
-  },
-  {
-    "club_name": "Real Cartagena",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/REAL-CARTAGENA.png/250px-REAL-CARTAGENA.png",
-    "city_country": "Cartagena, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Real_Cartagena"
-  },
-  {
-    "club_name": "Real Cundinamarca",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiH5SxUlrau_s906ZgThXrcWRsSCd6dqODYyGP_3jjpUs4bY2YoyKWu0KCWRz5Ah4BOmRUCad2IEv1ccNnhW2iFLWI8hmFKUT1aajnzGjFD0gzMcCeSijACDhcqefTRbCI0JNyKuB5P-zSDBoty6O5Dk6tyBSQmLdjEGSjnr6IqhRXHR3EbYIUk1IxAg8/s1600/Real%20Cundinamarca256x.png",
-    "city_country": "Bogotá, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Real_Cundinamarca"
-  },
-  {
-    "club_name": "Real Santander",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Real_Santander_logo.png/250px-Real_Santander_logo.png",
-    "city_country": "Bucaramanga, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Real_Santander"
-  },
-  {
-    "club_name": "Tigres",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Tigres_FC_logo.png/250px-Tigres_FC_logo.png",
-    "city_country": "Bogotá, Colombia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Tigres_F.C."
-  },
-  {
     "club_name": "AS Gabès",
     "club_logo": "",
     "city_country": "Gabès, Tunisia",
@@ -169,79 +73,79 @@
   },
   {
     "club_name": "Pharco FC",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/f/ff/Pharco_FC.png/250px-Pharco_FC.png",
     "city_country": "Alexandria, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Pharco_FC"
   },
   {
-    "club_name": "Smouha",
-    "club_logo": "",
+    "club_name": "Smouha SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Smouha_SC_logo.png/250px-Smouha_SC_logo.png",
     "city_country": "Alexandria, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Smouha_SC"
   },
   {
     "club_name": "Tala'ea El Gaish",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Tala%27ea_El_Gaish_Logo_2017.png/250px-Tala%27ea_El_Gaish_Logo_2017.png",
     "city_country": "Cairo, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Tala%27ea_El_Gaish_SC"
   },
   {
     "club_name": "Al Masry",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/6/61/Masry.png/250px-Masry.png",
     "city_country": "Port Said, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Al_Masry_SC"
   },
   {
     "club_name": "Al Mokawloon Al Arab",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Al_Mokawloon_Al_Arab_SC_logo.png/150px-Al_Mokawloon_Al_Arab_SC_logo.png",
     "city_country": "Cairo, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Al_Mokawloon_Al_Arab_SC"
   },
   {
     "club_name": "Wadi Degla",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Wadi_Degla_Logo.png/250px-Wadi_Degla_Logo.png",
     "city_country": "Cairo, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Wadi_Degla_SC"
   },
   {
     "club_name": "Kahraba Ismailia",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/1/1c/%D9%86%D8%A7%D8%AF%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9.png/250px-%D9%86%D8%A7%D8%AF%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9.png",
     "city_country": "Ismailia, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Kahraba_Ismailia_SC"
   },
   {
     "club_name": "Al Ittihad Alexandria",
-    "club_logo": "",
-    "city_country": "Giza, Egypt",
-    "wiki_url": "https://en.wikipedia.org/wiki/National_Bank_of_Egypt_SC"
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Al-Ittihad_Alexandria_Club_logo.png/250px-Al-Ittihad_Alexandria_Club_logo.png",
+    "city_country": "Alexandria, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Ittihad_Alexandria_Club"
   },
   {
     "club_name": "Haras El Hodoud",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Haras_El_Hodoud_logo_2018.png/250px-Haras_El_Hodoud_logo_2018.png",
     "city_country": "Alexandria, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Haras_El_Hodoud_SC"
   },
   {
-    "club_name": "Ismaily",
-    "club_logo": "",
+    "club_name": "Ismaily SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/3/3b/%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A.png/250px-%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A.png",
     "city_country": "Ismailia, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Ismaily_SC"
   },
   {
     "club_name": "Modern Sport",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/3/31/%D9%86%D8%A7%D8%AF%D9%8A_%D9%85%D9%88%D8%AF%D8%B1%D9%86_%D8%B3%D8%A8%D9%88%D8%B1%D8%AA.png/250px-%D9%86%D8%A7%D8%AF%D9%8A_%D9%85%D9%88%D8%AF%D8%B1%D9%86_%D8%B3%D8%A8%D9%88%D8%B1%D8%AA.png",
     "city_country": "Cairo, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Modern_Sport_FC"
   },
   {
     "club_name": "National Bank of Egypt",
-    "club_logo": "",
-    "city_country": "Giza, Egypt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/c/ca/NBE_SC.png/250px-NBE_SC.png",
+    "city_country": "Cairo, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/National_Bank_of_Egypt_SC"
   },
   {
     "club_name": "ZED FC",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/39/ZED_FC_logo.png",
     "city_country": "Giza, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/ZED_FC"
   }
