@@ -15767,7 +15767,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Montreal"
   },
   {
-    "club_name": "F.C. New York",
+    "club_name": "F.C. New York (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/F.C._New_York.png/250px-F.C._New_York.png",
     "city_country": "New York, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/F.C._New_York"
@@ -15779,9 +15779,105 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Fresno_FC"
   },
   {
-    "club_name": "Harrisburg City Islanders",
+    "club_name": "Harrisburg City Islanders (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Harrisburg_City_Islanders.svg/250px-Harrisburg_City_Islanders.svg.png",
     "city_country": "Harrisburg, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Harrisburg_City_Islanders"
+  },
+    {
+    "club_name": "Atlético",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Atl%C3%A9tico_Cali.png/250px-Atl%C3%A9tico_Cali.png",
+    "city_country": "Cali, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Cali"
+  },
+  {
+    "club_name": "Atlético Huila",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Escudo_de_Atl%C3%A9tico_Huila.svg/170px-Escudo_de_Atl%C3%A9tico_Huila.svg.png",
+    "city_country": "Neiva, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Huila"
+  },
+  {
+    "club_name": "Barranquilla",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0b/Barranquilla_FC_logo.png",
+    "city_country": "Barranquilla, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Barranquilla_F.C."
+  },
+  {
+    "club_name": "Boca Juniors de Cali",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Escudo_Boca_Juniors_de_Cali.png/250px-Escudo_Boca_Juniors_de_Cali.png",
+    "city_country": "Cali, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Boca_Juniors_de_Cali"
+  },
+  {
+    "club_name": "Bogotá",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Bogot%C3%A1_F%C3%BAtbol_Club.png/250px-Bogot%C3%A1_F%C3%BAtbol_Club.png",
+    "city_country": "Bogotá, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bogot%C3%A1_F.C."
+  },
+  {
+    "club_name": "Cúcuta Deportivo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/C%C3%BAcuta_Deportivo_Centenario_2024.png/250px-C%C3%BAcuta_Deportivo_Centenario_2024.png",
+    "city_country": "Cúcuta, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/C%C3%BAcuta_Deportivo"
+  },
+  {
+    "club_name": "Deportes Quindío",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/ESCUDO_DEP_QUINDIO_2023.png/250px-ESCUDO_DEP_QUINDIO_2023.png",
+    "city_country": "Armenia, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Quind%C3%ADo"
+  },
+  {
+    "club_name": "Internacional",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Internacional_F.C._de_Palmira.png/250px-Internacional_F.C._de_Palmira.png",
+    "city_country": "Palmira, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Internacional_F.C._de_Palmira"
+  },
+  {
+    "club_name": "Jaguares de Córdoba",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Jaguares_de_C%C3%B3rdoba.png/250px-Jaguares_de_C%C3%B3rdoba.png",
+    "city_country": "Montería, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jaguares_de_C%C3%B3rdoba"
+  },
+  {
+    "club_name": "Itagüí Leones",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2I3u-sQ8s2zE2KcFJfjVUtoUesbRNkpidiBpEnL_KKfF6TWBacCcPfPfohzx2DajuVxnYxzWrFsgsbRX_yotiJEcVASlIabX75HO_o4lougA5epO4hTc3Y3bUNkoEPyfEuplqo75hC5A/s1600/Leones+FC256x.png",
+    "city_country": "Itagüí, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Leones_F.C."
+  },
+  {
+    "club_name": "Orsomarso",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Orsomarso_SC_logo.png/250px-Orsomarso_SC_logo.png",
+    "city_country": "Palmira, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Orsomarso_S.C."
+  },
+  {
+    "club_name": "Patriotas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Patriotas_logo.png/250px-Patriotas_logo.png",
+    "city_country": "Tunja, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Patriotas_Boyac%C3%A1"
+  },
+  {
+    "club_name": "Real Cartagena",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/REAL-CARTAGENA.png/250px-REAL-CARTAGENA.png",
+    "city_country": "Cartagena, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Cartagena"
+  },
+  {
+    "club_name": "Real Cundinamarca",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiH5SxUlrau_s906ZgThXrcWRsSCd6dqODYyGP_3jjpUs4bY2YoyKWu0KCWRz5Ah4BOmRUCad2IEv1ccNnhW2iFLWI8hmFKUT1aajnzGjFD0gzMcCeSijACDhcqefTRbCI0JNyKuB5P-zSDBoty6O5Dk6tyBSQmLdjEGSjnr6IqhRXHR3EbYIUk1IxAg8/s1600/Real%20Cundinamarca256x.png",
+    "city_country": "Bogotá, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Cundinamarca"
+  },
+  {
+    "club_name": "Real Santander",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Real_Santander_logo.png/250px-Real_Santander_logo.png",
+    "city_country": "Bucaramanga, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Santander"
+  },
+  {
+    "club_name": "Tigres",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Tigres_FC_logo.png/250px-Tigres_FC_logo.png",
+    "city_country": "Bogotá, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tigres_F.C."
   }
 ]
