@@ -9270,7 +9270,7 @@
   },
   {
     "club_name": "Stade Nyonnais",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/FC_Stade_Nyonnais_logo.png/250px-FC_Stade_Nyonnais_logo.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHZ6B64N-DmLbzVNvYbTnIgKop0FI_GHWgrrLzm4yYQQQfnoeEepByfaKY8n8jrNtDZRMA9ezHBnwpwj968Gt21d0_J0DGTOiEFqBPcexaf3sKi2Y61xHhV2SFuKfQphH6RoHaofewG0A6UkU-KPypLfNZpjHR8EMUhuBXOENZKDWZFzOe_GMIfLF9vfA/s320/Stade%20Nyonnais%202025-23.png",
     "city_country": "Nyon, Switzerland",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Stade_Nyonnais"
   },
@@ -15957,5 +15957,77 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/39/ZED_FC_logo.png",
     "city_country": "Giza, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/ZED_FC"
+  },
+    {
+    "club_name": "AS Gabès",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/9/92/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A_%D8%A8%D9%82%D8%A7%D8%A8%D8%B3.png/250px-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A_%D8%A8%D9%82%D8%A7%D8%A8%D8%B3.png",
+    "city_country": "Gabès, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Gab%C3%A8s"
+  },
+  {
+    "club_name": "AS Marsa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/4/42/AS_Marsa.png/180px-AS_Marsa.png",
+    "city_country": "Tunis, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Marsa"
+  },
+  {
+    "club_name": "AS Soliman",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1b/AS_Soliman.png",
+    "city_country": "Soliman, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Soliman"
+  },
+  {
+    "club_name": "CA Bizertin",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/CA_Bizertin.png/180px-CA_Bizertin.png",
+    "city_country": "Bizerte, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/CA_Bizertin"
+  },
+  {
+    "club_name": "ES Métlaoui",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/78/ES_M%C3%A9tlaoui_logo.png",
+    "city_country": "Métlaoui, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/ES_M%C3%A9tlaoui"
+  },
+  {
+    "club_name": "ES Zarzis",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/3/31/Esperance_Sportive_de_Zarzis.png/180px-Esperance_Sportive_de_Zarzis.png",
+    "city_country": "Zarzis, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/ES_Zarzis"
+  },
+  {
+    "club_name": "JS Kairouan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/3/33/JS_Kairouan.png/180px-JS_Kairouan.png",
+    "city_country": "Kairouan, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/JS_Kairouan"
+  },
+  {
+    "club_name": "JS El Omrane",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d4/JSO_Logo.png",
+    "city_country": "Tunis, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/JS_El_Omrane"
+  },
+  {
+    "club_name": "Olympique Béja",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Olympique_B%C3%A9ja.png/150px-Olympique_B%C3%A9ja.png",
+    "city_country": "Béja, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Olympique_B%C3%A9ja"
+  },
+  {
+    "club_name": "Stade Tunisien",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Enstadetunisien.png/250px-Enstadetunisien.png",
+    "city_country": "Tunis, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stade_Tunisien"
+  },
+  {
+    "club_name": "US Ben Guerdane",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/f/f6/Us_benguerdane.jpg/180px-Us_benguerdane.jpg",
+    "city_country": "Ben Guerdane, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Ben_Guerdane"
+  },
+  {
+    "club_name": "US Monastir",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Union_sportive_monastirienne.png/250px-Union_sportive_monastirienne.png",
+    "city_country": "Monastir, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Monastir_(football)"
   }
 ]
