@@ -1,74 +1,128 @@
 [
   {
-    "club_name": "Aluminium Arak",
+    "club_name": "Kuala Lumpur City",
     "club_logo": "",
-    "city_country": "Arak, Iran",
-    "wiki_url": "https://en.wikipedia.org/wiki/Aluminium_F.C."
+    "city_country": "Kuala Lumpur, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Kuala_Lumpur_City_F.C._season"
   },
   {
-    "club_name": "Chadormalu",
+    "club_name": "Sabah",
     "club_logo": "",
-    "city_country": "Yazd, Iran",
-    "wiki_url": "https://en.wikipedia.org/wiki/Chadormalu_S.C."
+    "city_country": "Kota Kinabalu, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sabah_F.C._season"
   },
   {
-    "club_name": "Esteghlal Khuzestan",
+    "club_name": "Selangor",
     "club_logo": "",
-    "city_country": "Ahvaz, Iran",
-    "wiki_url": "https://en.wikipedia.org/wiki/Esteghlal_Khuzestan_F.C."
+    "city_country": "Shah Alam, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Selangor_F.C._season"
   },
   {
-    "club_name": "Fajr Sepasi",
+    "club_name": "Terengganu",
     "club_logo": "",
-    "city_country": "Shiraz, Iran",
-    "wiki_url": "https://en.wikipedia.org/wiki/Fajr_Sepasi_F.C."
+    "city_country": "Kuala Terengganu, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Terengganu_F.C._season"
   },
   {
-    "club_name": "Foolad",
+    "club_name": "Penang",
     "club_logo": "",
-    "city_country": "Ahvaz, Iran",
-    "wiki_url": "https://en.wikipedia.org/wiki/Foolad_F.C."
+    "city_country": "George Town, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Penang_F.C._season"
   },
   {
-    "club_name": "Gol Gohar",
+    "club_name": "PDRM",
     "club_logo": "",
-    "city_country": "Sirjan, Iran",
-    "wiki_url": "https://en.wikipedia.org/wiki/Gol_Gohar_S.C."
+    "city_country": "Kuala Lumpur, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_PDRM_F.A._season"
   },
   {
-    "club_name": "Kheybar",
+    "club_name": "Negeri Sembilan",
     "club_logo": "",
-    "city_country": "Khorramabad, Iran",
-    "wiki_url": "https://en.wikipedia.org/wiki/Kheybar_Khorramabad_F.C."
+    "city_country": "Seremban, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Negeri_Sembilan_F.C._season"
   },
   {
-    "club_name": "Malavan",
+    "club_name": "Kelantan The Real Warriors",
     "club_logo": "",
-    "city_country": "Bandar Anzali, Iran",
-    "wiki_url": "https://en.wikipedia.org/wiki/Malavan_F.C."
+    "city_country": "Kota Bharu, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Kelantan_F.C._season"
   },
   {
-    "club_name": "Mes Rafsanjan",
+    "club_name": "Melaka",
     "club_logo": "",
-    "city_country": "Rafsanjan, Iran",
-    "wiki_url": "https://en.wikipedia.org/wiki/Mes_Rafsanjan_F.C."
+    "city_country": "Malacca City, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Melaka_F.C._season"
   },
   {
-    "club_name": "Paykan",
+    "club_name": "Immigration",
     "club_logo": "",
-    "city_country": "Tehran, Iran",
-    "wiki_url": "https://en.wikipedia.org/wiki/Paykan_F.C."
+    "city_country": "Kuala Lumpur, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Malaysia_A1_Semi-Pro_League"
   },
   {
-    "club_name": "Shams Azar",
+    "club_name": "DPMM FC",
     "club_logo": "",
-    "city_country": "Qazvin, Iran",
-    "wiki_url": "https://en.wikipedia.org/wiki/Shams_Azar_F.C."
+    "city_country": "Bandar Seri Begawan, Brunei",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_DPMM_FC_season"
+  },
+    {
+    "club_name": "Deren",
+    "club_logo": "",
+    "city_country": "Deren, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deren_FC"
   },
   {
-    "club_name": "Zob Ahan",
+    "club_name": "SP Falcons",
     "club_logo": "",
-    "city_country": "Isfahan, Iran",
-    "wiki_url": "https://en.wikipedia.org/wiki/Zob_Ahan_F.C."
+    "city_country": "Ulaanbaatar, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/SP_Falcons"
+  },
+  {
+    "club_name": "Hunters Mongolia",
+    "club_logo": "",
+    "city_country": "Ulaanbaatar, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hunters_FC_Mongolia"
+  },
+  {
+    "club_name": "Ulaangom City",
+    "club_logo": "",
+    "city_country": "Ulaangom, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Mongolian_Premier_League"
+  },
+  {
+    "club_name": "Khangarid",
+    "club_logo": "",
+    "city_country": "Erdenet, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Khangarid_FC"
+  },
+  {
+    "club_name": "Bishrelt Khoromkhon",
+    "club_logo": "",
+    "city_country": "Ulaanbaatar, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Mongolian_Premier_League"
+  },
+  {
+    "club_name": "Khovdyn Khuleguud",
+    "club_logo": "",
+    "city_country": "Khovd, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Mongolian_Premier_League"
+  },
+  {
+    "club_name": "Khovd Western",
+    "club_logo": "",
+    "city_country": "Khovd, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Mongolian_Premier_League"
+  },
+  {
+    "club_name": "Tuv Azarganuud",
+    "club_logo": "",
+    "city_country": "Töv Province, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Mongolian_Premier_League"
+  },
+  {
+    "club_name": "Ulaanbaatar",
+    "club_logo": "",
+    "city_country": "Ulaanbaatar, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ulaanbaatar"
   }
 ]
