@@ -13307,7 +13307,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Karvan_FK"
   },
   {
-    "club_name": "Sabah",
+    "club_name": "Sabah FK",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Sabah_FC_%28Azerbaijan%29.png/250px-Sabah_FC_%28Azerbaijan%29.png",
     "city_country": "Masazir, Azerbaijan",
     "wiki_url": "https://en.wikipedia.org/wiki/Sabah_FC_(Azerbaijan)"
@@ -16149,5 +16149,197 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/6c/Young_Lions.png",
     "city_country": "Kallang, Singapore",
     "wiki_url": "https://en.wikipedia.org/wiki/Young_Lions_FC"
+  },
+    {
+    "club_name": "Kuala Lumpur City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Kuala_Lumpur_City_F.C..png/250px-Kuala_Lumpur_City_F.C..png",
+    "city_country": "Kuala Lumpur, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_City_F.C."
+  },
+  {
+    "club_name": "Sabah",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sabah_Football_Club_%28Malaysia%29_Cover.jpg/250px-Sabah_Football_Club_%28Malaysia%29_Cover.jpg",
+    "city_country": "Kota Kinabalu, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sabah_F.C._(Malaysia)"
+  },
+  {
+    "club_name": "Selangor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Selangor_FC_logo.svg/250px-Selangor_FC_logo.svg.png",
+    "city_country": "Shah Alam, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Selangor_F.C."
+  },
+  {
+    "club_name": "Terengganu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Terengganu_FC_logo.svg/230px-Terengganu_FC_logo.svg.png",
+    "city_country": "Kuala Terengganu, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Terengganu_FC"
+  },
+  {
+    "club_name": "Penang",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Penang_FC_logo.svg/250px-Penang_FC_logo.svg.png",
+    "city_country": "George Town, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Penang_F.C."
+  },
+  {
+    "club_name": "PDRM",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0f/Polis_Diraja_Malaysia_FC_logo.png",
+    "city_country": "Selanyang, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Polis_Diraja_Malaysia_FC"
+  },
+  {
+    "club_name": "Negeri Sembilan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Negeri_Sembilan_FC_logo.png/250px-Negeri_Sembilan_FC_logo.png",
+    "city_country": "Seremban, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Negeri_Sembilan_FC"
+  },
+  {
+    "club_name": "Kelantan The Real Warriors",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Kelantan_The_Real_Warriors.png/250px-Kelantan_The_Real_Warriors.png",
+    "city_country": "Kota Bharu, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kelantan_The_Real_Warriors_F.C."
+  },
+  {
+    "club_name": "Melaka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/MFC_Melaka_FC.png/250px-MFC_Melaka_FC.png",
+    "city_country": "Malacca City, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Melaka_F.C."
+  },
+  {
+    "club_name": "Immigration",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Imigresen_Football_Club_football_crest.png/250px-Imigresen_Football_Club_football_crest.png",
+    "city_country": "Putrajaya, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Immigration_F.C."
+  },
+  {
+    "club_name": "DPMM FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Duli_Pengiran_Muda_Mahkota_FC_%28emblem%29.png/250px-Duli_Pengiran_Muda_Mahkota_FC_%28emblem%29.png",
+    "city_country": "Bandar Seri Begawan, Brunei",
+    "wiki_url": "https://en.wikipedia.org/wiki/DPMM_FC"
+  },
+    {
+    "club_name": "Kuching City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Logo_Kuching_City_FC.jpg/250px-Logo_Kuching_City_FC.jpg",
+    "city_country": "Kuching, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kuching_City_F.C."
+  },
+      {
+    "club_name": "Deren",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1b/Deren_FC_Logo.png",
+    "city_country": "Ulaanbaatar, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deren_FC"
+  },
+  {
+    "club_name": "SP Falcons",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/89/SP_Falcons.png",
+    "city_country": "Ulaanbaatar, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/SP_Falcons"
+  },
+  {
+    "club_name": "Hunters Mongolia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Hunters_FC_logo.png/250px-Hunters_FC_logo.png",
+    "city_country": "Ulaanbaatar, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hunters_FC_Mongolia"
+  },
+  {
+    "club_name": "Ulaangom City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Ulaangom_City_FC_Logo.png/250px-Ulaangom_City_FC_Logo.png",
+    "city_country": "Ulaangom, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ulaangom_City_FC"
+  },
+  {
+    "club_name": "Khangarid",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/58/Khangarid_FC_Logo_%282023%29.png",
+    "city_country": "Erdenet, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Khangarid_FC"
+  },
+  {
+    "club_name": "Bishrelt Khoromkhon",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/48/Bishrelt_Khoromkhon_FC_logo.png",
+    "city_country": "Ulaanbaatar, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bishrelt_Khoromkhon_FC"
+  },
+  {
+    "club_name": "Khovdyn Khuleguud",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Khovd_Broncos_FC_Logo.png/250px-Khovd_Broncos_FC_Logo.png",
+    "city_country": "Khovd, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Khovdyn_Khuleguud_FC"
+  },
+  {
+    "club_name": "Khovd Western",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a4/Khovd_Western_FC_Logo.png",
+    "city_country": "Khovd, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Khovd_Western_FC"
+  },
+  {
+    "club_name": "Tuv Azarganuud",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/f/fd/Tuv_azarganuud_emblema.png/250px-Tuv_azarganuud_emblema.png",
+    "city_country": "Töv Province, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tuv_Azarganuud_FC"
+  },
+  {
+    "club_name": "Ulaanbaatar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0b/FC_Ulaanbaatar_Logo.png",
+    "city_country": "Ulaanbaatar, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ulaanbaatar"
+  },
+    {
+    "club_name": "Ulaanbaatar City (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0b/FC_Ulaanbaatar_Logo.png",
+    "city_country": "Ulaanbaatar, Mongolia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ulaanbaatar_City_FC"
+  },
+    {
+    "club_name": "Ming Chuan University",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/32/Ming_Chuan_University_F.C.png",
+    "city_country": "Taoyuan, Taiwan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ming_Chuan_University_F.C."
+  },
+  {
+    "club_name": "New Taipei Hang Yuan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Hang_Yuen_FC.png/300px-Hang_Yuen_FC.png",
+    "city_country": "New Taipei City, Taiwan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hang_Yuan_FC"
+  },
+  {
+    "club_name": "Sunny Bank AC Taipei",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/AC_Taipei_logo.png/300px-AC_Taipei_logo.png",
+    "city_country": "Taipei City, Taiwan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sunny_Bank_AC_Taipei"
+  },
+  {
+    "club_name": "Taichung Futuro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Taichung_FUTURO.png/250px-Taichung_FUTURO.png",
+    "city_country": "Taichung City, Taiwan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Taichung_Futuro_F.C."
+  },
+  {
+    "club_name": "Taichung Rock",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/124551.png?lm=1744285048",
+    "city_country": "Taichung City, Taiwan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Taichung_Rock_FC"
+  },
+  {
+    "club_name": "Tainan City TSG",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Taiwan_Steel_crest.png/250px-Taiwan_Steel_crest.png",
+    "city_country": "Tainan City, Taiwan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tainan_City_F.C."
+  },
+  {
+    "club_name": "Taipower",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Taipower_FC.png/300px-Taipower_FC.png",
+    "city_country": "Kaohsiung City, Taiwan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Taiwan_Power_Company_F.C."
+  },
+  {
+    "club_name": "Tatung",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/25655.png?lm=1751572439",
+    "city_country": "Taipei City, Taiwan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tatung_F.C."
+  },
+    {
+    "club_name": "Vikings",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4d/FC_Vikings_Taiwan.png",
+    "city_country": "Taipei City, Taiwan",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._Vikings"
   }
 ]
