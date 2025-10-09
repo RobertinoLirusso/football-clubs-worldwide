@@ -1747,7 +1747,7 @@
   },
   {
     "club_name": "CA Las Palmas",
-    "club_logo": "https://seeklogo.com/images/L/las-palmas-de-cordoba-logo-1209B4F01A-seeklogo.com.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Las_Palmas.png/250px-Las_Palmas.png",
     "city_country": "Córdoba, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Las_Palmas"
   },
@@ -8730,7 +8730,7 @@
   },
   {
     "club_name": "FK Pirmasens",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/FK_Pirmasens.png/250px-FK_Pirmasens.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/FK_Pirmasens_crest.svg/250px-FK_Pirmasens_crest.svg.png",
     "city_country": "Pirmasens, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Pirmasens"
   },
@@ -13500,7 +13500,7 @@
   },
   {
     "club_name": "Bayern Alzenau",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Bayern_Alzenau.png/250px-Bayern_Alzenau.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/FC_Bayern_Alzenau_crest.svg/250px-FC_Bayern_Alzenau_crest.svg.png",
     "city_country": "Alzenau, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Bayern_Alzenau"
   },
@@ -13950,7 +13950,7 @@
   },
   {
     "club_name": "Wollongong Wolves",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Wollongong_Wolves_FC.jpg/250px-Wollongong_Wolves_FC.jpg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Wollongong_Wolves_FC.png/250px-Wollongong_Wolves_FC.png",
     "city_country": "Wollongong, Australia",
     "wiki_url": "https://en.wikipedia.org/wiki/Wollongong_Wolves_FC"
   },
@@ -16341,5 +16341,59 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4d/FC_Vikings_Taiwan.png",
     "city_country": "Taipei City, Taiwan",
     "wiki_url": "https://en.wikipedia.org/wiki/F.C._Vikings"
+  },
+    {
+    "club_name": "Bengaluru",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/BengaluruFC_NewCrest_2025.png/250px-BengaluruFC_NewCrest_2025.png",
+    "city_country": "Bengaluru, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bengaluru_FC"
+  },
+  {
+    "club_name": "East Bengal",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/East_Bengal_FC_logo.svg/230px-East_Bengal_FC_logo.svg.png",
+    "city_country": "Kolkata, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/East_Bengal_FC"
+  },
+  {
+    "club_name": "Hyderabad FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Hyderabad_Football_Club.svg/150px-Hyderabad_Football_Club.svg.png",
+    "city_country": "Hyderabad, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hyderabad_FC"
+  },
+  {
+    "club_name": "Mohammedan SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Mohammedan-Sporting-Club-logo.png/250px-Mohammedan-Sporting-Club-logo.png",
+    "city_country": "Kolkata, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mohammedan_SC_(Kolkata)"
+  },
+  {
+    "club_name": "Mohun Bagan Super Giant",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Mohun_Bagan_Super_Giant.svg/250px-Mohun_Bagan_Super_Giant.svg.png",
+    "city_country": "Kolkata, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mohun_Bagan_Super_Giant"
+  },
+  {
+    "club_name": "NorthEast United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/NorthEast_United_FC_logo.svg/150px-NorthEast_United_FC_logo.svg.png",
+    "city_country": "Guwahati, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/NorthEast_United_FC"
+  },
+  {
+    "club_name": "Odisha",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Odisha_FC_logo.svg/200px-Odisha_FC_logo.svg.png",
+    "city_country": "Bhubaneswar, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Odisha_FC"
+  },
+  {
+    "club_name": "Punjab",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Punjab_FC_2025_logo.svg/250px-Punjab_FC_2025_logo.svg.png",
+    "city_country": "Mohali, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Punjab_FC"
+  },
+  {
+    "club_name": "ATK (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/ATK_%28football_club%29.svg/190px-ATK_%28football_club%29.svg.png",
+    "city_country": "Kolkata, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/ATK_(football_club)"
   }
 ]
