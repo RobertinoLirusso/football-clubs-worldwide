@@ -16611,5 +16611,203 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/%D8%B4%D8%B9%D8%A7%D8%B1_%D9%86%D8%A7%D8%AF%D9%8A_%D8%B5%D8%AD%D8%A7%D8%B1.jpg/250px-%D8%B4%D8%B9%D8%A7%D8%B1_%D9%86%D8%A7%D8%AF%D9%8A_%D8%B5%D8%AD%D8%A7%D8%B1.jpg",
     "city_country": "Sohar, Oman",
     "wiki_url": "https://en.wikipedia.org/wiki/Sohar_SC"
+  },
+    {
+    "club_name": "Racing Club Abidjan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/5/56/Racing_Club_Abidjan.png",
+    "city_country": "Abidjan, Ivory Coast",
+    "wiki_url": "https://en.wikipedia.org/wiki/RC_Abidjan"
+  },
+  {
+    "club_name": "SOL FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/8/83/SOL_FC_Abobo_Logo.jpg/150px-SOL_FC_Abobo_Logo.jpg",
+    "city_country": "Abidjan, Ivory Coast",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Stars_Olympic_Football_Club_d%27Abobo"
+  },
+  {
+    "club_name": "Stella Club d'Adjamé",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/2/23/Stella_Club_Adjam%C3%A9.png",
+    "city_country": "Abidjan, Ivory Coast",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stella_Club_d%27Adjam%C3%A9"
+  },
+  {
+    "club_name": "Stade d'Abidjan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Stade_d%27Abidjan.png/250px-Stade_d%27Abidjan.png",
+    "city_country": "Abidjan, Ivory Coast",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stade_d%27Abidjan"
+  },
+  {
+    "club_name": "Inova SCA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/a/a6/Inova_SCA_emblema.png",
+    "city_country": "Abidjan, Ivory Coast",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Inova_SCA"
+  },
+  {
+    "club_name": "Olympic Sport Abobo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/d/dd/FC_OSA_emblema.png/250px-FC_OSA_emblema.png",
+    "city_country": "Abidjan, Ivory Coast",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Olympique_Sport_d%27Abobo"
+  },
+  {
+    "club_name": "SOA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/28/Soci%C3%A9t%C3%A9_Omnisports_de_l%27Arm%C3%A9e.png/250px-Soci%C3%A9t%C3%A9_Omnisports_de_l%27Arm%C3%A9e.png",
+    "city_country": "Yamoussoukro, Ivory Coast",
+    "wiki_url": "https://en.wikipedia.org/wiki/SOA_(football_club)"
+  },
+  {
+    "club_name": "US Tchologo",
+    "club_logo": "https://afad.ci/wp-content/uploads/2025/08/US-Tchologo-400x400.png",
+    "city_country": "Bondoukou, Ivory Coast",
+    "wiki_url": "https://www.facebook.com/us.tchologo/"
+  },
+  {
+    "club_name": "FC San-Pédro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/FCSANPedroLogo.png/250px-FCSANPedroLogo.png",
+    "city_country": "San-Pédro, Ivory Coast",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_San_P%C3%A9dro"
+  },
+  {
+    "club_name": "Zoman FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/5/5a/Zoman_FC.png/150px-Zoman_FC.png",
+    "city_country": "Abidjan, Ivory Coast",
+    "wiki_url": "https://de.wikipedia.org/wiki/Zoman_FC"
+  },
+  {
+    "club_name": "Bouaké FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/5/5c/Bouake_FC.png",
+    "city_country": "Bouaké, Ivory Coast",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bouak%C3%A9_FC"
+  },
+  {
+    "club_name": "Mouna FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/1/19/Mouna_FC.png",
+    "city_country": "Akoupé, Ivory Coast",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Mouna_FC"
+  },
+  {
+    "club_name": "AFAD Djékanou",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/7b/Academie_de_Foot_Amadou_Diallo_logo.png",
+    "city_country": "Abidjan, Ivory Coast",
+    "wiki_url": "https://en.wikipedia.org/wiki/Academie_de_Foot_Amadou_Diallo"
+  },
+  {
+    "club_name": "CO Korhogo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/1/1f/CO_Korhogo.png",
+    "city_country": "Korhogo, Ivory Coast",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Club_omnisports_de_Korhogo"
+  },
+    {
+    "club_name": "Gor Mahia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/66/Gor_Mahia_FC_%28logo%29.png",
+    "city_country": "Nairobi, Kenya",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gor_Mahia_F.C."
+  },
+    {
+    "club_name": "Tusker",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/37/Tusker_FC_logo.png",
+    "city_country": "Nairobi, Kenya",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tusker_F.C."
+  },
+  {
+    "club_name": "Cotton FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/37/Tusker_FC_logo.png",
+    "city_country": "Ouidah, Benin",
+    "wiki_url": "https://en.wikipedia.org/wiki/Coton_FC"
+  },
+  {
+    "club_name": "Township Rollers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/37/Tusker_FC_logo.png",
+    "city_country": "Gaborone, Botswana",
+    "wiki_url": "https://en.wikipedia.org/wiki/Township_Rollers_F.C."
+  },
+  {
+    "club_name": "Gaborone United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/89/Gaborone_United.png",
+    "city_country": "Gaborone, Botswana",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gaborone_United_S.C."
+  },
+  {
+    "club_name": "Coton Sport",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3c/Cotonsport.png",
+    "city_country": "Garoua, Cameroon",
+    "wiki_url": "https://en.wikipedia.org/wiki/Coton_Sport_FC_de_Garoua"
+  },
+  {
+    "club_name": "Canon Yaoundé",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/6/69/Canon_Yaound%C3%A9_logo.png/250px-Canon_Yaound%C3%A9_logo.png",
+    "city_country": "Yaoundé, Cameroon",
+    "wiki_url": "https://en.wikipedia.org/wiki/Canon_Yaound%C3%A9"
+  },
+  {
+    "club_name": "CS Mindelense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/55/CS_Mindelense.png",
+    "city_country": "Mindelo, Cape Verde",
+    "wiki_url": "https://en.wikipedia.org/wiki/CS_Mindelense"
+  },
+  {
+    "club_name": "Sporting Club da Praia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Sporting_Clube_da_Praia_logo.svg/250px-Sporting_Clube_da_Praia_logo.svg.png",
+    "city_country": "Praia, Cape Verde",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sporting_Clube_da_Praia"
+  },
+  {
+    "club_name": "Boavista FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/0c/Boavista_FC_da_Praia.png/120px-Boavista_FC_da_Praia.png",
+    "city_country": "Praia, Cape Verde",
+    "wiki_url": "https://en.wikipedia.org/wiki/Boavista_FC_(Cape_Verde)"
+  },
+  {
+    "club_name": "Académica da Praia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/ad/Associa%C3%A7%C3%A3o_Acad%C3%A9mica_da_Praia.png/250px-Associa%C3%A7%C3%A3o_Acad%C3%A9mica_da_Praia.png",
+    "city_country": "Praia, Cape Verde",
+    "wiki_url": "https://en.wikipedia.org/wiki/Acad%C3%A9mica_da_Praia"
+  },
+  {
+    "club_name": "Olympic Real de Bangui",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/61/Olympic_Real_Bangui_logo.png/250px-Olympic_Real_Bangui_logo.png",
+    "city_country": "Bangui, Central African Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/Olympic_Real_de_Bangui"
+  },
+  {
+    "club_name": "AS Tempête Mocaf",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/9/9b/AS_Tempete_Mocaf.png",
+    "city_country": "Bangui, Central African Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Temp%C3%AAte_Mocaf"
+  },
+  {
+    "club_name": "Renaissance FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/3/37/Renaissance_FC.png/150px-Renaissance_FC.png",
+    "city_country": "N'Djamena, Chad",
+    "wiki_url": "https://en.wikipedia.org/wiki/Renaissance_FC"
+  },
+  {
+    "club_name": "Elect-Sport FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/e/e2/Elect-Sport_FC.png/250px-Elect-Sport_FC.png",
+    "city_country": "N'Djamena, Chad",
+    "wiki_url": "https://en.wikipedia.org/wiki/Renaissance_FC"
+  },
+  {
+    "club_name": "US Zilimadjou",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/c7/US_Zilimadjou_%28logo%29.svg/langfr-250px-US_Zilimadjou_%28logo%29.svg.png",
+    "city_country": "Moroni, Comoros",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Zilimadjou"
+  },
+  {
+    "club_name": "Volcan Club de Moroni",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Volcan_club_de_moroni.png/180px-Volcan_club_de_moroni.png",
+    "city_country": "Moroni, Comoros",
+    "wiki_url": "https://en.wikipedia.org/wiki/Volcan_Club_de_Moroni"
+  },
+  {
+    "club_name": "Étoile du Congo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/33/Etoile_du_Congo.gif",
+    "city_country": "Brazaville, Republic of the Congo",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%89toile_du_Congo"
+  },
+    {
+    "club_name": "CSM Diables Noirs",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/CSMD_Diables_Noirs_%28logo%29.png/250px-CSMD_Diables_Noirs_%28logo%29.png",
+    "city_country": "Brazaville, Republic of the Congo",
+    "wiki_url": "https://en.wikipedia.org/wiki/CSMD_Diables_Noirs"
   }
 ]
