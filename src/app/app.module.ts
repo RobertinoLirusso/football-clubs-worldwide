@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { GuessClubComponent } from './pages/guess-club/guess-club.component';
 import { NgxImageZoomModule } from 'ngx-image-zoom';
+import { NationalTeamsComponent } from './pages/national-teams/national-teams.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { NgxImageZoomModule } from 'ngx-image-zoom';
     HeaderComponent,
     FooterComponent,
     GuessClubComponent,
+    NationalTeamsComponent,
   ],
   imports: [
     BrowserModule,

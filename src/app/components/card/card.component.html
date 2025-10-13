@@ -21,6 +21,7 @@
   </div>
 </div>
 
+
 <div class="action-container w3-margin">
 
   <button class="filter-btn action-btn" (click)="openCountryModal()" title="Click to filter clubs by country">
@@ -161,59 +162,6 @@
     </footer>
   </div>
 </div>
-
-<div *ngIf="isMatchesModalOpen" class="w3-modal" style="display:block;">
-  <div class="w3-modal-content w3-animate-zoom w3-card-4" style="max-width:800px; margin:auto;">
-    
-    <header class="w3-container w3-black w3-center title-game">
-      <span (click)="closeMatchesModal()" class="w3-button w3-display-topright w3-black title-game">
-        <i class="fa fa-times"></i>
-      </span>
-      <h4>Matches Today</h4>
-    </header>
-
-    <div class="w3-container w3-padding w3-light-grey" style="max-height:400px; overflow-y:auto;">
-      <div *ngIf="!loadingMatches && matches.length === 0" class="w3-center w3-small w3-text-gray">
-        No matches scheduled today.
-      </div>
-<ul *ngIf="matches.length > 0" class="w3-ul w3-white w3-hoverable w3-small">
-  <li *ngFor="let match of matches" class="w3-padding-small w3-border-bottom">
-    <div class="w3-row w3-center w3-padding-small">
-
-      <!-- Equipo Local -->
-      <div class="w3-col s4 m4 l4 w3-left-align w3-small">
-        <img *ngIf="match.homeTeam.crest" [src]="match.homeTeam.crest" class="w3-circle" style="width:25px; height:25px; object-fit:contain;" [title]="match.homeTeam.name">
-        {{ match.homeTeam.name }}
-      </div>
-
-      <!-- Marcador -->
-      <div class="w3-col s4 m4 l4 w3-center">
-        <strong *ngIf="match.score.fullTime.home !== null">
-          {{ match.score.fullTime.home }} - {{ match.score.fullTime.away }}
-        </strong>
-        <span *ngIf="match.score.fullTime.home === null" class="w3-text-gray">vs</span>
-      </div>
-
-      <!-- Equipo Visitante -->
-      <div class="w3-col s4 m4 l4 w3-right-align w3-small">
-        {{ match.awayTeam.name }}
-        <img *ngIf="match.awayTeam.crest" [src]="match.awayTeam.crest" class="w3-circle" style="width:25px; height:25px; object-fit:contain;" [title]="match.awayTeam.name">
-      </div>
-
-      <!-- Competición y estado al final -->
-      <div class="w3-col s12 w3-center w3-small w3-text-gray w3-margin-top">
-        {{ match.competition.name }} • {{ match.status }}
-      </div>
-
-    </div>
-  </li>
-</ul>
-
-    </div>
-
-  </div>
-</div>
-
 
 <button 
   class="back-to-top" 

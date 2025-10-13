@@ -1,0 +1,74 @@
+.responsive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  will-change: transform;
+  position: relative; /* Necesario para posicionar el icono */
+  overflow: hidden;
+  border: 1px solid transparent; /* espacio para el borde */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border: 1px solid transparent;
+  background-image: 
+    linear-gradient(#ffffff, #ffffff), /* mantiene el fondo anterior */
+    linear-gradient(90deg, #000000, #946b05, #d4af37, #b8860b, #000000); /* borde degradado */
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.card:hover footer p {
+  transform: scale(1.1); /* Ligeramente más grande */
+}
+
+.zoom-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0,0,0,0.7);
+  color: #e1b661;
+  padding: 6px;
+  border-radius: 30%;
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0; /* Oculto por defecto */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover .zoom-icon {
+  opacity: 1;
+  transform: scale(1.1); /* Pequeño efecto al aparecer */
+}
+
+.zoom-icon:hover {
+  background-color: #e1b661;
+  color: black;
+}
+.img {
+  width: 100%;
+  height: 170px;
+  object-fit: contain;
+  padding: 9px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+  pointer-events: none;
+}
+
+.card:hover .img {
+  transform: scale(1.08); /* La imagen crece junto con la tarjeta */
+  filter: brightness(1.1);
+}
+
+
+
+ 
+footer p {
+  font-size: 18px;
+  font-weight: 300;
+}

@@ -11148,13 +11148,13 @@
   },
   {
     "club_name": "Marumo Gallants",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Marumo_Gallants_FC.jpg/250px-Marumo_Gallants_FC.jpg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/9/92/Marumo_Gallants_FC_emblema.png/250px-Marumo_Gallants_FC_emblema.png",
     "city_country": "Bloemfontein, South Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Marumo_Gallants_F.C."
   },
   {
     "club_name": "Orbit College FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Orbit_College_FC_logo.jpg/250px-Orbit_College_FC_logo.jpg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/b/b3/Orbit_College_FC_emblema.png",
     "city_country": "Rustenburg, South Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Orbit_College_FC"
   },
@@ -11178,7 +11178,7 @@
   },
   {
     "club_name": "Siwelele FC",
-    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwjzn67MqhX-07VEZC-1qi9P8eVQ-JhZn6_Q&s",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Siwelele.png/250px-Siwelele.png",
     "city_country": "Bloemfontein, South Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Siwelele_F.C."
   },
@@ -16614,7 +16614,7 @@
   },
     {
     "club_name": "Racing Club Abidjan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/5/56/Racing_Club_Abidjan.png",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR5vAkJHDAPji_sXoGR7tgvetBnxCIK9IpwKMpu_dHuSNDO2I1FObL1Q40Mbzk7NZGg0E&usqp=CAU",
     "city_country": "Abidjan, Ivory Coast",
     "wiki_url": "https://en.wikipedia.org/wiki/RC_Abidjan"
   },
@@ -16809,5 +16809,113 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/CSMD_Diables_Noirs_%28logo%29.png/250px-CSMD_Diables_Noirs_%28logo%29.png",
     "city_country": "Brazaville, Republic of the Congo",
     "wiki_url": "https://en.wikipedia.org/wiki/CSMD_Diables_Noirs"
+  },
+    {
+    "club_name": "Green Buffaloes",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/ae/Green_Buffaloes_FC.jpg",
+    "city_country": "Lusaka, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Green_Buffaloes_F.C."
+  },
+  {
+    "club_name": "Green Eagles",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Green_Eagles_emblem_2021.png/250px-Green_Eagles_emblem_2021.png",
+    "city_country": "Choma, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Green_Eagles_F.C."
+  },
+  {
+    "club_name": "Kabwe Warriors",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/21/KabweWarriorslogo.jpg",
+    "city_country": "Kabwe, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kabwe_Warriors_F.C."
+  },
+  {
+    "club_name": "Kansanshi Dynamos",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/9/9a/Kansanshi_Dynamos_FC_logo.png/250px-Kansanshi_Dynamos_FC_logo.png",
+    "city_country": "Solwezi, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kansanshi_Dynamos_F.C."
+  },
+  {
+    "club_name": "Konkola Blades",
+    "club_logo": "https://konkolabladesfc.com/wp-content/uploads/2024/12/konkola-1.png",
+    "city_country": "Chililabombwe, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Konkola_Blades_F.C."
+  },
+  {
+    "club_name": "Maestro United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Maestro_United_F.C._Logo.jpg/250px-Maestro_United_F.C._Logo.jpg",
+    "city_country": "Mazabuka, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Maestro_United_Zambia_F.C."
+  },
+  {
+    "club_name": "Mines United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Mines_United_F.C._logo.svg/250px-Mines_United_F.C._logo.svg.png",
+    "city_country": "Kabwe, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mines_United_F.C."
+  },
+  {
+    "club_name": "Mufulira Wanderers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Mufulira_Wanderers_%28logo%29.png/250px-Mufulira_Wanderers_%28logo%29.png",
+    "city_country": "Mufulira, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mufulira_Wanderers_F.C."
+  },
+  {
+    "club_name": "Mutondo Stars",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/8/8d/Mutondo_Stars_FC.png/250px-Mutondo_Stars_FC.png",
+    "city_country": "Kitwe, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mutondo_Stars_F.C."
+  },
+  {
+    "club_name": "NAPSA Stars",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/2/28/NAPSA_Stars_FC_logo.png/250px-NAPSA_Stars_FC_logo.png",
+    "city_country": "Lusaka, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NAPSA_Stars_F.C."
+  },
+  {
+    "club_name": "Nchanga Rangers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Nchanga_Rangers_FC.png/150px-Nchanga_Rangers_FC.png",
+    "city_country": "Chingola, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nchanga_Rangers_F.C."
+  },
+    {
+    "club_name": "Nkana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f8/NkanaFclogo.png",
+    "city_country": "Kitwe, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nkana_F.C."
+  },
+  {
+    "club_name": "Nkwazi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/2/23/Nkwazi_FC_logo.png/250px-Nkwazi_FC_logo.png",
+    "city_country": "Lusaka, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nkwazi_F.C."
+  },
+  {
+    "club_name": "Power Dynamos",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Power_Dynamos_FC_crest.png/250px-Power_Dynamos_FC_crest.png",
+    "city_country": "Kitwe, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Power_Dynamos_F.C."
+  },
+  {
+    "club_name": "Prison Leopards",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Leopards_F.C._logo.png/250px-Leopards_F.C._logo.png",
+    "city_country": "Kabwe, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Prison_Leopards_F.C."
+  },
+  {
+    "club_name": "Red Arrows",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedArrowsFClogo.jpeg/250px-RedArrowsFClogo.jpeg",
+    "city_country": "Lusaka, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Red_Arrows_F.C."
+  },
+  {
+    "club_name": "ZESCO United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/NewZescoUtdFClogo.png/250px-NewZescoUtdFClogo.png",
+    "city_country": "Ndola, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/ZESCO_United_F.C."
+  },
+  {
+    "club_name": "Zanaco FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Zanaco_FC.png/250px-Zanaco_FC.png",
+    "city_country": "Lusaka, Zambia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zanaco_F.C."
   }
 ]

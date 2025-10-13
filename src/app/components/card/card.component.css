@@ -82,6 +82,14 @@ footer p {
   color:#e1b661 !important;
 }
 
+.title-link {
+  color:#e1b661 !important;
+}
+
+.title-link:hover {
+color: black !important;
+}
+
 
 .modal-title {
   background: linear-gradient(90deg, #000000, #946b05, #d4af37, #b8860b, #000000);

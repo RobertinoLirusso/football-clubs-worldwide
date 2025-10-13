@@ -1,8 +1,194 @@
 [
-  {
-    "club_name": "Gor Mahia",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/66/Gor_Mahia_FC_%28logo%29.png",
-    "city_country": "Nairobi, Kenya",
-    "wiki_url": "https://en.wikipedia.org/wiki/Gor_Mahia_F.C."
-  }
+    {
+      "club_name": "Auckland City",
+      "club_logo": "",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Northern_League_(New_Zealand)"
+    },
+    {
+      "club_name": "Auckland FC Reserves",
+      "club_logo": "",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/2025_New_Zealand_National_League"
+    },
+    {
+      "club_name": "Auckland United",
+      "club_logo": "",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Northern_League_(New_Zealand)"
+    },
+    {
+      "club_name": "Bay Olympic",
+      "club_logo": "",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Northern_League_(New_Zealand)"
+    },
+    {
+      "club_name": "Birkenhead United",
+      "club_logo": "",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Northern_League_(New_Zealand)"
+    },
+    {
+      "club_name": "East Coast Bays",
+      "club_logo": "",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Northern_League_(New_Zealand)"
+    },
+    {
+      "club_name": "Eastern Suburbs",
+      "club_logo": "",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Northern_League_(New_Zealand)"
+    },
+    {
+      "club_name": "Fencibles United",
+      "club_logo": "",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Northern_League_(New_Zealand)"
+    },
+    {
+      "club_name": "Manurewa",
+      "club_logo": "",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Northern_League_(New_Zealand)"
+    },
+    {
+      "club_name": "Tauranga City",
+      "club_logo": "",
+      "city_country": "Tauranga, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Northern_League_(New_Zealand)"
+    },
+    {
+      "club_name": "West Coast Rangers",
+      "club_logo": "",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Northern_League_(New_Zealand)"
+    },
+    {
+      "club_name": "Western Springs",
+      "club_logo": "",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Northern_League_(New_Zealand)"
+    },
+        {
+      "club_name": "Island Bay United",
+      "club_logo": "",
+      "city_country": "Wellington, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Central_League_%28New_Zealand%29"
+    },
+    {
+      "club_name": "Miramar Rangers",
+      "club_logo": "",
+      "city_country": "Wellington, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Central_League_%28New_Zealand%29"
+    },
+    {
+      "club_name": "Napier City Rovers",
+      "club_logo": "",
+      "city_country": "Napier, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/2025_New_Zealand_National_League"
+    },
+    {
+      "club_name": "North Wellington",
+      "club_logo": "",
+      "city_country": "Johnsonville, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Central_League_%28New_Zealand%29"
+    },
+    {
+      "club_name": "Petone",
+      "club_logo": "",
+      "city_country": "Lower Hutt, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Central_League_%28New_Zealand%29"
+    },
+    {
+      "club_name": "Upper Hutt City",
+      "club_logo": "",
+      "city_country": "Upper Hutt, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Central_League_%28New_Zealand%29"
+    },
+    {
+      "club_name": "Waterside Karori",
+      "club_logo": "",
+      "city_country": "Wellington, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Central_League_%28New_Zealand%29"
+    },
+    {
+      "club_name": "Wellington Olympic",
+      "club_logo": "",
+      "city_country": "Wellington, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Central_League_%28New_Zealand%29"
+    },
+    {
+      "club_name": "Wellington Phoenix Reserves",
+      "club_logo": "",
+      "city_country": "Lower Hutt, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/2025_New_Zealand_National_League"
+    },
+    {
+      "club_name": "Western Suburbs",
+      "club_logo": "",
+      "city_country": "Porirua, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Central_League_%28New_Zealand%29"
+    },
+        {
+      "club_name": "Coastal Spirit",
+      "club_logo": "",
+      "city_country": "Christchurch, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/2025_New_Zealand_National_League"
+    },
+    {
+      "club_name": "Christchurch United",
+      "club_logo": "",
+      "city_country": "Christchurch, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/2025_New_Zealand_National_League"
+    },
+    {
+      "club_name": "Cashmere Technical",
+      "club_logo": "",
+      "city_country": "Christchurch, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/2025_New_Zealand_National_League"
+    },
+    {
+      "club_name": "Wānaka",
+      "club_logo": "",
+      "city_country": "Wānaka, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/2025_New_Zealand_National_League"
+    },
+    {
+      "club_name": "Nelson Suburbs",
+      "club_logo": "",
+      "city_country": "Nelson, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/2025_New_Zealand_National_League"
+    },
+    {
+      "club_name": "University of Canterbury",
+      "club_logo": "",
+      "city_country": "Christchurch, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/2025_New_Zealand_National_League"
+    },
+    {
+      "club_name": "Ferrymead Bays",
+      "club_logo": "",
+      "city_country": "Christchurch, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/2025_New_Zealand_National_League"
+    },
+    {
+      "club_name": "Dunedin City Royals",
+      "club_logo": "",
+      "city_country": "Dunedin, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/2025_New_Zealand_National_League"
+    },
+    {
+      "club_name": "Nomads United",
+      "club_logo": "",
+      "city_country": "Christchurch, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/2025_New_Zealand_National_League"
+    },
+    {
+      "club_name": "Northern",
+      "club_logo": "",
+      "city_country": "Dunedin, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/2025_New_Zealand_National_League"
+    }
 ]
