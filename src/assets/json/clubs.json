@@ -9102,7 +9102,7 @@
   },
   {
     "club_name": "FC Fredericia",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/FC_Fredericia.png/250px-FC_Fredericia.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkOcKC6SMIVmIS6a9KMzTxPistvFlQVC9tAD9E4Qd_ejXxQ4SnIx-R8jpDSPqQRnFDx7-CRxJfC-W9tUsvoT_AKfDyG3aqkPt1VmakZos8DJPYIib8i8Dgp7JF2UOJ9d159G9zYuESBu-P8hinenF9iUwygyOdNEbjhWX9f_eo1-8uZv7pII9G0ICINVA/s320/FC%20Fredericia%202025%20-01.png",
     "city_country": "Fredericia, Denmark",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Fredericia"
   },
@@ -16917,5 +16917,185 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Zanaco_FC.png/250px-Zanaco_FC.png",
     "city_country": "Lusaka, Zambia",
     "wiki_url": "https://en.wikipedia.org/wiki/Zanaco_F.C."
-  }
+  },
+      {
+      "club_name": "Auckland United",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Auckland_United_FC_Logo.svg/250px-Auckland_United_FC_Logo.svg.png",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Auckland_United_FC"
+    },
+    {
+      "club_name": "Bay Olympic",
+      "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgac6_u7imcA_GuXRgxWiuaspl8KCNQj-j8KISEo4i7dozmzfwdNg38vnN-z3cDv2xj5bxV8ggP4JW2OygwXcE4XCQWI3PLroXc8k76EinM76yyiNc1rpa4qQB__Ex03TEuTdFAZ0ey7tey1mu2rNVkvyUDGXGkX_OVQjXa1Bqxn3YWVe9MppH1DHTLot4=w140-h200",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Bay_Olympic"
+    },
+    {
+      "club_name": "Birkenhead United",
+      "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEg5zkU7yReyE9wLE4qtuk2rhhtIULnEj_Unar6cKBUmcRC5vx6MDxTZT6bDAlgIbXPcB8zzxkffgLAp_H_Jwu5eGKUdeL22fU3v3lYPhzbvN62Ekmm5OjPnxQneEtWXqQBo0RaKy2S2PQ6--qS8_910_BFDFZuGX7UUa4GRQjU9E9SIN7xbf6G5nL2mXMY=w200-h184",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Birkenhead_United_AFC"
+    },
+    {
+      "club_name": "East Coast Bays",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/East_Coast_Bays_AFC_logo.png/250px-East_Coast_Bays_AFC_logo.png",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/East_Coast_Bays_AFC"
+    },
+    {
+      "club_name": "Eastern Suburbs AFC",
+      "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlmviwqSzI72k4n03kb-s74nkW3uG8iP0J_y1mEtgEScKku3G62pldmPmhJBwkZZ9anphuuhKn-XbhObzq_Knsjbz5tFPlKuIBQtCeDxcjYI_sSjSiuXLqdJNosyr4avxNaIlGqhi-CZk/s200/Eastern+Suburbs.png",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Eastern_Suburbs_AFC"
+    },
+    {
+      "club_name": "Fencibles United",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Fencibles.gif/190px-Fencibles.gif",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Fencibles_United"
+    },
+    {
+      "club_name": "Manurewa AFC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Manurewa_AFC_logo.png/250px-Manurewa_AFC_logo.png",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Manurewa_AFC"
+    },
+    {
+      "club_name": "Tauranga City",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Tauranga_City_AFC_logo.png/250px-Tauranga_City_AFC_logo.png",
+      "city_country": "Tauranga, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Tauranga_City_AFC"
+    },
+    {
+      "club_name": "West Coast Rangers",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/West_Coast_Rangers_logo.png/250px-West_Coast_Rangers_logo.png",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/West_Coast_Rangers_FC"
+    },
+    {
+      "club_name": "Western Springs",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/df/Western_Springs_AFC_logo.png",
+      "city_country": "Auckland, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Western_Springs_AFC"
+    },
+        {
+      "club_name": "Island Bay United",
+      "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEj7jPx_QwRm5VgpRO13V0pzhThoW1_qWBRd7Bda0shk_RaRsp3bfVz5nEZEMBb1GCYnzK08ju9qrpGer_PcLLIslptX5ejZnWxWISDyHsHvzxsgajF8GaRmkP_bnJyY1Mif0CAbrbeDUzCbykXaM2MmJeRAoS2EN_ilK7s7cGmxfedDdeuAoMj6P5LzBas=w171-h200",
+      "city_country": "Wellington, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Island_Bay_United"
+    },
+    {
+      "club_name": "Miramar Rangers",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Miramar_Rangers_AFC_logo.png/250px-Miramar_Rangers_AFC_logo.png",
+      "city_country": "Wellington, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Miramar_Rangers_AFC"
+    },
+    {
+      "club_name": "Napier City Rovers",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Napier_City_Rovers_FC_logo.png/250px-Napier_City_Rovers_FC_logo.png",
+      "city_country": "Napier, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Napier_City_Rovers_FC"
+    },
+    {
+      "club_name": "North Wellington",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/North_Wellington_AFC_logo.png/250px-North_Wellington_AFC_logo.png",
+      "city_country": "Wellington, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/North_Wellington_AFC"
+    },
+    {
+      "club_name": "Petone",
+      "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEiWQGqxhLym6ImNyArqpFneq9C_qO0J1nJSjeJhTzALwsZMt8hcr8nnCA6WD3osKJMBDs1PwdPPmAxsQhAowGpeQPgO7Ql4v-VG94lLuVrB_ThAa19DBtXhHBrshE9C4XQtZJw9gp_SrX5s44Mn7m515dxfx3mrm3So65F3sA3z_8hWdvklotLEKzEvanM=w151-h200",
+      "city_country": "Wellington, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Petone_FC"
+    },
+    {
+      "club_name": "Upper Hutt City Football",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e0/Upper_Hutt_City_FC_logo.png",
+      "city_country": "Upper Hutt, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Upper_Hutt_City_FC"
+    },
+    {
+      "club_name": "Waterside Karori",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/68/Waterside_Karori_logo.png",
+      "city_country": "Wellington, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Waterside_Karori"
+    },
+    {
+      "club_name": "Wellington Olympic",
+      "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEh3fMyTluO9qF0h3Mykb99KvWqs5yTPSm9KW-Xzq0rhNr4u08Lp62PzDMFlQwVXLrc6SFfK9XB_ENqlUbNt7-lXxKUzi5h5TLjdbmBPr6EX45dGX8OkdxDStTTNcIIXsTuQfFTFedJwAO6_8LhbRNTDiQvTpZ7ILyUuaYe_qU-SRhTY2CvRKFVApwfjZa4=w183-h200",
+      "city_country": "Wellington, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Wellington_Olympic_AFC"
+    },
+    {
+      "club_name": "Western Suburbs",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Western_Suburbs_FC_Logo.svg/250px-Western_Suburbs_FC_Logo.svg.png",
+      "city_country": "Porirua, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Western_Suburbs_FC"
+    },
+        {
+      "club_name": "Coastal Spirit",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1d/Coastal_Spirit_FC_logo.png",
+      "city_country": "Christchurch, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Coastal_Spirit_FC"
+    },
+    {
+      "club_name": "Cashmere Technical",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/ff/Cashmere_Technical_logo.png",
+      "city_country": "Christchurch, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Cashmere_Technical"
+    },
+    {
+      "club_name": "Wānaka AFC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e9/Wanaka_AFC_logo.png",
+      "city_country": "Wānaka, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Wanaka_AFC"
+    },
+    {
+      "club_name": "Nelson Suburbs",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Nelson_Suburbs_FC_logo.png/250px-Nelson_Suburbs_FC_logo.png",
+      "city_country": "Nelson, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Nelson_Suburbs_FC"
+    },
+    {
+      "club_name": "University of Canterbury",
+      "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEi9DsjqqxVtkw-OSUZz_NdpnRV2Gqp0UlIxDs0N_UqQZlN0VzLW9tyDjenBJIXACQgOmwPIQNtFu_zQ2hzDQ5stKT0wxeJtPLF2WwVT5MSTL1K3TJwSN8DRZ4tWg5p_5lLlpcJIdXIhPyVtJUrmeEzHCs9cihhkayF2Br8RxRfsKmq_GcCAB6VT15LUarU=w172-h200",
+      "city_country": "Christchurch, New Zealand",
+      "wiki_url": "https://www.ucfootball.co.nz/"
+    },
+    {
+      "club_name": "Ferrymead Bays",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FerrymeadBaysCrest.png/250px-FerrymeadBaysCrest.png",
+      "city_country": "Christchurch, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ferrymead_Bays"
+    },
+    {
+      "club_name": "Dunedin City Royals",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Dunedin_City_Royals_logo.png/250px-Dunedin_City_Royals_logo.png",
+      "city_country": "Dunedin, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Dunedin_City_Royals"
+    },
+    {
+      "club_name": "Nomads United",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Nomads_United_Logo.jpg/250px-Nomads_United_Logo.jpg",
+      "city_country": "Christchurch, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Nomads_United"
+    },
+    {
+      "club_name": "Selwyn United",
+      "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEjXlWi-IWMh2IuXI5TatA4sOgg-Tn9l1ylmyBGsxXDXX7ct901ndgzkVVqebbgyxNmexvRCQ7aW2FwQz3vcoOLjKT_YvlgtHIEGQ7YswsUfT1Rst03ymq5yjsSwSZxdIzJNiYD0BxprOtB-NDbbBb--apIFos-bYMFQpBrHUT9KAIK4E1zDupLPnQ5YKX0=w156-h200",
+      "city_country": "Rolleston, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Selwyn_United_FC"
+    },
+        {
+      "club_name": "Team Wellington (Defunct)",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Team_Wellington_logo.png/250px-Team_Wellington_logo.png",
+      "city_country": "Wellington, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Team_Wellington_FC"
+    },
+        {
+      "club_name": "Waitakere United (Defunct)",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Waitakere_United.svg/250px-Waitakere_United.svg.png",
+      "city_country": "Waitakere City, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Waitakere_United"
+    }
 ]

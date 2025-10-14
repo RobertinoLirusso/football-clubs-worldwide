@@ -4,5 +4,23 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Netherlands_national_football_team_logo.svg/250px-Netherlands_national_football_team_logo.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Netherlands_national_football_team"
+  },
+    {
+    "club_name": "Spain",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Spain_national_football_team_crest.svg/145px-Spain_national_football_team_crest.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Spain_national_football_team"
+  },
+  {
+    "club_name": "England",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/England_national_football_team_crest.svg/250px-England_national_football_team_crest.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/England_national_football_team"
+  },
+  {
+    "club_name": "Latvia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Latvia_national_team_logo.png/250px-Latvia_national_team_logo.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Latvia_national_football_team"
   }
 ]
