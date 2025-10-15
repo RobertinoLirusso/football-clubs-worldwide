@@ -22,5 +22,35 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Latvia_national_team_logo.png/250px-Latvia_national_team_logo.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Latvia_national_football_team"
+  },
+  {
+    "club_name": "Greece",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Greece_National_Football_Team.svg/120px-Greece_National_Football_Team.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Greece_national_football_team"
+  },
+  {
+    "club_name": "Republic of Ireland",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Republic_of_Ireland_national_football_team_crest.svg/200px-Republic_of_Ireland_national_football_team_crest.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Republic_of_Ireland_national_football_team"
+  },
+  {
+    "club_name": "Senegal",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Senegalese_Football_Federation_logo.svg/250px-Senegalese_Football_Federation_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Senegal_national_football_team"
+  },
+  {
+    "club_name": "Ivory Coast",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Ivory_Coast_national_football_team.svg/250px-Ivory_Coast_national_football_team.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ivory_Coast_national_football_team"
+  },
+  {
+    "club_name": "Norway",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Norway_national_football_team_logo.svg/250px-Norway_national_football_team_logo.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Norway_national_football_team"
   }
 ]

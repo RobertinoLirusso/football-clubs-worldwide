@@ -17092,10 +17092,88 @@
       "city_country": "Wellington, New Zealand",
       "wiki_url": "https://en.wikipedia.org/wiki/Team_Wellington_FC"
     },
+    {
+      "club_name": "Waitakere United (Defunct)",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Waitakere_United.svg/250px-Waitakere_United.svg.png",
+      "city_country": "Waitakere City, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Waitakere_United"
+    },
+        {
+      "club_name": "Team Wellington (Defunct)",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Team_Wellington_logo.png/250px-Team_Wellington_logo.png",
+      "city_country": "Wellington, New Zealand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Team_Wellington_FC"
+    },
         {
       "club_name": "Waitakere United (Defunct)",
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Waitakere_United.svg/250px-Waitakere_United.svg.png",
       "city_country": "Waitakere City, New Zealand",
       "wiki_url": "https://en.wikipedia.org/wiki/Waitakere_United"
-    }
+    },
+      {
+    "club_name": "Ba FA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Ba_FC_football_team_logo.png/250px-Ba_FC_football_team_logo.png",
+    "city_country": "Ba, Fiji",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ba_FA"
+  },
+  {
+    "club_name": "Labasa FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Labasa_FC_Logo.png/250px-Labasa_FC_Logo.png",
+    "city_country": "Labasa, Fiji",
+    "wiki_url": "https://en.wikipedia.org/wiki/Labasa_F.C."
+  },
+  {
+    "club_name": "Lautoka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Lautoka_FA.png/250px-Lautoka_FA.png",
+    "city_country": "Lautoka, Fiji",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lautoka_F.C."
+  },
+  {
+    "club_name": "Nadi DFA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/22/Nadi_FA.png",
+    "city_country": "Nadi, Fiji",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nadi_F.C."
+  },
+  {
+    "club_name": "Nadroga FA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Nadroga_FC_Logo.png/250px-Nadroga_FC_Logo.png",
+    "city_country": "Sigatoka, Fiji",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nadroga_F.C."
+  },
+  {
+    "club_name": "Nasinu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/9/98/Nasinu_klubo_emblema.png/250px-Nasinu_klubo_emblema.png",
+    "city_country": "Nasinu, Fiji",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nasinu_F.C."
+  },
+  {
+    "club_name": "Navua",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/FC_Navua.png/250px-FC_Navua.png",
+    "city_country": "Navua, Fiji",
+    "wiki_url": "https://en.wikipedia.org/wiki/Navua_F.C."
+  },
+  {
+    "club_name": "Rewa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/9/9c/Rewa_klubo_emblema.png/250px-Rewa_klubo_emblema.png",
+    "city_country": "Nausori, Fiji",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rewa_F.C."
+  },
+  {
+    "club_name": "Suva FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Suva-FC-Logo.jpg/250px-Suva-FC-Logo.jpg",
+    "city_country": "Suva, Fiji",
+    "wiki_url": "https://en.wikipedia.org/wiki/Suva_F.C."
+  },
+  {
+    "club_name": "Tailevu Naitasiri",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/b/bd/Tailevu_Naitasiri_FC_emblema.png/150px-Tailevu_Naitasiri_FC_emblema.png",
+    "city_country": "Nausori, Fiji",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tailevu_Naitasiri_F.C."
+  },
+  {
+    "club_name": "Tavua",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/4/47/Tavua_klubo_emblema.png/150px-Tavua_klubo_emblema.png",
+    "city_country": "Tavua, Fiji",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tavua_F.C."
+  }
 ]
