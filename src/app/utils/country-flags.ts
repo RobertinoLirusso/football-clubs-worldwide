@@ -21,7 +21,7 @@ export const COUNTRY_FLAG_MAP: { [key: string]: string } = {
   'belgium': 'be',
   'belize': 'bz',
   'bermuda': 'bm',
-  'bonaire, sint eustatius and saba': 'bq',
+  'bonaire': 'bq',
   'benin': 'bj',
   'bhutan': 'bt',
   'bolivia': 'bo',
