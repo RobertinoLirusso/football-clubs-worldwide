@@ -16716,7 +16716,7 @@
   },
   {
     "club_name": "Township Rollers",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/37/Tusker_FC_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Township_Rollers_%28logo%29.png/250px-Township_Rollers_%28logo%29.png",
     "city_country": "Gaborone, Botswana",
     "wiki_url": "https://en.wikipedia.org/wiki/Township_Rollers_F.C."
   },
@@ -17086,7 +17086,7 @@
       "city_country": "Rolleston, New Zealand",
       "wiki_url": "https://en.wikipedia.org/wiki/Selwyn_United_FC"
     },
-        {
+    {
       "club_name": "Team Wellington (Defunct)",
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Team_Wellington_logo.png/250px-Team_Wellington_logo.png",
       "city_country": "Wellington, New Zealand",
@@ -17175,5 +17175,137 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/4/47/Tavua_klubo_emblema.png/150px-Tavua_klubo_emblema.png",
     "city_country": "Tavua, Fiji",
     "wiki_url": "https://en.wikipedia.org/wiki/Tavua_F.C."
+  },
+      {
+      "club_name": "Abu Muslim Farah",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/dd/Abu_Muslim_FC_Logo.png",
+      "city_country": "Farah, Afghanistan",
+      "wiki_url": "https://en.wikipedia.org/wiki/Abu_Muslim_FC"
+    },
+    {
+      "club_name": "Pago Youth",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/7a/Pago_Pago_Youth.png",
+      "city_country": "Pago Pago, American Samoa",
+      "wiki_url": "https://en.wikipedia.org/wiki/Pago_Youth_FC"
+    },
+    {
+      "club_name": "IM Bears FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/9/9b/IM_Bears_FC.png/250px-IM_Bears_FC.png",
+      "city_country": "Nassau, Bahamas",
+      "wiki_url": "https://en.wikipedia.org/wiki/Bears_FC"
+    },
+    {
+      "club_name": "Belmopan FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Belmopan_FC_Logo_2025.png/250px-Belmopan_FC_Logo_2025.png",
+      "city_country": "Belmopan, Belize",
+      "wiki_url": "https://en.wikipedia.org/wiki/Belmopan_FC"
+    },
+    {
+      "club_name": "SV Real Rincon",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/51/Real_Rincon.png",
+      "city_country": "Rincon, Bonaire, Sint Eustatius and Saba",
+      "wiki_url": "https://en.wikipedia.org/wiki/SV_Real_Rincon"
+    },
+    {
+      "club_name": "Scholars International SC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Scholars_International_SC.png/250px-Scholars_International_SC.png",
+      "city_country": "West Bay, Cayman Islands",
+      "wiki_url": "https://en.wikipedia.org/wiki/Scholars_International_SC"
+    },
+      {
+    "club_name": "Arnett Gardens",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Arnett_Gardens_F.C._logo.png/250px-Arnett_Gardens_F.C._logo.png",
+    "city_country": "Kingston, Jamaica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Arnett_Gardens_F.C."
+  },
+  {
+    "club_name": "Cavalier",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Cavalier_FC.png/250px-Cavalier_FC.png",
+    "city_country": "Kingston, Jamaica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cavalier_F.C."
+  },
+  {
+    "club_name": "Chapelton Maroons",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/9/91/Chapelton_Maroons_FC_logo.png/250px-Chapelton_Maroons_FC_logo.png",
+    "city_country": "Chapelton, Jamaica",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Chapelton_Maroons_FC"
+  },
+  {
+    "club_name": "Dunbeholden",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Dunbeholden_F.C._logo.png/250px-Dunbeholden_F.C._logo.png",
+    "city_country": "Portmore, Jamaica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dunbeholden_F.C."
+  },
+  {
+    "club_name": "Harbour View",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9c/Harbour_View_F.C.png",
+    "city_country": "Kingston, Jamaica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Harbour_View_F.C."
+  },
+  {
+    "club_name": "Humble Lions",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Humble_Lions_FC.png/250px-Humble_Lions_FC.png",
+    "city_country": "May Pen, Jamaica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Humble_Lions_F.C."
+  },
+  {
+    "club_name": "Molynes United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Molynes_United_F.C._logo.png/250px-Molynes_United_F.C._logo.png",
+    "city_country": "Kingston, Jamaica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Molynes_United_F.C."
+  },
+  {
+    "club_name": "Montego Bay United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/6/66/Montego_Bay_United_FC_logo.png/250px-Montego_Bay_United_FC_logo.png",
+    "city_country": "Montego Bay, Jamaica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Montego_Bay_United_F.C."
+  },
+  {
+    "club_name": "Mount Pleasant",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/19/Mount_Pleasant_Football_Academy_Logo.png",
+    "city_country": "Saint Ann's Bay, Jamaica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mount_Pleasant_F.A."
+  },
+  {
+    "club_name": "Portmore United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Portmore_United.svg/250px-Portmore_United.svg.png",
+    "city_country": "Portmore, Jamaica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Portmore_United_F.C."
+  },
+  {
+    "club_name": "Racing United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/b/b8/Racing_United_Football_Club_emblema.png",
+    "city_country": "Portmore, Jamaica",
+    "wiki_url": "https://www.jamaicafootball.org/team/racing-united-fc/"
+  },
+  {
+    "club_name": "Tivoli Gardens",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Tivoli_Gardens_FC.png/250px-Tivoli_Gardens_FC.png",
+    "city_country": "Kingston, Jamaica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tivoli_Gardens_F.C."
+  },
+  {
+    "club_name": "Vere United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ee/Vere_United_F.C._logo.png",
+    "city_country": "Clarendon, Jamaica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vere_United_F.C."
+  },
+  {
+    "club_name": "Waterhouse",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/a/a6/Waterhouse_FC_logo.png/200px-Waterhouse_FC_logo.png",
+    "city_country": "Kingston, Jamaica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Waterhouse_F.C."
+  },
+  {
+    "club_name": "Treasure Beach",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/c/cd/Treasure_Beach_FC_logo.png/250px-Treasure_Beach_FC_logo.png",
+    "city_country": "Treasure Beach, Jamaica",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Treasure_Beach_FC"
+  },
+  {
+    "club_name": "Spanish Town Police",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/d/db/Spanish_Town_Police_FC_logo.png/250px-Spanish_Town_Police_FC_logo.png",
+    "city_country": "Spanish Town, Jamaica",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Spanish_Town_Police_FC"
   }
 ]
