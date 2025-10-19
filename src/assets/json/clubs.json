@@ -17307,5 +17307,95 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/d/db/Spanish_Town_Police_FC_logo.png/250px-Spanish_Town_Police_FC_logo.png",
     "city_country": "Spanish Town, Jamaica",
     "wiki_url": "https://lt.wikipedia.org/wiki/Spanish_Town_Police_FC"
+  },
+    {
+    "club_name": "ASD Asti",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cf/A.S.D._Asti_logo.png",
+    "city_country": "Asti, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASD_Asti"
+  },
+  {
+    "club_name": "ASD Biellese 1902",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/30/ASD_Biellese_1902_new_logo.png",
+    "city_country": "Biella, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASD_Biellese_1902"
+  },
+  {
+    "club_name": "Derthona",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/FBC_Derthona_1908.png/180px-FBC_Derthona_1908.png",
+    "city_country": "Tortona, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASD_HSL_Derthona"
+  },
+  {
+    "club_name": "AC Gozzano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b4/A.C._Gozzano_logo.png",
+    "city_country": "Gozzano, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Gozzano"
+  },
+  {
+    "club_name": "ASD Imperia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/ce/A.S.D._Imperia_logo.png",
+    "city_country": "Imperia, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASD_Imperia"
+  },
+  {
+    "club_name": "USD Lavagnese",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/CENTENARIO_USL1919.gif/250px-CENTENARIO_USL1919.gif",
+    "city_country": "Lavagna, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/USD_Lavagnese_1919"
+  },
+  {
+    "club_name": "ACDS Saluzzo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/1/12/AC_Saluzzo_Logo.png/250px-AC_Saluzzo_Logo.png",
+    "city_country": "Saluzzo, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Associazione_Calcio_Sportiva_Dilettantistica_Saluzzo"
+  },
+  {
+    "club_name": "Sanremese Calcio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/bd/S.S.D._Unione_Sanremo_logo.png",
+    "city_country": "San Remo, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/SSD_Sanremese_Calcio"
+  },
+  {
+    "club_name": "US Sestri Levante",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/US_Sestri_Levante_1919_crest.svg/250px-US_Sestri_Levante_1919_crest.svg.png",
+    "city_country": "Sestri Levante, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Sestri_Levante_1919"
+  },
+  {
+    "club_name": "Vado FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2e/F.C._Vado_badge.png",
+    "city_country": "Vado Ligure, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Vado"
+  },
+  {
+    "club_name": "Valenzana Mado",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2e/Valenzana_Mado_logo.png",
+    "city_country": "Valenza, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Valenzana_Mado"
+  },
+  {
+    "club_name": "Varese FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Logo_Varese_FC_2025.svg/250px-Logo_Varese_FC_2025.svg.png",
+    "city_country": "Varese, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Varese_FC"
+  },
+  {
+    "club_name": "Varese Calcio (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/SSD_Varese_Calcio_crest.svg/250px-SSD_Varese_Calcio_crest.svg.png",
+    "city_country": "Varese, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/SSD_Varese_Calcio"
+  },
+  {
+    "club_name": "SC Delhi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Sporting_Delhi_Logo.png/250px-Sporting_Delhi_Logo.png",
+    "city_country": "Delhi, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Delhi"
+  },
+    {
+    "club_name": "Vanuatu United",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEh_Q7kgdtnRjwrMBrtff_OtjPHYCfx9KECn3PCtyTnlFs5JzEHeUyiOBUmxWj8bciPWD_S8AfXbweTPnyi_y8UZyEeKHXA5biWxOp1RXOn6-ycSXO5pJ9MldFPlBNe983NCz8Fcidvq1bqzbSpq-K-pKJ7RXtjxubOJ9MN6POBZp8l1T6e6RST8AZRePn0=w260-h320",
+    "city_country": "Port Vila, Vanuatu",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vanuatu_United_FC"
   }
 ]

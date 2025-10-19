@@ -52,5 +52,17 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Norway_national_football_team_logo.svg/250px-Norway_national_football_team_logo.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Norway_national_football_team"
+  },
+  {
+    "club_name": "Germany",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/DFBEagle.svg/250px-DFBEagle.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Germany_national_football_team"
+  },
+  {
+    "club_name": "Poland",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Herb_Polski.svg/250px-Herb_Polski.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Poland_national_football_team"
   }
 ]
