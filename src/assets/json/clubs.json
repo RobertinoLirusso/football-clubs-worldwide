@@ -4860,7 +4860,7 @@
   },
   {
     "club_name": "Persija Jakarta",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Lambang_Persija_Jakarta.svg/391px-Lambang_Persija_Jakarta.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Persija_Jakarta_Football_Logo.png/250px-Persija_Jakarta_Football_Logo.png",
     "city_country": "Jakarta, Indonesia",
     "wiki_url": "https://en.wikipedia.org/wiki/Persija_Jakarta"
   },
@@ -8250,7 +8250,7 @@
   },
   {
     "club_name": "Taranto",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Taranto_Logo_2025.png/250px-Taranto_Logo_2025.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEhKZO7Hp7DcRZz5CeMyBGPSzj1M5TjyZ8kev5IkWP0DJ4MwGzfvqA7-S8-VbuizhM1Ls2Z0sWL4qqIF2auflDiYDXwK-G1zLrZZP_I6yI4ycNGM6XlqcBJFbqZqD1UtAHcnfpU0isiyPjttb-IwgWMsHkwwpgRmOROXvGbNJPeZqgWA7MKmRORHk0Hva7k=w241-h320",
     "city_country": "Taranto, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Taranto_FC_1927"
   },
@@ -17397,5 +17397,83 @@
     "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEh_Q7kgdtnRjwrMBrtff_OtjPHYCfx9KECn3PCtyTnlFs5JzEHeUyiOBUmxWj8bciPWD_S8AfXbweTPnyi_y8UZyEeKHXA5biWxOp1RXOn6-ycSXO5pJ9MldFPlBNe983NCz8Fcidvq1bqzbSpq-K-pKJ7RXtjxubOJ9MN6POBZp8l1T6e6RST8AZRePn0=w260-h320",
     "city_country": "Port Vila, Vanuatu",
     "wiki_url": "https://en.wikipedia.org/wiki/Vanuatu_United_FC"
+  },
+    {
+    "club_name": "Madura United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9d/Madura_United_F.C._logo.png",
+    "city_country": "Pamekasan, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Madura_United_F.C."
+  },
+  {
+    "club_name": "Bali United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Bali_United_logo.svg/200px-Bali_United_logo.svg.png",
+    "city_country": "Gianyar, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bali_United_F.C."
+  },
+  {
+    "club_name": "Bhayangkara Presisi Lampung",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Bhayangkara_FC_logo.svg/150px-Bhayangkara_FC_logo.svg.png",
+    "city_country": "Bandar Lampung, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bhayangkara_Presisi_Lampung_F.C"
+  },
+  {
+    "club_name": "Dewa United Banten",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Dewa_United_F.C._logo.svg/250px-Dewa_United_F.C._logo.svg.png",
+    "city_country": "Serang, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dewa_United_Banten_F.C."
+  },
+  {
+    "club_name": "Persebaya Surabaya",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Persebaya_logo.svg/180px-Persebaya_logo.svg.png",
+    "city_country": "Surabaya, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Persebaya_Surabaya"
+  },
+  {
+    "club_name": "Persik Kediri",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Persik_Kediri_logo.svg/250px-Persik_Kediri_logo.svg.png",
+    "city_country": "Kediri, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Persik_Kediri"
+  },
+  {
+    "club_name": "Persita Tangerang",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Persita_logo_%282020%29.svg/250px-Persita_logo_%282020%29.svg.png",
+    "city_country": "Tangerang, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Persita_Tangerang"
+  },
+  {
+    "club_name": "PSIM Yogyakarta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/e/ea/PSIM_Yogyakarta_emblema.png",
+    "city_country": "Yogyakarta, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/PSIM_Yogyakarta"
+  },
+  {
+    "club_name": "PSM Makassar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/PSM_Makassar_logo.svg/180px-PSM_Makassar_logo.svg.png",
+    "city_country": "Makassar, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/PSM_Makassar"
+  },
+  {
+    "club_name": "Malut United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Malut_United_Football_Club.png/130px-Malut_United_Football_Club.png",
+    "city_country": "Ternate, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Malut_United_F.C."
+  },
+  {
+    "club_name": "PSBS Biak",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/PSBS_Biak_crest.jpg/250px-PSBS_Biak_crest.jpg",
+    "city_country": "Biak Numfor Regency, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/PSBS_Biak"
+  },
+  {
+    "club_name": "Semen Padang",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Semen_Padang_FC_logo.svg/200px-Semen_Padang_FC_logo.svg.png",
+    "city_country": "Padang, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Semen_Padang_F.C."
+  },
+  {
+    "club_name": "PSS Sleman",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/PSS_Sleman_logo.svg/180px-PSS_Sleman_logo.svg.png",
+    "city_country": "Sleman, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/PSS_Sleman"
   }
 ]

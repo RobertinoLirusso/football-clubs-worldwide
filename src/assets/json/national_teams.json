@@ -64,5 +64,17 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Herb_Polski.svg/250px-Herb_Polski.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Poland_national_football_team"
+  },
+  {
+    "club_name": "San Marino",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/San-marino-logo.png/250px-San-marino-logo.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/San_Marino_national_football_team"
+  },
+  {
+    "club_name": "Liechtenstein",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Crown_of_Liechtenstein.svg/250px-Crown_of_Liechtenstein.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Liechtenstein_national_football_team"
   }
 ]
