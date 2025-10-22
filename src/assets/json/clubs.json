@@ -17475,5 +17475,53 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/PSS_Sleman_logo.svg/180px-PSS_Sleman_logo.svg.png",
     "city_country": "Sleman, Indonesia",
     "wiki_url": "https://en.wikipedia.org/wiki/PSS_Sleman"
+  },
+    {
+    "club_name": "FK Arkadag",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/FK_Arkadag_logo.svg/250px-FK_Arkadag_logo.svg.png",
+    "city_country": "Arkadag, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Arkadag"
+  },
+  {
+    "club_name": "Altyn Asyr FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/FC_Altyn_Asyr_logo.png/250px-FC_Altyn_Asyr_logo.png",
+    "city_country": "Ashgabat, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Altyn_Asyr"
+  },
+  {
+    "club_name": "Ahal FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Ahal_FK_logo.svg/250px-Ahal_FK_logo.svg.png",
+    "city_country": "Anau, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ahal_FK"
+  },
+  {
+    "club_name": "Şagadam FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/FC_Sagadam_Logo.png/250px-FC_Sagadam_Logo.png",
+    "city_country": "Türkmenbaşy, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C5%9Eagadam_FK"
+  },
+  {
+    "club_name": "Nebitçi FT",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/db/Nebit%C3%A7i_FT_logo.png",
+    "city_country": "Balkanabat, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nebit%C3%A7i_FT"
+  },
+  {
+    "club_name": "FK Köpetdag Aşgabat",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/K%C3%B6petdag_A%C5%9Fgabat_FK_Logo.png/250px-K%C3%B6petdag_A%C5%9Fgabat_FK_Logo.png",
+    "city_country": "Ashgabat, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_K%C3%B6petdag_A%C5%9Fgabat"
+  },
+  {
+    "club_name": "Merw FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/FC_Merw_Mary.gif/250px-FC_Merw_Mary.gif",
+    "city_country": "Mary, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Merw_FK"
+  },
+  {
+    "club_name": "Aşgabat FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Fc_ashgabat_logo.png/250px-Fc_ashgabat_logo.png",
+    "city_country": "Ashgabat, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_A%C5%9Fgabat"
   }
 ]
