@@ -76,5 +76,29 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Crown_of_Liechtenstein.svg/250px-Crown_of_Liechtenstein.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Liechtenstein_national_football_team"
+  },
+  {
+    "club_name": "Lithuania",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/89/Badge_of_Lithuania_national_football_teams.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lithuania_national_football_team"
+  },
+  {
+    "club_name": "Georgia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Georgia_national_football_team_crest.svg/250px-Georgia_national_football_team_crest.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Georgia_national_football_team"
+  },
+  {
+    "club_name": "Kosovo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Kosovo_national_football_team_logo.png/130px-Kosovo_national_football_team_logo.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kosovo_national_football_team"
+  },
+  {
+    "club_name": "Sweden",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Sweden_national_football_team_badge.svg/250px-Sweden_national_football_team_badge.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sweden_men%27s_national_football_team"
   }
 ]
