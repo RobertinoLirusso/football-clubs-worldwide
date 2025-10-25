@@ -100,5 +100,23 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Sweden_national_football_team_badge.svg/250px-Sweden_national_football_team_badge.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Sweden_men%27s_national_football_team"
+  },
+  {
+    "club_name": "Kazakhstan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/d/db/Kazakhstan_FA.png/250px-Kazakhstan_FA.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kazakhstan_national_football_team"
+  },
+  {
+    "club_name": "Soviet Union (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Soviet_Union_football_federation.png/250px-Soviet_Union_football_federation.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Soviet_Union_national_football_team"
+  },
+  {
+    "club_name": "Serbia and Montenegro (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/00/Fudbalska_reprezentacija_Srbije_i_Crne_Gore_%28crest%29.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Serbia_and_Montenegro_national_football_team"
   }
 ]

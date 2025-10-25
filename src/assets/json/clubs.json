@@ -7895,7 +7895,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/FC_Pari_Nizhny_Novgorod"
     },
     {
-        "club_name": "Khimki",
+        "club_name": "Khimki (Defunct)",
         "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqORVQPuTB4L2Ybwls-IOYGGhzSYh6J4ySFfwNswjccyD3lSDu82uQrKmW5PdBIZKHGNkLltueGsKxIMafgHmm9qD_Vf2nkCCPL2LC6DxWtrofRZ5ZEF4LRydI2pdyifPxj3HGZsqDew4/s1600/FC+Khimki256x.png",
         "city_country": "Khimki, Russia",
         "wiki_url": "https://en.wikipedia.org/wiki/FC_Khimki"
@@ -11226,7 +11226,7 @@
   },
   {
     "club_name": "Olympique Club Safi",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Olympic_Club_Safi.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/9/91/Ocs.png/180px-Ocs.png",
     "city_country": "Safi, Morocco",
     "wiki_url": "https://en.wikipedia.org/wiki/Olympic_Club_Safi"
   },
@@ -17799,5 +17799,185 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Logotipo_Atl%C3%A9tico_Clube_de_Portugal.svg/120px-Logotipo_Atl%C3%A9tico_Clube_de_Portugal.svg.png",
     "city_country": "Lisbon, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Clube_de_Portugal"
+  },
+    {
+    "club_name": "Abha Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Abha_Club_Logo.svg/270px-Abha_Club_Logo.svg.png",
+    "city_country": "Abha, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Abha_Club"
+  },
+  {
+    "club_name": "Al-Adalah",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Al_Adalah_logo.png/250px-Al_Adalah_logo.png",
+    "city_country": "Al-Hulaylah, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Adalah_Club"
+  },
+  {
+    "club_name": "Al-Arabi SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/2/23/%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A.png/250px-%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A.png",
+    "city_country": "Unaizah, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Arabi_SC_(Saudi_Arabia)"
+  },
+  {
+    "club_name": "Al-Batin",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Al-Batin_F.C_logo.png/250px-Al-Batin_F.C_logo.png",
+    "city_country": "Hafar al-Batin, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Batin_FC"
+  },
+  {
+    "club_name": "Al-Bukiryah",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Al_Bukiryah_Logo.png/250px-Al_Bukiryah_Logo.png",
+    "city_country": "Al Bukayriyah, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Bukiryah_FC"
+  },
+  {
+    "club_name": "Diriyah Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Diriyah_Club_Logo.svg/200px-Diriyah_Club_Logo.svg.png",
+    "city_country": "Diriyah, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Diriyah_Club"
+  },
+  {
+    "club_name": "Al-Faisaly KSA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Al-Faisaly_FC_New_Logo.png/250px-Al-Faisaly_FC_New_Logo.png",
+    "city_country": "Harmah, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Faisaly_FC"
+  },
+  {
+    "club_name": "Al-Jabalain",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Al_Jabalain_Logo.png/250px-Al_Jabalain_Logo.png",
+    "city_country": "Hail, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Jabalain_Club"
+  },
+  {
+    "club_name": "Al-Orobah",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Al-Orobah_Logo.svg/120px-Al-Orobah_Logo.svg.png",
+    "city_country": "Sakakah, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Orobah_FC"
+  },
+  {
+    "club_name": "Al-Raed",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Al_Raed_FC.svg/250px-Al_Raed_FC.svg.png",
+    "city_country": "Buraidah, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Raed_S.FC"
+  },
+  {
+    "club_name": "Al-Ula",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Al-Ula_FC_Logo.svg/250px-Al-Ula_FC_Logo.svg.png",
+    "city_country": "al-Ula, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Ula_FC"
+  },
+  {
+    "club_name": "Al-Wehda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Al_Wehda_FC_Logo.svg/250px-Al_Wehda_FC_Logo.svg.png",
+    "city_country": "Mecca, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Wehda_FC"
+  },
+  {
+    "club_name": "Jeddah Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Jeddah_Club_Logo.png/250px-Jeddah_Club_Logo.png",
+    "city_country": "Jeddah, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jeddah_Club"
+  },
+  {
+    "club_name": "Al-Tai",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Al-Tai_FC_Logo.svg/200px-Al-Tai_FC_Logo.svg.png",
+    "city_country": "Hail, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Tai_FC"
+  },
+  {
+    "club_name": "Al-Jubail",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Al-Jubail_Club_Logo.png/250px-Al-Jubail_Club_Logo.png",
+    "city_country": "Jubail, Saudi Arabia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Jubail_Club"
+  },
+  {
+    "club_name": "Emirates Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Al_Emirate.png/250px-Al_Emirate.png",
+    "city_country": "Ras Al Khaimah, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Emirates_Club"
+  },
+    {
+    "club_name": "Aarhus Fremad",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Aarhus_Fremad.svg/250px-Aarhus_Fremad.svg.png",
+    "city_country": "Aarhus, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aarhus_Fremad"
+  },
+  {
+    "club_name": "AC Horsens",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/AC_Horsens_logo_2017.svg/250px-AC_Horsens_logo_2017.svg.png",
+    "city_country": "Horsens, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Horsens"
+  },
+  {
+    "club_name": "B.93",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Boldklubben93logo.png/250px-Boldklubben93logo.png",
+    "city_country": "Copenhagen, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Boldklubben_af_1893"
+  },
+  {
+    "club_name": "Hillerød Fodbold",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Hiller%C3%B8d_Fodbold_2017_logo.svg/180px-Hiller%C3%B8d_Fodbold_2017_logo.svg.png",
+    "city_country": "Hillerød, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hiller%C3%B8d_Fodbold"
+  },
+  {
+    "club_name": "Hobro IK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Hobro_IK_logo.svg/250px-Hobro_IK_logo.svg.png",
+    "city_country": "Hobro, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hobro_IK"
+  },
+  {
+    "club_name": "Hvidovre IF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Hvidovre_IF.png/160px-Hvidovre_IF.png",
+    "city_country": "Hvidovre, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hvidovre_IF"
+  },
+  {
+    "club_name": "Kolding IF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/KoldingIFBadge.png/250px-KoldingIFBadge.png",
+    "city_country": "Kolding, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kolding_IF"
+  },
+  {
+    "club_name": "Lyngby BK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Lyngby_Boldklub_logo.png/250px-Lyngby_Boldklub_logo.png",
+    "city_country": "Lyngby, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lyngby_Boldklub"
+  },
+  {
+    "club_name": "Middelfart Boldklub",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Middelfart_BK_logo.jpg/250px-Middelfart_BK_logo.jpg",
+    "city_country": "Middelfart, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Middelfart_Boldklub"
+  },
+  {
+    "club_name": "Young African's SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Young_Africans_SC_%28logo%29.png/250px-Young_Africans_SC_%28logo%29.png",
+    "city_country": "Jangawani, Tanzania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Young_Africans_S.C."
+  },
+  {
+    "club_name": "Simba S.C",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Simba_Sports_Club.png/250px-Simba_Sports_Club.png",
+    "city_country": "Kariakoo, Tanzania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Simba_S.C."
+  },
+  {
+    "club_name": "Coastal Union FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Young_Africans_SC_%28logo%29.png/250px-Young_Africans_SC_%28logo%29.png",
+    "city_country": "Tanga, Tanzania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Coastal_Union_F.C."
+  },
+  {
+    "club_name": "Chamois Niortais (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Chamois_Niortais_FC_logo.svg/160px-Chamois_Niortais_FC_logo.svg.png",
+    "city_country": "Niort, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chamois_Niortais_FC"
+  },
+  {
+    "club_name": "Lampang (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/e/e9/Lampang_FC_logo.png/330px-Lampang_FC_logo.png",
+    "city_country": "Lampang, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lampang_F.C."
   }
 ]

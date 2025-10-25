@@ -1,8 +1,86 @@
 [
   {
-    "club_name": "Amora",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Amora_F.C._logo.svg/130px-Amora_F.C._logo.svg.png",
-    "city_country": "Amora, Portugal",
-    "wiki_url": "https://en.wikipedia.org/wiki/Amora_F.C."
+    "club_name": "Aarhus Fremad",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Aarhus_Fremad.svg/250px-Aarhus_Fremad.svg.png",
+    "city_country": "Aarhus, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aarhus_Fremad"
+  },
+  {
+    "club_name": "AC Horsens",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/AC_Horsens_logo_2017.svg/250px-AC_Horsens_logo_2017.svg.png",
+    "city_country": "Horsens, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Horsens"
+  },
+  {
+    "club_name": "B.93",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Boldklubben93logo.png/250px-Boldklubben93logo.png",
+    "city_country": "Copenhagen, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Boldklubben_af_1893"
+  },
+  {
+    "club_name": "Hillerød Fodbold",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Hiller%C3%B8d_Fodbold_2017_logo.svg/180px-Hiller%C3%B8d_Fodbold_2017_logo.svg.png",
+    "city_country": "Hillerød, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hiller%C3%B8d_Fodbold"
+  },
+  {
+    "club_name": "Hobro IK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Hobro_IK_logo.svg/250px-Hobro_IK_logo.svg.png",
+    "city_country": "Hobro, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hobro_IK"
+  },
+  {
+    "club_name": "Hvidovre IF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Hvidovre_IF.png/160px-Hvidovre_IF.png",
+    "city_country": "Hvidovre, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hvidovre_IF"
+  },
+  {
+    "club_name": "Kolding IF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/KoldingIFBadge.png/250px-KoldingIFBadge.png",
+    "city_country": "Kolding, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kolding_IF"
+  },
+  {
+    "club_name": "Lyngby BK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Lyngby_Boldklub_logo.png/250px-Lyngby_Boldklub_logo.png",
+    "city_country": "Lyngby, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lyngby_Boldklub"
+  },
+  {
+    "club_name": "Middelfart Boldklub",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Middelfart_BK_logo.jpg/250px-Middelfart_BK_logo.jpg",
+    "city_country": "Middelfart, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Middelfart_Boldklub"
+  },
+  {
+    "club_name": "Young African's SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Young_Africans_SC_%28logo%29.png/250px-Young_Africans_SC_%28logo%29.png",
+    "city_country": "Jangawani, Tanzania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Young_Africans_S.C."
+  },
+  {
+    "club_name": "Simba S.C",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Simba_Sports_Club.png/250px-Simba_Sports_Club.png",
+    "city_country": "Kariakoo, Tanzania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Simba_S.C."
+  },
+  {
+    "club_name": "Coastal Union FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Young_Africans_SC_%28logo%29.png/250px-Young_Africans_SC_%28logo%29.png",
+    "city_country": "Tanga, Tanzania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Coastal_Union_F.C."
+  },
+  {
+    "club_name": "Chamois Niortais",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Chamois_Niortais_FC_logo.svg/160px-Chamois_Niortais_FC_logo.svg.png",
+    "city_country": "Niort, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chamois_Niortais_FC"
+  },
+  {
+    "club_name": "Lampang (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/e/e9/Lampang_FC_logo.png/330px-Lampang_FC_logo.png",
+    "city_country": "Lampang, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lampang_F.C."
   }
 ]
