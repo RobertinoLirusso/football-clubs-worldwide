@@ -6401,7 +6401,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Dukla_Banská_Bystrica"
   },
   {
-    "club_name": "Bohemian FC",
+    "club_name": "Bohemians",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhezMWLLueP_-YhhhpqWGB6r98cxxuTN_Rj3B2btwrKYrq6i1BbOXWnYNPw09GCixpb-ohZP4O6A4QKQG2Qa_XYsENbC05YIzjVHwvpeacfH9RNKbRNRSkaZRs-cNloC1g6-HYTvW_PF3A/s1600/Bohemian+FC256x.png",
     "city_country": "Dublin, Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Bohemian_FC"
@@ -13938,7 +13938,7 @@
   },
   {
     "club_name": "Sydney Olympic",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/ce/Sydney_Olympic_FC_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Sydney_Olympic_FC.png/130px-Sydney_Olympic_FC.png",
     "city_country": "Sydney, Australia",
     "wiki_url": "https://en.wikipedia.org/wiki/Sydney_Olympic_FC"
   },
@@ -17964,7 +17964,7 @@
   },
   {
     "club_name": "Coastal Union FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Young_Africans_SC_%28logo%29.png/250px-Young_Africans_SC_%28logo%29.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Coastal_Union_FC_%28logo%29.png/250px-Coastal_Union_FC_%28logo%29.png",
     "city_country": "Tanga, Tanzania",
     "wiki_url": "https://en.wikipedia.org/wiki/Coastal_Union_F.C."
   },
@@ -17979,5 +17979,107 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/e/e9/Lampang_FC_logo.png/330px-Lampang_FC_logo.png",
     "city_country": "Lampang, Thailand",
     "wiki_url": "https://en.wikipedia.org/wiki/Lampang_F.C."
+  },
+    {
+    "club_name": "FC Gonio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/26/FC_Gonio_logo.png",
+    "city_country": "Gonio, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Gonio"
+  },
+  {
+    "club_name": "Locomotive Tbilisi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Locomotive_logo.png/250px-Locomotive_logo.png",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Locomotive_Tbilisi"
+  },
+  {
+    "club_name": "Merani Martvili",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/FC_Merani_Martvili_logo.png/180px-FC_Merani_Martvili_logo.png",
+    "city_country": "Martvili, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Merani_Martvili"
+  },
+  {
+    "club_name": "Meshakhte Tkibuli",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/6f/FC_Meshakhte_Tkibuli.png",
+    "city_country": "Tkibuli, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Meshakhte_Tkibuli"
+  },
+  {
+    "club_name": "Rustavi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b6/FC_Rustavi_logo.png",
+    "city_country": "Rustavi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Rustavi"
+  },
+  {
+    "club_name": "FC Samtredia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/FC_Samtredia_logo.png/250px-FC_Samtredia_logo.png",
+    "city_country": "Samtredia, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Samtredia"
+  },
+  {
+    "club_name": "Sioni Bolnisi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/FC_Sioni_Bolnisi.jpg/250px-FC_Sioni_Bolnisi.jpg",
+    "city_country": "Bolnisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Sioni_Bolnisi"
+  },
+  {
+    "club_name": "Spaeri",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Special_State_Protection_Service_Of_Georgia_logo.png/250px-Special_State_Protection_Service_Of_Georgia_logo.png",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Spaeri"
+  },
+    {
+    "club_name": "Cobh Ramblers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Cobh_Ramblers_FC_logo.svg/250px-Cobh_Ramblers_FC_logo.svg.png",
+    "city_country": "Cobh, Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cobh_Ramblers_F.C."
+  },
+  {
+    "club_name": "Treaty United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Treaty_United_F.C._crest.svg/250px-Treaty_United_F.C._crest.svg.png",
+    "city_country": "Limerick, Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Treaty_United_F.C."
+  },
+    {
+    "club_name": "Limerick (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/c/c5/Limerick_FC_emblema.png/150px-Limerick_FC_emblema.png",
+    "city_country": "Limerick, Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Limerick_F.C."
+  },
+  {
+    "club_name": "Longford Town",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Longford_Town_F.C._crest.svg/250px-Longford_Town_F.C._crest.svg.png",
+    "city_country": "Longford, Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Longford_Town_F.C."
+  },
+  {
+    "club_name": "Wexford",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/WEXFORD-FC-CREST.png/250px-WEXFORD-FC-CREST.png",
+    "city_country": "Crossabeg, Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wexford_F.C."
+  },
+  {
+    "club_name": "Finn Harps",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Finn_Harps_FC_logo.svg/250px-Finn_Harps_FC_logo.svg.png",
+    "city_country": "Ballybofey, Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Finn_Harps_F.C."
+  },
+  {
+    "club_name": "Kerry FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Kerry_FC_Crest.png/170px-Kerry_FC_Crest.png",
+    "city_country": "Tralee, Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kerry_F.C._(Ireland)"
+  },
+  {
+    "club_name": "Athlone Town",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Athlone_Town_A.F.C._crest.svg/250px-Athlone_Town_A.F.C._crest.svg.png",
+    "city_country": "Athlone, Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Athlone_Town_A.F.C."
+  },
+    {
+    "club_name": "Dublin City (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/ab/Dcfcmedium.png",
+    "city_country": "Dublin, Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dublin_City_F.C."
   }
 ]
