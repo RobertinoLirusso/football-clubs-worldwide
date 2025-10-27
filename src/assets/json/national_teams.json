@@ -202,5 +202,23 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Morocco_FRMF.png/250px-Morocco_FRMF.png",
     "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Morocco_national_football_team"
+  },
+  {
+    "club_name": "Chile",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile_logo.svg/250px-Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile_logo.svg.png",
+    "continent": "South America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chile_national_football_team"
+  },
+  {
+    "club_name": "France",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/France_national_football_team_seal.svg/155px-France_national_football_team_seal.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/France_national_football_team"
+  },
+  {
+    "club_name": "Denmark",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Dansk_boldspil_union_logo.svg/250px-Dansk_boldspil_union_logo.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Denmark_national_football_team"
   }
 ]
