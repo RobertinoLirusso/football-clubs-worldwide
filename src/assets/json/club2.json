@@ -1,74 +1,8 @@
 [
   {
-    "club_name": "FC Bavois",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/FC_BAVOIS.png/250px-FC_BAVOIS.png",
-    "city_country": "Bavois, Switzerland",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Bavois"
-  },
-  {
-    "club_name": "FC Biel-Bienne",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4b/FC_Biel-Bienne_logo.png",
-    "city_country": "Biel/Bienne, Switzerland",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Biel-Bienne"
-  },
-  {
-    "club_name": "FC Breitenrain Bern",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/3/33/FC_Breitenrain_Bern_Logo.svg/250px-FC_Breitenrain_Bern_Logo.svg.png",
-    "city_country": "Bern, Switzerland",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Breitenrain_Bern"
-  },
-  {
-    "club_name": "SC Brühl",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/SC_Br%C3%BChl_logo.svg/250px-SC_Br%C3%BChl_logo.svg.png",
-    "city_country": "St. Gallen, Switzerland",
-    "wiki_url": "https://en.wikipedia.org/wiki/SC_Br%C3%BChl"
-  },
-  {
-    "club_name": "FC Bulle",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/e/e3/FC_Bulle.svg/120px-FC_Bulle.svg.png",
-    "city_country": "Bulle, Switzerland",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Bulle"
-  },
-  {
-    "club_name": "SC Cham",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/SC_Cham.svg/250px-SC_Cham.svg.png",
-    "city_country": "Cham, Switzerland",
-    "wiki_url": "https://en.wikipedia.org/wiki/SC_Cham"
-  },
-  {
-    "club_name": "FC Grand-Saconnex",
-    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/49621.png?lm=1719771240",
-    "city_country": "Le Grand-Saconnex, Switzerland",
-    "wiki_url": "https://fcgrand-saconnex.ch/webx/index.asp"
-  },
-  {
-    "club_name": "FC Kreuzlingen",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/FC_Kreuzlingen.png/250px-FC_Kreuzlingen.png",
-    "city_country": "Kreuzlingen, Switzerland",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kreuzlingen"
-  },
-  {
-    "club_name": "SC Kriens",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/2/2c/SC_Kriens_logo.png/250px-SC_Kriens_logo.png",
-    "city_country": "Kriens, Switzerland",
-    "wiki_url": "https://en.wikipedia.org/wiki/SC_Kriens"
-  },
-  {
-    "club_name": "FC Paradiso",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_FC_Paradiso.png",
-    "city_country": "Paradiso, Switzerland",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Paradiso"
-  },
-  {
-    "club_name": "FC Schaffhausen",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Fc_Schaffhausen.svg/250px-Fc_Schaffhausen.svg.png",
-    "city_country": "Schaffhausen, Switzerland",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Schaffhausen"
-  },
-  {
-    "club_name": "FC Vevey-Sports",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Vevey-Sports_logo.png/250px-Vevey-Sports_logo.png",
-    "city_country": "Vevey, Switzerland",
-    "wiki_url": "https://en.wikipedia.org/wiki/Vevey-Sports"
+    "club_name": "OFC Belasitsa Petrich",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Belasitsa_Petrich.png/250px-Belasitsa_Petrich.png",
+    "city_country": "Petrich, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/OFC_Belasitsa_Petrich"
   }
 ]

@@ -220,5 +220,59 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Dansk_boldspil_union_logo.svg/250px-Dansk_boldspil_union_logo.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Denmark_national_football_team"
+  },
+  {
+    "club_name": "Hungary",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Coat_of_arms_of_Hungary.svg/120px-Coat_of_arms_of_Hungary.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hungary_national_football_team"
+  },
+  {
+    "club_name": "Romania",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Romania_national_football_team_logo.svg/155px-Romania_national_football_team_logo.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Romania_national_football_team"
+  },
+  {
+    "club_name": "Greenland",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Greenland_Football_Association.svg/250px-Greenland_Football_Association.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Greenland_national_football_team"
+  },
+  {
+    "club_name": "Iceland",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Iceland_national_football_team_logo.svg/200px-Iceland_national_football_team_logo.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Iceland_national_football_team"
+  },
+  {
+    "club_name": "Croatia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/8/82/Hrvatski_Nogometni_Savez.svg/250px-Hrvatski_Nogometni_Savez.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Croatia_national_football_team"
+  },
+  {
+    "club_name": "Egypt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Egyptian_Football_Association_logo.svg/195px-Egyptian_Football_Association_logo.svg.png",
+    "continent": "Africa" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Egypt_national_football_team"
+  },
+  {
+    "club_name": "Ghana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Ghana_national_football_team.svg/250px-Ghana_national_football_team.svg.png",
+    "continent": "Africa" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Ghana_national_football_team"
+  },
+  {
+    "club_name": "Nigeria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Nigeria_Football_Federation_logo.svg/250px-Nigeria_Football_Federation_logo.svg.png",
+    "continent": "Africa" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Nigeria_national_football_team"
+  },
+  {
+    "club_name": "Russia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Coat_of_Arms_of_the_Russian_Federation_2.svg/250px-Coat_of_Arms_of_the_Russian_Federation_2.svg.png",
+    "continent": "Europe" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Russia_national_football_team"
   }
 ]
