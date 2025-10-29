@@ -18237,5 +18237,65 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/OFC_Spartak.png/250px-OFC_Spartak.png",
     "city_country": "Pleven, Bulgaria",
     "wiki_url": "https://en.wikipedia.org/wiki/OFC_Spartak_Pleven"
+  },
+    {
+    "club_name": "Apolonia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Apolonia_Fier_Club_Logo.svg/250px-Apolonia_Fier_Club_Logo.svg.png",
+    "city_country": "Fier, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Apolonia_Fier"
+  },
+  {
+    "club_name": "Besa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Besa_Kavaj%C3%AB_Club_Logo.svg/250px-Besa_Kavaj%C3%AB_Club_Logo.svg.png",
+    "city_country": "Kavajë, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Besa_Kavaj%C3%AB"
+  },
+  {
+    "club_name": "KS Burreli",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Burreli_Club_Logo.svg/250px-Burreli_Club_Logo.svg.png",
+    "city_country": "Burrel, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KS_Burreli"
+  },
+  {
+    "club_name": "Iliria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Iliria_Fush%C3%AB-Kruj%C3%AB_Club_Logo.svg/250px-Iliria_Fush%C3%AB-Kruj%C3%AB_Club_Logo.svg.png",
+    "city_country": "Fushë-Krujë, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Iliria_Fush%C3%AB-Kruj%C3%AB"
+  },
+  {
+    "club_name": "Kastrioti",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Kastrioti_Club_Logo.svg/250px-Kastrioti_Club_Logo.svg.png",
+    "city_country": "Krujë, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KS_Kastrioti"
+  },
+  {
+    "club_name": "KF Korabi Peshkopi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Korabi_Club_Logo.svg/250px-Korabi_Club_Logo.svg.png",
+    "city_country": "Peshkopi, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Korabi_Peshkopi"
+  },
+  {
+    "club_name": "Kukësi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Kuk%C3%ABsi_Club_Logo.svg/250px-Kuk%C3%ABsi_Club_Logo.svg.png",
+    "city_country": "Kukës, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Kuk%C3%ABsi"
+  },
+  {
+    "club_name": "Luftëtari",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Luft%C3%ABtari_AF_Logo.svg/250px-Luft%C3%ABtari_AF_Logo.svg.png",
+    "city_country": "Gjirokastër, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/AF_Luft%C3%ABtari"
+  },
+  {
+    "club_name": "Lushnja",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Lushnja_Football_Club_Logo.svg/250px-Lushnja_Football_Club_Logo.svg.png",
+    "city_country": "Lushnjë, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KS_Lushnja"
+  },
+  {
+    "club_name": "Pogradeci",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Pogradeci_Club_Logo.svg/250px-Pogradeci_Club_Logo.svg.png",
+    "city_country": "Pogradec, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KS_Pogradeci"
   }
 ]
