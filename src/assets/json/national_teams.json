@@ -302,7 +302,37 @@
   {
     "club_name": "Tunisia",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c4/Tunisia_national_football_team_logo.png",
-    "continent": "Europe" ,
+    "continent": "Africa" ,
     "wiki_url": "https://en.wikipedia.org/wiki/Tunisia_national_football_team"
+  },
+  {
+    "club_name": "Namibia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Namibia_FA.png/250px-Namibia_FA.png",
+    "continent": "Africa" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Namibia_national_football_team"
+  },
+  {
+    "club_name": "Jordan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Jordan_national_football_team_logo_2024.svg/250px-Jordan_national_football_team_logo_2024.svg.png",
+    "continent": "Asia" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Jordan_national_football_team"
+  },
+  {
+    "club_name": "Iraq",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Iraq_National_Team_Badge_2021_v1.svg/250px-Iraq_National_Team_Badge_2021_v1.svg.png",
+    "continent": "Asia" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Iraq_national_football_team"
+  },
+  {
+    "club_name": "Uzbekistan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Uzbekistan_Football_Association.svg/190px-Uzbekistan_Football_Association.svg.png",
+    "continent": "Asia" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Uzbekistan_national_football_team"
+  },
+  {
+    "club_name": "South Africa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/South_Africa_national_soccer_team_logo.svg/250px-South_Africa_national_soccer_team_logo.svg.png",
+    "continent": "Africa" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/South_Africa_national_soccer_team"
   }
 ]
