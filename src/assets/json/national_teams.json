@@ -334,5 +334,35 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/South_Africa_national_soccer_team_logo.svg/250px-South_Africa_national_soccer_team_logo.svg.png",
     "continent": "Africa" ,
     "wiki_url": "https://en.wikipedia.org/wiki/South_Africa_national_soccer_team"
-  }
+  },
+  {
+    "club_name": "Switzerland",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/5/53/SFV_Logo.svg/250px-SFV_Logo.svg.png",
+    "continent": "Europe" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Switzerland_national_football_team"
+  },
+  {
+    "club_name": "Czechoslovakia (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Czechoslovakian_FA_Logo.svg/200px-Czechoslovakian_FA_Logo.svg.png",
+    "continent": "Europe" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team"
+  },
+  {
+    "club_name": "Andorra",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/e/e1/Federation_andorrane_football_logo.png/250px-Federation_andorrane_football_logo.png",
+    "continent": "Europe" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Andorra_national_football_team"
+  },
+  {
+    "club_name": "Italy",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Logo_Italy_National_Football_Team_-_2023.svg/250px-Logo_Italy_National_Football_Team_-_2023.svg.png",
+    "continent": "Europe" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Italy_national_football_team"
+  },
+  {
+    "club_name": "Portugal",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Portugal_National_Team_logo.png/250px-Portugal_National_Team_logo.png",
+    "continent": "Europe" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Portugal_national_football_team"
+  } 
 ]
