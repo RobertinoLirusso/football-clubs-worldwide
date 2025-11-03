@@ -18501,5 +18501,95 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/FK_Vardar_Negotino_logo.png/250px-FK_Vardar_Negotino_logo.png",
     "city_country": "Negotino, North Macedonia",
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Vardar_Negotino"
+  },
+    {
+    "club_name": "Curicó Unido",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/00/Curic%C3%B3_Unido_logo.png",
+    "city_country": "Curicó, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Curic%C3%B3_Unido"
+  },
+  {
+    "club_name": "Deportes Antofagasta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cf/DeportesAntofagasta.png",
+    "city_country": "Antofagasta, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Antofagasta"
+  },
+  {
+    "club_name": "Deportes Concepción",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/CD_Concepci%C3%B3n_logo.jpg/250px-CD_Concepci%C3%B3n_logo.jpg",
+    "city_country": "Concepción, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Concepci%C3%B3n_(Chile)"
+  },
+  {
+    "club_name": "Deportes Copiapó",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Deportes_Copiap%C3%B3.png/250px-Deportes_Copiap%C3%B3.png",
+    "city_country": "Copiapó, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Copiap%C3%B3"
+  },
+  {
+    "club_name": "Deportes Recoleta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Deportes_Recoleta_logo.png/250px-Deportes_Recoleta_logo.png",
+    "city_country": "Recoleta, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Recoleta"
+  },
+  {
+    "club_name": "Deportes Santa Cruz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/51/CDSanta_cruz.png",
+    "city_country": "Santa Cruz, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Santa_Cruz"
+  },
+  {
+    "club_name": "Deportes Temuco",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Deportes_Temuco.jpg/250px-Deportes_Temuco.jpg",
+    "city_country": "Temuco, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Temuco"
+  },
+  {
+    "club_name": "Magallanes",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/CDMagallanes.png/190px-CDMagallanes.png",
+    "city_country": "San Bernardo, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Magallanes"
+  },
+  {
+    "club_name": "Rangers de Talca",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Rangers_de_Talca_-_Escudo.svg/250px-Rangers_de_Talca_-_Escudo.svg.png",
+    "city_country": "Talca, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rangers_de_Talca"
+  },
+  {
+    "club_name": "San Luis de Quillota",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/72/San_Luis_Quillota.png",
+    "city_country": "Quillota, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/San_Luis_de_Quillota"
+  },
+  {
+    "club_name": "San Marcos de Arica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/LogoSanMarcosArica.png/250px-LogoSanMarcosArica.png",
+    "city_country": "Arica, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/San_Marcos_de_Arica"
+  },
+  {
+    "club_name": "Santiago Morning",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/10/Santiago_morning.png",
+    "city_country": "La Pintana, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Santiago_Morning"
+  },
+  {
+    "club_name": "Santiago Wanderers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3f/Santiago_Wanderers_logo.png",
+    "city_country": "Valparaíso, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Santiago_Wanderers"
+  },
+  {
+    "club_name": "Unión San Felipe",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9c/Uni%C3%B3n_San_Felipe_logo.png",
+    "city_country": "San Felipe, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Uni%C3%B3n_San_Felipe"
+  },
+  {
+    "club_name": "Universidad de Concepción",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Universidad_concepcion.png/250px-Universidad_concepcion.png",
+    "city_country": "Concepción, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Universidad_de_Concepci%C3%B3n"
   }
 ]

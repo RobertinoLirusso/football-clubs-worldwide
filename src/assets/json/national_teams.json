@@ -364,5 +364,41 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Portugal_National_Team_logo.png/250px-Portugal_National_Team_logo.png",
     "continent": "Europe" ,
     "wiki_url": "https://en.wikipedia.org/wiki/Portugal_national_football_team"
-  } 
+  },
+  {
+    "club_name": "Bosnia and Herzegovina",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Football_Association_of_Bosnia_and_Herzegovina_logo.svg/250px-Football_Association_of_Bosnia_and_Herzegovina_logo.svg.png",
+    "continent": "Europe" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_national_football_team"
+  },
+  {
+    "club_name": "Albania",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Stema_e_Fanell%C3%ABs_s%C3%AB_Komb%C3%ABtares.svg/250px-Stema_e_Fanell%C3%ABs_s%C3%AB_Komb%C3%ABtares.svg.png",
+    "continent": "Europe" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Albania_national_football_team"
+  },
+  {
+    "club_name": "Serbia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Football_Association_of_Serbia_logo.svg/250px-Football_Association_of_Serbia_logo.svg.png",
+    "continent": "Europe" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Serbia_national_football_team"
+  },
+  {
+    "club_name": "Gibraltar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/6/6a/GibraltarFA2020.png/250px-GibraltarFA2020.png",
+    "continent": "Europe" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Gibraltar_national_football_team"
+  },
+  {
+    "club_name": "Nepal",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Nepal_football_national_team_logo.png/250px-Nepal_football_national_team_logo.png",
+    "continent": "Asia" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/Nepal_national_football_team"
+  },
+  {
+    "club_name": "China",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/China_national_football_team.svg/250px-China_national_football_team.svg.png",
+    "continent": "Asia" ,
+    "wiki_url": "https://en.wikipedia.org/wiki/China_national_football_team"
+  }               
 ]

@@ -19,19 +19,12 @@ export class NationalTeamsComponent implements OnInit {
   loadNationalTeams(): void {
     this.http.get<any[]>('assets/json/national_teams.json').subscribe({
       next: (data) => {
-        this.teams = this.shuffleArray(data);
+        // Ordenar de A a Z por el campo "name"
+        this.teams = data.sort((a, b) => a.name.localeCompare(b.club_name));
       },
       error: (err) => {
         console.error('Error loading national teams:', err);
       }
     });
-  }
-
-  shuffleArray(array: any[]): any[] {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
   }
 }
