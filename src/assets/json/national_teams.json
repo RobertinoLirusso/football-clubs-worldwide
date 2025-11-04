@@ -344,7 +344,7 @@
   {
     "club_name": "Czechoslovakia (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Czechoslovakian_FA_Logo.svg/200px-Czechoslovakian_FA_Logo.svg.png",
-    "continent": "Europe" ,
+    "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team"
   },
   {
@@ -400,5 +400,119 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/China_national_football_team.svg/250px-China_national_football_team.svg.png",
     "continent": "Asia" ,
     "wiki_url": "https://en.wikipedia.org/wiki/China_national_football_team"
-  }               
+  },
+  {
+    "club_name": "Armenia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/c/c6/Armenia_-_Armenian_Football_Logo_4.jpg",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Armenia_national_football_team"
+  },
+  {
+    "club_name": "Austria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Austrian_Football_Association_Logo.svg/250px-Austrian_Football_Association_Logo.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Austria_national_football_team"
+  },
+  {
+    "club_name": "Azerbaijan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/3/3f/Az%C9%99rbaycan_Futbol_Federasiyalar%C4%B1_Assosiasiyas%C4%B1.png/150px-Az%C9%99rbaycan_Futbol_Federasiyalar%C4%B1_Assosiasiyas%C4%B1.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Azerbaijan_national_football_team"
+  },
+  {
+    "club_name": "Belarus",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Coat_of_arms_of_Belarus_%282020%E2%80%93present%29.svg/250px-Coat_of_arms_of_Belarus_%282020%E2%80%93present%29.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Belarus_national_football_team"
+  },
+  {
+    "club_name": "Bulgaria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Bgnatcrest.png/250px-Bgnatcrest.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bulgaria_national_football_team"
+  },
+  {
+    "club_name": "Cyprus",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Cyprus_national_football_team_logo.png/250px-Cyprus_national_football_team_logo.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cyprus_national_football_teams"
+  },
+  {
+    "club_name": "Czech Republic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Czech_Republic_national_football_team_logo.svg/250px-Czech_Republic_national_football_team_logo.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Czech_Republic_national_football_team"
+  },
+  {
+    "club_name": "Faroe Islands",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Faroe_Islands_Football_Association_logo.svg/155px-Faroe_Islands_Football_Association_logo.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Faroe_Islands_national_football_team"
+  },
+  {
+    "club_name": "Israel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/7/7e/Logo_F%C3%A9d%C3%A9ration_Isra%C3%ABl_Football.svg/langfr-250px-Logo_F%C3%A9d%C3%A9ration_Isra%C3%ABl_Football.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Israel_national_football_team"
+  },
+  {
+    "club_name": "Luxembourg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Luxembourg_national_football_team_crest.png/250px-Luxembourg_national_football_team_crest.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Luxembourg_national_football_team"
+  },
+  {
+    "club_name": "Malta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Malta_national_football_team_crest.svg/250px-Malta_national_football_team_crest.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Malta_national_football_team"
+  },
+  {
+    "club_name": "Moldova",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Moldova_national_football_team.svg/250px-Moldova_national_football_team.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Moldova_national_football_team"
+  },
+  {
+    "club_name": "Montenegro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/5/57/Football_Association_of_Montenegro.svg/200px-Football_Association_of_Montenegro.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Montenegro_national_football_team"
+  },
+  {
+    "club_name": "North Macedonia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/19/%D0%A4%D1%83%D0%B4%D0%B1%D0%B0%D0%BB%D1%81%D0%BA%D0%B0_%D1%84%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%9C%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D0%B8%D1%98%D0%B0.svg/langfr-250px-%D0%A4%D1%83%D0%B4%D0%B1%D0%B0%D0%BB%D1%81%D0%BA%D0%B0_%D1%84%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%9C%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D0%B8%D1%98%D0%B0.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/North_Macedonia_national_football_team"
+  },
+  {
+    "club_name": "Northern Ireland",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b5/Football_Irlande_du_Nord_federation.svg/langfr-250px-Football_Irlande_du_Nord_federation.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Northern_Ireland_national_football_team"
+  },
+  {
+    "club_name": "Scotland",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Scotland_national_football_team_logo_2014.svg/250px-Scotland_national_football_team_logo_2014.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Scotland_national_football_team"
+  },
+  {
+    "club_name": "Slovakia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Coat_of_arms_of_Slovakia.svg/250px-Coat_of_arms_of_Slovakia.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Slovakia_national_football_team"
+  },
+  {
+    "club_name": "Turkey",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Roundel_flag_of_Turkey.svg/250px-Roundel_flag_of_Turkey.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Turkey_national_football_team"
+  },
+  {
+    "club_name": "Wales",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Wales_national_football_team_logo.svg/250px-Wales_national_football_team_logo.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wales_national_football_team"
+  }
 ]

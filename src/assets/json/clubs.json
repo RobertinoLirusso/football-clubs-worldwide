@@ -18591,5 +18591,89 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Universidad_concepcion.png/250px-Universidad_concepcion.png",
     "city_country": "Concepción, Chile",
     "wiki_url": "https://en.wikipedia.org/wiki/C.D._Universidad_de_Concepci%C3%B3n"
+  },
+    {
+    "club_name": "Albion",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Albion_fc_crest.svg/150px-Albion_fc_crest.svg.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Albion_F.C."
+  },
+  {
+    "club_name": "Artigas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Escudo_Artigas_SAD.png/250px-Escudo_Artigas_SAD.png",
+    "city_country": "Artigas, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Artigas"
+  },
+  {
+    "club_name": "Atenas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Escudo_Club_Atl%C3%A9tico_Atenas.png/250px-Escudo_Club_Atl%C3%A9tico_Atenas.png",
+    "city_country": "San Carlos, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atenas_de_San_Carlos"
+  },
+  {
+    "club_name": "Central Español",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Escudo_Central_Espa%C3%B1ol_2020.png/250px-Escudo_Central_Espa%C3%B1ol_2020.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Central_Espa%C3%B1ol"
+  },
+  {
+    "club_name": "CS Cerrito",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Cscerrito.png/250px-Cscerrito.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Sportivo_Cerrito"
+  },
+  {
+    "club_name": "Colón",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Fic_Logo_Col%C3%B3n.png/250px-Fic_Logo_Col%C3%B3n.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Col%C3%B3n_F.C."
+  },
+  {
+    "club_name": "Deportivo Maldonado",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Deportivo_Maldonado_2020.png/250px-Deportivo_Maldonado_2020.png",
+    "city_country": "Maldonado, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Maldonado"
+  },
+  {
+    "club_name": "Fénix",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/C.A._F%C3%A9nix.png/150px-C.A._F%C3%A9nix.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Centro_Atl%C3%A9tico_F%C3%A9nix"
+  },
+  {
+    "club_name": "La Luz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Escudo_La_Luz_FC.png/250px-Escudo_La_Luz_FC.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/La_Luz_F.C."
+  },
+  {
+    "club_name": "Oriental",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/COF_Nuevo_escudo_2021.png/250px-COF_Nuevo_escudo_2021.png",
+    "city_country": "La Paz, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Oriental_de_Football"
+  },
+  {
+    "club_name": "Rampla Juniors",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Rampla_juniors_fc_logo.png/250px-Rampla_juniors_fc_logo.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rampla_Juniors"
+  },
+  {
+    "club_name": "Rentistas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Escudo_Club_Atl%C3%A9tico_Rentistas.gif/250px-Escudo_Club_Atl%C3%A9tico_Rentistas.gif",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.A._Rentistas"
+  },
+  {
+    "club_name": "Tacuarembó",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Tacuarembo_FC.svg/250px-Tacuarembo_FC.svg.png",
+    "city_country": "Tacuarembó, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tacuaremb%C3%B3_F.C."
+  },
+  {
+    "club_name": "Uruguay Montevideo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Escudo_Uruguay_Montevideo.png/250px-Escudo_Uruguay_Montevideo.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Uruguay_Montevideo"
   }
 ]
