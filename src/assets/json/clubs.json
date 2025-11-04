@@ -18675,5 +18675,101 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Escudo_Uruguay_Montevideo.png/250px-Escudo_Uruguay_Montevideo.png",
     "city_country": "Montevideo, Uruguay",
     "wiki_url": "https://en.wikipedia.org/wiki/Uruguay_Montevideo"
+  },
+    {
+    "club_name": "12 de Junio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3b/Club_12_de_Junio_Logo.png",
+    "city_country": "Villa Hayes, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_12_de_Junio"
+  },
+  {
+    "club_name": "Deportivo Capiatá",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Club_Deportivo_Capiat%C3%A1.2024.png/250px-Club_Deportivo_Capiat%C3%A1.2024.png",
+    "city_country": "Capiatá, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Deportivo_Capiat%C3%A1"
+  },
+  {
+    "club_name": "Deportivo Santaní",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Logo-santani.png/150px-Logo-santani.png",
+    "city_country": "San Estanislao, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Santan%C3%AD"
+  },
+  {
+    "club_name": "Encarnación FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Encarnaci%C3%B3n_F.C._logo.png/250px-Encarnaci%C3%B3n_F.C._logo.png",
+    "city_country": "Encarnación, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Encarnaci%C3%B3n_F.C."
+  },
+  {
+    "club_name": "Fernando de la Mora",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Club_fernando_de_la_mora.png/150px-Club_fernando_de_la_mora.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Fernando_de_la_Mora"
+  },
+  {
+    "club_name": "Guaireña FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Guaire%C3%B1a_F.C._logo.png/250px-Guaire%C3%B1a_F.C._logo.png",
+    "city_country": "Villarrica, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guaire%C3%B1a_F.C."
+  },
+  {
+    "club_name": "Guaraní de Fram",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/4/42/Club_Guarani_de_Fram.jpg",
+    "city_country": "Fram, Paraguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Guaran%C3%AD_de_Fram"
+  },
+  {
+    "club_name": "Independiente FBC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Escudo_Independiente_de_Campo_Grande.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Independiente_F.B.C."
+  },
+  {
+    "club_name": "Pastoreo FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Pastoreo_F.C._logo.png/250px-Pastoreo_F.C._logo.png",
+    "city_country": "Doctor Juan Manuel Frutos, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pastoreo_F.C."
+  },
+  {
+    "club_name": "Resistencia SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Resistencia_SC.png/250px-Resistencia_SC.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Resistencia_S.C."
+  },
+  {
+    "club_name": "River Plate (Asunción)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Club_River_Plate_Asunci%C3%B3n_logo.png/150px-Club_River_Plate_Asunci%C3%B3n_logo.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_River_Plate_(Asunci%C3%B3n)"
+  },
+  {
+    "club_name": "Rubio Ñu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Club_Rubio_%C3%91u_logo.png/250px-Club_Rubio_%C3%91u_logo.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Rubio_%C3%91u"
+  },
+  {
+    "club_name": "CS San Lorenzo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Escudo_Sportivo_San_Lorenzo.png/130px-Escudo_Sportivo_San_Lorenzo.png",
+    "city_country": "San Lorenzo, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Sportivo_San_Lorenzo"
+  },
+  {
+    "club_name": "Sol de América",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Sol_de_America_logo.svg/200px-Sol_de_America_logo.svg.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Sol_de_Am%C3%A9rica"
+  },
+  {
+    "club_name": "Sportivo Carapeguá",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Club_Sportivo_Carapegu%C3%A1_logo.png/250px-Club_Sportivo_Carapegu%C3%A1_logo.png",
+    "city_country": "Carapeguá, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Sportivo_Carapegu%C3%A1"
+  },
+  {
+    "club_name": "Tacuary",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Tacuary_-_FBC_-_1923.png/250px-Tacuary_-_FBC_-_1923.png",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tacuary"
   }
 ]

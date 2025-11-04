@@ -43,7 +43,7 @@
   },
   {
     "club_name": "Ivory Coast",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Ivory_Coast_national_football_team.svg/250px-Ivory_Coast_national_football_team.svg.png",
+    "club_logo": "https://www.footballkitarchive.com/static/logos/thumb/Uw1mEpxKePjB67U/ivory-coast-2014-logo.png",
     "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Ivory_Coast_national_football_team"
   },
@@ -259,7 +259,7 @@
   },
   {
     "club_name": "Ghana",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Ghana_national_football_team.svg/250px-Ghana_national_football_team.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ghana_Football_Association_logo.png/250px-Ghana_Football_Association_logo.png",
     "continent": "Africa" ,
     "wiki_url": "https://en.wikipedia.org/wiki/Ghana_national_football_team"
   },
@@ -403,7 +403,7 @@
   },
   {
     "club_name": "Armenia",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/c/c6/Armenia_-_Armenian_Football_Logo_4.jpg",
+    "club_logo": "https://www.footballkitarchive.com/static/logos/thumb/8MpTdZtWYWdnTdZ/armenia-2024-logo.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Armenia_national_football_team"
   },
@@ -514,5 +514,47 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Wales_national_football_team_logo.svg/250px-Wales_national_football_team_logo.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Wales_national_football_team"
+  },
+  {
+    "club_name": "Bolivia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/02/Logo_Federaci%C3%B3n_Boliviana_de_F%C3%BAtbol_2023.png/250px-Logo_Federaci%C3%B3n_Boliviana_de_F%C3%BAtbol_2023.png",
+    "continent": "South America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bolivia_national_football_team"
+  },
+  {
+    "club_name": "Colombia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/FCF-Logo-2023.svg/250px-FCF-Logo-2023.svg.png",
+    "continent": "South America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Colombia_national_football_team"
+  },
+  {
+    "club_name": "Ecuador",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Ecuador_national_football_team.png/250px-Ecuador_national_football_team.png",
+    "continent": "South America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ecuador_national_football_team"
+  },
+  {
+    "club_name": "Paraguay",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Asociaci%C3%B3n_Paraguaya_de_F%C3%BAtbol_logo.svg/200px-Asociaci%C3%B3n_Paraguaya_de_F%C3%BAtbol_logo.svg.png",
+    "continent": "South America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Paraguay_national_football_team"
+  },
+  {
+    "club_name": "Peru",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Fpf-logo.svg/250px-Fpf-logo.svg.png",
+    "continent": "South America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Peru_national_football_team"
+  },
+  {
+    "club_name": "Uruguay",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Uruguay_national_football_team_seal.svg/120px-Uruguay_national_football_team_seal.svg.png",
+    "continent": "South America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Uruguay_national_football_team"
+  },
+  {
+    "club_name": "Venezuela",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Logotipo_de_la_Federaci%C3%B3n_Venezolana_de_F%C3%BAtbol.svg/250px-Logotipo_de_la_Federaci%C3%B3n_Venezolana_de_F%C3%BAtbol.svg.png",
+    "continent": "South America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Venezuela_national_football_team"
   }
 ]
