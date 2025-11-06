@@ -174,7 +174,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Qatar_national_football_team"
   },
   {
-    "club_name": "South Korea",
+    "club_name": "Korea Republic",
     "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/a/a9/Piet%C5%B3_Kor%C4%97jos_vyr%C5%B3_futbolo_rinktin%C4%97s_logotipas.svg/250px-Piet%C5%B3_Kor%C4%97jos_vyr%C5%B3_futbolo_rinktin%C4%97s_logotipas.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/South_Korea_national_football_team"
@@ -559,172 +559,106 @@
   },
   {
     "club_name": "Afghanistan",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Afghanistan_Football_Federation_logo.png/250px-Afghanistan_Football_Federation_logo.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Afghanistan_national_football_team"
   },
-
-  {
-    "club_name": "Australia",
-    "club_logo": "",
-    "continent": "Asia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Australia_national_football_team"
-  },
-
   {
     "club_name": "Bahrain",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Bahrain_FA_logo.svg/250px-Bahrain_FA_logo.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Bahrain_national_football_team"
   },
-
   {
     "club_name": "Bangladesh",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/22/Football_Bangladesh_federation.svg/langfr-250px-Football_Bangladesh_federation.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Bangladesh_national_football_team"
   },
-
   {
     "club_name": "Bhutan",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/5b/Bhutan_Football_Federation.png/250px-Bhutan_Football_Federation.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Bhutan_national_football_team"
   },
-
   {
     "club_name": "Brunei",
     "club_logo": "",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Brunei_national_football_team"
   },
-
   {
     "club_name": "Cambodia",
     "club_logo": "",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Cambodia_national_football_team"
   },
-
-  {
-    "club_name": "China",
-    "club_logo": "",
-    "continent": "Asia",
-    "wiki_url": "https://en.wikipedia.org/wiki/China_national_football_team"
-  },
-
   {
     "club_name": "Chinese Taipei",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/9/9a/Emblem_of_CTFA_%28shield%29.svg/120px-Emblem_of_CTFA_%28shield%29.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Chinese_Taipei_national_football_team"
   },
-
   {
     "club_name": "Guam",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/7/7a/Fed_guam.svg/250px-Fed_guam.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Guam_national_football_team"
   },
-
   {
     "club_name": "Hong Kong",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Hong_Kong_national_football_team.svg/250px-Hong_Kong_national_football_team.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Hong_Kong_national_football_team"
   },
-
   {
     "club_name": "India",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Indian_Football_2020.svg/190px-Indian_Football_2020.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/India_national_football_team"
   },
-
   {
     "club_name": "Indonesia",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/2025_Indonesia_National_Football_Team_Badge.png/250px-2025_Indonesia_National_Football_Team_Badge.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Indonesia_national_football_team"
   },
-
-  {
-    "club_name": "Iran",
-    "club_logo": "",
-    "continent": "Asia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Iran_national_football_team"
-  },
-
-  {
-    "club_name": "Iraq",
-    "club_logo": "",
-    "continent": "Asia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Iraq_national_football_team"
-  },
-
-  {
-    "club_name": "Japan",
-    "club_logo": "",
-    "continent": "Asia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Japan_national_football_team"
-  },
-
-  {
-    "club_name": "Jordan",
-    "club_logo": "",
-    "continent": "Asia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Jordan_national_football_team"
-  },
-
   {
     "club_name": "Korea DPR",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/North_Korean_National_Football_team_badge.svg/140px-North_Korean_National_Football_team_badge.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/North_Korea_national_football_team"
   },
-
-  {
-    "club_name": "Korea Republic",
-    "club_logo": "",
-    "continent": "Asia",
-    "wiki_url": "https://en.wikipedia.org/wiki/South_Korea_national_football_team"
-  },
-
   {
     "club_name": "Kuwait",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/1/10/Kuwait_FA.png/149px-Kuwait_FA.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Kuwait_national_football_team"
   },
-
   {
     "club_name": "Kyrgyzstan",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/f/f1/Kyrgyzstan_national_football_team.png/250px-Kyrgyzstan_national_football_team.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Kyrgyzstan_national_football_team"
   },
-
   {
     "club_name": "Laos",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/9/93/Lao_Football_Federation.png/150px-Lao_Football_Federation.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Laos_national_football_team"
   },
-
   {
     "club_name": "Lebanon",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Lebanon_national_football_team.png/250px-Lebanon_national_football_team.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Lebanon_national_football_team"
   },
-
   {
     "club_name": "Macau",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b7/Associa%C3%A7%C3%A3o_de_Futebol_de_Macau.png/250px-Associa%C3%A7%C3%A3o_de_Futebol_de_Macau.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Macau_national_football_team"
   },
-
   {
     "club_name": "Malaysia",
     "club_logo": "",
@@ -752,14 +686,6 @@
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Myanmar_national_football_team"
   },
-
-  {
-    "club_name": "Nepal",
-    "club_logo": "",
-    "continent": "Asia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Nepal_national_football_team"
-  },
-
   {
     "club_name": "Northern Mariana Islands",
     "club_logo": "",
@@ -794,14 +720,6 @@
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Philippines_national_football_team"
   },
-
-  {
-    "club_name": "Qatar",
-    "club_logo": "",
-    "continent": "Asia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Qatar_national_football_team"
-  },
-
   {
     "club_name": "Saudi Arabia",
     "club_logo": "",
