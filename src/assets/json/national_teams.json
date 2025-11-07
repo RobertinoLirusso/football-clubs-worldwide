@@ -661,75 +661,67 @@
   },
   {
     "club_name": "Malaysia",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Football_Association_of_Malaysia_crest.svg/250px-Football_Association_of_Malaysia_crest.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Malaysia_national_football_team"
   },
-
   {
     "club_name": "Maldives",
     "club_logo": "",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Maldives_national_football_team"
   },
-
   {
     "club_name": "Mongolia",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/1/15/Image-Mongolia_FA.gif/250px-Image-Mongolia_FA.gif",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Mongolia_national_football_team"
   },
-
   {
     "club_name": "Myanmar",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Myanmar_national_football_team_crest.svg/150px-Myanmar_national_football_team_crest.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Myanmar_national_football_team"
   },
   {
     "club_name": "Northern Mariana Islands",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/NMIFA_crest.svg/250px-NMIFA_crest.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Northern_Mariana_Islands_national_football_team"
   },
-
   {
     "club_name": "Oman",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/3/3a/Oman_FA_logo.png/250px-Oman_FA_logo.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Oman_national_football_team"
   },
-
   {
     "club_name": "Pakistan",
     "club_logo": "",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Pakistan_national_football_team"
   },
-
   {
     "club_name": "Palestine",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/2024_Palestine_Football_National_Team_Badge.svg/250px-2024_Palestine_Football_National_Team_Badge.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Palestine_national_football_team"
   },
-
   {
     "club_name": "Philippines",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Logo_of_Philippine_Football_Federation.png/250px-Logo_of_Philippine_Football_Federation.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Philippines_national_football_team"
   },
   {
     "club_name": "Saudi Arabia",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Saudi_Arabia_national_football_team_logo.svg/250px-Saudi_Arabia_national_football_team_logo.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team"
   },
-
   {
     "club_name": "Singapore",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/1/11/Football_Association_of_Singapore_crest.svg/250px-Football_Association_of_Singapore_crest.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Singapore_national_football_team"
   },
@@ -741,55 +733,55 @@
   },
   {
     "club_name": "Syria",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Logo_Syrian_Football_Association_2024.svg/langfr-250px-Logo_Syrian_Football_Association_2024.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Syria_national_football_team"
   },
   {
     "club_name": "Tajikistan",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Tajikistan_FA.png/190px-Tajikistan_FA.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Tajikistan_national_football_team"
   },
   {
     "club_name": "Thailand",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Thailand_national_football_team_logo%2C_March_2018.png/150px-Thailand_national_football_team_logo%2C_March_2018.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Thailand_national_football_team"
   },
   {
     "club_name": "Timor-Leste",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Timor-lestefootballfederation.png/250px-Timor-lestefootballfederation.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Timor-Leste_national_football_team"
   },
   {
     "club_name": "Turkmenistan",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/1/15/Turkmenistan_FA.png/250px-Turkmenistan_FA.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Turkmenistan_national_football_team"
   },
   {
     "club_name": "United Arab Emirates",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/United_Arab_Emirates_national_football_team.png/250px-United_Arab_Emirates_national_football_team.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/United_Arab_Emirates_national_football_team"
   },
   {
     "club_name": "Uzbekistan",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/00/Uzbekistan_Football_Association.svg.png/250px-Uzbekistan_Football_Association.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Uzbekistan_national_football_team"
   },
   {
     "club_name": "Vietnam",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/1/1d/Vietnam_Football_Federation_logo.svg/250px-Vietnam_Football_Federation_logo.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Vietnam_national_football_team"
   },
   {
     "club_name": "Yemen",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Yemen_Football_Association.png/250px-Yemen_Football_Association.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Yemen_national_football_team"
   }
