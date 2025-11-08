@@ -589,7 +589,7 @@
   },
   {
     "club_name": "Cambodia",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a5/Football_Federation_of_Cambodia.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh5vS0uZxX39sYZPy1gxwXJ9lPPvFfVYWTnP05vZgy_kJ-AuBdePBdL8Z-UvXyYg2tOqTTEXhYFD6doB1TVX2A-k9IOPTM2Q8LweNqYKOKPr3uPw4kqPrP0fXZ_faVrriDlhf8MQp6v24/s1600/Camboya256x.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Cambodia_national_football_team"
   },
@@ -784,5 +784,47 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Yemen_Football_Association.png/250px-Yemen_Football_Association.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Yemen_national_football_team"
+  },
+  {
+    "club_name": "Angola",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/e/e1/Federacao_Angolana_de_Futebol.png/250px-Federacao_Angolana_de_Futebol.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Angola_national_football_team"
+  },
+  {
+    "club_name": "Benin",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Benin_Football_Federation_logo.svg/250px-Benin_Football_Federation_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Benin_national_football_team"
+  },
+  {
+    "club_name": "Botswana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/f7/Botswana_Football_Association_Logo.jpg/250px-Botswana_Football_Association_Logo.jpg",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Botswana_national_football_team"
+  },
+  {
+    "club_name": "Burkina Faso",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3f/Burkinab%C3%A9_Football_Federation_logo.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Burkina_Faso_national_football_team"
+  },
+  {
+    "club_name": "Burundi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/19/Football_Federation_of_Burundi_logo.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Burundi_national_football_team"
+  },
+  {
+    "club_name": "Cameroon",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Cameroon_2010crest.png/250px-Cameroon_2010crest.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cameroon_national_football_team"
+  },
+  {
+    "club_name": "Cape Verde",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Cape_Verdean_Football_Federation_logo.svg/250px-Cape_Verdean_Football_Federation_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cape_Verde_national_football_team"
   }
 ]

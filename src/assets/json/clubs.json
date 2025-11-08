@@ -11238,7 +11238,7 @@
   },
   {
     "club_name": "RS Berkane",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/RS_Berkane.png/250px-RS_Berkane.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/0/00/Nahdat_Berkane_emblema.png/250px-Nahdat_Berkane_emblema.png",
     "city_country": "Berkane, Morocco",
     "wiki_url": "https://en.wikipedia.org/wiki/RS_Berkane"
   },
@@ -15702,7 +15702,7 @@
   },
   {
     "club_name": "Buffalo Pro Soccer",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Buffalo_Pro_Soccer_logo.jpg/250px-Buffalo_Pro_Soccer_logo.jpg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Buffalo_Pro_Soccer_logo.jpg/250px-Buffalo_Pro_Soccer_logo.jpg",
     "city_country": "Buffalo, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Buffalo_Pro_Soccer"
   },
@@ -16068,7 +16068,7 @@
   },
   {
     "club_name": "Kheybar Khorramabad",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/8a/Kheybar_Khorramabad.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kheybar_Logo_4K.svg/250px-Kheybar_Logo_4K.svg.png",
     "city_country": "Khorramabad, Iran",
     "wiki_url": "https://en.wikipedia.org/wiki/F.C._Kheybar_Khorramabad"
   },
@@ -17658,7 +17658,7 @@
   },
   {
     "club_name": "Lusitano de Évora",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Lusitano_G.C.png/250px-Lusitano_G.C.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Lusitano_%C3%89vora.png/120px-Lusitano_%C3%89vora.png",
     "city_country": "Évora, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/Lusitano_G.C."
   },
@@ -17739,12 +17739,6 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/1/16/AD_Marco_09.png",
     "city_country": "Marco de Canaveses, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/A.D._Marco_09"
-  },
-  {
-    "club_name": "Lusitano de Évora",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Lusitano_G.C.png/250px-Lusitano_G.C.png",
-    "city_country": "Évora, Portugal",
-    "wiki_url": "https://en.wikipedia.org/wiki/Lusitano_G.C."
   },
   {
     "club_name": "SC São João de Ver",
@@ -18861,5 +18855,95 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Escudo_Carlos_A._Mannucci_-_Desde_2023.png/250px-Escudo_Carlos_A._Mannucci_-_Desde_2023.png",
     "city_country": "Trujillo, Peru",
     "wiki_url": "https://en.wikipedia.org/wiki/Carlos_A._Mannucci"
+  },
+    {
+    "club_name": "Borac Čačak",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/sr/thumb/5/52/Logo_FK_Borac_1926.png/250px-Logo_FK_Borac_1926.png",
+    "city_country": "Čačak, Serbia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Borac_%C4%8Ca%C4%8Dak"
+  },
+  {
+    "club_name": "FAP",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/sr/thumb/3/33/Fap_pr10.png/250px-Fap_pr10.png",
+    "city_country": "Priboj, Serbia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_FAP"
+  },
+  {
+    "club_name": "Dubočica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c7/Gfkdubocicalogo.png",
+    "city_country": "Leskovac, Serbia",
+    "wiki_url": "https://en.wikipedia.org/wiki/GFK_Dubo%C4%8Dica"
+  },
+  {
+    "club_name": "Kabel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/FK_Kabel_crest.png/250px-FK_Kabel_crest.png",
+    "city_country": "Novi Sad, Serbia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Kabel"
+  },
+  {
+    "club_name": "FK Loznica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/sr/7/7c/%D0%A4%D0%9A_%D0%9B%D0%BE%D0%B7%D0%BD%D0%B8%D1%86%D0%B0_1919.gif",
+    "city_country": "Loznica, Serbia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Loznica"
+  },
+  {
+    "club_name": "Mačva Šabac",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/sr/thumb/0/0f/FK_Ma%C4%8Dva.png/250px-FK_Ma%C4%8Dva.png",
+    "city_country": "Šabac, Serbia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Ma%C4%8Dva_%C5%A0abac"
+  },
+  {
+    "club_name": "OFK Vršac",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/21/OFK_Vr%C5%A1ac_crest.png",
+    "city_country": "Vršac, Serbia",
+    "wiki_url": "https://en.wikipedia.org/wiki/OFK_Vr%C5%A1ac"
+  },
+  {
+    "club_name": "RFK Grafičar Beograd",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/6c/RFK_Grafi%C4%8Dar_Beograd_logo.png",
+    "city_country": "Belgrade, Serbia",
+    "wiki_url": "https://en.wikipedia.org/wiki/RFK_Grafi%C4%8Dar_Beograd"
+  },
+  {
+    "club_name": "Smederevo 1924",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/FK_Smederevo_1924_logo.png/150px-FK_Smederevo_1924_logo.png",
+    "city_country": "Smederevo, Serbia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Smederevo_1924"
+  },
+  {
+    "club_name": "SU Dinamo Jug",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/%D0%A4%D0%9A_%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE_%D0%88%D1%83%D0%B3_%D0%92%D1%80%D0%B0%D1%9A%D0%B5.png/250px-%D0%A4%D0%9A_%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE_%D0%88%D1%83%D0%B3_%D0%92%D1%80%D0%B0%D1%9A%D0%B5.png",
+    "city_country": "Vranje, Serbia",
+    "wiki_url": "https://sr.wikipedia.org/wiki/%D0%A4%D0%9A_%D0%A1%D0%A3_%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE_%D0%88%D1%83%D0%B3"
+  },
+  {
+    "club_name": "Trayal",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/sr/thumb/8/82/Trayal.png/150px-Trayal.png",
+    "city_country": "Kruševac, Serbia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Trayal_Kru%C5%A1evac"
+  },
+  {
+    "club_name": "Radnik Surdulica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/FK_Radnik_Surdulica_logo.svg/250px-FK_Radnik_Surdulica_logo.svg.png",
+    "city_country": "Surdulica, Serbia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Javor_Ivanjica"
+  },
+  {
+    "club_name": "Javor Matis-Ivanjica",
+    "club_logo": "https://en.wikipedia.org/wiki/FK_Javor_Ivanjica",
+    "city_country": "Ivanjica, Serbia",
+    "wiki_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Javor_Ivanjica.svg/250px-Javor_Ivanjica.svg.png"
+  },
+  {
+    "club_name": "Voždovac",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/FKVozdovac.png/250px-FKVozdovac.png",
+    "city_country": "Belgrade, Serbia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Vo%C5%BEdovac"
+  },
+  {
+    "club_name": "Zemun",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/FK_Zemun.svg/150px-FK_Zemun.svg.png",
+    "city_country": "Belgrade, Serbia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Zemun"
   }
 ]
