@@ -259,7 +259,7 @@
   },
   {
     "club_name": "Ghana",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ghana_Football_Association_logo.png/250px-Ghana_Football_Association_logo.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA96puHD_mf_J3eQmuXSaIPDjqERX4LPWzpmhVjxla6XgigZbF-Mu386dDNN-ZPFLv9wXRlKuCcv7FVc-jknZQSThfkkA6HltkaJxmdd7eBglN9_WJSBLwBToaFWvQZVtHh0nksdiLVkA/s1600/Ghana256x.PNG",
     "continent": "Africa" ,
     "wiki_url": "https://en.wikipedia.org/wiki/Ghana_national_football_team"
   },
@@ -415,7 +415,7 @@
   },
   {
     "club_name": "Azerbaijan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/3/3f/Az%C9%99rbaycan_Futbol_Federasiyalar%C4%B1_Assosiasiyas%C4%B1.png/150px-Az%C9%99rbaycan_Futbol_Federasiyalar%C4%B1_Assosiasiyas%C4%B1.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Association_of_Football_Federations_of_Azerbaijan_logo.svg/150px-Association_of_Football_Federations_of_Azerbaijan_logo.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Azerbaijan_national_football_team"
   },
@@ -826,5 +826,77 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Cape_Verdean_Football_Federation_logo.svg/250px-Cape_Verdean_Football_Federation_logo.svg.png",
     "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Cape_Verde_national_football_team"
+  },
+  {
+    "club_name": "Central African Republic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Central_African_Football_Federation_logo.svg/250px-Central_African_Football_Federation_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Central_African_Republic_national_football_team"
+  },
+  {
+    "club_name": "Chad",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/8a/Chadian_Football_Federation_logo.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chad_national_football_team"
+  },
+  {
+    "club_name": "Comoros",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Comoros_Football_Federation_logo.svg/250px-Comoros_Football_Federation_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Comoros_national_football_team"
+  },
+  {
+    "club_name": "Congo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Congolese_Football_Federation_logo.svg/250px-Congolese_Football_Federation_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Congo_national_football_team"
+  },
+  {
+    "club_name": "Democratic Republic of the Congo",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj444wRUrmKI4oMVls_dGyQIQqRh-RRp-sOYvWS_1tjBD5vRnfrviaDZnvdbhsr16gtX9FCGmzLzAuJ4XXLTR4x87bg_W9G8etuIDbm_D-tzo0QDaft2Mf-shQsDoIxnZbJ7VkYZKIWCO2MhW8xJvqL8QSqr72dK19VSZsEmRyolIj3rROEX-0mF2SQ5M/s1600/RD%20Congo256x.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/DR_Congo_national_football_team"
+  },
+  {
+    "club_name": "Djibouti",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSTqoUSiVFnpP2WGOagSoffUEKJDlIKg9vOFVmc-sXa-S5mm1Y78fo6XUPaMO1cQK9yeWZUbDcW1MnYDWdMzRmaO2CGR4E9Y_ReqK5MEd2K6Sou-TUPRnN9XRqWJaxwJYn8A01g5MWAEM/s0/Yibuti256x.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Djibouti_national_football_team"
+  },
+  {
+    "club_name": "Equatorial Guinea",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/43/Equatoguinean_Football_Federation_logo.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Equatorial_Guinea_national_football_team"
+  },
+  {
+    "club_name": "Eritrea",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/91/Eritrean_National_Football_Federation_logo.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Eritrea_national_football_team"
+  },
+  {
+    "club_name": "Eswatini",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Eswatini_Football_Association_logo.svg/250px-Eswatini_Football_Association_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Eswatini_national_football_team"
+  },
+  {
+    "club_name": "Ethiopia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Ethiopian_Football_Federation.svg/250px-Ethiopian_Football_Federation.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ethiopia_national_football_team"
+  },
+  {
+    "club_name": "Gabon",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Gabonese_Football_Federation_logo.svg/150px-Gabonese_Football_Federation_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gabon_national_football_team"
+  },
+  {
+    "club_name": "Gambia",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmxt7iYgk1HszzEAPhofUs6BDPb9pNVXZ1yedc6_Ya202PJs_JivydXzubTRQKVR8ExObDINSuxKKM5DZuDpNtCC48RjTe5qwl_nxz-QkbqOSPulkdJfUoRpQCbIw7Ib2gOmOhga3Afu0/s1600/Gambia256x.PNG",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gambia_national_football_team"
   }
 ]
