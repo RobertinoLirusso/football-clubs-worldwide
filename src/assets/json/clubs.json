@@ -14238,7 +14238,7 @@
   },
   {
     "club_name": "Glasgow City",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/14/Glasgow_City_FC_%282011%29.jpg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/5/53/Glasgow_City_FC.png/250px-Glasgow_City_FC.png",
     "city_country": "Glasgow, Scotland",
     "wiki_url": "https://en.wikipedia.org/wiki/Glasgow_City_F.C."
   },
@@ -18945,5 +18945,77 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/FK_Zemun.svg/150px-FK_Zemun.svg.png",
     "city_country": "Belgrade, Serbia",
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Zemun"
+  },
+    {
+    "club_name": "Annagh United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/95/Annagh_United_F.C._logo.png",
+    "city_country": "Portadown, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Annagh_United_F.C."
+  },
+  {
+    "club_name": "Limavady United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Limavady_United_FC_logo.png/250px-Limavady_United_FC_logo.png",
+    "city_country": "Limavady, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Limavady_United_F.C."
+  },
+  {
+    "club_name": "Harland & Wolff Welders",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Harland_%26_Wolff_Welders_F.C.png/250px-Harland_%26_Wolff_Welders_F.C.png",
+    "city_country": "Belfast, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Harland_%26_Wolff_Welders_F.C."
+  },
+  {
+    "club_name": "Queen's University Belfast",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Queen%27s_University_Belfast_arms.svg/250px-Queen%27s_University_Belfast_arms.svg.png",
+    "city_country": "Belfast, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast_A.F.C."
+  },
+  {
+    "club_name": "Loughgall",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Loughgall_Football_Club_badge.png/250px-Loughgall_Football_Club_badge.png",
+    "city_country": "Loughgall, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Loughgall_F.C."
+  },
+  {
+    "club_name": "Newington",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Newington_F.C._logo.png/250px-Newington_F.C._logo.png",
+    "city_country": "Belfast, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Newington_F.C."
+  },
+  {
+    "club_name": "Ballinamallard United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Ballinamallard_United.png/250px-Ballinamallard_United.png",
+    "city_country": "Ballinamallard, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ballinamallard_United_F.C."
+  },
+  {
+    "club_name": "Ards",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f8/Ards.png",
+    "city_country": "Bangor, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ards_F.C."
+  },
+  {
+    "club_name": "Armagh City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/41/Armagh_city_fc.png",
+    "city_country": "Armagh, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Armagh_City_F.C."
+  },
+  {
+    "club_name": "Institute",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Institute_F.C._logo.png/250px-Institute_F.C._logo.png",
+    "city_country": "Derry, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Institute_F.C."
+  },
+  {
+    "club_name": "Dundela",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c1/Dundela_F.C.png",
+    "city_country": "Belfast, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dundela_F.C."
+  },
+  {
+    "club_name": "Warrenpoint Town",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/81/Warrenpoint_Town_F.C._logo.png",
+    "city_country": "Warrenpoint, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Warrenpoint_Town_F.C."
   }
 ]

@@ -1,8 +1,62 @@
 [
   {
-    "club_name": "Borac Čačak",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/sr/thumb/5/52/Logo_FK_Borac_1926.png/250px-Logo_FK_Borac_1926.png",
-    "city_country": "Čačak, Serbia",
-    "wiki_url": "https://en.wikipedia.org/wiki/FK_Borac_%C4%8Ca%C4%8Dak"
+    "club_name": "Alloa Athletic",
+    "club_logo": "",
+    "city_country": "Alloa, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alloa_Athletic_F.C."
+  },
+  {
+    "club_name": "Cove Rangers",
+    "club_logo": "",
+    "city_country": "Aberdeen, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cove_Rangers_F.C."
+  },
+  {
+    "club_name": "East Fife",
+    "club_logo": "",
+    "city_country": "Glenrothes, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/East_Fife_F.C."
+  },
+  {
+    "club_name": "Hamilton Academical",
+    "club_logo": "",
+    "city_country": "Hamilton, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hamilton_Academical_F.C."
+  },
+  {
+    "club_name": "Inverness Caledonian Thistle",
+    "club_logo": "",
+    "city_country": "Inverness, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Inverness_Caledonian_Thistle_F.C."
+  },
+  {
+    "club_name": "Kelty Hearts",
+    "club_logo": "",
+    "city_country": "Kelty, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kelty_Hearts_F.C."
+  },
+  {
+    "club_name": "Montrose",
+    "club_logo": "",
+    "city_country": "Montrose, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Montrose_F.C."
+  },
+  {
+    "club_name": "Peterhead",
+    "club_logo": "",
+    "city_country": "Peterhead, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Peterhead_F.C."
+  },
+  {
+    "club_name": "Queen of the South",
+    "club_logo": "",
+    "city_country": "Dumfries, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Queen_of_the_South_F.C."
+  },
+  {
+    "club_name": "Stenhousemuir",
+    "club_logo": "",
+    "city_country": "Stenhousemuir, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stenhousemuir_F.C."
   }
 ]
