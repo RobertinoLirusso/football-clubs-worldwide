@@ -898,5 +898,71 @@
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmxt7iYgk1HszzEAPhofUs6BDPb9pNVXZ1yedc6_Ya202PJs_JivydXzubTRQKVR8ExObDINSuxKKM5DZuDpNtCC48RjTe5qwl_nxz-QkbqOSPulkdJfUoRpQCbIw7Ib2gOmOhga3Afu0/s1600/Gambia256x.PNG",
     "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Gambia_national_football_team"
+  },
+  {
+    "club_name": "Guinea",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFKBZKboaUwxUNge5uUFvTNytqjd2Ndio8RINclevc2edHJyuCeVM2wweIfPv6mKdw0hwiTvaXWGdw0TI7EDghQuLrT3JvtzDP3Y7lJOE5TbD1WQ0bB4zj_0OGmqxbckDBGun1oJfl05dnSmZK2nfZ8e2MNxyhpgpXdGoqGTdo2gIHRXb1GRPJiRa11ak/s1600/Guinea256x.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guinea_national_football_team"
+  },
+  {
+    "club_name": "Guinea-Bissau",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAPj5Z6-PpY2-90GTdJWmwUr7AsFP_HwTzkAi7gE0UKEvm7iMfick5tmcEITZA6BRs4LmXeNGtSJ1h3a2TmcJ7WLv_dSTCJpF9diqFkbhtv7QN4Nph8bTQE17mzOsyWLPshzx2Amyo3c8/s256/GNB256x.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guinea-Bissau_national_football_team"
+  },
+  {
+    "club_name": "Kenya",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Football_Kenya_Federation_logo.svg/250px-Football_Kenya_Federation_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kenya_national_football_team"
+  },
+  {
+    "club_name": "Lesotho",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Lesotho_Football_Association_logo.svg/250px-Lesotho_Football_Association_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lesotho_national_football_team"
+  },
+  {
+    "club_name": "Liberia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Liberia_Football_Association_logo.svg/250px-Liberia_Football_Association_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Liberia_national_football_team"
+  },
+  {
+    "club_name": "Libya",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/01/Libyan_Football_Federation_Logo.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Libya_national_football_team"
+  },
+  {
+    "club_name": "Madagascar",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgypdjBGai6NUZelpvTMsbwN86EtCCnj0gueV4UGNT-_SEJg_y781e8rOA-I9WEZM2gySMFLEiCU8E_AXjve_VYjTz74qvKPCSzkTQpii4dcQJvInf71WPuF_sLM7xc0X-CDlXzpaj3w1Y/s0/Madagascar256x.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Madagascar_national_football_team"
+  },
+  {
+    "club_name": "Malawi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Malawi_FA_%28logo%29.png/250px-Malawi_FA_%28logo%29.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Malawi_national_football_team"
+  },
+  {
+    "club_name": "Mali",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4QjoJCzVsZgQbssjfAF4RvQOU2SghwcPv4Syg8t-aiY3HES03TpMA-ZPc9bNCX4NxsQL32-_gsIG3TKaFwo4HAJNCVMO7OCqOYJgEZiQkJbKl70BnGIeNoMoB7GakqvnFOS79O3TNPdI/s1600/Mali256x.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mali_national_football_team"
+  },
+  {
+    "club_name": "Mauritania",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Football_Federation_of_the_Islamic_Republic_of_Mauritania_logo.svg/250px-Football_Federation_of_the_Islamic_Republic_of_Mauritania_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mauritania_national_football_team"
+  },
+  {
+    "club_name": "Mauritius",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Mauritius_FA.png/250px-Mauritius_FA.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mauritius_national_football_team"
   }
 ]

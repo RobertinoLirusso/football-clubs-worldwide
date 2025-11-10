@@ -19017,5 +19017,53 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/81/Warrenpoint_Town_F.C._logo.png",
     "city_country": "Warrenpoint, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Warrenpoint_Town_F.C."
+  },
+    {
+    "club_name": "Alloa Athletic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Alloa_Athletic_FC_crest.svg/250px-Alloa_Athletic_FC_crest.svg.png",
+    "city_country": "Alloa, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alloa_Athletic_F.C."
+  },
+  {
+    "club_name": "Cove Rangers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Cove_Rangers_FC_logo.svg/175px-Cove_Rangers_FC_logo.svg.png",
+    "city_country": "Aberdeen, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cove_Rangers_F.C."
+  },
+  {
+    "club_name": "East Fife",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/East_Fife_FC_logo.svg/175px-East_Fife_FC_logo.svg.png",
+    "city_country": "Methil, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/East_Fife_F.C."
+  },
+  {
+    "club_name": "Kelty Hearts",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Kelty_Hearts_FC_crest.svg/250px-Kelty_Hearts_FC_crest.svg.png",
+    "city_country": "Kelty, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kelty_Hearts_F.C."
+  },
+  {
+    "club_name": "Montrose",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Montrose_FC_crest.svg/250px-Montrose_FC_crest.svg.png",
+    "city_country": "Montrose, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Montrose_F.C."
+  },
+  {
+    "club_name": "Peterhead",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Peterhead_FC_crest.svg/250px-Peterhead_FC_crest.svg.png",
+    "city_country": "Peterhead, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Peterhead_F.C."
+  },
+  {
+    "club_name": "Queen of the South",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Logo_of_Queen_of_the_South_FC.svg/250px-Logo_of_Queen_of_the_South_FC.svg.png",
+    "city_country": "Dumfries, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Queen_of_the_South_F.C."
+  },
+  {
+    "club_name": "Stenhousemuir",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Stenhousemuir_FC_crest.svg/250px-Stenhousemuir_FC_crest.svg.png",
+    "city_country": "Stenhousemuir, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stenhousemuir_F.C."
   }
 ]
