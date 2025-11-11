@@ -768,12 +768,6 @@
     "wiki_url": "https://en.wikipedia.org/wiki/United_Arab_Emirates_national_football_team"
   },
   {
-    "club_name": "Uzbekistan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/00/Uzbekistan_Football_Association.svg.png/250px-Uzbekistan_Football_Association.svg.png",
-    "continent": "Asia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Uzbekistan_national_football_team"
-  },
-  {
     "club_name": "Vietnam",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3UXfr12LXOkl7ppGPo9hiLn8eLKDquR8F9KuxGyCsFr8uD3XPRqoeGd-wIDpShbWWzJxm3PNMNOVZsPywyu62ras_BPt07oqE2kYMy3xj6nUQAco0Ri8Od1oyZgBGzaMwnuuVtEBZkTI/s1600/Vietnam256x.png",
     "continent": "Asia",
@@ -964,5 +958,107 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Mauritius_FA.png/250px-Mauritius_FA.png",
     "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Mauritius_national_football_team"
+  },
+  {
+    "club_name": "Mozambique",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPEOriLgyegvSlACWi7y7VoKOCogBtqplpj37rCN1rITPKQxs9-uPVfxCzOPJbtP_zYYbEi8GDXHv8mf0mhBWdopnqm7mL2mIstZJZ7pRK2wiYte8lzEz-V5lXkbJMTWWGsD-aREH5R44/s0/Mozambique256x.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mozambique_national_football_team"
+  },
+  {
+    "club_name": "Niger",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9UG0xfhQAh7_c9pKvNNnvN6pkWlNb9E14RCWoxGYJVWEvCsPG-4ZzyE5hoQhDf51uY3Fs-V7yunwQtNPyHRKwaHVAHpKX42M35SaMW5ZdNAUgSMiYZAMBdJZJd070EwT2Ko0Wfk_x2kg/s0/Niger256x.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Niger_national_football_team"
+  },
+  {
+    "club_name": "Nigeria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Nigeria_Football_Federation_logo.svg/250px-Nigeria_Football_Federation_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nigeria_national_football_team"
+  },
+  {
+    "club_name": "Rwanda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/85/Rwanda_FA.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rwanda_national_football_team"
+  },
+  {
+    "club_name": "Sao Tome and Principe",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Federa%C3%A7%C3%A3o_Santomense_de_Futebol_Logo.png/250px-Federa%C3%A7%C3%A3o_Santomense_de_Futebol_Logo.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sao_Tome_and_Principe_national_football_team"
+  },
+  {
+    "club_name": "Seychelles",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/11/Seychelles_Football_Federation.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Seychelles_national_football_team"
+  },
+  {
+    "club_name": "Sierra Leone",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/LOGO_SLFA.png/250px-LOGO_SLFA.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sierra_Leone_national_football_team"
+  },
+  {
+    "club_name": "Somalia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Somali_Football_Federation_logo.svg/250px-Somali_Football_Federation_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Somalia_national_football_team"
+  },
+  {
+    "club_name": "South Sudan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/South_Sudan_Football_Association.png/250px-South_Sudan_Football_Association.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/South_Sudan_national_football_team"
+  },
+  {
+    "club_name": "Sudan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Sudan_FA_%28logo%29.png/250px-Sudan_FA_%28logo%29.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sudan_national_football_team"
+  },
+  {
+    "club_name": "Tanzania",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3b/Tanzania_FF_%28logo%29.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tanzania_national_football_team"
+  },
+  {
+    "club_name": "Togo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Togolese_Football_Federation_logo.svg/250px-Togolese_Football_Federation_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Togo_national_football_team"
+  },
+  {
+    "club_name": "Uganda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Federation_of_Uganda_Football_Associations_logo.svg/180px-Federation_of_Uganda_Football_Associations_logo.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Uganda_national_football_team"
+  },
+  {
+    "club_name": "Zambia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/70/ZambiaFA.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zambia_national_football_team"
+  },
+  {
+    "club_name": "Zimbabwe",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDcajDoUU9NUmYieKVulQfPCsRd6mPfR06EmnMme6Ub_Ue_dDysQ9bGZgWjRDf_nfwKE7pY545ycW-2P3kWVIUOG4MgMagKO_tZXweZvITH9Xk-oU9cUV40XOrd5jQncHkTbEBvSqlCt4/s0/Zimbabue256x.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zimbabwe_national_football_team"
+  },
+  {
+    "club_name": "Réunion",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2ZyT9z4hKyv6dbBUyaFHnsSSJXH8YZzdAYZKW9rvLS5yjDLgG-KgT3KcKQ0bx30UmlEML1066pHURhn22AAbfwA4OI367u6L7QG0LgtmAs1PwqkE3FUWKui6sP-tzIu1HlJoZ3vR5TCY/s0/Liga+Reunionesa+de+Futbol256x.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/R%C3%A9union_national_football_team"
+  },
+  {
+    "club_name": "Zanzibar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Zanzibar_Football_Association.svg/250px-Zanzibar_Football_Association.svg.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zanzibar_national_football_team"
   }
 ]

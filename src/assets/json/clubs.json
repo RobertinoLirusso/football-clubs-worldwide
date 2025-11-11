@@ -19065,5 +19065,65 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Stenhousemuir_FC_crest.svg/250px-Stenhousemuir_FC_crest.svg.png",
     "city_country": "Stenhousemuir, Scotland",
     "wiki_url": "https://en.wikipedia.org/wiki/Stenhousemuir_F.C."
+  },
+    {
+    "club_name": "Annan Athletic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Annan_Athletic_F.C._Logo.svg/200px-Annan_Athletic_F.C._Logo.svg.png",
+    "city_country": "Annan, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Annan_Athletic_F.C."
+  },
+  {
+    "club_name": "Clyde",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Clyde_FC_crest.svg/250px-Clyde_FC_crest.svg.png",
+    "city_country": "Glasgow, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Clyde_F.C."
+  },
+  {
+    "club_name": "Dumbarton",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Dumbarton_FC_logo.svg/250px-Dumbarton_FC_logo.svg.png",
+    "city_country": "Dumbarton, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dumbarton_F.C."
+  },
+  {
+    "club_name": "East Kilbride",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/East_Kilbride_FC_crest.svg/250px-East_Kilbride_FC_crest.svg.png",
+    "city_country": "East Kilbride, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/East_Kilbride_F.C."
+  },
+  {
+    "club_name": "Edinburgh City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/FC_Edinburgh.png/250px-FC_Edinburgh.png",
+    "city_country": "Edinburgh, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Edinburgh_City_F.C."
+  },
+  {
+    "club_name": "Elgin City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Elgin_City_FC_crest.svg/250px-Elgin_City_FC_crest.svg.png",
+    "city_country": "Elgin, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Elgin_City_F.C."
+  },
+  {
+    "club_name": "Forfar Athletic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Forfar_Athletic_FC_logo.svg/250px-Forfar_Athletic_FC_logo.svg.png",
+    "city_country": "Forfar, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Forfar_Athletic_F.C."
+  },
+  {
+    "club_name": "Stirling Albion",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Stirling_Albion_FC_crest.svg/250px-Stirling_Albion_FC_crest.svg.png",
+    "city_country": "Stirling, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stirling_Albion_F.C."
+  },
+  {
+    "club_name": "Stranraer",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Stranraer_FC_crest.svg/250px-Stranraer_FC_crest.svg.png",
+    "city_country": "Stranraer, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stranraer_F.C."
+  },
+  {
+    "club_name": "The Spartans",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/The_Spartans_FC_Logo.png/250px-The_Spartans_FC_Logo.png",
+    "city_country": "Edinburgh, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/The_Spartans_F.C."
   }
 ]
