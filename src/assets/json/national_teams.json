@@ -264,12 +264,6 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Ghana_national_football_team"
   },
   {
-    "club_name": "Nigeria",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Nigeria_Football_Federation_logo.svg/250px-Nigeria_Football_Federation_logo.svg.png",
-    "continent": "Africa" ,
-    "wiki_url": "https://en.wikipedia.org/wiki/Nigeria_national_football_team"
-  },
-  {
     "club_name": "Russia",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Coat_of_Arms_of_the_Russian_Federation_2.svg/250px-Coat_of_Arms_of_the_Russian_Federation_2.svg.png",
     "continent": "Europe" ,
@@ -1060,5 +1054,113 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Zanzibar_Football_Association.svg/250px-Zanzibar_Football_Association.svg.png",
     "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Zanzibar_national_football_team"
+  },
+  {
+    "club_name": "American Samoa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Football_Federation_American_Samoa_%28badge%29.svg/200px-Football_Federation_American_Samoa_%28badge%29.svg.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/American_Samoa_national_football_team"
+  },
+  {
+    "club_name": "Cook Islands",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Cook_Islands_FA.svg/250px-Cook_Islands_FA.svg.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cook_Islands_national_football_team"
+  },
+  {
+    "club_name": "Fiji",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Fiji_FA.svg/250px-Fiji_FA.svg.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fiji_national_football_team"
+  },
+  {
+    "club_name": "New Caledonia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/New_Caledonia_FA.svg/250px-New_Caledonia_FA.svg.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/New_Caledonia_national_football_team"
+  },
+  {
+    "club_name": "Papua New Guinea",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/PNGFA_Logo.svg/250px-PNGFA_Logo.svg.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Papua_New_Guinea_national_football_team"
+  },
+  {
+    "club_name": "Samoa",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgC3Ux0nA5NsslQH_39QLOb3ido2z4y1Jl7dUQWL3RK0lzKp06AjfoUBQ69Jjnecvufil_ghpvCYYRkgOtAsYL-RlcamMvPn-8yAPWmxNcF-zSnSMo5g7LLdZh6_M6fUOpHMT7N6UBSibrC0eDot-DIqUMZd2q_OD_u2E_hcwElqXs68bwF_ajwe-i2p_I/s1600/Samoa256x.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Samoa_national_football_team"
+  },
+  {
+    "club_name": "Solomon Islands",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Solomon_Islands_FA.svg/250px-Solomon_Islands_FA.svg.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Solomon_Islands_national_football_team"
+  },
+  {
+    "club_name": "Tahiti",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Tahiti_FA_%282016%E2%80%93%29.svg/180px-Tahiti_FA_%282016%E2%80%93%29.svg.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tahiti_national_football_team"
+  },
+  {
+    "club_name": "Tonga",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG7MZREUWy4yM50QCbDHFj7r63dMmmU3DPCEc_T4UPFSbS3fkqHoHkkp13g69koUVBocrjOPS7naVrvhmRhXtYgBUxLeKYpU1s5nuW24EoCwPiYTiwaRIdksGbx7vHyjh8Dgfpv0VwTBD66AwHOAuzPrAhY7lGzJhFYQEQiSpxtq9agESmoj5pJJaFlvY/s1600/Tonga256x.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tonga_national_football_team"
+  },
+  {
+    "club_name": "Vanuatu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Vanuatu_Football_Federation_Logo.svg/200px-Vanuatu_Football_Federation_Logo.svg.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vanuatu_national_football_team"
+  },
+  {
+    "club_name": "Tuvalu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/0/0d/TUVALUIFA.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tuvalu_national_football_team"
+  },
+  {
+    "club_name": "Kiribati",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Kiribati_Football_Association.svg/250px-Kiribati_Football_Association.svg.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kiribati_national_football_team"
+  },
+  {
+    "club_name": "Federated States of Micronesia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/F.S._Micronesia_Football_Association.png/250px-F.S._Micronesia_Football_Association.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Federated_States_of_Micronesia_national_football_team"
+  },
+  {
+    "club_name": "Marshall Islands",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Marshall_Islands_Soccer_Association_Logo.png/250px-Marshall_Islands_Soccer_Association_Logo.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Marshall_Islands_national_soccer_team"
+  },
+  {
+    "club_name": "Nauru",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f5/Nauru_Soccer_Federation_logo.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nauru_national_soccer_team"
+  },
+  {
+    "club_name": "Palau",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Palau_FA_logo.png/200px-Palau_FA_logo.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Palau_national_football_team"
+  },
+  {
+    "club_name": "Niue",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Niue_Football_Association_Logo.png/200px-Niue_Football_Association_Logo.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Niue_Football_Association"
+  },
+  {
+    "club_name": "Wallis and Futuna",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Coat_of_arms_of_Wallis_and_Futuna.svg/250px-Coat_of_arms_of_Wallis_and_Futuna.svg.png",
+    "continent": "Oceania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wallis_and_Futuna_national_football_team"
   }
 ]
