@@ -1162,5 +1162,251 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Coat_of_arms_of_Wallis_and_Futuna.svg/250px-Coat_of_arms_of_Wallis_and_Futuna.svg.png",
     "continent": "Oceania",
     "wiki_url": "https://en.wikipedia.org/wiki/Wallis_and_Futuna_national_football_team"
+  },
+    {
+    "club_name": "Anguilla",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Anguilla_Football_Association_%282020%29.png/250px-Anguilla_Football_Association_%282020%29.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Anguilla_national_football_team"
+  },
+  {
+    "club_name": "Antigua and Barbuda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Antigua_and_Barbuda_Football.png/250px-Antigua_and_Barbuda_Football.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Antigua_and_Barbuda_national_football_team"
+  },
+  {
+    "club_name": "Aruba",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ7Dg3En_30-fH6FPaboMdL0dxNkgEOczpoC6KZkKfosoFfZe6pe-cIUrSukSNdvr3pQtZ3HNjIZ8VgJxlfKCsysQexnaYInUs05Y3YovDHVGIMws3RkEEfDYjfV164it4xBQirNmTEps/s1600/Aruba256x.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aruba_national_football_team"
+  },
+  {
+    "club_name": "Bahamas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Bahamas_Football_Association.svg/250px-Bahamas_Football_Association.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bahamas_national_football_team"
+  },
+  {
+    "club_name": "Barbados",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b5/Barbados_FA.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Barbados_national_football_team"
+  },
+  {
+    "club_name": "Belize",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Belize_FA_2.svg/250px-Belize_FA_2.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Belize_national_football_team"
+  },
+  {
+    "club_name": "Bermuda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Bermuda_FA_logo.svg/250px-Bermuda_FA_logo.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bermuda_national_football_team"
+  },
+  {
+    "club_name": "British Virgin Islands",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/British_Virgin_Islands_Football_Association.svg/250px-British_Virgin_Islands_Football_Association.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/British_Virgin_Islands_national_football_team"
+  },
+  {
+    "club_name": "Cayman Islands",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Cayman_Islands_Football_Association.svg/250px-Cayman_Islands_Football_Association.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cayman_Islands_national_football_team"
+  },
+  {
+    "club_name": "Costa Rica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Costa_Rica_national_football_team_logo.svg/185px-Costa_Rica_national_football_team_logo.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Costa_Rica_national_football_team"
+  },
+  {
+    "club_name": "Cuba",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Cuba_national_football_team.png/250px-Cuba_national_football_team.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cuba_national_football_team"
+  },
+  {
+    "club_name": "Curaçao",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Curacao_Football_Federation.svg/250px-Curacao_Football_Federation.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cura%C3%A7ao_national_football_team"
+  },
+  {
+    "club_name": "Dominica",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-afhmknNMI40sDNWMkBRXL_VmB6eLMJBZEE_O4mgxggN5hGKe9vWy9SMSZLu4rJLVqO66fVmZ39d-S_jEnBlObOReUSTceqSr-Tcv_0RRevjyXSqWQgA3pYxqE_zWzUX2v7RiB8K6mas/s0/Dominica256x.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dominica_national_football_team"
+  },
+  {
+    "club_name": "Dominican Republic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Fedofu_logo.png/250px-Fedofu_logo.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dominican_Republic_national_football_team"
+  },
+  {
+    "club_name": "El Salvador",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/FESFUT_logo.svg/250px-FESFUT_logo.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/El_Salvador_national_football_team"
+  },
+  {
+    "club_name": "French Guiana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Ligue_de_Football_de_la_Guyane.svg/250px-Ligue_de_Football_de_la_Guyane.svg.png",
+    "continent": "South America",
+    "wiki_url": "https://en.wikipedia.org/wiki/French_Guiana_national_football_team"
+  },
+  {
+    "club_name": "Grenada",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Grenada-Football-Association-%282015%29.png/250px-Grenada-Football-Association-%282015%29.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Grenada_national_football_team"
+  },
+  {
+    "club_name": "Guadeloupe",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Guadaloupean_football_league_logo.png/250px-Guadaloupean_football_league_logo.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guadeloupe_national_football_team"
+  },
+  {
+    "club_name": "Guatemala",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/53/Guatemala_National_Football_team_badge.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guatemala_national_football_team"
+  },
+  {
+    "club_name": "Guyana",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJtx90vbCF9lYOdGojbzcD7A1Pn0l1kkzhlbfoU8mp_MCfp8UivIyAcHChkR58Ku8HQol0k_PVWzJ-zorkUe8p_37LlCjcvr7U1g3OSWKJTkDQFuIHHsio92BQND9ytTbTQmhj3SNLFlrEJfyE_SK-ZLpLkrhNP1MkqJ8hI3eEAPjqtmjY1Vx8X-JrxYs/s1600/Guyana256x.png",
+    "continent": "South America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guyana_national_football_team"
+  },
+  {
+    "club_name": "Haiti",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Federation_Haitienne_de_Football.png/250px-Federation_Haitienne_de_Football.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Haiti_national_football_team"
+  },
+  {
+    "club_name": "Honduras",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Honduras_football_crest.svg/250px-Honduras_football_crest.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Honduras_national_football_team"
+  },
+  {
+    "club_name": "Jamaica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Jamaica_Football_Federation.svg/250px-Jamaica_Football_Federation.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jamaica_national_football_team"
+  },
+  {
+    "club_name": "Martinique",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/LFM_Martinique.SVG/250px-LFM_Martinique.SVG.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Martinique_national_football_team"
+  },
+  {
+    "club_name": "Montserrat",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Montserrat_Football_Association.svg/250px-Montserrat_Football_Association.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Montserrat_national_football_team"
+  },
+  {
+    "club_name": "Nicaragua",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Nicaragua_Football_Crest.png/250px-Nicaragua_Football_Crest.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nicaragua_national_football_team"
+  },
+  {
+    "club_name": "Panama",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Fepafut_logo_2024.svg/180px-Fepafut_logo_2024.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Panama_national_football_team"
+  },
+  {
+    "club_name": "Puerto Rico",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Federaci%C3%B3n_Puertorrique%C3%B1a_de_F%C3%BAtbol_2.svg/250px-Federaci%C3%B3n_Puertorrique%C3%B1a_de_F%C3%BAtbol_2.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Puerto_Rico_national_football_team"
+  },
+  {
+    "club_name": "Saint Kitts and Nevis",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Saint_Kitts_%26_Nevis_Football_Association.svg/330px-Saint_Kitts_%26_Nevis_Football_Association.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis_national_football_team"
+  },
+  {
+    "club_name": "Saint Lucia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Saint_Lucia_FA.png/250px-Saint_Lucia_FA.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Saint_Lucia_national_football_team"
+  },
+  {
+    "club_name": "Saint Martin",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/8d/Saint-Martin_FA_%282014%29.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Saint_Martin_national_football_team"
+  },
+  {
+    "club_name": "Saint Vincent and the Grenadines",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB6RBp1wzzzh7Q_rrcNFrDYCM2bWGaCk_u6lKBDVKrqXpVNRpde3dnb1CUlPrBVrki7ZCkxC8AgPMwe3p51viya0ZHXYafXW2pfKRaYvQwC1Cs4UFtwGeR502GfEM4H-RpUuKHp1VQRiA/s1600/San+Vicente256x.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines_national_football_team"
+  },
+  {
+    "club_name": "Sint Maarten",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Sint-Maarten_FA.png/250px-Sint-Maarten_FA.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sint_Maarten_national_football_team"
+  },
+  {
+    "club_name": "Suriname",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgC1w4DUug-wEqJU6oqnOz0-v15l5Ypu7gTS7WZX7YEZ03s0_0mdj4ALfXblTRQfIHAOUGfrzzYjTyBgvkwKpm4KDoOAs8oIfbdHixW2lWQLjqD1z8b-_eTRlMpE9fRXYApXa-JWTdiGA8/s1600/Surinam256x.png",
+    "continent": "South America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Suriname_national_football_team"
+  },
+  {
+    "club_name": "Turks and Caicos Islands",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Turks_%26_Caicos_Islands_Football_Association_%282015%29.png/250px-Turks_%26_Caicos_Islands_Football_Association_%282015%29.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Turks_and_Caicos_Islands_national_football_team"
+  },
+  {
+    "club_name": "U.S. Virgin Islands",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/US_Virgin_Islands_Soccer_Federation.svg/250px-US_Virgin_Islands_Soccer_Federation.svg.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/U.S._Virgin_Islands_national_football_team"
+  },
+  {
+    "club_name": "Trinidad and Tobago",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBKI0-Kv488JNrfjaUwhFXdU4KKkp6Pozv3_nOAWSANT5XACr3-Den9Er7JaQ9tTChWOtRz5mwIWL8fi-DYm4hn3PgA6ZppOyqcKgao9qeRra_8egFd3PCrECmsuFHeZ16GB9Jm7WvWzs/s1600/Trinidad+y+Tobago256x.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Trinidad_and_Tobago_national_football_team"
+  },
+  {
+    "club_name": "Netherlands Antilles(Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e7/Dutch_Antilles_FA.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Netherlands_Antilles_national_football_team"
+  },
+  {
+    "club_name": "Bonaire",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Bonaire_Football_Federation_logo.png/250px-Bonaire_Football_Federation_logo.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bonaire_national_football_team"
+  },
+  {
+    "club_name": "Saint Barthélemy",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Saint-Barth%C3%A9lemy_FA_Logo.png/250px-Saint-Barth%C3%A9lemy_FA_Logo.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Saint_Barth%C3%A9lemy_national_football_team"
+  },
+  {
+    "club_name": "Saint Pierre and Miquelon",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Saint-Pierre_and_Miquelon_FA.png/250px-Saint-Pierre_and_Miquelon_FA.png",
+    "continent": "North America",
+    "wiki_url": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon_national_football_team"
   }
 ]
