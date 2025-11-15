@@ -1408,5 +1408,83 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Saint-Pierre_and_Miquelon_FA.png/250px-Saint-Pierre_and_Miquelon_FA.png",
     "continent": "North America",
     "wiki_url": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon_national_football_team"
+  },
+  {
+    "club_name": "East Germany (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/East_Germany_national_football_team_logo.svg/250px-East_Germany_national_football_team_logo.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/East_Germany_national_football_team"
+  },
+  {
+    "club_name": "South Yemen (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Coat_of_arms_of_South_Yemen_%281970-1990%29.svg/250px-Coat_of_arms_of_South_Yemen_%281970-1990%29.svg.png",
+    "continent": "Asia",
+    "wiki_url": "https://en.wikipedia.org/wiki/South_Yemen_national_football_team"
+  },
+  {
+    "club_name": "Yugoslavia (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e3/Yugoslav_Football_Federation_1990.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yugoslavia_national_football_team"
+  },
+  {
+    "club_name": "Catalunya",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Catalonia_national_football_team_crest.svg/250px-Catalonia_national_football_team_crest.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Catalonia_national_football_team"
+  },
+  {
+    "club_name": "Great Britain (Olympic)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Team-gb-logo.svg/250px-Team-gb-logo.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Great_Britain_Olympic_football_team"
+  },
+  {
+    "club_name": "Vatican City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Vatican_City_national_football_team_Holy_Spirit_version.svg/250px-Vatican_City_national_football_team_Holy_Spirit_version.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vatican_City_national_football_team"
+  },
+  {
+    "club_name": "Monaco",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/7/75/S%C3%A9lectionMonaco.jpg/250px-S%C3%A9lectionMonaco.jpg",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Monaco_national_football_team"
+  },
+  {
+    "club_name": "Commonwealth of Independent States (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/CIS_football.svg/250px-CIS_football.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/CIS_national_football_team"
+  },
+  {
+    "club_name": "Monaco",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/7/75/S%C3%A9lectionMonaco.jpg/250px-S%C3%A9lectionMonaco.jpg",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Monaco_national_football_team"
+  },
+  {
+    "club_name": "Trasnitria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Coat_of_arms_of_Transnistria.svg/250px-Coat_of_arms_of_Transnistria.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Transnistria_national_football_team"
+  },
+  {
+    "club_name": "South Ossetia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Emblem_of_South_Ossetia.svg/250px-Emblem_of_South_Ossetia.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/South_Ossetia_national_football_team"
+  },
+  {
+    "club_name": "Northern Cyprus",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Kuzey_K%C4%B1br%C4%B1s_mill%C3%AE_tak%C4%B1mlar_forma_armas%C4%B1_2022.png/250px-Kuzey_K%C4%B1br%C4%B1s_mill%C3%AE_tak%C4%B1mlar_forma_armas%C4%B1_2022.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Northern_Cyprus_national_football_team"
+  },
+  {
+    "club_name": "Western Sahara",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/New_Logo_of_the_Saharawi_Football_Federation.png/250px-New_Logo_of_the_Saharawi_Football_Federation.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Western_Sahara_national_football_team"
   }
 ]
