@@ -1,8 +1,110 @@
 [
   {
-    "club_name": "BSK Bijelo Brdo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/NK_BSK_Bijelo_Brdo_Logo.svg/250px-NK_BSK_Bijelo_Brdo_Logo.svg.png",
-    "city_country": "Bijelo Brdo, Croatia",
-    "wiki_url": "https://en.wikipedia.org/wiki/NK_BSK_Bijelo_Brdo"
+    "club_name": "Ancona",
+    "club_logo": "",
+    "city_country": "Ancona, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/SSC_Ancona"
+  },
+  {
+    "club_name": "Atletico Ascoli",
+    "club_logo": "",
+    "city_country": "Ascoli Piceno, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/SSD_Atletico_Ascoli"
+  },
+  {
+    "club_name": "Castelfidardo",
+    "club_logo": "",
+    "city_country": "Castelfidardo, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/SGSD_Castelfidardo"
+  },
+  {
+    "club_name": "Chieti",
+    "club_logo": "",
+    "city_country": "Chieti, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Chieti_FC_1922"
+  },
+  {
+    "club_name": "Forsempronese",
+    "club_logo": "",
+    "city_country": "Fossombrone, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/FC_Fossombrone_1949"
+  },
+  {
+    "club_name": "Giulianova",
+    "club_logo": "",
+    "city_country": "Giulianova, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Giulianova_Calcio_1924"
+  },
+  {
+    "club_name": "L’Aquila",
+    "club_logo": "",
+    "city_country": "L'Aquila, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/L%27Aquila_1927"
+  },
+  {
+    "club_name": "Maceratese",
+    "club_logo": "",
+    "city_country": "Macerata, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/SS_Maceratese_1922"
+  },
+  {
+    "club_name": "Notaresco",
+    "club_logo": "",
+    "city_country": "Notaresco, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Notaresco_Calcio"
+  },
+  {
+    "club_name": "Ostia Mare",
+    "club_logo": "",
+    "city_country": "Rome (Ostia), Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/AS_Ostia_Mare"
+  },
+  {
+    "club_name": "Recanatese",
+    "club_logo": "",
+    "city_country": "Recanati, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/US_Recanatese"
+  },
+  {
+    "club_name": "Sammaurese",
+    "club_logo": "",
+    "city_country": "San Mauro Pascoli, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/AC_Sammaurese"
+  },
+  {
+    "club_name": "San Marino",
+    "club_logo": "",
+    "city_country": "San Marino, San Marino",
+    "wiki_url": "https://it.wikipedia.org/wiki/San_Marino_Calcio"
+  },
+  {
+    "club_name": "Sora",
+    "club_logo": "",
+    "city_country": "Sora, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/ASD_Sora_Calcio_1907"
+  },
+  {
+    "club_name": "Teramo",
+    "club_logo": "",
+    "city_country": "Teramo, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Citt%C3%A0_di_Teramo_1913"
+  },
+  {
+    "club_name": "Termoli",
+    "club_logo": "",
+    "city_country": "Termoli, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Calcio_Termoli_1920"
+  },
+  {
+    "club_name": "UniPomezia",
+    "club_logo": "",
+    "city_country": "Pomezia, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/UniPomezia_Virtus"
+  },
+  {
+    "club_name": "Vigor Senigallia",
+    "club_logo": "",
+    "city_country": "Senigallia, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/US_Vigor_Senigallia"
   }
 ]
