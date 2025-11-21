@@ -1009,7 +1009,7 @@
   },
   {
     "club_name": "Rosario Central",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXLRYmMJV9V75j07Hbx9FC-XOqavE5fgKY4kmlgK9gNOwPt_waWX53yr_-m_BWjlaQs6BzZPPmQFQAG2X7zk1bIhC5T7KsqwiuML7KZmjvEdIEz9SlNdui_hRj7XSmhuClXYTDGub-b1mzJVTEzZ9sYNg0gearuGq_qf2UIMWSGKGknFs9IR02ejO3_QA/s256/Club%20Atletico%20Rosario%20Central256x.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuRzUVY_CROffA6k_19aK2o5ZME4DRbWrgRKRlm3WgYXSnNQa6g0zEa_s9-sTJ-WFRaWurgRKM0SJOTFGvIjg_Ku_0iIOCD56h6MuCFcGOqR6m4tDVrg2TMi8jxunA7k8nYYD7XmHwp3RaGisBy1cETYzUsE4wwLeAlLhDe_ioLqf_BFZ0FqeP5ABRZ6E/s256/CA%20Rosario%20Central256x.png",
     "city_country": "Rosario, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Rosario_Central"
   },
@@ -6444,7 +6444,7 @@
   },
   {
     "club_name": "Waterford",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSfBBoyKBS6iKo73yQg9xF8kiWRqNeJ_ReaX-884mR-8J9y6B71dSDDwuCnkr4oPT1cit5yefTmX4TKTISaYrDYYZeQaH4c57pHHVDQWxKk_dIW2RA_xWo1wjfDgOoiVV4RUeN_-SW2nM/s256/Waterford+FC256x.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN2nyaT6fhX8qs8i8tbo3M01BLqlExvwVvB7IyNV6Y6tZtdlcFicfQ3eNGM5svEXEHKS5z3GMxyoJvGtfhJXMaJb1Trw0OewiTjIKUxs8yK5TyMYNs1i-BPfXjRqxQzb8pgah7E3EQz72t5KQGDP9LFyFCcYXHAcYGzCQ2oHOFRAmvXksjQDlXkzSjG-4/s1600/Waterford%20FC256x.png",
     "city_country": "Waterford, Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Waterford_F.C."
   },
@@ -19762,5 +19762,95 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Ull-Kisa_IL_logo.svg/250px-Ull-Kisa_IL_logo.svg.png",
     "city_country": "Jessheim, Norway",
     "wiki_url": "https://en.wikipedia.org/wiki/Ullensaker/Kisa_IL"
+  },
+  {
+    "club_name": "1. Göppinger SV",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/SV_Goeppingen.png/250px-SV_Goeppingen.png",
+    "city_country": "Göppingen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/1._G%C3%B6ppinger_SV"
+  },
+  {
+    "club_name": "FC 08 Villingen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/FC_08_Villingen_crest.svg/250px-FC_08_Villingen_crest.svg.png",
+    "city_country": "Villingen‑Schwenningen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_08_Villingen"
+  },
+  {
+    "club_name": "VfR Mannheim",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/VfR_Mannheim.png/250px-VfR_Mannheim.png",
+    "city_country": "Mannheim, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/VfR_Mannheim"
+  },
+  {
+    "club_name": "VfR Aalen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/VfR_Aalen_Wappen.svg/250px-VfR_Aalen_Wappen.svg.png",
+    "city_country": "Aalen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/VfR_Aalen"
+  },
+  {
+    "club_name": "1. CfR Pforzheim",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/1._CfR_Pforzheim.svg/250px-1._CfR_Pforzheim.svg.png",
+    "city_country": "Pforzheim, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/1._CfR_Pforzheim"
+  },
+  {
+    "club_name": "SV Oberachern",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/SV_Oberachern_Logo.svg/250px-SV_Oberachern_Logo.svg.png",
+    "city_country": "Oberachern, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Oberachern"
+  },
+  {
+    "club_name": "FC Nöttingen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cc/FC_Nottingen.png",
+    "city_country": "Nöttingen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_N%C3%B6ttingen"
+  },
+  {
+    "club_name": "TSG Backnang 1919",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/TSG_Backnang.png/250px-TSG_Backnang.png",
+    "city_country": "Backnang, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TSG_Backnang_1919"
+  },
+  {
+    "club_name": "SSV Reutlingen 05",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/SSV_Reutlingen_05.svg/250px-SSV_Reutlingen_05.svg.png",
+    "city_country": "Reutlingen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SSV_Reutlingen_05"
+  },
+  {
+    "club_name": "TSV Essingen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/TSV_Essingen_%28Logo%29.svg/140px-TSV_Essingen_%28Logo%29.svg.png",
+    "city_country": "Essingen, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/TSV_Essingen"
+  },
+  {
+    "club_name": "FSV Hollenbach",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/0/04/FSV_Hollenbach_Logo.png/120px-FSV_Hollenbach_Logo.png",
+    "city_country": "Mulfingen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FSV_Hollenbach" 
+  },
+  {
+    "club_name": "1. FC Normannia Gmünd",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Normannia_Schw%C3%A4bisch_Gm%C3%BCnd.png/250px-Normannia_Schw%C3%A4bisch_Gm%C3%BCnd.png",
+    "city_country": "Schwäbisch Gmünd, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/1._FC_Normannia_Gm%C3%BCnd"
+  },
+  {
+    "club_name": "FSV 08 Bietigheim‑Bissingen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Logo_fsv_bietigheim_bissingen.png/250px-Logo_fsv_bietigheim_bissingen.png",
+    "city_country": "Bietigheim‑Bissingen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FSV_08_Bissingen"
+  },
+  {
+    "club_name": "FV Ravensburg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/FV_Ravensburg_Logo.svg/250px-FV_Ravensburg_Logo.svg.png",
+    "city_country": "Ravensburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FV_Ravensburg"
+  },
+  {
+    "club_name": "FC Denzlingen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/FC_Denzlingen_Wappen.png/250px-FC_Denzlingen_Wappen.png",
+    "city_country": "Denzlingen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Denzlingen"
   }
 ]
