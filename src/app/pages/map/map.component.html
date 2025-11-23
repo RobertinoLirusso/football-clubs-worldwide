@@ -1,0 +1,30 @@
+<div class="container">
+  <app-header></app-header>
+<div class="map-wrapper">
+
+  <!-- Buscador con autocomplete -->
+  <div class="search-container">
+    <input
+      type="text"
+      placeholder="Buscar estadio..."
+      [(ngModel)]="searchTerm"
+      (input)="updateSuggestions()"
+      (keydown.enter)="onExactSearch()"
+    />
+
+    <button (click)="onExactSearch()">Buscar</button>
+  </div>
+
+  <!-- Lista de sugerencias -->
+  <ul *ngIf="suggestions.length > 0" class="suggestions-list">
+    <li *ngFor="let s of suggestions" (click)="selectSuggestion(s)">
+      {{ s.stadium_name }}
+    </li>
+  </ul>
+
+  <!-- Mapa -->
+  <div id="stadium-map"></div>
+</div>
+
+    <app-footer></app-footer>
+</div>
