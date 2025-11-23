@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { GuessClubComponent } from './pages/guess-club/guess-club.component';
 import { NgxImageZoomModule } from 'ngx-image-zoom';
 import { NationalTeamsComponent } from './pages/national-teams/national-teams.component';
+import { MapComponent } from './pages/map/map.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { NationalTeamsComponent } from './pages/national-teams/national-teams.co
     FooterComponent,
     GuessClubComponent,
     NationalTeamsComponent,
+    MapComponent,
   ],
   imports: [
     BrowserModule,

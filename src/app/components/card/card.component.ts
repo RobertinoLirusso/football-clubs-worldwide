@@ -1,7 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { ClubService } from '../../services/club.service';
 import { COUNTRY_FLAG_MAP } from '../../utils/country-flags';
-import { FootballService } from '../../services/football.service';
 
 @Component({
   selector: 'app-card',
@@ -56,7 +55,6 @@ export class CardComponent implements OnInit {
 
   constructor(
   private clubService: ClubService,
-  private footballService: FootballService,
   ) {}
 
   ngOnInit(): void {
