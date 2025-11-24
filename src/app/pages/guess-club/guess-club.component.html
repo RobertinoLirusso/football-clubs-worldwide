@@ -3,6 +3,12 @@
     <div class="w3-container w3-center">
         <h2 class="w3-padding"><i class="fas fa-gamepad" style="margin-right: 4px;"></i>Guess the Club!</h2>
 
+        <div *ngIf="clubs.length > 0 && !selectedClub && !gameOver" class="w3-margin-top">
+            <button class="w3-btn w3-black w3-xlarge" (click)="startGame()">
+                <i class="fas fa-play"></i> Start Game
+            </button>
+        </div>
+
         <div *ngIf="!gameOver">
             <!-- Club Logo Blurred -->
             <div *ngIf="selectedClub">
@@ -62,7 +68,12 @@
             [ngClass]="isCorrect ? 'w3-black' : 'w3-black'">
             <i class="fas" [ngClass]="isCorrect ? 'fa-arrow-right' : 'fa-redo'"></i> 
             {{ isCorrect ? 'Next' : 'Play Again' }}
-        </button>    
+        </button>
+        
+        <button *ngIf="gameOver" (click)="shareResult()" class="w3-btn w3-margin">
+            <i class="fa-brands fa-x-twitter"></i> Share on X
+        </button>
+    
         </div>
 
         <!-- Back Button -->

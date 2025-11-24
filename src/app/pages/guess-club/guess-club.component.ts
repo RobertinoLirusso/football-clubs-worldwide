@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ClubService } from '../../services/club.service';
+import confetti from 'canvas-confetti';
+
 
 @Component({
   selector: 'app-guess-club',
@@ -31,7 +33,6 @@ export class GuessClubComponent implements OnInit {
   getClubs(): void {
     this.clubService.getClubs().subscribe(data => {
       this.clubs = data;
-      this.startGame();
     });
   }
 
@@ -40,6 +41,9 @@ startGame(): void {
     this.timeOut = false;
     this.timeLeft = this.maxTime;
 
+
+    this.totalCorrectAnswers = 0;
+    
   // Seleccionar un club aleatorio como respuesta correcta
   this.selectedClub = this.clubs[Math.floor(Math.random() * this.clubs.length)];
 
@@ -75,7 +79,14 @@ checkAnswer(answer: string | null): void {
 
   if (this.isCorrect) {
     this.streak++;
-    this.totalCorrectAnswers++; // ✅ Acumula el total correcto
+    this.totalCorrectAnswers++;
+    
+    // 🎉 Lanzar confetti
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 }
+    });
   } else {
     this.lastScore = this.streak;
     this.streak = 0;
@@ -84,15 +95,23 @@ checkAnswer(answer: string | null): void {
 
 // Nueva función para devolver el mensaje según el total
 getPlayerLevel(): string {
-  if (this.totalCorrectAnswers <= 10) {
+  const score = this.lastScore; // usa la racha de la última partida
+  if (score <= 10) {
     return 'You are a beginner 🟢';
-  } else if (this.totalCorrectAnswers <= 20 ) {
+  } else if (score <= 20 ) {
     return 'You are average ⚽⚽';
-  } else if (this.totalCorrectAnswers <= 30) {
+  } else if (score <= 30) {
     return 'You know football ⚽⚽⚽';
   } else {
     return 'You are an football expert 🔥🔥🔥';
   }
+}
+
+
+shareResult(): void {
+  const text = `I just got a streak of ${this.streak} correct answers in Guess the Club! ⚽ Try to beat me!`;
+  const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
+  window.open(url, '_blank');
 }
 
   
