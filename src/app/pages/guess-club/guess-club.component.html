@@ -3,22 +3,30 @@
     <div class="w3-container w3-center">
         <h2 class="w3-padding"><i class="fas fa-gamepad" style="margin-right: 4px;"></i>Guess the Club!</h2>
 
+        <!-- START BUTTON -->
         <div *ngIf="clubs.length > 0 && !selectedClub && !gameOver" class="w3-margin-top">
             <button class="w3-btn w3-black w3-xlarge" (click)="startGame()">
                 <i class="fas fa-play"></i> Start Game
             </button>
         </div>
 
-        <div *ngIf="!gameOver">
+        <!-- GAME IN PROGRESS -->
+        <div *ngIf="selectedClub && !gameOver">
+
             <!-- Club Logo Blurred -->
-            <div *ngIf="selectedClub">
+            <div>
                 <img [src]="selectedClub.club_logo" class="club-logo blurred">
             </div>
-            <div *ngIf="!gameOver" class="w3-light-grey w3-round-xlarge w3-margin">
-                <div class="w3-container w3-green w3-round-xlarge" [style.width.%]="(timeLeft / maxTime) * 100">
+
+            <!-- TIMER (solo aparece cuando el juego inició) -->
+            <div class="w3-light-grey w3-round-xlarge w3-margin">
+                <div class="w3-container w3-green w3-round-xlarge" 
+                     [style.width.%]="(timeLeft / maxTime) * 100">
                     {{ timeLeft }}s
                 </div>
             </div>
+
+            <!-- OPTIONS -->
             <div class="w3-margin-top">
                 <button *ngFor="let option of options" 
                         (click)="checkAnswer(option)" 
@@ -27,53 +35,55 @@
                 </button>
             </div>
         </div>
+
+        <!-- GAME OVER -->
         <div *ngIf="gameOver">
+
             <!-- Club Logo Normal -->
             <div *ngIf="selectedClub">
                 <img [src]="selectedClub.club_logo" class="club-logo">
             </div>
-            
 
             <!-- Exit Message -->
             <h3 *ngIf="isCorrect">
                 <i class="fas fa-check-circle"></i> Correct! It's {{ selectedClub.club_name }}!
             </h3>
 
-            <!-- Error Message -->
+            <!-- Wrong -->
             <h3 *ngIf="!isCorrect && !timeOut">
                 <i class="fas fa-times-circle"></i> Wrong! The correct answer was {{ selectedClub.club_name }}.
             </h3>
 
+            <!-- Time’s up -->
             <h3 *ngIf="timeOut">
                 <i class="fas fa-clock"></i> Time's up! The correct answer was {{ selectedClub.club_name }}.
             </h3>
 
-            <!-- Player Streak -->
+            <!-- Streak -->
             <h3 *ngIf="isCorrect">
                 Your Streak: {{ streak }} correct answers in a row!
             </h3>
 
-            <!-- Final Player Streak -->
+            <!-- Final Score -->
             <h3 *ngIf="!isCorrect && lastScore > 0">
                 You got {{ lastScore }} correct answers in total!
             </h3>
 
+            <!-- Player Level -->
             <h3 class="w3-margin-top" *ngIf="!isCorrect || timeOut">  
-              {{ getPlayerLevel() }}
+                {{ getPlayerLevel() }}
             </h3>
 
+            <!-- Restart / Next -->
+            <button (click)="startGame()" class="w3-btn w3-margin w3-black">
+                <i class="fas" [ngClass]="isCorrect ? 'fa-arrow-right' : 'fa-redo'"></i> 
+                {{ isCorrect ? 'Next' : 'Play Again' }}
+            </button>
 
-        
-            <button (click)="startGame()" class="w3-btn w3-margin" 
-            [ngClass]="isCorrect ? 'w3-black' : 'w3-black'">
-            <i class="fas" [ngClass]="isCorrect ? 'fa-arrow-right' : 'fa-redo'"></i> 
-            {{ isCorrect ? 'Next' : 'Play Again' }}
-        </button>
-        
-        <button *ngIf="gameOver" (click)="shareResult()" class="w3-btn w3-margin">
-            <i class="fa-brands fa-x-twitter"></i> Share on X
-        </button>
-    
+            <!-- Share -->
+            <button (click)="shareResult()" class="w3-btn w3-margin">
+                <i class="fa-brands fa-x-twitter"></i> Share on X
+            </button>
         </div>
 
         <!-- Back Button -->
