@@ -7643,7 +7643,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/SV_Horn"
     },
     {
-        "club_name": "FC Mohren Dornbirn 1913",
+        "club_name": "FC Dornbirn 1913",
         "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/94/FC_Dornbirn_1913_logo.png",
         "city_country": "Dornbirn, Austria",
         "wiki_url": "https://en.wikipedia.org/wiki/FC_Dornbirn_1913"
@@ -12773,7 +12773,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Floridsdorfer_AC"
   },
   {
-    "club_name": "KSV 1919",
+    "club_name": "Kapfenberger SV",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/58/Kapfenberger_SV.png",
     "city_country": "Kapfenberg, Austria",
     "wiki_url": "https://en.wikipedia.org/wiki/Kapfenberger_SV"
@@ -20092,5 +20092,83 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/53/Club_Esportiu_Principat.png",
     "city_country": "Andorra la Vella, Andorra",
     "wiki_url": "https://en.wikipedia.org/wiki/CE_Principat"
+  },
+  {
+    "club_name": "FC Lernayin Artsakh",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fb/This_is_the_logo_for_Lernayin_Artsakh_FC.png",
+    "city_country": "Stepanakert, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lernayin_Artsakh_FC"
+  },
+  {
+    "club_name": "Dinamo Yerevan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/FC_Dinamo_Yerevan_logo.svg/250px-FC_Dinamo_Yerevan_logo.svg.png",
+    "city_country": "Yerevan, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dinamo_Yerevan"
+  },
+  {
+    "club_name": "West Armenia (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Armenia_logo.png/250px-West_Armenia_logo.png",
+    "city_country": "Yerevan, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_West_Armenia"
+  },
+  {
+    "club_name": "SC Mika",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1d/SC_Mika.png",
+    "city_country": "Yerevan, Armenia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Mika" 
+  },
+  {
+    "club_name": "Sabail FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/S%C9%99bail_Futbol_Klubu_%28logo%29.svg/250px-S%C9%99bail_Futbol_Klubu_%28logo%29.svg.png",
+    "city_country": "Baku, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sabail_FK"
+  },
+  {
+    "club_name": "Jabrayil FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Jabrayil_FK_logo.png/250px-Jabrayil_FK_logo.png",
+    "city_country": "Jabrayil, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jabrayil_FK"
+  },
+  {
+    "club_name": "Difai FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/az/thumb/f/ff/Difai_FK_loqo.png/250px-Difai_FK_loqo.png",
+    "city_country": "Agsu, Azerbaijan",
+    "wiki_url": "https://az.wikipedia.org/wiki/Difai_FK"
+  },
+  {
+    "club_name": "Mingəçevir",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Energetik_FK_logo.png/250px-Energetik_FK_logo.png",
+    "city_country": "Mingachevir, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Energetik_FK"
+  },
+  {
+    "club_name": "MOİK Baku",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/MO%C4%B0K_%28Bak%C4%B1%29.jpg/250px-MO%C4%B0K_%28Bak%C4%B1%29.jpg",
+    "city_country": "Baku, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/MOIK_Baku"
+  },
+  {
+    "club_name": "Baku",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/FK_Baku.png/250px-FK_Baku.png",
+    "city_country": "Baku, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Baku"
+  },
+  {
+    "club_name": "Shafa Baku (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Shafa_Baku_Soccer_Club_logo.png/250px-Shafa_Baku_Soccer_Club_logo.png",
+    "city_country": "Baku, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shafa_Baku_FK"
+  },
+  {
+    "club_name": "Qaradağ Lökbatan (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a4/Qaradaglogo.png",
+    "city_country": "Lökbatan, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Qarada%C4%9F_L%C3%B6kbatan_FK"
+  },
+  {
+    "club_name": "Zagatala PFK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Zagatala_PFK%2C_logo.png/250px-Zagatala_PFK%2C_logo.png",
+    "city_country": "Zaqatala, Azerbaijan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zagatala_PFK"
   }
 ]
