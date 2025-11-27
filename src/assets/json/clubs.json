@@ -20248,5 +20248,215 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/K.V.K._Tienen_logo.svg/250px-K.V.K._Tienen_logo.svg.png",
     "city_country": "Tienen, Belgium",
     "wiki_url": "https://en.wikipedia.org/wiki/K.V.K._Tienen-Hageland"
+  },
+  {
+    "club_name": "Veles Moscow",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/FC_Veles_logo_2020.png/250px-FC_Veles_logo_2020.png",
+    "city_country": "Moscow, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Veles_Moscow"
+  },
+  {
+    "club_name": "Volgar Astrakhan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Volgar_FC_logo_2019.png/250px-Volgar_FC_logo_2019.png",
+    "city_country": "Astrakhan, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Volgar_Astrakhan"
+  },
+  {
+    "club_name": "Tekstilshchik Ivanovo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%A4%D0%9A_%D0%A2%D0%B5%D0%BA%D1%81%D1%82%D0%B8%D0%BB%D1%8C%D1%89%D0%B8%D0%BA_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE_2008.svg/250px-%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%A4%D0%9A_%D0%A2%D0%B5%D0%BA%D1%81%D1%82%D0%B8%D0%BB%D1%8C%D1%89%D0%B8%D0%BA_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE_2008.svg.png",
+    "city_country": "Ivanovo, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Tekstilshchik_Ivanovo"
+  },
+  {
+    "club_name": "Mashuk-KMV Pyatigorsk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c0/FC_Mashuk-KMV_Pyatigorsk_logo.png",
+    "city_country": "Pyatigorsk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Mashuk-KMV_Pyatigorsk"
+  },
+  {
+    "club_name": "Sibir Novosibirsk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9d/FC_Novosibirsk_logo.png",
+    "city_country": "Novosibirsk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Sibir_Novosibirsk_(2019)"
+  },
+  {
+    "club_name": "FC Sibir Novosibirsk (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9c/Logo_of_FC_Sibir_Novosibirsk.png",
+    "city_country": "Novosibirsk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Sibir_Novosibirsk_(2019)"
+  },
+  {
+    "club_name": "FC Leningradets",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/FC_Leningradec.png/250px-FC_Leningradec.png",
+    "city_country": "St. Petersburg, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Leningradets_Leningrad_Oblast"
+  },
+  {
+    "club_name": "FC Tyumen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/FC_Tyumen_logo.svg/250px-FC_Tyumen_logo.svg.png",
+    "city_country": "Tyumen, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Tyumen"
+  },
+  {
+    "club_name": "Dynamo Kirov",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/c/c5/FC_Dynamo_Kirov_Logo.svg/200px-FC_Dynamo_Kirov_Logo.svg.png",
+    "city_country": "Kirov, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dynamo_Kirov"
+  },
+  {
+    "club_name": "Alania Vladikavkaz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/FC_Alania_Vladikavkaz_Logo.png/250px-FC_Alania_Vladikavkaz_Logo.png",
+    "city_country": "Vladikavkaz, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Alania_Vladikavkaz_(2019)"
+  },
+  {
+    "club_name": "SKA-Khabarovsk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/FC_ska_khabarovsk_logo.png/250px-FC_ska_khabarovsk_logo.png",
+    "city_country": "Khabarovsk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_SKA-Khabarovsk"
+  },
+  {
+    "club_name": "FC Kaluga",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Logo_of_FC_Kaluga.gif/250px-Logo_of_FC_Kaluga.gif",
+    "city_country": "Kaluga, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kaluga"
+  },
+  {
+    "club_name": "FC Torpedo Miass",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/8/8a/FC_Torpedo_Miass_Logo.svg/250px-FC_Torpedo_Miass_Logo.svg.png",
+    "city_country": "Miass, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Torpedo_Miass"
+  },
+  {
+    "club_name": "PFC Kuban Krasnodar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/6/69/FC_Kuban_%282018%29_Logo_2023.svg/250px-FC_Kuban_%282018%29_Logo_2023.svg.png",
+    "city_country": "Krasnodar, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kuban_Krasnodar_(2018)"
+  },
+  {
+    "club_name": "FC Dynamo Vladivostok",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/5/5d/Dynamo_Vladivostok_FC_logo_2021.png/250px-Dynamo_Vladivostok_FC_logo_2021.png",
+    "city_country": "Vladivostok, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dynamo_Vladivostok"
+  },
+  {
+    "club_name": "FC Luch Vladivostok",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Logo_of_Luch_Vladivostok.svg/200px-Logo_of_Luch_Vladivostok.svg.png",
+    "city_country": "Vladivostok, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Luch_Vladivostok"
+  },
+  {
+    "club_name": "FC Avangard Kursk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Logo_of_FC_Avangard_Kursk.png/250px-Logo_of_FC_Avangard_Kursk.png",
+    "city_country": "Kursk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Avangard_Kursk"
+  },
+  {
+    "club_name": "FC Murom",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/b/b5/FC_Murom_Logo.svg/250px-FC_Murom_Logo.svg.png",
+    "city_country": "Murom, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Murom"
+  },
+  {
+    "club_name": "Zenit Penza",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Logo_of_FC_Zenit_Penza.gif/300px-Logo_of_FC_Zenit_Penza.gif",
+    "city_country": "Penza, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Zenit_Penza"
+  },
+  {
+    "club_name": "FC Oryol",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/f/f9/FC_Orel_Logo.svg/250px-FC_Orel_Logo.svg.png",
+    "city_country": "Oryol, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Oryol"
+  },
+  {
+    "club_name": "FC Kvant Obninsk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/FC_Kvant_Obninsk_logo.png/250px-FC_Kvant_Obninsk_logo.png",
+    "city_country": "Obninsk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kvant_Obninsk"
+  },
+  {
+    "club_name": "Dynamo St. Petersburg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/FC_Dynamo_SPb.png/250px-FC_Dynamo_SPb.png",
+    "city_country": "St. Petersburg, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dynamo_Saint_Petersburg"
+  },
+  {
+    "club_name": "Dynamo Barnaul",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/FCDynamoBarnaulBadge.png/160px-FCDynamoBarnaulBadge.png",
+    "city_country": "Barnaul, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dynamo_Saint_Petersburg"
+  },
+  {
+    "club_name": "Dynamo Vologda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/FC_Dynamo_Vologda_badge.png/250px-FC_Dynamo_Vologda_badge.png",
+    "city_country": "Vologda, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dynamo_Vologda"
+  },
+  {
+    "club_name": "Dynamo Bryansk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Logo_of_FC_Dynamo_Bryansk.png/160px-Logo_of_FC_Dynamo_Bryansk.png",
+    "city_country": "Bryansk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dynamo_Bryansk"
+  },
+  {
+    "club_name": "FC Tambov (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/FC_Tambov_logo_2020.svg/250px-FC_Tambov_logo_2020.svg.png",
+    "city_country": "Tambov, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Tambov"
+  },
+  {
+    "club_name": "FC KDV Tomsk",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/FC_KDV_Tomsk_logo.svg/250px-FC_KDV_Tomsk_logo.svg.png",
+    "city_country": "Tomsk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_KDV_Tomsk"
+  },
+  {
+    "club_name": "Tom Tomsk (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/57/TomTomsk.png",
+    "city_country": "Tomsk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Tom_Tomsk"
+  },
+  {
+    "club_name": "Tom Tomsk (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/57/TomTomsk.png",
+    "city_country": "Tomsk, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Tom_Tomsk"
+  },
+  {
+    "club_name": "Chertanovo Moscow",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Chertanovo_FC_logo_2021.png/250px-Chertanovo_FC_logo_2021.png",
+    "city_country": "Moscow, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Chertanovo_Moscow"
+  },
+  {
+    "club_name": "FC Kosmos Dolgoprudny",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/3/33/Kosmos_Dolgoprudny_FC_logo_2022.svg/200px-Kosmos_Dolgoprudny_FC_logo_2022.svg.png",
+    "city_country": "Dolgoprudny, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kosmos_Dolgoprudny"
+  },
+  {
+    "club_name": "FC Torpedo Vladimir",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/5/5d/Logo_FK_Torpedo-Vladimir.png/250px-Logo_FK_Torpedo-Vladimir.png",
+    "city_country": "Vladimir, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Torpedo_Vladimir"
+  },
+  {
+    "club_name": "FC Torpedo Vladimir",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/5/5d/Logo_FK_Torpedo-Vladimir.png/250px-Logo_FK_Torpedo-Vladimir.png",
+    "city_country": "Vladimir, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Torpedo_Vladimir"
+  },
+  {
+    "club_name": "Amkar Perm",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/FC_Amkar_Perm_logo.svg/140px-FC_Amkar_Perm_logo.svg.png",
+    "city_country": "Perm, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Amkar_Perm"
+  },
+  {
+    "club_name": "FC Strogino Moscow",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/5/51/FC_Strogino_2019.png",
+    "city_country": "Moscow, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Strogino_Moscow"
   }
 ]
