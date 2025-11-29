@@ -91,7 +91,7 @@
   },
   {
     "club_name": "Minnesota Aurora",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/ae/MN_Aurora_FC_Crest.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Minnesota_Aurora_FC_logo.svg/250px-Minnesota_Aurora_FC_logo.svg.png",
     "city_country": "Eagan, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Minnesota_Aurora_FC"
   },
@@ -1951,13 +1951,13 @@
   },
   {
     "club_name": "Chicago Stars",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Chicago_Stars_FC_logo.svg/320px-Chicago_Stars_FC_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_of_Chicago_Stars_FC.svg/160px-Logo_of_Chicago_Stars_FC.svg.png",
     "city_country": "Chicago, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Chicago_Stars_FC"
   },
   {
     "club_name": "Racing Louisville",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Racing_Louisville_FC_logo.svg/240px-Racing_Louisville_FC_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Racing_Louisville_FC_%282020%29.svg/230px-Racing_Louisville_FC_%282020%29.svg.png",
     "city_country": "Louisville, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Racing_Louisville_FC"
   },
@@ -3245,16 +3245,22 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Vancouver_FC"
   },
   {
-    "club_name": "Valour FC",
+    "club_name": "Valour FC (Defunct)",
     "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgakPfPZ3FvVzzKdvdPyogrZLueTkOlCnxjK7AhtAws0qDkn6U4i2QVkfYh_0dK8CFr7zsqSTXchJwSxv2IW6qfdXjVF-bTbaoiQP0sCmOZlK7HQio32WsPtdOxB0QpdwUj651-J6JiIiMm9RHtHOHmCqu33f2mEzHOm_vItvtoABU56ZVg0fra-Z05=s256",
     "city_country": "Winnipeg, Canada",
     "wiki_url": "https://en.wikipedia.org/wiki/Valour_FC"
   },
   {
-    "club_name": "York United FC",
+    "club_name": "York United FC (Defunct)",
     "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEi5glgLhhFYcI5EKbhhZAjF9HxLSP64eGqXM0CHUNALphq5j8L7zJVHuYIORrJh2MM-IWSWMUbX4G6FaYWdO8JyTpswqHrC3r2nDUJf-rx0mNsf_FseLXfUh3yjqEd-J8knVqguNbFyzuq6UFDYgo5Bt1AuboKHJ4g7UKAFn63WxhoJLiH4kEOD3DZk=s256",
     "city_country": "Toronto, Canada",
     "wiki_url": "https://en.wikipedia.org/wiki/York_United_FC"
+  },
+  {
+    "club_name": "Inter Toronto FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Inter_Toronto_FC.png/250px-Inter_Toronto_FC.png",
+    "city_country": "Toronto, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Inter_Toronto_FC"
   },
   {
     "club_name": "Pacific FC",
@@ -11634,7 +11640,7 @@
   },
   {
     "club_name": "Kansas City Current",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Kansas_City_Current_logo.svg/160px-Kansas_City_Current_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Kansas_City_Current_2022_logo.svg/160px-Kansas_City_Current_2022_logo.svg.png",
     "city_country": "Kansas City, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Kansas_City_Current"
   },
@@ -11670,7 +11676,7 @@
   },
     {
     "club_name": "AV Alta FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/AV_Alta_FC_logo.png/250px-AV_Alta_FC_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Logo_of_AV_Alta_FC.png/250px-Logo_of_AV_Alta_FC.png",
     "city_country": "Lancaster, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/AV_Alta_FC"
   },
@@ -11682,7 +11688,7 @@
   },
   {
     "club_name": "FC Naples",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/FC_Naples_Logo.png/250px-FC_Naples_Logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/FC_Naples.png/250px-FC_Naples.png",
     "city_country": "Naples, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Naples"
   },
@@ -11694,7 +11700,7 @@
   },
   {
     "club_name": "Richmond Kickers",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Richmond_Kickers_crest.svg/250px-Richmond_Kickers_crest.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Richmond_Kickers_logo.svg/250px-Richmond_Kickers_logo.svg.png",
     "city_country": "Richmond, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Richmond_Kickers"
   },
