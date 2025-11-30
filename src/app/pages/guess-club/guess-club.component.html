@@ -1,11 +1,11 @@
 <div class="container">
     <app-header></app-header>
-    <div class="w3-container w3-center">
+    <div class="w3-container w3-center w3-card w3-margin-top w3-margin-bottom w3-animate-opacity">
         <h2 class="w3-padding"><i class="fas fa-gamepad" style="margin-right: 4px;"></i>Guess the Club!</h2>
 
         <!-- START BUTTON -->
         <div *ngIf="clubs.length > 0 && !selectedClub && !gameOver" class="w3-margin-top">
-            <button class="w3-btn w3-black w3-xlarge" (click)="startGame()">
+            <button class="w3-btn w3-black w3-large" (click)="startGame()">
                 <i class="fas fa-play"></i> Start Game
             </button>
         </div>
@@ -14,9 +14,11 @@
         <div *ngIf="selectedClub && !gameOver">
 
             <!-- Club Logo Blurred -->
-            <div>
+
+            <div class="logo-wrapper">
                 <img [src]="selectedClub.club_logo" class="club-logo blurred">
             </div>
+
 
             <!-- TIMER (solo aparece cuando el juego inició) -->
             <div class="w3-light-grey w3-round-xlarge w3-margin">
@@ -27,22 +29,25 @@
             </div>
 
             <!-- OPTIONS -->
-            <div class="w3-margin-top">
-                <button *ngFor="let option of options" 
-                        (click)="checkAnswer(option)" 
-                        class="w3-btn w3-black w3-margin">
-                    <i class="fas fa-futbol"></i> {{ option }}
-                </button>
-            </div>
+            <div class="options-container">
+                <button *ngFor="let option of options"
+                (click)="checkAnswer(option)"
+                class="option-btn">
+                <i class="fas fa-futbol"></i> {{ option }}
+            </button>
+        </div>
+
+
         </div>
 
         <!-- GAME OVER -->
         <div *ngIf="gameOver">
 
             <!-- Club Logo Normal -->
-            <div *ngIf="selectedClub">
+            <div class="logo-wrapper">
                 <img [src]="selectedClub.club_logo" class="club-logo">
             </div>
+
 
             <!-- Exit Message -->
             <h3 *ngIf="isCorrect">
@@ -65,7 +70,7 @@
             </h3>
 
             <!-- Final Score -->
-            <h3 *ngIf="!isCorrect && lastScore > 0">
+            <h3 *ngIf="!isCorrect">
                 You got {{ lastScore }} correct answers in total!
             </h3>
 
@@ -81,19 +86,13 @@
             </button>
 
             <!-- Share -->
-            <button (click)="shareResult()" class="w3-btn w3-margin w3-black">
-                <i class="fa-brands fa-x-twitter"></i> Share on X
+            <button *ngIf="!isCorrect || timeOut"
+            (click)="shareResult()" 
+            class="w3-btn w3-margin w3-black">
+            <i class="fa-brands fa-x-twitter"></i> Share on X
             </button>
-        </div>
 
-        <!-- Back Button -->
-        <div class="w3-margin w3-padding">
-            <a href="/">
-                <button class="w3-btn w3-black w3-medium back-btn">
-                    <i class="fas fa-arrow-left"></i> Go Back
-                </button>
-            </a>
-        </div>
+    </div>
     </div>
     <app-footer></app-footer>
 </div>

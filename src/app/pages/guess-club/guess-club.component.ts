@@ -109,7 +109,7 @@ getPlayerLevel(): string {
 
 
 shareResult(): void {
-  const text = `I just got a streak of ${this.streak} correct answers in Guess the Club! ⚽🔥 Can you beat my score?\nPlay now: https://football-clubs-worldwide.vercel.app/game`;
+  const text = `I just got a streak of ${this.lastScore} correct answers in Guess the Club! ⚽🔥 Can you beat my score?\nPlay now: https://football-clubs-worldwide.vercel.app/game`;
   const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
   window.open(url, '_blank');
 }
