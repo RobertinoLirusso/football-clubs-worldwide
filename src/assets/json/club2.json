@@ -1,24 +1,8 @@
 [
-  { "club_name": "Chrobry Głogów",           "club_logo": "", "city_country": "Głogów, Poland",                 "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "GKS Tychy",                "club_logo": "", "city_country": "Tychy, Poland",                  "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Górnik Łęczna",            "club_logo": "", "city_country": "Łęczna, Poland",                "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "ŁKS Łódź",                 "club_logo": "", "city_country": "Łódź, Poland",                   "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Miedź Legnica",            "club_logo": "", "city_country": "Legnica, Poland",                "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Odra Opole",               "club_logo": "", "city_country": "Opole, Poland",                  "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Pogoń Grodzisk Mazowiecki","club_logo": "", "city_country": "Grodzisk Mazowiecki, Poland",    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Pogoń Siedlce",            "club_logo": "", "city_country": "Siedlce, Poland",                "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Polonia Bytom",            "club_logo": "", "city_country": "Bytom, Poland",                  "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Polonia Warsaw",           "club_logo": "", "city_country": "Warsaw, Poland",                 "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Puszcza Niepołomice",      "club_logo": "", "city_country": "Niepołomice, Poland",            "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Ruch Chorzów",             "club_logo": "", "city_country": "Chorzów, Poland",                "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Stal Rzeszów",             "club_logo": "", "city_country": "Rzeszów, Poland",               "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Stal Mielec",              "club_logo": "", "city_country": "Mielec, Poland",                 "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Śląsk Wrocław",            "club_logo": "", "city_country": "Wrocław, Poland",                "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Wieczysta Kraków",         "club_logo": "", "city_country": "Kraków / Sosnowiec, Poland",    "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Wisła Kraków",             "club_logo": "", "city_country": "Kraków, Poland",                "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Znicz Pruszków",           "club_logo": "", "city_country": "Pruszków, Poland",              "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "FC TVMK",          "club_logo": "", "city_country": "Tallin, Estonia",              "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "Nistru Otaci",           "club_logo": "", "city_country": "Otaci, Moldova",              "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" },
-  { "club_name": "FC Unisport-Auto Chișinău",     "club_logo": "", "city_country": "Chişinău, Moldova",              "wiki_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_I_liga" }
-
+  {
+    "club_name": "Chrobry Głogów",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Chrobry_G%C5%82og%C3%B3w_crest.svg/250px-Chrobry_G%C5%82og%C3%B3w_crest.svg.png",
+    "city_country": "Głogów, Poland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chrobry_G%C5%82og%C3%B3w"
+  }
 ]
