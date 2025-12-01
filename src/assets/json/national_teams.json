@@ -343,7 +343,7 @@
   },
   {
     "club_name": "Andorra",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/e/e1/Federation_andorrane_football_logo.png/250px-Federation_andorrane_football_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Coat_of_arms_of_Andorra.svg/250px-Coat_of_arms_of_Andorra.svg.png",
     "continent": "Europe" ,
     "wiki_url": "https://en.wikipedia.org/wiki/Andorra_national_football_team"
   },
@@ -757,7 +757,7 @@
   },
   {
     "club_name": "United Arab Emirates",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/United_Arab_Emirates_national_football_team.png/250px-United_Arab_Emirates_national_football_team.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/United_Arab_Emirates_Football_Association_logo.svg/250px-United_Arab_Emirates_Football_Association_logo.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/United_Arab_Emirates_national_football_team"
   },
@@ -913,7 +913,7 @@
   },
   {
     "club_name": "Liberia",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Liberia_Football_Association_logo.svg/250px-Liberia_Football_Association_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Liberia_Football_Association_logo.svg/250px-Liberia_Football_Association_logo.svg.png",
     "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Liberia_national_football_team"
   },
