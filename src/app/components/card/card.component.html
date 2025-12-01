@@ -66,8 +66,27 @@
     </header>
 
     <div class="w3-container w3-padding">
-      <input type="text" class="w3-input w3-margin-bottom" placeholder="Search country..." [(ngModel)]="countrySearch">
+      <div class="w3-display-container">
 
+        <!-- Input -->
+        <input
+          type="text"
+          class="w3-input w3-margin-bottom"
+          placeholder="Search country..."
+          [(ngModel)]="countrySearch"
+        />
+
+        <!-- Icono Clear -->
+        <span
+          *ngIf="countrySearch"
+          (click)="clearCountryFilterModal()"
+          class="w3-button w3-display-right w3-center"
+        >
+          <i class="fa fa-times"></i>
+        </span>
+
+      </div>
+      
       <ul class="w3-ul w3-hoverable" style="max-height:300px; overflow-y:auto;">
         <li *ngFor="let country of filteredCountries()" 
             (click)="selectCountry(country)"

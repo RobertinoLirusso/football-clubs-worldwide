@@ -145,6 +145,10 @@ selectCountry(country: string): void {
   this.visibleClubs = 100; // reset
 }
 
+clearCountryFilterModal(): void {
+    this.countrySearch = '';
+}
+
 clearCountryFilter(): void {
   this.selectedCountry = '';
   this.isCountryModalOpen = false;
