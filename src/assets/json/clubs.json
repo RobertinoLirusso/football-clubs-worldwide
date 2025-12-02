@@ -5678,7 +5678,7 @@
     "club_name": "Sepahan SC",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZXcG-yAwTEToKBPChG5lG-Ei24dY_8gYxtBwsvrvJwQ_DYuLCZA6g5oDQZClNrNMI7IrWdJzgNZCRcJas5iLYrdZSbOgaOcHUrLOjLU6-olOuaTs5t6rDGTFE4nD-hw9kU1Xyy4OFfwU/s256/Sepahan+SC256x.png",
     "city_country": "Isfahan, Iran",
-    "wiki_url": "https://en.wikipedia.org/wiki/Sepahan_SC"
+    "wiki_url": "https://en.wikipedia.org/wiki/Sepahan_S.C."
   },
   {
     "club_name": "Esteghlal",
@@ -8153,7 +8153,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/SS_Audace_Cerignola"
   },
   {
-    "club_name": "Rimini FC",
+    "club_name": "Rimini FC (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Rimini_FC_1912_crest.svg/250px-Rimini_FC_1912_crest.svg.png",
     "city_country": "Rimini, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Rimini_FC_1912"
@@ -8161,7 +8161,7 @@
     {
     "club_name": "KF Arsimi",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/KF_Arsimi.png/250px-KF_Arsimi.png",
-    "city_country": "Čegrane , North Macedonia",
+    "city_country": "Čegrane, North Macedonia",
     "wiki_url": "https://en.wikipedia.org/wiki/KF_Arsimi"
   },
   {
@@ -20824,6 +20824,78 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/18/FC_Jokerit.png",
     "city_country": "Helsinki, Finland",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Jokerit"
+  },
+  {
+    "club_name": "BK Frem",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/BK_Frem.png/250px-BK_Frem.png",
+    "city_country": "Valby, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Boldklubben_Frem"
+  },
+  {
+    "club_name": "Brønshøj Boldklub",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Br%C3%B8nsh%C3%B8j_BK.png/250px-Br%C3%B8nsh%C3%B8j_BK.png",
+    "city_country": "Brønshøj, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Br%C3%B8nsh%C3%B8j_Boldklub"
+  },
+  {
+    "club_name": "FA 2000",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/This_is_a_logo_for_B.93.jpg/250px-This_is_a_logo_for_B.93.jpg",
+    "city_country": "Frederiksberg, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/FA_2000"
+  },
+  {
+    "club_name": "Holbæk B&I",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Holb%C3%A6k_B%26IF.png/250px-Holb%C3%A6k_B%26IF.png",
+    "city_country": "Holbæk, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Holb%C3%A6k_B%26I"
+  },
+  {
+    "club_name": "Hørsholm-Usserød Idrætsklub",
+    "club_logo": "https://impro.usercontent.one/appid/oneComWsb/domain/hui-fodbold.dk/media/hui-fodbold.dk/onewebmedia/HUI%20logo.png?etag=%22f9a3-64463842%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=176%2B176&extract=0%2B8%2B176%2B168",
+    "city_country": "Hørsholm, Denmark",
+    "wiki_url": "https://da.wikipedia.org/wiki/H%C3%B8rsholm-Usser%C3%B8d_Idr%C3%A6tsklub"
+  },
+  {
+    "club_name": "IF Lyseng",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Lyseng_logo.png/250px-Lyseng_logo.png",
+    "city_country": "Aarhus, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/IF_Lyseng"
+  },
+  {
+    "club_name": "Næsby BK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/N%C3%A6sby_BK.png/250px-N%C3%A6sby_BK.png",
+    "city_country": "Odense, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/N%C3%A6sby_BK"
+  },
+  {
+    "club_name": "Nykøbing FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Nyk%C3%B8bingFCbadge.png/250px-Nyk%C3%B8bingFCbadge.png",
+    "city_country": "Nykøbing Falster, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nyk%C3%B8bing_FC"
+  },
+  {
+    "club_name": "Odder IGF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/OdderIGFLogo.png/250px-OdderIGFLogo.png",
+    "city_country": "Odder, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Odder_IGF"
+  },
+  {
+    "club_name": "Sundby Boldklub",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Sundby_Boldklub_badge.png/250px-Sundby_Boldklub_badge.png",
+    "city_country": "Amager Øst, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sundby_Boldklub"
+  },
+  {
+    "club_name": "Vanløse IF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Vanl%C3%B8se_IF.svg/250px-Vanl%C3%B8se_IF.svg.png",
+    "city_country": "Vanløse, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vanl%C3%B8se_IF"
+  },
+  {
+    "club_name": "Vejgaard BK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Vejgaard_BK_logo.png/250px-Vejgaard_BK_logo.png",
+    "city_country": "Aalborg, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vejgaard_BK"
   }
 
 ]
