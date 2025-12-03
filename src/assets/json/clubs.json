@@ -20890,6 +20890,139 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Vejgaard_BK_logo.png/250px-Vejgaard_BK_logo.png",
     "city_country": "Aalborg, Denmark",
     "wiki_url": "https://en.wikipedia.org/wiki/Vejgaard_BK"
-  }
+  },
+  {
+    "club_name": "FC Fălești",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/57/FC_F%C4%83le%C8%99ti_logo.png",
+    "city_country": "Fălești, Moldova",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_F%C4%83le%C8%99ti"
+  },
+},
+{
+  "club_name": "FC Iskra Rîbnița",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Iskra_R%C3%AEbni%C8%9Ba_logo.png/180px-Iskra_R%C3%AEbni%C8%9Ba_logo.png",
+  "city_country": "Rîbnița, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_Iskra_R%C3%AEbni%C8%9Ba"
+},
+{
+  "club_name": "FC Sîngerei",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/FC_S%C3%AEngerei_logo.png/180px-FC_S%C3%AEngerei_logo.png",
+  "city_country": "Sîngerei, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_S%C3%AEngerei"
+},
+{
+  "club_name": "FC Olimp Comrat",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2f/FC_Olimp_Comrat_logo.png",
+  "city_country": "Comrat, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_Olimp_Comrat"
+},
+{
+  "club_name": "CSF Speranța Nisporeni (Defunct)",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/aa/Speran%C8%9Ba_Nisporeni.png",
+  "city_country": "Nisporeni, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/Speran%C8%9Ba_Nisporeni"
+},
+{
+  "club_name": "Speranis Nisporeni (Defunct)",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/dd/FC_Speranis_Nisporeni_logo.png",
+  "city_country": "Nisporeni, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_Speranis_Nisporeni"
+},
+{
+  "club_name": "FC Saksan",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/FC_Saxan_Ceadir_Lunga.png/180px-FC_Saxan_Ceadir_Lunga.png",
+  "city_country": "Ceadîr-Lunga, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_Saksan"
+},
+{
+  "club_name": "FCM Ungheni",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/FCM_Ungheni.png/180px-FCM_Ungheni.png",
+  "city_country": "Ungheni, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FCM_Ungheni"
+},
+{
+  "club_name": "CF Univer Comrat",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Univer_Comrat.png/250px-Univer_Comrat.png",
+  "city_country": "Comrat, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/CF_Univer_Comrat"
+},
+{
+  "club_name": "FC Victoria Chișinău",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/FC_Victoria_Bardar_logo.png/180px-FC_Victoria_Bardar_logo.png",
+  "city_country": "Chișinău, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_Victoria_Chi%C8%99in%C4%83u"
+},
+{
+  "club_name": "FC Politehnica UTM Chișinău",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/FC_Politehnica_UTM_Chi%C8%99in%C4%83u_logo.png/250px-FC_Politehnica_UTM_Chi%C8%99in%C4%83u_logo.png",
+  "city_country": "Chișinău, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_Politehnica_UTM_Chi%C8%99in%C4%83u"
+},
+{
+  "club_name": "FC Fălești",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/57/FC_F%C4%83le%C8%99ti_logo.png",
+  "city_country": "Fălești, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_F%C4%83le%C8%99ti"
+},
+{
+  "club_name": "FC Iskra Rîbnița",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Iskra_R%C3%AEbni%C8%9Ba_logo.png/180px-Iskra_R%C3%AEbni%C8%9Ba_logo.png",
+  "city_country": "Rîbnița, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_Iskra_R%C3%AEbni%C8%9Ba"
+},
+{
+  "club_name": "FC Sîngerei",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/FC_S%C3%AEngerei_logo.png/180px-FC_S%C3%AEngerei_logo.png",
+  "city_country": "Sîngerei, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_S%C3%AEngerei"
+},
+{
+  "club_name": "FC Olimp Comrat",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2f/FC_Olimp_Comrat_logo.png",
+  "city_country": "Comrat, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_Olimp_Comrat"
+},
+{
+  "club_name": "CSF Speranța Nisporeni (Defunct)",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/aa/Speran%C8%9Ba_Nisporeni.png",
+  "city_country": "Nisporeni, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/Speran%C8%9Ba_Nisporeni"
+},
+{
+  "club_name": "Speranis Nisporeni (Defunct)",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/dd/FC_Speranis_Nisporeni_logo.png",
+  "city_country": "Nisporeni, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_Speranis_Nisporeni"
+},
+{
+  "club_name": "FC Saksan",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/FC_Saxan_Ceadir_Lunga.png/180px-FC_Saxan_Ceadir_Lunga.png",
+  "city_country": "Ceadîr-Lunga, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_Saksan"
+},
+{
+  "club_name": "FCM Ungheni",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/FCM_Ungheni.png/180px-FCM_Ungheni.png",
+  "city_country": "Ungheni, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FCM_Ungheni"
+},
+{
+  "club_name": "CF Univer Comrat",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Univer_Comrat.png/250px-Univer_Comrat.png",
+  "city_country": "Comrat, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/CF_Univer_Comrat"
+},
+{
+  "club_name": "FC Victoria Chișinău",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/FC_Victoria_Bardar_logo.png/180px-FC_Victoria_Bardar_logo.png",
+  "city_country": "Chișinău, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_Victoria_Chi%C8%99in%C4%83u"
+},
+{
+  "club_name": "FC Politehnica UTM Chișinău",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/FC_Politehnica_UTM_Chi%C8%99in%C4%83u_logo.png/250px-FC_Politehnica_UTM_Chi%C8%99in%C4%83u_logo.png",
+  "city_country": "Chișinău, Moldova",
+  "wiki_url": "https://en.wikipedia.org/wiki/FC_Politehnica_UTM_Chi%C8%99in%C4%83u"
+}
 
 ]
