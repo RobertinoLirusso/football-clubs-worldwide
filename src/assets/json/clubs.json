@@ -9432,7 +9432,7 @@
   },
   {
     "club_name": "Antigua GFC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Antigua_GFC_LOGO.jpg/250px-Antigua_GFC_LOGO.jpg",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqEnaShYKlPtHoSJAoOCVhUAnTdJpaSaF-AwKP3EgDq8pLzkx9zlzG2qDqW1SgajwLKRq2pAZidNbOqDbDE4Rowx2mC1x7pjbc9Sdhmo2i4X52nYT_Yk4m9xxSPiuJ8t2RIrH2ukFZilAi0RaM_Umw7dPi-9xAhvp3v31SY6eakvDgXPFb6jsjvq9-3N0/s1600/Antigua%20Guatemala%20FC256x.png",
     "city_country": "Antigua Guatemala, Guatemala",
     "wiki_url": "https://en.wikipedia.org/wiki/Antigua_GFC"
   },
@@ -9455,7 +9455,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/C.D._Olimpia"
   },
   {
-    "club_name": "Municipal",
+    "club_name": "CSD Municipal",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/CSD_Municipal.svg/250px-CSD_Municipal.svg.png",
     "city_country": "Guatemala City, Guatemala",
     "wiki_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/CSD_Municipal.svg/250px-CSD_Municipal.svg.png"
@@ -16109,8 +16109,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Zob_Ahan_Esfahan_F.C."
   },
     {
-    "club_name": "Albirex Niigata (S)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/AlbirexNiigataS.png/250px-AlbirexNiigataS.png",
+    "club_name": "Albirex Jurong",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEhuJNFer__-DxVwIJFwI3_xOrLMZi6g__zn-ezFpuSx4rTJBTbfa0tUbj_H4TCTvGiB2Yn6kJfgAzaV70jryr4gY__GbdvGqqJp7t5srAzKegiBFZWXeXa1vn5zO-79PQ6XtzP4y1GMfpIHImexSfK21kec4Jx57TeDvjLUv4kuoFR9i3MBKP_WJw86v1U=w320-h320",
     "city_country": "Jurong East, Singapore",
     "wiki_url": "https://en.wikipedia.org/wiki/Albirex_Niigata_Singapore_F.C."
   },
@@ -21022,6 +21022,60 @@
   "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/FC_Politehnica_UTM_Chi%C8%99in%C4%83u_logo.png/250px-FC_Politehnica_UTM_Chi%C8%99in%C4%83u_logo.png",
   "city_country": "Chișinău, Moldova",
   "wiki_url": "https://en.wikipedia.org/wiki/FC_Politehnica_UTM_Chi%C8%99in%C4%83u"
+},
+{
+  "club_name": "C.D. Achuapa",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNmc7ponrjUrpzAlBvHpUnyjC5ODeRemOHffLhcJztS2OQq3V_rCRsIClvGcFxwEF3pznjkq5izCwXfgpv1cDCqZzwWHFC5ylYFpXCG_G3fqrawfdJlbrargadEFaG7RN1LRAHZPswAPxejWk0gQKArTeZFPtwYoGXpCOXjjFWQDPszIhTeucqZVbW/s1600/Deportivo%20Achuapa256x.png",
+  "city_country": "El Progreso, Guatemala",
+  "wiki_url": "https://en.wikipedia.org/wiki/CD_Achuapa"
+},
+{
+  "club_name": "Aurora F.C.",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwkvdy53s72JPhCD1wVdZ38Lyv6JR0uJY-SHCY9SOiFEqnqkmPmCc51WR-zKK-IyUOpg9JQzjrhMYIHUH_Qo_zUqE1aD8YWi05crwOpHqouGKaQ55rYaoCoVNU39QNE3MOnyfbYwzyzoKsI7_pkgw751-7yodbHZD61owe4qnh-xHz79PFCv3xah5W/s1600/Aurora%20FC256x.png",
+  "city_country": "Amatitlán, Guatemala",
+  "wiki_url": "https://en.wikipedia.org/wiki/Aurora_F.C."
+},
+{
+  "club_name": "C.D. Cobán Imperial",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/CSD_Coban_Imperial.png/250px-CSD_Coban_Imperial.png",
+  "city_country": "Cobán, Guatemala",
+  "wiki_url": "https://en.wikipedia.org/wiki/C.D._Cob%C3%A1n_Imperial"
+},
+{
+  "club_name": "C.D. Guastatoya",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwawUpNRhSdvKJwjTsHmmqtdvoF1xpS1fZyqIfXwPF3I3yXVdGnIwNHg-uqwacynzB6EU5UJzfi-TvuEc620bSxZ_5niXgRbrmWKP2rgnsDMoun923RVUuDvmiL7-HcJxiKuetb37uhXwe_sOmW8JVsYLOSldrmfV3VdbH8Txc3na5_Ckmiq9DQE1NYJQ/s1600/Deportivo%20Guastatoya256x.png",
+  "city_country": "Guastatoya, Guatemala",
+  "wiki_url": "https://en.wikipedia.org/wiki/C.D._Guastatoya"
+},
+{
+  "club_name": "C.D. Malacateco",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl5dGKQXVXnPtn8eBIeakKumLUPdIKyw4PUPfQWoXoz0TtPQIc7j975ScHTVPzE5CqbnSUCzxtIYvU7D125Rhqy41iwu9oAjqoJvrNVvk767XWw8IcFY3LllN4DRYdfmVYYMDCTXVw8V0/s0/Deportivo+Malacateco256x.png",
+  "city_country": "Malacatán, Guatemala",
+  "wiki_url": "https://en.wikipedia.org/wiki/C.D._Malacateco"
+},
+{
+  "club_name": "C.D. Marquense",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Deportivo_Marquense.png/250px-Deportivo_Marquense.png",
+  "city_country": "San Marcos, Guatemala",
+  "wiki_url": "https://en.wikipedia.org/wiki/C.D._Marquense"
+},
+{
+  "club_name": "Deportivo Mictlán",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsJXnIUVcY4IIeZcdgyl-Gkq_GnCbeWzsjt2OmITR3znkip_Hsyi-wZmA0bGQPCy8sfXoHI5SSmuIRFIKkK0HuZDq2NjOMG0YJ9LLlCf6U0gcZjWIEgESKnn--FzYx8ed819NVUi-z0V60LaDQ62s_3CnW3eWKO_TKDsMyhGhH-MUt0nx-wjjnFWor/s1600/CSD%20Mictlan256x.png",
+  "city_country": "Asunción Mita, Guatemala",
+  "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Mictl%C3%A1n"
+},
+{
+  "club_name": "CSD Mixco",
+  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIpQdG1Tj04z5bj-ApCiYbUfQbDQXQRro4jXiPCFN6nmQ2cYpQFPkHCguVtKzGh8z1qyEo2_TSTr753RraUXlSMSySEduzbNERxPgfBvbIQMMTopyYunbeS3x-PeKofHvGP8pLPNqNURHm4rpNr2SC9-3v72REDEXCBbSwb9R-pW7JVXXib8shl7UY/s1600/Deportivo%20Mixco256x.png",
+  "city_country": "Mixco, Guatemala",
+  "wiki_url": "https://en.wikipedia.org/wiki/CSD_Mixco"
+},
+{
+  "club_name": "CSD Xelajú MC",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Csd_xelaju_logo.png/250px-Csd_xelaju_logo.png",
+  "city_country": "Quetzaltenango, Guatemala",
+  "wiki_url": "https://en.wikipedia.org/wiki/Xelaj%C3%BA_MC"
 }
 
 ]

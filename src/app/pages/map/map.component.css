@@ -16,7 +16,6 @@
 .search-container input {
   width: 300px;
   padding: 8px 10px;
-  border-radius: 6px;
   border: 1px solid #ccc;
   font-size: 14px;
 }
@@ -24,14 +23,14 @@
 .search-container button {
   padding: 8px 14px;
   border: none;
-  background-color: #007bff;
-  color: white;
-  border-radius: 6px;
+  background-color: #000000;
+  color: #e1b661;
   cursor: pointer;
 }
 
 .search-container button:hover {
-  background-color: #0056b3;
+  background-color: #e1b661;
+  color: #000000;
 }
 
 /* AUTOCOMPLETE LIST */

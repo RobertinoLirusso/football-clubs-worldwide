@@ -6,13 +6,13 @@
   <div class="search-container">
     <input
       type="text"
-      placeholder="Buscar estadio..."
+      placeholder="Search stadium..."
       [(ngModel)]="searchTerm"
       (input)="updateSuggestions()"
       (keydown.enter)="onExactSearch()"
     />
 
-    <button (click)="onExactSearch()">Buscar</button>
+    <button (click)="onExactSearch()">Search</button>
   </div>
 
   <!-- Lista de sugerencias -->

@@ -4,5 +4,119 @@
     "lat": 51.481667,
     "lon": -0.191111,
     "team": "Chelsea"
+  },
+  {
+    "stadium_name": "Emirates Stadium",
+    "lat": 51.5549,
+    "lon": -0.1084,
+    "team": "Arsenal"
+  },
+  {
+    "stadium_name": "Villa Park",
+    "lat": 52.5091,
+    "lon": -1.8848,
+    "team": "Aston Villa"
+  },
+  {
+    "stadium_name": "Vitality Stadium",
+    "lat": 50.7352,
+    "lon": -1.8383,
+    "team": "Bournemouth"
+  },
+  {
+    "stadium_name": "Brentford Community Stadium",
+    "lat": 51.4908,
+    "lon": -0.2887,
+    "team": "Brentford"
+  },
+  {
+    "stadium_name": "Falmer Stadium",
+    "lat": 50.8618,
+    "lon": -0.0833,
+    "team": "Brighton & Hove Albion"
+  },
+  {
+    "stadium_name": "Turf Moor",
+    "lat": 53.7892,
+    "lon": -2.2302,
+    "team": "Burnley"
+  },
+  {
+    "stadium_name": "Selhurst Park",
+    "lat": 51.3983,
+    "lon": -0.0855,
+    "team": "Crystal Palace"
+  },
+  {
+    "stadium_name": "Goodison Park",
+    "lat": 53.4389,
+    "lon": -2.9664,
+    "team": "Everton"
+  },
+  {
+    "stadium_name": "Craven Cottage",
+    "lat": 51.4751,
+    "lon": -0.2217,
+    "team": "Fulham"
+  },
+  {
+    "stadium_name": "Anfield",
+    "lat": 53.4308,
+    "lon": -2.9608,
+    "team": "Liverpool"
+  },
+  {
+    "stadium_name": "Kenilworth Road",
+    "lat": 51.8842,
+    "lon": -0.4314,
+    "team": "Luton Town"
+  },
+  {
+    "stadium_name": "Etihad Stadium",
+    "lat": 53.4831,
+    "lon": -2.2003,
+    "team": "Manchester City"
+  },
+  {
+    "stadium_name": "Old Trafford",
+    "lat": 53.4631,
+    "lon": -2.2913,
+    "team": "Manchester United"
+  },
+  {
+    "stadium_name": "St. James' Park",
+    "lat": 54.9756,
+    "lon": -1.6217,
+    "team": "Newcastle United"
+  },
+  {
+    "stadium_name": "City Ground",
+    "lat": 52.9399,
+    "lon": -1.1327,
+    "team": "Nottingham Forest"
+  },
+  {
+    "stadium_name": "Bramall Lane",
+    "lat": 53.3703,
+    "lon": -1.4708,
+    "team": "Sheffield United"
+  },
+  {
+    "stadium_name": "St. Mary's Stadium",
+    "lat": 50.9058,
+    "lon": -1.3911,
+    "team": "Southampton"
+  },
+  {
+    "stadium_name": "Tottenham Hotspur Stadium",
+    "lat": 51.6044,
+    "lon": -0.0663,
+    "team": "Tottenham Hotspur"
+  },
+  {
+    "stadium_name": "London Stadium",
+    "lat": 51.5387,
+    "lon": -0.0166,
+    "team": "West Ham United"
   }
 ]
