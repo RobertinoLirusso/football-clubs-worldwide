@@ -28,26 +28,36 @@ export class MapComponent implements AfterViewInit {
 
   async ngAfterViewInit() {
     if (!isPlatformBrowser(this.platformId)) return;
-
+  
     const leaflet = await import('leaflet');
     this.L = leaflet;
-
-    this.initMap();
-    this.loadStadiums();
+  
+    setTimeout(() => {
+      this.initMap();
+      this.loadStadiums();
+    }, 300);
   }
-
+  
   initMap() {
     const L = this.L;
-
-    this.map = L.map('stadium-map', {
+  
+    const mapDiv = document.getElementById('stadium-map');
+    if (!mapDiv) return;
+  
+    this.map = L.map(mapDiv, {
       center: this.defaultCenter,
       zoom: this.defaultZoom
     });
-
+  
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18
     }).addTo(this.map);
+  
+    setTimeout(() => {
+      this.map.invalidateSize();
+    }, 200);
   }
+  
 
   loadStadiums() {
     this.clubService.getStadiums().subscribe(stadiums => {
@@ -57,11 +67,13 @@ export class MapComponent implements AfterViewInit {
   }
 
   addMarkers() {
+    if (!this.map || !this.L) return;
+  
     const L = this.L;
-
+  
     this.stadiums.forEach(stadium => {
       if (!stadium.lat || !stadium.lon) return;
-
+  
       L.marker([stadium.lat, stadium.lon])
         .addTo(this.map)
         .bindPopup(`
@@ -70,6 +82,7 @@ export class MapComponent implements AfterViewInit {
         `);
     });
   }
+  
 
   /* AUTOCOMPLETE */
   updateSuggestions() {
@@ -116,11 +129,11 @@ export class MapComponent implements AfterViewInit {
     }
   }
 
-  /* Zoom al estadio */
   goToStadium(stadium: any) {
-    // Zoom profundo al estadio con animación
+    if (!this.map) return;
+  
     this.map.flyTo([stadium.lat, stadium.lon], this.stadiumZoom, { animate: true, duration: 1.2 });
-
+  
     this.L.popup()
       .setLatLng([stadium.lat, stadium.lon])
       .setContent(`
@@ -129,9 +142,11 @@ export class MapComponent implements AfterViewInit {
       `)
       .openOn(this.map);
   }
-
-  /* Volver a vista global */
+  
   resetMapView() {
+    if (!this.map) return;
+  
     this.map.flyTo(this.defaultCenter, this.defaultZoom, { animate: true, duration: 1.2 });
   }
+  
 }
