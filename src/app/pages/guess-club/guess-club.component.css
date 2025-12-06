@@ -13,6 +13,8 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  max-width: 600px; /* Limita la expansión para mejor control */
+  width: 100%;
 }
 
 /* AJUSTE DE TARJETA DEL JUEGO */
@@ -30,6 +32,10 @@
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   margin-bottom: 10px;
+  max-width: 400px; /* Limita ancho del logo para no afectar layout */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; /* Centrado forzoso del logo */
 }
 
 .club-logo {
@@ -55,10 +61,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
   max-width: 300px;
-  margin: 20px 0;
+  margin: 20px auto;
   gap: 12px;
+  position: relative; /* Asegura estabilidad del posicionamiento */
 }
 
 /* BOTONES DE OPCIONES CON BORDER RADIUS */

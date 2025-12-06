@@ -30,7 +30,7 @@ export class MapComponent implements AfterViewInit {
     if (!isPlatformBrowser(this.platformId)) return;
   
     const leaflet = await import('leaflet');
-    this.L = leaflet;
+    this.L = (leaflet as any).default || leaflet;
   
     setTimeout(() => {
       this.initMap();
@@ -39,8 +39,12 @@ export class MapComponent implements AfterViewInit {
   }
   
   initMap() {
-    const L = this.L;
+    if (!this.L || !this.L.map) {
+      console.error('Leaflet no cargó correctamente', this.L);
+      return;
+    }
   
+    const L = this.L;
     const mapDiv = document.getElementById('stadium-map');
     if (!mapDiv) return;
   
