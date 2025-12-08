@@ -11634,7 +11634,7 @@
   },
   {
     "club_name": "Houston Dash",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Houston_Dash_2020_logo.svg/160px-Houston_Dash_2020_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Houston_Dash_%282020%29_logo.svg/250px-Houston_Dash_%282020%29_logo.svg.png",
     "city_country": "Houston, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Houston_Dash"
   },
@@ -11694,7 +11694,7 @@
   },
   {
     "club_name": "Greenville Triumph SC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Greenville_Triumph_logo.png/140px-Greenville_Triumph_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Greenville_Triumph_SC.png/250px-Greenville_Triumph_SC.png",
     "city_country": "Greenville, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Greenville_Triumph_SC"
   },
@@ -11736,7 +11736,7 @@
   },
   {
     "club_name": "Hartford Athletic",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Hartford_Athletic_logo.svg/250px-Hartford_Athletic_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Logo_of_Hartford_Athletic.svg/250px-Logo_of_Hartford_Athletic.svg.png",
     "city_country": "Hartford, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Hartford_Athletic"
   },
@@ -12179,8 +12179,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Excursionistas"
   },
   {
-    "club_name": "Fénix",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Club_Fenix_logo.png/130px-Club_Fenix_logo.png",
+    "club_name": "CA Fénix",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNMz9nEmdCvCis6Js2eZ9vWH62uGc3vGEUcA3gZSn9JBmgyZI2qjB4tZxt7Quq_aXyJ86AppGvK1KoFBHIYpUzs8W6gf9YGRtzfYRVNAh2oA6uhep5fQpk0el85O3Z48vm2KaHjH2gawA/s0/Club+Atletico+Fenix256x.png",
     "city_country": "Pilar, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_F%C3%A9nix"
   },
@@ -15750,7 +15750,7 @@
   },
   {
     "club_name": "Austin Bold (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Austin_Bold_FC_logo_2018.svg/250px-Austin_Bold_FC_logo_2018.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Austin_Bold_FC_logo.svg/250px-Austin_Bold_FC_logo.svg.png",
     "city_country": "Austin, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Austin_Bold_FC"
   },
@@ -21300,9 +21300,267 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Sporting_Clube_de_Macau"
   },
   {
-    "club_name": "Ka I",
+    "club_name": "Ka I Macau",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e3/Windsor_Arch_Ka_I.png",
     "city_country": "Macau, Macau",
     "wiki_url": "https://en.wikipedia.org/wiki/Windsor_Arch_Ka_I"
+  },
+  {
+    "club_name": "Buru Sports Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Buru_logo.png/250px-Buru_logo.png",
+    "city_country": "Malé, Maldives",
+    "wiki_url": "https://en.wikipedia.org/wiki/Buru_Sports_Club"
+  },
+  {
+    "club_name": "Club Eagles",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Club_Eagles.png",
+    "city_country": "Malé, Maldives",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Eagles"
+  },
+  {
+    "club_name": "Club Green Streets",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Club_Green_Streets.png/250px-Club_Green_Streets.png",
+    "city_country": "Malé, Maldives",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Green_Streets"
+  },
+  {
+    "club_name": "Club Valencia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Club_Valencia.png/250px-Club_Valencia.png",
+    "city_country": "Malé, Maldives",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Valencia"
+  },
+  {
+    "club_name": "Maziya S&RC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/bf/Maziya_S%26RC.png",
+    "city_country": "Malé, Maldives",
+    "wiki_url": "https://en.wikipedia.org/wiki/Maziya_S%26RC"
+  },
+  {
+    "club_name": "New Radiant SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/5e/New_Radiant_SC.png",
+    "city_country": "Malé, Maldives",
+    "wiki_url": "https://en.wikipedia.org/wiki/New_Radiant_S.C."
+  },
+  {
+    "club_name": "Odi Sports Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/4/4d/Odi_SC_emblema.png",
+    "city_country": "Malé, Maldives",
+    "wiki_url": "https://en.wikipedia.org/wiki/Odi_Sports_Club"
+  },
+  {
+    "club_name": "Trust and Care SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/T.C._Sports_Club.png/250px-T.C._Sports_Club.png",
+    "city_country": "Malé, Maldives",
+    "wiki_url": "https://en.wikipedia.org/wiki/T.C._Sports_Club"
+  },
+  {
+    "club_name": "United Victory",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/United_Victory_logo.png/250px-United_Victory_logo.png",
+    "city_country": "Malé, Maldives",
+    "wiki_url": "https://en.wikipedia.org/wiki/United_Victory"
+  },
+  {
+    "club_name": "Victory Sports Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/VictorySC.png/250px-VictorySC.png",
+    "city_country": "Malé, Maldives",
+    "wiki_url": "https://en.wikipedia.org/wiki/Victory_Sports_Club"
+  },
+  {
+    "club_name": "Chengdu Rongcheng",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Chengdu_Rongcheng_F.C.svg/250px-Chengdu_Rongcheng_F.C.svg.png",
+    "city_country": "Chengdu, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chengdu_Rongcheng_F.C."
+  },
+  {
+    "club_name": "Liaoning Tieren",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Liaoning_Tieren_F.C.svg/250px-Liaoning_Tieren_F.C.svg.png",
+    "city_country": "Shenyang, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Liaoning_Tieren_F.C."
+  },
+  {
+    "club_name": "Chongqing Tonglianglong",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Chongqing_Tongliang_Long_F.C.svg/250px-Chongqing_Tongliang_Long_F.C.svg.png",
+    "city_country": "Chongqing, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chongqing_Tonglianglong_F.C."
+  },
+  {
+    "club_name": "Guangdong GZ-Power",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Guangzhou_E-Power_F.C.svg/250px-Guangzhou_E-Power_F.C.svg.png",
+    "city_country": "Guangzhou, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guangdong_GZ-Power_F.C."
+  },
+  {
+    "club_name": "Yanbian Longding",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Yanbian_Longding_F.C.svg/250px-Yanbian_Longding_F.C.svg.png",
+    "city_country": "Yanji, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yanbian_Longding_F.C."
+  },
+  {
+    "club_name": "Shijiazhuang Gongfu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Shijiazhuang_Gongfu_F.C.svg/250px-Shijiazhuang_Gongfu_F.C.svg.png",
+    "city_country": "Shijiazhuang, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shijiazhuang_Gongfu_F.C."
+  },
+  {
+    "club_name": "Dalian K'un City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Dalian_K%27un_City_F.C.svg/250px-Dalian_K%27un_City_F.C.svg.png",
+    "city_country": "Dalian, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dalian_K%27un_City_F.C."
+  },
+  {
+    "club_name": "Nanjing City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Nanjing_City_F.C.svg/250px-Nanjing_City_F.C.svg.png",
+    "city_country": "Nanjing, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nanjing_City_F.C."
+  },
+  {
+    "club_name": "Suzhou Dongwu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Suzhou_Dongwu_F.C.svg/250px-Suzhou_Dongwu_F.C.svg.png",
+    "city_country": "Suzhou, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Suzhou_Dongwu_F.C."
+  },
+  {
+    "club_name": "Shaanxi Union",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Shaanxi_Chang%27an_Union.svg/250px-Shaanxi_Chang%27an_Union.svg.png",
+    "city_country": "Xi'an, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shaanxi_Union_F.C."
+  },
+  {
+    "club_name": "Shenzhen Juniors",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Shenzhen_Juniors_F.C.svg/250px-Shenzhen_Juniors_F.C.svg.png",
+    "city_country": "Shenzhen, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shenzhen_Juniors_F.C."
+  },
+  {
+    "club_name": "Nantong Zhiyun",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Nantong_Zhiyun_F.C.svg/250px-Nantong_Zhiyun_F.C.svg.png",
+    "city_country": "Rugao, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nantong_Zhiyun_F.C."
+  },
+  {
+    "club_name": "Shanghai Jiading Huilong",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Shanghai_Jiading_Huilong_F.C.svg/250px-Shanghai_Jiading_Huilong_F.C.svg.png",
+    "city_country": "Shanghai, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shanghai_Jiading_Huilong_F.C."
+  },
+  {
+    "club_name": "Guangxi Hengchen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Guangxi_Hengchen_F.C.svg/250px-Guangxi_Hengchen_F.C.svg.png",
+    "city_country": "Nanning, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guangxi_Hengchen_F.C."
+  },
+  {
+    "club_name": "Wuxi Wugo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Wuxi_Wugo_F.C.svg/250px-Wuxi_Wugo_F.C.svg.png",
+    "city_country": "Wuxi, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wuxi_Wugo_F.C."
+  },
+  {
+    "club_name": "Cangzhou Mighty Lions (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Cangzhou_Mighty_Lions_F.C.svg/250px-Cangzhou_Mighty_Lions_F.C.svg.png",
+    "city_country": "Cangzhou, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cangzhou_Mighty_Lions_F.C."
+  },
+  {
+    "club_name": "Chengdu Tiancheng (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Chengdu_Tiancheng_F.C.png/250px-Chengdu_Tiancheng_F.C.png",
+    "city_country": "Chengdu, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chengdu_Tiancheng_F.C."
+  },
+  {
+    "club_name": "Chongqing Liangjiang Athletic (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Chongqing_Liangjiang_Athletic_F.C.svg/250px-Chongqing_Liangjiang_Athletic_F.C.svg.png",
+    "city_country": "Chongqing, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chongqing_Liangjiang_Athletic_F.C."
+  },
+  {
+    "club_name": "Dalian Pro (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Dalian_Professional_F.C.svg/250px-Dalian_Professional_F.C.svg.png",
+    "city_country": "Dalian, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dalian_Professional_F.C."
+  },
+  {
+    "club_name": "Dalian Shide (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Dalian_Shide_F.C.svg/250px-Dalian_Shide_F.C.svg.png",
+    "city_country": "Dalian, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dalian_Shide_F.C."
+  },
+  {
+    "club_name": "Guangzhou City FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Guangzhou_City_F.C.svg/250px-Guangzhou_City_F.C.svg.png",
+    "city_country": "Guangzhou, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guangzhou_City_F.C."
+  },
+  {
+    "club_name": "Guizhou FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Guizhou_F.C.svg/250px-Guizhou_F.C.svg.png",
+    "city_country": "Guiyang, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guizhou_F.C."
+  },
+  {
+    "club_name": "Hebei FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Hebei_F.C.svg/250px-Hebei_F.C.svg.png",
+    "city_country": "Langfang, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hebei_F.C."
+  },
+  {
+    "club_name": "Liaoning FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Liaoning_Football_Club.svg/250px-Liaoning_Football_Club.svg.png",
+    "city_country": "Shenyang, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Liaoning_F.C."
+  },
+  {
+    "club_name": "Shanghai Shenxin (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Shanghai_Shenxin_F.C.svg/250px-Shanghai_Shenxin_F.C.svg.png",
+    "city_country": "Shanghai, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shanghai_Shenxin_F.C."
+  },
+  {
+    "club_name": "Shanghai United (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/ShanghaiUnitedFC.png/250px-ShanghaiUnitedFC.png",
+    "city_country": "Shanghai, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shanghai_United_F.C."
+  },
+  {
+    "club_name": "Shaoxing Keqiao Yuejia (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Shaoxing_Keqiao_Yuejia_F.C.svg/250px-Shaoxing_Keqiao_Yuejia_F.C.svg.png",
+    "city_country": "Shaoxing, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shaoxing_Keqiao_Yuejia_F.C."
+  },
+  {
+    "club_name": "Sichuan First City (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/SichuanGuancheng.jpg/250px-SichuanGuancheng.jpg",
+    "city_country": "Chengdu, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sichuan_First_City_F.C."
+  },
+  {
+    "club_name": "Wuhan Optics Valley (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/WuhanGuanggu.png/250px-WuhanGuanggu.png",
+    "city_country": "Wuhan, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wuhan_Optics_Valley_F.C."
+  },
+  {
+    "club_name": "Wuhan Yangtze River (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Wuhan_Yangtze_River_F.C.svg/250px-Wuhan_Yangtze_River_F.C.svg.png",
+    "city_country": "Wuhan, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wuhan_Yangtze_River_F.C."
+  },
+  {
+    "club_name": "Xiamen Blue Lions (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/76/Xiamen_Blue_Lions_logo.jpg",
+    "city_country": "Xiamen, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Xiamen_Blue_Lions_F.C."
+  },
+  {
+    "club_name": "Tianjin Tianhai (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Tianjin_Tianhai_logo.svg/250px-Tianjin_Tianhai_logo.svg.png",
+    "city_country": "Tianjin, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tianjin_Tianhai_F.C."
+  },
+  {
+    "club_name": "Yanbian Funde (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Yanbian_Funde_F.C.svg/250px-Yanbian_Funde_F.C.svg.png",
+    "city_country": "Yanji, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yanbian_Funde_F.C."
   }
 ]
