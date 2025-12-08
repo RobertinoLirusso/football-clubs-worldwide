@@ -18546,7 +18546,7 @@
   },
   {
     "club_name": "San Luis de Quillota",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/72/San_Luis_Quillota.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LOGO_SAN_LUIS_DE_QUILLOTA_OFICIAL.png/250px-LOGO_SAN_LUIS_DE_QUILLOTA_OFICIAL.png",
     "city_country": "Quillota, Chile",
     "wiki_url": "https://en.wikipedia.org/wiki/San_Luis_de_Quillota"
   },
@@ -21166,5 +21166,77 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/ZejtunCorinthiansFC.png/250px-ZejtunCorinthiansFC.png",
     "city_country": "Żejtun, Malta",
     "wiki_url": "https://en.wikipedia.org/wiki/%C5%BBejtun_Corinthians_F.C."
+  },
+  {
+    "club_name": "Bnei Yehuda Tel Aviv",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Bnei_Jehuda_Tel_Aviv_FC.svg/250px-Bnei_Jehuda_Tel_Aviv_FC.svg.png",
+    "city_country": "Tel Aviv, Israel",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bnei_Yehuda_Tel_Aviv_F.C."
+  },
+  {
+    "club_name": "Ironi Modi'in",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/he/thumb/d/d6/IroniModiinFC.png/250px-IroniModiinFC.png",
+    "city_country": "Modi'in, Israel",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ironi_Modi%27in_F.C."
+  },
+  {
+    "club_name": "F.C. Kiryat Yam",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/he/thumb/b/bb/SC_Kiryat_Yam_Crest.png/250px-SC_Kiryat_Yam_Crest.png",
+    "city_country": "Kiryat Yam, Israel",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._Kiryat_Yam"
+  },
+  {
+    "club_name": "F.C. Kafr Qasim",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Fc-kafr-qasim.svg/250px-Fc-kafr-qasim.svg.png",
+    "city_country": "Kafr Qasim, Israel",
+    "wiki_url": "https://en.wikipedia.org/wiki/F.C._Kafr_Qasim"
+  },
+  {
+    "club_name": "Hapoel Kfar Shalem",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/he/thumb/9/90/Hapoel_Kfar_Shalem_Logo.png/250px-Hapoel_Kfar_Shalem_Logo.png",
+    "city_country": "Tel Aviv, Israel",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hapoel_Kfar_Shalem_F.C."
+  },
+  {
+    "club_name": "Hapoel Nof HaGalil",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Hapoel_Nof_HaGalil_F.C.png/250px-Hapoel_Nof_HaGalil_F.C.png",
+    "city_country": "Nof HaGalil, Israel",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hapoel_Nof_HaGalil_F.C."
+  },
+  {
+    "club_name": "Hapoel Afula",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/01/Hapoel_Afula_F.C.png",
+    "city_country": "Afula, Israel",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hapoel_Afula_F.C."
+  },
+  {
+    "club_name": "Hapoel Nir Ramat HaSharon",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/RamatHaSharonLogo.png/250px-RamatHaSharonLogo.png",
+    "city_country": "Ramat HaSharon, Israel",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hapoel_Nir_Ramat_HaSharon_F.C."
+  },
+  {
+    "club_name": "Hapoel Ramat Gan Givatayim",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Hapoel_ramat-gan.svg/250px-Hapoel_ramat-gan.svg.png",
+    "city_country": "Ramat & Gan Givatayim, Israel",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hapoel_Ramat_Gan_Givatayim_F.C."
+  },
+  {
+    "club_name": "Hapoel Rishon LeZion",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Ironi_Rishom_LeZion.png/200px-Ironi_Rishom_LeZion.png",
+    "city_country": "Rishon LeZion, Israel",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hapoel_Rishon_LeZion_F.C."
+  },
+  {
+    "club_name": "Maccabi Jaffa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Maccabi_Jaffa_FC.png/250px-Maccabi_Jaffa_FC.png",
+    "city_country": "Tel Aviv, Israel",
+    "wiki_url": "https://en.wikipedia.org/wiki/Maccabi_Jaffa_F.C."
+  },
+  {
+    "club_name": "Maccabi Herzliya",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/he/thumb/f/f5/Maccabi_Herzliya.png/250px-Maccabi_Herzliya.png",
+    "city_country": "Herzliya, Israel",
+    "wiki_url": "https://en.wikipedia.org/wiki/Maccabi_Herzliya_F.C."
   }
 ]

@@ -9,6 +9,16 @@
     </footer>
   </div>
 </div>
+
+<button
+  class="back-to-top"
+  [ngClass]="{'fade-out': isFadingOut}"
+  *ngIf="showBackToTop || isFadingOut"
+  (click)="scrollToTop()"
+  title="Back to Top">
+  <i class="fa fa-arrow-up"></i>
+</button>
+
 </div>
 <app-footer></app-footer>
 </div>
