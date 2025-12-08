@@ -15,6 +15,8 @@ export class MapComponent implements AfterViewInit {
   stadiums: any[] = [];
   searchTerm: string = '';
   suggestions: any[] = [];
+  selectedStadiums: any[] = [];
+  distanceResult: string = '';
 
   // Configuración de vista global
   private defaultCenter: [number, number] = [20, 0];
@@ -36,6 +38,14 @@ export class MapComponent implements AfterViewInit {
       this.initMap();
       this.loadStadiums();
     }, 300);
+
+    // Hacer la función selectStadium global para que pueda ser llamada desde el popup
+    (window as any).selectStadium = (stadiumName: string) => {
+      const stadium = this.stadiums.find(s => s.stadium_name === stadiumName);
+      if (stadium) {
+        this.selectStadiumForDistance(stadium);
+      }
+    };
   }
   
   initMap() {
@@ -74,16 +84,48 @@ export class MapComponent implements AfterViewInit {
     if (!this.map || !this.L) return;
   
     const L = this.L;
-  
+
+    this.addStadiumMarkers();
+  }
+
+  addStadiumMarkers(): void {
+    const L = this.L;
+
     this.stadiums.forEach(stadium => {
       if (!stadium.lat || !stadium.lon) return;
-  
-      L.marker([stadium.lat, stadium.lon])
+
+      // Verificar si el estadio está seleccionado
+      const isSelected = this.selectedStadiums.some(s => s.stadium_name === stadium.stadium_name);
+      const isFirstSelected = this.selectedStadiums[0]?.stadium_name === stadium.stadium_name;
+      const isSecondSelected = this.selectedStadiums[1]?.stadium_name === stadium.stadium_name;
+
+      // Color del icono basado en estado de selección
+      let iconColor = '#000000'; // Negro por defecto
+      if (isFirstSelected) iconColor = '#ff4444'; // Rojo para primero seleccionado
+      if (isSecondSelected) iconColor = '#44ff44'; // Verde para segundo seleccionado
+
+      // Crear icono personalizado de estadio
+      const stadiumIcon = L.divIcon({
+        html: `<i class="fas fa-futbol" style="color: ${iconColor}; font-size: 20px;"></i>`,
+        className: 'custom-stadium-icon',
+        iconSize: [20, 20],
+        iconAnchor: [10, 10]
+      });
+
+      const marker = L.marker([stadium.lat, stadium.lon], { icon: stadiumIcon })
         .addTo(this.map)
         .bindPopup(`
           <b>${stadium.stadium_name}</b><br>
           ${stadium.team}<br>
+          <button onclick="window.selectStadium('${stadium.stadium_name}')" style="margin-top: 5px; padding: 5px 10px; background: #000; color: #e1b661; border: none; border-radius: 3px; cursor: pointer;">
+            Select for distance
+          </button>
         `);
+
+      // Hacer que el clic en el marker también seleccione para distancia
+      marker.on('click', () => {
+        this.selectStadiumForDistance(stadium);
+      });
     });
   }
   
@@ -113,6 +155,68 @@ export class MapComponent implements AfterViewInit {
     this.searchTerm = stadium.stadium_name;
     this.suggestions = [];
     this.goToStadium(stadium);
+  }
+
+  clearSearch(): void {
+    this.searchTerm = '';
+    this.suggestions = [];
+    this.resetMapView();
+  }
+
+  // Calcular distancia entre dos puntos usando fórmula de Haversine
+  calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
+    const R = 6371; // Radio de la Tierra en km
+    const dLat = this.toRadians(lat2 - lat1);
+    const dLon = this.toRadians(lon2 - lon1);
+
+    const a =
+      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(this.toRadians(lat1)) * Math.cos(this.toRadians(lat2)) *
+      Math.sin(dLon / 2) * Math.sin(dLon / 2);
+
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    const distance = R * c;
+
+    return Math.round(distance * 100) / 100; // Redondear a 2 decimales
+  }
+
+  toRadians(degrees: number): number {
+    return degrees * (Math.PI / 180);
+  }
+
+  selectStadiumForDistance(stadium: any): void {
+    if (this.selectedStadiums.length < 2) {
+      this.selectedStadiums.push(stadium);
+
+      if (this.selectedStadiums.length === 2) {
+        const distance = this.calculateDistance(
+          this.selectedStadiums[0].lat, this.selectedStadiums[0].lon,
+          this.selectedStadiums[1].lat, this.selectedStadiums[1].lon
+        );
+        this.distanceResult = `Distance between ${this.selectedStadiums[0].stadium_name} and ${this.selectedStadiums[1].stadium_name}: ${distance} km`;
+
+        // Reset selection after 5 seconds
+        setTimeout(() => {
+          this.selectedStadiums = [];
+          this.distanceResult = '';
+          this.updateStadiumIcons();
+        }, 5000);
+      }
+
+      this.updateStadiumIcons();
+    }
+  }
+
+  updateStadiumIcons(): void {
+    // Clear existing markers and re-add them with updated selection state
+    if (this.map) {
+      this.map.eachLayer((layer: any) => {
+        if (layer instanceof this.L.Marker) {
+          this.map.removeLayer(layer);
+        }
+      });
+      this.addStadiumMarkers();
+    }
   }
 
   /* COINCIDENCIA EXACTA */

@@ -89,6 +89,12 @@ footer p {
 color:#e1b661 !important;
 }
 
+.link-separator {
+  color: #666;
+  margin: 0 10px;
+  font-weight: normal;
+}
+
 
 .modal-title {
   background: linear-gradient(90deg, #000000, #946b05, #d4af37, #b8860b, #000000);
