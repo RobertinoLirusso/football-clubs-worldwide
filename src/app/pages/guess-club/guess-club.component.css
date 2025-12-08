@@ -15,6 +15,9 @@
   margin: 0 auto;
   max-width: 600px; /* Limita la expansión para mejor control */
   width: 100%;
+  background-color: black;
+  border-radius: 15px;
+  color: #e1b661; /* Texto dorado */
 }
 
 /* AJUSTE DE TARJETA DEL JUEGO */
@@ -23,13 +26,10 @@
   max-width: 500px;
   padding: 20px;
   box-sizing: border-box;
-  border: 2px solid transparent;
-  background-image:
-    linear-gradient(white, white),
-    linear-gradient(90deg, #000000, #946b05, #d4af37, #b8860b, #000000);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
+  background-color: black;
+  border: 1px solid #e1b661;
   filter: drop-shadow(0 4px 12px rgba(225, 177, 97, 0.3));
+  color: #e1b661;
 }
 
 /* CARD REDONDA PARA EL LOGO */
@@ -83,20 +83,44 @@
   font-size: 16px;
   text-align: center;
   border-radius: 12px; /* borde redondeado */
+  border: 2px solid #e1b661 !important;
   background-color: #000 !important;
   color: #e1b661 !important;
-  transition: transform 0.2s, background-color 0.2s;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(225, 177, 97, 0.2);
 }
 
 /* Hover visual */
 .option-btn:hover {
   background-color: #e1b661 !important;
   color: black !important;
+  border-color: #e1b661 !important;
   transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(225, 177, 97, 0.4);
+}
+
+/* Estado activo para mayor feedback */
+.option-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 1px 2px rgba(225, 177, 97, 0.3);
 }
 
 .back-btn {
   color: white !important;
+}
+
+/* BOTONES PRINCIPALES CON BORDE DORADO */
+.w3-btn.w3-black {
+  border: 2px solid #e1b661 !important;
+  color: #e1b661 !important;
+  transition: all 0.3s ease;
+}
+
+.w3-btn.w3-black:hover {
+  background-color: #e1b661 !important;
+  color: black !important;
+  border-color: #e1b661 !important;
 }
 
 /* Mensajes */

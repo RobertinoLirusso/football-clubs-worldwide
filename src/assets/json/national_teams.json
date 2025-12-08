@@ -1478,7 +1478,13 @@
   {
     "club_name": "Western Sahara",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/New_Logo_of_the_Saharawi_Football_Federation.png/250px-New_Logo_of_the_Saharawi_Football_Federation.png",
-    "continent": "Europe",
+    "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Western_Sahara_national_football_team"
+  },
+  {
+    "club_name": "Zaire (Defunct)",
+    "club_logo": "https://www.futbox.com/img/v1/36a/a87/895/0d5/a8e6aec1e415c8e2b940.png",
+    "continent": "Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zaire_national_football_team_results"
   }
 ]

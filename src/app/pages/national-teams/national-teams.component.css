@@ -1,3 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.w3-container {
+  flex-grow: 1;
+}
+
 .responsive-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -71,6 +81,346 @@
 footer p {
   font-size: 18px;
   font-weight: 300;
+}
+
+.w3-modal p {
+  font-weight: 300;
+}
+
+
+.title-game {
+  color:#e1b661 !important;
+}
+
+.title-link {
+  color:black !important;
+}
+
+.title-link:hover {
+color:#e1b661 !important;
+}
+
+
+.modal-title {
+  background: linear-gradient(90deg, #000000, #946b05, #d4af37, #b8860b, #000000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.search-box {
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 12px 40px 12px 40px; /* Espacio para el icono */
+    font-size: 16px;
+    border: 2px solid #ddd;
+    outline: none;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .search-input:focus {
+    border-color: #333333;
+    box-shadow: 0px 4px 8px rgba(51, 51, 51, 0.5);
+  }
+
+
+  .search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 18px;
+  }
+
+  .no-results {
+    margin-top: auto;
+    font-size: 18px;
+    color: black;
+  }
+
+
+  .clear-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+  }
+
+  .clear-icon:hover {
+    color: #ffcc00; /* Cambio de color al pasar el cursor */
+  }
+
+  .random-icon {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #333;
+    transition: color 0.3s;
+  }
+
+  .random-icon:hover {
+    color: #007bff;
+  }
+
+  .random-icon {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #fff;
+    background-color: #000;
+    padding: 8px;
+    font-size: 20px; /* Aumenta el tamaño del icono */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.random-icon:hover {
+    background-color: #e1b661; /* Color dorado al pasar el cursor */
+    color: black;
+}
+
+.icon {
+  color: #e1b661;
+}
+
+.highlight-text {
+  font-weight:600;
+  font-size: 1.3rem;
+  color: black;
+  user-select: none; /* para que no se copie el fondo */
+}
+
+.highlight-text span {
+  color: #e1b661; /* Color dorado */
+  font-weight: bold;
+  font-size: 1.7rem; /* Aumenta el tamaño del texto */
+}
+
+.club-flag {
+  font-size: 1.8rem;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+/* Responsividad */
+
+.w3-modal-content header {
+  position: relative;
+  padding: 16px;
+}
+
+.w3-modal-content h2 {
+  margin: 0;
+  padding-top: 10px; /* Espacio superior para evitar superposición */
+  font-size: 1.7rem; /* Ajustar tamaño de fuente */
+  text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+  .w3-modal-content {
+    width: 90% !important; /* Hace que el modal use el 90% del ancho de la pantalla */
+    max-width: none !important;
+    margin: 20px auto !important; /* Agrega margen arriba y abajo */
+  }
+
+}
+
+@media (max-width: 480px) {
+  .search-input {
+    font-size: 14px; /* Reducir un poco el tamaño del texto */
+    padding: 12px 35px 12px 35px; /* Ajustar padding si es necesario */
+    min-width: 100%; /* Asegurar que el input ocupe todo el ancho disponible */
+  }
+}
+
+@media (max-width: 600px) {
+  .highlight-text {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: #e1b661; /* dorado */
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s, background-color 0.3s, opacity 0.4s ease;
+  z-index: 1000;
+  opacity: 0;
+  animation: fadeIn 0.4s forwards;
+}
+
+.back-to-top:hover {
+  background-color: #e1b661;
+  color: black;
+  transform: scale(1.1);
+}
+
+/* Animación para mostrar */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Animación para ocultar */
+.fade-out {
+  animation: fadeOut 0.4s forwards;
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(20px); }
+}
+
+
+/* Contenedor de botones a la derecha */
+.filter-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px 20px;
+  gap: 10px;
+}
+
+/* Botón de filtro */
+.filter-btn {
+  background-color: #000;
+  color: #e1b661;
+  border: none;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #e1b661;
+  color: black;
+}
+
+/* Botón de limpiar */
+.clear-btn {
+  background-color: #b22222;
+  color: white;
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.clear-btn:hover {
+  background-color: #ff4444;
+}
+
+
+.action-container {
+  display: flex;
+  justify-content: flex-start; /* alineación a la izquierda como en card */
+  align-items: center;
+  gap: 10px; /* espacio entre elementos */
+  flex-wrap: wrap; /* permite que los elementos bajen a la siguiente línea en móviles */
+  max-width: 600px; /* límite de ancho para evitar expansión excesiva */
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;       /* altura uniforme */
+  min-width: 110px;   /* ancho mínimo uniforme */
+  padding: 0 12px;    /* relleno interno */
+  font-size: 16px;    /* tamaño de fuente uniforme */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+select.filter-btn {
+  background-color: #000;
+  color: #e1b661;
+  border: none;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+select.filter-btn:hover {
+  background-color: #e1b661;
+  color: black;
+}
+
+.promo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* permite que baje en móviles */
+  gap: 10px; /* espacio uniforme */
+  height: 40px;
+  min-width: 140px;
+}
+
+/* Ajustes solo en móviles */
+@media screen and (max-width: 600px) {
+  .promo-link a {
+    flex: 1 1 auto;          /* Que se repartan de forma pareja */
+    min-width: 120px;        /* Mismo ancho mínimo */
+    text-align: center;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .promo-link a i {
+    margin-right: 6px;
+  }
+
+  .highlight-text  {
+    margin-top: 15px;
+  }
+}
+
+
+
+/* Responsividad */
+@media screen and (max-width: 600px) {
+  .action-container {
+    justify-content: center; /* centrado en móviles */
+    gap: 8px;
+  }
+
+  .action-btn {
+    height: 36px;
+    min-width: 100px;
+    font-size: 14px;
+  }
+
+  .random-icon.action-btn {
+    font-size: 16px;
+    width: 100px;
+  }
 }
 
 .back-to-top {
