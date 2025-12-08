@@ -212,5 +212,6 @@ export const COUNTRY_FLAG_MAP: { [key: string]: string } = {
   'scotland': 'gb-sct',
   'wales': 'gb-wls',
   'northern ireland': 'gb-nir',
-  'northern mariana islands': 'mp'
+  'northern mariana islands': 'mp',
+  'macau': 'mu'
 };

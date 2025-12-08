@@ -19210,6 +19210,12 @@
     "city_country": "Saipan, Northern Mariana Islands",
     "wiki_url": "https://en.wikipedia.org/wiki/MP_United_FC_(Northern_Mariana_Islands)"
   },
+  {
+    "club_name": "Paire FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/88/Paire_fc.png",
+    "city_country": "Saipan, Northern Mariana Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Paire_FC"
+  },
     {
     "club_name": "Berane",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e7/FK_Berane_good.png",
@@ -21238,5 +21244,65 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/he/thumb/f/f5/Maccabi_Herzliya.png/250px-Maccabi_Herzliya.png",
     "city_country": "Herzliya, Israel",
     "wiki_url": "https://en.wikipedia.org/wiki/Maccabi_Herzliya_F.C."
+  },
+  {
+    "club_name": "Benfica de Macau",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/BenficadeMacau.png/250px-BenficadeMacau.png",
+    "city_country": "Macau, Macau",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.L._Benfica_de_Macau"
+  },
+  {
+    "club_name": "MUST CPK Football Team",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Chao_Pak_Kei_logo.jpg/250px-Chao_Pak_Kei_logo.jpg",
+    "city_country": "Macau, Macau",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chao_Pak_Kei"
+  },
+  {
+    "club_name": "Cheng Fung",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/3/38/Cheng_Fung.png/180px-Cheng_Fung.png",
+    "city_country": "Macau, Macau",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cheng_Fung"
+  },
+  {
+    "club_name": "Hang Sai",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c6/Hang_Sai_FC.png",
+    "city_country": "Macau, Macau",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hang_Sai"
+  },
+  {
+    "club_name": "CD Lun Lok",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/8/83/CD_Lun_Lok.png/250px-CD_Lun_Lok.png",
+    "city_country": "Macau, Macau",
+    "wiki_url": "https://lt.wikipedia.org/wiki/CD_L%C3%BCn_L%C3%B3k"
+  },
+  {
+    "club_name": "University of Macau FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/e/e6/Universidade_de_Macau.png",
+    "city_country": "Macau, Macau",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Universidade_de_Macau"
+  },
+  {
+    "club_name": "Gala FC Macau",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/e/ef/Gala_FC_Macau.png",
+    "city_country": "Macau, Macau",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Gala_FC_Makao"
+  },
+  {
+    "club_name": "CD Monte Carlo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/d/dd/Clube_Desportivo_Monte_Carlo.png",
+    "city_country": "Macau, Macau",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Monte_Carlo"
+  },
+  {
+    "club_name": "Sporting de Macau",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/8/8a/Sporting_Clube_de_Macau.png/200px-Sporting_Clube_de_Macau.png",
+    "city_country": "Macau, Macau",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sporting_Clube_de_Macau"
+  },
+  {
+    "club_name": "Ka I",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e3/Windsor_Arch_Ka_I.png",
+    "city_country": "Macau, Macau",
+    "wiki_url": "https://en.wikipedia.org/wiki/Windsor_Arch_Ka_I"
   }
 ]
