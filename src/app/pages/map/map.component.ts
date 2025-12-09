@@ -117,10 +117,20 @@ export class MapComponent implements AfterViewInit {
         .bindPopup(`
           <b>${stadium.stadium_name}</b><br>
           ${stadium.team}<br>
-          <button onclick="window.selectStadium('${stadium.stadium_name}')" style="margin-top: 5px; padding: 5px 10px; background: #000; color: #e1b661; border: none; border-radius: 3px; cursor: pointer;">
+          <button onclick="window.selectStadium('${stadium.stadium_name}')" style="margin-top: 5px; padding: 5px 10px; background: #000; color: #e1b661; border: none; cursor: pointer;">
             Select for distance
           </button>
         `);
+
+      // Mostrar popup al pasar el mouse sobre el marker
+      marker.on('mouseover', () => {
+        marker.openPopup();
+      });
+
+      // Ocultar popup al quitar el mouse del marker
+      marker.on('mouseout', () => {
+        marker.closePopup();
+      });
 
       // Hacer que el clic en el marker también seleccione para distancia
       marker.on('click', () => {

@@ -118,5 +118,215 @@
     "lat": 51.5387,
     "lon": -0.0166,
     "team": "West Ham United"
+  },
+  {
+    "stadium_name": "Estadi Johan Cruyff",
+    "lat": 41.3478,
+    "lon": 2.0750,
+    "team": "Barcelona"
+  },
+  {
+    "stadium_name": "Santiago Bernabéu",
+    "lat": 40.4531,
+    "lon": -3.6883,
+    "team": "Real Madrid"
+  },
+  {
+    "stadium_name": "Estadio Riyadh Air Metropolitano",
+    "lat": 40.4361,
+    "lon": -3.5994,
+    "team": "Atlético Madrid"
+  },
+  {
+    "stadium_name": "Allianz Arena",
+    "lat": 48.2188,
+    "lon": 11.6247,
+    "team": "Bayern Munich"
+  },
+  {
+    "stadium_name": "Signal Iduna Park",
+    "lat": 51.4926,
+    "lon": 7.4519,
+    "team": "Borussia Dortmund"
+  },
+  {
+    "stadium_name": "San Siro",
+    "lat": 45.4781,
+    "lon": 9.1239,
+    "team": "AC Milan / Inter Milan"
+  },
+  {
+    "stadium_name": "Juventus Stadium",
+    "lat": 45.1096,
+    "lon": 7.6413,
+    "team": "Juventus"
+  },
+  {
+    "stadium_name": "Estadio da Luz",
+    "lat": 38.7527,
+    "lon": -9.1847,
+    "team": "Benfica"
+  },
+  {
+    "stadium_name": "Estadio Santiago Bernabéu",
+    "lat": 40.4531,
+    "lon": -3.6883,
+    "team": "Real Madrid"
+  },
+  {
+    "stadium_name": "Parc des Princes",
+    "lat": 48.8414,
+    "lon": 2.2530,
+    "team": "Paris Saint-Germain"
+  },
+  {
+    "stadium_name": "Estadio Azteca",
+    "lat": 19.3029,
+    "lon": -99.1504,
+    "team": "Club América / Mexico National Team"
+  },
+  {
+    "stadium_name": "Maracanã",
+    "lat": -22.9121,
+    "lon": -43.2302,
+    "team": "Flamengo / Brazil National Team"
+  },
+  {
+    "stadium_name": "Wembley Stadium",
+    "lat": 51.5560,
+    "lon": -0.2795,
+    "team": "England National Team"
+  },
+  {
+    "stadium_name": "Estadio Monumental",
+    "lat": -34.5453,
+    "lon": -58.4497,
+    "team": "River Plate"
+  },
+  {
+    "stadium_name": "La Bombonera",
+    "lat": -34.6356,
+    "lon": -58.3647,
+    "team": "Boca Juniors"
+  },
+  {
+    "stadium_name": "Estadio Centenario",
+    "lat": -34.8947,
+    "lon": -56.1528,
+    "team": "Peñarol / Uruguay National Team"
+  },
+  {
+    "stadium_name": "Estadio Nacional de Chile",
+    "lat": -33.4617,
+    "lon": -70.6108,
+    "team": "Chile National Team"
+  },
+  {
+    "stadium_name": "Estadio Do Dragão",
+    "lat": 41.1617,
+    "lon": -8.5836,
+    "team": "Porto"
+  },
+  {
+    "stadium_name": "Campo de Fútbol de Mendizorrotza",
+    "lat": 42.8378,
+    "lon": -2.6844,
+    "team": "Alavés"
+  },
+  {
+    "stadium_name": "Estadio San Mamés",
+    "lat": 43.2641,
+    "lon": -2.9494,
+    "team": "Athletic Bilbao"
+  },
+  {
+    "stadium_name": "Estadio Municipal de Balaídos",
+    "lat": 42.2118,
+    "lon": -8.7394,
+    "team": "Celta Vigo"
+  },
+  {
+    "stadium_name": "Estadio Manuel Martínez Valero",
+    "lat": 38.2667,
+    "lon": -0.6833,
+    "team": "Elche"
+  },
+  {
+    "stadium_name": "RCDE Stadium",
+    "lat": 41.3472,
+    "lon": 2.0750,
+    "team": "Espanyol"
+  },
+  {
+    "stadium_name": "Estadio Coliseum Alfonso Pérez",
+    "lat": 40.3256,
+    "lon": -3.7147,
+    "team": "Getafe"
+  },
+  {
+    "stadium_name": "Estadi Municipal de Montilivi",
+    "lat": 41.9614,
+    "lon": 2.8244,
+    "team": "Girona"
+  },
+  {
+    "stadium_name": "Ciutat de València",
+    "lat": 39.4944,
+    "lon": -0.3639,
+    "team": "Levante"
+  },
+  {
+    "stadium_name": "Estadi Mallorca Son Moix",
+    "lat": 39.5894,
+    "lon": 2.6308,
+    "team": "Mallorca"
+  },
+  {
+    "stadium_name": "Estadio El Sadar",
+    "lat": 42.7967,
+    "lon": -1.6375,
+    "team": "Osasuna"
+  },
+  {
+    "stadium_name": "Estadio Carlos Tartiere",
+    "lat": 43.3625,
+    "lon": -5.8558,
+    "team": "Oviedo"
+  },
+  {
+    "stadium_name": "Estadio de Vallecas",
+    "lat": 40.3911,
+    "lon": -3.6589,
+    "team": "Rayo Vallecano"
+  },
+  {
+    "stadium_name": "Estadio Benito Villamarín",
+    "lat": 37.3564,
+    "lon": -5.9817,
+    "team": "Real Betis"
+  },
+  {
+    "stadium_name": "Reale Arena",
+    "lat": 43.3014,
+    "lon": -1.9736,
+    "team": "Real Sociedad"
+  },
+  {
+    "stadium_name": "Estadio Ramón Sánchez-Pizjuán",
+    "lat": 37.3842,
+    "lon": -5.9700,
+    "team": "Sevilla"
+  },
+  {
+    "stadium_name": "Estadio de Mestalla",
+    "lat": 39.4747,
+    "lon": -0.3583,
+    "team": "Valencia"
+  },
+  {
+    "stadium_name": "Estadio de la Cerámica",
+    "lat": 39.9444,
+    "lon": -0.1039,
+    "team": "Villarreal"
   }
 ]

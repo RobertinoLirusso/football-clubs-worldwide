@@ -21562,5 +21562,95 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Yanbian_Funde_F.C.svg/250px-Yanbian_Funde_F.C.svg.png",
     "city_country": "Yanji, China",
     "wiki_url": "https://en.wikipedia.org/wiki/Yanbian_Funde_F.C."
+  },
+  {
+    "club_name": "FC Bars Issyk-Kul",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/e/e8/%D0%A4%D0%9A_%D0%91%D0%B0%D1%80%D1%81.png/330px-%D0%A4%D0%9A_%D0%91%D0%B0%D1%80%D1%81.png",
+    "city_country": "Karakol, Kyrgyzstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Bars_Issyk-Kul"
+  },
+  {
+    "club_name": "Asiagoal Bishkek",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Asiagoal_Bishkek_Logo.png/250px-Asiagoal_Bishkek_Logo.png",
+    "city_country": "Bishkek, Kyrgyzstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Asiagoal_Bishkek"
+  },
+  {
+    "club_name": "FC Talant",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/d/d8/%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%A4%D0%9A_%D0%A2%D0%B0%D0%BB%D0%B0%D0%BD%D1%82.png/500px-%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%A4%D0%9A_%D0%A2%D0%B0%D0%BB%D0%B0%D0%BD%D1%82.png",
+    "city_country": "Taš Kumir, Kyrgyzstan",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Talant_FC"
+  },
+  {
+    "club_name": "FC Muras United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/7/70/%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%A4%D0%9A_%D0%9C%D1%83%D1%80%D0%B0%D1%81_%D0%AE%D0%BD%D0%B0%D0%B9%D1%82%D0%B5%D0%B4.png/250px-%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%A4%D0%9A_%D0%9C%D1%83%D1%80%D0%B0%D1%81_%D0%AE%D0%BD%D0%B0%D0%B9%D1%82%D0%B5%D0%B4.png",
+    "city_country": "Manas, Kyrgyzstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Muras_United"
+  },
+  {
+    "club_name": "PFC Neftchi Kochkor-Ata",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/FC_Neftchi_Kochkor-Ata.svg/250px-FC_Neftchi_Kochkor-Ata.svg.png",
+    "city_country": "Kochkor-Ata, Kyrgyzstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Neftchi_Kochkor-Ata"
+  },
+  {
+    "club_name": "OshSU-Aldier",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/a/ae/%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%A4%D0%9A_%D0%9E%D1%88%D0%93%D0%A3-%D0%90%D0%BB%D0%B4%D0%B8%D0%B5%D1%80.png/250px-%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%A4%D0%9A_%D0%9E%D1%88%D0%93%D0%A3-%D0%90%D0%BB%D0%B4%D0%B8%D0%B5%D1%80.png",
+    "city_country": "Osh, Kyrgyzstan",
+    "wiki_url": "https://ru.wikipedia.org/wiki/%D0%9E%D1%88%D0%93%D0%A3-%D0%90%D0%BB%D0%B4%D0%B8%D0%B5%D1%80"
+  },
+  {
+    "club_name": "FC Uzgen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3f/FC_Uzgen_logo.png",
+    "city_country": "Uzgen, Kyrgyzstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Uzgen"
+  },
+  {
+    "club_name": "FC Kyrgyzaltyn",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/FC_Jayil-Baatyr.gif/233px-FC_Jayil-Baatyr.gif",
+    "city_country": "Kara-Balta, Kyrgyzstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kyrgyzaltyn"
+  },
+  {
+    "club_name": "FC Bishkek City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/9/9e/%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%A4%D0%9A_%D0%91%D0%B8%D1%88%D0%BA%D0%B5%D0%BA_%D0%A1%D0%B8%D1%82%D0%B8.png",
+    "city_country": "Bishkek, Kyrgyzstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Bishkek_City"
+  },
+  {
+    "club_name": "Ilbirs Bishkek",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d7/Ilbirs_Bishkek_FC_logo.png",
+    "city_country": "Bishkek, Kyrgyzstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ilbirs_Bishkek_FC"
+  },
+  {
+    "club_name": "FC Alay Osh",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/FC_Alay_logo.png/236px-FC_Alay_logo.png",
+    "city_country": "Osh, Kyrgyzstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Alay"
+  },
+  {
+    "club_name": "FC Abdysh-Ata",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/51/FC_Abdysh-Ata_logo.png",
+    "city_country": "Kant, Kyrgyzstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Abdysh-Ata_FC"
+  },
+  {
+    "club_name": "Alga Bishkek",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/FK_Alga_Bishkek_Logo.svg/250px-FK_Alga_Bishkek_Logo.svg.png",
+    "city_country": "Bishkek, Kyrgyzstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Alga_Bishkek"
+  },
+  {
+    "club_name": "Quality Distributors FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/1/1c/Quality_Distributors_FC_logo.png/180px-Quality_Distributors_FC_logo.png",
+    "city_country": "Dededo, Guam",
+    "wiki_url": "https://en.wikipedia.org/wiki/Quality_Distributors"
+  },
+  {
+    "club_name": "Wings FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4e/Wings_FC_logo.png",
+    "city_country": "Dededo, Guam",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wings_FC"
   }
 ]
