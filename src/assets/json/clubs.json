@@ -1428,7 +1428,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista"
   },
   {
-    "club_name": "Internacional",
+    "club_name": "Inter Porto Alegre",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYIMTTSDbOsMW_p42_CZjyWJyiXVovcOfFmyEjXfiqRlsAEX9NwMjq1qYB4yO8o4bclpYQp5NaFa78bOcNSDRaMawNw_byVgHNT2SFp9iKOU2UqXfw_usG6Lc0MWTipA3p7T44FAFz6IY/s1600/Sport+Club+Internacional256x.png",
     "city_country": "Porto Alegre, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/SC_Internacional"
@@ -15341,10 +15341,16 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Fortaleza_C.E.I.F."
   },
   {
-    "club_name": "La Equidad",
+    "club_name": "La Equidad (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/La_Equidad_Seguros_logo.svg/180px-La_Equidad_Seguros_logo.svg.png",
     "city_country": "Bogotá, Colombia",
     "wiki_url": "https://en.wikipedia.org/wiki/La_Equidad"
+  },
+  {
+    "club_name": "Internacional de Bogotá ",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4SstAczI5-BeOV7KrvFmhQ80SAGNSHe7zGjjYL7M3rMq2rlxj4CFBrtCoT0hLvPvh1SfOv1SeB8Qt7cFoqu2DSUxm8Cpp5geSp9btdHJ9e8vJ6O3vj7I7HO17pH3RFFxzYzSXlPKsZRrdvm3piG_KagQ2Q3KzUx-4jS7lxl8h91Uze3YTMwp2_53rdBI/s1600/Internacional%20de%20Bogot%C3%A1256x.png",
+    "city_country": "Bogotá, Colombia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Internacional_de_Bogot%C3%A1"
   },
   {
     "club_name": "Llaneros FC",
@@ -15833,7 +15839,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Quind%C3%ADo"
   },
   {
-    "club_name": "Internacional",
+    "club_name": "Inter Palmira",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Internacional_F.C._de_Palmira.png/250px-Internacional_F.C._de_Palmira.png",
     "city_country": "Palmira, Colombia",
     "wiki_url": "https://en.wikipedia.org/wiki/Internacional_F.C._de_Palmira"
@@ -19235,7 +19241,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Igalo_1929"  
   },
   {
-    "club_name": "Internacional",
+    "club_name": "FK Internacional",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/FK_Internacional.png/250px-FK_Internacional.png",
     "city_country": "Podgorica, Montenegro",
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Internacional"  
@@ -21652,5 +21658,71 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4e/Wings_FC_logo.png",
     "city_country": "Dededo, Guam",
     "wiki_url": "https://en.wikipedia.org/wiki/Wings_FC"
+  },
+  {
+    "club_name": "Defence Force FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmg4yX3bf3lSz5HTJK1_M3NI6RcuI9cF6WsFOmhb7DqYivRxaS9mnnU8fh6xCte7gMiLYwkdtCEBlq38XhUpxLszt-Kj-ElQPeH-FDIrgr5F5nmNkhEaIRtr2gRsVdIgjc_HnQho_ePEQMLjyvhSAdkRL4M6Ya6DzDj0LWhkzlp9qjxnmWkq6j0phNbTw/s1600/Defence%20Force%20FC256x.png",
+    "city_country": "Port of Spain, Trinidad and Tobago",
+    "wiki_url": "https://en.wikipedia.org/wiki/Defence_Force_F.C."
+  },
+  {
+    "club_name": "W Connection",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/W_Connection_FC.svg/250px-W_Connection_FC.svg.png",
+    "city_country": "Point Lisas, Trinidad and Tobago",
+    "wiki_url": "https://en.wikipedia.org/wiki/W_Connection_F.C."
+  },
+  {
+    "club_name": "San Juan Jabloteh",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/San_Juan_Jabloteh.svg/250px-San_Juan_Jabloteh.svg.png",
+    "city_country": "San Juan, Trinidad and Tobago",
+    "wiki_url": "https://en.wikipedia.org/wiki/San_Juan_Jabloteh_F.C."
+  },
+  {
+    "club_name": "Joe Public FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d8/Joe_Public_tri.png",
+    "city_country": "Arouca, Trinidad and Tobago",
+    "wiki_url": "https://en.wikipedia.org/wiki/Joe_Public_F.C."
+  },
+  {
+    "club_name": "Club Sando",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Club_Sando_F.C._logo.png/250px-Club_Sando_F.C._logo.png",
+    "city_country": "San Fernando, Trinidad and Tobago",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Sando_F.C."
+  },
+  {
+    "club_name": "La Horquetta Rangers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/8/81/La_Horquetta_Rangers_FC_emblema.png/250px-La_Horquetta_Rangers_FC_emblema.png",
+    "city_country": "Arima, Trinidad and Tobago",
+    "wiki_url": "https://en.wikipedia.org/wiki/La_Horquetta_Rangers_F.C."
+  },
+  {
+    "club_name": "Morvant Caledonia United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d6/Morvant_Caledonia_United_logo.png",
+    "city_country": "Morvant, Trinidad and Tobago",
+    "wiki_url": "https://en.wikipedia.org/wiki/Morvant_Caledonia_United"
+  },
+  {
+    "club_name": "Point Fortin Civic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/8/88/Point_Fortin_Civic_FC_emblema.png/250px-Point_Fortin_Civic_FC_emblema.png",
+    "city_country": "Point Fortin, Trinidad and Tobago",
+    "wiki_url": "https://en.wikipedia.org/wiki/Point_Fortin_Civic_F.C."
+  },
+  {
+    "club_name": "Police FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a7/Police_FC_%28Trinidad_%26_Tobago%29.png",
+    "city_country": "Port of Spain, Trinidad and Tobago",
+    "wiki_url": "https://en.wikipedia.org/wiki/Police_F.C._(Trinidad_and_Tobago)"
+  },
+  {
+    "club_name": "Prison Service",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/5/55/Prison_Service_FC_emblema.png",
+    "city_country": "Arouca, Trinidad and Tobago",
+    "wiki_url": "https://en.wikipedia.org/wiki/Prison_Service_F.C."
+  },
+  {
+    "club_name": "AC Port of Spain",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/AC_Port_of_Spain_logo.png/243px-AC_Port_of_Spain_logo.png",
+    "city_country": "Port of Spain, Trinidad and Tobago",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.C._Port_of_Spain"
   }
 ]
