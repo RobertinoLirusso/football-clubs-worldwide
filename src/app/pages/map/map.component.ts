@@ -18,6 +18,11 @@ export class MapComponent implements AfterViewInit {
   selectedStadiums: any[] = [];
   distanceResult: string = '';
 
+  // Propiedades para el modal de ruta
+  showRouteModal: boolean = false;
+  routeInfo: any = null;
+  routeLine: any = null;
+
   // Configuración de vista global
   private defaultCenter: [number, number] = [20, 0];
   private defaultZoom: number = 2;
@@ -205,15 +210,14 @@ export class MapComponent implements AfterViewInit {
         );
         this.distanceResult = `Distance between ${this.selectedStadiums[0].stadium_name} and ${this.selectedStadiums[1].stadium_name}: ${distance} km`;
 
-        // Reset selection after 5 seconds
-        setTimeout(() => {
-          this.selectedStadiums = [];
-          this.distanceResult = '';
-          this.updateStadiumIcons();
-        }, 5000);
-      }
+        // Mostrar modal de ruta
+        this.showRouteModal = true;
+        this.calculateRoute();
 
-      this.updateStadiumIcons();
+        this.updateStadiumIcons();
+      } else {
+        this.updateStadiumIcons();
+      }
     }
   }
 
@@ -263,8 +267,99 @@ export class MapComponent implements AfterViewInit {
   
   resetMapView() {
     if (!this.map) return;
-  
+
     this.map.flyTo(this.defaultCenter, this.defaultZoom, { animate: true, duration: 1.2 });
   }
-  
+
+  // Calcular y mostrar ruta entre dos estadios
+  calculateRoute(): void {
+    if (this.selectedStadiums.length !== 2 || !this.map) return;
+
+    const stadium1 = this.selectedStadiums[0];
+    const stadium2 = this.selectedStadiums[1];
+    const distance = this.calculateDistance(stadium1.lat, stadium1.lon, stadium2.lat, stadium2.lon);
+
+    // Calcular tiempo estimado (asumiendo velocidad promedio de avión de 800 km/h para distancias largas)
+    // Para distancias cortas, usar velocidad de auto (100 km/h)
+    const estimatedTime = distance > 1000 ?
+      Math.round((distance / 800) * 60) : // tiempo en minutos para avión
+      Math.round((distance / 100) * 60); // tiempo en minutos para auto
+
+    this.routeInfo = {
+      from: stadium1,
+      to: stadium2,
+      distance: distance,
+      estimatedTime: estimatedTime,
+      transportMode: distance > 1000 ? 'airplane' : 'car'
+    };
+
+    // Dibujar línea de ruta en el mapa
+    this.drawRouteLine();
+  }
+
+  // Dibujar línea de ruta en el mapa
+  drawRouteLine(): void {
+    if (!this.map || !this.L || this.selectedStadiums.length !== 2) return;
+
+    // Remover línea anterior si existe
+    if (this.routeLine) {
+      this.map.removeLayer(this.routeLine);
+    }
+
+    const stadium1 = this.selectedStadiums[0];
+    const stadium2 = this.selectedStadiums[1];
+
+    // Crear línea recta entre los dos puntos
+    const latlngs = [
+      [stadium1.lat, stadium1.lon],
+      [stadium2.lat, stadium2.lon]
+    ];
+
+    this.routeLine = this.L.polyline(latlngs, {
+      color: '#e1b661',
+      weight: 3,
+      opacity: 0.8,
+      dashArray: '10, 10'
+    }).addTo(this.map);
+
+    // Ajustar vista para mostrar ambos puntos
+    const bounds = this.L.latLngBounds(latlngs);
+    this.map.fitBounds(bounds, { padding: [20, 20] });
+  }
+
+  // Cerrar modal de ruta
+  closeRouteModal(): void {
+    this.showRouteModal = false;
+    this.routeInfo = null;
+
+    // Remover línea de ruta
+    if (this.routeLine && this.map) {
+      this.map.removeLayer(this.routeLine);
+      this.routeLine = null;
+    }
+
+    // Resetear vista del mapa
+    this.resetMapView();
+  }
+
+  // Limpiar distancia y selección
+  clearDistance(): void {
+    this.selectedStadiums = [];
+    this.distanceResult = '';
+    this.showRouteModal = false;
+    this.routeInfo = null;
+
+    // Remover línea de ruta
+    if (this.routeLine && this.map) {
+      this.map.removeLayer(this.routeLine);
+      this.routeLine = null;
+    }
+
+    // Resetear vista del mapa
+    this.resetMapView();
+
+    // Actualizar iconos
+    this.updateStadiumIcons();
+  }
+
 }

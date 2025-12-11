@@ -21724,5 +21724,47 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/AC_Port_of_Spain_logo.png/243px-AC_Port_of_Spain_logo.png",
     "city_country": "Port of Spain, Trinidad and Tobago",
     "wiki_url": "https://en.wikipedia.org/wiki/A.C._Port_of_Spain"
+  },
+  {
+    "club_name": "Royal Cappellen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/R._Cappellen_F.C.png/188px-R._Cappellen_F.C.png",
+    "city_country": "Kappellen, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/Royal_Cappellen_F.C."
+  },
+  {
+    "club_name": "Olympic Charleroi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Olympic_Charleroi_logo.png/243px-Olympic_Charleroi_logo.png",
+    "city_country": "Charleroi, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/Olympic_Charleroi"
+  },
+  {
+    "club_name": "RFC Meux",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/R.F.C._Meux_logo.png/225px-R.F.C._Meux_logo.png",
+    "city_country": "La Bruyère, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/RFC_Meux"
+  },
+  {
+    "club_name": "RAEC Mons",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/31/RAECMons.png",
+    "city_country": "Mons, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/R.A.E.C._Mons_(2015)"
+  },
+  {
+    "club_name": "Union Rochefortoise",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/82/Union_Rochefortoise_logo.png",
+    "city_country": "Rochefort, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/Union_Rochefortoise"
+  },
+  {
+    "club_name": "Royale Union Tubize-Braine",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/RoyaleUnionTubize-Braine_logo.png/250px-RoyaleUnionTubize-Braine_logo.png",
+    "city_country": "Tubize & Braine-le-Comte, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/Royale_Union_Tubize-Braine"
+  },
+  {
+    "club_name": "Royal Excelsior Virton",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Excelsior_virton.png/200px-Excelsior_virton.png",
+    "city_country": "Virton, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/Royal_Excelsior_Virton"
   }
 ]

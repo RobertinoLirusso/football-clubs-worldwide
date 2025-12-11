@@ -26,6 +26,9 @@
   <!-- Información de distancia -->
   <div *ngIf="distanceResult" class="distance-result">
     <p>{{ distanceResult }}</p>
+    <button class="clear-distance-btn" (click)="clearDistance()">
+      <i class="fas fa-times"></i> Clear Distance
+    </button>
   </div>
 
   <!-- Instrucciones -->
@@ -33,6 +36,68 @@
     <p><i class="fas fa-info-circle"></i> Click on two stadium icons to calculate the distance between them</p>
     <p><i class="fas fa-circle" style="color: #ff4444;"></i> First selected stadium</p>
     <p><i class="fas fa-circle" style="color: #44ff44;"></i> Second selected stadium</p>
+  </div>
+
+  <!-- Modal de Ruta -->
+  <div *ngIf="showRouteModal" class="route-modal-overlay" (click)="closeRouteModal()">
+    <div class="route-modal" (click)="$event.stopPropagation()">
+      <div class="route-modal-header">
+        <h3><i class="fas fa-route"></i> Route Information</h3>
+        <button class="close-modal-btn" (click)="closeRouteModal()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="route-modal-body" *ngIf="routeInfo">
+        <div class="route-stadiums">
+          <div class="route-stadium from">
+            <div class="stadium-icon">
+              <i class="fas fa-futbol" style="color: #ff4444;"></i>
+            </div>
+            <div class="stadium-info">
+              <h4>{{ routeInfo.from.stadium_name }}</h4>
+              <p>{{ routeInfo.from.team }}</p>
+            </div>
+          </div>
+
+          <div class="route-arrow">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+
+          <div class="route-stadium to">
+            <div class="stadium-icon">
+              <i class="fas fa-futbol" style="color: #44ff44;"></i>
+            </div>
+            <div class="stadium-info">
+              <h4>{{ routeInfo.to.stadium_name }}</h4>
+              <p>{{ routeInfo.to.team }}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="route-details">
+          <div class="route-detail">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Distance: {{ routeInfo.distance }} km</span>
+          </div>
+
+          <div class="route-detail">
+            <i class="fas fa-{{ routeInfo.transportMode }}"></i>
+            <span>Estimated time: {{ routeInfo.estimatedTime }} min</span>
+          </div>
+
+          <div class="route-detail">
+            <i class="fas fa-plane" *ngIf="routeInfo.transportMode === 'airplane'"></i>
+            <i class="fas fa-car" *ngIf="routeInfo.transportMode === 'car'"></i>
+            <span>Transport: {{ routeInfo.transportMode === 'airplane' ? 'By air' : 'By car' }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="route-modal-footer">
+        <button class="close-route-btn" (click)="closeRouteModal()">Close</button>
+      </div>
+    </div>
   </div>
 </div>
 
