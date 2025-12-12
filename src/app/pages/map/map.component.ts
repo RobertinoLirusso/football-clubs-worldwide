@@ -18,10 +18,6 @@ export class MapComponent implements AfterViewInit {
   selectedStadiums: any[] = [];
   distanceResult: string = '';
 
-  // Propiedades para el modal de ruta
-  showRouteModal: boolean = false;
-  routeInfo: any = null;
-  routeLine: any = null;
 
   // Configuración de vista global
   private defaultCenter: [number, number] = [20, 0];
@@ -111,10 +107,10 @@ export class MapComponent implements AfterViewInit {
 
       // Crear icono personalizado de estadio
       const stadiumIcon = L.divIcon({
-        html: `<i class="fas fa-futbol" style="color: ${iconColor}; font-size: 20px;"></i>`,
+        html: `<i class="fas fa-futbol" style="color: ${iconColor}; font-size: 16px;"></i>`,
         className: 'custom-stadium-icon',
-        iconSize: [20, 20],
-        iconAnchor: [10, 10]
+        iconSize: [16, 16],
+        iconAnchor: [8, 8]
       });
 
       const marker = L.marker([stadium.lat, stadium.lon], { icon: stadiumIcon })
@@ -178,8 +174,9 @@ export class MapComponent implements AfterViewInit {
     this.resetMapView();
   }
 
-  // Calcular distancia entre dos puntos usando fórmula de Haversine
+  // Calcular distancia simulando rutas reales (como Google Maps)
   calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
+    // Distancia geodésica base usando fórmula de Haversine
     const R = 6371; // Radio de la Tierra en km
     const dLat = this.toRadians(lat2 - lat1);
     const dLon = this.toRadians(lon2 - lon1);
@@ -190,9 +187,56 @@ export class MapComponent implements AfterViewInit {
       Math.sin(dLon / 2) * Math.sin(dLon / 2);
 
     const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    const distance = R * c;
+    const geodesicDistance = R * c;
 
-    return Math.round(distance * 100) / 100; // Redondear a 2 decimales
+    // Factores para simular rutas reales (como Google Maps)
+    let routeMultiplier = 1.0;
+
+    // Si están en el mismo continente, aplicar factor de carreteras
+    if (this.areSameContinent(lat1, lon1, lat2, lon2)) {
+      // Para distancias cortas (< 500km), las rutas son más eficientes
+      if (geodesicDistance < 500) {
+        routeMultiplier = 1.15; // Carreteras locales, autopistas
+      } else if (geodesicDistance < 2000) {
+        routeMultiplier = 1.25; // Carreteras nacionales, algunas desviaciones
+      } else {
+        routeMultiplier = 1.35; // Rutas interestatales, evitando obstáculos
+      }
+    } else {
+      // Rutas intercontinentales
+      routeMultiplier = 1.45; // Factores como océanos, aduanas, rutas comerciales
+    }
+
+    // Ajuste adicional basado en coordenadas (evitando rutas problemáticas)
+    const latitudeAdjustment = Math.abs(lat1 - lat2) > 30 ? 1.1 : 1.0;
+    const longitudeAdjustment = Math.abs(lon1 - lon2) > 30 ? 1.05 : 1.0;
+
+    const finalMultiplier = routeMultiplier * latitudeAdjustment * longitudeAdjustment;
+    const routeDistance = geodesicDistance * finalMultiplier;
+
+    return Math.round(routeDistance * 100) / 100; // Redondear a 2 decimales
+  }
+
+  // Determinar si dos puntos están en el mismo continente (aproximado)
+  areSameContinent(lat1: number, lon1: number, lat2: number, lon2: number): boolean {
+    // Simplificación: dividir por hemisferios y continentes principales
+    const getContinent = (lat: number, lon: number) => {
+      // América del Norte
+      if (lat > 15 && lat < 75 && lon > -170 && lon < -50) return 'NA';
+      // América del Sur
+      if (lat > -60 && lat < 15 && lon > -90 && lon < -30) return 'SA';
+      // Europa
+      if (lat > 35 && lat < 75 && lon > -15 && lon < 70) return 'EU';
+      // Asia
+      if (lat > 0 && lat < 80 && lon > 70 && lon < 180) return 'AS';
+      // África
+      if (lat > -40 && lat < 40 && lon > -20 && lon < 55) return 'AF';
+      // Oceanía
+      if (lat > -50 && lat < 0 && lon > 110 && lon < 180) return 'OC';
+      return 'UNK'; // Desconocido
+    };
+
+    return getContinent(lat1, lon1) === getContinent(lat2, lon2);
   }
 
   toRadians(degrees: number): number {
@@ -204,15 +248,13 @@ export class MapComponent implements AfterViewInit {
       this.selectedStadiums.push(stadium);
 
       if (this.selectedStadiums.length === 2) {
-        const distance = this.calculateDistance(
+        const distanceKm = this.calculateDistance(
           this.selectedStadiums[0].lat, this.selectedStadiums[0].lon,
           this.selectedStadiums[1].lat, this.selectedStadiums[1].lon
         );
-        this.distanceResult = `Distance between ${this.selectedStadiums[0].stadium_name} and ${this.selectedStadiums[1].stadium_name}: ${distance} km`;
+        const distanceMiles = Math.round(distanceKm * 0.621371 * 100) / 100; // Convertir km a millas
 
-        // Mostrar modal de ruta
-        this.showRouteModal = true;
-        this.calculateRoute();
+        this.distanceResult = `Distance between ${this.selectedStadiums[0].stadium_name} and ${this.selectedStadiums[1].stadium_name}: ${distanceKm} km (${distanceMiles} miles)`;
 
         this.updateStadiumIcons();
       } else {
@@ -271,89 +313,10 @@ export class MapComponent implements AfterViewInit {
     this.map.flyTo(this.defaultCenter, this.defaultZoom, { animate: true, duration: 1.2 });
   }
 
-  // Calcular y mostrar ruta entre dos estadios
-  calculateRoute(): void {
-    if (this.selectedStadiums.length !== 2 || !this.map) return;
-
-    const stadium1 = this.selectedStadiums[0];
-    const stadium2 = this.selectedStadiums[1];
-    const distance = this.calculateDistance(stadium1.lat, stadium1.lon, stadium2.lat, stadium2.lon);
-
-    // Calcular tiempo estimado (asumiendo velocidad promedio de avión de 800 km/h para distancias largas)
-    // Para distancias cortas, usar velocidad de auto (100 km/h)
-    const estimatedTime = distance > 1000 ?
-      Math.round((distance / 800) * 60) : // tiempo en minutos para avión
-      Math.round((distance / 100) * 60); // tiempo en minutos para auto
-
-    this.routeInfo = {
-      from: stadium1,
-      to: stadium2,
-      distance: distance,
-      estimatedTime: estimatedTime,
-      transportMode: distance > 1000 ? 'airplane' : 'car'
-    };
-
-    // Dibujar línea de ruta en el mapa
-    this.drawRouteLine();
-  }
-
-  // Dibujar línea de ruta en el mapa
-  drawRouteLine(): void {
-    if (!this.map || !this.L || this.selectedStadiums.length !== 2) return;
-
-    // Remover línea anterior si existe
-    if (this.routeLine) {
-      this.map.removeLayer(this.routeLine);
-    }
-
-    const stadium1 = this.selectedStadiums[0];
-    const stadium2 = this.selectedStadiums[1];
-
-    // Crear línea recta entre los dos puntos
-    const latlngs = [
-      [stadium1.lat, stadium1.lon],
-      [stadium2.lat, stadium2.lon]
-    ];
-
-    this.routeLine = this.L.polyline(latlngs, {
-      color: '#e1b661',
-      weight: 3,
-      opacity: 0.8,
-      dashArray: '10, 10'
-    }).addTo(this.map);
-
-    // Ajustar vista para mostrar ambos puntos
-    const bounds = this.L.latLngBounds(latlngs);
-    this.map.fitBounds(bounds, { padding: [20, 20] });
-  }
-
-  // Cerrar modal de ruta
-  closeRouteModal(): void {
-    this.showRouteModal = false;
-    this.routeInfo = null;
-
-    // Remover línea de ruta
-    if (this.routeLine && this.map) {
-      this.map.removeLayer(this.routeLine);
-      this.routeLine = null;
-    }
-
-    // Resetear vista del mapa
-    this.resetMapView();
-  }
-
   // Limpiar distancia y selección
   clearDistance(): void {
     this.selectedStadiums = [];
     this.distanceResult = '';
-    this.showRouteModal = false;
-    this.routeInfo = null;
-
-    // Remover línea de ruta
-    if (this.routeLine && this.map) {
-      this.map.removeLayer(this.routeLine);
-      this.routeLine = null;
-    }
 
     // Resetear vista del mapa
     this.resetMapView();

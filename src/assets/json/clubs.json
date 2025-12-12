@@ -21766,5 +21766,65 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Excelsior_virton.png/200px-Excelsior_virton.png",
     "city_country": "Virton, Belgium",
     "wiki_url": "https://en.wikipedia.org/wiki/Royal_Excelsior_Virton"
+  },
+  {
+    "club_name": "Argja Bóltfelag",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Argja_B%C3%B3ltfelag.svg/250px-Argja_B%C3%B3ltfelag.svg.png",
+    "city_country": "Argir, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Argja_B%C3%B3ltfelag"
+  },
+  {
+    "club_name": "B71 Sandoy",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/dc/B71_Sandur.png",
+    "city_country": "Sandur, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/B71_Sandoy"
+  },
+  {
+    "club_name": "Gøtu Ítróttarfelag (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/G%C3%8D_G%C3%B8ta_logo.svg/250px-G%C3%8D_G%C3%B8ta_logo.svg.png",
+    "city_country": "Gøta, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/G%C3%B8tu_%C3%8Dtr%C3%B3ttarfelag"
+  },
+  {
+    "club_name": "Ítróttarfelag Fuglafjarðar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/%C3%8DF_Fuglafj%C3%B8r%C3%B0ur_logo.svg/250px-%C3%8DF_Fuglafj%C3%B8r%C3%B0ur_logo.svg.png",
+    "city_country": "Fuglafjørður, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%8Dtr%C3%B3ttarfelag_Fuglafjar%C3%B0ar"
+  },
+  {
+    "club_name": "Miðvágs Bóltfelag",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/MB_Midvagur_logo.svg/250px-MB_Midvagur_logo.svg.png",
+    "city_country": "Miðvágur, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mi%C3%B0v%C3%A1gs_B%C3%B3ltfelag"
+  },
+  {
+    "club_name": "Skála ÍF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Skala_IF_Crest_2024.png/250px-Skala_IF_Crest_2024.png",
+    "city_country": "Skála, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sk%C3%A1la_%C3%8DF"
+  },
+  {
+    "club_name": "Undrið FF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Undri%C3%B0_FF_logo.svg/250px-Undri%C3%B0_FF_logo.svg.png",
+    "city_country": "Tórshavn, Faroe Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Undri%C3%B0_FF"
+  },
+  {
+    "club_name": "FK Atlantas (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/FK_Atlantas_logo.svg/250px-FK_Atlantas_logo.svg.png",
+    "city_country": "Klaipeda, Lithuania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Atlantas"
+  },
+  {
+    "club_name": "Dyskobolia Grodzisk Wielkopolski (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Dyskobolia_Grodzisk_Logo.png/250px-Dyskobolia_Grodzisk_Logo.png",
+    "city_country": "Grodzisk Wielkopolski, Poland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dyskobolia_Grodzisk_Wielkopolski"
+  },
+  {
+    "club_name": "FC Elektrometalurh-NZF Nikopol",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/9/96/FC_Electrometallurg-NZF_Logo.png",
+    "city_country": "Nikopol, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Elektrometalurh-NZF_Nikopol"
   }
 ]
