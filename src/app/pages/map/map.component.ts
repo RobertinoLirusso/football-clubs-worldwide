@@ -17,6 +17,7 @@ export class MapComponent implements AfterViewInit {
   suggestions: any[] = [];
   selectedStadiums: any[] = [];
   distanceResult: string = '';
+  distanceLine: any = null;
 
 
   // Configuración de vista global
@@ -116,11 +117,13 @@ export class MapComponent implements AfterViewInit {
       const marker = L.marker([stadium.lat, stadium.lon], { icon: stadiumIcon })
         .addTo(this.map)
         .bindPopup(`
-          <b>${stadium.stadium_name}</b><br>
-          ${stadium.team}<br>
-          <button onclick="window.selectStadium('${stadium.stadium_name}')" style="margin-top: 5px; padding: 5px 10px; background: #000; color: #e1b661; border: none; cursor: pointer;">
-            Select for distance
-          </button>
+          <div style="text-align: center; cursor: pointer;" onclick="window.selectStadium('${stadium.stadium_name}')">
+            <b>${stadium.stadium_name}</b><br>
+            ${stadium.team}<br>
+            <span style="color: #e1b661; font-size: 12px; margin-top: 5px; display: inline-block;">
+              click to select
+            </span>
+          </div>
         `);
 
       // Mostrar popup al pasar el mouse sobre el marker
@@ -256,6 +259,9 @@ export class MapComponent implements AfterViewInit {
 
         this.distanceResult = `Distance between ${this.selectedStadiums[0].stadium_name} and ${this.selectedStadiums[1].stadium_name}: ${distanceKm} km (${distanceMiles} miles)`;
 
+        // Dibujar línea entre los estadios
+        this.drawDistanceLine();
+
         this.updateStadiumIcons();
       } else {
         this.updateStadiumIcons();
@@ -313,10 +319,46 @@ export class MapComponent implements AfterViewInit {
     this.map.flyTo(this.defaultCenter, this.defaultZoom, { animate: true, duration: 1.2 });
   }
 
+  // Dibujar línea de distancia entre estadios seleccionados
+  drawDistanceLine(): void {
+    if (!this.map || !this.L || this.selectedStadiums.length !== 2) return;
+
+    // Remover línea anterior si existe
+    if (this.distanceLine) {
+      this.map.removeLayer(this.distanceLine);
+    }
+
+    const stadium1 = this.selectedStadiums[0];
+    const stadium2 = this.selectedStadiums[1];
+
+    // Crear línea punteada entre los dos puntos
+    const latlngs = [
+      [stadium1.lat, stadium1.lon],
+      [stadium2.lat, stadium2.lon]
+    ];
+
+    this.distanceLine = this.L.polyline(latlngs, {
+      color: '#e1b661',
+      weight: 3,
+      opacity: 0.8,
+      dashArray: '10, 10'
+    }).addTo(this.map);
+
+    // Ajustar vista para mostrar ambos puntos
+    const bounds = this.L.latLngBounds(latlngs);
+    this.map.fitBounds(bounds, { padding: [50, 50] });
+  }
+
   // Limpiar distancia y selección
   clearDistance(): void {
     this.selectedStadiums = [];
     this.distanceResult = '';
+
+    // Remover línea de distancia
+    if (this.distanceLine && this.map) {
+      this.map.removeLayer(this.distanceLine);
+      this.distanceLine = null;
+    }
 
     // Resetear vista del mapa
     this.resetMapView();

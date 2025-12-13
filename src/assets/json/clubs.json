@@ -1148,7 +1148,7 @@
   {
     "club_name": "The New Saints",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLP1A2tuyF41gA1lTV-vPSZxBLQB9lirPOzYp9XlOup0HOfc_6rGBqR7KdBJ6289o4Lh7xQzmlWRGpDwxA_Ql7CxK5pCoI64NSLx-VNGot1GIURcE7PXhX1suVMdyVGjmpfBUqqayenbrd3adkx7n1bykQcZ_E_EW3WdMjfsSRqmAtAWO46bKrbSPxtM0/s256/The%20New%20Saints%20FC256x.png",
-    "city_country": "Oswestry, Wales",
+    "city_country": "Oswestry, England",
     "wiki_url": "https://en.wikipedia.org/wiki/The_New_Saints_F.C."
   },
   {
@@ -1494,8 +1494,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/NK_Maribor"
   },
   {
-    "club_name": "Fehérvár",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsVHlf9PMFr9XhCKZrZiTqyExcwxiEyaO9SZBbHUcd-muqSGEKh7Z7PBAHlI1RfrSYvyBh_1IUWjcCv87bMepR4oQDTYIaGlek-L2Koq8Q-N-OY3bm3YGC4EQg2W5J5h5qrPUtLVU7P0s/s1600/MOL+Fehervar+FC256x.png",
+    "club_name": "Videoton FC Fehérvár",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLFLINQxEoyNYgK-6dDEKb0PqwN37iREtdDg&s",
     "city_country": "Székesfehérvár, Hungary",
     "wiki_url": "https://en.wikipedia.org/wiki/Feh%C3%A9rv%C3%A1r_FC"
   },
@@ -6942,7 +6942,7 @@
     },
     {
         "club_name": "ETO FC Győr",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Gy%C5%91ri_ETO_FC_logo.svg/237px-Gy%C5%91ri_ETO_FC_logo.svg.png",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/ETO_FC_Gy%C5%91r.png/250px-ETO_FC_Gy%C5%91r.png",
         "city_country": "Győr, Hungary",
         "wiki_url": "https://en.wikipedia.org/wiki/Gy%C5%91ri_ETO_FC"
     },
@@ -21826,5 +21826,204 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/ru/9/96/FC_Electrometallurg-NZF_Logo.png",
     "city_country": "Nikopol, Ukraine",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Elektrometalurh-NZF_Nikopol"
+  },
+  {
+    "club_name": "Colwyn Bay",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Colwyn_Bay_F.C..png/246px-Colwyn_Bay_F.C..png",
+    "city_country": "Old Colwyn, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Colwyn_Bay_F.C."
+  },
+  {
+    "club_name": "Llanelli Town",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2e/Llanelli_Town_AFC_badge.jpeg",
+    "city_country": "Llanelli, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Llanelli_Town_A.F.C."
+  },
+  {
+    "club_name": "Afan Lido",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Afan_Lido_FC.svg/250px-Afan_Lido_FC.svg.png",
+    "city_country": "Port Talbot, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Afan_Lido_F.C."
+  },
+  {
+    "club_name": "AFC Ammanford",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Ammanford_A.F.C._logo.png/250px-Ammanford_A.F.C._logo.png",
+    "city_country": "Ammanford, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ammanford_A.F.C."
+  },
+  {
+    "club_name": "Baglan Dragons",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Baglan_Dragons_FC_logo.png/250px-Baglan_Dragons_FC_logo.png",
+    "city_country": "Baglan, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Baglan_Dragons_F.C."
+  },
+  {
+    "club_name": "Caerau Ely",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/19/Caerau_%28Ely%29_A.F.C.png",
+    "city_country": "Cardiff, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Caerau_(Ely)_A.F.C."
+  },
+  {
+    "club_name": "Cambrian United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Cambrian_%26_clydach.png/250px-Cambrian_%26_clydach.png",
+    "city_country": "Clydach Vale, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cambrian_United_F.C."
+  },
+  {
+    "club_name": "Cardiff Draconians",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Cardiff_Draconians.jpg/250px-Cardiff_Draconians.jpg",
+    "city_country": "Cardiff, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cardiff_Draconians_F.C."
+  },
+  {
+    "club_name": "Carmarthen Town",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Carmarthen_Town_FC.png/250px-Carmarthen_Town_FC.png",
+    "city_country": "Carmarthen, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Carmarthen_Town_A.F.C."
+  },
+  {
+    "club_name": "Cwmbran Celtic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Cwmbran_Celtic_F.C.png/250px-Cwmbran_Celtic_F.C.png",
+    "city_country": "Cwmbran, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cwmbran_Celtic_F.C."
+  },
+  {
+    "club_name": "Llantwit Major",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Llantwit_Major_F.C.svg/250px-Llantwit_Major_F.C.svg.png",
+    "city_country": "Llantwit Major, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Llantwit_Major_A.F.C."
+  },
+  {
+    "club_name": "Newport City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Newport_City_F.C._logo.jpg/250px-Newport_City_F.C._logo.jpg",
+    "city_country": "Newport, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Newport_City_F.C."
+  },
+  {
+    "club_name": "Pontypridd United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Pontypridd_United_A.F.C._badge.jpg/250px-Pontypridd_United_A.F.C._badge.jpg",
+    "city_country": "Pontypridd, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pontypridd_United_F.C."
+  },
+  {
+    "club_name": "Trefelin Boys & Girls Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/7e/Trefelin_BGC_logo.png",
+    "city_country": "Port Talbot, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Trefelin_B.G.C."
+  },
+  {
+    "club_name": "Treowen Stars",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Treowen_Stars_FC_logo.png/250px-Treowen_Stars_FC_logo.png",
+    "city_country": "Newbridge, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Treowen_Stars_F.C."
+  },
+  {
+    "club_name": "Trethomas Bluebirds",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Trethomas_Bluebirds_AFC_logo.png/250px-Trethomas_Bluebirds_AFC_logo.png",
+    "city_country": "Trethomas, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Trethomas_Bluebirds_A.F.C."
+  },
+  {
+    "club_name": "Ynyshir Albions",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1d/Ynyshir_Albions_FC_logo.png",
+    "city_country": "Ynyshir, Wales",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ynyshir_Albions_F.C."
+  },
+  {
+    "club_name": "Kisvárda FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4e/Kisv%C3%A1rda_FC_logo.png",
+    "city_country": "Kisvárda, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kisv%C3%A1rda_FC"
+  },
+  {
+    "club_name": "Kolorcity Kazincbarcika",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Kazincbarcikai_SC.svg/120px-Kazincbarcikai_SC.svg.png",
+    "city_country": "Kazincbarcika, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kazincbarcikai_SC"
+  },
+  {
+    "club_name": "FC Ajka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/FC_Ajka.png/200px-FC_Ajka.png",
+    "city_country": "Ajka, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ajka"
+  },
+  {
+    "club_name": "Békéscsaba 1912 Előre",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/B%C3%A9k%C3%A9scsaba_1912_El%C5%91re.svg/250px-B%C3%A9k%C3%A9scsaba_1912_El%C5%91re.svg.png",
+    "city_country": "Békéscsaba, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Békéscsaba_1912_Előre"
+  },
+  {
+    "club_name": "Budafoki MTE",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Budafoki_MTE_logo.png/200px-Budafoki_MTE_logo.png",
+    "city_country": "Budapest, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Budafoki_MTE"
+  },
+  {
+    "club_name": "BVSC-Zugló",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/BVSC-Zugl%C3%B3.svg/250px-BVSC-Zugl%C3%B3.svg.png",
+    "city_country": "Budapest, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/BVSC_Budapest"
+  },
+  {
+    "club_name": "Aqvital FC Csákvár",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e5/Aqvital_FC_Cs%C3%A1kv%C3%A1r_logo.png",
+    "city_country": "Csákvár, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aqvital_FC_Csákvár"
+  },
+  {
+    "club_name": "Budapest Honvéd",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Kispest_honved_fc_logo.png/250px-Kispest_honved_fc_logo.png",
+    "city_country": "Budapest, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Budapest_Honvéd_FC"
+  },
+  {
+    "club_name": "Karcagi SE",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Karcagi_SE.svg/250px-Karcagi_SE.svg.png",
+    "city_country": "Karcag, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Karcagi_SE"
+  },
+  {
+    "club_name": "Kozármisleny SE",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Koz%C3%A1rmisleny_SE_logo.png/200px-Koz%C3%A1rmisleny_SE_logo.png",
+    "city_country": "Kozármisleny, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kozármisleny_SE"
+  },
+  {
+    "club_name": "Mezőkövesdi SE",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Mez%C5%91k%C3%B6vesdi_SE_logo.png/222px-Mez%C5%91k%C3%B6vesdi_SE_logo.png",
+    "city_country": "Mezőkövesd, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mezőkövesdi_SE"
+  },
+  {
+    "club_name": "Soroksár SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Soroks%C3%A1r_SC_logo.png/216px-Soroks%C3%A1r_SC_logo.png",
+    "city_country": "Budapest, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Soroksár_SC"
+  },
+  {
+    "club_name": "Szentlőrinci SE",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Szentl%C5%91rinci_SE_logo.png/200px-Szentl%C5%91rinci_SE_logo.png",
+    "city_country": "Szentlőrinc, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Szentlőrinci_SE"
+  },
+  {
+    "club_name": "Szeged-Csanád Grosics Akadémia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Szeged_2011_logo.png/200px-Szeged_2011_logo.png",
+    "city_country": "Szeged, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Szeged-Csan%C3%A1d_Grosics_Akad%C3%A9mia"
+  },
+  {
+    "club_name": "Tiszakécske LC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Tiszak%C3%A9cske_FC_logo.png/200px-Tiszak%C3%A9cske_FC_logo.png",
+    "city_country": "Tiszakécske, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tiszakécske_FC"
+  },
+  {
+    "club_name": "Vasas SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Vasas_SC.svg/250px-Vasas_SC.svg.png",
+    "city_country": "Budapest, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vasas_SC"
   }
+
 ]
