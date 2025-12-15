@@ -10,7 +10,7 @@ export class GeminiService {
 
   constructor() {
     // Initialize Gemini AI with the provided API key
-    this.genAI = new GoogleGenerativeAI('AIzaSyDEKP5sKd8MYzw3SpnpP1deHQ81yraBosk');
+    this.genAI = new GoogleGenerativeAI('');
     this.model = this.genAI.getGenerativeModel({
       model: 'gemini-2.5-flash-lite'
     });
