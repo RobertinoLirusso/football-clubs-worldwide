@@ -34,7 +34,7 @@ export class MapComponent implements AfterViewInit, OnInit {
 
   ngOnInit() {
     this.seoService.updateSeo({
-      title: 'Interactive Football Stadium Map',
+      title: 'Football Stadiums Map',
       description: 'Explore football stadiums around the world with our interactive map. Find stadium locations, calculate distances between teams, and discover football venues globally.',
       keywords: 'football stadiums, interactive map, stadium locations, football venues, distance calculator, world football map',
       url: 'https://football-clubs-worldwide.com/map',

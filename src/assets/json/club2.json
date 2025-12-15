@@ -1,8 +1,98 @@
 [
   {
-    "club_name": "FK Be1",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Be1_NFA_logo.png/250px-Be1_NFA_logo.png",
-    "city_country": "Jonava, Lithuania",
-    "wiki_url": "https://en.wikipedia.org/wiki/FK_Be1"
+    "club_name": "Aragvi",
+    "club_logo": "",
+    "city_country": "Dusheti, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Aragvi_Dusheti"
+  },
+  {
+    "club_name": "Bakhmaro",
+    "club_logo": "",
+    "city_country": "Chokhatauri, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Liga_3_(Georgia)"
+  },
+  {
+    "club_name": "Betlemi",
+    "club_logo": "",
+    "city_country": "Keda, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Liga_3_(Georgia)"
+  },
+  {
+    "club_name": "Borjomi",
+    "club_logo": "",
+    "city_country": "Borjomi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Liga_3_(Georgia)"
+  },
+  {
+    "club_name": "Didube",
+    "club_logo": "",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Liga_3_(Georgia)"
+  },
+  {
+    "club_name": "Gardabani",
+    "club_logo": "",
+    "city_country": "Gardabani, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Gardabani"
+  },
+  {
+    "club_name": "Gori",
+    "club_logo": "",
+    "city_country": "Gori, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Gori"
+  },
+  {
+    "club_name": "Kolkheti",
+    "club_logo": "",
+    "city_country": "Khobi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Liga_3_(Georgia)"
+  },
+  {
+    "club_name": "Locomotive-2",
+    "club_logo": "",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Liga_3_(Georgia)"
+  },
+  {
+    "club_name": "Margveti 2006",
+    "club_logo": "",
+    "city_country": "Zestaponi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Liga_3_(Georgia)"
+  },
+  {
+    "club_name": "Merani Tbilisi",
+    "club_logo": "",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Liga_3_(Georgia)"
+  },
+  {
+    "club_name": "Odishi 1919",
+    "club_logo": "",
+    "city_country": "Zugdidi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Liga_3_(Georgia)"
+  },
+  {
+    "club_name": "Orbi",
+    "club_logo": "",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Liga_3_(Georgia)"
+  },
+  {
+    "club_name": "Shturmi",
+    "club_logo": "",
+    "city_country": "Sartichala, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Liga_3_(Georgia)"
+  },
+  {
+    "club_name": "Tbilisi 2025",
+    "club_logo": "",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Liga_3_(Georgia)"
+  },
+  {
+    "club_name": "WIT Georgia",
+    "club_logo": "",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/2025_Liga_3_(Georgia)"
   }
 ]

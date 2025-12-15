@@ -9972,7 +9972,7 @@
     },
     {
       "club_name": "Hemel Hempstead Town",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Hemel_Hempstead_Town_F.C._logo.png/250px-Hemel_Hempstead_Town_F.C._logo.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Hemel_Hempstead_Town_FC_crest.svg/250px-Hemel_Hempstead_Town_FC_crest.svg.png",
       "city_country": "Hemel Hempstead, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Hemel_Hempstead_Town_F.C."
     },
@@ -18960,7 +18960,7 @@
   },
   {
     "club_name": "Harland & Wolff Welders",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Harland_%26_Wolff_Welders_F.C.png/250px-Harland_%26_Wolff_Welders_F.C.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Harland_%26_Wolff_Welders_F.C._logo.png/250px-Harland_%26_Wolff_Welders_F.C._logo.png",
     "city_country": "Belfast, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Harland_%26_Wolff_Welders_F.C."
   },
@@ -22222,6 +22222,65 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/7a/Stumbras_Kaunas.png",
     "city_country": "Kaunas, Lithuania",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Stumbras"
+  },
+  {
+    "club_name": "FK Třinec",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/FK_T%C5%99inec_logo.svg/250px-FK_T%C5%99inec_logo.svg.png",
+    "city_country": "Třinec, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_T%C5%99inec"
+  },
+  {
+    "club_name": "SK Uničov",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/92/SK_Unicov_logo.png",
+    "city_country": "Uničov, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Uni%C4%8Dov"
+  },
+  {
+    "club_name": "FK Hodonín",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3e/FK_Hodonin_logo.png",
+    "city_country": "Hodonín, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Hodon%C3%ADn"
+  },
+  {
+    "club_name": "FK Frýdek-Místek",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/FK_Frydek-Mistek_logo.png/250px-FK_Frydek-Mistek_logo.png",
+    "city_country": "Frýdek-Místek, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Fr%C3%BDdek-M%C3%ADstek"
+  },
+  {
+    "club_name": "TJ Unie Hlubina",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logo_TJ_Unie_Hlubina.png/250px-Logo_TJ_Unie_Hlubina.png",
+    "city_country": "Ostrava, Czech Republic",
+    "wiki_url": "https://cs.wikipedia.org/wiki/TJ_Unie_Hlubina"
+  },
+  {
+    "club_name": "FC Hlučín",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/05/FC_Hlucin_logo.png",
+    "city_country": "Hlučín, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Hlu%C4%8D%C3%ADn"
+  },
+  {
+    "club_name": "FK Blansko",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ed/FK_Blansko.png",
+    "city_country": "Blansko, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Blansko"
+  },
+  {
+    "club_name": "SFK Vrchovina Nové Město na Moravě",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/SFK_Nove_Mesto_na_Morave_logo.png/250px-SFK_Nove_Mesto_na_Morave_logo.png",
+    "city_country": "Nové Město na Moravě, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/SFK_Vrchovina_Nov%C3%A9_M%C4%9Bsto_na_Morav%C4%9B"
+  },
+  {
+    "club_name": "SK Hranice",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/SK_Hranice%2C_Czech_football_club%2C_logo.png/250px-SK_Hranice%2C_Czech_football_club%2C_logo.png",
+    "city_country": "Hranice, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Hranice"
+  },
+  {
+    "club_name": "MFK Vítkovice",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/MFK_V%C3%ADtkovice_logo.png/200px-MFK_V%C3%ADtkovice_logo.png",
+    "city_country": "Vítkovice, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/MFK_V%C3%ADtkovice"
   }
-
 ]
