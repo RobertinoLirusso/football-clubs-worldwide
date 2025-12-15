@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { ClubService } from '../../services/club.service';
+import { GeminiService } from '../../services/gemini.service';
 import { COUNTRY_FLAG_MAP } from '../../utils/country-flags';
 
 @Component({
@@ -26,9 +27,22 @@ export class CardComponent implements OnInit {
   selectedImage: any = null;
   matches: any[] = [];  
   loadingMatches = true;
-  isMatchesModalOpen: boolean = false; 
+  isMatchesModalOpen: boolean = false;
 
+  // Chatbot variables
+  isChatbotOpen: boolean = false;
+  chatMessages: { text: string; isUser: boolean; timestamp: Date }[] = [];
+  isChatLoading: boolean = false;
+  selectedClubForChat: any = null;
 
+  // Predefined prompts
+  chatPrompts: string[] = [
+    "Tell me about the club's history.",
+    "What is this club's stadium?",
+    "Who are the legends of this club?",
+    "Tell me about this club's fanbase and supporters.",
+    "Tell me interesting facts and curiosities about this club."
+  ];
 
   highlightedClubs: string[] = [
     'Real Madrid',
@@ -55,6 +69,7 @@ export class CardComponent implements OnInit {
 
   constructor(
   private clubService: ClubService,
+  private geminiService: GeminiService
   ) {}
 
   ngOnInit(): void {
@@ -299,5 +314,68 @@ closeImageModal() {
   getYouTubeUrl(club: any): string {
     return `https://www.youtube.com/results?search_query=${encodeURIComponent(club.club_name)}`;
   }
+
+  // Chatbot methods
+  openChatbot(club: any, event: Event): void {
+    event.stopPropagation(); // Prevent card click
+    this.selectedClubForChat = club;
+    this.isChatbotOpen = true;
+    this.chatMessages = [];
+  }
+
+  closeChatbot(): void {
+    this.isChatbotOpen = false;
+    this.selectedClubForChat = null;
+  }
+
+  async sendPrompt(promptIndex: number): Promise<void> {
+    if (!this.selectedClubForChat) return;
+
+    const selectedPrompt = this.chatPrompts[promptIndex];
+
+    // Add user prompt as message
+    this.chatMessages.push({
+      text: selectedPrompt,
+      isUser: true,
+      timestamp: new Date()
+    });
+
+    this.isChatLoading = true;
+
+    try {
+      // Create context-aware prompt
+      const contextPrompt = `You are a football expert. The user is asking about the club "${this.selectedClubForChat.club_name}" from ${this.selectedClubForChat.city_country}.
+
+User's question: "${selectedPrompt}"
+
+Provide an informative, accurate and friendly response in English. Keep responses concise but complete.`;
+
+      const response = await this.geminiService.generateResponse(contextPrompt);
+
+      this.chatMessages.push({
+        text: response,
+        isUser: false,
+        timestamp: new Date()
+      });
+    } catch (error) {
+      this.chatMessages.push({
+        text: 'Sorry, an error occurred while processing your question. Please try again.',
+        isUser: false,
+        timestamp: new Date()
+      });
+    }
+
+    this.isChatLoading = false;
+
+    // Auto-scroll to bottom
+    setTimeout(() => {
+      const chatContainer = document.querySelector('.chat-messages');
+      if (chatContainer) {
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+      }
+    }, 100);
+  }
+
+
 
 }

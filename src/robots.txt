@@ -1,0 +1,14 @@
+# Robots.txt for Football Clubs Worldwide
+# Allow all web crawlers to access all content
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://football-clubs-worldwide.com/sitemap.xml
+
+# Disallow access to admin areas (if any)
+# Disallow: /admin/
+
+# Crawl delay (optional - reduces server load)
+Crawl-delay: 1

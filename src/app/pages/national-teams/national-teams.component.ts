@@ -1,6 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { COUNTRY_FLAG_MAP } from '../../utils/country-flags';
+import { SeoService } from '../../services/seo.service';
 
 @Component({
   selector: 'app-national-teams',
@@ -18,10 +19,45 @@ export class NationalTeamsComponent implements OnInit {
   selectedContinent: string = '';
   continents: string[] = [];
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private seoService: SeoService) {}
 
   ngOnInit(): void {
     this.loadNationalTeams();
+    this.setupSeo();
+  }
+
+  private setupSeo(): void {
+    this.seoService.updateSeo({
+      title: 'National Football Teams',
+      description: 'Explore national football teams from around the world. Find information about countries, continents, team logos, and national squad details.',
+      keywords: 'national teams, football countries, world football, national squads, football nations, team logos',
+      url: 'https://football-clubs-worldwide.com/national-teams',
+      type: 'website'
+    });
+
+    // Datos estructurados para la página de equipos nacionales
+    const structuredData = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "World National Football Teams",
+      "description": "Complete list of national football teams organized by continents",
+      "url": "https://football-clubs-worldwide.com/national-teams",
+      "numberOfItems": "200+",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "SportsTeam",
+            "@id": "#national-teams-collection",
+            "name": "National Football Teams Collection",
+            "sport": "Soccer"
+          }
+        }
+      ]
+    };
+
+    this.seoService.setStructuredData(structuredData);
   }
 
   loadNationalTeams(): void {

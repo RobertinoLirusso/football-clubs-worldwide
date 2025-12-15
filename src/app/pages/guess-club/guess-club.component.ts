@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ClubService } from '../../services/club.service';
+import { SeoService } from '../../services/seo.service';
 import confetti from 'canvas-confetti';
 
 
@@ -24,10 +25,46 @@ export class GuessClubComponent implements OnInit {
   timeOut: boolean = false; // Saber si se terminó el tiempo
 
 
-  constructor(private clubService: ClubService) {}
+  constructor(private clubService: ClubService, private seoService: SeoService) {}
 
   ngOnInit(): void {
     this.getClubs();
+    this.setupSeo();
+  }
+
+  private setupSeo(): void {
+    this.seoService.updateSeo({
+      title: 'Guess the Football Club - Football Quiz Game',
+      description: 'Test your football knowledge with our interactive quiz game! Guess football clubs from around the world. Challenge yourself and see how many you can get right in a row.',
+      keywords: 'football quiz, guess the club, football game, soccer quiz, football knowledge test, interactive game',
+      url: 'https://football-clubs-worldwide.com/guess-club',
+      type: 'website'
+    });
+
+    // Datos estructurados para el juego
+    const structuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Guess the Football Club Quiz",
+      "description": "Interactive football quiz game to test your knowledge of football clubs worldwide",
+      "url": "https://football-clubs-worldwide.com/guess-club",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Football club identification quiz",
+        "Timed questions",
+        "Streak tracking",
+        "Social sharing"
+      ],
+      "genre": "Sports Quiz"
+    };
+
+    this.seoService.setStructuredData(structuredData);
   }
 
   getClubs(): void {

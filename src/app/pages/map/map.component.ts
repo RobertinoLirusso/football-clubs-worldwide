@@ -1,13 +1,14 @@
-import { Component, AfterViewInit, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, AfterViewInit, Inject, PLATFORM_ID, OnInit } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { ClubService } from '../../services/club.service';
+import { SeoService } from '../../services/seo.service';
 
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.css']
 })
-export class MapComponent implements AfterViewInit {
+export class MapComponent implements AfterViewInit, OnInit {
 
   private map: any;
   private L: any;
@@ -27,8 +28,43 @@ export class MapComponent implements AfterViewInit {
 
   constructor(
     private clubService: ClubService,
+    private seoService: SeoService,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {}
+
+  ngOnInit() {
+    this.seoService.updateSeo({
+      title: 'Interactive Football Stadium Map',
+      description: 'Explore football stadiums around the world with our interactive map. Find stadium locations, calculate distances between teams, and discover football venues globally.',
+      keywords: 'football stadiums, interactive map, stadium locations, football venues, distance calculator, world football map',
+      url: 'https://football-clubs-worldwide.com/map',
+      type: 'website'
+    });
+
+    // Datos estructurados para el mapa interactivo
+    const structuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Football Stadiums Interactive Map",
+      "description": "Interactive map showing football stadiums worldwide with distance calculation features",
+      "url": "https://football-clubs-worldwide.com/map",
+      "applicationCategory": "SportsApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Interactive world map",
+        "Stadium location search",
+        "Distance calculation between stadiums",
+        "Football venue information"
+      ]
+    };
+
+    this.seoService.setStructuredData(structuredData);
+  }
 
   async ngAfterViewInit() {
     if (!isPlatformBrowser(this.platformId)) return;

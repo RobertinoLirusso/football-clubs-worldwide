@@ -110,6 +110,9 @@
     <span class="zoom-icon" (click)="openImageModal(club, $event)">
       <i class="fa fa-search-plus"></i>
     </span>
+    <span class="chat-icon" (click)="openChatbot(club, $event)">
+      <i class="fa fa-comments"></i>
+    </span>
     <footer class="w3-container w3-center">
       <p>{{club.club_name}}</p>
     </footer>
@@ -140,6 +143,68 @@
   </div>
 </div>
 
+<!-- Chat Modal -->
+<div *ngIf="isChatbotOpen" class="w3-modal" style="display:block;">
+  <div class="w3-modal-content w3-animate-zoom chat-modal-content" style="max-width:700px; margin:auto;">
+
+    <div class="chatbot-container">
+      <div class="chatbot-header w3-black w3-padding-small">
+        <div class="w3-left">
+          <div class="w3-large">
+            <i class="fa fa-comments w3-margin-right"></i>
+            Football Assistant - {{ selectedClubForChat?.club_name }}
+          </div>
+          <div class="w3-small w3-opacity" style="margin-top: 2px;">
+            <i class="fa fa-info-circle w3-margin-right"></i>
+            AI-generated responses may not be 100% accurate
+          </div>
+        </div>
+        <button (click)="closeChatbot()" class="w3-right w3-button w3-black w3-small" title="Close chat">
+          <i class="fa fa-times"></i>
+        </button>
+      </div>
+
+      <div class="chat-messages w3-light-grey" style="height: 350px; overflow-y: auto; padding: 15px;">
+        <div *ngFor="let message of chatMessages"
+             class="message w3-margin-bottom"
+             [ngClass]="{'user-message': message.isUser, 'bot-message': !message.isUser}">
+
+          <div class="message-content w3-padding-small w3-round-large">
+            <strong *ngIf="!message.isUser">🤖 </strong>
+            <strong *ngIf="message.isUser">👤 </strong>
+            {{ message.text }}
+          </div>
+
+          <div class="message-time w3-small w3-opacity" style="margin-top: 5px;">
+            {{ message.timestamp | date:'HH:mm' }}
+          </div>
+        </div>
+
+        <div *ngIf="isChatLoading" class="message bot-message w3-margin-bottom">
+          <div class="message-content w3-padding-small w3-round-large">
+            🤖 <em>Thinking...</em>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-prompts-container w3-padding-small w3-light-grey">
+        <p class="w3-center w3-small w3-margin-bottom" style="color: #666;">
+          Choose a question about {{ selectedClubForChat?.club_name }}:
+        </p>
+        <div class="prompt-buttons">
+          <button *ngFor="let prompt of chatPrompts; let i = index"
+                  (click)="sendPrompt(i)"
+                  [disabled]="isChatLoading"
+                  class="w3-btn w3-block w3-margin-bottom prompt-btn">
+            <i class="fa fa-question-circle w3-margin-right"></i>
+            {{ prompt.length > 60 ? (prompt | slice:0:60) + '...' : prompt }}
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 <!-- Load More -->
 <div class="w3-center w3-padding" *ngIf="filteredClubs.length < totalFilteredCount">
@@ -181,9 +246,12 @@
     <div class="w3-center w3-margin-top">
       <p>Share this club (via X):</p>
       <a [href]="getTwitterShareUrl(selectedClub)" target="_blank" class="w3-btn w3-black" title="Share on X">
-        <i class="fa-brands fa-x-twitter fa-lg icon"></i>    
+        <i class="fa-brands fa-x-twitter fa-lg icon"></i>
       </a>
-    </div>    
+    </div>
+
+    <!-- Chatbot Button -->
+
 
     <footer class="w3-container w3-padding">
       <button (click)="closeModal()" class="w3-btn w3-black w3-margin-bottom title-game">Close</button>
