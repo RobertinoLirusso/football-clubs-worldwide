@@ -157,7 +157,7 @@ export class MapComponent implements AfterViewInit, OnInit {
             <b>${stadium.stadium_name}</b><br>
             ${stadium.team}<br>
             <span style="color: #e1b661; font-size: 12px; margin-top: 5px; display: inline-block;">
-              click to select
+              Select stadium
             </span>
           </div>
         `);
@@ -374,8 +374,8 @@ export class MapComponent implements AfterViewInit, OnInit {
     ];
 
     this.distanceLine = this.L.polyline(latlngs, {
-      color: '#e1b661',
-      weight: 3,
+      color: '#f39c12',
+      weight: 2,
       opacity: 0.8,
       dashArray: '10, 10'
     }).addTo(this.map);

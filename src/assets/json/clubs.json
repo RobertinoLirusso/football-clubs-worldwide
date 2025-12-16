@@ -22282,5 +22282,107 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/MFK_V%C3%ADtkovice_logo.png/200px-MFK_V%C3%ADtkovice_logo.png",
     "city_country": "Vítkovice, Czech Republic",
     "wiki_url": "https://en.wikipedia.org/wiki/MFK_V%C3%ADtkovice"
+  },
+  {
+    "club_name": "FC Aragvi Dusheti",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cb/FC_Aragvi_Dusheti.png",
+    "city_country": "Dusheti, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Aragvi_Dusheti"
+  },
+  {
+    "club_name": "FC Bakhmaro Chokhatauri",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/FC_Bakhmaro_Chokhatauri_logo.png/250px-FC_Bakhmaro_Chokhatauri_logo.png",
+    "city_country": "Chokhatauri, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Bakhmaro_Chokhatauri"
+  },
+  {
+    "club_name": "FC Betlemi Keda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Betlemi_Keda.png",
+    "city_country": "Keda, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Betlemi_Keda"
+  },
+  {
+    "club_name": "FC Borjomi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c9/FC_Borjomi.png",
+    "city_country": "Borjomi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Borjomi"
+  },
+  {
+    "club_name": "FC Guria Lanchkhuti",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/FC_Guria_Lanchkhuti_logo.jpg/250px-FC_Guria_Lanchkhuti_logo.jpg",
+    "city_country": "Lanchkhuti, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Guria_Lanchkhuti"
+  },
+  {
+    "club_name": "FC Zestaponi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/db/FC_Zestafoni_Logo.png",
+    "city_country": "Zestaponi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Zestaponi"
+  },
+  {
+    "club_name": "FC Gardabani",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/FC_Gardabani_Logo.png/250px-FC_Gardabani_Logo.png",
+    "city_country": "Gardabani, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Gardabani"
+  },
+  {
+    "club_name": "FC Gori",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/FC_Gori_Logo.png",
+    "city_country": "Gori, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Gori"
+  },
+  {
+    "club_name": "FC Kolkheti Khobi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/67/FC_Kolkheti_Khobi_logo.png",
+    "city_country": "Khobi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kolkheti_Khobi"
+  },
+  {
+    "club_name": "FC Margveti 2006",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f3/Margveti_Zestafoni.png",
+    "city_country": "Zestaponi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Margveti_2006"
+  },
+  {
+    "club_name": "FC Merani Tbilisi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/80/FC_Merani_Tbilisi_Logo.png",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Merani_Tbilisi"
+  },
+  {
+    "club_name": "FC Odishi 1919",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/84/FC_Odishi_1919_logo.png",
+    "city_country": "Zugdidi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Odishi_1919"
+  },
+  {
+    "club_name": "FC Norchi Dinamo Tbilisi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/FC_Norchi_Dinamoeli_Tbilisi_official_logo_2012.jpg/220px-FC_Norchi_Dinamoeli_Tbilisi_official_logo_2012.jpg",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Norchi_Dinamo_Tbilisi"
+  },
+  {
+    "club_name": "SFC Shturmi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/SFC_Shturmi_Logo.png/250px-SFC_Shturmi_Logo.png",
+    "city_country": "Sartichala, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/SFC_Shturmi"
+  },
+  {
+    "club_name": "FC Tbilisi (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/FC-Tbilisi.png/250px-FC-Tbilisi.png",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Tbilisi"
+  },
+  {
+    "club_name": "FC WIT Georgia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Georgia-Tbilisi.png/250px-Georgia-Tbilisi.png",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_WIT_Georgia"
+  },
+  {
+    "club_name": "FC Matchakhela Khelvachauri",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d0/FC_Matchakhela_Khelvachauri.png",
+    "city_country": "Khelvachauri, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Matchakhela_Khelvachauri"
   }
 ]
