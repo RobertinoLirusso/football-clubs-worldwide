@@ -2228,11 +2228,12 @@
   {
     "club_name": "FC Astana",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkrd4mw6hdTJWnJktPyU311f6GkDyrYeA5Z1HKr_4fdJ4OncZsLwsACzmKuhwxGhEyljPvHM_FF4pqzh7nESHtKPsQ6UJL1hTgYnhctiaofRgIplpkG94pAbkr32s-UWn3n1yVylHsTjk/s1600/FC+Astana256x.png",
-    "city_country": "Astana, Kazakhstan"
+    "city_country": "Astana, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Astana"
   },
   {
     "club_name": "Shakther Karagandy",
-    "club_logo": "https://tmssl.akamaized.net//images/wappen/big/10480.png?lm=1453234248",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/0/08/FC_Shakhter_Karagandy_Logo.png/250px-FC_Shakhter_Karagandy_Logo.png",
     "city_country": "Karagandy, Kazakhstan",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Shakhter_Karagandy"
   },
@@ -8951,14 +8952,14 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Turan"
   },
   {
-    "club_name": "Ordabasy",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/b/b4/Ordabassy_Schymkent_logo.svg/250px-Ordabassy_Schymkent_logo.svg.png",
+    "club_name": "FC Ordabasy",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/5a/FC_Ordabasy_logo.png",
     "city_country": "Shymkent, Kazakhstan",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Ordabasy"
   },
   {
     "club_name": "Okzhetpes Kokshetau",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/3/31/Oqschetpes_K%C3%B6kschetau.svg/250px-Oqschetpes_K%C3%B6kschetau.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/8/89/FC_Okzhetpes_logo_2016.png/250px-FC_Okzhetpes_logo_2016.png",
     "city_country": "Kokshetau, Kazakhstan",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Okzhetpes"
   },
@@ -22384,5 +22385,95 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d0/FC_Matchakhela_Khelvachauri.png",
     "city_country": "Khelvachauri, Georgia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Matchakhela_Khelvachauri"
+  },
+  {
+    "club_name": "FC AKAS Almaty",
+    "club_logo": "https://static.flashscore.com/res/image/data/bZF3aFQL-UZc4kSZk.png",
+    "city_country": "Almaty, Kazakhstan",
+    "wiki_url": "https://ru.wikipedia.org/wiki/AKAS"
+  },
+  {
+    "club_name": "FC Altai",
+    "club_logo": "https://images.seeklogo.com/logo-png/53/2/fc-altai-oskemen-logo-png_seeklogo-534939.png",
+    "city_country": "Oskemen, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Altai"
+  },
+  {
+    "club_name": "Irtysh Pavlodar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/FC_Irtysh.png/250px-FC_Irtysh.png",
+    "city_country": "Pavlodar, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Irtysh_Pavlodar"
+  },
+  {
+    "club_name": "FC Caspiy",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/60/FC_Caspiy_logo.png",
+    "city_country": "Aktau, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Caspiy"
+  },
+  {
+    "club_name": "FC Ekibastuz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/6/63/%C4%96kibastuz_FK_logo.png/250px-%C4%96kibastuz_FK_logo.png",
+    "city_country": "Ekibastuz, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ekibastuz"
+  },
+  {
+    "club_name": "FC Jetisay",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/c/c5/FK_%C5%BDetysaj_logotipas.png/250px-FK_%C5%BDetysaj_logotipas.png",
+    "city_country": "Zhetisay, Kazakhstan",
+    "wiki_url": "https://lt.wikipedia.org/wiki/%C5%BDetysaj_FK"
+  },
+  {
+    "club_name": "FC Khan Tengri",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/e/e6/FK_Chan_Tengri_logotipas.png/250px-FK_Chan_Tengri_logotipas.png",
+    "city_country": "Almaty, Kazakhstan",
+    "wiki_url": "https://lt.wikipedia.org/wiki/FK_Chan_Tengri"
+  },
+  {
+    "club_name": "Oñtüstik Akademia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/9/9f/Akademiya_Ontustik_emblema.png/250px-Akademiya_Ontustik_emblema.png",
+    "city_country": "Shymkent, Kazakhstan",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Ontustik_FK"
+  },
+  {
+    "club_name": "SD Family",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/9/95/SD_Family.png/250px-SD_Family.png",
+    "city_country": "Astana, Kazakhstan",
+    "wiki_url": "https://ru.wikipedia.org/wiki/SD_Family"
+  },
+  {
+    "club_name": "FC Taraz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/7b/FC_Taraz.png",
+    "city_country": "Taraz, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Taraz"
+  },
+  {
+    "club_name": "FC Turkestan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/2/2c/Yassi_FK_logo.png/250px-Yassi_FK_logo.png",
+    "city_country": "Shymkent, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Turkestan"
+  },
+  {
+    "club_name": "FC Vostok (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/FC_Vostok.png/250px-FC_Vostok.png",
+    "city_country": "Oskemen, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Vostok"
+  },
+  {
+    "club_name": "FC Ulytau",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/FC_Ulytau_logo.png/250px-FC_Ulytau_logo.png",
+    "city_country": "Zhezkazgan, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ulytau"
+  },
+  {
+    "club_name": "FC Jetisu Taldykorgan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f3/FC_Zhetysu_logo.png",
+    "city_country": "Taldykorgan, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Zhetysu"
+  },
+  {
+    "club_name": "FC Zhenis",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/e/ef/FK_%C5%BDenis.png/245px-FK_%C5%BDenis.png",
+    "city_country": "Astana, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Zhenis"
   }
 ]
