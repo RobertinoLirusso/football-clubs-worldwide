@@ -4740,8 +4740,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Maidenhead_United_F.C."
   },
   {
-    "club_name": "Buxton",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/55/Buxtonfc.png",
+    "club_name": "Buxton FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Buxton_FC_crest.svg/250px-Buxton_FC_crest.svg.png",
     "city_country": "Buxton, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Buxton_F.C."
   },
@@ -9876,8 +9876,8 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Radcliffe_F.C."
     },
     {
-      "club_name": "South Shields",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/South_Shields_F.C._New_Crest.png/250px-South_Shields_F.C._New_Crest.png",
+      "club_name": "South Shields FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/South_Shields_FC_crest.svg/250px-South_Shields_FC_crest.svg.png",
       "city_country": "South Shields, England",
       "wiki_url": "https://en.wikipedia.org/wiki/South_Shields_F.C."
     },
@@ -14760,8 +14760,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Botafogo_Futebol_Clube_(PB)"
   },
   {
-    "club_name": "Brusque",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/BFC_Escudo_Novo-1920w.png/330px-BFC_Escudo_Novo-1920w.png",
+    "club_name": "Brusque FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Brusque_Futebol_Clube_logo_%282023%29.png/330px-Brusque_Futebol_Clube_logo_%282023%29.png",
     "city_country": "Brusque, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Brusque_Futebol_Clube"
   },
@@ -18048,8 +18048,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Longford_Town_F.C."
   },
   {
-    "club_name": "Wexford",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/WEXFORD-FC-CREST.png/250px-WEXFORD-FC-CREST.png",
+    "club_name": "Wexford FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Wexford_F.C._crest.svg/250px-Wexford_F.C._crest.svg.png",
     "city_country": "Crossabeg, Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Wexford_F.C."
   },
@@ -19140,8 +19140,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Budu%C4%87nost_Banovi%C4%87i"
   },
   {
-    "club_name": "Čelik Zenica",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/NK_%C4%8Celik_Zenica_logo.png/250px-NK_%C4%8Celik_Zenica_logo.png",
+    "club_name": "NK Čelik Zenica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/NK_%C4%8Celik_Zenica_Logo.svg/250px-NK_%C4%8Celik_Zenica_Logo.svg.png",
     "city_country": "Zenica, Bosnia and Herzegovina",
     "wiki_url": "https://en.wikipedia.org/wiki/NK_%C4%8Celik_Zenica"
   },
@@ -22475,5 +22475,161 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/e/ef/FK_%C5%BDenis.png/245px-FK_%C5%BDenis.png",
     "city_country": "Astana, Kazakhstan",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Zhenis"
+  },
+  {
+    "club_name": "Alliance Äischdall",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/FC_Alliance_%C3%84ischdall_new_logo.png/250px-FC_Alliance_%C3%84ischdall_new_logo.png",
+    "city_country": "Hobscheid, Luxembourg",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Alliance_%C3%84ischdall"
+  },
+  {
+    "club_name": "FC Avenir Beggen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Avenir-Beggen.png/250px-Avenir-Beggen.png",
+    "city_country": "Beggen, Luxembourg",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Avenir_Beggen"
+  },
+  {
+    "club_name": "FK Leotar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/FK_Leotar_Trebinje_Logo.png/250px-FK_Leotar_Trebinje_Logo.png",
+    "city_country": "Trebinje, Bosnia and Herzegovina",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Leotar"
+  },
+  {
+    "club_name": "FK Liepājas Metalurgs (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/SK_Liepajas_Metalurgs_logo.png/250px-SK_Liepajas_Metalurgs_logo.png",
+    "city_country": "Liepāja, Latvia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Liep%C4%81jas_Metalurgs"
+  },
+  {
+    "club_name": "Royal Excel Mouscron (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Royal_Excel_Mouscron_logo.svg/250px-Royal_Excel_Mouscron_logo.svg.png",
+    "city_country": "Mouscron, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/R.E._Mouscron"
+  },
+  {
+    "club_name": "Mouscron (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Royal_Excel_Mouscron_logo.svg/250px-Royal_Excel_Mouscron_logo.svg.png",
+    "city_country": "Mouscron, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/Royal_Excel_Mouscron"
+  },
+  {
+    "club_name": "FC Senec (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/FC_Senec.png/250px-FC_Senec.png",
+    "city_country": "Senec, Slovakia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Senec"
+  },
+  {
+    "club_name": "FC Lantana Tallinn (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/LantanaTallinn.png/250px-LantanaTallinn.png",
+    "city_country": "Tallinn, Estonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Lantana_Tallinn"
+  },
+  {
+    "club_name": "Malatyaspor SK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Malatyaspor_Logo.png/250px-Malatyaspor_Logo.png",
+    "city_country": "Malatyaspor, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Malatyaspor"
+  },
+  {
+    "club_name": "FK Cementarnica 55 (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a9/FK_Cementarnica_55_Logo.gif",
+    "city_country": "Skopje, North Macedonia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Cementarnica_55" 
+  },
+  {
+    "club_name": "FC Kehlen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Wappen_ALT_2018.png/250px-Wappen_ALT_2018.png",
+    "city_country": "Kehlen, Luxembourg",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kehlen"
+  },
+  {
+    "club_name": "FF Norden 02",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/90/FF_Norden_02.gif",
+    "city_country": "Weiswampach, Luxembourg",
+    "wiki_url": "https://en.wikipedia.org/wiki/FF_Norden_02"
+  },
+  {
+    "club_name": "FC Minerva Lintgen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/FC_Minerva_Lintgen.png/250px-FC_Minerva_Lintgen.png",
+    "city_country": "Lintgen, Luxembourg",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Minerva_Lintgen"
+  },
+  {
+    "club_name": "FK Zeta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/FK_Zeta.png/250px-FK_Zeta.png",
+    "city_country": "Golubovci, Montenegro",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Zeta"
+  },
+  {
+    "club_name": "FC Sopron",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/FC_Sopron_logo.png/200px-FC_Sopron_logo.png",
+    "city_country": "Sopron, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Sopron"
+  },
+  {
+    "club_name": "FC Partizan Minsk",
+    "club_logo": "https://en.wikipedia.org/wiki/FC_Partizan_Minsk",
+    "city_country": "Minsk, Belarus",
+    "wiki_url": "https://upload.wikimedia.org/wikipedia/en/7/78/FK_Partizan_Minsk_Logo.png"
+  },
+  {
+    "club_name": "FCM Young Boys Diekirch",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Young_Boys_Diekirch.png/250px-Young_Boys_Diekirch.png",
+    "city_country": "Diekirch, Luxembourg",
+    "wiki_url": "https://en.wikipedia.org/wiki/FCM_Young_Boys_Diekirch"
+  },
+  {
+    "club_name": "CS Grevenmacher",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/CS-Grevenmacher.png/250px-CS-Grevenmacher.png",
+    "city_country": "Grevenmacher, Luxembourg",
+    "wiki_url": "https://en.wikipedia.org/wiki/CS_Grevenmacher"
+  },
+  {
+    "club_name": "Jeunesse Junglinster",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Jeunesse_Junglinster_logo.svg/120px-Jeunesse_Junglinster_logo.svg.png",
+    "city_country": "Junglinster, Luxembourg",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jeunesse_Junglinster"
+  },
+  {
+    "club_name": "US Sandweiler",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d8/US_Sandweiler.jpg",
+    "city_country": "Sandweiler, Luxembourg",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Sandweiler"
+  },
+  {
+    "club_name": "MKS Odra Wodzisław Śląski",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/MKS_Odra_Wodzislaw.png/250px-MKS_Odra_Wodzislaw.png",
+    "city_country": "Wodzisław Śląski, Poland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Odra_Wodzis%C5%82aw_%C5%9Al%C4%85ski"
+  },
+  {
+    "club_name": "SC Tiligul-Tiras Tiraspol (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/b/b9/CS_Tiligul-Tiras_Tiraspol.png",
+    "city_country": "Tiraspol, Moldova",
+    "wiki_url": "https://en.wikipedia.org/wiki/CS_Tiligul-Tiras_Tiraspol"
+  },
+  {
+    "club_name": "Dinaburg FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a9/Dinaburg_FC_logo.png",
+    "city_country": "Daugavpils, Latvia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dinaburg_FC"
+  },
+  {
+    "club_name": "Tatabánya SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tatab%C3%A1nya_SC.svg/250px-Tatab%C3%A1nya_SC.svg.png",
+    "city_country": "Tatabánya, Hungary",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tatab%C3%A1nyai_SC"
+  },
+  {
+    "club_name": "NK Zagreb",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/NK_Zagreb.svg/250px-NK_Zagreb.svg.png",
+    "city_country": "Zagreb, Croatia",
+    "wiki_url": "https://en.wikipedia.org/wiki/NK_Zagreb"
+  },
+  {
+    "club_name": "Knattspyrnufélag Fjallabyggðar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Knattspyrnuf%C3%A9lag_Fjallabygg%C3%B0ar.png/221px-Knattspyrnuf%C3%A9lag_Fjallabygg%C3%B0ar.png",
+    "city_country": "Fjallabyggðar, Iceland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Knattspyrnuf%C3%A9lag_Fjallabygg%C3%B0ar"
   }
 ]
