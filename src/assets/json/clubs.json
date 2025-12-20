@@ -2730,13 +2730,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Troyes_AC"
   },
   {
-    "club_name": "Red Star",
+    "club_name": "Red Star FC",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp7RRuSz6Mx8Sw-lUx_V7agWIyjeZ_LSx0JQrwhoJ_aVJtk2_uDk0OnhosHscr3MphQam3M8iHTWQUMuq7PhDnfCylDnZJURgjGaJmvMJLnvDNLRvPt7mU9oyH9q9kEvGkxA738qitIiA/s1600/Red+Star+FC256x.png",
     "city_country": "Paris, France",
     "wiki_url": "https://en.wikipedia.org/wiki/Red_Star_F.C."
   },
   {
-    "club_name": "Chambly-Oise",
+    "club_name": "FC Chambly-Oise",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqkQ6r6wHDa7ZtlUBedIXDgTkMfX3y4uuH-f5wwZFlBAcTYquiq47lu_nacJpRP38joX93LGb5cESd7ap8FDMYqwYpVz9J5Wf9gX-r5409YbSNP73dV8z-2AJvASDsi6MLt9rqiqYrwts/s1600/FC+Chambly256x.png",
     "city_country": "Chambly, France",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Chambly_Oise"
@@ -11310,13 +11310,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Stade_Briochin"
   },
     {
-    "club_name": "Angoulême",
+    "club_name": "Angoulême CFC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Angouleme_Charente_FC_logo.svg/250px-Angouleme_Charente_FC_logo.svg.png",
     "city_country": "Angoulême, France",
     "wiki_url": "https://en.wikipedia.org/wiki/Angoul%C3%AAme_Charente_FC"
   },
   {
-    "club_name": "Aviron Bayonnais",
+    "club_name": "Aviron Bayonnais FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Aviron_Bayonnais_FC_logo.svg/250px-Aviron_Bayonnais_FC_logo.svg.png",
     "city_country": "Bayonne, France",
     "wiki_url": "https://en.wikipedia.org/wiki/Aviron_Bayonnais_FC"
@@ -11334,7 +11334,7 @@
     "wiki_url": "https://es.wikipedia.org/wiki/FC_Chauray"
   },
   {
-    "club_name": "Dinan Léhon",
+    "club_name": "Dinan Léhon FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Dinan_L%C3%A9hon_FC_logo.svg/250px-Dinan_L%C3%A9hon_FC_logo.svg.png",
     "city_country": "Dinan & Léhon, France",
     "wiki_url": "https://en.wikipedia.org/wiki/Dinan_L%C3%A9hon_FC"
@@ -22715,5 +22715,245 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/fc/Raja_B%C3%A9ni_Mellal_%28logo%29.svg/langfr-250px-Raja_B%C3%A9ni_Mellal_%28logo%29.svg.png",
     "city_country": "Béni Mellal, Morocco",
     "wiki_url": "https://fr.wikipedia.org/wiki/Raja_de_B%C3%A9ni_Mellal"
-  }
+  },
+  {
+    "club_name": "FCM Aubervilliers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/FCM_Aubervilliers_logo.svg/250px-FCM_Aubervilliers_logo.svg.png",
+    "city_country": "Paris, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/FCM_Aubervilliers"
+  },
+  {
+    "club_name": "Vendée Poiré-sur-Vie Football",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Vend%C3%A9e_Poir%C3%A9-sur-Vie_Football_logo.svg/250px-Vend%C3%A9e_Poir%C3%A9-sur-Vie_Football_logo.svg.png",
+    "city_country": "Le Poiré-sur-Vie, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vend%C3%A9e_Poir%C3%A9-sur-Vie_Football"
+  },
+  {
+    "club_name": "Les Genêts d'Anglet Football",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Gen%C3%AAts_Anglet_logo.svg/250px-Gen%C3%AAts_Anglet_logo.svg.png",
+    "city_country": "Anglet, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Les_Gen%C3%AAts_d%27Anglet"
+  },
+  {
+    "club_name": "Jura Sud Foot",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Jura_Sud_Foot_logo.svg/250px-Jura_Sud_Foot_logo.svg.png",
+    "city_country": "Lavans-lès-Saint-Claude, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jura_Sud_Foot"
+  },
+  {
+    "club_name": "AS Gosier",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/AS_Gosier_logo.png/250px-AS_Gosier_logo.png",
+    "city_country": "Le Gosier, Guadeloupe",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Gosier"
+  },
+  {
+    "club_name": "ASC Le Geldar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/66/ASC_Le_Geldar_de_Kourou_logo.png",
+    "city_country": "Kourou, French Guiana",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASC_Le_Geldar"
+  },
+  {
+    "club_name": "Saint-Pauloise FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Saint_Pauloise_FC_logo.png/200px-Saint_Pauloise_FC_logo.png",
+    "city_country": "Saint-Paul, Réunion",
+    "wiki_url": "https://en.wikipedia.org/wiki/Saint-Pauloise_FC"
+  },
+      {
+      "club_name": "Şanlıurfaspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e3/Sanliurfaspor.gif",
+      "city_country": "Şanlıurfa, Turkey",
+      "wiki_url": "https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfaspor"
+    },
+    {
+      "club_name": "Batman Petrolspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/c/c9/Batman_Petrolspor_2023.png/250px-Batman_Petrolspor_2023.png",
+      "city_country": "Batman, Turkey",
+      "wiki_url": "https://en.wikipedia.org/wiki/Batman_Petrolspor"
+    },
+    {
+      "club_name": "Elazığspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Elazigspor.png/200px-Elazigspor.png",
+      "city_country": "Elazığ, Turkey",
+      "wiki_url": "https://en.wikipedia.org/wiki/Elaz%C4%B1%C4%9Fspor"
+    },
+    {
+      "club_name": "GMG Kastamonuspor 1966",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Kastamonuspor_1966_crest.png/200px-Kastamonuspor_1966_crest.png",
+      "city_country": "Kastamonu, Turkey",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kastamonuspor_1966"
+    },
+    {
+      "club_name": "Adana 01 FK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/5/5f/Adana_01_FK.png/250px-Adana_01_FK.png",
+      "city_country": "Adana, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Adana_01_FK"
+    },
+    {
+      "club_name": "Altınordu FK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Altinordu_FK.png/250px-Altinordu_FK.png",
+      "city_country": "Izmir, Turkey",
+      "wiki_url": "https://en.wikipedia.org/wiki/Alt%C4%B1nordu"
+    },
+    {
+      "club_name": "Beykoz Anadoluspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/2/2d/Beykoz_Anadoluspor.png/250px-Beykoz_Anadoluspor.png",
+      "city_country": "Beykoz, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Beykoz_Anadoluspor"
+    },
+    {
+      "club_name": "Kepezspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/3/3b/Kepezsporlogo.png/250px-Kepezsporlogo.png",
+      "city_country": "Antalya, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Kepezspor_(1995)"
+    },
+    {
+      "club_name": "Muğlaspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/c/c8/Mu%C4%9Flaspor.png/250px-Mu%C4%9Flaspor.png",
+      "city_country": "Muğla, Turkey",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mu%C4%9Flaspor"
+    },
+    {
+      "club_name": "Ankaraspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/7/78/Sincan_Belediyesi_Ankaraspor.png/250px-Sincan_Belediyesi_Ankaraspor.png",
+      "city_country": "Ankara, Turkey",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ankaraspor"
+    },
+    {
+      "club_name": "Osmanlıspor (Defunct)",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Osmanl%C4%B1spor_FK_logo.png/250px-Osmanl%C4%B1spor_FK_logo.png",
+      "city_country": "Ankara, Turkey",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ankaraspor"
+    },
+    {
+      "club_name": "İskenderunspor A.Ş.",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/a/a9/Iskenderunspor_2025.png/250px-Iskenderunspor_2025.png",
+      "city_country": "İskenderun, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/%C4%B0skenderunspor_(1978)"
+    },
+    {
+      "club_name": "Beyoğlu Yeni Çarşı SF",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/8/8f/Beyoglu_yeni_carsi_sf.png/250px-Beyoglu_yeni_carsi_sf.png",
+      "city_country": "Istanbul, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Beyo%C4%9Flu_Yeni_%C3%87ar%C5%9F%C4%B1_SF"
+    },
+    {
+      "club_name": "Menemen FK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/8/85/Menemenfk.png/250px-Menemenfk.png",
+      "city_country": "Izmir, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Menemen_FK"
+    },
+    {
+      "club_name": "1461 Trabzon FK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/9/91/1461_Trabzon_FK.png/250px-1461_Trabzon_FK.png",
+      "city_country": "Trabzon, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/1461_Trabzon_FK"
+    },
+    {
+      "club_name": "Ankara Demirspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/f/ff/Ankarademirspor.png/250px-Ankarademirspor.png",
+      "city_country": "Ankara, Turkey",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ankara_Demirspor"
+    },
+    {
+      "club_name": "Arnavutköy Belediyespor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/0/0b/Arnavutk%C3%B6y_Belediyespor_logo.png/250px-Arnavutk%C3%B6y_Belediyespor_logo.png",
+      "city_country": "Istanbul, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Arnavutk%C3%B6y_Belediyespor"
+    },
+    {
+      "club_name": "İnegölspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/9/96/%C4%B0negolspor1.png",
+      "city_country": "İnegöl, Turkey",
+      "wiki_url": "https://en.wikipedia.org/wiki/%C4%B0neg%C3%B6lspor"
+    },
+    {
+      "club_name": "Karacabey Belediyespor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/4/42/Karacabey_Belediyespor.png/250px-Karacabey_Belediyespor.png",
+      "city_country": "Karacabey, Turkey",
+      "wiki_url": "https://en.wikipedia.org/wiki/Karacabey_Belediyespor"
+    },
+    {
+      "club_name": "Fethiyespor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/3/32/Fethiyespor.png/250px-Fethiyespor.png",
+      "city_country": "Fethiye, Turkey",
+      "wiki_url": "https://en.wikipedia.org/wiki/Fethiyespor"
+    },
+    {
+      "club_name": "Mardin 1969 SK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/4/47/Mardin_1969_SK.png/250px-Mardin_1969_SK.png",
+      "city_country": "Mardin, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Mardin_1969_SK"
+    },
+    {
+      "club_name": "Muşspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/1/1b/Musspor.png/250px-Musspor.png",
+      "city_country": "Muş, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Mu%C5%9Fspor_(2015)"
+    },
+    {
+      "club_name": "Kırklarelispor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/9/97/K%C4%B1rklarelispor.png/250px-K%C4%B1rklarelispor.png",
+      "city_country": "Kırklareli, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/K%C4%B1rklarelispor"
+    },
+    {
+      "club_name": "24 Erzincanspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/6/65/24_Erzincanspor.png/250px-24_Erzincanspor.png",
+      "city_country": "Erzincan, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/24_Erzincanspor"
+    },
+    {
+      "club_name": "Karaman FK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/9/93/Karaman_FK_Logo.png/250px-Karaman_FK_Logo.png",
+      "city_country": "Karaman, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Karaman_FK"
+    },
+    {
+      "club_name": "68 Aksaray BS",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/b/bd/68AksarayBelediyespor.png/250px-68AksarayBelediyespor.png",
+      "city_country": "Aksaray, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/68_Aksaray_Belediyespor"
+    },
+    {
+      "club_name": "Bucaspor 1928",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/f/fb/Bucaspor.png/250px-Bucaspor.png",
+      "city_country": "Buca, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Bucaspor_1928"
+    },
+    {
+      "club_name": "Somaspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/8/89/Somaspor.png/250px-Somaspor.png",
+      "city_country": "Soma, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Somaspor"
+    },
+    {
+      "club_name": "Kahramanmaraş İstiklalspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/6/66/Kahramanmara%C5%9F_%C4%B0stiklalspor.png/250px-Kahramanmara%C5%9F_%C4%B0stiklalspor.png",
+      "city_country": "Kahramanmaraş, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Kahramanmara%C5%9F_%C4%B0stiklalspor"
+    },
+    {
+      "club_name": "Isparta 32 SK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/f/fe/Isparta32spor.png/250px-Isparta32spor.png",
+      "city_country": "Isparta, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Isparta_32_SK"
+    },
+    {
+      "club_name": "Erbaaspor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/d/d3/Erbaa_spor_kul%C3%BCb%C3%BC_logosu.png/250px-Erbaa_spor_kul%C3%BCb%C3%BC_logosu.png",
+      "city_country": "Erbaa, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Erbaaspor"
+    },
+    {
+      "club_name": "Aliağa FK",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/6/64/Alia%C4%9Fa_FK.png/250px-Alia%C4%9Fa_FK.png",
+      "city_country": "Aliağa, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/Alia%C4%9Fa_FK"
+    },
+    {
+      "club_name": "Güzide Gebzespor",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/a/a2/Guz%C4%B1de_gebzespor.png/250px-Guz%C4%B1de_gebzespor.png",
+      "city_country": "Gebze, Turkey",
+      "wiki_url": "https://tr.wikipedia.org/wiki/G%C3%BCzide_Gebzespor"
+    }
 ]

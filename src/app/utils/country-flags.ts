@@ -242,5 +242,6 @@ export const COUNTRY_FLAG_MAP: { [key: string]: string } = {
   'mayotte': 'yt',
   'saint pierre and miquelon': 'pm',
   'wallis and futuna': 'wf',
-  'macau': 'mo'
+  'macau': 'mo',
+  'réunion': 're',
 };
