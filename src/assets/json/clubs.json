@@ -22758,7 +22758,7 @@
     "city_country": "Saint-Paul, Réunion",
     "wiki_url": "https://en.wikipedia.org/wiki/Saint-Pauloise_FC"
   },
-      {
+  {
       "club_name": "Şanlıurfaspor",
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e3/Sanliurfaspor.gif",
       "city_country": "Şanlıurfa, Turkey",
@@ -22955,5 +22955,89 @@
       "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/a/a2/Guz%C4%B1de_gebzespor.png/250px-Guz%C4%B1de_gebzespor.png",
       "city_country": "Gebze, Turkey",
       "wiki_url": "https://tr.wikipedia.org/wiki/G%C3%BCzide_Gebzespor"
+    },
+    {
+      "club_name": "Ballyclare Comrades",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Ballyclare_Comrades.png/250px-Ballyclare_Comrades.png",
+      "city_country": "Ballyclare, Northern Ireland",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ballyclare_Comrades_F.C."
+    },
+    {
+      "club_name": "Ballymacash Rangers",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Ballymacash_Rangers_F.C._logo.png/250px-Ballymacash_Rangers_F.C._logo.png",
+      "city_country": "Lisburn, Northern Ireland",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ballymacash_Rangers_F.C."
+    },
+    {
+      "club_name": "Banbridge Town",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/19/Banbridge_Town.png",
+      "city_country": "Banbridge, Northern Ireland",
+      "wiki_url": "hhttps://en.wikipedia.org/wiki/Banbridge_Town_F.C."
+    },
+    {
+      "club_name": "Coagh United",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Coagh_United.png/250px-Coagh_United.png",
+      "city_country": "Coagh, Northern Ireland",
+      "wiki_url": "https://en.wikipedia.org/wiki/Coagh_United_F.C."
+    },
+    {
+      "club_name": "Dergview FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Dergview.png/250px-Dergview.png",
+      "city_country": "Castlederg, Northern Ireland",
+      "wiki_url": "https://en.wikipedia.org/wiki/Dergview_F.C."
+    },
+    {
+      "club_name": "Dollingstown FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/99/Dollingstown_F.C._badge.jpg",
+      "city_country": "Dollingstown, Northern Ireland",
+      "wiki_url": "https://en.wikipedia.org/wiki/Dollingstown_F.C."
+    },
+    {
+      "club_name": "Knockbreda FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Knockbreda_F.C.png/250px-Knockbreda_F.C.png",
+      "city_country": "Belfast, Northern Ireland",
+      "wiki_url": "https://en.wikipedia.org/wiki/Knockbreda_F.C."
+    },
+    {
+      "club_name": "Lisburn Distillery FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Distillery.png/250px-Distillery.png",
+      "city_country": "Lisburn, Northern Ireland",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lisburn_Distillery_F.C."
+    },
+    {
+      "club_name": "Moyola Park AFC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Moyola_Park_FC_logo.png/250px-Moyola_Park_FC_logo.png",
+      "city_country": "Castledawson, Northern Ireland",
+      "wiki_url": "https://en.wikipedia.org/wiki/Moyola_Park_F.C."
+    },
+    {
+      "club_name": "Newry City AFC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4a/Newry_City_A.F.C.png",
+      "city_country": "Newry, Northern Ireland",
+      "wiki_url": "https://en.wikipedia.org/wiki/Newry_City_A.F.C."
+    },
+    {
+      "club_name": "Oxford Sunnyside FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Oxford_Sunnyside_F.C._logo.png/250px-Oxford_Sunnyside_F.C._logo.png",
+      "city_country": "Lurgan, Northern Ireland",
+      "wiki_url": "https://en.wikipedia.org/wiki/Oxford_Sunnyside_F.C."
+    },
+    {
+      "club_name": "Portstewart",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Portstewart_FC.png/250px-Portstewart_FC.png",
+      "city_country": "Portstewart, Northern Ireland",
+      "wiki_url": "https://en.wikipedia.org/wiki/Portstewart_F.C."
+    },
+    {
+      "club_name": "Rathfriland Rangers",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Rathfriland_Rangers_FC.png/250px-Rathfriland_Rangers_FC.png",
+      "city_country": "Rathfriland, Northern Ireland",
+      "wiki_url": "https://en.wikipedia.org/wiki/Rathfriland_Rangers_F.C."
+    },
+    {
+      "club_name": "Strabane Athletic",
+      "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ8Eg48HV5KH4FOkfwBofYbXE-iKFjFGEc6g&s",
+      "city_country": "Strabane, Northern Ireland",
+      "wiki_url": "https://en.wikipedia.org/wiki/Strabane_Athletic_F.C."
     }
 ]
