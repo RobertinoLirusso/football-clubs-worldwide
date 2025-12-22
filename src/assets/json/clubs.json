@@ -4806,13 +4806,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Chonburi_F.C."
   },
   {
-    "club_name": "Police Tero",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOsJ8Dz4gqE6HCNOBGzV7ioyENdvddfIikW8kHvs1BaCJqXFgu_7WaYR1Or0r8UF50Z4rdkVYr0y87lc2vOSD8GygEG7bQerztB-xqUC9QWvDjt_FxZ0B3I3yBKKHBKFd7XgnOz2YiNp4/s1600/Police+Tero+FC256x.png",
+    "club_name": "Police Tero FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Police_Tero%2C_2018.png/250px-Police_Tero%2C_2018.png",
     "city_country": "Bangkok, Thailand",
     "wiki_url": "https://en.wikipedia.org/wiki/Police_Tero_F.C."
   },
   {
-    "club_name": "Nakhon Ratchasima",
+    "club_name": "Nakhon Ratchasima FC",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI1bKAIa1fsUbeNfVW-hG0iRIQkGE_BsT0OYw8upUPrNkri7_f_DdWMqUrq1xifX2yPnvhoM5tla_IGTo2eyhvaUICa5_P1dc7zzW7zZjXTR3DIJ5kbPlhO4AJc-3JbQeX42jzgJHDew8/s1600/Nakhon+Ratchasima+FC256x.png",
     "city_country": "Nakhon Ratchasima, Thailand",
     "wiki_url": "https://en.wikipedia.org/wiki/Nakhon_Ratchasima_F.C."
@@ -4837,8 +4837,8 @@
   },
   {
     "club_name": "Muangthong United",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicwggDVpP3h9nF5ybof0wEFEvQ4DVinIVUoDZjhEiEO0jVUDFF16wgdu3kKNja1P-XH_jAbr1e0QTJA2rmvFYmnuAiMWmZvyvYaZisfrzzk8ZX4oVHfkxTAjoUyqw-E2VQa0CeATgomaw/s1600/SCG+Muangthong+United256x.png",
-    "city_country": "Nonthaburi, Thailand",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/MTUTD.png/250px-MTUTD.png",
+    "city_country": "Pak Kret, Thailand",
     "wiki_url": "https://en.wikipedia.org/wiki/Muangthong_United_F.C."
   },
   {
@@ -18397,7 +18397,7 @@
   },
   {
     "club_name": "South Island United",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/South_Island_United_FC.png/250px-South_Island_United_FC.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/South_Island_United_FC_logo.svg/250px-South_Island_United_FC_logo.svg.png",
     "city_country": "Christchurch, New Zealand",
     "wiki_url": "https://en.wikipedia.org/wiki/South_Island_United_FC"
   },
@@ -23039,5 +23039,59 @@
       "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ8Eg48HV5KH4FOkfwBofYbXE-iKFjFGEc6g&s",
       "city_country": "Strabane, Northern Ireland",
       "wiki_url": "https://en.wikipedia.org/wiki/Strabane_Athletic_F.C."
+    },
+    {
+      "club_name": "Ayutthaya United",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Ayutthaya_United_F.C._logo.png/250px-Ayutthaya_United_F.C._logo.png",
+      "city_country": "Ayutthaya, Thailand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ayutthaya_United_F.C."
+    },
+    {
+      "club_name": "Bangkok United",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Bangkok_United%2C_2018.png/250px-Bangkok_United%2C_2018.png",
+      "city_country": "Thanyaburi, Thailand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Bangkok_United_F.C."
+    },
+    {
+      "club_name": "Kanchanaburi Power",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Kanchanaburi_Football_Club_2021.png/250px-Kanchanaburi_Football_Club_2021.png",
+      "city_country": "Mueang Kanchanaburi, Thailand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kanchanaburi_Power_F.C."
+    },
+    {
+      "club_name": "Lamphun Warriors",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Lamphun_warrior_2013.png/250px-Lamphun_warrior_2013.png",
+      "city_country": "Lamphun, Thailand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lamphun_Warriors_F.C."
+    },
+    {
+      "club_name": "Port FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Port_FC_logo.svg/250px-Port_FC_logo.svg.png",
+      "city_country": "Bangkok, Thailand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Port_F.C."
+    },
+    {
+      "club_name": "PT Prachuap",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/PT_Prachuap_2018_logo.png/250px-PT_Prachuap_2018_logo.png",
+      "city_country": "Prachuap Khiri Khan, Thailand",
+      "wiki_url": "https://en.wikipedia.org/wiki/PT_Prachuap_F.C."
+    },
+    {
+      "club_name": "Sukhothai FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Sukhothai_FC_2020.png/250px-Sukhothai_FC_2020.png",
+      "city_country": "Sukhothai, Thailand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sukhothai_F.C."
+    },
+    {
+      "club_name": "Uthai Thani FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Uthai_Thani_FC_2020.png/250px-Uthai_Thani_FC_2020.png",
+      "city_country": "Uthai Thani, Thailand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Uthai_Thani_F.C."
+    },
+    {
+      "club_name": "Muangkan United (Defunct)",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Muangkan_United_2020.png/250px-Muangkan_United_2020.png",
+      "city_country": "Kanchaburi, Thailand",
+      "wiki_url": "https://en.wikipedia.org/wiki/Muangkan_United_F.C."
     }
 ]
