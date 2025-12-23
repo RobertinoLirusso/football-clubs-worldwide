@@ -23093,5 +23093,125 @@
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Muangkan_United_2020.png/250px-Muangkan_United_2020.png",
       "city_country": "Kanchaburi, Thailand",
       "wiki_url": "https://en.wikipedia.org/wiki/Muangkan_United_F.C."
-    }
+    },
+      {
+    "club_name": "Bangkok FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Bangkok_FC%2C_2019.png/250px-Bangkok_FC%2C_2019.png",
+    "city_country": "Bangkok, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bangkok_FC"
+  },
+  {
+    "club_name": "Kasetsart FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Kasetsart_University_F.C._logo.png/250px-Kasetsart_University_F.C._logo.png",
+    "city_country": "Bangkok, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kasetsart_F.C."
+  },
+  {
+    "club_name": "Chainat Hornbill FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Chainat_Hornbill_2017.png/250px-Chainat_Hornbill_2017.png",
+    "city_country": "Chanthaburi, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chainat_Hornbill_F.C."
+  },
+  {
+    "club_name": "Chanthaburi FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Logo_of_Chanthaburi_F.C.png/250px-Logo_of_Chanthaburi_F.C.png",
+    "city_country": "Chanthaburi, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chanthaburi_F.C."
+  },
+  {
+    "club_name": "Chiangmai United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Chiangmai_United_logo_2019.png/250px-Chiangmai_United_logo_2019.png",
+    "city_country": "Chiang Mai, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chiangmai_United_F.C."
+  },
+  {
+    "club_name": "Khon Kaen United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/KKUTDLOGO.png/250px-KKUTDLOGO.png",
+    "city_country": "Khon Kaen, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Khon_Kaen_United_F.C."
+  },
+  {
+    "club_name": "Mahasarakham SBT FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Mahasarakham_SBT_F.C._logo_2025_version.png/250px-Mahasarakham_SBT_F.C._logo_2025_version.png",
+    "city_country": "Mahasarakham, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mahasarakham_SBT_F.C."
+  },
+  {
+    "club_name": "Nakhon Pathom United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Nakhon_Pathom_United_logo_2022.png/250px-Nakhon_Pathom_United_logo_2022.png",
+    "city_country": "Nakhon Pathom, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nakhon_Pathom_United_F.C."
+  },
+  {
+    "club_name": "Nakhon Si United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Nakhon_Si_United_2019.png/249px-Nakhon_Si_United_2019.png",
+    "city_country": "Nakhon Si Thammarat, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nakhon_Si_United_F.C."
+  },
+  {
+    "club_name": "Nongbua Pitchaya FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Nongbua_Pitchaya_F.C._logo_2017.png/250px-Nongbua_Pitchaya_F.C._logo_2017.png",
+    "city_country": "Nong Bua Lamphu, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nongbua_Pitchaya_F.C."
+  },
+  {
+    "club_name": "Pattani FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Pattani_FC_Logo.png/250px-Pattani_FC_Logo.png",
+    "city_country": "Pattani, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pattani_F.C."
+  },
+  {
+    "club_name": "Phrae United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/49/Phraeunitedlogo2.jpg",
+    "city_country": "Phrae, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Phrae_United_F.C."
+  },
+  {
+    "club_name": "Rasisalai United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Rasisalai_United_logo.png/250px-Rasisalai_United_logo.png",
+    "city_country": "Rasi Salai, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rasisalai_United_F.C."
+  },
+  {
+    "club_name": "Songkhla FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Songkhla_2011.png/250px-Songkhla_2011.png",
+    "city_country": "Songkhla, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Songkhla_F.C."
+  },
+  {
+    "club_name": "Pattaya United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Pattaya_Dolphins_United_logo.png/250px-Pattaya_Dolphins_United_logo.png",
+    "city_country": "Pattaya, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pattaya_United_F.C._(2023)"
+  },
+  {
+    "club_name": "Pattaya United (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Pattaya_United_F.C..png/250px-Pattaya_United_F.C..png",
+    "city_country": "Pattaya, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pattaya_United_F.C._(2008)"
+  },
+  {
+    "club_name": "Samut Prakan City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Samut_Prakan_City_FC.png/250px-Samut_Prakan_City_FC.png",
+    "city_country": "Samut Prakan, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Samut_Prakan_City_F.C."
+  },
+  {
+    "club_name": "Pluakdaeng United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/PluakdangRayongUnitedlogo.jpg/228px-PluakdangRayongUnitedlogo.jpg",
+    "city_country": "Rayong, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pluakdaeng_United_F.C."
+  },
+  {
+    "club_name": "Sisaket United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%AA%E0%B8%B0%E0%B9%80%E0%B8%81%E0%B8%A9_%E0%B8%A2%E0%B8%B9%E0%B9%84%E0%B8%99%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%94.png",
+    "city_country": "Sisaket, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sisaket_United_F.C."
+  },
+  {
+    "club_name": "Trat FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Trat_fc_2012.png/180px-Trat_fc_2012.png",
+    "city_country": "Trat, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Trat_F.C."
+  }
 ]
