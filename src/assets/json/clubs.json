@@ -23213,5 +23213,65 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Trat_fc_2012.png/180px-Trat_fc_2012.png",
     "city_country": "Trat, Thailand",
     "wiki_url": "https://en.wikipedia.org/wiki/Trat_F.C."
-  }
+  },
+      {
+      "club_name": "Al Ahli SC (Amman)",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Ahli_Club_Amman_logo.jpg/200px-Ahli_Club_Amman_logo.jpg",
+      "city_country": "Amman, Jordan",
+      "wiki_url": "https://en.wikipedia.org/wiki/Al-Ahli_SC_(Amman)"
+    },
+    {
+      "club_name": "Al-Baqa'a SC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Al_Buqa%27a.png/250px-Al_Buqa%27a.png",
+      "city_country": "Ain Al-Basha, Jordan",
+      "wiki_url": "https://en.wikipedia.org/wiki/Al-Baqa%27a_SC"
+    },
+    {
+      "club_name": "Al-Hussein Irbid",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Al-Hussein_SC_%28Irbid%29_-_2025_logo.png/250px-Al-Hussein_SC_%28Irbid%29_-_2025_logo.png",
+      "city_country": "Irbid, Jordan",
+      "wiki_url": "https://en.wikipedia.org/wiki/Al-Hussein_SC_(Irbid)"
+    },
+    {
+      "club_name": "Al-Jazeera SC (Amman)",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Al_Jazeera_Club.png/215px-Al_Jazeera_Club.png",
+      "city_country": "Amman, Jordan",
+      "wiki_url": "https://en.wikipedia.org/wiki/Al-Jazeera_SC_(Amman)"
+    },
+    {
+      "club_name": "Al-Ramtha SC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Al-Ramtha_SC_Logo.png/250px-Al-Ramtha_SC_Logo.png",
+      "city_country": "Ar-Ramtha, Jordan",
+      "wiki_url": "https://en.wikipedia.org/wiki/Al-Ramtha_SC"
+    },
+    {
+      "club_name": "Al-Salt SC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Al-Salt_SC.png/200px-Al-Salt_SC.png",
+      "city_country": "AS-Salt, Jordan",
+      "wiki_url": "https://en.wikipedia.org/wiki/Al-Salt_SC"
+    },
+    {
+      "club_name": "Sama Al-Sarhan SC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Sama_Al-Sarhan_logo.png/250px-Sama_Al-Sarhan_logo.png",
+      "city_country": "Badiah Gharbiyah, Jordan",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sama_Al-Sarhan_SC"
+    },
+    {
+      "club_name": "Al-Wehdat SC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Al-Wehdat_SC_%28logo%29.png/247px-Al-Wehdat_SC_%28logo%29.png",
+      "city_country": "Amman, Jordan",
+      "wiki_url": "https://en.wikipedia.org/wiki/Al-Wehdat_SC"
+    },
+    {
+      "club_name": "Shabab Al-Ordon Club",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Shabab_Al_Ordon_Club_%28logo%29.png/250px-Shabab_Al_Ordon_Club_%28logo%29.png",
+      "city_country": "Amman, Jordan",
+      "wiki_url": "https://en.wikipedia.org/wiki/Shabab_Al-Ordon_SC"
+    },
+    {
+      "club_name": "Al-Hussein SC (Baghdad)",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Al-Hussein_FC_%28Baghdad%29_logo.png/250px-Al-Hussein_FC_%28Baghdad%29_logo.png",
+      "city_country": "Baghdad, Iraq",
+      "wiki_url": "https://en.wikipedia.org/wiki/Al-Hussein_SC_(Iraq)"
+    }
 ]
