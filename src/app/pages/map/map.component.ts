@@ -22,8 +22,8 @@ export class MapComponent implements AfterViewInit, OnInit {
 
 
   // Configuración de vista global
-  private defaultCenter: [number, number] = [20, 0];
-  private defaultZoom: number = 2;
+  private defaultCenter: [number, number] = [0, 0];
+  private defaultZoom: number = 1.5;
   private stadiumZoom: number = 16; // zoom profundo para estadio
 
   constructor(
