@@ -1,8 +1,122 @@
 [
   {
-    "club_name": "Al-Gharraf SC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Al-Gharraf_SC_logo.png/250px-Al-Gharraf_SC_logo.png",
-    "city_country": "Dhi Qar, Iraq",
-    "wiki_url": "https://en.wikipedia.org/wiki/Al-Gharraf_SC"
+    "club_name": "Al Arabi SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Al-Arabi_SC_logo.png/250px-Al-Arabi_SC_logo.png",
+    "city_country": "Kuwait City, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Arabi_SC_(Kuwait)"
+  },
+  {
+    "club_name": "Al Qadsia SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Qadsia_SC_Crest.svg/250px-Qadsia_SC_Crest.svg.png",
+    "city_country": "Kuwait City, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Qadsia_SC"
+  },
+  {
+    "club_name": "Al Salmiya SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Al-SalmiyaClub.png/250px-Al-SalmiyaClub.png",
+    "city_country": "Salmiya, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Salmiya_SC"
+  },
+  {
+    "club_name": "Al Fahaheel SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Fahaheel_.png/250px-Fahaheel_.png",
+    "city_country": "Kuwait City, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Fahaheel_SC"
+  },
+  {
+    "club_name": "Al Nasr SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/NaserClub.png/250px-NaserClub.png",
+    "city_country": "Farwaniya, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Nasr_SC_(Kuwait)"
+  },
+  {
+    "club_name": "Kazma SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/KazmaSC.png/241px-KazmaSC.png",
+    "city_country": "Adiliya, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kazma_SC"
+  },
+  {
+    "club_name": "Al Shabab SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Al_Shabab_Kuwait.png/250px-Al_Shabab_Kuwait.png",
+    "city_country": "Al Ahmadi, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Shabab_SC_(Kuwait)"
+  },
+  {
+    "club_name": "Al Tadhamon SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Al-TadamonClub.png/250px-Al-TadamonClub.png",
+    "city_country": "Farwaniya, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Tadamon_SC_(Kuwait)"
+  },
+  {
+    "club_name": "Al Jahra SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/f/f8/Al-Jahra_SC_blue.png",
+    "city_country": "Jahra, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Jahra_SC"
+  },
+  {
+    "club_name": "A'Ali SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/f/f7/A%27Ali_SC.png",
+    "city_country": "A'ali, Bahrain",
+    "wiki_url": "https://en.wikipedia.org/wiki/A%27Ali_SC"
+  },
+  {
+    "club_name": "Al-Ahli Club of Manama",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Al-Ahli_Club.png/250px-Al-Ahli_Club.png",
+    "city_country": "Manama, Bahrain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Ahli_Club_(Manama)"
+  },
+  {
+    "club_name": "Al-Khalidiya SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Al-Khaldiya_SC_logo.png/330px-Al-Khaldiya_SC_logo.png",
+    "city_country": "Riffa, Bahrain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Khaldiya_SC"
+  },
+  {
+    "club_name": "Al-Najma SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/66/Al_Najma_Sports_club_%28Official%29.png",
+    "city_country": "Manama, Bahrain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Najma_SC_(Bahrain)"
+  },
+  {
+    "club_name": "Al-Riffa SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Riffa_Sports_Club.png/250px-Riffa_Sports_Club.png",
+    "city_country": "Riffa, Bahrain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Riffa_SC"
+  },
+  {
+    "club_name": "Al-Shabab Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Al-Shabab_Club.png/250px-Al-Shabab_Club.png",
+    "city_country": "Manama, Bahrain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Shabab_Club_(Manama)"
+  },
+  {
+    "club_name": "Bahrain SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/BahrainClub.png/250px-BahrainClub.png",
+    "city_country": "Muharraq, Bahrain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bahrain_SC"
+  },
+  {
+    "club_name": "East Riffa Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/East_Riffa_Club_%28logo%29.jpg/250px-East_Riffa_Club_%28logo%29.jpg",
+    "city_country": "Riffa, Bahrain",
+    "wiki_url": "https://en.wikipedia.org/wiki/East_Riffa_Club"
+  },
+  {
+    "club_name": "Manama Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Manama_Club.png/232px-Manama_Club.png",
+    "city_country": "Manama, Bahrain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Manama_Club_(football)"
+  },
+  {
+    "club_name": "Malkiya Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Malkiya_Club.png/200px-Malkiya_Club.png",
+    "city_country": "Malkiya, Bahrain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Malkiya_Club"
+  },
+  {
+    "club_name": "Sitra Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Setra_Club.png/250px-Setra_Club.png",
+    "city_country": "Sitra, Bahrain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sitra_Club"
   }
 ]  

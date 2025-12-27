@@ -1,124 +1,43 @@
 [
-  {
-    "stadium_name": "Stamford Bridge",
-    "lat": 51.481667,
-    "lon": -0.191111,
-    "team": "Chelsea"
-  },
-  {
-    "stadium_name": "Emirates Stadium",
-    "lat": 51.5549,
-    "lon": -0.1084,
-    "team": "Arsenal"
-  },
-  {
-    "stadium_name": "Villa Park",
-    "lat": 52.5091,
-    "lon": -1.8848,
-    "team": "Aston Villa"
-  },
-  {
-    "stadium_name": "Vitality Stadium",
-    "lat": 50.7352,
-    "lon": -1.8383,
-    "team": "Bournemouth"
-  },
-  {
-    "stadium_name": "Brentford Community Stadium",
-    "lat": 51.4908,
-    "lon": -0.2887,
-    "team": "Brentford"
-  },
-  {
-    "stadium_name": "Falmer Stadium",
-    "lat": 50.8618,
-    "lon": -0.0833,
-    "team": "Brighton & Hove Albion"
-  },
-  {
-    "stadium_name": "Turf Moor",
-    "lat": 53.7892,
-    "lon": -2.2302,
-    "team": "Burnley"
-  },
-  {
-    "stadium_name": "Selhurst Park",
-    "lat": 51.3983,
-    "lon": -0.0855,
-    "team": "Crystal Palace"
-  },
-  {
-    "stadium_name": "Goodison Park",
-    "lat": 53.4389,
-    "lon": -2.9664,
-    "team": "Everton"
-  },
-  {
-    "stadium_name": "Craven Cottage",
-    "lat": 51.4751,
-    "lon": -0.2217,
-    "team": "Fulham"
-  },
-  {
-    "stadium_name": "Anfield",
-    "lat": 53.4308,
-    "lon": -2.9608,
-    "team": "Liverpool"
-  },
-  {
-    "stadium_name": "Kenilworth Road",
-    "lat": 51.8842,
-    "lon": -0.4314,
-    "team": "Luton Town"
-  },
-  {
-    "stadium_name": "Etihad Stadium",
-    "lat": 53.4831,
-    "lon": -2.2003,
-    "team": "Manchester City"
-  },
-  {
-    "stadium_name": "Old Trafford",
-    "lat": 53.4631,
-    "lon": -2.2913,
-    "team": "Manchester United"
-  },
-  {
-    "stadium_name": "St. James' Park",
-    "lat": 54.9756,
-    "lon": -1.6217,
-    "team": "Newcastle United"
-  },
-  {
-    "stadium_name": "City Ground",
-    "lat": 52.9399,
-    "lon": -1.1327,
-    "team": "Nottingham Forest"
-  },
-  {
-    "stadium_name": "Bramall Lane",
-    "lat": 53.3703,
-    "lon": -1.4708,
-    "team": "Sheffield United"
-  },
-  {
-    "stadium_name": "St. Mary's Stadium",
-    "lat": 50.9058,
-    "lon": -1.3911,
-    "team": "Southampton"
-  },
-  {
-    "stadium_name": "Tottenham Hotspur Stadium",
-    "lat": 51.6044,
-    "lon": -0.0663,
-    "team": "Tottenham Hotspur"
-  },
-  {
-    "stadium_name": "London Stadium",
-    "lat": 51.5387,
-    "lon": -0.0166,
-    "team": "West Ham United"
-  },
+  {"stadium_name":"Stamford Bridge","lat":51.481667,"lon":-0.191111,"team":"Chelsea"},
+  {"stadium_name":"Emirates Stadium","lat":51.5549,"lon":-0.1084,"team":"Arsenal"},
+  {"stadium_name":"Villa Park","lat":52.5091,"lon":-1.8848,"team":"Aston Villa"},
+  {"stadium_name":"Vitality Stadium","lat":50.7352,"lon":-1.8383,"team":"Bournemouth"},
+  {"stadium_name":"Brentford Community Stadium","lat":51.4908,"lon":-0.2887,"team":"Brentford"},
+  {"stadium_name":"Falmer Stadium","lat":50.8618,"lon":-0.0833,"team":"Brighton & Hove Albion"},
+  {"stadium_name":"Turf Moor","lat":53.7892,"lon":-2.2302,"team":"Burnley"},
+  {"stadium_name":"Selhurst Park","lat":51.3983,"lon":-0.0855,"team":"Crystal Palace"},
+  {"stadium_name":"Craven Cottage","lat":51.4751,"lon":-0.2217,"team":"Fulham"},
+  {"stadium_name":"Anfield","lat":53.4308,"lon":-2.9608,"team":"Liverpool"},
+  {"stadium_name":"Etihad Stadium","lat":53.4831,"lon":-2.2003,"team":"Manchester City"},
+  {"stadium_name":"Old Trafford","lat":53.4631,"lon":-2.2913,"team":"Manchester United"},
+  {"stadium_name":"St. James' Park","lat":54.9756,"lon":-1.6217,"team":"Newcastle United"},
+  {"stadium_name":"City Ground","lat":52.9399,"lon":-1.1327,"team":"Nottingham Forest"},
+  {"stadium_name":"Hill Dickinson Stadium","lat":53.405,"lon":-2.994,"team":"Everton"},
+  {"stadium_name":"Elland Road","lat":53.777,"lon":-1.572,"team":"Leeds United"},
+  {"stadium_name":"Stadium of Light","lat":54.9143,"lon":-1.3815,"team":"Sunderland"},
+  {"stadium_name":"Tottenham Hotspur Stadium","lat":51.6044,"lon":-0.0663,"team":"Tottenham Hotspur"},
+  {"stadium_name":"London Stadium","lat":51.5387,"lon":-0.0166,"team":"West Ham United"},
+  {"stadium_name":"Goodison Park","lat":53.4389,"lon":-2.9664,"team":"Everton (Women´s Team)"},
+  {"stadium_name":"Stadio di Bergamo","lat":45.6696,"lon":9.7007,"team":"Atalanta"},
+  {"stadium_name":"Stadio Renato Dall’Ara","lat":44.5099,"lon":11.3345,"team":"Bologna"},
+  {"stadium_name":"Unipol Domus","lat":39.2333,"lon":9.1217,"team":"Cagliari"},
+  {"stadium_name":"Stadio Giuseppe Sinigaglia","lat":45.8120,"lon":9.0888,"team":"Como"},
+  {"stadium_name":"Stadio Giovanni Zini","lat":45.1321,"lon":10.0261,"team":"Cremonese"},
+  {"stadium_name":"Stadio Artemio Franchi","lat":43.8045,"lon":11.2459,"team":"Fiorentina"},
+  {"stadium_name":"Stadio Luigi Ferraris","lat":44.4194,"lon":8.9320,"team":"Genoa"},
+  {"stadium_name":"Stadio Marcantonio Bentegodi","lat":45.4386,"lon":10.9974,"team":"Hellas Verona"},
+  {"stadium_name":"Stadio Giuseppe Meazza","lat":45.4781,"lon":9.1231,"team":"AC Milan/Inter Milan"},
+  {"stadium_name":"Allianz Stadium","lat":45.1096,"lon":7.6413,"team":"Juventus"},
+  {"stadium_name":"Stadio Olimpico","lat":41.9339,"lon":12.4543,"team":"Lazio"},
+  {"stadium_name":"Stadio Olimpico","lat":41.9339,"lon":12.4543,"team":"Roma"},
+  {"stadium_name":"Stadio Via del Mare-Ettore Giardiniero","lat":40.3500,"lon":18.1750,"team":"Lecce"},
+  {"stadium_name":"Stadio Diego Armando Maradona","lat":40.8359,"lon":14.2488,"team":"Napoli"},
+  {"stadium_name":"Stadio Ennio Tardini","lat":44.8011,"lon":10.3270,"team":"Parma"},
+  {"stadium_name":"Cetilar® Arena","lat":43.6954,"lon":10.4040,"team":"Pisa"},
+  {"stadium_name":"Mapei Stadium - Città del Tricolore","lat":44.7158,"lon":10.6344,"team":"Sassuolo"},
+  {"stadium_name":"Stadio Olimpico Grande Torino","lat":45.0920,"lon":7.6579,"team":"Torino"},
+  {"stadium_name":"Bluenergy Stadium - Stadio Friuli","lat":46.0611,"lon":13.2494,"team":"Udinese"},
   {
     "stadium_name": "Estadi Johan Cruyff",
     "lat": 41.3478,
@@ -148,18 +67,6 @@
     "lat": 51.4926,
     "lon": 7.4519,
     "team": "Borussia Dortmund"
-  },
-  {
-    "stadium_name": "San Siro",
-    "lat": 45.4781,
-    "lon": 9.1239,
-    "team": "AC Milan / Inter Milan"
-  },
-  {
-    "stadium_name": "Juventus Stadium",
-    "lat": 45.1096,
-    "lon": 7.6413,
-    "team": "Juventus"
   },
   {
     "stadium_name": "Estadio da Luz",
