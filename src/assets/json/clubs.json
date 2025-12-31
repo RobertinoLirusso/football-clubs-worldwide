@@ -23885,5 +23885,119 @@
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Khor_Fakkan_SC.png/250px-Khor_Fakkan_SC.png",
       "city_country": "Khor Fakkan, United Arab Emirates",
       "wiki_url": "https://en.wikipedia.org/wiki/Khor_Fakkan_Club"
-    }
+    },
+      {
+    "club_name": "Deira Academy FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/8/88/Deira_Academy_FC_logo.png/200px-Deira_Academy_FC_logo.png",
+    "city_country": "Bujumbura, Burundi",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Deira_Academy_FC"
+  },
+  {
+    "club_name": "Aigle Noir Makamba FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/b/b5/Aigle_Noir_CS_logo.png/250px-Aigle_Noir_CS_logo.png",
+    "city_country": "Makamba, Burundi",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aigle_Noir_Makamba_FC"
+  },
+  {
+    "club_name": "Burundi Sport Dynamik New Look",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/a/a4/Sport_Dynamik_logo.png/250px-Sport_Dynamik_logo.png",
+    "city_country": "Bujumbura, Burundi",
+    "wiki_url": "https://en.wikipedia.org/wiki/Burundi_Sport_Dynamik_New_Look"
+  },
+  {
+    "club_name": "Bumamuru FC",
+    "club_logo": "https://images.seeklogo.com/logo-png/63/2/bumamuru-fc-logo-png_seeklogo-638072.png",
+    "city_country": "Buganda, Burundi",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bumamuru_FC"
+  },
+  {
+    "club_name": "Flambeau du Centre FC",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdWy71oAaZSp6IC94QU0inYHfkiQfE7tCbdg&s",
+    "city_country": "Gitega, Burundi",
+    "wiki_url": "https://en.wikipedia.org/wiki/Flambeau_du_Centre"
+  },
+  {
+    "club_name": "AS Inter Star",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/c/c0/Inter_Star_logo.png",
+    "city_country": "Bujumbura, Burundi",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Inter_Star"
+  },
+  {
+    "club_name": "Kayanza United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/1/1b/Kayanza_United_logo.png/180px-Kayanza_United_logo.png",
+    "city_country": "Kayanza, Burundi",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kayanza_United"
+  },
+  {
+    "club_name": "Le Messager Ngozi FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/6/6d/Le_Messager_Ngozi_FC_logo.png/225px-Le_Messager_Ngozi_FC_logo.png",
+    "city_country": "Ngozi, Burundi",
+    "wiki_url": "https://en.wikipedia.org/wiki/Le_Messager_Ngozi_FC"
+  },
+  {
+    "club_name": "LLB Amasipiri FC",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDfQOPsCOa7jJ12kYCGSTR-ViGnHKspt0F2g&s",
+    "city_country": "Makamba, Burundi",
+    "wiki_url": "https://www.facebook.com/p/Amasipiri-FC-100083066182395/"
+  },
+  {
+    "club_name": "Moso Sugar Company FC",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROgbR4EHm2mRf_FhQXU_K43DRGMleCNyCBqw&s",
+    "city_country": "Bujumbura, Burundi",
+    "wiki_url": "https://www.flashscore.com.ar/equipo/moso-sugar/8WUmTwgj/"
+  },
+  {
+    "club_name": "Musongati FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/a/a0/Musongati_FC_logo.png/250px-Musongati_FC_logo.png",
+    "city_country": "Gitega, Burundi",
+    "wiki_url": "https://en.wikipedia.org/wiki/Musongati_FC"
+  },
+  {
+    "club_name": "Ngozi City FC",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ14PAY5eVh8qdmOXcl5Ef_LVJh8jwG7_NtQQ&s",
+    "city_country": "Ngozi, Burundi",
+    "wiki_url": "https://www.flashscore.com.ar/equipo/ngozi-city/0l9PsUqL/"
+  },
+  {
+    "club_name": "Olympic Star Muyinga FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/57/Olympic_Star_Muyinga.png",
+    "city_country": "Muyinga, Burundi",
+    "wiki_url": "https://en.wikipedia.org/wiki/Olympic_Star_Muyinga_FC"
+  },
+  {
+    "club_name": "Royal Vision 2026 FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/8/8d/Royal_Vision_2026_FC_logo.png/200px-Royal_Vision_2026_FC_logo.png",
+    "city_country": "Muramvya, Burundi",
+    "wiki_url": "https://de.wikipedia.org/wiki/Royal_Vision_2026"
+  },
+  {
+    "club_name": "Rukinzo FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/1/12/Rukinzo_FC_logo.png/250px-Rukinzo_FC_logo.png",
+    "city_country": "Bujumbura, Burundi",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rukinzo_FC"
+  },
+  {
+    "club_name": "Vital'O FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Vital%27O_FC_logo.png/250px-Vital%27O_FC_logo.png",
+    "city_country": "Bujumbura, Burundi",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vital%27O_FC"
+  },
+  {
+    "club_name": "ASFA Yennenga",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4b/ASFA-Yennenga_logo.png",
+    "city_country": "Ouagadougou, Burkina Faso",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASFA_Yennenga"
+  },
+  {
+    "club_name": "Étoile Filante de Ouagadougou",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/EF_Ouagadougou_%28logo%29.png/250px-EF_Ouagadougou_%28logo%29.png",
+    "city_country": "Ouagadougou, Burkina Faso",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%89toile_Filante_de_Ouagadougou"
+  },
+  {
+    "club_name": "Rahimo FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/af/Rahimo_FC_logo.png",
+    "city_country": "Bobo-Dioulasso, Burkina Faso",
+    "wiki_url": "https://upload.wikimedia.org/wikipedia/en/a/af/Rahimo_FC_logo.png"
+  }
 ]
