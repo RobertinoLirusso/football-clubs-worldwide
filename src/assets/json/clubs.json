@@ -8755,7 +8755,7 @@
   },
   {
     "club_name": "FV Illertissen",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/FV_Illertissen_logo.svg/250px-FV_Illertissen_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Logo_of_FV_Illertissen.svg/250px-Logo_of_FV_Illertissen.svg.png",
     "city_country": "Illertissen, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/FV_Illertissen"
   },
@@ -13507,7 +13507,7 @@
   },
   {
     "club_name": "Bayern Alzenau",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/FC_Bayern_Alzenau_crest.svg/250px-FC_Bayern_Alzenau_crest.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/FC_Bayern_Alzenau_logo.svg/250px-FC_Bayern_Alzenau_logo.svg.png",
     "city_country": "Alzenau, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Bayern_Alzenau"
   },
@@ -19868,7 +19868,7 @@
   },
   {
     "club_name": "SV Lichtenberg 47",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/SV_Lichtenberg_47_logo.png/200px-SV_Lichtenberg_47_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/SV_Lichtenberg_47.svg/250px-SV_Lichtenberg_47.svg.png",
     "city_country": "Berlin, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/SV_Lichtenberg_47"
   },
@@ -22346,7 +22346,7 @@
   },
   {
     "club_name": "FC Merani Tbilisi",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/80/FC_Merani_Tbilisi_Logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/8/8d/Merani_T%27bilisi.png/250px-Merani_T%27bilisi.png",
     "city_country": "Tbilisi, Georgia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Merani_Tbilisi"
   },
@@ -23672,7 +23672,7 @@
     },
     {
       "club_name": "Tsirang FC",
-      "club_logo": "https://en.wikipedia.org/wiki/Ugyen_Academy_FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/b/b2/Tsirang_FC_logo.png/200px-Tsirang_FC_logo.png",
       "city_country": "Damphu, Bhutan",
       "wiki_url": "https://de.wikipedia.org/wiki/Tsirang_FC"
     },
@@ -23999,5 +23999,143 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/af/Rahimo_FC_logo.png",
     "city_country": "Bobo-Dioulasso, Burkina Faso",
     "wiki_url": "https://upload.wikimedia.org/wikipedia/en/a/af/Rahimo_FC_logo.png"
+  },
+  {
+    "club_name": "Adama City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/FC_Adama_City.png/250px-FC_Adama_City.png",
+    "city_country": "Adama, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Adama_City_FC"
+  },
+  {
+    "club_name": "Arba Minch City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/7/76/Arba_Minch_City_FC.png/250px-Arba_Minch_City_FC.png",
+    "city_country": "Arba Minch, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Arba_Minch_City_FC"
+  },
+  {
+    "club_name": "Bahir Dar Kenema FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Bahir_Dar_Kenema.png/250px-Bahir_Dar_Kenema.png",
+    "city_country": "Bahir Dar, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bahir_Dar_Kenema_FC"
+  },
+  {
+    "club_name": "Commercial Bank of Ethiopia SA",
+    "club_logo": "https://soccer.et/wp-content/uploads/2023/04/banks.png",
+    "city_country": "Addis Ababa, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/CBE_SA"
+  },
+  {
+    "club_name": "Dire Dawa City SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/7/79/Dire_Dawa_City_SC.png/250px-Dire_Dawa_City_SC.png",
+    "city_country": "Dire Dawa, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dire_Dawa_City_SC"
+  },
+  {
+    "club_name": "Ethiopian Coffee SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Ethiopian_Coffee_S.C.svg/250px-Ethiopian_Coffee_S.C.svg.png",
+    "city_country": "Addis Ababa, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ethiopian_Coffee_Sport_Club"
+  },
+  {
+    "club_name": "Ethiopian Insurance Medhin FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Ethiopian_Insurance_F.C.svg/250px-Ethiopian_Insurance_F.C.svg.png",
+    "city_country": "Addis Ababa, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ethiopian_Insurance_FC"
+  },
+  {
+    "club_name": "Fasil Kenema SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/2/2f/Fasil_Kenema_FC.png/221px-Fasil_Kenema_FC.png",
+    "city_country": "Gondar, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fasil_Kenema_SC"
+  },
+  {
+    "club_name": "Hadiya Hossana FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/a/ac/Hadiya_Hossana_FC.png/250px-Hadiya_Hossana_FC.png",
+    "city_country": "Hosaena, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hadiya_Hossana_FC"
+  },
+  {
+    "club_name": "Hawassa City SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Hawassa_City_S.C.svg/250px-Hawassa_City_S.C.svg.png",
+    "city_country": "Hawassa, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hawassa_City_SC"
+  },
+  {
+    "club_name": "Ethio Electric SC Mebrat Hail",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Ethio_Electric_S.C.svg/250px-Ethio_Electric_S.C.svg.png",
+    "city_country": "Addis Ababa, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ethio_Electric_SC"
+  },
+  {
+    "club_name": "Mekelakeya (Defence Force) SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/2/27/Defence_Force_SC.png/200px-Defence_Force_SC.png",
+    "city_country": "Addis Ababa, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Defence_Force_SC"
+  },
+  {
+    "club_name": "Mekelle 70 Enderta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Mekelle_70_Enderta_Logo.png/250px-Mekelle_70_Enderta_Logo.png",
+    "city_country": "Mekelle, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mekelle_70_Enderta_FC"
+  },
+  {
+    "club_name": "Saint George SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Saint_George_S.C.svg/250px-Saint_George_S.C.svg.png",
+    "city_country": "Addis Ababa, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Saint_George_SC"
+  },
+  {
+    "club_name": "Shire Endaselassie FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/4/4a/Suhul_Shire_FC.png/200px-Suhul_Shire_FC.png",
+    "city_country": "Mekelle, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shire_Endaselassie_FC"
+  },
+  {
+    "club_name": "Sidama Coffee",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/1/11/Sidama_Coffee_SC.png/250px-Sidama_Coffee_SC.png",
+    "city_country": "Hawassa, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sidama_Coffee_SC"
+  },
+  {
+    "club_name": "Welwalo Adigrat University FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/6/69/Welwalo_Adigrat_University_FC.png/250px-Welwalo_Adigrat_University_FC.png",
+    "city_country": "Adigrat, Ethiopia",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Welwalo_Adigrat_University_FC"
+  },
+  {
+    "club_name": "Wolaitta Dicha SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/b/b7/Welayta_Dicha_SC.png/250px-Welayta_Dicha_SC.png",
+    "city_country": "Sodo, Ethiopia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wolaitta_Dicha_SC"
+  },
+  {
+    "club_name": "ASAS Djibouti Télécom",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/a/a8/AS_Ali_Sabieh-Djibouti_T%C3%A9l%C3%A9com.png/250px-AS_Ali_Sabieh-Djibouti_T%C3%A9l%C3%A9com.png",
+    "city_country": "Ali Sabieh, Djibouti",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASAS_Djibouti_T%C3%A9l%C3%A9com"
+  },
+  {
+    "club_name": "Benfica de Bissau",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b5/Sport_Bissau_e_Benfica.png",
+    "city_country": "Bissau, Guinea-Bissau",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sport_Bissau_e_Benfica"
+  },
+  {
+    "club_name": "Red Sea FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Red_Sea_FC_Logo.png/250px-Red_Sea_FC_Logo.png",
+    "city_country": "Asmara, Eritrea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Red_Sea_FC"
+  },
+  {
+    "club_name": "Invincible Eleven SA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1c/Invincible_Eleven.png",
+    "city_country": "Monrovia, Liberia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Invincible_Eleven"
+  },
+  {
+    "club_name": "Mighty Barrolle SA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/2/25/Mighty_Barrolle_MB1964_logo.png/250px-Mighty_Barrolle_MB1964_logo.png",
+    "city_country": "Monrovia, Liberia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mighty_Barrolle"
   }
 ]
