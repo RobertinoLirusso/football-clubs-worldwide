@@ -24468,5 +24468,95 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/3/32/Kwekwe_United_FC_emblema.png/200px-Kwekwe_United_FC_emblema.png",
     "city_country": "Kwekwe, Zimbabwe",
     "wiki_url": "https://en.wikipedia.org/wiki/Kwekwe_United_F.C."
+  },
+    {
+    "club_name": "Pamplemousses SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/94/Pamplemousses_SC_Logo.png",
+    "city_country": "Belle Vue Harel, Mauritius",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pamplemousses_SC"
+  },
+  {
+    "club_name": "La Cure Waves SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/d/dc/La_Cure_Waves_logotipas.png",
+    "city_country": "Port Louis, Mauritius",
+    "wiki_url": "https://lt.wikipedia.org/wiki/La_Cure_Waves_SC"
+  },
+  {
+    "club_name": "Cercle de Joachim SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/ad/Cercle_de_Joachim_SC_Logo.png",
+    "city_country": "Curepipe, Mauritius",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cercle_de_Joachim_SC"
+  },
+  {
+    "club_name": "AS de Vacoas-Phoenix",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b7/AS_Vacoas_Phoenix_Logo.png",
+    "city_country": "Vacoas-Phoenix, Mauritius",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Vacoas-Phoenix"
+  },
+  {
+    "club_name": "AS Riviere du Rempart",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/6f/AS_Riviere_du_Rempart_Logo.png",
+    "city_country": "Mapou, Mauritius",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Rivi%C3%A8re_du_Rempart"
+  },
+  {
+    "club_name": "Chebel Citizens SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/4/49/Chebel_Citizens_SC_logo.png",
+    "city_country": "Chebel, Mauritius",
+    "wiki_url": "https://www.facebook.com/chebelcitizensportclub/"
+  },
+  {
+    "club_name": "Petite Rivière Noire FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/20/Petite_Riviere_Noir_FC.png",
+    "city_country": "Bambous, Mauritius",
+    "wiki_url": "https://en.wikipedia.org/wiki/Petite_Rivi%C3%A8re_Noire_FC"
+  },
+  {
+    "club_name": "AS Port-Louis 2000",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3f/AS_Port_Louis_Logo.png",
+    "city_country": "Port Louis, Mauritius",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Port-Louis_2000"
+  },
+  {
+    "club_name": "US Beau Bassin-Rose Hill",
+    "club_logo": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/102025/union_sportive_de_beau-bassin_rose-hill.png?hNsm1d4jHeXUknheihNyq8JIdJWznRo4&itok=v-KNXs8a",
+    "city_country": "Beau Bassin-Rose Hill, Mauritius",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Beau_Bassin-Rose_Hill"
+  },
+  {
+    "club_name": "Pointe aux Sables Mates",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c6/Pointe-aux-Sables_Mates_SC_Logo.png",
+    "city_country": "Port Louis, Mauritius",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pointe-aux-Sables_Mates"
+  },
+  {
+    "club_name": "AC Semassi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/c/c0/AC_Semassi_emblema.png/180px-AC_Semassi_emblema.png",
+    "city_country": "Sokodé, Togo",
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Semassi_FC"
+  },
+  {
+    "club_name": "Al Hilal Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Al-Hilal_Club_%28Omdurman%29_logo.png/200px-Al-Hilal_Club_%28Omdurman%29_logo.png",
+    "city_country": "Omdurman, Sudan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Hilal_Club_(Omdurman)"
+  },
+  {
+    "club_name": "Al Merrikh SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/c/cc/Al-Merreikh_SC.png",
+    "city_country": "Omdurman, Sudan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Merrikh_SC"
+  },
+  {
+    "club_name": "Jamus SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Jamus.png/250px-Jamus.png",
+    "city_country": "Juba, South Sudan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jamus_SC"
+  },
+  {
+    "club_name": "Atlabara FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/f/f1/Atlabara_FC_logo.png/250px-Atlabara_FC_logo.png",
+    "city_country": "Juba, South Sudan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atlabara_FC"
   }
 ]
