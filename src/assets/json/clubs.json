@@ -24654,5 +24654,101 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/4/4d/East_End_Lions_FC_logo.jpg/250px-East_End_Lions_FC_logo.jpg",
     "city_country": "Freetown, Sierra Leone",
     "wiki_url": "https://en.wikipedia.org/wiki/East_End_Lions_F.C."
+  },
+    {
+    "club_name": "African Stars FC",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeCy_HZTL2oWGza7GdwlPdr5SJFY6P3JA1Gw&s",
+    "city_country": "Windhoek, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/African_Stars_F.C."
+  },
+  {
+    "club_name": "Young African FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Young_African_FC_Logo.png/250px-Young_African_FC_Logo.png",
+    "city_country": "Gobabis, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Young_African_FC"
+  },
+  {
+    "club_name": "Khomas NAMPOL SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/2/22/Khomas_Nampol.jpg/250px-Khomas_Nampol.jpg",
+    "city_country": "Windhoek, Namibia",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Khomas_Nampol"
+  },
+  {
+    "club_name": "Ongos SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Ongos_SC_logo.png/230px-Ongos_SC_logo.png",
+    "city_country": "Windhoek, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ongos_SC"
+  },
+  {
+    "club_name": "Mighty Gunners FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Mighty_Gunners_F.C._logo.png/250px-Mighty_Gunners_F.C._logo.png",
+    "city_country": "Otjiwarongo, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mighty_Gunners_F.C."
+  },
+  {
+    "club_name": "UNAM FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/UNAM_FC_Logo.png/205px-UNAM_FC_Logo.png",
+    "city_country": "Windhoek, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/UNAM_F.C."
+  },
+  {
+    "club_name": "Eeshoke Chula Chula FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/5d/Eeshoke_Chula_Chula_FC_Logo.png",
+    "city_country": "Oshikango, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Eeshoke_Chula_Chula_FC"
+  },
+  {
+    "club_name": "KK Palace FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/KK_Palace_FC_Logo.png/250px-KK_Palace_FC_Logo.png",
+    "city_country": "Ondangwa, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/KK_Palace_FC"
+  },
+  {
+    "club_name": "Blue Waters FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Blue_Waters_Logo_%28Walvis_Bay%29.png",
+    "city_country": "Walvis Bay, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Blue_Waters_F.C."
+  },
+  {
+    "club_name": "Bucks Buccaneers FC",
+    "club_logo": "",
+    "city_country": "Windhoek, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bucks_Buccaneers_FC"
+  },
+  {
+    "club_name": "United Africa Tigers FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/United_Africa_Tigers_logo.png/250px-United_Africa_Tigers_logo.png",
+    "city_country": "Windhoek, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/United_Africa_Tigers"
+  },
+  {
+    "club_name": "Okahandja United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Okahandja_United_FC_Logo.png/250px-Okahandja_United_FC_Logo.png",
+    "city_country": "Okahandja, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Okahandja_United_FC"
+  },
+  {
+    "club_name": "Julinho Sporting FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Julinho_Sporting_F.C._logo.png/250px-Julinho_Sporting_F.C._logo.png",
+    "city_country": "Rundu, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Julinho_Sporting_F.C."
+  },
+  {
+    "club_name": "Life Fighters FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/b/b2/Life_Fightrs_FC.png/180px-Life_Fightrs_FC.png",
+    "city_country": "Otjiwarongo, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Life_Fighters_F.C."
+  },
+  {
+    "club_name": "Orlando Pirates SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d2/Orlando_Pirates_SC_%28logo%29.png",
+    "city_country": "Windhoek, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Orlando_Pirates_S.C."
+  },
+  {
+    "club_name": "Namibia Correctional Service FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4d/Namibia_Correctional_Services_FC_Logo.png",
+    "city_country": "Mariental, Namibia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Namibia_Correctional_Service_FC"
   }
 ]
