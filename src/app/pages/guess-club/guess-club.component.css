@@ -174,3 +174,33 @@ h3 {
     font-size: 14px;
   }
 }
+
+.lives-container {
+  margin-bottom: 10px;
+}
+
+.lives-container i {
+  color: red;
+  font-size: 24px;
+  margin: 0 4px;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.lives-container i.lost {
+  opacity: 0.3;
+  transform: scale(0.9);
+}
+
+.extra-life {
+  color: red;
+  font-weight: bold;
+  animation: pulse 1s infinite;
+  margin-bottom: 8px;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+

@@ -10,8 +10,22 @@
             </button>
         </div>
 
+        <div class="lives-container">
+            <i 
+              *ngFor="let life of [].constructor(maxLives); let i = index"
+              class="fas fa-heart"
+              [class.lost]="i >= lives">
+            </i>
+          </div>
+          
+
         <!-- GAME IN PROGRESS -->
         <div *ngIf="selectedClub && !gameOver">
+
+            <div *ngIf="showExtraLifeMessage" class="extra-life">
+                ❤️ Extra Life!
+              </div>
+              
 
             <!-- Club Logo Blurred -->
 
@@ -65,32 +79,38 @@
             </h3>
 
             <!-- Streak -->
-            <h3 *ngIf="isCorrect">
-                Your Streak: {{ streak }} correct answers in a row!
-            </h3>
+            <h3 *ngIf="lives > 0">
+                🔥 Current Streak: {{ streak }}
+              </h3>
+              
 
-            <!-- Final Score -->
-            <h3 *ngIf="!isCorrect">
+
+            <!-- FINAL SCORE (solo cuando perdió todas las vidas) -->
+            <h3 *ngIf="lives === 0">
                 You got {{ lastScore }} correct answers in total!
             </h3>
-
-            <!-- Player Level -->
-            <h3 class="w3-margin-top" *ngIf="!isCorrect || timeOut">  
+  
+            <!-- Player Level (solo cuando perdió todas las vidas) -->
+            <h3 class="w3-margin-top" *ngIf="lives === 0">
                 {{ getPlayerLevel() }}
             </h3>
+  
 
             <!-- Restart / Next -->
             <button (click)="startGame()" class="w3-btn w3-margin w3-black">
-                <i class="fas" [ngClass]="isCorrect ? 'fa-arrow-right' : 'fa-redo'"></i> 
-                {{ isCorrect ? 'Next' : 'Play Again' }}
-            </button>
+                <i class="fas" 
+                   [ngClass]="lives === 0 ? 'fa-redo' : 'fa-arrow-right'"></i> 
+                {{ lives === 0 ? 'Play Again' : 'Next' }}
+              </button>
+              
 
             <!-- Share -->
-            <button *ngIf="!isCorrect || timeOut"
+            <button *ngIf="lives === 0"
             (click)="shareResult()" 
             class="w3-btn w3-margin w3-black">
             <i class="fa-brands fa-x-twitter"></i> Share on X
-            </button>
+          </button>
+          
 
     </div>
     </div>

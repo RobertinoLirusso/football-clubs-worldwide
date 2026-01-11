@@ -11185,7 +11185,7 @@
   },
   {
     "club_name": "Siwelele FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Siwelele.png/250px-Siwelele.png",
+    "club_logo": "https://img0.aiscore.com/football/team/bf41f09297b5028cc2026ef1e4aa7a08.png!w250",
     "city_country": "Bloemfontein, South Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Siwelele_F.C."
   },
@@ -14107,7 +14107,7 @@
   },
   {
     "club_name": "Paradou AC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Logoparadouac.png/250px-Logoparadouac.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Paradou_AC.png/250px-Paradou_AC.png",
     "city_country": "Algiers, Algeria",
     "wiki_url": "https://en.wikipedia.org/wiki/Paradou_AC"
   },
@@ -19808,7 +19808,7 @@
   },
   {
     "club_name": "FC Nöttingen",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cc/FC_Nottingen.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/FC_N%C3%B6ttingen_logo.png/250px-FC_N%C3%B6ttingen_logo.png",
     "city_country": "Nöttingen, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_N%C3%B6ttingen"
   },
@@ -19874,7 +19874,7 @@
   },
   {
     "club_name": "BSV Eintracht Mahlsdorf",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/BSV_Eintracht_Mahlsdorf.png/250px-BSV_Eintracht_Mahlsdorf.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Eintracht_Mahlsdorf_Logo.png/250px-Eintracht_Mahlsdorf_Logo.png",
     "city_country": "Berlin, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/Eintracht_Mahlsdorf"
   },
@@ -24002,7 +24002,7 @@
   },
   {
     "club_name": "Adama City FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/FC_Adama_City.png/250px-FC_Adama_City.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/e/e3/Adama_City_FC.png/240px-Adama_City_FC.png",
     "city_country": "Adama, Ethiopia",
     "wiki_url": "https://en.wikipedia.org/wiki/Adama_City_FC"
   },
@@ -24711,7 +24711,7 @@
   },
   {
     "club_name": "Bucks Buccaneers FC",
-    "club_logo": "",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/54/Bucks_Buccaneers_FC_logo.png",
     "city_country": "Windhoek, Namibia",
     "wiki_url": "https://en.wikipedia.org/wiki/Bucks_Buccaneers_FC"
   },
@@ -24942,5 +24942,281 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/0/0a/AS_Muhanga.gif/250px-AS_Muhanga.gif",
     "city_country": "Muhanga, Rwanda",
     "wiki_url": "https://en.wikipedia.org/wiki/A.S._Muhanga"
+  },
+  {
+    "club_name": "Sport Operários e Benfica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/5/57/Sport_Oper%C3%A1rio_e_Benfica_emblema.png/200px-Sport_Oper%C3%A1rio_e_Benfica_emblema.png",
+    "city_country": "Santo António, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/GD_Os_Oper%C3%A1rios"
+  },
+  {
+    "club_name": "CD 1º de Maio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/6/68/Clube_Desportivo_1%C2%BA_de_Maio_emblema.png/200px-Clube_Desportivo_1%C2%BA_de_Maio_emblema.png",
+    "city_country": "Nova Estrela, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/1%C2%BA_de_Maio"
+  },
+  {
+    "club_name": "GD Sundy",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/b/b0/Sundy_Futebol_Clube_emblema.png/200px-Sundy_Futebol_Clube_emblema.png",
+    "city_country": "Sundy, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/GD_Sundy"
+  },
+  {
+    "club_name": "Desportivo de Oque d'El Rei",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/f/f2/Desportivo_de_Oque_d%27El_Rei_logotipas.png/200px-Desportivo_de_Oque_d%27El_Rei_logotipas.png",
+    "city_country": "Oque d'El Rei, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Oque_d%27El_Rey"
+  },
+  {
+    "club_name": "AD Juba",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/5/55/Associa%C3%A7%C3%A3o_Desportiva_Juba_Futebol_Club.png/250px-Associa%C3%A7%C3%A3o_Desportiva_Juba_Futebol_Club.png",
+    "city_country": "Diogo Simão, Sao Tome and Principe",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Juba_Futebol_Club"
+  },
+  {
+    "club_name": "UDAPB",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/9/92/UDAPB_emblema.png/200px-UDAPB_emblema.png",
+    "city_country": "Picão, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/UDAPB"
+  },
+  {
+    "club_name": "FC Porto Real",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/2/24/Futebol_Clube_Porto_Real_FCPR_emblema.png/200px-Futebol_Clube_Porto_Real_FCPR_emblema.png",
+    "city_country": "Porto Real, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Porto_Real"
+  },
+  {
+    "club_name": "Agro-Sport Monte Café",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/2/27/Agrosport.png/250px-Agrosport.png",
+    "city_country": "Monte Café, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Agrosport"
+  },
+  {
+    "club_name": "FC Aliança Nacional Pantufo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/c/c4/FC_Alian%C3%A7a_Nacional.png/200px-FC_Alian%C3%A7a_Nacional.png",
+    "city_country": "Pantufo, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Alian%C3%A7a_Nacional"
+  },
+  {
+    "club_name": "CD Guadalupe",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/2/2b/Clube_Desportivo_Guadalupe.png/250px-Clube_Desportivo_Guadalupe.png",
+    "city_country": "Guadalupe, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_de_Guadalupe"
+  },
+  {
+    "club_name": "Desportivo Militar 6 de Setembro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/9/9a/6_de_Setembro.png/250px-6_de_Setembro.png",
+    "city_country": "Santana, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/6_de_Setembro"
+  },
+  {
+    "club_name": "FC Inter Bom-Bom",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/9/9f/Inter_Bom-Bom.png/200px-Inter_Bom-Bom.png",
+    "city_country": "Bom-Bom, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Inter_Bom-Bom"
+  },
+  {
+    "club_name": "Sporting Praia Cruz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/6/6d/Sporting_Clube_da_Praia_Cruz.png/200px-Sporting_Clube_da_Praia_Cruz.png",
+    "city_country": "Sao Tome, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sporting_Praia_Cruz"
+  },
+  {
+    "club_name": "UD Rei Amador",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/4/49/UDRA.png/250px-UDRA.png",
+    "city_country": "São João dos Angolares, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/UDRA"
+  },
+  {
+    "club_name": "UDESCAI Água-Izé",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/3/35/UDESCAI_emblema.png/200px-UDESCAI_emblema.png",
+    "city_country": "Água-Izé, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/UDESCAI"
+  },
+  {
+    "club_name": "Trindade FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/d/d5/Trindade_FC_emblema.png/250px-Trindade_FC_emblema.png",
+    "city_country": "Trindade, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Trindade_FC"
+  },
+  {
+    "club_name": "Vitoria Futebol Clube do Riboque",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/c/c5/Vit%C3%B3ria_Futebol_Clube_do_Riboque.png/200px-Vit%C3%B3ria_Futebol_Clube_do_Riboque.png",
+    "city_country": "Sao Tome, Sao Tome and Principe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vit%C3%B3ria_FC_(Riboque)"
+  },
+  {
+    "club_name": "FC Nouadhibou",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/FC_Nouadhibou.png/152px-FC_Nouadhibou.png",
+    "city_country": "Nouadhibou, Mauritania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Nouadhibou"
+  },
+  {
+    "club_name": "ASAC Concorde",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4f/ASAC_Concorde_%28logo%29.png",
+    "city_country": "Nouakchott, Mauritania",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASAC_Concorde"
+  },
+  {
+    "club_name": "FC Tevragh-Zeina",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/6/67/FC_Tevragh-Zeine_logo.png/250px-FC_Tevragh-Zeine_logo.png",
+    "city_country": "Nouakchott, Mauritania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Tevragh-Zeina"
+  },
+  {
+    "club_name": "JS Saint-Pierroise",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/JS_Saint-Pierroise_logo.png/200px-JS_Saint-Pierroise_logo.png",
+    "city_country": "Saint-Pierre, Réunion",
+    "wiki_url": "https://en.wikipedia.org/wiki/JS_Saint-Pierroise"
+  },
+  {
+    "club_name": "AS Excelsior",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/AS_Excelsior_logo.png/200px-AS_Excelsior_logo.png",
+    "city_country": "Saint-Joseph, Réunion",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Excelsior"
+  },
+  {
+    "club_name": "JET Kintana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Logo_Jet_Kintana.png/250px-Logo_Jet_Kintana.png",
+    "city_country": "Antananarivo, Madagascar",
+    "wiki_url": "https://en.wikipedia.org/wiki/JET_Kintana"
+  },
+  {
+    "club_name": "CNaPS Sport",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/45/CNaPS_Sport_%28logo%29.png",
+    "city_country": "Miarinarivo, Madagascar",
+    "wiki_url": "https://en.wikipedia.org/wiki/CNaPS_Sport"
+  },
+  {
+    "club_name": "St. Peters FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/St._Peters_Strikers_FC_logo.png/250px-St._Peters_Strikers_FC_logo.png",
+    "city_country": "Basseterre, Saint Kitts and Nevis",
+    "wiki_url": "https://en.wikipedia.org/wiki/St._Peters_Strikers_FC"
+  },
+  {
+    "club_name": "Cayon Rockets FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/d/d2/Cayon_FC_emblema.png/250px-Cayon_FC_emblema.png",
+    "city_country": "Cayon, Saint Kitts and Nevis",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cayon_Rockets"
+  },
+  {
+    "club_name": "United Old Road Jets FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/7/76/United_Old_Road_Jets_FC_emblema.png/250px-United_Old_Road_Jets_FC_emblema.png",
+    "city_country": "Old Road Town, Saint Kitts and Nevis",
+    "wiki_url": "https://en.wikipedia.org/wiki/United_Old_Road_Jets_FC"
+  },
+  {
+    "club_name": "St. Pauls United Strikers FC",
+    "club_logo": "https://cdn.plus.fifa.com/images/public/cms/62/7c/b4/43/627cb443-a90f-4eff-b959-bef7c5214e49.png",
+    "city_country": "Saint Paul Capisterre, Saint Kitts and Nevis",
+    "wiki_url": "https://en.wikipedia.org/wiki/St._Paul%27s_United_FC"
+  },
+  {
+    "club_name": "Village Superstars FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/4/46/Village_Superstars_FC_emblema.png/250px-Village_Superstars_FC_emblema.png",
+    "city_country": "Basseterre, Saint Kitts and Nevis",
+    "wiki_url": "https://en.wikipedia.org/wiki/Village_Superstars_FC"
+  },
+  {
+    "club_name": "Conaree FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/0/03/Conaree_FC_emblema.png",
+    "city_country": "Conaree Village, Saint Kitts and Nevis",
+    "wiki_url": "https://en.wikipedia.org/wiki/Conaree_FC"
+  },
+  {
+    "club_name": "Bath United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/6/60/Bath_United_FC_emblema.png/250px-Bath_United_FC_emblema.png",
+    "city_country": "Bath, Saint Kitts and Nevis",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bath_United"
+  },
+  {
+    "club_name": "Sandy Point FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/3/33/Sandy_Point_FC_emblema.png/250px-Sandy_Point_FC_emblema.png",
+    "city_country": "Sandy Point Town, Saint Kitts and Nevis",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Sandy_Point_FC"
+  },
+  {
+    "club_name": "Newtown United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Newtown_United_%28St_Kitts%29.svg/250px-Newtown_United_%28St_Kitts%29.svg.png",
+    "city_country": "Basseterre, Saint Kitts and Nevis",
+    "wiki_url": "https://en.wikipedia.org/wiki/Newtown_United_FC"
+  },
+  {
+    "club_name": "Dieppe Bay Eagles FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/f/f3/Dieppe_Bay_Eagles_FC_emblema.png/250px-Dieppe_Bay_Eagles_FC_emblema.png",
+    "city_country": "Dieppe Bay Town, Saint Kitts and Nevis",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Dieppe_Bay_Eagles_FC"
+  },
+  {
+    "club_name": "FC Villa Clara",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/FC_Villa_Clara.png/226px-FC_Villa_Clara.png",
+    "city_country": "Santa Clara, Cuba",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Villa_Clara"
+  },
+  {
+    "club_name": "FC La Habana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/La_Habana_FC.png/250px-La_Habana_FC.png",
+    "city_country": "Havana, Cuba",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_La_Habana"
+  },
+  {
+    "club_name": "Dublanc FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Dublanc_FC_logo.png/250px-Dublanc_FC_logo.png",
+    "city_country": "Dublanc, Dominica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dublanc_FC"
+  },
+  {
+    "club_name": "Harlem United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Harlem_United.svg/250px-Harlem_United.svg.png",
+    "city_country": "Newtown, Dominica",
+    "wiki_url": "https://en.wikipedia.org/wiki/Harlem_United_FC"
+  },
+  {
+    "club_name": "Hurricanes SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/bb/Hurricanes_SC_logo.png",
+    "city_country": "Victoria, Grenada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hurricanes_SC"
+  },
+  {
+    "club_name": "Paradise FC International",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Paradise-FC.png/250px-Paradise-FC.png",
+    "city_country": "Paradise, Grenada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Paradise_FC_International"
+  },
+  {
+    "club_name": "St. John's SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/54/STJ-SC.png",
+    "city_country": "Gouyave, Grenada",
+    "wiki_url": "https://en.wikipedia.org/wiki/St._John%27s_SC"
+  },
+  {
+    "club_name": "Bata Falcons FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Bata_Falcons_logo.png/250px-Bata_Falcons_logo.png",
+    "city_country": "Montserrat, Montserrat",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bata_Falcons"
+  },
+  {
+    "club_name": "Montserrat Volcano Observatory Tremors FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c4/Montserrat_Volcano_Observatory_logo.png",
+    "city_country": "Montserrat, Montserrat",
+    "wiki_url": "https://en.wikipedia.org/wiki/Montserrat_Volcano_Observatory_Tremors"
+  },
+  {
+    "club_name": "PC United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/P.C._United_FC_logo.png/250px-P.C._United_FC_logo.png",
+    "city_country": "Brades, Montserrat",
+    "wiki_url": "https://en.wikipedia.org/wiki/P.C._United_FC"
+  },
+  {
+    "club_name": "Islanders FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Islanders_FC.png/250px-Islanders_FC.png",
+    "city_country": "Tortola, British Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Islanders_FC"
+  },
+  {
+    "club_name": "Virgin Gorda United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Virgin_Gorda_United_logo.png/250px-Virgin_Gorda_United_logo.png",
+    "city_country": "Spanish Town, British Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Virgin_Gorda_United"
   }
 ]

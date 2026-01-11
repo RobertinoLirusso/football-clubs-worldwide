@@ -63,7 +63,12 @@ export class CardComponent implements OnInit {
     'Borussia Dortmund',
     'Palmeiras',
     'Bayern Munich',
-    'Manchester United'
+    'Manchester United',
+    'Newcastle United',
+    'Juventus',
+    'AS Roma',
+    'Napoli',
+    'Bayer 04 Leverkusen',
   ];
 
 

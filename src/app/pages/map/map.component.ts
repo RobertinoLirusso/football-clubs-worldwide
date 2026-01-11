@@ -20,10 +20,10 @@ export class MapComponent implements AfterViewInit, OnInit {
   distanceResult: string = '';
   distanceLine: any = null;
 
-
-  // Configuración de vista global
-  private defaultCenter: [number, number] = [0, 0];
-  private defaultZoom: number = 1.5;
+  // Configuración de vista global centrada en Europa
+  // Aproximadamente centro de Europa central: [lat, lon] = [54, 15], zoom = 4
+  private defaultCenter: [number, number] = [54, 15];
+  private defaultZoom: number = 4;
   private stadiumZoom: number = 16; // zoom profundo para estadio
 
   constructor(
