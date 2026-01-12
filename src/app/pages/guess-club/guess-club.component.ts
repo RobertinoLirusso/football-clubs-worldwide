@@ -26,6 +26,15 @@ export class GuessClubComponent implements OnInit {
   lives: number = 3;
   maxLives: number = 3;
   showExtraLifeMessage: boolean = false;
+  maxHelpTime: number = 20;
+  timeHelpUsed: boolean = false;
+  blurHelpUsed: boolean = false;
+  blurHelpActive: boolean = false; 
+  consecutiveCorrect: number = 0;
+  extraLifeGranted: boolean = false;
+
+
+
 
 
 
@@ -88,20 +97,34 @@ export class GuessClubComponent implements OnInit {
       this.lives = this.maxLives;
       this.streak = 0;
       this.lastScore = 0;
+      this.consecutiveCorrect = 0;
+      this.extraLifeGranted = false;
+      this.timeHelpUsed = false;
+      this.blurHelpUsed = false;
     }
   
-    // Seleccionar club aleatorio
-    this.selectedClub = this.clubs[Math.floor(Math.random() * this.clubs.length)];
-  
-    let otherClubs = this.clubs
-      .filter(club => club.club_name !== this.selectedClub.club_name)
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 2);
-  
-    this.options = [this.selectedClub.club_name, ...otherClubs.map(c => c.club_name)]
-      .sort(() => Math.random() - 0.5);
+// Definir cantidad de opciones según la racha
+const optionsCount = this.streak >= 15 ? 4 : 3;
+
+// Seleccionar club correcto
+this.selectedClub = this.clubs[Math.floor(Math.random() * this.clubs.length)];
+
+// Obtener opciones incorrectas
+let otherClubs = this.clubs
+  .filter(club => club.club_name !== this.selectedClub.club_name)
+  .sort(() => Math.random() - 0.5)
+  .slice(0, optionsCount - 1);
+
+// Armar opciones finales
+this.options = [
+  this.selectedClub.club_name,
+  ...otherClubs.map(c => c.club_name)
+].sort(() => Math.random() - 0.5);
   
     this.startTimer();
+    this.blurHelpActive = false;
+
+
   }
   
 startTimer(): void {
@@ -123,18 +146,24 @@ checkAnswer(answer: string | null): void {
   if (this.isCorrect) {
     this.streak++;
     this.totalCorrectAnswers++;
-
-    // 🎁 Vida extra cada 10 seguidas
-    if (this.streak % 10 === 0 && this.lives < this.maxLives) {
+    this.consecutiveCorrect++;
+  
+    // 🎁 Vida extra SOLO si fueron 10 seguidas SIN fallar
+    if (
+      this.consecutiveCorrect === 10 &&
+      !this.extraLifeGranted &&
+      this.lives < this.maxLives
+    ) {
       this.lives++;
+      this.extraLifeGranted = true;
       this.showExtraLifeMessage = true;
-
+  
       confetti({
         particleCount: 200,
         spread: 100,
         origin: { y: 0.4 }
       });
-
+  
       setTimeout(() => {
         this.showExtraLifeMessage = false;
       }, 5000);
@@ -145,20 +174,17 @@ checkAnswer(answer: string | null): void {
         origin: { y: 0.6 }
       });
     }
-
-    // 🔴 MOSTRAR RESULTADO
+  
     this.gameOver = true;
-
   } else {
     this.lives--;
-
-    // ❌ Solo pierde racha cuando no hay vidas
+    this.consecutiveCorrect = 0; // ❌ se rompe la racha real
+  
     if (this.lives === 0) {
       this.lastScore = this.streak;
       this.streak = 0;
     }
-
-    // 🔴 MOSTRAR RESULTADO
+  
     this.gameOver = true;
   }
 }
@@ -179,12 +205,45 @@ getPlayerLevel(): string {
   }
 }
 
+getBlurClass(): string {
+  // Si se usó ayuda de blur → siempre blur leve
+  if (this.blurHelpActive) {
+    return 'blur-light';
+  }
+
+  if (this.streak >= 5) {
+    return 'blur-hard';
+  } else if (this.streak >= 3) {
+    return 'blur-medium';
+  } else {
+    return 'blur-light';
+  }
+}
+
+
 
 shareResult(): void {
   const text = `I just got a streak of ${this.lastScore} correct answers in Guess the Club! ⚽🔥 Can you beat my score?\nPlay now: https://football-clubs-worldwide.vercel.app/game`;
   const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
   window.open(url, '_blank');
 }
+
+useTimeHelp(): void {
+  if (this.timeHelpUsed || this.gameOver) return;
+
+  this.timeHelpUsed = true;
+  this.timeLeft = this.maxHelpTime;
+}
+
+useBlurHelp(): void {
+  if (this.blurHelpUsed || this.gameOver) return;
+
+  this.blurHelpUsed = true;    // bloquea el botón
+  this.blurHelpActive = true; // reduce blur SOLO ahora
+}
+
+
+
 
 
   

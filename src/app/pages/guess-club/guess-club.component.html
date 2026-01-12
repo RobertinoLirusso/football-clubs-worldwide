@@ -22,15 +22,14 @@
         <!-- GAME IN PROGRESS -->
         <div *ngIf="selectedClub && !gameOver">
 
-            <div *ngIf="showExtraLifeMessage" class="extra-life">
-                ❤️ Extra Life!
-              </div>
-              
 
             <!-- Club Logo Blurred -->
 
             <div class="logo-wrapper">
-                <img [src]="selectedClub.club_logo" class="club-logo blurred">
+                <img 
+                [src]="selectedClub.club_logo"
+                class="club-logo"
+                [ngClass]="getBlurClass()">            
             </div>
 
 
@@ -41,6 +40,28 @@
                     {{ timeLeft }}s
                 </div>
             </div>
+
+            <!-- HELPERS -->
+<div class="helpers-container" *ngIf="selectedClub && !gameOver">
+
+    <!-- Time Reset -->
+    <button 
+      class="helper-btn"
+      [disabled]="timeHelpUsed"
+      (click)="useTimeHelp()">
+      ⏱️ +30s
+    </button>
+  
+    <!-- Blur Reduce -->
+    <button 
+      class="helper-btn"
+      [disabled]="blurHelpUsed"
+      (click)="useBlurHelp()">
+      👁️ Reduce Blur
+    </button>
+  
+  </div>
+  
 
             <!-- OPTIONS -->
             <div class="options-container">
@@ -56,6 +77,11 @@
 
         <!-- GAME OVER -->
         <div *ngIf="gameOver">
+
+            <div *ngIf="showExtraLifeMessage" class="extra-life">
+                ❤️ Extra Life!
+              </div>
+            
 
             <!-- Club Logo Normal -->
             <div class="logo-wrapper">
