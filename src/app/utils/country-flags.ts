@@ -200,6 +200,7 @@ export const COUNTRY_FLAG_MAP: { [key: string]: string } = {
   'tunisia': 'tn',
   'turkey': 'tr',
   'turkmenistan': 'tm',
+  'turks and caicos islands': 'tc',
   'tuvalu': 'tv',
   'uganda': 'ug',
   'ukraine': 'ua',

@@ -2490,8 +2490,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Venezia_F.C."
   },
   {
-    "club_name": "Latina",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju-4EtZxGNfnzewoRkLQNqgYZSKlg022pDGJIsu2N4lFexrT1B8-7bHyyfj-6Mz4J5kyk9hRSmV_cUrWuHisvm75MP5_uIWDNta-KUrLpeTmfTwZcHDbXMCl3P5N5xFd9G1X3y06JhrRpwZcgyP6GJYwF0CZ4oi7rRNLVacH49PRUR-Pl0WQAnr3Gr4G4/s256/Latina%20Calcio256x.png",
+    "club_name": "Latina Calcio 1932",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgzGgM4-zr7635TMCWVsFCWRZobpyVyrwe0e5nak6KL8d4MJ6xnq6C_bLGY2IObktpVPTFdr5d2rZ6isSV3lAGgGSkthpllU4gceHPanLNQNnKqivZ73u3aRPhZr3Bn7jwK1YLXDWbTE6B2uVhCCFO_T5OStngzVxS-lAw-6xhkbd_atj2v7ldrod_PyXQ=w253-h320",
     "city_country": "Latina, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Latina_Calcio_1932"
   },
@@ -4657,7 +4657,7 @@
   },
   {
     "club_name": "Salford City",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZseFONuVbPX2zDL4dK4p_P1x9OzmC3CYS9B7g8TTqoMmF8cK-IGM6unFDziNIeTi0El5HKaiOTQpokIv24Di_u94hv2Vnf-OwGqRkBBIQSoxqLHdJUYiAxolU2RXjFdKZC5Yh6-ThzyQ/",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgC95yJ1YmaMt6FYYdnTf0lRhZ7EOLyJ6lT81klj-JZI3dOdoQ3G-sxqMyhk-zrNruBbn1_q3toRj2162ySCJEPO01C8jH6gBPDezrVq4kGIukjnoaeYI3E_MQusO6_-zZt-AqdMoE8-q0v4Eog2Nsh2QjMWZoU8HmgN2i6L0rfg0ML2RLUpet2T5pC5PA=w320-h320",
     "city_country": "Salford, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Salford_City_F.C."
   },
@@ -6060,7 +6060,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Lviv"
   },
   {
-    "club_name": "FC Mynai",
+    "club_name": "FC Mynai (Defunct)",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQCzJifw6ftp4xLnpqo2o73TQEyIVtjzxaw_k88uLfJ2KFZpA11i8g24Kg1HSSyQOQeM0BfLKL-KDKtsg2j0MQeQvS23eVDrnmG-Lu_YvB54SrqwA8zZTGF15uF-Q0ESZpr148ePo53eI/s256/FC+Minaj256x.png",
     "city_country": "Mynai, Ukraine",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Mynai"
@@ -15187,7 +15187,7 @@
   },
   {
     "club_name": "Universidad Católica",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Universidad_Cat%C3%B3lica_del_Ecuador.png/250px-Universidad_Cat%C3%B3lica_del_Ecuador.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/UCat%C3%B3lica.png/250px-UCat%C3%B3lica.png",
     "city_country": "Quito, Ecuador",
     "wiki_url": "https://en.wikipedia.org/wiki/C.D._Universidad_Cat%C3%B3lica_del_Ecuador"
   },
@@ -15804,10 +15804,16 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Cali"
   },
   {
-    "club_name": "Atlético Huila",
+    "club_name": "Atlético Huila (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Escudo_de_Atl%C3%A9tico_Huila.svg/170px-Escudo_de_Atl%C3%A9tico_Huila.svg.png",
     "city_country": "Neiva, Colombia",
     "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Huila"
+  },
+  {
+    "club_name": "Independiente Yumbo",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEhlY_lWTcqszJ4eUqHNqWQtZF8yeqoQWltXPIzepMF-NjRpw6KCshwiro7ZgBa_z_C84PdIhHJY00qLK0M9-JEnsbVUGjFmpECUwQo7BQ7o7Q7PeJ0bfzbaMx4mxPi1V_L0xdbqmbfze7vDnSUGgBHpwpP7UcorZsQxYQQhBYdN65HS_E0MfXDUWcYBdJc=w320-h320",
+    "city_country": "Yumbo, Colombia",
+    "wiki_url": "https://es.wikipedia.org/wiki/Independiente_Yumbo"
   },
   {
     "club_name": "Barranquilla",
@@ -18738,8 +18744,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Club_River_Plate_(Asunci%C3%B3n)"
   },
   {
-    "club_name": "Rubio Ñu",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Club_Rubio_%C3%91u_logo.png/250px-Club_Rubio_%C3%91u_logo.png",
+    "club_name": "Club Rubio Ñu",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEhzLdaK2IHvcGA9X2HgwQz2_PC3nA2ymqS1CUD7PBCO2woKouPR7Y1STu3Rli0ZPTuhwOR9GDapV0jLVfrEB-Okt9Lbl_f1ZLYOgZjB_P8X32nXPc-Whv1An0v-kooSCFn-FY_tHTk5gBCczUW1H5qUt6okEnDEwRUR6-04uOUwBgm9HLgkSqM7FagZTmg=w320-h320",
     "city_country": "Asunción, Paraguay",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Rubio_%C3%91u"
   },
@@ -18817,7 +18823,7 @@
   },
   {
     "club_name": "FC Cajamarca",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/FC_Cajamarca_logo.png/250px-FC_Cajamarca_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/FC_Cajamarca_Escudo_2026.png/250px-FC_Cajamarca_Escudo_2026.png",
     "city_country": "Cajamarca, Peru",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Cajamarca"
   },
@@ -25452,5 +25458,107 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/CS_Longueuil_crest_2016.jpg/250px-CS_Longueuil_crest_2016.jpg",
     "city_country": "Longueuil, Canada",
     "wiki_url": "https://en.wikipedia.org/wiki/CS_Longueuil"
+  },
+    {
+    "club_name": "SWA Sharks FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c6/SWA_Sharks_FC_logo.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/SWA_Sharks_FC"
+  },
+  {
+    "club_name": "AFC Academy FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/8b/AFC_Academy_logo.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/AFC_Academy"
+  },
+  {
+    "club_name": "Academy Eagles FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/ff/Academy_Eagles_FC_logo.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Academy_Eagles_FC"
+  },
+  {
+    "club_name": "Teachers FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/b/b4/Teachers_Football_Club_emblema.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Teachers_FC"
+  },
+  {
+    "club_name": "Flamingo FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/3/33/Flamingo_Football_Club_emblema.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Flamingo_FC"
+  },
+  {
+    "club_name": "Cheshire Hall FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/ae/Cheshire_Hall_FC_Logo.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cheshire_Hall_FC"
+  },
+  {
+    "club_name": "Teachers Young Strikers FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/c/ca/Teachers_Young_Strikers_emblema.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Teachers_Young_Strikers"
+  },
+  {
+    "club_name": "Provo United SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b4/Provo_United_SC.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Provo_United_SC"
+  },
+  {
+    "club_name": "Beaches FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/92/Beaches_FC_logo.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Beaches_FC"
+  },
+  {
+    "club_name": "CAPA FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/71/CAPA_FC_logo.png",
+    "city_country": "Saint Croix, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/CAPA_(soccer)"
+  },
+  {
+    "club_name": "Helenites SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/01/Helenites_Sports_Club_logo.png",
+    "city_country": "Grove Place, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Helenites_SC"
+  },
+  {
+    "club_name": "Rovers SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Rovers_SC_Logo.png/250px-Rovers_SC_Logo.png",
+    "city_country": "Christianted, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rovers_SC"
+  },
+  {
+    "club_name": "New Vibes SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/New_Vibes_SC_logo.png/250px-New_Vibes_SC_logo.png",
+    "city_country": "Saint Thomas, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/New_Vibes_SC"
+  },
+  {
+    "club_name": "Raymix SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cf/Raymix_SC.png",
+    "city_country": "Saint Thomas, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Raymix_SC"
+  },
+  {
+    "club_name": "Prankton SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/df/Prankton_SC.png",
+    "city_country": "Saint Croix, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Prankton_SC"
+  },
+  {
+    "club_name": "Castaways SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Castaways_Soccer_Club_Logo.png/250px-Castaways_Soccer_Club_Logo.png",
+    "city_country": "Saint Thomas, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Castaways_SC"
+  },
+  {
+    "club_name": "Massey SA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0a/Massey_SA_Logo.png",
+    "city_country": "Saint Thomas, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Massey_SA"
   }
 ]

@@ -1,8 +1,104 @@
 [
   {
-    "club_name": "Calgary Blizzard SC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Calgary_Blizzard_logo.jpg/250px-Calgary_Blizzard_logo.jpg",
-    "city_country": "Calgary, Canada",
-    "wiki_url": "https://en.wikipedia.org/wiki/Calgary_Blizzard_SC"
+    "club_name": "SWA Sharks FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c6/SWA_Sharks_FC_logo.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/SWA_Sharks_FC"
+  },
+  {
+    "club_name": "AFC Academy FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/8b/AFC_Academy_logo.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/AFC_Academy"
+  },
+  {
+    "club_name": "Academy Eagles FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/ff/Academy_Eagles_FC_logo.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Academy_Eagles_FC"
+  },
+  {
+    "club_name": "Teachers FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/b/b4/Teachers_Football_Club_emblema.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Teachers_FC"
+  },
+  {
+    "club_name": "Flamingo FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/3/33/Flamingo_Football_Club_emblema.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Flamingo_FC"
+  },
+  {
+    "club_name": "Cheshire Hall FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/ae/Cheshire_Hall_FC_Logo.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cheshire_Hall_FC"
+  },
+  {
+    "club_name": "Teachers Young Strikers FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/c/ca/Teachers_Young_Strikers_emblema.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Teachers_Young_Strikers"
+  },
+  {
+    "club_name": "Provo United SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b4/Provo_United_SC.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Provo_United_SC"
+  },
+  {
+    "club_name": "Beaches FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/92/Beaches_FC_logo.png",
+    "city_country": "Providenciales, Turks and Caicos Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Beaches_FC"
+  },
+  {
+    "club_name": "CAPA FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/71/CAPA_FC_logo.png",
+    "city_country": "Saint Croix, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/CAPA_(soccer)"
+  },
+  {
+    "club_name": "Helenites SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/01/Helenites_Sports_Club_logo.png",
+    "city_country": "Grove Place, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Helenites_SC"
+  },
+  {
+    "club_name": "Rovers SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Rovers_SC_Logo.png/250px-Rovers_SC_Logo.png",
+    "city_country": "Christianted, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rovers_SC"
+  },
+  {
+    "club_name": "New Vibes SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/New_Vibes_SC_logo.png/250px-New_Vibes_SC_logo.png",
+    "city_country": "Saint Thomas, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/New_Vibes_SC"
+  },
+  {
+    "club_name": "Raymix SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cf/Raymix_SC.png",
+    "city_country": "Saint Thomas, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Raymix_SC"
+  },
+  {
+    "club_name": "Prankton SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/df/Prankton_SC.png",
+    "city_country": "Saint Croix, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Prankton_SC"
+  },
+  {
+    "club_name": "Castaways SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Castaways_Soccer_Club_Logo.png/250px-Castaways_Soccer_Club_Logo.png",
+    "city_country": "Saint Thomas, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Castaways_SC"
+  },
+  {
+    "club_name": "Massey SA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0a/Massey_SA_Logo.png",
+    "city_country": "Saint Thomas, United States Virgin Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Massey_SA"
   }
 ]  
