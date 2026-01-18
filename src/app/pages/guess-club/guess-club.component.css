@@ -1,11 +1,15 @@
-/* Contenedor principal */
+/* =========================
+   CONTENEDOR PRINCIPAL
+========================= */
 .container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Contenedores internos */
+/* =========================
+   CONTENEDOR GENERAL
+========================= */
 .w3-container {
   flex-grow: 1;
   display: flex;
@@ -13,73 +17,94 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  max-width: 600px; /* Limita la expansión para mejor control */
+  max-width: 1000px; /* panorámico */
   width: 100%;
   background-color: black;
-  border-radius: 15px;
-  color: #e1b661; /* Texto dorado */
-}
-
-/* AJUSTE DE TARJETA DEL JUEGO */
-.w3-card {
-  width: 90%;
-  max-width: 500px;
-  padding: 20px;
-  box-sizing: border-box;
-  background-color: black;
-  border: 1px solid #e1b661;
-  filter: drop-shadow(0 4px 12px rgba(225, 177, 97, 0.3));
   color: #e1b661;
 }
 
-/* CARD REDONDA PARA EL LOGO */
+
+/* =========================
+   CARD DEL JUEGO
+========================= */
+.w3-card {
+  width: 100%;
+  max-width: 900px; /* vista panorámica */
+  padding: 18px 22px; /* ⬅️ menos padding */
+  box-sizing: border-box;
+  background-color: black;
+  border: 1px solid #e1b661;
+  filter: drop-shadow(0 6px 18px rgba(225, 177, 97, 0.35));
+  color: #e1b661;
+  min-height: 560px; /* ⬅️ CLAVE */
+
+}
+
+.start-screen {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* =========================
+   LOGO DEL CLUB
+========================= */
 .logo-wrapper {
   background: white;
-  padding: 15px;
+  padding: 14px;
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   margin-bottom: 10px;
-  max-width: 400px; /* Limita ancho del logo para no afectar layout */
+  max-width: 420px;
   width: 100%;
   margin-left: auto;
-  margin-right: auto; /* Centrado forzoso del logo */
+  margin-right: auto;
 }
 
 .club-logo {
   width: 100%;
-  height: 220px;
+  height: 190px;
   object-fit: contain;
   transition: filter 0.3s ease-in-out;
   pointer-events: none;
 }
 
-
-/* TIMER con ANIMACIÓN suave */
+/* =========================
+   TIMER
+========================= */
 .w3-light-grey .w3-green {
-  transition: width 0.3s linear; /* anima suavemente */
+  transition: width 0.3s linear;
   font-weight: bold;
 }
 
-/* Botones en columna */
+/* =========================
+   OPCIONES - GRID
+========================= */
 .options-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* ⬅️ SIEMPRE 2 columnas */
+  gap: 14px;
   width: 100%;
-  max-width: 300px;
+  max-width: 600px;
   margin: 20px auto;
-  gap: 12px;
-  position: relative; 
 }
 
-/* BOTONES DE OPCIONES CON BORDER RADIUS */
+.options-container > :nth-child(3):last-child {
+  grid-column: span 2;
+  justify-self: center;
+  width: 70%;
+}
+
+
+
 .option-btn {
   width: 100%;
   padding: 14px;
   font-size: 16px;
   text-align: center;
-  border-radius: 12px; /* borde redondeado */
+  border-radius: 12px;
   border: 2px solid #e1b661 !important;
   background-color: #000 !important;
   color: #e1b661 !important;
@@ -88,26 +113,19 @@
   box-shadow: 0 2px 4px rgba(225, 177, 97, 0.2);
 }
 
-/* Hover visual */
 .option-btn:hover {
   background-color: #e1b661 !important;
   color: black !important;
-  border-color: #e1b661 !important;
   transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(225, 177, 97, 0.4);
 }
 
-/* Estado activo para mayor feedback */
 .option-btn:active {
-  transform: scale(0.98);
-  box-shadow: 0 1px 2px rgba(225, 177, 97, 0.3);
+  transform: scale(0.97);
 }
 
-.back-btn {
-  color: white !important;
-}
-
-/* BOTONES PRINCIPALES CON BORDE DORADO */
+/* =========================
+   BOTONES PRINCIPALES
+========================= */
 .w3-btn.w3-black {
   border: 2px solid #e1b661 !important;
   color: #e1b661 !important;
@@ -117,61 +135,11 @@
 .w3-btn.w3-black:hover {
   background-color: #e1b661 !important;
   color: black !important;
-  border-color: #e1b661 !important;
 }
 
-/* Mensajes */
-h3 {
-  margin: 10px 0;
-}
-
-/* AJUSTES DE TEXTO EN CARD */
-.w3-card h2 {
-  font-size: 22px;
-}
-
-.w3-card h3 {
-  font-size: 16px;
-  margin: 6px 0;
-}
-
-.w3-card .w3-btn i {
-  margin-right: 4px;
-  font-size: 14px;
-}
-
-/* RESPONSIVE */
-@media (max-width: 600px) {
-
-  .club-logo {
-    height: 180px;
-  }
-
-  .w3-card {
-    width: 95%;
-    max-width: 350px;
-    padding: 15px;
-  }
-
-  .options-container {
-    max-width: 230px;
-  }
-
-  .option-btn {
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 10px;
-  }
-
-  .w3-card h2 {
-    font-size: 18px;
-  }
-
-  .w3-card h3 {
-    font-size: 14px;
-  }
-}
-
+/* =========================
+   VIDAS
+========================= */
 .lives-container {
   margin-bottom: 10px;
 }
@@ -188,6 +156,9 @@ h3 {
   transform: scale(0.9);
 }
 
+/* =========================
+   MENSAJE VIDA EXTRA
+========================= */
 .extra-life {
   color: red;
   font-weight: bold;
@@ -201,19 +172,16 @@ h3 {
   100% { transform: scale(1); }
 }
 
-.blur-light {
-  filter: blur(2px);
-}
+/* =========================
+   BLUR
+========================= */
+.blur-light { filter: blur(2px); }
+.blur-medium { filter: blur(3px); }
+.blur-hard { filter: blur(4px); }
 
-.blur-medium {
-  filter: blur(3px);
-}
-
-.blur-hard {
-  filter: blur(4px);
-}
-
-
+/* =========================
+   HELPERS
+========================= */
 .helpers-container {
   display: flex;
   justify-content: center;
@@ -236,4 +204,44 @@ h3 {
   cursor: not-allowed;
 }
 
+/* =========================
+   TEXTOS
+========================= */
+.w3-card h2 {
+  margin: 6px 0;
+}
 
+.w3-card h3 {
+  margin: 4px 0;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+
+  .w3-container {
+    max-width: 100%;
+  }
+
+  .w3-card {
+    max-width: 380px;
+    padding: 14px 16px;
+    min-height: 480px;
+  }
+
+  .options-container {
+    grid-template-columns: 1fr;
+    max-width: 280px;
+  }
+
+  .club-logo {
+    height: 160px;
+  }
+
+  .option-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

@@ -32,6 +32,9 @@ export class GuessClubComponent implements OnInit {
   blurHelpActive: boolean = false; 
   consecutiveCorrect: number = 0;
   extraLifeGranted: boolean = false;
+  bestScore: number = 0;
+  isNewRecord: boolean = false;
+
 
 
   constructor(private clubService: ClubService, private seoService: SeoService) {}
@@ -39,6 +42,7 @@ export class GuessClubComponent implements OnInit {
   ngOnInit(): void {
     this.getClubs();
     this.setupSeo();
+    this.loadBestScore();
   }
 
   private setupSeo(): void {
@@ -76,6 +80,10 @@ export class GuessClubComponent implements OnInit {
     this.seoService.setStructuredData(structuredData);
   }
 
+  loadBestScore(): void {
+    this.bestScore = Number(localStorage.getItem('bestScore')) || 0;
+  }
+
   getClubs(): void {
     this.clubService.getClubs().subscribe(data => {
       this.clubs = data;
@@ -96,7 +104,9 @@ export class GuessClubComponent implements OnInit {
       this.extraLifeGranted = false;
       this.timeHelpUsed = false;
       this.blurHelpUsed = false;
+      this.isNewRecord = false;
     }
+    
   
 // Definir cantidad de opciones según la racha
 const optionsCount = this.streak >= 15 ? 4 : 3;
@@ -175,11 +185,29 @@ checkAnswer(answer: string | null): void {
     this.lives--;
     this.consecutiveCorrect = 0; 
     this.extraLifeGranted = false;
+    this.showExtraLifeMessage = false;
   
     if (this.lives === 0) {
       this.lastScore = this.streak;
       this.streak = 0;
+    
+      // 🏆 Check de nuevo récord
+      if (this.lastScore > this.bestScore) {
+        this.bestScore = this.lastScore;
+        localStorage.setItem('bestScore', this.bestScore.toString());
+        this.isNewRecord = true;
+    
+        // 🎉 Confetti especial por récord
+        confetti({
+          particleCount: 350,
+          spread: 140,
+          origin: { y: 0.4 }
+        });
+      } else {
+        this.isNewRecord = false;
+      }
     }
+    
   
     this.gameOver = true;
   }
