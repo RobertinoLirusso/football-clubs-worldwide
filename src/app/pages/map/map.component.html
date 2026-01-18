@@ -1,44 +1,8 @@
-<div class="container">
+<div class="container"> 
   <app-header></app-header>
-<div class="map-wrapper">
-
-  <!-- Buscador -->
-  <div class="search-box">
-    <i class="fa fa-search search-icon"></i>
-    <input type="text" class="w3-input search-input"
-           placeholder="Search stadium..."
-           [(ngModel)]="searchTerm"
-           (input)="updateSuggestions()"
-           (keydown.enter)="onExactSearch()">
-    <i *ngIf="searchTerm" class="w3-center fa fa-times clear-icon" (click)="clearSearch()"></i>
-  </div>
-
-  <!-- Lista de sugerencias -->
-  <ul *ngIf="suggestions.length > 0" class="suggestions-list">
-    <li *ngFor="let s of suggestions" (click)="selectSuggestion(s)">
-      {{ s.stadium_name }}
-    </li>
-  </ul>
-
-  <!-- Mapa -->
-  <div id="stadium-map"></div>
-
-  <!-- Información de distancia -->
-  <div *ngIf="distanceResult" class="distance-result">
-    <p>{{ distanceResult }}</p>
-    <button class="clear-distance-btn" (click)="clearDistance()">
-      <i class="fas fa-times"></i> Clear Distance
-    </button>
-  </div>
-
-  <!-- Instrucciones -->
-  <div class="distance-instructions">
-    <p><i class="fas fa-info-circle"></i> Click on two stadium icons to calculate the distance between them</p>
-    <p><i class="fas fa-circle" style="color: #fc4d08;"></i> First selected stadium</p>
-    <p><i class="fas fa-circle" style="color: #44ff44;"></i> Second selected stadium</p>
-  </div>
-
-</div>
-
-    <app-footer></app-footer>
+  <div class="map-wrapper"> 
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ysRUssTQUMpe6z20l5uztzu1yiUxpFw&ehbc=2E312F&noprof=1" width="640" height="480">
+    </iframe> 
+  </div> 
+  <app-footer></app-footer> 
 </div>

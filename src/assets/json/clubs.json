@@ -1038,19 +1038,19 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Defensa_y_Justicia"
   },
   {
-    "club_name": "San Lorenzo",
+    "club_name": "San Lorenzo de Almagro",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7mKlXrf9OY9Ft7l9epoaYOTm_FEOz0bSHawsnH8CcmY3GpMVmNrL3MHjfYBsbgJVVxN0wtPDewjkdC2sN3UWdwkcpq4Yer070TvxS2c4nD1CpmKUwDG8HNA0ARUPEIbusr0CB_40Sng215NQey4pN8uFgroqmiQAg7-xYf-uZ5K5LkAG4C0xabty-1QA/s256/CA%20San%20Lorenzo%20de%20Almagro256x.png",
     "city_country": "Buenos Aires, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro"
   },
   {
-    "club_name": "Belgrano",
+    "club_name": "CA Belgrano",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpIZJjO6Hg--KqextzRiWJKatbwwYvd-tkCoaqtDX2XuqSsZ7HkPU-dNk8yeanIq0CCnZuuBFmXHqj_4yaRmCMXirZFaCAb3cQU2GOLR5UdYnV4MP3np3Wy2UW173fA9kR3Zt8bB1TwVmrzS-plO8bkE_LlAexLzrAZS6Vrb-Xk9KYVIwTsPJEyFqw7WA/s256/Club%20Atletico%20Belgrano256x.png",
     "city_country": "Córdoba, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Belgrano"
   },
   {
-    "club_name": "Talleres",
+    "club_name": "Talleres de Córdoba",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Talleres.png",
     "city_country": "Córdoba, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Talleres_de_C%C3%B3rdoba"
@@ -1398,13 +1398,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Asante_Kotoko_S.C."
   },
   {
-    "club_name": "Flamengo",
+    "club_name": "CR Flamengo",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj20pS7GWMG46V5vhnBK2STmHkqJoH3AotGG54ziAgkl0to2AnWfs07l0ZZk7AQ9MWPm-CTgpGYDA_Ta35dotdcsn2loEcAkymAF_RCe7vphzkM2_0fhTZmqZhjGSJEL8DTzKUEo8i0NTAJmML_cBIgSRmlfqEMrGMlTqE3uHWSvmKTtI1Z-h0DBaoQH4c/s256/Clube%20de%20Regatas%20do%20Flamengo256x.png",
     "city_country": "Rio de Janeiro, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/CR_Flamengo"
   },
   {
-    "club_name": "Grêmio",
+    "club_name": "Grêmio FBPA",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV1KXTmFRyU28-DTTQ-VVqusa_XpG-QOMaGz6O3wtuYKLNb8yTzVAgesggpcCRGAlaS28-DAtv7WXsxd4liphpVG3q7V76G0rnJBqs9Ejj8996R0AZkYSibbk827NSc2c-sngTDzXxDHc/s1600/Gremio+Foot+Ball+Porto+Alegrense256x.png",
     "city_country": "Porto Alegre, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Gr%C3%AAmio_FBPA"
@@ -8839,7 +8839,7 @@
   },
   {
     "club_name": "Atlético Goianiense",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Atl%C3%A9tico_Clube_Goianiense_logo.svg/130px-Atl%C3%A9tico_Clube_Goianiense_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Atl%C3%A9tico_Clube_Goianiense_logo.svg/250px-Atl%C3%A9tico_Clube_Goianiense_logo.svg.png",
     "city_country": "Goiânia, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Clube_Goianiense"
   },
@@ -12264,19 +12264,19 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Knattspyrnuf%C3%A9lagi%C3%B0_Fram"
   },
   {
-    "club_name": "ÍA",
+    "club_name": "ÍA Akranes",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/17/AkranessLogo.png",
     "city_country": "Akranes, Iceland",
     "wiki_url": "https://en.wikipedia.org/wiki/%C3%8D%C3%BEr%C3%B3ttabandalag_Akraness"
   },
   {
-    "club_name": "KA",
+    "club_name": "KA Akureyri",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ka-logo-new.svg/250px-Ka-logo-new.svg.png",
     "city_country": "Akureyri, Iceland",
     "wiki_url": "https://en.wikipedia.org/wiki/Knattspyrnuf%C3%A9lag_Akureyrar"
   },
   {
-    "club_name": "KR",
+    "club_name": "KR Reykjavík",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/KR_Reykjav%C3%ADk.png/200px-KR_Reykjav%C3%ADk.png",
     "city_country": "Reykjavík, Iceland",
     "wiki_url": "https://en.wikipedia.org/wiki/Knattspyrnuf%C3%A9lag_Reykjav%C3%ADkur"
@@ -14646,8 +14646,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Athletic_Club_(MG)"
   },
   {
-    "club_name": "Avaí",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Avai_FC_%2805-E%29_-_SC.svg/250px-Avai_FC_%2805-E%29_-_SC.svg.png",
+    "club_name": "Avaí FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Ava%C3%AD_Futebol_Clube_logo.svg/250px-Ava%C3%AD_Futebol_Clube_logo.svg.png",
     "city_country": "Florianópolis, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Ava%C3%AD_FC"
   },
@@ -14790,8 +14790,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Floresta_Esporte_Clube"
   },
   {
-    "club_name": "Guarani",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Guarani_FC_%28E%29_-_SP.svg/185px-Guarani_FC_%28E%29_-_SP.svg.png",
+    "club_name": "Guarani FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Guarani_Futebol_Clube_logo.svg/250px-Guarani_Futebol_Clube_logo.svg.png",
     "city_country": "Campinas, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Guarani_FC"
   },
@@ -18924,7 +18924,7 @@
     "wiki_url": "https://sr.wikipedia.org/wiki/%D0%A4%D0%9A_%D0%A1%D0%A3_%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE_%D0%88%D1%83%D0%B3"
   },
   {
-    "club_name": "Trayal",
+    "club_name": "FK Trayal Kruševac",
     "club_logo": "https://upload.wikimedia.org/wikipedia/sr/thumb/8/82/Trayal.png/150px-Trayal.png",
     "city_country": "Kruševac, Serbia",
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Trayal_Kru%C5%A1evac"
@@ -19524,19 +19524,19 @@
     "wiki_url": "https://it.wikipedia.org/wiki/Associazione_Calcio_Prato"
   },
   {
-    "club_name": "San Donato Tavarnelle",
+    "club_name": "San Donato Tavarnelle FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/a/a0/San-Donato_Tavarnelle-logo.png/250px-San-Donato_Tavarnelle-logo.png",
     "city_country": "San Donato in Poggio and Tavarnelle Val di Pesa, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/San_Donato_Tavarnelle"
   },
   {
-    "club_name": "Sansepolcro",
+    "club_name": "SSD Vivi Altotevere Sansepolcro",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Logo_Vivi_Altotevere_Sansepolcro.png/250px-Logo_Vivi_Altotevere_Sansepolcro.png",
     "city_country": "Sansepolcro, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/SSD_Vivi_Altotevere_Sansepolcro"
   },
   {
-    "club_name": "Scandicci",
+    "club_name": "FC Scandicci 1908",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Scandicci_Calcio.png/250px-Scandicci_Calcio.png",
     "city_country": "Scandicci, Italy",
     "wiki_url": "https://it.wikipedia.org/wiki/Football_Club_Scandicci_1908"
@@ -19735,13 +19735,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Kjels%C3%A5s_Fotball"
   },
   {
-    "club_name": "Levanger",
+    "club_name": "Levanger FK",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Levanger_FK_logo.svg/250px-Levanger_FK_logo.svg.png",
     "city_country": "Levanger, Norway",
     "wiki_url": "https://en.wikipedia.org/wiki/Levanger_FK"
   },
   {
-    "club_name": "Rana",
+    "club_name": "Rana FK",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Rana_FK_logo.png/250px-Rana_FK_logo.png",
     "city_country": "Mo i Rana, Norway",
     "wiki_url": "https://en.wikipedia.org/wiki/Rana_FK"

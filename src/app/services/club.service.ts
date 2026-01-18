@@ -8,15 +8,10 @@ import { Observable } from 'rxjs';
 export class ClubService {
 
   private clubsUrl = '/assets/json/clubs.json';
-  private stadiumsUrl = '/assets/json/stadiums.json';
 
   constructor(private http: HttpClient) { }
 
   getClubs(): Observable<any[]> {
     return this.http.get<any[]>(this.clubsUrl);
-  }
-
-  getStadiums(): Observable<any[]> {
-    return this.http.get<any[]>(this.stadiumsUrl);
   }
 }

@@ -34,11 +34,6 @@ export class GuessClubComponent implements OnInit {
   extraLifeGranted: boolean = false;
 
 
-
-
-
-
-
   constructor(private clubService: ClubService, private seoService: SeoService) {}
 
   ngOnInit(): void {
@@ -178,7 +173,8 @@ checkAnswer(answer: string | null): void {
     this.gameOver = true;
   } else {
     this.lives--;
-    this.consecutiveCorrect = 0; // ❌ se rompe la racha real
+    this.consecutiveCorrect = 0; 
+    this.extraLifeGranted = false;
   
     if (this.lives === 0) {
       this.lastScore = this.streak;
@@ -188,8 +184,6 @@ checkAnswer(answer: string | null): void {
     this.gameOver = true;
   }
 }
-
-
 
 // Nueva función para devolver el mensaje según el total
 getPlayerLevel(): string {
@@ -241,12 +235,5 @@ useBlurHelp(): void {
   this.blurHelpUsed = true;    // bloquea el botón
   this.blurHelpActive = true; // reduce blur SOLO ahora
 }
-
-
-
-
-
-  
-  
 
 }

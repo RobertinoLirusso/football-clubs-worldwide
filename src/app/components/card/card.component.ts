@@ -1,6 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { ClubService } from '../../services/club.service';
-import { GeminiService } from '../../services/gemini.service';
 import { COUNTRY_FLAG_MAP } from '../../utils/country-flags';
 
 @Component({
@@ -74,7 +73,6 @@ export class CardComponent implements OnInit {
 
   constructor(
   private clubService: ClubService,
-  private geminiService: GeminiService
   ) {}
 
   ngOnInit(): void {
@@ -112,6 +110,11 @@ export class CardComponent implements OnInit {
     }
     return array;
   }
+
+  trackByClub(index: number, club: any): string {
+  return club.club_name; 
+}
+
 
   animateCounter(): void {
     const duration = 1500;
@@ -319,68 +322,5 @@ closeImageModal() {
   getYouTubeUrl(club: any): string {
     return `https://www.youtube.com/results?search_query=${encodeURIComponent(club.club_name)}`;
   }
-
-  // Chatbot methods
-  openChatbot(club: any, event: Event): void {
-    event.stopPropagation(); // Prevent card click
-    this.selectedClubForChat = club;
-    this.isChatbotOpen = true;
-    this.chatMessages = [];
-  }
-
-  closeChatbot(): void {
-    this.isChatbotOpen = false;
-    this.selectedClubForChat = null;
-  }
-
-  async sendPrompt(promptIndex: number): Promise<void> {
-    if (!this.selectedClubForChat) return;
-
-    const selectedPrompt = this.chatPrompts[promptIndex];
-
-    // Add user prompt as message
-    this.chatMessages.push({
-      text: selectedPrompt,
-      isUser: true,
-      timestamp: new Date()
-    });
-
-    this.isChatLoading = true;
-
-    try {
-      // Create context-aware prompt
-      const contextPrompt = `You are a football expert. The user is asking about the club "${this.selectedClubForChat.club_name}" from ${this.selectedClubForChat.city_country}.
-
-User's question: "${selectedPrompt}"
-
-Provide an informative, accurate and friendly response in English. Keep responses concise but complete.`;
-
-      const response = await this.geminiService.generateResponse(contextPrompt);
-
-      this.chatMessages.push({
-        text: response,
-        isUser: false,
-        timestamp: new Date()
-      });
-    } catch (error) {
-      this.chatMessages.push({
-        text: 'Sorry, an error occurred while processing your question. Please try again.',
-        isUser: false,
-        timestamp: new Date()
-      });
-    }
-
-    this.isChatLoading = false;
-
-    // Auto-scroll to bottom
-    setTimeout(() => {
-      const chatContainer = document.querySelector('.chat-messages');
-      if (chatContainer) {
-        chatContainer.scrollTop = chatContainer.scrollHeight;
-      }
-    }, 100);
-  }
-
-
 
 }
