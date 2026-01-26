@@ -13,6 +13,17 @@
   border: 1px solid transparent; /* espacio para el borde */
 }
 
+.card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(90deg, #ffe082 0%, #ffd54f 10%, transparent 20%, transparent 80%, #ffd54f 90%, #ffe082 100%);
+  opacity: 0.6;
+}
+
 .card:hover {
   transform: scale(1.05);
   border: 1px solid transparent;

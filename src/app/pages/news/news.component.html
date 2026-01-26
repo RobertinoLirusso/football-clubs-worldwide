@@ -1,0 +1,21 @@
+<h2>📰 Football News</h2>
+
+<div class="sources">
+  <button
+    *ngFor="let feed of feeds"
+    (click)="loadFeed(feed)">
+    {{ feed.name }}
+  </button>
+</div>
+
+<div *ngIf="loading">Cargando noticias...</div>
+
+<div class="news-list">
+  <article *ngFor="let article of articles">
+    <h3>{{ article.title }}</h3>
+    <p [innerHTML]="article.description"></p>
+    <small>{{ article.pubDate }}</small>
+    <br />
+    <a [href]="article.link" target="_blank">Leer más</a>
+  </article>
+</div>

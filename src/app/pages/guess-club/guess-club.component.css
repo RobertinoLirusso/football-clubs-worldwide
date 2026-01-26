@@ -33,7 +33,6 @@
   padding: 18px 22px; /* ⬅️ menos padding */
   box-sizing: border-box;
   background-color: black;
-  border: 1px solid #e1b661;
   filter: drop-shadow(0 6px 18px rgba(225, 177, 97, 0.35));
   color: #e1b661;
   min-height: 560px; /* ⬅️ CLAVE */
@@ -213,6 +212,8 @@
 
 .w3-card h3 {
   margin: 4px 0;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 
@@ -220,6 +221,10 @@
    RESPONSIVE
 ========================= */
 @media (max-width: 768px) {
+
+  .container {
+    padding: 0 12px;
+  }
 
   .w3-container {
     max-width: 100%;
@@ -229,6 +234,10 @@
     max-width: 380px;
     padding: 14px 16px;
     min-height: 480px;
+  }
+
+  .w3-card h3 {
+    font-size: 14px;
   }
 
   .options-container {
