@@ -17,10 +17,12 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  padding: 0 16px;
   max-width: 1000px; /* panorámico */
   width: 100%;
   background-color: black;
   color: #e1b661;
+  box-sizing: border-box;
 }
 
 

@@ -1,21 +1,42 @@
-<h2>📰 Football News</h2>
+<div class="container">
+  <app-header></app-header>
+  
+  <div class="w3-container w3-padding">
+    <h2 class="w3-center page-title">Football News</h2>
 
-<div class="sources">
-  <button
-    *ngFor="let feed of feeds"
-    (click)="loadFeed(feed)">
-    {{ feed.name }}
-  </button>
-</div>
+    <div class="w3-center w3-margin-bottom sources">
+      <button
+        *ngFor="let feed of feeds"
+        class="w3-button source-btn"
+        [class.active]="selectedFeed === feed"
+        (click)="loadFeed(feed)">
+        {{ feed.name }}
+      </button>
+    </div>
 
-<div *ngIf="loading">Cargando noticias...</div>
+    <div *ngIf="loading" class="w3-center w3-padding">
+      <i class="fa fa-spinner fa-spin"></i> Loading news...
+    </div>
 
-<div class="news-list">
-  <article *ngFor="let article of articles">
-    <h3>{{ article.title }}</h3>
-    <p [innerHTML]="article.description"></p>
-    <small>{{ article.pubDate }}</small>
-    <br />
-    <a [href]="article.link" target="_blank">Leer más</a>
-  </article>
+    <div class="news-grid">
+      <article *ngFor="let article of articles" class="w3-card news-card">
+        <div class="news-content">
+          <h3 class="news-title">{{ article.title }}</h3>
+          <p class="news-description" [innerHTML]="article.description"></p>
+          <div class="news-footer">
+            <small class="news-date">{{ article.pubDate }}</small>
+            <a [href]="article.link" target="_blank" class="w3-button read-more">
+              Read more <i class="fa fa-external-link"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div *ngIf="!loading && articles.length === 0" class="w3-center w3-padding">
+      <p>No news available</p>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
 </div>

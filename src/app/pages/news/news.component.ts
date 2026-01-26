@@ -4,7 +4,7 @@ import { RssService } from '../../services/rss.service';
 @Component({
   selector: 'app-news',
   templateUrl: './news.component.html',
-  styleUrls: ['./news.component.scss']
+  styleUrls: ['./news.component.css']
 })
 export class NewsComponent implements OnInit {
 
@@ -21,14 +21,17 @@ export class NewsComponent implements OnInit {
 
   articles: any[] = [];
   loading = false;
+  selectedFeed: any;
 
   constructor(private rssService: RssService) {}
 
   ngOnInit() {
+    this.selectedFeed = this.feeds[0];
     this.loadFeed(this.feeds[0]);
   }
 
   loadFeed(feed: any) {
+    this.selectedFeed = feed;
     this.loading = true;
     this.articles = [];
 
