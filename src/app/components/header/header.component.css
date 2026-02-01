@@ -39,8 +39,6 @@ header {
 
 /* Navigation Tabs */
 .nav-tabs {
-  display: flex;
-  justify-content: flex-start;
   background: linear-gradient(to right, #000000 70%, #e1b661 100%);
 }
 

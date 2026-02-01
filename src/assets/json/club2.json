@@ -1,8 +1,344 @@
 [
   {
-    "club_name": "FK Ventspils (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/FK_Ventspils_logo.svg/250px-FK_Ventspils_logo.svg.png",
-    "city_country": "Ventspils, Latvia",
-    "wiki_url": "https://en.wikipedia.org/wiki/FK_Ventspils"
+    "club_name": "Araguaína Futebol e Regatas",
+    "club_logo": "",
+    "city_country": "Araguaína, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aragua%C3%ADna_Futebol_e_Regatas"
+  },
+  {
+    "club_name": "Batalhão Futebol Clube",
+    "club_logo": "",
+    "city_country": "Palmas, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Bela Vista Futebol Cachoeirense",
+    "club_logo": "",
+    "city_country": "Cachoeirinha, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Capital Futebol Clube",
+    "club_logo": "",
+    "city_country": "Palmas, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Capital_FC"
+  },
+  {
+    "club_name": "Gurupi Esporte Clube",
+    "club_logo": "",
+    "city_country": "Gurupi, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gurupi_Esporte_Clube"
+  },
+  {
+    "club_name": "Tocantins Esporte Clube",
+    "club_logo": "",
+    "city_country": "Miracema do Tocantins, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tocantinópolis Esporte Clube",
+    "club_logo": "",
+    "city_country": "Tocantinópolis, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tocantin%C3%B3polis_Esporte_Clube"
+  },
+  {
+    "club_name": "União Atlético Clube",
+    "club_logo": "",
+    "city_country": "Araguaína, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Uni%C3%A3o_Atl%C3%A9tico_Clube_(Tocantins)"
+  },
+  {
+    "club_name": "Andraus",
+    "club_logo": "",
+    "city_country": "Campo Largo, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Athletico Paranaense",
+    "club_logo": "",
+    "city_country": "Curitiba, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Athletico_Paranaense"
+  },
+  {
+    "club_name": "Azuriz",
+    "club_logo": "",
+    "city_country": "Pato Branco, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Azuriz_FC"
+  },
+  {
+    "club_name": "Cianorte",
+    "club_logo": "",
+    "city_country": "Cianorte, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cianorte_FC"
+  },
+  {
+    "club_name": "Coritiba",
+    "club_logo": "",
+    "city_country": "Curitiba, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Coritiba_Foot_Ball_Club"
+  },
+  {
+    "club_name": "Cascavel",
+    "club_logo": "",
+    "city_country": "Cascavel, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Cascavel"
+  },
+  {
+    "club_name": "Londrina",
+    "club_logo": "",
+    "city_country": "Londrina, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Londrina_Esporte_Clube"
+  },
+  {
+    "club_name": "Maringá",
+    "club_logo": "",
+    "city_country": "Maringá, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Maring%C3%A1_Futebol_Clube"
+  },
+  {
+    "club_name": "Operário Ferroviário",
+    "club_logo": "",
+    "city_country": "Ponta Grossa, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Oper%C3%A1rio_Ferrovi%C3%A1rio_Esporte_Clube"
+  },
+  {
+    "club_name": "Paraná Clube",
+    "club_logo": "",
+    "city_country": "Curitiba, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Paran%C3%A1_Clube"
+  },
+  {
+    "club_name": "Rio Branco",
+    "club_logo": "",
+    "city_country": "Paranaguá, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rio_Branco_Sport_Club"
+  },
+  {
+    "club_name": "São Joseense",
+    "club_logo": "",
+    "city_country": "São José dos Pinhais, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Joseense_Futebol_Clube"
+  },
+  {
+    "club_name": "Avaí Futebol Clube",
+    "club_logo": "",
+    "city_country": "Florianópolis, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ava%C3%AD_Futebol_Clube"
+  },
+  {
+    "club_name": "Associação Chapecoense de Futebol",
+    "club_logo": "",
+    "city_country": "Chapecó, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Chapecoense_de_Futebol"
+  },
+  {
+    "club_name": "Santa Catarina Clube",
+    "club_logo": "",
+    "city_country": "Rio do Sul, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Joinville Esporte Clube",
+    "club_logo": "",
+    "city_country": "Joinville, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Joinville_Esporte_Clube"
+  },
+  {
+    "club_name": "Criciúma Esporte Clube",
+    "club_logo": "",
+    "city_country": "Criciúma, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Crici%C3%BAma_Esporte_Clube"
+  },
+  {
+    "club_name": "Brusque Futebol Clube",
+    "club_logo": "",
+    "city_country": "Brusque, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brusque_Futebol_Clube"
+  },
+  {
+    "club_name": "Figueirense Futebol Clube",
+    "club_logo": "",
+    "city_country": "Florianópolis, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Figueirense_Futebol_Clube"
+  },
+  {
+    "club_name": "Marcílio Dias",
+    "club_logo": "",
+    "city_country": "Itajaí, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Clube_Esportivo_Marc%C3%ADlio_Dias"
+  },
+  {
+    "club_name": "Barra Futebol Clube",
+    "club_logo": "",
+    "city_country": "Balneário Camboriú, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Barra_Futebol_Clube"
+  },
+  {
+    "club_name": "Concórdia Atlético Clube",
+    "club_logo": "",
+    "city_country": "Concórdia, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Conc%C3%B3rdia_Atl%C3%A9tico_Clube"
+  },
+  {
+    "club_name": "Caravaggio Futebol Clube",
+    "club_logo": "",
+    "city_country": "Nova Veneza, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Hercílio Luz Futebol Clube",
+    "club_logo": "",
+    "city_country": "Tubarão, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Herc%C3%ADlio_Luz_Futebol_Clube"
+  },
+  {
+    "club_name": "Botafogo-SP",
+    "club_logo": "",
+    "city_country": "Ribeirão Preto, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Botafogo_Futebol_Clube_(SP)"
+  },
+  {
+    "club_name": "Capivariano",
+    "club_logo": "",
+    "city_country": "Capivari, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Capivariano_FC"
+  },
+  {
+    "club_name": "Corinthians",
+    "club_logo": "",
+    "city_country": "São Paulo, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Corinthians_Paulista"
+  },
+  {
+    "club_name": "Guarani",
+    "club_logo": "",
+    "city_country": "Campinas, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guarani_FC"
+  },
+  {
+    "club_name": "Mirassol",
+    "club_logo": "",
+    "city_country": "Mirassol, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mirassol_FC"
+  },
+  {
+    "club_name": "Noroeste",
+    "club_logo": "",
+    "city_country": "Bauru, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Esporte_Clube_Noroeste"
+  },
+  {
+    "club_name": "Novorizontino",
+    "club_logo": "",
+    "city_country": "Novo Horizonte, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Grêmio_Esports_Novorizontino"
+  },
+  {
+    "club_name": "Palmeiras",
+    "club_logo": "",
+    "city_country": "São Paulo, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/SE_Palmeiras"
+  },
+  {
+    "club_name": "Ponte Preta",
+    "club_logo": "",
+    "city_country": "Campinas, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Atl%C3%A9tica_Ponte_Preta"
+  },
+  {
+    "club_name": "Portuguesa",
+    "club_logo": "",
+    "city_country": "São Paulo, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Portuguesa_de_Desportos"
+  },
+  {
+    "club_name": "Primavera",
+    "club_logo": "",
+    "city_country": "Indaiatuba, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Primavera_FC"
+  },
+  {
+    "club_name": "Red Bull Bragantino",
+    "club_logo": "",
+    "city_country": "Bragança Paulista, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Red_Bull_Bragantino"
+  },
+  {
+    "club_name": "Santos",
+    "club_logo": "",
+    "city_country": "Santos, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Santos_FC"
+  },
+  {
+    "club_name": "São Bernardo",
+    "club_logo": "",
+    "city_country": "São Bernardo do Campo, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Bernardo_FC"
+  },
+  {
+    "club_name": "São Paulo",
+    "club_logo": "",
+    "city_country": "São Paulo, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_FC"
+  },
+  {
+    "club_name": "Velo Clube",
+    "club_logo": "",
+    "city_country": "Rio Claro, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Atl%C3%A9tica_Velo_Clube"
+  },
+  {
+    "club_name": "Academia Futebol Clube",
+    "club_logo": "",
+    "city_country": "Rondonópolis, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Cuiabá Esporte Clube",
+    "club_logo": "",
+    "city_country": "Cuiabá, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cuiab%C3%A1_Esporte_Clube"
+  },
+  {
+    "club_name": "Luverdense Esporte Clube",
+    "club_logo": "",
+    "city_country": "Lucas do Rio Verde, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Luverdense_Esporte_Clube"
+  },
+  {
+    "club_name": "Mixto Esporte Clube",
+    "club_logo": "",
+    "city_country": "Cuiabá, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mixto_Esporte_Clube"
+  },
+  {
+    "club_name": "Nova Mutum Esporte Clube",
+    "club_logo": "",
+    "city_country": "Nova Mutum, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nova_Mutum_Esporte_Clube"
+  },
+  {
+    "club_name": "Clube Esportivo Operário Várzea-Grandense",
+    "club_logo": "",
+    "city_country": "Várzea Grande, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Clube_Esportivo_Oper%C3%A1rio_V%C3%A1rzea-Grandense"
+  },
+  {
+    "club_name": "Primavera Atlético Clube",
+    "club_logo": "",
+    "city_country": "Primavera do Leste, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Primavera_Atl%C3%A9tico_Clube"
+  },
+  {
+    "club_name": "Sport Sinop",
+    "club_logo": "",
+    "city_country": "Sinop, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "União Esporte Clube",
+    "club_logo": "",
+    "city_country": "Rondonópolis, Brazil",
+    "wiki_url": ""
   }
 ]  
