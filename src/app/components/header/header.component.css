@@ -41,6 +41,11 @@ header {
 .nav-tabs {
   background: linear-gradient(to right, #000000 70%, #e1b661 100%);
 }
+@media (max-width: 768px) {
+  .nav-tabs {
+    background: linear-gradient(to bottom, #000000 70%, #e1b661 100%);
+  }
+}
 
 .nav-link {
   color: white !important;
@@ -56,4 +61,3 @@ header {
   background-color: #e1b661 !important;
   color: black !important;
 }
-

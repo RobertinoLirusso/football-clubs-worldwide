@@ -12,7 +12,7 @@ export class NewsComponent implements OnInit {
 
   feeds = [
     {
-      name: 'BBC Sport',
+      name: 'BBC Sport (UK)',
       url: 'https://feeds.bbci.co.uk/sport/football/rss.xml'
     },
     {
@@ -20,24 +20,35 @@ export class NewsComponent implements OnInit {
       url: 'https://www.espn.com/espn/rss/soccer/news'
     },
     {
-      name: 'The Guardian',
-      url: 'https://www.theguardian.com/football/rss'
-    },
-    {
-      name: 'Transfermarkt UK',
+      name: 'Transfermarkt (UK)',
       url: 'https://www.transfermarkt.co.uk/rss/news'
     },
     {
-      name: 'Fox Sports News USA',
+      name: 'Fox Sports (USA)',
       url: 'https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/soccer,soccer/epl/league/1,soccer/mls/league/5,soccer/ucl/league/7,soccer/europa/league/8,soccer/wc/league/12,soccer/euro/league/13,soccer/wwc/league/14,soccer/nwsl/league/20,soccer/cwc/league/26,soccer/gold_cup/league/32,soccer/unl/league/67'
+    },
+    {
+      name: 'Marca (Spain)',
+      url: 'https://e00-xlk-ue-marca.uecdn.es/rss/googlenews/portada.xml'
+    },
+    {
+      name: 'Sky Sports (UK)',
+      url: 'https://www.skysports.com/rss/11095'
     }
-    
   ];
 
-  allArticles: any[] = []; // Todas las noticias cargadas
-  articles: any[] = []; // Noticias visibles actualmente
+  matchResultsFeed = {
+    name: 'Match Results (Soccer Stats 247)',
+    url: 'https://www.soccerstats247.com/DailyMatchFeed.aspx?langId=1'
+  };
+
+  allArticles: any[] = [];
+  articles: any[] = [];
+  matchResults: any[] = [];
   loading = false;
   loadingMore = false;
+  loadingMatchResults = false;
+  showMatchResultsModal = false;
   
   readonly itemsPerPage = 12;
   currentPage = 1;
@@ -78,6 +89,27 @@ export class NewsComponent implements OnInit {
       this.loadMore();
       this.loading = false;
     });
+  }
+
+  loadMatchResults() {
+    this.loadingMatchResults = true;
+    this.showMatchResultsModal = true;
+    
+    this.rssService.loadFeed(this.matchResultsFeed.url).pipe(
+      map(items =>
+        items.map(item => ({
+          ...item,
+          source: this.matchResultsFeed.name
+        }))
+      )
+    ).subscribe(results => {
+      this.matchResults = results.filter(a => a.title && a.link);
+      this.loadingMatchResults = false;
+    });
+  }
+
+  closeMatchResultsModal() {
+    this.showMatchResultsModal = false;
   }
 
   loadMore() {

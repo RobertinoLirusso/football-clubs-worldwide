@@ -148,6 +148,23 @@
     cursor: not-allowed;
   }
 
+  .match-results-list {
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .match-item {
+    transition: transform 0.2s;
+  }
+  
+  .match-item:hover {
+    transform: translateX(5px);
+  }
+  
+  .w3-modal {
+    padding-top: 50px;
+  }
+
 /* =========================
    RESPONSIVE
 ========================= */
