@@ -26598,5 +26598,191 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f6/UE_Vilassar.png",
     "city_country": "Vilassar de Mar, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/UE_Vilassar_de_Mar"
+  },
+    {
+    "club_name": "SD Almazán",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/SD_Almaz%C3%A1n.png/250px-SD_Almaz%C3%A1n.png",
+    "city_country": "Almazán, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SD_Almaz%C3%A1n"
+  },
+  {
+    "club_name": "Arandina CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Arandina_CF.png/250px-Arandina_CF.png",
+    "city_country": "Aranda de Duero, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Arandina_CF"
+  },
+  {
+    "club_name": "Atlético Bembibre",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Atl%C3%A9tico_Bembibre_logo.svg/250px-Atl%C3%A9tico_Bembibre_logo.svg.png",
+    "city_country": "Bembibre, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CA_Bembibre"
+  },
+  {
+    "club_name": "CD Atlético Mansillés",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/CD_Atl%C3%A9tico_Mansill%C3%A9s.png/250px-CD_Atl%C3%A9tico_Mansill%C3%A9s.png",
+    "city_country": "Mansilla de las Mulas, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Atl%C3%A9tico_Mansill%C3%A9s"
+  },
+  {
+    "club_name": "Atlético Tordesillas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Atletico_Tordesillas.png/250px-Atletico_Tordesillas.png",
+    "city_country": "Tordesillas, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Tordesillas"
+  },
+  {
+    "club_name": "CD Becerril",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/CD_Becerril.png/189px-CD_Becerril.png",
+    "city_country": "Becerril de Campos, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Becerril"
+  },
+  {
+    "club_name": "CD Colegios Diocesanos",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/CD_Colegios_Diocesanos.png/250px-CD_Colegios_Diocesanos.png",
+    "city_country": "Ávila, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Colegios_Diocesanos"
+  },
+  {
+    "club_name": "CD Palencia Cristo Atlético",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Cristo_Atl%C3%A9tico_logo.png/250px-Cristo_Atl%C3%A9tico_logo.png",
+    "city_country": "Palencia, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Palencia_Cristo_Atl%C3%A9tico"
+  },
+  {
+    "club_name": "CD Guijuelo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/CD_Guijuelo_escudo.png/250px-CD_Guijuelo_escudo.png",
+    "city_country": "Guijuelo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Guijuelo"
+  },
+  {
+    "club_name": "CD La Virgen del Camino",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/CD_La_Virgen_del_Camino_logo.png/250px-CD_La_Virgen_del_Camino_logo.png",
+    "city_country": "Valverde de la Virgen, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_La_Virgen_del_Camino"
+  },
+  {
+    "club_name": "CD Mojados",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/CD_Mojados.png/250px-CD_Mojados.png",
+    "city_country": "Mojados, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Mojados"
+  },
+  {
+    "club_name": "Palencia CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cc/Shield_of_Palencia_CF.png",
+    "city_country": "Palencia, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Palencia_CF"
+  },
+  {
+    "club_name": "UD Santa Marta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/UD_Santa_Marta.png/250px-UD_Santa_Marta.png",
+    "city_country": "Santa Marta de Tormes, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Santa_Marta"
+  },
+  {
+    "club_name": "CD Villaralbo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/GCE_Villaralbo.png/250px-GCE_Villaralbo.png",
+    "city_country": "Villaralbo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Villaralbo"
+  },
+  {
+    "club_name": "UD Alzira",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/UD_Alzira.png/250px-UD_Alzira.png",
+    "city_country": "Alzira, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Alzira"
+  },
+  {
+    "club_name": "Athletic Club Torrellano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Athletic_Club_Torrellano.png/250px-Athletic_Club_Torrellano.png",
+    "city_country": "Elche, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Athletic_Club_Torrellano"
+  },
+  {
+    "club_name": "Atlético Saguntino",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Atletico_Saguntino_Logo.png/250px-Atletico_Saguntino_Logo.png",
+    "city_country": "Sagunto, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Saguntino"
+  },
+  {
+    "club_name": "Atzeneta UE",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Atzeneta_UE.png/250px-Atzeneta_UE.png",
+    "city_country": "Atzeneta d'Albaida, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atzeneta_UE"
+  },
+  {
+    "club_name": "CD Buñol",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Club_Deportivo_Bu%C3%B1ol.png/208px-Club_Deportivo_Bu%C3%B1ol.png",
+    "city_country": "Buñol, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Bu%C3%B1ol"
+  },
+  {
+    "club_name": "UD Castellonense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/UD_Castellonense.png/250px-UD_Castellonense.png",
+    "city_country": "Castelló, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Castellonense"
+  },
+  {
+    "club_name": "Crevillente Deportivo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Crevillente_Deportivo.png/250px-Crevillente_Deportivo.png",
+    "city_country": "Crevillent, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Crevillente_Deportivo"
+  },
+  {
+    "club_name": "FC Jove Español San Vicente",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/FC_Jove_Espa%C3%B1ol_San_Vicente.jpg/250px-FC_Jove_Espa%C3%B1ol_San_Vicente.jpg",
+    "city_country": "San Vicente del Raspeig, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Jove_Espa%C3%B1ol_San_Vicente"
+  },
+  {
+    "club_name": "CF La Nucía",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/CF_La_Nucia.png/250px-CF_La_Nucia.png",
+    "city_country": "La Nucía, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CF_La_Nuc%C3%ADa"
+  },
+  {
+    "club_name": "Ontinyent 1931 CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3b/Ontinyent_1931_CF.png",
+    "city_country": "Ontinyent, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ontinyent_1931_CF"
+  },
+  {
+    "club_name": "Ontinyent CF (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Ontinyent_cf_200px.png/250px-Ontinyent_cf_200px.png",
+    "city_country": "Ontinyent, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ontinyent_CF"
+  },
+  {
+    "club_name": "CF Recambios Colón",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/CF_Recambios_Col%C3%B3n_Catarroja.png/250px-CF_Recambios_Col%C3%B3n_Catarroja.png",
+    "city_country": "Catarroja, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CF_Recambios_Col%C3%B3n"
+  },
+  {
+    "club_name": "CD Roda 1974",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/CD_Roda_logo.png/250px-CD_Roda_logo.png",
+    "city_country": "Villarreal, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Roda"
+  },
+  {
+    "club_name": "CD Soneja",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/CD_Soneja_logo.png/250px-CD_Soneja_logo.png",
+    "city_country": "Soneja, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Soneja"
+  },
+  {
+    "club_name": "CD Utiel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/CD_Utiel.png/250px-CD_Utiel.png",
+    "city_country": "Utiel, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Utiel"
+  },
+  {
+    "club_name": "UD Vall de Uxó",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/UD_Vall_de_Ux%C3%B3.png/250px-UD_Vall_de_Ux%C3%B3.png",
+    "city_country": "La Vall d'Uixó, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Vall_de_Ux%C3%B3"
+  },
+  {
+    "club_name": "CD Olímpic Xàtiva",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/CD_Ol%C3%ADmpic_de_X%C3%A0tiva.png/207px-CD_Ol%C3%ADmpic_de_X%C3%A0tiva.png",
+    "city_country": "Xàtiva, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Ol%C3%ADmpic_de_X%C3%A0tiva"
   }
 ]
