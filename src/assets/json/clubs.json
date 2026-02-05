@@ -2030,7 +2030,7 @@
   {
     "club_name": "RCD Mallorca",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS_NLbyF8PXOeMoeV97YP8JQQ2cxUUfnP9W7n-RKl9j1I6ZlNhBlNmFmaVZGqihLmYfPTZ4ASUafynGUrleNWU_i4pFcx4QwiAIpMwkuPGoWGGfj3wqqdm_DwCwnbaxHkdYfPK5zEM1pM/s256/RCD+Mallorca256x.png",
-    "city_country": "Palma, Spain",
+    "city_country": "Palma de Mallorca, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/RCD_Mallorca"
   },
   {
@@ -10410,7 +10410,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/CE_Andratx"
   },
   {
-    "club_name": "Coria",
+    "club_name": "CD Coria",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/CD_Coria.png/250px-CD_Coria.png",
     "city_country": "Coria, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Coria"
@@ -26784,5 +26784,197 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/CD_Ol%C3%ADmpic_de_X%C3%A0tiva.png/207px-CD_Ol%C3%ADmpic_de_X%C3%A0tiva.png",
     "city_country": "Xàtiva, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Ol%C3%ADmpic_de_X%C3%A0tiva"
+  },
+  {
+    "club_name": "UD Alcúdia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/UD_Alc%C3%BAdia.png/250px-UD_Alc%C3%BAdia.png",
+    "city_country": "Alcúdia, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UE_Alc%C3%BAdia"
+  },
+  {
+    "club_name": "CD Binissalem",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/CD_Binissalem.png/250px-CD_Binissalem.png",
+    "city_country": "Binissalem, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Binissalem"
+  },
+  {
+    "club_name": "CE Cardassar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Club_Esportiu_Cardassar.png/250px-Club_Esportiu_Cardassar.png",
+    "city_country": "Sant Llorenç des Cardassar, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CE_Cardassar"
+  },
+  {
+    "club_name": "UD Collerense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Collerense_UD_logo.png/250px-Collerense_UD_logo.png",
+    "city_country": "Palma de Mallorca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Collerense"
+  },
+  {
+    "club_name": "CE Constància",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/CE_Const%C3%A0ncia.png/120px-CE_Const%C3%A0ncia.png",
+    "city_country": "Inca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CE_Const%C3%A0ncia"
+  },
+  {
+    "club_name": "CE Felanitx",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/CE_Felanitx.png/250px-CE_Felanitx.png",
+    "city_country": "Felanitx, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CE_Felanitx"
+  },
+  {
+    "club_name": "SD Formentera",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/SD_Formentera_logo.png/250px-SD_Formentera_logo.png",
+    "city_country": "Sant Francesc Xavier, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SD_Formentera"
+  },
+  {
+    "club_name": "Inter Ibiza CD",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Escudo_oficial_del_Inter_Ibiza.png/250px-Escudo_oficial_del_Inter_Ibiza.png",
+    "city_country": "Ibiza, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Inter_Ibiza_CD"
+  },
+  {
+    "club_name": "CD Llosetense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/CD_Llosetense_logo.png/250px-CD_Llosetense_logo.png",
+    "city_country": "Lloseta, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Llosetense"
+  },
+  {
+    "club_name": "CD Manacor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/CD_Manacor.png/250px-CD_Manacor.png",
+    "city_country": "Manacor, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CE_Manacor"
+  },
+  {
+    "club_name": "CE Mercadal",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/CE_Mercadal.png/226px-CE_Mercadal.png",
+    "city_country": "Es Mercadal, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CE_Mercadal"
+  },
+  {
+    "club_name": "SCR Peña Deportiva",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/SCR_Pe%C3%B1a_Deportiva_logo.png/250px-SCR_Pe%C3%B1a_Deportiva_logo.png",
+    "city_country": "Santa Eulària des Riu, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SCR_Pe%C3%B1a_Deportiva"
+  },
+  {
+    "club_name": "CF Platges de Calvià",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/CF_Platges_de_Calvi%C3%A0_logo.png/250px-CF_Platges_de_Calvi%C3%A0_logo.png",
+    "city_country": "Calvià, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CF_Platges_de_Calvi%C3%A0"
+  },
+  {
+    "club_name": "SD Portmany",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/SD_Portmany.png/250px-SD_Portmany.png",
+    "city_country": "Sant Antoni de Portmany, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SD_Portmany"
+  },
+  {
+    "club_name": "UD Rotlet Molinar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/UD_Rotlet_Molinar.png/250px-UD_Rotlet_Molinar.png",
+    "city_country": "Palma de Mallorca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Rotlet_Molinar"
+  },
+  {
+    "club_name": "CE Santanyí",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/CD_Santany%C3%AD.png/250px-CD_Santany%C3%AD.png",
+    "city_country": "Santanyí, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CE_Santany%C3%AD"
+  },
+  {
+    "club_name": "CD Son Cladera",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/CD_Son_Cladera.png/250px-CD_Son_Cladera.png",
+    "city_country": "Palma de Mallorca, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Son_Cladera"
+  },
+  {
+    "club_name": "Club Atlético Central",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Club_Atl%C3%A9tico_Central.png/250px-Club_Atl%C3%A9tico_Central.png",
+    "city_country": "Seville, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CA_Central"
+  },
+  {
+    "club_name": "Atlético Onubense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Atl%C3%A9tico_Onubense.png/210px-Atl%C3%A9tico_Onubense.png",
+    "city_country": "Huelva, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Onubense"
+  },
+  {
+    "club_name": "Bollullos CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/16/Bollullos_CF.png",
+    "city_country": "Bollullos Par del Condado, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bollullos_CF"
+  },
+  {
+    "club_name": "Cádiz CF Mirandilla",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/C%C3%A1diz_CF_Mirandilla.png/250px-C%C3%A1diz_CF_Mirandilla.png",
+    "city_country": "Cádiz, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/C%C3%A1diz_CF_Mirandilla"
+  },
+  {
+    "club_name": "Castilleja CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Castilleja_CF.png/247px-Castilleja_CF.png",
+    "city_country": "Castilleja de la Cuesta, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Castilleja_CF"
+  },
+  {
+    "club_name": "Chiclana CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Chiclana_CF.png/250px-Chiclana_CF.png",
+    "city_country": "Chiclana de la Frontera, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chiclana_CF"
+  },
+  {
+    "club_name": "CD Ciudad de Lucena",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/CD_Ciudad_de_Lucena_logo.png/250px-CD_Ciudad_de_Lucena_logo.png",
+    "city_country": "Lucena, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Ciudad_de_Lucena"
+  },
+  {
+    "club_name": "Conil CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Conil_CF.png/250px-Conil_CF.png",
+    "city_country": "Conil de la Frontera, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Conil_CF"
+  },
+  {
+    "club_name": "Coria CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Coria_CF.png/250px-Coria_CF.png",
+    "city_country": "Coria del Río, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Coria_CF"
+  },
+  {
+    "club_name": "Dos Hermanas CF 1971",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Dos_Hermanas_CF_1971.png/250px-Dos_Hermanas_CF_1971.png",
+    "city_country": "Dos Hermanas, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dos_Hermanas_CF"
+  },
+  {
+    "club_name": "Real Balompédica Linense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Real_Balomp%C3%A9dica_Linense.svg/250px-Real_Balomp%C3%A9dica_Linense.svg.png",
+    "city_country": "La Línea de la Concepción, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Balomp%C3%A9dica_Linense"
+  },
+  {
+    "club_name": "CD Pozoblanco",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/CD_Pozoblanco.png/250px-CD_Pozoblanco.png",
+    "city_country": "Pozoblanco, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Pozoblanco"
+  },
+  {
+    "club_name": "CD San Roque de Lepe",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/CD_San_Roque_de_Lepe.png/250px-CD_San_Roque_de_Lepe.png",
+    "city_country": "Lepe, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_San_Roque_de_Lepe"
+  },
+  {
+    "club_name": "UD Tomares",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/UD_Tomares.png/250px-UD_Tomares.png",
+    "city_country": "Tomares, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Tomares"
+  },
+  {
+    "club_name": "CD Utrera",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/CD_Utrera_shield.png/250px-CD_Utrera_shield.png",
+    "city_country": "Utrera, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Utrera"
   }
 ]
