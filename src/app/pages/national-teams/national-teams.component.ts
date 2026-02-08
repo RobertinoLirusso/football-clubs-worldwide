@@ -149,7 +149,7 @@ export class NationalTeamsComponent implements OnInit {
 
   getCountryCode(countryName: string): string {
     const country = countryName.toLowerCase();
-    return COUNTRY_FLAG_MAP[country] || 'un';
+    return COUNTRY_FLAG_MAP[country] || 'xx';
   }
 
   clearContinentFilter(): void {
