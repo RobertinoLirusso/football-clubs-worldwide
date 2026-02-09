@@ -18288,25 +18288,25 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Kuk%C3%ABsi"
   },
   {
-    "club_name": "Luftëtari",
+    "club_name": "AF Luftëtari",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Luft%C3%ABtari_AF_Logo.svg/250px-Luft%C3%ABtari_AF_Logo.svg.png",
     "city_country": "Gjirokastër, Albania",
     "wiki_url": "https://en.wikipedia.org/wiki/AF_Luft%C3%ABtari"
   },
   {
-    "club_name": "Lushnja",
+    "club_name": "KS Lushnja",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Lushnja_Football_Club_Logo.svg/250px-Lushnja_Football_Club_Logo.svg.png",
     "city_country": "Lushnjë, Albania",
     "wiki_url": "https://en.wikipedia.org/wiki/KS_Lushnja"
   },
   {
-    "club_name": "Pogradeci",
+    "club_name": "KS Pogradeci",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Pogradeci_Club_Logo.svg/250px-Pogradeci_Club_Logo.svg.png",
     "city_country": "Pogradec, Albania",
     "wiki_url": "https://en.wikipedia.org/wiki/KS_Pogradeci"
   },
     {
-    "club_name": "Balzan",
+    "club_name": "Balzan FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Balzan_F.C..png/250px-Balzan_F.C..png",
     "city_country": "Balzan, Malta",
     "wiki_url": "https://en.wikipedia.org/wiki/Balzan_F.C."
@@ -19975,7 +19975,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Kinostudio"
   },
   {
-    "club_name": "Shënkolli",
+    "club_name": "KF Shënkolli",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Sh%C3%ABnkolli_Club_Logo.svg/250px-Sh%C3%ABnkolli_Club_Logo.svg.png",
     "city_country": "Shënkoll, Albania",
     "wiki_url": "https://en.wikipedia.org/wiki/KF_Sh%C3%ABnkolli"
@@ -19999,7 +19999,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Gramozi"
   },
   {
-    "club_name": "Memaliaj",
+    "club_name": "KF Memaliaj",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Memaliaj_Club_Logo.svg/250px-Memaliaj_Club_Logo.svg.png",
     "city_country": "Memaliaj, Albania",
     "wiki_url": "https://en.wikipedia.org/wiki/KF_Memaliaj"
@@ -20011,25 +20011,25 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Osumi"
   },
   {
-    "club_name": "Përmeti",
+    "club_name": "KF Përmeti",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/P%C3%ABrmeti_Club_Logo.svg/250px-P%C3%ABrmeti_Club_Logo.svg.png",
     "city_country": "Përmet, Albania",
     "wiki_url": "https://en.wikipedia.org/wiki/KF_P%C3%ABrmeti"
   },
   {
-    "club_name": "Skrapari",
+    "club_name": "SK Skrapari",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Skrapari_Club_Logo.svg/250px-Skrapari_Club_Logo.svg.png",
     "city_country": "Çorovodë, Albania",
     "wiki_url": "https://en.wikipedia.org/wiki/SK_Skrapari"
   },
   {
-    "club_name": "Tepelena",
+    "club_name": "FK Tepelena",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Tepelena_Club_Logo.svg/250px-Tepelena_Club_Logo.svg.png",
     "city_country": "Tepelenë, Albania",
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Tepelena"
   },
   {
-    "club_name": "Turbina",
+    "club_name": "KS Turbina Cërrik",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Turbina_Club_Logo.svg/250px-Turbina_Club_Logo.svg.png",
     "city_country": "Cërrik, Albania",
     "wiki_url": "https://en.wikipedia.org/wiki/KS_Turbina_C%C3%ABrrik"
@@ -27330,5 +27330,125 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Lab%C3%ABria_Club_Logo.svg/250px-Lab%C3%ABria_Club_Logo.svg.png",
     "city_country": "Vlorë, Albania",
     "wiki_url": "https://en.wikipedia.org/wiki/Lab%C3%ABria_FC"
+  },
+  {
+    "club_name": "KF Luzi i Vogël 2008",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Luzi_i_Vog%C3%ABl_2008_Club_Logo.svg/250px-Luzi_i_Vog%C3%ABl_2008_Club_Logo.svg.png",
+    "city_country": "Luz i Vogël, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Luzi_i_Vog%C3%ABl_2008"
+  },
+  {
+    "club_name": "KF Maliqi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Maliqi_Club_Logo.svg/250px-Maliqi_Club_Logo.svg.png",
+    "city_country": "Maliq, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Maliqi"
+  },
+  {
+    "club_name": "KF Murlani",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Murlani_Club_Logo.svg/250px-Murlani_Club_Logo.svg.png",
+    "city_country": "Vau i Dejës, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Murlani"
+  },
+  {
+    "club_name": "KF Naftëtari",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Naft%C3%ABtari_Ku%C3%A7ov%C3%AB_Club_Logo.svg/250px-Naft%C3%ABtari_Ku%C3%A7ov%C3%AB_Club_Logo.svg.png",
+    "city_country": "Kuçovë, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Naft%C3%ABtari"
+  },
+  {
+    "club_name": "Olimpic Shkodra FC",
+    "club_logo": "https://olimpicshkodrafc.al/wp-content/uploads/2024/11/cropped-logoOL-150x150.png",
+    "city_country": "Shkodër, Albania",
+    "wiki_url": "https://olimpicshkodrafc.al/"
+  },
+  {
+    "club_name": "KF Oriku",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Oriku_Club_Logo.svg/250px-Oriku_Club_Logo.svg.png",
+    "city_country": "Orikum, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Oriku"
+  },
+  {
+    "club_name": "KF Selenica",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Selenic%C3%AB_Club_Logo.svg/250px-Selenic%C3%AB_Club_Logo.svg.png",
+    "city_country": "Selenicë, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Selenica"
+  },
+  {
+    "club_name": "KF Sopoti Librazhd",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Sopoti_Librazhd_Club_Logo.svg/250px-Sopoti_Librazhd_Club_Logo.svg.png",
+    "city_country": "Librazhd, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Sopoti_Librazhd"
+  },
+  {
+    "club_name": "KF Spartak Tirana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Spartaku_Tiran%C3%AB_Club_Logo.svg/250px-Spartaku_Tiran%C3%AB_Club_Logo.svg.png",
+    "city_country": "Tirana, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Spartak_Tirana"
+  },
+  {
+    "club_name": "KF Shkumbini",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Shkumbini_Club_Logo.svg/250px-Shkumbini_Club_Logo.svg.png",
+    "city_country": "Peqin, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Shkumbini"
+  },
+  {
+    "club_name": "KF Tërbuni Pukë",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/T%C3%ABrbuni_Puk%C3%AB_Club_Logo.svg/250px-T%C3%ABrbuni_Puk%C3%AB_Club_Logo.svg.png",
+    "city_country": "Pukë, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_T%C3%ABrbuni_Puk%C3%AB"
+  },
+  {
+    "club_name": "KF Valbona",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Valbona_Club_Logo.svg/250px-Valbona_Club_Logo.svg.png",
+    "city_country": "Bajram Curri, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/KF_Valbona"
+  },
+  {
+    "club_name": "FK Veleçiku Koplik",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Vele%C3%A7iku_Koplik_Club_Logo.svg/250px-Vele%C3%A7iku_Koplik_Club_Logo.svg.png",
+    "city_country": "Koplik, Albania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Vele%C3%A7iku_Koplik"
+  },
+  {
+    "club_name": "FC Balzers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/FC_Balzers_logo.svg/250px-FC_Balzers_logo.svg.png",
+    "city_country": "Balzers, Liechtenstein",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Balzers"
+  },
+  {
+    "club_name": "USV Eschen/Mauren",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/USV_Eschen-Mauren_New_logo.svg/250px-USV_Eschen-Mauren_New_logo.svg.png",
+    "city_country": "Eschen & Mauren, Liechtenstein",
+    "wiki_url": "https://en.wikipedia.org/wiki/USV_Eschen/Mauren"
+  },
+  {
+    "club_name": "FC Ruggell",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/34/FC_Ruggell_Logo.png",
+    "city_country": "Ruggell, Liechtenstein",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ruggell"
+  },
+  {
+    "club_name": "FC Schaan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/FC_Schaan.png/250px-FC_Schaan.png",
+    "city_country": "Schaan, Liechtenstein",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Schaan"
+  },
+  {
+    "club_name": "FC Triesen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/FC_Triesen.png/250px-FC_Triesen.png",
+    "city_country": "Triesen, Liechtenstein",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Triesen"
+  },
+  {
+    "club_name": "FC Triesenberg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/30/FC_Triesenberg.png",
+    "city_country": "Triesenberg, Liechtenstein",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Triesenberg"
+  },
+  {
+    "club_name": "FC Megasport (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/FC_Megasport.png/204px-FC_Megasport.png",
+    "city_country": "Almaty, Kazakhstan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Megasport"
   }
 ]
