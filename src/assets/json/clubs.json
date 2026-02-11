@@ -6360,37 +6360,37 @@
     "wiki_url": "https://en.wikipedia.org/wiki/NK_Bravo"
   },
   {
-    "club_name": "Domžale",
+    "club_name": "NK Domžale",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/NK_Domzale_logo.svg/199px-NK_Domzale_logo.svg.png",
     "city_country": "Domžale, Slovenia",
     "wiki_url": "https://en.wikipedia.org/wiki/NK_Domžale"
   },
   {
-    "club_name": "Mura",
+    "club_name": "NŠ Mura",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5HQgOGEbxi59_MoDxxQXmsABIoXsBo9SO6Ts_B7waqB8CzWcqT26Yj6Z99LypiFGrvWE-zpzJ1FxYeTS9YG18cgRjCRAJb0ONKpOIvB3nCBKDRvlhdAfpTNNQF3XuWE2rNdFwRadyjAw/s256/NS+Mura256x.png",
     "city_country": "Murska Sobota, Slovenia",
     "wiki_url": "https://en.wikipedia.org/wiki/NK_Mura"
   },
   {
-    "club_name": "Nafta 1903",
+    "club_name": "NK Nafta 1903",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/24/NK_Nafta_1903.png",
     "city_country": "Lendava, Slovenia",
     "wiki_url": "https://en.wikipedia.org/wiki/NK_Nafta_1903"
   },
   {
-    "club_name": "Primorje",
+    "club_name": "ND Primorje",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/81/ND_Primorje.png",
     "city_country": "Ajdovščina, Slovenia",
     "wiki_url": "https://en.wikipedia.org/wiki/ND_Primorje"
   },
   {
-    "club_name": "Radomlje",
+    "club_name": "NK Radomlje",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/NK_Radomlje.svg/273px-NK_Radomlje.svg.png",
     "city_country": "Radomlje, Slovenia",
     "wiki_url": "https://en.wikipedia.org/wiki/NK_Radomlje"
   },
   {
-    "club_name": "DAC 1904",
+    "club_name": "FC DAC 1904",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMAP1-1kz4EfrFLIbyafjVKXqPwUdpSypoMmGQVCs4sFOuGqaeRFCA7m3Bca-BeDH_JDp4qZs3pYkGfx6S7j7UtJsctdtOMl4HR2V1OIiMptEI05jWNjOD2ysq9duPaQxSXV1URBi1Ja8/s256/FC+DAC+256x.png",
     "city_country": "Dunajská Streda, Slovakia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_DAC_1904_Dunajská_Streda"
@@ -12966,7 +12966,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/ND_Beltinci"
   },
   {
-    "club_name": "Brinje Grosuplje",
+    "club_name": "NK Brinje Grosuplje",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/NK_Brinje-Grosuplje.svg/250px-NK_Brinje-Grosuplje.svg.png",
     "city_country": "Grosuplje, Slovenia",
     "wiki_url": "https://en.wikipedia.org/wiki/NK_Brinje_Grosuplje"
@@ -27612,5 +27612,192 @@
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/NK_Zavr%C4%8D.png/182px-NK_Zavr%C4%8D.png",
       "city_country": "Zavrč, Slovenia",
       "wiki_url": "https://en.wikipedia.org/wiki/NK_Zavr%C4%8D"
+    },
+    {
+      "club_name": "NK Limbuš-Pekre",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/NK_Limbus.png/200px-NK_Limbus.png",
+      "city_country": "Limbuš, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Limbu%C5%A1-Pekre"
+    },
+    {
+      "club_name": "NK Ljutomer",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/NK_Ljutomer_logo.svg/250px-NK_Ljutomer_logo.svg.png",
+      "city_country": "Ljutomer, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Ljutomer"
+    },
+    {
+      "club_name": "NK Malečnik",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/NK_Malecnik.png/240px-NK_Malecnik.png",
+      "city_country": "Malečnik, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Male%C4%8Dnik"
+    },
+    {
+      "club_name": "NK Naklo",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/NK_Naklo.png/250px-NK_Naklo.png",
+      "city_country": "Naklo, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Naklo"
+    },
+    {
+      "club_name": "NK Odranci",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/NK_Odranci.png/196px-NK_Odranci.png",
+      "city_country": "Odranci, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Odranci"
+    },
+    {
+      "club_name": "NK Olimpija Ljubljana (Defunct)",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/NK_Olimpija_Ljubljana_%281945%29.svg/250px-NK_Olimpija_Ljubljana_%281945%29.svg.png",
+      "city_country": "Ljubljana, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Olimpija_Ljubljana_(1945%E2%80%932005)"
+    },
+    {
+      "club_name": "NK Pohorje",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/78/NK_pohorje.png",
+      "city_country": "Ruše, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Pohorje"
+    },
+    {
+      "club_name": "NK Rače",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/NK_Race.png/250px-NK_Race.png",
+      "city_country": "Rače, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Ra%C4%8De"
+    },
+    {
+      "club_name": "ŠNK Radgona",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/%C5%A0NK_Radgona.png/250px-%C5%A0NK_Radgona.png",
+      "city_country": "Gornja Radgona, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/%C5%A0NK_Radgona"
+    },
+    {
+      "club_name": "NK Rakičan",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/NK_Raki%C4%8Dan.png/250px-NK_Raki%C4%8Dan.png",
+      "city_country": "Rakičan, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Raki%C4%8Dan"
+    },
+    {
+      "club_name": "NK Rogaška",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/NK_Roga%C5%A1ka_logo.svg/250px-NK_Roga%C5%A1ka_logo.svg.png",
+      "city_country": "Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Roga%C5%A1ka"
+    },
+    {
+      "club_name": "NK Rudar Trbovlje",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/NK_Rudar_Trbovlje.png/250px-NK_Rudar_Trbovlje.png",
+      "city_country": "Trbovlje, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Rudar_Trbovlje"
+    },
+    {
+      "club_name": "ND Adria Miren",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/NK_Adria.svg/250px-NK_Adria.svg.png",
+      "city_country": "Miren, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/ND_Adria"
+    },
+    {
+      "club_name": "NK Bled",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/NK_Bled.png/250px-NK_Bled.png",
+      "city_country": "Bled, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Bled"
+    },
+    {
+      "club_name": "NK Brda",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/NK_Brda_logo.svg/250px-NK_Brda_logo.svg.png",
+      "city_country": "Dobrovo, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Brda"
+    },
+    {
+      "club_name": "NK Brežice 1919",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/98/NK_Bre%C5%BEice_1919.png",
+      "city_country": "Brežice, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Bre%C5%BEice_1919"
+    },
+    {
+      "club_name": "NK Čarda",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/NK_%C4%8Carda_logo.svg/250px-NK_%C4%8Carda_logo.svg.png",
+      "city_country": "Martjanci, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_%C4%8Carda"
+    },
+    {
+      "club_name": "NK Črenšovci",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/NK_Crensovci.png/250px-NK_Crensovci.png",
+      "city_country": "Črenšovci, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_%C4%8Cren%C5%A1ovci"
+    },
+    {
+      "club_name": "NK Dob",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/14/NK_Roltek_Dob.png",
+      "city_country": "Dob, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Dob"
+    },
+    {
+      "club_name": "FC Drava Ptuj",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/FC_Drava_Ptuj.png/250px-FC_Drava_Ptuj.png",
+      "city_country": "Ptuj, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/FC_Drava_Ptuj"
+    },
+    {
+      "club_name": "NK Drava Ptuj (Defunct)",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/NK_Drava_Ptuj.svg/250px-NK_Drava_Ptuj.svg.png",
+      "city_country": "Ptuj, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Drava_Ptuj_(1933)"
+    },
+    {
+      "club_name": "NK Dravograd",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/NK_Dravograd_logo.png/250px-NK_Dravograd_logo.png",
+      "city_country": "Dravograd, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Dravograd"
+    },
+    {
+      "club_name": "NK Fužinar",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Fu%C5%BEinar.png/179px-Fu%C5%BEinar.png",
+      "city_country": "Ravne na Koroškem, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Fu%C5%BEinar"
+    },
+    {
+      "club_name": "NK Hrastnik",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/NK_Hrastnik.png/120px-NK_Hrastnik.png",
+      "city_country": "Hrastnik, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Hrastnik"
+    },
+    {
+      "club_name": "NK IB 1975 Ljubljana",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d6/Interblock.png",
+      "city_country": "Ljubljana, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_IB_1975_Ljubljana"
+    },
+    {
+      "club_name": "NK Ilirska Bistrica",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/NK_Ilirska_Bistrica_logo.png/189px-NK_Ilirska_Bistrica_logo.png",
+      "city_country": "Ilirska Bistrica, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Ilirska_Bistrica"
+    },
+    {
+      "club_name": "NK Ivančna Gorica",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/NK_Ivan%C4%8Dna_Gorica.svg/250px-NK_Ivan%C4%8Dna_Gorica.svg.png",
+      "city_country": "Ivančna Gorica, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Ivan%C4%8Dna_Gorica"
+    },
+    {
+      "club_name": "MNK Izola",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/NK_Izola_2024.png/250px-NK_Izola_2024.png",
+      "city_country": "Izola, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/MNK_Izola"
+    },
+    {
+      "club_name": "NK Izola (Defunct)",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/NK_Izola.svg/250px-NK_Izola.svg.png",
+      "city_country": "Izola, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Izola"
+    },
+    {
+      "club_name": "NK Jadran Hrpelje-Kozina",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/NK_Jadran_Hrpelje-Kozina.svg/250px-NK_Jadran_Hrpelje-Kozina.svg.png",
+      "city_country": "Hrpelje-Kozina, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Jadran_Hrpelje-Kozina"
+    },
+    {
+      "club_name": "NK Jezero Medvode",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Jezero_medvode.png/250px-Jezero_medvode.png",
+      "city_country": "Medvode, Slovenia",
+      "wiki_url": "https://en.wikipedia.org/wiki/NK_Jezero_Medvode"
     }
+    
 ]
