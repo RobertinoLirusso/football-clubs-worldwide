@@ -14,7 +14,6 @@ import { GuessClubComponent } from './pages/guess-club/guess-club.component';
 import { NgxImageZoomModule } from 'ngx-image-zoom';
 import { NationalTeamsComponent } from './pages/national-teams/national-teams.component';
 import { MapComponent } from './pages/map/map.component';
-import { NewsComponent } from './pages/news/news.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +26,6 @@ import { NewsComponent } from './pages/news/news.component';
     GuessClubComponent,
     NationalTeamsComponent,
     MapComponent,
-    NewsComponent,
   ],
   imports: [
     BrowserModule,

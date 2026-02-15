@@ -19,8 +19,8 @@
   bottom: 0;
   left: 0;
   width: 40px;
-  height: 3px;
-  background: linear-gradient(90deg, black 0%, black 50%, transparent 100%);
+  height: 5px;
+  background: linear-gradient(90deg, #bcc6cc 0%, #e6e8e6 20%, #f5f6fa 50%, #bfc1c2 80%, #8e9ba8 100%); /* silver effect gradient */
   opacity: 0.6;
 }
 

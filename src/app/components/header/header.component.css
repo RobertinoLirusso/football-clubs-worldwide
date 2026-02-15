@@ -45,6 +45,10 @@ header {
   .nav-tabs {
     background: black;
   }
+  /* El resplandor se mantiene en responsivo */
+  .title a {
+    animation: floatText 3s ease-in-out infinite alternate, glowText 2s ease-in-out infinite alternate;
+  }
 }
 
 .nav-link {
@@ -56,4 +60,3 @@ header {
   background-color: #ffffff !important;
   color: black !important;
 }
-

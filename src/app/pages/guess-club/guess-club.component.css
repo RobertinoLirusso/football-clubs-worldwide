@@ -21,7 +21,7 @@
   max-width: 1000px; /* panorámico */
   width: 100%;
   background-color: black;
-  color: #e1b661;
+  color: #fff;
   box-sizing: border-box;
 }
 
@@ -35,8 +35,8 @@
   padding: 18px 22px; /* ⬅️ menos padding */
   box-sizing: border-box;
   background-color: black;
-  filter: drop-shadow(0 6px 18px rgba(225, 177, 97, 0.35));
-  color: #e1b661;
+  filter: drop-shadow(0 6px 18px rgba(255, 255, 255, 0.35));
+  color: #fff;
   min-height: 560px; /* ⬅️ CLAVE */
 
 }
@@ -106,16 +106,16 @@
   font-size: 16px;
   text-align: center;
   border-radius: 12px;
-  border: 2px solid #e1b661 !important;
+  border: 2px solid #fff !important;
   background-color: #000 !important;
-  color: #e1b661 !important;
+  color: #fff !important;
   transition: all 0.3s ease;
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(225, 177, 97, 0.2);
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
 }
 
 .option-btn:hover {
-  background-color: #e1b661 !important;
+  background-color: #fff !important;
   color: black !important;
   transform: scale(1.05);
 }
@@ -128,13 +128,13 @@
    BOTONES PRINCIPALES
 ========================= */
 .w3-btn.w3-black {
-  border: 2px solid #e1b661 !important;
-  color: #e1b661 !important;
+  border: 2px solid #fff !important;
+  color: #fff !important;
   transition: all 0.3s ease;
 }
 
 .w3-btn.w3-black:hover {
-  background-color: #e1b661 !important;
+  background-color: #fff !important;
   color: black !important;
 }
 
