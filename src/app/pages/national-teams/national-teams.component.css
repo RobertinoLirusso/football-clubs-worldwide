@@ -28,7 +28,7 @@
   border: 1px solid transparent;
   background-image: 
     linear-gradient(#ffffff, #ffffff), /* mantiene el fondo anterior */
-    linear-gradient(90deg, #000000, #946b05, #d4af37, #b8860b, #000000); /* borde degradado */
+    linear-gradient(90deg, #000000, #fff, #fff, #fff, #000000); /* borde degradado cambiado a blanco */
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
@@ -42,7 +42,7 @@
   top: 10px;
   right: 10px;
   background-color: rgba(0,0,0,0.7);
-  color: #e1b661;
+  color: #fff; /* Cambiado de dorado a blanco */
   padding: 6px;
   border-radius: 30%;
   font-size: 12px;
@@ -57,7 +57,7 @@
 }
 
 .zoom-icon:hover {
-  background-color: #e1b661;
+  background-color: #fff; /* Cambiado de dorado a blanco */
   color: black;
 }
 .img {
@@ -89,7 +89,7 @@ footer p {
 
 
 .title-game {
-  color:#e1b661 !important;
+  color:#fff !important; /* Cambiado de dorado a blanco */
 }
 
 .title-link {
@@ -97,12 +97,12 @@ footer p {
 }
 
 .title-link:hover {
-color:#e1b661 !important;
+color:#fff !important; /* Cambiado de dorado a blanco */
 }
 
 
 .modal-title {
-  background: linear-gradient(90deg, #000000, #946b05, #d4af37, #b8860b, #000000);
+  background: black;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -183,12 +183,12 @@ color:#e1b661 !important;
 }
 
 .random-icon:hover {
-    background-color: #e1b661; /* Color dorado al pasar el cursor */
+    background-color: #fff; /* Color blanco al pasar el cursor */
     color: black;
 }
 
 .icon {
-  color: #e1b661;
+  color: #fff; /* Cambiado de dorado a blanco */
 }
 
 .highlight-text {
@@ -199,7 +199,7 @@ color:#e1b661 !important;
 }
 
 .highlight-text span {
-  color: #e1b661; /* Color dorado */
+  color: #fff; /* Color blanco */
   font-weight: bold;
   font-size: 1.7rem; /* Aumenta el tamaño del texto */
 }
@@ -256,7 +256,7 @@ color:#e1b661 !important;
   width: 50px;
   height: 50px;
   background-color: black;
-  color: #e1b661; /* dorado */
+  color: #fff; /* blanco */
   border: none;
   border-radius: 50%;
   cursor: pointer;
@@ -272,7 +272,7 @@ color:#e1b661 !important;
 }
 
 .back-to-top:hover {
-  background-color: #e1b661;
+  background-color: #fff; /* blanco */
   color: black;
   transform: scale(1.1);
 }
@@ -306,7 +306,7 @@ color:#e1b661 !important;
 /* Botón de filtro */
 .filter-btn {
   background-color: #000;
-  color: #e1b661;
+  color: #fff; /* blanco */
   border: none;
   padding: 8px;
   font-size: 16px;
@@ -314,10 +314,6 @@ color:#e1b661 !important;
   transition: all 0.3s ease;
 }
 
-.filter-btn:hover {
-  background-color: #e1b661;
-  color: black;
-}
 
 /* Botón de limpiar */
 .clear-btn {
@@ -358,7 +354,7 @@ color:#e1b661 !important;
 
 select.filter-btn {
   background-color: #000;
-  color: #e1b661;
+  color: #fff; /* blanco */
   border: none;
   padding: 8px;
   font-size: 16px;
@@ -367,7 +363,7 @@ select.filter-btn {
 }
 
 select.filter-btn:hover {
-  background-color: #e1b661;
+  background-color: #fff;
   color: black;
 }
 
@@ -430,7 +426,7 @@ select.filter-btn:hover {
   width: 50px;
   height: 50px;
   background-color: black;
-  color: #e1b661; /* dorado */
+  color: #fff; /* blanco */
   border: none;
   border-radius: 50%;
   cursor: pointer;
@@ -446,7 +442,7 @@ select.filter-btn:hover {
 }
 
 .back-to-top:hover {
-  background-color: #e1b661;
+  background-color: #fff; /* blanco */
   color: black;
   transform: scale(1.1);
 }

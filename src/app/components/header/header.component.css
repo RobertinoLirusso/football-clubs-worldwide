@@ -1,5 +1,5 @@
 header {
-    background: linear-gradient(to right, #000000 70%, #e1b661 100%);
+    background: black;
     color: white;
 }
 
@@ -24,26 +24,26 @@ header {
   }
 }
 
-/* Resplandor dorado */
+/* Resplandor blanco */
 @keyframes glowText {
   0% {
-    text-shadow: 0 0 5px #e1b661, 0 0 10px #e1b661;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
   }
   50% {
-    text-shadow: 0 0 15px #e1b661, 0 0 25px #e1b661;
+    text-shadow: 0 0 15px #ffffff, 0 0 25px #ffffff;
   }
   100% {
-    text-shadow: 0 0 5px #e1b661, 0 0 10px #e1b661;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
   }
 }
 
 /* Navigation Tabs */
 .nav-tabs {
-  background: linear-gradient(to right, #000000 70%, #e1b661 100%);
+  background: black;
 }
 @media (max-width: 768px) {
   .nav-tabs {
-    background: linear-gradient(to bottom, #000000 70%, #e1b661 100%);
+    background: black;
   }
 }
 
@@ -53,7 +53,7 @@ header {
 }
 
 .nav-link:hover {
-  background-color: #e1b661 !important;
+  background-color: #ffffff !important;
   color: black !important;
 }
 
