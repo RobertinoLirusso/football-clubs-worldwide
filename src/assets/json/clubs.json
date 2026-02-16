@@ -5166,8 +5166,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Partick_Thistle_F.C."
   },
   {
-    "club_name": "Queen's Park",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/39/Queens_Park_FC_crest.png",
+    "club_name": "Queen's Park FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Queens_Park_Crest.svg/250px-Queens_Park_Crest.svg.png",
     "city_country": "Glasgow, Scotland",
     "wiki_url": "https://en.wikipedia.org/wiki/Queen%27s_Park_F.C."
   },
@@ -7807,7 +7807,7 @@
     },
     {
         "club_name": "FK Sūduva",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/FK_Suduva_logo.svg/314px-FK_Suduva_logo.svg.png",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/FK_Suduva_New_Logo.svg/250px-FK_Suduva_New_Logo.svg.png",
         "city_country": "Marijampolė, Lithuania",
         "wiki_url": "https://en.wikipedia.org/wiki/FK_S%C5%ABduva"
     },
@@ -15126,7 +15126,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Sport_Huancayo"
   },
   {
-    "club_name": "UTC",
+    "club_name": "Universidad Técnica de Cajamarca FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/UTC_Cajamarca.svg/250px-UTC_Cajamarca.svg.png",
     "city_country": "Cajamarca, Peru",
     "wiki_url": "https://en.wikipedia.org/wiki/Universidad_T%C3%A9cnica_de_Cajamarca"
@@ -15295,7 +15295,7 @@
   },
   {
     "club_name": "Unión La Calera",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Uni%C3%B3n_La_Calera.png/250px-Uni%C3%B3n_La_Calera.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Escudo_Union_La_Calera.png/250px-Escudo_Union_La_Calera.png",
     "city_country": "La Calera, Chile",
     "wiki_url": "https://en.wikipedia.org/wiki/Uni%C3%B3n_La_Calera"
   },
@@ -17143,7 +17143,7 @@
   },
   {
     "club_name": "Labasa FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Labasa_FC_Logo.png/250px-Labasa_FC_Logo.png",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/13960.png?lm=1580232750",
     "city_country": "Labasa, Fiji",
     "wiki_url": "https://en.wikipedia.org/wiki/Labasa_F.C."
   },
@@ -18829,7 +18829,7 @@
   },
   {
     "club_name": "FC Cajamarca",
-    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/120792.png?lm=1767023947",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/FC_Cajamarca.png/250px-FC_Cajamarca.png",
     "city_country": "Cajamarca, Peru",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Cajamarca"
   },
@@ -19092,25 +19092,25 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Clyde_F.C."
   },
   {
-    "club_name": "Dumbarton",
+    "club_name": "Dumbarton FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Dumbarton_FC_logo.svg/250px-Dumbarton_FC_logo.svg.png",
     "city_country": "Dumbarton, Scotland",
     "wiki_url": "https://en.wikipedia.org/wiki/Dumbarton_F.C."
   },
   {
-    "club_name": "East Kilbride",
+    "club_name": "East Kilbride FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/East_Kilbride_FC_crest.svg/250px-East_Kilbride_FC_crest.svg.png",
     "city_country": "East Kilbride, Scotland",
     "wiki_url": "https://en.wikipedia.org/wiki/East_Kilbride_F.C."
   },
   {
-    "club_name": "Edinburgh City",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/FC_Edinburgh.png/250px-FC_Edinburgh.png",
+    "club_name": "Edinburgh City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Edinburgh-City.svg/250px-Edinburgh-City.svg.png",
     "city_country": "Edinburgh, Scotland",
     "wiki_url": "https://en.wikipedia.org/wiki/Edinburgh_City_F.C."
   },
   {
-    "club_name": "Elgin City",
+    "club_name": "Elgin City FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Elgin_City_FC_crest.svg/250px-Elgin_City_FC_crest.svg.png",
     "city_country": "Elgin, Scotland",
     "wiki_url": "https://en.wikipedia.org/wiki/Elgin_City_F.C."
@@ -19452,13 +19452,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Pro_Sesto_1913"
   },
   {
-    "club_name": "Pro Palazzolo",
+    "club_name": "Pro Palazzolo SSD",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Pro_Palazzolo_SSD_logo.png/250px-Pro_Palazzolo_SSD_logo.png",
     "city_country": "Palazzolo sull'Oglio, Italy",
-    "wiki_url": ""
+    "wiki_url": "https://en.wikipedia.org/wiki/Pro_Palazzolo_SSD"
   },
   {
-    "club_name": "Correggese",
+    "club_name": "Correggese Calcio",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f9/S.S.D._Correggese_Calcio_1948.png",
     "city_country": "Correggio, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/SSD_Correggese_Calcio_1948"
@@ -21877,8 +21877,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Caerau_(Ely)_A.F.C."
   },
   {
-    "club_name": "Cambrian United",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Cambrian_%26_clydach.png/250px-Cambrian_%26_clydach.png",
+    "club_name": "Cambrian United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Cambrian_United_Badge.png/250px-Cambrian_United_Badge.png",
     "city_country": "Clydach Vale, Wales",
     "wiki_url": "https://en.wikipedia.org/wiki/Cambrian_United_F.C."
   },
@@ -28068,6 +28068,275 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b7/Savannah_Clovers_FC.png",
     "city_country": "Savannah, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Savannah_Clovers_FC"
-  }
-    
+  },
+  {
+    "club_name": "Fukushima United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Fukushima_United_FC_logo.svg/250px-Fukushima_United_FC_logo.svg.png",
+    "city_country": "Fukushima City, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fukushima_United_FC"
+  },
+  {
+    "club_name": "SC Gainare Tottori",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Gainare_Tottori_logo.svg/250px-Gainare_Tottori_logo.svg.png",
+    "city_country": "Tottori, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gainare_Tottori"
+  },
+  {
+    "club_name": "FC Gifu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/FC_Gifu_logo.svg/250px-FC_Gifu_logo.svg.png",
+    "city_country": "Gifu, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Gifu"
+  },
+  {
+    "club_name": "Giravanz Kitakyushu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Giravanz_Kitakyushu_logo.svg/250px-Giravanz_Kitakyushu_logo.svg.png",
+    "city_country": "Kitakyushu, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Giravanz_Kitakyushu"
+  },
+  {
+    "club_name": "Kagoshima United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Kagoshima_United_FC_logo.svg/250px-Kagoshima_United_FC_logo.svg.png",
+    "city_country": "Kagoshima, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kagoshima_United_FC"
+  },
+  {
+    "club_name": "Kamatamare Sanuki",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Kamatamare_Sanuki_logo.svg/250px-Kamatamare_Sanuki_logo.svg.png",
+    "city_country": "Takamatsu, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kamatamare_Sanuki"
+  },
+  {
+    "club_name": "Kochi United SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/9/97/Kochi_United_SC_emblema.png",
+    "city_country": "Kōchi, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kochi_United_SC"
+  },
+  {
+    "club_name": "Matsumoto Yamaga FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Matsumoto_Yamaga_FC_logo.svg/250px-Matsumoto_Yamaga_FC_logo.svg.png",
+    "city_country": "Matsumoto, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Matsumoto_Yamaga_FC"
+  },
+  {
+    "club_name": "AC Nagano Parceiro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/AC_Nagano_Parceiro_logo.svg/250px-AC_Nagano_Parceiro_logo.svg.png",
+    "city_country": "Nagano, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Nagano_Parceiro"
+  },
+  {
+    "club_name": "Nara Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/0/03/Nara_Club_emblema.png/250px-Nara_Club_emblema.png",
+    "city_country": "Nara, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nara_Club"
+  },
+  {
+    "club_name": "FC Osaka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/FC_Osaka_logo.svg/250px-FC_Osaka_logo.svg.png",
+    "city_country": "Higashiōsaka, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Osaka"
+  },
+  {
+    "club_name": "Reilac Shiga FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/d/dc/Reilac_Shiga_FC_emblema.png",
+    "city_country": "Hikone, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Reilac_Shiga_FC"
+  },
+  {
+    "club_name": "FC Ryukyu Okinawa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/c/c4/FC_Ryukyu_logo.png/250px-FC_Ryukyu_logo.png",
+    "city_country": "Okinawa, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ryukyu"
+  },
+  {
+    "club_name": "SC Sagamihara",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/SC_Sagamihara_logo.svg/250px-SC_Sagamihara_logo.svg.png",
+    "city_country": "Sagamihara, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Sagamihara"
+  },
+  {
+    "club_name": "Thespa Gunma",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/e/e8/Thespakusatsu_Gunma.png/234px-Thespakusatsu_Gunma.png",
+    "city_country": "Maebashi, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Thespa_Gunma"
+  },
+  {
+    "club_name": "Tochigi SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Tochigi_SC_logo.svg/250px-Tochigi_SC_logo.svg.png",
+    "city_country": "Utsunomiya, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tochigi_SC"
+  },
+  {
+    "club_name": "Tochigi City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Tochigi_City_FC_Logo.svg/250px-Tochigi_City_FC_Logo.svg.png",
+    "city_country": "Tochigi City, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tochigi_City_FC"
+  },
+  {
+    "club_name": "Zweigen Kanazawa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Zweigen_Kanazawa_logo.svg/250px-Zweigen_Kanazawa_logo.svg.png",
+    "city_country": "Kanazawa, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zweigen_Kanazawa"
+  },
+  {
+    "club_name": "Tegevajaro Miyazaki",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Tegevajaro_Miyazaki_logo.svg/250px-Tegevajaro_Miyazaki_logo.svg.png",
+    "city_country": "Miyazaki, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tegevajaro_Miyazaki"
+  },
+  {
+    "club_name": "Vanraure Hachinohe",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Vanraure_Hachinohe_logo.svg/250px-Vanraure_Hachinohe_logo.svg.png",
+    "city_country": "Hachinohe, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vanraure_Hachinohe"
+  },
+  {
+    "club_name": "Aizawl FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Aizawl_Football_Club.svg/250px-Aizawl_Football_Club.svg.png",
+    "city_country": "Aizawl, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aizawl_FC"
+  },
+  {
+    "club_name": "Chanmari FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Chanmari_FC.svg/250px-Chanmari_FC.svg.png",
+    "city_country": "Aizawl, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chanmari_FC"
+  },
+  {
+    "club_name": "Dempo SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Dempo_Sports_Club.svg/250px-Dempo_Sports_Club.svg.png",
+    "city_country": "Carambolim, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dempo_SC"
+  },
+  {
+    "club_name": "Diamond Harbour FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Diamond_Harbour_FC.svg/250px-Diamond_Harbour_FC.svg.png",
+    "city_country": "Diamond Harbour, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Diamond_Harbour_FC"
+  },
+  {
+    "club_name": "Gokulam Kerala FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Gokulam_Kerala_FC.svg/250px-Gokulam_Kerala_FC.svg.png",
+    "city_country": "Kozhikode, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gokulam_Kerala_FC"
+  },
+  {
+    "club_name": "Namdhari FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Namdhari_FC_logo.svg/330px-Namdhari_FC_logo.svg.png",
+    "city_country": "Bhaini Sahib, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Namdhari_FC"
+  },
+  {
+    "club_name": "Rajasthan United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Rajasthan_United_FC.svg/250px-Rajasthan_United_FC.svg.png",
+    "city_country": "Jaipur, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rajasthan_United_FC"
+  },
+  {
+    "club_name": "Real Kashmir FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Real_Kashmir_FC.svg/250px-Real_Kashmir_FC.svg.png",
+    "city_country": "Srinagar, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Kashmir_FC"
+  },
+  {
+    "club_name": "Shillong Lajong FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Shillong_Lajong_FC.svg/250px-Shillong_Lajong_FC.svg.png",
+    "city_country": "Shillong, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Shillong_Lajong_FC"
+  },
+  {
+    "club_name": "Sreenidi Deccan FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Sreenidi_Deccan_FC.svg/250px-Sreenidi_Deccan_FC.svg.png",
+    "city_country": "Hyderabad, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sreenidi_Deccan_FC"
+  },
+  {
+    "club_name": "Azul Claro Numazu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Azul_Claro_Numazu_logo.svg/250px-Azul_Claro_Numazu_logo.svg.png",
+    "city_country": "Numazu, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Azul_Claro_Numazu"
+  },
+  {
+    "club_name": "Briobecca Urayasu Ichikawa",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/37178.png?lm=1478191897",
+    "city_country": "Urayasu, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Briobecca_Urayasu_Ichikawa"
+  },
+  {
+    "club_name": "Criacao Shinjuku FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/5/5d/Criacao_Shinjuku_%28logo%29.png",
+    "city_country": "Shinjuku, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Criacao_Shinjuku"
+  },
+  {
+    "club_name": "Honda FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/7/70/%D0%A5%D0%BE%D0%BD%D0%B4%D0%B0_%D0%A4%D0%9A.png",
+    "city_country": "Hamamatsu, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Honda_FC"
+  },
+  {
+    "club_name": "J-Lease FC",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/big/87985.png?lm=1758636748",
+    "city_country": "Ōita, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/J-Lease_FC"
+  },
+  {
+    "club_name": "Maruyasu Okazaki FC",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/42636.png?lm=1478191739",
+    "city_country": "Okazaki, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Maruyasu_Okazaki"
+  },
+  {
+    "club_name": "Minebea Mitsumi FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/6/6c/Minebea_Mitsumi_logo.png/250px-Minebea_Mitsumi_logo.png",
+    "city_country": "Miyazaki, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Minebea_Mitsumi_FC"
+  },
+  {
+    "club_name": "Okinawa SV",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/8/88/Okinawa_SV_logo.png",
+    "city_country": "Uruma & Tomigusuku, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Okinawa_SV"
+  },
+  {
+    "club_name": "ReinMeer Aomori",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/3/37/ReinMeer_Aomori.png/249px-ReinMeer_Aomori.png",
+    "city_country": "Aomori, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/ReinMeer_Aomori"
+  },
+  {
+    "club_name": "FC Tiamo Hirakata",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/FC_TIAMO_Hirakata_Logo.svg/250px-FC_TIAMO_Hirakata_Logo.svg.png",
+    "city_country": "Hirakata, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Tiamo_Hirakata"
+  },
+  {
+    "club_name": "Veertien Mie",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/e/e7/Veertien_Mie.png/250px-Veertien_Mie.png",
+    "city_country": "Kuwana & Yokkaichi, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Veertien_Mie"
+  },
+  {
+    "club_name": "Verspah Oita",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/d/dc/Verspah_Oita.svg/250px-Verspah_Oita.svg.png",
+    "city_country": "Ōita, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Verspah_Oita"
+  },
+  {
+    "club_name": "Vonds Ichihara FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Vonds_Ichihara_Logo.png/200px-Vonds_Ichihara_Logo.png",
+    "city_country": "Ichihara, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vonds_Ichihara_FC"
+  },
+  {
+    "club_name": "Yokogawa Musashino FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/2/24/%D0%81%D0%BA%D0%BE%D0%B3%D0%B0%D0%B2%D0%B0_%D0%9C%D1%83%D1%81%D0%B0%D1%81%D0%B8%D0%BD%D0%BE.png/250px-%D0%81%D0%BA%D0%BE%D0%B3%D0%B0%D0%B2%D0%B0_%D0%9C%D1%83%D1%81%D0%B0%D1%81%D0%B8%D0%BD%D0%BE.png",
+    "city_country": "Musashino, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yokogawa_Musashino_FC"
+  },
+  {
+    "club_name": "YSCC Yokohama FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/YSCC_Yokohama_logo.svg/250px-YSCC_Yokohama_logo.svg.png",
+    "city_country": "Yokohama, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/YSCC_Yokohama"
+  } 
 ]
