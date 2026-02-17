@@ -10032,13 +10032,13 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Hashtag_United_F.C."
     },
     {
-      "club_name": "Metropolitan Police",
+      "club_name": "Metropolitan Police FC",
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/SmallMetPolicelogo.png/250px-SmallMetPolicelogo.png",
       "city_country": "East Moseley, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Metropolitan_Police_F.C."
     },
       {
-    "club_name": "Dila Gori",
+    "club_name": "FC Dila Gori",
     "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/a/a5/FC_Dila_Gori.svg/250px-FC_Dila_Gori.svg.png",
     "city_country": "Gori, Georgia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Dila_Gori"
@@ -25958,12 +25958,6 @@
     "wiki_url": "https://en.wikipedia.org/wiki/CS_Minerul_1947_Ocna_Dej"
   },
   {
-    "club_name": "New Salamis F.C. (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/NewSalamis.png/250px-NewSalamis.png",
-    "city_country": "London, England",
-    "wiki_url": "https://en.wikipedia.org/wiki/New_Salamis_F.C."
-  },
-  {
     "club_name": "Norwich CBS F.C. (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Norwich_CBS_FC.png/250px-Norwich_CBS_FC.png",
     "city_country": "Norwich, England",
@@ -28338,5 +28332,227 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/YSCC_Yokohama_logo.svg/250px-YSCC_Yokohama_logo.svg.png",
     "city_country": "Yokohama, Japan",
     "wiki_url": "https://en.wikipedia.org/wiki/YSCC_Yokohama"
+  },
+  {
+    "club_name": "Club Sportivo Carapeguá",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/55/Club_Sportivo_Carapegu%C3%A1_logo.png",
+    "city_country": "Carapeguá, Paraguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Sportivo_Carapegu%C3%A1"
+  },
+  {
+    "club_name": "Bucheon FC 1995",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Bucheon_FC_1995.png/250px-Bucheon_FC_1995.png",
+    "city_country": "Bucheon, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bucheon_FC_1995"
+  },
+  {
+    "club_name": "Ansan Greeners FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Ansan_Greeners_FC.svg/250px-Ansan_Greeners_FC.svg.png",
+    "city_country": "Ansan, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ansan_Greeners_FC"
+  },
+  {
+    "club_name": "Cheonan City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Cheonan_City_FC.svg/250px-Cheonan_City_FC.svg.png",
+    "city_country": "Cheonan, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cheonan_City_FC"
+  },
+  {
+    "club_name": "Chungbuk Cheongju FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Chungbuk_Cheongju_FC.png/250px-Chungbuk_Cheongju_FC.png",
+    "city_country": "Cheongju, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chungbuk_Cheongju_FC"
+  },
+  {
+    "club_name": "Chungnam Asan FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Chungnam_Asan_FC.svg/250px-Chungnam_Asan_FC.svg.png",
+    "city_country": "Asan, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chungnam_Asan_FC"
+  },
+  {
+    "club_name": "Gimhae FC 2008",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Gimhae_FC_2008_New_Logo.svg/250px-Gimhae_FC_2008_New_Logo.svg.png",
+    "city_country": "Gimhae, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gimhae_FC_2008"
+  },
+  {
+    "club_name": "Gimpo FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Gimpo_FC.svg/250px-Gimpo_FC.svg.png",
+    "city_country": "Gimpo, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gimpo_FC"
+  },
+  {
+    "club_name": "Gyeongnam FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Gyeongnam_FC.svg/250px-Gyeongnam_FC.svg.png",
+    "city_country": "Changwon, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gyeongnam_FC"
+  },
+  {
+    "club_name": "Hwaseong FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Hwaseong_FC.svg/250px-Hwaseong_FC.svg.png",
+    "city_country": "Hwaseong, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hwaseong_FC"
+  },
+  {
+    "club_name": "Jeonnam Dragons FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Jeonnam_Dragons.svg/250px-Jeonnam_Dragons.svg.png",
+    "city_country": "Gwangyang, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jeonnam_Dragons"
+  },
+  {
+    "club_name": "Paju Frontier FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Paju_Frontier_FC_badge.png/250px-Paju_Frontier_FC_badge.png",
+    "city_country": "Paju, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Paju_Frontier_FC"
+  },
+  {
+    "club_name": "Seoul E-Land FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Seoul_E-Land_FC.svg/250px-Seoul_E-Land_FC.svg.png",
+    "city_country": "Seoul, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Seoul_E-Land_FC"
+  },
+  {
+    "club_name": "Yongin FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Yongin_FC_Logo.svg/250px-Yongin_FC_Logo.svg.png",
+    "city_country": "Yongin, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yongin_FC"
+  },
+  {
+    "club_name": "Busan Transportation Corporation FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Busan_Transportation_Corporation_FC.png/250px-Busan_Transportation_Corporation_FC.png",
+    "city_country": "Busan, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Busan_Transportation_Corporation_FC"
+  },
+  {
+    "club_name": "Changwon FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Changwon_FC.png/250px-Changwon_FC.png",
+    "city_country": "Changwon, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Changwon_City_FC"
+  },
+  {
+    "club_name": "Chuncheon FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Chuncheon_FC_2015.png/200px-Chuncheon_FC_2015.png",
+    "city_country": "Chuncheon, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chuncheon_FC"
+  },
+  {
+    "club_name": "Dangjin Citizen FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Dangjin_Citizen_FC_Emblem_2020.png/250px-Dangjin_Citizen_FC_Emblem_2020.png",
+    "city_country": "Dangjin, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dangjin_Citizen_FC"
+  },
+  {
+    "club_name": "Daejeon Korail FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Daejeon_Korail_FC.svg/250px-Daejeon_Korail_FC.svg.png",
+    "city_country": "Daejeon, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Daejeon_Korail_FC"
+  },
+  {
+    "club_name": "FC Gangneung",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/34970.png?lm=1769789935",
+    "city_country": "Gangneung, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Gangneung"
+  },
+  {
+    "club_name": "Gyeongju Korea Hydro and Nuclear Power FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e1/Daejeon_Hydro_%26_Nuclear_Power_FC_logo.png",
+    "city_country": "Gyeongju, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gyeongju_Korea_Hydro_%26_Nuclear_Power_FC"
+  },
+  {
+    "club_name": "FC Mokpo",
+    "club_logo": "https://static.flashscore.com/res/image/data/WAxzcGRL-bR355PHo.png",
+    "city_country": "Mokpo, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Mokpo"
+  },
+  {
+    "club_name": "Pocheon Citizen FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/ca/Pocheon_Citizen_FC.png",
+    "city_country": "Pocheon, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pocheon_Citizen_FC"
+  },
+  {
+    "club_name": "FC Siheung Citizen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Siheung_City_FC_New_Logo.svg/250px-Siheung_City_FC_New_Logo.svg.png",
+    "city_country": "Siheung, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Siheung_Citizen_FC"
+  },
+  {
+    "club_name": "Ulsan Citizen FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/5c/Ulsan_Citizen_FC_Logo.jpeg",
+    "city_country": "Ulsan, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ulsan_Citizen_FC"
+  },
+  {
+    "club_name": "Yangpyeong FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Yangpyeong_FC.svg/250px-Yangpyeong_FC.svg.png",
+    "city_country": "Yangpyeong, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yangpyeong_FC"
+  },
+  {
+    "club_name": "Yeoju FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Yeoju_Sejong_FC.png/194px-Yeoju_Sejong_FC.png",
+    "city_country": "Yeoju, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yeoju_FC"
+  },
+  {
+    "club_name": "Geoje Citizen FC",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/big/86382.png?lm=1609852155",
+    "city_country": "Geoje, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Geoje_Citizen_FC"
+  },
+  {
+    "club_name": "Gijang United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Gijang_United_FC_Club_Emblem_2025.png/250px-Gijang_United_FC_Club_Emblem_2025.png",
+    "city_country": "Gijang, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gijang_United_FC"
+  },
+  {
+    "club_name": "Jinju Citizen FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ee/Jinju_Citizen_FC_logo.png",
+    "city_country": "Jinju, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jinju_Citizen_FC"
+  },
+  {
+    "club_name": "Namyangju FC",
+    "club_logo": "https://cdn.footystats.org/img/teams/south-korea-namyangju-fc.png",
+    "city_country": "Namyangju, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Namyangju_FC"
+  },
+  {
+    "club_name": "Pyeongchang United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Pyeongchang_United_FC_Crest_2020.png/250px-Pyeongchang_United_FC_Crest_2020.png",
+    "city_country": "Pyeongchang, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pyeongchang_United_FC"
+  },
+  {
+    "club_name": "Pyeongtaek Citizen FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2b/Pyeongtaek_Citizen_FC.png",
+    "city_country": "Pyeongtaek, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pyeongtaek_Citizen_FC"
+  },
+  {
+    "club_name": "Sejong SA FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/Sejong_SA_FC_Emblem_2025.png/250px-Sejong_SA_FC_Emblem_2025.png",
+    "city_country": "Sejong, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sejong_SA_FC"
+  },
+  {
+    "club_name": "Seoul Jungnang FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2a/JCM_FC.png",
+    "city_country": "Seoul, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Seoul_Jungnang_FC"
+  },
+  {
+    "club_name": "Yangju Citizen FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Yangju_Citizen.jpg/250px-Yangju_Citizen.jpg",
+    "city_country": "Yangju, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Yangju_Citizen_FC"
+  },
+  {
+    "club_name": "Asan Mugunghwa FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Asan_Mugunghwa_FC.png/250px-Asan_Mugunghwa_FC.png",
+    "city_country": "Asan, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Asan_Mugunghwa_FC"
   } 
 ]
