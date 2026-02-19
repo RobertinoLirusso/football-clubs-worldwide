@@ -5,12 +5,14 @@ import { HomeComponent } from './pages/home/home.component';
 import { GuessClubComponent } from './pages/guess-club/guess-club.component';
 import { NationalTeamsComponent } from './pages/national-teams/national-teams.component';
 import { MapComponent } from './pages/map/map.component';
+import { ClubSearchComponent } from './pages/club-search/club-search.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent, title: 'Football Clubs Worldwide'},
   {path: 'game', component: GuessClubComponent, title: 'Football Clubs Worldwide'},
   {path: 'map', component: MapComponent, title: 'Football Clubs WorldWide' }, 
   {path: 'national-teams', component: NationalTeamsComponent, title: 'Football Clubs Worldwide'},
+  {path: 'club-search', component: ClubSearchComponent, title: 'Football Clubs Worldwide'},  
   {path: '**', pathMatch: 'full', component: NotfoundComponent},
 ];
 

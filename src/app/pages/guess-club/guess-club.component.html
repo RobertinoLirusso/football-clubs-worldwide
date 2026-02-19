@@ -29,7 +29,9 @@
                 <img 
                 [src]="selectedClub.club_logo"
                 class="club-logo"
-                [ngClass]="getBlurClass()">            
+                [ngClass]="getBlurClass()"
+                (load)="imageLoaded = true"
+                [style.visibility]="imageLoaded ? 'visible' : 'hidden'">            
             </div>
 
 

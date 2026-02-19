@@ -34,6 +34,8 @@ export class GuessClubComponent implements OnInit {
   extraLifeGranted: boolean = false;
   bestScore: number = 0;
   isNewRecord: boolean = false;
+  imageLoaded: boolean = false;
+
 
 
 
@@ -91,6 +93,7 @@ export class GuessClubComponent implements OnInit {
   }
 
   startGame(): void {
+    this.imageLoaded = false; // 👈 importante
     this.gameOver = false;
     this.timeOut = false;
     this.timeLeft = this.maxTime;

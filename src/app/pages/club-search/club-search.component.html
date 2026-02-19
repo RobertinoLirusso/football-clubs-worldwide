@@ -1,0 +1,60 @@
+<div class="container">
+    <app-header></app-header>
+  
+    <div class="w3-container w3-center w3-card w3-margin-top w3-margin-bottom w3-animate-opacity">
+  
+      <h2>🧩 Football Club Word Search</h2>
+  
+      <!-- Words to find -->
+      <div class="w3-margin">
+        <h4>Find these 10 clubs:</h4>
+        <div class="w3-row">
+          <div 
+            class="w3-col s6 m4 l3 w3-padding"
+            *ngFor="let word of words">
+            <span 
+              [class.found-word]="foundWords.includes(word)">
+              {{ word }}
+            </span>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Grid -->
+      <div class="grid-container"
+           (mouseup)="endSelection()">
+  
+        <div 
+          *ngFor="let row of grid; let rowIndex = index"
+          class="grid-row">
+  
+          <div 
+          *ngFor="let cell of row; let colIndex = index"
+          class="grid-cell"
+          [class.selected]="isSelected(rowIndex, colIndex)"
+          [ngStyle]="{'background-color': getFoundCell(rowIndex, colIndex)?.color}"
+          (mousedown)="startSelection(rowIndex, colIndex)"
+          (mouseover)="dragSelection(rowIndex, colIndex)"
+          (touchstart)="startSelection(rowIndex, colIndex)"
+          (touchmove)="dragSelection(rowIndex, colIndex)"
+          (touchend)="endSelection()">
+          {{ cell }}
+        </div>
+        
+  
+        </div>
+      </div>
+  
+      <!-- Game completed -->
+      <div *ngIf="gameCompleted" class="w3-margin-top">
+        <h3 class="w3-text-green">🎉 Congratulations! You found all 10 clubs!</h3>
+        <button class="w3-btn w3-black w3-margin" (click)="startGame()">
+          🔄 Play Again
+        </button>
+      </div>
+  
+    </div>
+  
+    <app-footer></app-footer>
+  </div>
+  

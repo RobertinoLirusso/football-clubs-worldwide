@@ -1,0 +1,113 @@
+/* ============================= */
+/* GRID CONTAINER */
+/* ============================= */
+
+.grid-container {
+  display: inline-block;
+  user-select: none;
+  margin-top: 20px;
+  touch-action: none;
+}
+
+/* ============================= */
+/* GRID ROW */
+/* ============================= */
+
+.grid-row {
+  display: flex;
+}
+
+/* ============================= */
+/* GRID CELL BASE */
+/* ============================= */
+
+.grid-cell {
+  aspect-ratio: 1 / 1;
+  width: 3vw;
+  max-width: 32px;
+  min-width: 22px;
+
+  border: 1px solid #ddd;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  font-size: clamp(12px, 1.2vw, 16px);
+}
+
+/* Hover desktop */
+.grid-cell:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* Selección activa */
+.grid-cell.selected {
+  background-color: #111;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Letras encontradas */
+.grid-cell[style*="background-color"] {
+  color: white;
+  font-weight: 900;
+  animation: pop 0.25s ease;
+}
+
+/* Animación cuando se encuentra palabra */
+@keyframes pop {
+  0% { transform: scale(0.7); }
+  100% { transform: scale(1); }
+}
+
+/* ============================= */
+/* LISTA DE PALABRAS */
+/* ============================= */
+
+.found-word {
+  text-decoration: line-through;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 1024px) {
+  .grid-cell {
+    width: 3.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-cell {
+    width: 4vw;
+    min-width: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-cell {
+    width: 4.5vw;
+    min-width: 16px;
+    font-size: 11px;
+  }
+}
+
+/* ============================= */
+/* MOBILE IMPROVEMENTS */
+/* ============================= */
+
+@media (hover: none) {
+  .grid-cell:hover {
+    background-color: unset;
+    color: inherit;
+  }
+}
