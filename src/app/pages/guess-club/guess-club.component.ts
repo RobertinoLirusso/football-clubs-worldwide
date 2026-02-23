@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { ClubService } from '../../services/club.service';
 import { SeoService } from '../../services/seo.service';
 import confetti from 'canvas-confetti';
+import { isPlatformBrowser } from '@angular/common';
 
 
 @Component({
@@ -39,7 +40,11 @@ export class GuessClubComponent implements OnInit {
 
 
 
-  constructor(private clubService: ClubService, private seoService: SeoService) {}
+  constructor(
+    private clubService: ClubService, 
+    private seoService: SeoService,
+    @Inject(PLATFORM_ID) private platformId: Object,
+  ) {}
 
   ngOnInit(): void {
     this.getClubs();
@@ -83,7 +88,9 @@ export class GuessClubComponent implements OnInit {
   }
 
   loadBestScore(): void {
-    this.bestScore = Number(localStorage.getItem('bestScore')) || 0;
+    if (isPlatformBrowser(this.platformId)) { 
+      this.bestScore = Number(localStorage.getItem('bestScore')) || 0;
+    }
   }
 
   getClubs(): void {
@@ -197,7 +204,9 @@ checkAnswer(answer: string | null): void {
       // 🏆 Check de nuevo récord
       if (this.lastScore > this.bestScore) {
         this.bestScore = this.lastScore;
-        localStorage.setItem('bestScore', this.bestScore.toString());
+        if (isPlatformBrowser(this.platformId)) {  // 👈 guard
+          localStorage.setItem('bestScore', this.bestScore.toString());
+        }
         this.isNewRecord = true;
     
         // 🎉 Confetti especial por récord
