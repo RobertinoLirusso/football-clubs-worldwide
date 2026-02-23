@@ -9,10 +9,11 @@ import confetti from 'canvas-confetti';
   styleUrl: './club-search.component.css'
 })
 export class ClubSearchComponent implements OnInit {
-  gridSize: number = 24;
+  gridSize: number = 12;
   grid: string[][] = [];
 
   words: string[] = [];
+  wordsDisplay: string[] = [];
   foundWords: string[] = [];
   currentDirection: { dr: number, dc: number } | null = null;
 
@@ -52,6 +53,7 @@ export class ClubSearchComponent implements OnInit {
   startGame(): void {
     this.grid = [];
     this.words = [];
+    this.wordsDisplay = [];
     this.foundWords = [];
     this.foundCells = [];
     this.gameCompleted = false;
@@ -61,12 +63,16 @@ export class ClubSearchComponent implements OnInit {
     this.clubService.getClubs().subscribe(data => {
 
       const randomClubs = data
-        .map(c => c.club_name.replace(/\s/g, '').toUpperCase())
-        .filter(name => name.length <= 20)
+        .map(c => ({
+          display: c.club_name.toUpperCase(),
+          value: c.club_name.replace(/\s/g, '').toUpperCase()
+        }))
+        .filter(c => c.value.length <= 12)
         .sort(() => Math.random() - 0.5)
         .slice(0, 10);
 
-      this.words = randomClubs;
+      this.words = randomClubs.map(c => c.value);
+      this.wordsDisplay = randomClubs.map(c => c.display);
 
       this.words.forEach(word => this.placeWord(word));
 

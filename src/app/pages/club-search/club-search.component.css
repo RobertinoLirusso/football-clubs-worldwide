@@ -1,6 +1,57 @@
-/* ============================= */
+/* ========================= */
+/* CONTENEDOR PRINCIPAL */
+/* ========================= */
+:host .container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ========================= */
+/* CONTENEDOR Y CARD */
+/* ========================= */
+:host .w3-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1000px;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+:host .w3-card {
+  width: 100%;
+  max-width: 900px;
+  padding: 18px 22px;
+  box-sizing: border-box;
+  background-color: black;
+  filter: drop-shadow(0 6px 18px rgba(255, 255, 255, 0.35));
+  color: #fff;
+}
+
+/* ========================= */
+/* BOTONES */
+/* ========================= */
+:host .w3-btn.w3-black {
+  border: 2px solid #fff !important;
+  color: #fff !important;
+  transition: all 0.3s ease;
+}
+
+:host .w3-btn.w3-black:hover {
+  background-color: #fff !important;
+  color: black !important;
+}
+
+/* ========================= */
 /* GRID CONTAINER */
-/* ============================= */
+/* ========================= */
 
 .grid-container {
   display: inline-block;
@@ -9,17 +60,17 @@
   touch-action: none;
 }
 
-/* ============================= */
+/* ========================= */
 /* GRID ROW */
-/* ============================= */
+/* ========================= */
 
 .grid-row {
   display: flex;
 }
 
-/* ============================= */
+/* ========================= */
 /* GRID CELL BASE */
-/* ============================= */
+/* ========================= */
 
 .grid-cell {
   aspect-ratio: 1 / 1;
@@ -27,8 +78,9 @@
   max-width: 32px;
   min-width: 22px;
 
-  border: 1px solid #ddd;
+  border: 1px solid rgba(255, 255, 255, 0.4);
   font-weight: bold;
+  color: #fff;
 
   display: flex;
   align-items: center;
@@ -42,13 +94,13 @@
 
 /* Hover desktop */
 .grid-cell:hover {
-  background-color: #000;
+  background-color: rgba(255, 255, 255, 0.2) !important;
   color: white;
 }
 
 /* Selección activa */
 .grid-cell.selected {
-  background-color: #111;
+  background-color: rgba(255, 255, 255, 0.3) !important;
   color: white;
   transform: scale(1.05);
 }
@@ -66,9 +118,23 @@
   100% { transform: scale(1); }
 }
 
-/* ============================= */
+/* ========================= */
 /* LISTA DE PALABRAS */
-/* ============================= */
+/* ========================= */
+
+.words-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px 32px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.words-grid span {
+  padding: 6px 12px;
+  margin: 4px;
+}
 
 .found-word {
   text-decoration: line-through;
@@ -76,9 +142,27 @@
   opacity: 0.6;
 }
 
-/* ============================= */
+/* ========================= */
+/* TÍTULOS */
+/* ========================= */
+:host .w3-card h2 {
+  margin: 6px 0;
+}
+
+:host .w3-card h3 {
+  margin: 4px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+:host .w3-card h4 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* ========================= */
 /* RESPONSIVE */
-/* ============================= */
+/* ========================= */
 
 @media (max-width: 1024px) {
   .grid-cell {
@@ -87,6 +171,11 @@
 }
 
 @media (max-width: 768px) {
+  :host .w3-card {
+    max-width: 380px;
+    padding: 14px 16px;
+  }
+
   .grid-cell {
     width: 4vw;
     min-width: 18px;
@@ -101,13 +190,12 @@
   }
 }
 
-/* ============================= */
+/* ========================= */
 /* MOBILE IMPROVEMENTS */
-/* ============================= */
+/* ========================= */
 
 @media (hover: none) {
   .grid-cell:hover {
-    background-color: unset;
-    color: inherit;
+    background-color: unset !important;
   }
 }

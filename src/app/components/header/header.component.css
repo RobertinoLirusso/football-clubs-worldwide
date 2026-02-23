@@ -60,3 +60,22 @@ header {
   background-color: #ffffff !important;
   color: black !important;
 }
+
+/* Dropdown Play Game */
+.nav-dropdown {
+  display: inline-block;
+}
+
+.nav-dropdown .w3-dropdown-content {
+  min-width: 180px;
+}
+
+.nav-dropdown .w3-dropdown-content .nav-link {
+  display: block;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.nav-dropdown .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}

@@ -7188,7 +7188,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Francs_Borains"
     },
     {
-        "club_name": "Lierse",
+        "club_name": "Lierse SK",
         "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyIIOqw6YPas5TYfYWjzNTL0CWUpxGwWekfFMTisDRLJ-uCDKogiC5Mvq0aBZwHuMzmPYR-t7Q5iNywchYCv6C2FoYaKiVpqQEm3lvVq1_v41bBUAZgM8DW9YjxoXl1ebYNSY05lpNt04/s256/Lierse+Kempenzonen256x.png",
         "city_country": "Lierse, Belgium",
         "wiki_url": "https://en.wikipedia.org/wiki/Lierse_S.K._(2018)"
@@ -7200,7 +7200,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Auckland_FC"
     },
     {
-        "club_name": "Nancy Lorraine",
+        "club_name": "AS Nancy Lorraine",
         "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhn3mcYAC6uuaoIWRlOrl4yRQniLCd-b0UMVOr2IOWbaGkBDylp8O1yynDD0xZDo8k0JJ5Z0nWeeUiau0ATT5QagWBXWgC6HRbKVNXGCk00dXQ8ANgwpHTOF2Ex2MiCY_cTXS0HDCMen1s/s1600/AS+Nancy+Lorraine+Realisation256x.png",
         "city_country": "Nancy, France",
         "wiki_url": "https://en.wikipedia.org/wiki/AS_Nancy_Lorraine"
@@ -7212,7 +7212,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/US_Boulogne"
     },
     {
-        "club_name": "Bourg-Péronnas",
+        "club_name": "FC Bourg-Péronnas",
         "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDwa-ClC70HGjrjWplLAe0ZZqzUyHIj27akCMhzr2lf09X5h1icMcDflWYwfeKJH2n_GQ7sHqHgqA97Z_rnSNbxhWpBGTe3PEYzdF55My4s2O2ptLyBHNE8J6Yy-OO82X1jVSrLtuJO1wz/s1600/FC+Bourg+Peronnas256x.png",
         "city_country": "Bourg-en-Bresse, France",
         "wiki_url": "https://en.wikipedia.org/wiki/FC_Bourg-Péronnas"
@@ -7236,7 +7236,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/US_Quevilly-Rouen_M%C3%A9tropole"
     },
     {
-        "club_name": "Versailles",
+        "club_name": "FC Versailles",
         "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7l3RSgB-1QHbMYl5pDljLn40UqbXzueXuajrP2FptskOGuT9KQZYGxyabHCDs7r3LiweE4EbS2oHltO13gXyufUSWxwlYa6TXpkAj5BEGmBu0HnLZX8GjLEVMHCWPYJQ5e4AE7tEvluCnv0URxD-iblcllb24GKXRDQRsUGhn40muN8zyzvtpEj9V/s256/FC%20Versailles256x.png",
         "city_country": "Versailles, France",
         "wiki_url": "https://en.wikipedia.org/wiki/FC_Versailles_78"
@@ -8244,7 +8244,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Siracusa_Calcio_1924"
   },
   {
-    "club_name": "Ravenna",
+    "club_name": "Ravenna FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/99/Ravenna_FC_logo.png/250px-Ravenna_FC_logo.png",
     "city_country": "Ravenna, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Ravenna_FC"
@@ -11304,7 +11304,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Fleury_91_(men)"
   },
   {
-    "club_name": "Le Puy",
+    "club_name": "Le Puy Foot 43 Auvergne",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Le_Puy_Foot_43_Auvergne_logo.svg/250px-Le_Puy_Foot_43_Auvergne_logo.svg.png",
     "city_country": "Le Puy-en-Velay, France",
     "wiki_url": "https://en.wikipedia.org/wiki/Le_Puy_Foot_43_Auvergne"
@@ -28944,5 +28944,149 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/vi/thumb/5/53/Logo_C%C3%B4ng_ty_c%E1%BB%95_ph%E1%BA%A7n_Phong_Ph%C3%BA.png/250px-Logo_C%C3%B4ng_ty_c%E1%BB%95_ph%E1%BA%A7n_Phong_Ph%C3%BA.png",
     "city_country": "Hà Nam, Vietnam",
     "wiki_url": "https://en.wikipedia.org/wiki/Phong_Ph%C3%BA_H%C3%A0_Nam_W.F.C."
-  } 
+  },
+  {
+    "club_name": "PFC Balkan Botevgrad",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0a/PFC_Balkan_Botevgrad_logo.png",
+    "city_country": "Botevgrad, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Balkan_Botevgrad"
+  },
+  {
+    "club_name": "FC Daşoguz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/81/Logo_of_Da%C5%9Foguz_FK.png",
+    "city_country": "Daşoguz, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Turan_FK"
+  },
+  {
+    "club_name": "FC Energetik Mary",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/FC_Energetik.jpg/250px-FC_Energetik.jpg",
+    "city_country": "Türkmenbaşy, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Energetik_Mary"
+  },
+  {
+    "club_name": "Gara Altyn SK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/aa/Logo_of_FC_Gara_Altyn.png",
+    "city_country": "Balkanabat, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Gara_Altyn"
+  },
+  {
+    "club_name": "FC Bagtyyarlyk-Lebap",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/3/3b/Bagty%C3%BDarlyk-Lebap_FK_Logo.jpg/250px-Bagty%C3%BDarlyk-Lebap_FK_Logo.jpg",
+    "city_country": "Türkmenabat, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Bagtyyarlyk-Lebap"
+  },
+  {
+    "club_name": "Ýedigen Football Team",
+    "club_logo": "https://footballfakts.ru/imageget.php?im=club/26820/4.png&size=s",
+    "city_country": "Aşgabat, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%9Dedigen_FC"
+  },
+  {
+    "club_name": "FC Nisa Aşgabat",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/6/63/Nisa_A%C5%9Fgabat_Logo.gif/250px-Nisa_A%C5%9Fgabat_Logo.gif",
+    "city_country": "Ashgabat, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nisa_A%C5%9Fgabat"
+  },
+  {
+    "club_name": "FC Talyp Sporty Aşgabat",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/2/2d/Talyp_sporty.gif/250px-Talyp_sporty.gif",
+    "city_country": "Ashgabat, Turkmenistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Talyp_Sporty"
+  },
+  {
+    "club_name": "Olympique de Valence",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Olympique_de_Valence_logo.svg/250px-Olympique_de_Valence_logo.svg.png",
+    "city_country": "Valence, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Olympique_de_Valence"
+  },
+  {
+    "club_name": "AS Valentigney",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjK4eLYwaxIxXJUbB5ndZQH_k4cnouCWwerw&s",
+    "city_country": "Valentigney, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Valentigney"
+  },
+  {
+    "club_name": "UA Valettoise",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/UA_Valettoise_logo.svg/250px-UA_Valettoise_logo.svg.png",
+    "city_country": "La Valette-du-Var, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/UA_Valettoise"
+  },
+  {
+    "club_name": "FC Vaulx-en-Velin",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/FC_Vaulx-en-Velin_logo.svg/250px-FC_Vaulx-en-Velin_logo.svg.png",
+    "city_country": "Vaulx-en-Velin, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Vaulx-en-Velin"
+  },
+  {
+    "club_name": "Velay FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/Velay_fc_logo.png",
+    "city_country": "Blanzac, Polignac, Saint-Paulien, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Velay_FC"
+  },
+  {
+    "club_name": "FC Vendenheim",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_F.C.Vendenheim.jpg/250px-Logo_F.C.Vendenheim.jpg",
+    "city_country": "Vendenheim, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Vendenheim"
+  },
+  {
+    "club_name": "Vénissieux FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/10/Logo_V%C3%A9nissieux_FC.png/250px-Logo_V%C3%A9nissieux_FC.png",
+    "city_country": "Vénissieux, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASM_V%C3%A9nissieux"
+  },
+  {
+    "club_name": "USSA Vertou",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/USSA_Vertou_logo.svg/250px-USSA_Vertou_logo.svg.png",
+    "city_country": "Vertou, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/USSA_Vertou"
+  },
+  {
+    "club_name": "FC Vesoul",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/FC_Vesoul_logo.svg/250px-FC_Vesoul_logo.svg.png",
+    "city_country": "Vesoul, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Vesoul"
+  },
+  {
+    "club_name": "Racing Club Vichy Football",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/RC_Vichy_logo.svg/250px-RC_Vichy_logo.svg.png",
+    "city_country": "Vichy, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/RC_Vichy"
+  },
+  {
+    "club_name": "Villemomble SF",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDeDI3xbvkSwYTcegq4nexHza1KnkGXC0R7g&s",
+    "city_country": "Villemomble, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Villemomble_SF"
+  },
+  {
+    "club_name": "Vineuil SF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/01/Vineuil_SF.gif",
+    "city_country": "Vineuil, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vineuil_SF"
+  },
+  {
+    "club_name": "AF Virois",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/AF_Virois_logo.png/250px-AF_Virois_logo.png",
+    "city_country": "Vire Normandie, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/AF_Virois"
+  },
+  {
+    "club_name": "ES Viry-Châtillon",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/ES_Viry-Ch%C3%A2tillon.png",
+    "city_country": "Viry-Châtillon, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/ES_Viry-Ch%C3%A2tillon"
+  },
+  {
+    "club_name": "AS Vitré",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/AS_Vitr%C3%A9_logo.svg/250px-AS_Vitr%C3%A9_logo.svg.png",
+    "city_country": "Vitré, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Vitr%C3%A9"
+  },
+  {
+    "club_name": "Wembley FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ea/Wembley_F.C._logo.png",
+    "city_country": "London, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wembley_F.C."
+  }
 ]

@@ -12,7 +12,13 @@
     <a routerLink="/map" routerLinkActive="active" class="w3-bar-item w3-button w3-mobile nav-link">
         Stadiums Map
     </a>
-    <a routerLink="/game" routerLinkActive="active" class="w3-bar-item w3-button w3-mobile nav-link">
-        Play Game
-    </a>
+    <div class="w3-dropdown-hover w3-mobile nav-dropdown">
+        <button class="w3-bar-item w3-button nav-link" [class.active]="isPlayGameActive()">
+            Play Game <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="w3-dropdown-content w3-bar-block w3-border w3-black">
+            <a routerLink="/game" routerLinkActive="active" class="w3-bar-item w3-button nav-link">Guess the Club</a>
+            <a routerLink="/club-search" routerLinkActive="active" class="w3-bar-item w3-button nav-link">Word Search</a>
+        </div>
+    </div>
 </div>
