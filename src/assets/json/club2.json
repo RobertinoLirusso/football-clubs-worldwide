@@ -1,8 +1,140 @@
 [
   {
-    "club_name": "Wembley FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ea/Wembley_F.C._logo.png",
-    "city_country": "London, England",
-    "wiki_url": "https://en.wikipedia.org/wiki/Wembley_F.C."
+    "club_name": "IF Eker Örebro",
+    "club_logo": "",
+    "city_country": "Örebro, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FoC Farsta",
+    "club_logo": "",
+    "city_country": "Farsta, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Fittja IF",
+    "club_logo": "",
+    "city_country": "Fittja, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "BK Forward",
+    "club_logo": "",
+    "city_country": "Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "IFK Haninge",
+    "club_logo": "",
+    "city_country": "Haninge, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Karlslunds IF",
+    "club_logo": "",
+    "city_country": "Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Nacka FC",
+    "club_logo": "",
+    "city_country": "Nacka, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Nyköpings BIS",
+    "club_logo": "",
+    "city_country": "Nyköping, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Rågsveds IF",
+    "club_logo": "",
+    "city_country": "Rågsved, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "IK Sleipner",
+    "club_logo": "",
+    "city_country": "Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Smedby AIS",
+    "club_logo": "",
+    "city_country": "Smedby, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "IF Sylvia",
+    "club_logo": "",
+    "city_country": "Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Syrianska FC",
+    "club_logo": "",
+    "city_country": "Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ahlafors IF",
+    "club_logo": "",
+    "city_country": "Ahlafors, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Grebbestads IF",
+    "club_logo": "",
+    "city_country": "Grebbestad, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Herrestads AIF",
+    "club_logo": "",
+    "city_country": "Herrestad, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "IF Karlstad Fotbollsutveckling",
+    "club_logo": "",
+    "city_country": "Karlstad, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "IFK Kumla",
+    "club_logo": "",
+    "city_country": "Kumla, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Lidköpings FK",
+    "club_logo": "",
+    "city_country": "Lidköping, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Motala AIF",
+    "club_logo": "",
+    "city_country": "Motala, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Skara FC",
+    "club_logo": "",
+    "city_country": "Skara, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "IFK Skövde",
+    "club_logo": "",
+    "city_country": "Skövde, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Stenungsunds IF",
+    "club_logo": "",
+    "city_country": "Stenungsund, Sweden",
+    "wiki_url": ""
   }
 ]

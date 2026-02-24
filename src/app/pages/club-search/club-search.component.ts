@@ -9,7 +9,7 @@ import confetti from 'canvas-confetti';
   styleUrl: './club-search.component.css'
 })
 export class ClubSearchComponent implements OnInit {
-  gridSize: number = 12;
+  gridSize: number = 16;
   grid: string[][] = [];
 
   words: string[] = [];
