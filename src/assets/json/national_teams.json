@@ -625,7 +625,7 @@
   },
   {
     "club_name": "Kuwait",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/1/10/Kuwait_FA.png/149px-Kuwait_FA.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Kuwait_Football_Association_logo.svg/250px-Kuwait_Football_Association_logo.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Kuwait_national_football_team"
   },
@@ -637,7 +637,7 @@
   },
   {
     "club_name": "Laos",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/9/93/Lao_Football_Federation.png/150px-Lao_Football_Federation.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Lao_Football_Federation_logo.svg/250px-Lao_Football_Federation_logo.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Laos_national_football_team"
   },
@@ -733,7 +733,7 @@
   },
   {
     "club_name": "Tajikistan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Tajikistan_FA.png/190px-Tajikistan_FA.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Tajikistan_Football_Federation_Logo.svg/250px-Tajikistan_Football_Federation_Logo.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Tajikistan_national_football_team"
   },
@@ -751,7 +751,7 @@
   },
   {
     "club_name": "Turkmenistan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/1/15/Turkmenistan_FA.png/250px-Turkmenistan_FA.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Football_Federation_of_Turkmenistan_logo.svg/250px-Football_Federation_of_Turkmenistan_logo.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Turkmenistan_national_football_team"
   },
@@ -944,7 +944,7 @@
   {
     "club_name": "Mauritania",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Football_Federation_of_the_Islamic_Republic_of_Mauritania_logo.svg/250px-Football_Federation_of_the_Islamic_Republic_of_Mauritania_logo.svg.png",
-    "continent": "Africa",
+    "continent": "Africa",t
     "wiki_url": "https://en.wikipedia.org/wiki/Mauritania_national_football_team"
   },
   {
@@ -1243,7 +1243,7 @@
   },
   {
     "club_name": "Dominican Republic",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Fedofu_logo.png/250px-Fedofu_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Federaci%C3%B3n_Dominicana_de_F%C3%BAtbol_logo_%282025%29.svg/250px-Federaci%C3%B3n_Dominicana_de_F%C3%BAtbol_logo_%282025%29.svg.png",
     "continent": "North America",
     "wiki_url": "https://en.wikipedia.org/wiki/Dominican_Republic_national_football_team"
   },
@@ -1321,13 +1321,13 @@
   },
   {
     "club_name": "Panama",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Fepafut_logo_2024.svg/180px-Fepafut_logo_2024.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Panamanian_Football_Federation_logo_2024.svg/250px-Panamanian_Football_Federation_logo_2024.svg.png",
     "continent": "North America",
     "wiki_url": "https://en.wikipedia.org/wiki/Panama_national_football_team"
   },
   {
     "club_name": "Puerto Rico",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Federaci%C3%B3n_Puertorrique%C3%B1a_de_F%C3%BAtbol.svg/250px-Federaci%C3%B3n_Puertorrique%C3%B1a_de_F%C3%BAtbol.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Puerto_Rican_Football_Federation_logo.svg/250px-Puerto_Rican_Football_Federation_logo.svg.png",
     "continent": "North America",
     "wiki_url": "https://en.wikipedia.org/wiki/Puerto_Rico_national_football_team"
   },
