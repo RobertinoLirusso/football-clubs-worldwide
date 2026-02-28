@@ -1,8 +1,279 @@
 [
   {
-    "club_name": "Aparecida FC",
-    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/92264.png?lm=1720185523",
-    "city_country": "Torno, Portugal",
-    "wiki_url": "https://pt.wikipedia.org/wiki/Aparecida_Futebol_Clube"
+    "club_name": "Adhyaksa Banten",
+    "club_logo": "",
+    "city_country": "Serang, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Barito Putera",
+    "club_logo": "",
+    "city_country": "Banjarmasin, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Bekasi City",
+    "club_logo": "",
+    "city_country": "Bekasi City, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Deltras",
+    "club_logo": "",
+    "city_country": "Sidoarjo, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Garudayaksa",
+    "club_logo": "",
+    "city_country": "Bekasi Regency, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Kendal Tornado",
+    "club_logo": "",
+    "city_country": "Kendal, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Persekat",
+    "club_logo": "",
+    "city_country": "Tegal, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Persela",
+    "club_logo": "",
+    "city_country": "Lamongan, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Persiba",
+    "club_logo": "",
+    "city_country": "Balikpapan, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Persikad",
+    "club_logo": "",
+    "city_country": "Depok, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Persiku",
+    "club_logo": "",
+    "city_country": "Kudus, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Persipal",
+    "club_logo": "",
+    "city_country": "Palu, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Persipura",
+    "club_logo": "",
+    "city_country": "Jayapura, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Persiraja",
+    "club_logo": "",
+    "city_country": "Banda Aceh, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "PSIS",
+    "club_logo": "",
+    "city_country": "Semarang, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "PSMS",
+    "club_logo": "",
+    "city_country": "Medan, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "PSPS",
+    "club_logo": "",
+    "city_country": "Pekanbaru, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "PSS",
+    "club_logo": "",
+    "city_country": "Sleman, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sriwijaya",
+    "club_logo": "",
+    "city_country": "Palembang, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sumsel United",
+    "club_logo": "",
+    "city_country": "Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Amal",
+    "club_logo": "",
+    "city_country": "Riyadh, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Hmmah",
+    "club_logo": "",
+    "city_country": "Riyadh, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Nahda",
+    "club_logo": "",
+    "city_country": "Dammam, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Taraji",
+    "club_logo": "",
+    "city_country": "Qatif, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Yarmouk",
+    "club_logo": "",
+    "city_country": "Jazan, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Najmat Jeddah",
+    "club_logo": "",
+    "city_country": "Jeddah, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Phoenix",
+    "club_logo": "",
+    "city_country": "Taif, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "United Eagles",
+    "club_logo": "",
+    "city_country": "Qatif, Safwa City, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Abha",
+    "club_logo": "",
+    "city_country": "Abha, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Adalah",
+    "club_logo": "",
+    "city_country": "Al-Ahsa, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Anwar",
+    "club_logo": "",
+    "city_country": "Hotat Bani Tamim, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Arabi",
+    "club_logo": "",
+    "city_country": "Unaizah, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Batin",
+    "club_logo": "",
+    "city_country": "Hafar al-Batin, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Bukiryah",
+    "club_logo": "",
+    "city_country": "Al-Bukiryah, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Diriyah",
+    "club_logo": "",
+    "city_country": "Diriyah, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Faisaly",
+    "club_logo": "",
+    "city_country": "Harmah, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Jabalain",
+    "club_logo": "",
+    "city_country": "Hail, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Jandal",
+    "club_logo": "",
+    "city_country": "Dumat al-Jandal, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Jubail",
+    "club_logo": "",
+    "city_country": "Jubail, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Orobah",
+    "club_logo": "",
+    "city_country": "Sakakah, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Raed",
+    "club_logo": "",
+    "city_country": "Buraidah, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Tai",
+    "club_logo": "",
+    "city_country": "Hail, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Ula",
+    "club_logo": "",
+    "city_country": "Al-Ula, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Wehda",
+    "club_logo": "",
+    "city_country": "Mecca, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Zulfi",
+    "club_logo": "",
+    "city_country": "Al-Zulfi, Saudi Arabia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Jeddah",
+    "club_logo": "",
+    "city_country": "Jeddah, Saudi Arabia",
+    "wiki_url": ""
   }
+
 ]
