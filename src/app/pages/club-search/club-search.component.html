@@ -2,7 +2,7 @@
   <app-header></app-header>
 
   <div class="w3-container w3-center w3-card w3-margin-top w3-margin-bottom w3-animate-opacity">
-    <h2><i class="fas fa-search" style="margin-right: 4px;"></i> Football Club Word Search</h2>
+    <h3><i class="fas fa-search" style="margin-right: 4px;"></i> Football Club Word Search</h3>
 
     <!-- Words to find -->
     <div class="w3-margin">
@@ -16,23 +16,27 @@
       </div>
     </div>
 
+
     <!-- Grid -->
-    <div class="grid-container" (mouseup)="endSelection()">
-      <div *ngFor="let row of grid; let rowIndex = index" class="grid-row">
-        <div
-          *ngFor="let cell of row; let colIndex = index"
-          class="grid-cell"
-          [class.selected]="isSelected(rowIndex, colIndex)"
-          [ngStyle]="{'background-color': getFoundCell(rowIndex, colIndex)?.color}"
-          (mousedown)="startSelection(rowIndex, colIndex)"
-          (mouseover)="dragSelection(rowIndex, colIndex)"
-          (touchstart)="startSelection(rowIndex, colIndex)"
-          (touchmove)="dragSelection(rowIndex, colIndex)"
-          (touchend)="endSelection()">
-          {{ cell }}
-        </div>
-      </div>
+    <div class="grid-container" 
+    (mouseup)="endSelection()" 
+    (touchend)="endSelection()"
+    (touchmove)="onTouchMove($event)">
+    <div *ngFor="let row of grid; let rowIndex = index" class="grid-row">
+      <div
+      *ngFor="let cell of row; let colIndex = index"
+      class="grid-cell"
+      [attr.data-row]="rowIndex"
+      [attr.data-col]="colIndex"
+      [class.selected]="isSelected(rowIndex, colIndex)"
+      [ngStyle]="{'background-color': getFoundCell(rowIndex, colIndex)?.color}"
+      (mousedown)="startSelection(rowIndex, colIndex)"
+      (mouseover)="dragSelection(rowIndex, colIndex)"
+      (touchstart)="onTouchStart($event, rowIndex, colIndex)">
+      {{ cell }}
     </div>
+  </div>
+</div>
 
     <!-- Game completed -->
     <div *ngIf="gameCompleted" class="w3-margin-top">

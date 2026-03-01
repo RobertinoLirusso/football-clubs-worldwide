@@ -22,16 +22,16 @@ export class ClubSearchComponent implements OnInit {
   foundCells: { row: number, col: number, color: string }[] = [];
 
   colorPalette: string[] = [
-    '#FF5252',
-    '#FF9800',
-    '#FFEB3B',
-    '#4CAF50',
-    '#2196F3',
-    '#9C27B0',
-    '#00BCD4',
-    '#E91E63',
-    '#8BC34A',
-    '#3F51B5'
+    '#2E7D32', // green
+    '#E64A19', // orange
+    '#1565C0', // blue
+    '#C2185B', // pink
+    '#6A1B9A', // purple
+    '#F9A825', // amber
+    '#00838F', // cyan
+    '#C62828', // red
+    '#558B2F', // olive green
+    '#4527A0'  // deep purple
   ];
 
   isSelecting: boolean = false;
@@ -65,7 +65,7 @@ export class ClubSearchComponent implements OnInit {
       const randomClubs = data
         .map(c => ({
           display: c.club_name.toUpperCase(),
-          value: c.club_name.replace(/\s/g, '').toUpperCase()
+          value: c.club_name.replace(/[\s.\-']/g, '').toUpperCase()
         }))
         .filter(c => c.value.length <= 12)
         .sort(() => Math.random() - 0.5)
@@ -215,9 +215,9 @@ export class ClubSearchComponent implements OnInit {
       this.foundWords.push(matched);
 
 
+
       const color = this.colorPalette[this.foundWords.length - 1];
-
-
+      
       this.selectedCells.forEach(cell => {
         this.foundCells.push({
           row: cell.row,
@@ -249,5 +249,24 @@ export class ClubSearchComponent implements OnInit {
       spread: 160,
       origin: { y: 0.6 }
     });
+  }
+
+
+  onTouchStart(event: TouchEvent, row: number, col: number): void {
+    event.preventDefault();
+    this.startSelection(row, col);
+  }
+  
+  onTouchMove(event: TouchEvent): void {
+    event.preventDefault();
+    const touch = event.touches[0];
+    const element = document.elementFromPoint(touch.clientX, touch.clientY);
+    if (element) {
+      const rowAttr = element.getAttribute('data-row');
+      const colAttr = element.getAttribute('data-col');
+      if (rowAttr !== null && colAttr !== null) {
+        this.dragSelection(+rowAttr, +colAttr);
+      }
+    }
   }
 }
