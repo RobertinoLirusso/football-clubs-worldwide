@@ -261,9 +261,17 @@ clearSearch(): void {
   }
 
   selectRandomClub(): void {
-    if (this.clubs.length > 0) {
-      const randomIndex = Math.floor(Math.random() * this.clubs.length);
-      this.searchTerm = this.clubs[randomIndex].club_name;
+    const pool = this.selectedCountry
+      ? this.clubs.filter(club => {
+          const parts = club.city_country.split(',');
+          const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
+          return country === this.selectedCountry.toLowerCase();
+        })
+      : this.clubs;
+  
+    if (pool.length > 0) {
+      const randomIndex = Math.floor(Math.random() * pool.length);
+      this.searchTerm = pool[randomIndex].club_name;
     }
   }
 
