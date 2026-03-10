@@ -229,7 +229,7 @@
   },
   {
     "club_name": "Ural Yekaterinburg",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/FC_Ural_Yekaterinburg_logo.svg/225px-FC_Ural_Yekaterinburg_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/FC_Ural_Yekaterinburg_logo.svg/250px-FC_Ural_Yekaterinburg_logo.svg.png",
     "city_country": "Yekaterinburg, Russia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Ural_Yekaterinburg"
   },
@@ -240,13 +240,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Porto"
   },
   {
-    "club_name": "Sevilla",
+    "club_name": "Sevilla FC",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc-RE6AidZ01c1tcMmlRQ9DhP_UECI_n92gyPcxlIA5NAKIek_yLzzmqvQxzvuO2A46C9XmbiKdYSqSi9F-o_4uFD4EfHuoj0IVKPvIH5_f1uFycbBTIrkV7s4iShhfSkmiNvjCI8AcwX8/s1600/Sevilla+FC256x.png",
     "city_country": "Seville, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Sevilla_FC"
   },
   {
-    "club_name": "Barcelona",
+    "club_name": "FC Barcelona",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv3b0R3I-cJzSfZeP07nIPz_6jaaYt2uNEm82egojp296T5r5jS8yrgBEtuaQ9fmM8SJ7EvFBeNg5rmQP4AL1b4chuovzrmNuxlsPjnVx8HJAyN0G-_s8FE7tp517KnXg5bePRMsp_KD8/s256/FC+Barcelona256x.png",
     "city_country": "Barcelona, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Barcelona"
@@ -1740,8 +1740,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Racing_de_C%C3%B3rdoba"
   },
   {
-    "club_name": "Instituto",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpbOgsAy-BUunGKsTpPzrXDFTOjyblFEWpUsfnS2FgwUMqYMiY2LAn8srG_ileJhAVmqFrCKQkEQt0HtlX24OnwCp6XPnRFFVufF9BBNUwEGjs_pCG_FgLwXNGDyxijhOs6Qgd2P1ag/s1600/Instituto+Atletico+Central+Cordoba256x.png",
+    "club_name": "Instituto de Córdoba",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Instituto_acc_cordoba_logo.svg/250px-Instituto_acc_cordoba_logo.svg.png",
     "city_country": "Córdoba, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Instituto_Atl%C3%A9tico_Central_C%C3%B3rdoba"
   },
@@ -2857,7 +2857,7 @@
   },
   {
     "club_name": "FC Moscow (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/1/1d/FC_Moscow_Logo.svg/365px-FC_Moscow_Logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/1/1d/FC_Moscow_Logo.svg/250px-FC_Moscow_Logo.svg.png",
     "city_country": "Moscow, Russia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Moscow"
   },
@@ -3384,8 +3384,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/U.S._Salernitana_1919"
   },
   {
-    "club_name": "Sassuolo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/302px-US_Sassuolo_Calcio_logo.svg.png",
+    "club_name": "US Sassuolo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/250px-US_Sassuolo_Calcio_logo.svg.png",
     "city_country": "Sassuolo, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/U.S._Sassuolo_Calcio"
   },
@@ -3469,7 +3469,7 @@
   },
   {
     "club_name": "Thanh Hóa FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Dong_A_Thanh_Hoa_FC.png/250px-Dong_A_Thanh_Hoa_FC.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/%C4%90%C3%B4ng_%C3%81_Thanh_H%C3%B3a_logo.svg/250px-%C4%90%C3%B4ng_%C3%81_Thanh_H%C3%B3a_logo.svg.png",
     "city_country": "Thanh Hóa, Vietnam",
     "wiki_url": "https://en.wikipedia.org/wiki/Dong_A_Thanh_Hoa"
   },
@@ -3871,7 +3871,7 @@
   },
   {
     "club_name": "FK Sarajevo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/FK_Sarajevo_logo.svg/191px-FK_Sarajevo_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/FK_Sarajevo_logo.svg/250px-FK_Sarajevo_logo.svg.png",
     "city_country": "Sarajevo, Bosnia and Herzegovina",
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Sarajevo"
   },
@@ -4884,7 +4884,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/PSIS_Semarang"
   },
   {
-    "club_name": "Chita",
+    "club_name": "FC Chita",
     "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/d/dd/LogoFCChita2018.svg/250px-LogoFCChita2018.svg.png",
     "city_country": "Chita, Russia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Chita"
@@ -4896,13 +4896,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Pyramids_F.C."
   },
   {
-    "club_name": "El Gouna",
+    "club_name": "El Gouna FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/El_Gouna_FC_Logo_2017.png",
     "city_country": "El Gouna, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/El_Gouna_F.C."
   },
   {
-    "club_name": "Petrojet",
+    "club_name": "Petrojet SC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/5d/Petrojet_SC_2017.png",
     "city_country": "Suez, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Petrojet_SC"
@@ -4999,7 +4999,7 @@
   },
   {
     "club_name": "Connah's Quay Nomads",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Connahs_Quay_Nomads_FC_logo.svg/295px-Connahs_Quay_Nomads_FC_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Connahs_Quay_Nomads_FC_logo.svg/250px-Connahs_Quay_Nomads_FC_logo.svg.png",
     "city_country": "Connah's Quay, Wales",
     "wiki_url": "https://en.wikipedia.org/wiki/Connah%27s_Quay_Nomads_F.C."
   },
@@ -5016,14 +5016,14 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Haverfordwest_County_A.F.C."
   },
   {
-    "club_name": "Newtown",
+    "club_name": "Newtown AFC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/70/Newtown_FC.PNG",
     "city_country": "Newtown, Wales",
     "wiki_url": "https://en.wikipedia.org/wiki/Newtown_A.F.C."
   },
   {
-    "club_name": "Penybont",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Pen-y-Bont_F.C.svg/289px-Pen-y-Bont_F.C.svg.png",
+    "club_name": "Penybont FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Pen-y-Bont_F.C.svg/250px-Pen-y-Bont_F.C.svg.png",
     "city_country": "Bridgend, Wales",
     "wiki_url": "https://en.wikipedia.org/wiki/Penybont_F.C."
   },
@@ -5251,7 +5251,7 @@
   },
   {
     "club_name": "Yenisei Krasnoyarsk",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/FC_Yenisey_Krasnoyarsk_logo.svg/189px-FC_Yenisey_Krasnoyarsk_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/FC_Yenisey_Krasnoyarsk_logo.svg/250px-FC_Yenisey_Krasnoyarsk_logo.svg.png",
     "city_country": "Krasnoyarsk, Russia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Yenisey_Krasnoyarsk"
   },
@@ -5299,7 +5299,7 @@
   },
   {
     "club_name": "Kuban Krasnodar (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/FC_Kuban_Krasnodar_logo.svg/242px-FC_Kuban_Krasnodar_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/FC_Kuban_Krasnodar_logo.svg/250px-FC_Kuban_Krasnodar_logo.svg.png",
     "city_country": "Krasnodar, Russia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Kuban_Krasnodar"
   },
@@ -6103,7 +6103,7 @@
   },
   {
     "club_name": "Neman Grodno",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/FC_Neman_Grodno.svg/251px-FC_Neman_Grodno.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/FC_Neman_Grodno.svg/250px-FC_Neman_Grodno.svg.png",
     "city_country": "Grodno, Belarus",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Neman_Grodno"
   },
@@ -7320,7 +7320,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/MVV_Maastricht"
     },
     {
-        "club_name": "Dordrecht",
+        "club_name": "FC Dordrecht",
         "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4aBjtW5F99Jr9GWu54CXu1m3iZfxy4t5i4jgBugNPRhNo1D18ui0jc3GxfF_WIHAvdL3O3oeB6Jh-zfAX43tBLK7N5OETXidw8n8-3Rbt3CivIM-1B5IHHwcDZb_GTThUaORRy_5cGUU/s1600/FC+Dordrecht256x.png",
         "city_country": "Dordrecht, Netherlands",
         "wiki_url": "https://en.wikipedia.org/wiki/FC_Dordrecht"
@@ -7663,7 +7663,7 @@
     },
     {
         "club_name": "Schwarz-Weiß Bregenz",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Schwarz-Wei%C3%9F_Bregenz_logo.svg/278px-Schwarz-Wei%C3%9F_Bregenz_logo.svg.png",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Schwarz-Wei%C3%9F_Bregenz_logo.svg/250px-Schwarz-Wei%C3%9F_Bregenz_logo.svg.png",
         "city_country": "Bregenz, Austria",
         "wiki_url": "https://en.wikipedia.org/wiki/Schwarz-Weiß_Bregenz"
     },
@@ -9222,13 +9222,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_G%C3%BCemes"
   },
   {
-    "club_name": "San Miguel",
+    "club_name": "CA San Miguel",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Escudo_C.A.S.M.png/120px-Escudo_C.A.S.M.png",
     "city_country": "San Miguel, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_San_Miguel"
   },
   {
-    "club_name": "San Telmo",
+    "club_name": "CA San Telmo",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Club_santelmo_logo.png/120px-Club_santelmo_logo.png",
     "city_country": "Buenos Aires, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_San_Telmo"
@@ -9691,7 +9691,7 @@
   },
   {
     "club_name": "Shinnik Yaroslavl",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/FC_Shinnik_Logo.png/160px-FC_Shinnik_Logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2a/FC_Shinnik_Logo.png",
     "city_country": "Yaroslavl, Russia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Shinnik_Yaroslavl"
   },
@@ -9864,7 +9864,7 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Merthyr_Town_F.C."
     },
     {
-      "club_name": "Oxford City",
+      "club_name": "Oxford City FC",
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Oxford_City_FC_crest.svg/250px-Oxford_City_FC_crest.svg.png",
       "city_country": "Oxford, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Oxford_City_F.C."
@@ -10248,7 +10248,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Rodange_91"
   },
   {
-    "club_name": "Jeunesse Canach",
+    "club_name": "FC Jeunesse Canach",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Jeunesse_Canach.png/250px-Jeunesse_Canach.png",
     "city_country": "Canach, Luxembourg",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Jeunesse_Canach"
@@ -10584,19 +10584,19 @@
     "wiki_url": "https://en.wikipedia.org/wiki/UE_Sant_Andreu"
   },
   {
-    "club_name": "Terrassa",
+    "club_name": "Terrassa FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Terrassa_FC_logo.svg/250px-Terrassa_FC_logo.svg.png",
     "city_country": "Terrassa, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Terrassa_FC"
   },
   {
-    "club_name": "Torrent",
+    "club_name": "Torrent CF",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Torrent_CF.png/250px-Torrent_CF.png",
     "city_country": "Torrent, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Torrent_CF"
   },
   {
-    "club_name": "Tudelano",
+    "club_name": "CD Tudelano",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/CD_Tudelano.png/250px-CD_Tudelano.png",
     "city_country": "Tudela, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Tudelano"
@@ -13152,7 +13152,7 @@
       "wiki_url": "https://en.wikipedia.org/wiki/FC_Roseng%C3%A5rd_1917"
     },
     {
-      "club_name": "BK Olympic",
+      "club_name": "BK Olympic Malmö",
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/BK_Olympic_logo.svg/250px-BK_Olympic_logo.svg.png",
       "city_country": "Malmö, Sweden",
       "wiki_url": "https://en.wikipedia.org/wiki/BK_Olympic"
@@ -13236,19 +13236,19 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Mj%C3%B8ndalen_IF_Fotball"
   },
   {
-    "club_name": "Moss",
+    "club_name": "Moss FK",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Moss_FK.png/250px-Moss_FK.png",
     "city_country": "Moss, Norway",
     "wiki_url": "https://en.wikipedia.org/wiki/Moss_FK"
   },
   {
-    "club_name": "Odd",
+    "club_name": "Odd BK",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f3/Odds_BK_logo.png",
     "city_country": "Skien, Norway",
     "wiki_url": "https://en.wikipedia.org/wiki/Odds_BK"
   },
   {
-    "club_name": "Ranheim",
+    "club_name": "Ranheim IL",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Ranheim_IL_logo.svg/250px-Ranheim_IL_logo.svg.png",
     "city_country": "Trondheim, Norway",
     "wiki_url": "https://en.wikipedia.org/wiki/Ranheim_Fotball"
@@ -14808,19 +14808,19 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Ituano_FC"
   },
   {
-    "club_name": "Londrina",
+    "club_name": "Londrina EC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Londrina_E.C..png/250px-Londrina_E.C..png",
     "city_country": "Londrina, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Londrina_Esporte_Clube"
   },
   {
-    "club_name": "Maringá",
+    "club_name": "Maringá FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Mfc_monocromia_verde_paixao.png/250px-Mfc_monocromia_verde_paixao.png",
     "city_country": "Maringá, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Maring%C3%A1_Futebol_Clube"
   },
   {
-    "club_name": "Náutico",
+    "club_name": "Clube Náutico",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Clube_N%C3%A1utico_Capibaribe_%282010%29.svg/250px-Clube_N%C3%A1utico_Capibaribe_%282010%29.svg.png",
     "city_country": "Recife, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Clube_N%C3%A1utico_Capibaribe"
@@ -16795,7 +16795,7 @@
   },
   {
     "club_name": "Renaissance FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/3/37/Renaissance_FC.png/180px-Renaissance_FC.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/3/37/Renaissance_FC.png",
     "city_country": "N'Djamena, Chad",
     "wiki_url": "https://en.wikipedia.org/wiki/Renaissance_FC"
   },
@@ -16860,7 +16860,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Konkola_Blades_F.C."
   },
   {
-    "club_name": "Maestro United",
+    "club_name": "Maestro United Zambia",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Maestro_United_F.C._Logo.jpg/250px-Maestro_United_F.C._Logo.jpg",
     "city_country": "Mazabuka, Zambia",
     "wiki_url": "https://en.wikipedia.org/wiki/Maestro_United_Zambia_F.C."
@@ -17185,7 +17185,7 @@
   },
   {
     "club_name": "Tavua FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/4/47/Tavua_klubo_emblema.png/180px-Tavua_klubo_emblema.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3d/Tavua_FC_Logo.gif",
     "city_country": "Tavua, Fiji",
     "wiki_url": "https://en.wikipedia.org/wiki/Tavua_F.C."
   },
@@ -17286,13 +17286,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Portmore_United_F.C."
   },
   {
-    "club_name": "Racing United",
+    "club_name": "Racing United FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/lt/b/b8/Racing_United_Football_Club_emblema.png",
     "city_country": "Portmore, Jamaica",
     "wiki_url": "https://www.jamaicafootball.org/team/racing-united-fc/"
   },
   {
-    "club_name": "Tivoli Gardens",
+    "club_name": "Tivoli Gardens FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Tivoli_Gardens_FC.png/250px-Tivoli_Gardens_FC.png",
     "city_country": "Kingston, Jamaica",
     "wiki_url": "https://en.wikipedia.org/wiki/Tivoli_Gardens_F.C."
@@ -18721,7 +18721,7 @@
   },
   {
     "club_name": "CD Universidad César Vallejo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Universidad_Cesar_Vallejo.svg/250px-Universidad_Cesar_Vallejo.svg.pngg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Universidad_Cesar_Vallejo.svg/250px-Universidad_Cesar_Vallejo.svg.png",
     "city_country": "Trujillo, Peru",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Deportivo_Universidad_C%C3%A9sar_Vallejo"
   },
@@ -18810,7 +18810,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/GFK_Dubo%C4%8Dica"
   },
   {
-    "club_name": "Kabel",
+    "club_name": "FK Kabel",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/FK_Kabel_crest.png/250px-FK_Kabel_crest.png",
     "city_country": "Novi Sad, Serbia",
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Kabel"
@@ -20300,7 +20300,7 @@
   },
   {
     "club_name": "Zenit Penza",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Logo_of_FC_Zenit_Penza.gif/300px-Logo_of_FC_Zenit_Penza.gif",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4d/Logo_of_FC_Zenit_Penza.gif",
     "city_country": "Penza, Russia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Zenit_Penza"
   },
@@ -20336,7 +20336,7 @@
   },
   {
     "club_name": "Dynamo Bryansk",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Logo_of_FC_Dynamo_Bryansk.png/160px-Logo_of_FC_Dynamo_Bryansk.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/f/ff/Dynamo_Bryansk_Logo.svg/250px-Dynamo_Bryansk_Logo.svg.png",
     "city_country": "Bryansk, Russia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Dynamo_Bryansk"
   },
@@ -20720,7 +20720,7 @@
   },
   {
     "club_name": "Nistru Otaci (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/FC_Nistru_Otaci.gif/180px-FC_Nistru_Otaci.gif",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f0/FC_Nistru_Otaci.gif",
     "city_country": "Otaci, Moldova",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Nistru_Otaci"
   },
@@ -20839,8 +20839,8 @@
   "wiki_url": "https://en.wikipedia.org/wiki/FC_Olimp_Comrat"
 },
 {
-  "club_name": "FC Saksan",
-  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/FC_Saxan_Ceadir_Lunga.png/180px-FC_Saxan_Ceadir_Lunga.png",
+  "club_name": "FC Saksan (Defunct)",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a3/FC_Saxan_Ceadir_Lunga.png",
   "city_country": "Ceadîr-Lunga, Moldova",
   "wiki_url": "https://en.wikipedia.org/wiki/FC_Saksan"
 },
@@ -20852,7 +20852,7 @@
 },
 {
   "club_name": "FC Victoria Chișinău",
-  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/FC_Victoria_Bardar_logo.png/180px-FC_Victoria_Bardar_logo.png",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/95/FC_Victoria_Bardar_logo.png",
   "city_country": "Chișinău, Moldova",
   "wiki_url": "https://en.wikipedia.org/wiki/FC_Victoria_Chi%C8%99in%C4%83u"
 },
@@ -20864,13 +20864,13 @@
 },
 {
   "club_name": "FC Iskra Rîbnița",
-  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Iskra_R%C3%AEbni%C8%9Ba_logo.png/180px-Iskra_R%C3%AEbni%C8%9Ba_logo.png",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a3/Iskra_R%C3%AEbni%C8%9Ba_logo.png",
   "city_country": "Rîbnița, Moldova",
   "wiki_url": "https://en.wikipedia.org/wiki/FC_Iskra_R%C3%AEbni%C8%9Ba"
 },
 {
   "club_name": "FC Sîngerei",
-  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/FC_S%C3%AEngerei_logo.png/180px-FC_S%C3%AEngerei_logo.png",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/42/FC_S%C3%AEngerei_logo.png",
   "city_country": "Sîngerei, Moldova",
   "wiki_url": "https://en.wikipedia.org/wiki/FC_S%C3%AEngerei"
 },
@@ -20894,7 +20894,7 @@
 },
 {
   "club_name": "FCM Ungheni",
-  "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/FCM_Ungheni.png/180px-FCM_Ungheni.png",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/commons/2/2c/FCM_Ungheni.png",
   "city_country": "Ungheni, Moldova",
   "wiki_url": "https://en.wikipedia.org/wiki/FCM_Ungheni"
 },
@@ -24080,7 +24080,7 @@
   },
   {
     "club_name": "Moneni Pirates FC" ,
-    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/9/9a/Moneni_Pirates_FC_logo.png/180px-Moneni_Pirates_FC_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/9/9a/Moneni_Pirates_FC_logo.png",
     "city_country": "Manzini, Eswatini",
     "wiki_url": "https://en.wikipedia.org/wiki/Moneni_Pirates_F.C."
   },
@@ -24104,7 +24104,7 @@
   },
   {
     "club_name": "Manzini Wanderers FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/1/18/Manzini_Wanderers_FC_logo.png/180px-Manzini_Wanderers_FC_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/1/18/Manzini_Wanderers_FC_logo.png",
     "city_country": "Manzini, Eswatini",
     "wiki_url": "https://en.wikipedia.org/wiki/Manzini_Wanderers_F.C."
   },
@@ -28479,7 +28479,7 @@
   },
   {
     "club_name": "Cong An Ho Chi Minh City FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Logo_of_Cong_An_Ho_Chi_Minh_City_football_club_from_2025.png/250px-Logo_of_Cong_An_Ho_Chi_Minh_City_football_club_from_2025.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/CAHCMC_logo_%282025%29.svg/250px-CAHCMC_logo_%282025%29.svg.png",
     "city_country": "Ho Chi Minh City, Vietnam",
     "wiki_url": "https://en.wikipedia.org/wiki/Cong_An_Ho_Chi_Minh_City_FC"
   },
@@ -28515,13 +28515,13 @@
   },
   {
     "club_name": "Ninh Binh FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Ninh_Binh_FC_logo.png/250px-Ninh_Binh_FC_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/NinhBinh_FC_logo.svg/250px-NinhBinh_FC_logo.svg.png",
     "city_country": "Ninh Binh, Vietnam",
     "wiki_url": "https://en.wikipedia.org/wiki/Ninh_Binh_FC"
   },
   {
     "club_name": "PVF-CAND FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/PVF-CAND_FC_logo.png/250px-PVF-CAND_FC_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/PVF-CAND_FC_logo.svg/250px-PVF-CAND_FC_logo.svg.png",
     "city_country": "Hưng Yên, Vietnam",
     "wiki_url": "https://en.wikipedia.org/wiki/PVF-CAND_FC"
   },
