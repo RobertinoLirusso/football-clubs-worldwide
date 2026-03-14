@@ -157,8 +157,8 @@ export class NationalTeamsComponent implements OnInit {
   }
 
   getGoogleNewsUrl(team: any): string {
-    const query = encodeURIComponent(`${team.club_name} national football team news`);
-    return `https://www.google.com/search?q=${query}&tbm=nws`;
+    const query = encodeURIComponent(`${team.club_name} national football team`);
+    return `https://www.google.com/search?q=${query}`;
   }
 
   getYouTubeUrl(team: any): string {

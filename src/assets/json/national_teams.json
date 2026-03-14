@@ -7,7 +7,7 @@
   },
     {
     "club_name": "Spain",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Spain_national_football_team_crest.svg/145px-Spain_national_football_team_crest.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Spain_national_football_team_crest.svg/250px-Spain_national_football_team_crest.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Spain_national_football_team"
   },
@@ -43,7 +43,7 @@
   },
   {
     "club_name": "Ivory Coast",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/38/FIF_C%C3%B4te_d%27Ivoire_logo.png/150px-FIF_C%C3%B4te_d%27Ivoire_logo.png",
+    "club_logo": "https://lh4.googleusercontent.com/proxy/bVDnis5YIS-RaHEA7leOqLum3Ru90Xaz-rXw4vJYS-N6xHRkP6-9PBxkY0aZxHHx5tpz3YOJmZFVFJ2W44mLaZ6RTvS0j8DvaEYN63WZh2U4sPYH",
     "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Ivory_Coast_national_football_team"
   },
@@ -91,7 +91,7 @@
   },
   {
     "club_name": "Kosovo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Kosovo_national_football_team_logo.png/130px-Kosovo_national_football_team_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1e/Kosovo_national_football_team_logo.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Kosovo_national_football_team"
   },
@@ -127,13 +127,13 @@
   },
   {
     "club_name": "Brasil",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Brazilian_Football_Confederation_logo.svg/180px-Brazilian_Football_Confederation_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Brazilian_Football_Confederation_logo.svg/250px-Brazilian_Football_Confederation_logo.svg.png",
     "continent": "South America",
     "wiki_url": "https://en.wikipedia.org/wiki/Brazil_national_football_team"
   },
   {
     "club_name": "Belgium",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Royal_Belgian_FA_logo_2019.svg/135px-Royal_Belgian_FA_logo_2019.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Royal_Belgian_FA_logo_2019.svg/250px-Royal_Belgian_FA_logo_2019.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Belgium_national_football_team"
   },
@@ -211,7 +211,7 @@
   },
   {
     "club_name": "France",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/France_national_football_team_seal.svg/155px-France_national_football_team_seal.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/France_national_football_team_seal.svg/250px-France_national_football_team_seal.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/France_national_football_team"
   },
@@ -229,7 +229,7 @@
   },
   {
     "club_name": "Romania",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Romania_national_football_team_logo.svg/155px-Romania_national_football_team_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Romania_national_football_team_logo.svg/250px-Romania_national_football_team_logo.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Romania_national_football_team"
   },
@@ -253,7 +253,7 @@
   },
   {
     "club_name": "Egypt",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Egyptian_Football_Association_logo.svg/195px-Egyptian_Football_Association_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Egyptian_Football_Association_logo.svg/250px-Egyptian_Football_Association_logo.svg.png",
     "continent": "Africa" ,
     "wiki_url": "https://en.wikipedia.org/wiki/Egypt_national_football_team"
   },
@@ -319,7 +319,7 @@
   },
   {
     "club_name": "Uzbekistan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Uzbekistan_Football_Association.svg/190px-Uzbekistan_Football_Association.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Uzbekistan_Football_Association.svg/250px-Uzbekistan_Football_Association.svg.png",
     "continent": "Asia" ,
     "wiki_url": "https://en.wikipedia.org/wiki/Uzbekistan_national_football_team"
   },
@@ -409,7 +409,7 @@
   },
   {
     "club_name": "Azerbaijan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Association_of_Football_Federations_of_Azerbaijan_logo.svg/150px-Association_of_Football_Federations_of_Azerbaijan_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Association_of_Football_Federations_of_Azerbaijan_logo.svg/250px-Association_of_Football_Federations_of_Azerbaijan_logo.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Azerbaijan_national_football_team"
   },
@@ -439,7 +439,7 @@
   },
   {
     "club_name": "Faroe Islands",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Faroe_Islands_Football_Association_logo.svg/155px-Faroe_Islands_Football_Association_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Faroe_Islands_Football_Association_logo.svg/250px-Faroe_Islands_Football_Association_logo.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Faroe_Islands_national_football_team"
   },
@@ -607,7 +607,7 @@
   },
   {
     "club_name": "India",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Indian_Football_2020.svg/190px-Indian_Football_2020.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Indian_Football_2020.svg/250px-Indian_Football_2020.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/India_national_football_team"
   },
@@ -619,7 +619,7 @@
   },
   {
     "club_name": "Korea DPR",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/North_Korean_National_Football_team_badge.svg/140px-North_Korean_National_Football_team_badge.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/5/50/Football_Cor%C3%A9e_du_Nord_federation.svg/langfr-250px-Football_Cor%C3%A9e_du_Nord_federation.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/North_Korea_national_football_team"
   },
@@ -673,7 +673,7 @@
   },
   {
     "club_name": "Myanmar",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Myanmar_national_football_team_crest.svg/150px-Myanmar_national_football_team_crest.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Myanmar_national_football_team_crest.svg/250px-Myanmar_national_football_team_crest.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Myanmar_national_football_team"
   },
@@ -739,7 +739,7 @@
   },
   {
     "club_name": "Thailand",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Thailand_national_football_team_logo%2C_March_2018.png/150px-Thailand_national_football_team_logo%2C_March_2018.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a1/Thailand_national_football_team_logo%2C_March_2018.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Thailand_national_football_team"
   },
@@ -877,7 +877,7 @@
   },
   {
     "club_name": "Gabon",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Gabonese_Football_Federation_logo.svg/150px-Gabonese_Football_Federation_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Gabonese_Football_Federation_logo.svg/250px-Gabonese_Football_Federation_logo.svg.png",
     "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Gabon_national_football_team"
   },
@@ -1027,7 +1027,7 @@
   },
   {
     "club_name": "Uganda",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Federation_of_Uganda_Football_Associations_logo.svg/180px-Federation_of_Uganda_Football_Associations_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/60/Uganda_national_football_team_logo.png",
     "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Uganda_national_football_team"
   },
@@ -1099,7 +1099,7 @@
   },
   {
     "club_name": "Tahiti",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Tahiti_FA_%282016%E2%80%93%29.svg/180px-Tahiti_FA_%282016%E2%80%93%29.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Tahiti_FA_%282016%E2%80%93%29.svg/250px-Tahiti_FA_%282016%E2%80%93%29.svg.png",
     "continent": "Oceania",
     "wiki_url": "https://en.wikipedia.org/wiki/Tahiti_national_football_team"
   },
@@ -1219,7 +1219,7 @@
   },
   {
     "club_name": "Costa Rica",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Costa_Rica_national_football_team_logo.svg/185px-Costa_Rica_national_football_team_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Costa_Rica_national_football_team_logo.svg/250px-Costa_Rica_national_football_team_logo.svg.png",
     "continent": "North America",
     "wiki_url": "https://en.wikipedia.org/wiki/Costa_Rica_national_football_team"
   },
