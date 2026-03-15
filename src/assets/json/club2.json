@@ -1,8 +1,542 @@
 [
   {
-    "club_name": "AS Kunié",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/e/e3/AS_Kunie_emblema.png/250px-AS_Kunie_emblema.png",
-    "city_country": "Nouméa, New Caledonia",
-    "wiki_url": "https://en.wikipedia.org/wiki/AS_Kuni%C3%A9"
+    "club_name": "Zelzate",
+    "club_logo": "",
+    "city_country": "Zelzate, Belgium",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Akademisk Boldklub",
+    "club_logo": "",
+    "city_country": "Gladsaxe, Denmark",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Brabrand",
+    "club_logo": "",
+    "city_country": "Brabrand, Denmark",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ishøj IF",
+    "club_logo": "",
+    "city_country": "Ishøj, Denmark",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Næstved BK",
+    "club_logo": "",
+    "city_country": "Næstved, Denmark",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Fremad Amager",
+    "club_logo": "",
+    "city_country": "Copenhagen, Denmark",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "HIK",
+    "club_logo": "",
+    "city_country": "Hellerup, Denmark",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Helsingør",
+    "club_logo": "",
+    "city_country": "Helsingør, Denmark",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Roskilde",
+    "club_logo": "",
+    "city_country": "Roskilde, Denmark",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Skive IK",
+    "club_logo": "",
+    "city_country": "Skive, Denmark",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Thisted FC",
+    "club_logo": "",
+    "city_country": "Thisted, Denmark",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Vendsyssel FF",
+    "club_logo": "",
+    "city_country": "Hjørring, Denmark",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "VSK Aarhus",
+    "club_logo": "",
+    "city_country": "Aarhus, Denmark",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Skala 1911 Stryi",
+    "club_logo": "",
+    "city_country": "Stryi, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sokil Kulykiv-Bilka",
+    "club_logo": "",
+    "city_country": "Kulykiv, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Polissya-2 Zhytomyr",
+    "club_logo": "",
+    "city_country": "Zhytomyr, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Uzhhorod",
+    "club_logo": "",
+    "city_country": "Uzhhorod, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Vilkhivtsi",
+    "club_logo": "",
+    "city_country": "Vilkhivtsi, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sambir-Nyva-2 Ternopil",
+    "club_logo": "",
+    "city_country": "Sambir, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Nyva Vinnytsia",
+    "club_logo": "",
+    "city_country": "Vinnytsia, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Real Pharma Odesa",
+    "club_logo": "",
+    "city_country": "Odesa, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Lisne",
+    "club_logo": "",
+    "city_country": "Makariv, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Atlet Kyiv",
+    "club_logo": "",
+    "city_country": "Kyiv, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Bukovyna-2 Chernivtsi",
+    "club_logo": "",
+    "city_country": "Chernivtsi, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Dinaz Vyshhorod",
+    "club_logo": "",
+    "city_country": "Vyshhorod, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Kolos-2 Kovalivka",
+    "club_logo": "",
+    "city_country": "Kovalivka, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Lokomotyv Kyiv",
+    "club_logo": "",
+    "city_country": "Kyiv, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Oleksandriya-2",
+    "club_logo": "",
+    "city_country": "Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Hirnyk-Sport Horishni Plavni",
+    "club_logo": "",
+    "city_country": "Horishni Plavni, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Trostianets",
+    "club_logo": "",
+    "city_country": "Trostianets, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Chaika",
+    "club_logo": "",
+    "city_country": "Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Rebel Kyiv",
+    "club_logo": "",
+    "city_country": "Kyiv, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Penuel Kryvyi Rih",
+    "club_logo": "",
+    "city_country": "Kryvyi Rih, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Chornomorets-2 Odesa",
+    "club_logo": "",
+    "city_country": "Odesa, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Livyi Bereh-2 Kyiv",
+    "club_logo": "",
+    "city_country": "Kyiv, Ukraine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Aksakovo",
+    "club_logo": "",
+    "city_country": "Aksakovo, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Benkovski",
+    "club_logo": "",
+    "city_country": "Isperih, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Botev",
+    "club_logo": "",
+    "city_country": "Novi Pazar, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Chernolomets",
+    "club_logo": "",
+    "city_country": "Popovo, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Cherno More II",
+    "club_logo": "",
+    "city_country": "Varna, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Chernomorets",
+    "club_logo": "",
+    "city_country": "Balchik, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Dorostol",
+    "club_logo": "",
+    "city_country": "Silistra, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Fratria II",
+    "club_logo": "",
+    "city_country": "Benkovski, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ludogorets III",
+    "club_logo": "",
+    "city_country": "Razgrad, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Olympic",
+    "club_logo": "",
+    "city_country": "Varna, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Riltsi",
+    "club_logo": "",
+    "city_country": "Dobrich, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Septemvri",
+    "club_logo": "",
+    "city_country": "Tervel, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Spartak II",
+    "club_logo": "",
+    "city_country": "Varna, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Svetkavitsa",
+    "club_logo": "",
+    "city_country": "Targovishte, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Svetkavitsa 2014",
+    "club_logo": "",
+    "city_country": "Targovishte, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Volov",
+    "club_logo": "",
+    "city_country": "Shumen, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ustrem",
+    "club_logo": "",
+    "city_country": "Donchevo, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Kuressaare U21",
+    "club_logo": "",
+    "city_country": "Kuressaare, Estonia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Legion",
+    "club_logo": "",
+    "city_country": "Tallinn, Estonia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Läänemaa",
+    "club_logo": "",
+    "city_country": "Haapsalu, Estonia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Maardu Linnameeskond",
+    "club_logo": "",
+    "city_country": "Maardu, Estonia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Narva Trans U21",
+    "club_logo": "",
+    "city_country": "Narva, Estonia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Nõmme United U21",
+    "club_logo": "",
+    "city_country": "Tallinn, Estonia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Paide Linnameeskond U21",
+    "club_logo": "",
+    "city_country": "Paide, Estonia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Phoenix",
+    "club_logo": "",
+    "city_country": "Jõhvi, Estonia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tabasalu",
+    "club_logo": "",
+    "city_country": "Tabasalu, Estonia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tartu Kalev",
+    "club_logo": "",
+    "city_country": "Ülenurme, Estonia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Atlantis FC",
+    "club_logo": "",
+    "city_country": "Helsinki, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "EPS",
+    "club_logo": "",
+    "city_country": "Espoo, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Inter Turku II",
+    "club_logo": "",
+    "city_country": "Turku, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Jazz",
+    "club_logo": "",
+    "city_country": "Pori, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "JJK Jyväskylä",
+    "club_logo": "",
+    "city_country": "Jyväskylä, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "KPV",
+    "club_logo": "",
+    "city_country": "Kokkola, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "KuPS II",
+    "club_logo": "",
+    "city_country": "Kuopio, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "MP",
+    "club_logo": "",
+    "city_country": "Mikkeli, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AC Oulu/OLS",
+    "club_logo": "",
+    "city_country": "Oulu, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "PK Keski-Uusimaa",
+    "club_logo": "",
+    "city_country": "Tuusula, Kerava, Järvenpää, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "RoPS",
+    "club_logo": "",
+    "city_country": "Rovaniemi, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tampere United",
+    "club_logo": "",
+    "city_country": "Tampere, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Achyronas-Onisilos",
+    "club_logo": "",
+    "city_country": "Sotira, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AEZ Zakakiou",
+    "club_logo": "",
+    "city_country": "Limassol, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "APEA Akrotiri",
+    "club_logo": "",
+    "city_country": "Akrotiri, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ASIL",
+    "club_logo": "",
+    "city_country": "Larnaca, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ayia Napa",
+    "club_logo": "",
+    "city_country": "Ayia Napa, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Chalkanoras Idaliou",
+    "club_logo": "",
+    "city_country": "Dali, Nicosia, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Digenis Akritas Morphou",
+    "club_logo": "",
+    "city_country": "Nicosia, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Doxa Katokopias",
+    "club_logo": "",
+    "city_country": "Katokopia, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ethnikos Latsion",
+    "club_logo": "",
+    "city_country": "Latsia, Nicosia, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Iraklis Gerolakkou",
+    "club_logo": "",
+    "city_country": "Kato Deftera, Nicosia, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Karmiotissa",
+    "club_logo": "",
+    "city_country": "Limassol, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "MEAP Nisou",
+    "club_logo": "",
+    "city_country": "Nisou, Nicosia, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Nea Salamis Famagusta",
+    "club_logo": "",
+    "city_country": "Larnaca, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Omonia 29M",
+    "club_logo": "",
+    "city_country": "Nicosia, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "PAEEK",
+    "club_logo": "",
+    "city_country": "Lakatamia, Nicosia, Cyprus",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Spartakos Kitiou",
+    "club_logo": "",
+    "city_country": "Kiti, Cyprus",
+    "wiki_url": ""
   }
 ]

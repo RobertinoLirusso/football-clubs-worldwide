@@ -28,20 +28,7 @@ export class CardComponent implements OnInit {
   loadingMatches = true;
   isMatchesModalOpen: boolean = false;
 
-  // Chatbot variables
-  isChatbotOpen: boolean = false;
-  chatMessages: { text: string; isUser: boolean; timestamp: Date }[] = [];
-  isChatLoading: boolean = false;
-  selectedClubForChat: any = null;
 
-  // Predefined prompts
-  chatPrompts: string[] = [
-    "Tell me about the club's history.",
-    "What is this club's stadium?",
-    "Who are the legends of this club?",
-    "Tell me about this club's fanbase and supporters.",
-    "Tell me interesting facts and curiosities about this club."
-  ];
 
   highlightedClubs: string[] = [
     'Real Madrid',
