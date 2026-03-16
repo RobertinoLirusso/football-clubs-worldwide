@@ -30084,5 +30084,83 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/lv/b/b8/FK_Riga.png",
     "city_country": "Riga, Latvia",
     "wiki_url": "https://en.wikipedia.org/wiki/FK_R%C4%ABga"
+  },
+    {
+    "club_name": "KVV Zelzate",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/89419.png?lm=1617215607",
+    "city_country": "Zelzate, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/K.V.V._Zelzate"
+  },
+  {
+    "club_name": "Akademisk Boldklub",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Akademisk_Boldklub_transparent_background.svg/250px-Akademisk_Boldklub_transparent_background.svg.png",
+    "city_country": "Gladsaxe, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Akademisk_Boldklub"
+  },
+  {
+    "club_name": "Brabrand IF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Brabrand_IF.png/250px-Brabrand_IF.png",
+    "city_country": "Brabrand, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brabrand_IF"
+  },
+  {
+    "club_name": "Ishøj IF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fa/Ish%C3%B8j_IF_logo.png",
+    "city_country": "Ishøj, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ish%C3%B8j_IF"
+  },
+  {
+    "club_name": "Næstved Boldklub",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/N%C3%A6stved_Boldklub_logo.png/250px-N%C3%A6stved_Boldklub_logo.png",
+    "city_country": "Næstved, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/N%C3%A6stved_Boldklub"
+  },
+  {
+    "club_name": "Boldklubben Fremad Amager",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Fremad_Amager.png/250px-Fremad_Amager.png",
+    "city_country": "Copenhagen, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fremad_Amager"
+  },
+  {
+    "club_name": "Hellerup IK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Hellerup_IK.png/250px-Hellerup_IK.png",
+    "city_country": "Hellerup, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hellerup_IK"
+  },
+  {
+    "club_name": "FC Helsingør",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/FC_Helsing%C3%B8r_new_logo.png/250px-FC_Helsing%C3%B8r_new_logo.png",
+    "city_country": "Helsingør, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Helsing%C3%B8r"
+  },
+  {
+    "club_name": "FC Roskilde",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/FC_Roskilde_logo.png/250px-FC_Roskilde_logo.png",
+    "city_country": "Roskilde, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Roskilde"
+  },
+  {
+    "club_name": "Skive IK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/8c/Skive-ik-logo.png",
+    "city_country": "Skive, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Skive_IK"
+  },
+  {
+    "club_name": "Thisted FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Thisted_FC.png/250px-Thisted_FC.png",
+    "city_country": "Thisted, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Thisted_FC"
+  },
+  {
+    "club_name": "Vendsyssel FF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Vendsyssel_FF_%282013%29.png/250px-Vendsyssel_FF_%282013%29.png",
+    "city_country": "Hjørring, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vendsyssel_FF"
+  },
+  {
+    "club_name": "VSK Aarhus",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/VSK_Aarhus_logo.svg/250px-VSK_Aarhus_logo.svg.png",
+    "city_country": "Aarhus, Denmark",
+    "wiki_url": "https://en.wikipedia.org/wiki/VSK_Aarhus"
   }
 ]
