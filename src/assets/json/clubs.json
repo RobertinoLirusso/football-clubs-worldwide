@@ -1729,7 +1729,7 @@
   },
   {
     "club_name": "Torpedo-BelAZ",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNvDFo_I_oXJF1BU_aIrp0bVT7tFXPu_bur5wfZOKg6zBowgCR9bYaatw4uELB-Tl1MTHJB8TXM5SeYzojmkUG5l0XLQrsF_UEuKZgH7vW78n33MfZQPBCP74bIgsk020rlfM2gK6uGCY/s256/FC+TorpedoBelAZ256x.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/2/20/Torpedo-BelAZ-2026.png/250px-Torpedo-BelAZ-2026.png",
     "city_country": "Zhodzina, Belarus",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Torpedo-BelAZ_Zhodino"
   },
@@ -19219,7 +19219,7 @@
   },
   {
     "club_name": "Alisontia Steinsel",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Alisontia_Steinsel_Logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/4/48/Alisontia_Steinsel_logo.png/250px-Alisontia_Steinsel_logo.png",
     "city_country": "Steinsel, Luxembourg",
     "wiki_url": "https://de.wikipedia.org/wiki/FC_Alisontia_Steinsel"
   },
@@ -20779,8 +20779,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Holb%C3%A6k_B%26I"
   },
   {
-    "club_name": "Hørsholm-Usserød Idrætsklub",
-    "club_logo": "https://impro.usercontent.one/appid/oneComWsb/domain/hui-fodbold.dk/media/hui-fodbold.dk/onewebmedia/HUI%20logo.png?etag=%22f9a3-64463842%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=176%2B176&extract=0%2B8%2B176%2B168",
+    "club_name": "Hørsholm-Usserød IK",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/67612.png?lm=1588082114",
     "city_country": "Hørsholm, Denmark",
     "wiki_url": "https://da.wikipedia.org/wiki/H%C3%B8rsholm-Usser%C3%B8d_Idr%C3%A6tsklub"
   },
@@ -30162,5 +30162,149 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/VSK_Aarhus_logo.svg/250px-VSK_Aarhus_logo.svg.png",
     "city_country": "Aarhus, Denmark",
     "wiki_url": "https://en.wikipedia.org/wiki/VSK_Aarhus"
+  },
+  {
+    "club_name": "FC Hirnyk-Sport Horishni Plavni",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/98/Hirnyk_Sport_Logo.png/250px-Hirnyk_Sport_Logo.png",
+    "city_country": "Horishni Plavni, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Hirnyk-Sport_Horishni_Plavni"
+  },
+  {
+    "club_name": "FC Trostianets",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/FC_Trostianets_logo.png/250px-FC_Trostianets_logo.png",
+    "city_country": "Trostianets, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Trostianets"
+  },
+  {
+    "club_name": "FC Naftovyk Okhtyrka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fe/FC_Naftovyk_Okhtyrka_logo.png",
+    "city_country": "Okhtyrka, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Naftovyk_Okhtyrka"
+  },
+  {
+    "club_name": "FC Rebel Kyiv",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/FC_Rebel_Kyiv_logo.png/250px-FC_Rebel_Kyiv_logo.png",
+    "city_country": "Kyiv, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Rebel_Kyiv"
+  },
+  {
+    "club_name": "CFC Penuel Kryvyi Rih",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/5/54/%D0%A4%D0%9A_%D0%9F%D0%B5%D0%BD%D1%83%D1%8D%D0%BB.png",
+    "city_country": "Kryvyi Rih, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/CFC_Penuel_Kryvyi_Rih"
+  },
+  {
+    "club_name": "FC Olympia Savyntsi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/6d/Olimpiya_Savyntsi_logo.png",
+    "city_country": "Savyntsi, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Olympia_Savyntsi"
+  },
+  {
+    "club_name": "FC Avanhard Lozova",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/76/FC_Avanhard_Lozova_logo.png",
+    "city_country": "Lozova, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Avanhard_Lozova"
+  },
+  {
+    "club_name": "FC Dnister Zalishchyky",
+    "club_logo": "https://fcdnister.com/img/logo.png",
+    "city_country": "Zalishchyky, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dnister_Zalishchyky"
+  },
+  {
+    "club_name": "FC Mykolaiv",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/FK_Mykolaiv.png",
+    "city_country": "Mykolaiv, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Mykolaiv"
+  },
+  {
+    "club_name": "FC Standart Novi Sanzhary",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/uk/6/6b/FC_Standart_Novi_Sanzhary_logo.png",
+    "city_country": "Novi Sanzhary, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Standart_Novi_Sanzhary"
+  },
+  {
+    "club_name": "FC Ahrotekh Tyshkivka",
+    "club_logo": "https://sportcdns.live/team/5068e4538933ddb50898f67e14aee87fa0c821d7792994a6933e88f45332839b.webp",
+    "city_country": "Tyshkivka, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ahrotekh_Tyshkivka"
+  },
+  {
+    "club_name": "FC Aksakovo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/FC_Aksakovo.png/250px-FC_Aksakovo.png",
+    "city_country": "Aksakovo, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Aksakovo"
+  },
+  {
+    "club_name": "FC Benkovski Byala",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/FC_Benkovski_Byala_logo.svg/250px-FC_Benkovski_Byala_logo.svg.png",
+    "city_country": "Byala, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Benkovski_Byala"
+  },
+  {
+    "club_name": "FC Botev Novi Pazar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Botev_Novi_Pazar_logo.png/250px-Botev_Novi_Pazar_logo.png",
+    "city_country": "Novi Pazar, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Botev_Novi_Pazar"
+  },
+  {
+    "club_name": "FC Chernolomets Popovo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/b/b6/FC_Chernolomets_04_logo.png",
+    "city_country": "Popovo, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Chernolomets_Popovo"
+  },
+  {
+    "club_name": "FC Chernomorets Balchik",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Balchik_logo.png/250px-Balchik_logo.png",
+    "city_country": "Balchik, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Chernomorets_Balchik"
+  },
+  {
+    "club_name": "FC Dorostol Silistra",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Dorostol_logo.png/250px-Dorostol_logo.png",
+    "city_country": "Silistra, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dorostol_Silistra"
+  },
+  {
+    "club_name": "FC Olympic Varna",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/FC_Olympic_Varna.png/250px-FC_Olympic_Varna.png",
+    "city_country": "Varna, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Olympic_Varna"
+  },
+  {
+    "club_name": "FC Riltsi Dobrich",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/%D0%A0%D0%B8%D0%BB%D1%86%D0%B8.png/250px-%D0%A0%D0%B8%D0%BB%D1%86%D0%B8.png",
+    "city_country": "Dobrich, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Riltsi_Dobrich"
+  },
+  {
+    "club_name": "FC Septemvri Tervel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/FC_Septemvri_Tervel_logo.png/250px-FC_Septemvri_Tervel_logo.png",
+    "city_country": "Tervel, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Septemvri_Tervel"
+  },
+  {
+    "club_name": "PFK Svetkavitsa 1922",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/FC_Svetkavitsa_Targovishte.png/250px-FC_Svetkavitsa_Targovishte.png",
+    "city_country": "Targovishte, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/PFK_Svetkavitsa_1922"
+  },
+  {
+    "club_name": "FC Volov Shumen 2007",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Volov_Shumen_2007.png/250px-Volov_Shumen_2007.png",
+    "city_country": "Shumen, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Volov_Shumen"
+  },
+  {
+    "club_name": "FC Shumen (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/8a/FC_Shumen_1929.png",
+    "city_country": "Shumen, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Shumen_1929"
+  },
+  {
+    "club_name": "FC Ustrem Donchevo",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/big/87013.png?lm=1611820253",
+    "city_country": "Donchevo, Bulgaria",
+    "wiki_url": "https://fcustrem.com/"
   }
 ]
