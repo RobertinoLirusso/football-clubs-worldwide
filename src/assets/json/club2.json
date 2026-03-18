@@ -1,230 +1,392 @@
 [
   {
-    "club_name": "Kuressaare U21",
+    "club_name": "Asenovets",
     "club_logo": "",
-    "city_country": "Kuressaare, Estonia",
+    "city_country": "Asenovgrad, Bulgaria",
     "wiki_url": ""
   },
   {
-    "club_name": "Legion",
+    "club_name": "Atletik Kuklen",
     "club_logo": "",
-    "city_country": "Tallinn, Estonia",
+    "city_country": "Kuklen, Bulgaria",
     "wiki_url": ""
   },
   {
-    "club_name": "Läänemaa",
+    "club_name": "Dimitrovgrad",
     "club_logo": "",
-    "city_country": "Haapsalu, Estonia",
+    "city_country": "Dimitrovgrad, Bulgaria",
     "wiki_url": ""
   },
   {
-    "club_name": "Maardu Linnameeskond",
+    "club_name": "Gigant Saedinenie",
     "club_logo": "",
-    "city_country": "Maardu, Estonia",
+    "city_country": "Saedinenie, Bulgaria",
     "wiki_url": ""
   },
   {
-    "club_name": "Narva Trans U21",
+    "club_name": "Haskovo",
     "club_logo": "",
-    "city_country": "Narva, Estonia",
+    "city_country": "Haskovo, Bulgaria",
     "wiki_url": ""
   },
   {
-    "club_name": "Nõmme United U21",
+    "club_name": "Levski Karlovo",
     "club_logo": "",
-    "city_country": "Tallinn, Estonia",
+    "city_country": "Karlovo, Bulgaria",
     "wiki_url": ""
   },
   {
-    "club_name": "Paide Linnameeskond U21",
+    "club_name": "Lokomotiv Plovdiv II",
     "club_logo": "",
-    "city_country": "Paide, Estonia",
+    "city_country": "Plovdiv, Bulgaria",
     "wiki_url": ""
   },
   {
-    "club_name": "Phoenix",
+    "club_name": "Maritsa Milevo",
     "club_logo": "",
-    "city_country": "Jõhvi, Estonia",
+    "city_country": "Milevo, Bulgaria",
     "wiki_url": ""
   },
   {
-    "club_name": "Tabasalu",
+    "club_name": "Neftochimic Burgas",
     "club_logo": "",
-    "city_country": "Tabasalu, Estonia",
+    "city_country": "Burgas, Bulgaria",
     "wiki_url": ""
   },
   {
-    "club_name": "Tartu Kalev",
+    "club_name": "Nesebar",
     "club_logo": "",
-    "city_country": "Ülenurme, Estonia",
+    "city_country": "Nesebar, Bulgaria",
     "wiki_url": ""
   },
   {
-    "club_name": "Atlantis FC",
+    "club_name": "Rakovski",
     "club_logo": "",
-    "city_country": "Helsinki, Finland",
+    "city_country": "Rakovski, Bulgaria",
     "wiki_url": ""
   },
   {
-    "club_name": "EPS",
+    "club_name": "Rodopa Smolyan",
+    "club_logo": "",
+    "city_country": "Smolyan, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Rozova Dolina",
+    "club_logo": "",
+    "city_country": "Kazanlak, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sekirovo",
+    "club_logo": "",
+    "city_country": "Rakovski, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sozopol",
+    "club_logo": "",
+    "city_country": "Sozopol, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Spartak Plovdiv",
+    "club_logo": "",
+    "city_country": "Plovdiv, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Yambol 1915",
+    "club_logo": "",
+    "city_country": "Yambol, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Zagorets",
+    "club_logo": "",
+    "city_country": "Nova Zagora, Bulgaria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "GrIFK",
+    "club_logo": "",
+    "city_country": "Kauniainen, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "HaPK Edustus",
+    "club_logo": "",
+    "city_country": "Hamina, Finland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Honka",
     "club_logo": "",
     "city_country": "Espoo, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "FC Inter Turku II",
-    "club_logo": "",
-    "city_country": "Turku, Finland",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "FC Jazz",
-    "club_logo": "",
-    "city_country": "Pori, Finland",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "JJK Jyväskylä",
+    "club_name": "JPS",
     "club_logo": "",
     "city_country": "Jyväskylä, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "KPV",
+    "club_name": "MyPa",
     "club_logo": "",
-    "city_country": "Kokkola, Finland",
+    "city_country": "Kouvola, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "KuPS II",
+    "club_name": "PEPO",
     "club_logo": "",
-    "city_country": "Kuopio, Finland",
+    "city_country": "Lappeenranta, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "MP",
+    "club_name": "PuiU",
     "club_logo": "",
-    "city_country": "Mikkeli, Finland",
+    "city_country": "Helsinki, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "AC Oulu/OLS",
+    "club_name": "Reipas",
     "club_logo": "",
-    "city_country": "Oulu, Finland",
+    "city_country": "Lahti, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "PK Keski-Uusimaa",
+    "club_name": "Vaajakoski",
     "club_logo": "",
-    "city_country": "Tuusula, Kerava, Järvenpää, Finland",
+    "city_country": "Vaajakoski, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "RoPS",
+    "club_name": "VJS",
     "club_logo": "",
-    "city_country": "Rovaniemi, Finland",
+    "city_country": "Vantaa, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Tampere United",
+    "club_name": "Alcorcón B",
     "club_logo": "",
-    "city_country": "Tampere, Finland",
+    "city_country": "Alcorcón, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "Achyronas-Onisilos",
+    "club_name": "Atlético Madrid C",
     "club_logo": "",
-    "city_country": "Sotira, Cyprus",
+    "city_country": "Majadahonda, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "AEZ Zakakiou",
+    "club_name": "Carabanchel",
     "club_logo": "",
-    "city_country": "Limassol, Cyprus",
+    "city_country": "Madrid, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "APEA Akrotiri",
+    "club_name": "Galapagar",
     "club_logo": "",
-    "city_country": "Akrotiri, Cyprus",
+    "city_country": "Galapagar, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "ASIL",
+    "club_name": "Las Rozas",
     "club_logo": "",
-    "city_country": "Larnaca, Cyprus",
+    "city_country": "Las Rozas, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "Ayia Napa",
+    "club_name": "Leganés B",
     "club_logo": "",
-    "city_country": "Ayia Napa, Cyprus",
+    "city_country": "Leganés, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "Chalkanoras Idaliou",
+    "club_name": "México FC",
     "club_logo": "",
-    "city_country": "Dali, Nicosia, Cyprus",
+    "city_country": "Paracuellos de Jarama, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "Digenis Akritas Morphou",
+    "club_name": "Móstoles URJC",
     "club_logo": "",
-    "city_country": "Nicosia, Cyprus",
+    "city_country": "Móstoles, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "Doxa Katokopias",
+    "club_name": "Parla",
     "club_logo": "",
-    "city_country": "Katokopia, Cyprus",
+    "city_country": "Parla, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "Ethnikos Latsion",
+    "club_name": "Pozuelo de Alarcón",
     "club_logo": "",
-    "city_country": "Latsia, Nicosia, Cyprus",
+    "city_country": "Pozuelo de Alarcón, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "Iraklis Gerolakkou",
+    "club_name": "Racing Madrid",
     "club_logo": "",
-    "city_country": "Kato Deftera, Nicosia, Cyprus",
+    "city_country": "Madrid, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "Karmiotissa",
+    "club_name": "San Sebastián de los Reyes B",
     "club_logo": "",
-    "city_country": "Limassol, Cyprus",
+    "city_country": "San Sebastián de los Reyes, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "MEAP Nisou",
+    "club_name": "Siello",
     "club_logo": "",
-    "city_country": "Nisou, Nicosia, Cyprus",
+    "city_country": "Madrid, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "Nea Salamis Famagusta",
+    "club_name": "Torrejón",
     "club_logo": "",
-    "city_country": "Larnaca, Cyprus",
+    "city_country": "Torrejón de Ardoz, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "Omonia 29M",
+    "club_name": "Tres Cantos",
     "club_logo": "",
-    "city_country": "Nicosia, Cyprus",
+    "city_country": "Tres Cantos, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "PAEEK",
+    "club_name": "Trival Valderas",
     "club_logo": "",
-    "city_country": "Lakatamia, Nicosia, Cyprus",
+    "city_country": "Alcorcón, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "Spartakos Kitiou",
+    "club_name": "Unión Adarve",
     "club_logo": "",
-    "city_country": "Kiti, Cyprus",
+    "city_country": "Madrid, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Villaverde San Andrés",
+    "club_logo": "",
+    "city_country": "Madrid, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Alhaurino",
+    "club_logo": "",
+    "city_country": "Alhaurín El Grande, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Arenas",
+    "club_logo": "",
+    "city_country": "Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Armilla",
+    "club_logo": "",
+    "city_country": "Armilla, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Atlético Mancha Real",
+    "club_logo": "",
+    "city_country": "Mancha Real, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Atlético Porcuna",
+    "club_logo": "",
+    "city_country": "Porcuna, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Churriana",
+    "club_logo": "",
+    "city_country": "Churriana de la Vega, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ciudad de Torredonjimeno",
+    "club_logo": "",
+    "city_country": "Torredonjimeno, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "El Palo",
+    "club_logo": "",
+    "city_country": "Málaga, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Huétor Tájar",
+    "club_logo": "",
+    "city_country": "Huétor-Tájar, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Huétor Vega",
+    "club_logo": "",
+    "city_country": "Huétor Vega, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Marbellí",
+    "club_logo": "",
+    "city_country": "Marbella, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Martos",
+    "club_logo": "",
+    "city_country": "Martos, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Melilla B",
+    "club_logo": "",
+    "city_country": "Melilla, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Mijas-Las Lagunas",
+    "club_logo": "",
+    "city_country": "Las Lagunas, Mijas, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Motril",
+    "club_logo": "",
+    "city_country": "Motril, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Recreativo Granada",
+    "club_logo": "",
+    "city_country": "Granada, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "San Pedro",
+    "club_logo": "",
+    "city_country": "San Pedro de Alcántara, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Torre del Mar",
+    "club_logo": "",
+    "city_country": "Torre del Mar, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Torreperogil",
+    "club_logo": "",
+    "city_country": "Torreperogil, Spain",
     "wiki_url": ""
   }
 ]

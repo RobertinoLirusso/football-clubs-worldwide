@@ -30306,5 +30306,155 @@
     "club_logo": "https://tmssl.akamaized.net//images/wappen/big/87013.png?lm=1611820253",
     "city_country": "Donchevo, Bulgaria",
     "wiki_url": "https://fcustrem.com/"
+  },
+    {
+    "club_name": "Atlantis FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Atlantis_FC_logo.svg/250px-Atlantis_FC_logo.svg.png",
+    "city_country": "Helsinki, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atlantis_FC"
+  },
+  {
+    "club_name": "Espoon Palloseura",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Espoon_Palloseura_logo.png/250px-Espoon_Palloseura_logo.png",
+    "city_country": "Espoo, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Espoon_Palloseura"
+  },
+  {
+    "club_name": "FC Jazz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/FC_Jazz_logo.png/250px-FC_Jazz_logo.png",
+    "city_country": "Pori, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Jazz"
+  },
+  {
+    "club_name": "JJK Jyväskylä",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/FC_JJK.svg/250px-FC_JJK.svg.png",
+    "city_country": "Jyväskylä, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/JJK_Jyv%C3%A4skyl%C3%A4"
+  },
+  {
+    "club_name": "KPV Kokkola",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Kokkolan_Palloveikot_logo.svg/250px-Kokkolan_Palloveikot_logo.svg.png",
+    "city_country": "Kokkola, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kokkolan_Palloveikot"
+  },
+  {
+    "club_name": "Mikkelin Palloilijat",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Mikkelin_Palloilijat_logo.png/250px-Mikkelin_Palloilijat_logo.png",
+    "city_country": "Mikkeli, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mikkelin_Palloilijat"
+  },
+  {
+    "club_name": "Oulun Luistinseura",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Oulun_Luistinseura.png/250px-Oulun_Luistinseura.png",
+    "city_country": "Oulu, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Oulun_Luistinseura"
+  },
+  {
+    "club_name": "PK Keski-Uusimaa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/77/Pallokerho_Keski-Uusimaa.png",
+    "city_country": "Tuusula & Kerava & Järvenpää, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pallokerho_Keski-Uusimaa"
+  },
+  {
+    "club_name": "Rovaniemen Palloseura",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Rovaniemen_Palloseura_logo.svg/250px-Rovaniemen_Palloseura_logo.svg.png",
+    "city_country": "Rovaniemi, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rovaniemen_Palloseura"
+  },
+  {
+    "club_name": "Achyronas-Onisilos FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ed/Achyronas-Onisilos_logo.png",
+    "city_country": "Sotira & Liopetri, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Achyronas-Onisilos_FC"
+  },
+  {
+    "club_name": "AEZ Zakakiou",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/el/thumb/0/0d/%CE%91%CE%B8%CE%BB%CE%B7%CF%84%CE%B9%CE%BA%CE%AE_%CE%88%CE%BD%CF%89%CF%83%CE%B7_%CE%96%CE%B1%CE%BA%CE%B1%CE%BA%CE%AF%CE%BF%CF%85.svg/250px-%CE%91%CE%B8%CE%BB%CE%B7%CF%84%CE%B9%CE%BA%CE%AE_%CE%88%CE%BD%CF%89%CF%83%CE%B7_%CE%96%CE%B1%CE%BA%CE%B1%CE%BA%CE%AF%CE%BF%CF%85.svg.png",
+    "city_country": "Zakaki, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/AEZ_Zakakiou"
+  },
+  {
+    "club_name": "APEA Akrotiri",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/el/thumb/2/29/Apea_new-removebg-preview.png/250px-Apea_new-removebg-preview.png",
+    "city_country": "Akrotiri, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/APEA_Akrotiri"
+  },
+  {
+    "club_name": "ASIL Lysi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d1/ASIL_Lysi.png",
+    "city_country": "Lysi, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASIL_Lysi"
+  },
+  {
+    "club_name": "Athlitikos Omilos Ayia Napa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/el/thumb/7/78/%CE%91.%CE%9F._%CE%91%CE%B3%CE%AF%CE%B1_%CE%9D%CE%AC%CF%80%CE%B1.svg/250px-%CE%91.%CE%9F._%CE%91%CE%B3%CE%AF%CE%B1_%CE%9D%CE%AC%CF%80%CE%B1.svg.png",
+    "city_country": "Ayia Napa, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ayia_Napa_FC"
+  },
+  {
+    "club_name": "Chalkanoras Idaliou",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/el/thumb/6/69/Chalkanoras_Idaliou.png/250px-Chalkanoras_Idaliou.png",
+    "city_country": "Dali, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chalkanoras_Idaliou"
+  },
+  {
+    "club_name": "Digenis Akritas Morphou FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/el/2/2f/DigenisAkritasMorphouLogo.png",
+    "city_country": "Morphou, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Digenis_Akritas_Morphou_FC"
+  },
+  {
+    "club_name": "Doxa Katokopias FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/el/f/f7/Doxa_Katokopia.png",
+    "city_country": "Katokopia, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Doxa_Katokopias_FC"
+  },
+  {
+    "club_name": "Ethnikos Latsion FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/EthnikosLatsionFC.png/250px-EthnikosLatsionFC.png",
+    "city_country": "Latsia, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ethnikos_Latsion_FC"
+  },
+  {
+    "club_name": "Iraklis Gerolakkou",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/IraklisGerolakouFC.jpg/250px-IraklisGerolakouFC.jpg",
+    "city_country": "Gerolakkos, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Iraklis_Gerolakkou"
+  },
+  {
+    "club_name": "Karmiotissa FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/el/thumb/2/2b/%CE%9A%CE%B1%CF%81%CE%BC%CE%B9%CF%8E%CF%84%CE%B9%CF%83%CF%83%CE%B1_%CE%A0%CE%AC%CE%BD%CF%89_%CE%A0%CE%BF%CE%BB%CE%B5%CE%BC%CE%B9%CE%B4%CE%B9%CF%8E%CE%BD_%28logo%29.svg/250px-%CE%9A%CE%B1%CF%81%CE%BC%CE%B9%CF%8E%CF%84%CE%B9%CF%83%CF%83%CE%B1_%CE%A0%CE%AC%CE%BD%CF%89_%CE%A0%CE%BF%CE%BB%CE%B5%CE%BC%CE%B9%CE%B4%CE%B9%CF%8E%CE%BD_%28logo%29.svg.png",
+    "city_country": "Pano Polemidia, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Karmiotissa_FC"
+  },
+  {
+    "club_name": "MEAP Nisou",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/MEAP_Nisou.png/250px-MEAP_Nisou.png",
+    "city_country": "Nisou, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/MEAP_Nisou"
+  },
+  {
+    "club_name": "Nea Salamis Famagusta FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Nea_Salamis_Famagusta_%28Nea_Salamina%29_Football_Club_logo_vector.svg/250px-Nea_Salamis_Famagusta_%28Nea_Salamina%29_Football_Club_logo_vector.svg.png",
+    "city_country": "Famagusta, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nea_Salamis_Famagusta_FC"
+  },
+  {
+    "club_name": "PAC Omonia 29M",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/PAC_Omonia_29M_logo.png/250px-PAC_Omonia_29M_logo.png",
+    "city_country": "Nicosia, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/PAC_Omonia_29M"
+  },
+  {
+    "club_name": "PAEEK Kyrenia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/PAEEKyreniaSC.png/250px-PAEEKyreniaSC.png",
+    "city_country": "Kyrenia, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/PAEEK_Kyrenia"
+  },
+  {
+    "club_name": "Spartakos Kitiou",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/SpartakosKitiouFC.png/250px-SpartakosKitiouFC.png",
+    "city_country": "Kiti, Cyprus",
+    "wiki_url": "https://en.wikipedia.org/wiki/Spartakos_Kitiou"
   }
 ]
