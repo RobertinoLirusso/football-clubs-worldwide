@@ -8,13 +8,11 @@
 
   <div class="search-box">
     <i class="fa fa-search search-icon"></i>
-    <input type="text" class="w3-input search-input" 
+    <input type="text" class="w3-input search-input"
            placeholder="Search by club or city" [(ngModel)]="searchTerm">
     <i *ngIf="searchTerm" class="w3-center fa fa-times clear-icon" (click)="clearSearch()"></i>
   </div>
 </div>
-
-
 
 <div class="action-container w3-margin">
 
@@ -22,8 +20,8 @@
     <i class="fa fa-filter w3-margin-right"></i> Filter
   </button>
 
-  <button *ngIf="selectedCountry" 
-          class="clear-btn action-btn" 
+  <button *ngIf="selectedCountry"
+          class="clear-btn action-btn"
           (click)="clearCountryFilter()">
     <i class="fa fa-times w3-margin-right"></i> Clear
   </button>
@@ -50,22 +48,18 @@
     <header class="w3-container w3-center w3-black title-game">
       <span (click)="closeCountryModal()" class="w3-button w3-display-topright w3-black title-game">
         <i class="fa fa-times"></i>
-      </span>  
+      </span>
       <h5>Select a Country</h5>
     </header>
 
     <div class="w3-container w3-padding">
       <div class="w3-display-container">
-
-        <!-- Input -->
         <input
           type="text"
           class="w3-input w3-margin-bottom"
           placeholder="Search country..."
           [(ngModel)]="countrySearch"
         />
-
-        <!-- Icono Clear -->
         <span
           *ngIf="countrySearch"
           (click)="clearCountryFilterModal()"
@@ -73,15 +67,14 @@
         >
           <i class="fa fa-times"></i>
         </span>
-
       </div>
-      
+
       <ul class="w3-ul w3-hoverable" style="max-height:300px; overflow-y:auto;">
-        <li *ngFor="let country of filteredCountries()" 
+        <li *ngFor="let country of filteredCountries()"
             (click)="selectCountry(country)"
             [ngClass]="{'w3-light-grey': selectedCountry === country}"
             class="w3-padding w3-hover-light-grey">
-            <span class="w3-margin-right fi" [ngClass]="'fi-' + getCountryCode(country)"></span>
+          <span class="w3-margin-right fi" [ngClass]="'fi-' + getCountryCode(country)"></span>
           {{ country }}
         </li>
       </ul>
@@ -89,17 +82,29 @@
   </div>
 </div>
 
+<!-- Grid de Cards -->
 <div class="responsive-grid w3-padding-16">
   <div
     class="w3-card-2 w3-hover-shadow card"
     *ngFor="let club of filteredClubs; let i = index; trackBy: trackByClub"
+    draggable="true"
     (click)="openModal(i)"
+    (dragstart)="onDragStart($event, i)"
+    (dragover)="onDragOver($event, i)"
+    (dragleave)="onDragLeave($event)"
+    (drop)="onDrop($event, i)"
+    (dragend)="onDragEnd($event)"
+    [ngClass]="{
+      'drag-over': dragOverIndex === i,
+      'is-dragging': draggedIndex === i
+    }"
   >
     <img
       [src]="club.club_logo"
       [alt]="club.club_name"
       class="w3-image img w3-hover-opacity-off"
       loading="lazy"
+      draggable="false"
     />
     <span class="zoom-icon" (click)="openImageModal(club, $event)">
       <i class="fa fa-search-plus"></i>
@@ -110,9 +115,10 @@
   </div>
 </div>
 
+<!-- Modal Zoom Imagen -->
 <div *ngIf="selectedImage" class="w3-modal" style="display:block;">
   <div class="w3-modal-content w3-animate-zoom" style="max-width:500px; margin:auto; text-align:center;">
-    
+
     <lib-ngx-image-zoom
       [thumbImage]="selectedImage"
       [fullImage]="selectedImage"
@@ -130,7 +136,7 @@
         <i class="fa fa-times"></i>
       </button>
     </div>
-    
+
   </div>
 </div>
 
@@ -147,7 +153,7 @@
     <header class="w3-container w3-center">
       <span (click)="closeModal()" class="w3-button w3-display-topright w3-black title-game">
         <i class="fa fa-times"></i>
-      </span>  
+      </span>
     </header>
 
     <div class="w3-center w3-margin-top">
@@ -184,11 +190,12 @@
   </div>
 </div>
 
-<button 
-  class="back-to-top" 
+<!-- Back to Top -->
+<button
+  class="back-to-top"
   [ngClass]="{'fade-out': isFadingOut}"
-  *ngIf="showBackToTop || isFadingOut" 
-  (click)="scrollToTop()" 
+  *ngIf="showBackToTop || isFadingOut"
+  (click)="scrollToTop()"
   title="Back to Top">
   <i class="fa fa-arrow-up"></i>
 </button>

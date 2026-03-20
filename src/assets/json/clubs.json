@@ -13147,7 +13147,7 @@
     },
     {
       "club_name": "FC Rosengård 1917",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/FC_Roseng%C3%A5rd_logo.svg/250px-FC_Roseng%C3%A5rd_logo.svg.png",
+      "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgIvuidAYWxMu1I8GWQVshs8UEDUGBIQI-TT_zA31plb1ny2dWFlCfNUjtJMnuYzAL21yxr0UrqGndrWsKHePVPmFnsP_NByyvhpPHww7qHYQ70PaqKTPB0eQK1cetCY1tseM3b9o60PLCMpgUDtW9A36cI_iPJsWQZUbGPIVWcdC8dIHmNXI_y0AO7X84=w179-h200",
       "city_country": "Malmö, Sweden",
       "wiki_url": "https://en.wikipedia.org/wiki/FC_Roseng%C3%A5rd_1917"
     },
@@ -30456,5 +30456,215 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/SpartakosKitiouFC.png/250px-SpartakosKitiouFC.png",
     "city_country": "Kiti, Cyprus",
     "wiki_url": "https://en.wikipedia.org/wiki/Spartakos_Kitiou"
+  },
+  {
+    "club_name": "Asenovets Asenovgrad",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Asenovets_logo.png/250px-Asenovets_logo.png",
+    "city_country": "Asenovgrad, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Asenovets_Asenovgrad"
+  },
+  {
+    "club_name": "Atletik Kuklen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/FC_Atletik_Kuklen_Emblem.png/250px-FC_Atletik_Kuklen_Emblem.png",
+    "city_country": "Kuklen, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Atletik_Kuklen"
+  },
+  {
+    "club_name": "FC Dimitrovgrad 1947",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/af/F.C._Dimitrovgrad_logo.png",
+    "city_country": "Dimitrovgrad, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Dimitrovgrad"
+  },
+  {
+    "club_name": "OFC Gigant Saedinenie",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/OFC_Gigant_Saedinenie.png/250px-OFC_Gigant_Saedinenie.png",
+    "city_country": "Saedinenie, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/OFC_Gigant_Saedinenie"
+  },
+  {
+    "club_name": "OFC Haskovo",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/85721.png?lm=1754589204",
+    "city_country": "Haskovo, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/OFC_Haskovo"
+  },
+  {
+    "club_name": "Levski Karlovo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/FC_Levski_Karlovo_Emblem.png/250px-FC_Levski_Karlovo_Emblem.png",
+    "city_country": "Karlovo, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Levski_Karlovo"
+  },
+  {
+    "club_name": "FC Maritsa Milevo",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/118672.png?lm=1713416324",
+    "city_country": "Milevo, Bulgaria",
+    "wiki_url": "https://fcmaricamilevo.com/"
+  },
+  {
+    "club_name": "PFC Neftochimic Burgas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Neftochimic_Burgas_1962_logo.png/250px-Neftochimic_Burgas_1962_logo.png",
+    "city_country": "Burgas, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/PFC_Neftochimic_Burgas"
+  },
+  {
+    "club_name": "OFC Nesebar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Nesebar_logo.png/250px-Nesebar_logo.png",
+    "city_country": "Nesebar, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/OFC_Nesebar"
+  },
+  {
+    "club_name": "FC Rakovski",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Fc_rakovski_logo.png/250px-Fc_rakovski_logo.png",
+    "city_country": "Rakovski, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Rakovski"
+  },
+  {
+    "club_name": "FC Rodopa Smolyan",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Rodopa-logo.png/250px-Rodopa-logo.png",
+    "city_country": "Smolyan, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Rodopa_Smolyan"
+  },
+  {
+    "club_name": "FC Rozova Dolina Kazanlak",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fe/Rozova_dolina_logo.png",
+    "city_country": "Kazanlak, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Rozova_Dolina_Kazanlak"
+  },
+  {
+    "club_name": "FC Sekirovo",
+    "club_logo": "https://fcsekirovo.com/wp-content/uploads/elementor/thumbs/fk-sekirovo-logo-qbtayz8mkr2cryotg3d2njlpy22mw6nym6ti2pveis.png",
+    "city_country": "Rakovski, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Sekirovo"
+  },
+  {
+    "club_name": "FC Sozopol",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/FCSozopol_logo.png/250px-FCSozopol_logo.png",
+    "city_country": "Sozopol, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Sozopol"
+  },
+  {
+    "club_name": "PFC Spartak Plovdiv",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Spartak_Plovdiv_logo.png/250px-Spartak_Plovdiv_logo.png",
+    "city_country": "Plovdiv, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/PFC_Spartak_Plovdiv"
+  },
+  {
+    "club_name": "FC Yambol 1915",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/big/40443.png?lm=1611819475",
+    "city_country": "Yambol, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Yambol"
+  },
+  {
+    "club_name": "FC Zagorets Nova Zagora",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Ofc_zagorets_logo.png/250px-Ofc_zagorets_logo.png",
+    "city_country": "Nova Zagora, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Zagorets_Nova_Zagora"
+  },
+  {
+    "club_name": "CD Alhaurino",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/CD_Alhaurino.png/250px-CD_Alhaurino.png",
+    "city_country": "Alhaurín El Grande, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Alhaurino"
+  },
+  {
+    "club_name": "CF Arenas de Armilla CD",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Arenas_CD.png/250px-Arenas_CD.png",
+    "city_country": "Armilla, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Arenas_CD"
+  },
+  {
+    "club_name": "Atlético Mancha Real",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Atl%C3%A9tico_Mancha_Real.png/250px-Atl%C3%A9tico_Mancha_Real.png",
+    "city_country": "Mancha Real, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Mancha_Real"
+  },
+  {
+    "club_name": "Atlético Porcuna CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Atl%C3%A9tico_Porcuna_CF_logo.png/250px-Atl%C3%A9tico_Porcuna_CF_logo.png",
+    "city_country": "Porcuna, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Porcuna_CF"
+  },
+  {
+    "club_name": "Churriana de la Vega CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4f/Churriana_de_la_Vega_CF.png",
+    "city_country": "Churriana de la Vega, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Churriana_de_la_Vega_CF"
+  },
+  {
+    "club_name": "UD Ciudad de Torredonjimeno",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/UD_Ciudad_de_Torredonjimeno_logo.png/250px-UD_Ciudad_de_Torredonjimeno_logo.png",
+    "city_country": "Torredonjimeno, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Ciudad_de_Torredonjimeno"
+  },
+  {
+    "club_name": "El Palo FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/El_Palo_FC_logo.png/250px-El_Palo_FC_logo.png",
+    "city_country": "Málaga, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/El_Palo_FC"
+  },
+  {
+    "club_name": "FC Málaga City",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/FC_M%C3%A1laga_City.png/250px-FC_M%C3%A1laga_City.png",
+    "city_country": "Vélez-Málaga, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_M%C3%A1laga_City"
+  },
+  {
+    "club_name": "CD Huétor Tájar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/CD_Hu%C3%A9tor_T%C3%A1jar_logo.png/250px-CD_Hu%C3%A9tor_T%C3%A1jar_logo.png",
+    "city_country": "Huétor-Tájar, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Hu%C3%A9tor_T%C3%A1jar"
+  },
+  {
+    "club_name": "CD Huétor Vega",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/CD_Hu%C3%A9tor_Vega_logo.png/250px-CD_Hu%C3%A9tor_Vega_logo.png",
+    "city_country": "Huétor Vega, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Hu%C3%A9tor_Vega"
+  },
+  {
+    "club_name": "FC Marbellí",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/FC_Marbell%C3%AD.png/250px-FC_Marbell%C3%AD.png",
+    "city_country": "Marbella, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Marbell%C3%AD"
+  },
+  {
+    "club_name": "Vélez CF (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/V%C3%A9lez_C.F..png/250px-V%C3%A9lez_C.F..png",
+    "city_country": "Vélez-Málaga, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/V%C3%A9lez_CF"
+  },
+  {
+    "club_name": "Martos CD",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Martos_CD_logo.png/250px-Martos_CD_logo.png",
+    "city_country": "Martos, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Martos_CD"
+  },
+  {
+    "club_name": "CP Mijas-Las Lagunas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b2/CP_Mijas-Las_Lagunas.png",
+    "city_country": "Las Lagunas & Mijas, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CP_Mijas-Las_Lagunas"
+  },
+  {
+    "club_name": "CF Motril",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/CF_Motril_logo.png/250px-CF_Motril_logo.png",
+    "city_country": "Motril, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CF_Motril"
+  },
+  {
+    "club_name": "UD San Pedro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/San_Pedro_logo.png/250px-San_Pedro_logo.png",
+    "city_country": "San Pedro de Alcántara, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_San_Pedro"
+  },
+  {
+    "club_name": "UD Torre del Mar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/UD_Torre_del_Mar_logo.png/250px-UD_Torre_del_Mar_logo.png",
+    "city_country": "Torre del Mar, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Torre_del_Mar"
+  },
+  {
+    "club_name": "CD Torreperogil",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/CD_Torreperogil_logo.png/250px-CD_Torreperogil_logo.png",
+    "city_country": "Torreperogil, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Torreperogil"
   }
 ]

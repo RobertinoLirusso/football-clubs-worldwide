@@ -24,11 +24,13 @@ export class CardComponent implements OnInit {
   countries: string[] = [];
   sortOption: string = 'default';
   selectedImage: any = null;
-  matches: any[] = [];  
+  matches: any[] = [];
   loadingMatches = true;
   isMatchesModalOpen: boolean = false;
 
-
+  // Drag & Drop
+  draggedIndex: number | null = null;
+  dragOverIndex: number | null = null;
 
   highlightedClubs: string[] = [
     'Real Madrid',
@@ -57,10 +59,7 @@ export class CardComponent implements OnInit {
     'Bayer 04 Leverkusen',
   ];
 
-
-  constructor(
-  private clubService: ClubService,
-  ) {}
+  constructor(private clubService: ClubService) {}
 
   ngOnInit(): void {
     this.getClubs();
@@ -99,9 +98,8 @@ export class CardComponent implements OnInit {
   }
 
   trackByClub(index: number, club: any): string {
-  return club.club_name; 
-}
-
+    return club.club_name;
+  }
 
   animateCounter(): void {
     const duration = 1500;
@@ -149,21 +147,21 @@ export class CardComponent implements OnInit {
     this.isCountryModalOpen = false;
   }
 
-selectCountry(country: string): void {
-  this.selectedCountry = country;
-  this.isCountryModalOpen = false;
-  this.visibleClubs = 100; // reset
-}
+  selectCountry(country: string): void {
+    this.selectedCountry = country;
+    this.isCountryModalOpen = false;
+    this.visibleClubs = 100;
+  }
 
-clearCountryFilterModal(): void {
+  clearCountryFilterModal(): void {
     this.countrySearch = '';
-}
+  }
 
-clearCountryFilter(): void {
-  this.selectedCountry = '';
-  this.isCountryModalOpen = false;
-  this.visibleClubs = 100; // reset
-}
+  clearCountryFilter(): void {
+    this.selectedCountry = '';
+    this.isCountryModalOpen = false;
+    this.visibleClubs = 100;
+  }
 
   filteredCountries(): string[] {
     if (!this.countrySearch) return this.countries;
@@ -172,70 +170,63 @@ clearCountryFilter(): void {
     );
   }
 
-get filteredClubs(): any[] {
-  let filtered = this.clubs;
+  get filteredClubs(): any[] {
+    let filtered = this.clubs;
 
-  // Filtrar por país seleccionado
-  if (this.selectedCountry) {
-    filtered = filtered.filter(club => {
-      const parts = club.city_country.split(',');
-      const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
-      return country === this.selectedCountry.toLowerCase();
-    });
-  }
+    if (this.selectedCountry) {
+      filtered = filtered.filter(club => {
+        const parts = club.city_country.split(',');
+        const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
+        return country === this.selectedCountry.toLowerCase();
+      });
+    }
 
-  // Filtrar por club_name o ciudad
-  if (this.searchTerm) {
-    const searchTermLower = this.searchTerm.toLowerCase();
-    filtered = filtered.filter(club => {
-      const parts = club.city_country.split(',');
-      const city = parts[0].trim().toLowerCase(); // solo ciudad
-
-      return (
-        club.club_name.toLowerCase().includes(searchTermLower) ||
-        city.includes(searchTermLower) // también busca en ciudad
+    if (this.searchTerm) {
+      const searchTermLower = this.searchTerm.toLowerCase();
+      filtered = filtered.filter(club => {
+        const parts = club.city_country.split(',');
+        const city = parts[0].trim().toLowerCase();
+        return (
+          club.club_name.toLowerCase().includes(searchTermLower) ||
+          city.includes(searchTermLower)
+        );
+      });
+    } else if (!this.selectedCountry) {
+      const highlighted = filtered.filter(club =>
+        this.highlightedClubs.includes(club.club_name)
       );
-    });
-  } else if (!this.selectedCountry) {
-    const highlighted = filtered.filter(club =>
-      this.highlightedClubs.includes(club.club_name)
-    );
-    const rest = filtered.filter(club =>
-      !this.highlightedClubs.includes(club.club_name)
-    );
-    filtered = [...highlighted, ...rest];
+      const rest = filtered.filter(club =>
+        !this.highlightedClubs.includes(club.club_name)
+      );
+      filtered = [...highlighted, ...rest];
+    }
+
+    if (this.sortOption === 'az') {
+      filtered = [...filtered].sort((a, b) =>
+        a.club_name.localeCompare(b.club_name)
+      );
+    } else if (this.sortOption === 'za') {
+      filtered = [...filtered].sort((a, b) =>
+        b.club_name.localeCompare(a.club_name)
+      );
+    } else if (this.sortOption === 'default') {
+      const highlighted = filtered.filter(club =>
+        this.highlightedClubs.includes(club.club_name)
+      );
+      const rest = filtered.filter(club =>
+        !this.highlightedClubs.includes(club.club_name)
+      );
+      filtered = [...highlighted, ...rest];
+    }
+
+    return filtered.slice(0, this.visibleClubs);
   }
 
-  // Ordenamiento
-  if (this.sortOption === 'az') {
-    filtered = [...filtered].sort((a, b) =>
-      a.club_name.localeCompare(b.club_name)
-    );
-  } else if (this.sortOption === 'za') {
-    filtered = [...filtered].sort((a, b) =>
-      b.club_name.localeCompare(a.club_name)
-    );
-  } else if (this.sortOption === 'default') {
-    const highlighted = filtered.filter(club =>
-      this.highlightedClubs.includes(club.club_name)
-    );
-    const rest = filtered.filter(club =>
-      !this.highlightedClubs.includes(club.club_name)
-    );
-    filtered = [...highlighted, ...rest];
+  clearSearch(): void {
+    this.searchTerm = '';
+    this.visibleClubs = 100;
   }
 
-  return filtered.slice(0, this.visibleClubs);
-}
-
-
-
-clearSearch(): void {
-  this.searchTerm = '';
-  this.visibleClubs = 100; // reset
-  }
-  
-  
   loadMore(): void {
     this.visibleClubs += 100;
   }
@@ -255,7 +246,7 @@ clearSearch(): void {
           return country === this.selectedCountry.toLowerCase();
         })
       : this.clubs;
-  
+
     if (pool.length > 0) {
       const randomIndex = Math.floor(Math.random() * pool.length);
       this.searchTerm = pool[randomIndex].club_name;
@@ -268,16 +259,15 @@ clearSearch(): void {
     return `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
   }
 
- get totalFilteredCount(): number {
-  return this.clubs.filter(club => {
-    const matchesCountry = !this.selectedCountry || 
-      (club.city_country.split(',')[1]?.trim().toLowerCase() === this.selectedCountry.toLowerCase());
-    const matchesName = !this.searchTerm || 
-      club.club_name.toLowerCase().includes(this.searchTerm.toLowerCase());
-    return matchesCountry && matchesName;
-  }).length;
-}
-
+  get totalFilteredCount(): number {
+    return this.clubs.filter(club => {
+      const matchesCountry = !this.selectedCountry ||
+        (club.city_country.split(',')[1]?.trim().toLowerCase() === this.selectedCountry.toLowerCase());
+      const matchesName = !this.searchTerm ||
+        club.club_name.toLowerCase().includes(this.searchTerm.toLowerCase());
+      return matchesCountry && matchesName;
+    }).length;
+  }
 
   getGoogleNewsUrl(club: any): string {
     return `https://www.google.com/search?q=${encodeURIComponent(club.club_name)}`;
@@ -287,23 +277,25 @@ clearSearch(): void {
     return this.clubs.length;
   }
 
-getCountryCode(value: string): string {
-  let country = value;
-  if (value.includes(',')) {
-    const parts = value.split(',');
-    country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
-  } else {
-    country = value.trim().toLowerCase();
-  }
+  getCountryCode(value: string): string {
+    let country = value;
+    if (value.includes(',')) {
+      const parts = value.split(',');
+      country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
+    } else {
+      country = value.trim().toLowerCase();
+    }
     return COUNTRY_FLAG_MAP[country] || 'un';
-}
-openImageModal(club: any, event: Event) {
-  event.stopPropagation(); // Evita que se active click de la card
-  this.selectedImage = club.club_logo; // O todo el club si quieres info extra
-}
-closeImageModal() {
-  this.selectedImage = null;
-}
+  }
+
+  openImageModal(club: any, event: Event) {
+    event.stopPropagation();
+    this.selectedImage = club.club_logo;
+  }
+
+  closeImageModal() {
+    this.selectedImage = null;
+  }
 
   openMatchesModal(): void {
     this.isMatchesModalOpen = true;
@@ -313,9 +305,64 @@ closeImageModal() {
     this.isMatchesModalOpen = false;
   }
 
-  
   getYouTubeUrl(club: any): string {
     return `https://www.youtube.com/results?search_query=${encodeURIComponent(club.club_name)}`;
   }
 
+  // ============================================================
+  // DRAG & DROP
+  // ============================================================
+
+  onDragStart(event: DragEvent, index: number): void {
+    this.draggedIndex = index;
+    // Pequeño delay para que Angular aplique la clase antes de que el browser
+    // tome el snapshot del elemento arrastrado
+    setTimeout(() => {
+      (event.target as HTMLElement).classList.add('is-dragging');
+    }, 0);
+  }
+
+  onDragOver(event: DragEvent, index: number): void {
+    event.preventDefault();
+    this.dragOverIndex = index;
+  }
+
+  onDragLeave(event: DragEvent): void {
+    // Solo limpiamos si realmente salimos de la card (no de un hijo)
+    const related = event.relatedTarget as HTMLElement;
+    if (!related || !(event.currentTarget as HTMLElement).contains(related)) {
+      this.dragOverIndex = null;
+    }
+  }
+
+  onDrop(event: DragEvent, dropIndex: number): void {
+    event.preventDefault();
+
+    if (this.draggedIndex === null || this.draggedIndex === dropIndex) {
+      this.draggedIndex = null;
+      this.dragOverIndex = null;
+      return;
+    }
+
+    const visibleClubs = this.filteredClubs;
+    const clubA = visibleClubs[this.draggedIndex];
+    const clubB = visibleClubs[dropIndex];
+
+    const realIndexA = this.clubs.findIndex(c => c.club_name === clubA.club_name);
+    const realIndexB = this.clubs.findIndex(c => c.club_name === clubB.club_name);
+
+    if (realIndexA !== -1 && realIndexB !== -1) {
+      [this.clubs[realIndexA], this.clubs[realIndexB]] =
+        [this.clubs[realIndexB], this.clubs[realIndexA]];
+    }
+
+    this.draggedIndex = null;
+    this.dragOverIndex = null;
+  }
+
+  onDragEnd(event: DragEvent): void {
+    (event.target as HTMLElement).classList.remove('is-dragging');
+    this.draggedIndex = null;
+    this.dragOverIndex = null;
+  }
 }

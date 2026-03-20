@@ -39,13 +39,18 @@
      CARD
      ============================================================ */
   
-  .card {
+/* ============================================================
+   CARD
+   ============================================================ */
+
+   .card {
     cursor: pointer;
     position: relative;
     overflow: hidden;
     border: 1px solid transparent;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease, opacity 0.2s ease;
     will-change: transform;
+    user-select: none; /* evita selección de texto al arrastrar */
   }
   
   .card::after {
@@ -71,6 +76,26 @@
   
   .card:hover footer p {
     transform: scale(1.1);
+  }
+  
+  /* Estado: siendo arrastrada */
+  .card.is-dragging {
+    opacity: 0.35;
+    cursor: pointer; /* flecha con manito */
+    transform: scale(0.96);
+    box-shadow: none;
+  }
+  
+  /* Estado: target del drop */
+  .card.drag-over {
+    transform: scale(1.06);
+    box-shadow: 0 0 0 3px #111, 0 6px 24px rgba(0, 0, 0, 0.3);
+    background-image:
+      linear-gradient(#ffffff, #ffffff),
+      linear-gradient(90deg, #000000 0%, #ffffff 50%, #000000 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    cursor: grabbing;
   }
   
   
