@@ -1,170 +1,752 @@
 [
   {
-    "club_name": "GrIFK",
+    "club_name": "Deportivo Luján",
     "club_logo": "",
-    "city_country": "Kauniainen, Finland",
+    "city_country": "San Salvador de Jujuy, Argentina",
     "wiki_url": ""
   },
   {
-    "club_name": "HaPK Edustus",
+    "club_name": "Club Atlético Talleres",
     "club_logo": "",
-    "city_country": "Hamina, Finland",
+    "city_country": "Perico, Argentina",
     "wiki_url": ""
   },
   {
-    "club_name": "Honka",
+    "club_name": "Club Atlético Central Norte",
     "club_logo": "",
-    "city_country": "Espoo, Finland",
+    "city_country": "San Miguel de Tucumán, Argentina",
     "wiki_url": ""
   },
   {
-    "club_name": "JPS",
+    "club_name": "Club Sportivo Alfredo Guzmán",
     "club_logo": "",
-    "city_country": "Jyväskylä, Finland",
+    "city_country": "Argentina",
     "wiki_url": ""
   },
   {
-    "club_name": "MyPa",
+    "club_name": "Club Atlético Tucumán Central",
     "club_logo": "",
-    "city_country": "Kouvola, Finland",
+    "city_country": "Argentina",
     "wiki_url": ""
   },
   {
-    "club_name": "PEPO",
+    "club_name": "Club Deportivo Mandiyú",
     "club_logo": "",
-    "city_country": "Lappeenranta, Finland",
+    "city_country": "Corrientes, Argentina",
     "wiki_url": ""
   },
   {
-    "club_name": "PuiU",
+    "club_name": "Club Deportivo Guaraní Antonio Franco",
+    "club_logo": "",
+    "city_country": "Posadas, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético Policial",
+    "club_logo": "",
+    "city_country": "San Fernando del Valle de Catamarca, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético San Lorenzo de Alem",
+    "club_logo": "",
+    "city_country": "Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Unión Aconquija",
+    "club_logo": "",
+    "city_country": "Aconquija, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético y Biblioteca Newell's Old Boys",
+    "club_logo": "",
+    "city_country": "Laguna Larga, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético Universitario",
+    "club_logo": "",
+    "city_country": "Córdoba, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Asociación Deportiva 9 de Julio",
+    "club_logo": "",
+    "city_country": "Morteros, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético Central Argentino",
+    "club_logo": "",
+    "city_country": "La Banda, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético Unión Santiago",
+    "club_logo": "",
+    "city_country": "Santiago del Estero, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Comercio Central Unidos",
+    "club_logo": "",
+    "city_country": "Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Andino Sport Club",
+    "club_logo": "",
+    "city_country": "La Rioja, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Juventud Unida",
+    "club_logo": "",
+    "city_country": "Gualeguaychú, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Defensores de Pronunciamiento",
+    "club_logo": "",
+    "city_country": "Pronunciamiento, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético Unión",
+    "club_logo": "",
+    "city_country": "Sunchales, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Deportivo Libertad",
+    "club_logo": "",
+    "city_country": "Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Huracán",
+    "club_logo": "",
+    "city_country": "San Rafael, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético Ferrocarril Oeste",
+    "club_logo": "",
+    "city_country": "General Alvear, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sport Club Pacífico",
+    "club_logo": "",
+    "city_country": "Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético Unión",
+    "club_logo": "",
+    "city_country": "Villa Krause, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Sportivo Desamparados",
+    "club_logo": "",
+    "city_country": "San Juan, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético Colón Junior",
+    "club_logo": "",
+    "city_country": "Desamparados, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético de la Juventud Alianza",
+    "club_logo": "",
+    "city_country": "Santa Lucía, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético Villa Belgrano",
+    "club_logo": "",
+    "city_country": "Junín, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Rivadavia Lincoln",
+    "club_logo": "",
+    "city_country": "Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético Sporting",
+    "club_logo": "",
+    "city_country": "Punta Alta, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético Liniers",
+    "club_logo": "",
+    "city_country": "Bahía Blanca, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Racing Athletic Club",
+    "club_logo": "",
+    "city_country": "Olavarría, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético Ferro Carril Oeste",
+    "club_logo": "",
+    "city_country": "General Pico, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Social y Deportivo Bancruz",
+    "club_logo": "",
+    "city_country": "Río Gallegos, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Asociación Atlético Boxing Club",
+    "club_logo": "",
+    "city_country": "Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Social y Deportivo Alianza",
+    "club_logo": "",
+    "city_country": "Cutral Có, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Social y Deportivo General Roca",
+    "club_logo": "",
+    "city_country": "General Roca, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Comisión de Actividades Infantiles",
+    "club_logo": "",
+    "city_country": "Comodoro Rivadavia, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Atlético Jorge Newbery",
+    "club_logo": "",
+    "city_country": "Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Atlético Pilar",
+    "club_logo": "",
+    "city_country": "Pilar, Buenos Aires Province, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Barrancas",
+    "club_logo": "",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Belgrano",
+    "club_logo": "",
+    "city_country": "Zárate, Buenos Aires Province, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Defensores de Glew",
+    "club_logo": "",
+    "city_country": "Glew, Greater Buenos Aires, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Deportivo Metalúrgico",
+    "club_logo": "",
+    "city_country": "Del Viso, Buenos Aires Province, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Estrella de Berisso",
+    "club_logo": "",
+    "city_country": "Berisso, Buenos Aires Province, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Everton",
+    "club_logo": "",
+    "city_country": "La Plata, Buenos Aires Province, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Ezeiza",
+    "club_logo": "",
+    "city_country": "Ezeiza, Greater Buenos Aires, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Juventud de Bernal",
+    "club_logo": "",
+    "city_country": "Bernal, Greater Buenos Aires, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Náutico Hacoaj",
+    "club_logo": "",
+    "city_country": "Tigre, Greater Buenos Aires, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Social Atlético Televisión",
+    "club_logo": "",
+    "city_country": "Moreno, Greater Buenos Aires, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Unión Deportivo Provincial",
+    "club_logo": "",
+    "city_country": "Empalme Lobos, Buenos Aires Province, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Atlantis 2",
     "club_logo": "",
     "city_country": "Helsinki, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Reipas",
+    "club_name": "HJS",
     "club_logo": "",
-    "city_country": "Lahti, Finland",
+    "city_country": "Hämeenlinna, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Vaajakoski",
+    "club_name": "HPS",
     "club_logo": "",
-    "city_country": "Vaajakoski, Finland",
+    "city_country": "Helsinki, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "VJS",
+    "club_name": "Ilves 2",
     "club_logo": "",
-    "city_country": "Vantaa, Finland",
+    "city_country": "Tampere, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Alcorcón B",
+    "club_name": "Kiffen",
     "club_logo": "",
-    "city_country": "Alcorcón, Spain",
+    "city_country": "Helsinki, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Atlético Madrid C",
+    "club_name": "MuSa",
     "club_logo": "",
-    "city_country": "Majadahonda, Spain",
+    "city_country": "Pori, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Carabanchel",
+    "club_name": "NJS",
     "club_logo": "",
-    "city_country": "Madrid, Spain",
+    "city_country": "Nurmijärvi, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Galapagar",
+    "club_name": "Pallo-Iirot",
     "club_logo": "",
-    "city_country": "Galapagar, Spain",
+    "city_country": "Rauma, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Las Rozas",
+    "club_name": "PPJ",
     "club_logo": "",
-    "city_country": "Las Rozas, Spain",
+    "city_country": "Helsinki, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Leganés B",
+    "club_name": "TPV",
     "club_logo": "",
-    "city_country": "Leganés, Spain",
+    "city_country": "Tampere, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "México FC",
+    "club_name": "GBK",
     "club_logo": "",
-    "city_country": "Paracuellos de Jarama, Spain",
+    "city_country": "Kokkola, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Móstoles URJC",
+    "club_name": "JBK",
     "club_logo": "",
-    "city_country": "Móstoles, Spain",
+    "city_country": "Jakobstad, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Parla",
+    "club_name": "JS Hercules",
     "club_logo": "",
-    "city_country": "Parla, Spain",
+    "city_country": "Oulu, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Pozuelo de Alarcón",
+    "club_name": "Kraft",
     "club_logo": "",
-    "city_country": "Pozuelo de Alarcón, Spain",
+    "city_country": "Närpes, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Racing Madrid",
+    "club_name": "Kuopio Elo",
     "club_logo": "",
-    "city_country": "Madrid, Spain",
+    "city_country": "Kuopio, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "San Sebastián de los Reyes B",
+    "club_name": "OsPa",
     "club_logo": "",
-    "city_country": "San Sebastián de los Reyes, Spain",
+    "city_country": "Oulu, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Siello",
+    "club_name": "SJK 2",
     "club_logo": "",
-    "city_country": "Madrid, Spain",
+    "city_country": "Seinäjoki, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Torrejón",
+    "club_name": "TP-47",
     "club_logo": "",
-    "city_country": "Torrejón de Ardoz, Spain",
+    "city_country": "Tornio, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Tres Cantos",
+    "club_name": "VIFK",
     "club_logo": "",
-    "city_country": "Tres Cantos, Spain",
+    "city_country": "Vaasa, Finland",
     "wiki_url": ""
   },
   {
-    "club_name": "Trival Valderas",
+    "club_name": "VPS 2",
     "club_logo": "",
-    "city_country": "Alcorcón, Spain",
+    "city_country": "Vaasa, Finland",
+    "wiki_url": ""
+  },
+    {
+    "club_name": "Añorga",
+    "club_logo": "",
+    "city_country": "San Sebastián, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "Unión Adarve",
+    "club_name": "Aretxabaleta",
     "club_logo": "",
-    "city_country": "Madrid, Spain",
+    "city_country": "Aretxabaleta, Spain",
     "wiki_url": ""
   },
   {
-    "club_name": "Villaverde San Andrés",
+    "club_name": "Aurrerá Vitoria",
     "club_logo": "",
-    "city_country": "Madrid, Spain",
+    "city_country": "Vitoria-Gasteiz, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Cultural Durango",
+    "club_logo": "",
+    "city_country": "Durango, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Derio",
+    "club_logo": "",
+    "city_country": "Derio, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Deusto",
+    "club_logo": "",
+    "city_country": "Bilbao, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Eibar C",
+    "club_logo": "",
+    "city_country": "Eibar, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Lagun Onak",
+    "club_logo": "",
+    "city_country": "Azpeitia, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Leioa",
+    "club_logo": "",
+    "city_country": "Leioa, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Pasaia",
+    "club_logo": "",
+    "city_country": "Pasaia, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Portugalete",
+    "club_logo": "",
+    "city_country": "Portugalete, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Real Sociedad C",
+    "club_logo": "",
+    "city_country": "San Sebastián, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "San Ignacio",
+    "club_logo": "",
+    "city_country": "Vitoria-Gasteiz, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Santurtzi",
+    "club_logo": "",
+    "city_country": "Santurtzi, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Touring",
+    "club_logo": "",
+    "city_country": "Errenteria, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Zamudio",
+    "club_logo": "",
+    "city_country": "Zamudio, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Zarautz",
+    "club_logo": "",
+    "city_country": "Zarautz, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Atlético Albericia",
+    "club_logo": "",
+    "city_country": "Santander, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Barquereño",
+    "club_logo": "",
+    "city_country": "San Vicente de la Barquera, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Bezana",
+    "club_logo": "",
+    "city_country": "Santa Cruz de Bezana, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Cartes",
+    "club_logo": "",
+    "city_country": "Cartes, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Castro",
+    "club_logo": "",
+    "city_country": "Castro Urdiales, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Cayón",
+    "club_logo": "",
+    "city_country": "Sarón, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Colindres",
+    "club_logo": "",
+    "city_country": "Colindres, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Escobedo",
+    "club_logo": "",
+    "city_country": "Escobedo, Camargo, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Gimnástica Torrelavega",
+    "club_logo": "",
+    "city_country": "Torrelavega, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Guarnizo",
+    "club_logo": "",
+    "city_country": "Guarnizo, El Astillero, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Laredo",
+    "club_logo": "",
+    "city_country": "Laredo, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Montañas del Pas",
+    "club_logo": "",
+    "city_country": "Corvera de Toranzo, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Noja",
+    "club_logo": "",
+    "city_country": "Noja, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Revilla",
+    "club_logo": "",
+    "city_country": "Revilla, Camargo, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Selaya",
+    "club_logo": "",
+    "city_country": "Selaya, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Torina",
+    "club_logo": "",
+    "city_country": "Bárcena de Pie de Concha, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tropezón",
+    "club_logo": "",
+    "city_country": "Tanos, Torrelavega, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Vimenor",
+    "club_logo": "",
+    "city_country": "Vioño de Piélagos, Piélagos, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Atlético Pueblonuevo",
+    "club_logo": "",
+    "city_country": "Pueblonuevo del Guadiana, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Azuaga",
+    "club_logo": "",
+    "city_country": "Azuaga, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Badajoz",
+    "club_logo": "",
+    "city_country": "Badajoz, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Cabeza del Buey",
+    "club_logo": "",
+    "city_country": "Cabeza del Buey, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Calamonte",
+    "club_logo": "",
+    "city_country": "Calamonte, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Diocesano",
+    "club_logo": "",
+    "city_country": "Cáceres, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Don Benito",
+    "club_logo": "",
+    "city_country": "Don Benito, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Gévora",
+    "club_logo": "",
+    "city_country": "Gévora, Badajoz, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Jaraíz",
+    "club_logo": "",
+    "city_country": "Jaraíz de la Vera, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Jerez",
+    "club_logo": "",
+    "city_country": "Jerez de los Caballeros, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Llerenense",
+    "club_logo": "",
+    "city_country": "Llerena, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Montehermoso",
+    "club_logo": "",
+    "city_country": "Montehermoso, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Montijo",
+    "club_logo": "",
+    "city_country": "Montijo, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Moralo",
+    "club_logo": "",
+    "city_country": "Navalmoral de la Mata, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Puebla de la Calzada",
+    "club_logo": "",
+    "city_country": "Puebla de la Calzada, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Santa Amalia",
+    "club_logo": "",
+    "city_country": "Santa Amalia, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Villafranca",
+    "club_logo": "",
+    "city_country": "Villafranca de los Barros, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Villanovense",
+    "club_logo": "",
+    "city_country": "Villanueva de la Serena, Spain",
     "wiki_url": ""
   }
 ]
