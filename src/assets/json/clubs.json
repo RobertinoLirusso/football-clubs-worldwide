@@ -361,7 +361,7 @@
   },
   {
     "club_name": "Vancouver Whitecaps",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHQegP6mB-OmsvIkpnlDo3Sx-Z28nYTVfqDJL7oJ6wIbhwcSmg7kHatkhYrc1ALvMaXEb_fhiqq1HfLpk-wSRbjFPF2iwZoX30MnqPp1_W630g1MYGpMZLSG2dDRV9oLWZuEJFUMBj2hY/s1600/Vancouver+Whitecaps+FC256x.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Vancouver_FC_logo.svg/250px-Vancouver_FC_logo.svg.png",
     "city_country": "Vancouver, Canada",
     "wiki_url": "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC"
   },
@@ -1044,7 +1044,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro"
   },
   {
-    "club_name": "CA Belgrano",
+    "club_name": "Belgrano de Córdoba",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpIZJjO6Hg--KqextzRiWJKatbwwYvd-tkCoaqtDX2XuqSsZ7HkPU-dNk8yeanIq0CCnZuuBFmXHqj_4yaRmCMXirZFaCAb3cQU2GOLR5UdYnV4MP3np3Wy2UW173fA9kR3Zt8bB1TwVmrzS-plO8bkE_LlAexLzrAZS6Vrb-Xk9KYVIwTsPJEyFqw7WA/s256/Club%20Atletico%20Belgrano256x.png",
     "city_country": "Córdoba, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Belgrano"
@@ -7915,7 +7915,7 @@
     },
     {
         "club_name": "Fakel Voronezh",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cb/FC_Fakel_Voronezh.png",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/5/54/Fakel_Voronezh_logo.svg/250px-Fakel_Voronezh_logo.svg.png",
         "city_country": "Voronezh, Russia",
         "wiki_url": "https://en.wikipedia.org/wiki/Fakel_Voronezh"
     },
@@ -8556,7 +8556,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Gandzasar_Kapan"
   },
   {
-    "club_name": "Noah",
+    "club_name": "FC Noah",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRdCNAJ2-aUTsg5-Jfq4MMOiiYEntyVX9S2dbd1qo6FTyJaWL_CSEa1PLPygKzgVcxIrdnrQ6un-4qQJEzznu9Hykvr6WziOPa3g9U-j-29URxca8yysxggCngSQdiTJVRYtpFd5UVZcwN7Wp1qwSWGcOgE09hLAZMYCKIVPkOwix10YpVspxG9Bss43I/s1600/FC%20Noah256x.png",
     "city_country": "Yerevan, Armenia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Noah"
@@ -9474,7 +9474,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Santa_Tecla_F.C."
   },
   {
-    "club_name": "Herediano",
+    "club_name": "CS Herediano",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/C.S._Herediano.svg/250px-C.S._Herediano.svg.png",
     "city_country": "Heredia, Costa Rica",
     "wiki_url": "https://en.wikipedia.org/wiki/C.S._Herediano"
@@ -9955,7 +9955,7 @@
     },
     {
       "club_name": "Ebbsfleet United",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Ebbsfleet_United_FC_logo.svg/250px-Ebbsfleet_United_FC_logo.svg.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Ebbsfleet_United_F.C._logo.svg/250px-Ebbsfleet_United_F.C._logo.svg.png",
       "city_country": "Ebbsfleet, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Ebbsfleet_United_F.C."
     },
@@ -11880,31 +11880,31 @@
       "wiki_url": "https://es.wikipedia.org/wiki/Club_Social_y_Deportivo_Sol_de_Mayo"
     },
     {
-      "club_name": "Villa Mitre",
+      "club_name": "Club Villa Mitre",
       "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Escudo_Villa_Mitre.svg/250px-Escudo_Villa_Mitre.svg.png",
       "city_country": "Bahía Blanca, Argentina",
       "wiki_url": "https://en.wikipedia.org/wiki/Club_Villa_Mitre"
     },
     {
-      "club_name": "Argentino",
+      "club_name": "Argentino de Monte Maíz",
       "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEhwogsACTC5pmr32OqJhgDrfiksV837quatUR5SvkvNd3agHtri8GFsCFA3igf1O1eMb-ghXq85Ofr2kan0CbTNhMOaVOsQOOmblo68qzh-AlZ7vVtgtQVS3mbiPiJARmaVNuAE7v-1n0yRRVAP-SfLbgYtCsfM_RakZ8cITezjftVn7z4Ta-U_tddb",
       "city_country": "Monte Maíz, Argentina",
-      "wiki_url": "https://en.wikipedia.org/wiki/2025_Torneo_Federal_A#Club_information"
+      "wiki_url": "https://es.wikipedia.org/wiki/Club_Deportivo_Argentino_(Monte_Ma%C3%ADz)"
     },
     {
-      "club_name": "Atenas",
+      "club_name": "Atenas de Río Cuarto",
       "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Club_Sportivo_y_Biblioteca_Atenas_Dorado_1916_Vectorizado.png/250px-Club_Sportivo_y_Biblioteca_Atenas_Dorado_1916_Vectorizado.png",
       "city_country": "Río Cuarto, Argentina",
       "wiki_url": "https://en.wikipedia.org/wiki/Sportivo_y_Biblioteca_Atenas_de_R%C3%ADo_Cuarto"
     },
     {
-      "club_name": "Ciudad de Bolívar",
+      "club_name": "Club Ciudad de Bolívar",
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Club_Ciudad_Bolivar_logo.png/120px-Club_Ciudad_Bolivar_logo.png",
       "city_country": "San Carlos de Bolívar, Argentina",
       "wiki_url": "https://en.wikipedia.org/wiki/Club_Ciudad_de_Bol%C3%ADvar"
     },
     {
-      "club_name": "Costa Brava",
+      "club_name": "CA Costa Brava",
       "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Club_Atl%C3%A9tico_Costa_Brava.png/250px-Club_Atl%C3%A9tico_Costa_Brava.png",
       "city_country": "General Pico, Argentina",
       "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Costa_Brava"
@@ -11914,18 +11914,6 @@
       "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Escudo_de_Club_Sportivo_Estudiantes_2017.png/120px-Escudo_de_Club_Sportivo_Estudiantes_2017.png",
       "city_country": "San Luis, Argentina",
       "wiki_url": "https://en.wikipedia.org/wiki/Club_Sportivo_Estudiantes"
-    },
-    {
-      "club_name": "Gutiérrez",
-      "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheYcfLnOxSy4TKt-wLN5ZFOdn_V1Odra1xn_v6OXV3Vmn61PAn_ta793YESPmv1YJBzc47wDC6SZftLBF1Zer4WAgt26NF0MT9ixTwGBOHoewYyeVUuU70QRPeWdHrc6m9g3-On5h3d5KLIc_TL0O6cZqM71QTLWne17dxnqMlWR7O9g1lVOmV6qBk55M/s1600/Guti%C3%A9rrez%20Sport%20Club256x.png",
-      "city_country": "General Gutiérrez, Argentina",
-      "wiki_url": "https://es.wikipedia.org/wiki/Guti%C3%A9rrez_Sport_Club"
-    },
-    {
-      "club_name": "Huracán Las Heras",
-      "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9Nz_07Bwmd9_nXIo1RPSdZ5Fxv2DJtP6JoXvfNxYsEwdcNocGmlayK870UoZAPxGkk0mI7oNNc4X7pzjFFpIyEUxvJug5kd-T6Iv9MTCFNBruntK1TSzquzmhsLlE9ki1jPhVozRgoV0/s1600/CA+Huracan+Las+Heras256x.png",
-      "city_country": "Las Heras, Argentina",
-      "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Hurac%C3%A1n_Las_Heras"
     },
     {
       "club_name": "Juventud Unida Universitario",
@@ -12204,7 +12192,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/CSD_Flandria"
   },
   {
-    "club_name": "Liniers",
+    "club_name": "CSD Liniers",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Club_liniers_logo.png/250px-Club_liniers_logo.png",
     "city_country": "Buenos Aires, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Social_y_Deportivo_Liniers"
@@ -12682,12 +12670,6 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Club_Elporvenir_logo.png",
     "city_country": "Gerli, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_El_Porvenir"
-  },
-  {
-    "club_name": "Estrella del Sur",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Club_Estrella_del_Sur.png/250px-Club_Estrella_del_Sur.png",
-    "city_country": "Alejandro Korn, Argentina",
-    "wiki_url": "https://es.wikipedia.org/wiki/Club_Estrella_del_Sur"
   },
   {
     "club_name": "General Lamadrid",
@@ -20095,8 +20077,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Baku"
   },
   {
-    "club_name": "Shafa Baku (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Shafa_Baku_Soccer_Club_logo.png/250px-Shafa_Baku_Soccer_Club_logo.png",
+    "club_name": "Shafa Baku FK (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Shafa_FK_logo.png/250px-Shafa_FK_logo.png",
     "city_country": "Baku, Azerbaijan",
     "wiki_url": "https://en.wikipedia.org/wiki/Shafa_Baku_FK"
   },
@@ -30852,5 +30834,413 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/06/Leones_FC_logo_Argentina.png",
     "city_country": "Rosario, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Leones_de_Rosario_FC"
+  },
+  {
+    "club_name": "Calgary Wild FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Calgary_Wild_FC_logo.svg/250px-Calgary_Wild_FC_logo.svg.png",
+    "city_country": "Calgary, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Calgary_Wild_FC"
+  },
+  {
+    "club_name": "Halifax Tides FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Halifax_Tides_FC.svg/250px-Halifax_Tides_FC.svg.png",
+    "city_country": "Halifax, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Halifax_Tides_FC"
+  },
+  {
+    "club_name": "Montreal Roses FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Montreal_Roses_FC.svg/250px-Montreal_Roses_FC.svg.png",
+    "city_country": "Montreal, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Montreal_Roses_FC"
+  },
+  {
+    "club_name": "Ottawa Rapid FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Ottawa_Rapid_FC.svg/250px-Ottawa_Rapid_FC.svg.png",
+    "city_country": "Ottawa, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ottawa_Rapid_FC"
+  },
+  {
+    "club_name": "AFC Toronto",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/AFC_Toronto_logo.svg/250px-AFC_Toronto_logo.svg.png",
+    "city_country": "Toronto, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/AFC_Toronto"
+  },
+  {
+    "club_name": "Vancouver Rise FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Vancouver_Rise_FC.svg/250px-Vancouver_Rise_FC.svg.png",
+    "city_country": "Vancouver, Canada",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vancouver_Rise_FC"
+  },
+    {
+    "club_name": "Talleres de Perico",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Club_Atletico_Talleres_de_Ciudad_Perico.svg/250px-Club_Atletico_Talleres_de_Ciudad_Perico.svg.png",
+    "city_country": "Perico, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Talleres_(Perico)"
+  },
+  {
+    "club_name": "Club Altos Hornos Zapla",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Asociaci%C3%B3n_Cultural_y_Deportiva_Altos_Hornos_Zapla.png/250px-Asociaci%C3%B3n_Cultural_y_Deportiva_Altos_Hornos_Zapla.png",
+    "city_country": "Palpalá, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Asociaci%C3%B3n_Cultural_y_Deportiva_Altos_Hornos_Zapla"
+  },
+  {
+    "club_name": "Club Atlético Central Norte (Tucumán)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Club_Atl%C3%A9tico_Central_Norte_de_Tucum%C3%A1n.png",
+    "city_country": "San Miguel de Tucumán, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Central_Norte_(Tucum%C3%A1n)"
+  },
+  {
+    "club_name": "Club Sportivo Alfredo Guzmán",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Escudo_Club_Sportivo_Guzm%C3%A1n_Tucum%C3%A1n.svg/250px-Escudo_Club_Sportivo_Guzm%C3%A1n_Tucum%C3%A1n.svg.png",
+    "city_country": "San Miguel de Tucumán, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Sportivo_Alfredo_Guzm%C3%A1n"
+  },
+  {
+    "club_name": "Club Atlético Tucumán Central",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Escudo_Club_Tucum%C3%A1n_Central.svg/250px-Escudo_Club_Tucum%C3%A1n_Central.svg.png",
+    "city_country": "San Miguel de Tucumán, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Tucum%C3%A1n_Central"
+  },
+  {
+    "club_name": "Club Deportivo Mandiyú",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Deportivo_Mandiy%C3%BA.png/250px-Deportivo_Mandiy%C3%BA.png",
+    "city_country": "Corrientes, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Deportivo_Mandiy%C3%BA"
+  },
+  {
+    "club_name": "CD Guaraní Antonio Franco",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Escudo_del_Club_Guarani_Antonio_Franco.svg/250px-Escudo_del_Club_Guarani_Antonio_Franco.svg.png",
+    "city_country": "Posadas, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Deportivo_Guaran%C3%AD_Antonio_Franco"
+  },
+  {
+    "club_name": "Club Atlético Policial",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/ClubAtleticoPolicialescudo-Catamarca.svg/250px-ClubAtleticoPolicialescudo-Catamarca.svg.png",
+    "city_country": "San Fernando del Valle de Catamarca, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Policial"
+  },
+  {
+    "club_name": "Newell's Old Boys (Laguna Larga)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Escudo_Newell%27s_Old_Boys_2014.png/250px-Escudo_Newell%27s_Old_Boys_2014.png",
+    "city_country": "Laguna Larga, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_y_Biblioteca_Newell%27s_Old_Boys"
+  },
+  {
+    "club_name": "Club Universitario Córdoba",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Universitario_cba_logo.svg/250px-Universitario_cba_logo.svg.png",
+    "city_country": "Córdoba, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Universitario_(C%C3%B3rdoba)"
+  },
+  {
+    "club_name": "9 de Julio de Morteros",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/19833.png?lm=1514310271",
+    "city_country": "Morteros, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Asociaci%C3%B3n_Deportiva_9_de_Julio_(Morteros)"
+  },
+  {
+    "club_name": "Central Argentino de La Banda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Escudo_del_Club_Central_Argentino_%28La_Banda%29.png/250px-Escudo_del_Club_Central_Argentino_%28La_Banda%29.png",
+    "city_country": "La Banda, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Central_Argentino_(La_Banda)"
+  },
+  {
+    "club_name": "Club Atlético Unión Santiago",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Escudo_del_Club_Atl%C3%A9tico_Uni%C3%B3n_Santiago.png/250px-Escudo_del_Club_Atl%C3%A9tico_Uni%C3%B3n_Santiago.png",
+    "city_country": "Santiago del Estero, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Uni%C3%B3n_Santiago"
+  },
+  {
+    "club_name": "Club Comercio Central Unidos",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Escudo_del_Club_Comercio_Central_Unidos.png/250px-Escudo_del_Club_Comercio_Central_Unidos.png",
+    "city_country": "Santiago del Estero, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Comercio_Central_Unidos"
+  },
+  {
+    "club_name": "CA Vélez Sarsfield (San Ramón)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield_de_San_Ram%C3%B3n.png/250px-Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield_de_San_Ram%C3%B3n.png",
+    "city_country": "San Ramón, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield_(San_Ram%C3%B3n)"
+  },
+  {
+    "club_name": "Andino Sport Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Andino_Sportivo_Club.png/250px-Andino_Sportivo_Club.png",
+    "city_country": "La Rioja, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Andino_Sport_Club"
+  },
+  {
+    "club_name": "Juventud Unida de Gualeguaychú",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Juventud_unida_%28G%29.png/250px-Juventud_unida_%28G%29.png",
+    "city_country": "Gualeguaychú, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Deportivo_Juventud_Unida"
+  },
+  {
+    "club_name": "Club Atlético Paraná",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Atletico_parana_logo.png",
+    "city_country": "Paraná, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Paran%C3%A1"
+  },
+  {
+    "club_name": "Club Defensores de Pronunciamiento",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Escudo_Defensores_de_Pronunciamiento_2.png/250px-Escudo_Defensores_de_Pronunciamiento_2.png",
+    "city_country": "Pronunciamiento, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Defensores_de_Pronunciamiento"
+  },
+  {
+    "club_name": "Unión de Sunchales",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Escudo_del_Club_Atl%C3%A9tico_Uni%C3%B3n_de_Sunchales.svg/250px-Escudo_del_Club_Atl%C3%A9tico_Uni%C3%B3n_de_Sunchales.svg.png",
+    "city_country": "Sunchales, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Uni%C3%B3n_(Sunchales)"
+  },
+  {
+    "club_name": "Libertad de Sunchales",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Escudo_Libertad_de_Sunchales.png/250px-Escudo_Libertad_de_Sunchales.png",
+    "city_country": "Sunchales, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Deportivo_Libertad"
+  },
+  {
+    "club_name": "Huracán Las Heras",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9Nz_07Bwmd9_nXIo1RPSdZ5Fxv2DJtP6JoXvfNxYsEwdcNocGmlayK870UoZAPxGkk0mI7oNNc4X7pzjFFpIyEUxvJug5kd-T6Iv9MTCFNBruntK1TSzquzmhsLlE9ki1jPhVozRgoV0/s1600/CA+Huracan+Las+Heras256x.png",
+    "city_country": "Las Heras, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Hurac%C3%A1n_Las_Heras"
+  },
+  {
+    "club_name": "CA Ferrocarril Oeste (General Alvear)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ferro_de_Mendoza.png/250px-Ferro_de_Mendoza.png",
+    "city_country": "General Alvear, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Ferrocarril_Oeste_(General_Alvear)"
+  },
+  {
+    "club_name": "Sport Club Pacífico",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Logo_SC_Pac%C3%ADfico_de_General_Alvear.svg/250px-Logo_SC_Pac%C3%ADfico_de_General_Alvear.svg.png",
+    "city_country": "General Alvear, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Sport_Club_Pac%C3%ADfico"
+  },
+  {
+    "club_name": "Club Atlético Unión (Villa Krause)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Uni%C3%B3n.png/250px-Uni%C3%B3n.png",
+    "city_country": "Villa Krause, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Uni%C3%B3n_(Villa_Krause)"
+  },
+  {
+    "club_name": "Sportivo Desamparados",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaM0v1FzW7tYmDOgxE-ghsXrgo1ba0FXxPLfCmkfGj98ByPUnSdqABWD_xObbQDjc3fr_8t5gH6ZZj_niviEro1YvjLpU91c4tWEOmoKQkM5gS2QF40qc3bRgMAASX34ZcsZYT-bV0HvY/s1600/Club+Sportivo+Desamparados256x.png",
+    "city_country": "San Juan, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sportivo_Desamparados"
+  },
+  {
+    "club_name": "Club Atlético Colón Junior",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Free-vector-club-atletico-colon-junior-de-colon_048254_club-atletico-colon-junior-de-colon.png/250px-Free-vector-club-atletico-colon-junior-de-colon_048254_club-atletico-colon-junior-de-colon.png",
+    "city_country": "Desamparados, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Col%C3%B3n_Junior"
+  },
+  {
+    "club_name": "Club Atlético de la Juventud Alianza",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Escudo-01.png/250px-Escudo-01.png",
+    "city_country": "Santa Lucía, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_de_la_Juventud_Alianza"
+  },
+  {
+    "club_name": "Club Atlético Villa Belgrano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Club_Atl%C3%A9tico_Villa_Belgrano.png/250px-Club_Atl%C3%A9tico_Villa_Belgrano.png",
+    "city_country": "Junín, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Villa_Belgrano"
+  },
+  {
+    "club_name": "Club Rivadavia Lincoln",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Escudo_del_Club_Rivadavia_de_Lincoln.svg/250px-Escudo_del_Club_Rivadavia_de_Lincoln.svg.png",
+    "city_country": "Lincoln, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Rivadavia"
+  },
+  {
+    "club_name": "Club Atlético Sporting Punta Alta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Escudo_del_Club_Atl%C3%A9tico_Sporting.png/250px-Escudo_del_Club_Atl%C3%A9tico_Sporting.png",
+    "city_country": "Punta Alta, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Sporting"
+  },
+  {
+    "club_name": "Club Atlético Liniers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Liniers_BB.png/250px-Liniers_BB.png",
+    "city_country": "Bahía Blanca, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Liniers"
+  },
+  {
+    "club_name": "Racing de Olavarría",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Escudo_del_Club_Racing_de_Olavarria_-_BSAS.svg/250px-Escudo_del_Club_Racing_de_Olavarria_-_BSAS.svg.png",
+    "city_country": "Olavarría, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Racing_Athletic_Club"
+  },
+  {
+    "club_name": "Ferro Carril Oeste (General Pico)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Club_Ferro_Carril_Oeste_General_Pico.png/250px-Club_Ferro_Carril_Oeste_General_Pico.png",
+    "city_country": "General Pico, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Ferro_Carril_Oeste_(General_Pico)"
+  },
+  {
+    "club_name": "Club Social y Deportivo Bancruz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Escudo_de_Bancruz.png/250px-Escudo_de_Bancruz.png",
+    "city_country": "Río Gallegos, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Social_y_Deportivo_Bancruz"
+  },
+  {
+    "club_name": "Asociación Atlético Boxing Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Logo_Boxing_Club.png/250px-Logo_Boxing_Club.png",
+    "city_country": "Río Gallegos, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Asociaci%C3%B3n_Atl%C3%A9tico_Boxing_Club"
+  },
+  {
+    "club_name": "Alianza de Cutral Có",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Alianza_Cutral-Co_Logo.png/250px-Alianza_Cutral-Co_Logo.png",
+    "city_country": "Cutral Có, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Social_y_Deportivo_Alianza_(Cutral_Co)"
+  },
+  {
+    "club_name": "Deportivo General Roca",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Deproca_logo.png",
+    "city_country": "General Roca, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Social_y_Deportivo_General_Roca"
+  },
+  {
+    "club_name": "Comisión de Actividades Infantiles",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/big/12674.png?lm=1424605461",
+    "city_country": "Comodoro Rivadavia, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Comisi%C3%B3n_de_Actividades_Infantiles"
+  },
+  {
+    "club_name": "CA Jorge Newbery (Comodoro Rivadavia)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jorge_Newbery_CR.png/250px-Jorge_Newbery_CR.png",
+    "city_country": "Comodoro Rivadavia, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Jorge_Newbery_(Comodoro_Rivadavia)"
+  },
+  {
+    "club_name": "Club Deportivo Cruz del Sur",
+    "club_logo": "https://images.seeklogo.com/logo-png/36/2/club-deportivo-cruz-del-sur-de-bariloche-rio-negro-logo-png_seeklogo-364384.png",
+    "city_country": "San Carlos de Bariloche, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Deportivo_Cruz_del_Sur"
+  },
+  {
+    "club_name": "Independiente (Neuquén)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Independiente_Neuquen.png/250px-Independiente_Neuquen.png",
+    "city_country": "Neuquén, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Independiente_(Neuqu%C3%A9n)"
+  },
+  {
+    "club_name": "Racing Club de Trelew",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Racing_de_Trelew.png/250px-Racing_de_Trelew.png",
+    "city_country": "Trelew, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Asociaci%C3%B3n_Civil_Racing_Club"
+  },
+  {
+    "club_name": "Fundación Amigos por el Deporte",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht8FR0iEqU9KVlFXbA1xyxURgvZAYJ19UH9C3iPcutJJvkaZCb_hluN_AbGM768A8nuCO7NyLm0a-xJlHrwwXf_unct3hITEH1kGK-34KciYPrDfy7Il-dyJMUvDK_T5M_YwseszdPb2OThgMGboEpbXgLjqBXjgQdmzNmhXgciIqRgz_LoHzbWkbADKY/s1600/FADEP%20Fundacion%20Sebastian%20Torrico256x.png",
+    "city_country": "Russell, Argentina",
+    "wiki_url": "https://www.facebook.com/torricoFADEP/"
+  },
+  {
+    "club_name": "Gutiérrez Sport Club",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheYcfLnOxSy4TKt-wLN5ZFOdn_V1Odra1xn_v6OXV3Vmn61PAn_ta793YESPmv1YJBzc47wDC6SZftLBF1Zer4WAgt26NF0MT9ixTwGBOHoewYyeVUuU70QRPeWdHrc6m9g3-On5h3d5KLIc_TL0O6cZqM71QTLWne17dxnqMlWR7O9g1lVOmV6qBk55M/s1600/Guti%C3%A9rrez%20Sport%20Club256x.png",
+    "city_country": "General Gutiérrez, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Guti%C3%A9rrez_Sport_Club"
+  },
+  {
+    "club_name": "CA Defensores de Vilelas",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEholTXTypeECoucHzofJ3wqryfb8sS6tcsx2poyux3opkusIrUNbYW3U7UB951Eg7zOKkkYT7fLV-J1qzwWwiammNTY0zJDbh1olQwj4NmUmUQaYWIMSb02IipFJmsrG1AhlaP15URWknbx315juRGgT19HBr-YxIBhvkjHBOGk1SaU6huq2w1fJBxIkB0/s1600/CA%20Defensores%20de%20Vilelas256x.png",
+    "city_country": "Vilelas, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Defensores_de_Vilelas#"
+  },
+  {
+    "club_name": "Atlético Escobar",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5aJpPLUoykiILR2yDuyUsU2MygW5LIPXBAxryk9Xy7_HvH1vPOFQLHtd8yv86-diyekMMdPyzJR184QG2vzDZ7L3EkVWLsEwGKAyfYMzbYR-iB48UCp8ylGQB97hyphenhyphenBV52qAt1T-ISjH_QiYZW_uvGo8yrcjwrFQzcQOimtk1j54lURBj-Qxj4KttzJhw/s1600/Atl%C3%A9tico%20Escobar256x.png",
+    "city_country": "Ingeniero Maschwitz, Argentina",
+    "wiki_url": "https://atleticoescobar.com.ar/"
+  },
+  {
+    "club_name": "Club Atlético Pilar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Club_Atl%C3%A9tico_Pilar.png/250px-Club_Atl%C3%A9tico_Pilar.png",
+    "city_country": "Pilar, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Pilar"
+  },
+  {
+    "club_name": "Barrancas UMET FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Barrancas_F%C3%BAtbol_Club.png/250px-Barrancas_F%C3%BAtbol_Club.png",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": "https://en.wikipedia.org/wiki/Barrancas_F%C3%BAtbol_Club"
+  },
+  {
+    "club_name": "Belgrano de Zárate",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/122614.png?lm=1726103703",
+    "city_country": "Zárate, Argentina",
+    "wiki_url": "https://www.instagram.com/belgranozarate/"
+  },
+  {
+    "club_name": "Defensores de Glew",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/0/06/Club_Atl%C3%A9tico_Defensores_de_Glew.png",
+    "city_country": "Glew, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Defensores_de_Glew"
+  },
+  {
+    "club_name": "Deportivo Metalúrgico",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHb4ARtFLPulTkDFYtgdC53rWHKcmKhtxxEAAgL1VbjSDOQFT_y2yL-sbUrtWXWJEtHTIFNAWXBb4r5twFTFwvJoFu18MIy4CP4_Lnsm75s95o4mcE7dGuZlObALD21r34PgnJfa45NIqSjD9sX6vwOgkX8CA7GI4jjbVHKl1dJv6zb7CJzDjYwPg8Xhw/s1600/Deportivo%20Metal%C3%BArgico256x.png",
+    "city_country": "Del Viso, Argentina",
+    "wiki_url": "https://deportivometalurgico.com/"
+  },
+  {
+    "club_name": "Estrella de Berisso",
+    "club_logo": "https://interiorfutbolero.com.ar/wp-content/uploads/2021/12/Escudo-Estrella-e1640118445609.png",
+    "city_country": "Berisso, Argentina",
+    "wiki_url": "https://www.instagram.com/estrella_bsso/"
+  },
+  {
+    "club_name": "Club Everton La Plata",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Club_Everton_La_Plata.png/250px-Club_Everton_La_Plata.png",
+    "city_country": "La Plata, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Everton"
+  },
+  {
+    "club_name": "FC Ezeiza",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Futbol_Club_Ezeiza.png/250px-Futbol_Club_Ezeiza.png",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/F%C3%BAtbol_Club_Ezeiza"
+  },
+  {
+    "club_name": "Juventud de Bernal",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Club_Social_Deportivo_Juventud_de_Bernal.png/250px-Club_Social_Deportivo_Juventud_de_Bernal.png",
+    "city_country": "Bernal, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Social_y_Deportivo_Juventud_de_Bernal"
+  },
+  {
+    "club_name": "Club Náutico Hacoaj",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Nautico_Hacoaj.svg/250px-Nautico_Hacoaj.svg.png",
+    "city_country": "Tigre, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_N%C3%A1utico_Hacoaj"
+  },
+  {
+    "club_name": "Social Atlético Televisión",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Logo_SAT.png/250px-Logo_SAT.png",
+    "city_country": "Moreno, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Social_Atl%C3%A9tico_Televisi%C3%B3n"
+  },
+  {
+    "club_name": "Tiro Federal Argentino (Rosario)",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZzO3gHhSKNJAJGeYIa0UQHOen1BbB-W9o7x7FN1O1l35kRYovT0U2D2zyKpqoCfVnTqvGj9HvFFlTPy006Jz3DyLiKdEDOxpD1XPNlWvYoCR3uOwVFf_AMKgo3vPbmRi_EENtF4WFbQ5FwXLq1Atsaw4rJBjdmS3NRgxyJSInlSWqj6U1aaGDkgRZec/s1600/CA%20Tiro%20Federal%20de%20Rosario256x.png",
+    "city_country": "Rosario, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Tiro_Federal_Argentino"
+  },
+  {
+    "club_name": "Club Estrella del Sur",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Club_Estrella_del_Sur.png/250px-Club_Estrella_del_Sur.png",
+    "city_country": "Alejandro Korn, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Estrella_del_Sur"
+  },
+  {
+    "club_name": "Club Defensores de Salto",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3MnMBu3e3CiTgn72xIRTdjfAIvsj67LUUF0ZrQi9-RKElQlFSJCEr8wVLUy3QWHy8YRvNAMc1566EvVEYuccoE-Ij-4C6nlkSgXy8tgWTDf7xGs1En69LpKNbeLAbGdmOTm_FIKAyH8hzpYoD5MIGJr3lcr_sGtIO_sZwjBC1H1E34Qi2cqun7TnNI2c/s1600/Club%20Defensores%20de%20Salto256x.png",
+    "city_country": "Salto, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Defensores_de_Salto"
+  },
+  {
+    "club_name": "Club Huracán (San Rafael)",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFTw9PrKfSbHOCyrIGYA2CIecZUgkgoL-gRsk_eECK4uYxnF6ZumnH0nfN2yXeGeTUrN_WmfEEBT__OGR5z0ztrUx_n6kOV_UM4Yu7eVBYpWaF9tYmAPcnP6jweq6wl2yVax2-2CMvwxjcu8-WhroTbtpfAH-phXVXeV0Gw4QdwwWlvZdQrwUJl-4gg0g/s1600/Club%20Hurac%C3%A1n256x.png",
+    "city_country": "San Rafael, Argentina",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Hurac%C3%A1n_(San_Rafael)"
   }
 ]
