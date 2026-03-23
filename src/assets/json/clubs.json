@@ -28220,8 +28220,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Pocheon_Citizen_FC"
   },
   {
-    "club_name": "FC Siheung Citizen",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Siheung_City_FC_New_Logo.svg/250px-Siheung_City_FC_New_Logo.svg.png",
+    "club_name": "Siheung City FC",
+    "club_logo": "assets/logos/siheung_city_fc.png",
     "city_country": "Siheung, South Korea",
     "wiki_url": "https://en.wikipedia.org/wiki/Siheung_Citizen_FC"
   },
@@ -31494,5 +31494,227 @@
     "club_logo": "https://www.auf.org.uy/imagenes/img_contenido/club_club/a/paysafcesiawhabjnulo.png",
     "city_country": "Paysandú, Uruguay",
     "wiki_url": "https://es.wikipedia.org/wiki/Paysand%C3%BA_F%C3%BAtbol_Club"
+  },
+    {
+    "club_name": "EC Avenida",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Esporte_Clube_Avenida_logo.png/250px-Esporte_Clube_Avenida_logo.png",
+    "city_country": "Santa Cruz do Sul, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Esporte_Clube_Avenida"
+  },
+  {
+    "club_name": "Guarany de Bagé",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Guarany_de_Bag%C3%A9_logo.png/250px-Guarany_de_Bag%C3%A9_logo.png",
+    "city_country": "Bagé, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guarany_Futebol_Clube"
+  },
+  {
+    "club_name": "Internacional de Santa Maria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Esporte_Clube_Internacional.svg/250px-Esporte_Clube_Internacional.svg.png",
+    "city_country": "Santa Maria, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Esporte_Clube_Internacional"
+  },
+  {
+    "club_name": "Monsoon FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Monsoon_Futebol_Clube_logo.png/250px-Monsoon_Futebol_Clube_logo.png",
+    "city_country": "Porto Alegre, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Monsoon_FC"
+  },
+  {
+    "club_name": "EC Novo Hamburgo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/6/61/ECNovoHamburgo.png",
+    "city_country": "Novo Hamburgo, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Esporte_Clube_Novo_Hamburgo"
+  },
+  {
+    "club_name": "EC São José",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Esporte_Clube_S%C3%A3o_Jos%C3%A9.png/250px-Esporte_Clube_S%C3%A3o_Jos%C3%A9.png",
+    "city_country": "Porto Alegre, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Esporte_Clube_S%C3%A3o_Jos%C3%A9"
+  },
+  {
+    "club_name": "EC São Luiz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Esporte_Clube_S%C3%A3o_Luiz_logo.svg/250px-Esporte_Clube_S%C3%A3o_Luiz_logo.svg.png",
+    "city_country": "Ijuí, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Esporte_Clube_S%C3%A3o_Luiz"
+  },
+    {
+    "club_name": "Añorga KKE",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/A%C3%B1orga_KKE.png/250px-A%C3%B1orga_KKE.png",
+    "city_country": "San Sebastián, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/A%C3%B1orga_KKE"
+  },
+  {
+    "club_name": "UD Aretxabaleta",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/UD_Aretxabaleta.png/250px-UD_Aretxabaleta.png",
+    "city_country": "Aretxabaleta, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Aretxabaleta"
+  },
+  {
+    "club_name": "CD Aurrerá Vitoria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/CD_Aurrer%C3%A1_de_Vitoria.png/250px-CD_Aurrer%C3%A1_de_Vitoria.png",
+    "city_country": "Vitoria-Gasteiz, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Aurrer%C3%A1_de_Vitoria"
+  },
+  {
+    "club_name": "Cultural Durango",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/SCD_Durango_escudo.png/250px-SCD_Durango_escudo.png",
+    "city_country": "Durango, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SCD_Durango"
+  },
+  {
+    "club_name": "CD Derio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/CD_Derio_logo.png/250px-CD_Derio_logo.png",
+    "city_country": "Derio, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Derio"
+  },
+  {
+    "club_name": "SD Deusto",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Escudo_de_la_Sociedad_Deportiva_Deusto.svg/250px-Escudo_de_la_Sociedad_Deportiva_Deusto.svg.png",
+    "city_country": "Bilbao, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SD_Deusto"
+  },
+  {
+    "club_name": "CD Lagun Onak",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/CD_Lagun_Onak.png/250px-CD_Lagun_Onak.png",
+    "city_country": "Azpeitia, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Lagun_Onak"
+  },
+  {
+    "club_name": "SD Leioa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/SD_Leioa.png/250px-SD_Leioa.png",
+    "city_country": "Leioa, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SD_Leioa"
+  },
+  {
+    "club_name": "Pasaia KE",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0e/Pasaia_KE_logo.png",
+    "city_country": "Pasaia, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pasaia_KE"
+  },
+  {
+    "club_name": "Club Portugalete",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Club_Portugalete.png/250px-Club_Portugalete.png",
+    "city_country": "Portugalete, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Portugalete"
+  },
+  {
+    "club_name": "Club San Ignacio de Vitoria-Gasteiz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Club_San_Ignacio.png/250px-Club_San_Ignacio.png",
+    "city_country": "Vitoria-Gasteiz, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_San_Ignacio"
+  },
+  {
+    "club_name": "CD Santurtzi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/CD_Santurtzi.png/250px-CD_Santurtzi.png",
+    "city_country": "Santurtzi, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Santurtzi"
+  },
+  {
+    "club_name": "Touring KE",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Touring_KE_logo.png/250px-Touring_KE_logo.png",
+    "city_country": "Errenteria, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Touring_KE"
+  },
+  {
+    "club_name": "Zamudio SD",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Zamudio_SD_logo.png/250px-Zamudio_SD_logo.png",
+    "city_country": "Zamudio, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zamudio_SD"
+  },
+  {
+    "club_name": "Zarautz KE",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Zarautz_KE.png/250px-Zarautz_KE.png",
+    "city_country": "Zarautz, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zarautz_KE"
+  },
+  {
+    "club_name": "TuS Koblenz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/TuS_Koblenz.svg/250px-TuS_Koblenz.svg.png",
+    "city_country": "Koblenz, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TuS_Koblenz"
+  },
+  {
+    "club_name": "FC Emmelshausen-Karbach",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/131473.png?lm=1749746252",
+    "city_country": "Karbach, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Karbach"
+  },
+  {
+    "club_name": "VfR Wormatia 08 Worms",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Wormatia_Worms_crest.svg/250px-Wormatia_Worms_crest.svg.png",
+    "city_country": "Worms, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wormatia_Worms"
+  },
+  {
+    "club_name": "FC Rot-Weiß Koblenz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/FC_Rot-Wei%C3%9F_Koblenz_Logo.svg/250px-FC_Rot-Wei%C3%9F_Koblenz_Logo.svg.png",
+    "city_country": "Koblenz, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Rot-Wei%C3%9F_Koblenz"
+  },
+  {
+    "club_name": "TSV Gau-Odernheim",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/big/54310.png?lm=1469539052",
+    "city_country": "Gau-Odernheim, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/TSV_Gau-Odernheim"
+  },
+  {
+    "club_name": "FC Cosmos Koblenz",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/big/45062.png?lm=1692483065",
+    "city_country": "Koblenz, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/FC_Cosmos_Koblenz"
+  },
+  {
+    "club_name": "FC Hertha Wiesbach",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/9/94/FC_Hertha_Wiesbach_Logo.png/330px-FC_Hertha_Wiesbach_Logo.png",
+    "city_country": "Eppelborn, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Hertha_Wiesbach"
+  },
+  {
+    "club_name": "SV Auersmacher",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SV_Auersmacher_Logo.svg/250px-SV_Auersmacher_Logo.svg.png",
+    "city_country": "Kleinblittersdorf, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Auersmacher"
+  },
+  {
+    "club_name": "SV Gonsenheim",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/SV_Gonsenheim_Logo.svg/250px-SV_Gonsenheim_Logo.svg.png",
+    "city_country": "Mainz, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Gonsenheim"
+  },
+  {
+    "club_name": "Arminia Ludwigshafen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Arminia_Ludwigshafen.gif/250px-Arminia_Ludwigshafen.gif",
+    "city_country": "Ludwigshafen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Arminia_Ludwigshafen"
+  },
+  {
+    "club_name": "Eisbachtaler Sportfreunde",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/SF_Eisbachtal.png/250px-SF_Eisbachtal.png",
+    "city_country": "Nentershausen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Eisbachtaler_Sportfreunde"
+  },
+  {
+    "club_name": "FV 07 Diefflen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/5/54/FV_07_Diefflen.png",
+    "city_country": "Diefflen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FV_Diefflen"
+  },
+  {
+    "club_name": "SC 07 Idar-Oberstein",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/2/26/Logo_SC_Idar-Oberstein.svg/250px-Logo_SC_Idar-Oberstein.svg.png",
+    "city_country": "Idar-Oberstein, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/SC_07_Idar-Oberstein"
+  },
+  {
+    "club_name": "FV Dudenhofen",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/big/4983.png?lm=1672787803",
+    "city_country": "Dudenhofen, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/FV_Dudenhofen"
+  },
+  {
+    "club_name": "FV Eppelborn",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/5472.png?lm=1468429088",
+    "city_country": "Eppelborn, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/FV_Eppelborn"
   }
 ]

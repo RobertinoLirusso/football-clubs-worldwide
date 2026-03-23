@@ -1,107 +1,5 @@
 [
   {
-    "club_name": "Añorga",
-    "club_logo": "",
-    "city_country": "San Sebastián, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Aretxabaleta",
-    "club_logo": "",
-    "city_country": "Aretxabaleta, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Aurrerá Vitoria",
-    "club_logo": "",
-    "city_country": "Vitoria-Gasteiz, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Cultural Durango",
-    "club_logo": "",
-    "city_country": "Durango, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Derio",
-    "club_logo": "",
-    "city_country": "Derio, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Deusto",
-    "club_logo": "",
-    "city_country": "Bilbao, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Eibar C",
-    "club_logo": "",
-    "city_country": "Eibar, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Lagun Onak",
-    "club_logo": "",
-    "city_country": "Azpeitia, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Leioa",
-    "club_logo": "",
-    "city_country": "Leioa, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Pasaia",
-    "club_logo": "",
-    "city_country": "Pasaia, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Portugalete",
-    "club_logo": "",
-    "city_country": "Portugalete, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Real Sociedad C",
-    "club_logo": "",
-    "city_country": "San Sebastián, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "San Ignacio",
-    "club_logo": "",
-    "city_country": "Vitoria-Gasteiz, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Santurtzi",
-    "club_logo": "",
-    "city_country": "Santurtzi, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Touring",
-    "club_logo": "",
-    "city_country": "Errenteria, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Zamudio",
-    "club_logo": "",
-    "city_country": "Zamudio, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Zarautz",
-    "club_logo": "",
-    "city_country": "Zarautz, Spain",
-    "wiki_url": ""
-  },
-  {
     "club_name": "Atlético Albericia",
     "club_logo": "",
     "city_country": "Santander, Spain",
@@ -534,183 +432,183 @@
     "wiki_url": ""
   },
   {
-    "club_name": "1. FC Kaiserslautern II",
+    "club_name": "ABECATO",
     "club_logo": "",
-    "city_country": "Germany",
+    "city_country": "Ouvidor, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "FK Pirmasens",
+    "club_name": "Anapolina",
     "club_logo": "",
-    "city_country": "Pirmasens, Germany",
+    "city_country": "Anápolis, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "TuS Koblenz",
+    "club_name": "Anápolis",
     "club_logo": "",
-    "city_country": "Koblenz, Germany",
+    "city_country": "Anápolis, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "FC Emmelshausen-Karbach",
+    "club_name": "Aparecidense",
     "club_logo": "",
-    "city_country": "Germany",
+    "city_country": "Aparecida de Goiânia, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Engers 07",
+    "club_name": "Atlético Goianiense",
     "club_logo": "",
-    "city_country": "Germany",
+    "city_country": "Goiânia, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Wormatia Worms",
+    "club_name": "Centro Oeste",
     "club_logo": "",
-    "city_country": "Worms, Germany",
+    "city_country": "Senador Canedo, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Rot-Weiß Koblenz",
+    "club_name": "CRAC",
     "club_logo": "",
-    "city_country": "Koblenz, Germany",
+    "city_country": "Catalão, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "TSV Gau-Odernheim",
+    "club_name": "Goiás",
     "club_logo": "",
-    "city_country": "Germany",
+    "city_country": "Goiânia, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "FC Cosmos Koblenz",
+    "club_name": "Goiatuba",
     "club_logo": "",
-    "city_country": "Koblenz, Germany",
+    "city_country": "Goiatuba, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "FC Hertha Wiesbach",
+    "club_name": "Inhumas",
     "club_logo": "",
-    "city_country": "Germany",
+    "city_country": "Inhumas, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "SV Auersmacher",
+    "club_name": "Jataiense",
     "club_logo": "",
-    "city_country": "Germany",
+    "city_country": "Jataí, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "SV Gonsenheim",
+    "club_name": "Vila Nova",
     "club_logo": "",
-    "city_country": "Germany",
+    "city_country": "Goiânia, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Arminia Ludwigshafen",
+    "club_name": "Atlético de Alagoinhas",
     "club_logo": "",
-    "city_country": "Ludwigshafen, Germany",
+    "city_country": "Alagoinhas, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Eisbachtaler Sportfreunde",
+    "club_name": "Bahia",
     "club_logo": "",
-    "city_country": "Germany",
+    "city_country": "Salvador, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "FV 07 Diefflen",
+    "club_name": "Bahia de Feira",
     "club_logo": "",
-    "city_country": "Germany",
+    "city_country": "Feira de Santana, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "SC Idar-Oberstein",
+    "club_name": "Barcelona de Ilhéus",
     "club_logo": "",
-    "city_country": "Idar-Oberstein, Germany",
+    "city_country": "Ilhéus, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "FV Dudenhofen",
+    "club_name": "Galícia",
     "club_logo": "",
-    "city_country": "Germany",
+    "city_country": "Salvador, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "FV Eppelborn",
+    "club_name": "Jacuipense",
     "club_logo": "",
-    "city_country": "Germany",
+    "city_country": "Riachão do Jacuípe, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Avenida",
+    "club_name": "Jequié",
     "club_logo": "",
-    "city_country": "Santa Cruz do Sul, Brazil",
+    "city_country": "Jequié, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Caxias",
+    "club_name": "Juazeirense",
     "club_logo": "",
-    "city_country": "Caxias do Sul, Brazil",
+    "city_country": "Juazeiro, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Grêmio",
+    "club_name": "Porto",
     "club_logo": "",
-    "city_country": "Porto Alegre, Brazil",
+    "city_country": "Porto Seguro, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Guarany de Bagé",
+    "club_name": "Vitória",
     "club_logo": "",
-    "city_country": "Bagé, Brazil",
+    "city_country": "Salvador, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Internacional",
+    "club_name": "Decisão",
     "club_logo": "",
-    "city_country": "Porto Alegre, Brazil",
+    "city_country": "Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Internacional de Santa Maria",
+    "club_name": "Jaguar",
     "club_logo": "",
-    "city_country": "Santa Maria, Brazil",
+    "city_country": "Jaboatão dos Guararapes, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Juventude",
+    "club_name": "Maguary",
     "club_logo": "",
-    "city_country": "Caxias do Sul, Brazil",
+    "city_country": "Bonito, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Monsoon",
+    "club_name": "Náutico",
     "club_logo": "",
-    "city_country": "Porto Alegre, Brazil",
+    "city_country": "Recife, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Novo Hamburgo",
+    "club_name": "Retrô",
     "club_logo": "",
-    "city_country": "Novo Hamburgo, Brazil",
+    "city_country": "Camaragibe, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "São José",
+    "club_name": "Santa Cruz",
     "club_logo": "",
-    "city_country": "Porto Alegre, Brazil",
+    "city_country": "Recife, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "São Luiz",
+    "club_name": "Sport",
     "club_logo": "",
-    "city_country": "Ijuí, Brazil",
+    "city_country": "Recife, Brazil",
     "wiki_url": ""
   },
   {
-    "club_name": "Ypiranga",
+    "club_name": "Vitória das Tabocas",
     "club_logo": "",
-    "city_country": "Erechim, Brazil",
+    "city_country": "Vitória de Santo Antão, Brazil",
     "wiki_url": ""
   }
 ]
