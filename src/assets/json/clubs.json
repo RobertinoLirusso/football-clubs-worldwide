@@ -12570,12 +12570,6 @@
     "wiki_url": "https://en.wikipedia.org/wiki/J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura"
   },
   {
-    "club_name": "KäPa",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/93/K%C3%A4pyl%C3%A4n_Pallo.png",
-    "city_country": "Helsinki, Finland",
-    "wiki_url": "https://en.wikipedia.org/wiki/K%C3%A4pyl%C3%A4n_Pallo"
-  },
-  {
     "club_name": "FC Lahti",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/FC_Lahti_logo.svg/250px-FC_Lahti_logo.svg.png",
     "city_country": "Lahti, Finland",
@@ -18558,7 +18552,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/La_Luz_F.C."
   },
   {
-    "club_name": "Oriental",
+    "club_name": "Club Oriental de Football",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/COF_Nuevo_escudo_2021.png/250px-COF_Nuevo_escudo_2021.png",
     "city_country": "La Paz, Uruguay",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Oriental_de_Football"
@@ -31362,5 +31356,143 @@
     "club_logo": "https://tmssl.akamaized.net//images/wappen/head/39493.png?lm=1654448913",
     "city_country": "Äänekoski, Finland",
     "wiki_url": "https://en.wikipedia.org/wiki/%C3%84%C3%A4nekosken_Huima"
+  },
+  {
+    "club_name": "CA Alto Perú",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/CA_Alto_Per%C3%BA_2015.png/250px-CA_Alto_Per%C3%BA_2015.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Alto_Per%C3%BA"
+  },
+  {
+    "club_name": "CA Basáñez",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Escudo_Club_Atl%C3%A9tico_Bas%C3%A1%C3%B1ez.png/120px-Escudo_Club_Atl%C3%A9tico_Bas%C3%A1%C3%B1ez.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bas%C3%A1%C3%B1ez"
+  },
+  {
+    "club_name": "CA Bella Vista",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Escudo_Club_Atl%C3%A9tico_Bella_Vista.png/250px-Escudo_Club_Atl%C3%A9tico_Bella_Vista.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Bella_Vista"
+  },
+  {
+    "club_name": "Sportivo Bella Italia",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/84744.png?lm=1687520381",
+    "city_country": "Mercedes, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Sportivo_Bella_Italia"
+  },
+  {
+    "club_name": "Canadian Soccer Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Escudo_Canadian_SC.svg/250px-Escudo_Canadian_SC.svg.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Canadian_Soccer_Club"
+  },
+  {
+    "club_name": "Club Deportivo Colonia",
+    "club_logo": "https://auf.org.uy/imagenes/img_contenido/club_club/a/depcoloniaescudiahwabnv.png",
+    "city_country": "Juan Lacaze, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Deportivo_Colonia"
+  },
+  {
+    "club_name": "Deportivo Italiano FC",
+    "club_logo": "https://auf.org.uy/imagenes/img_contenido/club_club/a/whatsapp_image_2022-06-06_at_1.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Deportivo_Italiano_Football_Club_del_Uruguay"
+  },
+  {
+    "club_name": "Durazno Fútbol Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Imagen_Durazno_FC_2022_v2.png/250px-Imagen_Durazno_FC_2022_v2.png",
+    "city_country": "Durazno, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Durazno_F%C3%BAtbol_Club"
+  },
+  {
+    "club_name": "Frontera Rivera Renegades FC",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/57882.png?lm=1724764164",
+    "city_country": "Rivera, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Frontera_Rivera_Renegades"
+  },
+  {
+    "club_name": "Huracán Buceo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/3/30/Hurac%C3%A1n_Buceo.nuevo.logo.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Social_y_Deportivo_Hurac%C3%A1n_Buceo"
+  },
+  {
+    "club_name": "Centro Atlético Lito",
+    "club_logo": "https://www.auf.org.uy/imagenes/img_contenido/club_club/a/theoriginalellitpap.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Centro_Atl%C3%A9tico_Lito"
+  },
+  {
+    "club_name": "Club Social y Deportivo Los Halcones",
+    "club_logo": "https://www.auf.org.uy/imagenes/img_contenido/club_club/a/lhalconsajwhabv.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Social_y_Deportivo_Los_Halcones"
+  },
+  {
+    "club_name": "Mar de Fondo FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Escudo_Mar_de_Fondo_FC.png/250px-Escudo_Mar_de_Fondo_FC.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Mar_de_Fondo_F%C3%BAtbol_Club"
+  },
+  {
+    "club_name": "CD Parque del Plata",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Escudo_moderno_Parque_del_Plata.png/120px-Escudo_moderno_Parque_del_Plata.png",
+    "city_country": "Parque del Plata, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Deportivo_Parque_del_Plata"
+  },
+  {
+    "club_name": "Institución Atlética Potencia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Escudo_Instituci%C3%B3n_Atl%C3%A9tica_Potencia.png/250px-Escudo_Instituci%C3%B3n_Atl%C3%A9tica_Potencia.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Instituci%C3%B3n_Atl%C3%A9tica_Potencia"
+  },
+  {
+    "club_name": "Club Atlético Platense (Uruguay)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Club_Atl%C3%A9tico_Platense_nuevo.png/250px-Club_Atl%C3%A9tico_Platense_nuevo.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Platense_(Uruguay)"
+  },
+  {
+    "club_name": "Rocha FC",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/18129.png?lm=1419587610",
+    "city_country": "Rocha, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rocha_F.C."
+  },
+  {
+    "club_name": "Salto FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Escudo_Salto_FC.png/250px-Escudo_Salto_FC.png",
+    "city_country": "Salto, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Salto_F%C3%BAtbol_Club"
+  },
+  {
+    "club_name": "Salus FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Escudo_de_Salus_FC.png/250px-Escudo_de_Salus_FC.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Salus_Football_Club"
+  },
+  {
+    "club_name": "CA Terremoto",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/3/35/CA_Terremoto.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Terremoto"
+  },
+  {
+    "club_name": "CSD Villa Española",
+    "club_logo": "https://www.auf.org.uy/imagenes/img_contenido/club_club/a/villa_espanola.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.S.D._Villa_Espa%C3%B1ola"
+  },
+  {
+    "club_name": "CA Villa Teresa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/C.A.V.T.png/250px-C.A.V.T.png",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Villa_Teresa"
+  },
+  {
+    "club_name": "Paysandú Fútbol Club",
+    "club_logo": "https://www.auf.org.uy/imagenes/img_contenido/club_club/a/paysafcesiawhabjnulo.png",
+    "city_country": "Paysandú, Uruguay",
+    "wiki_url": "https://es.wikipedia.org/wiki/Paysand%C3%BA_F%C3%BAtbol_Club"
   }
 ]
