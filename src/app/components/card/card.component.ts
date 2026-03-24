@@ -15,6 +15,7 @@ export class CardComponent implements OnInit {
 
   showBackToTop: boolean = false;
   isFadingOut: boolean = false;
+  isSuggestModalOpen: boolean = false;
 
   animatedClubsCount: number = 0;
 
@@ -364,5 +365,13 @@ export class CardComponent implements OnInit {
     (event.target as HTMLElement).classList.remove('is-dragging');
     this.draggedIndex = null;
     this.dragOverIndex = null;
+  }
+
+  openSuggestModal(): void {
+    this.isSuggestModalOpen = true;
+  }
+  
+  closeSuggestModal(): void {
+    this.isSuggestModalOpen = false;
   }
 }

@@ -12,7 +12,14 @@
            placeholder="Search by club or city" [(ngModel)]="searchTerm">
     <i *ngIf="searchTerm" class="w3-center fa fa-times clear-icon" (click)="clearSearch()"></i>
   </div>
+
+  <div class="w3-center w3-margin">
+    <a (click)="openSuggestModal()" style="cursor:pointer; font-size:14px; text-decoration:underline;">
+      Don't see your club?
+    </a>
+  </div>
 </div>
+
 
 <div class="action-container w3-margin">
 
@@ -145,6 +152,54 @@
   <button (click)="loadMore()" class="w3-btn w3-black w3-margin-top title-game" *ngIf="!searchTerm || selectedCountry">
     Load More
   </button>
+
+  <!-- Modal Sugerir Club -->
+<div *ngIf="isSuggestModalOpen" class="w3-modal" style="display:block;">
+  <div class="w3-modal-content w3-animate-zoom" style="max-width:500px; margin:auto;">
+
+    <header class="w3-container w3-center w3-black title-game">
+      <span (click)="closeSuggestModal()" class="w3-button w3-display-topright w3-black title-game">
+        <i class="fa fa-times"></i>
+      </span>
+      <h5>Add your Club</h5>
+    </header>
+
+    <div class="w3-container w3-padding">
+      <p>Send us the following info:</p>
+
+      <ul class="w3-ul" style="border:none;">
+        <li class="w3-padding-small">
+          <i class="fa fa-futbol w3-margin-right"></i>
+          <strong>Club Name</strong> — e.g. Los Angeles Galaxy
+        </li>
+        <li class="w3-padding-small">
+          <i class="fa fa-map-marker w3-margin-right"></i>
+          <strong>City, Country</strong> — e.g. Los Angeles, United States
+        </li>
+        <li class="w3-padding-small">
+          <i class="fa fa-image w3-margin-right"></i>
+          <strong>Logo</strong> — URL link or attach the image directly
+        </li>
+        <li class="w3-padding-small">
+          <i class="fa fa-link w3-margin-right"></i>
+          <strong>Info Link</strong> — Wikipedia, official website or social media
+        </li>
+      </ul>
+
+      <div class="w3-center w3-margin-top w3-margin-bottom">
+        
+          <a
+          href="mailto:robertinolirusso3@gmail.com?subject=Add%20My%20Club%20%E2%9A%BD&body=Hi%21%20I%27d%20like%20to%20suggest%20a%20club%20to%20be%20added%20to%20the%20site%3A%0A%0A%F0%9F%8F%9F%EF%B8%8F%20Club%20name%3A%20%0A%F0%9F%93%8D%20City%2C%20Country%3A%20%0A%F0%9F%96%BC%EF%B8%8F%20Logo%20(URL%20or%20attach%20the%20image)%3A%20%0A%F0%9F%94%97%20Wikipedia%2C%20website%20or%20social%20media%3A%20%0A%0AThanks%21"
+          class="w3-btn w3-black w3-margin-bottom title-game"
+          style="width:100%;">
+          <i class="fa fa-envelope"></i>
+          Send via Email
+        </a>
+        <small class="w3-text-grey">By clicking the button, your mail client will open with a pre-filled form — just fill in the fields and hit send!</small>      </div>
+    </div>
+
+  </div>
+</div>
 </div>
 
 <!-- Modal Club -->
