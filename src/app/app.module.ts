@@ -15,6 +15,7 @@ import { NgxImageZoomModule } from 'ngx-image-zoom';
 import { NationalTeamsComponent } from './pages/national-teams/national-teams.component';
 import { MapComponent } from './pages/map/map.component';
 import { ClubSearchComponent } from './pages/club-search/club-search.component';
+import { HangmanComponent } from './pages/hangman/hangman.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ClubSearchComponent } from './pages/club-search/club-search.component';
     NationalTeamsComponent,
     MapComponent,
     ClubSearchComponent,
+    HangmanComponent,
   ],
   imports: [
     BrowserModule,

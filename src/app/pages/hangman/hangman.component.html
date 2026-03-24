@@ -1,0 +1,98 @@
+<div class="container">
+
+  <app-header></app-header>
+
+
+  <div class="w3-container w3-center w3-card w3-margin-top w3-margin-bottom w3-animate-opacity">
+    <h2>
+      <i class="fas fa-font" style="margin-right: 4px;"></i>
+      Club Hangman
+    </h2>
+
+    <div *ngIf="clubs.length === 0" class="start-screen">
+      <p class="loading-msg">Loading clubs…</p>
+    </div>
+
+    <div *ngIf="clubs.length > 0 && !selectedClub" class="start-screen">
+      <button class="w3-btn w3-black w3-large" type="button" (click)="startGame()">
+        <i class="fas fa-play"></i> Start Game
+      </button>
+    </div>
+
+    <div class="lives-container" *ngIf="selectedClub && !showEndModal">
+      <i
+        *ngFor="let _ of [].constructor(maxLives); let i = index"
+        class="fas fa-heart"
+        [class.lost]="i >= lives">
+      </i>
+    </div>
+
+    <div class="game-layout" *ngIf="selectedClub && gameActive && !showEndModal">
+      <div class="hangman-panel">
+        <svg class="hangman-svg" viewBox="0 0 120 140" aria-hidden="true">
+          <line x1="10" y1="130" x2="90" y2="130" stroke="#fff" stroke-width="3" />
+          <line x1="30" y1="130" x2="30" y2="20" stroke="#fff" stroke-width="3" />
+          <line x1="30" y1="20" x2="85" y2="20" stroke="#fff" stroke-width="3" />
+          <line x1="85" y1="20" x2="85" y2="35" stroke="#fff" stroke-width="3" />
+          <circle *ngIf="wrongCount >= 1" cx="85" cy="45" r="10" fill="none" stroke="#fff" stroke-width="3" />
+          <line *ngIf="wrongCount >= 2" x1="85" y1="55" x2="85" y2="90" stroke="#fff" stroke-width="3" />
+          <line *ngIf="wrongCount >= 3" x1="85" y1="65" x2="65" y2="80" stroke="#fff" stroke-width="3" />
+          <line *ngIf="wrongCount >= 4" x1="85" y1="65" x2="105" y2="80" stroke="#fff" stroke-width="3" />
+          <line *ngIf="wrongCount >= 5" x1="85" y1="90" x2="70" y2="115" stroke="#fff" stroke-width="3" />
+          <line *ngIf="wrongCount >= 5" x1="85" y1="90" x2="100" y2="115" stroke="#fff" stroke-width="3" />
+        </svg>
+      </div>
+
+      <div class="play-panel">
+        <div class="hints">
+          <p class="hint-line">
+            <i class="fas fa-map-marker-alt"></i>
+            <strong>City:</strong> {{ getHintCity(selectedClub) }}
+          </p>
+          <p class="hint-line">
+            <i class="fas fa-globe"></i>
+            <strong>Country:</strong> {{ getHintCountry(selectedClub) }}
+          </p>
+        </div>
+
+        <div class="word-display" aria-live="polite">
+          <span
+            *ngFor="let ch of nameChars()"
+            class="char-slot"
+            [class.space-slot]="ch === ' '">
+            <ng-container *ngIf="ch === ' '">&nbsp;</ng-container>
+            <ng-container *ngIf="ch !== ' '">
+              {{ letterHint(ch) }}
+            </ng-container>
+          </span>
+        </div>
+
+        <div class="keyboard">
+          <button
+            *ngFor="let letter of alphabet"
+            type="button"
+            class="key-btn"
+            [disabled]="letterUsed(letter)"
+            (click)="guessLetter(letter)">
+            {{ letter }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" *ngIf="showEndModal && selectedClub" role="dialog" aria-modal="true" aria-labelledby="hangman-result-title">
+    <div class="modal-box">
+      <div class="modal-logo-wrap">
+        <img [src]="selectedClub.club_logo" [alt]="selectedClub.club_name" class="modal-logo" />
+      </div>
+      <h3 id="hangman-result-title" class="modal-club-name">{{ selectedClub.club_name }}</h3>
+      <p class="modal-msg">{{ gameWon ? 'You guessed it!' : 'Out of lives!' }}</p>
+      <button type="button" class="w3-btn w3-black modal-action" (click)="playAgainFromModal()">
+        <i class="fas fa-redo"></i> Play again
+      </button>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
+</div>
