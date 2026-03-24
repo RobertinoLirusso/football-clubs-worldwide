@@ -361,7 +361,7 @@
   },
   {
     "club_name": "Vancouver Whitecaps",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Vancouver_FC_logo.svg/250px-Vancouver_FC_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Vancouver_Whitecaps_logo.svg/250px-Vancouver_Whitecaps_logo.svg.png",
     "city_country": "Vancouver, Canada",
     "wiki_url": "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC"
   },
@@ -3241,7 +3241,7 @@
   },
   {
     "club_name": "Vancouver FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Vancouver_FC_logo.png/330px-Vancouver_FC_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Vancouver_FC_logo.svg/250px-Vancouver_FC_logo.svg.png",
     "city_country": "Vancouver, Canada",
     "wiki_url": "https://en.wikipedia.org/wiki/Vancouver_FC"
   },
@@ -7807,7 +7807,7 @@
     },
     {
         "club_name": "FK Sūduva",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/FK_Suduva_New_Logo.svg/250px-FK_Suduva_New_Logo.svg.png",
+        "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMbrUd95RjpHis82Mo8O4TNuknhhs92AENzz_90K5KdL2fuLi2n075kPM5uXeAjnlBfCGaDbvjKD-uNSPWZkTRSMAnFGai7zgeeFA0m-W_ypVMV7tq3tuuu5nWcxhQxuHC6fBkv1zNK5nrTwMICOUz1Y7_cQpeX4hk15ttsCollKMPYQRH2mJNbPtxbb0/w200-h200/FK%20Suduva.png",
         "city_country": "Marijampolė, Lithuania",
         "wiki_url": "https://en.wikipedia.org/wiki/FK_S%C5%ABduva"
     },
@@ -8755,7 +8755,7 @@
   },
   {
     "club_name": "Bahlinger SC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/BSC_Logo_rot_wei%E2%94%9C%C6%92.jpg/250px-BSC_Logo_rot_wei%E2%94%9C%C6%92.jpg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bahlinger_SC_logo.svg/250px-Bahlinger_SC_logo.svg.png",
     "city_country": "Bahlingen, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/Bahlinger_SC"
   },
@@ -9204,13 +9204,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Defensores_de_Belgrano"
   },
   {
-    "club_name": "Defensores Unidos",
+    "club_name": "Defensores Unidos de Zarate",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/CADU_zarate.png/120px-CADU_zarate.png",
     "city_country": "Zárate, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Defensores_Unidos"
   },
   {
-    "club_name": "Gimnasia y Tiro",
+    "club_name": "Gimnasia y Tiro (Salta)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Gimnasio_y_tiro_de_salta.png/120px-Gimnasio_y_tiro_de_salta.png",
     "city_country": "Salta, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Gimnasia_y_Tiro"
@@ -9403,7 +9403,7 @@
   },
   {
     "club_name": "CSKA Pamir Dushanbe",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/df/CSKA_Pamir_Dushanbe_logo.png",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/743.png?lm=1617474635",
     "city_country": "Dushanbe, Tajikistan",
     "wiki_url": "https://en.wikipedia.org/wiki/CSKA_Pamir_Dushanbe"
   },
@@ -13272,19 +13272,19 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Araz-Nax%C3%A7%C4%B1van_PFK"
   },
   {
-    "club_name": "Imishli",
+    "club_name": "Imishli FK",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Imishli_FK_logo.png/250px-Imishli_FK_logo.png",
     "city_country": "Imishli, Azerbaijan",
     "wiki_url": "https://en.wikipedia.org/wiki/Imishli_FK"
   },
   {
-    "club_name": "Kapaz",
+    "club_name": "Kapaz PFK",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Kapaz_PFK_logo.png/250px-Kapaz_PFK_logo.png",
     "city_country": "Ganja, Azerbaijan",
     "wiki_url": "https://en.wikipedia.org/wiki/Kapaz_PFK"
   },
   {
-    "club_name": "Karvan",
+    "club_name": "Karvan FK",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/FK_Karvan_Yevlax.png/250px-FK_Karvan_Yevlax.png",
     "city_country": "Yevlakh, Azerbaijan",
     "wiki_url": "https://en.wikipedia.org/wiki/Karvan_FK"
@@ -13735,19 +13735,19 @@
     },
       {
     "club_name": "Barkchi Hisor",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4e/Energetik_Dushanbe_Logo.png",
+    "club_logo": "https://static.flashscore.com/res/image/data/C8fSlf7R-zHEOqEJb.png",
     "city_country": "Hisor, Tajikistan",
     "wiki_url": "https://en.wikipedia.org/wiki/Barkchi_Hisor"
   },
   {
-    "club_name": "Eskhata",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e8/Eskhata_Khujand_logo.png",
+    "club_name": "Eskhata Khujand",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEiY-X8k99Ro5rT7RGukwUdLeLW0Rlc6uPdOUb2WDhlpgKojcVWZ72KOESDlQgX6xrRIL4dsijoyYe6XGcGK9rd19GauHD0JsVG362EBnZ9lobGTE0ptBm6ue9p-7-oNjGZhWsE_EeTzqw_04bNXgtwy6PPy_MHnRTNzN9YiGnqMJcc9jelziQ6Orr8Qa6c=w161-h200",
     "city_country": "Khujand, Tajikistan",
     "wiki_url": "https://en.wikipedia.org/wiki/Eskhata_Khujand"
   },
   {
     "club_name": "FK Istaravshan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Fkistaravshanlogo.jpg/250px-Fkistaravshanlogo.jpg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/FK_Istaravshan_logo.png/250px-FK_Istaravshan_logo.png",
     "city_country": "Istaravshan, Tajikistan",
     "wiki_url": "https://en.wikipedia.org/wiki/FK_Istaravshan"
   },
@@ -13789,13 +13789,13 @@
   },
   {
     "club_name": "FC Vakhsh Bokhtar",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/ac/FC_Khatlon_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/5/5a/%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%A4%D0%9A_%C2%AB%D0%92%D0%B0%D1%85%D1%88%C2%BB.png",
     "city_country": "Bokhtar, Tajikistan",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Khatlon"
   },
     {
     "club_name": "FC Parvoz-Aeroport Khujand",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Parvoz_Bobojon_Gafurov_FC_Logo.png/250px-Parvoz_Bobojon_Gafurov_FC_Logo.png",
+    "club_logo": "https://static.flashscore.com/res/image/data/lU67nk5R-xfGHBYTG.png",
     "city_country": "Khujand, Tajikistan",
     "wiki_url": "https://en.wikipedia.org/wiki/Parvoz_Bobojon_Ghafurov"
   },
@@ -17185,7 +17185,7 @@
     },
     {
       "club_name": "Belmopan FC",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Belmopan_FC_Logo_2025.png/250px-Belmopan_FC_Logo_2025.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Belmopan_FC.png/250px-Belmopan_FC.png",
       "city_country": "Belmopan, Belize",
       "wiki_url": "https://en.wikipedia.org/wiki/Belmopan_FC"
     },
@@ -19422,7 +19422,7 @@
     "wiki_url": "https://it.wikipedia.org/wiki/Aquila_1902_Montevarchi"
   },
   {
-    "club_name": "Prato",
+    "club_name": "AC Prato",
     "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/f/f7/AcPrato_stemma2021.png/250px-AcPrato_stemma2021.png",
     "city_country": "Prato, Italy",
     "wiki_url": "https://it.wikipedia.org/wiki/Associazione_Calcio_Prato"
@@ -21464,7 +21464,7 @@
   },
   {
     "club_name": "FC Kyrgyzaltyn",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/73/FC_Jayil-Baatyr.gif",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/6/6b/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A4%D0%9A_%C2%AB%D0%9A%D1%8B%D1%80%D0%B3%D1%8B%D0%B7%D0%B0%D0%BB%D1%82%D1%8B%D0%BD%C2%BB.png",
     "city_country": "Kara-Balta, Kyrgyzstan",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Kyrgyzaltyn"
   },
@@ -28119,7 +28119,7 @@
   },
   {
     "club_name": "Gimhae FC 2008",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Gimhae_FC_2008_New_Logo.svg/250px-Gimhae_FC_2008_New_Logo.svg.png",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/35761.png?lm=1770745683",
     "city_country": "Gimhae, South Korea",
     "wiki_url": "https://en.wikipedia.org/wiki/Gimhae_FC_2008"
   },
@@ -28161,7 +28161,7 @@
   },
   {
     "club_name": "Yongin FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Yongin_FC_Logo.svg/250px-Yongin_FC_Logo.svg.png",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/135830.png?lm=1760704452",
     "city_country": "Yongin, South Korea",
     "wiki_url": "https://en.wikipedia.org/wiki/Yongin_FC"
   },
@@ -28587,7 +28587,7 @@
   },
   {
     "club_name": "Xuan Thien Phu Tho FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Gia_Dinh_FC_logo.png/250px-Gia_Dinh_FC_logo.png",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/123560.png?lm=1758297593",
     "city_country": "Phu Tho, Vietnam",
     "wiki_url": "https://en.wikipedia.org/wiki/Xuan_Thien_Phu_Tho_FC"
   },
@@ -31716,5 +31716,197 @@
     "club_logo": "https://tmssl.akamaized.net//images/wappen/head/5472.png?lm=1468429088",
     "city_country": "Eppelborn, Germany",
     "wiki_url": "https://de.wikipedia.org/wiki/FV_Eppelborn"
+  },
+    {
+    "club_name": "SD Atlético Albericia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/SD_Atl%C3%A9tico_Albericia.png/250px-SD_Atl%C3%A9tico_Albericia.png",
+    "city_country": "Santander, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SD_Atl%C3%A9tico_Albericia"
+  },
+  {
+    "club_name": "CD Barquereño",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/CD_Barquere%C3%B1o.png/250px-CD_Barquere%C3%B1o.png",
+    "city_country": "San Vicente de la Barquera, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Barquere%C3%B1o"
+  },
+  {
+    "club_name": "CD Bezana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cd/CD_Bezana.png",
+    "city_country": "Santa Cruz de Bezana, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Bezana"
+  },
+  {
+    "club_name": "Unión Club Cartes",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/UC_Cartes_logo.png/250px-UC_Cartes_logo.png",
+    "city_country": "Cartes, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UC_Cartes"
+  },
+  {
+    "club_name": "Castro FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Castro_FC.png/250px-Castro_FC.png",
+    "city_country": "Castro Urdiales, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Castro_FC"
+  },
+  {
+    "club_name": "CD Cayón",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/CD_Cay%C3%B3n.png/250px-CD_Cay%C3%B3n.png",
+    "city_country": "Santa María de Cayón, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Cay%C3%B3n"
+  },
+  {
+    "club_name": "CD Colindres",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/CD_Colindres.png/250px-CD_Colindres.png",
+    "city_country": "Colindres, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Colindres"
+  },
+  {
+    "club_name": "UM Escobedo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/UM_Escobedo.png/250px-UM_Escobedo.png",
+    "city_country": "Escobedo de Camargo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UM_Escobedo"
+  },
+  {
+    "club_name": "Gimnástica de Torrelavega",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/RS_Gimn%C3%A1stica_de_Torrelavega.png/250px-RS_Gimn%C3%A1stica_de_Torrelavega.png",
+    "city_country": "Torrelavega, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gimn%C3%A1stica_de_Torrelavega"
+  },
+  {
+    "club_name": "Cultural Deportiva Guarnizo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c0/CD_Guarnizo.png",
+    "city_country": "Guarnizo & El Astillero, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Guarnizo"
+  },
+  {
+    "club_name": "CD Laredo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/CD_Laredo.png/250px-CD_Laredo.png",
+    "city_country": "Laredo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Laredo"
+  },
+  {
+    "club_name": "CD Montañas del Pas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/CD_Monta%C3%B1as_del_Pas.png/250px-CD_Monta%C3%B1as_del_Pas.png",
+    "city_country": "Corvera de Toranzo, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Monta%C3%B1as_del_Pas"
+  },
+  {
+    "club_name": "SD Noja",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/SD_Noja.png/250px-SD_Noja.png",
+    "city_country": "Noja, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SD_Noja"
+  },
+  {
+    "club_name": "CD Revilla",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/SD_Revilla_logo.png/250px-SD_Revilla_logo.png",
+    "city_country": "Revilla, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Revilla"
+  },
+  {
+    "club_name": "Selaya FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Selaya_FC.png/250px-Selaya_FC.png",
+    "city_country": "Selaya, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Selaya_FC"
+  },
+  {
+    "club_name": "SD Torina",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/SD_Torina_logo.png/250px-SD_Torina_logo.png",
+    "city_country": "Bárcena de Pie de Concha, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SD_Torina"
+  },
+  {
+    "club_name": "CD Tropezón",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/CD_Tropez%C3%B3n.png/250px-CD_Tropez%C3%B3n.png",
+    "city_country": "Tanos, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Tropez%C3%B3n"
+  },
+  {
+    "club_name": "CF Vimenor",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Shield_of_CF_Vimenor.png/250px-Shield_of_CF_Vimenor.png",
+    "city_country": "Vioño de Piélagos, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CF_Vimenor"
+  },
+  {
+    "club_name": "Atlético de Alagoinhas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/AA_Alagoinhas_-_BA.svg/250px-AA_Alagoinhas_-_BA.svg.png",
+    "city_country": "Alagoinhas, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Alagoinhas_Atl%C3%A9tico_Clube"
+  },
+  {
+    "club_name": "AD Bahia de Feira",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Associa%C3%A7%C3%A3o_Desportiva_Bahia_de_Feira.png/250px-Associa%C3%A7%C3%A3o_Desportiva_Bahia_de_Feira.png",
+    "city_country": "Feira de Santana, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Bahia_de_Feira"
+  },
+  {
+    "club_name": "Barcelona de Ilhéus FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Barcelona_de_Ilh%C3%A9us.png/250px-Barcelona_de_Ilh%C3%A9us.png",
+    "city_country": "Ilhéus, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Barcelona_Futebol_Clube"
+  },
+  {
+    "club_name": "Galícia Esporte Clube",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Gal%C3%ADcia_Esporte_Clube.png/250px-Gal%C3%ADcia_Esporte_Clube.png",
+    "city_country": "Salvador, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gal%C3%ADcia_Esporte_Clube"
+  },
+  {
+    "club_name": "EC Jacuipense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Esporte_Clube_Jacuipense.png/250px-Esporte_Clube_Jacuipense.png",
+    "city_country": "Riachão do Jacuípe, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Esporte_Clube_Jacuipense"
+  },
+  {
+    "club_name": "AD Jequié",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/44/AD_Jequi%C3%A9_logo.png",
+    "city_country": "Jequié, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Jequi%C3%A9"
+  },
+  {
+    "club_name": "SD Juazeirense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Sociedade_Desportiva_Juazeirense_2026.png/250px-Sociedade_Desportiva_Juazeirense_2026.png",
+    "city_country": "Juazeiro, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sociedade_Desportiva_Juazeirense"
+  },
+  {
+    "club_name": "Porto SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Porto_Sport_Club.png/250px-Porto_Sport_Club.png",
+    "city_country": "Porto Seguro, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Porto_Sport_Club"
+  },
+  {
+    "club_name": "Decisão Goiana FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Decis%C3%A3o_Goiana_Futebol_Clube.png/250px-Decis%C3%A3o_Goiana_Futebol_Clube.png",
+    "city_country": "Goiana, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Decis%C3%A3o_Goiana_Futebol_Clube"
+  },
+  {
+    "club_name": "AD Jaguar (PE)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Associa%C3%A7%C3%A3o_Desportiva_Jaboat%C3%A3o_dos_Guararapes.png/250px-Associa%C3%A7%C3%A3o_Desportiva_Jaboat%C3%A3o_dos_Guararapes.png",
+    "city_country": "Jaboatão dos Guararapes, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Jaboat%C3%A3o_dos_Guararapes"
+  },
+  {
+    "club_name": "AA Maguary",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Associa%C3%A7%C3%A3o_Atl%C3%A9tica_Maguary.png/250px-Associa%C3%A7%C3%A3o_Atl%C3%A9tica_Maguary.png",
+    "city_country": "Bonito, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Atl%C3%A9tica_Maguary"
+  },
+  {
+    "club_name": "Santa Cruz FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Santa_Cruz_Futebol_Clube_logo.svg/250px-Santa_Cruz_Futebol_Clube_logo.svg.png",
+    "city_country": "Recife, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Santa_Cruz_Futebol_Clube"
+  },
+  {
+    "club_name": "São Caetano Futebol",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/S%C3%A3o_Caetano_Futebol.png/250px-S%C3%A3o_Caetano_Futebol.png",
+    "city_country": "São Caetano do Sul, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Caetano_Futebol"
+  },
+  {
+    "club_name": "Vitória das Tabocas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/1/1e/AADVitoriaT.png",
+    "city_country": "Vitória de Santo Antão, Brazil",
+    "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Acad%C3%AAmica_e_Desportiva_Vit%C3%B3ria_das_Tabocas"
   }
 ]
