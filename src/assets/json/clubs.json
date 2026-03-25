@@ -18421,7 +18421,7 @@
   },
   {
     "club_name": "Deportes Concepción",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/CD_Concepci%C3%B3n_logo.jpg/250px-CD_Concepci%C3%B3n_logo.jpg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Escudo_Deportes_Concepci%C3%B3n.svg/250px-Escudo_Deportes_Concepci%C3%B3n.svg.png",
     "city_country": "Concepción, Chile",
     "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Concepci%C3%B3n_(Chile)"
   },
@@ -32166,5 +32166,107 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Associa%C3%A7%C3%A3o_Esportiva_Jataiense_2025%281%29.png/250px-Associa%C3%A7%C3%A3o_Esportiva_Jataiense_2025%281%29.png",
     "city_country": "Jataí, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Esportiva_Jataiense"
+  },
+  {
+    "club_name": "Deportes Puerto Montt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/51/Deportes_Puerto_Montt_logo.png",
+    "city_country": "Puerto Montt, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Puerto_Montt"
+  },
+  {
+    "club_name": "Deportes Colina",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiibjTjnYvT0NaQ3GsPv7jMIYpXOtEPhrffplSjl-aUYdcv9FBOtZWTfeBkc_FVgt5_mD_Xyk2FDKVZMtTlAbYjA_JOmD1EHiwxLdGAy9f2yKreHmrd4y-0mKeN7Au9OBsv7asAaeBtfJs/s1600/Deportes+Colina256x.png",
+    "city_country": "Colina, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Colina"
+  },
+  {
+    "club_name": "Club Brujas de Salamanca",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/49/Brujas_de_Salamanca_logo.png",
+    "city_country": "Salamanca, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brujas_de_Salamanca"
+  },
+  {
+    "club_name": "Colchagua CD",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/12-colchagua-cd.svg/250px-12-colchagua-cd.svg.png",
+    "city_country": "San Fernando, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Colchagua_CD"
+  },
+  {
+    "club_name": "CD Concón National",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Conc%C3%B3n_National.png/250px-Conc%C3%B3n_National.png",
+    "city_country": "Concón, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Conc%C3%B3n_National"
+  },
+  {
+    "club_name": "Deportes Linares",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Logo_Deportes_Linares.png/250px-Logo_Deportes_Linares.png",
+    "city_country": "Linares, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Linares"
+  },
+  {
+    "club_name": "Deportes Rengo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c8/Deportes_Rengo_logo.png",
+    "city_country": "Rengo, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Rengo"
+  },
+  {
+    "club_name": "CD General Velásquez",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/bb/General_Vel%C3%A1squez_logo.png",
+    "city_country": "San Vicente de Tagua Tagua, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/General_Vel%C3%A1squez"
+  },
+  {
+    "club_name": "CD Lota Schwager",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/19009.png?lm=1456614043",
+    "city_country": "Coronel, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lota_Schwager"
+  },
+  {
+    "club_name": "CD Provincial Osorno",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Provincial_Osorno.jpg/250px-Provincial_Osorno.jpg",
+    "city_country": "Osorno, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Provincial_Osorno"
+  },
+  {
+    "club_name": "Provincial Ovalle FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/15/Provincial_Ovalle_logo.png",
+    "city_country": "Ovalle, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Provincial_Ovalle"
+  },
+  {
+    "club_name": "CD Real Juventud San Joaquín",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Real_Juventud_San_Joaqu%C3%ADn_logo.png/250px-Real_Juventud_San_Joaqu%C3%ADn_logo.png",
+    "city_country": "Santiago, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Real_Juventud_San_Joaqu%C3%ADn"
+  },
+  {
+    "club_name": "Santiago City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e1/Santiago_City_FC_crest.png",
+    "city_country": "Santiago, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Santiago_City_FC"
+  },
+  {
+    "club_name": "CD Trasandino de Los Andes",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/ae/Trasandino_de_Los_Andes_logo.png",
+    "city_country": "Los Andes, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Trasandino_de_Los_Andes"
+  },
+  {
+    "club_name": "Deportes Valdivia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Deportes_Valdivia_700px.png/250px-Deportes_Valdivia_700px.png",
+    "city_country": "Valdivia, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Valdivia"
+  },
+  {
+    "club_name": "CD Arturo Fernández Vial",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1d/Club_Deportivo_Ferroviario_Almirante_Arturo_Fern%C3%A1ndez_Vial_logo.png",
+    "city_country": "Concepción, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Arturo_Fern%C3%A1ndez_Vial"
+  },
+  {
+    "club_name": "AC Barnechea",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Athletic_Club_Barnechea.PNG/250px-Athletic_Club_Barnechea.PNG",
+    "city_country": "Santiago, Chile",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.C._Barnechea"
   }
 ]
