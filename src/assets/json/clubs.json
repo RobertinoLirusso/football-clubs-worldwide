@@ -32102,7 +32102,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/ACD_San_Marcial"
   },
   {
-    "club_name": "Varea",
+    "club_name": "CD Varea",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/CD_Varea.png/250px-CD_Varea.png",
     "city_country": "Varea, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Varea"
@@ -32111,7 +32111,7 @@
     "club_name": "CD Villegas",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/CD_Villegas.png/250px-CD_Villegas.png",
     "city_country": "Logroño, Spain",
-    "wiki_url": ""
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Villegas"
   },
   {
     "club_name": "Yagüe CF",
@@ -32538,5 +32538,299 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Mariscal_Santa_Cruz_Bolivia.png/250px-Mariscal_Santa_Cruz_Bolivia.png",
     "city_country": "La Paz, Bolivia",
     "wiki_url": "https://en.wikipedia.org/wiki/Mariscal_Santa_Cruz"
+  },
+    {
+    "club_name": "MFK Chrudim",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/MFK_Chrudim%2C_logo_2025.png/250px-MFK_Chrudim%2C_logo_2025.png",
+    "city_country": "Chrudim, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/MFK_Chrudim"
+  },
+  {
+    "club_name": "FC Silon Táborsko",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/FC_Silon_T%C3%A1borsko_logo.svg/250px-FC_Silon_T%C3%A1borsko_logo.svg.png",
+    "city_country": "Tábor, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Silon_T%C3%A1borsko"
+  },
+  {
+    "club_name": "FC Sellier & Bellot Vlašim",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/72/FC_Sellier_%26_Bellot_Vla%C5%A1im.png",
+    "city_country": "Vlašim, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Sellier_%26_Bellot_Vla%C5%A1im"
+  },
+  {
+    "club_name": "FC Vysočina Jihlava",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/FC_Vyso%C4%8Dina_Jihlava.png/250px-FC_Vyso%C4%8Dina_Jihlava.png",
+    "city_country": "Jihlava, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Vyso%C4%8Dina_Jihlava"
+  },
+  {
+    "club_name": "FK Viagem Ústí nad Labem",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/FK_VIAGEM_Usti_nad_Labem_logo.png/250px-FK_VIAGEM_Usti_nad_Labem_logo.png",
+    "city_country": "Ústí nad Labem, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Viagem_%C3%9Ast%C3%AD_nad_Labem"
+  },
+  {
+    "club_name": "SK Hanácká Slavia Kroměříž",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/63/SK_Hanacka_Slavia_Kromeriz_logo.png",
+    "city_country": "Kroměříž, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Han%C3%A1ck%C3%A1_Slavia_Krom%C4%9B%C5%99%C3%AD%C5%BE"
+  },
+  {
+    "club_name": "FK Varnsdorf",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ee/SK_Slovan_Varnsdorf_logo.png",
+    "city_country": "Varnsdorf, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Varnsdorf"
+  },
+  {
+    "club_name": "MFK Vyškov",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3f/MFK_Vyskov%2C_Czech_football_club%2C_logo.png",
+    "city_country": "Vyškov, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/MFK_Vy%C5%A1kov"
+  },
+  {
+    "club_name": "Lokomotiva Brno Horní Heršpice",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/3/31/Lokomotiva_Brno_Horn%C3%AD_Her%C5%A1pice_emblema.png",
+    "city_country": "Brno, Czech Republic",
+    "wiki_url": "https://lt.wikipedia.org/wiki/Lokomotiva_Brno_Horn%C3%AD_Her%C5%A1pice_(moterys)"
+  },
+  {
+    "club_name": "FC Praha",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/1/15/FC_Praha_emblema.png/250px-FC_Praha_emblema.png",
+    "city_country": "Prague, Czech Republic",
+    "wiki_url": "https://cs.wikipedia.org/wiki/FC_Praha"
+  },
+  {
+    "club_name": "TJ Start Brno",
+    "club_logo": "https://www.start-brno.cz/images/logo-tj-start-brno.png",
+    "city_country": "Brno, Czech Republic",
+    "wiki_url": "https://cs.wikipedia.org/wiki/TJ_Start_Brno"
+  },
+  {
+    "club_name": "FC Vsetín",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/big/19030.png?lm=1504624317",
+    "city_country": "Vsetín, Czech Republic",
+    "wiki_url": "https://cs.wikipedia.org/wiki/FC_Vset%C3%ADn"
+  },
+  {
+    "club_name": "FC Slovan Rosice",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/99/FC_Slovan_Rosice_logo.png",
+    "city_country": "Rosice, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Slovan_Rosice"
+  },
+  {
+    "club_name": "FK SK Polanka nad Odrou",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/18965.png?lm=1569326748",
+    "city_country": "Ostrava, Czech Republic",
+    "wiki_url": "https://cs.wikipedia.org/wiki/FK_SK_Polanka_nad_Odrou"
+  },
+  {
+    "club_name": "FC Zlínsko",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/44559.png?lm=1712959637",
+    "city_country": "Otrokovice, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Zl%C3%ADnsko"
+  },
+  {
+    "club_name": "TJ Jiskra Domažlice",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/90/TJ_Jiskra_Doma%C5%BElice_logo.png",
+    "city_country": "Domažlice, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/TJ_Jiskra_Doma%C5%BElice"
+  },
+  {
+    "club_name": "SK Kladno",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/SK_Kladno.png/250px-SK_Kladno.png",
+    "city_country": "Kladno, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Kladno"
+  },
+  {
+    "club_name": "FK Motorlet Prague",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/SK_Motorlet_Prague_logo.png/250px-SK_Motorlet_Prague_logo.png",
+    "city_country": "Prague, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Motorlet_Prague"
+  },
+  {
+    "club_name": "FC Písek",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/FC_P%C3%ADsek_logo.svg/250px-FC_P%C3%ADsek_logo.svg.png",
+    "city_country": "Písek, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_P%C3%ADsek"
+  },
+  {
+    "club_name": "FK Admira Prague",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0e/FK_Admira_Prague_logo.gif",
+    "city_country": "Prague, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Admira_Prague"
+  },
+  {
+    "club_name": "Sokol Hostouň",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Logo_SH_xx.png/250px-Logo_SH_xx.png",
+    "city_country": "Hostouň, Czech Republic",
+    "wiki_url": "https://cs.wikipedia.org/wiki/Sokol_Hostou%C5%88"
+  },
+  {
+    "club_name": "FK Loko Praha",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/FK_Loko_Praha_logo.png/250px-FK_Loko_Praha_logo.png",
+    "city_country": "Prague, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Loko_Prague"
+  },
+  {
+    "club_name": "SK Petřín Plzeň",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/64008.png?lm=1548268068",
+    "city_country": "Plzeň, Czech Republic",
+    "wiki_url": "https://cs.wikipedia.org/wiki/SK_Pet%C5%99%C3%ADn_Plze%C5%88"
+  },
+  {
+    "club_name": "SK Aritma Praha",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/d/d4/SK_Aritma_Prague_logo.gif",
+    "city_country": "Prague, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Aritma_Prague"
+  },
+  {
+    "club_name": "FK Králův Dvůr",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/82/FK_Kr%C3%A1l%C5%AFv_Dv%C5%AFr_logo.png",
+    "city_country": "Králův Dvůr, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Kr%C3%A1l%C5%AFv_Dv%C5%AFr"
+  },
+  {
+    "club_name": "SK Zápy",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/SK_Z%C3%A1py_logo.png",
+    "city_country": "Zápy, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Z%C3%A1py"
+  },
+  {
+    "club_name": "SK Sokol Brozany",
+    "club_logo": "https://images.seeklogo.com/logo-png/43/2/sk-sokol-brozany-2022-logo-png_seeklogo-434294.png",
+    "city_country": "Brozany, Czech Republic",
+    "wiki_url": "https://cs.wikipedia.org/wiki/SK_Sokol_Brozany"
+  },
+  {
+    "club_name": "TJ Jiskra Ústí nad Orlicí",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fb/TJ_Jiskra_%C3%9Ast%C3%AD_nad_Orlic%C3%AD_logo.png",
+    "city_country": "Ústí nad Orlicí, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/TJ_Jiskra_%C3%9Ast%C3%AD_nad_Orlic%C3%AD"
+  },
+  {
+    "club_name": "FK Arsenal Česká Lípa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/FK_Arsenal_Ceska_Lipa%2C_Czech_football_club%2C_logo.png/250px-FK_Arsenal_Ceska_Lipa%2C_Czech_football_club%2C_logo.png",
+    "city_country": "Česká Lípa, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Arsenal_%C4%8Cesk%C3%A1_L%C3%ADpa"
+  },
+  {
+    "club_name": "FK Baník Most 1909 (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logobanik.png",
+    "city_country": "Most, Czech Republic",
+    "wiki_url": "https://cs.wikipedia.org/wiki/FK_Ban%C3%ADk_Most_1909"
+  },
+  {
+    "club_name": "TJ Slovan Velvary",
+    "club_logo": "https://www.sportmap.cz/sport/fotbal/sport-klub/tj-slovan-velvary.png",
+    "city_country": "Velvary, Czech Republic",
+    "wiki_url": "https://www.instagram.com/explore/locations/180345039265316/tj-slovan-velvary/"
+  },
+  {
+    "club_name": "FK Baník Most-Souš",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/84919.png?lm=1618089263",
+    "city_country": "Most, Czech Republic",
+    "wiki_url": "https://cs.wikipedia.org/wiki/FK_Ban%C3%ADk_Most-Sou%C5%A1"
+  },
+  {
+    "club_name": "SK Sparta Kolín",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/SK_Sparta_Kolin_logo.png/250px-SK_Sparta_Kolin_logo.png",
+    "city_country": "Kolín, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Sparta_Kol%C3%ADn"
+  },
+  {
+    "club_name": "SK Benátky nad Jizerou",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c2/SK_Benatky_nad_Jizerou%2C_Czech_football_club%2C_logo_2025.png",
+    "city_country": "Benátky nad Jizerou, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Ben%C3%A1tky_nad_Jizerou"
+  },
+  {
+    "club_name": "FK Neratovice-Byškovice",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/FK_Neratovice-Byskovice%2C_logo.png/250px-FK_Neratovice-Byskovice%2C_logo.png",
+    "city_country": "Neratovice, Czech Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Neratovice-By%C5%A1kovice"
+  },
+  {
+    "club_name": "FK Velké Hamry 1911",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/67537.png?lm=1534801378",
+    "city_country": "Velké Hamry, Czech Republic",
+    "wiki_url": "https://www.fkvelkehamry.cz/"
+  },
+  {
+    "club_name": "Atlético Pulpileño",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/da/CA_Pulpile%C3%B1o.png/250px-CA_Pulpile%C3%B1o.png",
+    "city_country": "Pulpí, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CA_Pulpile%C3%B1o"
+  },
+  {
+    "club_name": "Atlético Santa Cruz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/82/Atl%C3%A9tico_Santa_Cruz.png",
+    "city_country": "Murcia, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Santa_Cruz"
+  },
+  {
+    "club_name": "CD Bala Azul",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Bala_Azul.png/250px-Bala_Azul.png",
+    "city_country": "Mazarrón, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Bala_Azul"
+  },
+  {
+    "club_name": "UD Caravaca",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/af/UD_Caravaca.png",
+    "city_country": "Caravaca de la Cruz, Spain",
+    "wiki_url": "https://upload.wikimedia.org/wikipedia/en/a/af/UD_Caravaca.png"
+  },
+  {
+    "club_name": "CD Cieza",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/CD_Cieza.png/250px-CD_Cieza.png",
+    "city_country": "Cieza, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Cieza"
+  },
+  {
+    "club_name": "Deportivo Marítimo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Deportivo_Mar%C3%ADtimo.png/250px-Deportivo_Mar%C3%ADtimo.png",
+    "city_country": "Cartagena, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Mar%C3%ADtimo"
+  },
+  {
+    "club_name": "El Palmar CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/82/ElPalmarCF.png",
+    "city_country": "El Palmar, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/El_Palmar_CF"
+  },
+  {
+    "club_name": "Mazarrón FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Mazarr%C3%B3n_FC.png/250px-Mazarr%C3%B3n_FC.png",
+    "city_country": "Mazarrón, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mazarr%C3%B3n_FC"
+  },
+  {
+    "club_name": "SFC Minerva",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/SFC_Minerva_logo.png/250px-SFC_Minerva_logo.png",
+    "city_country": "Alumbres, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/SFC_Minerva"
+  },
+  {
+    "club_name": "CF Muleño",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Mule%C3%B1o_CF.png/250px-Mule%C3%B1o_CF.png",
+    "city_country": "Mula, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mule%C3%B1o_CF"
+  },
+  {
+    "club_name": "Club Olímpico de Totana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/CO_Totana.png/250px-CO_Totana.png",
+    "city_country": "Totana, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Ol%C3%ADmpico_de_Totana"
+  },
+  {
+    "club_name": "Santomera CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Santomera_CF.png/250px-Santomera_CF.png",
+    "city_country": "Santomera, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Santomera_CF"
+  },
+  {
+    "club_name": "Unión Molinense CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Uni%C3%B3n_Molinense_CF.png/250px-Uni%C3%B3n_Molinense_CF.png",
+    "city_country": "Molina de Segura, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Uni%C3%B3n_Molinense_CF"
   }
 ]
