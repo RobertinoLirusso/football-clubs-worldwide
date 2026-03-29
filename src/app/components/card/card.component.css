@@ -33,12 +33,7 @@
     height: 40px;
     min-width: 140px;
   }
-  
-  
-  /* ============================================================
-     CARD
-     ============================================================ */
-  
+    
 /* ============================================================
    CARD
    ============================================================ */
@@ -447,5 +442,61 @@
       font-size: 14px;
       padding: 12px 35px 12px 35px;
       min-width: 100%;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+    /* En tablet/mobile el drag no escala para evitar saltos visuales */
+    .card.is-dragging {
+      opacity: 0.4;
+      transform: scale(0.97);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      cursor: grabbing;
+    }
+  
+    .card.drag-over {
+      transform: scale(1.03); /* más suave que el 1.06 de desktop */
+      box-shadow: 0 0 0 2px #111, 0 4px 16px rgba(0, 0, 0, 0.2);
+      background-image:
+        linear-gradient(#ffffff, #ffffff),
+        linear-gradient(90deg, #000000 0%, #ffffff 50%, #000000 100%);
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .card.is-dragging {
+      opacity: 0.45;
+      transform: scale(0.98); /* casi sin escala en mobile */
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    }
+  
+    .card.drag-over {
+      transform: scale(1.02);
+      box-shadow: 0 0 0 2px #333, 0 3px 10px rgba(0, 0, 0, 0.18);
+    }
+  }
+  
+  @media (max-width: 480px) {
+  
+    /* En mobile pequeño: sin transform, solo feedback visual por color/sombra */
+    .card.is-dragging {
+      opacity: 0.5;
+      transform: none;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+  
+    .card.drag-over {
+      transform: none;
+      box-shadow: 0 0 0 3px #000;
+      background-image:
+        linear-gradient(#f5f5f5, #f5f5f5),
+        linear-gradient(90deg, #000000 0%, #ffffff 50%, #000000 100%);
+      background-origin: border-box;
+      background-clip: content-box, border-box;
     }
   }
