@@ -61,7 +61,7 @@ export class NationalTeamsComponent implements OnInit {
   }
 
   loadNationalTeams(): void {
-    this.http.get<any[]>('assets/json/national_teams.json').subscribe({
+    this.http.get<any[]>('/assets/json/national_teams.json').subscribe({
       next: (data) => {
         // Ordenar de A a Z por el campo "club_name"
         this.teams = data.sort((a, b) => a.club_name.localeCompare(b.club_name));
