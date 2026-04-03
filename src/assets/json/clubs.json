@@ -3930,7 +3930,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_T%C3%A1chira_FC"
   },
   {
-    "club_name": "Zamora",
+    "club_name": "Zamora FC",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7QTInv1Rs10Y0-KIRDVSkZ5RV4L1Lpu5uR8LQ1PPMEF0i-510QC1_UKvo0L8oGpRZoFvXN0vNI0k9Koa6jz5mVPvVliYj3h1KdeTqct8COZS3tGY5BzPQxmXjc2XWOCP2VlCQBoC1eE0/s1600/Zamora+FC256x.png",
     "city_country": "Barinas, Venezuela",
     "wiki_url": "https://en.wikipedia.org/wiki/Zamora_FC"
@@ -14910,7 +14910,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Anzo%C3%A1tegui_F.C."
   },
   {
-    "club_name": "Carabobo",
+    "club_name": "Carabobo FC",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnonBcrJFKBtQ5PahEdpY_mnG3-FMkY4LdtU9KXkgFU1bz5TKhKp5K0HoqSypWSh-OQ8lJ8dZlt5ZY3G14-8VgSqpDjVr8THAkRVFHywWkYthyeDVFNJ5UubzTPuM8KXbRgTVH2CJD-fg/",
     "city_country": "Valencia, Venezuela",
     "wiki_url": "https://en.wikipedia.org/wiki/Carabobo_F.C."
@@ -14922,7 +14922,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Estudiantes_de_M%C3%A9rida_F.C."
   },
   {
-    "club_name": "Metropolitanos",
+    "club_name": "Metropolitanos FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Metropolitanos_FC.png/250px-Metropolitanos_FC.png",
     "city_country": "Caracas, Venezuela",
     "wiki_url": "https://en.wikipedia.org/wiki/Metropolitanos_F.C."
@@ -14934,19 +14934,19 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Monagas_S.C."
   },
   {
-    "club_name": "Portuguesa",
+    "club_name": "Portuguesa FC",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjREY3d188frDysTnkgWZnJQFR11bNXwvQ_l_WbyOdrkwAp8XC2WjKXXvKYCIt4RDalq4YRNWwua7SvX6XD9lWWNF23t_VCqXGhtL0JLLrY3VYlYlGjlruXJzc6PCBaHeMTUO4OisqUBKw/s1600/Portuguesa+FC256x.png",
     "city_country": "Acarigua, Venezuela",
     "wiki_url": "https://en.wikipedia.org/wiki/Portuguesa_F.C."
   },
   {
-    "club_name": "Rayo Zuliano",
+    "club_name": "Deportivo Rayo Zuliano",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Deportivo_Rayo_Zuliano.png/250px-Deportivo_Rayo_Zuliano.png",
     "city_country": "Maracaibo, Venezuela",
     "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Rayo_Zuliano"
   },
   {
-    "club_name": "Universidad Central",
+    "club_name": "Universidad Central de Venezuela FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Universidad_Central_FC.png/250px-Universidad_Central_FC.png",
     "city_country": "Caracas, Venezuela",
     "wiki_url": "https://en.wikipedia.org/wiki/Universidad_Central_de_Venezuela_F.C."
@@ -14964,7 +14964,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Boston_River"
   },
   {
-    "club_name": "Cerro",
+    "club_name": "CA Cerro",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/CACerro_logo.png/250px-CACerro_logo.png",
     "city_country": "Montevideo, Uruguay",
     "wiki_url": "https://en.wikipedia.org/wiki/C.A._Cerro"
@@ -24381,7 +24381,7 @@
   },
   {
     "club_name": "AC Semassi FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/c/c0/AC_Semassi_emblema.png",
+    "club_logo": "https://cdn.plus.fifa.com/images/public/cms/b9/0e/02/1c/b90e021c-06b4-4121-9c52-eb6e153da699.png",
     "city_country": "Sokodé, Togo",
     "wiki_url": "https://en.wikipedia.org/wiki/AC_Semassi_FC"
   },
@@ -33780,5 +33780,161 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/lt/3/3d/CD_Matola_emblema.png",
     "city_country": "Matola, Mozambique",
     "wiki_url": "https://www.facebook.com/p/Clube-Desportivo-Da-Matola-100057384409568/"
+  },
+  {
+    "club_name": "ASC Kozah",
+    "club_logo": "https://asck.tg/wp-content/uploads/2019/05/cropped-ASCK-LOGO-1-1-300x300.png",
+    "city_country": "Kara, Togo",
+    "wiki_url": "https://www.facebook.com/ascktogo"
+  },
+  {
+    "club_name": "AS Gbohloé-su des Lacs",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/9/90/AS_Gbohlo%C3%A9-Su_des_Lacs.png",
+    "city_country": "Aného, Togo",
+    "wiki_url": "https://www.facebook.com/p/As-Gbohloe-Su-des-Lacs-100076297752221/"
+  },
+  {
+    "club_name": "Entente II FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/d/d8/Entente_II.png/250px-Entente_II.png",
+    "city_country": "Lomé, Togo",
+    "wiki_url": "https://www.facebook.com/entente2/?locale=es_LA"
+  },
+  {
+    "club_name": "AS OTR de Lomé",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/70023.png?lm=1538950680",
+    "city_country": "Lomé, Togo",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_OTR_Lom%C3%A9"
+  },
+  {
+    "club_name": "ASKO de Kara",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/b/b3/ASKO_Kara_emblema.png",
+    "city_country": "Kara, Togo",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASKO_Kara"
+  },
+  {
+    "club_name": "Espoir FC de Tsévié",
+    "club_logo": "https://cdn.plus.fifa.com/images/public/cms/87/ce/d2/19/87ced219-9886-4afc-ab63-4c797611aa13.png",
+    "city_country": "Tsévié, Togo",
+    "wiki_url": "https://www.facebook.com/fcespoirdezio/"
+  },
+  {
+    "club_name": "Gomido FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/4f/Gomido_Football_Club_%28logo%29.svg/langfr-250px-Gomido_Football_Club_%28logo%29.svg.png",
+    "city_country": "Kpalimé, Togo",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gomido_FC"
+  },
+  {
+    "club_name": "Unisport FC de Sokodé",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/92824.png?lm=1630415565",
+    "city_country": "Sokodé, Togo",
+    "wiki_url": "https://www.facebook.com/UnisportkouloumdeOfficiel"
+  },
+  {
+    "club_name": "AS Tambo Lomé",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/5/52/Tambo_FC.png",
+    "city_country": "Lomé, Togo",
+    "wiki_url": "https://www.tambo-football.com/eng/presentation/tambo/football/club"
+  },
+  {
+    "club_name": "AS Binah",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/a/ae/Binah_FC.png",
+    "city_country": "Pagouda, Togo",
+    "wiki_url": "https://asbinah.com/"
+  },
+  {
+    "club_name": "Athletic Club Barracuda",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/19712.png?lm=1706128219",
+    "city_country": "Lomé, Togo",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Togo-Port"
+  },
+  {
+    "club_name": "Étoile Filante du Togo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/7/71/%C3%89toile_Filante_de_Lom%C3%A9_%28logo%29.svg/langfr-250px-%C3%89toile_Filante_de_Lom%C3%A9_%28logo%29.svg.png",
+    "city_country": "Lomé, Togo",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%89toile_Filante_du_Togo"
+  },
+  {
+    "club_name": "Dynamic Togolais",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/1/18/Dynamic_Togolais_RGW_emblema.png/250px-Dynamic_Togolais_RGW_emblema.png",
+    "city_country": "Lomé, Togo",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dynamic_Togolais"
+  },
+  {
+    "club_name": "Atlético El Vigía FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvwlVUy4wQ8mNtt-UBigXgSzVo8ktUS_7OtS_yUb5CzuS_XpIVfvflBUloB_2ZYw62-YkMAnagWHW7CWN4ZOv71eLR0nxf4t4mv3WTSkh4ZWmK7UKg67aVoudoQ9PK5mUq4rOa2MJTT-V-zNyGtMNNk6UwF1oRDgr6J6YPRmO6eY31yHdIVsV7Lw82nYU/s1600/El%20Vig%C3%ADa%20FC256x.png",
+    "city_country": "El Vigía, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_El_Vig%C3%ADa_F.C."
+  },
+  {
+    "club_name": "Barquisimeto Sport Club",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3opXvDY5UdDfPikJ0Qwd7Mgyvfu-z6wyuoX0icNgNrQxOfF_BCt1BBRRLqxWgEkRNWw_DzuNsNYUPkqHKl4N2DPGVTyqpIcly4Tq7SBcEwhPCOkdyWOaBCHVjHAwxOGrvLLVRBXnYLdDMhRw5wYZPEAfAzPtKq_Hq1DZAPdLfQAJE0SAfEOmK4Y4uAUA/s1600/Barquisimeto%20SC256x.png",
+    "city_country": "Barquisimeto, Venezuela",
+    "wiki_url": "https://www.instagram.com/bqto.sc/"
+  },
+  {
+    "club_name": "Deportivo Lara",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/A.C.D._Lara.png/250px-A.C.D._Lara.png",
+    "city_country": "Barquisimeto, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Asociaci%C3%B3n_Civil_Deportivo_Lara"
+  },
+  {
+    "club_name": "Real Frontera SC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfW2J7Ws6LhwfwIP9Kn92zNSF_eWf0yNMTiOx2iJ3IQnFdytvizcKXXaYfn4-5tbIClmjED1knh0JCPQzo4UvcOjfsaI7UtCCNyn1UmicaG5MjUYjZXsR2G1gDVp72UPu_LqyhNwktaHwOLd9xtb04qo4gZXnIV0rAsX0xlJ_QhTdQTri9yN7j96HuRvk/s1600/Real%20Frontera%20SC256x.png",
+    "city_country": "San Cristóbal, Venezuela",
+    "wiki_url": "https://es.wikipedia.org/wiki/Real_Frontera_Sport_Club"
+  },
+  {
+    "club_name": "Ureña Sport Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Ure%C3%B1a_SC_logo.png/250px-Ure%C3%B1a_SC_logo.png",
+    "city_country": "Ureña, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ure%C3%B1a_S.C."
+  },
+  {
+    "club_name": "Inter de Barinas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Inter_de_Barinas.png/250px-Inter_de_Barinas.png",
+    "city_country": "Barinas, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Inter_de_Barinas"
+  },
+  {
+    "club_name": "Trujillanos FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Trujillanos_FC.png/250px-Trujillanos_FC.png",
+    "city_country": "Valera, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Trujillanos_F.C."
+  },
+    {
+    "club_name": "Ávila FC",
+    "club_logo": "https://imagecache.365scores.com/image/upload/f_png,w_250,h_250,c_limit,q_auto:eco,d_Competitors:default1.png/v2/Competitors/94038",
+    "city_country": "Caracas, Venezuela",
+    "wiki_url": "https://www.instagram.com/avila.futbolclub/"
+  },
+  {
+    "club_name": "Aragua FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQthLb-TK3UnNYq1eiwf6uzf9TrQwFYqhbOznj2RF-rQFk5Ur6sqqcnj2xNJbSUZnfqAWF66RioC1Qx7D0UocGuPmCxtyyYfFjfQKMRD1u9IedkD3QI1mwLT1DkWRVI9aTQ1y_aoduOWY/s1600/Aragua+FC256x.png",
+    "city_country": "Maracay, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aragua_F.C."
+  },
+  {
+    "club_name": "Bolívar Sports Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Bol%C3%ADvar_SC_logo.png/250px-Bol%C3%ADvar_SC_logo.png",
+    "city_country": "Ciudad Bolívar, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bol%C3%ADvar_S.C."
+  },
+  {
+    "club_name": "Deportivo Miranda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Deportivo_Miranda_FC.png/250px-Deportivo_Miranda_FC.png",
+    "city_country": "Caracas, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Miranda_F.C."
+  },
+  {
+    "club_name": "Dynamo Puerto FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO_r-oPq1ESIPO3JQwePSWqZlTmaawuP6UzRBFqyKCtRPhof12yQXekTQVbCkMvnvWa4SY2aFiol1phSeEk3Y16PeEj4GtHguTO0m_btZlW00Kzkbyd48EPXwuz5rLA0M-0pMPZhDfeIw3d6FedPAuIgbZrugc0MJch73U-NGFVHSFVzYakJcJpXvGFYs/s1600/Dynamo%20Puerto%20FC256x.png",
+    "city_country": "Puerto La Cruz, Venezuela",
+    "wiki_url": "https://es.wikipedia.org/wiki/Dynamo_Puerto_F%C3%BAtbol_Club"
+  },
+  {
+    "club_name": "CS Marítimo de La Guaira",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/CS_Mar%C3%ADtimo_de_La_Guaira.png/250px-CS_Mar%C3%ADtimo_de_La_Guaira.png",
+    "city_country": "La Guaira, Venezuela",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.S._Mar%C3%ADtimo_de_La_Guaira"
   }
 ]
