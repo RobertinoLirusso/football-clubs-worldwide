@@ -997,7 +997,7 @@
   },
   {
     "club_name": "Boca Juniors",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisayl-NwbPrg1fTSJCIWpgimladTYr8qqpD6yKtliAiBF5IOXQO3yugg9QIidZ_4GLvPcd616sI5AJJWcG7ovwMmUzN1pRX-I17wno8QB23RtKzfBJv-s5d5C-RyImYnznPgYiSjaqMHxsXkS8AVwG0W8qqLG9906phkGUv2mhg6Wvq4hBlH3Apy08T9s/s256/Boca%20Juniors256x.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEiwtt30Y604Z7PIP8ibsz6jsjbqgPNUgaHurjOKeBl9wwdyWpYXBAGVaUjQNExrcJs7aiLuHZOL-TViev2rcKE3-ZUMr2j-F8asyg5sXGla8w1YO0jMmUJ77n5RBLK5n6xPeTQnaz1iwGV2A09a8dvqggKnNZUPWNIwpQcdpAsBRTAsF0Mkrb0vrdjTJDs=w269-h320",
     "city_country": "Buenos Aires, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Boca_Juniors"
   },
@@ -2983,7 +2983,7 @@
   },
   {
     "club_name": "Yokohama F. Marinos",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC-XKen8KNgLMpHYUTwFvdGJ6X9qrt4Z0a9fpBKgn61LcwsCCBWoeBNpIbtfylLpUkqsgnkzGcpXkxGmuNE-yiRCztLY_PYqZQSptb634FdlN77OLN2AVP863J_6-mnzxKvnEFguRKumY/s1600/Yokohama+F+Marinos256x.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Yokohama_F_Marinos_logo.svg/250px-Yokohama_F_Marinos_logo.svg.png",
     "city_country": "Yokohama, Japan",
     "wiki_url": "https://en.wikipedia.org/wiki/Yokohama_F._Marinos"
   },
@@ -4567,7 +4567,7 @@
   },
   {
     "club_name": "Raja Casablanca",
-    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEi5geOQhb4bihc8v9R5lFzAavDmDeYVmB2PadvD3bNjqqo6YFhZtAOcK5nN5fOamgRZoKrbNHcO4O3mwmu4ZpG022HUwFQYXyVVc1lVu00JucqlUET5KEz9JF9nm4AZpsUgRjY5EkLQe0zLhh4hOsqYGLj1YThfsWRzVeK-bcS0IS2l4dRjo2zQf62f=s256",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Raja_CA_logo.png/250px-Raja_CA_logo.png",
     "city_country": "Casablanca, Morocco",
     "wiki_url": "https://en.wikipedia.org/wiki/Raja_Casablanca"
   },
@@ -6655,7 +6655,7 @@
 },
 {
   "club_name": "Dynamo Dresden",
-  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVxor8kUScJEA9b1EhSOUOXQKRT7NYCOtUObVwB5ocd80n6aWbSJ7tFG0W8InVnpEr5nca8qybZ0tT4v0-Op723Sgk4Y_MInB9sA3hlufQ-JVeN18J6u91oPKd7DAH1Czyy2_BuZeAkVyo/s1600/SG+Dynamo+Dresden256x.png",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Dynamo_Dresden_crest.svg/250px-Dynamo_Dresden_crest.svg.png",
   "city_country": "Dresden, Germany",
   "wiki_url": "https://en.wikipedia.org/wiki/Dynamo_Dresden"
 },
@@ -14101,19 +14101,19 @@
   },
     {
     "club_name": "Calvary FC",
-    "club_logo": "https://upl.co.ug/wp-content/uploads/2025/07/Calvary-FC-Midigo.png",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/131843.png?lm=1767191340",
     "city_country": "Yumbe, Uganda",
-    "wiki_url": "https://x.com/calvaryfcm"
+    "wiki_url": "https://calvaryfcofficial.com/"
   },
   {
     "club_name": "Buhimba United Saints",
-    "club_logo": "https://upl.co.ug/wp-content/uploads/2025/07/Buhimba-United-Saints.png",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/131844.png?lm=1752093761",
     "city_country": "Kagadi, Uganda",
     "wiki_url": "https://x.com/buhimbaf?lang=es"
   },
   {
     "club_name": "Entebbe UPPC FC",
-    "club_logo": "https://upl.co.ug/wp-content/uploads/2021/10/Entebbe-UPPC-FC-128x128.png",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/95287.png?lm=1755686223",
     "city_country": "Entebbe, Uganda",
     "wiki_url": "https://uppcfc.go.ug/index.php/about/"
   },
@@ -14143,7 +14143,7 @@
   },
   {
     "club_name": "Lugazi FC",
-    "club_logo": "https://lugazifc.com/wp-content/uploads/2025/02/lugazifclogo-Photoroom.png",
+    "club_logo": "https://ugandafootball.com/images/uploads/teams/logos/uftm00555.azi",
     "city_country": "Lugazi, Uganda",
     "wiki_url": "https://lugazifc.com/about-us/"
   },
@@ -15655,7 +15655,7 @@
   },
   {
     "club_name": "CD Cacahuatique",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1MgiqYLdmYtxCUI3cY9m3J5oHGQMIXFpMfPdUEwiq_cq2GPlcZiHd-1BrzsSaTGVcmxlyc8kI_eYp-NJ8wbDnB21M1vsWqN8Uv89gLN9mroRvhcGLwDzGUPuEFNc805zkNSGtLAlfqJtbK_wUaqs4dMOeohLqDeWkJPbaYHpyccYyQqn54iaiYi6Vtfw/s1600/CD%20Cacahuatique256x.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/CD_Cacahuatique_logo.png/250px-CD_Cacahuatique_logo.png",
     "city_country": "Ciudad Barrios, El Salvador",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Cacahuatique"
   },
@@ -16093,7 +16093,7 @@
   },
   {
     "club_name": "Zob Ahan Esfahan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/4/48/Zobahan_FC_Logo.svg/250px-Zobahan_FC_Logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Zob_Ahan_Esfahan_F.C._Logo.svg/250px-Zob_Ahan_Esfahan_F.C._Logo.svg.png",
     "city_country": "Fuladshahr, Iran",
     "wiki_url": "https://en.wikipedia.org/wiki/Zob_Ahan_Esfahan_F.C."
   },
@@ -16465,7 +16465,7 @@
   },
   {
     "club_name": "Sogdiana Jizzakh",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Sogdiana_Jizak.jpg/250px-Sogdiana_Jizak.jpg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/f/fa/Sogdiana_Jizzakh_logo.png",
     "city_country": "Jizzax, Uzbekistan",
     "wiki_url": "https://en.wikipedia.org/wiki/2025_Uzbekistan_Super_League#Teams"
   },
@@ -27057,7 +27057,7 @@
   },
   {
     "club_name": "AS Himara",
-    "club_logo": "https://as-himara.al/wp-content/uploads/2024/01/ashimara.png",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/136292.png?lm=1764021432",
     "city_country": "Himarë, Albania",
     "wiki_url": "https://as-himara.al/"
   },
@@ -29091,7 +29091,7 @@
   },
   {
     "club_name": "Nacka FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Nacka_FC_logo.png/250px-Nacka_FC_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/NFC_Emblem.svg/250px-NFC_Emblem.svg.png",
     "city_country": "Stockholm, Sweden",
     "wiki_url": "https://en.wikipedia.org/wiki/Nacka_FC"
   },
@@ -33711,7 +33711,7 @@
   },
   {
     "club_name": "AD Vilankulo",
-    "club_logo": "https://img.sofascore.com/api/v1/team/330379/image",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/42078.png?lm=1417334011",
     "city_country": "Vilankulo, Mozambique",
     "wiki_url": "https://www.facebook.com/ADVilankulo/"
   },
