@@ -33,40 +33,72 @@
     height: 40px;
     min-width: 140px;
   }
-    
-/* ============================================================
-   CARD
-   ============================================================ */
-
-   .card {
+  
+  /* ============================================================
+     CARD — ESTILO FIGURITA COLECCIONABLE (PLATINADO + DORADO)
+     ============================================================ */
+  
+  .card {
     cursor: pointer;
     position: relative;
     overflow: hidden;
     border: 1px solid transparent;
     transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease, opacity 0.2s ease;
     will-change: transform;
-    user-select: none; /* evita selección de texto al arrastrar */
+    user-select: none;
+  
+    background:
+      linear-gradient(#eceef2, #eceef2) padding-box,
+      linear-gradient(160deg, #c8a84b, #f0d080, #e8c84a, #f5e090, #b8962a) border-box;
+    border: 2px solid transparent;
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.85),
+      inset 0 1px 0 rgba(255, 255, 255, 0.95),
+      0 6px 18px rgba(100, 110, 130, 0.2);
   }
   
+  /* Franja dorada superior */
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #b8962a, #f5e090, #e8c84a, #f0d080, #c8a84b);
+    z-index: 2;
+  }
+  
+  /* Textura satinada */
   .card::after {
     content: '';
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 40px;
-    height: 5px;
-    background: linear-gradient(90deg, #bcc6cc 0%, #e6e8e6 20%, #f5f6fa 50%, #bfc1c2 80%, #8e9ba8 100%);
-    opacity: 0.6;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    bottom: auto;
+    background:
+      radial-gradient(ellipse at 25% 15%, rgba(255, 255, 255, 0.65) 0%, transparent 55%),
+      repeating-linear-gradient(
+        108deg,
+        transparent,
+        transparent 16px,
+        rgba(255, 255, 255, 0.22) 17px,
+        rgba(255, 255, 255, 0.22) 18px
+      );
+    pointer-events: none;
+    z-index: 1;
   }
   
   .card:hover {
-    transform: scale(1.1);
-    border: 1px solid transparent;
-    background-image:
-      linear-gradient(#ffffff, #ffffff),
-      linear-gradient(90deg, #000000 0%, #ffffff 50%, #000000 100%);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+    transform: scale(1.1) rotate(-1deg);
+    background:
+      linear-gradient(#eceef2, #eceef2) padding-box,
+      linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+    border: 2px solid transparent;
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 1),
+      0 0 8px rgba(220, 170, 30, 0.45),
+      inset 0 1px 0 rgba(255, 255, 255, 1),
+      0 14px 28px rgba(80, 90, 110, 0.25);
   }
   
   .card:hover footer p {
@@ -76,7 +108,7 @@
   /* Estado: siendo arrastrada */
   .card.is-dragging {
     opacity: 0.35;
-    cursor: pointer; /* flecha con manito */
+    cursor: pointer;
     transform: scale(0.96);
     box-shadow: none;
   }
@@ -84,12 +116,13 @@
   /* Estado: target del drop */
   .card.drag-over {
     transform: scale(1.06);
-    box-shadow: 0 0 0 3px #111, 0 6px 24px rgba(0, 0, 0, 0.3);
-    background-image:
-      linear-gradient(#ffffff, #ffffff),
-      linear-gradient(90deg, #000000 0%, #ffffff 50%, #000000 100%);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+    box-shadow:
+      0 0 0 3px #b8962a,
+      0 6px 24px rgba(0, 0, 0, 0.3);
+    background:
+      linear-gradient(#eceef2, #eceef2) padding-box,
+      linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+    border: 2px solid transparent;
     cursor: grabbing;
   }
   
@@ -104,13 +137,15 @@
     object-fit: contain;
     padding: 9px;
     pointer-events: none;
-    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 3px 8px rgba(80, 90, 110, 0.25));
     transition: transform 0.3s ease, filter 0.3s ease;
+    position: relative;
+    z-index: 3;
   }
   
   .card:hover .img {
-    transform: scale(1.08);
-    filter: brightness(1.1);
+    transform: scale(1.08) translateY(-3px);
+    filter: brightness(1.05) drop-shadow(0 5px 12px rgba(80, 90, 110, 0.3));
   }
   
   
@@ -130,6 +165,7 @@
     cursor: pointer;
     opacity: 0;
     transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 4;
   }
   
   .card:hover .zoom-icon {
@@ -144,13 +180,29 @@
   
   
   /* ============================================================
-     TYPOGRAPHY
+     FOOTER / NOMBRE DEL CLUB
      ============================================================ */
   
-  footer p {
-    font-size: 18px;
-    font-weight: 300;
+  .card footer {
+    border-top: 1px solid rgba(200, 168, 75, 0.35);
+    background: rgba(200, 205, 215, 0.35);
+    position: relative;
+    z-index: 3;
   }
+  
+  footer p {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  }
+  
+  
+  /* ============================================================
+     TYPOGRAPHY
+     ============================================================ */
   
   .w3-modal p {
     font-weight: 300;
@@ -342,6 +394,7 @@
     transform: scale(1.1);
   }
   
+  
   /* ============================================================
      MODAL
      ============================================================ */
@@ -382,7 +435,6 @@
      RESPONSIVE
      ============================================================ */
   
-  /* Tablet / Mobile — sin transform en cards */
   @media screen and (max-width: 768px) {
     .card:hover {
       transform: none;
@@ -444,11 +496,8 @@
       min-width: 100%;
     }
   }
-
-
+  
   @media screen and (max-width: 768px) {
-
-    /* En tablet/mobile el drag no escala para evitar saltos visuales */
     .card.is-dragging {
       opacity: 0.4;
       transform: scale(0.97);
@@ -457,33 +506,29 @@
     }
   
     .card.drag-over {
-      transform: scale(1.03); /* más suave que el 1.06 de desktop */
-      box-shadow: 0 0 0 2px #111, 0 4px 16px rgba(0, 0, 0, 0.2);
-      background-image:
-        linear-gradient(#ffffff, #ffffff),
-        linear-gradient(90deg, #000000 0%, #ffffff 50%, #000000 100%);
-      background-origin: border-box;
-      background-clip: content-box, border-box;
+      transform: scale(1.03);
+      box-shadow: 0 0 0 2px #c8a84b, 0 4px 16px rgba(0, 0, 0, 0.2);
+      background:
+        linear-gradient(#eceef2, #eceef2) padding-box,
+        linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+      border: 2px solid transparent;
     }
   }
   
   @media screen and (max-width: 600px) {
-  
     .card.is-dragging {
       opacity: 0.45;
-      transform: scale(0.98); /* casi sin escala en mobile */
+      transform: scale(0.98);
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
     }
   
     .card.drag-over {
       transform: scale(1.02);
-      box-shadow: 0 0 0 2px #333, 0 3px 10px rgba(0, 0, 0, 0.18);
+      box-shadow: 0 0 0 2px #c8a84b, 0 3px 10px rgba(0, 0, 0, 0.18);
     }
   }
   
   @media (max-width: 480px) {
-  
-    /* En mobile pequeño: sin transform, solo feedback visual por color/sombra */
     .card.is-dragging {
       opacity: 0.5;
       transform: none;
@@ -492,11 +537,10 @@
   
     .card.drag-over {
       transform: none;
-      box-shadow: 0 0 0 3px #000;
-      background-image:
-        linear-gradient(#f5f5f5, #f5f5f5),
-        linear-gradient(90deg, #000000 0%, #ffffff 50%, #000000 100%);
-      background-origin: border-box;
-      background-clip: content-box, border-box;
+      box-shadow: 0 0 0 3px #c8a84b;
+      background:
+        linear-gradient(#eceef2, #eceef2) padding-box,
+        linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+      border: 2px solid transparent;
     }
   }
