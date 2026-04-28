@@ -31,7 +31,7 @@
   },
   {
     "club_name": "Republic of Ireland",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Republic_of_Ireland_national_football_team_crest.svg/200px-Republic_of_Ireland_national_football_team_crest.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Republic_of_Ireland_national_football_team_crest.svg/250px-Republic_of_Ireland_national_football_team_crest.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Republic_of_Ireland_national_football_team"
   },
@@ -91,7 +91,7 @@
   },
   {
     "club_name": "Kosovo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1e/Kosovo_national_football_team_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Kosovo_National_Football_Team.svg/250px-Kosovo_National_Football_Team.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Kosovo_national_football_team"
   },
@@ -115,7 +115,7 @@
   },
   {
     "club_name": "Serbia and Montenegro (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/00/Fudbalska_reprezentacija_Srbije_i_Crne_Gore_%28crest%29.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Football_Association_of_Serbia_and_Montenegro_logo_%282003-2006%29.svg/250px-Football_Association_of_Serbia_and_Montenegro_logo_%282003-2006%29.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Serbia_and_Montenegro_national_football_team"
   },
@@ -151,7 +151,7 @@
   },
   {
     "club_name": "New Zealand",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/New_Zealand_Football_Crest_2022.svg/200px-New_Zealand_Football_Crest_2022.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/New_Zealand_Football_Crest_2022.svg/250px-New_Zealand_Football_Crest_2022.svg.png",
     "continent": "Oceania",
     "wiki_url": "https://en.wikipedia.org/wiki/New_Zealand_men%27s_national_football_team"
   },
@@ -241,7 +241,7 @@
   },
   {
     "club_name": "Iceland",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Iceland_national_football_team_logo.svg/200px-Iceland_national_football_team_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Iceland_national_football_team_logo.svg/250px-Iceland_national_football_team_logo.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Iceland_national_football_team"
   },
@@ -337,7 +337,7 @@
   },
   {
     "club_name": "Czechoslovakia (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Czechoslovakian_FA_Logo.svg/200px-Czechoslovakian_FA_Logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Czechoslovakian_FA_Logo.svg/250px-Czechoslovakian_FA_Logo.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team"
   },
@@ -469,7 +469,7 @@
   },
   {
     "club_name": "Montenegro",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/5/57/Football_Association_of_Montenegro.svg/200px-Football_Association_of_Montenegro.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Football_Association_of_Montenegro_logo.svg/250px-Football_Association_of_Montenegro_logo.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Montenegro_national_football_team"
   },
@@ -529,7 +529,7 @@
   },
   {
     "club_name": "Paraguay",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Asociaci%C3%B3n_Paraguaya_de_F%C3%BAtbol_logo.svg/200px-Asociaci%C3%B3n_Paraguaya_de_F%C3%BAtbol_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Asociaci%C3%B3n_Paraguaya_de_F%C3%BAtbol_logo.svg/250px-Asociaci%C3%B3n_Paraguaya_de_F%C3%BAtbol_logo.svg.png",
     "continent": "South America",
     "wiki_url": "https://en.wikipedia.org/wiki/Paraguay_national_football_team"
   },
@@ -691,7 +691,7 @@
   },
   {
     "club_name": "Pakistan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Pakistan_Football_Federation_logo.png/250px-Pakistan_Football_Federation_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Pakistan_Football_Federation_logo.svg/250px-Pakistan_Football_Federation_logo.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Pakistan_national_football_team"
   },
@@ -1057,7 +1057,7 @@
   },
   {
     "club_name": "American Samoa",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Football_Federation_American_Samoa_%28badge%29.svg/200px-Football_Federation_American_Samoa_%28badge%29.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Football_Federation_American_Samoa_%28badge%29.svg/250px-Football_Federation_American_Samoa_%28badge%29.svg.png",
     "continent": "Oceania",
     "wiki_url": "https://en.wikipedia.org/wiki/American_Samoa_national_football_team"
   },
@@ -1111,7 +1111,7 @@
   },
   {
     "club_name": "Vanuatu",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Vanuatu_Football_Federation_Logo.svg/200px-Vanuatu_Football_Federation_Logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Vanuatu_Football_Federation_Logo.svg/250px-Vanuatu_Football_Federation_Logo.svg.png",
     "continent": "Oceania",
     "wiki_url": "https://en.wikipedia.org/wiki/Vanuatu_national_football_team"
   },
@@ -1147,13 +1147,13 @@
   },
   {
     "club_name": "Palau",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Palau_FA_logo.png/200px-Palau_FA_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/44/Palau_FA_logo.png",
     "continent": "Oceania",
     "wiki_url": "https://en.wikipedia.org/wiki/Palau_national_football_team"
   },
   {
     "club_name": "Niue",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Niue_Football_Association_Logo.png/200px-Niue_Football_Association_Logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a3/Niue_Football_Association_Logo.png",
     "continent": "Oceania",
     "wiki_url": "https://en.wikipedia.org/wiki/Niue_Football_Association"
   },
@@ -1249,7 +1249,7 @@
   },
   {
     "club_name": "El Salvador",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/FESFUT_logo.svg/250px-FESFUT_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/El_Salvador_crest.svg/250px-El_Salvador_crest.svg.png",
     "continent": "North America",
     "wiki_url": "https://en.wikipedia.org/wiki/El_Salvador_national_football_team"
   },
@@ -1486,5 +1486,17 @@
     "club_logo": "https://www.futbox.com/img/v1/36a/a87/895/0d5/a8e6aec1e415c8e2b940.png",
     "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Zaire_national_football_team_results"
+  },
+  {
+    "club_name": "Tibet",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/4e/Football_Tibet_federation.svg/langfr-250px-Football_Tibet_federation.svg.png",
+    "continent": "Asia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tibet_national_football_team"
+  },
+  {
+    "club_name": "Basque Country",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Basque_Football_Federation_logo.svg/250px-Basque_Football_Federation_logo.svg.png",
+    "continent": "Europe",
+    "wiki_url": "https://en.wikipedia.org/wiki/Basque_Country_national_football_team"
   }
 ]

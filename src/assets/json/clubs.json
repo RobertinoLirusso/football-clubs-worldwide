@@ -20875,12 +20875,6 @@
   "wiki_url": "https://en.wikipedia.org/wiki/FCM_Ungheni"
 },
 {
-  "club_name": "CF Univer Comrat",
-  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Univer_Comrat.png/250px-Univer_Comrat.png",
-  "city_country": "Comrat, Moldova",
-  "wiki_url": "https://en.wikipedia.org/wiki/CF_Univer_Comrat"
-},
-{
   "club_name": "FC Politehnica UTM Chișinău",
   "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/FC_Politehnica_UTM_Chi%C8%99in%C4%83u_logo.png/250px-FC_Politehnica_UTM_Chi%C8%99in%C4%83u_logo.png",
   "city_country": "Chișinău, Moldova",
@@ -22160,7 +22154,7 @@
   },
   {
     "club_name": "FC Guria Lanchkhuti",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/FC_Guria_Lanchkhuti_logo.jpg/250px-FC_Guria_Lanchkhuti_logo.jpg",
+    "club_logo": "https://liga.gff.ge/sites/default/files/styles/logo_medium/public/2026-02/guria.png?itok=i3spZYiw",
     "city_country": "Lanchkhuti, Georgia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Guria_Lanchkhuti"
   },
@@ -33936,5 +33930,41 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/CS_Mar%C3%ADtimo_de_La_Guaira.png/250px-CS_Mar%C3%ADtimo_de_La_Guaira.png",
     "city_country": "La Guaira, Venezuela",
     "wiki_url": "https://en.wikipedia.org/wiki/C.S._Mar%C3%ADtimo_de_La_Guaira"
+  },
+  {
+    "club_name": "FC Stroitel Pripyat (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coat_of_Arms_of_Pripyat.svg/250px-Coat_of_Arms_of_Pripyat.svg.png",
+    "city_country": "Pripyat, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Stroitel_Pripyat"
+  },
+  {
+    "club_name": "FC Didube 2014",
+    "club_logo": "https://liga.gff.ge/sites/default/files/styles/logo_medium/public/2021-03/3_0.png?itok=cTjtin86",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://www.facebook.com/FCDidube2014/"
+  },
+  {
+    "club_name": "FC Iberia 2010",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/FC_Iberia_2010_logo.png/250px-FC_Iberia_2010_logo.png",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Iberia_2010"
+  },
+  {
+    "club_name": "FC Iveria Khashuri",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d0/FC_Iveria_Khashuri.png",
+    "city_country": "Khashuri, Georgia",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Iveria_Khashuri"
+  },
+  {
+    "club_name": "FC Orbi",
+    "club_logo": "https://liga.gff.ge/sites/default/files/styles/logo_medium/public/2024-01/orbi.png?itok=4ejTZImt",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://www.facebook.com/OrbiFC"
+  },
+  {
+    "club_name": "FC Tbilisi 2025",
+    "club_logo": "https://liga.gff.ge/sites/default/files/styles/logo_medium/public/2026-01/tbilisi_2025.png?itok=Y5Rp6U4f",
+    "city_country": "Tbilisi, Georgia",
+    "wiki_url": "https://www.instagram.com/fctbilisi2025/"
   }
 ]
