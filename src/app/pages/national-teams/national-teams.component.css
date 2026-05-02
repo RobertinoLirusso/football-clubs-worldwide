@@ -18,16 +18,17 @@
    CARD — ESTILO FIGURITA COLECCIONABLE (PLATINADO + DORADO)
    ============================================================ */
 
-.card {
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease, opacity 0.2s ease;
-  will-change: transform;
-  user-select: none;
-
-  display: flex;
-  flex-direction: column;
+   .card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    min-height: 280px; /* ajustá este valor a gusto */
+    border: 1px solid transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease, opacity 0.2s ease;
+    will-change: transform;
+    user-select: none;
 
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
@@ -39,6 +40,7 @@
     0 6px 18px rgba(100, 110, 130, 0.2);
 }
 
+/* Franja dorada superior */
 .card::before {
   content: '';
   position: absolute;
@@ -48,6 +50,7 @@
   z-index: 2;
 }
 
+/* Textura satinada */
 .card::after {
   content: '';
   position: absolute;
@@ -69,7 +72,7 @@
 }
 
 .card:hover {
-  transform: scale(1.1) rotate(-1deg);
+  transform: scale(1.1);
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
     linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
@@ -81,29 +84,55 @@
     0 14px 28px rgba(80, 90, 110, 0.25);
 }
 
-.card:hover .card footer p {
-  transform: scale(1.05);
+.card:hover footer p {
+  transform: scale(1.1);
+}
+
+/* Estado: siendo arrastrada */
+.card.is-dragging {
+  opacity: 0.35;
+  cursor: pointer;
+  transform: scale(0.96);
+  box-shadow: none;
+}
+
+/* Estado: target del drop */
+.card.drag-over {
+  transform: scale(1.06);
+  box-shadow:
+    0 0 0 3px #b8962a,
+    0 6px 24px rgba(0, 0, 0, 0.3);
+  background:
+    linear-gradient(#eceef2, #eceef2) padding-box,
+    linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+  border: 2px solid transparent;
+  cursor: grabbing;
 }
 
 /* ============================================================
    CARD IMAGE
    ============================================================ */
 
-.img {
-  width: 100%;
-  height: 180px;
-  object-fit: contain;
-  padding: 14px 9px 6px;
-  pointer-events: none;
-  filter: drop-shadow(0 3px 8px rgba(80, 90, 110, 0.25));
-  transition: transform 0.3s ease, filter 0.3s ease;
-  position: relative;
-  z-index: 3;
-}
+   .img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    padding: 9px;
+    margin: auto 0;
+    pointer-events: none;
+    filter: drop-shadow(0 3px 8px rgba(80, 90, 110, 0.25));
+    transition: transform 0.3s ease, filter 0.3s ease;
+    position: relative;
+    z-index: 3;
+  }
 
 .card:hover .img {
   transform: scale(1.08) translateY(-3px);
-  filter: brightness(1.05) drop-shadow(0 5px 12px rgba(80, 90, 110, 0.3));
+  filter: brightness(1.08)
+          drop-shadow(0 0 4px rgba(200, 200, 200, 0.25))
+          drop-shadow(0 0 12px rgba(225, 225, 225, 0.38))
+          drop-shadow(0 0 20px #e5e4e2)
+          drop-shadow(0 2px 5px rgba(160, 160, 160, 0.09));
 }
 
 /* ============================================================
@@ -135,28 +164,27 @@
   color: black;
 }
 
-/* ============================================================
-   FOOTER / NOMBRE DEL EQUIPO
-   ============================================================ */
-
-.card footer {
-  margin-top: auto;
-  border-top: 1px solid rgba(200, 168, 75, 0.35);
-  background: rgba(200, 205, 215, 0.35);
-  position: relative;
-  z-index: 3;
-}
-
-.card footer p {
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #3a4050;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  margin: 0;
-  padding: 8px 4px;
-}
+  /* ============================================================
+     FOOTER / NOMBRE DEL CLUB
+     ============================================================ */
+  
+  .card footer {
+    margin-top: auto;
+    border-top: 1px solid rgba(200, 168, 75, 0.35);
+    background: rgba(200, 205, 215, 0.35);
+    position: relative;
+    z-index: 3;
+  }
+  
+  footer p {
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease, text-shadow 0.3s ease,
+                background 0.3s ease, -webkit-background-clip 0.3s ease;
+  }
 
 /* ============================================================
    TYPOGRAPHY
@@ -179,7 +207,7 @@
 }
 
 .modal-title {
-  background: black;
+  background: #000000;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -190,12 +218,14 @@
   font-size: 1.3rem;
   color: black;
   user-select: none;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 .highlight-text span {
-  color: #fff;
+  color: black;
   font-weight: bold;
   font-size: 1.7rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.18);
 }
 
 .no-results {
@@ -205,7 +235,7 @@
 }
 
 .icon {
-  color: #fff;
+  color: white;
 }
 
 .club-flag {
@@ -268,7 +298,7 @@
 
 .filter-btn {
   background-color: #000;
-  color: #fff;
+  color: white;
   border: none;
   padding: 8px;
   font-size: 16px;
@@ -313,7 +343,7 @@
 
 select.filter-btn {
   background-color: #000;
-  color: #fff;
+  color: white;
   border: none;
   padding: 8px;
   font-size: 16px;
@@ -386,7 +416,7 @@ select.filter-btn:hover {
   width: 50px;
   height: 50px;
   background-color: black;
-  color: #fff;
+  color: white;
   border: none;
   border-radius: 50%;
   cursor: pointer;
@@ -395,14 +425,14 @@ select.filter-btn:hover {
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s, background-color 0.3s, opacity 0.4s ease;
   z-index: 1000;
   opacity: 0;
+  transition: transform 0.3s, background-color 0.3s, opacity 0.4s ease;
   animation: fadeIn 0.4s forwards;
 }
 
 .back-to-top:hover {
-  background-color: #fff;
+  background-color: white;
   color: black;
   transform: scale(1.1);
 }
@@ -488,5 +518,53 @@ select.filter-btn:hover {
     font-size: 14px;
     padding: 12px 35px 12px 35px;
     min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card.is-dragging {
+    opacity: 0.4;
+    transform: scale(0.97);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    cursor: grabbing;
+  }
+
+  .card.drag-over {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 2px #c8a84b, 0 4px 16px rgba(0, 0, 0, 0.2);
+    background:
+      linear-gradient(#eceef2, #eceef2) padding-box,
+      linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+    border: 2px solid transparent;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card.is-dragging {
+    opacity: 0.45;
+    transform: scale(0.98);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .card.drag-over {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 2px #c8a84b, 0 3px 10px rgba(0, 0, 0, 0.18);
+  }
+}
+
+@media (max-width: 480px) {
+  .card.is-dragging {
+    opacity: 0.5;
+    transform: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .card.drag-over {
+    transform: none;
+    box-shadow: 0 0 0 3px #c8a84b;
+    background:
+      linear-gradient(#eceef2, #eceef2) padding-box,
+      linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+    border: 2px solid transparent;
   }
 }
