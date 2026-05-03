@@ -20413,7 +20413,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Real_Pharma_Odesa"
   },
   {
-    "club_name": "FC Lisne",
+    "club_name": "FC Lisne (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/FC_Lisne_logo.png/250px-FC_Lisne_logo.png",
     "city_country": "Lisne, Ukraine",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Lisne"
@@ -29114,7 +29114,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Smedby_AIS"
   },
   {
-    "club_name": "IF Sylvia",
+    "club_name": "IF Sylvia (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/IF_Sylvia_logo.svg/250px-IF_Sylvia_logo.svg.png",
     "city_country": "Norrköping, Sweden",
     "wiki_url": "https://en.wikipedia.org/wiki/IF_Sylvia"
@@ -33966,5 +33966,119 @@
     "club_logo": "https://liga.gff.ge/sites/default/files/styles/logo_medium/public/2026-01/tbilisi_2025.png?itok=Y5Rp6U4f",
     "city_country": "Tbilisi, Georgia",
     "wiki_url": "https://www.instagram.com/fctbilisi2025/"
+  },
+  {
+    "club_name": "Gondomar SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/df/Gondomar_S.C._logo.png",
+    "city_country": "Gondomar, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gondomar_S.C."
+  },
+  {
+    "club_name": "Louletano DC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Louletano_D.C._logo.svg/250px-Louletano_D.C._logo.svg.png",
+    "city_country": "Loulé, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/Louletano_D.C."
+  },
+  {
+    "club_name": "AC Malveira",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/AC_Malveira_logo.svg/250px-AC_Malveira_logo.svg.png",
+    "city_country": "Mafra, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Malveira"
+  },
+  {
+    "club_name": "Juventude SC de Évora",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Juventude_Sport_Clube_logo.svg/250px-Juventude_Sport_Clube_logo.svg.png",
+    "city_country": "Évora, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/Juventude_Sport_Clube"
+  },
+  {
+    "club_name": "GD Alcochetense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/GD_Alcochetense_logo.svg/250px-GD_Alcochetense_logo.svg.png",
+    "city_country": "Alcochete, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/GD_Alcochetense"
+  },
+  {
+    "club_name": "SU Sintrense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/S.U._Sintrense_logo.svg/250px-S.U._Sintrense_logo.svg.png",
+    "city_country": "Sintra, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.U._Sintrense"
+  },
+  {
+    "club_name": "GD Lagoa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/G.D._Lagoa_logo.svg/250px-G.D._Lagoa_logo.svg.png",
+    "city_country": "Lagoa, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/G.D._Lagoa"
+  },
+  {
+    "club_name": "O Elvas CAD",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/O_Elvas_C.A.D._logo.svg/250px-O_Elvas_C.A.D._logo.svg.png",
+    "city_country": "Elvas, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/O_Elvas_C.A.D."
+  },
+  {
+    "club_name": "FC Serpa",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/89198.png?lm=1616689182",
+    "city_country": "Serpa, Portugal",
+    "wiki_url": "https://pt.wikipedia.org/wiki/Futebol_Clube_de_Serpa"
+  },
+  {
+    "club_name": "Clube Oriental de Lisboa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Clube_Oriental_de_Lisboa_logo.svg/250px-Clube_Oriental_de_Lisboa_logo.svg.png",
+    "city_country": "Lisbon, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/Clube_Oriental_de_Lisboa"
+  },
+  {
+    "club_name": "LGC Moncarapachense",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/L.G.C._Moncarapachense_logo.svg/250px-L.G.C._Moncarapachense_logo.svg.png",
+    "city_country": "Moncarapacho, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/L.G.C._Moncarapachense"
+  },
+  {
+    "club_name": "União Futebol Comércio e Indústria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Uni%C3%A3o_Futebol_Com%C3%A9rcio_e_Ind%C3%BAstria_logo.svg/250px-Uni%C3%A3o_Futebol_Com%C3%A9rcio_e_Ind%C3%BAstria_logo.svg.png",
+    "city_country": "Setúbal, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/Uni%C3%A3o_Futebol_Com%C3%A9rcio_e_Ind%C3%BAstria"
+  },
+  {
+    "club_name": "CF Vasco da Gama Vidigueira",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/C.F._Vasco_da_Gama_Vidigueira_logo.svg/250px-C.F._Vasco_da_Gama_Vidigueira_logo.svg.png",
+    "city_country": "Vidigueira, Portugal",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.F._Vasco_da_Gama_Vidigueira"
+  },
+  {
+    "club_name": "Lindö FF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Lind%C3%B6_FF_logo.svg/250px-Lind%C3%B6_FF_logo.svg.png",
+    "city_country": "Norrköping, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lind%C3%B6_FF"
+  },
+  {
+    "club_name": "Hunan Billows FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Hunan_Billows_F.C.svg/250px-Hunan_Billows_F.C.svg.png",
+    "city_country": "Changsha, China",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hunan_Billows_F.C."
+  },
+  {
+    "club_name": "FC Brașov (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/7b/FC_Bra%C8%99ov_logo.png",
+    "city_country": "Brașov, Romania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Bra%C8%99ov_(1936)"
+  },
+  {
+    "club_name": "San Fernando CD (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/San_Fernando_CD.png/250px-San_Fernando_CD.png",
+    "city_country": "San Fernando, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/San_Fernando_CD"
+  },
+  {
+    "club_name": "Dalkurd FF (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Dalkurd_FF_logo.svg/250px-Dalkurd_FF_logo.svg.png",
+    "city_country": "Uppsala, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dalkurd_FF"
+  },
+  {
+    "club_name": "Perak FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Perak_The_Bos_Gaurus.png/250px-Perak_The_Bos_Gaurus.png",
+    "city_country": "Ipoh, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Perak_F.C."
   }
 ]
