@@ -3361,12 +3361,12 @@
   },
   {
     "club_name": "Casertana FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a6/Casertana_F.C._logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Casertana_FC_logo.svg/250px-Casertana_FC_logo.svg.png",
     "city_country": "Caserta, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Casertana_F.C."
   },
   {
-    "club_name": "Foggia",
+    "club_name": "Foggia Calcio",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUZZG937fqupObUUBn0A9WWzculgrziRf8eVD6LtdvrRq7CCpZddBdmIifXu2Kl7w2lNZerc6jQOxDqa-klHcq3I03uL3KjvkQ-o9SqKQMoLXhbL4Dnj74BGtg1TQnc2G_nFuP8WMcpC8/s1600/Foggia+Calcio256x.png",
     "city_country": "Foggia, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Foggia_Calcio"
@@ -5677,7 +5677,7 @@
   },
   {
     "club_name": "CP Cacereño",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a0/CP_Cacere%C3%B1o.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/CP_Cacere%C3%B1o_logo.svg/250px-CP_Cacere%C3%B1o_logo.svg.png",
     "city_country": "Cáceres, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CP_Cacere%C3%B1o"
   },
@@ -5857,7 +5857,7 @@
   },
   {
     "club_name": "Casarano Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e2/S.S.D._Casarano_Calcio.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Casarano_Calcio_logo.svg/250px-Casarano_Calcio_logo.svg.png",
     "city_country": "Casarano, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Casarano_Calcio"
   },
@@ -8353,7 +8353,7 @@
   },
   {
     "club_name": "Lusitânia FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cc/Lusit%C3%A2nia_FC.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Lusit%C3%A2nia_F.C._logo.svg/250px-Lusit%C3%A2nia_F.C._logo.svg.png",
     "city_country": "Santa Maria da Feira, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/Lusit%C3%A2nia_F.C."
   },
@@ -8365,7 +8365,7 @@
   },
   {
     "club_name": "Varzim SC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/8d/Varzim_Sport_Club.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Varzim_S.C._logo.svg/250px-Varzim_S.C._logo.svg.png",
     "city_country": "Póvoa de Varzim, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/Varzim_S.C."
   },
@@ -8377,7 +8377,7 @@
   },
   {
     "club_name": "Os Belenenses",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Os_Belenenses.png/250px-Os_Belenenses.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/C.F._Os_Belenenses_logo.svg/250px-C.F._Os_Belenenses_logo.svg.png",
     "city_country": "Lisbon, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/C.F._Os_Belenenses"
   },
@@ -8449,19 +8449,19 @@
   },
       {
     "club_name": "Linfield FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Linfield_F.C._%28badge%29.png/250px-Linfield_F.C._%28badge%29.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Linfield_F.C._logo.svg/250px-Linfield_F.C._logo.svg.png",
     "city_country": "Belfast, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Linfield_F.C."
   },
   {
     "club_name": "Cliftonville",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Cliftonville.png/250px-Cliftonville.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Cliftonville_F.C._logo.svg/250px-Cliftonville_F.C._logo.svg.png",
     "city_country": "Belfast, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Cliftonville_F.C."
   },
   {
     "club_name": "Crusaders FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Crusaders_F.C._logo.png/250px-Crusaders_F.C._logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Crusaders_F.C._logo.svg/250px-Crusaders_F.C._logo.svg.png",
     "city_country": "Belfast, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Crusaders_F.C."
   },
@@ -8478,8 +8478,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Larne_F.C."
   },
   {
-    "club_name": "Portadown",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Portadown_F.C.png/250px-Portadown_F.C.png",
+    "club_name": "Portadown FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Portadown_F.C._logo.svg/250px-Portadown_F.C._logo.svg.png",
     "city_country": "Portadown, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Portadown_F.C."
   },
@@ -8490,14 +8490,14 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Ballymena_United_F.C."
   },
   {
-    "club_name": "Bangor",
+    "club_name": "Bangor FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Bangor_FC_logo.svg/250px-Bangor_FC_logo.svg.png",
     "city_country": "Bangor, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Bangor_F.C."
   },
   {
     "club_name": "Carrick Rangers",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Carrick_Rangers_F.C.png/250px-Carrick_Rangers_F.C.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Carrick_Rangers_F.C._logo.svg/250px-Carrick_Rangers_F.C._logo.svg.png",
     "city_country": "Carrickfergus, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Carrick_Rangers_F.C."
   },
@@ -8515,7 +8515,7 @@
   },
   {
     "club_name": "Glenavon",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/GlenavonLogo.png/250px-GlenavonLogo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Glenavon_F.C._logo.svg/250px-Glenavon_F.C._logo.svg.png",
     "city_country": "Lurgan, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Glenavon_F.C."
   },
@@ -9793,7 +9793,7 @@
     },
         {
       "club_name": "AFC Telford United",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9d/Telford_United.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/AFC_Telford_United_logo.svg/120px-AFC_Telford_United_logo.svg.png",
       "city_country": "Telford, England",
       "wiki_url": "https://en.wikipedia.org/wiki/AFC_Telford_United"
     },
@@ -9805,13 +9805,13 @@
     },
     {
       "club_name": "Bedford Town",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/BedfordTown.png/250px-BedfordTown.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Bedford_Town_F.C._logo.svg/250px-Bedford_Town_F.C._logo.svg.png",
       "city_country": "Bedford, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Bedford_Town_F.C."
     },
     {
       "club_name": "Curzon Ashton",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Curzon_Ashton_F.C._Logo_2018.png/250px-Curzon_Ashton_F.C._Logo_2018.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Curzon_Ashton_F.C._logo.svg/250px-Curzon_Ashton_F.C._logo.svg.png",
       "city_country": "Ashton-under-Lyne, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Curzon_Ashton_F.C."
     },
@@ -9871,7 +9871,7 @@
     },
     {
       "club_name": "Peterborough Sports",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Psfclogo_51273d5034f57.png/250px-Psfclogo_51273d5034f57.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Peterborough_Sports_F.C._logo.svg/250px-Peterborough_Sports_F.C._logo.svg.png",
       "city_country": "Peterborough, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Peterborough_Sports_F.C."
     },
@@ -9895,7 +9895,7 @@
     },
     {
       "club_name": "Spennymoor Town",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Spennymoor_Town_F.C._logo.png/250px-Spennymoor_Town_F.C._logo.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Spennymoor_Town_F.C._logo.svg/250px-Spennymoor_Town_F.C._logo.svg.png",
       "city_country": "Spennymoor, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Spennymoor_Town_F.C."
     },
@@ -9931,7 +9931,7 @@
     },
     {
       "club_name": "Chippenham Town",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Chippenham_Town_F.C._logo.png/250px-Chippenham_Town_F.C._logo.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Chippenham_Town_F.C._logo.svg/250px-Chippenham_Town_F.C._logo.svg.png",
       "city_country": "Chippenham, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Chippenham_Town_F.C."
     },
@@ -9966,8 +9966,8 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Enfield_Town_F.C."
     },
     {
-      "club_name": "Farnborough",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Logo_Farnborough_FC.png/250px-Logo_Farnborough_FC.png",
+      "club_name": "Farnborough FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Farnborough_F.C._logo.svg/250px-Farnborough_F.C._logo.svg.png",
       "city_country": "Farnborough, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Farnborough_F.C."
     },
@@ -9984,14 +9984,14 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Hemel_Hempstead_Town_F.C."
     },
     {
-      "club_name": "Hornchurch",
+      "club_name": "Hornchurch FC",
       "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Hornchurch_FC_logo.svg/250px-Hornchurch_FC_logo.svg.png",
       "city_country": "London, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Hornchurch_F.C."
     },
     {
-      "club_name": "Horsham",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Horsham_FC_crest.png/250px-Horsham_FC_crest.png",
+      "club_name": "Horsham FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Horsham_F.C._logo.svg/250px-Horsham_F.C._logo.svg.png",
       "city_country": "Horsham, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Horsham_F.C."
     },
@@ -10093,25 +10093,25 @@
   },
     {
     "club_name": "CD Arenteiro",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/CD_Arenteiro.png/250px-CD_Arenteiro.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/CD_Arenteiro_logo.svg/250px-CD_Arenteiro_logo.svg.png",
     "city_country": "O Carballiño, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Arenteiro"
   },
   {
     "club_name": "Ourense CF",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Official_shield_of_Ourense_CF.png/250px-Official_shield_of_Ourense_CF.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Ourense_CF_logo.svg/250px-Ourense_CF_logo.svg.png",
     "city_country": "Ourense, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Ourense_CF"
   },
   {
     "club_name": "Pontevedra CF",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Pontevedra_CF.png/250px-Pontevedra_CF.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Pontevedra_CF_logo.svg/250px-Pontevedra_CF_logo.svg.png",
     "city_country": "Pontevedra, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Pontevedra_CF"
   },
   {
     "club_name": "Unionistas de Salamanca CF",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Unionistas_logo.png/250px-Unionistas_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Unionistas_de_Salamanca_CF_logo.svg/250px-Unionistas_de_Salamanca_CF_logo.svg.png",
     "city_country": "Salamanca, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Unionistas_de_Salamanca_CF"
   },
@@ -10123,19 +10123,19 @@
   },
   {
     "club_name": "Arenas Club de Getxo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Arenas_Club.png/250px-Arenas_Club.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Arenas_Club_de_Getxo_logo.svg/250px-Arenas_Club_de_Getxo_logo.svg.png",
     "city_country": "Getxo, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Arenas_Club_de_Getxo"
   },
   {
     "club_name": "Barakaldo CF",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Barakaldo_CF_logo.png/250px-Barakaldo_CF_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Barakaldo_CF_logo.svg/250px-Barakaldo_CF_logo.svg.png",
     "city_country": "Barakaldo, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Barakaldo_CF"
   },
   {
     "club_name": "CD Guadalajara",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/CD_Guadalajara_%28Spain%29_badge.png/250px-CD_Guadalajara_%28Spain%29_badge.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/CD_Guadalajara_%28Spain%29_logo.svg/250px-CD_Guadalajara_%28Spain%29_logo.svg.png",
     "city_country": "Guadalajara, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Guadalajara_(Spain)"
   },
@@ -10147,7 +10147,7 @@
   },
   {
     "club_name": "Real Avilés Industrial",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Real_Avil%C3%A9s_Industrial_CF.png/250px-Real_Avil%C3%A9s_Industrial_CF.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Real_Avil%C3%A9s_Industrial_CF_logo.svg/250px-Real_Avil%C3%A9s_Industrial_CF_logo.svg.png",
     "city_country": "Avilés, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Real_Avil%C3%A9s_Industrial_CF"
   },
@@ -10165,19 +10165,19 @@
   },
   {
     "club_name": "Antequera CF",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Shield_of_Antequera_CF.png/250px-Shield_of_Antequera_CF.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Antequera_CF_logo.svg/250px-Antequera_CF_logo.svg.png",
     "city_country": "Antequera, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Antequera_CF"
   },
   {
     "club_name": "Atlético Sanluqueño CF",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Atl%C3%A9tico_Sanluque%C3%B1o_CF.png/250px-Atl%C3%A9tico_Sanluque%C3%B1o_CF.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Atl%C3%A9tico_Sanluque%C3%B1o_CF_logo.svg/250px-Atl%C3%A9tico_Sanluque%C3%B1o_CF_logo.svg.png",
     "city_country": "Sanlúcar de Barrameda, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Sanluque%C3%B1o_CF"
   },
   {
     "club_name": "Juventud de Torremolinos CF",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Juventud_Torremolinos_CF.png/250px-Juventud_Torremolinos_CF.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Juventud_de_Torremolinos_CF_logo.svg/250px-Juventud_de_Torremolinos_CF_logo.svg.png",
     "city_country": "Torremolinos, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Juventud_de_Torremolinos_CF"
   },
@@ -10201,7 +10201,7 @@
   },
   {
     "club_name": "CD Teruel",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/CD_Teruel_shield.png/250px-CD_Teruel_shield.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/CD_Teruel_logo.svg/250px-CD_Teruel_logo.svg.png",
     "city_country": "Teruel, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Teruel"
   },
@@ -10339,7 +10339,7 @@
   },
     {
     "club_name": "Real Unión Club",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3f/Real_uni%C3%B3n_club_180px.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Real_Uni%C3%B3n_logo.svg/250px-Real_Uni%C3%B3n_logo.svg.png",
     "city_country": "Irun, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Real_Uni%C3%B3n"
   },
@@ -10357,7 +10357,7 @@
   },
   {
     "club_name": "Atlético Astorga",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Atl%C3%A9tico_Astorga_FC.png/250px-Atl%C3%A9tico_Astorga_FC.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Atl%C3%A9tico_Astorga_FC_logo.svg/250px-Atl%C3%A9tico_Astorga_FC_logo.svg.png",
     "city_country": "Astorga, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Astorga_FC"
   },
@@ -10392,14 +10392,14 @@
     "wiki_url": "https://en.wikipedia.org/wiki/UD_Barbastro"
   },
   {
-    "club_name": "Basconia",
+    "club_name": "CD Basconia",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/CD_Baskonia.png/250px-CD_Baskonia.png",
     "city_country": "Basauri, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Basconia"
   },
   {
     "club_name": "Bergantiños",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Berganti%C3%B1os_CF.png/250px-Berganti%C3%B1os_CF.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Berganti%C3%B1os_FC_logo.svg/250px-Berganti%C3%B1os_FC_logo.svg.png",
     "city_country": "Carballo, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Berganti%C3%B1os_FC"
   },
@@ -10416,14 +10416,14 @@
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Coria"
   },
   {
-    "club_name": "Coruxo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Coruxo_FC.png/250px-Coruxo_FC.png",
+    "club_name": "Coruxo FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Coruxo_FC_logo.svg/250px-Coruxo_FC_logo.svg.png",
     "city_country": "Coruxo, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Coruxo_FC"
   },
   {
-    "club_name": "Ebro",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/CD_Ebro_logo.png/250px-CD_Ebro_logo.png",
+    "club_name": "CD Ebro",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/CD_Ebro_logo.svg/250px-CD_Ebro_logo.svg.png",
     "city_country": "Zaragoza, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Ebro"
   },
@@ -10453,7 +10453,7 @@
   },
   {
     "club_name": "CD Lealtad",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/CD_Lealtad.png/250px-CD_Lealtad.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/CD_Lealtad_logo.svg/250px-CD_Lealtad_logo.svg.png",
     "city_country": "Villaviciosa, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Lealtad"
   },
@@ -10477,7 +10477,7 @@
   },
   {
     "club_name": "Marino de Luanco",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Club_Marino_de_Luanco_escudo.png/250px-Club_Marino_de_Luanco_escudo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Marino_de_Luanco_logo.svg/250px-Marino_de_Luanco_logo.svg.png",
     "city_country": "Luanco, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Marino_de_Luanco"
   },
@@ -10518,13 +10518,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/UE_Olot"
   },
   {
-    "club_name": "Orihuela",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Orihuela_CF.png/250px-Orihuela_CF.png",
+    "club_name": "Orihuela CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Orihuela_CF_logo.svg/250px-Orihuela_CF_logo.svg.png",
     "city_country": "Orihuela, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Orihuela_CF"
   },
   {
-    "club_name": "Poblense",
+    "club_name": "UD Poblense",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/UD_Poblense.png/250px-UD_Poblense.png",
     "city_country": "Sa Pobla, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/UD_Poblense"
@@ -10555,13 +10555,13 @@
   },
   {
     "club_name": "UD Sámano",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/UD_S%C3%A1mano_logo.png/250px-UD_S%C3%A1mano_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/UD_S%C3%A1mano_logo.svg/250px-UD_S%C3%A1mano_logo.svg.png",
     "city_country": "Sámano, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/UD_S%C3%A1mano"
   },
   {
     "club_name": "Salamanca UDS",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Salamanca_CF_UDS.png/250px-Salamanca_CF_UDS.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Salamanca_CF_UDS_logo.svg/250px-Salamanca_CF_UDS_logo.svg.png",
     "city_country": "Salamanca, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Salamanca_CF_UDS"
   },
@@ -10597,19 +10597,19 @@
   },
   {
     "club_name": "CD Tudelano",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/CD_Tudelano.png/250px-CD_Tudelano.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/CD_Tudelano_logo.svg/250px-CD_Tudelano_logo.svg.png",
     "city_country": "Tudela, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Tudelano"
   },
   {
-    "club_name": "UCAM Murcia",
+    "club_name": "UCAM Murcia CF",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Escudo_Deportivo_UCAM_-_UCAM_Murcia_CF_-_UCAM_Murcia_CB.png/250px-Escudo_Deportivo_UCAM_-_UCAM_Murcia_CF_-_UCAM_Murcia_CB.png",
     "city_country": "Murcia, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/UCAM_Murcia_CF"
   },
   {
-    "club_name": "Utebo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Utebo_FC.png/250px-Utebo_FC.png",
+    "club_name": "Utebo FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Utebo_FC_logo.svg/250px-Utebo_FC_logo.svg.png",
     "city_country": "Utebo, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Utebo_FC"
   },
@@ -10627,7 +10627,7 @@
   },
     {
     "club_name": "SD Amorebieta",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c3/SD_Amorebieta.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/SD_Amorebieta_logo.svg/250px-SD_Amorebieta_logo.svg.png",
     "city_country": "Amorebieta-Etxano, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/SD_Amorebieta"
   },
@@ -10639,7 +10639,7 @@
   },
     {
     "club_name": "Gimnástica Segoviana CF",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Gimnastica_Segoviana_shield.png/250px-Gimnastica_Segoviana_shield.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Gimn%C3%A1stica_Segoviana_CF_logo.svg/250px-Gimn%C3%A1stica_Segoviana_CF_logo.svg.png",
     "city_country": "Segovia, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Gimn%C3%A1stica_Segoviana_CF"
   },
@@ -10651,25 +10651,25 @@
   },
   {
     "club_name": "UD Logroñés",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/UD_Logro%C3%B1es.png/250px-UD_Logro%C3%B1es.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/UD_Logro%C3%B1%C3%A9s_logo.svg/250px-UD_Logro%C3%B1%C3%A9s_logo.svg.png",
     "city_country": "Logroño, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/UD_Logro%C3%B1%C3%A9s"
   },
       {
     "club_name": "Náxara CD",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b5/N%C3%A1xara_CD.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/N%C3%A1xara_CD_logo.svg/250px-N%C3%A1xara_CD_logo.svg.png",
     "city_country": "Nájera, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/N%C3%A1xara_CD"
   },
   {
     "club_name": "UD Ourense",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/UD_Ourense_shield.png/250px-UD_Ourense_shield.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/UD_Ourense_logo.svg/250px-UD_Ourense_logo.svg.png",
     "city_country": "Ourense, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/UD_Ourense"
   },
   {
     "club_name": "Real Ávila CF",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/df/Real_%C3%81vila_CF.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Real_%C3%81vila_CF_logo.svg/250px-Real_%C3%81vila_CF_logo.svg.png",
     "city_country": "Ávila, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Real_%C3%81vila_CF"
   },
@@ -10681,13 +10681,13 @@
   },
   {
     "club_name": "Sestao River Club",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Sestao_River_Club.png/250px-Sestao_River_Club.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Sestao_River_Club_logo.svg/250px-Sestao_River_Club_logo.svg.png",
     "city_country": "Sestao, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Sestao_River_Club"
   },
   {
     "club_name": "SD Sarriana",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/7e/SD_Sarriana.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/SD_Sarriana_logo.svg/250px-SD_Sarriana_logo.svg.png",
     "city_country": "Sarria, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/SD_Sarriana"
   },
@@ -10705,19 +10705,19 @@
   },
   {
     "club_name": "Gernika Club",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/SD_Gernika_Club.png/250px-SD_Gernika_Club.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Gernika_Club_logo.svg/250px-Gernika_Club_logo.svg.png",
     "city_country": "Gernika, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Gernika_Club"
   },
   {
     "club_name": "SD Beasain",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/SD_Beasain.png/250px-SD_Beasain.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/SD_Beasain_logo.svg/250px-SD_Beasain_logo.svg.png",
     "city_country": "Beasain, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/SD_Beasain"
   },
     {
     "club_name": "UD Mutilvera",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/UD_Mutilvera.png/250px-UD_Mutilvera.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/UD_Mutilvera_logo.svg/250px-UD_Mutilvera_logo.svg.png",
     "city_country": "Mutilva, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/UD_Mutilvera"
   },
@@ -10728,20 +10728,20 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Linares_Deportivo"
   },
   {
-    "club_name": "Estepona",
+    "club_name": "CD Estepona",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/CD_Estepona_official_logo.png/250px-CD_Estepona_official_logo.png",
     "city_country": "Estepona, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Estepona_FS"
   },
   {
     "club_name": "Yeclano Deportivo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Yeclano_Deportivo_%28logo%29.png/250px-Yeclano_Deportivo_%28logo%29.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Yeclano_Deportivo_logo.svg/250px-Yeclano_Deportivo_logo.svg.png",
     "city_country": "Yecla, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Yeclano_Deportivo"
   },
   {
     "club_name": "UP Langreo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/44/UP_Langreo_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/UP_Langreo_logo.svg/250px-UP_Langreo_logo.svg.png",
     "city_country": "Langreo, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/UP_Langreo"
   },
@@ -12463,7 +12463,7 @@
   },
   { 
     "club_name": "Team Altamura", 
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Team_Altamura_logo.png/250px-Team_Altamura_logo.png", 
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Team_Altamura_logo.svg/250px-Team_Altamura_logo.svg.png", 
     "city_country": "Altamura, Italy", 
     "wiki_url": "https://en.wikipedia.org/wiki/Team_Altamura" 
   },
@@ -12481,7 +12481,7 @@
   },
   { 
     "club_name": "Forlì FC", 
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Forl%C3%AC_FC_logo.png/250px-Forl%C3%AC_FC_logo.png", 
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Forl%C3%AC_FC_logo.svg/250px-Forl%C3%AC_FC_logo.svg.png", 
     "city_country": "Forlì, Italy", 
     "wiki_url": "https://en.wikipedia.org/wiki/Forl%C3%AC_FC" 
   },
@@ -13327,7 +13327,7 @@
   },
   {
     "club_name": "Altona 93",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/df/Altonaer_FC_von_1893.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Altonaer_FC_von_1893_logo.svg/250px-Altonaer_FC_von_1893_logo.svg.png",
     "city_country": "Hamburg, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/Altonaer_FC_von_1893"
   },
@@ -14143,7 +14143,7 @@
   },
   {
     "club_name": "Lugazi FC",
-    "club_logo": "https://ugandafootball.com/images/uploads/teams/logos/uftm00555.azi",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/120956.png?lm=1767190744",
     "city_country": "Lugazi, Uganda",
     "wiki_url": "https://lugazifc.com/about-us/"
   },
@@ -17299,31 +17299,31 @@
   },
     {
     "club_name": "ASD Asti",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cf/A.S.D._Asti_logo.png",
+    "club_logo": "https://www.asdasti.it/wp-content/uploads/2020/12/Webp.net-resizeimage.png",
     "city_country": "Asti, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/ASD_Asti"
   },
   {
     "club_name": "ASD Biellese 1902",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/30/ASD_Biellese_1902_new_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/ASD_Biellese_1902_logo.svg/250px-ASD_Biellese_1902_logo.svg.png",
     "city_country": "Biella, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/ASD_Biellese_1902"
   },
   {
     "club_name": "ASD HSL Derthona",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9f/FBC_Derthona_1908.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/ASD_HSL_Derthona_logo.svg/250px-ASD_HSL_Derthona_logo.svg.png",
     "city_country": "Tortona, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/ASD_HSL_Derthona"
   },
   {
     "club_name": "AC Gozzano",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b4/A.C._Gozzano_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/AC_Gozzano_logo.svg/250px-AC_Gozzano_logo.svg.png",
     "city_country": "Gozzano, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/AC_Gozzano"
   },
   {
     "club_name": "ASD Imperia",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/ce/A.S.D._Imperia_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/ASD_Imperia_logo.svg/250px-ASD_Imperia_logo.svg.png",
     "city_country": "Imperia, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/ASD_Imperia"
   },
@@ -17341,7 +17341,7 @@
   },
   {
     "club_name": "Sanremese Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/bd/S.S.D._Unione_Sanremo_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/SSD_Sanremese_Calcio_logo.svg/250px-SSD_Sanremese_Calcio_logo.svg.png",
     "city_country": "San Remo, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/SSD_Sanremese_Calcio"
   },
@@ -17353,13 +17353,13 @@
   },
   {
     "club_name": "Vado FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2e/F.C._Vado_badge.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/FC_Vado_logo.svg/250px-FC_Vado_logo.svg.png",
     "city_country": "Vado Ligure, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Vado"
   },
   {
     "club_name": "Valenzana Mado",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2e/Valenzana_Mado_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Valenzana_Mado_logo.svg/250px-Valenzana_Mado_logo.svg.png",
     "city_country": "Valenza, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Valenzana_Mado"
   },
@@ -17629,7 +17629,7 @@
   },
   {
     "club_name": "Amarante FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e2/Amarante_FC.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Amarante_F.C._logo.svg/250px-Amarante_F.C._logo.svg.png",
     "city_country": "Amarante, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/Amarante_F.C."
   },
@@ -17647,19 +17647,19 @@
   },
   {
     "club_name": "SC São João de Ver",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Sporting-clube-de-sao-joao-de-ver.png/120px-Sporting-clube-de-sao-joao-de-ver.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/SC_S%C3%A3o_Jo%C3%A3o_de_Ver_logo.svg/250px-SC_S%C3%A3o_Jo%C3%A3o_de_Ver_logo.svg.png",
     "city_country": "Santa Maria da Feira, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/SC_S%C3%A3o_Jo%C3%A3o_de_Ver"
   },
   {
     "club_name": "Caldas SC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/34/Caldas_SC_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Caldas_S.C._logo.svg/250px-Caldas_S.C._logo.svg.png",
     "city_country": "Caldas da Rainha, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/Caldas_S.C."
   },
   {
     "club_name": "CD Trofense",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/67/CD_Trofense.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/C.D._Trofense_logo.svg/250px-C.D._Trofense_logo.svg.png",
     "city_country": "Trofa, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/C.D._Trofense"
   },
@@ -17671,7 +17671,7 @@
   },
   {
     "club_name": "Sporting Clube da Covilhã",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e8/Sporting_Clube_da_Covilh%C3%A3.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/S.C._Covilh%C3%A3_logo.svg/250px-S.C._Covilh%C3%A3_logo.svg.png",
     "city_country": "Covilhã, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/S.C._Covilh%C3%A3"
   },
@@ -17683,19 +17683,19 @@
   },
   {
     "club_name": "USC Paredes",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2f/USC_paredes.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/U.S.C._Paredes_logo.svg/250px-U.S.C._Paredes_logo.svg.png",
     "city_country": "Paredes, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/U.S.C._Paredes"
   },
   {
     "club_name": "S.U. 1.º Dezembro",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a4/1_de_Dezembro.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/S.U._1%C2%BA_Dezembro_logo.svg/250px-S.U._1%C2%BA_Dezembro_logo.svg.png",
     "city_country": "Sintra, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/S.U._1%C2%BA_Dezembro"
   },
   {
     "club_name": "AD Fafe",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/be/AD_Fafe_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/AD_Fafe_logo.svg/250px-AD_Fafe_logo.svg.png",
     "city_country": "Fafe, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/AD_Fafe"
   },
@@ -18901,19 +18901,19 @@
   },
   {
     "club_name": "Ards FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f9/Ards_F.C._%28shield%29.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Ards_F.C._logo.svg/250px-Ards_F.C._logo.svg.png",
     "city_country": "Bangor, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Ards_F.C."
   },
   {
-    "club_name": "Armagh City",
+    "club_name": "Armagh City FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/41/Armagh_city_fc.png",
     "city_country": "Armagh, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Armagh_City_F.C."
   },
   {
-    "club_name": "Institute",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Institute_F.C._logo.png/250px-Institute_F.C._logo.png",
+    "club_name": "Institute FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Institute_F.C._logo.svg/250px-Institute_F.C._logo.svg.png",
     "city_country": "Derry, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Institute_F.C."
   },
@@ -18925,7 +18925,7 @@
   },
   {
     "club_name": "Warrenpoint Town",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/81/Warrenpoint_Town_F.C._logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Warrenpoint_Town_F.C._logo.svg/250px-Warrenpoint_Town_F.C._logo.svg.png",
     "city_country": "Warrenpoint, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Warrenpoint_Town_F.C."
   },
@@ -19033,7 +19033,7 @@
   },
   {
     "club_name": "The Spartans FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/The_Spartans_FC_Logo.png/250px-The_Spartans_FC_Logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/The_Spartans_F.C._logo.svg/250px-The_Spartans_F.C._logo.svg.png",
     "city_country": "Edinburgh, Scotland",
     "wiki_url": "https://en.wikipedia.org/wiki/The_Spartans_F.C."
   },
@@ -22856,7 +22856,7 @@
     },
     {
       "club_name": "Newry City AFC",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4a/Newry_City_A.F.C.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Newry_City_A.F.C._logo.svg/250px-Newry_City_A.F.C._logo.svg.png",
       "city_country": "Newry, Northern Ireland",
       "wiki_url": "https://en.wikipedia.org/wiki/Newry_City_A.F.C."
     },
@@ -25797,7 +25797,7 @@
 },
 {
   "club_name": "Paraná Clube",
-  "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/87/Paran%C3%A1_Clube.png",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Paran%C3%A1_Clube_logo.svg/250px-Paran%C3%A1_Clube_logo.svg.png",
   "city_country": "Curitiba, Brazil",
   "wiki_url": "https://en.wikipedia.org/wiki/Paran%C3%A1_Clube"
 },
@@ -26223,7 +26223,7 @@
   },
   {
     "club_name": "CF Badalona",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1d/CF_Badalona.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/CF_Badalona_logo.svg/250px-CF_Badalona_logo.svg.png",
     "city_country": "Badalona, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CF_Badalona"
   },
@@ -26379,7 +26379,7 @@
   },
   {
     "club_name": "CD Guijuelo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/CD_Guijuelo_escudo.png/250px-CD_Guijuelo_escudo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/CD_Guijuelo_logo.svg/250px-CD_Guijuelo_logo.svg.png",
     "city_country": "Guijuelo, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CD_Guijuelo"
   },
@@ -34047,7 +34047,7 @@
   },
   {
     "club_name": "Lindö FF",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Lind%C3%B6_FF_logo.svg/250px-Lind%C3%B6_FF_logo.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Lindo_FF_logo.svg/250px-Lindo_FF_logo.svg.png",
     "city_country": "Norrköping, Sweden",
     "wiki_url": "https://en.wikipedia.org/wiki/Lind%C3%B6_FF"
   },
