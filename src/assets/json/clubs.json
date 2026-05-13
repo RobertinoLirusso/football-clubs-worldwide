@@ -3294,13 +3294,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Chivas_USA"
   },
   {
-    "club_name": "Bartolomé Mitre",
+    "club_name": "CA Bartolomé Mitre",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5uchiensnmazqcXMVZ66eYTPmNcSaQoP_40KSp3nj6mVOEA78gRkEgDCzx9iws6aL9enO6R10R9JN8qb0dNMVXF2qumyeyb3vCeT3VobnVjQTSx99x0nUbGo2zgYSuQ5802g_WIZVkT-y2Y35tMRSa_FgR9SAEWANw8h-vYmmPNtiTATaG5u5OvnskIU/s256/CA%20Bartolom%C3%A9%20Mitre256x.png",
     "city_country": "Posadas, Argentina",
     "wiki_url": "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Bartolom%C3%A9_Mitre_(Posadas)"
   },
   {
-    "club_name": "Santamarina",
+    "club_name": "Club y Biblioteca Santamarina",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy0MYL0WHc068KXHh5JafdT9Cc9oiyVTYp8YNG20lNaJDE4aiBbpuAseibD9XtC0eVg_owpjEjL6Nr6hsNPT8VYJPLx4xzSH8v1onJd2sCtUrt7LANkksXY0Glihx8ZmpBDuRU8fvl31k/s1600/Ramon+Santamarina256x.png",
     "city_country": "Tandil, Argentina",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_y_Biblioteca_Ram%C3%B3n_Santamarina"
@@ -8856,8 +8856,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Cuiab%C3%A1_Esporte_Clube"
   },
   {
-    "club_name": "Amazonas",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Amazonas_Futebol_Clube.png/250px-Amazonas_Futebol_Clube.png",
+    "club_name": "Amazonas FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Amazonas_Futebol_Clube_logo.svg/250px-Amazonas_Futebol_Clube_logo.svg.png",
     "city_country": "Manaus, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Amazonas_Futebol_Clube"
   },
@@ -13513,7 +13513,7 @@
   },
   {
     "club_name": "SpVgg Ansbach 09",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/SpVgg_Ansbach.png/250px-SpVgg_Ansbach.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/SpVgg_Ansbach_logo.svg/250px-SpVgg_Ansbach_logo.svg.png",
     "city_country": "Ansbach, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/SpVgg_Ansbach"
   },
@@ -13711,7 +13711,7 @@
     },
     {
       "club_name": "GS Ilioupolis",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/GS_Ilioupolis_logo.svg/250px-GS_Ilioupolis_logo.svg.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/GS_Ilioupolis_logo.svg/330px-GS_Ilioupolis_logo.svg.png",
       "city_country": "Ilioupoli, Greece",
       "wiki_url": "https://en.wikipedia.org/wiki/GS_Ilioupolis"
     },
@@ -14395,7 +14395,7 @@
   },
   {
     "club_name": "Excelsior Maassluis",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/70/Excelsior_Maassluis_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Excelsior_Maassluis_logo.svg/250px-Excelsior_Maassluis_logo.svg.png",
     "city_country": "Maassluis, Netherlands",
     "wiki_url": "https://en.wikipedia.org/wiki/Excelsior_Maassluis"
   },
@@ -14413,13 +14413,13 @@
   },
   {
     "club_name": "Koninklijke HFC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Koninklijke_HFC_logo.png/120px-Koninklijke_HFC_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Koninklijke_HFC.svg/250px-Koninklijke_HFC.svg.png",
     "city_country": "Haarlem, Netherlands",
     "wiki_url": "https://en.wikipedia.org/wiki/Koninklijke_HFC"
   },
   {
     "club_name": "HSV Hoek",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cc/HSV_Hoek.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/HSV_Hoek_logo.svg/250px-HSV_Hoek_logo.svg.png",
     "city_country": "Hoek, Netherlands",
     "wiki_url": "https://en.wikipedia.org/wiki/HSV_Hoek"
   },
@@ -17533,7 +17533,7 @@
   },
   {
     "club_name": "MŠK Púchov",
-    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFfKwV9pcH-grLYBbORrWy93IWJ0ZgslLqBA&s",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/M%C5%A0K_P%C3%BAchov_Logo.png/250px-M%C5%A0K_P%C3%BAchov_Logo.png",
     "city_country": "Púchov, Slovakia",
     "wiki_url": "https://en.wikipedia.org/wiki/M%C5%A0K_P%C3%BAchov"
   },
@@ -19338,8 +19338,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/NK_Inter_Zapre%C5%A1i%C4%87"
   },
   {
-    "club_name": "Pistoiese",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/41/U.S._Pistoiese_1921_logo.png",
+    "club_name": "FC Pistoiese SSD",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/FC_Pistoiese_crest.svg/250px-FC_Pistoiese_crest.svg.png",
     "city_country": "Pistoia, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Pistoiese_SSD"
   },
@@ -20072,7 +20072,7 @@
   },
   {
     "club_name": "Shafa Baku FK (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Shafa_FK_logo.png/250px-Shafa_FK_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/d/db/Shafa_Baku_Soccer_Club_logo.png/250px-Shafa_Baku_Soccer_Club_logo.png",
     "city_country": "Baku, Azerbaijan",
     "wiki_url": "https://en.wikipedia.org/wiki/Shafa_Baku_FK"
   },
@@ -22244,7 +22244,7 @@
   },
   {
     "club_name": "Irtysh Pavlodar",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/FC_Irtysh.png/250px-FC_Irtysh.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/4/44/FC_Ertis.png/250px-FC_Ertis.png",
     "city_country": "Pavlodar, Kazakhstan",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Irtysh_Pavlodar"
   },
@@ -23864,7 +23864,7 @@
   },
   {
     "club_name": "Commercial Bank of Ethiopia SA",
-    "club_logo": "https://soccer.et/wp-content/uploads/2023/04/banks.png",
+    "club_logo": "https://imagecache.365scores.com/image/upload/f_png,w_250,h_250,c_limit,q_auto:eco,d_Competitors:default1.png/v2/Competitors/20103",
     "city_country": "Addis Ababa, Ethiopia",
     "wiki_url": "https://en.wikipedia.org/wiki/CBE_SA"
   },
@@ -29325,7 +29325,7 @@
   },
   {
     "club_name": "CD Cinfães",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/75/CD_Cinfaes.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/C.D._Cinf%C3%A3es_logo.svg/250px-C.D._Cinf%C3%A3es_logo.svg.png",
     "city_country": "Cinfães, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/C.D._Cinf%C3%A3es"
   },
@@ -29349,7 +29349,7 @@
   },
   {
     "club_name": "Mortágua FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Mortagua_FC.png/250px-Mortagua_FC.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Mort%C3%A1gua_F.C._logo.svg/250px-Mort%C3%A1gua_F.C._logo.svg.png",
     "city_country": "Mortágua, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/Mort%C3%A1gua_F.C."
   },
