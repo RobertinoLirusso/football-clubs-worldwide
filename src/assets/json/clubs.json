@@ -1219,7 +1219,7 @@
   },
   {
     "club_name": "VfL Wolfsburg",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI5KDXDskbukCbGTe_RFobBkulUv-UupVf2yHZnoZbvWJCs7oYVFT6iZ5HlwxejPrh8I07heK3ir2uPqcq3h_vVoRYuoNohfDupWoNr99CGwg7019ENarQwZ0x5Cdag5hqj5p1sjMipfwJ/s1600/VfL+Wolfsburg256x.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgseyTk7VhcvWyWMApyKzgiyN6B97OKHbmugYhOXgT_e-hQhDsltdcodJmBH24AsKbFb3c8Gw3NKRtMa2NKFXTvyU521U4y5tftrQ_rpWL1LKjrMU6LhJctZMuKOyD0dbLRmXrnjDkll3P6mfF6Bfu0vttWMwOpZAC2Di0dbH3YxLr7KrK20ZIJ47EwoSc/s1600/VfL%20Wolfsburg256x.png",
     "city_country": "Wolfsburg, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/VfL_Wolfsburg"
   },
@@ -1477,7 +1477,7 @@
   },
   {
     "club_name": "Sheffield Wednesday",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrX_cM4Q2BI6byhcsPlLaIAaZA5T1SMhG64U9ICL4K-Lyj85EHLfzz36pNM0oF00VklYeSZGZ_uvZde8hB6njqYV7FEssEdihYp6qgd5aX63r2xJelpY2nkAU_Cv2B74O3k9Rnu2YlEta1/s1600/Sheffield+Wednesday+FC256x.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6CZDwbq_iVsoZGXDCL2CeVxItYNSJNsYM42WrUrrfFbElnCNW5kXa0UvMYVMrKlcVk-5m0JPLttPzSYS1NSxsMXyRAczQQYyK-V1JW4Pmyb3ZA3itgxo03XXSQnyxhTMhowejeJGOOX7YnzJKstQDZ9dyAp9nHEhfApRuoXUYyt5_BUhanGAgdj34IWk/s1600/Sheffield%20Wednesday%20FC256x.png",
     "city_country": "Sheffield, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Sheffield_Wednesday_F.C."
   },
@@ -10027,7 +10027,7 @@
     },
     {
       "club_name": "Hashtag United",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Hashtag_United.png/250px-Hashtag_United.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Hashtag_United_F.C._logo.svg/250px-Hashtag_United_F.C._logo.svg.png",
       "city_country": "Aveley, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Hashtag_United_F.C."
     },
@@ -14389,7 +14389,7 @@
   },
   {
     "club_name": "BVV Barendrecht",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/6c/BVV_Barendrecht_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/BVV_Barendrecht_logo.svg/250px-BVV_Barendrecht_logo.svg.png",
     "city_country": "Barendrecht, Netherlands",
     "wiki_url": "https://en.wikipedia.org/wiki/BVV_Barendrecht"
   },
@@ -14425,13 +14425,13 @@
   },
   {
     "club_name": "IJsselmeervogels",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fb/IJsselmeervogels_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/IJsselmeervogels_logo.svg/250px-IJsselmeervogels_logo.svg.png",
     "city_country": "Bunschoten-Spakenburg, Netherlands",
     "wiki_url": "https://en.wikipedia.org/wiki/IJsselmeervogels"
   },
   {
     "club_name": "VV Katwijk",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/54/VV_Katwijk_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/VV_Katwijk_logo.svg/250px-VV_Katwijk_logo.svg.png",
     "city_country": "Katwijk, Netherlands",
     "wiki_url": "https://en.wikipedia.org/wiki/VV_Katwijk"
   },
@@ -29319,7 +29319,7 @@
   },
   {
     "club_name": "AD Camacha",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/97/A_d_Camacha.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/A.D._Camacha_logo.svg/250px-A.D._Camacha_logo.svg.png",
     "city_country": "Santa Cruz, Portugal",
     "wiki_url": "https://en.wikipedia.org/wiki/A.D._Camacha"
   },
@@ -34080,5 +34080,101 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Perak_The_Bos_Gaurus.png/250px-Perak_The_Bos_Gaurus.png",
     "city_country": "Ipoh, Malaysia",
     "wiki_url": "https://en.wikipedia.org/wiki/Perak_F.C."
+  },
+  {
+    "club_name": "FC Carlos Stein",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/CarlosSteinBadge.png/250px-CarlosSteinBadge.png",
+    "city_country": "Negritos, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Carlos_Stein"
+  },
+  {
+    "club_name": "CD Centro Social Pariacoto",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/29/Centro_Social_Pariacoto_logo.png",
+    "city_country": "Pariacoto, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Centro_Social_Pariacoto"
+  },
+  {
+    "club_name": "CD Cultural Volante",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Cultural_Volante.png/250px-Cultural_Volante.png",
+    "city_country": "Bambamarca, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cultural_Volante"
+  },
+  {
+    "club_name": "Deportivo Lute",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Escudo_Deportivo_Lute_Za%C3%B1a_v2.png/250px-Escudo_Deportivo_Lute_Za%C3%B1a_v2.png",
+    "city_country": "Lambayeque, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Lute"
+  },
+  {
+    "club_name": "Deportivo Ucrania",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ea/Asociaci%C3%B3n_Club_Deportivo_Ucrania_logo.png",
+    "city_country": "Nueva Cajamarca, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Asociaci%C3%B3n_Club_Deportivo_Ucrania"
+  },
+  {
+    "club_name": "CD Ecosem Pasco",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/be/Ecosem_Pasco_logo.png",
+    "city_country": "Cerro de Pasco, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ecosem_Pasco"
+  },
+  {
+    "club_name": "CD Juventud Cautivo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Juventud_Cautivo_logo.png/250px-Juventud_Cautivo_logo.png",
+    "city_country": "San Miguel de El Faique, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Juventud_Cautivo"
+  },
+  {
+    "club_name": "Juventus FC Huamachuco",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b8/Juventus_FC_%28Huamachuco%29_logo.png",
+    "city_country": "Huamachuco, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Juventus_FC_(Huamachuco)"
+  },
+  {
+    "club_name": "Nacional FBC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Nacional_FBC.png/250px-Nacional_FBC.png",
+    "city_country": "Mollendo, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nacional_FBC"
+  },
+  {
+    "club_name": "CD Pacífico FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Club_Deportivo_Pac%C3%ADfico_FC_logo.png/250px-Club_Deportivo_Pac%C3%ADfico_FC_logo.png",
+    "city_country": "Lima, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Deportivo_Pac%C3%ADfico_FC"
+  },
+  {
+    "club_name": "CD Cultural Patriotas",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Club_Deportivo_Cultural_Patriotas_logo.png/250px-Club_Deportivo_Cultural_Patriotas_logo.png",
+    "city_country": "Tacna, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Club_Deportivo_Cultural_Patriotas"
+  },
+  {
+    "club_name": "UD Ascención",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a7/Uni%C3%B3n_Deportivo_Ascensi%C3%B3n_logo.png",
+    "city_country": "Huancavelica, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Uni%C3%B3n_Deportivo_Ascensi%C3%B3n"
+  },
+  {
+    "club_name": "Unión Huaral",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Club_Sport_Uni%C3%B3n_Huaral.png/250px-Club_Sport_Uni%C3%B3n_Huaral.png",
+    "city_country": "Huaral, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Uni%C3%B3n_Huaral"
+  },
+  {
+    "club_name": "CSD Cultural Unión Santo Domingo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Uni%C3%B3n_Santo_Domingo_logo.png/250px-Uni%C3%B3n_Santo_Domingo_logo.png",
+    "city_country": "Chachapoyas, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Uni%C3%B3n_Santo_Domingo"
+  },
+  {
+    "club_name": "Juventud Alfa FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/24/Juventud_Alfa_FC_logo.png",
+    "city_country": "Pisac, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Juventud_Alfa_FC"
+  },
+  {
+    "club_name": "CD Defensor La Bocana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Defensor_La_Bocana.png/250px-Defensor_La_Bocana.png",
+    "city_country": "Sechura, Peru",
+    "wiki_url": "https://en.wikipedia.org/wiki/Defensor_La_Bocana"
   }
 ]
