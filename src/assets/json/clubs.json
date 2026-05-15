@@ -4627,7 +4627,7 @@
   },
   {
     "club_name": "Shrewsbury Town",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3gx-WakfQKU__8HtT_l3Gz-PvBNSDeA4Eaq5lCVSUkEIs-zhH6F2P9Gh6kOgpD7RLr5z-9CYFyfMEZJTW9ta9VugUESmd4ytcPZ3UXVI5GScZWMvO4sKQjvXYWup7Znsn3RmBdxkyTx8/s1600/Shrewsbury+Town+FC256x.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Shrewsbury_Town_F.C._logo.svg/250px-Shrewsbury_Town_F.C._logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "city_country": "Shrewsbury, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Shrewsbury_Town_F.C."
   },
@@ -34176,5 +34176,245 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Defensor_La_Bocana.png/250px-Defensor_La_Bocana.png",
     "city_country": "Sechura, Peru",
     "wiki_url": "https://en.wikipedia.org/wiki/Defensor_La_Bocana"
+  },
+  {
+    "club_name": "Maldon & Tiptree FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Maldon_and_Tiptree_FC_Logo.png/250px-Maldon_and_Tiptree_FC_Logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Maldon, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Maldon_%26_Tiptree_F.C."
+  },
+  {
+    "club_name": "Felixstowe & Walton United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Felixstowe_and_Walton_United_FC_crest.svg/250px-Felixstowe_and_Walton_United_FC_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Felixstowe, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Felixstowe_%26_Walton_United_F.C."
+  },
+  {
+    "club_name": "Waltham Abbey FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Waltham_Abbey_FC_crest.svg/250px-Waltham_Abbey_FC_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Waltham Abbey, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Waltham_Abbey_F.C."
+  },
+  {
+    "club_name": "Stanway Rovers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Stanway_Rovers_FC_crest.svg/250px-Stanway_Rovers_FC_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Stanway, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stanway_Rovers_F.C."
+  },
+  {
+    "club_name": "Redbridge FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Redbridge_F.C._logo.png/250px-Redbridge_F.C._logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "London, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Redbridge_F.C."
+  },
+  {
+    "club_name": "Gorleston FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Gorleston_FC.PNG/250px-Gorleston_FC.PNG?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Gorleston, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gorleston_F.C."
+  },
+  {
+    "club_name": "Bowers & Pitsea FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Bowers_%26_Pitsea_logo.png/250px-Bowers_%26_Pitsea_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Pitsea, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bowers_%26_Pitsea_F.C."
+  },
+  {
+    "club_name": "Wroxham FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Wroxham.png/250px-Wroxham.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Wroxham, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wroxham_F.C."
+  },
+  {
+    "club_name": "Witham Town",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Witham_Town_FC_crest.svg/250px-Witham_Town_FC_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Witham, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Witham_Town_F.C."
+  },
+  {
+    "club_name": "Walthamstow FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Walthamstow_FC_logo_transparent.png/250px-Walthamstow_FC_logo_transparent.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Walthamstow, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Walthamstow_F.C."
+  },
+  {
+    "club_name": "Tilbury FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Tilbury_F.C._logo.png/250px-Tilbury_F.C._logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Tilbury, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tilbury_F.C."
+  },
+  {
+    "club_name": "Cambridge City FC",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/4674.png?lm=1662566460",
+    "city_country": "Sawston, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cambridge_City_F.C."
+  },
+  {
+    "club_name": "Concord Rangers",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Concord_Rangers_FC_crest.svg/250px-Concord_Rangers_FC_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Canvey Island, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Concord_Rangers_F.C."
+  },
+  {
+    "club_name": "Brightlingsea Regent FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Brightlingsea_Regent.PNG/250px-Brightlingsea_Regent.PNG?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Brightlingsea, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brightlingsea_Regent_F.C."
+  },
+  {
+    "club_name": "Newmarket Town",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Newmarket_Town_FC.PNG/250px-Newmarket_Town_FC.PNG?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Newmarket, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Newmarket_Town_F.C."
+  },
+  {
+    "club_name": "Lowestoft Town",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Lowestoft_Town_Badge.png/250px-Lowestoft_Town_Badge.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Lowestoft, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lowestoft_Town_F.C."
+  },
+  {
+    "club_name": "Takeley FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/ff/Takeley_F.C._logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "city_country": "Takeley, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Takeley_F.C."
+  },
+  {
+    "club_name": "Grays Athletic FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Grays_Athletic_F.C._logo.png/250px-Grays_Athletic_F.C._logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Grays, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Grays_Athletic_F.C."
+  },
+  {
+    "club_name": "Mildenhall Town",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Mildenhall_Town_FC.PNG/250px-Mildenhall_Town_FC.PNG?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Mildenhall, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mildenhall_Town_F.C."
+  },
+  {
+    "club_name": "Downham Town",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Downham_Town_FC.PNG/250px-Downham_Town_FC.PNG?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Downham Market, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Downham_Town_F.C."
+  },
+  {
+    "club_name": "Heybridge Swifts",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Heybridge_Swifts_FC_crest.svg/250px-Heybridge_Swifts_FC_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Heybridge, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Heybridge_Swifts_F.C."
+  },
+  {
+    "club_name": "Brantham Athletic FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ef/Brantham_Athletic_FC.PNG?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "city_country": "Brantham, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brantham_Athletic_F.C."
+  },
+  {
+    "club_name": "Leatherhead FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Leatherhead_FC_crest.svg/250px-Leatherhead_FC_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Leatherhead, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Leatherhead_F.C."
+  },
+  {
+    "club_name": "Kingstonian FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Kingstonian_F.C._logo.png/250px-Kingstonian_F.C._logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Kingston upon Thames, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kingstonian_F.C."
+  },
+  {
+    "club_name": "Jersey Bulls FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Jersey_Bulls.svg/250px-Jersey_Bulls.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Saint Helier, Jersey",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jersey_Bulls_F.C."
+  },
+  {
+    "club_name": "Three Bridges FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Three_Bridges_F.C._logo.png/250px-Three_Bridges_F.C._logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Crawley, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Three_Bridges_F.C."
+  },
+  {
+    "club_name": "AFC Croydon Athletic",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/AFC_Croydon_Athletic_logo.png/250px-AFC_Croydon_Athletic_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "London, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/AFC_Croydon_Athletic"
+  },
+  {
+    "club_name": "Margate FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Margate_FC_crest.svg/250px-Margate_FC_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Margate, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Margate_F.C."
+  },
+  {
+    "club_name": "Hastings United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/03/Hastings_United_F.C._2020_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "city_country": "Hastings, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hastings_United_F.C."
+  },
+  {
+    "club_name": "Herne Bay FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/73/Herne_Bay_F.C._crest.pnghttps://upload.wikimedia.org/wikipedia/en/thumb/1/12/Herne_Bay_FC_crest.svg/250px-Herne_Bay_FC_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Herne Bay, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Herne_Bay_F.C."
+  },
+  {
+    "club_name": "Bury FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Bury_FC_crest.svg/250px-Bury_FC_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Bury, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bury_F.C."
+  },
+  {
+    "club_name": "Racing Club Warwick FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Racing_Club_Warwick_F.C._logo.png/250px-Racing_Club_Warwick_F.C._logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Warwick, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Racing_Club_Warwick_F.C."
+  },
+  {
+    "club_name": "Bradford (Park Avenue) AFC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Bradford_%28Park_Avenue%29_A.F.C._logo.png/250px-Bradford_%28Park_Avenue%29_A.F.C._logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Bradford, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bradford_(Park_Avenue)_A.F.C."
+  },
+  {
+    "club_name": "Blyth Spartans AFC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Blyth_Spartans_AFC_crest.svg/250px-Blyth_Spartans_AFC_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Blyth, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Blyth_Spartans_A.F.C."
+  },
+  {
+    "club_name": "Gloucester City AFC",
+    "club_logo": "https://blogger.googleusercontent.com/img/a/AVvXsEiXLmF4-8gnG8sdA9yeGHmpDh-anOa6boHAfhtasTk-YqtsUmWt9Cwi0J8E9nDV5_rIsy7hM1yixcXexYYUF9bg72doUMiL786D0DGpR5-BK5nJvbKaL3ygrujWOrUmm_jKJvJvQqmQiReXUthl7lgGh2ZJ8w41i7Ajh9MkuAGeEiLBxuuNnEYh_7t8H28=w320-h320",
+    "city_country": "Gloucester, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gloucester_City_A.F.C."
+  },
+  {
+    "club_name": "Weymouth FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Weymouth_F.C._logo.png/250px-Weymouth_F.C._logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Weymouth, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Weymouth_F.C."
+  },
+  {
+    "club_name": "Vauxhall Motors FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Vauxhall_Motors_F.C._logo.png/250px-Vauxhall_Motors_F.C._logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Ellesmere Port, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vauxhall_Motors_F.C."
+  },
+  {
+    "club_name": "Guiseley AFC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Guiseley_AFC_logo.png/250px-Guiseley_AFC_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Guiseley, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Guiseley_A.F.C."
+  },
+  {
+    "club_name": "Farsley Celtic (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Farsley_AFC_logo.png/250px-Farsley_AFC_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Farsley, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Farsley_Celtic_F.C."
+  },
+  {
+    "club_name": "Donegal Celtic FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Donegal_Celtic_F.C..png/250px-Donegal_Celtic_F.C..png",
+    "city_country": "Belfast, Northern Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Donegal_Celtic_F.C."
   }
 ]
