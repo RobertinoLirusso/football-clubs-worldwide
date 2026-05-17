@@ -8233,7 +8233,7 @@
   },
     {
     "club_name": "US Sambenedettese",
-    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZHhL_qjuwK8SWcLBCu8aSo3uzIHlcP6Dyw&s",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/AS_Sambenedettese_logo.svg/250px-AS_Sambenedettese_logo.svg.png",
     "city_country": "San Benedetto del Tronto, Italy",
     "wiki_url": "https://it.wikipedia.org/wiki/U.S._Sambenedettese"
   },
@@ -10848,8 +10848,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Prykarpattia_Ivano-Frankivsk_(1998)"
   },
   {
-    "club_name": "UCSA Tarasivka",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/UCSA_Tarasivka.svg/250px-UCSA_Tarasivka.svg.png",
+    "club_name": "FC UCSA Tarasivka",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/1/19/%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%A4%D0%9A_%D0%AE%D0%9A%D0%A1%D0%90.svg/250px-%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%A4%D0%9A_%D0%AE%D0%9A%D0%A1%D0%90.svg.png",
     "city_country": "Tarasivka, Ukraine",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_UCSA_Tarasivka"
   },
@@ -34353,7 +34353,7 @@
   },
   {
     "club_name": "Herne Bay FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/73/Herne_Bay_F.C._crest.pnghttps://upload.wikimedia.org/wikipedia/en/thumb/1/12/Herne_Bay_FC_crest.svg/250px-Herne_Bay_FC_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Herne_Bay_FC_crest.svg/250px-Herne_Bay_FC_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "city_country": "Herne Bay, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Herne_Bay_F.C."
   },
@@ -34416,5 +34416,131 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Donegal_Celtic_F.C..png/250px-Donegal_Celtic_F.C..png",
     "city_country": "Belfast, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Donegal_Celtic_F.C."
+  },
+  {
+    "club_name": "Gamle Oslo FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/FC_Oslo_logo.svg/250px-FC_Oslo_logo.svg.png",
+    "city_country": "Oslo, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gamle_Oslo_FK"
+  },
+  {
+    "club_name": "IF Ready",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/IF_Ready_logo.svg/250px-IF_Ready_logo.svg.png",
+    "city_country": "Oslo, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/IF_Ready"
+  },
+  {
+    "club_name": "Bærum SK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Baerum_SK_logo.svg/250px-Baerum_SK_logo.svg.png",
+    "city_country": "Bærum, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/B%C3%A6rum_SK"
+  },
+  {
+    "club_name": "FK Union Carl Berner",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/109152.png?lm=1713528330",
+    "city_country": "Oslo, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Union_Carl_Berner"
+  },
+  {
+    "club_name": "IL Heming",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/normquad/73771.png?lm=1560785053",
+    "city_country": "Oslo, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/IL_Heming"
+  },
+  {
+    "club_name": "Frigg Oslo FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Frigg_Oslo.png/250px-Frigg_Oslo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Oslo, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Frigg_Oslo_FK"
+  },
+  {
+    "club_name": "SF Grei",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/97/SF_Grei.gif",
+    "city_country": "Oslo, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/SF_Grei"
+  },
+  {
+    "club_name": "Lokomotiv Oslo FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Lokomotiv_Oslo_FK.png/250px-Lokomotiv_Oslo_FK.png",
+    "city_country": "Oslo, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lokomotiv_Oslo_FK"
+  },
+  {
+    "club_name": "Konnerud IL Fotball",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3e/Konnerud_IL.jpg",
+    "city_country": "Drammen, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Konnerud_IL"
+  },
+  {
+    "club_name": "Ullern IF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Ullern_IF_logo.svg/250px-Ullern_IF_logo.svg.png",
+    "city_country": "Oslo, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ullern_IF"
+  },
+  {
+    "club_name": "Nordstrand IF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Nordstrand_IF.jpg/250px-Nordstrand_IF.jpg",
+    "city_country": "Oslo, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nordstrand_IF"
+  },
+  {
+    "club_name": "Melhus IL",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Melhus_IL_logo.png/250px-Melhus_IL_logo.png",
+    "city_country": "Melhus, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Melhus_IL"
+  },
+  {
+    "club_name": "SK Herd",
+    "club_logo": "https://images.seeklogo.com/logo-png/35/2/sk-herd-logo-png_seeklogo-351480.png",
+    "city_country": "Ålesund, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/SK_Herd"
+  },
+  {
+    "club_name": "Byåsen Toppfotball",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/By%C3%A5sen_Toppfotball_logo.png/250px-By%C3%A5sen_Toppfotball_logo.png",
+    "city_country": "Trondheim, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/By%C3%A5sen_Toppfotball"
+  },
+  {
+    "club_name": "FK Kvik",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/48/FK_Kvik_logo.png",
+    "city_country": "Trondheim, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/FK_Kvik"
+  },
+  {
+    "club_name": "Strindheim IL",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e7/Strindheim_IL_logo.png",
+    "city_country": "Trondheim, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Strindheim_IL"
+  },
+  {
+    "club_name": "Volda TI",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Volda_TI_logo.png/250px-Volda_TI_logo.png",
+    "city_country": "Volda, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Volda_TI"
+  },
+  {
+    "club_name": "Orkla FK",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/43899.png?lm=1402478923",
+    "city_country": "Orkland, Norway",
+    "wiki_url": "https://no.wikipedia.org/wiki/Orkla_Fotballklubb"
+  },
+  {
+    "club_name": "Nardo FK",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/59/Nardo_FK.gif",
+    "city_country": "Trondheim, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nardo_FK"
+  },
+  {
+    "club_name": "Spjelkavik IL",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/17/Spjelkavik_IL_logo.png",
+    "city_country": "Ålesund, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Spjelkavik_IL"
+  },
+  {
+    "club_name": "NTNUI Fotball",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/NTNUI_Logo.png/250px-NTNUI_Logo.png",
+    "city_country": "Trondheim, Norway",
+    "wiki_url": "https://no.wikipedia.org/wiki/NTNUI"
   }
 ]
