@@ -29804,8 +29804,8 @@
     "wiki_url": "https://it.wikipedia.org/wiki/Nola_1925"
   },
   {
-    "club_name": "Fidelis Andria 2018",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9f/S.S._Fidelis_Andria_1928_logo.png",
+    "club_name": "Fidelis Andria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/8/8a/Fidelis_Andria_2025.png/250px-Fidelis_Andria_2025.png",
     "city_country": "Andria, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Fidelis_Andria_2018"
   },
@@ -33057,14 +33057,14 @@
   },
   {
     "club_name": "Hill Country Lobos",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Hill_Country_Lobos_logo.png/250px-Hill_Country_Lobos_logo.png",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/122407.png?lm=1724352609",
     "city_country": "Austin, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Hill_Country_Lobos"
   },
   {
     "club_name": "Brave SC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Brave_SC_logo.png/250px-Brave_SC_logo.png",
-    "city_country": " Summerfield, United States",
+    "city_country": "Summerfield, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Brave_SC"
   },
   {
@@ -34542,5 +34542,299 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/NTNUI_Logo.png/250px-NTNUI_Logo.png",
     "city_country": "Trondheim, Norway",
     "wiki_url": "https://no.wikipedia.org/wiki/NTNUI"
+  },
+  {
+    "club_name": "USD Adriese 1906",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Logo_of_US_Adriese.svg/250px-Logo_of_US_Adriese.svg.png",
+    "city_country": "Adria, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Unione_Sportiva_Adriese_1906"
+  },
+  {
+    "club_name": "FC Bassano",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/9690.png?lm=1695977987",
+    "city_country": "Bassano del Grappa, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Football_Club_Bassano_1903"
+  },
+  {
+    "club_name": "Bassano Virtus 55 ST (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Bassano_Virtus_55_S.T._logo.png/250px-Bassano_Virtus_55_S.T._logo.pngg",
+    "city_country": "Bassano del Grappa, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bassano_Virtus_55_ST"
+  },
+  {
+    "club_name": "Brian Lignano Calcio",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/58808.png?lm=1726048483",
+    "city_country": "Lignano Sabbiadoro, Italy",
+    "wiki_url": "https://brianlignanocalcio.it/"
+  },
+  {
+    "club_name": "FC Calvi Noale",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/42308.png?lm=1731055537",
+    "city_country": "Calvi Noale, Italy",
+    "wiki_url": "https://www.calvinoale.it/"
+  },
+  {
+    "club_name": "ACD Campodarsego",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/A.C.D._Campodarsego.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "city_country": "Campodarsego, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Associazione_Calcio_Dilettantistica_Campodarsego"
+  },
+  {
+    "club_name": "Cjarlins Muzane SSD",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/46664.png?lm=1628499158",
+    "city_country": "Carlino, Italy",
+    "wiki_url": "https://www.cjarlinsmuzane.it/"
+  },
+  {
+    "club_name": "FCD Conegliano 1907",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/FCD_Conegliano_Calcio_1907_logo.png/250px-FCD_Conegliano_Calcio_1907_logo.png",
+    "city_country": "Conegliano, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Conegliano_1907"
+  },
+  {
+    "club_name": "AC Este",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/87/A.C._Este_logo.png",
+    "city_country": "Este, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Este"
+  },
+  {
+    "club_name": "Luparense FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Luparense_F.C._%28football%29.png/250px-Luparense_F.C._%28football%29.png",
+    "city_country": "San Martino di Lupari, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Luparense_FC_(football)"
+  },
+  {
+    "club_name": "AC Mestre",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/e/ea/Logo_AC_Mestre_%282015%29.png/250px-Logo_AC_Mestre_%282015%29.png",
+    "city_country": "Mestre, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Associazione_Calcio_Mestre"
+  },
+  {
+    "club_name": "FC Obermais",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/32403.png?lm=1464940452",
+    "city_country": "Merano, Italy",
+    "wiki_url": "https://www.fcobermais.it/fc-obermais-raiffeisen-meran/"
+  },
+  {
+    "club_name": "Portogruaro Calcio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/f/f4/Calcio_Portogruaro-Summaga.png/250px-Calcio_Portogruaro-Summaga.png",
+    "city_country": "Portogruaro, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Portogruaro_Calcio"
+  },
+  {
+    "club_name": "San Luigi Calcio",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/39051.png?lm=1476451889",
+    "city_country": "Trieste, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASD_San_Luigi_Calcio"
+  },
+  {
+    "club_name": "Union Clodiense Chioggia FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/e/e3/Logo_Union_Clodiense_Chioggia_Sottomarina_1971.png/250px-Logo_Union_Clodiense_Chioggia_Sottomarina_1971.png",
+    "city_country": "Chioggia, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Union_Clodiense_Chioggia_Football_Club"
+  },
+  {
+    "club_name": "Unione La Rocca Altavilla",
+    "club_logo": "https://i0.wp.com/unionelarocca-altavilla.it/wp-content/uploads/2025/02/cropped-logo2.jpg?w=250&ssl=1",
+    "city_country": "Altavilla Vicentina, Italy",
+    "wiki_url": "https://unionelarocca-altavilla.it/"
+  },
+  {
+    "club_name": "AC Vigasio",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/44326.png?lm=1730983617",
+    "city_country": "Vigasio, Italy",
+    "wiki_url": "https://www.acvigasio.it/"
+  },
+  {
+    "club_name": "SSD Albalonga",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/A.S.D._Albalonga.png/250px-A.S.D._Albalonga.png",
+    "city_country": "Genzano di Roma & Albano Laziale & Castel Gandolfo & Pavona, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/SSD_Cynthialbalonga"
+  },
+  {
+    "club_name": "Cassino Calcio 1924",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/A.S.D._Cassino_Calcio_logo.png/250px-A.S.D._Cassino_Calcio_logo.png",
+    "city_country": "Cassino, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASD_Cassino_Calcio_1924"
+  },
+  {
+    "club_name": "ASD Flaminia Civita Castellana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fb/A.S.D._Flaminia_Civita_Castellana.png",
+    "city_country": "Civita Castellana, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Flaminia_CivitaCastellana"
+  },
+  {
+    "club_name": "Ischia Calcio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/1/18/Logo_Ischia_Calcio_SSD_2018.png/250px-Logo_Ischia_Calcio_SSD_2018.png",
+    "city_country": "Ischia, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Ischia_Calcio"
+  },
+  {
+    "club_name": "Sassari Calcio Latte Dolce",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d2/U.S.D._Latte_Dolce.png",
+    "city_country": "Sassari, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sassari_Calcio_Latte_Dolce"
+  },
+  {
+    "club_name": "Nocerina Calcio 1910",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Nocerina_1910_ASD.png/250px-Nocerina_1910_ASD.png",
+    "city_country": "Nocera Inferiore, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASD_Nocerina_1910"
+  },
+  {
+    "club_name": "ASG Nocerina (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/ASG_Nocerina.png",
+    "city_country": "Nocera Inferiore, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASG_Nocerina"
+  },
+  {
+    "club_name": "Olbia Calcio 1905",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/b/b3/Olbia_Calcio_1905_logo.svg/250px-Olbia_Calcio_1905_logo.svg.png",
+    "city_country": "Olbia, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Olbia_Calcio_1905"
+  },
+  {
+    "club_name": "AS Pro Piacenza 1919 (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/d/df/Logo_Pro_Piacenza_1919.png/250px-Logo_Pro_Piacenza_1919.png",
+    "city_country": "Piacenza, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Pro_Piacenza_1919"
+  },
+  {
+    "club_name": "USD Palmese 1914",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/73/USD_Palmese_logo.png",
+    "city_country": "Palma Campania, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Palmese_1914"
+  },
+  {
+    "club_name": "Scafatese Calcio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/3/3c/ScafateseCalcio.png/250px-ScafateseCalcio.png",
+    "city_country": "Scafati, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Scafatese_Football_Club"
+  },
+  {
+    "club_name": "ASD Trastevere Calcio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/A.S.D._Trastevere_Calcio.png/250px-A.S.D._Trastevere_Calcio.png",
+    "city_country": "Roma, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASD_Trastevere_Calcio"
+  },
+  {
+    "club_name": "Gladiator 1924",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/19167.png?lm=1481207941",
+    "city_country": "Santa Maria Capua Vetere, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASD_SF_Gladiator_1912"
+  },
+  {
+    "club_name": "US Fiorenzuola 1922",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/0/09/Logo_Fiorenzuola_Calcio_2021.png/250px-Logo_Fiorenzuola_Calcio_2021.png",
+    "city_country": "Fiorenzuola d'Arda, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Unione_Sportiva_Fiorenzuola_1922"
+  },
+  {
+    "club_name": "AS Bisceglie",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/4/48/Bisceglie_AS_1913.png/250px-Bisceglie_AS_1913.png",
+    "city_country": "Bisceglie, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Associazione_Sportiva_Bisceglie"
+  },
+  {
+    "club_name": "Brindisi FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/c1/Brindisi_Football_Club_logo.png/250px-Brindisi_Football_Club_logo.png",
+    "city_country": "Brindisi, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Brindisi_Football_Club"
+  },
+  {
+    "club_name": "US Alessandria Calcio 1912",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/8/83/Stemma_U.S._Alessandria_Calcio.png/250px-Stemma_U.S._Alessandria_Calcio.png",
+    "city_country": "Alessandria, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Unione_Sportiva_Alessandria_Calcio_1912"
+  },
+  {
+    "club_name": "SS Virtus Lanciano 1924",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/6/6b/Virtuslancianostemma.png/250px-Virtuslancianostemma.png",
+    "city_country": "Lanciano, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Societ%C3%A0_Sportiva_Virtus_Lanciano_1924"
+  },
+  {
+    "club_name": "Lucchese Calcio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/d/d5/LuccheseStemma2025.png/250px-LuccheseStemma2025.png",
+    "city_country": "Lucca, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Lucchese_Calcio"
+  },
+  {
+    "club_name": "US Palmese 1912",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/97/U.S._Palmese_1912.png",
+    "city_country": "Palmi, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Palmese_1912"
+  },
+  {
+    "club_name": "US Viterbese 1908",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/6/68/Logo_US_Viterbese.png/250px-Logo_US_Viterbese.png",
+    "city_country": "Viterbo, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Unione_Sportiva_Viterbese_1908"
+  },
+  {
+    "club_name": "FC Rieti 1936",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/34/FC_Rieti_logo.png",
+    "city_country": "Rieti, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Football_Club_Rieti_1936"
+  },
+  {
+    "club_name": "SS Romulea",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Stemma_Romulea.png/250px-Stemma_Romulea.png",
+    "city_country": "Rome, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Societ%C3%A0_Sportiva_Romulea"
+  },
+  {
+    "club_name": "US 1913 Seregno Calcio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3c/U.S.D._1913_Seregno_Calcio.png",
+    "city_country": "Seregno, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_1913_Seregno_Calcio"
+  },
+  {
+    "club_name": "AC Legnano",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Logo_AC_Legnano.svg/250px-Logo_AC_Legnano.svg.png",
+    "city_country": "Legnano, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Associazione_Calcio_Legnano"
+  },
+  {
+    "club_name": "Civitanovese Calcio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/8/86/Civitanovese_Calcio.png/250px-Civitanovese_Calcio.png",
+    "city_country": "Civitanova Marche, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Civitanovese_Calcio"
+  },
+  {
+    "club_name": "Fermana FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/dc/Fermana_F.C._logo.png",
+    "city_country": "Fermo, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fermana_FC"
+  },
+  {
+    "club_name": "SS Matelica Calcio 1921",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/76/S.S._Matelica_Calcio.png",
+    "city_country": "Matelica, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/SS_Matelica_Calcio_1921"
+  },
+  {
+    "club_name": "US Tolentino",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/55/U.S._Tolentino.png",
+    "city_country": "Tolentino, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Tolentino"
+  },
+  {
+    "club_name": "Borgosesia Calcio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ec/Borgosesia_Calcio_logo.png",
+    "city_country": "Borgosesia, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Borgosesia_Calcio"
+  },
+  {
+    "club_name": "AC Cuneo 1905 Olmo",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/AC_Cuneo_1905_logo.png/250px-AC_Cuneo_1905_logo.png",
+    "city_country": "Cuneo, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Associazione_Calcio_Cuneo_1905_Olmo"
+  },
+  {
+    "club_name": "Fossano Calcio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Fossano_Calcio_1919.png/250px-Logo_Fossano_Calcio_1919.png",
+    "city_country": "Fossano, Italy",
+    "wiki_url": "https://it.wikipedia.org/wiki/Fossano_Calcio"
   }
 ]
