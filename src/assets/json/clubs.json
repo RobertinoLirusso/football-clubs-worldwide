@@ -4908,13 +4908,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Petrojet_SC"
   },
   {
-    "club_name": "Ghazl El Mahalla",
+    "club_name": "Ghazl El Mahalla SC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b0/Ghazl_El_Mahalla_SC_new_logo.png",
     "city_country": "El Mahalla El Kubra, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Ghazl_El_Mahalla_SC"
   },
   {
-    "club_name": "Ceramica Cleopatra",
+    "club_name": "Ceramica Cleopatra FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/94/Ceramica_Cleopatra_FC_logo.png",
     "city_country": "Giza, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Ceramica_Cleopatra_FC"
@@ -15888,7 +15888,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Smouha_SC"
   },
   {
-    "club_name": "Tala'ea El Gaish",
+    "club_name": "Tala'ea El Gaish SC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Tala%27ea_El_Gaish_Logo_2017.png/250px-Tala%27ea_El_Gaish_Logo_2017.png",
     "city_country": "Cairo, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Tala%27ea_El_Gaish_SC"
@@ -15912,19 +15912,19 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Wadi_Degla_SC"
   },
   {
-    "club_name": "Kahraba Ismailia",
+    "club_name": "Kahraba Ismailia SC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/1/1c/%D9%86%D8%A7%D8%AF%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9.png/250px-%D9%86%D8%A7%D8%AF%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9.png",
     "city_country": "Ismailia, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Kahraba_Ismailia_SC"
   },
   {
-    "club_name": "Al Ittihad Alexandria",
+    "club_name": "Al Ittihad Alexandria Club",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Al-Ittihad_Alexandria_Club_logo.png/250px-Al-Ittihad_Alexandria_Club_logo.png",
     "city_country": "Alexandria, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Al_Ittihad_Alexandria_Club"
   },
   {
-    "club_name": "Haras El Hodoud",
+    "club_name": "Haras El Hodoud SC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Haras_El_Hodoud_logo_2018.png/250px-Haras_El_Hodoud_logo_2018.png",
     "city_country": "Alexandria, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Haras_El_Hodoud_SC"
@@ -15936,13 +15936,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Ismaily_SC"
   },
   {
-    "club_name": "Modern Sport",
+    "club_name": "Modern Sport FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/3/31/%D9%86%D8%A7%D8%AF%D9%8A_%D9%85%D9%88%D8%AF%D8%B1%D9%86_%D8%B3%D8%A8%D9%88%D8%B1%D8%AA.png/250px-%D9%86%D8%A7%D8%AF%D9%8A_%D9%85%D9%88%D8%AF%D8%B1%D9%86_%D8%B3%D8%A8%D9%88%D8%B1%D8%AA.png",
     "city_country": "Cairo, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/Modern_Sport_FC"
   },
   {
-    "club_name": "National Bank of Egypt",
+    "club_name": "National Bank of Egypt SC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/c/ca/NBE_SC.png/250px-NBE_SC.png",
     "city_country": "Cairo, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/National_Bank_of_Egypt_SC"
@@ -34856,8 +34856,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Gresik_United_F.C."
   },
   {
-    "club_name": "PS Petrokimia Putra Gresik (Defunt)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/id/thumb/0/09/Petrokimia_Putra_Gresik.png/250px-Petrokimia_Putra_Gresik.pnghttps://upload.wikimedia.org/wikipedia/id/thumb/0/09/Petrokimia_Putra_Gresik.png/250px-Petrokimia_Putra_Gresik.png",
+    "club_name": "PS Petrokimia Putra Gresik (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/id/thumb/0/09/Petrokimia_Putra_Gresik.png/250px-Petrokimia_Putra_Gresik.png",
     "city_country": "Gresik, Indonesia",
     "wiki_url": "https://en.wikipedia.org/wiki/PS_Petrokimia_Putra"
   },
@@ -35028,5 +35028,263 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/lt/a/ad/FC_Arta.png",
     "city_country": "Arta, Djibouti",
     "wiki_url": "https://lt.wikipedia.org/wiki/FC_Arta"
+  },
+  {
+    "club_name": "Croissant Sportif de M'saken",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/e/e2/Croissant_sportif_de_M%27saken_new.png/250px-Croissant_sportif_de_M%27saken_new.png",
+    "city_country": "M'saken, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Croissant_sportif_de_M%27saken_(football)"
+  },
+  {
+    "club_name": "Étoile Sportive de Radès",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/6e/Es_Rad%C3%A8s_2017.png/250px-Es_Rad%C3%A8s_2017.png",
+    "city_country": "Radès, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/%C3%89toile_sportive_de_Rad%C3%A8s_(football)"
+  },
+  {
+    "club_name": "AS Ariana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/c/c8/Association_sportive_de_l%27Ariana.png",
+    "city_country": "Ariana, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Association_sportive_de_l%27Ariana_(football)"
+  },
+  {
+    "club_name": "Association Mégrine Sport",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/5/5f/Association_M%C3%A9grine_Sport1.png/250px-Association_M%C3%A9grine_Sport1.png",
+    "city_country": "Mégrine, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Association_M%C3%A9grine_Sport"
+  },
+  {
+    "club_name": "Club Sportif de Korba",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/a/a3/CSK_logo.png/250px-CSK_logo.png",
+    "city_country": "Korba, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Club_sportif_de_Korba"
+  },
+  {
+    "club_name": "Sporting Club de Moknine",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/b/bc/Sporting_Club_de_Moknine.png",
+    "city_country": "Moknine, Tunisia",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Moknine"
+  },
+  {
+    "club_name": "AS Oued Ellil",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/0/0d/AS-Oued-Ellil.png",
+    "city_country": "Oued Ellil, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Avenir_sportif_d%27Oued_Ellil"
+  },
+  {
+    "club_name": "ES Hammam Sousse",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/fb/ES_Hammam-Sousse_logo.png/250px-ES_Hammam-Sousse_logo.png",
+    "city_country": "Hammam Sousse, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Espoir_sportif_de_Hammam_Sousse"
+  },
+  {
+    "club_name": "CS Hammam Lif",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/4/41/Club_sportif_de_Hammam_Lif_logo.png",
+    "city_country": "Hammam Lif, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Club_sportif_de_Hammam_Lif_(football)"
+  },
+  {
+    "club_name": "Jendouba Sports",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/%D8%AC%D9%86%D8%AF%D9%88%D8%A8%D8%A9_%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A9.svg/langfr-250px-%D8%AC%D9%86%D8%AF%D9%88%D8%A8%D8%A9_%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A9.svg.png",
+    "city_country": "Jendouba, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Jendouba_Sports"
+  },
+  {
+    "club_name": "Kalâa Sport",
+    "club_logo": "https://www.federationhandball.tn/wp-content/uploads/2019/09/kalaa-sport-01.png",
+    "city_country": "Kalâa Seghira, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Kal%C3%A2a_Sport"
+  },
+  {
+    "club_name": "El Makarem de Mahdia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/EMM_-_El_Makarem_de_Mahdia.svg/langfr-250px-EMM_-_El_Makarem_de_Mahdia.svg.png",
+    "city_country": "Mahdia, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/El_Makarem_de_Mahdia_(football)"
+  },
+  {
+    "club_name": "SA Menzel Bourguiba",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/95/Samb_logo.png/250px-Samb_logo.png",
+    "city_country": "Menzel Bourguiba, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Stade_africain_de_Menzel_Bourguiba"
+  },
+  {
+    "club_name": "ES Jerba Midoun",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/8/82/ES_Jerba_Midoun.png",
+    "city_country": "Midoun, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Espoir_sportif_de_Jerba_Midoun"
+  },
+  {
+    "club_name": "Aigle Sportif de Jelma",
+    "club_logo": "https://imagecache.365scores.com/image/upload/f_png,w_250,h_250,c_limit,q_auto:eco,d_Competitors:default1.png/v3/Competitors/28672",
+    "city_country": "Jilma, Tunisia",
+    "wiki_url": "https://www.facebook.com/ASDJ1959/"
+  },
+  {
+    "club_name": "AS Kasserine",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/5/53/Avenir_de_Kasserine.png",
+    "city_country": "Kasserine, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Avenir_sportif_de_Kasserine"
+  },
+  {
+    "club_name": "PS Sakiet Eddaïer",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/2/20/PS_Sakiet_Edda%C3%AFer.png",
+    "city_country": "Sakiet Eddaïer, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Progr%C3%A8s_sportif_de_Sakiet_Edda%C3%AFer"
+  },
+  {
+    "club_name": "Croissant Sportif Chebbien",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/a/a6/CS_Chebba_logo.png",
+    "city_country": "Chebba, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Croissant_sportif_chebbien"
+  },
+  {
+    "club_name": "Stade Gabésien",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/8/82/SG_logo.png/250px-SG_logo.png",
+    "city_country": "Gabès, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Stade_gab%C3%A9sien_(football)"
+  },
+  {
+    "club_name": "Océano Club de Kerkennah",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/2/22/Oc%C3%A9ano_Club_de_Kerkennah.png",
+    "city_country": "Kerkennah, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Oc%C3%A9ano_Club_de_Kerkennah"
+  },
+  {
+    "club_name": "Croissant Sportif de Redeyef",
+    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX_FddEXU1WNi_VRadzsOFDtdZB3ukMQCM5g&s",
+    "city_country": "Redeyef, Tunisia",
+    "wiki_url": "https://es-es.facebook.com/CroissantSportifDeRedeyefCsr/"
+  },
+  {
+    "club_name": "Sfax Railway Sport",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D9%86%D8%A7%D8%AF%D9%8A_%D8%B3%D9%83%D9%83_%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF_%D8%A7%D9%84%D8%B5%D9%81%D8%A7%D9%82%D8%B3%D9%8A.svg/langfr-250px-%D9%86%D8%A7%D8%AF%D9%8A_%D8%B3%D9%83%D9%83_%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF_%D8%A7%D9%84%D8%B5%D9%81%D8%A7%D9%82%D8%B3%D9%8A.svg.png",
+    "city_country": "Sfax, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/Sfax_railway_sport_(football)"
+  },
+  {
+    "club_name": "ES Rogba Tataouine",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/90707.png?lm=1674204464",
+    "city_country": "Tataouine, Tunisia",
+    "wiki_url": "https://www.facebook.com/espoirsportive.derogbatataouin/"
+  },
+  {
+    "club_name": "AS Agareb",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/78874.png?lm=1580834214",
+    "city_country": "Agareb, Tunisia",
+    "wiki_url": "https://www.facebook.com/astreagareb/?locale=es_LA"
+  },
+  {
+    "club_name": "Olympique de Sidi Bouzid",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/8/85/EO_Sidi_Bouzid_%28logo%29.png",
+    "city_country": "Sidi Bouzid, Tunisia",
+    "wiki_url": "https://fr.wikipedia.org/wiki/%C3%89toile_olympique_de_Sidi_Bouzid"
+  },
+  {
+    "club_name": "BS Bouhajla",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/89037.png?lm=1677151873",
+    "city_country": "Bouhajla, Tunisia",
+    "wiki_url": "https://www.transfermarkt.com/bs-bouhajla/startseite/verein/89037"
+  },
+  {
+    "club_name": "ASM Oran",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/49/Logo_ASM_Oran.png/250px-Logo_ASM_Oran.png",
+    "city_country": "Oran, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASM_Oran"
+  },
+  {
+    "club_name": "CRB Adrar",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/78438.png?lm=1772175949",
+    "city_country": "Adrar, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/CRB_Adrar"
+  },
+  {
+    "club_name": "CR Témouchent",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/CR_T%C3%A9mouchent_logo.png/250px-CR_T%C3%A9mouchent_logo.png",
+    "city_country": "Aïn Témouchent, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/CR_T%C3%A9mouchent"
+  },
+  {
+    "club_name": "ESM Koléa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/0/0d/Logo_ESM_Kol%C3%A9a.png",
+    "city_country": "Koléa, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/ESM_Kol%C3%A9a"
+  },
+  {
+    "club_name": "Ghali Club de Mascara",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/GC_Mascara_logo.png/250px-GC_Mascara_logo.png",
+    "city_country": "Mascara, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/GC_Mascara"
+  },
+  {
+    "club_name": "Jeunesse Sportive d'El Biar",
+    "club_logo": "https://static.flashscore.com/res/image/data/OCsCTU5R-ln1qN73t.png",
+    "city_country": "Algiers, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/JS_El_Biar"
+  },
+  {
+    "club_name": "JSM Tiaret",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/57/JSM_Tiaret.png",
+    "city_country": "Tiaret, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/JSM_Tiaret"
+  },
+  {
+    "club_name": "JS Tixeraïne",
+    "club_logo": "https://cdn.plus.fifa.com/images/public/cms/f2/83/8c/0a/f2838c0a-845c-4f28-85a6-edce3eb36317.png",
+    "city_country": "Birkhadem, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/JS_Tixera%C3%AFne"
+  },
+  {
+    "club_name": "MC Saïda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/11/MC_Sa%C3%AFda.png",
+    "city_country": "Saïda, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/MC_Sa%C3%AFda"
+  },
+  {
+    "club_name": "NA Hussein Dey",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/NA_Hussein-Dey_%28logo%29.png/250px-NA_Hussein-Dey_%28logo%29.png",
+    "city_country": "Algiers, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/NA_Hussein_Dey"
+  },
+  {
+    "club_name": "Raed Club Arbaâ",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fb/RC_Arba%C3%A2_%28logo%29.png",
+    "city_country": "Larbaâ, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/RC_Arba%C3%A2"
+  },
+  {
+    "club_name": "RC Kouba",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/RC_Kouba.png/250px-RC_Kouba.png",
+    "city_country": "Algiers, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/RC_Kouba"
+  },
+  {
+    "club_name": "US Béchar Djedid",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/2/2d/US_B%C3%A9char_Djedid.png",
+    "city_country": "Béchar, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_B%C3%A9char_Djedid"
+  },
+  {
+    "club_name": "USM El Harrach",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/USM_El_Harrach_logo.png/250px-USM_El_Harrach_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "El Harrach, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/USM_El_Harrach"
+  },
+  {
+    "club_name": "WA Mostaganem",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/WA_Mostaganem.png/250px-WA_Mostaganem.png",
+    "city_country": "Mostaganem, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/WA_Mostaganem"
+  },
+  {
+    "club_name": "WA Tlemcen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2e/WA_Tlemcen_%28logo%29.png",
+    "city_country": "Tlemcen, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/WA_Tlemcen"
+  },
+  {
+    "club_name": "We Sporting Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/We_logo.svg/250px-We_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "city_country": "Cairo, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/We_SC"
   }
 ]

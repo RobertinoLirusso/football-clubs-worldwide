@@ -1,8 +1,98 @@
 [
   {
-    "club_name": "Batavia FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/id/thumb/3/34/Batavia_FC.png/250px-Batavia_FC.png",
-    "city_country": "South Jakarta, Indonesia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Batavia_F.C."
+    "club_name": "AS Khroub",
+    "club_logo": "",
+    "city_country": "El Khroub, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CA Batna",
+    "club_logo": "",
+    "city_country": "Batna, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CR Beni Thour",
+    "club_logo": "",
+    "city_country": "Ouargla, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "HB Chelghoum Laïd",
+    "club_logo": "",
+    "city_country": "Chelghoum Laïd, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "IB Khémis El Khechna",
+    "club_logo": "",
+    "city_country": "Khemis El-Khechna, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "JS Bordj Ménaïel",
+    "club_logo": "",
+    "city_country": "Bordj Menaïel, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "JS Djidjel",
+    "club_logo": "",
+    "city_country": "Jijel, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "MO Béjaïa",
+    "club_logo": "",
+    "city_country": "Béjaïa, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "MO Constantine",
+    "club_logo": "",
+    "city_country": "Constantine, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "MSP Batna",
+    "club_logo": "",
+    "city_country": "Batna, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "NC Magra",
+    "club_logo": "",
+    "city_country": "Magra, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "NRB Beni Oulbane",
+    "club_logo": "",
+    "city_country": "Beni Oulbane, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "NRB Teleghma",
+    "club_logo": "",
+    "city_country": "Teleghma, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Biskra",
+    "club_logo": "",
+    "city_country": "Biskra, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Chaouia",
+    "club_logo": "",
+    "city_country": "Oum El Bouaghi, Algeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "USM Annaba",
+    "club_logo": "",
+    "city_country": "Annaba, Algeria",
+    "wiki_url": ""
   }
 ]
