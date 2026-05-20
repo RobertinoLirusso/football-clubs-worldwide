@@ -16140,13 +16140,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Tanjong_Pagar_United_FC"
   },
   {
-    "club_name": "Young Lions",
+    "club_name": "Young Lions FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/6c/Young_Lions.png",
     "city_country": "Kallang, Singapore",
     "wiki_url": "https://en.wikipedia.org/wiki/Young_Lions_FC"
   },
     {
-    "club_name": "Kuala Lumpur City",
+    "club_name": "Kuala Lumpur City FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Kuala_Lumpur_City_F.C..png/250px-Kuala_Lumpur_City_F.C..png",
     "city_country": "Kuala Lumpur, Malaysia",
     "wiki_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_City_F.C."
@@ -16176,31 +16176,31 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Penang_F.C."
   },
   {
-    "club_name": "PDRM",
+    "club_name": "PDRM FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0f/Polis_Diraja_Malaysia_FC_logo.png",
     "city_country": "Selanyang, Malaysia",
     "wiki_url": "https://en.wikipedia.org/wiki/Polis_Diraja_Malaysia_FC"
   },
   {
-    "club_name": "Negeri Sembilan",
+    "club_name": "Negeri Sembilan FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Negeri_Sembilan_FC_logo.png/250px-Negeri_Sembilan_FC_logo.png",
     "city_country": "Seremban, Malaysia",
     "wiki_url": "https://en.wikipedia.org/wiki/Negeri_Sembilan_FC"
   },
   {
-    "club_name": "Kelantan The Real Warriors",
+    "club_name": "Kelantan The Real Warriors FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Kelantan_The_Real_Warriors.png/250px-Kelantan_The_Real_Warriors.png",
     "city_country": "Kota Bharu, Malaysia",
     "wiki_url": "https://en.wikipedia.org/wiki/Kelantan_The_Real_Warriors_F.C."
   },
   {
-    "club_name": "Melaka",
+    "club_name": "Melaka FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/MFC_Melaka_FC.png/250px-MFC_Melaka_FC.png",
     "city_country": "Malacca City, Malaysia",
     "wiki_url": "https://en.wikipedia.org/wiki/Melaka_F.C."
   },
   {
-    "club_name": "Immigration",
+    "club_name": "Immigration FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Imigresen_Football_Club_football_crest.png/250px-Imigresen_Football_Club_football_crest.png",
     "city_country": "Putrajaya, Malaysia",
     "wiki_url": "https://en.wikipedia.org/wiki/Immigration_F.C."
@@ -16212,13 +16212,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/DPMM_FC"
   },
     {
-    "club_name": "Kuching City",
+    "club_name": "Kuching City FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Logo_Kuching_City_FC.jpg/250px-Logo_Kuching_City_FC.jpg",
     "city_country": "Kuching, Malaysia",
     "wiki_url": "https://en.wikipedia.org/wiki/Kuching_City_F.C."
   },
       {
-    "club_name": "Deren",
+    "club_name": "Deren FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1b/Deren_FC_Logo.png",
     "city_country": "Ulaanbaatar, Mongolia",
     "wiki_url": "https://en.wikipedia.org/wiki/Deren_FC"
@@ -16609,7 +16609,7 @@
   },
     {
     "club_name": "Racing Club Abidjan",
-    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR5vAkJHDAPji_sXoGR7tgvetBnxCIK9IpwKMpu_dHuSNDO2I1FObL1Q40Mbzk7NZGg0E&usqp=CAU",
+    "club_logo": "https://cdn.plus.fifa.com/images/public/cms/18/ce/fe/f7/18cefef7-4d8a-4701-b254-ffa003c5e992.png",
     "city_country": "Abidjan, Ivory Coast",
     "wiki_url": "https://en.wikipedia.org/wiki/RC_Abidjan"
   },
@@ -35286,5 +35286,197 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/We_logo.svg/250px-We_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "city_country": "Cairo, Egypt",
     "wiki_url": "https://en.wikipedia.org/wiki/We_SC"
+  },
+  {
+    "club_name": "AS Khroub",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/4d/ASKhroub.png/250px-ASKhroub.png",
+    "city_country": "El Khroub, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Khroub"
+  },
+  {
+    "club_name": "CA Batna",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/CA_Batna_logo.png/250px-CA_Batna_logo.png",
+    "city_country": "Batna, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/CA_Batna"
+  },
+  {
+    "club_name": "CR Beni Thour",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/8/86/CR_Beni_Thour_logo.png",
+    "city_country": "Ouargla, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/CR_B%C3%A9ni_Thour"
+  },
+  {
+    "club_name": "HB Chelghoum Laïd",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/0/04/HB_Chelghoum_La%C3%AFd_logo.png",
+    "city_country": "Chelghoum Laïd, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/HB_Chelghoum_La%C3%AFd"
+  },
+  {
+    "club_name": "IB Khémis El Khechna",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/IB_Kh%C3%A9mis_El_Khechna_logo.png/250px-IB_Kh%C3%A9mis_El_Khechna_logo.png",
+    "city_country": "Khemis El-Khechna, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/IB_Kh%C3%A9mis_El_Khechna"
+  },
+  {
+    "club_name": "JS Bordj Ménaïel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/5/5a/Logo_de_la_JS_Bordj_Menaiel.png",
+    "city_country": "Bordj Menaïel, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/JS_Bordj_M%C3%A9na%C3%AFel"
+  },
+  {
+    "club_name": "JS Djidjel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/JSD_Jijel_logo.png/250px-JSD_Jijel_logo.png",
+    "city_country": "Jijel, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/JS_Djijel"
+  },
+  {
+    "club_name": "MO Béjaïa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/MO_Bejaia_logo.png/250px-MO_Bejaia_logo.png",
+    "city_country": "Béjaïa, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/MO_B%C3%A9ja%C3%AFa"
+  },
+  {
+    "club_name": "MO Constantine",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/6/66/MO_Constantine_logo.png",
+    "city_country": "Constantine, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/MO_Constantine"
+  },
+  {
+    "club_name": "MSP Batna",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/MSP_Batna.png/250px-MSP_Batna.png",
+    "city_country": "Batna, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/MSP_Batna"
+  },
+  {
+    "club_name": "NC Magra",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/5/5e/NC_Magra_logo.png/250px-NC_Magra_logo.png",
+    "city_country": "Magra, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/NC_Magra"
+  },
+  {
+    "club_name": "NRB Beni Oulbane",
+    "club_logo": "https://imagecache.365scores.com/image/upload/f_png,w_250,h_250,c_limit,q_auto:eco,d_Competitors:default1.png/v2/Competitors/90198",
+    "city_country": "Beni Oulbane, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/NRB_Beni_Oulbane"
+  },
+  {
+    "club_name": "NRB Teleghma",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/The_logo_of_NRB_Teleghma.jpg/250px-The_logo_of_NRB_Teleghma.jpg",
+    "city_country": "Teleghma, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/NRB_Teleghma"
+  },
+  {
+    "club_name": "US Biskra",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/5/5f/US_Biskra_logo.png/250px-US_Biskra_logo.png",
+    "city_country": "Biskra, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Biskra"
+  },
+  {
+    "club_name": "US Chaouia",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/99/US_Chaouia_logo.png/250px-US_Chaouia_logo.png",
+    "city_country": "Oum El Bouaghi, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/US_Chaouia"
+  },
+  {
+    "club_name": "USM Annaba",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/73/USM_Annaba_logo.png",
+    "city_country": "Annaba, Algeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/USM_Annaba"
+  },
+  {
+    "club_name": "Armed Forces FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Armed_Forces_FC.png/250px-Armed_Forces_FC.png",
+    "city_country": "Kampung Datuk Keramat, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Armed_Forces_F.C."
+  },
+  {
+    "club_name": "Bunga Raya FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Bunga_Raya_F.C.png/250px-Bunga_Raya_F.C.png",
+    "city_country": "Port Dickson, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bunga_Raya_F.C."
+  },
+  {
+    "club_name": "Bunga Raya United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/bd/Bunga_Raya_United_F.C.png",
+    "city_country": "Port Dickson, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bunga_Raya_United_F.C."
+  },
+  {
+    "club_name": "Kedah Darul Aman",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Kedah_Darul_Aman_FC_logo.svg/250px-Kedah_Darul_Aman_FC_logo.svg.png",
+    "city_country": "Alor Setar, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kedah_Darul_Aman_F.C."
+  },
+  {
+    "club_name": "Kedah FA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Kedah_Football_Association.png/250px-Kedah_Football_Association.png",
+    "city_country": "Alor Setar, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kedah_FA_state_football_team"
+  },
+  {
+    "club_name": "Kelantan Red Warrior FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Kelantan_Red_Warrior_FC.png/250px-Kelantan_Red_Warrior_FC.png",
+    "city_country": "Kota Bharu, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kelantan_Red_Warrior_F.C."
+  },
+  {
+    "club_name": "Kelantan FC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3e/Kelantan_F.C._logo.png",
+    "city_country": "Kota Bharu, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kelantan_F.C."
+  },
+  {
+    "club_name": "Wan Tendong Stable FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Kelantan_WTS_FC_logo.png/250px-Kelantan_WTS_FC_logo.png",
+    "city_country": "Kota Bharu, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wan_Tendong_Stable_F.C."
+  },
+  {
+    "club_name": "Machan FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Logo_Machan_F.C.png/250px-Logo_Machan_F.C.png",
+    "city_country": "Sibu, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Machan_F.C."
+  },
+  {
+    "club_name": "Malaysian University FT",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Malaysian_University_F.T.png/250px-Malaysian_University_F.T.png",
+    "city_country": "Nilai, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Malaysian_University_F.T."
+  },
+  {
+    "club_name": "Manjung City FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/78/ManjungCity.png",
+    "city_country": "Seri Manjung, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Manjung_City_F.C."
+  },
+  {
+    "club_name": "Perak FA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Perak_FA_state_football_team.png/250px-Perak_FA_state_football_team.png",
+    "city_country": "Ipoh, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Perak_FA_state_football_team"
+  },
+  {
+    "club_name": "Perlis GSA FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c4/Perlis_GSA.png",
+    "city_country": "Kangar, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Perlis_GSA_F.C."
+  },
+  {
+    "club_name": "Seoul Phoenix FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Seoul_Phoenix_FC.png/250px-Seoul_Phoenix_FC.png",
+    "city_country": "Cyberjaya, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Seoul_Phoenix_FC"
+  },
+  {
+    "club_name": "UM-Damansara United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/UM-Damansara_United.png/250px-UM-Damansara_United.png",
+    "city_country": "Kuala Lumpur, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/UM-Damansara_United"
+  },
+  {
+    "club_name": "Kuala Lumpur Rovers FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c9/KL_Rovers_2020.png",
+    "city_country": "Kuala Lumpur, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_Rovers_F.C."
   }
 ]
