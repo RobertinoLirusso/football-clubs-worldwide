@@ -1,86 +1,8 @@
 [
   {
-    "club_name": "APF FC",
-    "club_logo": "",
+    "club_name": "Nepal APF FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/8e/APF_Football_Club.png",
     "city_country": "Kathmandu, Nepal",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Church Boys United",
-    "club_logo": "",
-    "city_country": "Lalitpur, Nepal",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Friends Club",
-    "club_logo": "",
-    "city_country": "Lalitpur, Nepal",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Himalayan Sherpa Club",
-    "club_logo": "",
-    "city_country": "Kathmandu, Nepal",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Jawalakhel YC",
-    "club_logo": "",
-    "city_country": "Lalitpur, Nepal",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Machhindra FC",
-    "club_logo": "",
-    "city_country": "Kathmandu, Nepal",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Manang Marshyangdi Club",
-    "club_logo": "",
-    "city_country": "Pokhara, Nepal",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Nepal Army FC",
-    "club_logo": "",
-    "city_country": "Kathmandu, Nepal",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Nepal Police FC",
-    "club_logo": "",
-    "city_country": "Kathmandu, Nepal",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "New Road Team",
-    "club_logo": "",
-    "city_country": "Kathmandu, Nepal",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Planning Boyz United",
-    "club_logo": "",
-    "city_country": "Budhanilkantha, Nepal",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Sankata FC",
-    "club_logo": "",
-    "city_country": "Kathmandu, Nepal",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Satdobato Youth Club",
-    "club_logo": "",
-    "city_country": "Lalitpur, Nepal",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Shree Bhagwati Club",
-    "club_logo": "",
-    "city_country": "Tokha, Nepal",
-    "wiki_url": ""
+    "wiki_url": "https://en.wikipedia.org/wiki/APF_FC"
   }
 ]
