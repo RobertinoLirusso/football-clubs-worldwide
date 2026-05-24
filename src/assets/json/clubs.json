@@ -3541,7 +3541,7 @@
   },
   {
     "club_name": "Al-Sailiya SC",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi66bnfdi-SRfLcaHk68Z8xHGIPlFpUhVzncT0oyzKQti_jRmUW_2aQShe-gf2nHWt771FWZWh8DmYKeTF-HYvKKjlc3zEyHCZg4pz3omC20ckgGtW_rn4uP-GqUlfPgJIW9ygje59IAlMfwFmha_E4rot4wC4mFjdcfatIQqBOvMLpKhkKkPJABEjD/s256/Al-Sailiya%20SC256x.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/b/b6/Al-Sailiya_SC_%282025%29.svg/250px-Al-Sailiya_SC_%282025%29.svg.png",
     "city_country": "Doha, Qatar",
     "wiki_url": "https://en.wikipedia.org/wiki/Al-Sailiya_SC"
   },
@@ -35754,5 +35754,155 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Iris_Club_de_Croix_logo.svg/250px-Iris_Club_de_Croix_logo.svg.png",
     "city_country": "Croix, France",
     "wiki_url": "https://en.wikipedia.org/wiki/Iris_Club_de_Croix"
+  },
+  {
+    "club_name": "Al-Arabi SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/dd/Al_Arabi_%28uae%29.png",
+    "city_country": "Umm Al Quwain, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Arabi_SC_(UAE)"
+  },
+  {
+    "club_name": "Al Dhaid SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e4/Al-Dhaid_Cultural_Sports_Club.png",
+    "city_country": "Dhaid, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Dhaid_SC"
+  },
+  {
+    "club_name": "Al Hamriyah SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Al_Hamriyah_Club_new_logo.png/250px-Al_Hamriyah_Club_new_logo.png",
+    "city_country": "Al Hamriyah, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Hamriyah_Club"
+  },
+  {
+    "club_name": "Al Ittifaq FC",
+    "club_logo": "https://cdn.plus.fifa.com/images/public/cms/56/7c/53/59/567c5359-d834-4276-8381-e55dc815766c.png",
+    "city_country": "Dubai, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Ittifaq_FC_(UAE)"
+  },
+  {
+    "club_name": "Al Jazirah Al Hamra Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Al_Jazirah_Al_Hamra_FC.png/250px-Al_Jazirah_Al_Hamra_FC.png",
+    "city_country": "Al Jazirah Al Hamra, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Jazirah_Al_Hamra_Club"
+  },
+  {
+    "club_name": "Al Orooba Club",
+    "club_logo": "https://cdn.plus.fifa.com/images/public/cms/4e/cd/2b/24/4ecd2b24-1b00-4c80-966d-4f63102f5779.png",
+    "city_country": "Mirbah & Qidfa, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Orooba_Club"
+  },
+  {
+    "club_name": "Dibba Al Hisn SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/c/c9/Dibba_Al-Hisn_Club_emblema.png/250px-Dibba_Al-Hisn_Club_emblema.png",
+    "city_country": "Dibba Al-Hisn, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dibba_Al-Hisn_SC"
+  },
+  {
+    "club_name": "Dubai City FC",
+    "club_logo": "https://cdn.plus.fifa.com/images/public/cms/94/0e/01/8c/940e018c-87f9-4e2b-98c5-6402d492f64b.png",
+    "city_country": "Dubai, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dubai_City_FC"
+  },
+  {
+    "club_name": "Dubai United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/United_FC.svg/250px-United_FC.svg.png",
+    "city_country": "Dubai, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/United_FC_(Dubai)"
+  },
+  {
+    "club_name": "Gulf United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Gulf_United_FC_logo.png/250px-Gulf_United_FC_logo.png",
+    "city_country": "Dubai, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Gulf_United_FC"
+  },
+  {
+    "club_name": "Hatta Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3b/Hatta_Club.png",
+    "city_country": "Hatta, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hatta_Club"
+  },
+  {
+    "club_name": "Majd FC",
+    "club_logo": "https://cdn.plus.fifa.com/images/public/cms/52/8a/54/ce/528a54ce-c862-43dc-ad36-c7f71261a0ca.png",
+    "city_country": "Abu Dhabi, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Majd_FC"
+  },
+  {
+    "club_name": "Masfout CSC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a6/Masfout_Club.png",
+    "city_country": "Masfout, United Arab Emirates",
+    "wiki_url": "https://en.wikipedia.org/wiki/Masfout_Club"
+  },
+  {
+    "club_name": "Al-Ahly SC Doha",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Al_Ahli_SC_logo.svg/250px-Al_Ahli_SC_logo.svg.png",
+    "city_country": "Doha, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Ahly_Doha"
+  },
+  {
+    "club_name": "Al Bidda SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Al_Bidda_SC_logo.svg/250px-Al_Bidda_SC_logo.svg.png",
+    "city_country": "Doha, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Bidda_SC"
+  },
+  {
+    "club_name": "Al Kharaitiyat SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Al_Kharaitiyat_SC_logo.svg/250px-Al_Kharaitiyat_SC_logo.svg.png",
+    "city_country": "Al Kharaitiyat, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Kharaitiyat_SC"
+  },
+  {
+    "club_name": "Lusail SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Lusail_SC_logo.svg/250px-Lusail_SC_logo.svg.png",
+    "city_country": "Lusail, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lusail_SC"
+  },
+  {
+    "club_name": "Al-Mesaimeer Sports Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Mesaimeer_SC_logo.svg/250px-Mesaimeer_SC_logo.svg.png",
+    "city_country": "Mesaimeer, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Mesaimeer_Sports_Club"
+  },
+  {
+    "club_name": "Muaither SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Muaither_SC_logo.svg/250px-Muaither_SC_logo.svg.png",
+    "city_country": "Muaither, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Muaither_SC"
+  },
+  {
+    "club_name": "Al-Shahaniya SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Al_Shahaniya_SC_logo.svg/250px-Al_Shahaniya_SC_logo.svg.png",
+    "city_country": "Al Shahaniya, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Shahaniya_Sports_Club"
+  },
+  {
+    "club_name": "Al-Shamal SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Al-Shamal_SC_logo.svg/250px-Al-Shamal_SC_logo.svg.png",
+    "city_country": "Madinat ash Shamal, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Shamal_Sports_Club"
+  },
+  {
+    "club_name": "Al-Wakrah SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/Al-Wakrah_SC_logo.svg/250px-Al-Wakrah_SC_logo.svg.png",
+    "city_country": "Al Wakrah, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Wakrah_Sports_Club"
+  },
+  {
+    "club_name": "Al-Waab SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Al-Waab_SC_logo.svg/250px-Al-Waab_SC_logo.svg.png",
+    "city_country": "Doha, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Waab_SC"
+  },
+  {
+    "club_name": "El Jaish SC (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/AlJaishQatarlogo.png/250px-AlJaishQatarlogo.png",
+    "city_country": "Doha, Qatar",
+    "wiki_url": "https://en.wikipedia.org/wiki/El_Jaish_SC"
+  },
+  {
+    "club_name": "SCC Al-Oruba Zabid",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Al-Oruba_%28Zabid%29_logo.png/250px-Al-Oruba_%28Zabid%29_logo.png",
+    "city_country": "Sanaa, Yemen",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Oruba_(Zabid)"
   }
 ]
