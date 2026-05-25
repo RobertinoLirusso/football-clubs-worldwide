@@ -35904,5 +35904,101 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Al-Oruba_%28Zabid%29_logo.png/250px-Al-Oruba_%28Zabid%29_logo.png",
     "city_country": "Sanaa, Yemen",
     "wiki_url": "https://en.wikipedia.org/wiki/Al-Oruba_(Zabid)"
+  },
+  {
+    "club_name": "Al Ittihad SCC Ibb",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Al_Ittihad_Ibb.jpg",
+    "city_country": "Ibb, Yemen",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Ittihad_SCC_(Ibb)"
+  },
+  {
+    "club_name": "Al-Shaab Hadramaut",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Shaab_Hadramaut.png/250px-Shaab_Hadramaut.png",
+    "city_country": "Mukalla, Yemen",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Shaab_Hadramaut"
+  },
+  {
+    "club_name": "Fahman SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9d/Fahman_SCC_logo.png",
+    "city_country": "Mudiyah, Yemen",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fahman_SCC"
+  },
+  {
+    "club_name": "Al-Tadamun Hadramaut",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4e/Al-Tadamun_Hadramaut_logo.png",
+    "city_country": "Mukalla, Yemen",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Tadamun_Hadramaut"
+  },
+  {
+    "club_name": "Al-Wehda SCC Sanaa",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Al-Wehda_SCC_%28Sanaa%29_logo.png/250px-Al-Wehda_SCC_%28Sanaa%29_logo.png",
+    "city_country": "Sanaa, Yemen",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Wehda_SCC_(Sanaa)"
+  },
+  {
+    "club_name": "Ahli Sanaa Club",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Al-Ahli_Sana%27a.png/330px-Al-Ahli_Sana%27a.png",
+    "city_country": "Sanaa, Yemen",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ahli_Sanaa_Club"
+  },
+  {
+    "club_name": "Al-Yarmuk Al-Rawda",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2c/Al_Yarmuk_Al_Rawda_logo.jpg",
+    "city_country": "Sanaa, Yemen",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Yarmuk_Al-Rawda"
+  },
+  {
+    "club_name": "Al-Hilal Al-Sahili",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1d/Al_Hilal_Hudaydah.png",
+    "city_country": "Hodeidah, Yemen",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Hilal_Al_Sahili"
+  },
+  {
+    "club_name": "Burgan SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/6/6f/Burgan%2CSC%2Clogo%2C2016.gif",
+    "city_country": "Farwaniya, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Burgan_SC"
+  },
+  {
+    "club_name": "Al-Yarmouk SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Al_Yarmouk_FC_logo.svg/250px-Al_Yarmouk_FC_logo.svg.png",
+    "city_country": "Mishref, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Yarmouk_SC_(Kuwait)"
+  },
+  {
+    "club_name": "Al-Sahel SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Al-SahelClub.png/250px-Al-SahelClub.png",
+    "city_country": "Abu Halifa, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Sahel_SC_(Kuwait)"
+  },
+  {
+    "club_name": "Khaitan SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/4/41/Khaitan_SC_emblema.png",
+    "city_country": "Khaitan, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Khaitan_SC"
+  },
+  {
+    "club_name": "Sulaibikhat SC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/d/df/Sulaibikhat_SC.svg/250px-Sulaibikhat_SC.svg.png",
+    "city_country": "Kuwait City, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sulaibikhat_SC"
+  },
+  {
+    "club_name": "Al-Jazeera FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Aljazira_FC_kuw.png/250px-Aljazira_FC_kuw.png",
+    "city_country": "Kuwait City, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Jazeera_FC"
+  },
+  {
+    "club_name": "Al-Shamiya FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/AlshamiyaFClogo.png/250px-AlshamiyaFClogo.png",
+    "city_country": "Kuwait City, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al-Shamiya_FC"
+  },
+  {
+    "club_name": "Sporty FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Sporty_FC_Logo.png/250px-Sporty_FC_Logo.png",
+    "city_country": "Kuwait City, Kuwait",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sporty_FC"
   }
 ]

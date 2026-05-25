@@ -1,80 +1,8 @@
 [
   {
-    "club_name": "Al-Saqr Ta'izz",
-    "club_logo": "",
-    "city_country": "Ta'izz, Yemen",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Salam Al-Garfa",
-    "club_logo": "",
-    "city_country": "Al Garfa, Yemen",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Al-Sha'ab Hadramaut",
-    "club_logo": "",
-    "city_country": "Mukalla, Yemen",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Al-Ahli San'a",
-    "club_logo": "",
-    "city_country": "Sana'a, Yemen",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Al-Tali'aa Taizz",
-    "club_logo": "",
-    "city_country": "Ta'izz, Yemen",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Al-Yarmuk Al-Rawda",
-    "club_logo": "",
-    "city_country": "Sana'a, Yemen",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Al-Wahda San'a",
-    "club_logo": "",
-    "city_country": "Sana'a, Yemen",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Al Sha'ab Ibb",
-    "club_logo": "",
+    "club_name": "Al Ittihad SCC Ibb",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Al_Ittihad_Ibb.jpg",
     "city_country": "Ibb, Yemen",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Al-Hilal Hudayda",
-    "club_logo": "",
-    "city_country": "Al Hudaydah, Yemen",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Fahman SCC",
-    "club_logo": "",
-    "city_country": "Mudiyah, Yemen",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Al-Tadamun Hadramaut",
-    "club_logo": "",
-    "city_country": "Mukalla, Yemen",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Al-Ittihad Ibb",
-    "club_logo": "",
-    "city_country": "Ibb, Yemen",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Samaon",
-    "club_logo": "",
-    "city_country": "Sana'a, Yemen",
-    "wiki_url": ""
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Ittihad_SCC_(Ibb)"
   }
 ]
