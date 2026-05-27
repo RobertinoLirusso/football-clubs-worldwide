@@ -9576,9 +9576,9 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Morelia"
   },
   {
-    "club_name": "Jaiba Brava",
+    "club_name": "Club Jaiba Brava",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Jaiba_Brava_Logo.png/250px-Jaiba_Brava_Logo.png",
-    "city_country": "Tampico-Ciudad Madero, Mexico",
+    "city_country": "Tampico & Ciudad Madero, Mexico",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_Jaiba_Brava"
   },
   {
@@ -9588,7 +9588,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Cimarrones_de_Sonora"
   },
   {
-    "club_name": "Tlaxcala",
+    "club_name": "Coyotes de Tlaxcala FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/TLAXFCLOGO.png/250px-TLAXFCLOGO.png",
     "city_country": "Tlaxcala, Mexico",
     "wiki_url": "https://en.wikipedia.org/wiki/Tlaxcala_F.C."
@@ -36186,5 +36186,119 @@
     "club_logo": "https://tmssl.akamaized.net//images/wappen/head/43639.png?lm=1581617357",
     "city_country": "Biemenhorst, Germany",
     "wiki_url": "https://de.wikipedia.org/wiki/SV_Biemenhorst"
+  },
+    {
+    "club_name": "Atlético La Paz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Atl%C3%A9tico_La_Paz_Logo.svg/250px-Atl%C3%A9tico_La_Paz_Logo.svg.png",
+    "city_country": "La Paz, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_La_Paz"
+  },
+  {
+    "club_name": "Mazorqueros FC Zapotlán (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/81/Mazorqueros_logo.png",
+    "city_country": "Ciudad Guzmán, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mazorqueros_F.C."
+  },
+  {
+    "club_name": "CD Irapuato",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_YjYkbJRCW_TsyMjAB_W102vv0N2Z5WqSSkqueDabPSSXIOlwSkRkteq7izYB_JqMZfWwYl8WfwwhA7JkytaYrDGi5qg-NDt9biUwdFQAX9w4r0OSQAhCR0ZM8P1R2eaNn6XKUE9khT7Ld29PGcZ-2xWOrc6GWGc-ZHhcWLTCyr9uGGLsL-4H8hjr3kk/s1600/CD%20Irapuato256x.png",
+    "city_country": "Irapuato, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Irapuato"
+  },
+  {
+    "club_name": "CD Tapatío",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/35/C.D._Tapat%C3%ADo_logo.png",
+    "city_country": "Zapopan, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Tapat%C3%ADo"
+  },
+  {
+    "club_name": "Tepatitlán FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Tepatitl%C3%A1n_F.C._logo.png/250px-Tepatitl%C3%A1n_F.C._logo.png",
+    "city_country": "Tepatitlán de Morelos, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tepatitl%C3%A1n_F.C."
+  },
+  {
+    "club_name": "Cañoneros FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Logo_Ca%C3%B1oneros.png/250px-Logo_Ca%C3%B1oneros.png",
+    "city_country": "Xalapa, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ca%C3%B1oneros_F.C."
+  },
+  {
+    "club_name": "Celaya FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Celaya_F.C._logo.svg/250px-Celaya_F.C._logo.svg.png",
+    "city_country": "Celaya, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Celaya_F.C."
+  },
+  {
+    "club_name": "CF Chapulineros de Oaxaca",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/ChaOaxLogo.png/250px-ChaOaxLogo.png",
+    "city_country": "San Jerónimo Tlacochahuaya, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chapulineros_de_Oaxaca"
+  },
+  {
+    "club_name": "Deportiva Venados",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Deportiva_Venados_Logo.png/250px-Deportiva_Venados_Logo.png",
+    "city_country": "Mérida, Mexico",
+    "wiki_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Deportiva_Venados_Logo.png/250px-Deportiva_Venados_Logo.png"
+  },
+  {
+    "club_name": "Dragones Toluca FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Dragones_Toluca_Logo.png/250px-Dragones_Toluca_Logo.png",
+    "city_country": "Zinacantepec, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Dragones_Toluca_F.C."
+  },
+  {
+    "club_name": "Héroes de Zaci FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Heroes_de_Zaci_logo.png/250px-Heroes_de_Zaci_logo.png",
+    "city_country": "Texcoco, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/H%C3%A9roes_de_Zaci"
+  },
+  {
+    "club_name": "Inter Playa del Carmen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Logo_Inter_Playa.png/250px-Logo_Inter_Playa.png",
+    "city_country": "Playa del Carmen, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Inter_Playa_del_Carmen"
+  },
+  {
+    "club_name": "Jaguares FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Jaguares_FC_Logo.png/250px-Jaguares_FC_Logo.png",
+    "city_country": "Tuxtla Gutiérrez, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jaguares_F.C."
+  },
+  {
+    "club_name": "Montañeses FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Monta%C3%B1eses_Logo.png/250px-Monta%C3%B1eses_Logo.png",
+    "city_country": "Orizaba, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Monta%C3%B1eses_F.C."
+  },
+  {
+    "club_name": "Neza FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Neza_fc_logo.webp/250px-Neza_fc_logo.webp.png",
+    "city_country": "Ciudad Nezahualcóyotl, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Toros_Neza"
+  },
+  {
+    "club_name": "Pioneros de Cancún FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Pioneros_Cancun_Logo.png/250px-Pioneros_Cancun_Logo.png",
+    "city_country": "Cancún, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pioneros_de_Canc%C3%BAn"
+  },
+  {
+    "club_name": "Racing de Veracruz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Racing_de_veracruz_logo.png/250px-Racing_de_veracruz_logo.png",
+    "city_country": "Boca del Río, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Racing_de_Veracruz"
+  },
+  {
+    "club_name": "Tapachula Soconusco FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Tapachula_Soconusco_Logo.png/250px-Tapachula_Soconusco_Logo.png",
+    "city_country": "Tapachula, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tapachula_Soconusco_F.C."
+  },
+  {
+    "club_name": "CF Cafetaleros de Chiapas (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Logo_Cafetaleros_Chiapas.png/250px-Logo_Cafetaleros_Chiapas.png",
+    "city_country": "Tuxtla Gutiérrez, Mexico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cafetaleros_de_Chiapas"
   }
 ]
