@@ -36444,5 +36444,203 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/dd/Logo_ecsa.png",
     "city_country": "Santo André, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Esporte_Clube_Santo_Andr%C3%A9"
+  },
+    {
+    "club_name": "SC Eltersdorf",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/SC_Eltersdorf_logo.png/250px-SC_Eltersdorf_logo.png",
+    "city_country": "Erlangen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Eltersdorf"
+  },
+  {
+    "club_name": "ASV Cham",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ASV_Cham.svg/250px-ASV_Cham.svg.png",
+    "city_country": "Cham, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASV_Cham"
+  },
+  {
+    "club_name": "ASV Neumarkt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/ASV_Neumarkt_svg_logo.svg/250px-ASV_Neumarkt_svg_logo.svg.png",
+    "city_country": "Neumarkt, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/ASV_Neumarkt"
+  },
+  {
+    "club_name": "DJK Gebenbach",
+    "club_logo": "https://www.djk-gebenbach.de/wp-content/uploads/2020/08/DJK_Logo-8-bevel.png",
+    "city_country": "Gebenbach, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/DJK_Gebenbach"
+  },
+  {
+    "club_name": "FC Eintracht Bamberg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/FC_Eintracht_Bamberg_crest.svg/250px-FC_Eintracht_Bamberg_crest.svg.png",
+    "city_country": "Bamberg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Eintracht_Bamberg"
+  },
+  {
+    "club_name": "SpVgg SV Weiden",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/SpVgg_SV_Weiden.gif/250px-SpVgg_SV_Weiden.gif",
+    "city_country": "Weiden, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SpVgg_SV_Weiden"
+  },
+  {
+    "club_name": "SV Fortuna Regensburg",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/8980.png?lm=1486653973",
+    "city_country": "Regensburg, Germany",
+    "wiki_url": "https://www.bfv.de/mannschaften/sv-fortuna-regensburg/016PDHV5UG000000VV0AG811VTE5EA5R"
+  },
+  {
+    "club_name": "SpVgg Bayern Hof",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/SpVgg_Bayern_Hof.png/250px-SpVgg_Bayern_Hof.png",
+    "city_country": "Hof, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SpVgg_Bayern_Hof"
+  },
+  {
+    "club_name": "TSV Neudrossenfeld",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/d/d9/TSV_Neudrossenfeld.png",
+    "city_country": "Neudrossenfeld, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TSV_Neudrossenfeld"
+  },
+  {
+    "club_name": "TSV Kornburg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/TSV_Kornburg_Logo.svg/250px-TSV_Kornburg_Logo.svg.png",
+    "city_country": "Nuremberg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TSV_Kornburg"
+  },
+  {
+    "club_name": "Würzburger FV",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Logo_WFV04.png/250px-Logo_WFV04.png",
+    "city_country": "Würzburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/W%C3%BCrzburger_FV"
+  },
+  {
+    "club_name": "ATSV Erlangen",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/1729.png?lm=1500153235",
+    "city_country": "Erlangen, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/ATSV_Erlangen"
+  },
+  {
+    "club_name": "FSV Stadeln",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/5526.png?lm=1488578525",
+    "city_country": "Stadeln, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/FSV_Stadeln"
+  },
+  {
+    "club_name": "FC Coburg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/f/f2/FC_Coburg_%28Logo%29.svg/250px-FC_Coburg_%28Logo%29.svg.png",
+    "city_country": "Coburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Coburg"
+  },
+  {
+    "club_name": "DVV Coburg (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d1/DVV_Coburg.gif",
+    "city_country": "Coburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/DVV_Coburg"
+  },
+  {
+    "club_name": "SC Großschwarzenlohe",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/38923.png?lm=1541100154",
+    "city_country": "Großschwarzenlohe, Germany",
+    "wiki_url": "https://www.sc-grossschwarzenlohe.de/"
+  },
+  {
+    "club_name": "Türkischer SV Singen",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/74880.png?lm=1735750872",
+    "city_country": "Singen, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/T%C3%BCrkischer_SV_Singen"
+  },
+  {
+    "club_name": "Türkspor Neckarsulm",
+    "club_logo": "https://www.tsn1969.de/images/LOGO2024_4_300x600-Pix_HG-trans.gif",
+    "city_country": "Neckarsulm, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/T%C3%BCrkspor_Neckarsulm"
+  },
+  {
+    "club_name": "Blumenthaler SV",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Blumenthaler_SV_Logo.svg/250px-Blumenthaler_SV_Logo.svg.png",
+    "city_country": "Bremen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Blumenthaler_SV"
+  },
+  {
+    "club_name": "SV Hemelingen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/92/SV_Hemelingen_logo.png",
+    "city_country": "Bremen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Hemelingen"
+  },
+  {
+    "club_name": "OSC Bremerhaven",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/8/81/OSC_Bremerhaven_Logo.svg/250px-OSC_Bremerhaven_Logo.svg.png",
+    "city_country": "Bremerhaven, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/OSC_Bremerhaven"
+  },
+  {
+    "club_name": "TV Eiche Horn",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/9/90/TV_Eiche_Horn_Bremen_Logo.jpg",
+    "city_country": "Bremen, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/TV_Eiche_Horn"
+  },
+  {
+    "club_name": "Brinkumer SV",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/39/Brinkumer_SV_logo.png",
+    "city_country": "Stuhr, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Brinkumer_SV"
+  },
+  {
+    "club_name": "BTS Neustadt",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/BTS_Neustadt_hochaufl%C3%B6sendes_Logo.png/250px-BTS_Neustadt_hochaufl%C3%B6sendes_Logo.png",
+    "city_country": "Bremen, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/BTS_Neustadt"
+  },
+  {
+    "club_name": "FC Union 60 Bremen",
+    "club_logo": "https://www.union60.de/wp-content/uploads/2020/03/Logo_Union.png",
+    "city_country": "Bremen, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/FC_Union_60_Bremen"
+  },
+  {
+    "club_name": "ESC Geestemünde",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/45280.png?lm=1610358926",
+    "city_country": "Bremerhaven, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/ESC_Geestem%C3%BCnde"
+  },
+  {
+    "club_name": "Leher Turnerschaft",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Leher_TS_Logo.svg/250px-Leher_TS_Logo.svg.png",
+    "city_country": "Bremerhaven, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Leher_Turnerschaft"
+  },
+  {
+    "club_name": "SG Aumund-Vegesack",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/SG_Aumund_Vegesack.png/250px-SG_Aumund_Vegesack.png",
+    "city_country": "Bremen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SG_Aumund-Vegesack"
+  },
+  {
+    "club_name": "FC Oberneuland",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/FC_Oberneuland.svg/250px-FC_Oberneuland.svg.png",
+    "city_country": "Bremen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Oberneuland"
+  },
+  {
+    "club_name": "KSV Vatan Sport Bremen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/KSV_Vatanspor_Bremen_Logo.svg/250px-KSV_Vatanspor_Bremen_Logo.svg.png",
+    "city_country": "Bremen, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/Vatan_Sport_Bremen"
+  },
+  {
+    "club_name": "TS Woltmershausen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/41/TS_Woltmershausen_logo.png",
+    "city_country": "Bremen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TS_Woltmershausen"
+  },
+  {
+    "club_name": "Habenhauser FV",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/b/b4/Habenhauser_FV_Logo.png",
+    "city_country": "Bremen, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/Habenhauser_FV"
+  },
+  {
+    "club_name": "ATSV Sebaldsbrück",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/7221.png?lm=1514845437",
+    "city_country": "Bremen, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/ATSV_Sebaldsbr%C3%BCck"
   }
 ]
