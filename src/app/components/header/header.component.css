@@ -26,36 +26,23 @@ header {
 .title a {
   display: inline-block;
   position: relative;
-  font-family: "Glass Antiqua", cursive;
+  font-family: 'Oswald', sans-serif;
   font-weight: 500;
-  animation: floatText 3s ease-in-out infinite alternate, glowText 2s ease-in-out infinite alternate;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: linear-gradient(135deg, #c8a84b 0%, #f5e090 40%, #b8962a 70%, #e8c84a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 1px 6px rgba(200, 168, 75, 0.45));
+  transition: filter 0.3s ease;
 }
 
-/* Movimiento horizontal */
-@keyframes floatText {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(10px);
-  }
-  100% {
-    transform: translateX(0);
-  }
+.title a:hover {
+  filter: drop-shadow(0 2px 12px rgba(245, 224, 144, 0.7));
 }
 
-/* Resplandor blanco */
-@keyframes glowText {
-  0% {
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
-  }
-  50% {
-    text-shadow: 0 0 15px #ffffff, 0 0 25px #ffffff;
-  }
-  100% {
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
-  }
-}
 
 /* Navigation Tabs */
 .nav-tabs {
@@ -65,15 +52,26 @@ header {
   .nav-tabs {
     background: black;
   }
-  /* El resplandor se mantiene en responsivo */
+
+  header {
+    text-align: center !important;
+  }
+
   .title a {
-    animation: floatText 3s ease-in-out infinite alternate, glowText 2s ease-in-out infinite alternate;
+    filter: none;
+  }
+
+  .title a:hover {
+    filter: none;
   }
 }
 
+
 .nav-link {
   color: white !important;
+  text-transform: uppercase;
   transition: all 0.3s ease;
+
 }
 
 .nav-link:hover {
