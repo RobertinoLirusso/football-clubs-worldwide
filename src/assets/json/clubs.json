@@ -1495,7 +1495,7 @@
   },
   {
     "club_name": "Videoton FC Fehérvár",
-    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLFLINQxEoyNYgK-6dDEKb0PqwN37iREtdDg&s",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Videoton_FC_Feh%C3%A9rv%C3%A1r_logo.svg/250px-Videoton_FC_Feh%C3%A9rv%C3%A1r_logo.svg.png",
     "city_country": "Székesfehérvár, Hungary",
     "wiki_url": "https://en.wikipedia.org/wiki/Feh%C3%A9rv%C3%A1r_FC"
   },
@@ -5341,7 +5341,7 @@
   },
   {
     "club_name": "Levski Sofia",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiJeYKQWzVYJZgmbLa3sbLcN3en1DD7fb8EciQs07b5usbabAh6We12Y3Ib7VaHMfV7a2MS7QvgEPJ7quYfeGzqADHoFd2fYezyafCY_C_H80oZxs2oq0eHbtxtfMlt2KH55za0P6g_aw/s1600/PFC+Levski+Sofia256x.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Levski_Sofia_crest_%282026%29.svg/250px-Levski_Sofia_crest_%282026%29.svg.png",
     "city_country": "Sofia, Bulgaria",
     "wiki_url": "https://en.wikipedia.org/wiki/PFC_Levski_Sofia"
   },
@@ -6786,8 +6786,8 @@
   "wiki_url": "https://en.wikipedia.org/wiki/Xanthi_FC"
 },
 {
-  "club_name": "Veria",
-  "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7m9EFCdGJaJggyqdUenVLTpo9TulaH89broJybZPt-cIOJmei4KC8w-DO9GQR-LpAb3QPwe02lWsaw2877Aw8xlhszIoM-6HsINCTM9rsGmQYZO4Vohg5UlEMYRjhdMRcojYhCUgChBecVlAI-EICKRqK2TaZp8D-ewJoIiuB1X48iQNjY1y422mI/s256/Veria%20NFC256x.png",
+  "club_name": "Veria NFC",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/el/thumb/2/20/%CE%A0%CE%A3_%CE%92%CE%AD%CF%81%CE%BF%CE%B9%CE%B1.svg/250px-%CE%A0%CE%A3_%CE%92%CE%AD%CF%81%CE%BF%CE%B9%CE%B1.svg.png",
   "city_country": "Veria, Greece",
   "wiki_url": "https://en.wikipedia.org/wiki/Veria_NFC"
 },
@@ -7651,7 +7651,7 @@
     },
     {
         "club_name": "SV Horn",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/59/SV_Horn_logo.png",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/SV_Horn_logo.svg/250px-SV_Horn_logo.svg.png",
         "city_country": "Horn, Austria",
         "wiki_url": "https://en.wikipedia.org/wiki/SV_Horn"
     },
@@ -12745,7 +12745,7 @@
   },
     {
     "club_name": "SKU Amstetten",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a1/SKU_Amstetten_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/SKU_Amstetten_logo.svg/250px-SKU_Amstetten_logo.svg.png",
     "city_country": "Amstetten, Austria",
     "wiki_url": "https://en.wikipedia.org/wiki/SKU_Amstetten"
   },
@@ -28215,7 +28215,7 @@
   },
   {
     "club_name": "Siheung City FC",
-    "club_logo": "assets/logos/siheung_city_fc.png",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/62853.png?lm=1770892717",
     "city_country": "Siheung, South Korea",
     "wiki_url": "https://en.wikipedia.org/wiki/Siheung_Citizen_FC"
   },
@@ -36642,5 +36642,239 @@
     "club_logo": "https://tmssl.akamaized.net//images/wappen/head/7221.png?lm=1514845437",
     "city_country": "Bremen, Germany",
     "wiki_url": "https://de.wikipedia.org/wiki/ATSV_Sebaldsbr%C3%BCck"
+  },
+    {
+    "club_name": "TSV Landsberg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/TSV_Landsberg_logo.png/250px-TSV_Landsberg_logo.png",
+    "city_country": "Landsberg am Lech, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TSV_Landsberg"
+  },
+  {
+    "club_name": "SV Kirchanschöring",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SV_Kirchanschoering_Logo.png/250px-SV_Kirchanschoering_Logo.png",
+    "city_country": "Kirchanschöring, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Kirchansch%C3%B6ring"
+  },
+  {
+    "club_name": "FC Gundelfingen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/FC_Gundelfingen.png/250px-FC_Gundelfingen.png",
+    "city_country": "Gundelfingen an der Donau, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Gundelfingen"
+  },
+  {
+    "club_name": "SV Erlbach",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/SV_Erlbach_logo.png/250px-SV_Erlbach_logo.png",
+    "city_country": "Erlbach, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Erlbach"
+  },
+  {
+    "club_name": "FC Pipinsried",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/FC_Pipinsried_Logo.svg/250px-FC_Pipinsried_Logo.svg.png",
+    "city_country": "Pipinsried, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Pipinsried"
+  },
+  {
+    "club_name": "SV Heimstetten",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/SV_Heimstetten_crest.svg/250px-SV_Heimstetten_crest.svg.png",
+    "city_country": "Kirchheim bei München, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Heimstetten"
+  },
+  {
+    "club_name": "FC Deisenhofen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/e/e9/Wappen_FC_Deisenhofen.png/250px-Wappen_FC_Deisenhofen.png",
+    "city_country": "Deisenhofen, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/FC_Deisenhofen"
+  },
+  {
+    "club_name": "FC Sportfreunde 1913 Schwaig",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/64162.png?lm=1583682664",
+    "city_country": "Oberding, Germany",
+    "wiki_url": "https://www.fcschwaig.de/"
+  },
+  {
+    "club_name": "TuS Geretsried",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/a/a4/TuS_Geretsried_Logo.png",
+    "city_country": "Geretsried, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/TuS_Geretsried"
+  },
+  {
+    "club_name": "TSV 1861 Nördlingen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/TSV_Noerdlingen.png/250px-TSV_Noerdlingen.png",
+    "city_country": "Nördlingen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TSV_1861_N%C3%B6rdlingen"
+  },
+  {
+    "club_name": "FC Ismaning",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/FC_Ismaning.png/250px-FC_Ismaning.png",
+    "city_country": "Ismaning, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Ismaning"
+  },
+  {
+    "club_name": "SV Schalding-Heining",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Logo_SV-Schalding-Heining2.svg/250px-Logo_SV-Schalding-Heining2.svg.png",
+    "city_country": "Passau, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Schalding-Heining"
+  },
+  {
+    "club_name": "TSV Kottern",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/TSV_Kottern.png/250px-TSV_Kottern.png",
+    "city_country": "Kempten, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TSV_Kottern"
+  },
+  {
+    "club_name": "FC Sturm Hauzenberg",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/9070.png?lm=1444947464",
+    "city_country": "Hauzenberg, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/FC_Sturm_Hauzenberg"
+  },
+  {
+    "club_name": "Türkspor Augsburg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/T%C3%BCrkspor_Augsburg_Logo.png/250px-T%C3%BCrkspor_Augsburg_Logo.png",
+    "city_country": "Augsburg, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/T%C3%BCrkspor_Augsburg"
+  },
+  {
+    "club_name": "Türkgücü München",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/T%C3%BCrkg%C3%BCc%C3%BC_M%C3%BCnchen_Logo.svg/250px-T%C3%BCrkg%C3%BCc%C3%BC_M%C3%BCnchen_Logo.svg.png",
+    "city_country": "Munich, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/T%C3%BCrkg%C3%BCc%C3%BC_M%C3%BCnchen"
+  },
+  {
+    "club_name": "Westfalia Rhynern",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/SV_Westfalia_Rhynern_Logo.svg/250px-SV_Westfalia_Rhynern_Logo.svg.png",
+    "city_country": "Hamm, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Westfalia_Rhynern"
+  },
+  {
+    "club_name": "ASC 09 Dortmund",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/ASC09_Dortmund_Logo.svg/250px-ASC09_Dortmund_Logo.svg.png",
+    "city_country": "Dortmund, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/ASC_09_Dortmund"
+  },
+  {
+    "club_name": "SV Lippstadt 08",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/SV_Lippstadt_08_Logo.svg/250px-SV_Lippstadt_08_Logo.svg.png",
+    "city_country": "Lippstadt, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SV_Lippstadt_08"
+  },
+  {
+    "club_name": "1. FC Gievenbeck",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/1FCGievenbeckLogo.svg/250px-1FCGievenbeckLogo.svg.png",
+    "city_country": "Münster, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/1._FC_Gievenbeck"
+  },
+  {
+    "club_name": "TSV Victoria Clarholz",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/TSV_Victoria_Clarholz_Logo.svg/250px-TSV_Victoria_Clarholz_Logo.svg.png",
+    "city_country": "Herzebrock-Clarholz, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/TSV_Victoria_Clarholz"
+  },
+  {
+    "club_name": "Eintracht Rheine",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Eintracht_Rheine.png/250px-Eintracht_Rheine.png",
+    "city_country": "Rheine, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Eintracht_Rheine"
+  },
+  {
+    "club_name": "TSG Sprockhövel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TSG_Sprockh%C3%B6vel_Logo.svg/250px-TSG_Sprockh%C3%B6vel_Logo.svg.png",
+    "city_country": "Sprockhövel, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/TSG_Sprockh%C3%B6vel"
+  },
+  {
+    "club_name": "SpVgg Erkenschwick",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/SpVgg_Erkenschwick_Logo.svg/250px-SpVgg_Erkenschwick_Logo.svg.png",
+    "city_country": "Oer-Erkenschwick, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SpVgg_Erkenschwick"
+  },
+  {
+    "club_name": "SV Schermbeck 2020",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/SV_Schermbeck_2020_Logo.svg/250px-SV_Schermbeck_2020_Logo.svg.png",
+    "city_country": "Schermbeck, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/SV_Schermbeck"
+  },
+  {
+    "club_name": "TuS Hiltrup",
+    "club_logo": "https://www.westfalenkick.de/bilder/1591267139/1591267139-1591945206-tushiltrup.png",
+    "city_country": "Münster, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/TuS_Hiltrup"
+  },
+  {
+    "club_name": "TuS Ennepetal",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/b/b1/TuS_Ennepetal_Logo.svg/250px-TuS_Ennepetal_Logo.svg.png",
+    "city_country": "Ennepetal, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/TuS_Ennepetal"
+  },
+  {
+    "club_name": "SpVgg Vreden",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/SpVgg_Vreden_Logo.svg/250px-SpVgg_Vreden_Logo.svg.png",
+    "city_country": "Vreden, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/SpVgg_Vreden"
+  },
+  {
+    "club_name": "Rot Weiss Ahlen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Rot_Weiss_Ahlen.svg/250px-Rot_Weiss_Ahlen.svg.png",
+    "city_country": "Ahlen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rot_Weiss_Ahlen"
+  },
+  {
+    "club_name": "SG Finnentrop/Bamenohl",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/SG_Finnentrop_Bamenohl_Logo.svg/250px-SG_Finnentrop_Bamenohl_Logo.svg.png",
+    "city_country": "Finnentrop, Germany",
+    "wiki_url": "https://de.wikipedia.org/wiki/SG_Finnentrop/Bamenohl"
+  },
+  {
+    "club_name": "Türkspor Dortmund",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/T%C3%BCrkspor_Dortmund_Logo.svg/250px-T%C3%BCrkspor_Dortmund_Logo.svg.png",
+    "city_country": "Dortmund, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/T%C3%BCrkspor_Dortmund"
+  },
+  {
+    "club_name": "Apollon Kalamaria",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/92/Apollon_Kalamarias_F.C._logo.png",
+    "city_country": "Thessaloniki, Greece",
+    "wiki_url": "https://en.wikipedia.org/wiki/Apollon_Kalamarias_F.C."
+  },
+  {
+    "club_name": "Eordaikos FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/03/Eordaikos.jpg",
+    "city_country": "Ptolemaida, Greece",
+    "wiki_url": "https://en.wikipedia.org/wiki/Eordaikos_F.C."
+  },
+  {
+    "club_name": "PS Ethnikos Neo Keramidi",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Ethnikos_Neo_Keramidiou_logo.png/250px-Ethnikos_Neo_Keramidiou_logo.png",
+    "city_country": "Neo Keramidi, Greece",
+    "wiki_url": "https://en.wikipedia.org/wiki/P.S._Ethnikos_Neo_Keramidi"
+  },
+  {
+    "club_name": "Kozani FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Kozani_FC_logo.png/250px-Kozani_FC_logo.png",
+    "city_country": "Kozani, Greece",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kozani_F.C."
+  },
+  {
+    "club_name": "SFK Pierikos",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1f/Pierikos_FC_official_logo.png",
+    "city_country": "Katerini, Greece",
+    "wiki_url": "https://en.wikipedia.org/wiki/S.F.K._Pierikos_(football)"
+  },
+  {
+    "club_name": "VfB Marburg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/de/thumb/0/00/Logo_VfB_1905_Marburg_RGB.png/250px-Logo_VfB_1905_Marburg_RGB.png",
+    "city_country": "Marburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/VfB_Marburg"
+  },
+  {
+    "club_name": "FC Gießen",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/FC_Giessen_Logo.svg/250px-FC_Giessen_Logo.svg.png",
+    "city_country": "Gießen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Gie%C3%9Fen"
+  },
+  {
+    "club_name": "FC Kilia Kiel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/FC_Kilia_Kiel_crest.svg/250px-FC_Kilia_Kiel_crest.svg.png",
+    "city_country": "Kiel, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Kilia_Kiel"
   }
 ]
