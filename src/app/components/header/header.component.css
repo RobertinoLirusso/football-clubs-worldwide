@@ -23,6 +23,11 @@ header {
   color: white;
 }
 
+/* Título */
+.title {
+  font-size: 1.4rem;
+}
+
 .title a {
   display: inline-block;
   position: relative;
@@ -43,35 +48,15 @@ header {
   filter: drop-shadow(0 2px 12px rgba(245, 224, 144, 0.7));
 }
 
-
 /* Navigation Tabs */
 .nav-tabs {
   background: black;
 }
-@media (max-width: 768px) {
-  .nav-tabs {
-    background: black;
-  }
-
-  header {
-    text-align: center !important;
-  }
-
-  .title a {
-    filter: none;
-  }
-
-  .title a:hover {
-    filter: none;
-  }
-}
-
 
 .nav-link {
   color: white !important;
   text-transform: uppercase;
   transition: all 0.3s ease;
-
 }
 
 .nav-link:hover {
@@ -79,7 +64,7 @@ header {
   color: black !important;
 }
 
-/* Dropdown Play Game */
+/* Dropdown Minigames */
 .nav-dropdown {
   display: inline-block;
 }
@@ -98,3 +83,34 @@ header {
   background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
+/* Responsivo */
+@media (max-width: 768px) {
+  .nav-tabs {
+    background: black;
+  }
+
+  header.w3-container {
+    text-align: center !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  header .title {
+    text-align: center !important;
+    width: 100%;
+    display: block;
+  }
+
+  header .title a {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .title a {
+    filter: none;
+  }
+
+  .title a:hover {
+    filter: none;
+  }
+}
