@@ -17,6 +17,7 @@ import { MapComponent } from './pages/map/map.component';
 import { ClubSearchComponent } from './pages/club-search/club-search.component';
 import { HangmanComponent } from './pages/hangman/hangman.component';
 import { PairsComponent } from './pages/pairs/pairs.component';
+import { GuessCountryComponent } from './pages/guess-country/guess-country.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { PairsComponent } from './pages/pairs/pairs.component';
     ClubSearchComponent,
     HangmanComponent,
     PairsComponent,
+    GuessCountryComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,145 @@
+<div class="gc-container">
+    <app-header></app-header>
+  
+    <div class="gc-content">
+  
+      <!-- ══════ LOADING ══════ -->
+      <div *ngIf="clubs.length === 0" class="gc-center">
+        <p class="w3-text-white">Loading clubs…</p>
+      </div>
+  
+      <!-- ══════ HOME ══════ -->
+      <div *ngIf="phase === 'home' && clubs.length > 0" class="gc-center">
+        <div class="gc-card w3-card w3-round-large w3-padding-large">
+          <div class="gc-home-icon">🌍</div>
+          <h2 class="w3-text-white w3-center">Guess the Country</h2>
+          <p class="w3-text-light-grey w3-center">
+            See the club logo and pick the correct country flag.<br>
+            You have <strong class="accent">10 seconds</strong> per question.
+          </p>
+  
+          <div class="gc-phase-list">
+            <div class="gc-phase-item">
+              <span class="phase-badge group">Group Stage</span>
+              <span class="w3-text-light-grey">3 questions — need ≥2 to advance</span>
+            </div>
+            <div class="gc-phase-arrow">↓</div>
+            <div class="gc-phase-item">
+              <span class="phase-badge playoff">Playoff</span>
+              <span class="w3-text-light-grey">2 questions — need ≥1 (only if 2/3 in group)</span>
+            </div>
+            <div class="gc-phase-arrow">↓</div>
+            <div class="gc-phase-item">
+              <span class="phase-badge knockout">Knockouts</span>
+              <span class="w3-text-light-grey">Round of 16 · QF · SF · Final — 1 question each</span>
+            </div>
+          </div>
+  
+          <div class="w3-center w3-margin-top">
+            <button class="w3-button w3-white w3-round gc-btn-start" (click)="startGame()">
+              <b>▶ Start</b>
+            </button>
+          </div>
+        </div>
+      </div>
+  
+      <!-- ══════ QUESTION (group / playoff / knockout) ══════ -->
+      <div *ngIf="question && (phase === 'group' || phase === 'playoff' || phase === 'knockout')" class="gc-question-wrap">
+  
+        <!-- Phase label -->
+        <div class="gc-phase-bar w3-center">
+          <span *ngIf="phase === 'group'"    class="phase-badge group">Group Stage &nbsp;·&nbsp; {{ groupIndex + 1 }} / 3</span>
+          <span *ngIf="phase === 'playoff'"  class="phase-badge playoff">Playoff &nbsp;·&nbsp; {{ playoffIndex + 1 }} / 2</span>
+          <span *ngIf="phase === 'knockout'" class="phase-badge knockout">{{ currentKnockoutRound }}</span>
+        </div>
+  
+        <!-- Timer bar -->
+        <div class="gc-timer-track w3-round-large">
+          <div
+            class="gc-timer-fill w3-round-large"
+            [style.width.%]="timerProgress"
+            [class.warning]="timerWarning">
+          </div>
+        </div>
+        <div class="gc-timer-label w3-center" [class.w3-text-red]="timerWarning">
+          {{ timeLeft }}s
+        </div>
+  
+        <!-- Club logo -->
+        <div class="gc-logo-wrap w3-center">
+          <div class="gc-logo-bg w3-round-large">
+            <img [src]="question.club.club_logo" [alt]="question.club.club_name" class="gc-logo" />
+          </div>
+          <p class="gc-club-name w3-text-white w3-center">
+            {{ question.club.club_name }}
+          </p>
+        </div>
+  
+        <!-- Flag options -->
+        <div class="gc-options">
+            <button
+            *ngFor="let opt of question.options"
+            class="gc-option w3-button w3-round-large"
+            [class]="'gc-option w3-button w3-round-large ' + optionClass(opt.code)"
+            [disabled]="answered"
+            (click)="selectAnswer(opt.code)">
+            <span class="fi" [class]="'fi fi-' + opt.code.toLowerCase()"></span>
+            <span class="gc-option-label">{{ opt.country }}</span>
+          </button>
+        </div>
+  
+        <!-- Timeout message -->
+        <div *ngIf="answered && selectedCode === null" class="w3-center w3-margin-top">
+          <span class="w3-text-yellow">⏰ Time's up! The answer was <strong>{{ question.correctCountry }}</strong></span>
+        </div>
+  
+      </div>
+  
+      <!-- ══════ GROUP SUMMARY (shown briefly before advancing — handled in ts, no extra screen needed) ══════ -->
+  
+      <!-- ══════ ELIMINATED ══════ -->
+      <div *ngIf="phase === 'eliminated'" class="gc-center">
+        <div class="gc-card w3-card w3-round-large w3-padding-large gc-result-card lost">
+          <div class="gc-result-icon">💀</div>
+          <h2 class="w3-text-white w3-center">Eliminated!</h2>
+  
+          <div *ngIf="groupResults.length > 0" class="gc-group-recap">
+            <p class="w3-text-light-grey w3-center gc-recap-title">Group stage results:</p>
+            <div *ngFor="let r of groupResults" class="gc-recap-row">
+              <img [src]="r.club.club_logo" [alt]="r.club.club_name" class="gc-recap-logo" />
+              <span class="gc-recap-name w3-text-white">{{ r.club.club_name }}</span>
+              <span [class]="r.correct ? 'w3-text-green' : 'w3-text-red'">
+                {{ r.correct ? '✔' : '✘' }} {{ r.correctCountry }}
+              </span>
+            </div>
+          </div>
+  
+          <div class="w3-center w3-margin-top">
+            <button class="w3-button w3-white w3-round gc-btn-start" (click)="playAgain()">
+              🔄 Try Again
+            </button>
+          </div>
+        </div>
+      </div>
+  
+      <!-- ══════ CHAMPION ══════ -->
+      <div *ngIf="phase === 'champion'" class="gc-center">
+        <div class="gc-card w3-card w3-round-large w3-padding-large gc-result-card won">
+          <div class="gc-result-icon">🏆</div>
+          <h2 class="w3-text-white w3-center">Champion!</h2>
+          <p class="w3-text-light-grey w3-center">
+            You survived the Group Stage, made it through the Knockouts<br>
+            and won the <strong class="accent">Final</strong>. Congratulations!
+          </p>
+          <div class="w3-center w3-margin-top">
+            <button class="w3-button w3-white w3-round gc-btn-start" (click)="playAgain()">
+              🔄 Play Again
+            </button>
+          </div>
+        </div>
+      </div>
+  
+    </div><!-- /gc-content -->
+
+  <app-footer></app-footer>
+  </div>
