@@ -16,6 +16,7 @@ import { NationalTeamsComponent } from './pages/national-teams/national-teams.co
 import { MapComponent } from './pages/map/map.component';
 import { ClubSearchComponent } from './pages/club-search/club-search.component';
 import { HangmanComponent } from './pages/hangman/hangman.component';
+import { PairsComponent } from './pages/pairs/pairs.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { HangmanComponent } from './pages/hangman/hangman.component';
     MapComponent,
     ClubSearchComponent,
     HangmanComponent,
+    PairsComponent,
   ],
   imports: [
     BrowserModule,

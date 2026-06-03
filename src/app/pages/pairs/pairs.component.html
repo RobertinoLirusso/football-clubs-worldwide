@@ -1,0 +1,150 @@
+<div class="container">
+
+    <app-header></app-header>
+  
+    <div class="pairs-wrapper">
+  
+      <!-- ══════════════════ LOADING ══════════════════ -->
+      <div *ngIf="clubs.length === 0" class="state-screen">
+        <p class="loading-msg">Loading clubs…</p>
+      </div>
+  
+      <!-- ══════════════════ START SCREEN ══════════════════ -->
+      <div *ngIf="clubs.length > 0 && !gameActive && !showEndModal && cards.length === 0" class="state-screen">
+        <div class="start-card">
+          <div class="start-icon">
+            <i class="fas fa-th"></i>
+          </div>
+          <h2 class="start-title">Club Pairs</h2>
+          <p class="start-desc">
+            Match all <strong>18 pairs</strong> of football club logos.<br>
+            You have <strong>5 minutes</strong>. Good luck!
+          </p>
+          <div class="start-stats-row">
+            <div class="stat-pill"><i class="fas fa-border-all"></i> 6 × 6 grid</div>
+            <div class="stat-pill"><i class="fas fa-clock"></i> 5:00</div>
+            <div class="stat-pill"><i class="fas fa-layer-group"></i> 18 pairs</div>
+          </div>
+          <button class="btn-start" type="button" (click)="startGame()">
+            <i class="fas fa-play"></i> Start Game
+          </button>
+        </div>
+      </div>
+  
+      <!-- ══════════════════ GAME HUD ══════════════════ -->
+      <div class="game-hud" *ngIf="gameActive || (cards.length > 0 && !showEndModal)">
+        <div class="hud-left">
+          <span class="hud-label">Pairs</span>
+          <span class="hud-value">{{ matchedCount }} / {{ TOTAL_PAIRS }}</span>
+        </div>
+  
+        <div class="timer-block" [class.warning]="timerWarning">
+          <i class="fas fa-clock"></i>
+          <span class="timer-digits">{{ timerDisplay }}</span>
+          <div class="timer-bar-track">
+            <div class="timer-bar-fill" [style.width.%]="timerProgress"></div>
+          </div>
+        </div>
+  
+        <div class="hud-right">
+          <span class="hud-label">Moves</span>
+          <span class="hud-value">{{ moves }}</span>
+        </div>
+      </div>
+  
+      <!-- ══════════════════ GRID ══════════════════ -->
+      <div class="grid-wrapper" *ngIf="cards.length > 0 && !showEndModal">
+        <div class="cards-grid">
+          <div
+            *ngFor="let card of cards; trackBy: trackByCardId"
+            class="card"
+            [class.flipped]="card.flipped || card.matched"
+            [class.matched]="card.matched"
+            [class.no-flip]="!gameActive"
+            (click)="flipCard(card)"
+            role="button"
+            [attr.aria-label]="(card.flipped || card.matched) ? card.club.club_name : 'Hidden card'"
+            tabindex="0"
+            (keydown.enter)="flipCard(card)"
+            (keydown.space)="flipCard(card)">
+  
+            <div class="card-inner">
+              <!-- Back face -->
+              <div class="card-back">
+                <i class="fas fa-futbol"></i>
+              </div>
+              <!-- Front face -->
+              <div class="card-front">
+                <div class="logo-wrap">
+                  <img
+                    [src]="card.club.club_logo"
+                    [alt]="card.club.club_name"
+                    class="club-logo"
+                    loading="lazy" />
+                </div>
+                <span class="club-label">{{ card.club.club_name }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div><!-- /pairs-wrapper -->
+  
+  
+    <!-- ══════════════════ END MODAL ══════════════════ -->
+    <div
+      class="modal-overlay"
+      *ngIf="showEndModal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="pairs-result-title">
+  
+      <div class="modal-box" [class.won]="gameWon" [class.lost]="gameLost">
+  
+        <div class="modal-icon">
+          <i [class]="gameWon ? 'fas fa-trophy' : 'fas fa-skull'"></i>
+        </div>
+  
+        <h3 id="pairs-result-title" class="modal-title">
+          {{ gameWon ? 'You matched them all!' : 'Time\'s up!' }}
+        </h3>
+  
+        <div class="modal-stats">
+          <div class="mstat">
+            <span class="mstat-val">{{ matchedCount }}</span>
+            <span class="mstat-lbl">Pairs found</span>
+          </div>
+          <div class="mstat">
+            <span class="mstat-val">{{ moves }}</span>
+            <span class="mstat-lbl">Moves</span>
+          </div>
+          <div class="mstat" *ngIf="gameWon">
+            <span class="mstat-val">{{ timeUsed }}</span>
+            <span class="mstat-lbl">Time used</span>
+          </div>
+        </div>
+  
+        <!-- Show unmatched clubs when the player loses -->
+        <div class="unmatched-list" *ngIf="gameLost && matchedCount < TOTAL_PAIRS">
+          <p class="unmatched-label">Unmatched clubs:</p>
+          <div class="unmatched-logos">
+            <ng-container *ngFor="let card of cards">
+              <img
+                *ngIf="!card.matched"
+                [src]="card.club.club_logo"
+                [alt]="card.club.club_name"
+                [title]="card.club.club_name"
+                class="unmatched-logo" />
+            </ng-container>
+          </div>
+        </div>
+  
+        <button type="button" class="btn-start modal-action" (click)="playAgain()">
+          <i class="fas fa-redo"></i> Play Again
+        </button>
+      </div>
+    </div>
+  
+    <app-footer></app-footer>
+  </div>

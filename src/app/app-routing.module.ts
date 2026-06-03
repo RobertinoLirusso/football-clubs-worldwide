@@ -7,6 +7,7 @@ import { NationalTeamsComponent } from './pages/national-teams/national-teams.co
 import { MapComponent } from './pages/map/map.component';
 import { ClubSearchComponent } from './pages/club-search/club-search.component';
 import { HangmanComponent } from './pages/hangman/hangman.component';
+import { PairsComponent } from './pages/pairs/pairs.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent, title: 'Football Clubs Worldwide'},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'national-teams', component: NationalTeamsComponent, title: 'Football Clubs Worldwide'},
   {path: 'club-search', component: ClubSearchComponent, title: 'Football Clubs Worldwide'},  
   {path: 'hangman', component: HangmanComponent, title: 'Football Clubs Worldwide'},
+  { path: 'pairs', component: PairsComponent, title: 'Football Clubs Worldwide'},
   {path: '**', pathMatch: 'full', component: NotfoundComponent},
 ];
 
