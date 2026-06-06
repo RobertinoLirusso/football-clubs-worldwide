@@ -1,0 +1,149 @@
+<div class="ls-container">
+    <app-header></app-header>
+  
+    <div class="ls-content">
+  
+      <!-- ══════ LOADING ══════ -->
+      <div *ngIf="clubs.length === 0" class="ls-center">
+        <p class="w3-text-white">Loading clubs…</p>
+      </div>
+  
+      <!-- ══════ HOME ══════ -->
+      <div *ngIf="gameState === 'home' && clubs.length > 0" class="ls-center">
+        <div class="ls-card w3-card w3-round-large w3-padding-large">
+  
+          <div class="ls-home-icon">🧩</div>
+          <h2 class="w3-text-white w3-center">Logo Shuffle</h2>
+          <p class="w3-text-light-grey w3-center">
+            Drag and drop the pieces to reconstruct the football club logo.<br>
+            Choose your difficulty:
+          </p>
+  
+          <div class="ls-diff-grid">
+  
+            <button class="ls-diff-btn easy w3-button w3-round-large" (click)="startGame('easy')">
+              <span class="ls-diff-icon">🟢</span>
+              <span class="ls-diff-label">Easy</span>
+              <span class="ls-diff-sub">2 × 3 — 6 pieces</span>
+            </button>
+  
+            <button class="ls-diff-btn medium w3-button w3-round-large" (click)="startGame('medium')">
+              <span class="ls-diff-icon">🟡</span>
+              <span class="ls-diff-label">Medium</span>
+              <span class="ls-diff-sub">3 × 4 — 12 pieces</span>
+            </button>
+  
+            <button class="ls-diff-btn hard w3-button w3-round-large" (click)="startGame('hard')">
+              <span class="ls-diff-icon">🔴</span>
+              <span class="ls-diff-label">Hard</span>
+              <span class="ls-diff-sub">4 × 5 — 20 pieces</span>
+            </button>
+  
+          </div>
+        </div>
+      </div>
+  
+      <!-- ══════ PLAYING ══════ -->
+      <div *ngIf="gameState === 'playing'" class="ls-game-wrap">
+  
+        <!-- HUD -->
+        <div class="ls-hud w3-card w3-round-large">
+          <div class="ls-hud-item">
+            <span class="ls-hud-label">Difficulty</span>
+            <span class="ls-hud-value">
+              <span [class]="'diff-dot ' + selectedDifficulty"></span>
+              {{ DIFFICULTIES[selectedDifficulty].label }}
+            </span>
+          </div>
+          <div class="ls-hud-item">
+            <span class="ls-hud-label">Pieces</span>
+            <span class="ls-hud-value">{{ config.pieces }}</span>
+          </div>
+          <div class="ls-hud-item">
+            <span class="ls-hud-label">Moves</span>
+            <span class="ls-hud-value">{{ moves }}</span>
+          </div>
+          <button class="ls-btn-quit w3-button w3-round" (click)="playAgain()">
+            ✕ Quit
+          </button>
+        </div>
+  
+        <!-- Reference + Board -->
+        <div class="ls-play-area">
+  
+          <!-- Reference: small preview of the full logo -->
+          <div class="ls-reference">
+            <p class="ls-ref-label">Reference</p>
+            <div class="ls-ref-img-wrap w3-round-large">
+              <img [src]="currentClub.club_logo" [alt]="currentClub.club_name" class="ls-ref-img" />
+            </div>
+            <p class="ls-ref-name">{{ currentClub.club_name }}</p>
+          </div>
+  
+          <!-- Puzzle board -->
+          <div
+            class="ls-board"
+            [style.--cols]="config.cols"
+            [style.--rows]="config.rows">
+            <div
+              *ngFor="let piece of pieces; let i = index; trackBy: trackByIndex"
+              [class]="pieceClass(i)"
+              [style]="pieceStyle(piece)"
+              draggable="true"
+              (dragstart)="onDragStart(i, $event)"
+              (dragover)="onDragOver(i, $event)"
+              (dragleave)="onDragLeave()"
+              (drop)="onDrop(i, $event)"
+              (dragend)="onDragEnd()"
+              (touchstart)="onTouchStart(i)"
+              (touchend)="onTouchEnd(i)">
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
+      <!-- ══════ SOLVED ══════ -->
+      <div *ngIf="gameState === 'solved'" class="ls-center">
+        <div class="ls-card w3-card w3-round-large w3-padding-large ls-result-card">
+  
+          <div class="ls-result-icon">🏆</div>
+          <h2 class="w3-text-white w3-center">Solved!</h2>
+  
+          <!-- Completed logo big -->
+          <div class="ls-solved-logo-wrap w3-round-large">
+            <img [src]="currentClub.club_logo" [alt]="currentClub.club_name" class="ls-solved-logo" />
+          </div>
+          <p class="ls-solved-name w3-text-white w3-center">{{ currentClub.club_name }}</p>
+  
+          <div class="ls-solved-stats">
+            <div class="ls-stat">
+              <span class="ls-stat-val accent">{{ moves }}</span>
+              <span class="ls-stat-lbl">Moves</span>
+            </div>
+            <div class="ls-stat">
+              <span class="ls-stat-val accent">{{ DIFFICULTIES[selectedDifficulty].label }}</span>
+              <span class="ls-stat-lbl">Difficulty</span>
+            </div>
+            <div class="ls-stat">
+              <span class="ls-stat-val accent">{{ config.pieces }}</span>
+              <span class="ls-stat-lbl">Pieces</span>
+            </div>
+          </div>
+  
+          <div class="ls-result-btns w3-center">
+            <button class="ls-btn-action w3-button w3-round" (click)="retryDifficulty()">
+              🔄 Same difficulty
+            </button>
+            <button class="ls-btn-action w3-button w3-round" (click)="playAgain()">
+              🎮 Change difficulty
+            </button>
+          </div>
+  
+        </div>
+      </div>
+  
+    </div><!-- /ls-content -->
+  
+    <app-footer></app-footer>
+  </div>

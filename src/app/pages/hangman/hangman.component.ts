@@ -144,9 +144,17 @@ export class HangmanComponent implements OnInit {
       (c) =>
         c.club_name &&
         c.club_logo &&
+        !c.club_name.includes('(Defunct)') &&
         this.letterCountInName(c.club_name) >= 3,
     );
-    const pool = withLogo.length > 0 ? withLogo : this.clubs.filter((c) => c.club_name && this.letterCountInName(c.club_name) >= 3);
+    const pool = withLogo.length > 0
+      ? withLogo
+      : this.clubs.filter(
+          (c) =>
+            c.club_name &&
+            !c.club_name.includes('(Defunct)') &&
+            this.letterCountInName(c.club_name) >= 3,
+        );
     if (!pool.length) {
       return;
     }

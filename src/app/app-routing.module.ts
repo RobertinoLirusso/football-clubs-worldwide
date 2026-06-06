@@ -9,6 +9,7 @@ import { ClubSearchComponent } from './pages/club-search/club-search.component';
 import { HangmanComponent } from './pages/hangman/hangman.component';
 import { PairsComponent } from './pages/pairs/pairs.component';
 import { GuessCountryComponent } from './pages/guess-country/guess-country.component';
+import { LogoShuffleComponent } from './pages/logo-shuffle/logo-shuffle.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent, title: 'Football Clubs Worldwide'},
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path: 'hangman', component: HangmanComponent, title: 'Football Clubs Worldwide'},
   { path: 'pairs', component: PairsComponent, title: 'Football Clubs Worldwide'},
   { path: 'guess-country', component: GuessCountryComponent, title: 'Football Clubs Worldwide'},
+  { path: 'logo-shuffle', component: LogoShuffleComponent, title: 'Football Clubs Worldwide'},
   {path: '**', pathMatch: 'full', component: NotfoundComponent},
 ];
 

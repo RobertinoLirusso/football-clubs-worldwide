@@ -18,6 +18,7 @@ import { ClubSearchComponent } from './pages/club-search/club-search.component';
 import { HangmanComponent } from './pages/hangman/hangman.component';
 import { PairsComponent } from './pages/pairs/pairs.component';
 import { GuessCountryComponent } from './pages/guess-country/guess-country.component';
+import { LogoShuffleComponent } from './pages/logo-shuffle/logo-shuffle.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { GuessCountryComponent } from './pages/guess-country/guess-country.compo
     HangmanComponent,
     PairsComponent,
     GuessCountryComponent,
+    LogoShuffleComponent,
   ],
   imports: [
     BrowserModule,
