@@ -11,6 +11,12 @@ export class HeaderComponent {
 
   isPlayGameActive(): boolean {
     const url = this.router.url;
-    return url === '/game' || url === '/club-search' || url === '/hangman' || url === '/pairs'  || url === '/guess-country' || url === ' /logo-shuffle';
+    return url === '/game' || 
+    url === '/club-search' || 
+    url === '/hangman' || 
+    url === '/pairs'  || 
+    url === '/guess-country' || 
+    url === ' /logo-shuffle' ||
+    url === '/world-cup';
   }
 }

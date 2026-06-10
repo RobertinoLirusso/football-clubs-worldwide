@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy, HostListener } from '@angular/core';
 import { ClubService } from '../../services/club.service';
 import { SeoService } from '../../services/seo.service';
+import { forkJoin } from 'rxjs';
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -24,9 +25,9 @@ interface Piece {
 // ─── Constants ────────────────────────────────────────────────────────────────
 
 const DIFFICULTIES: Record<Difficulty, DifficultyConfig> = {
-  easy:   { label: 'Easy',   cols: 2, rows: 3, pieces: 6  },
-  medium: { label: 'Medium', cols: 3, rows: 4, pieces: 12 },
-  hard:   { label: 'Hard',   cols: 4, rows: 5, pieces: 20 },
+  easy:   { label: 'Easy',   cols: 3, rows: 4, pieces: 12 },
+  medium: { label: 'Medium', cols: 4, rows: 5, pieces: 20 },
+  hard:   { label: 'Hard',   cols: 5, rows: 6, pieces: 30 },
 };
 
 @Component({
@@ -60,8 +61,11 @@ export class LogoShuffleComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit(): void {
-    this.clubService.getClubs().subscribe(data => {
-      this.clubs = data;
+    forkJoin([
+      this.clubService.getClubs(),
+      this.clubService.getNationalTeams(),
+    ]).subscribe(([clubs, nationals]) => {
+      this.clubs = [...clubs, ...nationals];
     });
     this.seoService.updateSeo({
       title: 'Logo Shuffle - Football Puzzle',

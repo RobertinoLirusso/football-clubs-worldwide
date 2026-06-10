@@ -48,6 +48,7 @@ export const COUNTRY_FLAG_MAP: { [key: string]: string } = {
   'comoros': 'km',
   'republic of the congo': 'cg',
   'democratic republic of the congo': 'cd',
+  'dr congo': 'cd',
   'costa rica': 'cr',
   'croatia': 'hr',
   'cuba': 'cu',

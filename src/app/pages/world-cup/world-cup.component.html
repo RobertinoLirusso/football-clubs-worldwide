@@ -1,0 +1,324 @@
+<div class="wc-container">
+  <app-header></app-header>
+  <div class="wc-content">
+
+    <!-- ══════ HOME ══════ -->
+    <div *ngIf="phase === 'home'" class="wc-center">
+      <div class="wc-card w3-card w3-round-large w3-padding-large">
+        <div class="wc-home-icon">🏆</div>
+        <h2 class="w3-text-white w3-center">World Cup 2026</h2>
+        <p class="w3-text-light-grey w3-center">
+          Choose your national team and lead them through the<br>
+          <strong class="accent">2026 FIFA World Cup</strong> — 48 teams, 12 groups.
+        </p>
+        <div class="wc-info-pills">
+          <span class="wc-pill">🌍 48 teams</span>
+          <span class="wc-pill">📋 12 groups</span>
+          <span class="wc-pill">⚡ Round of 32</span>
+          <span class="wc-pill">🎯 Simulated matches</span>
+        </div>
+        <div class="w3-center w3-margin-top">
+          <button class="wc-btn-primary w3-button w3-round" (click)="phase = 'select'">▶ Pick your team</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════ SELECT ══════ -->
+    <div *ngIf="phase === 'select'" class="wc-select-wrap">
+      <h3 class="w3-text-white w3-center">Choose your team</h3>
+      <input class="wc-search w3-input w3-round-large" type="text" placeholder="🔍  Search team…" [(ngModel)]="searchQuery" />
+
+      <div *ngIf="!searchQuery" class="wc-groups-grid">
+        <div *ngFor="let gd of teamsByGroup()" class="wc-group-block">
+          <div class="wc-group-label">Group {{ gd.group }}</div>
+          <div *ngFor="let team of gd.teams; trackBy: trackByName"
+               class="wc-team-row" [class.selected]="playerTeam === team" (click)="selectTeam(team)">
+            <img *ngIf="team.logo" [src]="team.logo" [alt]="team.name" class="wc-team-logo" />
+            <span *ngIf="!team.logo" class="wc-team-logo-placeholder">🏳️</span>
+            <span class="wc-team-name">{{ team.name }}</span>
+            <span class="wc-team-rank">#{{ team.ranking }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="searchQuery" class="wc-search-results">
+        <div *ngFor="let team of filteredTeams; trackBy: trackByName"
+             class="wc-team-row" [class.selected]="playerTeam === team" (click)="selectTeam(team)">
+          <img *ngIf="team.logo" [src]="team.logo" [alt]="team.name" class="wc-team-logo" />
+          <span class="wc-team-name">{{ team.name }}</span>
+          <span class="wc-team-badge-group">Group {{ team.group }}</span>
+          <span class="wc-team-rank">#{{ team.ranking }}</span>
+        </div>
+      </div>
+
+      <div class="wc-select-footer" *ngIf="playerTeam">
+        <div class="wc-selected-preview">
+          <img *ngIf="playerTeam.logo" [src]="playerTeam.logo" [alt]="playerTeam.name" class="wc-preview-logo" />
+          <div>
+            <div class="w3-text-white wc-preview-name">{{ playerTeam.name }}</div>
+            <div class="w3-text-light-grey wc-preview-sub">Group {{ playerTeam.group }} · #{{ playerTeam.ranking }} FIFA</div>
+          </div>
+        </div>
+        <button class="wc-btn-primary w3-button w3-round" (click)="confirmSelection()">✅ Confirm & Play</button>
+      </div>
+    </div>
+
+    <!-- ══════ MATCH (group or knockout) ══════ -->
+    <div *ngIf="(phase === 'group_match' || phase === 'knockout_match') && currentMatch" class="wc-match-wrap">
+
+      <div class="wc-round-label">
+        <span *ngIf="phase === 'group_match'"    class="wc-badge group">Group {{ playerGroup }} · Match {{ groupRound + 1 }} of 3</span>
+        <span *ngIf="phase === 'knockout_match'" class="wc-badge knockout">{{ currentKnockoutRoundName }}</span>
+      </div>
+
+      <!-- Scoreboard -->
+      <div class="wc-scoreboard w3-card w3-round-large">
+        <div class="wc-score-team" [class.player-side]="currentMatch.home === playerTeam">
+          <img *ngIf="currentMatch.home.logo" [src]="currentMatch.home.logo" class="wc-score-logo" />
+          <span class="wc-score-name">{{ currentMatch.home.name }}</span>
+        </div>
+        <div class="wc-score-center">
+          <div class="wc-score-digits">{{ liveScore(currentMatch.home.name) }} – {{ liveScore(currentMatch.away.name) }}</div>
+          <div class="wc-score-sub" *ngIf="matchPlaying"><span class="wc-live-dot"></span> LIVE</div>
+          <div class="wc-score-sub" *ngIf="!matchPlaying">FT</div>
+        </div>
+        <div class="wc-score-team right" [class.player-side]="currentMatch.away === playerTeam">
+          <img *ngIf="currentMatch.away.logo" [src]="currentMatch.away.logo" class="wc-score-logo" />
+          <span class="wc-score-name">{{ currentMatch.away.name }}</span>
+        </div>
+      </div>
+
+      <!-- Final score + penalties note -->
+      <div *ngIf="!matchPlaying && currentMatch.penalties" class="wc-penalties-note w3-center">
+        🎯 Penalties: {{ currentMatch.home.name }} {{ currentMatch.penalties.homeScore }} – {{ currentMatch.penalties.awayScore }} {{ currentMatch.away.name }}
+      </div>
+
+      <!-- Events feed -->
+      <div class="wc-events-feed">
+        <div *ngFor="let ev of displayedEvents; trackBy: trackByIdx"
+             class="wc-event"
+             [class.player-event]="isPlayerEvent(ev)"
+             [class.goal-event]="ev.type === 'goal'"
+             [class.neutral-event]="ev.team === ''">
+          <span class="wc-event-min">{{ ev.minute > 0 ? ev.minute + "'" : '' }}</span>
+          <span class="wc-event-desc">{{ ev.description }}</span>
+        </div>
+        <div *ngIf="matchPlaying && displayedEvents.length === 0" class="wc-event wc-event-waiting">⏱️ Kick-off…</div>
+      </div>
+
+      <div class="w3-center w3-margin-top" *ngIf="!matchPlaying">
+        <button class="wc-btn-primary w3-button w3-round"
+          (click)="phase === 'group_match' ? confirmMatchResult() : confirmKnockoutResult()">
+          Continue →
+        </button>
+      </div>
+    </div>
+
+    <!-- ══════ GROUP RESULTS (after each round) ══════ -->
+    <div *ngIf="phase === 'group_results'" class="wc-results-wrap">
+      <div class="wc-round-label">
+        <span class="wc-badge group">Round {{ groupRound }} — Results</span>
+      </div>
+
+      <!-- Player's match -->
+      <div class="wc-my-result w3-card w3-round-large" *ngIf="currentMatch">
+        <div class="wc-my-result-header">Your match</div>
+        <div class="wc-result-row">
+          <div class="wc-result-team">
+            <img *ngIf="currentMatch.home.logo" [src]="currentMatch.home.logo" class="wc-result-logo" />
+            {{ currentMatch.home.name }}
+          </div>
+          <div class="wc-result-score" [class]="matchOutcomeClass(currentMatch)">
+            {{ scoreLabel(currentMatch) }}
+            <span class="outcome-tag">{{ matchOutcomeLabel(currentMatch) }}</span>
+          </div>
+          <div class="wc-result-team right">
+            <img *ngIf="currentMatch.away.logo" [src]="currentMatch.away.logo" class="wc-result-logo" />
+            {{ currentMatch.away.name }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Other results by group -->
+      <div *ngFor="let grp of nonPlayerResultsByGroup()" class="wc-other-results">
+        <div class="wc-other-title">Group {{ grp.group }}</div>
+        <div *ngFor="let m of grp.matches" class="wc-other-row">
+          <span class="wc-other-team">
+            <img *ngIf="m.home.logo" [src]="m.home.logo" class="wc-mini-logo-inline" />
+            {{ m.home.name }}
+          </span>
+          <span class="wc-other-score">{{ scoreLabel(m) }}</span>
+          <span class="wc-other-team right">
+            {{ m.away.name }}
+            <img *ngIf="m.away.logo" [src]="m.away.logo" class="wc-mini-logo-inline" />
+          </span>
+        </div>
+      </div>
+
+      <!-- Player group standings -->
+      <div class="wc-standings-mini">
+        <div class="wc-standings-title">Group {{ playerGroup }} standings</div>
+        <table class="wc-table w3-table">
+          <thead><tr><th>#</th><th>Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
+          <tbody>
+            <tr *ngFor="let s of playerGroupStandings; let i = index"
+                [class.wc-row-player]="s.team === playerTeam" [class.wc-row-advance]="i < 2">
+              <td>{{ i + 1 }}</td>
+              <td>
+                <img *ngIf="s.team.logo" [src]="s.team.logo" class="wc-table-logo" />
+                {{ s.team.name }}
+              </td>
+              <td>{{ s.played }}</td><td>{{ s.won }}</td><td>{{ s.drawn }}</td><td>{{ s.lost }}</td>
+              <td>{{ s.gd > 0 ? '+' : '' }}{{ s.gd }}</td>
+              <td><strong>{{ s.points }}</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="w3-center w3-margin-top">
+        <button class="wc-btn-primary w3-button w3-round" (click)="continueAfterRound()">
+          {{ groupRound < 3 ? 'Next match →' : 'Final standings →' }}
+        </button>
+      </div>
+    </div>
+
+    <!-- ══════ GROUP STANDINGS FINAL ══════ -->
+    <div *ngIf="phase === 'group_standings'" class="wc-standings-wrap">
+      <h3 class="w3-text-white w3-center">Group Stage Complete</h3>
+
+      <div class="wc-advance-banner" [class.advance]="playerAdvances" [class.out]="!playerAdvances">
+        <span *ngIf="playerAdvances">✅ {{ playerTeam?.name }} advances to the Round of 32!</span>
+        <span *ngIf="!playerAdvances">❌ {{ playerTeam?.name }} eliminated in the group stage.</span>
+      </div>
+
+      <!-- All groups -->
+      <div class="wc-all-groups">
+        <div *ngFor="let gd of allGroupStandings" class="wc-group-standing">
+          <div class="wc-group-standing-title">Group {{ gd.group }}</div>
+          <div *ngFor="let s of gd.standings; let i = index"
+               class="wc-group-standing-row"
+               [class.advance]="i < 2"
+               [class.player-row]="s.team === playerTeam">
+            <span class="wc-pos">{{ i + 1 }}</span>
+            <img *ngIf="s.team.logo" [src]="s.team.logo" class="wc-mini-logo" />
+            <span class="wc-sname">{{ s.team.name }}</span>
+            <span class="wc-spts">{{ s.points }}pts</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- R32 bracket preview -->
+      <div *ngIf="playerAdvances" class="wc-bracket-preview">
+        <div class="wc-bracket-title">🗓️ Round of 32 — Your bracket</div>
+        <div class="wc-bracket-note w3-text-light-grey">All other matches are simulated simultaneously</div>
+        <div class="wc-bracket-grid">
+          <div *ngFor="let pair of knockoutBracketDisplay.pairs; let i = index"
+               class="wc-bracket-match"
+               [class.player-bracket]="pair.home === playerTeam || pair.away === playerTeam">
+            <div class="wc-bm-team" [class.player-team]="pair.home === playerTeam">
+              <img *ngIf="pair.home.logo" [src]="pair.home.logo" class="wc-bm-logo" />
+              {{ pair.home.name }}
+            </div>
+            <span class="wc-bm-vs">vs</span>
+            <div class="wc-bm-team" [class.player-team]="pair.away === playerTeam">
+              <img *ngIf="pair.away.logo" [src]="pair.away.logo" class="wc-bm-logo" />
+              {{ pair.away.name }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-center w3-margin-top">
+        <button *ngIf="playerAdvances" class="wc-btn-primary w3-button w3-round" (click)="proceedToKnockouts()">
+          ⚡ Start Round of 32 →
+        </button>
+        <button *ngIf="!playerAdvances" class="wc-btn-secondary w3-button w3-round" (click)="resetGame()">
+          🔄 Play Again
+        </button>
+      </div>
+    </div>
+
+    <!-- ══════ KNOCKOUT RESULT ══════ -->
+    <div *ngIf="phase === 'knockout_result' && currentKnockoutMatch" class="wc-results-wrap">
+      <div class="wc-round-label">
+        <span class="wc-badge knockout">{{ KNOCKOUT_ROUND_NAMES[knockoutRoundIndex - 1] }} — Result</span>
+      </div>
+
+      <div class="wc-my-result w3-card w3-round-large">
+        <div class="wc-my-result-header">Your match</div>
+        <div class="wc-result-row">
+          <div class="wc-result-team">
+            <img *ngIf="currentKnockoutMatch.home.logo" [src]="currentKnockoutMatch.home.logo" class="wc-result-logo" />
+            {{ currentKnockoutMatch.home.name }}
+          </div>
+          <div class="wc-result-score outcome-win">{{ scoreLabel(currentKnockoutMatch) }}</div>
+          <div class="wc-result-team right">
+            <img *ngIf="currentKnockoutMatch.away.logo" [src]="currentKnockoutMatch.away.logo" class="wc-result-logo" />
+            {{ currentKnockoutMatch.away.name }}
+          </div>
+        </div>
+        <div *ngIf="currentKnockoutMatch.penalties" class="wc-penalties-note w3-center">
+          🎯 Won on penalties: {{ currentKnockoutMatch.penalties.homeScore }} – {{ currentKnockoutMatch.penalties.awayScore }}
+        </div>
+      </div>
+
+      <!-- Next round bracket -->
+      <div class="wc-bracket-preview">
+        <div class="wc-bracket-title">🗓️ {{ KNOCKOUT_ROUND_NAMES[knockoutRoundIndex] }} — Your bracket</div>
+        <div class="wc-bracket-grid">
+          <div *ngFor="let pair of knockoutBracketDisplay.pairs; let i = index"
+               class="wc-bracket-match"
+               [class.player-bracket]="pair.home === playerTeam || pair.away === playerTeam">
+            <div class="wc-bm-team" [class.player-team]="pair.home === playerTeam">
+              <img *ngIf="pair.home.logo" [src]="pair.home.logo" class="wc-bm-logo" />
+              {{ pair.home.name }}
+            </div>
+            <span class="wc-bm-vs">vs</span>
+            <div class="wc-bm-team" [class.player-team]="pair.away === playerTeam">
+              <img *ngIf="pair.away.logo" [src]="pair.away.logo" class="wc-bm-logo" />
+              {{ pair.away.name }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-center w3-margin-top">
+        <button class="wc-btn-primary w3-button w3-round" (click)="continueKnockout()">Next match →</button>
+      </div>
+    </div>
+
+    <!-- ══════ ELIMINATED ══════ -->
+    <div *ngIf="phase === 'eliminated'" class="wc-center">
+      <div class="wc-card w3-card w3-round-large w3-padding-large wc-result-card lost">
+        <div class="wc-result-icon">💀</div>
+        <h2 class="w3-text-white w3-center">Eliminated!</h2>
+        <p class="w3-text-light-grey w3-center">
+          <strong class="w3-text-white">{{ playerTeam?.name }}</strong>'s World Cup journey is over.
+        </p>
+        <div class="w3-center w3-margin-top">
+          <button class="wc-btn-primary w3-button w3-round" (click)="resetGame()">🔄 Try Again</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════ CHAMPION ══════ -->
+    <div *ngIf="phase === 'champion'" class="wc-center">
+      <div class="wc-card w3-card w3-round-large w3-padding-large wc-result-card won">
+        <div class="wc-result-icon">🏆</div>
+        <h2 class="w3-text-white w3-center">World Champions!</h2>
+        <div class="wc-champion-logo" *ngIf="playerTeam?.logo">
+          <img [src]="playerTeam!.logo" [alt]="playerTeam!.name" />
+        </div>
+        <p class="w3-text-light-grey w3-center">
+          <strong class="accent">{{ playerTeam?.name }}</strong> wins the 2026 FIFA World Cup! 🎉
+        </p>
+        <div class="w3-center w3-margin-top">
+          <button class="wc-btn-primary w3-button w3-round" (click)="resetGame()">🔄 Play Again</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <app-footer></app-footer>
+</div>
