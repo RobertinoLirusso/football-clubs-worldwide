@@ -31,21 +31,17 @@ header {
 .title a {
   display: inline-block;
   position: relative;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 500;
-  font-style: italic;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  background: linear-gradient(135deg, #c8a84b 0%, #f5e090 40%, #b8962a 70%, #e8c84a 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  filter: drop-shadow(0 1px 6px rgba(200, 168, 75, 0.45));
-  transition: filter 0.3s ease;
+  font-family: 'Skranji', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 0.06em;
+  color: white;
+  transition: opacity 0.3s ease;
 }
 
 .title a:hover {
-  filter: drop-shadow(0 2px 12px rgba(245, 224, 144, 0.7));
+  opacity: 0.85;
 }
 
 /* Navigation Tabs */
@@ -55,7 +51,8 @@ header {
 
 .nav-link {
   color: white !important;
-  text-transform: uppercase;
+  text-transform: none;
+  font-family: 'Skranji', sans-serif;
   transition: all 0.3s ease;
 }
 
@@ -104,13 +101,5 @@ header {
   header .title a {
     display: inline-block;
     text-align: center;
-  }
-
-  .title a {
-    filter: none;
-  }
-
-  .title a:hover {
-    filter: none;
   }
 }

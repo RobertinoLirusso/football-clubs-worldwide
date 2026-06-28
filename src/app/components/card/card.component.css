@@ -551,3 +551,92 @@
       border: 2px solid transparent;
     }
   }
+
+ /* ============================================================
+     MODAL CLUB — ESTILO DORADO
+     ============================================================ */
+  
+  #clubModal .w3-modal-content {
+    background:
+      linear-gradient(#eceef2, #eceef2) padding-box,
+      linear-gradient(160deg, #c8a84b, #f0d080, #e8c84a, #f5e090, #b8962a) border-box;
+    border: none;
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.85),
+      inset 0 1px 0 rgba(255, 255, 255, 0.95),
+      0 6px 18px rgba(100, 110, 130, 0.2);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Franja dorada superior */
+  #clubModal .w3-modal-content::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #b8962a, #f5e090, #e8c84a, #f0d080, #c8a84b);
+    z-index: 2;
+  }
+  
+  /* Textura satinada */
+  #clubModal .w3-modal-content::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 25% 15%, rgba(255, 255, 255, 0.65) 0%, transparent 55%),
+      repeating-linear-gradient(
+        108deg,
+        transparent,
+        transparent 16px,
+        rgba(255, 255, 255, 0.22) 17px,
+        rgba(255, 255, 255, 0.22) 18px
+      );
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  /* Todo el contenido por encima de la textura */
+  #clubModal .w3-modal-content > * {
+    position: relative;
+    z-index: 3;
+  }
+  
+  /* Botones con borde dorado */
+  #clubModal .w3-btn {
+    background:
+      linear-gradient(#000, #000) padding-box,
+      linear-gradient(160deg, #c8a84b, #f0d080, #e8c84a, #f5e090, #b8962a) border-box;
+    border: 2px solid transparent;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  #clubModal .w3-btn:hover {
+    background:
+      linear-gradient(#1a1a1a, #1a1a1a) padding-box,
+      linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+    box-shadow:
+      0 0 8px rgba(220, 170, 30, 0.45),
+      0 4px 12px rgba(80, 90, 110, 0.25);
+  }
+  
+/* Iconos de los botones — color dorado simple */
+#clubModal .w3-btn i {
+  color: #f0d080;
+}
+
+#clubModal .modal-title {
+  background: linear-gradient(180deg, #f5e090 0%, #c8a84b 30%, #f0d080 50%, #b8962a 70%, #f5e090 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: normal;
+}
+  
+  /* Footer sin fondo gris ni borde */
+  #clubModal .w3-container.w3-padding {
+    background: transparent;
+    border-top: none;
+  }

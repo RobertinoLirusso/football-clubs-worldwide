@@ -78,13 +78,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Madryn"
   },
   {
-    "club_name": "Chelsea",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBBkXlTUKnLfxg1cxpns-rY1YVJrGkL87VD4RpqUzQkimY7Dsc8Ek0s6K_qo_8GtDIzPPQfrE0OJzb4REVfu-svtCAW3Y3DHKd9tFWmQrld0GPJibbGC-rKw92D7w9T4UtFHYkjNPKSao/",
+    "club_name": "Chelsea FC",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkNx27ckwvtZ5_Rp6LxK083Nx6oal3L4NK7O1PiwyqPwvsJ3zxYBd3c4ZAxhtRCMxSUmzRET6aE5pM49X3r3mevZnlZwGiF5ZrtYioRE7X8d9G3qLKgYz_BddMQReXhoEZ8ogqeuvTc_juYe9q0LJXIbl0xFzUqQuaNZusC0n5MUkczVhrXT-MI0E73Kc/s1600/Chelsea%20FC256x.png",
     "city_country": "London, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Chelsea_F.C."
   },
   {
-    "club_name": "San Diego Wave",
+    "club_name": "San Diego Wave FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/San_Diego_Wave_FC_logo.svg/250px-San_Diego_Wave_FC_logo.svg.png",
     "city_country": "San Diego, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/San_Diego_Wave_FC"
@@ -649,7 +649,7 @@
   },
   {
     "club_name": "Deportivo La Coruña",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzHJNbZ2q3H6LEV09M23bsuQASJYGuqi6buj5WzaE0fPY_3c0z8vyMDW9ax8ubOqHUldqe-7_tHQXzBf6Z7D9Fq_0cKV7ebhi478gwPgXQULQiqeAJNBb6x4pchlLUnLuPEggLq2XeHdP2/s1600/Deportivo+de+La+Coruna256x.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSvGICwUlc7oxbFn6G-xhAqDTbYYHev_EDEtE5iGCMLsItlAueqMHIKAC9OfdOuTv2eSNRoZC9BzOkgrlDEZdUObmCJ6r6B_IcdT7U1JG6g4C8Yq6cHjtt9O_OH6ywdol7gKGjJAhU-ZAGaT0iyrDgqWEeDJ9AbjcC-W0hzDMgH_Vswy-jZ_V27XcpDvM/s1600/Deportivo%20de%20A%20Coru%C3%B1a256x.png",
     "city_country": "A Coruña, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a"
   },
@@ -979,7 +979,7 @@
   },
   {
     "club_name": "Independiente Medellín",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieEVrspABz3A4gR-FMMbNQseqJKVvxr62h1k6qEjwUtxqZCCGdpkCdecC0sJl6cLUwLKgUDFQ0AmlofB_P9Wm-qIlx2G307HvSjWh5dPl7AvyhU9bsg9SOfqDsZQy1JhyfyHNoo58ydYw/s1600/Deportivo+Independiente+Medellin256x.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Deportivo_Independiente_Medell%C3%ADn_escudo_2026.png/250px-Deportivo_Independiente_Medell%C3%ADn_escudo_2026.png",
     "city_country": "Medellín, Colombia",
     "wiki_url": "https://en.wikipedia.org/wiki/Independiente_Medell%C3%ADn"
   },
@@ -6799,7 +6799,7 @@
 },
 {
   "club_name": "FC La Chaux-de-Fonds",
-  "club_logo": "https://fccdf.ch/wp-content/uploads/2022/09/La-Chaux-De-Fonds_marchio.png",
+  "club_logo": "https://fccdf.ch/wp-content/uploads/2025/11/image-3-128x128.png",
   "city_country": "La Chaux-de-Fonds, Switzerland",
   "wiki_url": "https://en.wikipedia.org/wiki/FC_La_Chaux-de-Fonds"
 },
@@ -6858,7 +6858,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Wimbledon_F.C."
     },
     {
-        "club_name": "Gateshead",
+        "club_name": "Gateshead FC",
         "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Gateshead_FC.svg/250px-Gateshead_FC.svg.png",
         "city_country": "Gateshead, England",
         "wiki_url": "https://en.wikipedia.org/wiki/Gateshead_F.C."
@@ -18679,7 +18679,7 @@
   },
     {
     "club_name": "ADA Jaén",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Asociaci%C3%B3n_Deportiva_Agropecuaria_logo.png/250px-Asociaci%C3%B3n_Deportiva_Agropecuaria_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/ADA_Ja%C3%A9n.svg/250px-ADA_Ja%C3%A9n.svg.png",
     "city_country": "Jaén, Peru",
     "wiki_url": "https://en.wikipedia.org/wiki/Asociaci%C3%B3n_Deportiva_Agropecuaria"
   },
@@ -25107,9 +25107,9 @@
   },
   {
     "club_name": "Calgary Villains FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/92/Calgary_Villains_FC.png",
+    "club_logo": "https://img.sofascore.com/api/v1/team/1044697/image",
     "city_country": "Calgary, Canada",
-    "wiki_url": "https://en.wikipedia.org/wiki/Calgary_Villains_FC"
+    "wiki_url": "https://calgaryvillainssoccer.ca/"
   },
   {
     "club_name": "Langley United SA",
@@ -34083,7 +34083,7 @@
   },
   {
     "club_name": "FC Carlos Stein",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/CarlosSteinBadge.png/250px-CarlosSteinBadge.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixLePDbMQZkuMjyQiKUaRgVR7AoiYkZlaLl2N_K4ORo6WFxs0Hi33vx_TTi2rqssV4JJ9aUN-s1I5TeXLWRr6l9pwcHqc-PWuTFAlsghyphenhyphenMh8Q456iror9-Dj0aJB-_oDHHyEhzhv7klykekxEutnApfDFtH4vSW_-uhsSjUieoa8cjmoH4ODsHjcPQWko/s1600/FC%20Carlos%20Stein256x.png",
     "city_country": "Negritos, Peru",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Carlos_Stein"
   },
