@@ -739,7 +739,7 @@
   },
   {
     "club_name": "Thailand",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a1/Thailand_national_football_team_logo%2C_March_2018.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Thailand_national_football_team_logo.svg/250px-Thailand_national_football_team_logo.svg.png",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Thailand_national_football_team"
   },
@@ -1423,7 +1423,7 @@
   },
   {
     "club_name": "Yugoslavia (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e3/Yugoslav_Football_Federation_1990.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Football_Association_of_Yugoslavia_logo_%281991-1992%29.svg/250px-Football_Association_of_Yugoslavia_logo_%281991-1992%29.svg.png",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Yugoslavia_national_football_team"
   },
