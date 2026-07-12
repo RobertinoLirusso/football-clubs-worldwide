@@ -7015,7 +7015,7 @@
     },
     {
         "club_name": "Petrocub Hîncești",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Petrocub_Hincesti.jpg/500px-FC_Petrocub_Hincesti.jpg",
+        "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Petrocub_H%C3%AEnce%C8%99ti_Logo.svg/250px-FC_Petrocub_H%C3%AEnce%C8%99ti_Logo.svg.png",
         "city_country": "Hîncești, Moldova",
         "wiki_url": "https://en.wikipedia.org/wiki/FC_Petrocub_H%C3%AEnce%C8%99ti"
     },
@@ -9973,7 +9973,7 @@
     },
     {
       "club_name": "Hampton & Richmond Borough",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Hampton_and_Richmond_Badge.png/250px-Hampton_and_Richmond_Badge.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Hampton_%26_Richmond_Borough_F.C._logo.svg/250px-Hampton_%26_Richmond_Borough_F.C._logo.svg.png",
       "city_country": "London, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Hampton_%26_Richmond_Borough_F.C."
     },
@@ -10002,8 +10002,8 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Maidstone_United_F.C."
     },
     {
-      "club_name": "Salisbury",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SALISBURY_FC_2015.png/250px-SALISBURY_FC_2015.png",
+      "club_name": "Salisbury FC",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Salisbury_F.C._logo.svg/250px-Salisbury_F.C._logo.svg.png",
       "city_country": "Salisbury, England",
       "wiki_url": "https://en.wikipedia.org/wiki/Salisbury_F.C."
     },
@@ -12589,7 +12589,7 @@
   },
   {
     "club_name": "Turun Palloseura",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Turun_Palloseura_logo.png/250px-Turun_Palloseura_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Turun_Palloseura_logo.svg/250px-Turun_Palloseura_logo.svg.png",
     "city_country": "Turku, Finland",
     "wiki_url": "https://en.wikipedia.org/wiki/Turun_Palloseura"
   },
@@ -15504,8 +15504,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Santos_de_Gu%C3%A1piles_F.C."
   },
   {
-    "club_name": "Municipal Santa Ana",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Santa_Ana_F.C..png/250px-Santa_Ana_F.C..png",
+    "club_name": "Santa Ana FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/thumb/8/89/Municipal_santa_Ana_emblema.png/250px-Municipal_santa_Ana_emblema.png",
     "city_country": "Santa Ana, Costa Rica",
     "wiki_url": "https://en.wikipedia.org/wiki/A.D._Municipal_Santa_Ana"
   },
@@ -16249,7 +16249,7 @@
   },
   {
     "club_name": "Bishrelt Khoromkhon",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/48/Bishrelt_Khoromkhon_FC_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ee/Bishrelt_Khoromkhon_FC_new_logo.png",
     "city_country": "Ulaanbaatar, Mongolia",
     "wiki_url": "https://en.wikipedia.org/wiki/Bishrelt_Khoromkhon_FC"
   },
@@ -16339,7 +16339,7 @@
   },
     {
     "club_name": "Bengaluru FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/BengaluruFC_NewCrest_2025.png/250px-BengaluruFC_NewCrest_2025.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/d/dd/Bengaluru_FC.svg/250px-Bengaluru_FC.svg.png",
     "city_country": "Bengaluru, India",
     "wiki_url": "https://en.wikipedia.org/wiki/Bengaluru_FC"
   },
@@ -21950,9 +21950,9 @@
   },
   {
     "club_name": "KF Ramiz Sadiku",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/FC_Ramiz_Sadiku.svg/250px-FC_Ramiz_Sadiku.svg.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/c/cf/KF_Ramiz_Sadiku.png",
     "city_country": "Prishtina, Kosovo",
-    "wiki_url": "https://en.wikipedia.org/wiki/KF_Ramiz_Sadiku"
+    "wiki_url": "https://es.wikipedia.org/wiki/KF_Ramiz_Sadiku"
   },
   {
     "club_name": "KF Rilindja 1974",
@@ -23750,7 +23750,7 @@
   },
   {
     "club_name": "Bumamuru FC",
-    "club_logo": "https://img.sofascore.com/api/v1/team/326098/image",
+    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/93259.png?lm=1635886158",
     "city_country": "Buganda, Burundi",
     "wiki_url": "https://en.wikipedia.org/wiki/Bumamuru_FC"
   },
@@ -24417,7 +24417,7 @@
   },
   {
     "club_name": "PTL Bazar Brothers FC",
-    "club_logo": "https://img.sofascore.com/api/v1/team/403431/image",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/4/48/PTL_Bazar_Brothers_emblema.png",
     "city_country": "Pointe La Rue, Seychelles",
     "wiki_url": "https://www.instagram.com/ptlbazarbrothers/"
   },
@@ -24951,7 +24951,7 @@
   },
   {
     "club_name": "St. Pauls United Strikers FC",
-    "club_logo": "https://cdn.plus.fifa.com/images/public/cms/62/7c/b4/43/627cb443-a90f-4eff-b959-bef7c5214e49.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/St_Pauls_United_Strikers.png/250px-St_Pauls_United_Strikers.png",
     "city_country": "Saint Paul Capisterre, Saint Kitts and Nevis",
     "wiki_url": "https://en.wikipedia.org/wiki/St._Paul%27s_United_FC"
   },
@@ -25107,7 +25107,7 @@
   },
   {
     "club_name": "Calgary Villains FC",
-    "club_logo": "https://img.sofascore.com/api/v1/team/1044697/image",
+    "club_logo": "/assets/logos/calgary_villains.png",
     "city_country": "Calgary, Canada",
     "wiki_url": "https://calgaryvillainssoccer.ca/"
   },
@@ -35559,7 +35559,7 @@
   },
   {
     "club_name": "Shree Bhagwati Youth Club",
-    "club_logo": "https://www.the-anfa.com/storage/images/clubs/Bhagwaticlub_1594524462.jpg",
+    "club_logo": "https://img.sofascore.com/api/v1/team/376148/image",
     "city_country": "Tokha, Nepal",
     "wiki_url": "https://en.wikipedia.org/wiki/Shree_Bhagwati_Club"
   },
