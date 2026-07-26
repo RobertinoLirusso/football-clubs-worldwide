@@ -2,641 +2,641 @@
    LAYOUT & GRID
    ============================================================ */
 
-   .responsive-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 15px;
-  }
-  
-  .action-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-  
-  .filter-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 15px 20px;
-    gap: 10px;
-  }
-  
-  .promo-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    height: 40px;
-    min-width: 140px;
-  }
-  
-  /* ============================================================
-     CARD — ESTILO FIGURITA COLECCIONABLE (PLATINADO + DORADO)
-     ============================================================ */
-  
-  .card {
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    min-height: 280px; /* ajustá este valor a gusto */
-    border: 1px solid transparent;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease, opacity 0.2s ease;
-    will-change: transform;
-    user-select: none;
-  
-    background:
-      linear-gradient(#eceef2, #eceef2) padding-box,
-      linear-gradient(160deg, #c8a84b, #f0d080, #e8c84a, #f5e090, #b8962a) border-box;
-    border: 2px solid transparent;
-    box-shadow:
-      0 0 0 1px rgba(255, 255, 255, 0.85),
-      inset 0 1px 0 rgba(255, 255, 255, 0.95),
-      0 6px 18px rgba(100, 110, 130, 0.2);
-  }
-  
-  /* Franja dorada superior */
-  .card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #b8962a, #f5e090, #e8c84a, #f0d080, #c8a84b);
-    z-index: 2;
-  }
-  
-  /* Textura satinada */
-  .card::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    bottom: auto;
-    background:
-      radial-gradient(ellipse at 25% 15%, rgba(255, 255, 255, 0.65) 0%, transparent 55%),
-      repeating-linear-gradient(
-        108deg,
-        transparent,
-        transparent 16px,
-        rgba(255, 255, 255, 0.22) 17px,
-        rgba(255, 255, 255, 0.22) 18px
-      );
-    pointer-events: none;
-    z-index: 1;
-  }
-  
-  .card:hover {
-    transform: scale(1.1);
-    background:
-      linear-gradient(#eceef2, #eceef2) padding-box,
-      linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
-    border: 2px solid transparent;
-    box-shadow:
-      0 0 0 1px rgba(255, 255, 255, 1),
-      0 0 8px rgba(220, 170, 30, 0.45),
-      inset 0 1px 0 rgba(255, 255, 255, 1),
-      0 14px 28px rgba(80, 90, 110, 0.25);
-  }
-  
-  .card:hover footer p {
-    transform: scale(1.1);
-  }
-  /* Estado: siendo arrastrada */
-  .card.is-dragging {
-    opacity: 0.35;
-    cursor: pointer;
-    transform: scale(0.96);
-    box-shadow: none;
-  }
-  
-  /* Estado: target del drop */
-  .card.drag-over {
-    transform: scale(1.06);
-    box-shadow:
-      0 0 0 3px #b8962a,
-      0 6px 24px rgba(0, 0, 0, 0.3);
-    background:
-      linear-gradient(#eceef2, #eceef2) padding-box,
-      linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
-    border: 2px solid transparent;
-    cursor: grabbing;
-  }
-
-  
-  
-  
-  /* ============================================================
-     CARD IMAGE
-     ============================================================ */
-  
-  .img {
-    width: 100%;
-    height: 180px;
-    object-fit: contain;
-    padding: 9px;
-    margin: auto 0;
-    pointer-events: none;
-    filter: drop-shadow(0 3px 8px rgba(80, 90, 110, 0.25));
-    transition: transform 0.3s ease, filter 0.3s ease;
-    position: relative;
-    z-index: 3;
-  }
-  
-  .card:hover .img {
-    transform: scale(1.08) translateY(-3px);
-    filter: brightness(1.08)
-            drop-shadow(0 0 4px rgba(200, 200, 200, 0.25))
-            drop-shadow(0 0 12px rgba(225, 225, 225, 0.38))
-            drop-shadow(0 0 20px #e5e4e2)
-            drop-shadow(0 2px 5px rgba(160, 160, 160, 0.09));
-  }
-  
-  /* ============================================================
-     ZOOM ICON
-     ============================================================ */
-  
-  .zoom-icon {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 6px;
-    border-radius: 30%;
-    font-size: 12px;
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    z-index: 4;
-  }
-  
-  .card:hover .zoom-icon {
-    opacity: 1;
-    transform: scale(1.1);
-  }
-  
-  .zoom-icon:hover {
-    background-color: white;
-    color: black;
-  }
-  
-  
-  /* ============================================================
-     FOOTER / NOMBRE DEL CLUB
-     ============================================================ */
-  
-  .card footer {
-    margin-top: auto;
-    border-top: 1px solid rgba(200, 168, 75, 0.35);
-    background: rgba(200, 205, 215, 0.35);
-    position: relative;
-    z-index: 3;
-  }
-  
-  footer p {
-    font-size: 13px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #000000;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-    transition: color 0.3s ease, text-shadow 0.3s ease,
-                background 0.3s ease, -webkit-background-clip 0.3s ease;
-  }
-  
-  
-  /* ============================================================
-     TYPOGRAPHY
-     ============================================================ */
-  
-  .w3-modal p {
-    font-weight: 300;
-  }
-  
-  .modal-title {
-    background: #000000;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .highlight-text {
-    font-weight: 600;
-    font-size: 1.3rem;
-    color: black;
-    user-select: none;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
-  }
-  
-  .highlight-text span {
-    color: black;
-    font-weight: bold;
-    font-size: 1.7rem;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.18);
-  }
-  
-  .no-results {
-    margin-top: auto;
-    font-size: 18px;
-    color: black;
-  }
-  
-  .icon {
-    color: white;
-  }
-  
-  .club-flag {
-    font-size: 1.8rem;
-    display: inline-block;
-    margin-bottom: 7px;
-  }
-  
-  
-  /* ============================================================
-     SEARCH BOX
-     ============================================================ */
-  
-  .search-box {
-    position: relative;
-    max-width: 400px;
-    margin: auto;
-  }
-  
-  .search-input {
-    width: 100%;
-    padding: 12px 40px 12px 40px;
-    font-size: 16px;
-    border: 2px solid #ddd;
-    outline: none;
-    transition: 0.3s ease-in-out;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .search-input:focus {
-    border-color: #333333;
-    box-shadow: 0px 4px 8px rgba(51, 51, 51, 0.5);
-  }
-  
-  .search-icon {
-    position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #888;
-    font-size: 18px;
-  }
-  
-  .clear-icon {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: black;
-    font-size: 18px;
-  }
-  
-  .clear-icon:hover {
-    color: #ffcc00;
-  }
-  
-  
-  /* ============================================================
-     BUTTONS
-     ============================================================ */
-
-  .filter-btn,
-  select.filter-btn {
-    color: white;
-    padding: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    background:
-      linear-gradient(#000, #000) padding-box,
-      linear-gradient(160deg, #c8a84b, #f0d080, #e8c84a, #f5e090, #b8962a) border-box;
-    border: 2px solid transparent;
-    box-shadow:
-      0 0 0 1px rgba(255, 255, 255, 0.15),
-      0 2px 8px rgba(100, 110, 130, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
-  }
-
-  .filter-btn:hover,
-  select.filter-btn:hover {
-    background:
-      linear-gradient(#1a1a1a, #1a1a1a) padding-box,
-      linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
-    box-shadow:
-      0 0 0 1px rgba(255, 255, 255, 0.25),
-      0 0 8px rgba(220, 170, 30, 0.45),
-      0 4px 12px rgba(80, 90, 110, 0.25);
-  }
-  
-  .clear-btn {
-    background-color: #b22222;
-    color: white;
-    border: none;
-    padding: 8px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .clear-btn:hover {
-    background-color: #ff4444;
-  }
-  
-  .action-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    min-width: 110px;
-    padding: 0 12px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  select.filter-btn option {
-    background: #000;
-    color: white;
-  }
-  
-  
-  /* ============================================================
-     BACK TO TOP
-     ============================================================ */
-  
-  .back-to-top {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
-    opacity: 0;
-    transition: transform 0.3s, background-color 0.3s, opacity 0.4s ease;
-    animation: fadeIn 0.4s forwards;
-  }
-  
-  .back-to-top:hover {
-    background-color: white;
-    color: black;
-    transform: scale(1.1);
-  }
-  
-  
-  /* ============================================================
-     MODAL
-     ============================================================ */
-  
-  .w3-modal-content header {
-    position: relative;
-    padding: 16px;
-  }
-  
-  .w3-modal-content h2 {
-    margin: 0;
-    padding-top: 10px;
-    font-size: 1.7rem;
-    text-align: center;
-  }
-  
-  
-  /* ============================================================
-     ANIMATIONS
-     ============================================================ */
-  
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  
-  @keyframes fadeOut {
-    from { opacity: 1; transform: translateY(0); }
-    to   { opacity: 0; transform: translateY(20px); }
-  }
-  
-  .fade-out {
-    animation: fadeOut 0.4s forwards;
-  }
-  
-  
-  /* ============================================================
-     RESPONSIVE
-     ============================================================ */
-  
-  @media screen and (max-width: 768px) {
-    .card:hover {
-      transform: none;
-    }
-  
-    .card:hover .img {
-      transform: none;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .w3-modal-content {
-      width: 90% !important;
-      max-width: none !important;
-      margin: 20px auto !important;
-    }
-  
-    .highlight-text {
-      font-size: 14px;
-      padding: 8px 16px;
-      margin-top: 15px;
-    }
-  
-    .action-container {
-      justify-content: center;
-      gap: 8px;
-    }
-  
-    .action-btn {
-      height: 36px;
-      min-width: 100px;
-      font-size: 14px;
-    }
-  
-    .random-icon.action-btn {
-      font-size: 16px;
-      width: 100px;
-    }
-  
-    .promo-link a {
-      flex: 1 1 auto;
-      min-width: 120px;
-      text-align: center;
-      height: 36px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .promo-link a i {
-      margin-right: 6px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .search-input {
-      font-size: 14px;
-      padding: 12px 35px 12px 35px;
-      min-width: 100%;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .card.is-dragging {
-      opacity: 0.4;
-      transform: scale(0.97);
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-      cursor: grabbing;
-    }
-  
-    .card.drag-over {
-      transform: scale(1.03);
-      box-shadow: 0 0 0 2px #c8a84b, 0 4px 16px rgba(0, 0, 0, 0.2);
-      background:
-        linear-gradient(#eceef2, #eceef2) padding-box,
-        linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
-      border: 2px solid transparent;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .card.is-dragging {
-      opacity: 0.45;
-      transform: scale(0.98);
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-    }
-  
-    .card.drag-over {
-      transform: scale(1.02);
-      box-shadow: 0 0 0 2px #c8a84b, 0 3px 10px rgba(0, 0, 0, 0.18);
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .card.is-dragging {
-      opacity: 0.5;
-      transform: none;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    }
-  
-    .card.drag-over {
-      transform: none;
-      box-shadow: 0 0 0 3px #c8a84b;
-      background:
-        linear-gradient(#eceef2, #eceef2) padding-box,
-        linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
-      border: 2px solid transparent;
-    }
-  }
-
- /* ============================================================
-     MODAL CLUB — ESTILO DORADO
-     ============================================================ */
-  
-  #clubModal .w3-modal-content {
-    background:
-      linear-gradient(#eceef2, #eceef2) padding-box,
-      linear-gradient(160deg, #c8a84b, #f0d080, #e8c84a, #f5e090, #b8962a) border-box;
-    border: none;
-    box-shadow:
-      0 0 0 1px rgba(255, 255, 255, 0.85),
-      inset 0 1px 0 rgba(255, 255, 255, 0.95),
-      0 6px 18px rgba(100, 110, 130, 0.2);
-    position: relative;
-    overflow: hidden;
-  }
-  
-  /* Franja dorada superior */
-  #clubModal .w3-modal-content::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #b8962a, #f5e090, #e8c84a, #f0d080, #c8a84b);
-    z-index: 2;
-  }
-  
-  /* Textura satinada */
-  #clubModal .w3-modal-content::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background:
-      radial-gradient(ellipse at 25% 15%, rgba(255, 255, 255, 0.65) 0%, transparent 55%),
-      repeating-linear-gradient(
-        108deg,
-        transparent,
-        transparent 16px,
-        rgba(255, 255, 255, 0.22) 17px,
-        rgba(255, 255, 255, 0.22) 18px
-      );
-    pointer-events: none;
-    z-index: 1;
-  }
-  
-  /* Todo el contenido por encima de la textura */
-  #clubModal .w3-modal-content > * {
-    position: relative;
-    z-index: 3;
-  }
-  
-  /* Botones con borde dorado */
-  #clubModal .w3-btn {
-    background:
-      linear-gradient(#000, #000) padding-box,
-      linear-gradient(160deg, #c8a84b, #f0d080, #e8c84a, #f5e090, #b8962a) border-box;
-    border: 2px solid transparent;
-    color: white;
-    transition: all 0.3s ease;
-  }
-  
-  #clubModal .w3-btn:hover {
-    background:
-      linear-gradient(#1a1a1a, #1a1a1a) padding-box,
-      linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
-    box-shadow:
-      0 0 8px rgba(220, 170, 30, 0.45),
-      0 4px 12px rgba(80, 90, 110, 0.25);
-  }
-  
-/* Iconos de los botones — color dorado simple */
-#clubModal .w3-btn i {
-  color: #f0d080;
+.responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
 }
 
-#clubModal .modal-title {
-  background: linear-gradient(180deg, #f5e090 0%, #c8a84b 30%, #f0d080 50%, #b8962a 70%, #f5e090 100%);
+.action-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px 20px;
+  gap: 10px;
+}
+
+.promo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 40px;
+  min-width: 140px;
+}
+
+/* ============================================================
+   CARD — ESTILO NEUTRO/SIMPLE (SIN DORADO)
+   ============================================================ */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  min-height: 280px; /* ajustá este valor a gusto */
+  border: 1px solid transparent;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease, opacity 0.2s ease;
+  will-change: transform;
+  user-select: none;
+
+  background:
+    linear-gradient(#eceef2, #eceef2) padding-box,
+    linear-gradient(160deg, #bfc3ca, #e1e6ed 50%, #eceef2 100%) border-box;
+  border: 2px solid transparent;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.85),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95),
+    0 6px 18px rgba(100, 110, 130, 0.17);
+}
+
+/* Franja superior simple, sin dorado */
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #bdc3c7, #eaecee, #bfc9d1); /* tonos grises */
+  z-index: 2;
+}
+
+/* Textura satinada original */
+.card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  bottom: auto;
+  background:
+    radial-gradient(ellipse at 25% 15%, rgba(255, 255, 255, 0.35) 0%, transparent 55%),
+    repeating-linear-gradient(
+      108deg,
+      transparent,
+      transparent 16px,
+      rgba(255, 255, 255, 0.12) 17px,
+      rgba(255, 255, 255, 0.12) 18px
+    );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background:
+    linear-gradient(#eceef2, #eceef2) padding-box,
+    linear-gradient(160deg, #dde2eb 0%, #cad0d9 100%) border-box;
+  border: 2px solid transparent;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 1),
+    0 0 8px rgba(120, 132, 160, 0.30),
+    inset 0 1px 0 rgba(255, 255, 255, 1),
+    0 14px 28px rgba(80, 90, 110, 0.23);
+}
+
+.card:hover footer p {
+  transform: scale(1.1);
+}
+
+/* Estado: siendo arrastrada */
+.card.is-dragging {
+  opacity: 0.35;
+  cursor: pointer;
+  transform: scale(0.96);
+  box-shadow: none;
+}
+
+/* Estado: target del drop */
+.card.drag-over {
+  transform: scale(1.06);
+  box-shadow:
+    0 0 0 3px #aaaaaa,
+    0 6px 24px rgba(0, 0, 0, 0.2);
+  background:
+    linear-gradient(#eceef2, #eceef2) padding-box,
+    linear-gradient(160deg, #dde2eb 0%, #cad0d9 100%) border-box;
+  border: 2px solid transparent;
+  cursor: grabbing;
+}
+
+
+/* ============================================================
+   CARD IMAGE
+   ============================================================ */
+
+.img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  padding: 9px;
+  margin: auto 0;
+  pointer-events: none;
+  filter: drop-shadow(0 3px 8px rgba(80, 90, 110, 0.25));
+  transition: transform 0.3s ease, filter 0.3s ease;
+  position: relative;
+  z-index: 3;
+}
+
+.card:hover .img {
+  transform: scale(1.08) translateY(-3px);
+  filter: brightness(1.08)
+          drop-shadow(0 0 4px rgba(200, 200, 200, 0.23))
+          drop-shadow(0 0 12px rgba(225, 225, 225, 0.28))
+          drop-shadow(0 0 20px #e5e4e2)
+          drop-shadow(0 2px 5px rgba(160, 160, 160, 0.07));
+}
+
+/* ============================================================
+   ZOOM ICON
+   ============================================================ */
+
+.zoom-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 6px;
+  border-radius: 30%;
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 4;
+}
+
+.card:hover .zoom-icon {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.zoom-icon:hover {
+  background-color: white;
+  color: black;
+}
+
+
+/* ============================================================
+   FOOTER / NOMBRE DEL CLUB
+   ============================================================ */
+
+.card footer {
+  margin-top: auto;
+  border-top: 1px solid #cccccc;
+  background: rgba(200, 205, 215, 0.20);
+  position: relative;
+  z-index: 3;
+}
+
+footer p {
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  transition: color 0.3s ease, text-shadow 0.3s ease,
+              background 0.3s ease, -webkit-background-clip 0.3s ease;
+}
+
+
+/* ============================================================
+   TYPOGRAPHY
+   ============================================================ */
+
+.w3-modal p {
+  font-weight: 300;
+}
+
+.modal-title {
+  background: #000000;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: normal;
 }
-  
-  /* Footer sin fondo gris ni borde */
-  #clubModal .w3-container.w3-padding {
-    background: transparent;
-    border-top: none;
+
+.highlight-text {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: black;
+  user-select: none;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.highlight-text span {
+  color: black;
+  font-weight: bold;
+  font-size: 1.7rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.18);
+}
+
+.no-results {
+  margin-top: auto;
+  font-size: 18px;
+  color: black;
+}
+
+.icon {
+  color: white;
+}
+
+.club-flag {
+  font-size: 1.8rem;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+
+/* ============================================================
+   SEARCH BOX
+   ============================================================ */
+
+.search-box {
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 40px 12px 40px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-input:focus {
+  border-color: #333333;
+  box-shadow: 0px 4px 8px rgba(51, 51, 51, 0.5);
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 18px;
+}
+
+.clear-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+}
+
+.clear-icon:hover {
+  color: #ffcc00;
+}
+
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+.filter-btn,
+select.filter-btn {
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  background:
+    linear-gradient(#000, #000) padding-box,
+    linear-gradient(160deg, #bfc3ca, #e1e6ed 50%, #eceef2 100%) border-box;
+  border: 2px solid transparent;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.15),
+    0 2px 8px rgba(100, 110, 130, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.filter-btn:hover,
+select.filter-btn:hover {
+  background:
+    linear-gradient(#1a1a1a, #1a1a1a) padding-box,
+    linear-gradient(160deg, #e0e4ea 0%, #adb5bd 100%) border-box;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.25),
+    0 0 8px rgba(120, 132, 160, 0.30),
+    0 4px 12px rgba(80, 90, 110, 0.23);
+}
+
+.clear-btn {
+  background-color: #b22222;
+  color: white;
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.clear-btn:hover {
+  background-color: #ff4444;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  min-width: 110px;
+  padding: 0 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+select.filter-btn option {
+  background: #000;
+  color: white;
+}
+
+
+/* ============================================================
+   BACK TO TOP
+   ============================================================ */
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  opacity: 0;
+  transition: transform 0.3s, background-color 0.3s, opacity 0.4s ease;
+  animation: fadeIn 0.4s forwards;
+}
+
+.back-to-top:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+
+
+/* ============================================================
+   MODAL
+   ============================================================ */
+
+.w3-modal-content header {
+  position: relative;
+  padding: 16px;
+}
+
+.w3-modal-content h2 {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+
+/* ============================================================
+   ANIMATIONS
+   ============================================================ */
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to   { opacity: 0; transform: translateY(20px); }
+}
+
+.fade-out {
+  animation: fadeOut 0.4s forwards;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media screen and (max-width: 768px) {
+  .card:hover {
+    transform: none;
   }
+
+  .card:hover .img {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .w3-modal-content {
+    width: 90% !important;
+    max-width: none !important;
+    margin: 20px auto !important;
+  }
+
+  .highlight-text {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-top: 15px;
+  }
+
+  .action-container {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .action-btn {
+    height: 36px;
+    min-width: 100px;
+    font-size: 14px;
+  }
+
+  .random-icon.action-btn {
+    font-size: 16px;
+    width: 100px;
+  }
+
+  .promo-link a {
+    flex: 1 1 auto;
+    min-width: 120px;
+    text-align: center;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .promo-link a i {
+    margin-right: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-input {
+    font-size: 14px;
+    padding: 12px 35px 12px 35px;
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card.is-dragging {
+    opacity: 0.4;
+    transform: scale(0.97);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    cursor: grabbing;
+  }
+
+  .card.drag-over {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 2px #bbbbbb, 0 4px 16px rgba(0, 0, 0, 0.15);
+    background:
+      linear-gradient(#eceef2, #eceef2) padding-box,
+      linear-gradient(160deg, #dde2eb 0%, #cad0d9 100%) border-box;
+    border: 2px solid transparent;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card.is-dragging {
+    opacity: 0.45;
+    transform: scale(0.98);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10);
+  }
+
+  .card.drag-over {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 2px #bbbbbb, 0 3px 10px rgba(0, 0, 0, 0.10);
+  }
+}
+
+@media (max-width: 480px) {
+  .card.is-dragging {
+    opacity: 0.5;
+    transform: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+  }
+
+  .card.drag-over {
+    transform: none;
+    box-shadow: 0 0 0 3px #bbbbbb;
+    background:
+      linear-gradient(#eceef2, #eceef2) padding-box,
+      linear-gradient(160deg, #dde2eb 0%, #cad0d9 100%) border-box;
+    border: 2px solid transparent;
+  }
+}
+
+/* ============================================================
+   MODAL CLUB — ESTILO DORADO
+   ============================================================ */
+
+/* (sin cambios para los modales) */
+#clubModal .w3-modal-content {
+  background:
+    linear-gradient(#eceef2, #eceef2) padding-box,
+    linear-gradient(160deg, #c8a84b, #f0d080, #e8c84a, #f5e090, #b8962a) border-box;
+  border: none;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.85),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95),
+    0 6px 18px rgba(100, 110, 130, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Franja dorada superior */
+#clubModal .w3-modal-content::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #b8962a, #f5e090, #e8c84a, #f0d080, #c8a84b);
+  z-index: 2;
+}
+
+/* Textura satinada */
+#clubModal .w3-modal-content::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 25% 15%, rgba(255, 255, 255, 0.65) 0%, transparent 55%),
+    repeating-linear-gradient(
+      108deg,
+      transparent,
+      transparent 16px,
+      rgba(255, 255, 255, 0.22) 17px,
+      rgba(255, 255, 255, 0.22) 18px
+    );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Todo el contenido por encima de la textura */
+#clubModal .w3-modal-content > * {
+  position: relative;
+  z-index: 3;
+}
+
+/* Botones con borde dorado */
+#clubModal .w3-btn {
+  background:
+    linear-gradient(#000, #000) padding-box,
+    linear-gradient(160deg, #c8a84b, #f0d080, #e8c84a, #f5e090, #b8962a) border-box;
+  border: 2px solid transparent;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+#clubModal .w3-btn:hover {
+  background:
+    linear-gradient(#1a1a1a, #1a1a1a) padding-box,
+    linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+  box-shadow:
+    0 0 8px rgba(220, 170, 30, 0.45),
+    0 4px 12px rgba(80, 90, 110, 0.25);
+}
+
+/* Iconos de los botones — color dorado simple */
+#clubModal .w3-btn i {
+color: #f0d080;
+}
+
+#clubModal .modal-title {
+background: linear-gradient(180deg, #f5e090 0%, #c8a84b 30%, #f0d080 50%, #b8962a 70%, #f5e090 100%);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: normal;
+}
+
+/* Footer sin fondo gris ni borde */
+#clubModal .w3-container.w3-padding {
+  background: transparent;
+  border-top: none;
+}

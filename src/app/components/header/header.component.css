@@ -1,21 +1,12 @@
 :host {
   display: block;
   position: relative;
-  box-shadow:
-    0 4px 16px rgba(200, 168, 75, 0.35),
-    0 8px 28px rgba(184, 150, 42, 0.22);
+  /* box-shadow removed to eliminate gold glow/gradient */
 }
 
 :host::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #b8962a, #f5e090, #e8c84a, #f0d080, #c8a84b);
-  z-index: 10;
-  pointer-events: none;
+  /* Decorative gold bar removed to eliminate gold gradient/glow */
+  display: none;
 }
 
 header {
@@ -25,16 +16,16 @@ header {
 
 /* Título */
 .title {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 
 .title a {
   display: inline-block;
   position: relative;
-  font-family: 'Skranji', sans-serif;
+  font-family: "Podkova", serif;
+  font-weight: bold;
   font-weight: 700;
   font-style: normal;
-  text-transform: none;
   letter-spacing: 0.06em;
   color: white;
   transition: opacity 0.3s ease;
@@ -52,7 +43,7 @@ header {
 .nav-link {
   color: white !important;
   text-transform: none;
-  font-family: 'Skranji', sans-serif;
+  font-family: "Podkova", serif;
   transition: all 0.3s ease;
 }
 
@@ -101,5 +92,6 @@ header {
   header .title a {
     display: inline-block;
     text-align: center;
+    /* text-transform removed to quitar uppercase in responsive as well */
   }
 }
