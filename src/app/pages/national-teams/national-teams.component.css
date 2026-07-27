@@ -15,24 +15,24 @@
 }
 
 /* ============================================================
-   CARD — ESTILO FIGURITA COLECCIONABLE (PLATINADO + DORADO)
+   CARD — ESTILO FIGURITA COLECCIONABLE (PLATINADO)
    ============================================================ */
 
-   .card {
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    min-height: 280px; /* ajustá este valor a gusto */
-    border: 1px solid transparent;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease, opacity 0.2s ease;
-    will-change: transform;
-    user-select: none;
+.card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  min-height: 280px; /* ajustá este valor a gusto */
+  border: 1px solid transparent;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease, opacity 0.2s ease;
+  will-change: transform;
+  user-select: none;
 
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
-    linear-gradient(160deg, #c8a84b, #f0d080, #e8c84a, #f5e090, #b8962a) border-box;
+    linear-gradient(160deg, #cfd8dc, #e5e8ea, #e0e7ef, #f7fafd, #bac3ce) border-box;
   border: 2px solid transparent;
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 0.85),
@@ -40,13 +40,13 @@
     0 6px 18px rgba(100, 110, 130, 0.2);
 }
 
-/* Franja dorada superior */
+/* Franja platinada superior */
 .card::before {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #b8962a, #f5e090, #e8c84a, #f0d080, #c8a84b);
+  background: linear-gradient(90deg, #bac3ce, #f7fafd, #e0e7ef, #e5e8ea, #cfd8dc);
   z-index: 2;
 }
 
@@ -75,11 +75,11 @@
   transform: scale(1.1);
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
-    linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+    linear-gradient(160deg, #bdc3c7, #ecf0f1, #e6eaf2, #f9fafc, #a7b1bb) border-box;
   border: 2px solid transparent;
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 1),
-    0 0 8px rgba(220, 170, 30, 0.45),
+    0 0 8px rgba(190, 200, 210, 0.45),
     inset 0 1px 0 rgba(255, 255, 255, 1),
     0 14px 28px rgba(80, 90, 110, 0.25);
 }
@@ -100,11 +100,11 @@
 .card.drag-over {
   transform: scale(1.06);
   box-shadow:
-    0 0 0 3px #b8962a,
+    0 0 0 3px #bac3ce,
     0 6px 24px rgba(0, 0, 0, 0.3);
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
-    linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+    linear-gradient(160deg, #bdc3c7, #ecf0f1, #e6eaf2, #f9fafc, #a7b1bb) border-box;
   border: 2px solid transparent;
   cursor: grabbing;
 }
@@ -113,18 +113,18 @@
    CARD IMAGE
    ============================================================ */
 
-   .img {
-    width: 100%;
-    height: 180px;
-    object-fit: contain;
-    padding: 9px;
-    margin: auto 0;
-    pointer-events: none;
-    filter: drop-shadow(0 3px 8px rgba(80, 90, 110, 0.25));
-    transition: transform 0.3s ease, filter 0.3s ease;
-    position: relative;
-    z-index: 3;
-  }
+.img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  padding: 9px;
+  margin: auto 0;
+  pointer-events: none;
+  filter: drop-shadow(0 3px 8px rgba(80, 90, 110, 0.25));
+  transition: transform 0.3s ease, filter 0.3s ease;
+  position: relative;
+  z-index: 3;
+}
 
 .card:hover .img {
   transform: scale(1.08) translateY(-3px);
@@ -164,27 +164,27 @@
   color: black;
 }
 
-  /* ============================================================
-     FOOTER / NOMBRE DEL CLUB
-     ============================================================ */
-  
-  .card footer {
-    margin-top: auto;
-    border-top: 1px solid rgba(200, 168, 75, 0.35);
-    background: rgba(200, 205, 215, 0.35);
-    position: relative;
-    z-index: 3;
-  }
-  
-  footer p {
-    font-size: 13px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #000000;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-    transition: color 0.3s ease, text-shadow 0.3s ease,
-                background 0.3s ease, -webkit-background-clip 0.3s ease;
-  }
+/* ============================================================
+   FOOTER / NOMBRE DEL CLUB
+   ============================================================ */
+
+.card footer {
+  margin-top: auto;
+  border-top: 1px solid rgba(186, 195, 206, 0.35); /* platinado */
+  background: rgba(200, 205, 215, 0.35);
+  position: relative;
+  z-index: 3;
+}
+
+footer p {
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  transition: color 0.3s ease, text-shadow 0.3s ease,
+              background 0.3s ease, -webkit-background-clip 0.3s ease;
+}
 
 /* ============================================================
    TYPOGRAPHY
@@ -375,7 +375,7 @@ select.filter-btn:hover {
 }
 
 .random-icon:hover {
-  background-color: #e1b661;
+  background-color: #bac3ce;
   color: black;
 }
 
@@ -531,10 +531,10 @@ select.filter-btn:hover {
 
   .card.drag-over {
     transform: scale(1.03);
-    box-shadow: 0 0 0 2px #c8a84b, 0 4px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 2px #bac3ce, 0 4px 16px rgba(0, 0, 0, 0.2);
     background:
       linear-gradient(#eceef2, #eceef2) padding-box,
-      linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+      linear-gradient(160deg, #bdc3c7, #ecf0f1, #e6eaf2, #f9fafc, #a7b1bb) border-box;
     border: 2px solid transparent;
   }
 }
@@ -548,7 +548,7 @@ select.filter-btn:hover {
 
   .card.drag-over {
     transform: scale(1.02);
-    box-shadow: 0 0 0 2px #c8a84b, 0 3px 10px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 0 0 2px #bac3ce, 0 3px 10px rgba(0, 0, 0, 0.18);
   }
 }
 
@@ -561,10 +561,10 @@ select.filter-btn:hover {
 
   .card.drag-over {
     transform: none;
-    box-shadow: 0 0 0 3px #c8a84b;
+    box-shadow: 0 0 0 3px #bac3ce;
     background:
       linear-gradient(#eceef2, #eceef2) padding-box,
-      linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+      linear-gradient(160deg, #bdc3c7, #ecf0f1, #e6eaf2, #f9fafc, #a7b1bb) border-box;
     border: 2px solid transparent;
   }
 }

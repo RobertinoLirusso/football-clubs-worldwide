@@ -286,6 +286,7 @@ export class CardComponent implements OnInit {
     } else {
       country = value.trim().toLowerCase();
     }
+    console.log('getCountryCode called with:', value, ', parsed country:', country);
     return COUNTRY_FLAG_MAP[country] || 'un';
   }
 
@@ -365,13 +366,5 @@ export class CardComponent implements OnInit {
     (event.target as HTMLElement).classList.remove('is-dragging');
     this.draggedIndex = null;
     this.dragOverIndex = null;
-  }
-
-  openSuggestModal(): void {
-    this.isSuggestModalOpen = true;
-  }
-  
-  closeSuggestModal(): void {
-    this.isSuggestModalOpen = false;
   }
 }

@@ -35,7 +35,7 @@
 }
 
 /* ============================================================
-   CARD — ESTILO NEUTRO/SIMPLE (SIN DORADO)
+   CARD — ESTILO NEUTRO/SIMPLE (SIN DORADO, AHORA PLATINADO)
    ============================================================ */
 
 .card {
@@ -50,27 +50,28 @@
   will-change: transform;
   user-select: none;
 
+  /* Cambiado a estilo platinado */
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
-    linear-gradient(160deg, #bfc3ca, #e1e6ed 50%, #eceef2 100%) border-box;
+    linear-gradient(160deg, #dbe4ea, #bfc3ca 30%, #e5e6e8 60%, #d4d6da 100%) border-box;
   border: 2px solid transparent;
   box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.85),
-    inset 0 1px 0 rgba(255, 255, 255, 0.95),
-    0 6px 18px rgba(100, 110, 130, 0.17);
+    0 0 0 1px rgba(255, 255, 255, 0.92),
+    inset 0 1px 0 rgba(255, 255, 255, 0.99),
+    0 6px 18px rgba(130, 135, 140, 0.17);
 }
 
-/* Franja superior simple, sin dorado */
+/* Franja superior platinada */
 .card::before {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #bdc3c7, #eaecee, #bfc9d1); /* tonos grises */
+  background: linear-gradient(90deg, #e2e8f0, #bfc9d1, #e5e6e8, #dbe4ea); /* tonos platinados */
   z-index: 2;
 }
 
-/* Textura satinada original */
+/* Textura satinada original (mantenerla, tiene look platino ya) */
 .card::after {
   content: '';
   position: absolute;
@@ -84,8 +85,8 @@
       108deg,
       transparent,
       transparent 16px,
-      rgba(255, 255, 255, 0.12) 17px,
-      rgba(255, 255, 255, 0.12) 18px
+      rgba(255, 255, 255, 0.13) 17px,
+      rgba(255, 255, 255, 0.13) 18px
     );
   pointer-events: none;
   z-index: 1;
@@ -95,13 +96,13 @@
   transform: scale(1.1);
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
-    linear-gradient(160deg, #dde2eb 0%, #cad0d9 100%) border-box;
+    linear-gradient(160deg, #f3f4f6 0%, #dfe3ec 40%, #bbbfc6 90%) border-box;
   border: 2px solid transparent;
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 1),
-    0 0 8px rgba(120, 132, 160, 0.30),
+    0 0 8px rgba(170, 180, 190, 0.38),
     inset 0 1px 0 rgba(255, 255, 255, 1),
-    0 14px 28px rgba(80, 90, 110, 0.23);
+    0 14px 28px rgba(170, 175, 180, 0.24);
 }
 
 .card:hover footer p {
@@ -120,11 +121,11 @@
 .card.drag-over {
   transform: scale(1.06);
   box-shadow:
-    0 0 0 3px #aaaaaa,
-    0 6px 24px rgba(0, 0, 0, 0.2);
+    0 0 0 3px #cfd8dc, /* tono platinado */
+    0 6px 24px rgba(180, 190, 200, 0.22);
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
-    linear-gradient(160deg, #dde2eb 0%, #cad0d9 100%) border-box;
+    linear-gradient(160deg, #eff2f6 0%, #c9ccd1 100%) border-box;
   border: 2px solid transparent;
   cursor: grabbing;
 }
@@ -217,6 +218,17 @@ footer p {
   font-weight: 300;
 }
 
+/* El nombre del club en el modal se verá negro, no gradiente */
+#clubModal .modal-title {
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  -webkit-text-fill-color: unset !important;
+  color: #000 !important;
+  font-weight: normal;
+}
+
+/* También por si .modal-title se usa fuera del modal, mantenemos el original */
 .modal-title {
   background: #000000;
   -webkit-background-clip: text;
@@ -250,7 +262,7 @@ footer p {
 }
 
 .club-flag {
-  font-size: 1.8rem;
+  font-size: 3rem;
   display: inline-block;
   margin-bottom: 7px;
 }
@@ -317,7 +329,7 @@ select.filter-btn {
   cursor: pointer;
   background:
     linear-gradient(#000, #000) padding-box,
-    linear-gradient(160deg, #bfc3ca, #e1e6ed 50%, #eceef2 100%) border-box;
+    linear-gradient(160deg, #bdc3c7, #e1e6ed 50%, #eceef2 100%) border-box;
   border: 2px solid transparent;
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 0.15),
@@ -328,12 +340,12 @@ select.filter-btn {
 .filter-btn:hover,
 select.filter-btn:hover {
   background:
-    linear-gradient(#1a1a1a, #1a1a1a) padding-box,
-    linear-gradient(160deg, #e0e4ea 0%, #adb5bd 100%) border-box;
+    linear-gradient(#23272a, #23272a) padding-box,
+    linear-gradient(160deg, #e8eaee 0%, #bfc3ca 100%) border-box;
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 0.25),
-    0 0 8px rgba(120, 132, 160, 0.30),
-    0 4px 12px rgba(80, 90, 110, 0.23);
+    0 0 8px rgba(180, 190, 200, 0.20),
+    0 4px 12px rgba(160, 170, 175, 0.22);
 }
 
 .clear-btn {
@@ -513,10 +525,10 @@ select.filter-btn option {
 
   .card.drag-over {
     transform: scale(1.03);
-    box-shadow: 0 0 0 2px #bbbbbb, 0 4px 16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 0 2px #dbe4ea, 0 4px 16px rgba(180, 190, 200, 0.14);
     background:
       linear-gradient(#eceef2, #eceef2) padding-box,
-      linear-gradient(160deg, #dde2eb 0%, #cad0d9 100%) border-box;
+      linear-gradient(160deg, #f1f2f5 0%, #cfd8dc 100%) border-box;
     border: 2px solid transparent;
   }
 }
@@ -530,7 +542,7 @@ select.filter-btn option {
 
   .card.drag-over {
     transform: scale(1.02);
-    box-shadow: 0 0 0 2px #bbbbbb, 0 3px 10px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 0 0 2px #eceff1, 0 3px 10px rgba(200, 210, 219, 0.15);
   }
 }
 
@@ -543,39 +555,38 @@ select.filter-btn option {
 
   .card.drag-over {
     transform: none;
-    box-shadow: 0 0 0 3px #bbbbbb;
+    box-shadow: 0 0 0 3px #dbe4ea;
     background:
       linear-gradient(#eceef2, #eceef2) padding-box,
-      linear-gradient(160deg, #dde2eb 0%, #cad0d9 100%) border-box;
+      linear-gradient(160deg, #e7e9ef 0%, #cfd8dc 100%) border-box;
     border: 2px solid transparent;
   }
 }
 
 /* ============================================================
-   MODAL CLUB — ESTILO DORADO
+   MODAL CLUB — ESTILO PLATINADO
    ============================================================ */
 
-/* (sin cambios para los modales) */
 #clubModal .w3-modal-content {
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
-    linear-gradient(160deg, #c8a84b, #f0d080, #e8c84a, #f5e090, #b8962a) border-box;
+    linear-gradient(160deg, #e5e6e8, #dbe4ea, #bfc3ca, #e4e6ea, #e5e6e8) border-box;
   border: none;
   box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.85),
-    inset 0 1px 0 rgba(255, 255, 255, 0.95),
-    0 6px 18px rgba(100, 110, 130, 0.2);
+    0 0 0 1px rgba(255,255,255,0.92),
+    inset 0 1px 0 rgba(255,255,255,0.95),
+    0 6px 18px rgba(120,130,130,0.18);
   position: relative;
   overflow: hidden;
 }
 
-/* Franja dorada superior */
+/* Franja platinada superior */
 #clubModal .w3-modal-content::before {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #b8962a, #f5e090, #e8c84a, #f0d080, #c8a84b);
+  background: linear-gradient(90deg, #dbe4ea, #e2e8f0, #bfc9d1, #eff2f6, #e4e6ea);
   z-index: 2;
 }
 
@@ -585,13 +596,13 @@ select.filter-btn option {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse at 25% 15%, rgba(255, 255, 255, 0.65) 0%, transparent 55%),
+    radial-gradient(ellipse at 25% 15%, rgba(255,255,255,0.65) 0%, transparent 55%),
     repeating-linear-gradient(
       108deg,
       transparent,
       transparent 16px,
-      rgba(255, 255, 255, 0.22) 17px,
-      rgba(255, 255, 255, 0.22) 18px
+      rgba(255,255,255,0.20) 17px,
+      rgba(255,255,255,0.20) 18px
     );
   pointer-events: none;
   z-index: 1;
@@ -603,11 +614,11 @@ select.filter-btn option {
   z-index: 3;
 }
 
-/* Botones con borde dorado */
+/* Botones con borde platinado */
 #clubModal .w3-btn {
   background:
     linear-gradient(#000, #000) padding-box,
-    linear-gradient(160deg, #c8a84b, #f0d080, #e8c84a, #f5e090, #b8962a) border-box;
+    linear-gradient(160deg, #dbe4ea, #e4e6ea, #bfc3ca, #e5e6e8, #bbc5ce) border-box;
   border: 2px solid transparent;
   color: white;
   transition: all 0.3s ease;
@@ -615,24 +626,16 @@ select.filter-btn option {
 
 #clubModal .w3-btn:hover {
   background:
-    linear-gradient(#1a1a1a, #1a1a1a) padding-box,
-    linear-gradient(160deg, #d4a830, #ffe066, #f0d060, #fff0a0, #c8961e) border-box;
+    linear-gradient(#23272a, #23272a) padding-box,
+    linear-gradient(160deg, #eff2f6, #bfc3ca, #dbe4ea, #eaecee, #f1f2f5) border-box;
   box-shadow:
-    0 0 8px rgba(220, 170, 30, 0.45),
-    0 4px 12px rgba(80, 90, 110, 0.25);
+    0 0 8px rgba(180, 180, 210, 0.28),
+    0 4px 12px rgba(80, 90, 110, 0.21);
 }
 
-/* Iconos de los botones — color dorado simple */
+/* Iconos de los botones — color platino suave */
 #clubModal .w3-btn i {
-color: #f0d080;
-}
-
-#clubModal .modal-title {
-background: linear-gradient(180deg, #f5e090 0%, #c8a84b 30%, #f0d080 50%, #b8962a 70%, #f5e090 100%);
--webkit-background-clip: text;
-background-clip: text;
--webkit-text-fill-color: transparent;
-font-weight: normal;
+  color: #e4e6ea;
 }
 
 /* Footer sin fondo gris ni borde */
