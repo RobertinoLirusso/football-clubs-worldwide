@@ -643,3 +643,43 @@ select.filter-btn option {
   background: transparent;
   border-top: none;
 }
+
+/* Botón de wallpaper en la fila de acciones — mismo estilo cuadrado que wiki/google/youtube */
+#clubModal .w3-btn.wallpaper-trigger-btn {
+  border-radius: 0;
+}
+
+/* Selector de estilos dentro del modal de wallpaper — cuadrados */
+.wallpaper-styles {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.wallpaper-style-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background: #1a1a1a;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wallpaper-style-btn:hover {
+  transform: scale(1.08);
+}
+
+.wallpaper-style-btn.active {
+  border-color: #dbe4ea;
+  box-shadow: 0 0 8px rgba(200, 210, 220, 0.5);
+}
+
+.wallpaper-styles {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 4px;
+}

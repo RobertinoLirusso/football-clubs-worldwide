@@ -170,12 +170,15 @@
         <a [href]="selectedClub.wiki_url" target="_blank" class="w3-btn w3-black w3-medium w3-border w3-margin-right" title="Explore Club">
           <i class="fa-brands fa-wikipedia-w fa-lg icon"></i>
         </a>
-        <a [href]="getGoogleNewsUrl(selectedClub)" target="_blank" class="w3-btn w3-black w3-medium w3-border" title="Search on Google">
+        <a [href]="getGoogleNewsUrl(selectedClub)" target="_blank" class="w3-btn w3-black w3-medium w3-border w3-margin-right" title="Search on Google">
           <i class="fa-brands fa-google fa-lg icon"></i>
         </a>
-        <a [href]="getYouTubeUrl(selectedClub)" target="_blank" class="w3-btn w3-black w3-medium w3-border w3-margin-left" title="Search on YouTube">
+        <a [href]="getYouTubeUrl(selectedClub)" target="_blank" class="w3-btn w3-black w3-medium w3-border w3-margin-right" title="Search on YouTube">
           <i class="fa-brands fa-youtube fa-lg icon"></i>
         </a>
+        <button (click)="openWallpaperModal()" class="w3-btn w3-black w3-medium w3-border" title="Download Wallpaper">
+          <i class="fa fa-image fa-lg icon"></i>
+        </button>
       </div>
     </div>
 
@@ -189,6 +192,38 @@
     <footer class="w3-container w3-padding">
       <button (click)="closeModal()" class="w3-btn w3-black w3-margin-bottom title-game">Close</button>
     </footer>
+  </div>
+</div>
+
+<!-- Modal Wallpaper -->
+<div *ngIf="isWallpaperModalOpen" class="w3-modal" style="display:block; z-index: 1100;">
+  <div class="w3-modal-content w3-animate-zoom" style="max-width:400px; margin:auto;">
+    <header class="w3-container w3-center">
+      <span (click)="closeWallpaperModal()" class="w3-button w3-display-topright w3-black title-game">
+        <i class="fa fa-times"></i>
+      </span>
+      <h5>Choose a wallpaper style</h5>
+    </header>
+
+    <div class="w3-container w3-center w3-padding">
+      <div class="wallpaper-styles">
+        <button *ngFor="let style of wallpaperStyles"
+                type="button"
+                class="wallpaper-style-btn"
+                [class.active]="selectedWallpaperStyle === style.value"
+                [title]="style.label"
+                (click)="selectedWallpaperStyle = style.value">
+          {{ style.icon }}
+        </button>
+      </div>
+
+      <button (click)="downloadClubWallpaper(selectedClub)"
+              class="w3-btn w3-black w3-margin-top title-game"
+              [disabled]="isGeneratingWallpaper">
+        <i class="fa" [ngClass]="isGeneratingWallpaper ? 'fa-spinner fa-spin' : 'fa-download'"></i>
+        {{ isGeneratingWallpaper ? 'Generating...' : 'Download' }}
+      </button>
+    </div>
   </div>
 </div>
 
