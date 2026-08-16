@@ -649,37 +649,31 @@ select.filter-btn option {
   border-radius: 0;
 }
 
-/* Selector de estilos dentro del modal de wallpaper — cuadrados */
 .wallpaper-styles {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 56px);
+  grid-template-rows: repeat(3, 56px);
   gap: 10px;
+  justify-content: center;
   margin-top: 4px;
 }
 
 .wallpaper-style-btn {
-  width: 48px;
-  height: 48px;
-  border-radius: 6px;
+  width: 56px;
+  height: 56px;
+  border-radius: 0;
   border: 2px solid transparent;
   background: #1a1a1a;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .wallpaper-style-btn:hover {
-  transform: scale(1.08);
+  transform: scale(1.06);
 }
 
 .wallpaper-style-btn.active {
   border-color: #dbe4ea;
   box-shadow: 0 0 8px rgba(200, 210, 220, 0.5);
-}
-
-.wallpaper-styles {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 4px;
 }
