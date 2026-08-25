@@ -677,3 +677,15 @@ select.filter-btn option {
   border-color: #dbe4ea;
   box-shadow: 0 0 8px rgba(200, 210, 220, 0.5);
 }
+
+.country-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.country-item-count {
+  color: #888;
+  font-size: 13px;
+  white-space: nowrap;
+}

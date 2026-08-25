@@ -75,9 +75,12 @@
         <li *ngFor="let country of filteredCountries()"
             (click)="selectCountry(country)"
             [ngClass]="{'w3-light-grey': selectedCountry === country}"
-            class="w3-padding w3-hover-light-grey">
-          <span class="w3-margin-right fi" [ngClass]="'fi-' + getCountryCode(country)"></span>
-          {{ country }}
+            class="w3-padding w3-hover-light-grey country-item">
+          <span class="country-item-name">
+            <span class="w3-margin-right fi" [ngClass]="'fi-' + getCountryCode(country)"></span>
+            {{ country }}
+          </span>
+          <span class="country-item-count">{{ getCountryCount(country) }} teams</span>
         </li>
       </ul>
     </div>

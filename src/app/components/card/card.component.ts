@@ -305,6 +305,14 @@ export class CardComponent implements OnInit {
     return COUNTRY_FLAG_MAP[country] || 'un';
   }
 
+  getCountryCount(country: string): number {
+    return this.clubs.filter(club => {
+      const parts = club.city_country.split(',');
+      const c = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
+      return c === country.toLowerCase();
+    }).length;
+  }
+
   openImageModal(club: any, event: Event) {
     event.stopPropagation();
     this.selectedImage = club.club_logo;
