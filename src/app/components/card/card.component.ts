@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener, ViewChild, ElementRef } from '@angular/core';
 import { ClubService } from '../../services/club.service';
 import { COUNTRY_FLAG_MAP } from '../../utils/country-flags';
 
@@ -96,6 +96,13 @@ export class CardComponent implements OnInit {
         this.isFadingOut = false;
       }, 400);
     }
+  }
+
+  @ViewChild('carouselTrack') carouselTrack!: ElementRef<HTMLDivElement>;
+
+  slideCarousel(direction: number): void {
+    const el = this.carouselTrack.nativeElement;
+    el.scrollBy({ left: direction * el.clientWidth * 0.8, behavior: 'smooth' });
   }
 
   getClubs(): void {

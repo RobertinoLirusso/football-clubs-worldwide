@@ -689,3 +689,90 @@ select.filter-btn option {
   font-size: 13px;
   white-space: nowrap;
 }
+
+/* ============================================================
+   COUNTRY CAROUSEL
+   ============================================================ */
+
+/* ============================================================
+   COUNTRY CAROUSEL
+   ============================================================ */
+
+.country-carousel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 4px 16px;
+}
+
+.country-carousel-track {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.country-carousel-track::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-arrow {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  cursor: pointer;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  color: #333;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.carousel-arrow:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.country-chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 52px;
+  height: 36px;
+  padding: 0;
+  cursor: pointer;
+  background: #fff;
+  border: 2px solid transparent;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.country-chip .fi {
+  font-size: 2.6rem;
+  border-radius: 0;
+  flex-shrink: 0;
+}
+
+.country-chip:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+}
+
+.country-chip.active {
+  border: 2px solid transparent;
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(160deg, #dbe4ea, #bfc3ca 30%, #eceef2 60%, #d4d6da 100%) border-box;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.9),
+    0 4px 10px rgba(150, 160, 170, 0.3);
+}
