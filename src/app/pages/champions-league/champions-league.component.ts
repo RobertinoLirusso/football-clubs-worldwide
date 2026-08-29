@@ -1,7 +1,8 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ClubService } from '../../services/club.service';
 import { SeoService } from '../../services/seo.service';
-import { CL2026_TEAMS, FINAL_INFO } from './cl-teams-data';
+import { CL2026_TEAMS, CL2026_FIXTURES, CL2026_AWAY, FINAL_INFO } from './cl-teams-data';
+
 // ─── Types ────────────────────────────────────────────────────────────────
 
 type GamePhase =
@@ -160,36 +161,93 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   }
 
   private buildLeagueSchedule(): void {
-    // Interleave by pot so early rounds mix strengths (approximates the real
-    // "2 rivals per pot" rule without solving the full Swiss design problem)
-    const byPot = [1, 2, 3, 4].map(p => this.shuffle(this.allTeams.filter(t => t.pot === p)));
-    const interleaved: Team[] = [];
-    for (let i = 0; i < 9; i++) for (const pot of byPot) interleaved.push(pot[i]);
+    // Real fixtures from the 27 Aug 2026 draw. UEFA hasn't published which
+    // matchday each fixture falls on yet (due 29 Aug), so we distribute the
+    // 144 fixed fixtures into 8 matchdays by extracting a perfect matching
+    // (18 pairs covering all 36 teams) per round via backtracking.
+    const byName = new Map(this.allTeams.map(t => [t.name, t]));
+    const adjMaster = new Map<string, Set<string>>();
+    for (const t of this.allTeams) adjMaster.set(t.name, new Set());
 
-    const n = interleaved.length; // 36
-    const fixed = interleaved[0];
-    const rotating = interleaved.slice(1);
-    const rounds: Team[][] = [];
-
-    for (let r = 0; r < 8; r++) {
-      const all = [fixed, ...rotating];
-      const roundPairs: Team[] = [];
-      for (let i = 0; i < n / 2; i++) {
-        const t1 = all[i], t2 = all[n - 1 - i];
-        if ((r + i) % 2 === 0) roundPairs.push(t1, t2);
-        else roundPairs.push(t2, t1);
-      }
-      rounds.push(roundPairs);
-      rotating.unshift(rotating.pop()!);
+    const addEdge = (a: string, b: string) => {
+      if (!adjMaster.has(a) || !adjMaster.has(b)) return;
+      adjMaster.get(a)!.add(b);
+      adjMaster.get(b)!.add(a);
+    };
+    for (const [homeName, awayNames] of Object.entries(CL2026_FIXTURES)) {
+      for (const awayName of awayNames) addEdge(homeName, awayName);
+    }
+    for (const [teamName, oppNames] of Object.entries(CL2026_AWAY)) {
+      for (const oppName of oppNames) addEdge(teamName, oppName);
     }
 
-    this.leagueSchedule = rounds.map(pairFlat => {
-      const matches: MatchResult[] = [];
-      for (let i = 0; i < pairFlat.length; i += 2) {
-        matches.push(this.buildMatch(pairFlat[i], pairFlat[i + 1]));
+    let rounds: Array<Array<[Team, Team]>> = [];
+    for (let attempt = 0; attempt < 40 && rounds.length < 8; attempt++) {
+      const adj = new Map<string, Set<string>>();
+      for (const [k, v] of adjMaster) adj.set(k, new Set(v));
+
+      const tryRounds: Array<Array<[Team, Team]>> = [];
+      let success = true;
+      for (let r = 0; r < 8; r++) {
+        const matching = this.findPerfectMatching(this.allTeams, adj);
+        if (!matching) { success = false; break; }
+        for (const [a, b] of matching) {
+          adj.get(a.name)!.delete(b.name);
+          adj.get(b.name)!.delete(a.name);
+        }
+        tryRounds.push(matching);
       }
-      return matches;
-    });
+      if (success) rounds = tryRounds;
+    }
+
+    this.leagueSchedule = rounds.map(pairs => pairs.map(([t1, t2]) => {
+      const t1DeclaredHome = CL2026_FIXTURES[t1.name]?.includes(t2.name);
+      const t2DeclaredHome = CL2026_FIXTURES[t2.name]?.includes(t1.name);
+      let home: Team, away: Team;
+      if (t1DeclaredHome) { home = t1; away = t2; }
+      else if (t2DeclaredHome) { home = t2; away = t1; }
+      else { [home, away] = t1.name < t2.name ? [t1, t2] : [t2, t1]; } // rare source conflict — deterministic fallback
+      return this.buildMatch(home, away);
+    }));
+
+    if (this.leagueSchedule.length < 8) {
+      console.error('Could not build a valid 8-matchday league schedule from the fixed fixtures.');
+    }
+  }
+
+  // Backtracking perfect matching with minimum-remaining-options heuristic —
+  // reliable on graphs this small (36 nodes) even as degree shrinks each round.
+  private findPerfectMatching(nodes: Team[], adj: Map<string, Set<string>>): Array<[Team, Team]> | null {
+    const nodeByName = new Map(nodes.map(t => [t.name, t]));
+    const remaining = new Set(nodes.map(t => t.name));
+    const result: Array<[Team, Team]> = [];
+
+    const backtrack = (): boolean => {
+      if (remaining.size === 0) return true;
+
+      let bestNode: string | null = null;
+      let bestOptions: string[] = [];
+      for (const n of remaining) {
+        const opts = [...(adj.get(n) ?? [])].filter(o => remaining.has(o));
+        if (bestNode === null || opts.length < bestOptions.length) {
+          bestNode = n; bestOptions = opts;
+          if (opts.length === 0) break;
+        }
+      }
+      if (bestNode === null) return true;
+      if (bestOptions.length === 0) return false;
+
+      for (const opt of this.shuffle(bestOptions)) {
+        remaining.delete(bestNode); remaining.delete(opt);
+        result.push([nodeByName.get(bestNode)!, nodeByName.get(opt)!]);
+        if (backtrack()) return true;
+        result.pop();
+        remaining.add(bestNode); remaining.add(opt);
+      }
+      return false;
+    };
+
+    return backtrack() ? result : null;
   }
 
   private shuffle<T>(arr: T[]): T[] {
