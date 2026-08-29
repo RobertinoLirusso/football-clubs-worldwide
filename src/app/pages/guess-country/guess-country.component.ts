@@ -79,7 +79,7 @@ export class GuessCountryComponent implements OnInit, OnDestroy {
       title: 'Guess the Country - Football Quiz',
       description: 'See the club logo and guess the country. Group stage, playoffs and knockout rounds!',
       keywords: 'football country quiz, club logo quiz, football flags, soccer trivia',
-      url: 'https://football-clubs-worldwide.com/guess-country',
+      url: 'https://football-clubs-worldwide.vercel.app/guess-country',
       type: 'website',
     });
   }

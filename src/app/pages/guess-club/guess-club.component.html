@@ -127,6 +127,25 @@
             <h3 *ngIf="lives === 0 && !isNewRecord && bestScore > 0">
                 ⭐ Best Score: {{ bestScore }}
             </h3>
+
+            <div *ngIf="lives === 0 && !scoreSubmitted" class="leaderboard-submit">
+  <input type="text"
+         [(ngModel)]="playerName"
+         maxlength="20"
+         placeholder="Your name"
+         class="w3-input">
+  <button (click)="submitToLeaderboard()"
+          [disabled]="!playerName.trim()"
+          class="w3-btn w3-black">
+    <i class="fas fa-trophy"></i> Submit Score
+  </button>
+</div>
+
+<div *ngIf="lives === 0" class="leaderboard-box">
+  <button (click)="openLeaderboardModal()" class="w3-btn w3-black w3-small">
+    <i class="fas fa-list-ol"></i> View Ranking
+  </button>
+</div>
   
   
             <!-- Player Level (solo cuando perdió todas las vidas) -->
@@ -153,5 +172,32 @@
 
     </div>
     </div>
+    <!-- Modal Ranking Global -->
+<div *ngIf="isLeaderboardModalOpen" class="w3-modal" style="display:block;">
+  <div class="w3-modal-content w3-animate-zoom leaderboard-modal-content">
+    <header class="w3-container w3-center">
+      <span (click)="closeLeaderboardModal()" class="w3-button w3-display-topright w3-black">
+        <i class="fa fa-times"></i>
+      </span>
+      <h4><i class="fas fa-trophy"></i> Top 25 Players</h4>
+    </header>
+
+    <div class="w3-container w3-padding">
+      <p *ngIf="loadingLeaderboard" class="w3-center">Loading...</p>
+
+      <ol *ngIf="!loadingLeaderboard && leaderboard.length > 0" class="leaderboard-list">
+        <li *ngFor="let entry of leaderboard; let i = index">
+          <span class="rank">#{{ i + 1 }}</span>
+          <span class="name">{{ entry.player_name }}</span>
+          <span class="score">{{ entry.score }}</span>
+        </li>
+      </ol>
+
+      <p *ngIf="!loadingLeaderboard && leaderboard.length === 0" class="w3-center">
+        No scores yet. Be the first!
+      </p>
+    </div>
+  </div>
+</div>
     <app-footer></app-footer>
 </div>

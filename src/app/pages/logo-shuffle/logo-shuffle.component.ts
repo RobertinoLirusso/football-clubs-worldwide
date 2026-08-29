@@ -71,7 +71,7 @@ export class LogoShuffleComponent implements OnInit, OnDestroy {
       title: 'Logo Shuffle - Football Puzzle',
       description: 'Rearrange the scrambled football club logo pieces to solve the puzzle!',
       keywords: 'football logo puzzle, club logo shuffle, soccer puzzle game',
-      url: 'https://football-clubs-worldwide.com/logo-shuffle',
+      url: 'https://football-clubs-worldwide.vercel.app/logo-shuffle',
       type: 'website',
     });
   }

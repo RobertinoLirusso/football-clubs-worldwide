@@ -3,6 +3,7 @@ import { ClubService } from '../../services/club.service';
 import { SeoService } from '../../services/seo.service';
 import confetti from 'canvas-confetti';
 import { isPlatformBrowser } from '@angular/common';
+import { LeaderboardService, LeaderboardEntry } from '../../services/leaderboard.service';
 
 
 @Component({
@@ -36,6 +37,12 @@ export class GuessClubComponent implements OnInit {
   bestScore: number = 0;
   isNewRecord: boolean = false;
   imageLoaded: boolean = false;
+  playerName: string = '';
+  scoreSubmitted: boolean = false;
+  leaderboard: LeaderboardEntry[] = [];
+  loadingLeaderboard: boolean = false;
+  isLeaderboardModalOpen: boolean = false;
+
 
 
 
@@ -43,6 +50,7 @@ export class GuessClubComponent implements OnInit {
   constructor(
     private clubService: ClubService, 
     private seoService: SeoService,
+    private leaderboardService: LeaderboardService,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
 
@@ -57,7 +65,7 @@ export class GuessClubComponent implements OnInit {
       title: 'Guess the Football Club - Football Quiz Game',
       description: 'Test your football knowledge with our interactive quiz game! Guess football clubs from around the world. Challenge yourself and see how many you can get right in a row.',
       keywords: 'football quiz, guess the club, football game, soccer quiz, football knowledge test, interactive game',
-      url: 'https://football-clubs-worldwide.com/guess-club',
+      url: 'https://football-clubs-worldwide.vercel.app/guess-club',
       type: 'website'
     });
 
@@ -67,7 +75,7 @@ export class GuessClubComponent implements OnInit {
       "@type": "WebApplication",
       "name": "Guess the Football Club Quiz",
       "description": "Interactive football quiz game to test your knowledge of football clubs worldwide",
-      "url": "https://football-clubs-worldwide.com/guess-club",
+      "url": "https://football-clubs-worldwide.vercel.app/guess-club",
       "applicationCategory": "GameApplication",
       "operatingSystem": "Web Browser",
       "offers": {
@@ -88,8 +96,9 @@ export class GuessClubComponent implements OnInit {
   }
 
   loadBestScore(): void {
-    if (isPlatformBrowser(this.platformId)) { 
+    if (isPlatformBrowser(this.platformId)) {
       this.bestScore = Number(localStorage.getItem('bestScore')) || 0;
+      this.playerName = localStorage.getItem('playerName') || '';
     }
   }
 
@@ -115,6 +124,7 @@ export class GuessClubComponent implements OnInit {
       this.timeHelpUsed = false;
       this.blurHelpUsed = false;
       this.isNewRecord = false;
+      this.scoreSubmitted = false;
     }
     
   
@@ -275,5 +285,39 @@ useBlurHelp(): void {
   this.blurHelpUsed = true;    // bloquea el botón
   this.blurHelpActive = true; // reduce blur SOLO ahora
 }
+
+  submitToLeaderboard(): void {
+    const name = this.playerName.trim();
+    if (!name || this.scoreSubmitted || this.lastScore === 0) return;
+
+    this.leaderboardService.submitScore(name, this.lastScore).subscribe(() => {
+      this.scoreSubmitted = true;
+      if (isPlatformBrowser(this.platformId)) {
+        localStorage.setItem('playerName', name);
+      }
+      this.loadLeaderboard();
+    });
+  }
+
+  loadLeaderboard(): void {
+    this.loadingLeaderboard = true;
+    this.leaderboardService.getTop().subscribe({
+      next: (data) => {
+        this.leaderboard = data.slice(0, 25);
+        this.loadingLeaderboard = false;
+      },
+      error: () => (this.loadingLeaderboard = false),
+    });
+  }
+
+
+    openLeaderboardModal(): void {
+    this.isLeaderboardModalOpen = true;
+    this.loadLeaderboard();
+  }
+
+  closeLeaderboardModal(): void {
+    this.isLeaderboardModalOpen = false;
+  }
 
 }

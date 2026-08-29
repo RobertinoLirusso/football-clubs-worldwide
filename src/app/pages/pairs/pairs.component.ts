@@ -54,7 +54,7 @@ export class PairsComponent implements OnInit, OnDestroy {
         'Match pairs of football club logos in this memory game. Find all 18 pairs before the 5-minute timer runs out!',
       keywords:
         'football memory game, club pairs, soccer matching game, football minigame',
-      url: 'https://football-clubs-worldwide.com/club-pairs',
+      url: 'https://football-clubs-worldwide.vercel.app/club-pairs',
       type: 'website',
     });
   }

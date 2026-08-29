@@ -206,7 +206,7 @@ export class WorldCupComponent implements OnInit, OnDestroy {
       title: 'World Cup 2026 Simulator',
       description: 'Choose your national team and simulate the 2026 FIFA World Cup!',
       keywords: 'world cup 2026, football simulator, national teams, soccer game',
-      url: 'https://football-clubs-worldwide.com/world-cup',
+      url: 'https://football-clubs-worldwide.vercel.app/world-cup',
       type: 'website',
     });
   }

@@ -21,6 +21,7 @@ import { GuessCountryComponent } from './pages/guess-country/guess-country.compo
 import { LogoShuffleComponent } from './pages/logo-shuffle/logo-shuffle.component';
 import { WorldCupComponent } from './pages/world-cup/world-cup.component';
 import { GoalsForPipe } from './pipes/goals-for.pipe';
+import { ChampionsLeagueComponent } from './pages/champions-league/champions-league.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { GoalsForPipe } from './pipes/goals-for.pipe';
     LogoShuffleComponent,
     WorldCupComponent,
     GoalsForPipe,
+    ChampionsLeagueComponent,
   ],
   imports: [
     BrowserModule,

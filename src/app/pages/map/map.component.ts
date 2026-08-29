@@ -15,7 +15,7 @@ export class MapComponent implements OnInit {
       title: 'Football Stadiums Map',
       description: 'Explore football stadiums around the world using our Google Maps interactive view.',
       keywords: 'football stadiums, google maps, stadium locations, football venues',
-      url: 'https://football-clubs-worldwide.com/map',
+      url: 'https://football-clubs-worldwide.vercel.app/map',
       type: 'website'
     });
 
@@ -24,7 +24,7 @@ export class MapComponent implements OnInit {
       "@type": "WebApplication",
       "name": "Football Stadiums Map",
       "description": "Google Maps view showing football stadiums around the world",
-      "url": "https://football-clubs-worldwide.com/map",
+      "url": "https://football-clubs-worldwide.vercel.app/map",
       "applicationCategory": "SportsApplication",
       "operatingSystem": "Web Browser"
     };

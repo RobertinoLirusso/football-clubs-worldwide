@@ -38,7 +38,7 @@ export class HangmanComponent implements OnInit {
         'Guess the football club name letter by letter. You have five lives. Hints: city and country.',
       keywords:
         'football hangman, club quiz, soccer word game, football minigame',
-      url: 'https://football-clubs-worldwide.com/hangman',
+      url: 'https://football-clubs-worldwide.vercel.app/hangman',
       type: 'website',
     });
   }

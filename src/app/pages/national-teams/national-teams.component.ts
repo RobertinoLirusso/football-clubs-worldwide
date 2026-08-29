@@ -31,7 +31,7 @@ export class NationalTeamsComponent implements OnInit {
       title: 'National Football Teams',
       description: 'Explore national football teams from around the world. Find information about countries, continents, team logos, and national squad details.',
       keywords: 'national teams, football countries, world football, national squads, football nations, team logos',
-      url: 'https://football-clubs-worldwide.com/national-teams',
+      url: 'https://football-clubs-worldwide.vercel.app/national-teams',
       type: 'website'
     });
 
@@ -41,7 +41,7 @@ export class NationalTeamsComponent implements OnInit {
       "@type": "ItemList",
       "name": "World National Football Teams",
       "description": "Complete list of national football teams organized by continents",
-      "url": "https://football-clubs-worldwide.com/national-teams",
+      "url": "https://football-clubs-worldwide.vercel.app/national-teams",
       "numberOfItems": "200+",
       "itemListElement": [
         {
