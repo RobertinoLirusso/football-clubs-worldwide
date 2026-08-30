@@ -77,9 +77,12 @@
           League Phase · Matchday {{ leagueMatchday + 1 }} of 8
         </span>
         <span *ngIf="phase === 'playoff_match'" class="cl-badge playoff">
-          Knockout Phase Playoff
+          Knockout Phase Playoff · Leg {{ currentTieLeg }} of 2
         </span>
-        <span *ngIf="phase === 'knockout_match'" class="cl-badge knockout">
+        <span *ngIf="phase === 'knockout_match' && !isFinalRound" class="cl-badge knockout">
+          {{ currentKnockoutRoundName }} · Leg {{ currentTieLeg }} of 2
+        </span>
+        <span *ngIf="phase === 'knockout_match' && isFinalRound" class="cl-badge knockout">
           {{ currentKnockoutRoundName }}
         </span>
       </div>
@@ -239,6 +242,37 @@
         </div>
       </div>
 
+      <!-- Full tournament bracket, including the playoff pairings -->
+      <div *ngIf="fullBracket.length > 0" class="cl-bracket-section">
+        <div class="cl-bracket-title">🗓️ Tournament Bracket</div>
+        <div class="cl-bracket-scroll">
+          <div class="cl-bracket-rounds">
+            <div *ngFor="let round of bracketRounds; let ri = index" class="cl-bracket-round">
+              <div class="cl-bracket-round-name">{{ round.name }}</div>
+              <div *ngFor="let slot of round.slots; trackBy: trackByIdx"
+                   class="cl-bracket-slot"
+                   [class.player-slot]="isPlayerSlot(slot)"
+                   [class.future-slot]="!slot.home && !slot.away">
+                <ng-container *ngIf="slot.home && slot.away">
+                  <div class="cl-bslot-team" [class.winner]="slot.winner === slot.home" [class.is-player]="slot.home === playerTeam">
+                    <img *ngIf="slot.home.logo" [src]="slot.home.logo" class="cl-bslot-logo" />
+                    <span>{{ slot.home.name }}</span>
+                  </div>
+                  <div class="cl-bslot-vs">vs</div>
+                  <div class="cl-bslot-team" [class.winner]="slot.winner === slot.away" [class.is-player]="slot.away === playerTeam">
+                    <img *ngIf="slot.away.logo" [src]="slot.away.logo" class="cl-bslot-logo" />
+                    <span>{{ slot.away.name }}</span>
+                  </div>
+                </ng-container>
+                <ng-container *ngIf="!slot.home || !slot.away">
+                  <div class="cl-bslot-tbd">TBD</div>
+                </ng-container>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="w3-center w3-margin-top">
         <button *ngIf="playerQualStatus !== 'out'" class="cl-btn-primary w3-button w3-round"
                 (click)="proceedFromLeague()">
@@ -251,31 +285,78 @@
       </div>
     </div>
 
-    <!-- ══════ PLAYOFF RESULT ══════ -->
-    <div *ngIf="phase === 'playoff_result' && currentPlayoffMatch" class="cl-results-wrap">
+    <!-- ══════ PLAYOFF RESULT (aggregate over two legs) ══════ -->
+    <div *ngIf="phase === 'playoff_result' && tieLeg1 && currentPlayoffMatch" class="cl-results-wrap">
       <div class="cl-round-label">
-        <span class="cl-badge playoff">Knockout Playoff — Result</span>
+        <span class="cl-badge playoff">Knockout Playoff — Aggregate</span>
       </div>
 
       <div class="cl-my-result w3-card w3-round-large">
-        <div class="cl-my-result-header">Your tie</div>
+        <div class="cl-my-result-header">Leg 1</div>
+        <div class="cl-result-row">
+          <div class="cl-result-team">
+            <img *ngIf="tieLeg1.home.logo" [src]="tieLeg1.home.logo" class="cl-result-logo" />
+            {{ tieLeg1.home.name }}
+          </div>
+          <div class="cl-result-score">{{ scoreLabel(tieLeg1) }}</div>
+          <div class="cl-result-team right">
+            <img *ngIf="tieLeg1.away.logo" [src]="tieLeg1.away.logo" class="cl-result-logo" />
+            {{ tieLeg1.away.name }}
+          </div>
+        </div>
+
+        <div class="cl-my-result-header cl-leg2-header">Leg 2</div>
         <div class="cl-result-row">
           <div class="cl-result-team">
             <img *ngIf="currentPlayoffMatch.home.logo" [src]="currentPlayoffMatch.home.logo" class="cl-result-logo" />
             {{ currentPlayoffMatch.home.name }}
           </div>
-          <div class="cl-result-score outcome-win">{{ scoreLabel(currentPlayoffMatch) }}</div>
+          <div class="cl-result-score">{{ scoreLabel(currentPlayoffMatch) }}</div>
           <div class="cl-result-team right">
             <img *ngIf="currentPlayoffMatch.away.logo" [src]="currentPlayoffMatch.away.logo" class="cl-result-logo" />
             {{ currentPlayoffMatch.away.name }}
           </div>
         </div>
-        <div *ngIf="currentPlayoffMatch.penalties" class="cl-penalties-note w3-center">
-          🎯 Won on penalties: {{ currentPlayoffMatch.penalties.homeScore }}–{{ currentPlayoffMatch.penalties.awayScore }}
+
+        <div class="cl-aggregate-row">
+          <span>Aggregate: <strong>{{ tieTeam1?.name }} {{ tieAggregateTeam1 }} – {{ tieAggregateTeam2 }} {{ tieTeam2?.name }}</strong></span>
+        </div>
+        <div *ngIf="tiePenalties" class="cl-penalties-note w3-center">
+          🎯 Won on penalties: {{ tiePenalties.team1Score }}–{{ tiePenalties.team2Score }}
         </div>
       </div>
 
       <p class="w3-text-light-grey w3-center">You're through to the Round of 16! 🎉</p>
+
+      <div class="cl-bracket-section">
+        <div class="cl-bracket-title">🗓️ Tournament Bracket</div>
+        <div class="cl-bracket-scroll">
+          <div class="cl-bracket-rounds">
+            <div *ngFor="let round of bracketRounds; let ri = index" class="cl-bracket-round">
+              <div class="cl-bracket-round-name">{{ round.name }}</div>
+              <div *ngFor="let slot of round.slots; trackBy: trackByIdx"
+                   class="cl-bracket-slot"
+                   [class.player-slot]="isPlayerSlot(slot)"
+                   [class.future-slot]="!slot.home && !slot.away">
+                <ng-container *ngIf="slot.home && slot.away">
+                  <div class="cl-bslot-team" [class.winner]="slot.winner === slot.home" [class.is-player]="slot.home === playerTeam">
+                    <img *ngIf="slot.home.logo" [src]="slot.home.logo" class="cl-bslot-logo" />
+                    <span>{{ slot.home.name }}</span>
+                  </div>
+                  <div class="cl-bslot-vs">vs</div>
+                  <div class="cl-bslot-team" [class.winner]="slot.winner === slot.away" [class.is-player]="slot.away === playerTeam">
+                    <img *ngIf="slot.away.logo" [src]="slot.away.logo" class="cl-bslot-logo" />
+                    <span>{{ slot.away.name }}</span>
+                  </div>
+                </ng-container>
+                <ng-container *ngIf="!slot.home || !slot.away">
+                  <div class="cl-bslot-tbd">TBD</div>
+                </ng-container>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="w3-center w3-margin-top">
         <button class="cl-btn-primary w3-button w3-round" (click)="continuePlayoffResult()">
@@ -287,24 +368,41 @@
     <!-- ══════ KNOCKOUT RESULT (bracket) ══════ -->
     <div *ngIf="phase === 'knockout_result' && currentKnockoutMatch" class="cl-results-wrap">
       <div class="cl-round-label">
-        <span class="cl-badge knockout">{{ KNOCKOUT_ROUND_NAMES[knockoutRoundIndex - 1] }} — Result</span>
+        <span class="cl-badge knockout">{{ KNOCKOUT_ROUND_NAMES[knockoutRoundIndex - 1] }} — Aggregate</span>
       </div>
 
-      <div class="cl-my-result w3-card w3-round-large">
-        <div class="cl-my-result-header">Your match</div>
+      <div class="cl-my-result w3-card w3-round-large" *ngIf="tieLeg1">
+        <div class="cl-my-result-header">Leg 1</div>
+        <div class="cl-result-row">
+          <div class="cl-result-team">
+            <img *ngIf="tieLeg1.home.logo" [src]="tieLeg1.home.logo" class="cl-result-logo" />
+            {{ tieLeg1.home.name }}
+          </div>
+          <div class="cl-result-score">{{ scoreLabel(tieLeg1) }}</div>
+          <div class="cl-result-team right">
+            <img *ngIf="tieLeg1.away.logo" [src]="tieLeg1.away.logo" class="cl-result-logo" />
+            {{ tieLeg1.away.name }}
+          </div>
+        </div>
+
+        <div class="cl-my-result-header cl-leg2-header">Leg 2</div>
         <div class="cl-result-row">
           <div class="cl-result-team">
             <img *ngIf="currentKnockoutMatch.home.logo" [src]="currentKnockoutMatch.home.logo" class="cl-result-logo" />
             {{ currentKnockoutMatch.home.name }}
           </div>
-          <div class="cl-result-score outcome-win">{{ scoreLabel(currentKnockoutMatch) }}</div>
+          <div class="cl-result-score">{{ scoreLabel(currentKnockoutMatch) }}</div>
           <div class="cl-result-team right">
             <img *ngIf="currentKnockoutMatch.away.logo" [src]="currentKnockoutMatch.away.logo" class="cl-result-logo" />
             {{ currentKnockoutMatch.away.name }}
           </div>
         </div>
-        <div *ngIf="currentKnockoutMatch.penalties" class="cl-penalties-note w3-center">
-          🎯 Won on penalties: {{ currentKnockoutMatch.penalties.homeScore }}–{{ currentKnockoutMatch.penalties.awayScore }}
+
+        <div class="cl-aggregate-row">
+          <span>Aggregate: <strong>{{ tieTeam1?.name }} {{ tieAggregateTeam1 }} – {{ tieAggregateTeam2 }} {{ tieTeam2?.name }}</strong></span>
+        </div>
+        <div *ngIf="tiePenalties" class="cl-penalties-note w3-center">
+          🎯 Won on penalties: {{ tiePenalties.team1Score }}–{{ tiePenalties.team2Score }}
         </div>
       </div>
 

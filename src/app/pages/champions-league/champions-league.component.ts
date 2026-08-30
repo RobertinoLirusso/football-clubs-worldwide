@@ -72,11 +72,20 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   playoffPairs: Array<[Team, Team]> = [];
   currentPlayoffMatch: MatchResult | null = null;
 
-  // Knockout (R16 → Final)
+  // Knockout (R16 → Final) — two-legged ties except the single-match Final
   knockoutRoundIndex = 0;
   knockoutPairs: Array<[Team, Team]> = [];
   currentKnockoutMatch: MatchResult | null = null;
   fullBracket: BracketSlot[][] = [];
+
+  // Shared two-legged tie state (playoff + R16/QF/SF)
+  tieTeam1: Team | null = null;
+  tieTeam2: Team | null = null;
+  currentTieLeg: 1 | 2 = 1;
+  tieLeg1: MatchResult | null = null;
+  tieAggregateTeam1 = 0;
+  tieAggregateTeam2 = 0;
+  tiePenalties?: { team1Score: number; team2Score: number };
 
   // Shared playback state
   currentMatch: MatchResult | null = null;
@@ -373,6 +382,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   playNextLeagueMatchday(): void {
     if (this.leagueMatchday >= 8) {
       this.sortStandings();
+      this.setupBracketDisplay();
       this.phase = 'league_standings';
       return;
     }
@@ -396,9 +406,24 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   continueAfterMatchday(): void {
     if (this.leagueMatchday >= 8) {
       this.sortStandings();
+      this.setupBracketDisplay();
       this.phase = 'league_standings';
     } else {
       this.playNextLeagueMatchday();
+    }
+  }
+
+  // Builds the full bracket (Playoff → R16 → QF → SF → Final) as soon as the
+  // final league table is known, so the playoff pairings are visible right away.
+  private setupBracketDisplay(): void {
+    this.fullBracket = [];
+    if (this.playerRank > 24) return;
+
+    this.playoffPairs = this.buildPlayoffPairs();
+    this.fullBracket[0] = this.playoffPairs.map(([h, a], i) => ({ home: h, away: a, winner: null, matchIndex: i }));
+    const sizes = [8, 4, 2, 1]; // R16, QF, SF, Final
+    for (let r = 0; r < sizes.length; r++) {
+      this.fullBracket[r + 1] = Array.from({ length: sizes[r] }, (_, i) => ({ home: null, away: null, winner: null, matchIndex: i }));
     }
   }
 
@@ -431,18 +456,26 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     return (this.roundResults ?? []).filter(m => !m.isPlayerMatch);
   }
 
+  get playoffPreviewPairs(): Array<[Team, Team]> {
+    if (this.leagueStandings.length < 24 || this.playerQualStatus === 'out') return [];
+    return this.buildPlayoffPairs();
+  }
+
+  isPlayerPair(pair: [Team, Team]): boolean {
+    return pair[0] === this.playerTeam || pair[1] === this.playerTeam;
+  }
+
   // ─── Transition: league → playoff / direct bye → knockout ──────────────
 
   proceedFromLeague(): void {
     const status = this.playerQualStatus;
     if (status === 'out') { this.phase = 'eliminated'; return; }
 
-    this.playoffPairs = this.buildPlayoffPairs();
-
+    // playoffPairs & fullBracket[0] were already built by setupBracketDisplay()
     if (status === 'direct') {
       // Player has a bye — resolve the entire playoff round automatically
-      const winners = this.playoffPairs.map(pair => this.resolvePlayoffTie(pair));
-      this.finishPlayoffsAndBuildKnockout(winners);
+      const winners = this.playoffPairs.map(pair => this.resolveTwoLeggedTie(pair[0], pair[1]));
+      this.markPlayoffWinnersAndBuildR16(winners);
       this.knockoutRoundIndex = 0;
       this.playKnockoutMatch();
     } else {
@@ -456,34 +489,36 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     return seeded.map((t, i) => [t, unseeded[i]] as [Team, Team]);
   }
 
-  private resolvePlayoffTie(pair: [Team, Team]): Team {
-    const [home, away] = pair;
-    const { homeGoals, awayGoals } = this.simulateMatch(home, away, false);
-    if (homeGoals === awayGoals) return Math.random() < 0.5 ? home : away;
-    return homeGoals > awayGoals ? home : away;
+  // Two-legged tie resolved instantly for CPU-vs-CPU pairs (no away-goals rule —
+  // level on aggregate goes to penalties).
+  private resolveTwoLeggedTie(team1: Team, team2: Team): Team {
+    const leg1 = this.simulateMatch(team1, team2, false);
+    const leg2 = this.simulateMatch(team2, team1, false);
+    const t1 = leg1.homeGoals + leg2.awayGoals;
+    const t2 = leg1.awayGoals + leg2.homeGoals;
+    if (t1 === t2) return Math.random() < 0.5 ? team1 : team2;
+    return t1 > t2 ? team1 : team2;
+  }
+
+  // Plays one leg of the player's tie (leg 1: team1 home; leg 2: team2 home)
+  private playTieLeg(returnPhase: 'playoff_match' | 'knockout_match'): void {
+    const home = this.currentTieLeg === 1 ? this.tieTeam1! : this.tieTeam2!;
+    const away = this.currentTieLeg === 1 ? this.tieTeam2! : this.tieTeam1!;
+    const { homeGoals, awayGoals, events } = this.simulateMatch(home, away, true);
+    const match: MatchResult = { home, away, homeGoals, awayGoals, events, isPlayerMatch: true };
+    if (returnPhase === 'playoff_match') this.currentPlayoffMatch = match;
+    else this.currentKnockoutMatch = match;
+    this.startPlayback(match, returnPhase);
   }
 
   playPlayoffMatch(): void {
     const pair = this.playoffPairs.find(([h, a]) => h === this.playerTeam || a === this.playerTeam)!;
-    const [home, away] = pair;
-    const { homeGoals, awayGoals, events } = this.simulateMatch(home, away, true);
-    let finalHome = homeGoals, finalAway = awayGoals;
-    let penalties: { homeScore: number; awayScore: number } | undefined;
-
-    if (homeGoals === awayGoals) {
-      let hp = this.rand(3, 5), ap = this.rand(3, 5);
-      while (hp === ap) ap = this.rand(3, 5);
-      finalHome = homeGoals + (hp > ap ? 1 : 0);
-      finalAway = awayGoals + (ap > hp ? 1 : 0);
-      penalties = { homeScore: hp, awayScore: ap };
-      events.push({ minute: 120, type: 'info' as any, team: '',
-        description: `🎯 PENALTY SHOOTOUT! Level on aggregate — spot kicks decide the tie!` });
-      events.sort((a, b) => a.minute - b.minute);
-    }
-
-    this.currentPlayoffMatch = { home, away, homeGoals: finalHome, awayGoals: finalAway,
-      events: [...events], isPlayerMatch: true, penalties };
-    this.startPlayback(this.currentPlayoffMatch, 'playoff_match');
+    this.tieTeam1 = pair[0];
+    this.tieTeam2 = pair[1];
+    this.currentTieLeg = 1;
+    this.tieLeg1 = null;
+    this.tiePenalties = undefined;
+    this.playTieLeg('playoff_match');
   }
 
   confirmPlayoffResult(): void {
@@ -491,28 +526,47 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     this.clearTimerInterval();
     this.matchPlaying = false;
 
-    const m = this.currentPlayoffMatch;
-    const playerHome = m.home === this.playerTeam;
-    const playerGoals = playerHome ? m.homeGoals : m.awayGoals;
-    const oppGoals = playerHome ? m.awayGoals : m.homeGoals;
-    if (playerGoals < oppGoals) { this.phase = 'eliminated'; return; }
+    if (this.currentTieLeg === 1) {
+      this.tieLeg1 = this.currentPlayoffMatch;
+      this.currentTieLeg = 2;
+      this.playTieLeg('playoff_match');
+      return;
+    }
+
+    const leg1 = this.tieLeg1!, leg2 = this.currentPlayoffMatch;
+    const team1Goals = leg1.homeGoals + leg2.awayGoals;
+    const team2Goals = leg1.awayGoals + leg2.homeGoals;
+    this.tieAggregateTeam1 = team1Goals;
+    this.tieAggregateTeam2 = team2Goals;
+
+    let tieWinner: Team;
+    if (team1Goals === team2Goals) {
+      let p1 = this.rand(3, 5), p2 = this.rand(3, 5);
+      while (p1 === p2) p2 = this.rand(3, 5);
+      this.tiePenalties = { team1Score: p1, team2Score: p2 };
+      tieWinner = p1 > p2 ? this.tieTeam1! : this.tieTeam2!;
+    } else {
+      this.tiePenalties = undefined;
+      tieWinner = team1Goals > team2Goals ? this.tieTeam1! : this.tieTeam2!;
+    }
+
+    if (tieWinner !== this.playerTeam) { this.phase = 'eliminated'; return; }
 
     const winners = this.playoffPairs.map(pair =>
-      (pair[0] === this.playerTeam || pair[1] === this.playerTeam) ? this.playerTeam! : this.resolvePlayoffTie(pair)
+      (pair[0] === this.playerTeam || pair[1] === this.playerTeam) ? this.playerTeam! : this.resolveTwoLeggedTie(pair[0], pair[1])
     );
-    this.finishPlayoffsAndBuildKnockout(winners);
+    this.markPlayoffWinnersAndBuildR16(winners);
     this.phase = 'playoff_result';
   }
 
-  private finishPlayoffsAndBuildKnockout(playoffWinners: Team[]): void {
+  private markPlayoffWinnersAndBuildR16(playoffWinners: Team[]): void {
+    if (this.fullBracket[0]) {
+      this.fullBracket[0].forEach((slot, i) => { if (i < playoffWinners.length) slot.winner = playoffWinners[i]; });
+    }
     const top8 = this.leagueStandings.slice(0, 8).map(s => s.team);
     this.knockoutPairs = top8.map((t, i) => [t, playoffWinners[7 - i]] as [Team, Team]);
-
-    this.fullBracket = [];
-    this.fullBracket[0] = this.knockoutPairs.map(([h, a], i) => ({ home: h, away: a, winner: null, matchIndex: i }));
-    const sizes = [4, 2, 1];
-    for (let r = 0; r < sizes.length; r++) {
-      this.fullBracket[r + 1] = Array.from({ length: sizes[r] }, (_, i) => ({ home: null, away: null, winner: null, matchIndex: i }));
+    if (this.fullBracket[1]) {
+      this.fullBracket[1] = this.knockoutPairs.map(([h, a], i) => ({ home: h, away: a, winner: null, matchIndex: i }));
     }
   }
 
@@ -527,25 +581,37 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     const pair = this.knockoutPairs.find(([h, a]) => h === this.playerTeam || a === this.playerTeam);
     if (!pair) { this.phase = 'eliminated'; return; }
 
-    const [home, away] = pair;
-    const { homeGoals, awayGoals, events } = this.simulateMatch(home, away, true);
-    let finalHome = homeGoals, finalAway = awayGoals;
-    let penalties: { homeScore: number; awayScore: number } | undefined;
+    const isFinal = this.knockoutRoundIndex === KNOCKOUT_ROUND_NAMES.length - 1;
 
-    if (homeGoals === awayGoals) {
-      let hp = this.rand(3, 5), ap = this.rand(3, 5);
-      while (hp === ap) ap = this.rand(3, 5);
-      finalHome = homeGoals + (hp > ap ? 1 : 0);
-      finalAway = awayGoals + (ap > hp ? 1 : 0);
-      penalties = { homeScore: hp, awayScore: ap };
-      events.push({ minute: 120, type: 'info' as any, team: '',
-        description: `🎯 PENALTY SHOOTOUT! Level after extra time — spot kicks decide!` });
-      events.sort((a, b) => a.minute - b.minute);
+    if (isFinal) {
+      const [home, away] = pair;
+      const { homeGoals, awayGoals, events } = this.simulateMatch(home, away, true);
+      let finalHome = homeGoals, finalAway = awayGoals;
+      let penalties: { homeScore: number; awayScore: number } | undefined;
+
+      if (homeGoals === awayGoals) {
+        let hp = this.rand(3, 5), ap = this.rand(3, 5);
+        while (hp === ap) ap = this.rand(3, 5);
+        finalHome = homeGoals + (hp > ap ? 1 : 0);
+        finalAway = awayGoals + (ap > hp ? 1 : 0);
+        penalties = { homeScore: hp, awayScore: ap };
+        events.push({ minute: 120, type: 'info' as any, team: '',
+          description: `🎯 PENALTY SHOOTOUT! Level after extra time — spot kicks decide the Champions League!` });
+        events.sort((a, b) => a.minute - b.minute);
+      }
+
+      this.currentKnockoutMatch = { home, away, homeGoals: finalHome, awayGoals: finalAway,
+        events: [...events], isPlayerMatch: true, penalties };
+      this.startPlayback(this.currentKnockoutMatch, 'knockout_match');
+      return;
     }
 
-    this.currentKnockoutMatch = { home, away, homeGoals: finalHome, awayGoals: finalAway,
-      events: [...events], isPlayerMatch: true, penalties };
-    this.startPlayback(this.currentKnockoutMatch, 'knockout_match');
+    this.tieTeam1 = pair[0];
+    this.tieTeam2 = pair[1];
+    this.currentTieLeg = 1;
+    this.tieLeg1 = null;
+    this.tiePenalties = undefined;
+    this.playTieLeg('knockout_match');
   }
 
   confirmKnockoutResult(): void {
@@ -553,31 +619,62 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     this.clearTimerInterval();
     this.matchPlaying = false;
 
-    const m = this.currentKnockoutMatch;
-    const playerHome = m.home === this.playerTeam;
-    const playerGoals = playerHome ? m.homeGoals : m.awayGoals;
-    const oppGoals = playerHome ? m.awayGoals : m.homeGoals;
-    if (playerGoals < oppGoals) { this.phase = 'eliminated'; return; }
+    const isFinal = this.knockoutRoundIndex === KNOCKOUT_ROUND_NAMES.length - 1;
+
+    if (isFinal) {
+      const m = this.currentKnockoutMatch;
+      const playerHome = m.home === this.playerTeam;
+      const playerGoals = playerHome ? m.homeGoals : m.awayGoals;
+      const oppGoals = playerHome ? m.awayGoals : m.homeGoals;
+      this.phase = playerGoals < oppGoals ? 'eliminated' : 'champion';
+      return;
+    }
+
+    if (this.currentTieLeg === 1) {
+      this.tieLeg1 = this.currentKnockoutMatch;
+      this.currentTieLeg = 2;
+      this.playTieLeg('knockout_match');
+      return;
+    }
+
+    const leg1 = this.tieLeg1!, leg2 = this.currentKnockoutMatch;
+    const team1Goals = leg1.homeGoals + leg2.awayGoals;
+    const team2Goals = leg1.awayGoals + leg2.homeGoals;
+    this.tieAggregateTeam1 = team1Goals;
+    this.tieAggregateTeam2 = team2Goals;
+
+    let tieWinner: Team;
+    if (team1Goals === team2Goals) {
+      let p1 = this.rand(3, 5), p2 = this.rand(3, 5);
+      while (p1 === p2) p2 = this.rand(3, 5);
+      this.tiePenalties = { team1Score: p1, team2Score: p2 };
+      tieWinner = p1 > p2 ? this.tieTeam1! : this.tieTeam2!;
+    } else {
+      this.tiePenalties = undefined;
+      tieWinner = team1Goals > team2Goals ? this.tieTeam1! : this.tieTeam2!;
+    }
+
+    if (tieWinner !== this.playerTeam) { this.phase = 'eliminated'; return; }
 
     const winners: Team[] = [];
     for (const [h, a] of this.knockoutPairs) {
       if (h === this.playerTeam || a === this.playerTeam) { winners.push(this.playerTeam); continue; }
-      const { homeGoals: hg, awayGoals: ag } = this.simulateMatch(h, a, false);
-      winners.push(hg > ag ? h : ag > hg ? a : Math.random() < 0.5 ? h : a);
+      winners.push(this.resolveTwoLeggedTie(h, a));
     }
 
-    if (this.fullBracket[this.knockoutRoundIndex]) {
-      this.fullBracket[this.knockoutRoundIndex].forEach((slot, i) => { if (i < this.knockoutPairs.length) slot.winner = winners[i]; });
+    const bracketSlotIndex = this.knockoutRoundIndex + 1; // +1: fullBracket[0] is the playoff round
+    if (this.fullBracket[bracketSlotIndex]) {
+      this.fullBracket[bracketSlotIndex].forEach((slot, i) => { if (i < this.knockoutPairs.length) slot.winner = winners[i]; });
     }
 
     this.knockoutRoundIndex++;
-    if (this.knockoutRoundIndex >= KNOCKOUT_ROUND_NAMES.length) { this.phase = 'champion'; return; }
 
     this.knockoutPairs = [];
     for (let i = 0; i < winners.length; i += 2) if (winners[i + 1]) this.knockoutPairs.push([winners[i], winners[i + 1]]);
 
-    if (this.fullBracket[this.knockoutRoundIndex]) {
-      this.fullBracket[this.knockoutRoundIndex] = this.knockoutPairs.map(([h, a], i) => ({ home: h, away: a, winner: null, matchIndex: i }));
+    const nextBracketSlotIndex = this.knockoutRoundIndex + 1;
+    if (this.fullBracket[nextBracketSlotIndex]) {
+      this.fullBracket[nextBracketSlotIndex] = this.knockoutPairs.map(([h, a], i) => ({ home: h, away: a, winner: null, matchIndex: i }));
     }
     this.phase = 'knockout_result';
   }
@@ -586,8 +683,13 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
 
   get currentKnockoutRoundName(): string { return KNOCKOUT_ROUND_NAMES[this.knockoutRoundIndex] ?? 'Final'; }
 
+  get isFinalRound(): boolean { return this.knockoutRoundIndex === KNOCKOUT_ROUND_NAMES.length - 1; }
+
   get bracketRounds(): { name: string; slots: BracketSlot[] }[] {
-    return this.fullBracket.map((slots, i) => ({ name: KNOCKOUT_ROUND_NAMES[i] ?? '', slots }));
+    return this.fullBracket.map((slots, i) => ({
+      name: i === 0 ? 'Knockout Playoff' : (KNOCKOUT_ROUND_NAMES[i - 1] ?? ''),
+      slots,
+    }));
   }
 
   isPlayerSlot(slot: BracketSlot): boolean { return slot.home === this.playerTeam || slot.away === this.playerTeam; }
@@ -641,6 +743,8 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     this.leagueSchedule = []; this.leagueStandings = []; this.leagueMatchday = 0;
     this.playoffPairs = []; this.currentPlayoffMatch = null;
     this.knockoutPairs = []; this.knockoutRoundIndex = 0; this.currentKnockoutMatch = null;
+    this.tieTeam1 = null; this.tieTeam2 = null; this.currentTieLeg = 1; this.tieLeg1 = null;
+    this.tieAggregateTeam1 = 0; this.tieAggregateTeam2 = 0; this.tiePenalties = undefined;
     this.currentMatch = null; this.displayedEvents = []; this.roundResults = [];
     this.searchQuery = ''; this.fullBracket = [];
   }
