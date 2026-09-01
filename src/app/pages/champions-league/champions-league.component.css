@@ -368,6 +368,48 @@
 .cl-boost-btn:disabled { opacity: 0.35; cursor: not-allowed; }
 .cl-boost-count { font-size: 0.65rem; color: rgba(255,255,255,0.5); font-weight: 400; }
 
+.cl-badge.extratime { background: #2a1a3a; color: #b98cff; border: 1px solid #b98cff; }
+.cl-badge.shootout { background: #2a1a3a; color: var(--amber); border: 1px solid var(--amber); }
+
+.cl-final-mode { border: 1px solid var(--amber); border-radius: var(--radius); padding: 10px; box-shadow: 0 0 30px rgba(245,166,35,0.15); }
+.cl-final-banner { text-align: center; padding: 8px; }
+.cl-final-banner-title { font-size: 1.3rem; font-weight: 800; color: var(--amber); letter-spacing: 0.04em; }
+.cl-final-banner-sub { font-size: 0.75rem; color: rgba(255,255,255,0.6); margin-top: 2px; }
+
+.cl-kickoff-panel, .cl-halftime-panel { background: var(--surface) !important; border: 1px solid var(--border); padding: 16px; text-align: center; }
+.cl-kickoff-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.5); margin-bottom: 10px; }
+.cl-kickoff-matchup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 16px; }
+.cl-kickoff-team { display: flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 600; }
+.cl-kickoff-logo { width: 26px; height: 26px; object-fit: contain; }
+.cl-kickoff-vs { font-size: 0.7rem; color: rgba(255,255,255,0.4); }
+.cl-kickoff-hint { font-size: 0.72rem; color: rgba(255,255,255,0.4); margin-top: 12px; }
+
+.cl-formations-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+.cl-formation-card {
+  background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px;
+  padding: 10px; cursor: pointer; text-align: left; transition: all 0.2s;
+}
+.cl-formation-card:hover { border-color: var(--accent); }
+.cl-formation-card.selected { border-color: var(--accent); background: rgba(79,163,255,0.1); }
+.cl-formation-name { font-size: 0.8rem; font-weight: 700; margin-bottom: 4px; }
+.cl-formation-desc { font-size: 0.68rem; color: rgba(255,255,255,0.5); margin-bottom: 6px; line-height: 1.3; }
+.cl-formation-mods { display: flex; gap: 6px; }
+.cl-mod { font-size: 0.65rem; padding: 1px 6px; border-radius: 4px; background: var(--surface-3); color: rgba(255,255,255,0.6); }
+.cl-mod.positive { color: #2ecc71; }
+.cl-mod.negative { color: #e74c3c; }
+
+.cl-halftime-title { font-size: 1rem; font-weight: 700; color: var(--amber); margin-bottom: 14px; }
+.cl-halftime-formation { margin-top: 16px; padding-top: 14px; border-top: 1px dashed var(--border); }
+
+.cl-boosts-row { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.cl-boost-btn {
+  flex: 1; min-width: 110px; background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px;
+  padding: 10px 8px; color: #fff; font-size: 0.75rem; font-weight: 600; cursor: pointer; transition: all 0.2s;
+}
+.cl-boost-btn:hover:not(:disabled) { border-color: var(--accent); }
+.cl-boost-btn.active { border-color: var(--correct); background: rgba(39,174,96,0.15); color: #2ecc71; }
+.cl-boost-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+.cl-boost-count { font-size: 0.65rem; color: rgba(255,255,255,0.5); font-weight: 400; }
 
 
 /* ─── Responsive ─────────────────────── */

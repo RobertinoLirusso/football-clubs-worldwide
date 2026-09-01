@@ -42,7 +42,25 @@ interface BracketSlot {
   home: Team | null; away: Team | null; winner: Team | null; matchIndex: number;
 }
 
+interface Formation {
+  id: string;
+  label: string;
+  attackMod: number;
+  defenseMod: number;
+  description: string;
+}
+
 const KNOCKOUT_ROUND_NAMES = ['Round of 16', 'Quarter-final', 'Semi-final', 'Final'];
+
+const FORMATIONS: Formation[] = [
+  { id: '4-4-2',   label: '4-4-2 · Balanced',        attackMod: 0,   defenseMod: 0,   description: 'Classic balance between midfield control and attacking outlets.' },
+  { id: '4-3-3',   label: '4-3-3 · Attacking',        attackMod: 12,  defenseMod: -8,  description: 'Wide forwards stretch defenses, but leaves space in behind.' },
+  { id: '3-5-2',   label: '3-5-2 · Midfield Control', attackMod: 4,   defenseMod: 4,   description: 'Numerical superiority in midfield, wing-backs provide width.' },
+  { id: '4-2-3-1', label: '4-2-3-1 · Modern',         attackMod: 7,   defenseMod: 2,   description: 'Double pivot protects the back four, creative freedom up top.' },
+  { id: '3-4-3',   label: '3-4-3 · All-out Attack',   attackMod: 18,  defenseMod: -16, description: 'Maximum attacking threat, high risk at the back.' },
+  { id: '5-3-2',   label: '5-3-2 · Defensive',        attackMod: -12, defenseMod: 16,  description: 'Five at the back, built to frustrate a stronger opponent.' },
+  { id: '5-4-1',   label: '5-4-1 · Ultra Defensive',  attackMod: -20, defenseMod: 20,  description: 'Park the bus — soak up pressure and hit on the break.' },
+];
 
 // ─── Component ──────────────────────────────────────────────────────────────
 
@@ -54,6 +72,7 @@ const KNOCKOUT_ROUND_NAMES = ['Round of 16', 'Quarter-final', 'Semi-final', 'Fin
 export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   readonly FINAL_INFO = FINAL_INFO;
   readonly KNOCKOUT_ROUND_NAMES = KNOCKOUT_ROUND_NAMES;
+  readonly FORMATIONS = FORMATIONS;
 
   allClubsData: any[] = [];
   phase: GamePhase = 'home';
@@ -62,7 +81,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   playerTeam: Team | null = null;
   searchQuery = '';
 
-  // League phase (Swiss-style single table)
+  // League phase (real UEFA fixtures)
   leagueSchedule: MatchResult[][] = [];
   leagueMatchday = 0;
   leagueStandings: LeagueStanding[] = [];
@@ -96,8 +115,10 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   displayedEvents: MatchEvent[] = [];
   matchPlaying = false;
   private matchInterval: any = null;
+  private playbackOnComplete: (() => void) | null = null;
 
-  // Power-ups
+  // Tactic & power-ups
+  selectedFormation: Formation = FORMATIONS[0];
   attackBoostsLeft = 3;
   defenseBoostsLeft = 3;
   refreshBoostsLeft = 3;
@@ -105,11 +126,17 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   matchDefenseBoostUsed = false;
   matchRefreshBoostUsed = false;
 
-  // Pre-match kickoff gate
-  awaitingKickoff = false;
+  // Pre-match: pick a formation (power-ups are NOT available here)
+  awaitingFormation = false;
   pendingHome: Team | null = null;
   pendingAway: Team | null = null;
-  private kickoffAction: (() => void) | null = null;
+  private formationAction: (() => void) | null = null;
+
+  // Half-time pause: this is where power-ups AND tactic changes happen
+  atHalftime = false;
+  halftimeHomeGoals = 0;
+  halftimeAwayGoals = 0;
+  private halftimeMatchCtx: { home: Team; away: Team; isFinal: boolean } | null = null;
 
   constructor(private clubService: ClubService, private seoService: SeoService) {}
 
@@ -204,26 +231,29 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
 
   private buildMatch(home: Team, away: Team): MatchResult {
     const isPlayer = home === this.playerTeam || away === this.playerTeam;
-    const { homeGoals, awayGoals, events } = this.simulatePlayerAware(home, away, isPlayer);
+    const { homeGoals, awayGoals, events } = this.simulateMatch(home, away, false);
     return { home, away, homeGoals, awayGoals, events, isPlayerMatch: isPlayer };
   }
 
-  // ─── Power-ups ────────────────────────────────────────────────────────────
+  // ─── Tactic & power-ups ─────────────────────────────────────────────────
 
-  private boostedTeam(team: Team): Team {
+  // Aplica táctica (siempre activa) y comodines (sólo si ya se usaron en el entretiempo).
+  private effectiveTeam(team: Team, applyFormation: boolean): Team {
     if (team !== this.playerTeam) return team;
-    if (!this.matchAttackBoostUsed && !this.matchDefenseBoostUsed && !this.matchRefreshBoostUsed) return team;
     let attack = team.attack, defense = team.defense;
-    if (this.matchAttackBoostUsed) attack = Math.min(99, attack + 12);
-    if (this.matchDefenseBoostUsed) defense = Math.min(99, defense + 12);
-    if (this.matchRefreshBoostUsed) { attack = Math.min(99, attack + 6); defense = Math.min(99, defense + 6); }
+    if (applyFormation) {
+      attack += this.selectedFormation.attackMod;
+      defense += this.selectedFormation.defenseMod;
+    }
+    if (this.matchAttackBoostUsed) attack += 20;
+    if (this.matchDefenseBoostUsed) defense += 20;
+    if (this.matchRefreshBoostUsed) { attack += 12; defense += 12; }
+    attack = Math.min(99, Math.max(20, attack));
+    defense = Math.min(99, Math.max(20, defense));
     return { ...team, attack, defense };
   }
 
-  private simulatePlayerAware(home: Team, away: Team, detailed: boolean, isFinal = false) {
-    return this.simulateMatch(this.boostedTeam(home), this.boostedTeam(away), detailed, isFinal);
-  }
-
+  // Estos sólo tienen efecto si se llaman durante this.atHalftime (la UI ya lo garantiza).
   useAttackBoost(): void {
     if (this.attackBoostsLeft <= 0 || this.matchAttackBoostUsed) return;
     this.attackBoostsLeft--; this.matchAttackBoostUsed = true;
@@ -239,27 +269,27 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     this.refreshBoostsLeft--; this.matchRefreshBoostUsed = true;
   }
 
-  private openKickoffGate(phase: GamePhase, home: Team, away: Team, action: () => void): void {
+  private openFormationGate(phase: GamePhase, home: Team, away: Team, action: () => void): void {
     this.matchAttackBoostUsed = false;
     this.matchDefenseBoostUsed = false;
     this.matchRefreshBoostUsed = false;
     this.pendingHome = home;
     this.pendingAway = away;
-    this.kickoffAction = action;
-    this.awaitingKickoff = true;
+    this.formationAction = action;
+    this.awaitingFormation = true;
     this.phase = phase;
   }
 
-  confirmKickoff(): void {
-    this.awaitingKickoff = false;
-    const action = this.kickoffAction;
-    this.kickoffAction = null;
+  confirmFormation(): void {
+    this.awaitingFormation = false;
+    const action = this.formationAction;
+    this.formationAction = null;
     if (action) action();
   }
 
   // ─── Simulation engine ────────────────────────────────────────────────────
 
-  private simulateMatch(home: Team, away: Team, detailed: boolean, isFinal = false) {
+  private simulateMatch(home: Team, away: Team, detailed: boolean) {
     const homeAdvantage = 6;
     const homeMorale = this.rand(-10, 10);
     const awayMorale = this.rand(-10, 10);
@@ -272,13 +302,13 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     const homeGoals = this.goalsFromStrength(homeStr);
     const awayGoals = this.goalsFromStrength(awayStr);
     const events: MatchEvent[] = detailed
-      ? this.generateEvents(home, away, homeGoals, awayGoals, homeStr, awayStr, isFinal)
+      ? this.generateEvents(home, away, homeGoals, awayGoals, homeStr, awayStr)
       : [];
     return { homeGoals, awayGoals, events };
   }
 
   private goalsFromStrength(str: number): number {
-    return this.poissonSample(Math.max(0.1, (str - 38) / 20));
+    return this.poissonSample(Math.max(0.1, (str - 38) / 15));
   }
 
   private poissonSample(avg: number): number {
@@ -295,8 +325,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   private factorial(n: number): number { return n <= 1 ? 1 : n * this.factorial(n - 1); }
 
   private generateEvents(
-    home: Team, away: Team, homeGoals: number, awayGoals: number,
-    homeStr: number, awayStr: number, isFinal = false
+    home: Team, away: Team, homeGoals: number, awayGoals: number, homeStr: number, awayStr: number
   ): MatchEvent[] {
     const events: MatchEvent[] = [];
     const usedMins = new Set<number>([0, 45, 91]);
@@ -318,9 +347,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
 
     const dominantTeam = homeStr >= awayStr ? home : away;
     const weakerTeam = homeStr >= awayStr ? away : home;
-    // La final tiene muchas menos incidencias — un partido más limpio y realista,
-    // que además dura ~1 minuto de reproducción (ver startPlayback con totalDurationMs).
-    const extraCount = isFinal ? this.rand(4, 8) : this.rand(10, 16);
+    const extraCount = this.rand(10, 16);
     const pool = ['save', 'miss', 'yellow', 'foul', 'corner', 'offside', 'var'] as const;
     type PoolType = typeof pool[number];
     const descMap: Record<PoolType, (t: Team) => string> = {
@@ -366,30 +393,149 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     return pool[Math.floor(Math.random() * pool.length)];
   }
 
-  // ─── Extra time (used in every tied knockout tie, incl. the final) ────────
+  // ─── Live regulation match, split in two halves with a half-time pause ────
 
-  private simulateExtraTime(team1: Team, team2: Team): { t1: number; t2: number; events: MatchEvent[] } {
-    const b1 = this.boostedTeam(team1), b2 = this.boostedTeam(team2);
-    const str1 = b1.attack * 0.5 + (100 - b2.defense) * 0.3 + b1.stamina * 0.1;
-    const str2 = b2.attack * 0.5 + (100 - b1.defense) * 0.3 + b2.stamina * 0.1;
-    const g1 = this.poissonSample(Math.max(0.03, ((str1 - 38) / 20) * 0.35));
-    const g2 = this.poissonSample(Math.max(0.03, ((str2 - 38) / 20) * 0.35));
+  private simulateHalfGoals(home: Team, away: Team): { homeGoals: number; awayGoals: number } {
+    const homeAdvantage = 3;
+    const homeMorale = this.rand(-6, 6);
+    const awayMorale = this.rand(-6, 6);
+    const homeStr = home.attack * 0.55 + (100 - away.defense) * 0.35 + home.stamina * 0.1 + homeAdvantage + homeMorale;
+    const awayStr = away.attack * 0.55 + (100 - home.defense) * 0.35 + away.stamina * 0.1 + awayMorale;
+    const homeGoals = this.poissonSample(Math.max(0.05, (homeStr - 38) / 15 / 2));
+    const awayGoals = this.poissonSample(Math.max(0.05, (awayStr - 38) / 15 / 2));
+    return { homeGoals, awayGoals };
+  }
 
-    const events: MatchEvent[] = [
-      { minute: 91, type: 'info' as any, team: '', description: `⏱️ Extra time begins! 30 more minutes to separate ${team1.name} and ${team2.name}.` },
-    ];
-    const usedMins = new Set<number>([91, 120]);
+  private buildHalfEvents(home: Team, away: Team, homeGoals: number, awayGoals: number, half: 1 | 2, isFinal: boolean): MatchEvent[] {
+    const events: MatchEvent[] = [];
+    const minFrom = half === 1 ? 1 : 46;
+    const minTo = half === 1 ? 45 : 90;
+    const usedMins = new Set<number>();
     const randMin = (): number => {
       let m: number, tries = 0;
-      do { m = this.rand(92, 119); tries++; } while (usedMins.has(m) && tries < 20);
+      do { m = this.rand(minFrom, minTo); tries++; } while (usedMins.has(m) && tries < 40);
       usedMins.add(m);
       return m;
     };
-    for (let i = 0; i < g1; i++) { const min = randMin(); events.push({ minute: min, type: 'goal', team: team1.name, description: this.pickGoalDesc(team1.name, min) }); }
-    for (let i = 0; i < g2; i++) { const min = randMin(); events.push({ minute: min, type: 'goal', team: team2.name, description: this.pickGoalDesc(team2.name, min) }); }
+
+    for (let i = 0; i < homeGoals; i++) { const min = randMin(); events.push({ minute: min, type: 'goal', team: home.name, description: this.pickGoalDesc(home.name, min) }); }
+    for (let i = 0; i < awayGoals; i++) { const min = randMin(); events.push({ minute: min, type: 'goal', team: away.name, description: this.pickGoalDesc(away.name, min) }); }
+
+    const dominantTeam = (home.attack + home.defense) >= (away.attack + away.defense) ? home : away;
+    const weakerTeam = dominantTeam === home ? away : home;
+    // La final tiene muchas menos incidencias — partido más limpio y realista, además de más corto.
+    const extraCount = isFinal ? this.rand(2, 4) : this.rand(5, 8);
+    const pool = ['save', 'miss', 'yellow', 'foul', 'corner', 'offside', 'var'] as const;
+    type PoolType = typeof pool[number];
+    const descMap: Record<PoolType, (t: Team) => string> = {
+      save:    t => `🧤 Big save! The ${t.name} goalkeeper denies a certain goal!`,
+      miss:    t => `😬 ${t.name} rattles the crossbar! So close!`,
+      yellow:  t => `🟨 Yellow card for ${t.name}.`,
+      foul:    t => `🦵 Foul by ${t.name}, dangerous free kick conceded.`,
+      corner:  t => `🚩 Corner for ${t.name}, set-piece chance.`,
+      offside: t => `🚫 Offside! ${t.name}'s attack is called back.`,
+      var:     _t => `📺 VAR is checking the play…`,
+    };
+    for (let i = 0; i < extraCount; i++) {
+      const type: PoolType = pool[Math.floor(Math.random() * pool.length)];
+      const useWeak = (type === 'foul' || type === 'yellow') && Math.random() < 0.65;
+      const team = useWeak ? weakerTeam : (Math.random() < 0.55 ? dominantTeam : weakerTeam);
+      events.push({ minute: randMin(), type, team: team.name, description: descMap[type](team) });
+    }
+
+    if (half === 1) {
+      events.push({ minute: 0, type: 'info' as any, team: '', description: `🏟️ Kick-off! ${home.name} vs ${away.name}.` });
+    } else {
+      events.push({ minute: 46, type: 'info' as any, team: '', description: `▶️ Second half underway!` });
+    }
+
+    return events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
+  }
+
+  // Duración total del partido en vivo. En la final ronda ~1 minuto real por mitad.
+  private playRegulationMatch(home: Team, away: Team, phase: GamePhase, isFinal: boolean): void {
+    const bHome = this.effectiveTeam(home, true), bAway = this.effectiveTeam(away, true);
+    const { homeGoals: h1, awayGoals: a1 } = this.simulateHalfGoals(bHome, bAway);
+    const half1Events = this.buildHalfEvents(home, away, h1, a1, 1, isFinal);
+    const half1Match: MatchResult = { home, away, homeGoals: h1, awayGoals: a1, events: half1Events, isPlayerMatch: true };
+    this.halftimeMatchCtx = { home, away, isFinal };
+    this.startPlayback(half1Match, phase, isFinal ? 25000 : undefined, () => this.enterHalftime());
+  }
+
+  private enterHalftime(): void {
+    this.atHalftime = true;
+    this.halftimeHomeGoals = this.currentMatch?.homeGoals ?? 0;
+    this.halftimeAwayGoals = this.currentMatch?.awayGoals ?? 0;
+  }
+
+  resumeSecondHalf(): void {
+    const ctx = this.halftimeMatchCtx;
+    if (!ctx) return;
+    this.atHalftime = false;
+    const bHome = this.effectiveTeam(ctx.home, true), bAway = this.effectiveTeam(ctx.away, true);
+    const { homeGoals: h2, awayGoals: a2 } = this.simulateHalfGoals(bHome, bAway);
+    const half2Events = this.buildHalfEvents(ctx.home, ctx.away, h2, a2, 2, ctx.isFinal);
+    const totalHome = this.halftimeHomeGoals + h2;
+    const totalAway = this.halftimeAwayGoals + a2;
+    half2Events.push({ minute: 91, type: 'info' as any, team: '', description: `🏁 Full time: ${ctx.home.name} ${totalHome}–${totalAway} ${ctx.away.name}.` });
+    half2Events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
+    const fullMatch: MatchResult = { home: ctx.home, away: ctx.away, homeGoals: totalHome, awayGoals: totalAway, events: half2Events, isPlayerMatch: true };
+    this.startPlayback(fullMatch, this.phase, ctx.isFinal ? 25000 : undefined, undefined, false);
+  }
+
+  // ─── Extra time (used in every tied knockout tie, incl. the final) ────────
+
+  private simulateExtraTime(team1: Team, team2: Team): { t1: number; t2: number; events: MatchEvent[] } {
+    const b1 = this.effectiveTeam(team1, true), b2 = this.effectiveTeam(team2, true);
+    const str1 = b1.attack * 0.5 + (100 - b2.defense) * 0.3 + b1.stamina * 0.1;
+    const str2 = b2.attack * 0.5 + (100 - b1.defense) * 0.3 + b2.stamina * 0.1;
+    const g1 = this.poissonSample(Math.max(0.03, ((str1 - 38) / 15) * 0.4));
+    const g2 = this.poissonSample(Math.max(0.03, ((str2 - 38) / 15) * 0.4));
+  
+    const events: MatchEvent[] = [
+      { minute: 91, type: 'info' as any, team: '', description: `⏱️ Extra time begins! 30 more minutes to separate ${team1.name} and ${team2.name}.` },
+    ];
+    const usedMins = new Set<number>([91, 105, 106, 120]);
+    const randMin = (from: number, to: number): number => {
+      let m: number, tries = 0;
+      do { m = this.rand(from, to); tries++; } while (usedMins.has(m) && tries < 20);
+      usedMins.add(m);
+      return m;
+    };
+  
+    for (let i = 0; i < g1; i++) { const min = randMin(92, 119); events.push({ minute: min, type: 'goal', team: team1.name, description: this.pickGoalDesc(team1.name, min) }); }
+    for (let i = 0; i < g2; i++) { const min = randMin(92, 119); events.push({ minute: min, type: 'goal', team: team2.name, description: this.pickGoalDesc(team2.name, min) }); }
+  
+    // Incidencias (antes la prórroga sólo tenía goles) — ahora tiene el mismo tipo
+    // de eventos que un tiempo normal, repartidos en los dos periodos de 15'.
+    const dominantTeam = (str1 >= str2) ? team1 : team2;
+    const weakerTeam = dominantTeam === team1 ? team2 : team1;
+    const pool = ['save', 'miss', 'yellow', 'foul', 'corner', 'offside', 'var'] as const;
+    type PoolType = typeof pool[number];
+    const descMap: Record<PoolType, (t: Team) => string> = {
+      save:    t => `🧤 Big save! The ${t.name} goalkeeper denies a certain goal!`,
+      miss:    t => `😬 ${t.name} rattles the crossbar! So close!`,
+      yellow:  t => `🟨 Yellow card for ${t.name}.`,
+      foul:    t => `🦵 Foul by ${t.name}, dangerous free kick conceded.`,
+      corner:  t => `🚩 Corner for ${t.name}, set-piece chance.`,
+      offside: t => `🚫 Offside! ${t.name}'s attack is called back.`,
+      var:     _t => `📺 VAR is checking the play…`,
+    };
+    const extraCount = this.rand(6, 10);
+    for (let i = 0; i < extraCount; i++) {
+      const type: PoolType = pool[Math.floor(Math.random() * pool.length)];
+      const useWeak = (type === 'foul' || type === 'yellow') && Math.random() < 0.65;
+      const team = useWeak ? weakerTeam : (Math.random() < 0.55 ? dominantTeam : weakerTeam);
+      events.push({ minute: randMin(92, 119), type, team: team.name, description: descMap[type](team) });
+    }
+  
+    const g1First = events.filter(e => e.type === 'goal' && e.team === team1.name && e.minute <= 105).length;
+    const g2First = events.filter(e => e.type === 'goal' && e.team === team2.name && e.minute <= 105).length;
+    events.push({ minute: 105, type: 'info' as any, team: '', description: `⏸️ End of first half of extra time: ${team1.name} ${g1First}-${g2First} ${team2.name}.` });
+    events.push({ minute: 106, type: 'info' as any, team: '', description: `▶️ Second half of extra time underway!` });
     events.push({ minute: 120, type: 'info' as any, team: '', description: `🏁 End of extra time: ${team1.name} ${g1}-${g2} ${team2.name}.` });
     events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
-
+  
     return { t1: g1, t2: g2, events };
   }
 
@@ -399,7 +545,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     this.extraTimeGoals = { team1: t1, team2: t2 };
     const etMatch: MatchResult = { home: team1, away: team2, homeGoals: t1, awayGoals: t2, events, isPlayerMatch: true };
     this.tieContext = context;
-    this.startPlayback(etMatch, context === 'playoff' ? 'playoff_extratime' : 'knockout_extratime');
+    this.startPlayback(etMatch, context === 'playoff' ? 'playoff_extratime' : 'knockout_extratime', 18000);
   }
 
   confirmExtraTimeResult(): void {
@@ -434,15 +580,15 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   private buildShootoutEvents(team1: Team, team2: Team, kicks: Array<{ team: 1 | 2; scored: boolean }>): MatchEvent[] {
     const events: MatchEvent[] = [{
       minute: 0, type: 'info' as any, team: '',
-      description: `🎯 ¡Tanda de penales! ${team1.name} vs ${team2.name}.`,
+      description: `🎯 Penalty shootout! ${team1.name} vs ${team2.name}.`,
     }];
     let n1 = 0, n2 = 0;
     kicks.forEach((k, i) => {
       const team = k.team === 1 ? team1 : team2;
       const num = k.team === 1 ? ++n1 : ++n2;
       events.push(k.scored
-        ? { minute: 121 + i, type: 'goal', team: team.name, description: `⚽ ¡Gol! ${team.name} convierte el penal ${num}.` }
-        : { minute: 121 + i, type: 'miss', team: team.name, description: `❌ ¡Falla! ${team.name} desperdicia el penal ${num}.` });
+        ? { minute: 121 + i, type: 'goal', team: team.name, description: `⚽ Goal! ${team.name} converts kick ${num}.` }
+        : { minute: 121 + i, type: 'miss', team: team.name, description: `❌ Missed! ${team.name} fails to convert kick ${num}.` });
     });
     return events;
   }
@@ -522,12 +668,8 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     }
     const idx = this.roundResults.findIndex(m => m.isPlayerMatch);
     const original = this.roundResults[idx];
-    this.openKickoffGate('league_match', original.home, original.away, () => {
-      const rebuilt = this.buildMatch(original.home, original.away); // re-simula con comodines activos
-      this.roundResults[idx] = rebuilt;
-      this.leagueSchedule[this.leagueMatchday][idx] = rebuilt;
-      this.startPlayback(rebuilt, 'league_match');
-    });
+    this.openFormationGate('league_match', original.home, original.away, () =>
+      this.playRegulationMatch(original.home, original.away, 'league_match', false));
   }
 
   confirmMatchResult(): void {
@@ -623,7 +765,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     return seeded.map((t, i) => [t, unseeded[i]] as [Team, Team]);
   }
 
-  // Two-legged tie resolved instantly for CPU-vs-CPU pairs (sin comodines: nunca involucra al jugador).
+  // Two-legged tie resolved instantly for CPU-vs-CPU pairs (nunca involucra al jugador).
   private resolveTwoLeggedTie(team1: Team, team2: Team): Team {
     const leg1 = this.simulateMatch(team1, team2, false);
     const leg2 = this.simulateMatch(team2, team1, false);
@@ -633,16 +775,6 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     return t1 > t2 ? team1 : team2;
   }
 
-  private playTieLeg(returnPhase: 'playoff_match' | 'knockout_match'): void {
-    const home = this.currentTieLeg === 1 ? this.tieTeam1! : this.tieTeam2!;
-    const away = this.currentTieLeg === 1 ? this.tieTeam2! : this.tieTeam1!;
-    const { homeGoals, awayGoals, events } = this.simulatePlayerAware(home, away, true);
-    const match: MatchResult = { home, away, homeGoals, awayGoals, events, isPlayerMatch: true };
-    if (returnPhase === 'playoff_match') this.currentPlayoffMatch = match;
-    else this.currentKnockoutMatch = match;
-    this.startPlayback(match, returnPhase);
-  }
-
   playPlayoffMatch(): void {
     const pair = this.playoffPairs.find(([h, a]) => h === this.playerTeam || a === this.playerTeam)!;
     this.tieTeam1 = pair[0];
@@ -650,22 +782,25 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     this.currentTieLeg = 1;
     this.tieLeg1 = null;
     this.tiePenalties = undefined;
-    this.openKickoffGate('playoff_match', pair[0], pair[1], () => this.playTieLeg('playoff_match'));
+    this.openFormationGate('playoff_match', pair[0], pair[1], () =>
+      this.playRegulationMatch(pair[0], pair[1], 'playoff_match', false));
   }
 
   confirmPlayoffResult(): void {
-    if (!this.currentPlayoffMatch || !this.playerTeam) return;
+    if (!this.currentMatch || !this.playerTeam) return;
     this.clearTimerInterval();
     this.matchPlaying = false;
+    this.currentPlayoffMatch = this.currentMatch;
 
     if (this.currentTieLeg === 1) {
-      this.tieLeg1 = this.currentPlayoffMatch;
+      this.tieLeg1 = this.currentMatch;
       this.currentTieLeg = 2;
-      this.openKickoffGate('playoff_match', this.tieTeam2!, this.tieTeam1!, () => this.playTieLeg('playoff_match'));
+      this.openFormationGate('playoff_match', this.tieTeam2!, this.tieTeam1!, () =>
+        this.playRegulationMatch(this.tieTeam2!, this.tieTeam1!, 'playoff_match', false));
       return;
     }
 
-    const leg1 = this.tieLeg1!, leg2 = this.currentPlayoffMatch;
+    const leg1 = this.tieLeg1!, leg2 = this.currentMatch;
     this.tieAggregateTeam1 = leg1.homeGoals + leg2.awayGoals;
     this.tieAggregateTeam2 = leg1.awayGoals + leg2.homeGoals;
 
@@ -705,12 +840,8 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     if (isFinal) {
       const [home, away] = pair;
       this.finalStage = 'regulation';
-      this.openKickoffGate('knockout_match', home, away, () => {
-        const { homeGoals, awayGoals, events } = this.simulatePlayerAware(home, away, true, true);
-        this.currentKnockoutMatch = { home, away, homeGoals, awayGoals, events, isPlayerMatch: true };
-        // La final se reproduce en ~1 minuto real (60000ms), sin importar la cantidad de incidencias.
-        this.startPlayback(this.currentKnockoutMatch, 'knockout_match', 60000);
-      });
+      this.openFormationGate('knockout_match', home, away, () =>
+        this.playRegulationMatch(home, away, 'knockout_match', true));
       return;
     }
 
@@ -719,30 +850,28 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     this.currentTieLeg = 1;
     this.tieLeg1 = null;
     this.tiePenalties = undefined;
-    this.openKickoffGate('knockout_match', pair[0], pair[1], () => this.playTieLeg('knockout_match'));
+    this.openFormationGate('knockout_match', pair[0], pair[1], () =>
+      this.playRegulationMatch(pair[0], pair[1], 'knockout_match', false));
   }
 
   confirmKnockoutResult(): void {
-    if (!this.currentKnockoutMatch || !this.playerTeam) return;
+    if (!this.currentMatch || !this.playerTeam) return;
     this.clearTimerInterval();
     this.matchPlaying = false;
 
     const isFinal = this.knockoutRoundIndex === KNOCKOUT_ROUND_NAMES.length - 1;
 
     if (isFinal) {
-      const m = this.currentKnockoutMatch;
+      const m = this.currentMatch;
+      this.currentKnockoutMatch = m;
 
       if (this.finalStage === 'regulation') {
         if (m.homeGoals === m.awayGoals) {
           this.finalStage = 'extratime';
           const { t1, t2, events } = this.simulateExtraTime(m.home, m.away);
-          const etMatch: MatchResult = {
-            home: m.home, away: m.away,
-            homeGoals: m.homeGoals + t1, awayGoals: m.awayGoals + t2,
-            events, isPlayerMatch: true,
-          };
+          const etMatch: MatchResult = { home: m.home, away: m.away, homeGoals: m.homeGoals + t1, awayGoals: m.awayGoals + t2, events, isPlayerMatch: true };
           this.currentKnockoutMatch = etMatch;
-          this.startPlayback(etMatch, 'knockout_match');
+          this.startPlayback(etMatch, 'knockout_match', 18000);
           return;
         }
         this.finishFinal(m);
@@ -763,19 +892,21 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
         return;
       }
 
-      // finalStage === 'shootout'
-      this.finishFinal(m);
+      this.finishFinal(m); // finalStage === 'shootout'
       return;
     }
+
+    this.currentKnockoutMatch = this.currentMatch;
 
     if (this.currentTieLeg === 1) {
-      this.tieLeg1 = this.currentKnockoutMatch;
+      this.tieLeg1 = this.currentMatch;
       this.currentTieLeg = 2;
-      this.openKickoffGate('knockout_match', this.tieTeam2!, this.tieTeam1!, () => this.playTieLeg('knockout_match'));
+      this.openFormationGate('knockout_match', this.tieTeam2!, this.tieTeam1!, () =>
+        this.playRegulationMatch(this.tieTeam2!, this.tieTeam1!, 'knockout_match', false));
       return;
     }
 
-    const leg1 = this.tieLeg1!, leg2 = this.currentKnockoutMatch;
+    const leg1 = this.tieLeg1!, leg2 = this.currentMatch;
     this.tieAggregateTeam1 = leg1.homeGoals + leg2.awayGoals;
     this.tieAggregateTeam2 = leg1.awayGoals + leg2.homeGoals;
 
@@ -805,13 +936,17 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
 
   // ─── Shared playback ─────────────────────────────────────────────────────
 
-  private startPlayback(match: MatchResult, returnPhase: GamePhase, totalDurationMs?: number): void {
+  private startPlayback(
+    match: MatchResult, returnPhase: GamePhase, totalDurationMs?: number,
+    onComplete?: () => void, resetDisplay: boolean = true
+  ): void {
     this.clearTimerInterval();
     this.currentMatch = match;
     this.currentEventIndex = 0;
-    this.displayedEvents = [];
+    if (resetDisplay) this.displayedEvents = [];
     this.matchPlaying = true;
     this.phase = returnPhase;
+    this.playbackOnComplete = onComplete ?? null;
 
     const events = match.events;
     const interval = totalDurationMs && events.length > 0
@@ -826,6 +961,9 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
       } else {
         this.clearTimerInterval();
         this.matchPlaying = false;
+        const cb = this.playbackOnComplete;
+        this.playbackOnComplete = null;
+        if (cb) cb();
       }
     }, interval);
   }
@@ -874,9 +1012,12 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     this.extraTimeGoals = { team1: 0, team2: 0 }; this.tieContext = null;
     this.currentMatch = null; this.displayedEvents = []; this.roundResults = [];
     this.searchQuery = ''; this.fullBracket = []; this.finalStage = 'regulation';
+    this.selectedFormation = FORMATIONS[0];
     this.attackBoostsLeft = 3; this.defenseBoostsLeft = 3; this.refreshBoostsLeft = 3;
     this.matchAttackBoostUsed = false; this.matchDefenseBoostUsed = false; this.matchRefreshBoostUsed = false;
-    this.awaitingKickoff = false; this.pendingHome = null; this.pendingAway = null; this.kickoffAction = null;
+    this.awaitingFormation = false; this.pendingHome = null; this.pendingAway = null; this.formationAction = null;
+    this.atHalftime = false; this.halftimeHomeGoals = 0; this.halftimeAwayGoals = 0; this.halftimeMatchCtx = null;
+    this.playbackOnComplete = null;
   }
 
   // ─── Utils ────────────────────────────────────────────────────────────────
@@ -887,4 +1028,5 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   trackByName(_: number, t: Team): string { return t.name; }
   trackByIdx(i: number): number { return i; }
   trackByPot(_: number, g: { pot: number }): number { return g.pot; }
+  trackByFormation(_: number, f: Formation): string { return f.id; }
 }

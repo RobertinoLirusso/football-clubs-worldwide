@@ -14,7 +14,7 @@
         <div class="cl-info-pills">
           <span class="cl-pill">⚽ 36 clubs</span>
           <span class="cl-pill">📋 8 matchdays</span>
-          <span class="cl-pill">🎯 Playoff round</span>
+          <span class="cl-pill">🧩 Tactics</span>
           <span class="cl-pill">🃏 3 power-ups</span>
           <span class="cl-pill">🏟️ Final: {{ FINAL_INFO.venue }}, {{ FINAL_INFO.date }}</span>
         </div>
@@ -70,7 +70,7 @@
     </div>
 
     <!-- ══════ MATCH (league, playoff, knockout, extra time or shootout) ══════ -->
-    <div *ngIf="(phase === 'league_match' || phase === 'playoff_match' || phase === 'knockout_match' || phase === 'playoff_extratime' || phase === 'knockout_extratime' || phase === 'playoff_shootout' || phase === 'knockout_shootout') && (currentMatch || awaitingKickoff)"
+    <div *ngIf="(phase === 'league_match' || phase === 'playoff_match' || phase === 'knockout_match' || phase === 'playoff_extratime' || phase === 'knockout_extratime' || phase === 'playoff_shootout' || phase === 'knockout_shootout') && (currentMatch || awaitingFormation)"
          class="cl-match-wrap" [class.cl-final-mode]="phase === 'knockout_match' && isFinalRound">
 
       <!-- Special final banner -->
@@ -79,9 +79,9 @@
         <div class="cl-final-banner-sub">{{ FINAL_INFO.venue }} · {{ FINAL_INFO.city }} · {{ FINAL_INFO.date }}</div>
       </div>
 
-      <!-- Pre-match: choose power-ups -->
-      <div *ngIf="awaitingKickoff" class="cl-kickoff-panel w3-card w3-round-large">
-        <div class="cl-kickoff-title">Get ready</div>
+      <!-- Pre-match: choose tactical formation (no power-ups here) -->
+      <div *ngIf="awaitingFormation" class="cl-kickoff-panel w3-card w3-round-large">
+        <div class="cl-kickoff-title">Choose your tactical formation</div>
         <div class="cl-kickoff-matchup" *ngIf="pendingHome && pendingAway">
           <div class="cl-kickoff-team">
             <img *ngIf="pendingHome.logo" [src]="pendingHome.logo" class="cl-kickoff-logo" />
@@ -93,6 +93,30 @@
             <span>{{ pendingAway.name }}</span>
           </div>
         </div>
+
+        <div class="cl-formations-grid">
+          <div *ngFor="let f of FORMATIONS; trackBy: trackByFormation"
+               class="cl-formation-card" [class.selected]="selectedFormation.id === f.id"
+               (click)="selectedFormation = f">
+            <div class="cl-formation-name">{{ f.label }}</div>
+            <div class="cl-formation-desc">{{ f.description }}</div>
+            <div class="cl-formation-mods">
+              <span class="cl-mod" [class.positive]="f.attackMod > 0" [class.negative]="f.attackMod < 0">ATK {{ f.attackMod > 0 ? '+' : '' }}{{ f.attackMod }}</span>
+              <span class="cl-mod" [class.positive]="f.defenseMod > 0" [class.negative]="f.defenseMod < 0">DEF {{ f.defenseMod > 0 ? '+' : '' }}{{ f.defenseMod }}</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="cl-kickoff-hint">🃏 Power-ups will be available at half-time.</p>
+
+        <div class="w3-center w3-margin-top">
+          <button class="cl-btn-primary w3-button w3-round" (click)="confirmFormation()">▶ Kick off</button>
+        </div>
+      </div>
+
+      <!-- Half-time pause: power-ups + tactic change -->
+      <div *ngIf="atHalftime" class="cl-halftime-panel w3-card w3-round-large">
+        <div class="cl-halftime-title">⏸️ Half-time — {{ halftimeHomeGoals }} – {{ halftimeAwayGoals }}</div>
 
         <div class="cl-boosts-row">
           <button class="cl-boost-btn" [class.active]="matchAttackBoostUsed"
@@ -109,13 +133,28 @@
           </button>
         </div>
 
+        <div class="cl-halftime-formation">
+          <div class="cl-kickoff-title">Change formation (optional)</div>
+          <div class="cl-formations-grid">
+            <div *ngFor="let f of FORMATIONS; trackBy: trackByFormation"
+                 class="cl-formation-card" [class.selected]="selectedFormation.id === f.id"
+                 (click)="selectedFormation = f">
+              <div class="cl-formation-name">{{ f.label }}</div>
+              <div class="cl-formation-mods">
+                <span class="cl-mod" [class.positive]="f.attackMod > 0" [class.negative]="f.attackMod < 0">ATK {{ f.attackMod > 0 ? '+' : '' }}{{ f.attackMod }}</span>
+                <span class="cl-mod" [class.positive]="f.defenseMod > 0" [class.negative]="f.defenseMod < 0">DEF {{ f.defenseMod > 0 ? '+' : '' }}{{ f.defenseMod }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="w3-center w3-margin-top">
-          <button class="cl-btn-primary w3-button w3-round" (click)="confirmKickoff()">▶ Kick off</button>
+          <button class="cl-btn-primary w3-button w3-round" (click)="resumeSecondHalf()">▶ Resume second half</button>
         </div>
       </div>
 
-      <!-- Live match -->
-      <ng-container *ngIf="!awaitingKickoff && currentMatch">
+      <!-- Live playback -->
+      <ng-container *ngIf="!awaitingFormation && !atHalftime && currentMatch">
         <div class="cl-round-label">
           <span *ngIf="phase === 'league_match'" class="cl-badge league">
             League Phase · Matchday {{ leagueMatchday + 1 }} of 8
