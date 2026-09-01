@@ -55,90 +55,78 @@ export const FINAL_INFO = {
   date: '5 June 2027',
 };
 
-// Away opponents per club — kept separate because in a couple of cases the
-// source table lists a fixture as "away" on BOTH sides (a data error in the
-// original draw table), which meant that pairing never appeared in either
-// club's home list. Merging home ∪ away below guarantees every club ends up
-// with exactly 8 unique opponents.
-export const CL2026_AWAY: Record<string, string[]> = {
-  'Paris Saint-Germain': ['Manchester City', 'Aston Villa', 'Villarreal', 'Como'],
-  'Real Madrid':         ['Arsenal', 'AS Roma', 'Shakhtar Donetsk', 'AEK Athens'],
-  'Manchester City':     ['Barcelona', 'Porto', 'RB Leipzig', 'Lens'],
-  'Bayern Munich':       ['Atlético Madrid', 'Manchester United', 'Lille', 'Viking FK Stavanger'],
-  'Barcelona':           ['Paris Saint-Germain', 'Sporting CP', 'Galatasaray', 'Sabah FK'],
-  'Liverpool':           ['Inter Milan', 'Club Brugge', 'Fenerbahçe', 'LASK'],
-  'Inter Milan':         ['Real Madrid', 'Borussia Dortmund', 'Feyenoord', 'Slovan Bratislava'],
-  'Borussia Dortmund':   ['Arsenal', 'Aston Villa', 'Bodø/Glimt', 'Sabah FK'],
-  'Atlético Madrid':     ['Liverpool', 'PSV Eindhoven', 'Bodø/Glimt', 'VfB Stuttgart'],
-
-  'Arsenal':             ['Bayern Munich', 'Real Betis', 'Napoli', 'Slavia Praha'],
-  'Aston Villa':         ['Barcelona', 'Club Brugge', 'Galatasaray', 'Slavia Praha'],
-  'Manchester United':   ['Atlético Madrid', 'Sporting CP', 'Villarreal', 'Como'],
-  'Porto':               ['Liverpool', 'Real Betis', 'Feyenoord', 'LASK'],
-  'Sporting CP':         ['Manchester City', 'AS Roma', 'Shakhtar Donetsk', 'Lens'],
-  'AS Roma':             ['Paris Saint-Germain', 'Manchester United', 'Fenerbahçe', 'AEK Athens'],
-  'PSV Eindhoven':       ['Real Madrid', 'Porto', 'RB Leipzig', 'Viking FK Stavanger'],
-  'Real Betis':          ['Bayern Munich', 'Borussia Dortmund', 'Lille', 'Slovan Bratislava'],
-  'Club Brugge':         ['Inter Milan', 'PSV Eindhoven', 'Napoli', 'VfB Stuttgart'],
-
-  'Napoli':              ['Manchester City', 'Porto', 'Villarreal', 'Sabah FK'],
-  'Lille':               ['Arsenal', 'AS Roma', 'Bodø/Glimt', 'VfB Stuttgart'],
-  'Feyenoord':           ['Barcelona', 'Real Betis', 'Galatasaray', 'Viking FK Stavanger'],
-  'RB Leipzig':          ['Real Madrid', 'Manchester United', 'Feyenoord', 'Como'],
-  'Galatasaray':         ['Paris Saint-Germain', 'Sporting CP', 'Lille', 'AEK Athens'],
-  'Shakhtar Donetsk':    ['Inter Milan', 'PSV Eindhoven', 'RB Leipzig', 'Slovan Bratislava'],
-  'Fenerbahçe':          ['Atlético Madrid', 'Aston Villa', 'Shakhtar Donetsk', 'LASK'],
-  'Villarreal':          ['Liverpool', 'Borussia Dortmund', 'Fenerbahçe', 'Slavia Praha'],
-  'Bodø/Glimt':          ['Bayern Munich', 'Club Brugge', 'Napoli', 'Lens'],
-
-  'Slavia Praha':       ['Bayern Munich', 'Porto', 'Fenerbahçe', 'Sabah FK'],
-  'Slovan Bratislava':   ['Paris Saint-Germain', 'AS Roma', 'Lille', 'LASK'],
-  'VfB Stuttgart':       ['Inter Milan', 'PSV Eindhoven', 'Galatasaray', 'Slovan Bratislava'],
-  'AEK Athens':          ['Manchester City', 'Borussia Dortmund', 'Shakhtar Donetsk', 'Como'],
-  'LASK':                ['Real Madrid', 'Sporting CP', 'Bodø/Glimt', 'AEK Athens'],
-  'Como':                ['Barcelona', 'Real Betis', 'Feyenoord', 'Lens'],
-  'Lens':                ['Manchester City', 'Sporting CP', 'Bodø/Glimt', 'Como'],
-  'Viking FK Stavanger':              ['Atlético Madrid', 'Aston Villa', 'Napoli', 'VfB Stuttgart'],
-  'Sabah FK':            ['Barcelona', 'Borussia Dortmund', 'Napoli', 'Slavia Praha'],
-};
-export const CL2026_FIXTURES: Record<string, string[]> = {
-  'Paris Saint-Germain': ['Barcelona', 'AS Roma', 'Galatasaray', 'Slovan Bratislava'],
-  'Real Madrid':         ['Inter Milan', 'PSV Eindhoven', 'RB Leipzig', 'LASK'],
-  'Manchester City':     ['Paris Saint-Germain', 'Sporting CP', 'Napoli', 'AEK Athens'],
-  'Bayern Munich':       ['Arsenal', 'Real Betis', 'Bodø/Glimt', 'Slavia Praha'],
-  'Barcelona':           ['Manchester City', 'Aston Villa', 'Feyenoord', 'Como'],
-  'Liverpool':           ['Atlético Madrid', 'Porto', 'Villarreal', 'Lens'],
-  'Inter Milan':         ['Liverpool', 'Club Brugge', 'Shakhtar Donetsk', 'VfB Stuttgart'],
-  'Borussia Dortmund':   ['Inter Milan', 'Real Betis', 'Villarreal', 'AEK Athens'],
-  'Atlético Madrid':     ['Bayern Munich', 'Manchester United', 'Fenerbahçe', 'Viking FK Stavanger'],
-
-  'Arsenal':             ['Real Madrid', 'Borussia Dortmund', 'Lille', 'Sabah FK'],
-  'Aston Villa':         ['Paris Saint-Germain', 'Borussia Dortmund', 'Fenerbahçe', 'Viking FK Stavanger'],
-  'Manchester United':   ['Bayern Munich', 'AS Roma', 'RB Leipzig', 'Sabah FK'],
-  'Porto':               ['Manchester City', 'PSV Eindhoven', 'Napoli', 'Slavia Praha'],
-  'Sporting CP':         ['Barcelona', 'Manchester United', 'Galatasaray', 'LASK'],
-  'AS Roma':             ['Real Madrid', 'Sporting CP', 'Lille', 'Slovan Bratislava'],
-  'PSV Eindhoven':       ['Atlético Madrid', 'Club Brugge', 'Shakhtar Donetsk', 'VfB Stuttgart'],
-  'Real Betis':          ['Arsenal', 'Porto', 'Feyenoord', 'Como'],
-  'Club Brugge':         ['Liverpool', 'Aston Villa', 'Bodø/Glimt', 'Lens'],
-
-  'Napoli':              ['Arsenal', 'Club Brugge', 'Bodø/Glimt', 'Viking FK Stavanger'],
-  'Lille':               ['Bayern Munich', 'Real Betis', 'Galatasaray', 'Slovan Bratislava'],
-  'Feyenoord':           ['Inter Milan', 'Porto', 'RB Leipzig', 'Como'],
-  'RB Leipzig':          ['Manchester City', 'PSV Eindhoven', 'Shakhtar Donetsk', 'Lens'],
-  'Galatasaray':         ['Barcelona', 'Aston Villa', 'Feyenoord', 'VfB Stuttgart'],
-  'Shakhtar Donetsk':    ['Real Madrid', 'Sporting CP', 'Fenerbahçe', 'AEK Athens'],
-  'Fenerbahçe':          ['Liverpool', 'AS Roma', 'Villarreal', 'Slavia Praha'],
-  'Villarreal':          ['Paris Saint-Germain', 'Manchester United', 'Napoli', 'Sabah FK'],
-  'Bodø/Glimt':          ['Atlético Madrid', 'Borussia Dortmund', 'Lille', 'LASK'],
-
-  'Slavia Praha':       ['Arsenal', 'Aston Villa', 'Villarreal', 'Lens'],
-  'Slovan Bratislava':   ['Inter Milan', 'Real Betis', 'Shakhtar Donetsk', 'VfB Stuttgart'],
-  'VfB Stuttgart':       ['Atlético Madrid', 'Club Brugge', 'Lille', 'Viking FK Stavanger'],
-  'AEK Athens':          ['Real Madrid', 'AS Roma', 'Galatasaray', 'LASK'],
-  'LASK':                ['Liverpool', 'Porto', 'Fenerbahçe', 'Slovan Bratislava'],
-  'Como':                ['Paris Saint-Germain', 'Manchester United', 'RB Leipzig', 'AEK Athens'],
-  'Lens':                ['Liverpool', 'Club Brugge', 'RB Leipzig', 'Slavia Praha'],
-  'Viking FK Stavanger':              ['Bayern Munich', 'PSV Eindhoven', 'Feyenoord', 'Sabah FK'],
-  'Sabah FK':            ['Arsenal', 'Manchester United', 'Villarreal', 'Viking FK Stavanger'],
-};
+// Calendario real (jornadas 1-8), fuente: UEFA.com — actualizado 29 ago 2026
+export const CL2026_SCHEDULE: Array<Array<[string, string]>> = [
+  // Matchday 1 — 8-10 Sep 2026
+  [
+    ['AEK Athens', 'LASK'], ['Club Brugge', 'Aston Villa'], ['Borussia Dortmund', 'Villarreal'],
+    ['Porto', 'Manchester City'], ['Lille', 'Real Betis'], ['Real Madrid', 'Inter Milan'],
+    ['Barcelona', 'Feyenoord'], ['VfB Stuttgart', 'Viking FK Stavanger'], ['Liverpool', 'Atlético Madrid'],
+    ['Paris Saint-Germain', 'Slovan Bratislava'], ['Sporting CP', 'Galatasaray'], ['Napoli', 'Arsenal'],
+    ['Fenerbahçe', 'AS Roma'], ['PSV Eindhoven', 'Shakhtar Donetsk'], ['Como', 'RB Leipzig'],
+    ['Bayern Munich', 'Bodø/Glimt'], ['Manchester United', 'Sabah FK'], ['Slavia Praha', 'Lens'],
+  ],
+  // Matchday 2 — 13-14 Oct 2026
+  [
+    ['Arsenal', 'Lille'], ['Atlético Madrid', 'Manchester United'], ['Galatasaray', 'Barcelona'],
+    ['Inter Milan', 'Club Brugge'], ['RB Leipzig', 'PSV Eindhoven'], ['Lens', 'Sporting CP'],
+    ['Sabah FK', 'Slavia Praha'], ['Viking FK Stavanger', 'Bayern Munich'], ['Villarreal', 'Napoli'],
+    ['Aston Villa', 'Fenerbahçe'], ['Bodø/Glimt', 'Borussia Dortmund'], ['Feyenoord', 'Como'],
+    ['LASK', 'Liverpool'], ['Manchester City', 'Paris Saint-Germain'], ['Real Betis', 'Porto'],
+    ['AS Roma', 'Real Madrid'], ['Shakhtar Donetsk', 'AEK Athens'], ['Slovan Bratislava', 'VfB Stuttgart'],
+  ],
+  // Matchday 3 — 20-21 Oct 2026
+  [
+    ['Fenerbahçe', 'Slavia Praha'], ['Liverpool', 'Villarreal'], ['Manchester City', 'AEK Athens'],
+    ['Napoli', 'Bodø/Glimt'], ['Paris Saint-Germain', 'Barcelona'], ['Porto', 'PSV Eindhoven'],
+    ['AS Roma', 'Slovan Bratislava'], ['Sabah FK', 'Borussia Dortmund'], ['VfB Stuttgart', 'Atlético Madrid'],
+    ['Aston Villa', 'Viking FK Stavanger'], ['Bayern Munich', 'Arsenal'], ['Club Brugge', 'Lens'],
+    ['Como', 'Manchester United'], ['Inter Milan', 'Shakhtar Donetsk'], ['Lille', 'Galatasaray'],
+    ['Real Madrid', 'RB Leipzig'], ['Real Betis', 'Feyenoord'], ['Sporting CP', 'LASK'],
+  ],
+  // Matchday 4 — 3-4 Nov 2026
+  [
+    ['Atlético Madrid', 'Bayern Munich'], ['Barcelona', 'Aston Villa'], ['Bodø/Glimt', 'Lille'],
+    ['Borussia Dortmund', 'Real Betis'], ['Feyenoord', 'Inter Milan'], ['Galatasaray', 'VfB Stuttgart'],
+    ['Shakhtar Donetsk', 'Sporting CP'], ['Villarreal', 'Paris Saint-Germain'], ['LASK', 'Slovan Bratislava'],
+    ['AEK Athens', 'Real Madrid'], ['Fenerbahçe', 'Liverpool'], ['RB Leipzig', 'Manchester City'],
+    ['Manchester United', 'AS Roma'], ['Porto', 'Napoli'], ['PSV Eindhoven', 'Club Brugge'],
+    ['Slavia Praha', 'Arsenal'], ['Lens', 'Como'], ['Viking FK Stavanger', 'Sabah FK'],
+  ],
+  // Matchday 5 — 24-25 Nov 2026
+  [
+    ['Arsenal', 'Borussia Dortmund'], ['Bodø/Glimt', 'LASK'], ['Como', 'AEK Athens'],
+    ['Feyenoord', 'Porto'], ['Galatasaray', 'Aston Villa'], ['RB Leipzig', 'Lens'],
+    ['Manchester City', 'Napoli'], ['Real Madrid', 'PSV Eindhoven'], ['Slovan Bratislava', 'Real Betis'],
+    ['Atlético Madrid', 'Viking FK Stavanger'], ['Club Brugge', 'Liverpool'], ['Inter Milan', 'VfB Stuttgart'],
+    ['Lille', 'Bayern Munich'], ['Paris Saint-Germain', 'AS Roma'], ['Sabah FK', 'Barcelona'],
+    ['Shakhtar Donetsk', 'Fenerbahçe'], ['Slavia Praha', 'Villarreal'], ['Sporting CP', 'Manchester United'],
+  ],
+  // Matchday 6 — 8-9 Dec 2026
+  [
+    ['AEK Athens', 'Galatasaray'], ['Aston Villa', 'Paris Saint-Germain'], ['Barcelona', 'Manchester City'],
+    ['Bayern Munich', 'Slavia Praha'], ['Manchester United', 'RB Leipzig'], ['Napoli', 'Club Brugge'],
+    ['AS Roma', 'Sporting CP'], ['Viking FK Stavanger', 'Feyenoord'], ['Villarreal', 'Sabah FK'],
+    ['Arsenal', 'Real Madrid'], ['Borussia Dortmund', 'Inter Milan'], ['Lens', 'Bodø/Glimt'],
+    ['Liverpool', 'Porto'], ['LASK', 'Fenerbahçe'], ['PSV Eindhoven', 'Atlético Madrid'],
+    ['Real Betis', 'Como'], ['Slovan Bratislava', 'Shakhtar Donetsk'], ['VfB Stuttgart', 'Lille'],
+  ],
+  // Matchday 7 — 19-20 Jan 2027
+  [
+    ['AEK Athens', 'AS Roma'], ['Aston Villa', 'Borussia Dortmund'], ['Bodø/Glimt', 'Atlético Madrid'],
+    ['Galatasaray', 'Feyenoord'], ['Inter Milan', 'Liverpool'], ['Lille', 'Slovan Bratislava'],
+    ['Porto', 'Slavia Praha'], ['Real Madrid', 'LASK'], ['VfB Stuttgart', 'Club Brugge'],
+    ['Como', 'Paris Saint-Germain'], ['Fenerbahçe', 'Villarreal'], ['RB Leipzig', 'Shakhtar Donetsk'],
+    ['Lens', 'Manchester City'], ['Manchester United', 'Bayern Munich'], ['Real Betis', 'Arsenal'],
+    ['Sabah FK', 'Napoli'], ['Sporting CP', 'Barcelona'], ['Viking FK Stavanger', 'PSV Eindhoven'],
+  ],
+  // Matchday 8 — 27 Jan 2027
+  [
+    ['Arsenal', 'Sabah FK'], ['Atlético Madrid', 'Fenerbahçe'], ['Barcelona', 'Como'],
+    ['Bayern Munich', 'Real Betis'], ['Borussia Dortmund', 'AEK Athens'], ['Club Brugge', 'Bodø/Glimt'],
+    ['Feyenoord', 'RB Leipzig'], ['Liverpool', 'Lens'], ['Manchester City', 'Sporting CP'],
+    ['Napoli', 'Viking FK Stavanger'], ['Paris Saint-Germain', 'Galatasaray'], ['PSV Eindhoven', 'VfB Stuttgart'],
+    ['AS Roma', 'Lille'], ['Shakhtar Donetsk', 'Real Madrid'], ['Slavia Praha', 'Aston Villa'],
+    ['Slovan Bratislava', 'Inter Milan'], ['Villarreal', 'Manchester United'], ['LASK', 'Porto'],
+  ],
+];

@@ -1,15 +1,15 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ClubService } from '../../services/club.service';
 import { SeoService } from '../../services/seo.service';
-import { CL2026_TEAMS, CL2026_FIXTURES, CL2026_AWAY, FINAL_INFO } from './cl-teams-data';
+import { CL2026_TEAMS, CL2026_SCHEDULE, FINAL_INFO } from './cl-teams-data';
 
 // ─── Types ────────────────────────────────────────────────────────────────
 
 type GamePhase =
   | 'home' | 'select'
   | 'league_match' | 'league_result' | 'league_standings'
-  | 'playoff_match' | 'playoff_result'
-  | 'knockout_match' | 'knockout_result'
+  | 'playoff_match' | 'playoff_extratime' | 'playoff_shootout' | 'playoff_result'
+  | 'knockout_match' | 'knockout_extratime' | 'knockout_shootout' | 'knockout_result'
   | 'eliminated' | 'champion';
 
 interface Team {
@@ -77,6 +77,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   knockoutPairs: Array<[Team, Team]> = [];
   currentKnockoutMatch: MatchResult | null = null;
   fullBracket: BracketSlot[][] = [];
+  finalStage: 'regulation' | 'extratime' | 'shootout' = 'regulation';
 
   // Shared two-legged tie state (playoff + R16/QF/SF)
   tieTeam1: Team | null = null;
@@ -86,6 +87,8 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   tieAggregateTeam1 = 0;
   tieAggregateTeam2 = 0;
   tiePenalties?: { team1Score: number; team2Score: number };
+  extraTimeGoals = { team1: 0, team2: 0 };
+  tieContext: 'playoff' | 'knockout' | null = null;
 
   // Shared playback state
   currentMatch: MatchResult | null = null;
@@ -93,6 +96,20 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   displayedEvents: MatchEvent[] = [];
   matchPlaying = false;
   private matchInterval: any = null;
+
+  // Power-ups
+  attackBoostsLeft = 3;
+  defenseBoostsLeft = 3;
+  refreshBoostsLeft = 3;
+  matchAttackBoostUsed = false;
+  matchDefenseBoostUsed = false;
+  matchRefreshBoostUsed = false;
+
+  // Pre-match kickoff gate
+  awaitingKickoff = false;
+  pendingHome: Team | null = null;
+  pendingAway: Team | null = null;
+  private kickoffAction: (() => void) | null = null;
 
   constructor(private clubService: ClubService, private seoService: SeoService) {}
 
@@ -158,7 +175,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     this.playNextLeagueMatchday();
   }
 
-  // ─── League phase schedule (Swiss-style, round-robin circle method) ──────
+  // ─── League phase schedule (real UEFA fixtures) ──────────────────────────
 
   private initTournament(): void {
     this.leagueStandings = this.allTeams.map(t => ({
@@ -170,113 +187,79 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   }
 
   private buildLeagueSchedule(): void {
-    // Real fixtures from the 27 Aug 2026 draw. UEFA hasn't published which
-    // matchday each fixture falls on yet (due 29 Aug), so we distribute the
-    // 144 fixed fixtures into 8 matchdays by extracting a perfect matching
-    // (18 pairs covering all 36 teams) per round via backtracking.
     const byName = new Map(this.allTeams.map(t => [t.name, t]));
-    const adjMaster = new Map<string, Set<string>>();
-    for (const t of this.allTeams) adjMaster.set(t.name, new Set());
-
-    const addEdge = (a: string, b: string) => {
-      if (!adjMaster.has(a) || !adjMaster.has(b)) return;
-      adjMaster.get(a)!.add(b);
-      adjMaster.get(b)!.add(a);
-    };
-    for (const [homeName, awayNames] of Object.entries(CL2026_FIXTURES)) {
-      for (const awayName of awayNames) addEdge(homeName, awayName);
-    }
-    for (const [teamName, oppNames] of Object.entries(CL2026_AWAY)) {
-      for (const oppName of oppNames) addEdge(teamName, oppName);
-    }
-
-    let rounds: Array<Array<[Team, Team]>> = [];
-    for (let attempt = 0; attempt < 40 && rounds.length < 8; attempt++) {
-      const adj = new Map<string, Set<string>>();
-      for (const [k, v] of adjMaster) adj.set(k, new Set(v));
-
-      const tryRounds: Array<Array<[Team, Team]>> = [];
-      let success = true;
-      for (let r = 0; r < 8; r++) {
-        const matching = this.findPerfectMatching(this.allTeams, adj);
-        if (!matching) { success = false; break; }
-        for (const [a, b] of matching) {
-          adj.get(a.name)!.delete(b.name);
-          adj.get(b.name)!.delete(a.name);
-        }
-        tryRounds.push(matching);
-      }
-      if (success) rounds = tryRounds;
-    }
-
-    this.leagueSchedule = rounds.map(pairs => pairs.map(([t1, t2]) => {
-      const t1DeclaredHome = CL2026_FIXTURES[t1.name]?.includes(t2.name);
-      const t2DeclaredHome = CL2026_FIXTURES[t2.name]?.includes(t1.name);
-      let home: Team, away: Team;
-      if (t1DeclaredHome) { home = t1; away = t2; }
-      else if (t2DeclaredHome) { home = t2; away = t1; }
-      else { [home, away] = t1.name < t2.name ? [t1, t2] : [t2, t1]; } // rare source conflict — deterministic fallback
-      return this.buildMatch(home, away);
-    }));
-
-    if (this.leagueSchedule.length < 8) {
-      console.error('Could not build a valid 8-matchday league schedule from the fixed fixtures.');
-    }
-  }
-
-  // Backtracking perfect matching with minimum-remaining-options heuristic —
-  // reliable on graphs this small (36 nodes) even as degree shrinks each round.
-  private findPerfectMatching(nodes: Team[], adj: Map<string, Set<string>>): Array<[Team, Team]> | null {
-    const nodeByName = new Map(nodes.map(t => [t.name, t]));
-    const remaining = new Set(nodes.map(t => t.name));
-    const result: Array<[Team, Team]> = [];
-
-    const backtrack = (): boolean => {
-      if (remaining.size === 0) return true;
-
-      let bestNode: string | null = null;
-      let bestOptions: string[] = [];
-      for (const n of remaining) {
-        const opts = [...(adj.get(n) ?? [])].filter(o => remaining.has(o));
-        if (bestNode === null || opts.length < bestOptions.length) {
-          bestNode = n; bestOptions = opts;
-          if (opts.length === 0) break;
-        }
-      }
-      if (bestNode === null) return true;
-      if (bestOptions.length === 0) return false;
-
-      for (const opt of this.shuffle(bestOptions)) {
-        remaining.delete(bestNode); remaining.delete(opt);
-        result.push([nodeByName.get(bestNode)!, nodeByName.get(opt)!]);
-        if (backtrack()) return true;
-        result.pop();
-        remaining.add(bestNode); remaining.add(opt);
-      }
-      return false;
-    };
-
-    return backtrack() ? result : null;
-  }
-
-  private shuffle<T>(arr: T[]): T[] {
-    const a = [...arr];
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
+    this.leagueSchedule = CL2026_SCHEDULE.map(round =>
+      round
+        .map(([homeName, awayName]) => {
+          const home = byName.get(homeName), away = byName.get(awayName);
+          if (!home || !away) {
+            console.error(`Fixture desconocido en el calendario real: ${homeName} vs ${awayName}`);
+            return null;
+          }
+          return this.buildMatch(home, away);
+        })
+        .filter((m): m is MatchResult => m !== null)
+    );
   }
 
   private buildMatch(home: Team, away: Team): MatchResult {
     const isPlayer = home === this.playerTeam || away === this.playerTeam;
-    const { homeGoals, awayGoals, events } = this.simulateMatch(home, away, isPlayer);
+    const { homeGoals, awayGoals, events } = this.simulatePlayerAware(home, away, isPlayer);
     return { home, away, homeGoals, awayGoals, events, isPlayerMatch: isPlayer };
+  }
+
+  // ─── Power-ups ────────────────────────────────────────────────────────────
+
+  private boostedTeam(team: Team): Team {
+    if (team !== this.playerTeam) return team;
+    if (!this.matchAttackBoostUsed && !this.matchDefenseBoostUsed && !this.matchRefreshBoostUsed) return team;
+    let attack = team.attack, defense = team.defense;
+    if (this.matchAttackBoostUsed) attack = Math.min(99, attack + 12);
+    if (this.matchDefenseBoostUsed) defense = Math.min(99, defense + 12);
+    if (this.matchRefreshBoostUsed) { attack = Math.min(99, attack + 6); defense = Math.min(99, defense + 6); }
+    return { ...team, attack, defense };
+  }
+
+  private simulatePlayerAware(home: Team, away: Team, detailed: boolean, isFinal = false) {
+    return this.simulateMatch(this.boostedTeam(home), this.boostedTeam(away), detailed, isFinal);
+  }
+
+  useAttackBoost(): void {
+    if (this.attackBoostsLeft <= 0 || this.matchAttackBoostUsed) return;
+    this.attackBoostsLeft--; this.matchAttackBoostUsed = true;
+  }
+
+  useDefenseBoost(): void {
+    if (this.defenseBoostsLeft <= 0 || this.matchDefenseBoostUsed) return;
+    this.defenseBoostsLeft--; this.matchDefenseBoostUsed = true;
+  }
+
+  useRefreshBoost(): void {
+    if (this.refreshBoostsLeft <= 0 || this.matchRefreshBoostUsed) return;
+    this.refreshBoostsLeft--; this.matchRefreshBoostUsed = true;
+  }
+
+  private openKickoffGate(phase: GamePhase, home: Team, away: Team, action: () => void): void {
+    this.matchAttackBoostUsed = false;
+    this.matchDefenseBoostUsed = false;
+    this.matchRefreshBoostUsed = false;
+    this.pendingHome = home;
+    this.pendingAway = away;
+    this.kickoffAction = action;
+    this.awaitingKickoff = true;
+    this.phase = phase;
+  }
+
+  confirmKickoff(): void {
+    this.awaitingKickoff = false;
+    const action = this.kickoffAction;
+    this.kickoffAction = null;
+    if (action) action();
   }
 
   // ─── Simulation engine ────────────────────────────────────────────────────
 
-  private simulateMatch(home: Team, away: Team, detailed: boolean) {
+  private simulateMatch(home: Team, away: Team, detailed: boolean, isFinal = false) {
     const homeAdvantage = 6;
     const homeMorale = this.rand(-10, 10);
     const awayMorale = this.rand(-10, 10);
@@ -289,13 +272,16 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     const homeGoals = this.goalsFromStrength(homeStr);
     const awayGoals = this.goalsFromStrength(awayStr);
     const events: MatchEvent[] = detailed
-      ? this.generateEvents(home, away, homeGoals, awayGoals, homeStr, awayStr)
+      ? this.generateEvents(home, away, homeGoals, awayGoals, homeStr, awayStr, isFinal)
       : [];
     return { homeGoals, awayGoals, events };
   }
 
   private goalsFromStrength(str: number): number {
-    const avg = Math.max(0.1, (str - 38) / 20);
+    return this.poissonSample(Math.max(0.1, (str - 38) / 20));
+  }
+
+  private poissonSample(avg: number): number {
     const r = Math.random();
     const e = Math.exp(-avg);
     let cumulative = 0;
@@ -309,7 +295,8 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   private factorial(n: number): number { return n <= 1 ? 1 : n * this.factorial(n - 1); }
 
   private generateEvents(
-    home: Team, away: Team, homeGoals: number, awayGoals: number, homeStr: number, awayStr: number
+    home: Team, away: Team, homeGoals: number, awayGoals: number,
+    homeStr: number, awayStr: number, isFinal = false
   ): MatchEvent[] {
     const events: MatchEvent[] = [];
     const usedMins = new Set<number>([0, 45, 91]);
@@ -331,7 +318,9 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
 
     const dominantTeam = homeStr >= awayStr ? home : away;
     const weakerTeam = homeStr >= awayStr ? away : home;
-    const extraCount = this.rand(10, 16);
+    // La final tiene muchas menos incidencias — un partido más limpio y realista,
+    // que además dura ~1 minuto de reproducción (ver startPlayback con totalDurationMs).
+    const extraCount = isFinal ? this.rand(4, 8) : this.rand(10, 16);
     const pool = ['save', 'miss', 'yellow', 'foul', 'corner', 'offside', 'var'] as const;
     type PoolType = typeof pool[number];
     const descMap: Record<PoolType, (t: Team) => string> = {
@@ -377,6 +366,147 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     return pool[Math.floor(Math.random() * pool.length)];
   }
 
+  // ─── Extra time (used in every tied knockout tie, incl. the final) ────────
+
+  private simulateExtraTime(team1: Team, team2: Team): { t1: number; t2: number; events: MatchEvent[] } {
+    const b1 = this.boostedTeam(team1), b2 = this.boostedTeam(team2);
+    const str1 = b1.attack * 0.5 + (100 - b2.defense) * 0.3 + b1.stamina * 0.1;
+    const str2 = b2.attack * 0.5 + (100 - b1.defense) * 0.3 + b2.stamina * 0.1;
+    const g1 = this.poissonSample(Math.max(0.03, ((str1 - 38) / 20) * 0.35));
+    const g2 = this.poissonSample(Math.max(0.03, ((str2 - 38) / 20) * 0.35));
+
+    const events: MatchEvent[] = [
+      { minute: 91, type: 'info' as any, team: '', description: `⏱️ Extra time begins! 30 more minutes to separate ${team1.name} and ${team2.name}.` },
+    ];
+    const usedMins = new Set<number>([91, 120]);
+    const randMin = (): number => {
+      let m: number, tries = 0;
+      do { m = this.rand(92, 119); tries++; } while (usedMins.has(m) && tries < 20);
+      usedMins.add(m);
+      return m;
+    };
+    for (let i = 0; i < g1; i++) { const min = randMin(); events.push({ minute: min, type: 'goal', team: team1.name, description: this.pickGoalDesc(team1.name, min) }); }
+    for (let i = 0; i < g2; i++) { const min = randMin(); events.push({ minute: min, type: 'goal', team: team2.name, description: this.pickGoalDesc(team2.name, min) }); }
+    events.push({ minute: 120, type: 'info' as any, team: '', description: `🏁 End of extra time: ${team1.name} ${g1}-${g2} ${team2.name}.` });
+    events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
+
+    return { t1: g1, t2: g2, events };
+  }
+
+  private startExtraTime(context: 'playoff' | 'knockout'): void {
+    const team1 = this.tieTeam1!, team2 = this.tieTeam2!;
+    const { t1, t2, events } = this.simulateExtraTime(team1, team2);
+    this.extraTimeGoals = { team1: t1, team2: t2 };
+    const etMatch: MatchResult = { home: team1, away: team2, homeGoals: t1, awayGoals: t2, events, isPlayerMatch: true };
+    this.tieContext = context;
+    this.startPlayback(etMatch, context === 'playoff' ? 'playoff_extratime' : 'knockout_extratime');
+  }
+
+  confirmExtraTimeResult(): void {
+    this.clearTimerInterval();
+    this.matchPlaying = false;
+    this.tieAggregateTeam1 += this.extraTimeGoals.team1;
+    this.tieAggregateTeam2 += this.extraTimeGoals.team2;
+
+    if (this.tieAggregateTeam1 === this.tieAggregateTeam2) {
+      this.startShootout(this.tieContext!);
+      return;
+    }
+    const winner = this.tieAggregateTeam1 > this.tieAggregateTeam2 ? this.tieTeam1! : this.tieTeam2!;
+    if (this.tieContext === 'playoff') this.finishPlayoffTie(winner);
+    else this.finishKnockoutTie(winner);
+  }
+
+  // ─── Penalty shootout ───────────────────────────────────────────────────
+
+  private simulateShootout(): { team1: number; team2: number; kicks: Array<{ team: 1 | 2; scored: boolean }> } {
+    const kicks: Array<{ team: 1 | 2; scored: boolean }> = [];
+    let s1 = 0, s2 = 0;
+    const takeRound = () => {
+      const t1 = Math.random() < 0.76; kicks.push({ team: 1, scored: t1 }); if (t1) s1++;
+      const t2 = Math.random() < 0.76; kicks.push({ team: 2, scored: t2 }); if (t2) s2++;
+    };
+    for (let round = 1; round <= 5; round++) takeRound();
+    while (s1 === s2) takeRound(); // muerte súbita
+    return { team1: s1, team2: s2, kicks };
+  }
+
+  private buildShootoutEvents(team1: Team, team2: Team, kicks: Array<{ team: 1 | 2; scored: boolean }>): MatchEvent[] {
+    const events: MatchEvent[] = [{
+      minute: 0, type: 'info' as any, team: '',
+      description: `🎯 ¡Tanda de penales! ${team1.name} vs ${team2.name}.`,
+    }];
+    let n1 = 0, n2 = 0;
+    kicks.forEach((k, i) => {
+      const team = k.team === 1 ? team1 : team2;
+      const num = k.team === 1 ? ++n1 : ++n2;
+      events.push(k.scored
+        ? { minute: 121 + i, type: 'goal', team: team.name, description: `⚽ ¡Gol! ${team.name} convierte el penal ${num}.` }
+        : { minute: 121 + i, type: 'miss', team: team.name, description: `❌ ¡Falla! ${team.name} desperdicia el penal ${num}.` });
+    });
+    return events;
+  }
+
+  private startShootout(context: 'playoff' | 'knockout'): void {
+    const team1 = this.tieTeam1!, team2 = this.tieTeam2!;
+    const { team1: s1, team2: s2, kicks } = this.simulateShootout();
+    this.tiePenalties = { team1Score: s1, team2Score: s2 };
+    const events = this.buildShootoutEvents(team1, team2, kicks);
+    const shootoutMatch: MatchResult = { home: team1, away: team2, homeGoals: s1, awayGoals: s2, events, isPlayerMatch: true };
+    this.tieContext = context;
+    this.startPlayback(shootoutMatch, context === 'playoff' ? 'playoff_shootout' : 'knockout_shootout');
+  }
+
+  confirmShootoutResult(): void {
+    this.clearTimerInterval();
+    this.matchPlaying = false;
+    const { team1Score, team2Score } = this.tiePenalties!;
+    const tieWinner = team1Score > team2Score ? this.tieTeam1! : this.tieTeam2!;
+    if (this.tieContext === 'playoff') this.finishPlayoffTie(tieWinner);
+    else this.finishKnockoutTie(tieWinner);
+  }
+
+  private finishPlayoffTie(tieWinner: Team): void {
+    if (tieWinner !== this.playerTeam) { this.phase = 'eliminated'; return; }
+    const winners = this.playoffPairs.map(pair =>
+      (pair[0] === this.playerTeam || pair[1] === this.playerTeam) ? this.playerTeam! : this.resolveTwoLeggedTie(pair[0], pair[1])
+    );
+    this.markPlayoffWinnersAndBuildR16(winners);
+    this.phase = 'playoff_result';
+  }
+
+  private finishKnockoutTie(tieWinner: Team): void {
+    if (tieWinner !== this.playerTeam) { this.phase = 'eliminated'; return; }
+    const winners: Team[] = [];
+    for (const [h, a] of this.knockoutPairs) {
+      if (h === this.playerTeam || a === this.playerTeam) { winners.push(this.playerTeam); continue; }
+      winners.push(this.resolveTwoLeggedTie(h, a));
+    }
+    const bracketSlotIndex = this.knockoutRoundIndex + 1;
+    if (this.fullBracket[bracketSlotIndex]) {
+      this.fullBracket[bracketSlotIndex].forEach((slot, i) => { if (i < this.knockoutPairs.length) slot.winner = winners[i]; });
+    }
+    this.knockoutRoundIndex++;
+    this.knockoutPairs = [];
+    for (let i = 0; i < winners.length; i += 2) if (winners[i + 1]) this.knockoutPairs.push([winners[i], winners[i + 1]]);
+    const nextBracketSlotIndex = this.knockoutRoundIndex + 1;
+    if (this.fullBracket[nextBracketSlotIndex]) {
+      this.fullBracket[nextBracketSlotIndex] = this.knockoutPairs.map(([h, a], i) => ({ home: h, away: a, winner: null, matchIndex: i }));
+    }
+    this.phase = 'knockout_result';
+  }
+
+  private finishFinal(m: MatchResult): void {
+    const playerHome = m.home === this.playerTeam;
+    let playerWins: boolean;
+    if (m.penalties) {
+      playerWins = playerHome ? m.penalties.homeScore > m.penalties.awayScore : m.penalties.awayScore > m.penalties.homeScore;
+    } else {
+      playerWins = playerHome ? m.homeGoals > m.awayGoals : m.awayGoals > m.homeGoals;
+    }
+    this.phase = playerWins ? 'champion' : 'eliminated';
+  }
+
   // ─── League phase flow ──────────────────────────────────────────────────
 
   playNextLeagueMatchday(): void {
@@ -386,12 +516,18 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
       this.phase = 'league_standings';
       return;
     }
-    const playerMatch = this.leagueSchedule[this.leagueMatchday].find(m => m.isPlayerMatch)!;
     this.roundResults = this.leagueSchedule[this.leagueMatchday];
     for (const m of this.roundResults) {
       if (!m.isPlayerMatch) this.applyToLeagueStandings(m);
     }
-    this.startPlayback(playerMatch, 'league_match');
+    const idx = this.roundResults.findIndex(m => m.isPlayerMatch);
+    const original = this.roundResults[idx];
+    this.openKickoffGate('league_match', original.home, original.away, () => {
+      const rebuilt = this.buildMatch(original.home, original.away); // re-simula con comodines activos
+      this.roundResults[idx] = rebuilt;
+      this.leagueSchedule[this.leagueMatchday][idx] = rebuilt;
+      this.startPlayback(rebuilt, 'league_match');
+    });
   }
 
   confirmMatchResult(): void {
@@ -471,9 +607,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     const status = this.playerQualStatus;
     if (status === 'out') { this.phase = 'eliminated'; return; }
 
-    // playoffPairs & fullBracket[0] were already built by setupBracketDisplay()
     if (status === 'direct') {
-      // Player has a bye — resolve the entire playoff round automatically
       const winners = this.playoffPairs.map(pair => this.resolveTwoLeggedTie(pair[0], pair[1]));
       this.markPlayoffWinnersAndBuildR16(winners);
       this.knockoutRoundIndex = 0;
@@ -484,13 +618,12 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   }
 
   private buildPlayoffPairs(): Array<[Team, Team]> {
-    const seeded = this.leagueStandings.slice(8, 16).map(s => s.team);   // 9th-16th
-    const unseeded = this.leagueStandings.slice(16, 24).map(s => s.team).reverse(); // 24th-17th
+    const seeded = this.leagueStandings.slice(8, 16).map(s => s.team);
+    const unseeded = this.leagueStandings.slice(16, 24).map(s => s.team).reverse();
     return seeded.map((t, i) => [t, unseeded[i]] as [Team, Team]);
   }
 
-  // Two-legged tie resolved instantly for CPU-vs-CPU pairs (no away-goals rule —
-  // level on aggregate goes to penalties).
+  // Two-legged tie resolved instantly for CPU-vs-CPU pairs (sin comodines: nunca involucra al jugador).
   private resolveTwoLeggedTie(team1: Team, team2: Team): Team {
     const leg1 = this.simulateMatch(team1, team2, false);
     const leg2 = this.simulateMatch(team2, team1, false);
@@ -500,11 +633,10 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     return t1 > t2 ? team1 : team2;
   }
 
-  // Plays one leg of the player's tie (leg 1: team1 home; leg 2: team2 home)
   private playTieLeg(returnPhase: 'playoff_match' | 'knockout_match'): void {
     const home = this.currentTieLeg === 1 ? this.tieTeam1! : this.tieTeam2!;
     const away = this.currentTieLeg === 1 ? this.tieTeam2! : this.tieTeam1!;
-    const { homeGoals, awayGoals, events } = this.simulateMatch(home, away, true);
+    const { homeGoals, awayGoals, events } = this.simulatePlayerAware(home, away, true);
     const match: MatchResult = { home, away, homeGoals, awayGoals, events, isPlayerMatch: true };
     if (returnPhase === 'playoff_match') this.currentPlayoffMatch = match;
     else this.currentKnockoutMatch = match;
@@ -518,7 +650,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     this.currentTieLeg = 1;
     this.tieLeg1 = null;
     this.tiePenalties = undefined;
-    this.playTieLeg('playoff_match');
+    this.openKickoffGate('playoff_match', pair[0], pair[1], () => this.playTieLeg('playoff_match'));
   }
 
   confirmPlayoffResult(): void {
@@ -529,34 +661,21 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     if (this.currentTieLeg === 1) {
       this.tieLeg1 = this.currentPlayoffMatch;
       this.currentTieLeg = 2;
-      this.playTieLeg('playoff_match');
+      this.openKickoffGate('playoff_match', this.tieTeam2!, this.tieTeam1!, () => this.playTieLeg('playoff_match'));
       return;
     }
 
     const leg1 = this.tieLeg1!, leg2 = this.currentPlayoffMatch;
-    const team1Goals = leg1.homeGoals + leg2.awayGoals;
-    const team2Goals = leg1.awayGoals + leg2.homeGoals;
-    this.tieAggregateTeam1 = team1Goals;
-    this.tieAggregateTeam2 = team2Goals;
+    this.tieAggregateTeam1 = leg1.homeGoals + leg2.awayGoals;
+    this.tieAggregateTeam2 = leg1.awayGoals + leg2.homeGoals;
 
-    let tieWinner: Team;
-    if (team1Goals === team2Goals) {
-      let p1 = this.rand(3, 5), p2 = this.rand(3, 5);
-      while (p1 === p2) p2 = this.rand(3, 5);
-      this.tiePenalties = { team1Score: p1, team2Score: p2 };
-      tieWinner = p1 > p2 ? this.tieTeam1! : this.tieTeam2!;
-    } else {
-      this.tiePenalties = undefined;
-      tieWinner = team1Goals > team2Goals ? this.tieTeam1! : this.tieTeam2!;
+    if (this.tieAggregateTeam1 === this.tieAggregateTeam2) {
+      this.startExtraTime('playoff');
+      return;
     }
-
-    if (tieWinner !== this.playerTeam) { this.phase = 'eliminated'; return; }
-
-    const winners = this.playoffPairs.map(pair =>
-      (pair[0] === this.playerTeam || pair[1] === this.playerTeam) ? this.playerTeam! : this.resolveTwoLeggedTie(pair[0], pair[1])
-    );
-    this.markPlayoffWinnersAndBuildR16(winners);
-    this.phase = 'playoff_result';
+    this.tiePenalties = undefined;
+    const tieWinner = this.tieAggregateTeam1 > this.tieAggregateTeam2 ? this.tieTeam1! : this.tieTeam2!;
+    this.finishPlayoffTie(tieWinner);
   }
 
   private markPlayoffWinnersAndBuildR16(playoffWinners: Team[]): void {
@@ -585,24 +704,13 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
 
     if (isFinal) {
       const [home, away] = pair;
-      const { homeGoals, awayGoals, events } = this.simulateMatch(home, away, true);
-      let finalHome = homeGoals, finalAway = awayGoals;
-      let penalties: { homeScore: number; awayScore: number } | undefined;
-
-      if (homeGoals === awayGoals) {
-        let hp = this.rand(3, 5), ap = this.rand(3, 5);
-        while (hp === ap) ap = this.rand(3, 5);
-        finalHome = homeGoals + (hp > ap ? 1 : 0);
-        finalAway = awayGoals + (ap > hp ? 1 : 0);
-        penalties = { homeScore: hp, awayScore: ap };
-        events.push({ minute: 120, type: 'info' as any, team: '',
-          description: `🎯 PENALTY SHOOTOUT! Level after extra time — spot kicks decide the Champions League!` });
-        events.sort((a, b) => a.minute - b.minute);
-      }
-
-      this.currentKnockoutMatch = { home, away, homeGoals: finalHome, awayGoals: finalAway,
-        events: [...events], isPlayerMatch: true, penalties };
-      this.startPlayback(this.currentKnockoutMatch, 'knockout_match');
+      this.finalStage = 'regulation';
+      this.openKickoffGate('knockout_match', home, away, () => {
+        const { homeGoals, awayGoals, events } = this.simulatePlayerAware(home, away, true, true);
+        this.currentKnockoutMatch = { home, away, homeGoals, awayGoals, events, isPlayerMatch: true };
+        // La final se reproduce en ~1 minuto real (60000ms), sin importar la cantidad de incidencias.
+        this.startPlayback(this.currentKnockoutMatch, 'knockout_match', 60000);
+      });
       return;
     }
 
@@ -611,7 +719,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     this.currentTieLeg = 1;
     this.tieLeg1 = null;
     this.tiePenalties = undefined;
-    this.playTieLeg('knockout_match');
+    this.openKickoffGate('knockout_match', pair[0], pair[1], () => this.playTieLeg('knockout_match'));
   }
 
   confirmKnockoutResult(): void {
@@ -623,60 +731,61 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
 
     if (isFinal) {
       const m = this.currentKnockoutMatch;
-      const playerHome = m.home === this.playerTeam;
-      const playerGoals = playerHome ? m.homeGoals : m.awayGoals;
-      const oppGoals = playerHome ? m.awayGoals : m.homeGoals;
-      this.phase = playerGoals < oppGoals ? 'eliminated' : 'champion';
+
+      if (this.finalStage === 'regulation') {
+        if (m.homeGoals === m.awayGoals) {
+          this.finalStage = 'extratime';
+          const { t1, t2, events } = this.simulateExtraTime(m.home, m.away);
+          const etMatch: MatchResult = {
+            home: m.home, away: m.away,
+            homeGoals: m.homeGoals + t1, awayGoals: m.awayGoals + t2,
+            events, isPlayerMatch: true,
+          };
+          this.currentKnockoutMatch = etMatch;
+          this.startPlayback(etMatch, 'knockout_match');
+          return;
+        }
+        this.finishFinal(m);
+        return;
+      }
+
+      if (this.finalStage === 'extratime') {
+        if (m.homeGoals === m.awayGoals) {
+          this.finalStage = 'shootout';
+          const { team1: s1, team2: s2, kicks } = this.simulateShootout();
+          const events = this.buildShootoutEvents(m.home, m.away, kicks);
+          const shootoutMatch: MatchResult = { ...m, events, penalties: { homeScore: s1, awayScore: s2 } };
+          this.currentKnockoutMatch = shootoutMatch;
+          this.startPlayback(shootoutMatch, 'knockout_match');
+          return;
+        }
+        this.finishFinal(m);
+        return;
+      }
+
+      // finalStage === 'shootout'
+      this.finishFinal(m);
       return;
     }
 
     if (this.currentTieLeg === 1) {
       this.tieLeg1 = this.currentKnockoutMatch;
       this.currentTieLeg = 2;
-      this.playTieLeg('knockout_match');
+      this.openKickoffGate('knockout_match', this.tieTeam2!, this.tieTeam1!, () => this.playTieLeg('knockout_match'));
       return;
     }
 
     const leg1 = this.tieLeg1!, leg2 = this.currentKnockoutMatch;
-    const team1Goals = leg1.homeGoals + leg2.awayGoals;
-    const team2Goals = leg1.awayGoals + leg2.homeGoals;
-    this.tieAggregateTeam1 = team1Goals;
-    this.tieAggregateTeam2 = team2Goals;
+    this.tieAggregateTeam1 = leg1.homeGoals + leg2.awayGoals;
+    this.tieAggregateTeam2 = leg1.awayGoals + leg2.homeGoals;
 
-    let tieWinner: Team;
-    if (team1Goals === team2Goals) {
-      let p1 = this.rand(3, 5), p2 = this.rand(3, 5);
-      while (p1 === p2) p2 = this.rand(3, 5);
-      this.tiePenalties = { team1Score: p1, team2Score: p2 };
-      tieWinner = p1 > p2 ? this.tieTeam1! : this.tieTeam2!;
-    } else {
-      this.tiePenalties = undefined;
-      tieWinner = team1Goals > team2Goals ? this.tieTeam1! : this.tieTeam2!;
+    if (this.tieAggregateTeam1 === this.tieAggregateTeam2) {
+      this.startExtraTime('knockout');
+      return;
     }
-
-    if (tieWinner !== this.playerTeam) { this.phase = 'eliminated'; return; }
-
-    const winners: Team[] = [];
-    for (const [h, a] of this.knockoutPairs) {
-      if (h === this.playerTeam || a === this.playerTeam) { winners.push(this.playerTeam); continue; }
-      winners.push(this.resolveTwoLeggedTie(h, a));
-    }
-
-    const bracketSlotIndex = this.knockoutRoundIndex + 1; // +1: fullBracket[0] is the playoff round
-    if (this.fullBracket[bracketSlotIndex]) {
-      this.fullBracket[bracketSlotIndex].forEach((slot, i) => { if (i < this.knockoutPairs.length) slot.winner = winners[i]; });
-    }
-
-    this.knockoutRoundIndex++;
-
-    this.knockoutPairs = [];
-    for (let i = 0; i < winners.length; i += 2) if (winners[i + 1]) this.knockoutPairs.push([winners[i], winners[i + 1]]);
-
-    const nextBracketSlotIndex = this.knockoutRoundIndex + 1;
-    if (this.fullBracket[nextBracketSlotIndex]) {
-      this.fullBracket[nextBracketSlotIndex] = this.knockoutPairs.map(([h, a], i) => ({ home: h, away: a, winner: null, matchIndex: i }));
-    }
-    this.phase = 'knockout_result';
+    this.tiePenalties = undefined;
+    const tieWinner = this.tieAggregateTeam1 > this.tieAggregateTeam2 ? this.tieTeam1! : this.tieTeam2!;
+    this.finishKnockoutTie(tieWinner);
   }
 
   continueKnockout(): void { this.playKnockoutMatch(); }
@@ -696,13 +805,18 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
 
   // ─── Shared playback ─────────────────────────────────────────────────────
 
-  private startPlayback(match: MatchResult, returnPhase: GamePhase): void {
+  private startPlayback(match: MatchResult, returnPhase: GamePhase, totalDurationMs?: number): void {
     this.clearTimerInterval();
     this.currentMatch = match;
     this.currentEventIndex = 0;
     this.displayedEvents = [];
     this.matchPlaying = true;
     this.phase = returnPhase;
+
+    const events = match.events;
+    const interval = totalDurationMs && events.length > 0
+      ? Math.max(300, Math.floor(totalDurationMs / events.length))
+      : 650;
 
     this.matchInterval = setInterval(() => {
       if (!this.currentMatch) return;
@@ -713,7 +827,19 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
         this.clearTimerInterval();
         this.matchPlaying = false;
       }
-    }, 650);
+    }, interval);
+  }
+
+  onContinueClick(): void {
+    switch (this.phase) {
+      case 'league_match': this.confirmMatchResult(); break;
+      case 'playoff_match': this.confirmPlayoffResult(); break;
+      case 'knockout_match': this.confirmKnockoutResult(); break;
+      case 'playoff_shootout':
+      case 'knockout_shootout': this.confirmShootoutResult(); break;
+      case 'playoff_extratime':
+      case 'knockout_extratime': this.confirmExtraTimeResult(); break;
+    }
   }
 
   liveScore(teamName: string): number {
@@ -745,8 +871,12 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     this.knockoutPairs = []; this.knockoutRoundIndex = 0; this.currentKnockoutMatch = null;
     this.tieTeam1 = null; this.tieTeam2 = null; this.currentTieLeg = 1; this.tieLeg1 = null;
     this.tieAggregateTeam1 = 0; this.tieAggregateTeam2 = 0; this.tiePenalties = undefined;
+    this.extraTimeGoals = { team1: 0, team2: 0 }; this.tieContext = null;
     this.currentMatch = null; this.displayedEvents = []; this.roundResults = [];
-    this.searchQuery = ''; this.fullBracket = [];
+    this.searchQuery = ''; this.fullBracket = []; this.finalStage = 'regulation';
+    this.attackBoostsLeft = 3; this.defenseBoostsLeft = 3; this.refreshBoostsLeft = 3;
+    this.matchAttackBoostUsed = false; this.matchDefenseBoostUsed = false; this.matchRefreshBoostUsed = false;
+    this.awaitingKickoff = false; this.pendingHome = null; this.pendingAway = null; this.kickoffAction = null;
   }
 
   // ─── Utils ────────────────────────────────────────────────────────────────

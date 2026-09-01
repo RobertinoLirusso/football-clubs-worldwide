@@ -15,6 +15,7 @@
           <span class="cl-pill">⚽ 36 clubs</span>
           <span class="cl-pill">📋 8 matchdays</span>
           <span class="cl-pill">🎯 Playoff round</span>
+          <span class="cl-pill">🃏 3 power-ups</span>
           <span class="cl-pill">🏟️ Final: {{ FINAL_INFO.venue }}, {{ FINAL_INFO.date }}</span>
         </div>
         <div class="w3-center w3-margin-top">
@@ -68,69 +69,127 @@
       </div>
     </div>
 
-    <!-- ══════ MATCH (league, playoff or knockout) ══════ -->
-    <div *ngIf="(phase === 'league_match' || phase === 'playoff_match' || phase === 'knockout_match') && currentMatch"
-         class="cl-match-wrap">
+    <!-- ══════ MATCH (league, playoff, knockout, extra time or shootout) ══════ -->
+    <div *ngIf="(phase === 'league_match' || phase === 'playoff_match' || phase === 'knockout_match' || phase === 'playoff_extratime' || phase === 'knockout_extratime' || phase === 'playoff_shootout' || phase === 'knockout_shootout') && (currentMatch || awaitingKickoff)"
+         class="cl-match-wrap" [class.cl-final-mode]="phase === 'knockout_match' && isFinalRound">
 
-      <div class="cl-round-label">
-        <span *ngIf="phase === 'league_match'" class="cl-badge league">
-          League Phase · Matchday {{ leagueMatchday + 1 }} of 8
-        </span>
-        <span *ngIf="phase === 'playoff_match'" class="cl-badge playoff">
-          Knockout Phase Playoff · Leg {{ currentTieLeg }} of 2
-        </span>
-        <span *ngIf="phase === 'knockout_match' && !isFinalRound" class="cl-badge knockout">
-          {{ currentKnockoutRoundName }} · Leg {{ currentTieLeg }} of 2
-        </span>
-        <span *ngIf="phase === 'knockout_match' && isFinalRound" class="cl-badge knockout">
-          {{ currentKnockoutRoundName }}
-        </span>
+      <!-- Special final banner -->
+      <div *ngIf="phase === 'knockout_match' && isFinalRound" class="cl-final-banner">
+        <div class="cl-final-banner-title">🏆 GRAND FINAL 🏆</div>
+        <div class="cl-final-banner-sub">{{ FINAL_INFO.venue }} · {{ FINAL_INFO.city }} · {{ FINAL_INFO.date }}</div>
       </div>
 
-      <!-- Scoreboard -->
-      <div class="cl-scoreboard w3-card w3-round-large">
-        <div class="cl-score-team" [class.player-side]="currentMatch.home === playerTeam">
-          <img *ngIf="currentMatch.home.logo" [src]="currentMatch.home.logo" class="cl-score-logo" />
-          <span class="cl-score-name">{{ currentMatch.home.name }}</span>
-          <div class="cl-score-stats">ATK {{ currentMatch.home.attack }} · DEF {{ currentMatch.home.defense }}</div>
-        </div>
-        <div class="cl-score-center">
-          <div class="cl-score-digits">
-            {{ liveScore(currentMatch.home.name) }} – {{ liveScore(currentMatch.away.name) }}
+      <!-- Pre-match: choose power-ups -->
+      <div *ngIf="awaitingKickoff" class="cl-kickoff-panel w3-card w3-round-large">
+        <div class="cl-kickoff-title">Get ready</div>
+        <div class="cl-kickoff-matchup" *ngIf="pendingHome && pendingAway">
+          <div class="cl-kickoff-team">
+            <img *ngIf="pendingHome.logo" [src]="pendingHome.logo" class="cl-kickoff-logo" />
+            <span>{{ pendingHome.name }}</span>
           </div>
-          <div class="cl-score-sub" *ngIf="matchPlaying"><span class="cl-live-dot"></span> LIVE</div>
-          <div class="cl-score-sub" *ngIf="!matchPlaying">FT</div>
-          <div *ngIf="!matchPlaying && currentMatch.penalties" class="cl-penalties-note">
-            🎯 Pens: {{ currentMatch.penalties.homeScore }}–{{ currentMatch.penalties.awayScore }}
+          <span class="cl-kickoff-vs">vs</span>
+          <div class="cl-kickoff-team">
+            <img *ngIf="pendingAway.logo" [src]="pendingAway.logo" class="cl-kickoff-logo" />
+            <span>{{ pendingAway.name }}</span>
           </div>
         </div>
-        <div class="cl-score-team right" [class.player-side]="currentMatch.away === playerTeam">
-          <img *ngIf="currentMatch.away.logo" [src]="currentMatch.away.logo" class="cl-score-logo" />
-          <span class="cl-score-name">{{ currentMatch.away.name }}</span>
-          <div class="cl-score-stats">ATK {{ currentMatch.away.attack }} · DEF {{ currentMatch.away.defense }}</div>
+
+        <div class="cl-boosts-row">
+          <button class="cl-boost-btn" [class.active]="matchAttackBoostUsed"
+                  [disabled]="attackBoostsLeft <= 0 || matchAttackBoostUsed" (click)="useAttackBoost()">
+            ⚔️ Attack Power<br><span class="cl-boost-count">{{ attackBoostsLeft }} left</span>
+          </button>
+          <button class="cl-boost-btn" [class.active]="matchDefenseBoostUsed"
+                  [disabled]="defenseBoostsLeft <= 0 || matchDefenseBoostUsed" (click)="useDefenseBoost()">
+            🛡️ Defense Power<br><span class="cl-boost-count">{{ defenseBoostsLeft }} left</span>
+          </button>
+          <button class="cl-boost-btn" [class.active]="matchRefreshBoostUsed"
+                  [disabled]="refreshBoostsLeft <= 0 || matchRefreshBoostUsed" (click)="useRefreshBoost()">
+            🔄 Refresh Squad<br><span class="cl-boost-count">{{ refreshBoostsLeft }} left</span>
+          </button>
+        </div>
+
+        <div class="w3-center w3-margin-top">
+          <button class="cl-btn-primary w3-button w3-round" (click)="confirmKickoff()">▶ Kick off</button>
         </div>
       </div>
 
-      <!-- Events feed -->
-      <div class="cl-events-feed">
-        <div *ngFor="let ev of displayedEvents; trackBy: trackByIdx"
-             class="cl-event"
-             [class.player-event]="isPlayerEvent(ev)"
-             [class.goal-event]="ev.type === 'goal'"
-             [class.neutral-event]="ev.team === ''">
-          <span class="cl-event-min">{{ ev.minute > 0 ? ev.minute + "'" : '' }}</span>
-          <span class="cl-event-desc">{{ ev.description }}</span>
+      <!-- Live match -->
+      <ng-container *ngIf="!awaitingKickoff && currentMatch">
+        <div class="cl-round-label">
+          <span *ngIf="phase === 'league_match'" class="cl-badge league">
+            League Phase · Matchday {{ leagueMatchday + 1 }} of 8
+          </span>
+          <span *ngIf="phase === 'playoff_match'" class="cl-badge playoff">
+            Knockout Phase Playoff · Leg {{ currentTieLeg }} of 2
+          </span>
+          <span *ngIf="phase === 'knockout_match' && !isFinalRound" class="cl-badge knockout">
+            {{ currentKnockoutRoundName }} · Leg {{ currentTieLeg }} of 2
+          </span>
+          <span *ngIf="phase === 'knockout_match' && isFinalRound && finalStage === 'regulation'" class="cl-badge knockout">
+            {{ currentKnockoutRoundName }}
+          </span>
+          <span *ngIf="phase === 'knockout_match' && isFinalRound && finalStage === 'extratime'" class="cl-badge extratime">
+            ⏱️ Extra Time — Final
+          </span>
+          <span *ngIf="phase === 'knockout_match' && isFinalRound && finalStage === 'shootout'" class="cl-badge shootout">
+            🎯 Penalty Shootout — Final
+          </span>
+          <span *ngIf="phase === 'playoff_extratime' || phase === 'knockout_extratime'" class="cl-badge extratime">
+            ⏱️ Extra Time
+          </span>
+          <span *ngIf="phase === 'playoff_shootout' || phase === 'knockout_shootout'" class="cl-badge shootout">
+            🎯 Penalty Shootout
+          </span>
         </div>
-        <div *ngIf="matchPlaying && displayedEvents.length === 0"
-             class="cl-event cl-event-waiting">⏱️ Kick-off is moments away…</div>
-      </div>
 
-      <div class="w3-center w3-margin-top" *ngIf="!matchPlaying">
-        <button class="cl-btn-primary w3-button w3-round"
-          (click)="phase === 'league_match' ? confirmMatchResult() : (phase === 'playoff_match' ? confirmPlayoffResult() : confirmKnockoutResult())">
-          Continue →
-        </button>
-      </div>
+        <!-- Scoreboard -->
+        <div class="cl-scoreboard w3-card w3-round-large">
+          <div class="cl-score-team" [class.player-side]="currentMatch.home === playerTeam">
+            <img *ngIf="currentMatch.home.logo" [src]="currentMatch.home.logo" class="cl-score-logo" />
+            <span class="cl-score-name">{{ currentMatch.home.name }}</span>
+            <div class="cl-score-stats">ATK {{ currentMatch.home.attack }} · DEF {{ currentMatch.home.defense }}</div>
+          </div>
+          <div class="cl-score-center">
+            <div class="cl-score-digits">
+              {{ liveScore(currentMatch.home.name) }} – {{ liveScore(currentMatch.away.name) }}
+            </div>
+            <div class="cl-score-sub" *ngIf="matchPlaying"><span class="cl-live-dot"></span> LIVE</div>
+            <div class="cl-score-sub" *ngIf="!matchPlaying">
+              {{ (phase === 'playoff_extratime' || phase === 'knockout_extratime' || (phase === 'knockout_match' && finalStage === 'extratime')) ? 'AET'
+                 : ((phase === 'playoff_shootout' || phase === 'knockout_shootout' || (phase === 'knockout_match' && finalStage === 'shootout')) ? 'PENS' : 'FT') }}
+            </div>
+            <div *ngIf="!matchPlaying && currentMatch.penalties" class="cl-penalties-note">
+              🎯 Pens: {{ currentMatch.penalties.homeScore }}–{{ currentMatch.penalties.awayScore }}
+            </div>
+          </div>
+          <div class="cl-score-team right" [class.player-side]="currentMatch.away === playerTeam">
+            <img *ngIf="currentMatch.away.logo" [src]="currentMatch.away.logo" class="cl-score-logo" />
+            <span class="cl-score-name">{{ currentMatch.away.name }}</span>
+            <div class="cl-score-stats">ATK {{ currentMatch.away.attack }} · DEF {{ currentMatch.away.defense }}</div>
+          </div>
+        </div>
+
+        <!-- Events feed -->
+        <div class="cl-events-feed">
+          <div *ngFor="let ev of displayedEvents; trackBy: trackByIdx"
+               class="cl-event"
+               [class.player-event]="isPlayerEvent(ev)"
+               [class.goal-event]="ev.type === 'goal'"
+               [class.neutral-event]="ev.team === ''">
+            <span class="cl-event-min">{{ ev.minute > 0 ? ev.minute + "'" : '' }}</span>
+            <span class="cl-event-desc">{{ ev.description }}</span>
+          </div>
+          <div *ngIf="matchPlaying && displayedEvents.length === 0"
+               class="cl-event cl-event-waiting">⏱️ Kick-off is moments away…</div>
+        </div>
+
+        <div class="w3-center w3-margin-top" *ngIf="!matchPlaying">
+          <button class="cl-btn-primary w3-button w3-round" (click)="onContinueClick()">
+            Continue →
+          </button>
+        </div>
+      </ng-container>
     </div>
 
     <!-- ══════ LEAGUE MATCHDAY RESULTS ══════ -->
