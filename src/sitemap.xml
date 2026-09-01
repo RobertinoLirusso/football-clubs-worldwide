@@ -18,6 +18,13 @@
     <priority>0.8</priority>
   </url>
 
+    <url>
+    <loc>https://football-clubs-worldwide.vercel.app/champions-league</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Interactive Map -->
   <url>
     <loc>https://football-clubs-worldwide.vercel.app/map</loc>

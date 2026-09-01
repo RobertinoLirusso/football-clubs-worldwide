@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://football-clubs-worldwide.com/sitemap.xml
+Sitemap: https://football-clubs-worldwide.vercel.app/sitemap.xml
 
 # Disallow access to admin areas (if any)
 # Disallow: /admin/
