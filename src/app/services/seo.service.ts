@@ -209,12 +209,133 @@ export class SeoService {
     });
   }
 
+
   setNationalTeamPageSeo(country: string) {
     this.updateSeo({
       title: `${country} National Football Team`,
       description: `Complete information about the ${country} national football team. Players, coaches, match results, and team statistics.`,
       keywords: `${country} national team, football, soccer, national squad`,
       type: 'article'
+    });
+  }
+
+  setNationalTeamsPageSeo() {
+    this.updateSeo({
+      title: 'National Teams',
+      description:
+        'Browse national football teams from countries around the world. Explore squads, stadiums, and international football history.',
+      keywords:
+        'national football teams, international soccer, country teams, national squads',
+      url: `${this.baseUrl}/national-teams`,
+      type: 'website'
+    });
+  }
+
+  setGuessClubGameSeo() {
+    this.updateSeo({
+      title: 'Guess the Club Game',
+      description:
+        'Test your football knowledge with our Guess the Club game. Identify clubs from around the world and challenge yourself with each round.',
+      keywords:
+        'guess the club, football quiz, soccer game, club logo quiz',
+      url: `${this.baseUrl}/game`,
+      type: 'website'
+    });
+  }
+
+  setMapPageSeo() {
+    this.updateSeo({
+      title: 'Interactive Football Map',
+      description:
+        'Explore an interactive map of football clubs and stadiums from around the world. Discover teams by country and region.',
+      keywords:
+        'football map, interactive soccer map, club locations, stadium map',
+      url: `${this.baseUrl}/map`,
+      type: 'website'
+    });
+  }
+
+  setClubSearchPageSeo() {
+    this.updateSeo({
+      title: 'Club Search',
+      description:
+        'Search thousands of football clubs worldwide by name, country, or league. Find detailed club information instantly.',
+      keywords:
+        'club search, find football club, soccer team search, club database',
+      url: `${this.baseUrl}/club-search`,
+      type: 'website'
+    });
+  }
+
+  setHangmanPageSeo() {
+    this.updateSeo({
+      title: 'Football Hangman',
+      description:
+        'Play football-themed hangman and guess club and player names letter by letter in this fun word game.',
+      keywords:
+        'football hangman, soccer word game, guess the name, football games',
+      url: `${this.baseUrl}/hangman`,
+      type: 'website'
+    });
+  }
+
+  setPairsPageSeo() {
+    this.updateSeo({
+      title: 'Football Pairs Memory Game',
+      description:
+        'Match pairs of football club logos in this memory game. Sharpen your recall while testing your knowledge of clubs worldwide.',
+      keywords:
+        'football pairs game, memory game, match logos, soccer memory challenge',
+      url: `${this.baseUrl}/pairs`,
+      type: 'website'
+    });
+  }
+
+  setGuessCountryPageSeo() {
+    this.updateSeo({
+      title: 'Guess the Country',
+      description:
+        'Guess which country a football club or national team belongs to in this geography-meets-football challenge.',
+      keywords:
+        'guess the country, football geography game, soccer trivia, country quiz',
+      url: `${this.baseUrl}/guess-country`,
+      type: 'website'
+    });
+  }
+
+  setLogoShufflePageSeo() {
+    this.updateSeo({
+      title: 'Logo Shuffle',
+      description:
+        'Unscramble shuffled football club logos and see how fast you can identify the correct club in this fast-paced game.',
+      keywords:
+        'logo shuffle, football logo game, guess the badge, soccer logo quiz',
+      url: `${this.baseUrl}/logo-shuffle`,
+      type: 'website'
+    });
+  }
+
+  setWorldCupPageSeo() {
+    this.updateSeo({
+      title: 'World Cup',
+      description:
+        'Explore World Cup history, teams, and tournaments. Dive into stats and facts from football\'s biggest international competition.',
+      keywords:
+        'world cup, fifa world cup, international football, world cup history',
+      url: `${this.baseUrl}/world-cup`,
+      type: 'website'
+    });
+  }
+
+  setChampionsLeaguePageSeo() {
+    this.updateSeo({
+      title: 'Champions League',
+      description:
+        'Explore UEFA Champions League clubs, history, and tournament information. Follow Europe\'s premier club competition.',
+      keywords:
+        'champions league, uefa champions league, european football, ucl clubs',
+      url: `${this.baseUrl}/champions-league`,
+      type: 'website'
     });
   }
 }

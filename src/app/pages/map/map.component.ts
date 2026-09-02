@@ -30,6 +30,7 @@ export class MapComponent implements OnInit {
     };
 
     this.seoService.setStructuredData(structuredData);
+    this.seoService.setMapPageSeo();
   }
 
 }

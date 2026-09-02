@@ -74,6 +74,7 @@ export class LogoShuffleComponent implements OnInit, OnDestroy {
       url: 'https://football-clubs-worldwide.vercel.app/logo-shuffle',
       type: 'website',
     });
+    this.seoService.setLogoShufflePageSeo();
   }
 
   ngOnDestroy(): void {}

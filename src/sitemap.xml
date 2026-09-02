@@ -5,22 +5,15 @@
   <!-- Home Page -->
   <url>
     <loc>https://football-clubs-worldwide.vercel.app/</loc>
-    <lastmod>2024-12-14</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Guess Club Game -->
   <url>
-    <loc>https://football-clubs-worldwide.vercel.app/guess-club</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-    <url>
-    <loc>https://football-clubs-worldwide.vercel.app/champions-league</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://football-clubs-worldwide.vercel.app/game</loc>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -28,7 +21,7 @@
   <!-- Interactive Map -->
   <url>
     <loc>https://football-clubs-worldwide.vercel.app/map</loc>
-    <lastmod>2024-12-14</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -36,9 +29,65 @@
   <!-- National Teams -->
   <url>
     <loc>https://football-clubs-worldwide.vercel.app/national-teams</loc>
-    <lastmod>2024-12-14</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <!-- Club Search -->
+  <url>
+    <loc>https://football-clubs-worldwide.vercel.app/club-search</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Hangman -->
+  <url>
+    <loc>https://football-clubs-worldwide.vercel.app/hangman</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Pairs -->
+  <url>
+    <loc>https://football-clubs-worldwide.vercel.app/pairs</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Guess Country -->
+  <url>
+    <loc>https://football-clubs-worldwide.vercel.app/guess-country</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Logo Shuffle -->
+  <url>
+    <loc>https://football-clubs-worldwide.vercel.app/logo-shuffle</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- World Cup -->
+  <url>
+    <loc>https://football-clubs-worldwide.vercel.app/world-cup</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Champions League -->
+  <url>
+    <loc>https://football-clubs-worldwide.vercel.app/champions-league</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>

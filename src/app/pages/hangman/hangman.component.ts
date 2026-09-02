@@ -41,6 +41,7 @@ export class HangmanComponent implements OnInit {
       url: 'https://football-clubs-worldwide.vercel.app/hangman',
       type: 'website',
     });
+    this.seoService.setHangmanPageSeo();
   }
 
   get wrongCount(): number {

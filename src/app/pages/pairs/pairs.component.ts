@@ -57,6 +57,7 @@ export class PairsComponent implements OnInit, OnDestroy {
       url: 'https://football-clubs-worldwide.vercel.app/club-pairs',
       type: 'website',
     });
+    this.seoService.setPairsPageSeo();
   }
  
   ngOnDestroy(): void {

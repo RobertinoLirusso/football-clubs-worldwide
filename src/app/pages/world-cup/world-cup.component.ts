@@ -209,6 +209,7 @@ export class WorldCupComponent implements OnInit, OnDestroy {
       url: 'https://football-clubs-worldwide.vercel.app/world-cup',
       type: 'website',
     });
+    this.seoService.setWorldCupPageSeo();
   }
 
   ngOnDestroy(): void { this.clearTimerInterval(); }

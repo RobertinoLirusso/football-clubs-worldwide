@@ -65,7 +65,7 @@ export class GuessClubComponent implements OnInit {
       title: 'Guess the Football Club - Football Quiz Game',
       description: 'Test your football knowledge with our interactive quiz game! Guess football clubs from around the world. Challenge yourself and see how many you can get right in a row.',
       keywords: 'football quiz, guess the club, football game, soccer quiz, football knowledge test, interactive game',
-      url: 'https://football-clubs-worldwide.vercel.app/guess-club',
+      url: 'https://football-clubs-worldwide.vercel.app/game',
       type: 'website'
     });
 
@@ -75,7 +75,7 @@ export class GuessClubComponent implements OnInit {
       "@type": "WebApplication",
       "name": "Guess the Football Club Quiz",
       "description": "Interactive football quiz game to test your knowledge of football clubs worldwide",
-      "url": "https://football-clubs-worldwide.vercel.app/guess-club",
+      "url": "https://football-clubs-worldwide.vercel.app/game",
       "applicationCategory": "GameApplication",
       "operatingSystem": "Web Browser",
       "offers": {

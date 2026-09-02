@@ -146,6 +146,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
       this.buildTeams();
     });
     this.setupSeo();
+    this.seoService.setChampionsLeaguePageSeo();
   }
 
   ngOnDestroy(): void { this.clearTimerInterval(); }
