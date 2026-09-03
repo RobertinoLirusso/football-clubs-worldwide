@@ -22,6 +22,7 @@ import { LogoShuffleComponent } from './pages/logo-shuffle/logo-shuffle.componen
 import { WorldCupComponent } from './pages/world-cup/world-cup.component';
 import { GoalsForPipe } from './pipes/goals-for.pipe';
 import { ChampionsLeagueComponent } from './pages/champions-league/champions-league.component';
+import { EuropaLeagueComponent } from './pages/europa-league/europa-league.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { ChampionsLeagueComponent } from './pages/champions-league/champions-lea
     WorldCupComponent,
     GoalsForPipe,
     ChampionsLeagueComponent,
+    EuropaLeagueComponent,
   ],
   imports: [
     BrowserModule,

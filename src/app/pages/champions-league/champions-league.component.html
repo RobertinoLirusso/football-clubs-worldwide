@@ -403,7 +403,9 @@
           </div>
         </div>
 
-        <div class="cl-my-result-header cl-leg2-header">Leg 2</div>
+        <div class="cl-my-result-header cl-leg2-header">
+          Leg 2 <span *ngIf="wentToExtraTime" class="cl-aet-tag">(AET)</span>
+        </div>
         <div class="cl-result-row">
           <div class="cl-result-team">
             <img *ngIf="currentPlayoffMatch.home.logo" [src]="currentPlayoffMatch.home.logo" class="cl-result-logo" />
@@ -483,7 +485,9 @@
           </div>
         </div>
 
-        <div class="cl-my-result-header cl-leg2-header">Leg 2</div>
+        <div class="cl-my-result-header cl-leg2-header">
+          Leg 2 <span *ngIf="wentToExtraTime" class="cl-aet-tag">(AET)</span>
+        </div>
         <div class="cl-result-row">
           <div class="cl-result-team">
             <img *ngIf="currentKnockoutMatch.home.logo" [src]="currentKnockoutMatch.home.logo" class="cl-result-logo" />
@@ -541,36 +545,50 @@
       </div>
     </div>
 
-    <!-- ══════ ELIMINATED ══════ -->
-    <div *ngIf="phase === 'eliminated'" class="cl-center">
-      <div class="cl-card w3-card w3-round-large w3-padding-large cl-result-card lost">
-        <div class="cl-result-icon">💀</div>
-        <h2 class="w3-text-white w3-center">Eliminated!</h2>
-        <p class="w3-text-light-grey w3-center">
-          <strong class="w3-text-white">{{ playerTeam?.name }}</strong>'s Champions League run ends here.
-        </p>
-        <div class="w3-center w3-margin-top">
-          <button class="cl-btn-primary w3-button w3-round" (click)="resetGame()">🔄 Try Again</button>
-        </div>
-      </div>
+<!-- ══════ ELIMINATED ══════ -->
+<div *ngIf="phase === 'eliminated'" class="cl-center">
+  <div class="cl-card w3-card w3-round-large w3-padding-large cl-result-card lost">
+    <div class="cl-result-icon">💀</div>
+    <h2 class="w3-text-white w3-center">Eliminated!</h2>
+    <p class="w3-text-light-grey w3-center">
+      <strong class="w3-text-white">{{ playerTeam?.name }}</strong>'s Champions League run ends here.
+    </p>
+    <div class="cl-final-score-recap" *ngIf="isFinalRound && currentKnockoutMatch">
+      <span>{{ currentKnockoutMatch.home.name }} {{ scoreLabel(currentKnockoutMatch) }} {{ currentKnockoutMatch.away.name }}</span>
+      <span *ngIf="finalStage === 'extratime'" class="cl-aet-tag"> (AET)</span>
+      <span *ngIf="finalStage === 'shootout' && currentKnockoutMatch.penalties" class="cl-aet-tag">
+        (AET, {{ currentKnockoutMatch.penalties.homeScore }}–{{ currentKnockoutMatch.penalties.awayScore }} pens)
+      </span>
     </div>
+    <div class="w3-center w3-margin-top">
+      <button class="cl-btn-primary w3-button w3-round" (click)="resetGame()">🔄 Try Again</button>
+    </div>
+  </div>
+</div>
 
-    <!-- ══════ CHAMPION ══════ -->
-    <div *ngIf="phase === 'champion'" class="cl-center">
-      <div class="cl-card w3-card w3-round-large w3-padding-large cl-result-card won">
-        <div class="cl-result-icon">🏆</div>
-        <h2 class="w3-text-white w3-center">Champions of Europe!</h2>
-        <div class="cl-champion-logo" *ngIf="playerTeam?.logo">
-          <img [src]="playerTeam!.logo" [alt]="playerTeam!.name" />
-        </div>
-        <p class="w3-text-light-grey w3-center">
-          <strong class="accent">{{ playerTeam?.name }}</strong> lifts the trophy at the {{ FINAL_INFO.venue }}, {{ FINAL_INFO.city }}! 🎉
-        </p>
-        <div class="w3-center w3-margin-top">
-          <button class="cl-btn-primary w3-button w3-round" (click)="resetGame()">🔄 Play Again</button>
-        </div>
-      </div>
+<!-- ══════ CHAMPION ══════ -->
+<div *ngIf="phase === 'champion'" class="cl-center">
+  <div class="cl-card w3-card w3-round-large w3-padding-large cl-result-card won">
+    <div class="cl-result-icon">🏆</div>
+    <h2 class="w3-text-white w3-center">Champions of Europe!</h2>
+    <div class="cl-champion-logo" *ngIf="playerTeam?.logo">
+      <img [src]="playerTeam!.logo" [alt]="playerTeam!.name" />
     </div>
+    <p class="w3-text-light-grey w3-center">
+      <strong class="accent">{{ playerTeam?.name }}</strong> lifts the trophy at the {{ FINAL_INFO.venue }}, {{ FINAL_INFO.city }}! 🎉
+    </p>
+    <div class="cl-final-score-recap" *ngIf="currentKnockoutMatch">
+      <span>{{ currentKnockoutMatch.home.name }} {{ scoreLabel(currentKnockoutMatch) }} {{ currentKnockoutMatch.away.name }}</span>
+      <span *ngIf="finalStage === 'extratime'" class="cl-aet-tag"> (AET)</span>
+      <span *ngIf="finalStage === 'shootout' && currentKnockoutMatch.penalties" class="cl-aet-tag">
+        (AET, {{ currentKnockoutMatch.penalties.homeScore }}–{{ currentKnockoutMatch.penalties.awayScore }} pens)
+      </span>
+    </div>
+    <div class="w3-center w3-margin-top">
+      <button class="cl-btn-primary w3-button w3-round" (click)="resetGame()">🔄 Play Again</button>
+    </div>
+  </div>
+</div>
 
   </div>
   <app-footer></app-footer>

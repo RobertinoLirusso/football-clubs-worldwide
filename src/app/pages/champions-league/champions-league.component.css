@@ -410,7 +410,9 @@
 .cl-boost-btn.active { border-color: var(--correct); background: rgba(39,174,96,0.15); color: #2ecc71; }
 .cl-boost-btn:disabled { opacity: 0.35; cursor: not-allowed; }
 .cl-boost-count { font-size: 0.65rem; color: rgba(255,255,255,0.5); font-weight: 400; }
+.cl-aet-tag { font-size: 0.65rem; color: #b98cff; font-weight: 700; letter-spacing: 0.04em; }
 
+.cl-final-score-recap { font-size: 0.85rem; color: rgba(255,255,255,0.7); margin-top: 6px; }
 
 /* ─── Responsive ─────────────────────── */
 
