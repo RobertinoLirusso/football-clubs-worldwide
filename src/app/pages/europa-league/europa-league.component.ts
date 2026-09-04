@@ -1,13 +1,13 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ClubService } from '../../services/club.service';
 import { SeoService } from '../../services/seo.service';
-import { EL2026_TEAMS, EL2026_SCHEDULE, FINAL_INFO_EL } from './el-teams-data';
+import { EL2026_TEAMS, EL2026_SCHEDULE, FINAL_INFO_EL, EL2026_PLAYOFF_LOSERS, QUALIFYING_ROUND_FIXTURES } from './el-teams-data';
 
 // ─── Types ────────────────────────────────────────────────────────────────
 
 type GamePhase =
   | 'home' | 'select'
-  | 'preseason_playoff_match' | 'preseason_playoff_extratime' | 'preseason_playoff_shootout' | 'preseason_playoff_result'
+  | 'qualifying_round_match' | 'qualifying_round_extratime' | 'qualifying_round_shootout' | 'qualifying_round_result'
   | 'league_match' | 'league_result' | 'league_standings'
   | 'playoff_match' | 'playoff_extratime' | 'playoff_shootout' | 'playoff_result'
   | 'knockout_match' | 'knockout_extratime' | 'knockout_shootout' | 'knockout_result'
@@ -75,19 +75,20 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
   phase: GamePhase = 'home';
 
   allTeams: Team[] = [];
+  playoffLosers: Team[] = [];
   playerTeam: Team | null = null;
   searchQuery = '';
 
-  // Preseason playoff round (previa a la fase de liga)
-  currentPreseasonMatch: MatchResult | null = null;
+  // Qualifying Round
+  currentQualifyingMatch: MatchResult | null = null;
 
-  // League phase (real UEFA fixtures)
+  // League phase
   leagueSchedule: MatchResult[][] = [];
   leagueMatchday = 0;
   leagueStandings: LeagueStanding[] = [];
   roundResults: MatchResult[] = [];
 
-  // Playoff round (9th-24th)
+  // Knockout playoff (9th-24th)
   playoffPairs: Array<[Team, Team]> = [];
   currentPlayoffMatch: MatchResult | null = null;
 
@@ -98,7 +99,7 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
   fullBracket: BracketSlot[][] = [];
   finalStage: 'regulation' | 'extratime' | 'shootout' = 'regulation';
 
-  // Shared two-legged / single tie state (preseason + playoff + R16/QF/SF)
+  // Shared two-legged state
   tieTeam1: Team | null = null;
   tieTeam2: Team | null = null;
   currentTieLeg: 1 | 2 = 1;
@@ -107,7 +108,7 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
   tieAggregateTeam2 = 0;
   tiePenalties?: { team1Score: number; team2Score: number };
   extraTimeGoals = { team1: 0, team2: 0 };
-  tieContext: 'preseason' | 'playoff' | 'knockout' | null = null;
+  tieContext: 'qualifying' | 'playoff' | 'knockout' | null = null;
   wentToExtraTime = false;
 
   // Shared playback state
@@ -127,13 +128,13 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
   matchDefenseBoostUsed = false;
   matchRefreshBoostUsed = false;
 
-  // Pre-match: pick a formation
+  // Pre-match formation
   awaitingFormation = false;
   pendingHome: Team | null = null;
   pendingAway: Team | null = null;
   private formationAction: (() => void) | null = null;
 
-  // Half-time pause: power-ups + tactic change
+  // Half-time
   atHalftime = false;
   halftimeHomeGoals = 0;
   halftimeAwayGoals = 0;
@@ -154,7 +155,7 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
   private setupSeo(): void {
     this.seoService.updateSeo({
       title: 'UEFA Europa League 2026-27 Simulator',
-      description: 'Pick your club and simulate the 2026-27 UEFA Europa League — preseason play-off, league phase, knockout play-offs and the road to the Frankfurt final!',
+      description: 'Pick your club and simulate the 2026-27 UEFA Europa League — qualifying round, league phase, knockout play-offs and the road to the Frankfurt final!',
       keywords: 'europa league 2026, uefa europa league simulator, football game, soccer simulator',
       url: 'https://football-clubs-worldwide.vercel.app/europa-league',
       type: 'website',
@@ -181,6 +182,24 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
         morale: 80,
       };
     });
+
+    this.playoffLosers = EL2026_PLAYOFF_LOSERS.map(t => {
+      const tn = this.normalize(t.name);
+      const match = this.allClubsData.find((c: any) => {
+        const cn = this.normalize(c.club_name ?? '');
+        return cn === tn || cn.includes(tn) || tn.includes(cn);
+      });
+      return {
+        name: t.name,
+        country: t.country,
+        pot: 4 as 1 | 2 | 3 | 4,
+        attack: t.attack,
+        defense: t.defense,
+        stamina: t.stamina,
+        logo: match?.club_logo ?? '',
+        morale: 75,
+      };
+    });
   }
 
   // ─── Selection screen ───────────────────────────────────────────────────
@@ -198,36 +217,64 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
 
   confirmSelection(): void {
     if (!this.playerTeam) return;
-    this.playPreseasonPlayoff();
+  
+    const opponentName = QUALIFYING_ROUND_FIXTURES[this.playerTeam.name];
+  
+    if (!opponentName) {
+      // Equipo que entró directo a la League Phase → salta la ronda de clasificación
+      this.initTournament();
+      this.phase = 'league_match';
+      this.playNextLeagueMatchday();
+      return;
+    }
+  
+    // Buscar el rival real
+    let opponent = this.playoffLosers.find(t => t.name === opponentName);
+  
+    // Si no está en playoffLosers (por si acaso), lo creamos al vuelo
+    if (!opponent) {
+      opponent = {
+        name: opponentName,
+        country: '',
+        pot: 4,
+        attack: 60,
+        defense: 58,
+        stamina: 75,
+        logo: '',
+        morale: 70
+      };
+    }
+  
+    this.playQualifyingRound(opponent);
   }
 
-  // ─── Preseason play-off (previo a la fase de liga) ──────────────────────
+  // ─── Qualifying Round ───────────────────────────────────────────────────
 
-  playPreseasonPlayoff(): void {
-    const candidates = this.allTeams.filter(t => t !== this.playerTeam);
-    const opponent = candidates[this.rand(0, candidates.length - 1)];
-    this.tieTeam1 = this.playerTeam!;
-    this.tieTeam2 = opponent;
-    this.currentTieLeg = 1;
-    this.tieLeg1 = null;
-    this.tiePenalties = undefined;
-    this.wentToExtraTime = false;
-    this.currentPreseasonMatch = null;
-    this.openFormationGate('preseason_playoff_match', this.playerTeam!, opponent, () =>
-      this.playRegulationMatch(this.playerTeam!, opponent, 'preseason_playoff_match', false));
-  }
+playQualifyingRound(opponent: Team): void {
+  this.tieTeam1 = this.playerTeam!;
+  this.tieTeam2 = opponent;
+  this.currentTieLeg = 1;
+  this.tieLeg1 = null;
+  this.tiePenalties = undefined;
+  this.wentToExtraTime = false;
+  this.currentQualifyingMatch = null;
 
-  confirmPreseasonPlayoffResult(): void {
+  this.openFormationGate('qualifying_round_match', this.playerTeam!, opponent, () =>
+    this.playRegulationMatch(this.playerTeam!, opponent, 'qualifying_round_match', false)
+  );
+}
+
+  confirmQualifyingRoundResult(): void {
     if (!this.currentMatch || !this.playerTeam) return;
     this.clearTimerInterval();
     this.matchPlaying = false;
-    this.currentPreseasonMatch = this.currentMatch;
+    this.currentQualifyingMatch = this.currentMatch;
 
     if (this.currentTieLeg === 1) {
       this.tieLeg1 = this.currentMatch;
       this.currentTieLeg = 2;
-      this.openFormationGate('preseason_playoff_match', this.tieTeam2!, this.tieTeam1!, () =>
-        this.playRegulationMatch(this.tieTeam2!, this.tieTeam1!, 'preseason_playoff_match', false));
+      this.openFormationGate('qualifying_round_match', this.tieTeam2!, this.tieTeam1!, () =>
+        this.playRegulationMatch(this.tieTeam2!, this.tieTeam1!, 'qualifying_round_match', false));
       return;
     }
 
@@ -236,28 +283,31 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
     this.tieAggregateTeam2 = leg1.awayGoals + leg2.homeGoals;
 
     if (this.tieAggregateTeam1 === this.tieAggregateTeam2) {
-      this.startExtraTime('preseason');
+      this.startExtraTime('qualifying');
       return;
     }
     this.tiePenalties = undefined;
-    const tieWinner = this.tieAggregateTeam1 > this.tieAggregateTeam2 ? this.tieTeam1! : this.tieTeam2!;
-    this.finishPreseasonTie(tieWinner);
+    const winner = this.tieAggregateTeam1 > this.tieAggregateTeam2 ? this.tieTeam1! : this.tieTeam2!;
+    this.finishQualifyingRound(winner);
   }
 
-  private finishPreseasonTie(tieWinner: Team): void {
-    if (tieWinner !== this.playerTeam) { this.phase = 'eliminated'; return; }
+  private finishQualifyingRound(winner: Team): void {
+    if (winner !== this.playerTeam) {
+      this.phase = 'eliminated';
+      return;
+    }
     this.initTournament();
     this.phase = 'league_match';
     this.playNextLeagueMatchday();
   }
 
-  continuePreseasonResult(): void {
+  continueQualifyingRoundResult(): void {
     this.initTournament();
     this.phase = 'league_match';
     this.playNextLeagueMatchday();
   }
 
-  // ─── League phase schedule (real UEFA fixtures) ──────────────────────────
+  // ─── League phase ───────────────────────────────────────────────────────
 
   private initTournament(): void {
     this.leagueStandings = this.allTeams.map(t => ({
@@ -275,7 +325,7 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
         .map(([homeName, awayName]) => {
           const home = byName.get(homeName), away = byName.get(awayName);
           if (!home || !away) {
-            console.error(`Fixture desconocido en el calendario real: ${homeName} vs ${awayName}`);
+            console.error(`Fixture desconocido: ${homeName} vs ${awayName}`);
             return null;
           }
           return this.buildMatch(home, away);
@@ -445,7 +495,7 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
     return pool[Math.floor(Math.random() * pool.length)];
   }
 
-  // ─── Live regulation match, split in two halves with a half-time pause ────
+  // ─── Live regulation match ──────────────────────────────────────────────
 
   private simulateHalfGoals(home: Team, away: Team): { homeGoals: number; awayGoals: number } {
     const homeAdvantage = 3;
@@ -475,7 +525,6 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
 
     const dominantTeam = (home.attack + home.defense) >= (away.attack + away.defense) ? home : away;
     const weakerTeam = dominantTeam === home ? away : home;
-    // La final tiene muchas más incidencias — misma duración de reproducción.
     const extraCount = isFinal ? this.rand(9, 15) : this.rand(5, 8);
     const pool = ['save', 'miss', 'yellow', 'foul', 'corner', 'offside', 'var'] as const;
     type PoolType = typeof pool[number];
@@ -588,28 +637,29 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
     return { t1: g1, t2: g2, events };
   }
 
-  private startExtraTime(context: 'preseason' | 'playoff' | 'knockout'): void {
+  private startExtraTime(context: 'qualifying' | 'playoff' | 'knockout'): void {
     this.wentToExtraTime = true;
     const team1 = this.tieTeam1!, team2 = this.tieTeam2!;
     const { t1, t2, events } = this.simulateExtraTime(team1, team2);
     this.extraTimeGoals = { team1: t1, team2: t2 };
     const etMatch: MatchResult = { home: team1, away: team2, homeGoals: t1, awayGoals: t2, events, isPlayerMatch: true };
     this.tieContext = context;
-    const returnPhase: GamePhase = context === 'preseason' ? 'preseason_playoff_extratime' : context === 'playoff' ? 'playoff_extratime' : 'knockout_extratime';
-    this.startPlayback(etMatch, returnPhase, 18000);
+    const returnPhase: GamePhase =
+      context === 'qualifying' ? 'qualifying_round_extratime' :
+      context === 'playoff'    ? 'playoff_extratime' :
+                                 'knockout_extratime';
+    this.startPlayback(etMatch, returnPhase, 18000, undefined, false);
   }
 
   confirmExtraTimeResult(): void {
     this.clearTimerInterval();
     this.matchPlaying = false;
 
-    // Suma los goles de la prórroga al resultado de la vuelta, así el marcador
-    // mostrado ya incluye el AET y coincide con el global.
-    if (this.tieContext === 'preseason' && this.currentPreseasonMatch) {
-      this.currentPreseasonMatch = {
-        ...this.currentPreseasonMatch,
-        homeGoals: this.currentPreseasonMatch.homeGoals + this.extraTimeGoals.team2,
-        awayGoals: this.currentPreseasonMatch.awayGoals + this.extraTimeGoals.team1,
+    if (this.tieContext === 'qualifying' && this.currentQualifyingMatch) {
+      this.currentQualifyingMatch = {
+        ...this.currentQualifyingMatch,
+        homeGoals: this.currentQualifyingMatch.homeGoals + this.extraTimeGoals.team2,
+        awayGoals: this.currentQualifyingMatch.awayGoals + this.extraTimeGoals.team1,
       };
     } else if (this.tieContext === 'playoff' && this.currentPlayoffMatch) {
       this.currentPlayoffMatch = {
@@ -633,7 +683,7 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
       return;
     }
     const winner = this.tieAggregateTeam1 > this.tieAggregateTeam2 ? this.tieTeam1! : this.tieTeam2!;
-    if (this.tieContext === 'preseason') this.finishPreseasonTie(winner);
+    if (this.tieContext === 'qualifying') this.finishQualifyingRound(winner);
     else if (this.tieContext === 'playoff') this.finishPlayoffTie(winner);
     else this.finishKnockoutTie(winner);
   }
@@ -668,14 +718,17 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
     return events;
   }
 
-  private startShootout(context: 'preseason' | 'playoff' | 'knockout'): void {
+  private startShootout(context: 'qualifying' | 'playoff' | 'knockout'): void {
     const team1 = this.tieTeam1!, team2 = this.tieTeam2!;
     const { team1: s1, team2: s2, kicks } = this.simulateShootout();
     this.tiePenalties = { team1Score: s1, team2Score: s2 };
     const events = this.buildShootoutEvents(team1, team2, kicks);
     const shootoutMatch: MatchResult = { home: team1, away: team2, homeGoals: s1, awayGoals: s2, events, isPlayerMatch: true };
     this.tieContext = context;
-    const returnPhase: GamePhase = context === 'preseason' ? 'preseason_playoff_shootout' : context === 'playoff' ? 'playoff_shootout' : 'knockout_shootout';
+    const returnPhase: GamePhase =
+      context === 'qualifying' ? 'qualifying_round_shootout' :
+      context === 'playoff'    ? 'playoff_shootout' :
+                                 'knockout_shootout';
     this.startPlayback(shootoutMatch, returnPhase);
   }
 
@@ -683,10 +736,10 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
     this.clearTimerInterval();
     this.matchPlaying = false;
     const { team1Score, team2Score } = this.tiePenalties!;
-    const tieWinner = team1Score > team2Score ? this.tieTeam1! : this.tieTeam2!;
-    if (this.tieContext === 'preseason') this.finishPreseasonTie(tieWinner);
-    else if (this.tieContext === 'playoff') this.finishPlayoffTie(tieWinner);
-    else this.finishKnockoutTie(tieWinner);
+    const winner = team1Score > team2Score ? this.tieTeam1! : this.tieTeam2!;
+    if (this.tieContext === 'qualifying') this.finishQualifyingRound(winner);
+    else if (this.tieContext === 'playoff') this.finishPlayoffTie(winner);
+    else this.finishKnockoutTie(winner);
   }
 
   private finishPlayoffTie(tieWinner: Team): void {
@@ -904,7 +957,7 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
     this.playKnockoutMatch();
   }
 
-  // ─── Knockout flow (Round of 16 → Final) ────────────────────────────────
+  // ─── Knockout flow ──────────────────────────────────────────────────────
 
   private playKnockoutMatch(): void {
     const pair = this.knockoutPairs.find(([h, a]) => h === this.playerTeam || a === this.playerTeam);
@@ -947,7 +1000,7 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
           const { t1, t2, events } = this.simulateExtraTime(m.home, m.away);
           const etMatch: MatchResult = { home: m.home, away: m.away, homeGoals: m.homeGoals + t1, awayGoals: m.awayGoals + t2, events, isPlayerMatch: true };
           this.currentKnockoutMatch = etMatch;
-          this.startPlayback(etMatch, 'knockout_match', 18000);
+          this.startPlayback(etMatch, 'knockout_match', 18000, undefined, false);
           return;
         }
         this.finishFinal(m);
@@ -1046,14 +1099,14 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
 
   onContinueClick(): void {
     switch (this.phase) {
-      case 'preseason_playoff_match': this.confirmPreseasonPlayoffResult(); break;
+      case 'qualifying_round_match': this.confirmQualifyingRoundResult(); break;
       case 'league_match': this.confirmMatchResult(); break;
       case 'playoff_match': this.confirmPlayoffResult(); break;
       case 'knockout_match': this.confirmKnockoutResult(); break;
-      case 'preseason_playoff_shootout':
+      case 'qualifying_round_shootout':
       case 'playoff_shootout':
       case 'knockout_shootout': this.confirmShootoutResult(); break;
-      case 'preseason_playoff_extratime':
+      case 'qualifying_round_extratime':
       case 'playoff_extratime':
       case 'knockout_extratime': this.confirmExtraTimeResult(); break;
     }
@@ -1083,7 +1136,7 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
   resetGame(): void {
     this.clearTimerInterval();
     this.phase = 'home'; this.playerTeam = null;
-    this.currentPreseasonMatch = null;
+    this.currentQualifyingMatch = null;
     this.leagueSchedule = []; this.leagueStandings = []; this.leagueMatchday = 0;
     this.playoffPairs = []; this.currentPlayoffMatch = null;
     this.knockoutPairs = []; this.knockoutRoundIndex = 0; this.currentKnockoutMatch = null;

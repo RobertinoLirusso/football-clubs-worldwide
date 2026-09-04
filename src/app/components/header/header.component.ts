@@ -18,7 +18,8 @@ export class HeaderComponent {
     url === '/guess-country' || 
     url === ' /logo-shuffle' ||
     url === '/world-cup' ||
-    url === '/champions-league';
-    url === '/europa-league';
+    url === '/champions-league' ||
+    url === '/europa-league' ||
+    url === '/liga-argentina';
   }
 }

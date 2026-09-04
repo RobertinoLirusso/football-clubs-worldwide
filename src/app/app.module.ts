@@ -23,6 +23,7 @@ import { WorldCupComponent } from './pages/world-cup/world-cup.component';
 import { GoalsForPipe } from './pipes/goals-for.pipe';
 import { ChampionsLeagueComponent } from './pages/champions-league/champions-league.component';
 import { EuropaLeagueComponent } from './pages/europa-league/europa-league.component';
+import { LigaProfesionalComponent } from './pages/liga-profesional/liga-profesional.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { EuropaLeagueComponent } from './pages/europa-league/europa-league.compo
     GoalsForPipe,
     ChampionsLeagueComponent,
     EuropaLeagueComponent,
+    LigaProfesionalComponent,
   ],
   imports: [
     BrowserModule,

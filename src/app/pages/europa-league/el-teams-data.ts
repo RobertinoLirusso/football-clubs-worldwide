@@ -1,5 +1,40 @@
 // UEFA Europa League 2026-27 — Pots reales confirmados (sorteo 28 ago 2026)
 // y calendario real de la fase de liga (8 jornadas), fuente: UEFA.com.
+// Perdedores del Play-off Round 2026-27 (caen a Conference League)
+export const EL2026_PLAYOFF_LOSERS: Array<{
+  name: string; country: string;
+  attack: number; defense: number; stamina: number;
+}> = [
+  { name: 'Trabzonspor',          country: 'Turkey',          attack: 72, defense: 68, stamina: 80 },
+  { name: 'Universitatea Craiova', country: 'Romania',         attack: 67, defense: 65, stamina: 78 },
+  { name: 'Sint-Truiden',          country: 'Belgium',         attack: 66, defense: 64, stamina: 77 },
+  { name: 'Red Star Belgrade',     country: 'Serbia',          attack: 74, defense: 70, stamina: 81 },
+  { name: 'Egnatia',               country: 'Albania',         attack: 58, defense: 57, stamina: 75 },
+  { name: 'Iberia 1999',           country: 'Georgia',         attack: 60, defense: 58, stamina: 76 },
+  { name: 'Mjällby AIF',           country: 'Sweden',          attack: 64, defense: 63, stamina: 77 },
+  { name: 'Kairat',                country: 'Kazakhstan',      attack: 62, defense: 60, stamina: 76 },
+  { name: 'Thun',                  country: 'Switzerland',     attack: 63, defense: 62, stamina: 77 },
+  { name: 'Kauno Žalgiris',        country: 'Lithuania',       attack: 59, defense: 58, stamina: 75 },
+  { name: 'AGF',                   country: 'Denmark',         attack: 68, defense: 66, stamina: 79 },
+  { name: 'CSKA Sofia',            country: 'Bulgaria',        attack: 65, defense: 63, stamina: 78 },
+];
+
+// En el archivo de datos (el-teams-data.ts)
+export const QUALIFYING_ROUND_FIXTURES: Record<string, string> = {
+  // Winner                          →  Real opponent (loser)
+  'Ferencváros':                     'Trabzonspor',
+  'Ararat-Armenia':                  'Universitatea Craiova',
+  'Omonia':                          'Sint-Truiden',
+  'Viktoria Plzeň':                  'Red Star Belgrade',
+  'Lillestrøm':                      'Egnatia',
+  'Jagiellonia Białystok':           'Iberia 1999',
+  'Red Bull Salzburg':               'Mjällby AIF',
+  'Anderlecht':                      'Kairat',
+  'Lech Poznań':                     'Thun',
+  'Beşiktaş':                        'Kauno Žalgiris',
+  'Benfica':                         'AGF',
+  'OFI Crete':                       'CSKA Sofia',
+};
 
 export const EL2026_TEAMS: Array<{
     name: string; country: string; pot: 1 | 2 | 3 | 4;
