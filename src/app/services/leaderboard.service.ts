@@ -9,8 +9,8 @@ export interface LeaderboardEntry {
 
 @Injectable({ providedIn: 'root' })
 export class LeaderboardService {
-  private privateUrl = 'http://dreamlo.com/lb/2BQlJlZlbU2pG0F4CqptAAoJc41frFeEWPRLb4Sposug';
-  private publicUrl = 'http://dreamlo.com/lb/6a92143c8f40bb1350906cdc/json';
+  private privateUrl = 'https://dreamlo.com/lb/2BQlJlZlbU2pG0F4CqptAAoJc41frFeEWPRLb4Sposug';
+  private publicUrl = 'https://dreamlo.com/lb/6a92143c8f40bb1350906cdc/json';
 
   constructor(private http: HttpClient) {}
 
