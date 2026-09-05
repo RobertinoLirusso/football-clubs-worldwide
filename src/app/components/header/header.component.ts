@@ -19,7 +19,7 @@ export class HeaderComponent {
     url === ' /logo-shuffle' ||
     url === '/world-cup' ||
     url === '/champions-league' ||
-    url === '/europa-league' ||
-    url === '/liga-argentina';
+    url === '/europa-league';
+    //url === '/liga-argentina';
   }
 }

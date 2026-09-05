@@ -46,17 +46,17 @@ interface Formation {
   id: string; label: string; attackMod: number; defenseMod: number; description: string;
 }
 
-const KNOCKOUT_ROUND_NAMES = ['Octavos de Final', 'Cuartos de Final', 'Semifinal', 'Final'];
+const KNOCKOUT_ROUND_NAMES = ['Round of 16', 'Quarter-finals', 'Semi-final', 'Final'];
 const MAX_LOSS_STREAK = 5;
 
 const FORMATIONS: Formation[] = [
-  { id: '4-4-2',   label: '4-4-2 · Equilibrado',      attackMod: 0,   defenseMod: 0,   description: 'Balance clásico entre control de mitad de cancha y salidas ofensivas.' },
-  { id: '4-3-3',   label: '4-3-3 · Ofensivo',          attackMod: 12,  defenseMod: -8,  description: 'Extremos abiertos, pero deja espacios atrás.' },
-  { id: '3-5-2',   label: '3-5-2 · Control',           attackMod: 4,   defenseMod: 4,   description: 'Superioridad numérica en el medio, carrileros dan ancho.' },
-  { id: '4-2-3-1', label: '4-2-3-1 · Moderno',         attackMod: 7,   defenseMod: 1,   description: 'Doble cinco protege la línea de cuatro, libertad creativa arriba.' },
-  { id: '3-4-3',   label: '3-4-3 · Todo ataque',       attackMod: 18,  defenseMod: -16, description: 'Máximo poder ofensivo, alto riesgo atrás.' },
-  { id: '5-3-2',   label: '5-3-2 · Defensivo',         attackMod: -12, defenseMod: 16,  description: 'Cinco en el fondo, pensado para frustrar a un rival más fuerte.' },
-  { id: '5-4-1',   label: '5-4-1 · Ultra defensivo',   attackMod: -20, defenseMod: 20,  description: 'Achicar espacios y salir de contra.' },
+  { id: '4-4-2',   label: '4-4-2 · Balanced',        attackMod: 0,   defenseMod: 0,   description: 'Classic balance between midfield control and attacking outlets.' },
+  { id: '4-3-3',   label: '4-3-3 · Attacking',       attackMod: 12,  defenseMod: -8,  description: 'Wide wingers stretch the opponent, but leaves gaps at the back.' },
+  { id: '3-5-2',   label: '3-5-2 · Control',         attackMod: 4,   defenseMod: 4,   description: 'Numerical superiority in midfield, wing-backs provide width.' },
+  { id: '4-2-3-1', label: '4-2-3-1 · Modern',        attackMod: 7,   defenseMod: 1,   description: 'Double pivot shields the back four, creative freedom up front.' },
+  { id: '3-4-3',   label: '3-4-3 · All-out attack',  attackMod: 18,  defenseMod: -16, description: 'Maximum attacking power, high risk at the back.' },
+  { id: '5-3-2',   label: '5-3-2 · Defensive',       attackMod: -12, defenseMod: 16,  description: 'Five at the back, built to frustrate a stronger opponent.' },
+  { id: '5-4-1',   label: '5-4-1 · Ultra-defensive', attackMod: -20, defenseMod: 20,  description: 'Compact shape, look to hit on the counter.' },
 ];
 
 // ─── Component ──────────────────────────────────────────────────────────────
@@ -79,20 +79,20 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
   playerTeam: Team | null = null;
   searchQuery = '';
 
-  // Racha de derrotas → despido
+  // Loss streak → fired
   lossStreak = 0;
 
-  // Renuncia
+  // Resignation
   showResignConfirm = false;
 
-  // Fase de zonas (16 fechas)
+  // Group stage (16 matchdays)
   leagueSchedule: MatchResult[][] = [];
   leagueMatchday = 0;
   standingsA: ZoneStanding[] = [];
   standingsB: ZoneStanding[] = [];
   roundResults: MatchResult[] = [];
 
-  // Knockout a partido único (octavos → final)
+  // Single-leg knockout (Round of 16 → final)
   knockoutRoundIndex = 0;
   knockoutPairs: Array<[Team, Team]> = [];
   currentKnockoutMatch: MatchResult | null = null;
@@ -102,7 +102,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
   extraTimeGoals = { home: 0, away: 0 };
   penalties?: { homeScore: number; awayScore: number };
 
-  // Playback compartido
+  // Shared playback
   currentMatch: MatchResult | null = null;
   currentEventIndex = 0;
   displayedEvents: MatchEvent[] = [];
@@ -110,7 +110,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
   private matchInterval: any = null;
   private playbackOnComplete: (() => void) | null = null;
 
-  // Tácticas y power-ups
+  // Tactics & power-ups
   selectedFormation: Formation = FORMATIONS[0];
   attackBoostsLeft = 3;
   defenseBoostsLeft = 3;
@@ -119,13 +119,13 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
   matchDefenseBoostUsed = false;
   matchRefreshBoostUsed = false;
 
-  // Pre-partido
+  // Pre-match
   awaitingFormation = false;
   pendingHome: Team | null = null;
   pendingAway: Team | null = null;
   private formationAction: (() => void) | null = null;
 
-  // Entretiempo
+  // Half-time
   atHalftime = false;
   halftimeHomeGoals = 0;
   halftimeAwayGoals = 0;
@@ -195,7 +195,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
     this.playNextLeagueMatchday();
   }
 
-  // ─── League phase (fase de zonas) ────────────────────────────────────────
+  // ─── League phase (group stage) ────────────────────────────────────────
 
   private initTournament(): void {
     this.standingsA = this.allTeams.filter(t => t.zone === 'A').map(t => this.emptyStanding(t));
@@ -217,7 +217,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
         .map(([homeName, awayName]) => {
           const home = byName.get(homeName), away = byName.get(awayName);
           if (!home || !away) {
-            console.error(`Fixture desconocido: ${homeName} vs ${awayName}`);
+            console.error(`Unknown fixture: ${homeName} vs ${awayName}`);
             return null;
           }
           return this.buildMatch(home, away);
@@ -245,7 +245,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
     }
     const idx = this.roundResults.findIndex(m => m.isPlayerMatch);
     if (idx === -1) {
-      // El jugador no tiene partido esta fecha (no debería pasar con este fixture, pero por las dudas)
+      // Player has no fixture this matchday (shouldn't happen with this fixture list, but just in case)
       this.sortStandings();
       this.leagueMatchday++;
       this.playNextLeagueMatchday();
@@ -314,7 +314,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
     return (this.roundResults ?? []).filter(m => !m.isPlayerMatch);
   }
 
-  // ─── Racha de derrotas → despido ─────────────────────────────────────────
+  // ─── Loss streak → fired ─────────────────────────────────────────
 
   private registerPlayerMatchOutcome(m: MatchResult): void {
     const won = this.playerWon(m);
@@ -323,7 +323,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
     else this.lossStreak++;
   }
 
-  // ─── Renuncia ─────────────────────────────────────────────────────────────
+  // ─── Resignation ─────────────────────────────────────────────────────────
 
   requestResign(): void { this.showResignConfirm = true; }
   cancelResign(): void { this.showResignConfirm = false; }
@@ -333,7 +333,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
     this.phase = 'resigned';
   }
 
-  // ─── Transición zona → octavos ────────────────────────────────────────────
+  // ─── Group stage → Round of 16 transition ────────────────────────────────
 
   private setupBracketDisplay(): void {
     this.fullBracket = [];
@@ -346,8 +346,8 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
     }
   }
 
-  // Seeding real de octavos según reglamento AFA:
-  // A1-B8, B1-A8, A2-B7, B2-A7, A3-B6, B3-A6, A4-B5, B4-A5 (local: el mejor ubicado de cada cruce)
+  // Real Round of 16 seeding per AFA rules:
+  // A1-B8, B1-A8, A2-B7, B2-A7, A3-B6, B3-A6, A4-B5, B4-A5 (the better-seeded side hosts)
   private buildRoundOf16Pairs(): Array<[Team, Team]> {
     const A = this.standingsA.slice(0, 8).map(s => s.team);
     const B = this.standingsB.slice(0, 8).map(s => s.team);
@@ -357,9 +357,9 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
       [A[2], B[5]], [B[2], A[5]],
       [A[3], B[4]], [B[3], A[4]],
     ];
-    // Seed persistente: define quién es local en las rondas siguientes.
-    // Nota: el cruce de cuartos/semis en adelante no está confirmado oficialmente por AFA;
-    // se usa el bracket estándar (ganador P1 vs ganador P2, etc.).
+    // Persistent seed: determines home advantage in later rounds.
+    // Note: the quarter-final/semi-final bracket order is not officially confirmed by AFA;
+    // the standard bracket is used (P1 winner vs P2 winner, etc).
     pairs.forEach(([h, a], i) => { h.seedRank = i * 2 + 1; a.seedRank = i * 2 + 2; });
     return pairs;
   }
@@ -370,7 +370,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
     this.playKnockoutMatch();
   }
 
-  // ─── Knockout (partido único, con prórroga y penales) ────────────────────
+  // ─── Knockout (single leg, with extra time and penalties) ────────────────
 
   private playKnockoutMatch(): void {
     const pair = this.knockoutPairs.find(([h, a]) => h === this.playerTeam || a === this.playerTeam);
@@ -383,7 +383,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
 
     let home = pair[0], away = pair[1];
     if (!isFinal) {
-      // Local: mejor seed (menor seedRank). Si no hay seed (no debería pasar), local = pair[0].
+      // Host: better seed (lower seedRank). If no seed is set (shouldn't happen), host = pair[0].
       const seedHome = home.seedRank ?? 99, seedAway = away.seedRank ?? 99;
       if (seedAway < seedHome) { home = pair[1]; away = pair[0]; }
     }
@@ -454,7 +454,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
     const isFinal = this.knockoutRoundIndex === KNOCKOUT_ROUND_NAMES.length - 1;
     if (isFinal) { this.phase = 'champion'; return; }
 
-    // Resolver el resto de los cruces de la ronda (sin el jugador) para armar la siguiente ronda
+    // Resolve the rest of the round's ties (without the player) to build the next round
     const winners: Team[] = [];
     for (const [h, a] of this.knockoutPairs) {
       if (h === this.playerTeam || a === this.playerTeam) { winners.push(this.playerTeam!); continue; }
@@ -495,7 +495,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
       return winner;
     }
     const { team1: s1 } = this.simulateShootout();
-    const winner = s1 > 0 && Math.random() < 0.5 ? home : away; // desempate por penales simplificado
+    const winner = s1 > 0 && Math.random() < 0.5 ? home : away; // simplified penalty tiebreak
     winner.seedRank = Math.min(home.seedRank ?? 99, away.seedRank ?? 99);
     return winner;
   }
@@ -511,7 +511,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
 
   isPlayerSlot(slot: BracketSlot): boolean { return slot.home === this.playerTeam || slot.away === this.playerTeam; }
 
-  // ─── Tactic & power-ups ─────────────────────────────────────────────────
+  // ─── Tactics & power-ups ─────────────────────────────────────────────────
 
   private effectiveTeam(team: Team, applyFormation: boolean): Team {
     if (team !== this.playerTeam) return team;
@@ -562,17 +562,32 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
   // ─── Simulation engine ────────────────────────────────────────────────────
 
   private simulateMatch(home: Team, away: Team, detailed: boolean) {
-    const homeAdvantage = 6;
-    const homeMorale = this.rand(-10, 10);
-    const awayMorale = this.rand(-10, 10);
+    const homeAdvantage = 5;
+    const homeMorale = this.rand(-15, 15);
+    const awayMorale = this.rand(-15, 15);
+    const { homeBonus, awayBonus } = this.surpriseFactor(home, away);
 
-    const homeStr = home.attack * 0.55 + (100 - away.defense) * 0.35 + home.stamina * 0.1 + homeAdvantage + homeMorale;
-    const awayStr = away.attack * 0.55 + (100 - home.defense) * 0.35 + away.stamina * 0.1 + awayMorale;
+    const homeStr = home.attack * 0.58 + (100 - away.defense) * 0.38 + home.stamina * 0.08 + homeAdvantage + homeMorale + homeBonus;
+    const awayStr = away.attack * 0.58 + (100 - home.defense) * 0.38 + away.stamina * 0.08 + awayMorale + awayBonus;
 
     const homeGoals = this.goalsFromStrength(homeStr);
     const awayGoals = this.goalsFromStrength(awayStr);
     const events: MatchEvent[] = detailed ? this.generateEvents(home, away, homeGoals, awayGoals, homeStr, awayStr) : [];
     return { homeGoals, awayGoals, events };
+  }
+
+  // Rare "on-the-day" boost for the underdog: the bigger the quality gap between the two
+  // teams, the higher (but still uncommon) the chance that the weaker side gets a surprise
+  // performance bump. This keeps stronger teams favourites on average across a long
+  // tournament while still allowing occasional upsets and closer, less predictable matches.
+  private surpriseFactor(home: Team, away: Team): { homeBonus: number; awayBonus: number } {
+    const homeQuality = home.attack + home.defense;
+    const awayQuality = away.attack + away.defense;
+    const gap = Math.abs(homeQuality - awayQuality);
+    const upsetChance = Math.min(0.25, 0.07 + gap / 350);
+    if (Math.random() >= upsetChance) return { homeBonus: 0, awayBonus: 0 };
+    const boost = this.rand(10, 20);
+    return homeQuality < awayQuality ? { homeBonus: boost, awayBonus: 0 } : { homeBonus: 0, awayBonus: boost };
   }
 
   private goalsFromStrength(str: number): number { return this.poissonSample(Math.max(0.1, (str - 38) / 15)); }
@@ -602,6 +617,13 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
     };
   }
 
+  private maybeRedCard(dominantTeam: Team, weakerTeam: Team, chance: number, randMin: () => number): MatchEvent | null {
+    if (Math.random() >= chance) return null;
+    const target = Math.random() < 0.65 ? weakerTeam : dominantTeam;
+    const min = randMin();
+    return { minute: min, type: 'red', team: target.name, description: `🟥 Red card! ${target.name} is down to ten men.` };
+  }
+
   private generateEvents(home: Team, away: Team, homeGoals: number, awayGoals: number, homeStr: number, awayStr: number): MatchEvent[] {
     const events: MatchEvent[] = [];
     const usedMins = new Set<number>([0, 45, 91]);
@@ -627,28 +649,32 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
       events.push({ minute: randMin(), type, team: team.name, description: descMap[type](team) });
     }
 
+    // Red card — infrequent, roughly 1 in 6-7 matches
+    const redEvent = this.maybeRedCard(dominantTeam, weakerTeam, 0.15, randMin);
+    if (redEvent) events.push(redEvent);
+
     const htHome = events.filter(e => e.type === 'goal' && e.team === home.name && e.minute < 45).length;
     const htAway = events.filter(e => e.type === 'goal' && e.team === away.name && e.minute < 45).length;
 
-    events.push({ minute: 0,  type: 'info' as any, team: '', description: `🏟️ ¡Arranca el partido! ${home.name} vs ${away.name}.` });
-    events.push({ minute: 45, type: 'info' as any, team: '', description: `⏸️ Entretiempo: ${home.name} ${htHome}–${htAway} ${away.name}.` });
-    events.push({ minute: 91, type: 'info' as any, team: '', description: `🏁 Final del partido: ${home.name} ${homeGoals}–${awayGoals} ${away.name}.` });
+    events.push({ minute: 0,  type: 'info' as any, team: '', description: `🏟️ Kick-off! ${home.name} vs ${away.name}.` });
+    events.push({ minute: 45, type: 'info' as any, team: '', description: `⏸️ Half-time: ${home.name} ${htHome}–${htAway} ${away.name}.` });
+    events.push({ minute: 91, type: 'info' as any, team: '', description: `🏁 Full-time: ${home.name} ${homeGoals}–${awayGoals} ${away.name}.` });
 
     return events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
   }
 
   private pickGoalDesc(team: string, min: number): string {
     const pool = [
-      `⚽ ¡GOL! ${team} rompe el cero en el minuto ${min}!`,
-      `⚽ ¡GOLAZO de ${team}!`,
-      `⚽ ¡GOL de cabeza tras el córner, lo grita ${team}!`,
-      `⚽ ¡GOL de ${team} desde afuera del área!`,
-      `⚽ ¡GOL! ${team} castiga un error defensivo!`,
-      `⚽ ¡GOL! Definición fría de ${team} dentro del área!`,
-      `⚽ ¡GOLAZO de media distancia de ${team}, no hubo nada que hacer!`,
-      `⚽ ¡GOL! Mano a mano y ${team} no perdona!`,
-      `⚽ ¡GOL de ${team}, estira la ventaja!`,
-      `⚽ ¡GOLAZO de tiro libre de ${team}!`,
+      `⚽ GOAL! ${team} breaks the deadlock in the ${min}th minute!`,
+      `⚽ WHAT A GOAL from ${team}!`,
+      `⚽ Header from the corner, and ${team} scores!`,
+      `⚽ GOAL! ${team} scores from outside the box!`,
+      `⚽ GOAL! ${team} punishes a defensive mistake!`,
+      `⚽ GOAL! Cool finish from ${team} inside the box!`,
+      `⚽ WORLDIE from ${team}, nothing anyone could do about that!`,
+      `⚽ GOAL! One-on-one and ${team} makes no mistake!`,
+      `⚽ GOAL for ${team}, extending the lead!`,
+      `⚽ GOAL! Free-kick screamer from ${team}!`,
     ];
     return pool[Math.floor(Math.random() * pool.length)];
   }
@@ -656,11 +682,12 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
   // ─── Live regulation match ──────────────────────────────────────────────
 
   private simulateHalfGoals(home: Team, away: Team) {
-    const homeAdvantage = 3;
-    const homeMorale = this.rand(-6, 6);
-    const awayMorale = this.rand(-6, 6);
-    const homeStr = home.attack * 0.55 + (100 - away.defense) * 0.35 + home.stamina * 0.1 + homeAdvantage + homeMorale;
-    const awayStr = away.attack * 0.55 + (100 - home.defense) * 0.35 + away.stamina * 0.1 + awayMorale;
+    const homeAdvantage = 2.5;
+    const homeMorale = this.rand(-9, 9);
+    const awayMorale = this.rand(-9, 9);
+    const { homeBonus, awayBonus } = this.surpriseFactor(home, away);
+    const homeStr = home.attack * 0.58 + (100 - away.defense) * 0.38 + home.stamina * 0.08 + homeAdvantage + homeMorale + homeBonus * 0.5;
+    const awayStr = away.attack * 0.58 + (100 - home.defense) * 0.38 + away.stamina * 0.08 + awayMorale + awayBonus * 0.5;
     const homeGoals = this.poissonSample(Math.max(0.05, (homeStr - 38) / 15 / 2));
     const awayGoals = this.poissonSample(Math.max(0.05, (awayStr - 38) / 15 / 2));
     return { homeGoals, awayGoals };
@@ -693,8 +720,12 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
       events.push({ minute: randMin(), type, team: team.name, description: descMap[type](team) });
     }
 
-    if (half === 1) events.push({ minute: 0, type: 'info' as any, team: '', description: `🏟️ ¡Arranca el partido! ${home.name} vs ${away.name}.` });
-    else events.push({ minute: 46, type: 'info' as any, team: '', description: `▶️ ¡Arranca el complemento!` });
+    // Red card — low, independent chance per half so it doesn't show up in every match
+    const redEvent = this.maybeRedCard(dominantTeam, weakerTeam, 0.09, randMin);
+    if (redEvent) events.push(redEvent);
+
+    if (half === 1) events.push({ minute: 0, type: 'info' as any, team: '', description: `🏟️ Kick-off! ${home.name} vs ${away.name}.` });
+    else events.push({ minute: 46, type: 'info' as any, team: '', description: `▶️ Second half underway!` });
 
     return events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
   }
@@ -723,7 +754,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
     const half2Events = this.buildHalfEvents(ctx.home, ctx.away, h2, a2, 2, ctx.isFinal);
     const totalHome = this.halftimeHomeGoals + h2;
     const totalAway = this.halftimeAwayGoals + a2;
-    half2Events.push({ minute: 91, type: 'info' as any, team: '', description: `🏁 Final del partido: ${ctx.home.name} ${totalHome}–${totalAway} ${ctx.away.name}.` });
+    half2Events.push({ minute: 91, type: 'info' as any, team: '', description: `🏁 Full-time: ${ctx.home.name} ${totalHome}–${totalAway} ${ctx.away.name}.` });
     half2Events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
     const fullMatch: MatchResult = { home: ctx.home, away: ctx.away, homeGoals: totalHome, awayGoals: totalAway, events: half2Events, isPlayerMatch: true };
     this.startPlayback(fullMatch, this.phase, ctx.isFinal ? 25000 : undefined, undefined, false);
@@ -733,13 +764,14 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
 
   private simulateExtraTime(team1: Team, team2: Team): { t1: number; t2: number; events: MatchEvent[] } {
     const b1 = this.effectiveTeam(team1, true), b2 = this.effectiveTeam(team2, true);
-    const str1 = b1.attack * 0.5 + (100 - b2.defense) * 0.3 + b1.stamina * 0.1;
-    const str2 = b2.attack * 0.5 + (100 - b1.defense) * 0.3 + b2.stamina * 0.1;
+    const { homeBonus: bonus1, awayBonus: bonus2 } = this.surpriseFactor(b1, b2);
+    const str1 = b1.attack * 0.5 + (100 - b2.defense) * 0.3 + b1.stamina * 0.1 + this.rand(-6, 6) + bonus1 * 0.4;
+    const str2 = b2.attack * 0.5 + (100 - b1.defense) * 0.3 + b2.stamina * 0.1 + this.rand(-6, 6) + bonus2 * 0.4;
     const g1 = this.poissonSample(Math.max(0.03, ((str1 - 38) / 15) * 0.4));
     const g2 = this.poissonSample(Math.max(0.03, ((str2 - 38) / 15) * 0.4));
 
     const events: MatchEvent[] = [
-      { minute: 91, type: 'info' as any, team: '', description: `⏱️ ¡Empieza la prórroga! 30 minutos para desempatar entre ${team1.name} y ${team2.name}.` },
+      { minute: 91, type: 'info' as any, team: '', description: `⏱️ Extra time begins! 30 minutes to separate ${team1.name} and ${team2.name}.` },
     ];
     const usedMins = new Set<number>([91, 105, 106, 120]);
     const randMin = (from: number, to: number): number => {
@@ -764,11 +796,15 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
       events.push({ minute: randMin(92, 119), type, team: team.name, description: descMap[type](team) });
     }
 
+    // Red card — rare in extra time too
+    const redEvent = this.maybeRedCard(dominantTeam, weakerTeam, 0.1, () => randMin(92, 119));
+    if (redEvent) events.push(redEvent);
+
     const g1First = events.filter(e => e.type === 'goal' && e.team === team1.name && e.minute <= 105).length;
     const g2First = events.filter(e => e.type === 'goal' && e.team === team2.name && e.minute <= 105).length;
-    events.push({ minute: 105, type: 'info' as any, team: '', description: `⏸️ Fin del primer tiempo de prórroga: ${team1.name} ${g1First}-${g2First} ${team2.name}.` });
-    events.push({ minute: 106, type: 'info' as any, team: '', description: `▶️ ¡Arranca el segundo tiempo de la prórroga!` });
-    events.push({ minute: 120, type: 'info' as any, team: '', description: `🏁 Fin de la prórroga: ${team1.name} ${g1}-${g2} ${team2.name}.` });
+    events.push({ minute: 105, type: 'info' as any, team: '', description: `⏸️ End of the first half of extra time: ${team1.name} ${g1First}-${g2First} ${team2.name}.` });
+    events.push({ minute: 106, type: 'info' as any, team: '', description: `▶️ Second half of extra time underway!` });
+    events.push({ minute: 120, type: 'info' as any, team: '', description: `🏁 End of extra time: ${team1.name} ${g1}-${g2} ${team2.name}.` });
     events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
 
     return { t1: g1, t2: g2, events };
@@ -791,15 +827,15 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
   private buildShootoutEvents(team1: Team, team2: Team, kicks: Array<{ team: 1 | 2; scored: boolean }>): MatchEvent[] {
     const events: MatchEvent[] = [{
       minute: 0, type: 'info' as any, team: '',
-      description: `🎯 ¡Definición por penales! ${team1.name} vs ${team2.name}.`,
+      description: `🎯 Penalty shootout! ${team1.name} vs ${team2.name}.`,
     }];
     let n1 = 0, n2 = 0;
     kicks.forEach((k, i) => {
       const team = k.team === 1 ? team1 : team2;
       const num = k.team === 1 ? ++n1 : ++n2;
       events.push(k.scored
-        ? { minute: 121 + i, type: 'goal', team: team.name, description: `⚽ ¡Gol! ${team.name} convierte el penal ${num}.` }
-        : { minute: 121 + i, type: 'miss', team: team.name, description: `❌ ¡Errado! ${team.name} falla el penal ${num}.` });
+        ? { minute: 121 + i, type: 'goal', team: team.name, description: `⚽ Scored! ${team.name} converts penalty ${num}.` }
+        : { minute: 121 + i, type: 'miss', team: team.name, description: `❌ Missed! ${team.name} fails penalty ${num}.` });
     });
     return events;
   }
@@ -858,7 +894,7 @@ export class LigaProfesionalComponent implements OnInit, OnDestroy {
 
   playerDrew(m: MatchResult | null): boolean { return !!m && m.homeGoals === m.awayGoals; }
 
-  matchOutcomeLabel(m: MatchResult): string { return this.playerWon(m) ? 'GANÓ' : this.playerDrew(m) ? 'EMPATÓ' : 'PERDIÓ'; }
+  matchOutcomeLabel(m: MatchResult): string { return this.playerWon(m) ? 'WON' : this.playerDrew(m) ? 'DRAW' : 'LOST'; }
 
   matchOutcomeClass(m: MatchResult): string {
     return this.playerWon(m) ? 'outcome-win' : this.playerDrew(m) ? 'outcome-draw' : 'outcome-loss';
