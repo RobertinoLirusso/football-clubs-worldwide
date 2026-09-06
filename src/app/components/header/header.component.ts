@@ -20,6 +20,5 @@ export class HeaderComponent {
     url === '/world-cup' ||
     url === '/champions-league' ||
     url === '/europa-league';
-    //url === '/liga-argentina';
   }
 }

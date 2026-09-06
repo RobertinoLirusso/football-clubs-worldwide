@@ -380,23 +380,41 @@ select.filter-btn option {
 }
 
 .cl-simulator-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-weight: 800;
-  font-size: 0.95rem;
-  letter-spacing: 0.03em;
-  color: #fff;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #e8e8e8;
   text-decoration: none;
-  padding: 8px 20px;
-  border: 1px solid #fff;
-  border-radius: 999px;
-  background: #000;
-  transition: all 0.2s;
+  padding: 6px 14px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  background: #0a0a0a;
+  box-shadow:
+    0 0 6px rgba(255, 255, 255, 0.25),
+    inset 0 0 6px rgba(255, 255, 255, 0.08);
+  transition: all 0.2s ease;
 }
+
 .cl-simulator-link:hover {
-  border-color: #000;
-  background: #fff;
-  color: #000;
-  transform: scale(1.03);
+  color: #0a0a0a;
+  background: #f0f0f0;
+  border-color: #f0f0f0;
+  box-shadow:
+    0 0 12px rgba(255, 255, 255, 0.6),
+    0 0 24px rgba(255, 255, 255, 0.25);
+  transform: scale(1.04);
+}
+
+@media (max-width: 480px) {
+  .cl-simulator-link {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+    gap: 4px;
+  }
 }
 
 /* ============================================================

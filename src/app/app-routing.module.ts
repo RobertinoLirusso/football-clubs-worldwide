@@ -13,7 +13,6 @@ import { LogoShuffleComponent } from './pages/logo-shuffle/logo-shuffle.componen
 import { WorldCupComponent } from './pages/world-cup/world-cup.component';
 import { ChampionsLeagueComponent } from './pages/champions-league/champions-league.component';
 import { EuropaLeagueComponent } from './pages/europa-league/europa-league.component';
-import { LigaProfesionalComponent } from './pages/liga-profesional/liga-profesional.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent, title: 'Football Clubs Worldwide'},
@@ -28,7 +27,6 @@ const routes: Routes = [
   { path: 'world-cup', component: WorldCupComponent, title: 'Football Clubs Worldwide'},
   { path: 'champions-league', component: ChampionsLeagueComponent, title: 'Football Clubs Worldwide'},
   { path: 'europa-league', component: EuropaLeagueComponent, title: 'Football Clubs Worldwide'},
-  { path: 'liga-argentina', component: LigaProfesionalComponent, title: 'Football Clubs Worldwide'},
 
 
   {path: '**', pathMatch: 'full', component: NotfoundComponent},

@@ -126,6 +126,9 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   matchDefenseBoostUsed = false;
   matchRefreshBoostUsed = false;
 
+  // Red cards (poco frecuentes, hasta 1 por equipo por partido)
+  matchRedCards: { home: boolean; away: boolean } = { home: false, away: false };
+
   // Pre-match: pick a formation (power-ups are NOT available here)
   awaitingFormation = false;
   pendingHome: Team | null = null;
@@ -237,6 +240,23 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     return { home, away, homeGoals, awayGoals, events, isPlayerMatch: isPlayer };
   }
 
+  private applyRedPenalty(team: Team, hasRed: boolean): Team {
+    if (!hasRed) return team;
+    return { ...team, attack: Math.max(20, team.attack - 18), defense: Math.max(20, team.defense - 12) };
+  }
+
+  private rollRedCard(home: Team, away: Team, half: 1 | 2): MatchEvent | undefined {
+    const minFrom = half === 1 ? 5 : 50;
+    const minTo = half === 1 ? 43 : 88;
+    const candidates: Team[] = [];
+    if (!this.matchRedCards.home && Math.random() < 0.035) candidates.push(home);
+    if (!this.matchRedCards.away && Math.random() < 0.035) candidates.push(away);
+    if (candidates.length === 0) return undefined;
+    const sentOff = candidates[Math.floor(Math.random() * candidates.length)];
+    if (sentOff === home) this.matchRedCards.home = true; else this.matchRedCards.away = true;
+    return { minute: this.rand(minFrom, minTo), type: 'red', team: sentOff.name, description: `🟥 RED CARD! ${sentOff.name} is down to 10 men!` };
+  }
+
   // ─── Tactic & power-ups ─────────────────────────────────────────────────
 
   // Aplica táctica (siempre activa) y comodines (sólo si ya se usaron en el entretiempo).
@@ -292,19 +312,23 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   // ─── Simulation engine ────────────────────────────────────────────────────
 
   private simulateMatch(home: Team, away: Team, detailed: boolean) {
+    const reds = { home: Math.random() < 0.035, away: Math.random() < 0.035 };
+    const h = this.applyRedPenalty(home, reds.home);
+    const a = this.applyRedPenalty(away, reds.away);
+
     const homeAdvantage = 6;
     const homeMorale = this.rand(-10, 10);
     const awayMorale = this.rand(-10, 10);
 
-    const homeStr = home.attack * 0.55 + (100 - away.defense) * 0.35
-                   + home.stamina * 0.1 + homeAdvantage + homeMorale;
-    const awayStr = away.attack * 0.55 + (100 - home.defense) * 0.35
-                   + away.stamina * 0.1 + awayMorale;
+    const homeStr = h.attack * 0.55 + (100 - a.defense) * 0.35
+                   + h.stamina * 0.1 + homeAdvantage + homeMorale;
+    const awayStr = a.attack * 0.55 + (100 - h.defense) * 0.35
+                   + a.stamina * 0.1 + awayMorale;
 
     const homeGoals = this.goalsFromStrength(homeStr);
     const awayGoals = this.goalsFromStrength(awayStr);
     const events: MatchEvent[] = detailed
-      ? this.generateEvents(home, away, homeGoals, awayGoals, homeStr, awayStr)
+      ? this.generateEvents(home, away, homeGoals, awayGoals, homeStr, awayStr, reds)
       : [];
     return { homeGoals, awayGoals, events };
   }
@@ -327,7 +351,8 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   private factorial(n: number): number { return n <= 1 ? 1 : n * this.factorial(n - 1); }
 
   private generateEvents(
-    home: Team, away: Team, homeGoals: number, awayGoals: number, homeStr: number, awayStr: number
+    home: Team, away: Team, homeGoals: number, awayGoals: number, homeStr: number, awayStr: number,
+    reds: { home: boolean; away: boolean } = { home: false, away: false }
   ): MatchEvent[] {
     const events: MatchEvent[] = [];
     const usedMins = new Set<number>([0, 45, 91]);
@@ -346,6 +371,9 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
       const min = randMin();
       events.push({ minute: min, type: 'goal', team: away.name, description: this.pickGoalDesc(away.name, min) });
     }
+
+    if (reds.home) events.push({ minute: randMin(), type: 'red', team: home.name, description: `🟥 RED CARD! ${home.name} is down to 10 men!` });
+    if (reds.away) events.push({ minute: randMin(), type: 'red', team: away.name, description: `🟥 RED CARD! ${away.name} is down to 10 men!` });
 
     const dominantTeam = homeStr >= awayStr ? home : away;
     const weakerTeam = homeStr >= awayStr ? away : home;
@@ -408,7 +436,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     return { homeGoals, awayGoals };
   }
 
-  private buildHalfEvents(home: Team, away: Team, homeGoals: number, awayGoals: number, half: 1 | 2, isFinal: boolean): MatchEvent[] {
+  private buildHalfEvents(home: Team, away: Team, homeGoals: number, awayGoals: number, half: 1 | 2, isFinal: boolean, redEvent?: MatchEvent): MatchEvent[] {
     const events: MatchEvent[] = [];
     const minFrom = half === 1 ? 1 : 46;
     const minTo = half === 1 ? 45 : 90;
@@ -422,6 +450,8 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
 
     for (let i = 0; i < homeGoals; i++) { const min = randMin(); events.push({ minute: min, type: 'goal', team: home.name, description: this.pickGoalDesc(home.name, min) }); }
     for (let i = 0; i < awayGoals; i++) { const min = randMin(); events.push({ minute: min, type: 'goal', team: away.name, description: this.pickGoalDesc(away.name, min) }); }
+
+    if (redEvent) events.push(redEvent);
 
     const dominantTeam = (home.attack + home.defense) >= (away.attack + away.defense) ? home : away;
     const weakerTeam = dominantTeam === home ? away : home;
@@ -456,9 +486,12 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
 
   // Duración total del partido en vivo. En la final ronda ~1 minuto real por mitad.
   private playRegulationMatch(home: Team, away: Team, phase: GamePhase, isFinal: boolean): void {
-    const bHome = this.effectiveTeam(home, true), bAway = this.effectiveTeam(away, true);
+    this.matchRedCards = { home: false, away: false };
+    const half1Red = this.rollRedCard(home, away, 1);
+    const bHome = this.applyRedPenalty(this.effectiveTeam(home, true), this.matchRedCards.home);
+    const bAway = this.applyRedPenalty(this.effectiveTeam(away, true), this.matchRedCards.away);
     const { homeGoals: h1, awayGoals: a1 } = this.simulateHalfGoals(bHome, bAway);
-    const half1Events = this.buildHalfEvents(home, away, h1, a1, 1, isFinal);
+    const half1Events = this.buildHalfEvents(home, away, h1, a1, 1, isFinal, half1Red);
     const half1Match: MatchResult = { home, away, homeGoals: h1, awayGoals: a1, events: half1Events, isPlayerMatch: true };
     this.halftimeMatchCtx = { home, away, isFinal };
     this.startPlayback(half1Match, phase, isFinal ? 25000 : undefined, () => this.enterHalftime());
@@ -474,9 +507,11 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     const ctx = this.halftimeMatchCtx;
     if (!ctx) return;
     this.atHalftime = false;
-    const bHome = this.effectiveTeam(ctx.home, true), bAway = this.effectiveTeam(ctx.away, true);
+    const half2Red = this.rollRedCard(ctx.home, ctx.away, 2);
+    const bHome = this.applyRedPenalty(this.effectiveTeam(ctx.home, true), this.matchRedCards.home);
+    const bAway = this.applyRedPenalty(this.effectiveTeam(ctx.away, true), this.matchRedCards.away);
     const { homeGoals: h2, awayGoals: a2 } = this.simulateHalfGoals(bHome, bAway);
-    const half2Events = this.buildHalfEvents(ctx.home, ctx.away, h2, a2, 2, ctx.isFinal);
+    const half2Events = this.buildHalfEvents(ctx.home, ctx.away, h2, a2, 2, ctx.isFinal, half2Red);
     const totalHome = this.halftimeHomeGoals + h2;
     const totalAway = this.halftimeAwayGoals + a2;
     half2Events.push({ minute: 91, type: 'info' as any, team: '', description: `🏁 Full time: ${ctx.home.name} ${totalHome}–${totalAway} ${ctx.away.name}.` });
@@ -487,8 +522,14 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
 
   // ─── Extra time (used in every tied knockout tie, incl. the final) ────────
 
-  private simulateExtraTime(team1: Team, team2: Team): { t1: number; t2: number; events: MatchEvent[] } {
-    const b1 = this.effectiveTeam(team1, true), b2 = this.effectiveTeam(team2, true);
+  private simulateExtraTime(
+    team1: Team, team2: Team,
+    existingReds: { team1: boolean; team2: boolean } = { team1: false, team2: false }
+  ): { t1: number; t2: number; events: MatchEvent[] } {
+    const redTeam1 = existingReds.team1 || Math.random() < 0.02;
+    const redTeam2 = existingReds.team2 || Math.random() < 0.02;
+    const b1 = this.applyRedPenalty(this.effectiveTeam(team1, true), redTeam1);
+    const b2 = this.applyRedPenalty(this.effectiveTeam(team2, true), redTeam2);
     const str1 = b1.attack * 0.5 + (100 - b2.defense) * 0.3 + b1.stamina * 0.1;
     const str2 = b2.attack * 0.5 + (100 - b1.defense) * 0.3 + b2.stamina * 0.1;
     const g1 = this.poissonSample(Math.max(0.03, ((str1 - 38) / 15) * 0.4));
@@ -507,6 +548,9 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   
     for (let i = 0; i < g1; i++) { const min = randMin(92, 119); events.push({ minute: min, type: 'goal', team: team1.name, description: this.pickGoalDesc(team1.name, min) }); }
     for (let i = 0; i < g2; i++) { const min = randMin(92, 119); events.push({ minute: min, type: 'goal', team: team2.name, description: this.pickGoalDesc(team2.name, min) }); }
+
+    if (!existingReds.team1 && redTeam1) events.push({ minute: randMin(92, 119), type: 'red', team: team1.name, description: `🟥 RED CARD! ${team1.name} is down to 10 men!` });
+    if (!existingReds.team2 && redTeam2) events.push({ minute: randMin(92, 119), type: 'red', team: team2.name, description: `🟥 RED CARD! ${team2.name} is down to 10 men!` });
   
     // Incidencias (antes la prórroga sólo tenía goles) — ahora tiene el mismo tipo
     // de eventos que un tiempo normal, repartidos en los dos periodos de 15'.
@@ -544,11 +588,18 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
   private startExtraTime(context: 'playoff' | 'knockout'): void {
     this.wentToExtraTime = true;
     const team1 = this.tieTeam1!, team2 = this.tieTeam2!;
-    const { t1, t2, events } = this.simulateExtraTime(team1, team2);
+    // La vuelta se jugó con team2 de local y team1 de visitante (ver
+    // playRegulationMatch(tieTeam2, tieTeam1, ...) en confirm*Result), así que
+    // el scoreboard del alargue debe mantener esa misma localía en vez de
+    // volver a mostrar a team1 (el jugador) como local.
+    const { t1, t2, events } = this.simulateExtraTime(team1, team2, {
+      team1: this.matchRedCards.away,
+      team2: this.matchRedCards.home,
+    });
     this.extraTimeGoals = { team1: t1, team2: t2 };
-    const etMatch: MatchResult = { home: team1, away: team2, homeGoals: t1, awayGoals: t2, events, isPlayerMatch: true };
+    const etMatch: MatchResult = { home: team2, away: team1, homeGoals: t2, awayGoals: t1, events, isPlayerMatch: true };
     this.tieContext = context;
-    this.startPlayback(etMatch, context === 'playoff' ? 'playoff_extratime' : 'knockout_extratime', 18000);
+    this.startPlayback(etMatch, context === 'playoff' ? 'playoff_extratime' : 'knockout_extratime', 18000, undefined, false);
   }
 
   confirmExtraTimeResult(): void {
@@ -891,10 +942,13 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
       if (this.finalStage === 'regulation') {
         if (m.homeGoals === m.awayGoals) {
           this.finalStage = 'extratime';
-          const { t1, t2, events } = this.simulateExtraTime(m.home, m.away);
+          const { t1, t2, events } = this.simulateExtraTime(m.home, m.away, {
+            team1: this.matchRedCards.home,
+            team2: this.matchRedCards.away,
+          });
           const etMatch: MatchResult = { home: m.home, away: m.away, homeGoals: m.homeGoals + t1, awayGoals: m.awayGoals + t2, events, isPlayerMatch: true };
           this.currentKnockoutMatch = etMatch;
-          this.startPlayback(etMatch, 'knockout_match', 18000);
+          this.startPlayback(etMatch, 'knockout_match', 18000, undefined, false);
           return;
         }
         this.finishFinal(m);
@@ -1038,6 +1092,7 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
     this.selectedFormation = FORMATIONS[0];
     this.attackBoostsLeft = 3; this.defenseBoostsLeft = 3; this.refreshBoostsLeft = 3;
     this.matchAttackBoostUsed = false; this.matchDefenseBoostUsed = false; this.matchRefreshBoostUsed = false;
+    this.matchRedCards = { home: false, away: false };
     this.awaitingFormation = false; this.pendingHome = null; this.pendingAway = null; this.formationAction = null;
     this.atHalftime = false; this.halftimeHomeGoals = 0; this.halftimeAwayGoals = 0; this.halftimeMatchCtx = null;
     this.wentToExtraTime = false;
