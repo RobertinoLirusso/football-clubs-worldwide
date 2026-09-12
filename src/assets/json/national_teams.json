@@ -109,7 +109,7 @@
   },
   {
     "club_name": "Soviet Union (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Soviet_Union_football_federation.png/250px-Soviet_Union_football_federation.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Federatsiya_Futbola_SSSR_logo_%28variant_3%29.svg/250px-Federatsiya_Futbola_SSSR_logo_%28variant_3%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "continent": "Europe",
     "wiki_url": "https://en.wikipedia.org/wiki/Soviet_Union_national_football_team"
   },
@@ -553,7 +553,7 @@
   },
   {
     "club_name": "Afghanistan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Afghanistan_Football_Federation_logo.png/250px-Afghanistan_Football_Federation_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/bb/Afghanistan_national_football_team_logo.svg/250px-Afghanistan_national_football_team_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "continent": "Asia",
     "wiki_url": "https://en.wikipedia.org/wiki/Afghanistan_national_football_team"
   },
@@ -1003,7 +1003,7 @@
   },
   {
     "club_name": "South Sudan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/South_Sudan_Football_Association.png/250px-South_Sudan_Football_Association.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/03/South_Sudan_Football_Association.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/South_Sudan_national_football_team"
   },
@@ -1345,7 +1345,7 @@
   },
   {
     "club_name": "Saint Martin",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/8d/Saint-Martin_FA_%282014%29.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/82/Saint_Martin_FA_badge_%282026%29.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
     "continent": "North America",
     "wiki_url": "https://en.wikipedia.org/wiki/Saint_Martin_national_football_team"
   },
@@ -1357,7 +1357,7 @@
   },
   {
     "club_name": "Sint Maarten",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Sint-Maarten_FA.png/250px-Sint-Maarten_FA.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/06/Sint-Maarten_FA.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "continent": "North America",
     "wiki_url": "https://en.wikipedia.org/wiki/Sint_Maarten_national_football_team"
   },
@@ -1399,7 +1399,7 @@
   },
   {
     "club_name": "Saint Barthélemy",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Saint-Barth%C3%A9lemy_FA_Logo.png/250px-Saint-Barth%C3%A9lemy_FA_Logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/23/Saint-Barth%C3%A9lemy_FA_Logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "continent": "North America",
     "wiki_url": "https://en.wikipedia.org/wiki/Saint_Barth%C3%A9lemy_national_football_team"
   },
@@ -1483,7 +1483,7 @@
   },
   {
     "club_name": "Zaire (Defunct)",
-    "club_logo": "https://www.futbox.com/img/v1/36a/a87/895/0d5/a8e6aec1e415c8e2b940.png",
+    "club_logo": "https://img.a.transfermarkt.technology/wappen/homepageWappen150x150/26440.png?lm=4711",
     "continent": "Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Zaire_national_football_team_results"
   },

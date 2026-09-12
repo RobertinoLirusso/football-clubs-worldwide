@@ -23,6 +23,7 @@ import { WorldCupComponent } from './pages/world-cup/world-cup.component';
 import { GoalsForPipe } from './pipes/goals-for.pipe';
 import { ChampionsLeagueComponent } from './pages/champions-league/champions-league.component';
 import { EuropaLeagueComponent } from './pages/europa-league/europa-league.component';
+import { NgTemplateOutlet } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { EuropaLeagueComponent } from './pages/europa-league/europa-league.compo
     HttpClientModule,
     FormsModule,
     NgxImageZoomModule,
+    NgTemplateOutlet
   ],
   providers: [
     provideClientHydration(),

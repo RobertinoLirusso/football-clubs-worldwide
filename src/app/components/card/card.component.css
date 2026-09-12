@@ -391,7 +391,6 @@ select.filter-btn option {
   text-decoration: none;
   padding: 6px 14px;
   border: 1px solid #999;
-  border-radius: 6px;
   background: #0a0a0a;
   box-shadow:
     0 0 6px rgba(255, 255, 255, 0.25),
