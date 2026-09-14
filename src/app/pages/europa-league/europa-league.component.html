@@ -78,13 +78,11 @@
                 (currentMatch || awaitingFormation)"
          class="cl-match-wrap" [class.cl-final-mode]="phase === 'knockout_match' && isFinalRound">
 
-      <!-- Final banner -->
       <div *ngIf="phase === 'knockout_match' && isFinalRound" class="cl-final-banner">
         <div class="cl-final-banner-title">🏆 GRAND FINAL 🏆</div>
         <div class="cl-final-banner-sub">{{ FINAL_INFO.venue }} · {{ FINAL_INFO.city }} · {{ FINAL_INFO.date }}</div>
       </div>
 
-      <!-- Qualifying Round banner -->
       <div *ngIf="phase === 'qualifying_round_match' || phase === 'qualifying_round_extratime' || phase === 'qualifying_round_shootout'"
            class="cl-final-banner">
         <div class="cl-final-banner-title">🎟️ QUALIFYING ROUND 🎟️</div>
@@ -96,16 +94,15 @@
         <div class="cl-kickoff-title">Choose your tactical formation</div>
         <div class="cl-kickoff-matchup" *ngIf="pendingHome && pendingAway">
           <div class="cl-kickoff-team">
-            <img *ngIf="pendingHome.logo" [src]="pendingHome.logo" class="cl-kickoff-logo" />
+            <img *ngIf="pendingHome.logo" [src]="pendingHome.logo" class="cl-kickoff-logo" alt="" />
             <span>{{ pendingHome.name }}</span>
           </div>
           <span class="cl-kickoff-vs">vs</span>
           <div class="cl-kickoff-team">
-            <img *ngIf="pendingAway.logo" [src]="pendingAway.logo" class="cl-kickoff-logo" />
+            <img *ngIf="pendingAway.logo" [src]="pendingAway.logo" class="cl-kickoff-logo" alt="" />
             <span>{{ pendingAway.name }}</span>
           </div>
         </div>
-
         <div class="cl-formations-grid">
           <div *ngFor="let f of FORMATIONS; trackBy: trackByFormation"
                class="cl-formation-card" [class.selected]="selectedFormation.id === f.id"
@@ -113,14 +110,16 @@
             <div class="cl-formation-name">{{ f.label }}</div>
             <div class="cl-formation-desc">{{ f.description }}</div>
             <div class="cl-formation-mods">
-              <span class="cl-mod" [class.positive]="f.attackMod > 0" [class.negative]="f.attackMod < 0">ATK {{ f.attackMod > 0 ? '+' : '' }}{{ f.attackMod }}</span>
-              <span class="cl-mod" [class.positive]="f.defenseMod > 0" [class.negative]="f.defenseMod < 0">DEF {{ f.defenseMod > 0 ? '+' : '' }}{{ f.defenseMod }}</span>
+              <span class="cl-mod" [class.positive]="f.attackMod > 0" [class.negative]="f.attackMod < 0">
+                ATK {{ f.attackMod > 0 ? '+' : '' }}{{ f.attackMod }}
+              </span>
+              <span class="cl-mod" [class.positive]="f.defenseMod > 0" [class.negative]="f.defenseMod < 0">
+                DEF {{ f.defenseMod > 0 ? '+' : '' }}{{ f.defenseMod }}
+              </span>
             </div>
           </div>
         </div>
-
         <p class="cl-kickoff-hint">🃏 Power-ups will be available at half-time.</p>
-
         <div class="w3-center w3-margin-top">
           <button class="cl-btn-primary w3-button w3-round" (click)="confirmFormation()">▶ Kick off</button>
         </div>
@@ -129,7 +128,6 @@
       <!-- Half-time -->
       <div *ngIf="atHalftime" class="cl-halftime-panel w3-card w3-round-large">
         <div class="cl-halftime-title">⏸️ Half-time — {{ halftimeHomeGoals }} – {{ halftimeAwayGoals }}</div>
-
         <div class="cl-boosts-row">
           <button class="cl-boost-btn" [class.active]="matchAttackBoostUsed"
                   [disabled]="attackBoostsLeft <= 0 || matchAttackBoostUsed" (click)="useAttackBoost()">
@@ -144,7 +142,6 @@
             🔄 Refresh Squad<br><span class="cl-boost-count">{{ refreshBoostsLeft }} left</span>
           </button>
         </div>
-
         <div class="cl-halftime-formation">
           <div class="cl-kickoff-title">Change formation (optional)</div>
           <div class="cl-formations-grid">
@@ -153,13 +150,16 @@
                  (click)="selectedFormation = f">
               <div class="cl-formation-name">{{ f.label }}</div>
               <div class="cl-formation-mods">
-                <span class="cl-mod" [class.positive]="f.attackMod > 0" [class.negative]="f.attackMod < 0">ATK {{ f.attackMod > 0 ? '+' : '' }}{{ f.attackMod }}</span>
-                <span class="cl-mod" [class.positive]="f.defenseMod > 0" [class.negative]="f.defenseMod < 0">DEF {{ f.defenseMod > 0 ? '+' : '' }}{{ f.defenseMod }}</span>
+                <span class="cl-mod" [class.positive]="f.attackMod > 0" [class.negative]="f.attackMod < 0">
+                  ATK {{ f.attackMod > 0 ? '+' : '' }}{{ f.attackMod }}
+                </span>
+                <span class="cl-mod" [class.positive]="f.defenseMod > 0" [class.negative]="f.defenseMod < 0">
+                  DEF {{ f.defenseMod > 0 ? '+' : '' }}{{ f.defenseMod }}
+                </span>
               </div>
             </div>
           </div>
         </div>
-
         <div class="w3-center w3-margin-top">
           <button class="cl-btn-primary w3-button w3-round" (click)="resumeSecondHalf()">▶ Resume second half</button>
         </div>
@@ -189,18 +189,15 @@
           <span *ngIf="phase === 'knockout_match' && isFinalRound && finalStage === 'shootout'" class="cl-badge shootout">
             🎯 Penalty Shootout — Final
           </span>
-          <span *ngIf="phase === 'qualifying_round_extratime' || phase === 'playoff_extratime' || phase === 'knockout_extratime'" class="cl-badge extratime">
-            ⏱️ Extra Time
-          </span>
-          <span *ngIf="phase === 'qualifying_round_shootout' || phase === 'playoff_shootout' || phase === 'knockout_shootout'" class="cl-badge shootout">
-            🎯 Penalty Shootout
-          </span>
+          <span *ngIf="phase === 'qualifying_round_extratime' || phase === 'playoff_extratime' || phase === 'knockout_extratime'"
+                class="cl-badge extratime">⏱️ Extra Time</span>
+          <span *ngIf="phase === 'qualifying_round_shootout' || phase === 'playoff_shootout' || phase === 'knockout_shootout'"
+                class="cl-badge shootout">🎯 Penalty Shootout</span>
         </div>
 
-        <!-- Scoreboard -->
         <div class="cl-scoreboard w3-card w3-round-large">
           <div class="cl-score-team" [class.player-side]="currentMatch.home === playerTeam">
-            <img *ngIf="currentMatch.home.logo" [src]="currentMatch.home.logo" class="cl-score-logo" />
+            <img *ngIf="currentMatch.home.logo" [src]="currentMatch.home.logo" class="cl-score-logo" alt="" />
             <span class="cl-score-name">{{ currentMatch.home.name }}</span>
             <div class="cl-score-stats">ATK {{ currentMatch.home.attack }} · DEF {{ currentMatch.home.defense }}</div>
           </div>
@@ -218,18 +215,20 @@
             </div>
           </div>
           <div class="cl-score-team right" [class.player-side]="currentMatch.away === playerTeam">
-            <img *ngIf="currentMatch.away.logo" [src]="currentMatch.away.logo" class="cl-score-logo" />
+            <img *ngIf="currentMatch.away.logo" [src]="currentMatch.away.logo" class="cl-score-logo" alt="" />
             <span class="cl-score-name">{{ currentMatch.away.name }}</span>
             <div class="cl-score-stats">ATK {{ currentMatch.away.attack }} · DEF {{ currentMatch.away.defense }}</div>
           </div>
         </div>
 
-        <!-- Events feed -->
         <div class="cl-events-feed">
           <div *ngFor="let ev of displayedEvents; trackBy: trackByIdx"
                class="cl-event"
                [class.player-event]="isPlayerEvent(ev)"
-               [class.goal-event]="ev.type === 'goal'"
+               [class.goal-event]="ev.type === 'goal' || ev.type === 'penalty_goal'"
+               [class.disallowed-event]="ev.type === 'var_goal_disallowed'"
+               [class.chance-event]="ev.type === 'chance' || ev.type === 'counter'"
+               [class.tackle-event]="ev.type === 'tackle' || ev.type === 'block'"
                [class.neutral-event]="ev.team === ''">
             <span class="cl-event-min">{{ ev.minute > 0 ? ev.minute + "'" : '' }}</span>
             <span class="cl-event-desc">{{ ev.description }}</span>
@@ -239,9 +238,7 @@
         </div>
 
         <div class="w3-center w3-margin-top" *ngIf="!matchPlaying">
-          <button class="cl-btn-primary w3-button w3-round" (click)="onContinueClick()">
-            Continue →
-          </button>
+          <button class="cl-btn-primary w3-button w3-round" (click)="onContinueClick()">Continue →</button>
         </div>
       </ng-container>
     </div>
@@ -251,36 +248,33 @@
       <div class="cl-round-label">
         <span class="cl-badge playoff">Qualifying Round — Aggregate</span>
       </div>
-
       <div class="cl-my-result w3-card w3-round-large">
         <div class="cl-my-result-header">Leg 1</div>
         <div class="cl-result-row">
           <div class="cl-result-team">
-            <img *ngIf="tieLeg1.home.logo" [src]="tieLeg1.home.logo" class="cl-result-logo" />
+            <img *ngIf="tieLeg1.home.logo" [src]="tieLeg1.home.logo" class="cl-result-logo" alt="" />
             {{ tieLeg1.home.name }}
           </div>
           <div class="cl-result-score">{{ scoreLabel(tieLeg1) }}</div>
           <div class="cl-result-team right">
-            <img *ngIf="tieLeg1.away.logo" [src]="tieLeg1.away.logo" class="cl-result-logo" />
+            <img *ngIf="tieLeg1.away.logo" [src]="tieLeg1.away.logo" class="cl-result-logo" alt="" />
             {{ tieLeg1.away.name }}
           </div>
         </div>
-
         <div class="cl-my-result-header cl-leg2-header">
           Leg 2 <span *ngIf="wentToExtraTime" class="cl-aet-tag">(AET)</span>
         </div>
         <div class="cl-result-row">
           <div class="cl-result-team">
-            <img *ngIf="currentQualifyingMatch.home.logo" [src]="currentQualifyingMatch.home.logo" class="cl-result-logo" />
+            <img *ngIf="currentQualifyingMatch.home.logo" [src]="currentQualifyingMatch.home.logo" class="cl-result-logo" alt="" />
             {{ currentQualifyingMatch.home.name }}
           </div>
           <div class="cl-result-score">{{ scoreLabel(currentQualifyingMatch) }}</div>
           <div class="cl-result-team right">
-            <img *ngIf="currentQualifyingMatch.away.logo" [src]="currentQualifyingMatch.away.logo" class="cl-result-logo" />
+            <img *ngIf="currentQualifyingMatch.away.logo" [src]="currentQualifyingMatch.away.logo" class="cl-result-logo" alt="" />
             {{ currentQualifyingMatch.away.name }}
           </div>
         </div>
-
         <div class="cl-aggregate-row">
           <span>Aggregate: <strong>{{ tieTeam1?.name }} {{ tieAggregateTeam1 }} – {{ tieAggregateTeam2 }} {{ tieTeam2?.name }}</strong></span>
         </div>
@@ -288,13 +282,9 @@
           🎯 Won on penalties: {{ tiePenalties.team1Score }}–{{ tiePenalties.team2Score }}
         </div>
       </div>
-
       <p class="w3-text-light-grey w3-center">You're through to the league phase! 🎉</p>
-
       <div class="w3-center w3-margin-top">
-        <button class="cl-btn-primary w3-button w3-round" (click)="continueQualifyingRoundResult()">
-          League Phase →
-        </button>
+        <button class="cl-btn-primary w3-button w3-round" (click)="continueQualifyingRoundResult()">League Phase →</button>
       </div>
     </div>
 
@@ -308,7 +298,7 @@
         <div class="cl-my-result-header">Your match</div>
         <div class="cl-result-row">
           <div class="cl-result-team">
-            <img *ngIf="currentMatch.home.logo" [src]="currentMatch.home.logo" class="cl-result-logo" />
+            <img *ngIf="currentMatch.home.logo" [src]="currentMatch.home.logo" class="cl-result-logo" alt="" />
             {{ currentMatch.home.name }}
           </div>
           <div class="cl-result-score" [class]="matchOutcomeClass(currentMatch)">
@@ -316,7 +306,7 @@
             <span class="outcome-tag">{{ matchOutcomeLabel(currentMatch) }}</span>
           </div>
           <div class="cl-result-team right">
-            <img *ngIf="currentMatch.away.logo" [src]="currentMatch.away.logo" class="cl-result-logo" />
+            <img *ngIf="currentMatch.away.logo" [src]="currentMatch.away.logo" class="cl-result-logo" alt="" />
             {{ currentMatch.away.name }}
           </div>
         </div>
@@ -326,13 +316,13 @@
         <div class="cl-other-title">Other results</div>
         <div *ngFor="let m of nonPlayerLeagueResults" class="cl-other-row">
           <span class="cl-other-team">
-            <img *ngIf="m.home.logo" [src]="m.home.logo" class="cl-mini-logo-inline" />
+            <img *ngIf="m.home.logo" [src]="m.home.logo" class="cl-mini-logo-inline" alt="" />
             {{ m.home.name }}
           </span>
           <span class="cl-other-score">{{ scoreLabel(m) }}</span>
           <span class="cl-other-team right">
             {{ m.away.name }}
-            <img *ngIf="m.away.logo" [src]="m.away.logo" class="cl-mini-logo-inline" />
+            <img *ngIf="m.away.logo" [src]="m.away.logo" class="cl-mini-logo-inline" alt="" />
           </span>
         </div>
       </div>
@@ -340,7 +330,9 @@
       <div class="cl-standings-mini">
         <div class="cl-standings-title">League Table</div>
         <table class="cl-table w3-table">
-          <thead><tr><th>#</th><th>Club</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
+          <thead>
+            <tr><th>#</th><th>Club</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr>
+          </thead>
           <tbody>
             <tr *ngFor="let s of leagueStandings; let i = index"
                 [class.cl-row-player]="s.team === playerTeam"
@@ -348,10 +340,13 @@
                 [class.cl-row-playoff]="i >= 8 && i < 24">
               <td>{{ i + 1 }}</td>
               <td>
-                <img *ngIf="s.team.logo" [src]="s.team.logo" class="cl-table-logo" />
+                <img *ngIf="s.team.logo" [src]="s.team.logo" class="cl-table-logo" alt="" />
                 {{ s.team.name }}
               </td>
-              <td>{{ s.played }}</td><td>{{ s.won }}</td><td>{{ s.drawn }}</td><td>{{ s.lost }}</td>
+              <td>{{ s.played }}</td>
+              <td>{{ s.won }}</td>
+              <td>{{ s.drawn }}</td>
+              <td>{{ s.lost }}</td>
               <td>{{ s.gd > 0 ? '+' : '' }}{{ s.gd }}</td>
               <td><strong>{{ s.points }}</strong></td>
             </tr>
@@ -374,15 +369,23 @@
            [class.advance]="playerQualStatus === 'direct'"
            [class.mid]="playerQualStatus === 'playoff'"
            [class.out]="playerQualStatus === 'out'">
-        <span *ngIf="playerQualStatus === 'direct'">✅ Finished #{{ playerRank }} — {{ playerTeam?.name }} goes straight to the Round of 16!</span>
-        <span *ngIf="playerQualStatus === 'playoff'">🟡 Finished #{{ playerRank }} — {{ playerTeam?.name }} must win a knockout playoff tie.</span>
-        <span *ngIf="playerQualStatus === 'out'">❌ Finished #{{ playerRank }} — {{ playerTeam?.name }} is eliminated after the league phase.</span>
+        <span *ngIf="playerQualStatus === 'direct'">
+          ✅ Finished #{{ playerRank }} — {{ playerTeam?.name }} goes straight to the Round of 16!
+        </span>
+        <span *ngIf="playerQualStatus === 'playoff'">
+          🟡 Finished #{{ playerRank }} — {{ playerTeam?.name }} must win a knockout playoff tie.
+        </span>
+        <span *ngIf="playerQualStatus === 'out'">
+          ❌ Finished #{{ playerRank }} — {{ playerTeam?.name }} is eliminated after the league phase.
+        </span>
       </div>
 
       <div class="cl-standings-mini">
         <div class="cl-standings-title">Final League Table</div>
         <table class="cl-table w3-table">
-          <thead><tr><th>#</th><th>Club</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
+          <thead>
+            <tr><th>#</th><th>Club</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr>
+          </thead>
           <tbody>
             <tr *ngFor="let s of leagueStandings; let i = index"
                 [class.cl-row-player]="s.team === playerTeam"
@@ -390,10 +393,13 @@
                 [class.cl-row-playoff]="i >= 8 && i < 24">
               <td>{{ i + 1 }}</td>
               <td>
-                <img *ngIf="s.team.logo" [src]="s.team.logo" class="cl-table-logo" />
+                <img *ngIf="s.team.logo" [src]="s.team.logo" class="cl-table-logo" alt="" />
                 {{ s.team.name }}
               </td>
-              <td>{{ s.played }}</td><td>{{ s.won }}</td><td>{{ s.drawn }}</td><td>{{ s.lost }}</td>
+              <td>{{ s.played }}</td>
+              <td>{{ s.won }}</td>
+              <td>{{ s.drawn }}</td>
+              <td>{{ s.lost }}</td>
               <td>{{ s.gd > 0 ? '+' : '' }}{{ s.gd }}</td>
               <td><strong>{{ s.points }}</strong></td>
             </tr>
@@ -406,35 +412,7 @@
         </div>
       </div>
 
-      <div *ngIf="fullBracket.length > 0" class="cl-bracket-section">
-        <div class="cl-bracket-title">🗓️ Tournament Bracket</div>
-        <div class="cl-bracket-scroll">
-          <div class="cl-bracket-rounds">
-            <div *ngFor="let round of bracketRounds; let ri = index" class="cl-bracket-round">
-              <div class="cl-bracket-round-name">{{ round.name }}</div>
-              <div *ngFor="let slot of round.slots; trackBy: trackByIdx"
-                   class="cl-bracket-slot"
-                   [class.player-slot]="isPlayerSlot(slot)"
-                   [class.future-slot]="!slot.home && !slot.away">
-                <ng-container *ngIf="slot.home && slot.away">
-                  <div class="cl-bslot-team" [class.winner]="slot.winner === slot.home" [class.is-player]="slot.home === playerTeam">
-                    <img *ngIf="slot.home.logo" [src]="slot.home.logo" class="cl-bslot-logo" />
-                    <span>{{ slot.home.name }}</span>
-                  </div>
-                  <div class="cl-bslot-vs">vs</div>
-                  <div class="cl-bslot-team" [class.winner]="slot.winner === slot.away" [class.is-player]="slot.away === playerTeam">
-                    <img *ngIf="slot.away.logo" [src]="slot.away.logo" class="cl-bslot-logo" />
-                    <span>{{ slot.away.name }}</span>
-                  </div>
-                </ng-container>
-                <ng-container *ngIf="!slot.home || !slot.away">
-                  <div class="cl-bslot-tbd">TBD</div>
-                </ng-container>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ng-container *ngIf="fullBracket.length > 0" [ngTemplateOutlet]="bracketTpl"></ng-container>
 
       <div class="w3-center w3-margin-top">
         <button *ngIf="playerQualStatus !== 'out'" class="cl-btn-primary w3-button w3-round"
@@ -448,7 +426,7 @@
       </div>
     </div>
 
-    <!-- ══════ KNOCKOUT PHASE PLAYOFF RESULT (9-24) ══════ -->
+    <!-- ══════ PLAYOFF RESULT ══════ -->
     <div *ngIf="phase === 'playoff_result' && tieLeg1 && currentPlayoffMatch" class="cl-results-wrap">
       <div class="cl-round-label">
         <span class="cl-badge playoff">Knockout Playoff — Aggregate</span>
@@ -458,31 +436,29 @@
         <div class="cl-my-result-header">Leg 1</div>
         <div class="cl-result-row">
           <div class="cl-result-team">
-            <img *ngIf="tieLeg1.home.logo" [src]="tieLeg1.home.logo" class="cl-result-logo" />
+            <img *ngIf="tieLeg1.home.logo" [src]="tieLeg1.home.logo" class="cl-result-logo" alt="" />
             {{ tieLeg1.home.name }}
           </div>
           <div class="cl-result-score">{{ scoreLabel(tieLeg1) }}</div>
           <div class="cl-result-team right">
-            <img *ngIf="tieLeg1.away.logo" [src]="tieLeg1.away.logo" class="cl-result-logo" />
+            <img *ngIf="tieLeg1.away.logo" [src]="tieLeg1.away.logo" class="cl-result-logo" alt="" />
             {{ tieLeg1.away.name }}
           </div>
         </div>
-
         <div class="cl-my-result-header cl-leg2-header">
           Leg 2 <span *ngIf="wentToExtraTime" class="cl-aet-tag">(AET)</span>
         </div>
         <div class="cl-result-row">
           <div class="cl-result-team">
-            <img *ngIf="currentPlayoffMatch.home.logo" [src]="currentPlayoffMatch.home.logo" class="cl-result-logo" />
+            <img *ngIf="currentPlayoffMatch.home.logo" [src]="currentPlayoffMatch.home.logo" class="cl-result-logo" alt="" />
             {{ currentPlayoffMatch.home.name }}
           </div>
           <div class="cl-result-score">{{ scoreLabel(currentPlayoffMatch) }}</div>
           <div class="cl-result-team right">
-            <img *ngIf="currentPlayoffMatch.away.logo" [src]="currentPlayoffMatch.away.logo" class="cl-result-logo" />
+            <img *ngIf="currentPlayoffMatch.away.logo" [src]="currentPlayoffMatch.away.logo" class="cl-result-logo" alt="" />
             {{ currentPlayoffMatch.away.name }}
           </div>
         </div>
-
         <div class="cl-aggregate-row">
           <span>Aggregate: <strong>{{ tieTeam1?.name }} {{ tieAggregateTeam1 }} – {{ tieAggregateTeam2 }} {{ tieTeam2?.name }}</strong></span>
         </div>
@@ -493,40 +469,10 @@
 
       <p class="w3-text-light-grey w3-center">You're through to the Round of 16! 🎉</p>
 
-      <div class="cl-bracket-section">
-        <div class="cl-bracket-title">🗓️ Tournament Bracket</div>
-        <div class="cl-bracket-scroll">
-          <div class="cl-bracket-rounds">
-            <div *ngFor="let round of bracketRounds; let ri = index" class="cl-bracket-round">
-              <div class="cl-bracket-round-name">{{ round.name }}</div>
-              <div *ngFor="let slot of round.slots; trackBy: trackByIdx"
-                   class="cl-bracket-slot"
-                   [class.player-slot]="isPlayerSlot(slot)"
-                   [class.future-slot]="!slot.home && !slot.away">
-                <ng-container *ngIf="slot.home && slot.away">
-                  <div class="cl-bslot-team" [class.winner]="slot.winner === slot.home" [class.is-player]="slot.home === playerTeam">
-                    <img *ngIf="slot.home.logo" [src]="slot.home.logo" class="cl-bslot-logo" />
-                    <span>{{ slot.home.name }}</span>
-                  </div>
-                  <div class="cl-bslot-vs">vs</div>
-                  <div class="cl-bslot-team" [class.winner]="slot.winner === slot.away" [class.is-player]="slot.away === playerTeam">
-                    <img *ngIf="slot.away.logo" [src]="slot.away.logo" class="cl-bslot-logo" />
-                    <span>{{ slot.away.name }}</span>
-                  </div>
-                </ng-container>
-                <ng-container *ngIf="!slot.home || !slot.away">
-                  <div class="cl-bslot-tbd">TBD</div>
-                </ng-container>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ng-container *ngIf="fullBracket.length > 0" [ngTemplateOutlet]="bracketTpl"></ng-container>
 
       <div class="w3-center w3-margin-top">
-        <button class="cl-btn-primary w3-button w3-round" (click)="continuePlayoffResult()">
-          Round of 16 →
-        </button>
+        <button class="cl-btn-primary w3-button w3-round" (click)="continuePlayoffResult()">Round of 16 →</button>
       </div>
     </div>
 
@@ -540,31 +486,29 @@
         <div class="cl-my-result-header">Leg 1</div>
         <div class="cl-result-row">
           <div class="cl-result-team">
-            <img *ngIf="tieLeg1.home.logo" [src]="tieLeg1.home.logo" class="cl-result-logo" />
+            <img *ngIf="tieLeg1.home.logo" [src]="tieLeg1.home.logo" class="cl-result-logo" alt="" />
             {{ tieLeg1.home.name }}
           </div>
           <div class="cl-result-score">{{ scoreLabel(tieLeg1) }}</div>
           <div class="cl-result-team right">
-            <img *ngIf="tieLeg1.away.logo" [src]="tieLeg1.away.logo" class="cl-result-logo" />
+            <img *ngIf="tieLeg1.away.logo" [src]="tieLeg1.away.logo" class="cl-result-logo" alt="" />
             {{ tieLeg1.away.name }}
           </div>
         </div>
-
         <div class="cl-my-result-header cl-leg2-header">
           Leg 2 <span *ngIf="wentToExtraTime" class="cl-aet-tag">(AET)</span>
         </div>
         <div class="cl-result-row">
           <div class="cl-result-team">
-            <img *ngIf="currentKnockoutMatch.home.logo" [src]="currentKnockoutMatch.home.logo" class="cl-result-logo" />
+            <img *ngIf="currentKnockoutMatch.home.logo" [src]="currentKnockoutMatch.home.logo" class="cl-result-logo" alt="" />
             {{ currentKnockoutMatch.home.name }}
           </div>
           <div class="cl-result-score">{{ scoreLabel(currentKnockoutMatch) }}</div>
           <div class="cl-result-team right">
-            <img *ngIf="currentKnockoutMatch.away.logo" [src]="currentKnockoutMatch.away.logo" class="cl-result-logo" />
+            <img *ngIf="currentKnockoutMatch.away.logo" [src]="currentKnockoutMatch.away.logo" class="cl-result-logo" alt="" />
             {{ currentKnockoutMatch.away.name }}
           </div>
         </div>
-
         <div class="cl-aggregate-row">
           <span>Aggregate: <strong>{{ tieTeam1?.name }} {{ tieAggregateTeam1 }} – {{ tieAggregateTeam2 }} {{ tieTeam2?.name }}</strong></span>
         </div>
@@ -573,40 +517,10 @@
         </div>
       </div>
 
-      <div class="cl-bracket-section">
-        <div class="cl-bracket-title">🗓️ Tournament Bracket</div>
-        <div class="cl-bracket-scroll">
-          <div class="cl-bracket-rounds">
-            <div *ngFor="let round of bracketRounds; let ri = index" class="cl-bracket-round">
-              <div class="cl-bracket-round-name">{{ round.name }}</div>
-              <div *ngFor="let slot of round.slots; trackBy: trackByIdx"
-                   class="cl-bracket-slot"
-                   [class.player-slot]="isPlayerSlot(slot)"
-                   [class.future-slot]="!slot.home && !slot.away">
-                <ng-container *ngIf="slot.home && slot.away">
-                  <div class="cl-bslot-team" [class.winner]="slot.winner === slot.home" [class.is-player]="slot.home === playerTeam">
-                    <img *ngIf="slot.home.logo" [src]="slot.home.logo" class="cl-bslot-logo" />
-                    <span>{{ slot.home.name }}</span>
-                  </div>
-                  <div class="cl-bslot-vs">vs</div>
-                  <div class="cl-bslot-team" [class.winner]="slot.winner === slot.away" [class.is-player]="slot.away === playerTeam">
-                    <img *ngIf="slot.away.logo" [src]="slot.away.logo" class="cl-bslot-logo" />
-                    <span>{{ slot.away.name }}</span>
-                  </div>
-                </ng-container>
-                <ng-container *ngIf="!slot.home || !slot.away">
-                  <div class="cl-bslot-tbd">TBD</div>
-                </ng-container>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ng-container *ngIf="fullBracket.length > 0" [ngTemplateOutlet]="bracketTpl"></ng-container>
 
       <div class="w3-center w3-margin-top">
-        <button class="cl-btn-primary w3-button w3-round" (click)="continueKnockout()">
-          Next match →
-        </button>
+        <button class="cl-btn-primary w3-button w3-round" (click)="continueKnockout()">Next match →</button>
       </div>
     </div>
 
@@ -636,11 +550,12 @@
       <div class="cl-card w3-card w3-round-large w3-padding-large cl-result-card won">
         <div class="cl-result-icon">🏆</div>
         <h2 class="w3-text-white w3-center">Europa League Champions!</h2>
-        <div class="cl-champion-logo" *ngIf="playerTeam?.logo">
-          <img [src]="playerTeam!.logo" [alt]="playerTeam!.name" />
+        <div class="cl-champion-logo" *ngIf="playerTeam?.logo as championLogo">
+          <img [src]="championLogo" [alt]="playerTeam!.name" />
         </div>
         <p class="w3-text-light-grey w3-center">
-          <strong class="accent">{{ playerTeam?.name }}</strong> lifts the trophy at the {{ FINAL_INFO.venue }}, {{ FINAL_INFO.city }}! 🎉
+          <strong class="accent">{{ playerTeam?.name }}</strong>
+          lifts the trophy at the {{ FINAL_INFO.venue }}, {{ FINAL_INFO.city }}! 🎉
         </p>
         <div class="cl-final-score-recap" *ngIf="currentKnockoutMatch">
           <span>{{ currentKnockoutMatch.home.name }} {{ scoreLabel(currentKnockoutMatch) }} {{ currentKnockoutMatch.away.name }}</span>
@@ -658,3 +573,214 @@
   </div>
   <app-footer></app-footer>
 </div>
+
+<!-- ══════ Shared bracket template ══════ -->
+<ng-template #bracketTpl>
+  <div class="cl-bracket" *ngIf="bracketHalves.final as final">
+    <div class="cl-bracket-header">
+      <span class="cl-bracket-title">🗓️ Tournament Bracket</span>
+    </div>
+
+    <!-- Desktop -->
+    <div class="cl-bracket-desktop">
+      <div class="cl-bracket-half left">
+        <div *ngFor="let round of bracketHalves.left; trackBy: trackByIdx" class="cl-bracket-round">
+          <div class="cl-round-label">{{ round.name }}</div>
+          <div class="cl-round-matches">
+            <div *ngFor="let slot of round.slots; trackBy: trackByIdx"
+                 class="cl-match-card"
+                 [class.player]="isPlayerSlot(slot)"
+                 [class.empty]="!slot.home && !slot.away">
+              <ng-container *ngIf="slot.home || slot.away; else emptySlot">
+                <div class="cl-team"
+                     [class.winner]="slot.winner === slot.home"
+                     [class.player-team]="slot.home === playerTeam">
+                  <img *ngIf="slot.home?.logo as homeLogo" [src]="homeLogo" class="cl-logo" alt="" />
+                  <span class="cl-name"
+                        [attr.title]="round.name === 'Round of 16' && slot.homeLabel ? slot.homeLabel : null">
+                    {{ slot.home?.name || (slot.homeLabel ? '🔀 ' + slot.homeLabel : 'TBD') }}
+                  </span>
+                </div>
+                <div class="cl-team"
+                     [class.winner]="slot.winner === slot.away"
+                     [class.player-team]="slot.away === playerTeam">
+                  <img *ngIf="slot.away?.logo as awayLogo" [src]="awayLogo" class="cl-logo" alt="" />
+                  <span class="cl-name"
+                        [attr.title]="round.name === 'Round of 16' && slot.awayLabel ? slot.awayLabel : null">
+                    {{ slot.away?.name || (slot.awayLabel ? '🔀 ' + slot.awayLabel : 'TBD') }}
+                  </span>
+                </div>
+              </ng-container>
+              <ng-template #emptySlot>
+                <div class="cl-tbd">TBD</div>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cl-bracket-final">
+        <div class="cl-round-label">🏆 Final</div>
+        <div class="cl-match-card final"
+             [class.player]="isPlayerSlot(final)"
+             [class.empty]="!final.home && !final.away">
+          <ng-container *ngIf="final.home && final.away; else finalEmpty">
+            <div class="cl-team"
+                 [class.winner]="final.winner === final.home"
+                 [class.player-team]="final.home === playerTeam">
+              <img *ngIf="final.home.logo as fh" [src]="fh" class="cl-logo" alt="" />
+              <span class="cl-name">{{ final.home.name }}</span>
+            </div>
+            <div class="cl-vs">vs</div>
+            <div class="cl-team"
+                 [class.winner]="final.winner === final.away"
+                 [class.player-team]="final.away === playerTeam">
+              <img *ngIf="final.away.logo as fa" [src]="fa" class="cl-logo" alt="" />
+              <span class="cl-name">{{ final.away.name }}</span>
+            </div>
+          </ng-container>
+          <ng-template #finalEmpty>
+            <div class="cl-tbd">TBD</div>
+          </ng-template>
+        </div>
+      </div>
+
+      <div class="cl-bracket-half right">
+        <div *ngFor="let round of bracketHalves.right; trackBy: trackByIdx" class="cl-bracket-round">
+          <div class="cl-round-label">{{ round.name }}</div>
+          <div class="cl-round-matches">
+            <div *ngFor="let slot of round.slots; trackBy: trackByIdx"
+                 class="cl-match-card"
+                 [class.player]="isPlayerSlot(slot)"
+                 [class.empty]="!slot.home && !slot.away">
+              <ng-container *ngIf="slot.home || slot.away; else emptySlot2">
+                <div class="cl-team"
+                     [class.winner]="slot.winner === slot.home"
+                     [class.player-team]="slot.home === playerTeam">
+                  <img *ngIf="slot.home?.logo as homeLogo" [src]="homeLogo" class="cl-logo" alt="" />
+                  <span class="cl-name"
+                        [attr.title]="round.name === 'Round of 16' && slot.homeLabel ? slot.homeLabel : null">
+                    {{ slot.home?.name || (slot.homeLabel ? '🔀 ' + slot.homeLabel : 'TBD') }}
+                  </span>
+                </div>
+                <div class="cl-team"
+                     [class.winner]="slot.winner === slot.away"
+                     [class.player-team]="slot.away === playerTeam">
+                  <img *ngIf="slot.away?.logo as awayLogo" [src]="awayLogo" class="cl-logo" alt="" />
+                  <span class="cl-name"
+                        [attr.title]="round.name === 'Round of 16' && slot.awayLabel ? slot.awayLabel : null">
+                    {{ slot.away?.name || (slot.awayLabel ? '🔀 ' + slot.awayLabel : 'TBD') }}
+                  </span>
+                </div>
+              </ng-container>
+              <ng-template #emptySlot2>
+                <div class="cl-tbd">TBD</div>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile -->
+    <div class="cl-bracket-mobile">
+      <ng-container *ngFor="let round of bracketHalves.left; trackBy: trackByIdx">
+        <div class="cl-mobile-round">
+          <div class="cl-mobile-round-title">{{ round.name }}</div>
+          <div class="cl-mobile-matches">
+            <div *ngFor="let slot of round.slots; trackBy: trackByIdx"
+                 class="cl-match-card"
+                 [class.player]="isPlayerSlot(slot)"
+                 [class.empty]="!slot.home && !slot.away">
+              <ng-container *ngIf="slot.home || slot.away; else emptyM">
+                <div class="cl-team"
+                     [class.winner]="slot.winner === slot.home"
+                     [class.player-team]="slot.home === playerTeam">
+                  <img *ngIf="slot.home?.logo as homeLogo" [src]="homeLogo" class="cl-logo" alt="" />
+                  <span class="cl-name"
+                        [attr.title]="round.name === 'Round of 16' && slot.homeLabel ? slot.homeLabel : null">
+                    {{ slot.home?.name || (slot.homeLabel ? '🔀 ' + slot.homeLabel : 'TBD') }}
+                  </span>
+                </div>
+                <div class="cl-team"
+                     [class.winner]="slot.winner === slot.away"
+                     [class.player-team]="slot.away === playerTeam">
+                  <img *ngIf="slot.away?.logo as awayLogo" [src]="awayLogo" class="cl-logo" alt="" />
+                  <span class="cl-name"
+                        [attr.title]="round.name === 'Round of 16' && slot.awayLabel ? slot.awayLabel : null">
+                    {{ slot.away?.name || (slot.awayLabel ? '🔀 ' + slot.awayLabel : 'TBD') }}
+                  </span>
+                </div>
+              </ng-container>
+              <ng-template #emptyM>
+                <div class="cl-tbd">TBD</div>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+
+      <div class="cl-mobile-round final-round">
+        <div class="cl-mobile-round-title">🏆 Final</div>
+        <div class="cl-match-card final"
+             [class.player]="isPlayerSlot(final)"
+             [class.empty]="!final.home && !final.away">
+          <ng-container *ngIf="final.home && final.away; else finalEmptyM">
+            <div class="cl-team"
+                 [class.winner]="final.winner === final.home"
+                 [class.player-team]="final.home === playerTeam">
+              <img *ngIf="final.home.logo as fh" [src]="fh" class="cl-logo" alt="" />
+              <span class="cl-name">{{ final.home.name }}</span>
+            </div>
+            <div class="cl-vs">vs</div>
+            <div class="cl-team"
+                 [class.winner]="final.winner === final.away"
+                 [class.player-team]="final.away === playerTeam">
+              <img *ngIf="final.away.logo as fa" [src]="fa" class="cl-logo" alt="" />
+              <span class="cl-name">{{ final.away.name }}</span>
+            </div>
+          </ng-container>
+          <ng-template #finalEmptyM>
+            <div class="cl-tbd">TBD</div>
+          </ng-template>
+        </div>
+      </div>
+
+      <ng-container *ngFor="let round of bracketHalves.right; trackBy: trackByIdx">
+        <div class="cl-mobile-round">
+          <div class="cl-mobile-round-title">{{ round.name }}</div>
+          <div class="cl-mobile-matches">
+            <div *ngFor="let slot of round.slots; trackBy: trackByIdx"
+                 class="cl-match-card"
+                 [class.player]="isPlayerSlot(slot)"
+                 [class.empty]="!slot.home && !slot.away">
+              <ng-container *ngIf="slot.home || slot.away; else emptyM2">
+                <div class="cl-team"
+                     [class.winner]="slot.winner === slot.home"
+                     [class.player-team]="slot.home === playerTeam">
+                  <img *ngIf="slot.home?.logo as homeLogo" [src]="homeLogo" class="cl-logo" alt="" />
+                  <span class="cl-name"
+                        [attr.title]="round.name === 'Round of 16' && slot.homeLabel ? slot.homeLabel : null">
+                    {{ slot.home?.name || (slot.homeLabel ? '🔀 ' + slot.homeLabel : 'TBD') }}
+                  </span>
+                </div>
+                <div class="cl-team"
+                     [class.winner]="slot.winner === slot.away"
+                     [class.player-team]="slot.away === playerTeam">
+                  <img *ngIf="slot.away?.logo as awayLogo" [src]="awayLogo" class="cl-logo" alt="" />
+                  <span class="cl-name"
+                        [attr.title]="round.name === 'Round of 16' && slot.awayLabel ? slot.awayLabel : null">
+                    {{ slot.away?.name || (slot.awayLabel ? '🔀 ' + slot.awayLabel : 'TBD') }}
+                  </span>
+                </div>
+              </ng-container>
+              <ng-template #emptyM2>
+                <div class="cl-tbd">TBD</div>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</ng-template>

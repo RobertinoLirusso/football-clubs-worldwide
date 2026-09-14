@@ -3,7 +3,6 @@ import { ClubService } from '../../services/club.service';
 import { SeoService } from '../../services/seo.service';
 import confetti from 'canvas-confetti';
 import { isPlatformBrowser } from '@angular/common';
-import { LeaderboardService, LeaderboardEntry } from '../../services/leaderboard.service';
 
 
 @Component({
@@ -37,11 +36,7 @@ export class GuessClubComponent implements OnInit {
   bestScore: number = 0;
   isNewRecord: boolean = false;
   imageLoaded: boolean = false;
-  playerName: string = '';
-  scoreSubmitted: boolean = false;
-  leaderboard: LeaderboardEntry[] = [];
-  loadingLeaderboard: boolean = false;
-  isLeaderboardModalOpen: boolean = false;
+
 
 
 
@@ -50,7 +45,6 @@ export class GuessClubComponent implements OnInit {
   constructor(
     private clubService: ClubService, 
     private seoService: SeoService,
-    private leaderboardService: LeaderboardService,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
 
@@ -95,18 +89,13 @@ export class GuessClubComponent implements OnInit {
     this.seoService.setStructuredData(structuredData);
   }
 
-  loadBestScore(): void {
-    if (isPlatformBrowser(this.platformId)) {
-      this.bestScore = Number(localStorage.getItem('bestScore')) || 0;
-      this.playerName = localStorage.getItem('playerName') || '';
-    }
-  }
-
   getClubs(): void {
     this.clubService.getClubs().subscribe(data => {
       this.clubs = data;
     });
   }
+
+  
 
   startGame(): void {
     this.imageLoaded = false; // 👈 importante
@@ -124,7 +113,6 @@ export class GuessClubComponent implements OnInit {
       this.timeHelpUsed = false;
       this.blurHelpUsed = false;
       this.isNewRecord = false;
-      this.scoreSubmitted = false;
     }
     
   
@@ -264,6 +252,12 @@ getBlurClass(): string {
   }
 }
 
+loadBestScore(): void {
+  if (isPlatformBrowser(this.platformId)) {
+    this.bestScore = Number(localStorage.getItem('bestScore')) || 0;
+  }
+}
+
 
 
 shareResult(): void {
@@ -286,38 +280,6 @@ useBlurHelp(): void {
   this.blurHelpActive = true; // reduce blur SOLO ahora
 }
 
-  submitToLeaderboard(): void {
-    const name = this.playerName.trim();
-    if (!name || this.scoreSubmitted || this.lastScore === 0) return;
 
-    this.leaderboardService.submitScore(name, this.lastScore).subscribe(() => {
-      this.scoreSubmitted = true;
-      if (isPlatformBrowser(this.platformId)) {
-        localStorage.setItem('playerName', name);
-      }
-      this.loadLeaderboard();
-    });
-  }
-
-  loadLeaderboard(): void {
-    this.loadingLeaderboard = true;
-    this.leaderboardService.getTop().subscribe({
-      next: (data) => {
-        this.leaderboard = data.slice(0, 25);
-        this.loadingLeaderboard = false;
-      },
-      error: () => (this.loadingLeaderboard = false),
-    });
-  }
-
-
-    openLeaderboardModal(): void {
-    this.isLeaderboardModalOpen = true;
-    this.loadLeaderboard();
-  }
-
-  closeLeaderboardModal(): void {
-    this.isLeaderboardModalOpen = false;
-  }
 
 }

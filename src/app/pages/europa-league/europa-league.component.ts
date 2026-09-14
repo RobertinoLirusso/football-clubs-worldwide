@@ -5,6 +5,15 @@ import { EL2026_TEAMS, EL2026_SCHEDULE, FINAL_INFO_EL, EL2026_PLAYOFF_LOSERS, QU
 
 // ─── Types ────────────────────────────────────────────────────────────────
 
+interface BracketSlot {
+  home: Team | null;
+  away: Team | null;
+  winner: Team | null;
+  matchIndex: number;
+  homeLabel?: string;
+  awayLabel?: string;
+}
+
 type GamePhase =
   | 'home' | 'select'
   | 'qualifying_round_match' | 'qualifying_round_extratime' | 'qualifying_round_shootout' | 'qualifying_round_result'
@@ -20,8 +29,8 @@ interface Team {
 
 interface MatchEvent {
   minute: number;
-  type: 'goal' | 'yellow' | 'red' | 'save' | 'miss' | 'var' |
-        'foul' | 'corner' | 'offside' | 'penalty' | 'info';
+  type: 'goal' | 'penalty_goal' | 'var_goal_disallowed' | 'yellow' | 'red' | 'save' | 'miss' | 'var' |
+        'foul' | 'corner' | 'offside' | 'chance' | 'tackle' | 'block' | 'counter' | 'info';
   team: string;
   description: string;
 }
@@ -37,10 +46,6 @@ interface MatchResult {
 interface LeagueStanding {
   team: Team; played: number; won: number; drawn: number; lost: number;
   gf: number; ga: number; gd: number; points: number;
-}
-
-interface BracketSlot {
-  home: Team | null; away: Team | null; winner: Team | null; matchIndex: number;
 }
 
 interface Formation {
@@ -449,60 +454,60 @@ playQualifyingRound(opponent: Team): void {
   private factorial(n: number): number { return n <= 1 ? 1 : n * this.factorial(n - 1); }
 
   private generateEvents(
-    home: Team, away: Team, homeGoals: number, awayGoals: number, homeStr: number, awayStr: number,
+    home: Team, away: Team, homeGoals: number, awayGoals: number,
+    homeStr: number, awayStr: number,
     reds: { home: boolean; away: boolean } = { home: false, away: false }
   ): MatchEvent[] {
     const events: MatchEvent[] = [];
     const usedMins = new Set<number>([0, 45, 91]);
-    const randMin = (from = 1, to = 90): number => {
-      let m: number, tries = 0;
-      do { m = this.rand(from, to); tries++; } while (usedMins.has(m) && tries < 40);
-      usedMins.add(m);
-      return m;
-    };
-
-    for (let i = 0; i < homeGoals; i++) {
-      const min = randMin();
-      events.push({ minute: min, type: 'goal', team: home.name, description: this.pickGoalDesc(home.name, min) });
+  
+    const homeScoring = this.buildScoringEvents(home, away, homeGoals, 1, 90, usedMins);
+    const awayScoring = this.buildScoringEvents(away, home, awayGoals, 1, 90, usedMins);
+    events.push(...homeScoring.events, ...awayScoring.events);
+  
+    if (reds.home) {
+      events.push({
+        minute: this.uniqueMin(1, 90, usedMins), type: 'red', team: home.name,
+        description: `🟥 RED CARD! ${home.name} is down to 10 men!`,
+      });
     }
-
-    for (let i = 0; i < awayGoals; i++) {
-      const min = randMin();
-      events.push({ minute: min, type: 'goal', team: away.name, description: this.pickGoalDesc(away.name, min) });
+    if (reds.away) {
+      events.push({
+        minute: this.uniqueMin(1, 90, usedMins), type: 'red', team: away.name,
+        description: `🟥 RED CARD! ${away.name} is down to 10 men!`,
+      });
     }
-
-    if (reds.home) events.push({ minute: randMin(), type: 'red', team: home.name, description: `🟥 RED CARD! ${home.name} is down to 10 men!` });
-    if (reds.away) events.push({ minute: randMin(), type: 'red', team: away.name, description: `🟥 RED CARD! ${away.name} is down to 10 men!` });
-
-
+  
     const dominantTeam = homeStr >= awayStr ? home : away;
     const weakerTeam = homeStr >= awayStr ? away : home;
     const extraCount = this.rand(10, 16);
-    const pool = ['save', 'miss', 'yellow', 'foul', 'corner', 'offside', 'var'] as const;
-    type PoolType = typeof pool[number];
-    const descMap: Record<PoolType, (t: Team) => string> = {
-      save:    t => `🧤 Big save! The ${t.name} goalkeeper denies a certain goal!`,
-      miss:    t => `😬 ${t.name} rattles the crossbar! So close!`,
-      yellow:  t => `🟨 Yellow card for ${t.name}.`,
-      foul:    t => `🦵 Foul by ${t.name}, dangerous free kick conceded.`,
-      corner:  t => `🚩 Corner for ${t.name}, set-piece chance.`,
-      offside: t => `🚫 Offside! ${t.name}'s attack is called back.`,
-      var:     _t => `📺 VAR is checking the play…`,
-    };
+    const pool = ['save', 'miss', 'yellow', 'foul', 'corner', 'offside', 'var', 'chance', 'tackle', 'block', 'counter'] as const;
+    const descMap = this.incidentDescMap();
+  
     for (let i = 0; i < extraCount; i++) {
-      const type: PoolType = pool[Math.floor(Math.random() * pool.length)];
-      const useWeak = (type === 'foul' || type === 'yellow') && Math.random() < 0.65;
+      const type = pool[Math.floor(Math.random() * pool.length)];
+      const useWeak = (type === 'foul' || type === 'yellow' || type === 'tackle') && Math.random() < 0.65;
       const team = useWeak ? weakerTeam : (Math.random() < 0.55 ? dominantTeam : weakerTeam);
-      events.push({ minute: randMin(), type, team: team.name, description: descMap[type](team) });
+      events.push({
+        minute: this.uniqueMin(1, 90, usedMins), type, team: team.name,
+        description: descMap[type](team),
+      });
     }
-
-    const htHome = events.filter(e => e.type === 'goal' && e.team === home.name && e.minute < 45).length;
-    const htAway = events.filter(e => e.type === 'goal' && e.team === away.name && e.minute < 45).length;
-
-    events.push({ minute: 0,  type: 'info' as any, team: '', description: `🏟️ Kick-off! ${home.name} vs ${away.name}.` });
-    events.push({ minute: 45, type: 'info' as any, team: '', description: `⏸️ Half-time: ${home.name} ${htHome}–${htAway} ${away.name}.` });
-    events.push({ minute: 91, type: 'info' as any, team: '', description: `🏁 Full time: ${home.name} ${homeGoals}–${awayGoals} ${away.name}.` });
-
+  
+    const htHome = events.filter(e =>
+      (e.type === 'goal' || e.type === 'penalty_goal') && e.team === home.name && e.minute < 45
+    ).length;
+    const htAway = events.filter(e =>
+      (e.type === 'goal' || e.type === 'penalty_goal') && e.team === away.name && e.minute < 45
+    ).length;
+  
+    events.push({ minute: 0,  type: 'info', team: '', description: `🏟️ Kick-off! ${home.name} vs ${away.name}.` });
+    events.push({ minute: 45, type: 'info', team: '', description: `⏸️ Half-time: ${home.name} ${htHome}–${htAway} ${away.name}.` });
+    events.push({
+      minute: 91, type: 'info', team: '',
+      description: `🏁 Full time: ${home.name} ${homeScoring.goals}–${awayScoring.goals} ${away.name}.`,
+    });
+  
     return events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
   }
 
@@ -521,6 +526,95 @@ playQualifyingRound(opponent: Team): void {
     ];
     return pool[Math.floor(Math.random() * pool.length)];
   }
+  
+  private pickPenaltyGoalDesc(team: string): string {
+    const pool = [
+      `⚽🎯 GOAL! ${team} makes no mistake from the penalty spot!`,
+      `⚽🎯 GOAL! Cool and composed — ${team} converts the penalty!`,
+      `⚽🎯 GOAL! ${team} sends the keeper the wrong way from twelve yards!`,
+      `⚽🎯 GOAL! ${team} buries the spot-kick into the top corner!`,
+    ];
+    return pool[Math.floor(Math.random() * pool.length)];
+  }
+  
+  private pickVarDisallowedDesc(team: string): string {
+    const pool = [
+      `⚽❌ ${team} thought they had scored, but VAR chalks it off for offside!`,
+      `⚽❌ Disallowed! VAR spots a foul in the build-up to ${team}'s "goal".`,
+      `⚽❌ VAR intervenes — ${team}'s goal is ruled out after a lengthy review!`,
+      `⚽❌ No goal! The referee overturns the decision after checking the monitor — ${team} denied.`,
+    ];
+    return pool[Math.floor(Math.random() * pool.length)];
+  }
+  
+  private incidentDescMap(): Record<
+    'save' | 'miss' | 'yellow' | 'foul' | 'corner' | 'offside' | 'var' | 'chance' | 'tackle' | 'block' | 'counter',
+    (t: Team) => string
+  > {
+    return {
+      save:    t => `🧤 Big save! The ${t.name} goalkeeper denies a certain goal!`,
+      miss:    t => `😬 ${t.name} rattles the crossbar! So close!`,
+      yellow:  t => `🟨 Yellow card for ${t.name}.`,
+      foul:    t => `🦵 Foul by ${t.name}, dangerous free kick conceded.`,
+      corner:  t => `🚩 Corner for ${t.name}, set-piece chance.`,
+      offside: t => `🚫 Offside! ${t.name}'s attack is called back.`,
+      var:     _t => `📺 VAR is checking the play…`,
+      chance:  t => `⚡ Big chance for ${t.name} — just wide of the post!`,
+      tackle:  t => `🛡️ Crucial tackle! ${t.name} snuffs out a dangerous attack.`,
+      block:   t => `🧱 Shot blocked! ${t.name} throws a body on the line.`,
+      counter: t => `⚡ Counter-attack! ${t.name} break at pace down the pitch.`,
+    };
+  }
+  
+  private uniqueMin(from: number, to: number, usedMins: Set<number>): number {
+    let m: number, tries = 0;
+    do { m = this.rand(from, to); tries++; } while (usedMins.has(m) && tries < 40);
+    usedMins.add(m);
+    return m;
+  }
+  
+  /** Convierte un conteo bruto de goles en eventos reales (VAR / penalti). */
+  private buildScoringEvents(
+    team: Team, opponent: Team, count: number,
+    minFrom: number, minTo: number, usedMins: Set<number>
+  ): { events: MatchEvent[]; goals: number } {
+    const events: MatchEvent[] = [];
+    let goals = 0;
+  
+    for (let i = 0; i < count; i++) {
+      const min = this.uniqueMin(minFrom, minTo, usedMins);
+      const roll = Math.random();
+  
+      if (roll < 0.055) {
+        events.push({
+          minute: min, type: 'var_goal_disallowed', team: team.name,
+          description: this.pickVarDisallowedDesc(team.name),
+        });
+        continue;
+      }
+  
+      if (roll < 0.20) {
+        events.push({
+          minute: Math.max(minFrom, min - 1), type: 'foul', team: opponent.name,
+          description: `🚨 Penalty! ${opponent.name} concede a spot-kick after a foul in the area.`,
+        });
+        events.push({
+          minute: min, type: 'penalty_goal', team: team.name,
+          description: this.pickPenaltyGoalDesc(team.name),
+        });
+        goals++;
+        continue;
+      }
+  
+      events.push({
+        minute: min, type: 'goal', team: team.name,
+        description: this.pickGoalDesc(team.name, min),
+      });
+      goals++;
+    }
+  
+    return { events, goals };
+  }
 
   // ─── Live regulation match ──────────────────────────────────────────────
 
@@ -535,87 +629,113 @@ playQualifyingRound(opponent: Team): void {
     return { homeGoals, awayGoals };
   }
 
-  private buildHalfEvents(home: Team, away: Team, homeGoals: number, awayGoals: number, half: 1 | 2, isFinal: boolean, redEvent?: MatchEvent): MatchEvent[] {    const events: MatchEvent[] = [];
-    const minFrom = half === 1 ? 1 : 46;
-    const minTo = half === 1 ? 45 : 90;
-    const usedMins = new Set<number>();
-    const randMin = (): number => {
-      let m: number, tries = 0;
-      do { m = this.rand(minFrom, minTo); tries++; } while (usedMins.has(m) && tries < 40);
-      usedMins.add(m);
-      return m;
-    };
+private buildHalfEvents(
+  home: Team, away: Team,
+  homeGoalsRaw: number, awayGoalsRaw: number,
+  half: 1 | 2, isFinal: boolean, redEvent?: MatchEvent
+): { events: MatchEvent[]; homeGoals: number; awayGoals: number } {
+  const events: MatchEvent[] = [];
+  const minFrom = half === 1 ? 1 : 46;
+  const minTo = half === 1 ? 45 : 90;
+  const usedMins = new Set<number>();
 
-    for (let i = 0; i < homeGoals; i++) { const min = randMin(); events.push({ minute: min, type: 'goal', team: home.name, description: this.pickGoalDesc(home.name, min) }); }
-    for (let i = 0; i < awayGoals; i++) { const min = randMin(); events.push({ minute: min, type: 'goal', team: away.name, description: this.pickGoalDesc(away.name, min) }); }
+  const homeScoring = this.buildScoringEvents(home, away, homeGoalsRaw, minFrom, minTo, usedMins);
+  const awayScoring = this.buildScoringEvents(away, home, awayGoalsRaw, minFrom, minTo, usedMins);
+  events.push(...homeScoring.events, ...awayScoring.events);
 
+  if (redEvent) events.push(redEvent);
 
-    if (redEvent) events.push(redEvent);
+  const dominantTeam = (home.attack + home.defense) >= (away.attack + away.defense) ? home : away;
+  const weakerTeam = dominantTeam === home ? away : home;
+  const extraCount = isFinal ? this.rand(9, 15) : this.rand(5, 8);
+  const pool = ['save', 'miss', 'yellow', 'foul', 'corner', 'offside', 'var', 'chance', 'tackle', 'block', 'counter'] as const;
+  const descMap = this.incidentDescMap();
 
-    const dominantTeam = (home.attack + home.defense) >= (away.attack + away.defense) ? home : away;
-
-    const weakerTeam = dominantTeam === home ? away : home;
-    const extraCount = isFinal ? this.rand(9, 15) : this.rand(5, 8);
-    const pool = ['save', 'miss', 'yellow', 'foul', 'corner', 'offside', 'var'] as const;
-    type PoolType = typeof pool[number];
-    const descMap: Record<PoolType, (t: Team) => string> = {
-      save:    t => `🧤 Big save! The ${t.name} goalkeeper denies a certain goal!`,
-      miss:    t => `😬 ${t.name} rattles the crossbar! So close!`,
-      yellow:  t => `🟨 Yellow card for ${t.name}.`,
-      foul:    t => `🦵 Foul by ${t.name}, dangerous free kick conceded.`,
-      corner:  t => `🚩 Corner for ${t.name}, set-piece chance.`,
-      offside: t => `🚫 Offside! ${t.name}'s attack is called back.`,
-      var:     _t => `📺 VAR is checking the play…`,
-    };
-    for (let i = 0; i < extraCount; i++) {
-      const type: PoolType = pool[Math.floor(Math.random() * pool.length)];
-      const useWeak = (type === 'foul' || type === 'yellow') && Math.random() < 0.65;
-      const team = useWeak ? weakerTeam : (Math.random() < 0.55 ? dominantTeam : weakerTeam);
-      events.push({ minute: randMin(), type, team: team.name, description: descMap[type](team) });
-    }
-
-    if (half === 1) {
-      events.push({ minute: 0, type: 'info' as any, team: '', description: `🏟️ Kick-off! ${home.name} vs ${away.name}.` });
-    } else {
-      events.push({ minute: 46, type: 'info' as any, team: '', description: `▶️ Second half underway!` });
-    }
-
-    return events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
+  for (let i = 0; i < extraCount; i++) {
+    const type = pool[Math.floor(Math.random() * pool.length)];
+    const useWeak = (type === 'foul' || type === 'yellow' || type === 'tackle') && Math.random() < 0.65;
+    const team = useWeak ? weakerTeam : (Math.random() < 0.55 ? dominantTeam : weakerTeam);
+    events.push({
+      minute: this.uniqueMin(minFrom, minTo, usedMins), type, team: team.name,
+      description: descMap[type](team),
+    });
   }
 
-  private playRegulationMatch(home: Team, away: Team, phase: GamePhase, isFinal: boolean): void {
-    this.matchRedCards = { home: false, away: false };
-    const half1Red = this.rollRedCard(home, away, 1);
-    const bHome = this.applyRedPenalty(this.effectiveTeam(home, true), this.matchRedCards.home);
-    const bAway = this.applyRedPenalty(this.effectiveTeam(away, true), this.matchRedCards.away);
-    const { homeGoals: h1, awayGoals: a1 } = this.simulateHalfGoals(bHome, bAway);
-    const half1Events = this.buildHalfEvents(home, away, h1, a1, 1, isFinal, half1Red);
-    const half1Match: MatchResult = { home, away, homeGoals: h1, awayGoals: a1, events: half1Events, isPlayerMatch: true };
-    this.halftimeMatchCtx = { home, away, isFinal };
-    this.startPlayback(half1Match, phase, isFinal ? 25000 : undefined, () => this.enterHalftime());
+  // Tiempo de descuento
+  const stoppage = half === 1 ? this.rand(1, 3) : this.rand(3, 8);
+  const stoppageMinute = half === 1 ? 45 : 90;
+  events.push({
+    minute: stoppageMinute, type: 'info', team: '',
+    description: `🕒 ${stoppage} minute${stoppage === 1 ? '' : 's'} of stoppage time signalled.`,
+  });
+  if (Math.random() < 0.35) {
+    const lateTeam = Math.random() < 0.5 ? home : away;
+    const lateType = pool[Math.floor(Math.random() * pool.length)];
+    events.push({
+      minute: stoppageMinute, type: lateType, team: lateTeam.name,
+      description: descMap[lateType](lateTeam),
+    });
   }
+
+  if (half === 1) {
+    events.push({ minute: 0, type: 'info', team: '', description: `🏟️ Kick-off! ${home.name} vs ${away.name}.` });
+  } else {
+    events.push({ minute: 46, type: 'info', team: '', description: `▶️ Second half underway!` });
+  }
+
+  events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
+  return { events, homeGoals: homeScoring.goals, awayGoals: awayScoring.goals };
+}
+
+private playRegulationMatch(home: Team, away: Team, phase: GamePhase, isFinal: boolean): void {
+  this.matchRedCards = { home: false, away: false };
+  const half1Red = this.rollRedCard(home, away, 1);
+  const bHome = this.applyRedPenalty(this.effectiveTeam(home, true), this.matchRedCards.home);
+  const bAway = this.applyRedPenalty(this.effectiveTeam(away, true), this.matchRedCards.away);
+  const { homeGoals: h1raw, awayGoals: a1raw } = this.simulateHalfGoals(bHome, bAway);
+  const half1Built = this.buildHalfEvents(home, away, h1raw, a1raw, 1, isFinal, half1Red);
+  const half1Match: MatchResult = {
+    home, away,
+    homeGoals: half1Built.homeGoals,
+    awayGoals: half1Built.awayGoals,
+    events: half1Built.events,
+    isPlayerMatch: true,
+  };
+  this.halftimeMatchCtx = { home, away, isFinal };
+  this.startPlayback(half1Match, phase, isFinal ? 25000 : undefined, () => this.enterHalftime());
+}
+
+resumeSecondHalf(): void {
+  const ctx = this.halftimeMatchCtx;
+  if (!ctx) return;
+  this.atHalftime = false;
+  const half2Red = this.rollRedCard(ctx.home, ctx.away, 2);
+  const bHome = this.applyRedPenalty(this.effectiveTeam(ctx.home, true), this.matchRedCards.home);
+  const bAway = this.applyRedPenalty(this.effectiveTeam(ctx.away, true), this.matchRedCards.away);
+  const { homeGoals: h2raw, awayGoals: a2raw } = this.simulateHalfGoals(bHome, bAway);
+  const half2Built = this.buildHalfEvents(ctx.home, ctx.away, h2raw, a2raw, 2, ctx.isFinal, half2Red);
+  const totalHome = this.halftimeHomeGoals + half2Built.homeGoals;
+  const totalAway = this.halftimeAwayGoals + half2Built.awayGoals;
+  const half2Events = [
+    ...half2Built.events,
+    {
+      minute: 91, type: 'info' as const, team: '',
+      description: `🏁 Full time: ${ctx.home.name} ${totalHome}–${totalAway} ${ctx.away.name}.`,
+    },
+  ];
+  half2Events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
+  const fullMatch: MatchResult = {
+    home: ctx.home, away: ctx.away,
+    homeGoals: totalHome, awayGoals: totalAway,
+    events: half2Events, isPlayerMatch: true,
+  };
+  this.startPlayback(fullMatch, this.phase, ctx.isFinal ? 25000 : undefined, undefined, false);
+}
 
   private enterHalftime(): void {
     this.atHalftime = true;
     this.halftimeHomeGoals = this.currentMatch?.homeGoals ?? 0;
     this.halftimeAwayGoals = this.currentMatch?.awayGoals ?? 0;
-  }
-
-  resumeSecondHalf(): void {
-    const ctx = this.halftimeMatchCtx;
-    if (!ctx) return;
-    this.atHalftime = false;
-    const half2Red = this.rollRedCard(ctx.home, ctx.away, 2);
-    const bHome = this.applyRedPenalty(this.effectiveTeam(ctx.home, true), this.matchRedCards.home);
-    const bAway = this.applyRedPenalty(this.effectiveTeam(ctx.away, true), this.matchRedCards.away);
-    const { homeGoals: h2, awayGoals: a2 } = this.simulateHalfGoals(bHome, bAway);
-    const half2Events = this.buildHalfEvents(ctx.home, ctx.away, h2, a2, 2, ctx.isFinal, half2Red);
-    const totalHome = this.halftimeHomeGoals + h2;
-    const totalAway = this.halftimeAwayGoals + a2;
-    half2Events.push({ minute: 91, type: 'info' as any, team: '', description: `🏁 Full time: ${ctx.home.name} ${totalHome}–${totalAway} ${ctx.away.name}.` });
-    half2Events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
-    const fullMatch: MatchResult = { home: ctx.home, away: ctx.away, homeGoals: totalHome, awayGoals: totalAway, events: half2Events, isPlayerMatch: true };
-    this.startPlayback(fullMatch, this.phase, ctx.isFinal ? 25000 : undefined, undefined, false);
   }
 
   // ─── Extra time ─────────────────────────────────────────────────────────
@@ -630,55 +750,72 @@ playQualifyingRound(opponent: Team): void {
     const b2 = this.applyRedPenalty(this.effectiveTeam(team2, true), redTeam2);
     const str1 = b1.attack * 0.5 + (100 - b2.defense) * 0.3 + b1.stamina * 0.1;
     const str2 = b2.attack * 0.5 + (100 - b1.defense) * 0.3 + b2.stamina * 0.1;
-    const g1 = this.poissonSample(Math.max(0.03, ((str1 - 38) / 15) * 0.4));
-    const g2 = this.poissonSample(Math.max(0.03, ((str2 - 38) / 15) * 0.4));
-
-    const events: MatchEvent[] = [
-      { minute: 91, type: 'info' as any, team: '', description: `⏱️ Extra time begins! 30 more minutes to separate ${team1.name} and ${team2.name}.` },
-    ];
+    const g1raw = this.poissonSample(Math.max(0.03, ((str1 - 38) / 15) * 0.4));
+    const g2raw = this.poissonSample(Math.max(0.03, ((str2 - 38) / 15) * 0.4));
+  
+    const events: MatchEvent[] = [{
+      minute: 91, type: 'info', team: '',
+      description: `⏱️ Extra time begins! 30 more minutes to separate ${team1.name} and ${team2.name}.`,
+    }];
     const usedMins = new Set<number>([91, 105, 106, 120]);
-    const randMin = (from: number, to: number): number => {
-      let m: number, tries = 0;
-      do { m = this.rand(from, to); tries++; } while (usedMins.has(m) && tries < 20);
-      usedMins.add(m);
-      return m;
-    };
-
-    for (let i = 0; i < g1; i++) { const min = randMin(92, 119); events.push({ minute: min, type: 'goal', team: team1.name, description: this.pickGoalDesc(team1.name, min) }); }
-    for (let i = 0; i < g2; i++) { const min = randMin(92, 119); events.push({ minute: min, type: 'goal', team: team2.name, description: this.pickGoalDesc(team2.name, min) }); }
-
-    if (!existingReds.team1 && redTeam1) events.push({ minute: randMin(92, 119), type: 'red', team: team1.name, description: `🟥 RED CARD! ${team1.name} is down to 10 men!` });
-    if (!existingReds.team2 && redTeam2) events.push({ minute: randMin(92, 119), type: 'red', team: team2.name, description: `🟥 RED CARD! ${team2.name} is down to 10 men!` });
-
-
-    const dominantTeam = (str1 >= str2) ? team1 : team2;
+  
+    const t1Scoring = this.buildScoringEvents(team1, team2, g1raw, 92, 119, usedMins);
+    const t2Scoring = this.buildScoringEvents(team2, team1, g2raw, 92, 119, usedMins);
+    events.push(...t1Scoring.events, ...t2Scoring.events);
+  
+    if (!existingReds.team1 && redTeam1) {
+      events.push({
+        minute: this.uniqueMin(92, 119, usedMins), type: 'red', team: team1.name,
+        description: `🟥 RED CARD! ${team1.name} is down to 10 men!`,
+      });
+    }
+    if (!existingReds.team2 && redTeam2) {
+      events.push({
+        minute: this.uniqueMin(92, 119, usedMins), type: 'red', team: team2.name,
+        description: `🟥 RED CARD! ${team2.name} is down to 10 men!`,
+      });
+    }
+  
+    const dominantTeam = str1 >= str2 ? team1 : team2;
     const weakerTeam = dominantTeam === team1 ? team2 : team1;
-    const pool = ['save', 'miss', 'yellow', 'foul', 'corner', 'offside', 'var'] as const;
-    type PoolType = typeof pool[number];
-    const descMap: Record<PoolType, (t: Team) => string> = {
-      save:    t => `🧤 Big save! The ${t.name} goalkeeper denies a certain goal!`,
-      miss:    t => `😬 ${t.name} rattles the crossbar! So close!`,
-      yellow:  t => `🟨 Yellow card for ${t.name}.`,
-      foul:    t => `🦵 Foul by ${t.name}, dangerous free kick conceded.`,
-      corner:  t => `🚩 Corner for ${t.name}, set-piece chance.`,
-      offside: t => `🚫 Offside! ${t.name}'s attack is called back.`,
-      var:     _t => `📺 VAR is checking the play…`,
-    };
+    const pool = ['save', 'miss', 'yellow', 'foul', 'corner', 'offside', 'var', 'chance', 'tackle', 'block', 'counter'] as const;
+    const descMap = this.incidentDescMap();
     const extraCount = this.rand(6, 10);
     for (let i = 0; i < extraCount; i++) {
-      const type: PoolType = pool[Math.floor(Math.random() * pool.length)];
-      const useWeak = (type === 'foul' || type === 'yellow') && Math.random() < 0.65;
+      const type = pool[Math.floor(Math.random() * pool.length)];
+      const useWeak = (type === 'foul' || type === 'yellow' || type === 'tackle') && Math.random() < 0.65;
       const team = useWeak ? weakerTeam : (Math.random() < 0.55 ? dominantTeam : weakerTeam);
-      events.push({ minute: randMin(92, 119), type, team: team.name, description: descMap[type](team) });
+      events.push({
+        minute: this.uniqueMin(92, 119, usedMins), type, team: team.name,
+        description: descMap[type](team),
+      });
     }
-
-    const g1First = events.filter(e => e.type === 'goal' && e.team === team1.name && e.minute <= 105).length;
-    const g2First = events.filter(e => e.type === 'goal' && e.team === team2.name && e.minute <= 105).length;
-    events.push({ minute: 105, type: 'info' as any, team: '', description: `⏸️ End of first half of extra time: ${team1.name} ${g1First}-${g2First} ${team2.name}.` });
-    events.push({ minute: 106, type: 'info' as any, team: '', description: `▶️ Second half of extra time underway!` });
-    events.push({ minute: 120, type: 'info' as any, team: '', description: `🏁 End of extra time: ${team1.name} ${g1}-${g2} ${team2.name}.` });
+  
+    const g1 = t1Scoring.goals;
+    const g2 = t2Scoring.goals;
+    const g1First = events.filter(e =>
+      (e.type === 'goal' || e.type === 'penalty_goal') && e.team === team1.name && e.minute <= 105
+    ).length;
+    const g2First = events.filter(e =>
+      (e.type === 'goal' || e.type === 'penalty_goal') && e.team === team2.name && e.minute <= 105
+    ).length;
+  
+    events.push({
+      minute: 105, type: 'info', team: '',
+      description: `⏸️ End of first half of extra time: ${team1.name} ${g1First}-${g2First} ${team2.name}.`,
+    });
+    events.push({ minute: 106, type: 'info', team: '', description: `▶️ Second half of extra time underway!` });
+    const etStoppage = this.rand(1, 3);
+    events.push({
+      minute: 120, type: 'info', team: '',
+      description: `🕒 ${etStoppage} minute${etStoppage === 1 ? '' : 's'} of extra-time stoppage signalled.`,
+    });
+    events.push({
+      minute: 120, type: 'info', team: '',
+      description: `🏁 End of extra time: ${team1.name} ${g1}-${g2} ${team2.name}.`,
+    });
     events.sort((a, b) => a.minute - b.minute || (a.type === 'info' ? -1 : 1));
-
+  
     return { t1: g1, t2: g2, events };
   }
 
@@ -767,11 +904,24 @@ playQualifyingRound(opponent: Team): void {
   }
 
   private startShootout(context: 'qualifying' | 'playoff' | 'knockout'): void {
-    const team1 = this.tieTeam1!, team2 = this.tieTeam2!;
+    const team1 = this.tieTeam1!;
+    const team2 = this.tieTeam2!;
     const { team1: s1, team2: s2, kicks } = this.simulateShootout();
     this.tiePenalties = { team1Score: s1, team2Score: s2 };
+  
     const events = this.buildShootoutEvents(team1, team2, kicks);
-    const shootoutMatch: MatchResult = { home: team1, away: team2, homeGoals: s1, awayGoals: s2, events, isPlayerMatch: true };
+  
+    // Misma localía que ET y leg 2: home = team2, away = team1
+    const shootoutMatch: MatchResult = {
+      home: team2,
+      away: team1,
+      homeGoals: s2,
+      awayGoals: s1,
+      events,
+      isPlayerMatch: true,
+      penalties: { homeScore: s2, awayScore: s1 },
+    };
+  
     this.tieContext = context;
     const returnPhase: GamePhase =
       context === 'qualifying' ? 'qualifying_round_shootout' :
@@ -872,14 +1022,32 @@ playQualifyingRound(opponent: Team): void {
   private setupBracketDisplay(): void {
     this.fullBracket = [];
     if (this.playerRank > 24) return;
-
+  
     this.playoffPairs = this.buildPlayoffPairs();
-    this.fullBracket[0] = this.playoffPairs.map(([h, a], i) => ({ home: h, away: a, winner: null, matchIndex: i }));
-    const sizes = [8, 4, 2, 1];
+    this.fullBracket[0] = this.playoffPairs.map(([h, a], i) => ({
+      home: h, away: a, winner: null, matchIndex: i,
+    }));
+  
+    const top8 = this.leagueStandings.slice(0, 8).map(s => s.team);
+    this.fullBracket[1] = top8.map((t, i) => {
+      const feederPair = this.playoffPairs[7 - i];
+      return {
+        home: t,
+        away: null,
+        winner: null,
+        matchIndex: i,
+        awayLabel: feederPair ? `${feederPair[0].name} / ${feederPair[1].name}` : undefined,
+      };
+    });
+  
+    const sizes = [4, 2, 1]; // QF, SF, Final
     for (let r = 0; r < sizes.length; r++) {
-      this.fullBracket[r + 1] = Array.from({ length: sizes[r] }, (_, i) => ({ home: null, away: null, winner: null, matchIndex: i }));
+      this.fullBracket[r + 2] = Array.from({ length: sizes[r] }, (_, i) => ({
+        home: null, away: null, winner: null, matchIndex: i,
+      }));
     }
   }
+
 
   private applyToLeagueStandings(m: MatchResult): void {
     const hs = this.leagueStandings.find(s => s.team === m.home)!;
@@ -1105,11 +1273,35 @@ playQualifyingRound(opponent: Team): void {
 
   get isFinalRound(): boolean { return this.knockoutRoundIndex === KNOCKOUT_ROUND_NAMES.length - 1; }
 
-  get bracketRounds(): { name: string; slots: BracketSlot[] }[] {
-    return this.fullBracket.map((slots, i) => ({
-      name: i === 0 ? 'Knockout Playoff' : (KNOCKOUT_ROUND_NAMES[i - 1] ?? ''),
+  get bracketHalves(): {
+    left: { name: string; slots: BracketSlot[] }[];
+    right: { name: string; slots: BracketSlot[] }[];
+    final: BracketSlot | null;
+  } {
+    if (this.fullBracket.length === 0) {
+      return { left: [], right: [], final: null };
+    }
+  
+    const rounds = this.fullBracket.map((slots, i) => ({
+      name: i === 0 ? 'Knockout Playoff' : (this.KNOCKOUT_ROUND_NAMES[i - 1] ?? ''),
       slots,
     }));
+  
+    const feederRounds = rounds.slice(0, -1);
+    const finalSlot = rounds[rounds.length - 1].slots[0] ?? null;
+  
+    const left = feederRounds.map(r => ({
+      name: r.name,
+      slots: r.slots.slice(0, Math.ceil(r.slots.length / 2)),
+    }));
+  
+    // Mismo orden; el espejo lo hace CSS (row-reverse)
+    const right = feederRounds.map(r => ({
+      name: r.name,
+      slots: r.slots.slice(Math.ceil(r.slots.length / 2)),
+    }));
+  
+    return { left, right, final: finalSlot };
   }
 
   isPlayerSlot(slot: BracketSlot): boolean { return slot.home === this.playerTeam || slot.away === this.playerTeam; }
@@ -1163,9 +1355,11 @@ playQualifyingRound(opponent: Team): void {
     }
   }
 
-  liveScore(teamName: string): number {
-    return this.displayedEvents.filter(e => e.type === 'goal' && e.team === teamName).length;
-  }
+liveScore(teamName: string): number {
+  return this.displayedEvents.filter(
+    e => (e.type === 'goal' || e.type === 'penalty_goal') && e.team === teamName
+  ).length;
+}
 
   scoreLabel(m: MatchResult): string { return `${m.homeGoals} – ${m.awayGoals}`; }
 
