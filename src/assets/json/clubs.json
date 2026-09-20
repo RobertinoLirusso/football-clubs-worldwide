@@ -3936,7 +3936,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Zamora_FC"
   },
   {
-    "club_name": "Fuenlabrada",
+    "club_name": "CF Fuenlabrada",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS5bxoIVLttpSA_CFHdK5gw8SnysT6A8yDw8ON7oq6h5cODf9iN43eCPA695XEYMImFqyT8z-qQxXxkP4zib1bHXNRn2o_bMfpMDrA2424ImhQBqSu6lLLGnKfZsEmoRvRJhHaknPuy3A/s1600/CF+Fuenlabrada256x.png",
     "city_country": "Fuenlabrada, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/CF_Fuenlabrada"
@@ -5875,7 +5875,7 @@
   },
   {
     "club_name": "AC Bra",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/2/21/Logo_AC_Bra_2025.png/250px-Logo_AC_Bra_2025.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/15/AC_Bra_logo.svg/250px-AC_Bra_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Bra, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/A.C._Bra"
   },
@@ -16332,7 +16332,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Tatung_F.C."
   },
     {
-    "club_name": "Vikings",
+    "club_name": "FC Vikings",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/4d/FC_Vikings_Taiwan.png",
     "city_country": "Taipei City, Taiwan",
     "wiki_url": "https://en.wikipedia.org/wiki/F.C._Vikings"
@@ -19003,7 +19003,7 @@
   },
   {
     "club_name": "Edinburgh City FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/EdinburghCityClubCrest.png/250px-EdinburghCityClubCrest.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c6/EdinburghCityFC.JPG/250px-EdinburghCityFC.JPG?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Edinburgh, Scotland",
     "wiki_url": "https://en.wikipedia.org/wiki/Edinburgh_City_F.C."
   },
@@ -19344,8 +19344,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Pistoiese_SSD"
   },
   {
-    "club_name": "Pro Sesto",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Pro_Sesto_1913_crest.svg/250px-Pro_Sesto_1913_crest.svg.png",
+    "club_name": "Pro Sesto 1913",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Pro_Sesto_1913_%28logo%2C_2020-%29.svg/250px-Pro_Sesto_1913_%28logo%2C_2020-%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Sesto San Giovanni, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Pro_Sesto_1913"
   },
@@ -28556,10 +28556,10 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Long_An_FC"
   },
   {
-    "club_name": "Quang Ninh FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Quang_Ninh_FC_logo_2024.png/250px-Quang_Ninh_FC_logo_2024.png",
-    "city_country": "Hạ Long, Vietnam",
-    "wiki_url": "https://en.wikipedia.org/wiki/Quang_Ninh_FC"
+    "club_name": "Thep Can Tho FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/c/cc/LOGO-THEP-CAN-THO-01-300x300.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "city_country": "Cần Thơ, Vietnam",
+    "wiki_url": "https://en.wikipedia.org/wiki/Thep_Can_Tho_FC"
   },
   {
     "club_name": "Quy Nhon United FC",
