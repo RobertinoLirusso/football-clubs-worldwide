@@ -30,7 +30,7 @@
     <i class="fa fa-filter w3-margin-right"></i> Filter
   </button>
 
-  <button *ngIf="selectedCountry"
+  <button *ngIf="selectedCountry || selectedCity"
           class="clear-btn action-btn"
           (click)="clearCountryFilter()">
     <i class="fa fa-times w3-margin-right"></i> Clear
@@ -56,7 +56,7 @@
   <div class="country-carousel-track" #carouselTrack>
     <button type="button"
             class="country-chip"
-            [class.active]="!selectedCountry"
+            [class.active]="!selectedCountry && !selectedCity"
             (click)="clearCountryFilter()"
             title="All countries">
       <span class="fi fi-un"></span>
@@ -74,6 +74,18 @@
 
   <button type="button" class="carousel-arrow" (click)="slideCarousel(1)" title="Next">
     <i class="fa fa-chevron-right"></i>
+  </button>
+</div>
+
+<div class="city-chips w3-margin" aria-label="Filter by city">
+  <button type="button"
+          *ngFor="let city of featuredCities"
+          class="city-chip"
+          [class.active]="isCitySelected(city)"
+          (click)="selectCity(city)"
+          [attr.aria-pressed]="isCitySelected(city)"
+          [title]="city.city + ', ' + city.country">
+    {{ city.city }}, {{ city.country }}
   </button>
 </div>
 
@@ -184,7 +196,7 @@
 
 <!-- Load More -->
 <div class="w3-center w3-padding" *ngIf="filteredClubs.length < totalFilteredCount">
-  <button (click)="loadMore()" class="w3-btn w3-black w3-margin-top title-game" *ngIf="!searchTerm || selectedCountry">
+  <button (click)="loadMore()" class="w3-btn w3-black w3-margin-top title-game" *ngIf="!searchTerm || selectedCountry || selectedCity">
     Load More
   </button>
 </div>

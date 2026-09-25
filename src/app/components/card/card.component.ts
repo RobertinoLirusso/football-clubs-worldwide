@@ -21,6 +21,19 @@ export class CardComponent implements OnInit {
 
   isCountryModalOpen: boolean = false;
   selectedCountry: string = '';
+  selectedCity: { city: string; country: string } | null = null;
+  featuredCities = [
+    { city: 'London', country: 'England' },
+    { city: 'Paris', country: 'France' },
+    { city: 'Buenos Aires', country: 'Argentina' },
+    { city: 'Madrid', country: 'Spain' },
+    { city: 'Prague', country: 'Czech Republic' },
+    { city: 'Istanbul', country: 'Turkey' },
+    { city: 'Cairo', country: 'Egypt' },
+    { city: 'Montevideo', country: 'Uruguay' },
+    { city: 'New York', country: 'United States' },
+    { city: 'Moscow', country: 'Russia' },
+  ];
   countrySearch: string = '';
   countries: string[] = [];
   sortOption: string = 'default';
@@ -173,8 +186,21 @@ export class CardComponent implements OnInit {
 
   selectCountry(country: string): void {
     this.selectedCountry = country;
+    this.selectedCity = null;
     this.isCountryModalOpen = false;
     this.visibleClubs = 100;
+  }
+
+  selectCity(city: { city: string; country: string }): void {
+    this.selectedCity = this.selectedCity?.city === city.city &&
+      this.selectedCity?.country === city.country ? null : city;
+    this.selectedCountry = '';
+    this.visibleClubs = 100;
+  }
+
+  isCitySelected(city: { city: string; country: string }): boolean {
+    return this.selectedCity?.city === city.city &&
+      this.selectedCity?.country === city.country;
   }
 
   clearCountryFilterModal(): void {
@@ -183,6 +209,7 @@ export class CardComponent implements OnInit {
 
   clearCountryFilter(): void {
     this.selectedCountry = '';
+    this.selectedCity = null;
     this.isCountryModalOpen = false;
     this.visibleClubs = 100;
   }
@@ -205,6 +232,14 @@ export class CardComponent implements OnInit {
       });
     }
 
+    if (this.selectedCity) {
+      filtered = filtered.filter(club => {
+        const [city, country] = club.city_country.split(',').map((part: string) => part.trim().toLowerCase());
+        return city === this.selectedCity!.city.toLowerCase() &&
+          country === this.selectedCity!.country.toLowerCase();
+      });
+    }
+
     if (this.searchTerm) {
       const searchTermLower = this.searchTerm.toLowerCase();
       filtered = filtered.filter(club => {
@@ -215,7 +250,7 @@ export class CardComponent implements OnInit {
           city.includes(searchTermLower)
         );
       });
-    } else if (!this.selectedCountry) {
+    } else if (!this.selectedCountry && !this.selectedCity) {
       const highlighted = filtered.filter(club =>
         this.highlightedClubs.includes(club.club_name)
       );
@@ -263,13 +298,14 @@ export class CardComponent implements OnInit {
   }
 
   selectRandomClub(): void {
-    const pool = this.selectedCountry
-      ? this.clubs.filter(club => {
-          const parts = club.city_country.split(',');
-          const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
-          return country === this.selectedCountry.toLowerCase();
-        })
-      : this.clubs;
+    const pool = this.clubs.filter(club => {
+      const [city, country] = club.city_country.split(',').map((part: string) => part.trim().toLowerCase());
+      if (this.selectedCity) {
+        return city === this.selectedCity.city.toLowerCase() &&
+          country === this.selectedCity.country.toLowerCase();
+      }
+      return !this.selectedCountry || country === this.selectedCountry.toLowerCase();
+    });
 
     if (pool.length > 0) {
       const randomIndex = Math.floor(Math.random() * pool.length);
@@ -287,9 +323,13 @@ export class CardComponent implements OnInit {
     return this.clubs.filter(club => {
       const matchesCountry = !this.selectedCountry ||
         (club.city_country.split(',')[1]?.trim().toLowerCase() === this.selectedCountry.toLowerCase());
-      const matchesName = !this.searchTerm ||
-        club.club_name.toLowerCase().includes(this.searchTerm.toLowerCase());
-      return matchesCountry && matchesName;
+      const [city, country] = club.city_country.split(',').map((part: string) => part.trim().toLowerCase());
+      const matchesCity = !this.selectedCity ||
+        (city === this.selectedCity.city.toLowerCase() && country === this.selectedCity.country.toLowerCase());
+      const matchesSearch = !this.searchTerm ||
+        club.club_name.toLowerCase().includes(this.searchTerm.toLowerCase()) ||
+        city.includes(this.searchTerm.toLowerCase());
+      return matchesCountry && matchesCity && matchesSearch;
     }).length;
   }
 

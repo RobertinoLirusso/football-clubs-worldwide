@@ -730,10 +730,6 @@ select.filter-btn option {
    COUNTRY CAROUSEL
    ============================================================ */
 
-/* ============================================================
-   COUNTRY CAROUSEL
-   ============================================================ */
-
 .country-carousel {
   display: flex;
   align-items: center;
@@ -811,4 +807,29 @@ select.filter-btn option {
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 0.9),
     0 4px 10px rgba(150, 160, 170, 0.3);
+}
+
+.city-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: -10px;
+  margin-bottom: 16px;
+}
+
+.city-chip {
+  padding: 7px 12px;
+  border: 1px solid #c8cdd2;
+  background: #fff;
+  color: #333;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.city-chip:hover,
+.city-chip.active {
+  border-color: #333;
+  background: #333;
+  color: #fff;
 }

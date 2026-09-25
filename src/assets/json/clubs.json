@@ -3432,13 +3432,13 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Cosenza_Calcio"
   },
   {
-    "club_name": "Sampdoria",
+    "club_name": "UC Sampdoria",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPAKSznvgxjFl730gou37WJNrMgyz3n1rA7N5nYh4OlRw3DpH_ecWKtXqGMnVyr4eywUN5CwmVa89FJ4iQYN4hsy9IQ2nuzQBhIR6u_QPHwTKADOImA_gRdelxKn4dcoDXbQdXesFx0s4/s1600/Sampdoria256x.png",
     "city_country": "Genoa, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/U.C._Sampdoria"
   },
   {
-    "club_name": "Spezia",
+    "club_name": "Spezia Calcio",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6XMasYLSw28nDj0d6vVKQhB_8h-F320w4SxCeTSbpw83ziqWF2qxn04CskhA92vi5RHzRsMy6NM4YgYvQ7xzoIMX2IbEZJxiLlLZdRxW372Pbx6U9v15wJe321Iq_1pIuvQdIUW4mg4RroqRjPs2lE0bXZEi1kp5bYm3Un0yxnt8ofV82ObSDJjV2ceI/s256/Spezia%20Calcio256x.png",
     "city_country": "La Spezia, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Spezia_Calcio"
@@ -4993,7 +4993,7 @@
   },
   {
     "club_name": "Cardiff Met FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Cardiff_Met_Logo.png/250px-Cardiff_Met_Logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2f/Cardiff_Met_Logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "Cardiff, Wales",
     "wiki_url": "https://en.wikipedia.org/wiki/Cardiff_Metropolitan_University_F.C."
   },
@@ -5509,7 +5509,7 @@
   },
   {
     "club_name": "Hamrun Spartans",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Hamrun_badge_hi_deffb1.png/250px-Hamrun_badge_hi_deffb1.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a7/Hamrun_Spartans_FC_logo.svg/250px-Hamrun_Spartans_FC_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Hamrun, Malta",
     "wiki_url": "https://en.wikipedia.org/wiki/Hamrun_Spartans_F.C."
   },
@@ -8047,7 +8047,7 @@
   },
   {
     "club_name": "Folgore Falciano Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/SS_Folgore_Falciano_logo.png/250px-SS_Folgore_Falciano_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_SS_Folgore_Falciano.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "Falciano, San Marino",
     "wiki_url": "https://en.wikipedia.org/wiki/SS_Folgore_Falciano_Calcio"
   },
@@ -15313,7 +15313,7 @@
   },
   {
     "club_name": "Fortaleza CEIF",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Fortaleza_CEIF_logo.png/250px-Fortaleza_CEIF_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3a/Fortaleza_F%C3%BAtbol_Club_%28Centro_de_Entrenamiento_Integrado_para_el_F%C3%BAtbol%29_logo.svg/250px-Fortaleza_F%C3%BAtbol_Club_%28Centro_de_Entrenamiento_Integrado_para_el_F%C3%BAtbol%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Bogotá, Colombia",
     "wiki_url": "https://en.wikipedia.org/wiki/Fortaleza_C.E.I.F."
   },
@@ -15853,7 +15853,7 @@
   },
   {
     "club_name": "Real Cartagena",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/REAL-CARTAGENA.png/250px-REAL-CARTAGENA.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSO0jhEeHTpTHpxYmG8zqxetiSxMvvdpqYr9-Ad73-N6o_q87VkdA-XyOX46hAmIaDA7Haq26zCYodb9q81HInTn6jL-ZxKHWlKmXe9C2CO0giZ00N67HwUcdf-SdtYxsiKWkzV9ZXidA/s1600/Real+Cartagena256x.png",
     "city_country": "Cartagena, Colombia",
     "wiki_url": "https://en.wikipedia.org/wiki/Real_Cartagena"
   },
@@ -16561,7 +16561,7 @@
   },
   {
     "club_name": "Oman Club",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/2/27/%D8%B4%D8%B9%D8%A7%D8%B1_%D9%86%D8%A7%D8%AF%D9%8A_%D8%B9%D9%85%D8%A7%D9%86_%28%D8%B9%D9%85%D8%A7%D9%86%29.jpeg/250px-%D8%B4%D8%B9%D8%A7%D8%B1_%D9%86%D8%A7%D8%AF%D9%8A_%D8%B9%D9%85%D8%A7%D9%86_%28%D8%B9%D9%85%D8%A7%D9%86%29.jpeg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/37/Oman_Club_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "Muscat, Oman",
     "wiki_url": "https://en.wikipedia.org/wiki/Oman_Club"
   },
@@ -16651,7 +16651,7 @@
   },
   {
     "club_name": "US Tchologo",
-    "club_logo": "https://afad.ci/wp-content/uploads/2025/08/US-Tchologo-400x400.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/lt/thumb/4/4e/US_Tchologo_emblema.png/330px-US_Tchologo_emblema.png?utm_source=lt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "city_country": "Bondoukou, Ivory Coast",
     "wiki_url": "https://www.facebook.com/us.tchologo/"
   },
@@ -22700,7 +22700,7 @@
     },
     {
       "club_name": "Arnavutköy Belediyespor",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/0/0b/Arnavutk%C3%B6y_Belediyespor_logo.png/250px-Arnavutk%C3%B6y_Belediyespor_logo.png",
+      "club_logo": "https://upload.wikimedia.org/wikipedia/tr/0/0b/Arnavutk%C3%B6y_Belediyespor_logo.png?utm_source=tr.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
       "city_country": "Istanbul, Turkey",
       "wiki_url": "https://tr.wikipedia.org/wiki/Arnavutk%C3%B6y_Belediyespor"
     },
@@ -26457,7 +26457,7 @@
   },
   {
     "club_name": "FC Jove Español San Vicente",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/FC_Jove_Espa%C3%B1ol_San_Vicente.jpg/250px-FC_Jove_Espa%C3%B1ol_San_Vicente.jpg",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a0/CD_Espa%C3%B1ol_de_San_Vicente.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "San Vicente del Raspeig, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Jove_Espa%C3%B1ol_San_Vicente"
   },
