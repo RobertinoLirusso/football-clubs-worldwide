@@ -26,6 +26,7 @@ export class CardComponent implements OnInit {
     { city: 'London', country: 'England' },
     { city: 'Paris', country: 'France' },
     { city: 'Buenos Aires', country: 'Argentina' },
+    { city: 'Barcelona', country: 'Spain' },
     { city: 'Madrid', country: 'Spain' },
     { city: 'Prague', country: 'Czech Republic' },
     { city: 'Istanbul', country: 'Turkey' },
