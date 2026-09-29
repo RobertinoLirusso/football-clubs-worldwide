@@ -61,6 +61,7 @@ export class CardComponent implements OnInit {
   ];
 
   selectedWallpaperStyle: string = 'stripes';
+  selectedWallpaperFormat: 'mobile' | 'desktop' = 'mobile';
   isGeneratingWallpaper: boolean = false;
 
   highlightedClubs: string[] = [
@@ -572,7 +573,9 @@ export class CardComponent implements OnInit {
         club_name: this.cleanClubNameForWallpaper(club.club_name),
       };
   
-      const width = 1080, height = 1920;
+      const { width, height } = this.selectedWallpaperFormat === 'desktop'
+        ? { width: 1920, height: 1080 }
+        : { width: 1080, height: 1920 };
       const canvas = document.createElement('canvas');
       canvas.width = width;
       canvas.height = height;
@@ -594,7 +597,7 @@ export class CardComponent implements OnInit {
       this.drawClubBanner(ctx, width, height, wallpaperClub, baseColor);
   
       const link = document.createElement('a');
-      link.download = `${wallpaperClub.club_name.replace(/\s+/g, '_').toLowerCase()}_wallpaper.png`;
+      link.download = `${wallpaperClub.club_name.replace(/\s+/g, '_').toLowerCase()}_${this.selectedWallpaperFormat}_wallpaper.png`;
       link.href = canvas.toDataURL('image/png');
       link.click();
   

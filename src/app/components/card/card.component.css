@@ -694,6 +694,26 @@ select.filter-btn option {
   margin-top: 4px;
 }
 
+.wallpaper-formats {
+  display: inline-flex;
+  margin: 4px 0 14px;
+  border: 1px solid #777;
+}
+
+.wallpaper-formats button {
+  min-width: 90px;
+  padding: 8px 12px;
+  border: 0;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+}
+
+.wallpaper-formats button.active {
+  background: #1a1a1a;
+  color: #fff;
+}
+
 .wallpaper-style-btn {
   width: 56px;
   height: 56px;

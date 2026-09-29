@@ -258,6 +258,21 @@
     </header>
 
     <div class="w3-container w3-center w3-padding">
+      <div class="wallpaper-formats" role="group" aria-label="Wallpaper format">
+        <button type="button"
+                [class.active]="selectedWallpaperFormat === 'mobile'"
+                [attr.aria-pressed]="selectedWallpaperFormat === 'mobile'"
+                (click)="selectedWallpaperFormat = 'mobile'">
+          Mobile
+        </button>
+        <button type="button"
+                [class.active]="selectedWallpaperFormat === 'desktop'"
+                [attr.aria-pressed]="selectedWallpaperFormat === 'desktop'"
+                (click)="selectedWallpaperFormat = 'desktop'">
+          Desktop
+        </button>
+      </div>
+
       <div class="wallpaper-styles">
         <button *ngFor="let style of wallpaperStyles"
                 type="button"
