@@ -979,7 +979,7 @@
   },
   {
     "club_name": "Independiente Medellín",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Deportivo_Independiente_Medell%C3%ADn_escudo_2026.png/250px-Deportivo_Independiente_Medell%C3%ADn_escudo_2026.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Deportivo_Independiente_Medell%C3%ADn_logo_%282026%2C_official%29.svg/250px-Deportivo_Independiente_Medell%C3%ADn_logo_%282026%2C_official%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Medellín, Colombia",
     "wiki_url": "https://en.wikipedia.org/wiki/Independiente_Medell%C3%ADn"
   },
@@ -5041,7 +5041,7 @@
   },
   {
     "club_name": "Racing FC Union Luxembourg",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/RacingUnion.png/250px-RacingUnion.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/96/Racing_FC_Union_Luxembourg_logo.svg/250px-Racing_FC_Union_Luxembourg_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Luxembourg City, Luxembourg",
     "wiki_url": "https://en.wikipedia.org/wiki/Racing_FC_Union_Luxembourg"
   },
@@ -11137,7 +11137,7 @@
   },
   {
     "club_name": "Chippa United",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Chippa_United_FC_logo.png/250px-Chippa_United_FC_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Chippa_United_FC_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "East London, South Africa",
     "wiki_url": "https://en.wikipedia.org/wiki/Chippa_United_F.C."
   },
@@ -13273,7 +13273,7 @@
   },
   {
     "club_name": "Imishli FK",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Imishli_FK_logo.png/250px-Imishli_FK_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/az/thumb/f/f8/%C4%B0mi%C5%9Fli_FK_loqo.png/250px-%C4%B0mi%C5%9Fli_FK_loqo.png?utm_source=az.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Imishli, Azerbaijan",
     "wiki_url": "https://en.wikipedia.org/wiki/Imishli_FK"
   },
@@ -14635,7 +14635,7 @@
   },
   {
     "club_name": "Clube de Regatas Brasil",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/CRB_logo.svg/250px-CRB_logo.svg.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Clube_de_Regatas_Brasil_logo.svg/250px-Clube_de_Regatas_Brasil_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Maceió, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Clube_de_Regatas_Brasil"
   },
@@ -15840,7 +15840,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Leones_F.C."
   },
   {
-    "club_name": "Orsomarso",
+    "club_name": "Orsomarso FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Orsomarso_SC_logo.png/250px-Orsomarso_SC_logo.png",
     "city_country": "Palmira, Colombia",
     "wiki_url": "https://en.wikipedia.org/wiki/Orsomarso_S.C."
@@ -16434,8 +16434,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Kokand_1912"
   },
   {
-    "club_name": "Khorazm",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Khorezm_football_club_logo.png/250px-Khorezm_football_club_logo.png",
+    "club_name": "FC Khorazm",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/14/Khorezm_football_club_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "Urgench, Uzbekistan",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Khorazm"
   },
@@ -18067,9 +18067,21 @@
   },
   {
     "club_name": "Chernomorets 1919",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Chernomorets_1919_new.png/250px-Chernomorets_1919_new.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/12/Chernomorets_1919_new.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "Burgas, Bulgaria",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Chernomorets_1919_Burgas"
+  },
+  {
+    "club_name": "PSFC Chernomorets Burgas (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/aa/Chernomorets_new_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "city_country": "Burgas, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/PSFC_Chernomorets_Burgas"
+  },
+  {
+    "club_name": "FC Chernomorets Burgas (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/bf/Chenomorets_Bugras_Sofia.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "city_country": "Burgas, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Chernomorets_Burgas"
   },
   {
     "club_name": "Dunav Ruse",
@@ -19453,7 +19465,7 @@
   },
   {
     "club_name": "SSC Ancona",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/0/06/Logo_Ancona_Calcio.png/250px-Logo_Ancona_Calcio.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a3/SSC_Ancona_ASD_logo.svg/250px-SSC_Ancona_ASD_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Ancona, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/SSC_Ancona_ASD"
   },
@@ -20078,7 +20090,7 @@
   },
   {
     "club_name": "Qaradağ Lökbatan (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a4/Qaradaglogo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Qaradag-lokbatan-2026-logo.png/250px-Qaradag-lokbatan-2026-logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Lökbatan, Azerbaijan",
     "wiki_url": "https://en.wikipedia.org/wiki/Qarada%C4%9F_L%C3%B6kbatan_FK"
   },
@@ -20930,7 +20942,7 @@
 },
 {
   "club_name": "CSD Xelajú MC",
-  "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Csd_xelaju_logo.png/250px-Csd_xelaju_logo.png",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/13/Csd_xelaju_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
   "city_country": "Quetzaltenango, Guatemala",
   "wiki_url": "https://en.wikipedia.org/wiki/Xelaj%C3%BA_MC"
 },
@@ -26661,7 +26673,7 @@
   },
   {
     "club_name": "Conil CF",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Conil_CF.png/250px-Conil_CF.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/Conil_CF.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "Conil de la Frontera, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/Conil_CF"
   },
@@ -29001,7 +29013,7 @@
   },
   {
     "club_name": "Linero IF",
-    "club_logo": "https://www.lineroif.se/im/hemsidaLogga/676/15503/_genLogga.png?v=13",
+    "club_logo": "https://cdn.sportadmin.se/442/d060607d6559e50d1f037d06d2725144d033827d4347bede3dedbf0dc2cc432c_L.webp",
     "city_country": "Linero, Sweden",
     "wiki_url": "https://www.lineroif.se/start/?ID=148586"
   },
@@ -29043,7 +29055,7 @@
   },
   {
     "club_name": "Växjö Norra IF",
-    "club_logo": "https://www.vaxjonorra.se/im/hemsidaLogga/613/13818/_genLogga.png?v=40",
+    "club_logo": "https://img.a.transfermarkt.technology/wappen/head/23089.png?lm=1789460347",
     "city_country": "Växjö, Sweden",
     "wiki_url": "https://www.vaxjonorra.se/start/?ID=133497"
   },
@@ -29361,7 +29373,7 @@
   },
   {
     "club_name": "CD Ribeira Brava",
-    "club_logo": "https://cdribeirabrava.pt/wp-content/uploads/2026/05/CDRB-Logo.png",
+    "club_logo": "https://images.seeklogo.com/logo-png/61/2/c-d-ribeira-brava-logo-png_seeklogo-611528.png",
     "city_country": "Ribeira Brava, Portugal",
     "wiki_url": "https://pt.wikipedia.org/wiki/Clube_Desportivo_Ribeira_Brava"
   },
@@ -29787,7 +29799,7 @@
   },
   {
     "club_name": "FBC Gravina",
-    "club_logo": "https://tmssl.akamaized.net//images/wappen/head/50760.png?lm=1731660917",
+    "club_logo": "https://img.a.transfermarkt.technology/wappen/head/50760.png?lm=1789462345",
     "city_country": "Gravina in Puglia, Italy",
     "wiki_url": "https://it.wikipedia.org/wiki/FBC_Gravina"
   },
@@ -30561,7 +30573,7 @@
   },
   {
     "club_name": "UD Ciudad de Torredonjimeno",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/UD_Ciudad_de_Torredonjimeno_logo.png/250px-UD_Ciudad_de_Torredonjimeno_logo.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/02/UD_Ciudad_de_Torredonjimeno_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "Torredonjimeno, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/UD_Ciudad_de_Torredonjimeno"
   },
@@ -31893,7 +31905,7 @@
   },
   {
     "club_name": "São Caetano Futebol",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/S%C3%A3o_Caetano_Futebol.png/250px-S%C3%A3o_Caetano_Futebol.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/S%C3%A3o_Caetano_Futebol_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "São Caetano do Sul, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Caetano_Futebol"
   },
@@ -33459,7 +33471,7 @@
   },
   {
     "club_name": "Unión Deportiva Cultural Txantrea",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/UDC_Chantrea.png/250px-UDC_Chantrea.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/08/UDC_Chantrea.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "Pamplona, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/UDC_Txantrea"
   },
@@ -36159,7 +36171,7 @@
   },
   {
     "club_name": "DJK Adler Union Frintrop",
-    "club_logo": "https://adlerunion.de/wp-content/uploads/2023/10/Logo_150.png",
+    "club_logo": "https://img.a.transfermarkt.technology/wappen/head/7234.png?lm=1789459539",
     "city_country": "Frintrop, Germany",
     "wiki_url": "https://de.wikipedia.org/wiki/Adler_Union_Frintrop"
   },
