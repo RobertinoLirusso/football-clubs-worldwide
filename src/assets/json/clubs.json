@@ -25119,7 +25119,7 @@
   },
   {
     "club_name": "Calgary Villains FC",
-    "club_logo": "https://dsjwhvanqzqsqjyzwgkh.supabase.co/storage/v1/object/sign/football_logos/calgary_villains.png?token=eyJraWQiOiI3MDc5YTBhNi0yYWI5LTQzMTItYWM0Zi03ODhjOWJiOTE3NzMiLCJhbGciOiJIUzUxMiJ9.eyJ1cmwiOiJmb290YmFsbF9sb2dvcy9jYWxnYXJ5X3ZpbGxhaW5zLnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3OTEyMzc2NjAsImV4cCI6NDkxMzMwMTY2MH0.LAPevT4G8e1PtLx_cNxnd2_A2ntFWuB04Pgi2efjvLUG9Ob9_-9BhJKhlCMztiOQbFn02TDTP1KX2vB1WJoPkA",
+    "club_logo": "assets/logos/calgary_villains.png",
     "city_country": "Calgary, Canada",
     "wiki_url": "https://calgaryvillainssoccer.ca/"
   },
@@ -36900,5 +36900,59 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2f/Atlanta_City_FC.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "Atlanta, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Atlanta_City_FC"
+  },
+    {
+    "club_name": "Bagatelle FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/37/Bagatelle_FC_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "city_country": "Saint Thomas, Barbados",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bagatelle_FC"
+  },
+  {
+    "club_name": "Britton's Hill United FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e1/Britton%27s_Hill_United_FC_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "city_country": "Bridgetown, Barbados",
+    "wiki_url": "https://en.wikipedia.org/wiki/Britton's_Hill_United_FC"
+  },
+  {
+    "club_name": "Ellerton FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/88/Ellerton_FC_Logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "city_country": "Saint George, Barbados",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ellerton_FC"
+  },
+  {
+    "club_name": "Kickstart Rush FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/74/Kickstart_Rush_FC_%28Barbados%29_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "city_country": "Bridgetown, Barbados",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kickstart_Rush_FC"
+  },
+  {
+    "club_name": "Paradise FC",
+    "club_logo": "assets/logos/paradise-logo.png",
+    "city_country": "Christ Church, Barbados",
+    "wiki_url": "https://www.paradisefootballclub.com/about"
+  },
+  {
+    "club_name": "Parish Land FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/79/Parish_Land_FC_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "city_country": "Christ Church, Barbados",
+    "wiki_url": "https://en.wikipedia.org/wiki/Parish_Land_FC"
+  },
+  {
+    "club_name": "Pride of Gall Hill FC",
+    "club_logo": "https://img.a.transfermarkt.technology/wappen/head/35722.png?lm=1789461245",
+    "city_country": "Christ Church, Barbados",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pride_of_Gall_Hill_FC"
+  },
+  {
+    "club_name": "Pro-Shottas SC",
+    "club_logo": "https://img1.wsimg.com/isteam/ip/116a4117-4254-4de2-8030-0a3b044493a2/blob-bf2cfb9.png/:/rs=h:200,cg:true,m/qt=q:100/ll",
+    "city_country": "Bridgetown, Barbados",
+    "wiki_url": "https://proshottassoccerschool.com/"
+  },
+  {
+    "club_name": "UWI Blackbirds FC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/cf/UWI-Blackbirds.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "city_country": "Saint Michael, Barbados",
+    "wiki_url": "https://en.wikipedia.org/wiki/UWI_Blackbirds_FC"
   }
 ]
