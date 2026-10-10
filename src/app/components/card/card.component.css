@@ -931,6 +931,17 @@ select.filter-btn option {
   height: 40px;
   padding: 0;
   opacity: 0.5;
+  gap: 6px;
+}
+
+.fav-count {
+  position: static;
+  min-width: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  font-size: 14px;
+  line-height: 1;
 }
 
 .view-btn i {
@@ -940,4 +951,36 @@ select.filter-btn option {
 .view-btn.active,
 .view-btn:hover {
   opacity: 1;
+}
+
+.fav-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 4;
+  cursor: pointer;
+  font-size: 18px;
+  color: #aaa;
+  text-shadow: 0 0 2px #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease, color 0.2s ease;
+}
+
+.card:hover .fav-icon,
+.fav-icon.active {
+  opacity: 1;
+}
+
+.fav-icon:hover {
+  transform: scale(1.2);
+}
+
+.fav-icon.active {
+  color: #d62839;
+}
+
+@media (hover: none) {
+  .fav-icon {
+    opacity: 1;
+  }
 }

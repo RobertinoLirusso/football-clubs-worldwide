@@ -107,6 +107,16 @@
           title="Pages">
     <i class="fa fa-th"></i>
   </button>
+
+  <button type="button"
+        class="filter-btn view-btn"
+        [class.active]="showFavoritesOnly"
+        [attr.aria-pressed]="showFavoritesOnly"
+        (click)="showFavoritesOnly = !showFavoritesOnly"
+        title="Favorites">
+  <i class="fa fa-heart"></i>
+  <span class="fav-count" *ngIf="favorites.size">{{ favorites.size }}</span>
+</button>
 </div>
 
 <div *ngIf="allFilteredClubs.length === 0" class="w3-container w3-center no-results">
@@ -188,6 +198,12 @@
     <span class="zoom-icon" (click)="openImageModal(club, $event)">
       <i class="fa fa-search-plus"></i>
     </span>
+    <span class="fav-icon"
+      [class.active]="isFavorite(club)"
+      (click)="toggleFavorite(club, $event)"
+      [title]="isFavorite(club) ? 'Remove from favorites' : 'Add to favorites'">
+<i [ngClass]="isFavorite(club) ? 'fa-solid fa-heart' : 'fa-regular fa-heart'"></i>
+</span>
     <footer class="w3-container w3-center">
       <p>{{club.club_name}}</p>
     </footer>

@@ -93,6 +93,9 @@ export class CardComponent implements OnInit {
   selectedWallpaperFormat: 'mobile' | 'desktop' = 'mobile';
   isGeneratingWallpaper: boolean = false;
 
+  favorites = new Set<string>();
+  private _showFavoritesOnly = false;
+
   highlightedClubs: string[] = [
     'Real Madrid',
     'Inter Milan',
@@ -123,6 +126,7 @@ export class CardComponent implements OnInit {
   constructor(private clubService: ClubService) {}
 
   ngOnInit(): void {
+    this.loadFavorites();
     this.getClubs();
   }
 
@@ -266,6 +270,10 @@ export class CardComponent implements OnInit {
   get allFilteredClubs(): any[] {
     let filtered = this.clubs;
 
+    if (this.showFavoritesOnly) {
+      filtered = filtered.filter(club => this.favorites.has(club.club_name));
+    }
+
     if (this.selectedCountry) {
       filtered = filtered.filter(club => {
         const parts = club.city_country.split(',');
@@ -341,6 +349,9 @@ export class CardComponent implements OnInit {
   loadMore(): void {
     this.visibleClubs += 100;
   }
+
+  get showFavoritesOnly(): boolean { return this._showFavoritesOnly; }
+  set showFavoritesOnly(v: boolean) { this._showFavoritesOnly = v; this.resetPaging(); }
 
   get totalPages(): number {
     return Math.max(1, Math.ceil(this.allFilteredClubs.length / this.pageSize));
@@ -1127,4 +1138,34 @@ export class CardComponent implements OnInit {
   closeWallpaperModal(): void {
     this.isWallpaperModalOpen = false;
   }
+
+  private loadFavorites(): void {
+  try {
+    const raw = localStorage.getItem('favoriteClubs');
+    this.favorites = new Set<string>(raw ? JSON.parse(raw) : []);
+  } catch {
+    this.favorites = new Set<string>();
+  }
+}
+
+private saveFavorites(): void {
+  try {
+    localStorage.setItem('favoriteClubs', JSON.stringify([...this.favorites]));
+  } catch {
+    // storage lleno o bloqueado: seguimos solo en memoria
+  }
+}
+
+isFavorite(club: any): boolean {
+  return this.favorites.has(club.club_name);
+}
+
+toggleFavorite(club: any, event: Event): void {
+  event.stopPropagation();
+  if (this.favorites.has(club.club_name)) this.favorites.delete(club.club_name);
+  else this.favorites.add(club.club_name);
+  this.saveFavorites();
+  this.resetPaging();
+}
+
 }
