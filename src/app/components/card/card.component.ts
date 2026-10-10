@@ -10,8 +10,6 @@ import { COUNTRY_FLAG_MAP } from '../../utils/country-flags';
 export class CardComponent implements OnInit {
   clubs: any[] = [];
   selectedClub: any = null;
-  searchTerm: string = '';
-  visibleClubs: number = 100;
 
   showBackToTop: boolean = false;
   isFadingOut: boolean = false;
@@ -20,8 +18,6 @@ export class CardComponent implements OnInit {
   animatedClubsCount: number = 0;
 
   isCountryModalOpen: boolean = false;
-  selectedCountry: string = '';
-  selectedCity: { city: string; country: string } | null = null;
   featuredCities = [
     { city: 'London', country: 'England' },
     { city: 'Paris', country: 'France' },
@@ -37,11 +33,44 @@ export class CardComponent implements OnInit {
   ];
   countrySearch: string = '';
   countries: string[] = [];
-  sortOption: string = 'default';
   selectedImage: any = null;
   matches: any[] = [];
   loadingMatches = true;
   isMatchesModalOpen: boolean = false;
+
+  // ============================================================
+  // VISTA: SCROLL (Load More) / PÁGINAS
+  // ============================================================
+
+  viewMode: 'scroll' | 'pages' = 'scroll';
+  visibleClubs: number = 100;
+
+  pageSize = 24;
+  currentPage = 0;
+  slideDir: 'next' | 'prev' | '' = '';
+  private touchStartX = 0;
+  private touchStartY = 0;
+  private slideTimer: any;
+
+  @ViewChild('gridTop') gridTop!: ElementRef<HTMLElement>;
+
+  // Filtros con setter: cualquier cambio vuelve a la primera página / primeros 100
+  private _searchTerm = '';
+  private _sortOption = 'default';
+  private _selectedCountry = '';
+  private _selectedCity: { city: string; country: string } | null = null;
+
+  get searchTerm(): string { return this._searchTerm; }
+  set searchTerm(v: string) { this._searchTerm = v; this.resetPaging(); }
+
+  get sortOption(): string { return this._sortOption; }
+  set sortOption(v: string) { this._sortOption = v; this.resetPaging(); }
+
+  get selectedCountry(): string { return this._selectedCountry; }
+  set selectedCountry(v: string) { this._selectedCountry = v; this.resetPaging(); }
+
+  get selectedCity(): { city: string; country: string } | null { return this._selectedCity; }
+  set selectedCity(v: { city: string; country: string } | null) { this._selectedCity = v; this.resetPaging(); }
 
   // Drag & Drop
   draggedIndex: number | null = null;
@@ -113,6 +142,19 @@ export class CardComponent implements OnInit {
     }
   }
 
+  @HostListener('window:keydown', ['$event'])
+  onKeyDown(e: KeyboardEvent): void {
+    const tag = (e.target as HTMLElement)?.tagName;
+    if (['INPUT', 'SELECT', 'TEXTAREA'].includes(tag)) return;
+    if (
+      this.viewMode !== 'pages' ||
+      this.selectedClub || this.selectedImage || this.isCountryModalOpen || this.isWallpaperModalOpen
+    ) return;
+
+    if (e.key === 'ArrowRight') this.goToPage(this.currentPage + 1);
+    if (e.key === 'ArrowLeft') this.goToPage(this.currentPage - 1);
+  }
+
   @ViewChild('carouselTrack') carouselTrack!: ElementRef<HTMLDivElement>;
 
   slideCarousel(direction: number): void {
@@ -160,7 +202,7 @@ export class CardComponent implements OnInit {
   }
 
   openModal(index: number): void {
-    this.selectedClub = this.filteredClubs[index];
+    this.selectedClub = this.allFilteredClubs[index];
   }
 
   closeModal(): void {
@@ -190,14 +232,12 @@ export class CardComponent implements OnInit {
     this.selectedCountry = country;
     this.selectedCity = null;
     this.isCountryModalOpen = false;
-    this.visibleClubs = 100;
   }
 
   selectCity(city: { city: string; country: string }): void {
     this.selectedCity = this.selectedCity?.city === city.city &&
       this.selectedCity?.country === city.country ? null : city;
     this.selectedCountry = '';
-    this.visibleClubs = 100;
   }
 
   isCitySelected(city: { city: string; country: string }): boolean {
@@ -213,7 +253,6 @@ export class CardComponent implements OnInit {
     this.selectedCountry = '';
     this.selectedCity = null;
     this.isCountryModalOpen = false;
-    this.visibleClubs = 100;
   }
 
   filteredCountries(): string[] {
@@ -223,7 +262,8 @@ export class CardComponent implements OnInit {
     );
   }
 
-  get filteredClubs(): any[] {
+  // Todos los resultados filtrados (sin recortar)
+  get allFilteredClubs(): any[] {
     let filtered = this.clubs;
 
     if (this.selectedCountry) {
@@ -280,16 +320,89 @@ export class CardComponent implements OnInit {
       filtered = [...highlighted, ...rest];
     }
 
-    return filtered.slice(0, this.visibleClubs);
+    return filtered;
   }
 
-  clearSearch(): void {
-    this.searchTerm = '';
+  // ============================================================
+  // PAGINACIÓN / SCROLL
+  // ============================================================
+
+  private resetPaging(): void {
+    this.currentPage = 0;
     this.visibleClubs = 100;
+  }
+
+  setViewMode(mode: 'scroll' | 'pages'): void {
+    if (this.viewMode === mode) return;
+    this.viewMode = mode;
+    this.resetPaging();
   }
 
   loadMore(): void {
     this.visibleClubs += 100;
+  }
+
+  get totalPages(): number {
+    return Math.max(1, Math.ceil(this.allFilteredClubs.length / this.pageSize));
+  }
+
+  // En modo scroll es 0, así los índices del template coinciden con allFilteredClubs
+  get pageStart(): number {
+    return this.viewMode === 'pages' ? this.currentPage * this.pageSize : 0;
+  }
+
+  get displayedClubs(): any[] {
+    const all = this.allFilteredClubs;
+    return this.viewMode === 'pages'
+      ? all.slice(this.pageStart, this.pageStart + this.pageSize)
+      : all.slice(0, this.visibleClubs);
+  }
+
+  get hasMore(): boolean {
+    return this.viewMode === 'scroll' && this.visibleClubs < this.allFilteredClubs.length;
+  }
+
+  goToPage(page: number): void {
+    if (this.viewMode !== 'pages') return;
+
+    const target = Math.min(Math.max(page, 0), this.totalPages - 1);
+    if (target === this.currentPage) return;
+
+    this.slideDir = target > this.currentPage ? 'next' : 'prev';
+    this.currentPage = target;
+
+    clearTimeout(this.slideTimer);
+    this.slideTimer = setTimeout(() => (this.slideDir = ''), 350);
+
+    this.scrollToGrid();
+  }
+
+  private scrollToGrid(): void {
+    const el = this.gridTop?.nativeElement;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    if (rect.top < 0) {
+      window.scrollTo({ top: rect.top + window.scrollY - 80, behavior: 'smooth' });
+    }
+  }
+
+  onTouchStart(e: TouchEvent): void {
+    this.touchStartX = e.changedTouches[0].clientX;
+    this.touchStartY = e.changedTouches[0].clientY;
+  }
+
+  onTouchEnd(e: TouchEvent): void {
+    if (this.viewMode !== 'pages') return;
+
+    const dx = e.changedTouches[0].clientX - this.touchStartX;
+    const dy = e.changedTouches[0].clientY - this.touchStartY;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      this.goToPage(this.currentPage + (dx < 0 ? 1 : -1));
+    }
+  }
+
+  clearSearch(): void {
+    this.searchTerm = '';
   }
 
   scrollToTop(): void {
@@ -319,20 +432,6 @@ export class CardComponent implements OnInit {
     const text = `Check out ${club.club_name} from ${club.city_country}! ⚽\n`;
     const url = `https://football-clubs-worldwide.vercel.app/`;
     return `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
-  }
-
-  get totalFilteredCount(): number {
-    return this.clubs.filter(club => {
-      const matchesCountry = !this.selectedCountry ||
-        (club.city_country.split(',')[1]?.trim().toLowerCase() === this.selectedCountry.toLowerCase());
-      const [city, country] = club.city_country.split(',').map((part: string) => part.trim().toLowerCase());
-      const matchesCity = !this.selectedCity ||
-        (city === this.selectedCity.city.toLowerCase() && country === this.selectedCity.country.toLowerCase());
-      const matchesSearch = !this.searchTerm ||
-        club.club_name.toLowerCase().includes(this.searchTerm.toLowerCase()) ||
-        city.includes(this.searchTerm.toLowerCase());
-      return matchesCountry && matchesCity && matchesSearch;
-    }).length;
   }
 
   getGoogleNewsUrl(club: any): string {
@@ -415,7 +514,7 @@ export class CardComponent implements OnInit {
       return;
     }
 
-    const visibleClubs = this.filteredClubs;
+    const visibleClubs = this.allFilteredClubs;
     const clubA = visibleClubs[this.draggedIndex];
     const clubB = visibleClubs[dropIndex];
 
@@ -561,18 +660,18 @@ export class CardComponent implements OnInit {
   async downloadClubWallpaper(club: any): Promise<void> {
     if (!club || this.isGeneratingWallpaper) return;
     this.isGeneratingWallpaper = true;
-  
+
     try {
       await this.ensureFontLoaded();
       const logo = await this.loadImageForCanvas(club.club_logo);
       const baseColor = this.extractDominantColor(logo);
-  
+
       // Club "limpio" solo para lo que se dibuja en el wallpaper (no afecta el resto de la app)
       const wallpaperClub = {
         ...club,
         club_name: this.cleanClubNameForWallpaper(club.club_name),
       };
-  
+
       const { width, height } = this.selectedWallpaperFormat === 'desktop'
         ? { width: 1920, height: 1080 }
         : { width: 1080, height: 1920 };
@@ -580,7 +679,7 @@ export class CardComponent implements OnInit {
       canvas.width = width;
       canvas.height = height;
       const ctx = canvas.getContext('2d')!;
-  
+
       switch (this.selectedWallpaperStyle) {
         case 'sunburst':   this.drawSunburstBackground(ctx, width, height, baseColor); break;
         case 'halftone':   this.drawHalftoneBackground(ctx, width, height, baseColor); break;
@@ -592,15 +691,15 @@ export class CardComponent implements OnInit {
         case 'wordmark':   this.drawWordmarkBackground(ctx, width, height, baseColor, wallpaperClub); break;
         default:           this.drawStripesBackground(ctx, width, height, baseColor);
       }
-  
+
       this.drawCrestBadge(ctx, logo, width / 2, height * 0.42, 460, baseColor);
       this.drawClubBanner(ctx, width, height, wallpaperClub, baseColor);
-  
+
       const link = document.createElement('a');
       link.download = `${wallpaperClub.club_name.replace(/\s+/g, '_').toLowerCase()}_${this.selectedWallpaperFormat}_wallpaper.png`;
       link.href = canvas.toDataURL('image/png');
       link.click();
-  
+
       this.closeWallpaperModal();
     } catch (err) {
       console.error('Error generando el wallpaper:', err);
@@ -887,65 +986,65 @@ export class CardComponent implements OnInit {
     ctx.fillRect(0, 0, w, h);
   }
 
-// Fondo de texto repetido: nombre, ciudad y país en mosaico rotado (mismo espíritu que logos)
-private drawWordmarkBackground(
-  ctx: CanvasRenderingContext2D, w: number, h: number, color: string, club: any
-): void {
-  const dark = this.shadeColor(color, -45);
+  // Fondo de texto repetido: nombre, ciudad y país en mosaico rotado (mismo espíritu que logos)
+  private drawWordmarkBackground(
+    ctx: CanvasRenderingContext2D, w: number, h: number, color: string, club: any
+  ): void {
+    const dark = this.shadeColor(color, -45);
 
-  ctx.fillStyle = dark;
-  ctx.fillRect(0, 0, w, h);
+    ctx.fillStyle = dark;
+    ctx.fillRect(0, 0, w, h);
 
-  const parts = club.city_country.split(',');
-  const city = (parts[0] || '').trim();
-  const country = (parts[1] || '').trim();
+    const parts = club.city_country.split(',');
+    const city = (parts[0] || '').trim();
+    const country = (parts[1] || '').trim();
 
-  const words = [club.club_name.toUpperCase(), city.toUpperCase(), country.toUpperCase()]
-    .filter(Boolean);
-  const line = words.join('   •   ');
+    const words = [club.club_name.toUpperCase(), city.toUpperCase(), country.toUpperCase()]
+      .filter(Boolean);
+    const line = words.join('   •   ');
 
-  ctx.save();
-  ctx.globalAlpha = 0.9;
-  ctx.translate(w / 2, h / 2);
-  ctx.rotate(-14 * Math.PI / 180);
-  ctx.translate(-w / 2, -h / 2);
+    ctx.save();
+    ctx.globalAlpha = 0.9;
+    ctx.translate(w / 2, h / 2);
+    ctx.rotate(-14 * Math.PI / 180);
+    ctx.translate(-w / 2, -h / 2);
 
-  ctx.font = 'bold 46px "Podkova", serif';
-  ctx.textBaseline = 'middle';
+    ctx.font = 'bold 46px "Podkova", serif';
+    ctx.textBaseline = 'middle';
 
-  const rowHeight = 90;
-  const textWidth = ctx.measureText(line + '   •   ').width;
-  let toggle = false;
+    const rowHeight = 90;
+    const textWidth = ctx.measureText(line + '   •   ').width;
+    let toggle = false;
 
-  for (let y = -h; y < h * 2; y += rowHeight) {
-    ctx.fillStyle = toggle ? color : this.shadeColor(color, 25);
-    let x = -w;
-    // repetimos el bloque de texto hasta cubrir todo el ancho rotado
-    while (x < w * 2) {
-      ctx.fillText(line + '   •   ', x, y);
-      x += textWidth;
+    for (let y = -h; y < h * 2; y += rowHeight) {
+      ctx.fillStyle = toggle ? color : this.shadeColor(color, 25);
+      let x = -w;
+      // repetimos el bloque de texto hasta cubrir todo el ancho rotado
+      while (x < w * 2) {
+        ctx.fillText(line + '   •   ', x, y);
+        x += textWidth;
+      }
+      toggle = !toggle;
     }
-    toggle = !toggle;
+
+    ctx.restore();
+    ctx.globalAlpha = 1;
+
+    const overlay = ctx.createLinearGradient(0, 0, 0, h);
+    overlay.addColorStop(0, 'rgba(0,0,0,0.4)');
+    overlay.addColorStop(0.5, 'rgba(0,0,0,0.6)');
+    overlay.addColorStop(1, 'rgba(0,0,0,0.8)');
+    ctx.fillStyle = overlay;
+    ctx.fillRect(0, 0, w, h);
   }
 
-  ctx.restore();
-  ctx.globalAlpha = 1;
-
-  const overlay = ctx.createLinearGradient(0, 0, 0, h);
-  overlay.addColorStop(0, 'rgba(0,0,0,0.4)');
-  overlay.addColorStop(0.5, 'rgba(0,0,0,0.6)');
-  overlay.addColorStop(1, 'rgba(0,0,0,0.8)');
-  ctx.fillStyle = overlay;
-  ctx.fillRect(0, 0, w, h);
-}
-
-// Quita sufijos tipo "(Defunct)", "(defunct)", " - Defunct" del nombre para el wallpaper
-private cleanClubNameForWallpaper(name: string): string {
-  return name
-    .replace(/\s*\(defunct\)\s*/gi, '')
-    .replace(/\s*-\s*defunct\s*/gi, '')
-    .trim();
-}
+  // Quita sufijos tipo "(Defunct)", "(defunct)", " - Defunct" del nombre para el wallpaper
+  private cleanClubNameForWallpaper(name: string): string {
+    return name
+      .replace(/\s*\(defunct\)\s*/gi, '')
+      .replace(/\s*-\s*defunct\s*/gi, '')
+      .trim();
+  }
 
   private hexToRgbaString(hex: string, alpha: number): string {
     const { r, g, b } = this.hexToRgb(hex);

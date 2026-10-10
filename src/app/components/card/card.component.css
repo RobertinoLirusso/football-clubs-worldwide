@@ -1,4 +1,13 @@
 /* ============================================================
+   HOST
+   ============================================================ */
+
+:host {
+  display: block;
+  overflow-x: clip; /* evita scroll horizontal durante la animación de página */
+}
+
+/* ============================================================
    LAYOUT & GRID
    ============================================================ */
 
@@ -784,12 +793,19 @@ select.filter-btn option {
   border-radius: 50%;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
   color: #333;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
 }
 
 .carousel-arrow:hover {
   transform: scale(1.08);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-arrow:disabled {
+  opacity: 0.35;
+  cursor: default;
+  transform: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
 
 .country-chip {
@@ -852,4 +868,76 @@ select.filter-btn option {
   border-color: #333;
   background: #333;
   color: #fff;
+}
+
+/* ============================================================
+   PAGER + TRANSICIÓN DE PÁGINA
+   ============================================================ */
+
+.pager {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0 32px;
+}
+
+.pager-info {
+  min-width: 70px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000;
+  user-select: none;
+}
+
+.responsive-grid.slide-next {
+  animation: pageInRight 0.35s ease;
+}
+
+.responsive-grid.slide-prev {
+  animation: pageInLeft 0.35s ease;
+}
+
+@keyframes pageInRight {
+  from { opacity: 0; transform: translateX(40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pageInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .responsive-grid.slide-next,
+  .responsive-grid.slide-prev {
+    animation: none;
+  }
+}
+
+.view-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 0 16px;
+}
+
+.view-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 40px;
+  padding: 0;
+  opacity: 0.5;
+}
+
+.view-btn i {
+  color: #fff;
+}
+
+.view-btn.active,
+.view-btn:hover {
+  opacity: 1;
 }
