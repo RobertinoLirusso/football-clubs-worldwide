@@ -1,6 +1,6 @@
-import { Injectable, Inject, PLATFORM_ID } from '@angular/core';
+import { Injectable, Inject } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { DOCUMENT } from '@angular/common';
 
 export interface SeoData {
   title?: string;
@@ -33,8 +33,7 @@ export class SeoService {
   constructor(
     private meta: Meta,
     private title: Title,
-    @Inject(DOCUMENT) private document: Document,
-    @Inject(PLATFORM_ID) private platformId: Object
+    @Inject(DOCUMENT) private document: Document
   ) {}
 
   /* ===========================
@@ -84,6 +83,10 @@ export class SeoService {
       name: 'twitter:image',
       content: data.image || `${this.baseUrl}/assets/images/twitter-image.jpg`
     });
+    this.meta.updateTag({
+      name: 'twitter:url',
+      content: data.url || this.baseUrl
+    });
 
     /* Article */
     if (data.type === 'article') {
@@ -115,8 +118,6 @@ export class SeoService {
   ============================ */
 
   private setCanonicalUrl(url: string) {
-    if (!isPlatformBrowser(this.platformId)) return;
-
     let link = this.document.querySelector("link[rel='canonical']");
     if (!link) {
       link = this.document.createElement('link');
@@ -131,8 +132,6 @@ export class SeoService {
   ============================ */
 
   setStructuredData(data: any) {
-    if (!isPlatformBrowser(this.platformId)) return;
-
     this.removeStructuredData();
 
     const script = this.document.createElement('script');
@@ -144,8 +143,6 @@ export class SeoService {
   }
 
   removeStructuredData() {
-    if (!isPlatformBrowser(this.platformId)) return;
-
     const existingScript =
       this.document.getElementById('structured-data');
 
@@ -180,14 +177,6 @@ export class SeoService {
       description:
         'Comprehensive database of football clubs, stadiums, and national teams from around the world',
       url: this.baseUrl,
-      potentialAction: {
-        '@type': 'SearchAction',
-        target: {
-          '@type': 'EntryPoint',
-          urlTemplate: `${this.baseUrl}/search?q={search_term_string}`
-        },
-        'query-input': 'required name=search_term_string'
-      },
       publisher: {
         '@type': 'Organization',
         name: 'Football Clubs Worldwide',
@@ -257,11 +246,11 @@ export class SeoService {
 
   setClubSearchPageSeo() {
     this.updateSeo({
-      title: 'Club Search',
+      title: 'Football Club Word Search',
       description:
-        'Search thousands of football clubs worldwide by name, country, or league. Find detailed club information instantly.',
+        'Find football club names hidden in a word-search puzzle. Play online and test your knowledge of clubs from around the world.',
       keywords:
-        'club search, find football club, soccer team search, club database',
+        'football word search, club word puzzle, soccer word game, football clubs game',
       url: `${this.baseUrl}/club-search`,
       type: 'website'
     });

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ClubService } from '../../services/club.service';
+import { SeoService } from '../../services/seo.service';
 import confetti from 'canvas-confetti';
 
 
@@ -44,9 +45,13 @@ export class ClubSearchComponent implements OnInit {
     { dr: 1, dc: -1 }
   ];
 
-  constructor(private clubService: ClubService) {}
+  constructor(
+    private clubService: ClubService,
+    private seoService: SeoService
+  ) {}
 
   ngOnInit(): void {
+    this.seoService.setClubSearchPageSeo();
     this.startGame();
   }
 

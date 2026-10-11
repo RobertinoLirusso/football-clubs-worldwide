@@ -16,17 +16,17 @@ import { EuropaLeagueComponent } from './pages/europa-league/europa-league.compo
 
 const routes: Routes = [
   {path: '', component: HomeComponent, title: 'Football Clubs Worldwide'},
-  {path: 'game', component: GuessClubComponent, title: 'Football Clubs Worldwide'},
-  {path: 'map', component: MapComponent, title: 'Football Clubs WorldWide' }, 
-  {path: 'national-teams', component: NationalTeamsComponent, title: 'Football Clubs Worldwide'},
-  {path: 'club-search', component: ClubSearchComponent, title: 'Football Clubs Worldwide'},  
-  {path: 'hangman', component: HangmanComponent, title: 'Football Clubs Worldwide'},
-  { path: 'pairs', component: PairsComponent, title: 'Football Clubs Worldwide'},
-  { path: 'guess-country', component: GuessCountryComponent, title: 'Football Clubs Worldwide'},
-  { path: 'logo-shuffle', component: LogoShuffleComponent, title: 'Football Clubs Worldwide'},
-  { path: 'world-cup', component: WorldCupComponent, title: 'Football Clubs Worldwide'},
-  { path: 'champions-league', component: ChampionsLeagueComponent, title: 'Football Clubs Worldwide'},
-  { path: 'europa-league', component: EuropaLeagueComponent, title: 'Football Clubs Worldwide'},
+  {path: 'game', component: GuessClubComponent, title: 'Guess the Football Club'},
+  {path: 'map', component: MapComponent, title: 'Interactive Football Club Map'},
+  {path: 'national-teams', component: NationalTeamsComponent, title: 'National Football Teams'},
+  {path: 'club-search', component: ClubSearchComponent, title: 'Football Club Word Search'},
+  {path: 'hangman', component: HangmanComponent, title: 'Football Hangman Game'},
+  {path: 'pairs', component: PairsComponent, title: 'Football Logo Memory Game'},
+  {path: 'guess-country', component: GuessCountryComponent, title: 'Guess the Football Country'},
+  {path: 'logo-shuffle', component: LogoShuffleComponent, title: 'Football Logo Shuffle'},
+  {path: 'world-cup', component: WorldCupComponent, title: 'Football World Cup'},
+  {path: 'champions-league', component: ChampionsLeagueComponent, title: 'UEFA Champions League Simulator'},
+  {path: 'europa-league', component: EuropaLeagueComponent, title: 'UEFA Europa League Simulator'},
 
 
   {path: '**', pathMatch: 'full', component: NotfoundComponent},
