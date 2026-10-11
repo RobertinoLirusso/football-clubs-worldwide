@@ -238,7 +238,7 @@
 </span>
 <span class="shine" *ngIf="isLegend(club)"></span>
 <footer class="w3-container w3-center">
-  <p>{{ club.club_name }}</p>
+  <p>{{ displayName(club) }}</p>
   <span class="defunct-label" *ngIf="isDefunct(club)">
     <i class="fa fa-hourglass-end"></i> Defunct
   </span>

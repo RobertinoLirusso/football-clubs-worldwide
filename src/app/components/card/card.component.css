@@ -15,6 +15,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 15px;
+  padding: 16px 24px;
 }
 
 .action-container {
@@ -112,6 +113,7 @@
     0 0 8px rgba(170, 180, 190, 0.38),
     inset 0 1px 0 rgba(255, 255, 255, 1),
     0 14px 28px rgba(170, 175, 180, 0.24);
+    z-index: 10;
 }
 
 .card:hover footer p {
@@ -1093,31 +1095,32 @@ select.filter-btn option {
   color: #fff;
 }
 
-/* Legend club: borde dorado */
+/* Legend club: borde platino brillante */
 .card.legend {
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
-    linear-gradient(160deg, #f6e27a, #c9a227 30%, #f3d76b 60%, #b8901f 100%) border-box;
+    linear-gradient(160deg, #ffffff, #aeb6c2 25%, #f4f7fb 50%, #8e97a5 75%, #ffffff 100%) border-box;
   border: 2px solid transparent;
   box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.92),
-    inset 0 1px 0 rgba(255, 255, 255, 0.99),
-    0 6px 18px rgba(201, 162, 39, 0.28);
+    0 0 0 1px rgba(255, 255, 255, 1),
+    inset 0 1px 0 rgba(255, 255, 255, 1),
+    0 0 10px rgba(200, 212, 228, 0.7),
+    0 6px 18px rgba(130, 140, 155, 0.3);
 }
 
 .card.legend::before {
-  background: linear-gradient(90deg, #f6e27a, #c9a227, #f3d76b, #b8901f);
+  background: linear-gradient(90deg, #ffffff, #aeb6c2, #f4f7fb, #8e97a5, #ffffff);
 }
 
 .card.legend:hover {
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
-    linear-gradient(160deg, #fff1a8 0%, #d9b73c 40%, #a67c0f 90%) border-box;
+    linear-gradient(160deg, #ffffff 0%, #c4ccd8 35%, #ffffff 60%, #8e97a5 100%) border-box;
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 1),
-    0 0 10px rgba(212, 175, 55, 0.5),
+    0 0 16px rgba(210, 222, 240, 0.95),
     inset 0 1px 0 rgba(255, 255, 255, 1),
-    0 14px 28px rgba(201, 162, 39, 0.3);
+    0 14px 28px rgba(130, 140, 155, 0.35);
 }
 
 /* Brillo diagonal en hover */
@@ -1133,7 +1136,7 @@ select.filter-btn option {
   background: linear-gradient(
     105deg,
     rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.75) 50%,
+    rgba(255, 255, 255, 0.85) 50%,
     rgba(255, 255, 255, 0) 100%
   );
   transform: skewX(-20deg);
@@ -1151,6 +1154,7 @@ select.filter-btn option {
 @media (prefers-reduced-motion: reduce) {
   .card:hover .shine { animation: none; }
 }
+
 
 /* Defunct club: apagado y en gris */
 .card.defunct {
@@ -1203,4 +1207,18 @@ select.filter-btn option {
 
 .card.defunct:hover .img {
   filter: grayscale(0) brightness(1.05) drop-shadow(0 3px 8px rgba(80, 90, 110, 0.3));
+}
+
+select.action-btn {
+  min-width: 120px;
+  padding: 0 28px 0 12px; /* espacio a la derecha para la flecha */
+  text-overflow: clip;
+}
+
+@media screen and (max-width: 600px) {
+  select.action-btn {
+    min-width: 116px;
+    padding: 0 24px 0 10px;
+    font-size: 13px;
+  }
 }
