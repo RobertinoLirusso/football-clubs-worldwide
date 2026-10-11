@@ -178,6 +178,7 @@
     100deg,
     rgba(255, 255, 255, 0) 20%,
     rgba(255, 255, 255, 0.75) 50%,
+    rgba(255, 255, 255, 0) 80%
   ) #dfe3ea;
   background-size: 200% 100%;
   animation: logoShimmer 1.2s infinite linear;
