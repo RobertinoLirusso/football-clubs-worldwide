@@ -16,6 +16,7 @@ export class CardComponent implements OnInit {
   isSuggestModalOpen: boolean = false;
 
   animatedClubsCount: number = 0;
+  modalTab: 'countries' | 'cities' = 'countries';
 
   isCountryModalOpen: boolean = false;
   featuredCities = [
@@ -37,6 +38,9 @@ export class CardComponent implements OnInit {
   matches: any[] = [];
   loadingMatches = true;
   isMatchesModalOpen: boolean = false;
+
+  loadedLogos = new Set<string>();
+  failedLogos = new Set<string>();
 
   // ============================================================
   // VISTA: SCROLL (Load More) / PÁGINAS
@@ -77,17 +81,21 @@ export class CardComponent implements OnInit {
   dragOverIndex: number | null = null;
 
   isWallpaperModalOpen: boolean = false;
-  wallpaperStyles: { value: string; label: string; icon: string }[] = [
-    { value: 'stripes',    label: 'Ultras Stripes',  icon: '🏴' },
-    { value: 'sunburst',   label: 'Sunburst',        icon: '☀️' },
-    { value: 'halftone',   label: 'Halftone Fade',   icon: '⚫' },
-    { value: 'chevron',    label: 'Chevron Flag',    icon: '🔻' },
-    { value: 'logos',      label: 'Logo Pattern',    icon: '🔁' },
-    { value: 'blackwhite', label: 'Black & White',   icon: '◐' },
-    { value: 'blurred',    label: 'Soft Blur',       icon: '🌫️' },
-    { value: 'spotlight',  label: 'Stadium Lights',  icon: '🏟️' },
-    { value: 'wordmark',   label: 'Wordmark Pattern', icon: '🔤' },
-  ];
+  wallpaperStyles: { value: string; label: string; icon: string; description: string }[] = [
+  { value: 'stripes',    label: 'Ultras Stripes',   icon: '🏴', description: 'Bold diagonal stripes in the crest colors.' },
+  { value: 'sunburst',   label: 'Sunburst',         icon: '☀️', description: 'Rays radiating from the crest.' },
+  { value: 'halftone',   label: 'Halftone Fade',    icon: '⚫', description: 'Dot pattern that fades out from the center.' },
+  { value: 'chevron',    label: 'Chevron Flag',     icon: '🔻', description: 'Layered V-shaped bands, like a flag.' },
+  { value: 'logos',      label: 'Logo Pattern',     icon: '🔁', description: 'The crest repeated as a tilted tile pattern.' },
+  { value: 'blackwhite', label: 'Black & White',    icon: '◐', description: 'Monochrome stripes, terrace style.' },
+  { value: 'blurred',    label: 'Soft Blur',        icon: '🌫️', description: 'Soft glowing color blobs.' },
+  { value: 'spotlight',  label: 'Stadium Lights',   icon: '🏟️', description: 'Floodlight beams on a night sky.' },
+  { value: 'wordmark',   label: 'Wordmark Pattern', icon: '🔤', description: 'Club, city and country repeated as text.' },
+];
+
+get selectedWallpaperInfo() {
+  return this.wallpaperStyles.find(s => s.value === this.selectedWallpaperStyle);
+}
 
   selectedWallpaperStyle: string = 'stripes';
   selectedWallpaperFormat: 'mobile' | 'desktop' = 'mobile';
@@ -99,28 +107,19 @@ export class CardComponent implements OnInit {
   highlightedClubs: string[] = [
     'Real Madrid',
     'Inter Milan',
-    'Racing Club',
     'Barcelona',
     'Chelsea',
     'Paris Saint-Germain',
     'Liverpool',
     'Tottenham Hotspur',
-    'Al Nassr',
     'Manchester City',
-    'Inter Miami',
-    'Flamengo',
     'Arsenal',
     'AC Milan',
     'Atlético Madrid',
     'Borussia Dortmund',
-    'Palmeiras',
     'Bayern Munich',
     'Manchester United',
-    'Newcastle United',
     'Juventus',
-    'AS Roma',
-    'Napoli',
-    'Bayer 04 Leverkusen',
   ];
 
   constructor(private clubService: ClubService) {}
@@ -242,6 +241,7 @@ export class CardComponent implements OnInit {
     this.selectedCity = this.selectedCity?.city === city.city &&
       this.selectedCity?.country === city.country ? null : city;
     this.selectedCountry = '';
+    this.isCountryModalOpen = false;
   }
 
   isCitySelected(city: { city: string; country: string }): boolean {
@@ -1167,5 +1167,46 @@ toggleFavorite(club: any, event: Event): void {
   this.saveFavorites();
   this.resetPaging();
 }
+
+setModalTab(tab: 'countries' | 'cities'): void {
+  this.modalTab = tab;
+  this.countrySearch = '';
+}
+
+filteredCities(): { city: string; country: string }[] {
+  const q = this.countrySearch.toLowerCase();
+  if (!q) return this.featuredCities;
+  return this.featuredCities.filter(c =>
+    c.city.toLowerCase().includes(q) || c.country.toLowerCase().includes(q)
+  );
+}
+
+getCityCount(city: { city: string; country: string }): number {
+  return this.clubs.filter(club => {
+    const [c, co] = club.city_country.split(',').map((p: string) => p.trim().toLowerCase());
+    return c === city.city.toLowerCase() && co === city.country.toLowerCase();
+  }).length;
+}
+
+onLogoLoad(club: any): void {
+  this.loadedLogos.add(club.club_name);
+}
+
+onLogoError(club: any): void {
+  this.failedLogos.add(club.club_name);
+}
+
+isLegend(club: any): boolean {
+  return this.highlightedClubs.includes(club.club_name);
+}
+
+isDefunct(club: any): boolean {
+  return /defunct/i.test(club.club_name);
+}
+
+displayName(club: any): string {
+  return this.cleanClubNameForWallpaper(club.club_name);
+}
+
 
 }

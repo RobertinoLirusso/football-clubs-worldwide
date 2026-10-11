@@ -46,6 +46,17 @@
     <option value="za">Z–A</option>
   </select>
 
+   <button type="button"
+        class="filter-btn action-btn fav-btn"
+        [class.active]="showFavoritesOnly"
+        [attr.aria-pressed]="showFavoritesOnly"
+        (click)="showFavoritesOnly = !showFavoritesOnly"
+        title="Show favorites only">
+  <i class="fa fa-heart w3-margin-right"></i>
+  Favorites
+  <span class="fav-count" *ngIf="favorites.size">{{ favorites.size }}</span>
+</button>
+
 </div>
 
 <div class="country-carousel w3-margin">
@@ -77,46 +88,29 @@
   </button>
 </div>
 
-<div class="city-chips w3-margin" aria-label="Filter by city">
-  <button type="button"
-          *ngFor="let city of featuredCities"
-          class="city-chip"
-          [class.active]="isCitySelected(city)"
-          (click)="selectCity(city)"
-          [attr.aria-pressed]="isCitySelected(city)"
-          [title]="city.city + ', ' + city.country">
-    {{ city.city }}, {{ city.country }}
-  </button>
-</div>
+<div class="grid-toolbar w3-margin">
+<span class="results-count">
+  <ng-container *ngIf="selectedCountry || selectedCity">
+    {{ allFilteredClubs.length }} clubs
+  </ng-container>
+</span>
 
-<div class="view-toggle">
-  <button type="button"
-          class="filter-btn view-btn"
-          [class.active]="viewMode === 'scroll'"
-          [attr.aria-pressed]="viewMode === 'scroll'"
-          (click)="setViewMode('scroll')"
-          title="Scroll">
-    <i class="fa fa-arrows-v"></i>
-  </button>
-
-  <button type="button"
-          class="filter-btn view-btn"
-          [class.active]="viewMode === 'pages'"
-          [attr.aria-pressed]="viewMode === 'pages'"
-          (click)="setViewMode('pages')"
-          title="Pages">
-    <i class="fa fa-th"></i>
-  </button>
-
-  <button type="button"
-        class="filter-btn view-btn"
-        [class.active]="showFavoritesOnly"
-        [attr.aria-pressed]="showFavoritesOnly"
-        (click)="showFavoritesOnly = !showFavoritesOnly"
-        title="Favorites">
-  <i class="fa fa-heart"></i>
-  <span class="fav-count" *ngIf="favorites.size">{{ favorites.size }}</span>
-</button>
+  <div class="view-switch" role="group" aria-label="View mode">
+    <button type="button"
+            [class.active]="viewMode === 'scroll'"
+            [attr.aria-pressed]="viewMode === 'scroll'"
+            (click)="setViewMode('scroll')"
+            title="Scroll">
+      <i class="fa fa-arrows-v"></i>
+    </button>
+    <button type="button"
+            [class.active]="viewMode === 'pages'"
+            [attr.aria-pressed]="viewMode === 'pages'"
+            (click)="setViewMode('pages')"
+            title="Pages">
+      <i class="fa fa-th"></i>
+    </button>
+  </div>
 </div>
 
 <div *ngIf="allFilteredClubs.length === 0" class="w3-container w3-center no-results">
@@ -130,39 +124,63 @@
       <span (click)="closeCountryModal()" class="w3-button w3-display-topright w3-black title-game">
         <i class="fa fa-times"></i>
       </span>
-      <h5>Select a Country</h5>
+      <h5>Filter</h5>
     </header>
 
-    <div class="w3-container w3-padding">
-      <div class="w3-display-container">
-        <input
-          type="text"
-          class="w3-input w3-margin-bottom"
-          placeholder="Search country..."
-          [(ngModel)]="countrySearch"
-        />
-        <span
-          *ngIf="countrySearch"
-          (click)="clearCountryFilterModal()"
-          class="w3-button w3-display-right w3-center"
-        >
-          <i class="fa fa-times"></i>
-        </span>
-      </div>
+<div class="w3-container w3-padding">
+  <div class="modal-tabs" role="tablist">
+    <button type="button" role="tab"
+            [class.active]="modalTab === 'countries'"
+            [attr.aria-selected]="modalTab === 'countries'"
+            (click)="setModalTab('countries')">Countries</button>
+    <button type="button" role="tab"
+            [class.active]="modalTab === 'cities'"
+            [attr.aria-selected]="modalTab === 'cities'"
+            (click)="setModalTab('cities')">Cities</button>
+  </div>
 
-      <ul class="w3-ul w3-hoverable" style="max-height:300px; overflow-y:auto;">
-        <li *ngFor="let country of filteredCountries()"
-            (click)="selectCountry(country)"
-            [ngClass]="{'w3-light-grey': selectedCountry === country}"
-            class="w3-padding w3-hover-light-grey country-item">
-          <span class="country-item-name">
-            <span class="w3-margin-right fi" [ngClass]="'fi-' + getCountryCode(country)"></span>
-            {{ country }}
-          </span>
-          <span class="country-item-count">{{ getCountryCount(country) }} teams</span>
-        </li>
-      </ul>
-    </div>
+  <div class="w3-display-container">
+    <input
+      type="text"
+      class="w3-input w3-margin-bottom"
+      [placeholder]="modalTab === 'countries' ? 'Search country...' : 'Search city...'"
+      [(ngModel)]="countrySearch"
+    />
+    <span
+      *ngIf="countrySearch"
+      (click)="clearCountryFilterModal()"
+      class="w3-button w3-display-right w3-center"
+    >
+      <i class="fa fa-times"></i>
+    </span>
+  </div>
+
+  <ul *ngIf="modalTab === 'countries'" class="w3-ul w3-hoverable" style="max-height:300px; overflow-y:auto;">
+    <li *ngFor="let country of filteredCountries()"
+        (click)="selectCountry(country)"
+        [ngClass]="{'w3-light-grey': selectedCountry === country}"
+        class="w3-padding w3-hover-light-grey country-item">
+      <span class="country-item-name">
+        <span class="w3-margin-right fi" [ngClass]="'fi-' + getCountryCode(country)"></span>
+        {{ country }}
+      </span>
+      <span class="country-item-count">{{ getCountryCount(country) }} teams</span>
+    </li>
+  </ul>
+
+  <ul *ngIf="modalTab === 'cities'" class="w3-ul w3-hoverable" style="max-height:300px; overflow-y:auto;">
+    <li *ngFor="let city of filteredCities()"
+        (click)="selectCity(city)"
+        [ngClass]="{'w3-light-grey': isCitySelected(city)}"
+        class="w3-padding w3-hover-light-grey country-item">
+      <span class="country-item-name">
+        <span class="w3-margin-right fi" [ngClass]="'fi-' + getCountryCode(city.country)"></span>
+        {{ city.city }}, {{ city.country }}
+      </span>
+      <span class="country-item-count">{{ getCityCount(city) }} teams</span>
+    </li>
+  </ul>
+</div>
   </div>
 </div>
 
@@ -185,16 +203,30 @@
     (dragend)="onDragEnd($event)"
     [ngClass]="{
       'drag-over': dragOverIndex === pageStart + i,
-      'is-dragging': draggedIndex === pageStart + i
+      'is-dragging': draggedIndex === pageStart + i,
+      'legend': isLegend(club),
+      'defunct': isDefunct(club)
     }"
   >
-    <img
-      [src]="club.club_logo"
-      [alt]="club.club_name"
-      class="w3-image img w3-hover-opacity-off"
-      loading="lazy"
-      draggable="false"
-    />
+<div class="logo-skeleton"
+     *ngIf="!loadedLogos.has(club.club_name) && !failedLogos.has(club.club_name)"></div>
+
+<div class="logo-fallback" *ngIf="failedLogos.has(club.club_name)">
+  <i class="fa fa-shield"></i>
+</div>
+
+<img
+  [src]="club.club_logo"
+  [alt]="club.club_name"
+  class="w3-image img w3-hover-opacity-off"
+  [class.loaded]="loadedLogos.has(club.club_name)"
+  [class.failed]="failedLogos.has(club.club_name)"
+  (load)="onLogoLoad(club)"
+  (error)="onLogoError(club)"
+  loading="lazy"
+  draggable="false"
+/>
+
     <span class="zoom-icon" (click)="openImageModal(club, $event)">
       <i class="fa fa-search-plus"></i>
     </span>
@@ -204,9 +236,13 @@
       [title]="isFavorite(club) ? 'Remove from favorites' : 'Add to favorites'">
 <i [ngClass]="isFavorite(club) ? 'fa-solid fa-heart' : 'fa-regular fa-heart'"></i>
 </span>
-    <footer class="w3-container w3-center">
-      <p>{{club.club_name}}</p>
-    </footer>
+<span class="shine" *ngIf="isLegend(club)"></span>
+<footer class="w3-container w3-center">
+  <p>{{ club.club_name }}</p>
+  <span class="defunct-label" *ngIf="isDefunct(club)">
+    <i class="fa fa-hourglass-end"></i> Defunct
+  </span>
+</footer>
   </div>
 </div>
 
@@ -339,16 +375,23 @@
         </button>
       </div>
 
-      <div class="wallpaper-styles">
-        <button *ngFor="let style of wallpaperStyles"
-                type="button"
-                class="wallpaper-style-btn"
-                [class.active]="selectedWallpaperStyle === style.value"
-                [title]="style.label"
-                (click)="selectedWallpaperStyle = style.value">
-          {{ style.icon }}
-        </button>
-      </div>
+<div class="wallpaper-styles">
+  <button *ngFor="let style of wallpaperStyles"
+          type="button"
+          class="wallpaper-style-btn"
+          [class.active]="selectedWallpaperStyle === style.value"
+          [attr.aria-pressed]="selectedWallpaperStyle === style.value"
+          [title]="style.description"
+          (click)="selectedWallpaperStyle = style.value">
+    <span class="wallpaper-style-icon">{{ style.icon }}</span>
+    <span class="wallpaper-style-label">{{ style.label }}</span>
+  </button>
+</div>
+
+<p class="wallpaper-style-desc">
+  <strong>{{ selectedWallpaperInfo?.label }}</strong>
+  <span>{{ selectedWallpaperInfo?.description }}</span>
+</p>
 
       <button (click)="downloadClubWallpaper(selectedClub)"
               class="w3-btn w3-black w3-margin-top title-game"
