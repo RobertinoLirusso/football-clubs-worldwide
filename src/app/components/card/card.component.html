@@ -304,48 +304,78 @@
 </div>
 
 <!-- Modal Club -->
-<div *ngIf="selectedClub" id="clubModal" class="w3-modal" style="display:block;">
-  <div class="w3-modal-content w3-animate-zoom" style="max-width:600px; margin:auto;">
-    <header class="w3-container w3-center">
-      <span (click)="closeModal()" class="w3-button w3-display-topright w3-black title-game">
-        <i class="fa fa-times"></i>
-      </span>
-    </header>
+<div *ngIf="selectedClub" id="clubModal" class="w3-modal" style="display:block;" (click)="closeModal()">
+  <div class="w3-modal-content w3-animate-zoom club-modal"
+       [class.is-legend]="isLegend(selectedClub)"
+       [class.is-defunct]="isDefunct(selectedClub)"
+       role="dialog"
+       aria-modal="true"
+       [attr.aria-label]="displayName(selectedClub)"
+       (click)="$event.stopPropagation()">
 
-    <div class="w3-container w3-center">
-      <div class="w3-center w3-margin-top">
-        <span class="fi club-flag" [ngClass]="'fi-' + getCountryCode(selectedClub.city_country)" style="aspect-ratio: 4/3;"></span>
+    <button type="button" class="modal-close" (click)="closeModal()" aria-label="Close">
+      <i class="fa fa-times"></i>
+    </button>
 
+    <div class="club-modal-body">
+
+<div class="club-crest" [class.failed]="failedLogos.has(selectedClub.club_name)">
+  <img *ngIf="!failedLogos.has(selectedClub.club_name)"
+       [src]="selectedClub.club_logo"
+       [alt]="displayName(selectedClub)"
+       (error)="onLogoError(selectedClub)">
+
+  <div class="crest-fallback" *ngIf="failedLogos.has(selectedClub.club_name)">
+    <i class="fa fa-shield"></i>
+  </div>
+</div>
+
+      <div class="club-info">
+        <div class="club-tags" *ngIf="isLegend(selectedClub) || isDefunct(selectedClub)">
+          <span class="club-tag legend" *ngIf="isLegend(selectedClub)">
+            <i class="fa fa-star"></i> Legend
+          </span>
+          <span class="club-tag defunct" *ngIf="isDefunct(selectedClub)">
+            <i class="fa fa-hourglass-end"></i> Defunct
+          </span>
+        </div>
+
+        <h2 class="modal-title">{{ displayName(selectedClub) }}</h2>
+
+        <p class="club-location">
+          <span class="fi" [ngClass]="'fi-' + getCountryCode(selectedClub.city_country)"></span>
+          {{ selectedClub.city_country }}
+        </p>
+
+        <div class="club-actions">
+          <a class="club-action" [href]="selectedClub.wiki_url" target="_blank" rel="noopener">
+            <i class="fa-brands fa-wikipedia-w"></i> Wikipedia
+          </a>
+          <a class="club-action" [href]="getGoogleNewsUrl(selectedClub)" target="_blank" rel="noopener">
+            <i class="fa-brands fa-google"></i> Google
+          </a>
+          <a class="club-action" [href]="getYouTubeUrl(selectedClub)" target="_blank" rel="noopener">
+            <i class="fa-brands fa-youtube"></i> YouTube
+          </a>
+          <button type="button" class="club-action" (click)="openWallpaperModal()">
+            <i class="fa fa-image"></i> Wallpaper
+          </button>
+          <button type="button"
+                  class="club-action club-fav"
+                  [class.active]="isFavorite(selectedClub)"
+                  [attr.aria-pressed]="isFavorite(selectedClub)"
+                  (click)="toggleFavorite(selectedClub, $event)">
+            <i class="fa-solid fa-heart"></i>
+            {{ isFavorite(selectedClub) ? 'In favorites' : 'Add to favorites' }}
+          </button>
+        </div>
+
+        <a class="club-share" [href]="getTwitterShareUrl(selectedClub)" target="_blank" rel="noopener">
+          <i class="fa-brands fa-x-twitter"></i> Share on X
+        </a>
       </div>
-      <h2 class="modal-title">{{ selectedClub.club_name }}</h2>
-      <p><strong>Location:</strong> {{ selectedClub.city_country }}</p>
-      <p><strong>More Info:</strong></p>
-      <div class="w3-center w3-margin-bottom">
-        <a [href]="selectedClub.wiki_url" target="_blank" class="w3-btn w3-black w3-medium w3-border w3-margin-right" title="Explore Club">
-          <i class="fa-brands fa-wikipedia-w fa-lg icon"></i>
-        </a>
-        <a [href]="getGoogleNewsUrl(selectedClub)" target="_blank" class="w3-btn w3-black w3-medium w3-border w3-margin-right" title="Search on Google">
-          <i class="fa-brands fa-google fa-lg icon"></i>
-        </a>
-        <a [href]="getYouTubeUrl(selectedClub)" target="_blank" class="w3-btn w3-black w3-medium w3-border w3-margin-right" title="Search on YouTube">
-          <i class="fa-brands fa-youtube fa-lg icon"></i>
-        </a>
-        <button (click)="openWallpaperModal()" class="w3-btn w3-black w3-medium w3-border" title="Download Wallpaper">
-          <i class="fa fa-image fa-lg icon"></i>
-        </button>
-      </div>
-    </div>
 
-    <div class="w3-center w3-margin-top">
-      <p>Share this club (via X):</p>
-      <a [href]="getTwitterShareUrl(selectedClub)" target="_blank" class="w3-btn w3-black" title="Share on X">
-        <i class="fa-brands fa-x-twitter fa-lg icon"></i>
-      </a>
     </div>
-
-    <footer class="w3-container w3-padding">
-      <button (click)="closeModal()" class="w3-btn w3-black w3-margin-bottom title-game">Close</button>
-    </footer>
   </div>
 </div>
 

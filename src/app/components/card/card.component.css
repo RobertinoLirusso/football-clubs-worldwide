@@ -323,11 +323,6 @@ footer p {
   color: white;
 }
 
-.club-flag {
-  font-size: 3rem;
-  display: inline-block;
-  margin-bottom: 7px;
-}
 
 
 /* ============================================================
@@ -712,40 +707,287 @@ select.filter-btn option {
   z-index: 3;
 }
 
-/* Botones con borde platinado */
-#clubModal .w3-btn {
+/* ============================================================
+   MODAL CLUB — REDISEÑO
+   ============================================================ */
+
+#clubModal .club-modal {
+  max-width: 760px;
+  margin: auto;
+  border: 2px solid transparent;
+  border-radius: 0;
+}
+
+/* Legend: borde platino brillante */
+#clubModal .club-modal.is-legend {
+  background:
+    linear-gradient(#eceef2, #eceef2) padding-box,
+    linear-gradient(160deg, #ffffff, #aeb6c2 25%, #f4f7fb 50%, #8e97a5 75%, #ffffff 100%) border-box;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 1),
+    0 0 16px rgba(210, 222, 240, 0.8),
+    0 6px 18px rgba(130, 140, 155, 0.3);
+}
+
+/* Defunct: borde violeta */
+#clubModal .club-modal.is-defunct {
+  background:
+    linear-gradient(#eceef2, #eceef2) padding-box,
+    linear-gradient(160deg, #c77dff, #7b2cbf 40%, #e0aaff 70%, #5a189a 100%) border-box;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.92),
+    0 6px 18px rgba(123, 44, 191, 0.3);
+}
+
+/* Cerrar */
+#clubModal .modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#clubModal .modal-close:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Layout */
+.club-modal-body {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 40px 36px 32px;
+}
+
+.club-crest {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 230px;
+  padding: 22px;
+  border: 2px solid transparent;
+  border-radius: 0;
+  background:
+    linear-gradient(#eceef2, #eceef2) padding-box,
+    linear-gradient(160deg, #dbe4ea, #bfc3ca 30%, #f3f4f6 60%, #d4d6da 100%) border-box;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.9),
+    0 8px 22px rgba(120, 130, 140, 0.25);
+}
+
+.club-crest img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 3px 8px rgba(80, 90, 110, 0.25));
+}
+
+.club-info {
+  flex: 1 1 auto;
+  min-width: 0;
+  text-align: left;
+}
+
+/* Etiquetas */
+.club-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.club-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  border-radius: 0;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #fff;
+}
+
+.club-tag.legend {
+  background: #000;
+  box-shadow: 0 0 0 1px #c4ccd8;
+}
+
+.club-tag.legend i {
+  color: #dbe4ea;
+}
+
+.club-tag.defunct {
+  background: #7b2cbf;
+}
+
+/* Título y ubicación */
+.club-info .modal-title {
+  margin: 0;
+  padding-top: 0;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.club-location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.club-location .fi {
+  font-size: 1.15rem;
+  flex-shrink: 0;
+}
+
+/* Acciones */
+.club-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 20px 0 14px;
+}
+
+.club-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 12px;
+  border: 2px solid transparent;
+  border-radius: 0;
   background:
     linear-gradient(#000, #000) padding-box,
     linear-gradient(160deg, #dbe4ea, #e4e6ea, #bfc3ca, #e5e6e8, #bbc5ce) border-box;
-  border: 2px solid transparent;
-  color: white;
-  transition: all 0.3s ease;
+  color: #fff;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
-#clubModal .w3-btn:hover {
+.club-action i {
+  color: #e4e6ea;
+  font-size: 15px;
+}
+
+.club-action:hover {
   background:
     linear-gradient(#23272a, #23272a) padding-box,
     linear-gradient(160deg, #eff2f6, #bfc3ca, #dbe4ea, #eaecee, #f1f2f5) border-box;
-  box-shadow:
-    0 0 8px rgba(180, 180, 210, 0.28),
-    0 4px 12px rgba(80, 90, 110, 0.21);
+  box-shadow: 0 4px 12px rgba(80, 90, 110, 0.25);
 }
 
-/* Iconos de los botones — color platino suave */
-#clubModal .w3-btn i {
-  color: #e4e6ea;
+.club-fav {
+  grid-column: 1 / -1;
 }
 
-/* Footer sin fondo gris ni borde */
-#clubModal .w3-container.w3-padding {
-  background: transparent;
-  border-top: none;
+.club-fav.active {
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(160deg, #bdc3c7, #e1e6ed 50%, #eceef2 100%) border-box;
+  color: #000;
 }
 
-/* Botón de wallpaper en la fila de acciones — mismo estilo cuadrado que wiki/google/youtube */
-#clubModal .w3-btn.wallpaper-trigger-btn {
-  border-radius: 0;
+.club-fav.active i {
+  color: #d62839;
 }
+
+/* Compartir */
+.club-share {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #555;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.club-share:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Móvil: apilado y centrado */
+@media screen and (max-width: 600px) {
+  .club-modal-body {
+    flex-direction: column;
+    gap: 20px;
+    padding: 52px 20px 24px;
+  }
+
+  .club-crest {
+    width: 180px;
+    height: 180px;
+    padding: 16px;
+  }
+
+  .club-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .club-tags,
+  .club-location {
+    justify-content: center;
+  }
+
+  .club-info .modal-title {
+    font-size: 1.35rem;
+    text-align: center;
+  }
+}
+
+/* Escudo no disponible: fondo grisáceo + icono por defecto */
+.club-crest.failed {
+  background:
+    linear-gradient(#dcdfe4, #dcdfe4) padding-box,
+    linear-gradient(160deg, #dbe4ea, #bfc3ca 30%, #f3f4f6 60%, #d4d6da 100%) border-box;
+}
+
+.crest-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 84px;
+  color: #aab0b9;
+}
+
 
 .wallpaper-styles {
   display: grid;
@@ -1221,4 +1463,8 @@ select.action-btn {
     padding: 0 24px 0 10px;
     font-size: 13px;
   }
+}
+
+.w3-modal {
+  z-index: 1000;
 }

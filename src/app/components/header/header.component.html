@@ -1,64 +1,70 @@
-<header class="w3-container w3-black">
-    <h3 class="title">
-        <a href="/" style="text-decoration: none;">Football Clubs Worldwide</a>
-    </h3>
-</header>
+<header class="site-header">
+  <div class="header-inner">
+<a routerLink="/" class="brand" (click)="closeMenus()">
+  <span class="brand-text">Football Clubs Worldwide</span>
+</a>
 
-<div class="w3-bar w3-black nav-tabs">
-    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" 
-       class="w3-bar-item w3-button w3-mobile nav-link">
+<button type="button"
+        class="menu-toggle"
+        [class.open]="menuOpen"
+        (click)="toggleMenu()"
+        [attr.aria-expanded]="menuOpen"
+        aria-label="Toggle menu">
+  <span class="bar"></span>
+  <span class="bar"></span>
+  <span class="bar"></span>
+</button>
+
+    <nav class="main-nav" [class.open]="menuOpen" aria-label="Main" (click)="onNavClick($event)">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link">
         Home
-    </a>
-    <a routerLink="/national-teams" routerLinkActive="active" 
-       class="w3-bar-item w3-button w3-mobile nav-link">
+      </a>
+      <a routerLink="/national-teams" routerLinkActive="active" class="nav-link">
         National Teams
-    </a>
-    <a routerLink="/map" routerLinkActive="active" 
-       class="w3-bar-item w3-button w3-mobile nav-link">
+      </a>
+      <a routerLink="/map" routerLinkActive="active" class="nav-link">
         Stadiums Map
-    </a>
+      </a>
 
-    <div class="w3-dropdown-hover w3-mobile nav-dropdown">
-        <button class="w3-button w3-black nav-link" [class.active]="isPlayGameActive()">
-            Games <i class="fa fa-caret-down"></i>
+      <div class="nav-dropdown" [class.open]="gamesOpen">
+        <button type="button"
+                class="nav-link"
+                [class.active]="isPlayGameActive()"
+                [attr.aria-expanded]="gamesOpen"
+                (click)="toggleGames($event)">
+          Games <i class="fa fa-caret-down caret"></i>
         </button>
-        <div class="w3-dropdown-content w3-bar-block w3-black w3-border w3-border-black w3-card-4">
-            <a routerLink="/game" routerLinkActive="active" 
-               class="w3-bar-item w3-button nav-link">
-                <i class="fa fa-futbol w3-margin-right"></i> Guess the Club
-            </a>
-            <a routerLink="/club-search" routerLinkActive="active" 
-               class="w3-bar-item w3-button w3-border w3-border-black nav-link">
-                <i class="fa fa-search w3-margin-right"></i> Word Search
-            </a>
-            <a routerLink="/hangman" routerLinkActive="active" 
-               class="w3-bar-item w3-button nav-link">
-                <i class="fa fa-font w3-margin-right"></i> Hangman
-            </a>
-            <a routerLink="/pairs" routerLinkActive="active" 
-            class="w3-bar-item w3-button nav-link">
-             <i class="fa fa-clone w3-margin-right"></i> Club Pairs
-         </a>
-         <a routerLink="/guess-country" routerLinkActive="active" 
-         class="w3-bar-item w3-button nav-link">
-          <i class="fa fa-flag w3-margin-right"></i> Guess Country
-        </a>
-        <a routerLink="/logo-shuffle" routerLinkActive="active" 
-        class="w3-bar-item w3-button nav-link">
-         <i class="fa fa-puzzle-piece w3-margin-right"></i> Logo Shuffle
-       </a>
-       <a routerLink="/world-cup" routerLinkActive="active" 
-       class="w3-bar-item w3-button nav-link">
-        <i class="fa fa-trophy w3-margin-right"></i> World Cup 2026 Simulator
-      </a>
-        <a routerLink="/champions-league" routerLinkActive="active" 
-       class="w3-bar-item w3-button nav-link">
-        <i class="fa fa-star w3-margin-right"></i> Uefa Champions League 26-27
-      </a>
-      <a routerLink="/europa-league" routerLinkActive="active" 
-      class="w3-bar-item w3-button nav-link">
-       <i class="fa fa-futbol w3-margin-right"></i> Uefa Europa League 26-27
-     </a>
+
+        <div class="dropdown-menu">
+          <a routerLink="/game" routerLinkActive="active" class="nav-link">
+            <i class="fa fa-futbol"></i> Guess the Club
+          </a>
+          <a routerLink="/club-search" routerLinkActive="active" class="nav-link">
+            <i class="fa fa-search"></i> Word Search
+          </a>
+          <a routerLink="/hangman" routerLinkActive="active" class="nav-link">
+            <i class="fa fa-font"></i> Hangman
+          </a>
+          <a routerLink="/pairs" routerLinkActive="active" class="nav-link">
+            <i class="fa fa-clone"></i> Club Pairs
+          </a>
+          <a routerLink="/guess-country" routerLinkActive="active" class="nav-link">
+            <i class="fa fa-flag"></i> Guess Country
+          </a>
+          <a routerLink="/logo-shuffle" routerLinkActive="active" class="nav-link">
+            <i class="fa fa-puzzle-piece"></i> Logo Shuffle
+          </a>
+          <a routerLink="/world-cup" routerLinkActive="active" class="nav-link">
+            <i class="fa fa-trophy"></i> World Cup 2026 Simulator
+          </a>
+          <a routerLink="/champions-league" routerLinkActive="active" class="nav-link">
+            <i class="fa fa-star"></i> Uefa Champions League 26-27
+          </a>
+          <a routerLink="/europa-league" routerLinkActive="active" class="nav-link">
+            <i class="fa fa-futbol"></i> Uefa Europa League 26-27
+          </a>
         </div>
-    </div>
-</div>
+      </div>
+    </nav>
+  </div>
+</header>

@@ -1,97 +1,366 @@
 :host {
   display: block;
+  position: sticky;
+  top: 0;
+  z-index: 900;
+}
+
+.site-header {
   position: relative;
-  /* box-shadow removed to eliminate gold glow/gradient */
+  background: #000;
+  color: #fff;
+  border-bottom: 1px solid #2a2d31;
 }
 
-:host::after {
-  /* Decorative gold bar removed to eliminate gold gradient/glow */
-  display: none;
+/* Línea platinada inferior */
+.site-header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  background: linear-gradient(90deg, #000, #bfc3ca 25%, #f3f4f6 50%, #bfc3ca 75%, #000);
 }
 
-header {
-  background: black;
-  color: white;
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+  min-height: 64px;
 }
 
-/* Título */
-.title {
-  font-size: 1.7rem;
-}
-
-.title a {
-  display: inline-block;
-  position: relative;
-  font-family: "Podkova", serif;
-  font-weight: bold;
-  font-weight: 700;
-  font-style: normal;
-  letter-spacing: 0.06em;
-  color: white;
+/* Marca */
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
   transition: opacity 0.3s ease;
 }
 
-.title a:hover {
-  opacity: 0.85;
+.brand:hover {
+  opacity: 1;
 }
 
-/* Navigation Tabs */
-.nav-tabs {
-  background: black;
+.brand-text {
+  font-family: "Podkova", serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  /* Platino con destello que cruza el texto */
+  background: linear-gradient(
+    100deg,
+    #bfc6d0 0%,
+    #bfc6d0 40%,
+    #ffffff 50%,
+    #bfc6d0 60%,
+    #bfc6d0 100%
+  );
+  background-size: 300% 100%;
+  background-position: 0% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 6px rgba(220, 228, 240, 0.25));
+  transition: letter-spacing 0.3s ease, filter 0.3s ease;
+  animation: brandShine 5s ease-in-out infinite;
+}
+
+.brand:hover .brand-text {
+  letter-spacing: 0.09em;
+  filter: drop-shadow(0 0 10px rgba(235, 240, 250, 0.55));
+}
+
+@keyframes brandShine {
+  0%   { background-position: 0% 0; }
+  40%  { background-position: 100% 0; }
+  100% { background-position: 100% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brand-text { animation: none; }
+}
+
+/* Navegación */
+.main-nav {
+  display: flex;
+  align-items: stretch;
+  align-self: stretch;
+  gap: 4px;
 }
 
 .nav-link {
-  color: white !important;
-  text-transform: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+  border: 0;
+  background: transparent;
+  color: #e8e8e8;
   font-family: "Podkova", serif;
-  transition: all 0.3s ease;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 .nav-link:hover {
-  background-color: #ffffff !important;
-  color: black !important;
+  background: #fff;
+  color: #000;
 }
 
-/* Dropdown Minigames */
+/* Indicador de página activa */
+.main-nav > .nav-link::after,
+.nav-dropdown > .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 0;
+  height: 2px;
+  background: #dbe4ea;
+  transform: scaleX(0);
+  transition: transform 0.25s ease;
+}
+
+.main-nav > .nav-link.active::after,
+.nav-dropdown > .nav-link.active::after {
+  transform: scaleX(1);
+}
+
+.main-nav > .nav-link.active,
+.nav-dropdown > .nav-link.active {
+  color: #fff;
+}
+
+.main-nav > .nav-link.active:hover,
+.nav-dropdown > .nav-link.active:hover {
+  color: #000;
+}
+
+/* Dropdown */
 .nav-dropdown {
-  display: inline-block;
+  position: relative;
+  display: flex;
 }
 
-.nav-dropdown .w3-dropdown-content {
-  min-width: 180px;
+.caret {
+  font-size: 12px;
+  transition: transform 0.25s ease;
 }
 
-.nav-dropdown .w3-dropdown-content .nav-link {
+.nav-dropdown.open .caret {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 270px;
+  background: #000;
+  border: 1px solid #3a3d42;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+}
+
+.nav-dropdown.open .dropdown-menu {
   display: block;
-  padding: 12px 16px;
-  text-align: left;
 }
 
-.nav-dropdown .nav-link.active {
-  background-color: rgba(255, 255, 255, 0.2) !important;
-}
-
-/* Responsivo */
-@media (max-width: 768px) {
-  .nav-tabs {
-    background: black;
-  }
-
-  header.w3-container {
-    text-align: center !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  header .title {
-    text-align: center !important;
-    width: 100%;
+@media (hover: hover) {
+  .nav-dropdown:hover .dropdown-menu {
     display: block;
   }
+  .nav-dropdown:hover .caret {
+    transform: rotate(180deg);
+  }
+}
 
-  header .title a {
-    display: inline-block;
-    text-align: center;
-    /* text-transform removed to quitar uppercase in responsive as well */
+.dropdown-menu .nav-link {
+  display: flex;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #1d1f22;
+}
+
+.dropdown-menu .nav-link:last-child {
+  border-bottom: 0;
+}
+
+.dropdown-menu .nav-link i {
+  width: 18px;
+  text-align: center;
+  color: #9a9ea5;
+}
+
+.dropdown-menu .nav-link:hover i {
+  color: #000;
+}
+
+.dropdown-menu .nav-link.active {
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+}
+
+.dropdown-menu .nav-link.active:hover {
+  background: #fff;
+  color: #000;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 44px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid #3a3d42;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.menu-toggle .bar {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  transition: transform 0.3s ease, opacity 0.2s ease, background-color 0.2s ease;
+}
+
+.menu-toggle:hover {
+  background: #fff;
+}
+
+.menu-toggle:hover .bar {
+  background: #000;
+}
+
+/* Hamburguesa a X */
+.menu-toggle.open .bar:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.menu-toggle.open .bar:nth-child(2) { opacity: 0; }
+.menu-toggle.open .bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+@media (max-width: 768px) {
+  .header-inner {
+    padding: 0 16px;
+    min-height: 56px;
+    gap: 12px;
+  }
+
+  .brand {
+    min-width: 0;
+  }
+
+  .brand-text {
+    font-size: clamp(0.95rem, 4.6vw, 1.15rem);
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+    flex: 0 0 auto;
+  }
+
+  /* Panel desplegable a ancho completo bajo la barra */
+  .main-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-self: auto;
+    gap: 0;
+    background: #000;
+    border-bottom: 1px solid #2a2d31;
+    box-shadow: 0 16px 28px rgba(0, 0, 0, 0.5);
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: max-height 0.35s ease, visibility 0s linear 0.35s;
+  }
+
+  .main-nav.open {
+    max-height: calc(100vh - 58px);
+    max-height: calc(100dvh - 58px);
+    overflow-y: auto;
+    visibility: visible;
+    transition: max-height 0.35s ease, visibility 0s;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .nav-link {
+    width: 100%;
+    min-height: 52px;
+    padding: 0 20px;
+    font-size: 16px;
+    border-bottom: 1px solid #1d1f22;
+  }
+
+  .main-nav > .nav-link::after,
+  .nav-dropdown > .nav-link::after {
+    left: 0;
+    right: auto;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    height: auto;
+    transform: scaleY(0);
+  }
+
+  .main-nav > .nav-link.active::after,
+  .nav-dropdown > .nav-link.active::after {
+    transform: scaleY(1);
+  }
+
+  /* Games como acordeón */
+  .nav-dropdown {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-dropdown > .nav-link {
+    justify-content: space-between;
+  }
+
+  .dropdown-menu {
+    display: block;
+    position: static;
+    min-width: 0;
+    max-height: 0;
+    overflow: hidden;
+    border: 0;
+    box-shadow: none;
+    background: #0b0b0c;
+    transition: max-height 0.3s ease;
+  }
+
+  .nav-dropdown.open .dropdown-menu {
+    max-height: 600px;
+  }
+
+  .dropdown-menu .nav-link {
+    padding-left: 32px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  .brand-text {
+    letter-spacing: 0.02em;
   }
 }

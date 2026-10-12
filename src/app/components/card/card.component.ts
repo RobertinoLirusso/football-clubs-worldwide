@@ -58,6 +58,14 @@ export class CardComponent implements OnInit {
 
   @ViewChild('gridTop') gridTop!: ElementRef<HTMLElement>;
 
+  @HostListener('document:keydown.escape')
+  onEscape(): void {
+  if (this.isWallpaperModalOpen) { this.closeWallpaperModal(); return; }
+  if (this.selectedImage) { this.closeImageModal(); return; }
+  if (this.selectedClub) { this.closeModal(); return; }
+  if (this.isCountryModalOpen) this.closeCountryModal();
+}
+
   // Filtros con setter: cualquier cambio vuelve a la primera página / primeros 100
   private _searchTerm = '';
   private _sortOption = 'default';

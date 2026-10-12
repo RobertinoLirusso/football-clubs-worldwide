@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,6 +7,9 @@ import { Router } from '@angular/router';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+    menuOpen = false;
+    gamesOpen = false;
+
   constructor(private router: Router) {}
 
   isPlayGameActive(): boolean {
@@ -21,4 +24,34 @@ export class HeaderComponent {
     url === '/champions-league' ||
     url === '/europa-league';
   }
+
+
+toggleMenu(): void {
+  this.menuOpen = !this.menuOpen;
+  if (!this.menuOpen) this.gamesOpen = false;
+}
+
+toggleGames(event: Event): void {
+  event.stopPropagation();
+  this.gamesOpen = !this.gamesOpen;
+}
+
+closeMenus(): void {
+  this.menuOpen = false;
+  this.gamesOpen = false;
+}
+
+onNavClick(event: Event): void {
+  if ((event.target as HTMLElement).closest('a')) this.closeMenus();
+}
+
+@HostListener('document:click')
+onDocumentClick(): void {
+  this.gamesOpen = false;
+}
+
+@HostListener('document:keydown.escape')
+onEscape(): void {
+  this.closeMenus();
+}
 }
