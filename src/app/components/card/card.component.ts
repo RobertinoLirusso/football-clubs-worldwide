@@ -18,6 +18,10 @@ export class CardComponent implements OnInit {
   animatedClubsCount: number = 0;
   modalTab: 'countries' | 'cities' = 'countries';
 
+  suggestions: any[] = [];
+  suggestionsOpen = false;
+  activeSuggestion = -1;
+
   isCountryModalOpen: boolean = false;
   featuredCities = [
     { city: 'London', country: 'England' },
@@ -420,9 +424,11 @@ get selectedWallpaperInfo() {
     }
   }
 
-  clearSearch(): void {
-    this.searchTerm = '';
-  }
+clearSearch(): void {
+  this.searchTerm = '';
+  this.suggestions = [];
+  this.closeSuggestions();
+}
 
   scrollToTop(): void {
     window.scroll({
@@ -1216,5 +1222,69 @@ displayName(club: any): string {
   return this.cleanClubNameForWallpaper(club.club_name);
 }
 
+
+onSearchInput(event: Event): void {
+  const q = (event.target as HTMLInputElement).value.trim().toLowerCase();
+  this.activeSuggestion = -1;
+
+  if (!q) {
+    this.suggestions = [];
+    this.suggestionsOpen = false;
+    return;
+  }
+
+  const starts: any[] = [];
+  const contains: any[] = [];
+  const byCity: any[] = [];
+
+  for (const club of this.clubs) {
+    const name = club.club_name.toLowerCase();
+    const city = club.city_country.split(',')[0].trim().toLowerCase();
+    if (name.startsWith(q)) starts.push(club);
+    else if (name.includes(q)) contains.push(club);
+    else if (city.includes(q)) byCity.push(club);
+    if (starts.length >= 8) break;
+  }
+
+  this.suggestions = [...starts, ...contains, ...byCity].slice(0, 8);
+  this.suggestionsOpen = this.suggestions.length > 0;
+}
+
+onSearchKeydown(e: KeyboardEvent): void {
+  const len = this.suggestions.length;
+
+  if (e.key === 'ArrowDown' && len) {
+    e.preventDefault();
+    this.suggestionsOpen = true;
+    this.activeSuggestion = (this.activeSuggestion + 1) % len;
+  } else if (e.key === 'ArrowUp' && len) {
+    e.preventDefault();
+    this.suggestionsOpen = true;
+    this.activeSuggestion = this.activeSuggestion <= 0 ? len - 1 : this.activeSuggestion - 1;
+  } else if (e.key === 'Enter') {
+    if (this.suggestionsOpen && this.activeSuggestion >= 0) {
+      e.preventDefault();
+      this.selectSuggestion(this.suggestions[this.activeSuggestion]);
+    } else {
+      this.closeSuggestions();
+    }
+  } else if (e.key === 'Escape') {
+    this.closeSuggestions();
+  }
+}
+
+onSearchFocus(): void {
+  if (this.searchTerm && this.suggestions.length) this.suggestionsOpen = true;
+}
+
+selectSuggestion(club: any): void {
+  this.searchTerm = club.club_name;
+  this.closeSuggestions();
+}
+
+closeSuggestions(): void {
+  this.suggestionsOpen = false;
+  this.activeSuggestion = -1;
+}
 
 }

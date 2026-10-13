@@ -8,18 +8,67 @@
     </div>
   </div>
 
-  <div class="w3-container w3-center">
-    <p class="highlight-text">
-      <span>{{ animatedClubsCount }}</span> football clubs
-    </p>
+<div class="w3-container w3-center">
+  <div class="clubs-counter">
+    <span class="clubs-number">{{ animatedClubsCount | number }}</span>
+    <span class="clubs-label">football clubs</span>
   </div>
+</div>
 
-  <div class="search-box">
-    <i class="fa fa-search search-icon"></i>
-    <input type="text" class="w3-input search-input"
-           placeholder="Search by club or city" [(ngModel)]="searchTerm">
-    <i *ngIf="searchTerm" class="w3-center fa fa-times clear-icon" (click)="clearSearch()"></i>
-  </div>
+<div class="search-box">
+  <span class="search-icon" aria-hidden="true"><i class="fa fa-search"></i></span>
+
+  <input type="text"
+         class="search-input"
+         placeholder="Search by club or city"
+         aria-label="Search clubs"
+         role="combobox"
+         aria-autocomplete="list"
+         aria-controls="search-suggestions"
+         [attr.aria-expanded]="suggestionsOpen"
+         [attr.aria-activedescendant]="activeSuggestion >= 0 ? 'sugg-' + activeSuggestion : null"
+         autocomplete="off"
+         [(ngModel)]="searchTerm"
+         (input)="onSearchInput($event)"
+         (keydown)="onSearchKeydown($event)"
+         (focus)="onSearchFocus()"
+         (blur)="closeSuggestions()">
+
+  <button *ngIf="searchTerm"
+          type="button"
+          class="clear-icon"
+          (click)="clearSearch()"
+          aria-label="Clear search">
+    <i class="fa fa-times"></i>
+  </button>
+
+  <ul *ngIf="suggestionsOpen"
+      id="search-suggestions"
+      class="suggestions"
+      role="listbox"
+      (mousedown)="$event.preventDefault()">
+    <li *ngFor="let club of suggestions; let i = index"
+        [id]="'sugg-' + i"
+        role="option"
+        class="suggestion"
+        [class.active]="i === activeSuggestion"
+        [attr.aria-selected]="i === activeSuggestion"
+        (mouseenter)="activeSuggestion = i"
+        (click)="selectSuggestion(club)">
+      <img class="suggestion-logo"
+           [src]="club.club_logo"
+           alt=""
+           loading="lazy"
+           (error)="$any($event.target).style.visibility = 'hidden'">
+      <span class="suggestion-text">
+        <span class="suggestion-name">{{ displayName(club) }}</span>
+        <span class="suggestion-place">{{ club.city_country }}</span>
+      </span>
+      <span class="fi suggestion-flag" [ngClass]="'fi-' + getCountryCode(club.city_country)"></span>
+    </li>
+  </ul>
+</div>
+
 
 </div>
 

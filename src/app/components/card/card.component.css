@@ -298,21 +298,6 @@ footer p {
   -webkit-text-fill-color: transparent;
 }
 
-.highlight-text {
-  font-weight: 600;
-  font-size: 1.3rem;
-  color: black;
-  user-select: none;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
-}
-
-.highlight-text span {
-  color: black;
-  font-weight: bold;
-  font-size: 1.7rem;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.18);
-}
-
 .no-results {
   margin-top: auto;
   font-size: 18px;
@@ -323,55 +308,6 @@ footer p {
   color: white;
 }
 
-
-
-/* ============================================================
-   SEARCH BOX
-   ============================================================ */
-
-.search-box {
-  position: relative;
-  max-width: 400px;
-  margin: auto;
-}
-
-.search-input {
-  width: 100%;
-  padding: 12px 40px 12px 40px;
-  font-size: 16px;
-  border: 2px solid #ddd;
-  outline: none;
-  transition: 0.3s ease-in-out;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-}
-
-.search-input:focus {
-  border-color: #333333;
-  box-shadow: 0px 4px 8px rgba(51, 51, 51, 0.5);
-}
-
-.search-icon {
-  position: absolute;
-  left: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #888;
-  font-size: 18px;
-}
-
-.clear-icon {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  cursor: pointer;
-  color: black;
-  font-size: 18px;
-}
-
-.clear-icon:hover {
-  color: #ffcc00;
-}
 
 
 /* ============================================================
@@ -473,6 +409,150 @@ select.filter-btn option {
   }
 }
 
+
+/* ============================================================
+   CONTADOR GLOBAL
+   ============================================================ */
+
+.clubs-counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0 20px;
+  user-select: none;
+}
+
+.clubs-number {
+  font-family: "Podkova", serif;
+  font-size: clamp(2.8rem, 9vw, 4.2rem);
+  font-weight: 700;
+  line-height: 1;
+  font-variant-numeric: tabular-nums; /* evita que el número "salte" mientras cuenta */
+  background: linear-gradient(180deg, #000 0%, #3a3d42 55%, #8e97a5 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 6px rgba(120, 130, 140, 0.25));
+}
+
+.clubs-label {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.clubs-label::before,
+.clubs-label::after {
+  content: '';
+  width: 32px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #8e97a5);
+}
+
+.clubs-label::after {
+  transform: scaleX(-1);
+}
+
+/* ============================================================
+   BUSCADOR GLOBAL
+   ============================================================ */
+
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  max-width: 460px;
+  margin: 0 auto;
+  border: 2px solid transparent;
+  border-radius: 0;
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(160deg, #dbe4ea, #bfc3ca 30%, #f3f4f6 60%, #d4d6da 100%) border-box;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.9),
+    0 6px 18px rgba(130, 135, 140, 0.18);
+  transition: box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.search-box:focus-within {
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(160deg, #000, #555 50%, #000) border-box;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 1),
+    0 0 16px rgba(200, 212, 228, 0.8),
+    0 8px 22px rgba(80, 90, 110, 0.25);
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 48px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+}
+
+.search-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 48px;
+  padding: 0 48px 0 14px;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  background: transparent;
+  color: #000;
+  font-family: inherit;
+  font-size: 16px; /* 16px evita el zoom automático de iOS al enfocar */
+}
+
+.search-input::placeholder {
+  color: #8a8f97;
+}
+
+.clear-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.clear-icon:hover {
+  background: #000;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .search-box {
+    max-width: 100%;
+    margin: 0 8px;
+  }
+
+  .clubs-label {
+    letter-spacing: 0.2em;
+  }
+}
+
 /* ============================================================
    BACK TO TOP
    ============================================================ */
@@ -563,12 +643,6 @@ select.filter-btn option {
     margin: 20px auto !important;
   }
 
-  .highlight-text {
-    font-size: 14px;
-    padding: 8px 16px;
-    margin-top: 15px;
-  }
-
   .action-container {
     justify-content: center;
     gap: 8px;
@@ -600,13 +674,6 @@ select.filter-btn option {
   }
 }
 
-@media (max-width: 480px) {
-  .search-input {
-    font-size: 14px;
-    padding: 12px 35px 12px 35px;
-    min-width: 100%;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .card.is-dragging {
@@ -1467,4 +1534,85 @@ select.action-btn {
 
 .w3-modal {
   z-index: 1000;
+}
+
+/* ============================================================
+   SUGERENCIAS DEL BUSCADOR
+   ============================================================ */
+
+.suggestions {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: -2px;
+  right: -2px;
+  z-index: 50;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 380px;
+  overflow-y: auto;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 0;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
+}
+
+.suggestion {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #eceef2;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.suggestion:last-child {
+  border-bottom: 0;
+}
+
+.suggestion.active {
+  background: #000;
+  color: #fff;
+}
+
+.suggestion-logo {
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.suggestion-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.suggestion-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.suggestion-place {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  color: #777;
+}
+
+.suggestion.active .suggestion-place {
+  color: #bfc3ca;
+}
+
+.suggestion-flag {
+  flex: 0 0 auto;
+  font-size: 1.1rem;
 }
