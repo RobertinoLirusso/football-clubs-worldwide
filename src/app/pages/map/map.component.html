@@ -1,8 +1,52 @@
-<div class="container"> 
+<div class="container">
   <app-header></app-header>
-  <div class="map-wrapper w3-light-grey"> 
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ysRUssTQUMpe6z20l5uztzu1yiUxpFw&ehbc=2E312F&noprof=1" width="640" height="480">
-    </iframe> 
-  </div> 
-  <app-footer></app-footer> 
+
+  <main class="map-page">
+
+    <section class="map-hero">
+      <h1 class="map-title">Stadiums Map</h1>
+      <p class="map-subtitle">Explore the stadiums of clubs around the world</p>
+    </section>
+
+    <div class="map-frame" [class.fullscreen]="isFullscreen">
+
+      <div class="map-toolbar">
+        <button type="button"
+                class="map-btn"
+                (click)="toggleFullscreen()"
+                [attr.aria-pressed]="isFullscreen"
+                [title]="isFullscreen ? 'Exit full screen' : 'Full screen'">
+          <i class="fa" [ngClass]="isFullscreen ? 'fa-compress' : 'fa-expand'"></i>
+          {{ isFullscreen ? 'Exit' : 'Full screen' }}
+        </button>
+
+        <a class="map-btn"
+           href="https://www.google.com/maps/d/viewer?mid=1ysRUssTQUMpe6z20l5uztzu1yiUxpFw"
+           target="_blank"
+           rel="noopener">
+          <i class="fa fa-external-link"></i> Open in Google Maps
+        </a>
+      </div>
+
+      <div class="map-canvas">
+        <div class="map-loading" *ngIf="!mapLoaded">
+          <i class="fa fa-spinner fa-spin"></i>
+          <span>Loading map…</span>
+        </div>
+
+        <iframe
+          title="Stadiums map"
+          src="https://www.google.com/maps/d/u/0/embed?mid=1ysRUssTQUMpe6z20l5uztzu1yiUxpFw&ehbc=2E312F&noprof=1"
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          [class.ready]="mapLoaded"
+          (load)="mapLoaded = true">
+        </iframe>
+      </div>
+
+    </div>
+  </main>
+
+  <app-footer></app-footer>
 </div>

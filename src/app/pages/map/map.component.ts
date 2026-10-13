@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, Inject, OnDestroy, OnInit } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 import { SeoService } from '../../services/seo.service';
 
 @Component({
@@ -6,9 +7,15 @@ import { SeoService } from '../../services/seo.service';
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.css']
 })
-export class MapComponent implements OnInit {
+export class MapComponent implements OnInit, OnDestroy {
 
-  constructor(private seoService: SeoService) {}
+  mapLoaded = false;
+  isFullscreen = false;
+
+  constructor(
+    private seoService: SeoService,
+    @Inject(DOCUMENT) private document: Document
+  ) {}
 
   ngOnInit(): void {
     this.seoService.updateSeo({
@@ -33,4 +40,22 @@ export class MapComponent implements OnInit {
     this.seoService.setMapPageSeo();
   }
 
+  toggleFullscreen(): void {
+    this.isFullscreen = !this.isFullscreen;
+    this.setBodyScroll(!this.isFullscreen);
+  }
+
+  @HostListener('document:keydown.escape')
+  onEscape(): void {
+    if (this.isFullscreen) this.toggleFullscreen();
+  }
+
+  ngOnDestroy(): void {
+    this.setBodyScroll(true);
+  }
+
+  private setBodyScroll(enabled: boolean): void {
+    const body = this.document?.body;
+    if (body) body.style.overflow = enabled ? '' : 'hidden';
+  }
 }

@@ -1,9 +1,22 @@
-html, body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Podkova", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+:root {
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-display: "Oswald", "Arial Narrow", sans-serif;
 }
 
+body,
+h1, h2, h3, h4, h5, h6,
+.w3-container,
+.w3-button,
+.w3-btn {
+  font-family: var(--font-body);
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
 
 #stadium-map {
   height: 500px;

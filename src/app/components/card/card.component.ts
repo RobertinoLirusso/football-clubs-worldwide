@@ -21,6 +21,7 @@ export class CardComponent implements OnInit {
   suggestions: any[] = [];
   suggestionsOpen = false;
   activeSuggestion = -1;
+  private _exactClub: string | null = null;
 
   isCountryModalOpen: boolean = false;
   featuredCities = [
@@ -77,7 +78,12 @@ export class CardComponent implements OnInit {
   private _selectedCity: { city: string; country: string } | null = null;
 
   get searchTerm(): string { return this._searchTerm; }
-  set searchTerm(v: string) { this._searchTerm = v; this.resetPaging(); }
+
+  set searchTerm(v: string) {
+  this._searchTerm = v;
+  this._exactClub = null;
+  this.resetPaging();
+}
 
   get sortOption(): string { return this._sortOption; }
   set sortOption(v: string) { this._sortOption = v; this.resetPaging(); }
@@ -279,69 +285,72 @@ get selectedWallpaperInfo() {
   }
 
   // Todos los resultados filtrados (sin recortar)
-  get allFilteredClubs(): any[] {
-    let filtered = this.clubs;
+// Todos los resultados filtrados (sin recortar)
+get allFilteredClubs(): any[] {
+  let filtered = this.clubs;
 
-    if (this.showFavoritesOnly) {
-      filtered = filtered.filter(club => this.favorites.has(club.club_name));
-    }
-
-    if (this.selectedCountry) {
-      filtered = filtered.filter(club => {
-        const parts = club.city_country.split(',');
-        const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
-        return country === this.selectedCountry.toLowerCase();
-      });
-    }
-
-    if (this.selectedCity) {
-      filtered = filtered.filter(club => {
-        const [city, country] = club.city_country.split(',').map((part: string) => part.trim().toLowerCase());
-        return city === this.selectedCity!.city.toLowerCase() &&
-          country === this.selectedCity!.country.toLowerCase();
-      });
-    }
-
-    if (this.searchTerm) {
-      const searchTermLower = this.searchTerm.toLowerCase();
-      filtered = filtered.filter(club => {
-        const parts = club.city_country.split(',');
-        const city = parts[0].trim().toLowerCase();
-        return (
-          club.club_name.toLowerCase().includes(searchTermLower) ||
-          city.includes(searchTermLower)
-        );
-      });
-    } else if (!this.selectedCountry && !this.selectedCity) {
-      const highlighted = filtered.filter(club =>
-        this.highlightedClubs.includes(club.club_name)
-      );
-      const rest = filtered.filter(club =>
-        !this.highlightedClubs.includes(club.club_name)
-      );
-      filtered = [...highlighted, ...rest];
-    }
-
-    if (this.sortOption === 'az') {
-      filtered = [...filtered].sort((a, b) =>
-        a.club_name.localeCompare(b.club_name)
-      );
-    } else if (this.sortOption === 'za') {
-      filtered = [...filtered].sort((a, b) =>
-        b.club_name.localeCompare(a.club_name)
-      );
-    } else if (this.sortOption === 'default') {
-      const highlighted = filtered.filter(club =>
-        this.highlightedClubs.includes(club.club_name)
-      );
-      const rest = filtered.filter(club =>
-        !this.highlightedClubs.includes(club.club_name)
-      );
-      filtered = [...highlighted, ...rest];
-    }
-
-    return filtered;
+  if (this.showFavoritesOnly) {
+    filtered = filtered.filter(club => this.favorites.has(club.club_name));
   }
+
+  if (this.selectedCountry) {
+    filtered = filtered.filter(club => {
+      const parts = club.city_country.split(',');
+      const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
+      return country === this.selectedCountry.toLowerCase();
+    });
+  }
+
+  if (this.selectedCity) {
+    filtered = filtered.filter(club => {
+      const [city, country] = club.city_country.split(',').map((part: string) => part.trim().toLowerCase());
+      return city === this.selectedCity!.city.toLowerCase() &&
+        country === this.selectedCity!.country.toLowerCase();
+    });
+  }
+
+  if (this._exactClub) {
+    filtered = filtered.filter(club => club.club_name === this._exactClub);
+  } else if (this.searchTerm) {
+    const searchTermLower = this.searchTerm.toLowerCase();
+    filtered = filtered.filter(club => {
+      const parts = club.city_country.split(',');
+      const city = parts[0].trim().toLowerCase();
+      return (
+        club.club_name.toLowerCase().includes(searchTermLower) ||
+        city.includes(searchTermLower)
+      );
+    });
+  } else if (!this.selectedCountry && !this.selectedCity) {
+    const highlighted = filtered.filter(club =>
+      this.highlightedClubs.includes(club.club_name)
+    );
+    const rest = filtered.filter(club =>
+      !this.highlightedClubs.includes(club.club_name)
+    );
+    filtered = [...highlighted, ...rest];
+  }
+
+  if (this.sortOption === 'az') {
+    filtered = [...filtered].sort((a, b) =>
+      a.club_name.localeCompare(b.club_name)
+    );
+  } else if (this.sortOption === 'za') {
+    filtered = [...filtered].sort((a, b) =>
+      b.club_name.localeCompare(a.club_name)
+    );
+  } else if (this.sortOption === 'default') {
+    const highlighted = filtered.filter(club =>
+      this.highlightedClubs.includes(club.club_name)
+    );
+    const rest = filtered.filter(club =>
+      !this.highlightedClubs.includes(club.club_name)
+    );
+    filtered = [...highlighted, ...rest];
+  }
+
+  return filtered;
+}
 
   // ============================================================
   // PAGINACIÓN / SCROLL
@@ -674,9 +683,9 @@ clearSearch(): void {
 
   private async ensureFontLoaded(): Promise<void> {
     try {
-      await document.fonts.load('bold 72px "Podkova"');
-      await document.fonts.load('40px "Podkova"');
-      await document.fonts.ready;
+await document.fonts.load('700 72px "Oswald"');
+await document.fonts.load('400 40px "Inter"');
+await document.fonts.ready;
     } catch {
       // fallback silencioso a serif
     }
@@ -1034,7 +1043,7 @@ clearSearch(): void {
     ctx.rotate(-14 * Math.PI / 180);
     ctx.translate(-w / 2, -h / 2);
 
-    ctx.font = 'bold 46px "Podkova", serif';
+    ctx.font = '600 52px "Oswald", sans-serif';
     ctx.textBaseline = 'middle';
 
     const rowHeight = 90;
@@ -1113,12 +1122,12 @@ clearSearch(): void {
 
     ctx.textAlign = 'center';
     ctx.fillStyle = textColor;
-    ctx.font = 'bold 68px "Podkova", serif';
-    this.wrapText(ctx, club.club_name.toUpperCase(), w / 2, bannerY + bannerHeight * 0.42, w - 120, 74);
+    ctx.font = '700 80px "Oswald", sans-serif';
+    this.wrapText(ctx, club.club_name.toUpperCase(), w / 2, bannerY + bannerHeight * 0.42, w - 120, 86);
 
-    ctx.font = '40px "Podkova", serif';
-    ctx.globalAlpha = 0.85;
-    ctx.fillText(club.city_country, w / 2, bannerY + bannerHeight * 0.85);
+ctx.font = '500 38px "Inter", sans-serif';
+ctx.globalAlpha = 0.85;
+ctx.fillText(club.city_country, w / 2, bannerY + bannerHeight * 0.85);
     ctx.globalAlpha = 1;
   }
 
@@ -1279,6 +1288,7 @@ onSearchFocus(): void {
 
 selectSuggestion(club: any): void {
   this.searchTerm = club.club_name;
+  this._exactClub = club.club_name;
   this.closeSuggestions();
 }
 
