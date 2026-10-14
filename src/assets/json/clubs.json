@@ -4165,7 +4165,7 @@
   },
   {
     "club_name": "Treviso FCB",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3c/Treviso_FBC_1993_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/54/Treviso_FBC_1993_logo.svg/250px-Treviso_FBC_1993_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Treviso, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Treviso_FBC_1993"
   },
@@ -5047,12 +5047,12 @@
   },
   {
     "club_name": "US Mondorf-Les-Bains",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/24/US_Mondorf-les-Bains.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/13/US_Mondorf-les-Bains_logo.svg/250px-US_Mondorf-les-Bains_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Mondorf-les-Bains, Luxembourg",
     "wiki_url": "https://en.wikipedia.org/wiki/US_Mondorf-les-Bains"
   },
   {
-    "club_name": "LASK",
+    "club_name": "LASK Linz",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzVaNVv9YAkupxjcgM01RktahjDJe7hk5vvJa7y9eJo5RxGjs-bzF_OOGF6U7ZBruSpHFnhIZ4GFw6ZujT3ThG-Q06nDk91DTlPvQAabw_nAeISxAB9BrNmsvgCCcegQm9bKG8HMmCKMSTTUTNzoJy-ZXdbyPAAeyyHImY1wHdFMtdsyt26OAli7bGFBo/s256/LASK256x.png",
     "city_country": "Linz, Austria",
     "wiki_url": "https://en.wikipedia.org/wiki/LASK"
@@ -5881,9 +5881,9 @@
   },
   {
     "club_name": "AC Crema",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d6/AC_Crema_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/76/AC_Crema_1908_logo.svg/250px-AC_Crema_1908_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Crema, Italy",
-    "wiki_url": "https://en.wikipedia.org/wiki/AC_Crema"
+    "wiki_url": "https://en.wikipedia.org/wiki/AC_Crema_1908"
   },
   {
     "club_name": "Dolomiti Bellunesi",
@@ -7789,7 +7789,7 @@
     },
         {
         "club_name": "FK TransINVEST",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f9/FK_TransINVEST_logo.png",
+        "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e0/FK_TransINVEST_logo.svg/250px-FK_TransINVEST_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
         "city_country": "Vilnius, Lithuania",
         "wiki_url": "https://en.wikipedia.org/wiki/FK_TransINVEST"
     },
@@ -7813,7 +7813,7 @@
     },
     {
         "club_name": "Džiugas Telšiai",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/ec/Dziugas.png",
+        "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/6a/FC_D%C5%BEiugas_Tel%C5%A1iai_logo.svg/330px-FC_D%C5%BEiugas_Tel%C5%A1iai_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
         "city_country": "Telšiai, Lithuania",
         "wiki_url": "https://en.wikipedia.org/wiki/FC_D%C5%BEiugas_Tel%C5%A1iai"
     },
@@ -7831,13 +7831,13 @@
     },
     {
         "club_name": "FK Banga Gargždai",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/3f/FK_Banga_Gargzdai.png",
+        "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b7/FK_Banga_Garg%C5%BEdai_logo.svg/250px-FK_Banga_Garg%C5%BEdai_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
         "city_country": "Gargždai, Lithuania",
         "wiki_url": "https://en.wikipedia.org/wiki/FK_Banga_Garg%C5%BEdai"
     },
     {
         "club_name": "FA Šiauliai",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/ca/FA_%C5%A0iauliai_logo.png",
+        "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a5/FA_%C5%A0iauliai_logo.svg/250px-FA_%C5%A0iauliai_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
         "city_country": "Šiauliai, Lithuania",
         "wiki_url": "https://en.wikipedia.org/wiki/FA_%C5%A0iauliai"
     },
@@ -7861,25 +7861,25 @@
     },
     {
         "club_name": "FK Tukums 2000",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/07/FK_Tukums_2000.png",
+        "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3c/FK_Tukums_2000_logo.svg/250px-FK_Tukums_2000_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
         "city_country": "Tukums, Latvia",
         "wiki_url": "https://en.wikipedia.org/wiki/FK_Tukums_2000"
     },
     {
         "club_name": "FK Auda",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/be/FK_Auda_logo.png",
+        "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/27/FK_Auda_logo.svg/250px-FK_Auda_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
         "city_country": "Riga, Latvia",
         "wiki_url": "https://en.wikipedia.org/wiki/FK_Auda"
     },
     {
         "club_name": "BFC Daugavpils",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/34/BFC_Daugavpils.png",
+        "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/50/BFC_Daugavpils_logo.svg/250px-BFC_Daugavpils_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
         "city_country": "Daugavpils, Latvia",
         "wiki_url": "https://en.wikipedia.org/wiki/BFC_Daugavpils"
     },
     {
         "club_name": "SK Super Nova",
-        "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/b3/SK_Super_Nova_logo_2024.png",
+        "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e6/SK_Super_Nova_logo.svg/250px-SK_Super_Nova_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
         "city_country": "Riga, Latvia",
         "wiki_url": "https://en.wikipedia.org/wiki/SK_Super_Nova"
     },
@@ -10207,7 +10207,7 @@
   },
     {
     "club_name": "Victoria Rosport",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d0/FC_Victoria_Rosport.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e4/FC_Victoria_Rosport_logo.svg/250px-FC_Victoria_Rosport_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Rosport, Luxembourg",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Victoria_Rosport"
   },
@@ -10219,7 +10219,7 @@
   },
   {
     "club_name": "UNA Strassen",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/5b/FC_UNA_Strassen.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f5/FC_UNA_Strassen_logo.svg/250px-FC_UNA_Strassen_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Strassen, Luxembourg",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_UNA_Strassen"
   },
@@ -10267,7 +10267,7 @@
   },
   {
     "club_name": "UN Käerjéng 97",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/UN_K%C3%A4erj%C3%A9ng_97_logo.png/120px-UN_K%C3%A4erj%C3%A9ng_97_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/bc/UN_K%C3%A4erj%C3%A9ng_97_logo.svg/250px-UN_K%C3%A4erj%C3%A9ng_97_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Bascharage, Luxembourg",
     "wiki_url": "https://en.wikipedia.org/wiki/UN_K%C3%A4erj%C3%A9ng_97"
   },
@@ -10752,14 +10752,14 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Harju_JK_Laagri"
   },
   {
-    "club_name": "Kuressaare",
+    "club_name": "FC Kuressaare",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Kuressaare.png/250px-Kuressaare.png",
     "city_country": "Kuressaare, Estonia",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Kuressaare"
   },
   {
-    "club_name": "Narva Trans",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/JK_Narva_Trans_Logo.png/250px-JK_Narva_Trans_Logo.png",
+    "club_name": "JK Narva Trans",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/23/JK_Narva_Trans_logo.svg/330px-JK_Narva_Trans_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Narva, Estonia",
     "wiki_url": "https://en.wikipedia.org/wiki/JK_Narva_Trans"
   },
@@ -11293,7 +11293,7 @@
   },
     {
     "club_name": "SC Aubagne Air Bel",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/SC_Aubagne_Air_Bel_logo.png/250px-SC_Aubagne_Air_Bel_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/0c/SC_Aubagne_Air_Bel_logo.svg/330px-SC_Aubagne_Air_Bel_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Aubagne, France",
     "wiki_url": "https://en.wikipedia.org/wiki/SC_Aubagne_Air_Bel"
   },
@@ -12253,13 +12253,13 @@
   },
   {
     "club_name": "Fram",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c0/Knattspyrnuf%C3%A9lagi%C3%B0_Fram.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5b/Knattspyrnuf%C3%A9lagi%C3%B0_Fram_logo.svg/250px-Knattspyrnuf%C3%A9lagi%C3%B0_Fram_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Reykjavík, Iceland",
     "wiki_url": "https://en.wikipedia.org/wiki/Knattspyrnuf%C3%A9lagi%C3%B0_Fram"
   },
   {
     "club_name": "ÍA Akranes",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/17/AkranessLogo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c6/%C3%8D%C3%BEr%C3%B3ttabandalag_Akraness_logo.svg/250px-%C3%8D%C3%BEr%C3%B3ttabandalag_Akraness_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Akranes, Iceland",
     "wiki_url": "https://en.wikipedia.org/wiki/%C3%8D%C3%BEr%C3%B3ttabandalag_Akraness"
   },
@@ -12271,7 +12271,7 @@
   },
   {
     "club_name": "KR Reykjavík",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/56/KR_Reykjav%C3%ADk.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/94/Knattspyrnuf%C3%A9lag_Reykjav%C3%ADkur_logo.svg/250px-Knattspyrnuf%C3%A9lag_Reykjav%C3%ADkur_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Reykjavík, Iceland",
     "wiki_url": "https://en.wikipedia.org/wiki/Knattspyrnuf%C3%A9lag_Reykjav%C3%ADkur"
   },
@@ -12301,7 +12301,7 @@
   },
      {
     "club_name": "Beitar Jerusalem",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Beitar_Jerusalem.png/250px-Beitar_Jerusalem.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/bd/Beitar_Jerusalem_F.C._logo.svg/250px-Beitar_Jerusalem_F.C._logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Jerusalem, Israel",
     "wiki_url": "https://en.wikipedia.org/wiki/Beitar_Jerusalem_F.C."
   },
@@ -12312,7 +12312,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Bnei_Sakhnin_F.C."
   },
   {
-    "club_name": "F.C. Ashdod",
+    "club_name": "FC Ashdod",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/FC_Ashdod.svg/250px-FC_Ashdod.svg.png",
     "city_country": "Ashdod, Israel",
     "wiki_url": "https://en.wikipedia.org/wiki/F.C._Ashdod"
@@ -12331,7 +12331,7 @@
   },
   {
     "club_name": "Ironi Kiryat Shmona",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Hapoel_Ironi_Kiryat_Shmona_badge.png/250px-Hapoel_Ironi_Kiryat_Shmona_badge.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a0/Hapoel_Ironi_Kiryat_Shmona_F.C._logo.svg/250px-Hapoel_Ironi_Kiryat_Shmona_F.C._logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Kiryat Shmona, Israel",
     "wiki_url": "https://en.wikipedia.org/wiki/Hapoel_Ironi_Kiryat_Shmona_F.C."
   },
@@ -12469,7 +12469,7 @@
   },
   { 
     "club_name": "Guidonia Montecelio", 
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Guidonia_Montecelio_1937_FC_logo.png/250px-Guidonia_Montecelio_1937_FC_logo.png", 
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d7/Guidonia_Montecelio_1937_FC_logo.svg/250px-Guidonia_Montecelio_1937_FC_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail", 
     "city_country": "Guidonia Montecelio, Italy", 
     "wiki_url": "https://en.wikipedia.org/wiki/Guidonia_Montecelio_1937_FC" 
   },
@@ -12553,21 +12553,15 @@
   },
     {
     "club_name": "EIF IF",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Eken%C3%A4s_Idrottsf%C3%B6rening.png/250px-Eken%C3%A4s_Idrottsf%C3%B6rening.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a9/Eken%C3%A4s_IF_logo.svg/330px-Eken%C3%A4s_IF_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Raseborg, Finland",
     "wiki_url": "https://en.wikipedia.org/wiki/Eken%C3%A4s_IF"
   },
   {
     "club_name": "Jippo Joensuu",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/22/JIPPO.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3e/Jippo_logo.svg/250px-Jippo_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Joensuu, Finland",
     "wiki_url": "https://en.wikipedia.org/wiki/Jippo"
-  },
-  {
-    "club_name": "JäPS",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura.png/250px-J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura.png",
-    "city_country": "Järvenpää, Finland",
-    "wiki_url": "https://en.wikipedia.org/wiki/J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura"
   },
   {
     "club_name": "FC Lahti",
@@ -13213,13 +13207,13 @@
   },
   {
     "club_name": "Moss FK",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Moss_FK.png/250px-Moss_FK.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/06/Moss_FK_logo.svg/250px-Moss_FK_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Moss, Norway",
     "wiki_url": "https://en.wikipedia.org/wiki/Moss_FK"
   },
   {
     "club_name": "Odd BK",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f3/Odds_BK_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/34/Odds_BK_logo.svg/250px-Odds_BK_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Skien, Norway",
     "wiki_url": "https://en.wikipedia.org/wiki/Odds_BK"
   },
@@ -13267,7 +13261,7 @@
   },
     {
     "club_name": "Araz-Naxçıvan",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Araz-Nax%C3%A7%C4%B1van_PFK_%28logo%29.png/250px-Araz-Nax%C3%A7%C4%B1van_PFK_%28logo%29.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5d/Araz-Nax%C3%A7%C4%B1van_PFK_logo.svg/250px-Araz-Nax%C3%A7%C4%B1van_PFK_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Nakhchivan, Azerbaijan",
     "wiki_url": "https://en.wikipedia.org/wiki/Araz-Nax%C3%A7%C4%B1van_PFK"
   },
@@ -13279,7 +13273,7 @@
   },
   {
     "club_name": "Kapaz PFK",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Kapaz_PFK_logo.png/250px-Kapaz_PFK_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/9d/Kapaz_PFK_logo.svg/250px-Kapaz_PFK_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Ganja, Azerbaijan",
     "wiki_url": "https://en.wikipedia.org/wiki/Kapaz_PFK"
   },
@@ -14725,7 +14719,7 @@
   },
   {
     "club_name": "Anápolis FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/An%C3%A1polis_Futebol_Clube_logo.svg/250px-An%C3%A1polis_Futebol_Clube_logo.svg.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/An%C3%A1polis_Futebol_Clube_logo_%28official%29.svg/250px-An%C3%A1polis_Futebol_Clube_logo_%28official%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Anápolis, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/An%C3%A1polis_Futebol_Clube"
   },
@@ -14772,8 +14766,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Guarani_FC"
   },
   {
-    "club_name": "Itabaiana",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/AO_Itabaiana_logo.png/250px-AO_Itabaiana_logo.png",
+    "club_name": "AO Itabaiana",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Associa%C3%A7%C3%A3o_Ol%C3%ADmpica_de_Itabaiana_logo.svg/250px-Associa%C3%A7%C3%A3o_Ol%C3%ADmpica_de_Itabaiana_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Itabaiana, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Ol%C3%ADmpica_de_Itabaiana"
   },
@@ -15211,7 +15205,7 @@
   },
     {
     "club_name": "Audax Italiano",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Audax_Italiano_Escudo.png/250px-Audax_Italiano_Escudo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e3/Audax_Italiano_logo.svg/250px-Audax_Italiano_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Santiago, Chile",
     "wiki_url": "https://en.wikipedia.org/wiki/Audax_Italiano"
   },
@@ -18877,7 +18871,7 @@
   },
   {
     "club_name": "Limavady United",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Limavady_United_FC_logo.png/250px-Limavady_United_FC_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/63/Limavady_United_F.C_logo.svg/250px-Limavady_United_F.C_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Limavady, Northern Ireland",
     "wiki_url": "https://en.wikipedia.org/wiki/Limavady_United_F.C."
   },
@@ -19237,7 +19231,7 @@
   },
   {
     "club_name": "FC Koeppchen Wormeldange",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/FC_Koeppchen_Wormeldange.png/250px-FC_Koeppchen_Wormeldange.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/36/FC_Koeppchen_Wormeldange_logo.svg/250px-FC_Koeppchen_Wormeldange_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Wormeldange, Luxembourg",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Koeppchen_Wormeldange"
   },
@@ -19273,7 +19267,7 @@
   },
   {
     "club_name": "Wiltz 71",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/F.C._Wiltz_71.png/250px-F.C._Wiltz_71.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/15/FC_Wiltz_71_logo.svg/250px-FC_Wiltz_71_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Wiltz, Luxembourg",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Wiltz_71"
   },
@@ -19363,13 +19357,13 @@
   },
   {
     "club_name": "Pro Palazzolo SSD",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Pro_Palazzolo_SSD_logo.png/250px-Pro_Palazzolo_SSD_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e1/Pro_Palazzolo_SSD_logo.svg/250px-Pro_Palazzolo_SSD_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Palazzolo sull'Oglio, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Pro_Palazzolo_SSD"
   },
   {
     "club_name": "Correggese Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f9/S.S.D._Correggese_Calcio_1948.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/19/SSD_Correggese_Calcio_1948_logo.svg/250px-SSD_Correggese_Calcio_1948_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Correggio, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/SSD_Correggese_Calcio_1948"
   },
@@ -19387,13 +19381,13 @@
   },
   {
     "club_name": "ASD Sasso Marconi",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/6e/A.S.D._Sasso_Marconi_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3c/ASD_Sasso_Marconi_1924_logo.svg/250px-ASD_Sasso_Marconi_1924_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Sasso Marconi, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/ASD_Sasso_Marconi_1924"
   },
   {
     "club_name": "ACD Sant'Angelo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f1/A.C.D._Sant%27Angelo_1907.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e8/ACD_Sant%27Angelo_1907_logo.svg/250px-ACD_Sant%27Angelo_1907_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Sant'Angelo Lodigiano, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/ACD_Sant%27Angelo_1907"
   },
@@ -19429,7 +19423,7 @@
   },
   {
     "club_name": "Aquila 1902 Montevarchi",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/1/1b/Montevarchi_Calcio_Aquila_1902_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Aquila_1902_Montevarchi.png/250px-Aquila_1902_Montevarchi.png?utm_source=it.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Montevarchi, Italy",
     "wiki_url": "https://it.wikipedia.org/wiki/Aquila_1902_Montevarchi"
   },
@@ -19453,13 +19447,13 @@
   },
   {
     "club_name": "FC Scandicci 1908",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Scandicci_Calcio.png/250px-Scandicci_Calcio.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a9/Scandicci_Calcio_logo.svg/250px-Scandicci_Calcio_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Scandicci, Italy",
     "wiki_url": "https://it.wikipedia.org/wiki/Football_Club_Scandicci_1908"
   },
   {
     "club_name": "SC Trestina",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/S.C._Trestina_A.S.D.png/250px-S.C._Trestina_A.S.D.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/48/SC_Trestina_ASD_logo.svg/250px-SC_Trestina_ASD_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Trestina, Italy",
     "wiki_url": "https://it.wikipedia.org/wiki/SC_Trestina"
   },
@@ -19489,7 +19483,7 @@
   },
   {
     "club_name": "L’Aquila 1927",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/81/L%27Aquila_1927_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e6/L%27Aquila_1927_logo.svg/250px-L%27Aquila_1927_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "L'Aquila, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/L%27Aquila_1927"
   },
@@ -19501,7 +19495,7 @@
   },
   {
     "club_name": "AS Ostiamare",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/AS_Ostia_Mare_Lido_Calcio_logo.png/250px-AS_Ostia_Mare_Lido_Calcio_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/75/AS_Ostia_Mare_Lido_Calcio_logo.svg/250px-AS_Ostia_Mare_Lido_Calcio_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Rome, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/AS_Ostia_Mare_Lido_Calcio"
   },
@@ -22340,7 +22334,7 @@
   },
   {
     "club_name": "FC Avenir Beggen",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Avenir-Beggen.png/250px-Avenir-Beggen.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f1/FC_Avenir_Beggen_logo.svg/250px-FC_Avenir_Beggen_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Beggen, Luxembourg",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Avenir_Beggen"
   },
@@ -23156,7 +23150,7 @@
     },
     {
       "club_name": "Al-Minaa SC",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Al-Minaa_SC_logo.svg/250px-Al-Minaa_SC_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/cd/Al-Minaa_SC_logo_%282026%29.svg/250px-Al-Minaa_SC_logo_%282026%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "city_country": "Basra, Iraq",
       "wiki_url": "https://en.wikipedia.org/wiki/Al-Minaa_SC"
     },
@@ -26109,9 +26103,9 @@
   },
   {
     "club_name": "MŠK Novohrad Lučenec",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Msk_novohrad_lucenec_logo.png/250px-Msk_novohrad_lucenec_logo.png",
+    "club_logo": "https://img.a.transfermarkt.technology/wappen/head/55898.png?lm=1789462725",
     "city_country": "Lučenec, Slovakia",
-    "wiki_url": "https://en.wikipedia.org/wiki/M%C5%A0K_Novohrad_Lu%C4%8Denec"
+    "wiki_url": "https://cs.wikipedia.org/wiki/M%C5%A0K_Novohrad_Lu%C4%8Denec"
   },
   {
     "club_name": "MFK Dolný Kubín",
@@ -30303,7 +30297,7 @@
   },
   {
     "club_name": "FC Jazz",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/FC_Jazz_logo.png/250px-FC_Jazz_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f1/FC_Jazz_logo.svg/250px-FC_Jazz_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Pori, Finland",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Jazz"
   },
@@ -30321,7 +30315,7 @@
   },
   {
     "club_name": "Mikkelin Palloilijat",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Mikkelin_Palloilijat_logo.png/250px-Mikkelin_Palloilijat_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/7b/Mikkelin_Palloilijat_logo.svg/250px-Mikkelin_Palloilijat_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Mikkeli, Finland",
     "wiki_url": "https://en.wikipedia.org/wiki/Mikkelin_Palloilijat"
   },
@@ -30657,7 +30651,7 @@
   },
   {
     "club_name": "HaPK Edustus",
-    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5orkmLPG-Oao0zNloqUgdt21KbE8w3qkz-g&s",
+    "club_logo": "https://792ceb94ed.clvaw-cdnwnd.com/0e49e860dc04e661838633ff35168ba6/200000032-2091520917/450/logo%20vihr.webp?ph=792ceb94ed",
     "city_country": "Hamina, Finland",
     "wiki_url": "https://hapk.fi/hapk-edustus/"
   },
@@ -31341,13 +31335,13 @@
   },
   {
     "club_name": "Järvenpään Palloseura",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura.png/250px-J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d4/J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura_logo.svg/250px-J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Järvenpää, Finland",
     "wiki_url": "https://en.wikipedia.org/wiki/J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura"
   },
   {
     "club_name": "Käpylän Pallo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/93/K%C3%A4pyl%C3%A4n_Pallo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/52/K%C3%A4pyl%C3%A4n_Pallo_logo.svg/250px-K%C3%A4pyl%C3%A4n_Pallo_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Helsinki, Finland",
     "wiki_url": "https://en.wikipedia.org/wiki/K%C3%A4pyl%C3%A4n_Pallo"
   },
@@ -31545,7 +31539,7 @@
   },
     {
     "club_name": "Añorga KKE",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/A%C3%B1orga_KKE.png/250px-A%C3%B1orga_KKE.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/05/A%C3%B1orga_KKE.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "San Sebastián, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/A%C3%B1orga_KKE"
   },
@@ -32607,7 +32601,7 @@
   },
   {
     "club_name": "TJ Start Brno",
-    "club_logo": "https://www.start-brno.cz/images/logo-tj-start-brno.png",
+    "club_logo": "https://images.seeklogo.com/logo-png/51/2/tj-start-brno-logo-png_seeklogo-512874.png",
     "city_country": "Brno, Czech Republic",
     "wiki_url": "https://cs.wikipedia.org/wiki/TJ_Start_Brno"
   },
@@ -34593,25 +34587,25 @@
   },
   {
     "club_name": "Cjarlins Muzane SSD",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/fd/A.S.D._Cjarlins_Muzane_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2e/Cjarlins_Muzane_SSD_logo.svg/250px-Cjarlins_Muzane_SSD_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Carlino, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Cjarlins_Muzane_SSD"
   },
   {
     "club_name": "FCD Conegliano 1907",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/FCD_Conegliano_Calcio_1907_logo.png/250px-FCD_Conegliano_Calcio_1907_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/00/FCD_Conegliano_Calcio_1907_logo.svg/250px-FCD_Conegliano_Calcio_1907_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Conegliano, Italy",
     "wiki_url": "https://it.wikipedia.org/wiki/Conegliano_1907"
   },
   {
     "club_name": "AC Este",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/87/A.C._Este_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/43/AC_Este_logo.svg/250px-AC_Este_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Este, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/AC_Este"
   },
   {
     "club_name": "Luparense FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Luparense_F.C._%28football%29.png/250px-Luparense_F.C._%28football%29.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/82/Luparense_FC_%28football%29_logo.svg/250px-Luparense_FC_%28football%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "San Martino di Lupari, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Luparense_FC_(football)"
   },
@@ -36453,7 +36447,7 @@
   },
   {
     "club_name": "Esporte Clube Santo André",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/dd/Logo_ecsa.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3b/Esporte_Clube_Santo_Andr%C3%A9_logo.svg/250px-Esporte_Clube_Santo_Andr%C3%A9_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Santo André, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Esporte_Clube_Santo_Andr%C3%A9"
   },
@@ -37020,5 +37014,17 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/lt/f/f3/MGM_Khadim.png?utm_source=lt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "city_country": "Sar-e Pol, Afghanistan",
     "wiki_url": "https://lt.wikipedia.org/wiki/MGM_Khadim"
+  },
+  {
+    "club_name": "FC Šiauliai (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e5/New_FK_%C5%A0iauliai_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Šiauliai, Lithuania",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_%C5%A0iauliai"
+  },
+  {
+    "club_name": "FK Kareda (Defunct)",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/a/ab/KaredaFK.gif?utm_source=lt.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Kaunas, Lithuania",
+    "wiki_url": "https://lt.wikipedia.org/wiki/FK_Kareda"
   }
 ]

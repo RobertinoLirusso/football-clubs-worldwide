@@ -145,7 +145,7 @@
           [class.empty]="!selectedColor"
           [style.background]="selectedColor ? colorHex(selectedColor) : null"></span>
     {{ selectedColor ? colorLabel(selectedColor) : 'Color' }}
-    <i *ngIf="isAnalyzingColors" class="fa fa-spinner fa-spin"></i>
+    <i *ngIf="isAnalyzingColors && selectedColor" class="fa fa-spinner fa-spin"></i>
     <i class="fa fa-caret-down caret"></i>
   </button>
 
@@ -437,7 +437,9 @@
 
     <div class="club-modal-body">
 
-<div class="club-crest" [class.failed]="failedLogos.has(selectedClub.club_name)">
+<div class="club-crest"
+     (pointermove)="onCrestMove($event)"
+     (pointerleave)="onCrestLeave($event)">
   <img *ngIf="!failedLogos.has(selectedClub.club_name)"
        [src]="selectedClub.club_logo"
        [alt]="displayName(selectedClub)"
@@ -446,6 +448,8 @@
   <div class="crest-fallback" *ngIf="failedLogos.has(selectedClub.club_name)">
     <i class="fa fa-shield"></i>
   </div>
+
+  <span class="crest-glare" aria-hidden="true"></span>
 </div>
 
       <div class="club-info">

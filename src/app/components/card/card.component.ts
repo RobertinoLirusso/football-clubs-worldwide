@@ -64,13 +64,26 @@ colorMenuOpen = false;
 isAnalyzingColors = false;
 private failedColors = new Set<string>();
 private _selectedColor = '';
+private colorAnalysisId = 0;
+
 
 get selectedColor(): string { return this._selectedColor; }
 set selectedColor(v: string) {
   this._selectedColor = v;
   this.resetPaging();
-  if (v) this.analyzeColors();
+  if (v) {
+    this.analyzeColors();
+  } else {
+    this.cancelColorAnalysis();
+  }
 }
+
+private cancelColorAnalysis(): void {
+  this.colorAnalysisId++;
+  this.isAnalyzingColors = false; // apaga el spinner al instante
+}
+
+
 
 private _showDefunctOnly = false;
 
@@ -1221,8 +1234,8 @@ selectColor(color: string): void {
 private loadColorCache(): void {
   try {
     localStorage.removeItem('clubColors');
-    localStorage.removeItem('clubColors_v2'); // limpia cache anterior
-    this.clubColors = JSON.parse(localStorage.getItem('clubColors_v3') || '{}');
+    localStorage.removeItem('clubColors_v3'); // limpia cache anterior
+    this.clubColors = JSON.parse(localStorage.getItem('clubColors_v4') || '{}');
   } catch {
     this.clubColors = {};
   }
@@ -1230,38 +1243,47 @@ private loadColorCache(): void {
 
 private saveColorCache(): void {
   try {
-    localStorage.setItem('clubColors_v3', JSON.stringify(this.clubColors));
+    localStorage.setItem('clubColors_v4', JSON.stringify(this.clubColors));
   } catch {}
 }
 
 
 private async analyzeColors(): Promise<void> {
   if (this.isAnalyzingColors) return;
+
   const pending = this.clubs.filter(
     c => !this.clubColors[c.club_name] && !this.failedColors.has(c.club_name)
   );
   if (!pending.length) return;
 
+  const jobId = ++this.colorAnalysisId;
   this.isAnalyzingColors = true;
   const batchSize = 8;
 
-  for (let i = 0; i < pending.length; i += batchSize) {
-    await Promise.all(
-      pending.slice(i, i + batchSize).map(async club => {
-        try {
-          const img = await this.loadImageForCanvas(club.club_logo);
-          const color = this.classifyColor(img);
-          if (!color.length) this.failedColors.add(club.club_name);
-          else this.clubColors[club.club_name] = color;
-        } catch {
-          this.failedColors.add(club.club_name);
-        }
-      })
-    );
-    this.saveColorCache();
-  }
+  try {
+    for (let i = 0; i < pending.length; i += batchSize) {
+      if (jobId !== this.colorAnalysisId) return; // cancelado
 
-  this.isAnalyzingColors = false;
+      await Promise.all(
+        pending.slice(i, i + batchSize).map(async club => {
+          try {
+            const img = await this.loadImageForCanvas(club.club_logo);
+            const color = this.classifyColor(img);
+            if (!color.length) this.failedColors.add(club.club_name);
+            else this.clubColors[club.club_name] = color;
+          } catch {
+            this.failedColors.add(club.club_name);
+          }
+        })
+      );
+      this.saveColorCache();
+    }
+  } finally {
+    // solo el job vigente apaga el flag
+    if (jobId === this.colorAnalysisId) {
+      this.isAnalyzingColors = false;
+    }
+  }
 }
 
 private classifyColor(img: HTMLImageElement): string[] {
@@ -1276,7 +1298,7 @@ private classifyColor(img: HTMLImageElement): string[] {
   try {
     data = ctx.getImageData(0, 0, size, size).data;
   } catch {
-    throw new Error('canvas-blocked'); // se reintenta una vez por sesión
+    throw new Error('canvas-blocked');
   }
 
   const counts: Record<string, number> = {};
@@ -1287,50 +1309,60 @@ private classifyColor(img: HTMLImageElement): string[] {
     if (data[i + 3] < 200) continue;
     total++;
     const { h, s, l } = this.rgbToHsl(data[i], data[i + 1], data[i + 2]);
-    const color = this.bucketColor(h, s, l);
-    if (color) counts[color]++;
+    const bucket = this.bucketColor(h, s, l);
+    if (bucket) counts[bucket]++;
   }
 
   if (!total) return [];
 
+  // Negro/blanco necesitan más presencia real (contornos no cuentan tanto)
+  const minRatio = (name: string) =>
+    name === 'black' || name === 'white' ? 0.22 : 0.14;
+
   return Object.entries(counts)
-    .filter(([, n]) => n / total >= 0.12)
+    .filter(([name, n]) => n / total >= minRatio(name))
     .sort((a, b) => b[1] - a[1])
     .slice(0, 3)
     .map(([name]) => name);
 }
 
 private bucketColor(h: number, s: number, l: number): string | null {
-  // Negro
-  if (l < 0.15) return 'black';
+  // Negro: solo oscuro Y poco saturado.
+  // Navy (azul oscuro saturado) NO debe ser negro.
+  if (l < 0.10) return 'black';
+  if (l < 0.18 && s < 0.22) return 'black';
 
   // Blanco
-  if (l > 0.9 || (l > 0.82 && s < 0.2)) return 'white';
+  if (l > 0.92 || (l > 0.85 && s < 0.18)) return 'white';
 
-  // Gris: ignorar (ruido en escudos)
-  if (s < 0.15) return null;
+  // Gris neutro → ignorar
+  if (s < 0.16) {
+    if (l < 0.22) return 'black';
+    if (l > 0.80) return 'white';
+    return null;
+  }
 
-  // Rojo
-  if (h < 15 || h >= 345) return 'red';
+  // --- Croma por matiz ---
+  if (h < 12 || h >= 348) return 'red';
+  if (h < 40) return 'orange';
+  if (h < 68) return 'yellow';
+  if (h < 160) return 'green';
 
-  // Naranja
-  if (h < 45) return 'orange';
+  // Celeste: cian / azul claro (≈ 160–205), luminosidad media-alta
+  // Azul: azul medio-profundo (≈ 205–255), luminosidad media-baja
+  if (h < 205) {
+    // zona cian–celeste
+    if (l < 0.28) return 'blue'; // cian muy oscuro → azul
+    return 'skyblue';
+  }
 
-  // Amarillo
-  if (h < 70) return 'yellow';
+  if (h < 255) {
+    // zona azul
+    if (l > 0.60) return 'skyblue'; // azul muy claro → celeste
+    return 'blue';
+  }
 
-  // Verde
-  if (h < 170) return 'green';
-
-  // Celeste
-  if (h < 215) return 'skyblue';
-
-  // Azul / celeste claro
-  if (h < 260) return l > 0.55 ? 'skyblue' : 'blue';
-
-  // Violeta
   if (h < 330) return 'purple';
-
   return 'red';
 }
 
@@ -1506,6 +1538,25 @@ clearAllFilters(): void {
   this.showFavoritesOnly = false;
   this.showDefunctOnly = false;
   this.isCountryModalOpen = false;
+}
+
+onCrestMove(e: PointerEvent): void {
+  if (e.pointerType !== 'mouse') return;
+  const el = e.currentTarget as HTMLElement;
+  const r = el.getBoundingClientRect();
+  const x = (e.clientX - r.left) / r.width;
+  const y = (e.clientY - r.top) / r.height;
+
+  el.style.setProperty('--ry', `${(x - 0.5) * 18}deg`);
+  el.style.setProperty('--rx', `${(0.5 - y) * 18}deg`);
+  el.style.setProperty('--mx', `${x * 100}%`);
+  el.style.setProperty('--my', `${y * 100}%`);
+}
+
+onCrestLeave(e: PointerEvent): void {
+  const el = e.currentTarget as HTMLElement;
+  el.style.setProperty('--rx', '0deg');
+  el.style.setProperty('--ry', '0deg');
 }
 
 }

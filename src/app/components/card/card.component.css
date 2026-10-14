@@ -1809,3 +1809,73 @@ footer p {
     border: 2px solid transparent;
   }
 }
+
+/* ============================================================
+   ESCUDO DEL MODAL: INCLINACIÓN 3D + REFLEJO + FLOTACIÓN
+   ============================================================ */
+
+.club-crest {
+  --rx: 0deg;
+  --ry: 0deg;
+  --mx: 50%;
+  --my: 50%;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: perspective(700px) rotateX(var(--rx)) rotateY(var(--ry));
+  transition: transform 0.18s ease-out, box-shadow 0.3s ease;
+  will-change: transform;
+}
+
+.club-crest:hover {
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 1),
+    0 0 18px rgba(200, 212, 228, 0.7),
+    0 14px 30px rgba(100, 110, 125, 0.35);
+}
+
+/* El escudo se despega de la card y flota */
+.club-crest img {
+  transform: translateZ(40px);
+  animation: crestFloat 4s ease-in-out infinite;
+}
+
+@keyframes crestFloat {
+  0%, 100% { transform: translateZ(40px) translateY(0); }
+  50%      { transform: translateZ(40px) translateY(-6px); }
+}
+
+/* Reflejo de luz que sigue al cursor */
+.crest-glare {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+  opacity: 0;
+  background: radial-gradient(
+    circle at var(--mx) var(--my),
+    rgba(255, 255, 255, 0.75) 0%,
+    rgba(255, 255, 255, 0.25) 30%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  transition: opacity 0.25s ease;
+}
+
+.club-crest:hover .crest-glare {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .club-crest {
+    transform: none;
+    transition: none;
+  }
+
+  .club-crest img {
+    animation: none;
+    transform: none;
+  }
+
+  .crest-glare {
+    display: none;
+  }
+}
