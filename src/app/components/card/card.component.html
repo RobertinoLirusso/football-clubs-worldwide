@@ -134,18 +134,41 @@
 
   <span class="chip-divider" aria-hidden="true"></span>
 
-  <div class="color-dots">
+<div class="color-picker">
+  <button type="button"
+          class="chip chip-color"
+          [class.active]="!!selectedColor"
+          aria-haspopup="true"
+          [attr.aria-expanded]="colorMenuOpen"
+          (click)="toggleColorMenu($event)">
+    <span class="swatch"
+          [class.empty]="!selectedColor"
+          [style.background]="selectedColor ? colorHex(selectedColor) : null"></span>
+    {{ selectedColor ? colorLabel(selectedColor) : 'Color' }}
+    <i *ngIf="isAnalyzingColors" class="fa fa-spinner fa-spin"></i>
+    <i class="fa fa-caret-down caret"></i>
+  </button>
+
+  <div class="color-menu" *ngIf="colorMenuOpen" role="menu" (click)="$event.stopPropagation()">
     <button *ngFor="let c of colorGroups"
             type="button"
-            class="color-chip"
+            class="color-option"
+            role="menuitemradio"
+            [attr.aria-checked]="selectedColor === c.value"
             [class.active]="selectedColor === c.value"
-            [style.background]="c.hex"
-            [attr.aria-pressed]="selectedColor === c.value"
-            (click)="selectColor(c.value)"
-            [title]="c.value"></button>
+            (click)="selectColor(c.value); closeColorMenu()">
+      <span class="swatch" [style.background]="c.hex"></span>
+      {{ c.label }}
+    </button>
 
-    <i *ngIf="isAnalyzingColors" class="fa fa-spinner fa-spin color-loading"></i>
+    <button *ngIf="selectedColor"
+            type="button"
+            class="color-clear"
+            (click)="selectedColor = ''; closeColorMenu()">
+      <i class="fa fa-times"></i> Clear color
+    </button>
   </div>
+</div>
 </div>
 
 <!-- Filtros activos + orden + vista -->
@@ -168,6 +191,11 @@
     <button type="button" class="active-chip" *ngIf="showDefunctOnly" (click)="showDefunctOnly = false">
       Defunct <i class="fa fa-times"></i>
     </button>
+
+    <button type="button" class="active-chip" *ngIf="selectedColor" (click)="selectedColor = ''">
+  <span class="dot" [style.background]="colorHex(selectedColor)"></span>
+  {{ colorLabel(selectedColor) }} <i class="fa fa-times"></i>
+</button>
 
     <button type="button" class="clear-all" *ngIf="activeFilterCount > 1" (click)="clearAllFilters()">
       Clear all

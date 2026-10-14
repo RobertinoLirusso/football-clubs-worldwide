@@ -47,16 +47,20 @@ export class CardComponent implements OnInit {
   loadedLogos = new Set<string>();
   failedLogos = new Set<string>();
 
-  colorGroups = [
-  { value: 'red',    hex: '#d62839' },
-  { value: 'orange', hex: '#f28c28' },
-  { value: 'yellow', hex: '#f5d90a' },
-  { value: 'green',  hex: '#2e9e4f' },
-  { value: 'blue',   hex: '#1f5fbf' },
-  { value: 'purple', hex: '#7b3fa0' },
-  { value: 'black',  hex: '#111111' },
+colorGroups = [
+  { value: 'red',     label: 'Red',      hex: '#d62839' },
+  { value: 'orange',  label: 'Orange',   hex: '#f28c28' },
+  { value: 'yellow',  label: 'Yellow',   hex: '#f5d90a' },
+  { value: 'green',   label: 'Green',    hex: '#2e9e4f' },
+  { value: 'skyblue', label: 'Sky blue', hex: '#62b6e8' },
+  { value: 'blue',    label: 'Blue',     hex: '#1f5fbf' },
+  { value: 'purple',  label: 'Purple',   hex: '#7b3fa0' },
+  { value: 'white',   label: 'White',    hex: '#ffffff' },
+  { value: 'black',   label: 'Black',    hex: '#111111' },
 ];
-clubColors: Record<string, string> = {};
+
+clubColors: Record<string, string[]> = {};
+colorMenuOpen = false;
 isAnalyzingColors = false;
 private failedColors = new Set<string>();
 private _selectedColor = '';
@@ -95,6 +99,7 @@ set showDefunctOnly(v: boolean) { this._showDefunctOnly = v; this.resetPaging();
   if (this.selectedImage) { this.closeImageModal(); return; }
   if (this.selectedClub) { this.closeModal(); return; }
   if (this.isCountryModalOpen) this.closeCountryModal();
+  if (this.colorMenuOpen) { this.closeColorMenu(); return; }
 }
 
   // Filtros con setter: cualquier cambio vuelve a la primera página / primeros 100
@@ -381,8 +386,10 @@ get allFilteredClubs(): any[] {
     filtered = [...highlighted, ...rest];
   }
 
-  if (this.selectedColor) {
-  filtered = filtered.filter(club => this.clubColors[club.club_name] === this.selectedColor);
+if (this.selectedColor) {
+  filtered = filtered.filter(club =>
+    this.clubColors[club.club_name]?.includes(this.selectedColor)
+  );
 }
 
   return filtered;
@@ -1213,7 +1220,9 @@ selectColor(color: string): void {
 
 private loadColorCache(): void {
   try {
-    this.clubColors = JSON.parse(localStorage.getItem('clubColors') || '{}');
+    localStorage.removeItem('clubColors');
+    localStorage.removeItem('clubColors_v2'); // limpia cache anterior
+    this.clubColors = JSON.parse(localStorage.getItem('clubColors_v3') || '{}');
   } catch {
     this.clubColors = {};
   }
@@ -1221,9 +1230,10 @@ private loadColorCache(): void {
 
 private saveColorCache(): void {
   try {
-    localStorage.setItem('clubColors', JSON.stringify(this.clubColors));
+    localStorage.setItem('clubColors_v3', JSON.stringify(this.clubColors));
   } catch {}
 }
+
 
 private async analyzeColors(): Promise<void> {
   if (this.isAnalyzingColors) return;
@@ -1241,7 +1251,7 @@ private async analyzeColors(): Promise<void> {
         try {
           const img = await this.loadImageForCanvas(club.club_logo);
           const color = this.classifyColor(img);
-          if (color === 'unknown') this.failedColors.add(club.club_name);
+          if (!color.length) this.failedColors.add(club.club_name);
           else this.clubColors[club.club_name] = color;
         } catch {
           this.failedColors.add(club.club_name);
@@ -1254,7 +1264,7 @@ private async analyzeColors(): Promise<void> {
   this.isAnalyzingColors = false;
 }
 
-private classifyColor(img: HTMLImageElement): string {
+private classifyColor(img: HTMLImageElement): string[] {
   const size = 48;
   const canvas = document.createElement('canvas');
   canvas.width = size;
@@ -1266,32 +1276,84 @@ private classifyColor(img: HTMLImageElement): string {
   try {
     data = ctx.getImageData(0, 0, size, size).data;
   } catch {
-    return 'unknown';
+    throw new Error('canvas-blocked'); // se reintenta una vez por sesión
   }
 
-  const counts: Record<string, number> = {
-    red: 0, orange: 0, yellow: 0, green: 0, blue: 0, purple: 0, black: 0,
-  };
+  const counts: Record<string, number> = {};
+  this.colorGroups.forEach(c => (counts[c.value] = 0));
+  let total = 0;
 
   for (let i = 0; i < data.length; i += 4) {
     if (data[i + 3] < 200) continue;
+    total++;
     const { h, s, l } = this.rgbToHsl(data[i], data[i + 1], data[i + 2]);
-
-    if (l < 0.15) { counts['black']++; continue; }
-    if (l > 0.9 || s < 0.2) continue; // blanco y grises no cuentan
-
-    if (h < 15 || h >= 345) counts['red']++;
-    else if (h < 45) counts['orange']++;
-    else if (h < 70) counts['yellow']++;
-    else if (h < 170) counts['green']++;
-    else if (h < 260) counts['blue']++;
-    else counts['purple']++;
+    const color = this.bucketColor(h, s, l);
+    if (color) counts[color]++;
   }
 
-  // El negro solo gana si no hay ningún color con peso propio
-  const { black, ...chromatic } = counts;
-  const [topColor, topCount] = Object.entries(chromatic).sort((a, b) => b[1] - a[1])[0];
-  return topCount > black * 0.5 && topCount > 0 ? topColor : (black > 0 ? 'black' : 'unknown');
+  if (!total) return [];
+
+  return Object.entries(counts)
+    .filter(([, n]) => n / total >= 0.12)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([name]) => name);
+}
+
+private bucketColor(h: number, s: number, l: number): string | null {
+  // Negro
+  if (l < 0.15) return 'black';
+
+  // Blanco
+  if (l > 0.9 || (l > 0.82 && s < 0.2)) return 'white';
+
+  // Gris: ignorar (ruido en escudos)
+  if (s < 0.15) return null;
+
+  // Rojo
+  if (h < 15 || h >= 345) return 'red';
+
+  // Naranja
+  if (h < 45) return 'orange';
+
+  // Amarillo
+  if (h < 70) return 'yellow';
+
+  // Verde
+  if (h < 170) return 'green';
+
+  // Celeste
+  if (h < 215) return 'skyblue';
+
+  // Azul / celeste claro
+  if (h < 260) return l > 0.55 ? 'skyblue' : 'blue';
+
+  // Violeta
+  if (h < 330) return 'purple';
+
+  return 'red';
+}
+
+colorLabel(value: string): string {
+  return this.colorGroups.find(c => c.value === value)?.label ?? value;
+}
+
+colorHex(value: string): string {
+  return this.colorGroups.find(c => c.value === value)?.hex ?? '#cccccc';
+}
+
+toggleColorMenu(event: Event): void {
+  event.stopPropagation();
+  this.colorMenuOpen = !this.colorMenuOpen;
+}
+
+closeColorMenu(): void {
+  this.colorMenuOpen = false;
+}
+
+@HostListener('document:click')
+onDocumentClick(): void {
+  this.colorMenuOpen = false;
 }
 
 private saveFavorites(): void {
