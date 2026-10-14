@@ -4,7 +4,7 @@
 
 :host {
   display: block;
-  overflow-x: clip; /* evita scroll horizontal durante la animación de página */
+  overflow-x: clip;
 }
 
 /* ============================================================
@@ -18,34 +18,8 @@
   padding: 16px 24px;
 }
 
-.action-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.filter-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 15px 20px;
-  gap: 10px;
-}
-
-.promo-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  height: 40px;
-  min-width: 140px;
-}
-
 /* ============================================================
-   CARD — ESTILO NEUTRO/SIMPLE (SIN DORADO, AHORA PLATINADO)
+   CARD — ESTILO PLATINADO
    ============================================================ */
 
 .card {
@@ -54,13 +28,11 @@
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  min-height: 280px; /* ajustá este valor a gusto */
+  min-height: 280px;
   border: 1px solid transparent;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease, opacity 0.2s ease;
   will-change: transform;
   user-select: none;
-
-  /* Cambiado a estilo platinado */
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
     linear-gradient(160deg, #dbe4ea, #bfc3ca 30%, #e5e6e8 60%, #d4d6da 100%) border-box;
@@ -71,17 +43,17 @@
     0 6px 18px rgba(130, 135, 140, 0.17);
 }
 
-/* Franja superior platinada */
 .card::before {
   content: '';
   position: absolute;
-  top: 0; left: 0; right: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #e2e8f0, #bfc9d1, #e5e6e8, #dbe4ea); /* tonos platinados */
+  background: linear-gradient(90deg, #e2e8f0, #bfc9d1, #e5e6e8, #dbe4ea);
   z-index: 2;
 }
 
-/* Textura satinada original (mantenerla, tiene look platino ya) */
 .card::after {
   content: '';
   position: absolute;
@@ -113,14 +85,13 @@
     0 0 8px rgba(170, 180, 190, 0.38),
     inset 0 1px 0 rgba(255, 255, 255, 1),
     0 14px 28px rgba(170, 175, 180, 0.24);
-    z-index: 10;
+  z-index: 10;
 }
 
 .card:hover footer p {
   transform: scale(1.1);
 }
 
-/* Estado: siendo arrastrada */
 .card.is-dragging {
   opacity: 0.35;
   cursor: pointer;
@@ -128,11 +99,10 @@
   box-shadow: none;
 }
 
-/* Estado: target del drop */
 .card.drag-over {
   transform: scale(1.06);
   box-shadow:
-    0 0 0 3px #cfd8dc, /* tono platinado */
+    0 0 0 3px #cfd8dc,
     0 6px 24px rgba(180, 190, 200, 0.22);
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
@@ -140,7 +110,6 @@
   border: 2px solid transparent;
   cursor: grabbing;
 }
-
 
 /* ============================================================
    CARD IMAGE
@@ -208,8 +177,6 @@
   .img { transition: transform 0.3s ease, filter 0.3s ease; }
 }
 
-
-
 .card:hover .img {
   transform: scale(1.08) translateY(-3px);
   filter: brightness(1.08)
@@ -248,7 +215,6 @@
   color: black;
 }
 
-
 /* ============================================================
    FOOTER / NOMBRE DEL CLUB
    ============================================================ */
@@ -273,7 +239,6 @@ footer p {
               background 0.3s ease, -webkit-background-clip 0.3s ease;
 }
 
-
 /* ============================================================
    TYPOGRAPHY
    ============================================================ */
@@ -282,7 +247,6 @@ footer p {
   font-weight: 300;
 }
 
-/* El nombre del club en el modal se verá negro, no gradiente */
 #clubModal .modal-title {
   background: none !important;
   -webkit-background-clip: unset !important;
@@ -292,7 +256,6 @@ footer p {
   font-weight: normal;
 }
 
-/* También por si .modal-title se usa fuera del modal, mantenemos el original */
 .modal-title {
   background: #000000;
   -webkit-background-clip: text;
@@ -305,83 +268,6 @@ footer p {
   font-size: 18px;
   color: black;
 }
-
-.icon {
-  color: white;
-}
-
-
-
-/* ============================================================
-   BUTTONS
-   ============================================================ */
-
-.filter-btn,
-select.filter-btn {
-  color: white;
-  padding: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  background:
-    linear-gradient(#000, #000) padding-box,
-    linear-gradient(160deg, #bdc3c7, #e1e6ed 50%, #eceef2 100%) border-box;
-  border: 2px solid transparent;
-  box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.15),
-    0 2px 8px rgba(100, 110, 130, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
-}
-
-.filter-btn:hover,
-select.filter-btn:hover {
-  background:
-    linear-gradient(#23272a, #23272a) padding-box,
-    linear-gradient(160deg, #e8eaee 0%, #bfc3ca 100%) border-box;
-  box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.25),
-    0 0 8px rgba(180, 190, 200, 0.20),
-    0 4px 12px rgba(160, 170, 175, 0.22);
-}
-
-.clear-btn {
-  background-color: #b22222;
-  color: white;
-  border: none;
-  padding: 8px;
-  font-size: 15px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.clear-btn:hover {
-  background-color: #ff4444;
-}
-
-.action-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  min-width: 110px;
-  padding: 0 12px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-select.filter-btn option {
-  background: #000;
-  color: white;
-}
-
-@media (max-width: 480px) {
-  .cl-simulator-link {
-    font-size: 0.7rem;
-    padding: 5px 10px;
-    gap: 4px;
-  }
-}
-
 
 /* ============================================================
    CONTADOR GLOBAL
@@ -401,7 +287,7 @@ select.filter-btn option {
   font-size: clamp(2.8rem, 9vw, 4.2rem);
   font-weight: 700;
   line-height: 1;
-  font-variant-numeric: tabular-nums; /* evita que el número "salte" mientras cuenta */
+  font-variant-numeric: tabular-nums;
   background: linear-gradient(180deg, #000 0%, #3a3d42 55%, #8e97a5 100%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -434,15 +320,27 @@ select.filter-btn option {
 }
 
 /* ============================================================
-   BUSCADOR GLOBAL
+   BUSCADOR + RANDOM
    ============================================================ */
+
+.search-row {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
 
 .search-box {
   position: relative;
   display: flex;
   align-items: stretch;
-  max-width: 460px;
-  margin: 0 auto;
+  flex: 1 1 auto;
+  min-width: 0;
   border: 2px solid transparent;
   border-radius: 0;
   background:
@@ -468,25 +366,26 @@ select.filter-btn option {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 0 0 auto;
-  width: 48px;
+  flex: 0 0 44px;
+  width: 44px;
   background: #000;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .search-input {
   flex: 1 1 auto;
   min-width: 0;
+  width: 100%;
   height: 48px;
-  padding: 0 48px 0 14px;
+  padding: 0 44px 0 12px;
   border: 0;
   border-radius: 0;
   outline: none;
   background: transparent;
   color: #000;
   font-family: inherit;
-  font-size: 16px; /* 16px evita el zoom automático de iOS al enfocar */
+  font-size: 16px;
 }
 
 .search-input::placeholder {
@@ -500,13 +399,13 @@ select.filter-btn option {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 46px;
+  width: 44px;
   height: 100%;
   padding: 0;
   border: 0;
   background: transparent;
   color: #000;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
@@ -516,15 +415,121 @@ select.filter-btn option {
   color: #fff;
 }
 
-@media (max-width: 480px) {
-  .search-box {
-    max-width: 100%;
-    margin: 0 8px;
-  }
+.random-btn {
+  flex: 0 0 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 0;
+  background:
+    linear-gradient(#000, #000) padding-box,
+    linear-gradient(160deg, #bdc3c7, #e1e6ed 50%, #eceef2 100%) border-box;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.15),
+    0 2px 8px rgba(100, 110, 130, 0.2);
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+}
 
-  .clubs-label {
-    letter-spacing: 0.2em;
-  }
+.random-btn i {
+  transition: transform 0.4s ease;
+}
+
+.random-btn:hover {
+  background:
+    linear-gradient(#23272a, #23272a) padding-box,
+    linear-gradient(160deg, #e8eaee 0%, #bfc3ca 100%) border-box;
+  box-shadow: 0 4px 12px rgba(160, 170, 175, 0.3);
+}
+
+.random-btn:hover i {
+  transform: rotate(180deg);
+}
+
+/* ============================================================
+   SUGERENCIAS DEL BUSCADOR
+   ============================================================ */
+
+.suggestions {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: -2px;
+  right: -2px;
+  z-index: 50;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 380px;
+  overflow-y: auto;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 0;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
+}
+
+.suggestion {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #eceef2;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.suggestion:last-child {
+  border-bottom: 0;
+}
+
+.suggestion.active {
+  background: #000;
+  color: #fff;
+}
+
+.suggestion-logo {
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.suggestion-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.suggestion-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.suggestion-place {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  color: #777;
+}
+
+.suggestion.active .suggestion-place {
+  color: #bfc3ca;
+}
+
+.suggestion-flag {
+  flex: 0 0 auto;
+  font-size: 1.1rem;
 }
 
 /* ============================================================
@@ -559,10 +564,13 @@ select.filter-btn option {
   transform: scale(1.1);
 }
 
-
 /* ============================================================
    MODAL
    ============================================================ */
+
+.w3-modal {
+  z-index: 1000;
+}
 
 .w3-modal-content header {
   position: relative;
@@ -575,7 +583,6 @@ select.filter-btn option {
   font-size: 1.7rem;
   text-align: center;
 }
-
 
 /* ============================================================
    ANIMATIONS
@@ -595,108 +602,6 @@ select.filter-btn option {
   animation: fadeOut 0.4s forwards;
 }
 
-
-/* ============================================================
-   RESPONSIVE
-   ============================================================ */
-
-@media screen and (max-width: 768px) {
-  .card:hover {
-    transform: none;
-  }
-
-  .card:hover .img {
-    transform: none;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .w3-modal-content {
-    width: 90% !important;
-    max-width: none !important;
-    margin: 20px auto !important;
-  }
-
-  .action-container {
-    justify-content: center;
-    gap: 8px;
-  }
-
-  .action-btn {
-    height: 36px;
-    min-width: 100px;
-    font-size: 14px;
-  }
-
-  .random-icon.action-btn {
-    font-size: 16px;
-    width: 100px;
-  }
-
-  .promo-link a {
-    flex: 1 1 auto;
-    min-width: 120px;
-    text-align: center;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .promo-link a i {
-    margin-right: 6px;
-  }
-}
-
-
-@media screen and (max-width: 768px) {
-  .card.is-dragging {
-    opacity: 0.4;
-    transform: scale(0.97);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-    cursor: grabbing;
-  }
-
-  .card.drag-over {
-    transform: scale(1.03);
-    box-shadow: 0 0 0 2px #dbe4ea, 0 4px 16px rgba(180, 190, 200, 0.14);
-    background:
-      linear-gradient(#eceef2, #eceef2) padding-box,
-      linear-gradient(160deg, #f1f2f5 0%, #cfd8dc 100%) border-box;
-    border: 2px solid transparent;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .card.is-dragging {
-    opacity: 0.45;
-    transform: scale(0.98);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10);
-  }
-
-  .card.drag-over {
-    transform: scale(1.02);
-    box-shadow: 0 0 0 2px #eceff1, 0 3px 10px rgba(200, 210, 219, 0.15);
-  }
-}
-
-@media (max-width: 480px) {
-  .card.is-dragging {
-    opacity: 0.5;
-    transform: none;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
-  }
-
-  .card.drag-over {
-    transform: none;
-    box-shadow: 0 0 0 3px #dbe4ea;
-    background:
-      linear-gradient(#eceef2, #eceef2) padding-box,
-      linear-gradient(160deg, #e7e9ef 0%, #cfd8dc 100%) border-box;
-    border: 2px solid transparent;
-  }
-}
-
 /* ============================================================
    MODAL CLUB — ESTILO PLATINADO
    ============================================================ */
@@ -707,50 +612,45 @@ select.filter-btn option {
     linear-gradient(160deg, #e5e6e8, #dbe4ea, #bfc3ca, #e4e6ea, #e5e6e8) border-box;
   border: none;
   box-shadow:
-    0 0 0 1px rgba(255,255,255,0.92),
-    inset 0 1px 0 rgba(255,255,255,0.95),
-    0 6px 18px rgba(120,130,130,0.18);
+    0 0 0 1px rgba(255, 255, 255, 0.92),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95),
+    0 6px 18px rgba(120, 130, 130, 0.18);
   position: relative;
   overflow: hidden;
 }
 
-/* Franja platinada superior */
 #clubModal .w3-modal-content::before {
   content: '';
   position: absolute;
-  top: 0; left: 0; right: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 4px;
   background: linear-gradient(90deg, #dbe4ea, #e2e8f0, #bfc9d1, #eff2f6, #e4e6ea);
   z-index: 2;
 }
 
-/* Textura satinada */
 #clubModal .w3-modal-content::after {
   content: '';
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse at 25% 15%, rgba(255,255,255,0.65) 0%, transparent 55%),
+    radial-gradient(ellipse at 25% 15%, rgba(255, 255, 255, 0.65) 0%, transparent 55%),
     repeating-linear-gradient(
       108deg,
       transparent,
       transparent 16px,
-      rgba(255,255,255,0.20) 17px,
-      rgba(255,255,255,0.20) 18px
+      rgba(255, 255, 255, 0.20) 17px,
+      rgba(255, 255, 255, 0.20) 18px
     );
   pointer-events: none;
   z-index: 1;
 }
 
-/* Todo el contenido por encima de la textura */
 #clubModal .w3-modal-content > * {
   position: relative;
   z-index: 3;
 }
-
-/* ============================================================
-   MODAL CLUB — REDISEÑO
-   ============================================================ */
 
 #clubModal .club-modal {
   max-width: 760px;
@@ -759,7 +659,6 @@ select.filter-btn option {
   border-radius: 0;
 }
 
-/* Legend: borde platino brillante */
 #clubModal .club-modal.is-legend {
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
@@ -770,7 +669,6 @@ select.filter-btn option {
     0 6px 18px rgba(130, 140, 155, 0.3);
 }
 
-/* Defunct: borde violeta */
 #clubModal .club-modal.is-defunct {
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
@@ -780,7 +678,6 @@ select.filter-btn option {
     0 6px 18px rgba(123, 44, 191, 0.3);
 }
 
-/* Cerrar */
 #clubModal .modal-close {
   position: absolute;
   top: 0;
@@ -806,7 +703,6 @@ select.filter-btn option {
   color: #000;
 }
 
-/* Layout */
 .club-modal-body {
   display: flex;
   align-items: center;
@@ -840,13 +736,28 @@ select.filter-btn option {
   filter: drop-shadow(0 3px 8px rgba(80, 90, 110, 0.25));
 }
 
+.club-crest.failed {
+  background:
+    linear-gradient(#dcdfe4, #dcdfe4) padding-box,
+    linear-gradient(160deg, #dbe4ea, #bfc3ca 30%, #f3f4f6 60%, #d4d6da 100%) border-box;
+}
+
+.crest-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 84px;
+  color: #aab0b9;
+}
+
 .club-info {
   flex: 1 1 auto;
   min-width: 0;
   text-align: left;
 }
 
-/* Etiquetas */
 .club-tags {
   display: flex;
   flex-wrap: wrap;
@@ -881,15 +792,6 @@ select.filter-btn option {
   background: #7b2cbf;
 }
 
-.loader-title {
-  font-family: var(--font-display);
-}
-
-.loader-percent {
-  font-family: var(--font-display);
-}
-
-/* Título y ubicación */
 .club-info .modal-title {
   margin: 0;
   padding-top: 0;
@@ -900,7 +802,6 @@ select.filter-btn option {
   text-transform: uppercase;
   text-align: left;
   overflow-wrap: anywhere;
-  
 }
 
 .club-location {
@@ -917,7 +818,6 @@ select.filter-btn option {
   flex-shrink: 0;
 }
 
-/* Acciones */
 .club-actions {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -975,7 +875,6 @@ select.filter-btn option {
   color: #d62839;
 }
 
-/* Compartir */
 .club-share {
   display: inline-flex;
   align-items: center;
@@ -994,53 +893,9 @@ select.filter-btn option {
   text-decoration: underline;
 }
 
-/* Móvil: apilado y centrado */
-@media screen and (max-width: 600px) {
-  .club-modal-body {
-    flex-direction: column;
-    gap: 20px;
-    padding: 52px 20px 24px;
-  }
-
-  .club-crest {
-    width: 180px;
-    height: 180px;
-    padding: 16px;
-  }
-
-  .club-info {
-    width: 100%;
-    text-align: center;
-  }
-
-  .club-tags,
-  .club-location {
-    justify-content: center;
-  }
-
-  .club-info .modal-title {
-    font-size: 1.35rem;
-    text-align: center;
-  }
-}
-
-/* Escudo no disponible: fondo grisáceo + icono por defecto */
-.club-crest.failed {
-  background:
-    linear-gradient(#dcdfe4, #dcdfe4) padding-box,
-    linear-gradient(160deg, #dbe4ea, #bfc3ca 30%, #f3f4f6 60%, #d4d6da 100%) border-box;
-}
-
-.crest-fallback {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  font-size: 84px;
-  color: #aab0b9;
-}
-
+/* ============================================================
+   WALLPAPER MODAL
+   ============================================================ */
 
 .wallpaper-styles {
   display: grid;
@@ -1133,21 +988,50 @@ select.filter-btn option {
   font-size: 12px;
 }
 
-.country-item {
+/* ============================================================
+   COUNTRY CAROUSEL / FILTER SECTION
+   ============================================================ */
+
+.filter-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 12px;
 }
 
-.country-item-count {
-  color: #888;
-  font-size: 13px;
-  white-space: nowrap;
+.filter-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #555;
 }
 
-/* ============================================================
-   COUNTRY CAROUSEL
-   ============================================================ */
+.link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 0;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  background: transparent;
+  color: #000;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.link-btn:hover {
+  border-bottom-color: #000;
+}
+
+.filter-section .country-carousel {
+  padding: 8px 0 12px;
+}
 
 .country-carousel {
   display: flex;
@@ -1256,6 +1140,18 @@ select.filter-btn option {
   font-weight: 600;
 }
 
+.country-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.country-item-count {
+  color: #888;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
 /* ============================================================
    PAGER + TRANSICIÓN DE PÁGINA
    ============================================================ */
@@ -1302,6 +1198,9 @@ select.filter-btn option {
   }
 }
 
+/* ============================================================
+   FAVORITOS / SHINE / LEGEND / DEFUNCT
+   ============================================================ */
 
 .fav-icon {
   position: absolute;
@@ -1335,62 +1234,6 @@ select.filter-btn option {
   }
 }
 
-.fav-btn.active {
-  background:
-    linear-gradient(#fff, #fff) padding-box,
-    linear-gradient(160deg, #bdc3c7, #e1e6ed 50%, #eceef2 100%) border-box;
-  color: #000;
-}
-
-.fav-btn.active i {
-  color: #d62839;
-}
-
-.fav-count {
-  margin-left: 6px;
-  font-size: 14px;
-  line-height: 1;
-}
-
-.grid-toolbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-}
-
-.results-count {
-  font-weight: 600;
-  font-size: 15px;
-  color: #000;
-  user-select: none;
-}
-
-.view-switch {
-  display: inline-flex;
-  border: 1px solid #000;
-}
-
-.view-switch button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 40px;
-  padding: 0;
-  border: 0;
-  background: #fff;
-  color: #000;
-  cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.view-switch button.active {
-  background: #000;
-  color: #fff;
-}
-
-/* Legend club: borde platino brillante */
 .card.legend {
   background:
     linear-gradient(#eceef2, #eceef2) padding-box,
@@ -1418,7 +1261,6 @@ select.filter-btn option {
     0 14px 28px rgba(130, 140, 155, 0.35);
 }
 
-/* Brillo diagonal en hover */
 .shine {
   position: absolute;
   top: 0;
@@ -1450,8 +1292,6 @@ select.filter-btn option {
   .card:hover .shine { animation: none; }
 }
 
-
-/* Defunct club: apagado y en gris */
 .card.defunct {
   background:
     linear-gradient(#e6e7ea, #e6e7ea) padding-box,
@@ -1467,7 +1307,7 @@ select.filter-btn option {
 }
 
 .card.defunct .img {
-  filter: grayscale(1) contrast(0.95) drop-shadow(0 3px 8px rgba(60, 65, 70, 0.25));
+  filter: grayscale(1) drop-shadow(0 3px 8px rgba(60, 65, 70, 0.25));
 }
 
 .card.defunct:hover {
@@ -1477,7 +1317,7 @@ select.filter-btn option {
 }
 
 .card.defunct:hover .img {
-  filter: grayscale(0.6) drop-shadow(0 3px 8px rgba(60, 65, 70, 0.3));
+  filter: grayscale(0) brightness(1.05) drop-shadow(0 3px 8px rgba(80, 90, 110, 0.3));
 }
 
 .defunct-label {
@@ -1493,214 +1333,6 @@ select.filter-btn option {
 .defunct-label i {
   font-size: 10px;
   margin-right: 3px;
-}
-
-/* Escudo en gris, a color en hover */
-.card.defunct .img {
-  filter: grayscale(1) drop-shadow(0 3px 8px rgba(60, 65, 70, 0.25));
-}
-
-.card.defunct:hover .img {
-  filter: grayscale(0) brightness(1.05) drop-shadow(0 3px 8px rgba(80, 90, 110, 0.3));
-}
-
-select.action-btn {
-  min-width: 120px;
-  padding: 0 28px 0 12px; /* espacio a la derecha para la flecha */
-  text-overflow: clip;
-}
-
-@media screen and (max-width: 600px) {
-  select.action-btn {
-    min-width: 116px;
-    padding: 0 24px 0 10px;
-    font-size: 13px;
-  }
-}
-
-.w3-modal {
-  z-index: 1000;
-}
-
-/* ============================================================
-   SUGERENCIAS DEL BUSCADOR
-   ============================================================ */
-
-.suggestions {
-  position: absolute;
-  top: calc(100% + 6px);
-  left: -2px;
-  right: -2px;
-  z-index: 50;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  max-height: 380px;
-  overflow-y: auto;
-  text-align: left;
-  background: #fff;
-  border: 1px solid #000;
-  border-radius: 0;
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
-}
-
-.suggestion {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 8px 12px;
-  cursor: pointer;
-  border-bottom: 1px solid #eceef2;
-  transition: background-color 0.15s ease, color 0.15s ease;
-}
-
-.suggestion:last-child {
-  border-bottom: 0;
-}
-
-.suggestion.active {
-  background: #000;
-  color: #fff;
-}
-
-.suggestion-logo {
-  flex: 0 0 auto;
-  width: 36px;
-  height: 36px;
-  object-fit: contain;
-}
-
-.suggestion-text {
-  flex: 1 1 auto;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.suggestion-name {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.suggestion-place {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 12px;
-  color: #777;
-}
-
-.suggestion.active .suggestion-place {
-  color: #bfc3ca;
-}
-
-.suggestion-flag {
-  flex: 0 0 auto;
-  font-size: 1.1rem;
-}
-
-/* ============================================================
-   BUSCADOR + RANDOM
-   ============================================================ */
-
-.search-row {
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  gap: 8px;
-  max-width: 540px;
-  margin: 0 auto;
-}
-
-.search-row .search-box {
-  flex: 1 1 auto;
-  max-width: none;
-  margin: 0;
-}
-
-.random-btn {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 52px;
-  padding: 0;
-  border: 2px solid transparent;
-  border-radius: 0;
-  background:
-    linear-gradient(#000, #000) padding-box,
-    linear-gradient(160deg, #bdc3c7, #e1e6ed 50%, #eceef2 100%) border-box;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
-  box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.15),
-    0 2px 8px rgba(100, 110, 130, 0.2);
-  transition: box-shadow 0.3s ease, background 0.3s ease;
-}
-
-.random-btn i {
-  transition: transform 0.4s ease;
-}
-
-.random-btn:hover {
-  background:
-    linear-gradient(#23272a, #23272a) padding-box,
-    linear-gradient(160deg, #e8eaee 0%, #bfc3ca 100%) border-box;
-  box-shadow: 0 4px 12px rgba(160, 170, 175, 0.3);
-}
-
-.random-btn:hover i {
-  transform: rotate(180deg);
-}
-
-/* ============================================================
-   SECCIÓN DE PAÍSES
-   ============================================================ */
-
-.filter-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-}
-
-.filter-label {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #555;
-}
-
-.link-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 0;
-  border: 0;
-  border-bottom: 1px solid transparent;
-  background: transparent;
-  color: #000;
-  font-family: inherit;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: border-color 0.2s ease;
-}
-
-.link-btn:hover {
-  border-bottom-color: #000;
-}
-
-.filter-section .country-carousel {
-  padding: 8px 0 12px;
 }
 
 /* ============================================================
@@ -1764,9 +1396,122 @@ select.action-btn {
   text-align: center;
 }
 
+.chip-divider {
+  width: 1px;
+  height: 22px;
+  background: #c8cdd2;
+  margin: 0 2px;
+}
 
 /* ============================================================
-   BARRA DE RESULTADOS: FILTROS ACTIVOS + ORDEN + VISTA
+   SELECTOR DE COLOR
+   ============================================================ */
+
+.color-picker {
+  position: relative;
+}
+
+.swatch {
+  flex: 0 0 auto;
+  width: 14px;
+  height: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 0;
+}
+
+.swatch.empty {
+  background: conic-gradient(#d62839, #f5d90a, #2e9e4f, #1f5fbf, #7b3fa0, #d62839);
+}
+
+.chip-color.active .swatch {
+  border-color: #fff;
+}
+
+.chip-color .caret {
+  font-size: 11px;
+  transition: transform 0.2s ease;
+}
+
+.chip-color[aria-expanded="true"] .caret {
+  transform: rotate(180deg);
+}
+
+.color-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 60;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  width: 260px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 0;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
+}
+
+.color-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 38px;
+  padding: 0 10px;
+  border: 1px solid #e1e4e8;
+  border-radius: 0;
+  background: #fff;
+  color: #000;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.color-option:hover {
+  border-color: #000;
+}
+
+.color-option.active {
+  background: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+.color-option.active .swatch {
+  border-color: #fff;
+}
+
+.color-clear {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 34px;
+  border: 0;
+  background: transparent;
+  color: #b22222;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.color-clear:hover {
+  color: #ff4444;
+  text-decoration: underline;
+}
+
+/* ============================================================
+   BARRA DE RESULTADOS
    ============================================================ */
 
 .results-bar {
@@ -1905,12 +1650,105 @@ select.action-btn {
   cursor: pointer;
 }
 
+.view-switch {
+  display: inline-flex;
+  border: 1px solid #000;
+}
+
+.view-switch button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.view-switch button.active {
+  background: #000;
+  color: #fff;
+}
+
 /* ============================================================
    RESPONSIVE
    ============================================================ */
 
-@media (max-width: 600px) {
-  /* Filtros rápidos: una sola fila con scroll horizontal */
+@media screen and (max-width: 768px) {
+  .card:hover {
+    transform: none;
+  }
+
+  .card:hover .img {
+    transform: none;
+  }
+
+  .card.is-dragging {
+    opacity: 0.4;
+    transform: scale(0.97);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    cursor: grabbing;
+  }
+
+  .card.drag-over {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 2px #dbe4ea, 0 4px 16px rgba(180, 190, 200, 0.14);
+    background:
+      linear-gradient(#eceef2, #eceef2) padding-box,
+      linear-gradient(160deg, #f1f2f5 0%, #cfd8dc 100%) border-box;
+    border: 2px solid transparent;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .w3-modal-content {
+    width: 90% !important;
+    max-width: none !important;
+    margin: 20px auto !important;
+  }
+
+  .club-modal-body {
+    flex-direction: column;
+    gap: 20px;
+    padding: 52px 20px 24px;
+  }
+
+  .club-crest {
+    width: 180px;
+    height: 180px;
+    padding: 16px;
+  }
+
+  .club-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .club-tags,
+  .club-location {
+    justify-content: center;
+  }
+
+  .club-info .modal-title {
+    font-size: 1.35rem;
+    text-align: center;
+  }
+
+  .card.is-dragging {
+    opacity: 0.45;
+    transform: scale(0.98);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10);
+  }
+
+  .card.drag-over {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 2px #eceff1, 0 3px 10px rgba(200, 210, 219, 0.15);
+  }
+
   .quick-filters {
     position: relative;
   }
@@ -1925,122 +1763,49 @@ select.action-btn {
     width: auto;
     transform: none;
   }
-
-  .random-btn {
-    width: 48px;
-  }
 }
 
 @media (max-width: 480px) {
   .search-row {
     max-width: none;
-    margin: 0 8px;
+    padding: 0 8px;
+    gap: 6px;
   }
-}
 
-/* ============================================================
-   SELECTOR DE COLOR
-   ============================================================ */
+  .search-icon {
+    flex-basis: 40px;
+    width: 40px;
+  }
 
-.color-picker {
-  position: relative;
-}
+  .search-input {
+    padding: 0 40px 0 10px;
+  }
 
-.swatch {
-  flex: 0 0 auto;
-  width: 14px;
-  height: 14px;
-  border: 1px solid rgba(0, 0, 0, 0.35);
-  border-radius: 0;
-}
+  .clear-icon {
+    width: 40px;
+  }
 
-.swatch.empty {
-  background: conic-gradient(#d62839, #f5d90a, #2e9e4f, #1f5fbf, #7b3fa0, #d62839);
-}
+  .random-btn {
+    flex-basis: 44px;
+    width: 44px;
+  }
 
-.chip-color.active .swatch {
-  border-color: #fff;
-}
+  .clubs-label {
+    letter-spacing: 0.2em;
+  }
 
-.chip-color .caret {
-  font-size: 11px;
-  transition: transform 0.2s ease;
-}
+  .card.is-dragging {
+    opacity: 0.5;
+    transform: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+  }
 
-.chip-color[aria-expanded="true"] .caret {
-  transform: rotate(180deg);
-}
-
-.color-menu {
-  position: absolute;
-  top: calc(100% + 6px);
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 60;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6px;
-  width: 260px;
-  padding: 10px;
-  background: #fff;
-  border: 1px solid #000;
-  border-radius: 0;
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
-}
-
-.color-option {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  height: 38px;
-  padding: 0 10px;
-  border: 1px solid #e1e4e8;
-  border-radius: 0;
-  background: #fff;
-  color: #000;
-  font-family: inherit;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-align: left;
-  cursor: pointer;
-  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
-}
-
-.color-option:hover {
-  border-color: #000;
-}
-
-.color-option.active {
-  background: #000;
-  border-color: #000;
-  color: #fff;
-}
-
-.color-option.active .swatch {
-  border-color: #fff;
-}
-
-.color-clear {
-  grid-column: 1 / -1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  height: 34px;
-  border: 0;
-  background: transparent;
-  color: #b22222;
-  font-family: inherit;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.color-clear:hover {
-  color: #ff4444;
-  text-decoration: underline;
+  .card.drag-over {
+    transform: none;
+    box-shadow: 0 0 0 3px #dbe4ea;
+    background:
+      linear-gradient(#eceef2, #eceef2) padding-box,
+      linear-gradient(160deg, #e7e9ef 0%, #cfd8dc 100%) border-box;
+    border: 2px solid transparent;
+  }
 }
