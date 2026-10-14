@@ -47,6 +47,32 @@ export class CardComponent implements OnInit {
   loadedLogos = new Set<string>();
   failedLogos = new Set<string>();
 
+  colorGroups = [
+  { value: 'red',    hex: '#d62839' },
+  { value: 'orange', hex: '#f28c28' },
+  { value: 'yellow', hex: '#f5d90a' },
+  { value: 'green',  hex: '#2e9e4f' },
+  { value: 'blue',   hex: '#1f5fbf' },
+  { value: 'purple', hex: '#7b3fa0' },
+  { value: 'black',  hex: '#111111' },
+];
+clubColors: Record<string, string> = {};
+isAnalyzingColors = false;
+private failedColors = new Set<string>();
+private _selectedColor = '';
+
+get selectedColor(): string { return this._selectedColor; }
+set selectedColor(v: string) {
+  this._selectedColor = v;
+  this.resetPaging();
+  if (v) this.analyzeColors();
+}
+
+private _showDefunctOnly = false;
+
+get showDefunctOnly(): boolean { return this._showDefunctOnly; }
+set showDefunctOnly(v: boolean) { this._showDefunctOnly = v; this.resetPaging(); }
+
   // ============================================================
   // VISTA: SCROLL (Load More) / PÁGINAS
   // ============================================================
@@ -145,6 +171,7 @@ get selectedWallpaperInfo() {
   ngOnInit(): void {
     this.loadFavorites();
     this.getClubs();
+    this.loadColorCache();
   }
 
   @HostListener('window:scroll', [])
@@ -188,6 +215,7 @@ get selectedWallpaperInfo() {
       this.clubs = this.shuffleArray(data);
       this.extractCountries();
       this.animateCounter();
+      if (this.selectedColor) this.analyzeColors();
     });
   }
 
@@ -293,6 +321,10 @@ get allFilteredClubs(): any[] {
     filtered = filtered.filter(club => this.favorites.has(club.club_name));
   }
 
+  if (this.showDefunctOnly) {
+  filtered = filtered.filter(club => this.isDefunct(club));
+}
+
   if (this.selectedCountry) {
     filtered = filtered.filter(club => {
       const parts = club.city_country.split(',');
@@ -348,6 +380,10 @@ get allFilteredClubs(): any[] {
     );
     filtered = [...highlighted, ...rest];
   }
+
+  if (this.selectedColor) {
+  filtered = filtered.filter(club => this.clubColors[club.club_name] === this.selectedColor);
+}
 
   return filtered;
 }
@@ -1171,6 +1207,93 @@ ctx.fillText(club.city_country, w / 2, bannerY + bannerHeight * 0.85);
   }
 }
 
+selectColor(color: string): void {
+  this.selectedColor = this.selectedColor === color ? '' : color;
+}
+
+private loadColorCache(): void {
+  try {
+    this.clubColors = JSON.parse(localStorage.getItem('clubColors') || '{}');
+  } catch {
+    this.clubColors = {};
+  }
+}
+
+private saveColorCache(): void {
+  try {
+    localStorage.setItem('clubColors', JSON.stringify(this.clubColors));
+  } catch {}
+}
+
+private async analyzeColors(): Promise<void> {
+  if (this.isAnalyzingColors) return;
+  const pending = this.clubs.filter(
+    c => !this.clubColors[c.club_name] && !this.failedColors.has(c.club_name)
+  );
+  if (!pending.length) return;
+
+  this.isAnalyzingColors = true;
+  const batchSize = 8;
+
+  for (let i = 0; i < pending.length; i += batchSize) {
+    await Promise.all(
+      pending.slice(i, i + batchSize).map(async club => {
+        try {
+          const img = await this.loadImageForCanvas(club.club_logo);
+          const color = this.classifyColor(img);
+          if (color === 'unknown') this.failedColors.add(club.club_name);
+          else this.clubColors[club.club_name] = color;
+        } catch {
+          this.failedColors.add(club.club_name);
+        }
+      })
+    );
+    this.saveColorCache();
+  }
+
+  this.isAnalyzingColors = false;
+}
+
+private classifyColor(img: HTMLImageElement): string {
+  const size = 48;
+  const canvas = document.createElement('canvas');
+  canvas.width = size;
+  canvas.height = size;
+  const ctx = canvas.getContext('2d')!;
+  ctx.drawImage(img, 0, 0, size, size);
+
+  let data: Uint8ClampedArray;
+  try {
+    data = ctx.getImageData(0, 0, size, size).data;
+  } catch {
+    return 'unknown';
+  }
+
+  const counts: Record<string, number> = {
+    red: 0, orange: 0, yellow: 0, green: 0, blue: 0, purple: 0, black: 0,
+  };
+
+  for (let i = 0; i < data.length; i += 4) {
+    if (data[i + 3] < 200) continue;
+    const { h, s, l } = this.rgbToHsl(data[i], data[i + 1], data[i + 2]);
+
+    if (l < 0.15) { counts['black']++; continue; }
+    if (l > 0.9 || s < 0.2) continue; // blanco y grises no cuentan
+
+    if (h < 15 || h >= 345) counts['red']++;
+    else if (h < 45) counts['orange']++;
+    else if (h < 70) counts['yellow']++;
+    else if (h < 170) counts['green']++;
+    else if (h < 260) counts['blue']++;
+    else counts['purple']++;
+  }
+
+  // El negro solo gana si no hay ningún color con peso propio
+  const { black, ...chromatic } = counts;
+  const [topColor, topCount] = Object.entries(chromatic).sort((a, b) => b[1] - a[1])[0];
+  return topCount > black * 0.5 && topCount > 0 ? topColor : (black > 0 ? 'black' : 'unknown');
+}
+
 private saveFavorites(): void {
   try {
     localStorage.setItem('favoriteClubs', JSON.stringify([...this.favorites]));
@@ -1228,7 +1351,10 @@ isDefunct(club: any): boolean {
 }
 
 displayName(club: any): string {
-  return this.cleanClubNameForWallpaper(club.club_name);
+  return club.club_name
+    .replace(/\s*\(defunct\)\s*/gi, '')
+    .replace(/\s*-\s*defunct\s*/gi, '')
+    .trim();
 }
 
 
@@ -1295,6 +1421,29 @@ selectSuggestion(club: any): void {
 closeSuggestions(): void {
   this.suggestionsOpen = false;
   this.activeSuggestion = -1;
+}
+get activeFilterCount(): number {
+  return [
+    this.selectedCountry,
+    this.selectedCity,
+    this.selectedColor,
+    this.showFavoritesOnly,
+    this.showDefunctOnly,
+  ].filter(Boolean).length;
+}
+
+get hasActiveFilters(): boolean {
+  return this.activeFilterCount > 0;
+}
+
+
+clearAllFilters(): void {
+  this.selectedCountry = '';
+  this.selectedCity = null;
+  this.selectedColor = '';
+  this.showFavoritesOnly = false;
+  this.showDefunctOnly = false;
+  this.isCountryModalOpen = false;
 }
 
 }

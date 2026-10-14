@@ -1,13 +1,5 @@
 <div class="w3-container w3-center w3-margin">
-
-  <div class="w3-container w3-center">
-    <div class="w3-container w3-center">
-      <a routerLink="/champions-league" class="cl-simulator-link">
-        ⚡ Play UCL Sim 26-27
-      </a>
-    </div>
-  </div>
-
+  
 <div class="w3-container w3-center">
   <div class="clubs-counter">
     <span class="clubs-number">{{ animatedClubsCount | number }}</span>
@@ -15,150 +7,199 @@
   </div>
 </div>
 
-<div class="search-box">
-  <span class="search-icon" aria-hidden="true"><i class="fa fa-search"></i></span>
+<div class="search-row">
+  <div class="search-box">
+    <span class="search-icon" aria-hidden="true"><i class="fa fa-search"></i></span>
 
-  <input type="text"
-         class="search-input"
-         placeholder="Search by club or city"
-         aria-label="Search clubs"
-         role="combobox"
-         aria-autocomplete="list"
-         aria-controls="search-suggestions"
-         [attr.aria-expanded]="suggestionsOpen"
-         [attr.aria-activedescendant]="activeSuggestion >= 0 ? 'sugg-' + activeSuggestion : null"
-         autocomplete="off"
-         [(ngModel)]="searchTerm"
-         (input)="onSearchInput($event)"
-         (keydown)="onSearchKeydown($event)"
-         (focus)="onSearchFocus()"
-         (blur)="closeSuggestions()">
+    <input type="text"
+           class="search-input"
+           placeholder="Search by club or city"
+           aria-label="Search clubs"
+           role="combobox"
+           aria-autocomplete="list"
+           aria-controls="search-suggestions"
+           [attr.aria-expanded]="suggestionsOpen"
+           [attr.aria-activedescendant]="activeSuggestion >= 0 ? 'sugg-' + activeSuggestion : null"
+           autocomplete="off"
+           [(ngModel)]="searchTerm"
+           (input)="onSearchInput($event)"
+           (keydown)="onSearchKeydown($event)"
+           (focus)="onSearchFocus()"
+           (blur)="closeSuggestions()">
 
-  <button *ngIf="searchTerm"
-          type="button"
-          class="clear-icon"
-          (click)="clearSearch()"
-          aria-label="Clear search">
-    <i class="fa fa-times"></i>
-  </button>
-
-  <ul *ngIf="suggestionsOpen"
-      id="search-suggestions"
-      class="suggestions"
-      role="listbox"
-      (mousedown)="$event.preventDefault()">
-    <li *ngFor="let club of suggestions; let i = index"
-        [id]="'sugg-' + i"
-        role="option"
-        class="suggestion"
-        [class.active]="i === activeSuggestion"
-        [attr.aria-selected]="i === activeSuggestion"
-        (mouseenter)="activeSuggestion = i"
-        (click)="selectSuggestion(club)">
-      <img class="suggestion-logo"
-           [src]="club.club_logo"
-           alt=""
-           loading="lazy"
-           (error)="$any($event.target).style.visibility = 'hidden'">
-      <span class="suggestion-text">
-        <span class="suggestion-name">{{ displayName(club) }}</span>
-        <span class="suggestion-place">{{ club.city_country }}</span>
-      </span>
-      <span class="fi suggestion-flag" [ngClass]="'fi-' + getCountryCode(club.city_country)"></span>
-    </li>
-  </ul>
-</div>
-
-
-</div>
-
-
-<div class="action-container w3-margin">
-
-  <button class="filter-btn action-btn" (click)="openCountryModal()" title="Click to filter clubs by country">
-    <i class="fa fa-filter w3-margin-right"></i> Filter
-  </button>
-
-  <button *ngIf="selectedCountry || selectedCity"
-          class="clear-btn action-btn"
-          (click)="clearCountryFilter()">
-    <i class="fa fa-times w3-margin-right"></i> Clear
-  </button>
-
-  <button class="filter-btn action-btn" (click)="selectRandomClub()" title="Click to generate random club">
-    <i class="fa fa-random w3-margin-right"></i> Random
-  </button>
-
-  <select [(ngModel)]="sortOption" class="filter-btn action-btn" title="Sort clubs">
-    <option value="default"> Sort by</option>
-    <option value="az">A–Z</option>
-    <option value="za">Z–A</option>
-  </select>
-
-   <button type="button"
-        class="filter-btn action-btn fav-btn"
-        [class.active]="showFavoritesOnly"
-        [attr.aria-pressed]="showFavoritesOnly"
-        (click)="showFavoritesOnly = !showFavoritesOnly"
-        title="Show favorites only">
-  <i class="fa fa-heart w3-margin-right"></i>
-  Favorites
-  <span class="fav-count" *ngIf="favorites.size">{{ favorites.size }}</span>
-</button>
-
-</div>
-
-<div class="country-carousel w3-margin">
-  <button type="button" class="carousel-arrow" (click)="slideCarousel(-1)" title="Previous">
-    <i class="fa fa-chevron-left"></i>
-  </button>
-
-  <div class="country-carousel-track" #carouselTrack>
-    <button type="button"
-            class="country-chip"
-            [class.active]="!selectedCountry && !selectedCity"
-            (click)="clearCountryFilter()"
-            title="All countries">
-      <span class="fi fi-un"></span>
+    <button *ngIf="searchTerm"
+            type="button"
+            class="clear-icon"
+            (click)="clearSearch()"
+            aria-label="Clear search">
+      <i class="fa fa-times"></i>
     </button>
 
-    <button type="button"
-            *ngFor="let country of countries"
-            class="country-chip"
-            [class.active]="selectedCountry === country"
-            (click)="selectCountry(country)"
-            [title]="country">
-      <span class="fi" [ngClass]="'fi-' + getCountryCode(country)"></span>
+    <ul *ngIf="suggestionsOpen"
+        id="search-suggestions"
+        class="suggestions"
+        role="listbox"
+        (mousedown)="$event.preventDefault()">
+      <li *ngFor="let club of suggestions; let i = index"
+          [id]="'sugg-' + i"
+          role="option"
+          class="suggestion"
+          [class.active]="i === activeSuggestion"
+          [attr.aria-selected]="i === activeSuggestion"
+          (mouseenter)="activeSuggestion = i"
+          (click)="selectSuggestion(club)">
+        <img class="suggestion-logo"
+             [src]="club.club_logo"
+             alt=""
+             loading="lazy"
+             (error)="$any($event.target).style.visibility = 'hidden'">
+        <span class="suggestion-text">
+          <span class="suggestion-name">{{ displayName(club) }}</span>
+          <span class="suggestion-place">{{ club.city_country }}</span>
+        </span>
+        <span class="fi suggestion-flag" [ngClass]="'fi-' + getCountryCode(club.city_country)"></span>
+      </li>
+    </ul>
+  </div>
+
+  <button type="button"
+          class="random-btn"
+          (click)="selectRandomClub()"
+          title="Random club"
+          aria-label="Random club">
+    <i class="fa fa-random"></i>
+  </button>
+</div>
+
+
+</div>
+
+<!-- Países -->
+<section class="filter-section w3-margin">
+  <div class="filter-head">
+    <span class="filter-label">Countries</span>
+    <button type="button" class="link-btn" (click)="openCountryModal()">
+      <i class="fa fa-list"></i> Countries &amp; cities
     </button>
   </div>
 
-  <button type="button" class="carousel-arrow" (click)="slideCarousel(1)" title="Next">
-    <i class="fa fa-chevron-right"></i>
+  <div class="country-carousel">
+    <button type="button" class="carousel-arrow" (click)="slideCarousel(-1)" title="Previous">
+      <i class="fa fa-chevron-left"></i>
+    </button>
+
+    <div class="country-carousel-track" #carouselTrack>
+      <button type="button"
+              class="country-chip"
+              [class.active]="!selectedCountry && !selectedCity"
+              (click)="clearCountryFilter()"
+              title="All countries">
+        <span class="fi fi-un"></span>
+      </button>
+
+      <button type="button"
+              *ngFor="let country of countries"
+              class="country-chip"
+              [class.active]="selectedCountry === country"
+              (click)="selectCountry(country)"
+              [title]="country">
+        <span class="fi" [ngClass]="'fi-' + getCountryCode(country)"></span>
+      </button>
+    </div>
+
+    <button type="button" class="carousel-arrow" (click)="slideCarousel(1)" title="Next">
+      <i class="fa fa-chevron-right"></i>
+    </button>
+  </div>
+</section>
+
+<!-- Filtros rápidos -->
+<div class="quick-filters w3-margin" role="group" aria-label="Quick filters">
+  <button type="button"
+          class="chip chip-fav"
+          [class.active]="showFavoritesOnly"
+          [attr.aria-pressed]="showFavoritesOnly"
+          (click)="showFavoritesOnly = !showFavoritesOnly">
+    <i class="fa-solid fa-heart"></i> Favorites
+    <span class="chip-count" *ngIf="favorites.size">{{ favorites.size }}</span>
   </button>
+
+  <button type="button"
+          class="chip chip-defunct"
+          [class.active]="showDefunctOnly"
+          [attr.aria-pressed]="showDefunctOnly"
+          (click)="showDefunctOnly = !showDefunctOnly">
+    <i class="fa fa-hourglass-end"></i> Defunct
+  </button>
+
+  <span class="chip-divider" aria-hidden="true"></span>
+
+  <div class="color-dots">
+    <button *ngFor="let c of colorGroups"
+            type="button"
+            class="color-chip"
+            [class.active]="selectedColor === c.value"
+            [style.background]="c.hex"
+            [attr.aria-pressed]="selectedColor === c.value"
+            (click)="selectColor(c.value)"
+            [title]="c.value"></button>
+
+    <i *ngIf="isAnalyzingColors" class="fa fa-spinner fa-spin color-loading"></i>
+  </div>
 </div>
 
-<div class="grid-toolbar w3-margin">
-<span class="results-count">
-  <ng-container *ngIf="selectedCountry || selectedCity">
-    {{ allFilteredClubs.length }} clubs
-  </ng-container>
-</span>
+<!-- Filtros activos + orden + vista -->
+<div class="results-bar w3-margin">
+  <div class="active-filters">
+    <span class="results-count" *ngIf="hasActiveFilters">{{ allFilteredClubs.length }} clubs</span>
 
-  <div class="view-switch" role="group" aria-label="View mode">
-    <button type="button"
-            [class.active]="viewMode === 'scroll'"
-            [attr.aria-pressed]="viewMode === 'scroll'"
-            (click)="setViewMode('scroll')"
-            title="Scroll">
-      <i class="fa fa-arrows-v"></i>
+    <button type="button" class="active-chip" *ngIf="selectedCountry" (click)="clearCountryFilter()">
+      {{ selectedCountry }} <i class="fa fa-times"></i>
     </button>
-    <button type="button"
-            [class.active]="viewMode === 'pages'"
-            [attr.aria-pressed]="viewMode === 'pages'"
-            (click)="setViewMode('pages')"
-            title="Pages">
-      <i class="fa fa-th"></i>
+
+    <button type="button" class="active-chip" *ngIf="selectedCity" (click)="selectedCity = null">
+      {{ selectedCity.city }} <i class="fa fa-times"></i>
     </button>
+
+    <button type="button" class="active-chip" *ngIf="showFavoritesOnly" (click)="showFavoritesOnly = false">
+      Favorites <i class="fa fa-times"></i>
+    </button>
+
+    <button type="button" class="active-chip" *ngIf="showDefunctOnly" (click)="showDefunctOnly = false">
+      Defunct <i class="fa fa-times"></i>
+    </button>
+
+    <button type="button" class="clear-all" *ngIf="activeFilterCount > 1" (click)="clearAllFilters()">
+      Clear all
+    </button>
+  </div>
+
+  <div class="results-controls">
+    <label class="sort-box">
+      <i class="fa fa-sort" aria-hidden="true"></i>
+      <select [(ngModel)]="sortOption" aria-label="Sort clubs">
+        <option value="default">Default</option>
+        <option value="az">A–Z</option>
+        <option value="za">Z–A</option>
+      </select>
+    </label>
+
+    <div class="view-switch" role="group" aria-label="View mode">
+      <button type="button"
+              [class.active]="viewMode === 'scroll'"
+              [attr.aria-pressed]="viewMode === 'scroll'"
+              (click)="setViewMode('scroll')"
+              title="Scroll">
+        <i class="fa fa-arrows-v"></i>
+      </button>
+      <button type="button"
+              [class.active]="viewMode === 'pages'"
+              [attr.aria-pressed]="viewMode === 'pages'"
+              (click)="setViewMode('pages')"
+              title="Pages">
+        <i class="fa fa-th"></i>
+      </button>
+    </div>
   </div>
 </div>
 
