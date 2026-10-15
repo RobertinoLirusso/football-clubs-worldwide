@@ -10,7 +10,7 @@ import { COUNTRY_FLAG_MAP } from '../../utils/country-flags';
 export class CardComponent implements OnInit {
   clubs: any[] = [];
   selectedClub: any = null;
-
+  zoomedClub: any = null;
   showBackToTop: boolean = false;
   isFadingOut: boolean = false;
   isSuggestModalOpen: boolean = false;
@@ -24,6 +24,10 @@ export class CardComponent implements OnInit {
   suggestionsOpen = false;
   activeSuggestion = -1;
   private _exactClub: string | null = null;
+
+  isDownloadingLogo = false;
+logoDownloadMsg = '';
+private logoMsgTimer: any;
 
   isCountryModalOpen: boolean = false;
   featuredCities = [
@@ -275,6 +279,7 @@ get selectedWallpaperInfo() {
   }
 
   closeModal(): void {
+    this.logoDownloadMsg = '';
     this.selectedClub = null;
   }
 
@@ -553,14 +558,16 @@ clearSearch(): void {
     }).length;
   }
 
-  openImageModal(club: any, event: Event) {
-    event.stopPropagation();
-    this.selectedImage = club.club_logo;
-  }
+openImageModal(club: any, event: Event) {
+  event.stopPropagation();
+  this.zoomedClub = club;
+  this.selectedImage = club.club_logo;
+}
 
-  closeImageModal() {
-    this.selectedImage = null;
-  }
+closeImageModal() {
+  this.selectedImage = null;
+  this.zoomedClub = null;
+}
 
   openMatchesModal(): void {
     this.isMatchesModalOpen = true;
@@ -1559,6 +1566,189 @@ onCrestLeave(e: PointerEvent): void {
   const el = e.currentTarget as HTMLElement;
   el.style.setProperty('--rx', '0deg');
   el.style.setProperty('--ry', '0deg');
+}
+
+async downloadLogoPng(club: any): Promise<void> {
+  if (!club || this.isDownloadingLogo) return;
+  this.isDownloadingLogo = true;
+  this.showLogoMsg('');
+
+  const SIZE = 250;     // lado del PNG final
+  const STICKER = 3;    // grosor del borde blanco (px)
+  const PAD = 14;       // margen para que el borde y la sombra no se recorten
+
+  try {
+    const img = await this.loadImageForCanvas(club.club_logo);
+    const nw = img.naturalWidth || SIZE;
+    const nh = img.naturalHeight || SIZE;
+
+    // 1) Logo escalado para entrar en el lienzo manteniendo proporción
+    const inner = SIZE - PAD * 2;
+    const ratio = Math.min(inner / nw, inner / nh);
+    const w = Math.max(1, Math.round(nw * ratio));
+    const h = Math.max(1, Math.round(nh * ratio));
+
+    const logoCanvas = document.createElement('canvas');
+    logoCanvas.width = w;
+    logoCanvas.height = h;
+    const logoCtx = logoCanvas.getContext('2d')!;
+    logoCtx.imageSmoothingEnabled = true;
+    logoCtx.imageSmoothingQuality = 'high';
+    logoCtx.drawImage(img, 0, 0, w, h);
+
+    // 2) Quitar el fondo (siempre)
+    const result = this.removeUniformBackground(logoCtx, w, h);
+    if (result === 'blocked') throw new Error('blocked');
+
+    // 3) Contorno tipo sticker alrededor de la silueta
+    const ox = Math.round((SIZE - w) / 2);
+    const oy = Math.round((SIZE - h) / 2);
+
+    const outline = document.createElement('canvas');
+    outline.width = SIZE;
+    outline.height = SIZE;
+    const outlineCtx = outline.getContext('2d')!;
+    this.dilateInto(outlineCtx, this.tintSilhouette(logoCanvas, '#aeb6c2'), ox, oy, STICKER + 1); // filo gris
+    this.dilateInto(outlineCtx, this.tintSilhouette(logoCanvas, '#ffffff'), ox, oy, STICKER);     // borde blanco
+
+    // 4) Composición final: sombra + borde + logo
+    const canvas = document.createElement('canvas');
+    canvas.width = SIZE;
+    canvas.height = SIZE;
+    const ctx = canvas.getContext('2d')!;
+
+    ctx.save();
+    ctx.shadowColor = 'rgba(80, 90, 110, 0.35)';
+    ctx.shadowBlur = 8;
+    ctx.shadowOffsetY = 3;
+    ctx.drawImage(outline, 0, 0);
+    ctx.restore();
+
+    ctx.drawImage(logoCanvas, ox, oy);
+
+    const blob: Blob = await new Promise((resolve, reject) =>
+      canvas.toBlob(b => (b ? resolve(b) : reject(new Error('empty'))), 'image/png')
+    );
+
+    const name = this.displayName(club)
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '_')
+      .replace(/^_|_$/g, '');
+
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `${name}_logo_${SIZE}.png`;
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+
+    this.showLogoMsg({
+      removed: 'Background removed',
+      already: 'Logo already had a transparent background',
+      complex: 'Background is not plain: border follows the original shape',
+    }[result]);
+  } catch {
+    this.showLogoMsg('Could not process this logo');
+  } finally {
+    this.isDownloadingLogo = false;
+  }
+}
+
+// Copia del logo pintada de un solo color, conservando su silueta
+private tintSilhouette(src: HTMLCanvasElement, color: string): HTMLCanvasElement {
+  const c = document.createElement('canvas');
+  c.width = src.width;
+  c.height = src.height;
+  const x = c.getContext('2d')!;
+  x.drawImage(src, 0, 0);
+  x.globalCompositeOperation = 'source-in';
+  x.fillStyle = color;
+  x.fillRect(0, 0, c.width, c.height);
+  return c;
+}
+
+// Engorda la silueta dibujándola desplazada alrededor de un círculo
+private dilateInto(
+  ctx: CanvasRenderingContext2D, silhouette: HTMLCanvasElement,
+  x: number, y: number, radius: number
+): void {
+  const steps = 32;
+  for (let i = 0; i < steps; i++) {
+    const a = (i / steps) * Math.PI * 2;
+    ctx.drawImage(silhouette, x + Math.cos(a) * radius, y + Math.sin(a) * radius);
+  }
+  ctx.drawImage(silhouette, x, y);
+}
+
+
+private showLogoMsg(msg: string): void {
+  this.logoDownloadMsg = msg;
+  clearTimeout(this.logoMsgTimer);
+  if (msg) this.logoMsgTimer = setTimeout(() => (this.logoDownloadMsg = ''), 4000);
+}
+
+// Borra un fondo liso conectado a los bordes. Devuelve qué pasó.
+private removeUniformBackground(
+  ctx: CanvasRenderingContext2D, w: number, h: number, tolerance = 28
+): 'removed' | 'already' | 'complex' | 'blocked' {
+  let image: ImageData;
+  try {
+    image = ctx.getImageData(0, 0, w, h);
+  } catch {
+    return 'blocked';
+  }
+  const d = image.data;
+
+  // Si alguna esquina ya es transparente, el logo no tiene fondo que borrar
+  const corners = [0, (w - 1) * 4, (h - 1) * w * 4, ((h - 1) * w + w - 1) * 4];
+  if (corners.some(c => d[c + 3] < 250)) return 'already';
+
+  // Color de fondo = promedio de las 4 esquinas; si no coinciden, no es liso
+  const bg = [0, 1, 2].map(k => Math.round(corners.reduce((s, c) => s + d[c + k], 0) / 4));
+  const dist = (i: number) =>
+    Math.max(Math.abs(d[i] - bg[0]), Math.abs(d[i + 1] - bg[1]), Math.abs(d[i + 2] - bg[2]));
+  if (!corners.every(c => dist(c) <= tolerance)) return 'complex';
+
+  // Relleno desde los bordes: el blanco interior del escudo queda intacto
+  const seen = new Uint8Array(w * h);
+  const stack: number[] = [];
+  const push = (x: number, y: number) => {
+    const p = y * w + x;
+    if (!seen[p] && dist(p * 4) <= tolerance) { seen[p] = 1; stack.push(p); }
+  };
+  for (let x = 0; x < w; x++) { push(x, 0); push(x, h - 1); }
+  for (let y = 0; y < h; y++) { push(0, y); push(w - 1, y); }
+  while (stack.length) {
+    const p = stack.pop()!;
+    const x = p % w, y = (p - x) / w;
+    d[p * 4 + 3] = 0;
+    if (x > 0) push(x - 1, y);
+    if (x < w - 1) push(x + 1, y);
+    if (y > 0) push(x, y - 1);
+    if (y < h - 1) push(x, y + 1);
+  }
+
+  // Suavizado: los píxeles del borde que parecen fondo quedan semitransparentes
+  const soft = tolerance * 2.2;
+  for (let y = 0; y < h; y++) {
+    for (let x = 0; x < w; x++) {
+      const p = y * w + x;
+      if (seen[p]) continue;
+      const touchesBg =
+        (x > 0 && seen[p - 1]) || (x < w - 1 && seen[p + 1]) ||
+        (y > 0 && seen[p - w]) || (y < h - 1 && seen[p + w]);
+      if (!touchesBg) continue;
+      const dd = dist(p * 4);
+      if (dd < soft) {
+        d[p * 4 + 3] = Math.round(255 * Math.max(0, (dd - tolerance) / (soft - tolerance)));
+      }
+    }
+  }
+
+  ctx.putImageData(image, 0, 0);
+  return 'removed';
 }
 
 }

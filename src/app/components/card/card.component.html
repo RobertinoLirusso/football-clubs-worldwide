@@ -408,27 +408,43 @@
 </div>
 
 <!-- Modal Zoom Imagen -->
-<div *ngIf="selectedImage" class="w3-modal" style="display:block;">
-  <div class="w3-modal-content w3-animate-zoom" style="max-width:500px; margin:auto; text-align:center;">
+<!-- Modal Zoom Imagen -->
+<div *ngIf="selectedImage" id="zoomModal" class="w3-modal" style="display:block;" (click)="closeImageModal()">
+  <div class="w3-modal-content w3-animate-zoom zoom-modal"
+       role="dialog"
+       aria-modal="true"
+       [attr.aria-label]="zoomedClub ? displayName(zoomedClub) : 'Logo'"
+       (click)="$event.stopPropagation()">
 
-    <lib-ngx-image-zoom
-      [thumbImage]="selectedImage"
-      [fullImage]="selectedImage"
-      [magnification]="2"
-      [enableScrollZoom]="true"
-      [enableLens]="true"
-      [lensWidth]="120"
-      [lensHeight]="120"
-      [zoomMode]="'hover'"
-      style="display:block; margin:auto; max-width:80%; pointer-events: none;"
-    ></lib-ngx-image-zoom>
+    <button type="button" class="modal-close" (click)="closeImageModal()" aria-label="Close">
+      <i class="fa fa-times"></i>
+    </button>
 
-    <div style="margin-top:10px;">
-      <button (click)="closeImageModal()" class="w3-button w3-black title-game" style="width: 100%;">
-        <i class="fa fa-times"></i>
-      </button>
+    <div class="zoom-body">
+      <div class="zoom-stage">
+        <lib-ngx-image-zoom
+          class="zoom-lib"
+          [thumbImage]="selectedImage"
+          [fullImage]="selectedImage"
+          [magnification]="2"
+          [enableScrollZoom]="true"
+          [enableLens]="true"
+          [lensWidth]="120"
+          [lensHeight]="120"
+          [zoomMode]="'hover'">
+        </lib-ngx-image-zoom>
+      </div>
+
+      <div class="zoom-caption" *ngIf="zoomedClub">
+        <span class="fi" [ngClass]="'fi-' + getCountryCode(zoomedClub.city_country)"></span>
+        <div class="zoom-caption-text">
+          <span class="zoom-name">{{ displayName(zoomedClub) }}</span>
+          <span class="zoom-place">{{ zoomedClub.city_country }}</span>
+        </div>
+      </div>
+
+      <p class="zoom-hint">Hover over the crest to zoom</p>
     </div>
-
   </div>
 </div>
 
@@ -448,19 +464,40 @@
 
     <div class="club-modal-body">
 
-<div class="club-crest"
-     (pointermove)="onCrestMove($event)"
-     (pointerleave)="onCrestLeave($event)">
-  <img *ngIf="!failedLogos.has(selectedClub.club_name)"
-       [src]="selectedClub.club_logo"
-       [alt]="displayName(selectedClub)"
-       (error)="onLogoError(selectedClub)">
+<div class="club-crest-col">
 
-  <div class="crest-fallback" *ngIf="failedLogos.has(selectedClub.club_name)">
-    <i class="fa fa-shield"></i>
+  <div class="club-crest"
+       (pointermove)="onCrestMove($event)"
+       (pointerleave)="onCrestLeave($event)">
+    <img *ngIf="!failedLogos.has(selectedClub.club_name)"
+         [src]="selectedClub.club_logo"
+         [alt]="displayName(selectedClub)"
+         (error)="onLogoError(selectedClub)">
+
+    <div class="crest-fallback" *ngIf="failedLogos.has(selectedClub.club_name)">
+      <i class="fa fa-shield"></i>
+    </div>
+
+    <span class="crest-glare" aria-hidden="true"></span>
   </div>
 
-  <span class="crest-glare" aria-hidden="true"></span>
+<div class="logo-download" *ngIf="!failedLogos.has(selectedClub.club_name)">
+  <button type="button"
+          class="logo-dl-btn"
+          (click)="downloadLogoPng(selectedClub)"
+          [disabled]="isDownloadingLogo">
+    <span class="dl-icon">
+      <i class="fa" [ngClass]="isDownloadingLogo ? 'fa-spinner fa-spin' : 'fa-download'"></i>
+    </span>
+    <span class="dl-text">
+      <span class="dl-title">{{ isDownloadingLogo ? 'Processing...' : 'Download logo' }}</span>
+      <span class="dl-sub">PNG · 250×250 · Transparent</span>
+    </span>
+  </button>
+
+  <p class="logo-dl-msg" *ngIf="logoDownloadMsg" role="status">{{ logoDownloadMsg }}</p>
+</div>
+
 </div>
 
       <div class="club-info">
