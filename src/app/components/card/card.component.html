@@ -325,6 +325,8 @@
       'legend': isLegend(club),
       'defunct': isDefunct(club)
     }"
+    (mouseenter)="hoveredClub = club.club_name"
+    (mouseleave)="hoveredClub = null"
   >
 <div class="logo-skeleton"
      *ngIf="!loadedLogos.has(club.club_name) && !failedLogos.has(club.club_name)"></div>
@@ -333,17 +335,26 @@
   <i class="fa fa-shield"></i>
 </div>
 
-<img
-  [src]="club.club_logo"
-  [alt]="club.club_name"
-  class="w3-image img w3-hover-opacity-off"
-  [class.loaded]="loadedLogos.has(club.club_name)"
-  [class.failed]="failedLogos.has(club.club_name)"
-  (load)="onLogoLoad(club)"
-  (error)="onLogoError(club)"
-  loading="lazy"
-  draggable="false"
-/>
+<div class="logo-wrap" [class.failed]="failedLogos.has(club.club_name)">
+  <img
+    [src]="club.club_logo"
+    [alt]="club.club_name"
+    class="w3-image img w3-hover-opacity-off"
+    [class.loaded]="loadedLogos.has(club.club_name)"
+    [class.failed]="failedLogos.has(club.club_name)"
+    (load)="onLogoLoad(club)"
+    (error)="onLogoError(club)"
+    loading="lazy"
+    draggable="false"
+  />
+
+  <img class="logo-shine"
+       *ngIf="hoveredClub === club.club_name && loadedLogos.has(club.club_name)"
+       [src]="club.club_logo"
+       alt=""
+       aria-hidden="true"
+       draggable="false">
+</div>
 
     <span class="zoom-icon" (click)="openImageModal(club, $event)">
       <i class="fa fa-search-plus"></i>

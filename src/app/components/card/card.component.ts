@@ -15,6 +15,8 @@ export class CardComponent implements OnInit {
   isFadingOut: boolean = false;
   isSuggestModalOpen: boolean = false;
 
+  hoveredClub: string | null = null;
+  
   animatedClubsCount: number = 0;
   modalTab: 'countries' | 'cities' = 'countries';
 
