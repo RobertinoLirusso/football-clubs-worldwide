@@ -124,7 +124,7 @@ set showDefunctOnly(v: boolean) { this._showDefunctOnly = v; this.resetPaging();
   // Filtros con setter: cualquier cambio vuelve a la primera página / primeros 100
   private _searchTerm = '';
   private _sortOption = 'default';
-  private _selectedCountry = '';
+  private _selectedCountries: string[] = [];
   private _selectedCity: { city: string; country: string } | null = null;
 
   get searchTerm(): string { return this._searchTerm; }
@@ -138,8 +138,8 @@ set showDefunctOnly(v: boolean) { this._showDefunctOnly = v; this.resetPaging();
   get sortOption(): string { return this._sortOption; }
   set sortOption(v: string) { this._sortOption = v; this.resetPaging(); }
 
-  get selectedCountry(): string { return this._selectedCountry; }
-  set selectedCountry(v: string) { this._selectedCountry = v; this.resetPaging(); }
+get selectedCountries(): string[] { return this._selectedCountries; }
+set selectedCountries(v: string[]) { this._selectedCountries = v; this.resetPaging(); }
 
   get selectedCity(): { city: string; country: string } | null { return this._selectedCity; }
   set selectedCity(v: { city: string; country: string } | null) { this._selectedCity = v; this.resetPaging(); }
@@ -149,23 +149,24 @@ set showDefunctOnly(v: boolean) { this._showDefunctOnly = v; this.resetPaging();
   dragOverIndex: number | null = null;
 
   isWallpaperModalOpen: boolean = false;
-  wallpaperStyles: { value: string; label: string; icon: string; description: string }[] = [
-  { value: 'stripes',    label: 'Ultras Stripes',   icon: '🏴', description: 'Bold diagonal stripes in the crest colors.' },
-  { value: 'sunburst',   label: 'Sunburst',         icon: '☀️', description: 'Rays radiating from the crest.' },
-  { value: 'halftone',   label: 'Halftone Fade',    icon: '⚫', description: 'Dot pattern that fades out from the center.' },
-  { value: 'chevron',    label: 'Chevron Flag',     icon: '🔻', description: 'Layered V-shaped bands, like a flag.' },
-  { value: 'logos',      label: 'Logo Pattern',     icon: '🔁', description: 'The crest repeated as a tilted tile pattern.' },
-  { value: 'blackwhite', label: 'Black & White',    icon: '◐', description: 'Monochrome stripes, terrace style.' },
-  { value: 'blurred',    label: 'Soft Blur',        icon: '🌫️', description: 'Soft glowing color blobs.' },
-  { value: 'spotlight',  label: 'Stadium Lights',   icon: '🏟️', description: 'Floodlight beams on a night sky.' },
-  { value: 'wordmark',   label: 'Wordmark Pattern', icon: '🔤', description: 'Club, city and country repeated as text.' },
+wallpaperStyles: { value: string; label: string; icon: string; description: string }[] = [
+  { value: 'aurora',     label: 'Aurora',       icon: '🌌', description: 'Flowing northern-light ribbons in the crest colors.' },
+  { value: 'neon',       label: 'Neon Horizon', icon: '🌆', description: 'Retro-futuristic sun over a glowing perspective grid.' },
+  { value: 'glass',      label: 'Glass',        icon: '🔮', description: 'Frosted glass panes floating over luminous orbs.' },
+  { value: 'silk',       label: 'Silk Waves',   icon: '🧵', description: 'Layered satin waves with soft specular edges.' },
+  { value: 'flow',       label: 'Flow Field',   icon: '🌀', description: 'Generative light trails drawn by a flow field.' },
+  { value: 'nightmatch', label: 'Night Match',  icon: '🏟️', description: 'Floodlight beams, haze and stadium bokeh.' },
+  { value: 'editorial',  label: 'Editorial',    icon: '🔤', description: 'Oversized outline typography, magazine style.' },
+  { value: 'prism',      label: 'Prism',        icon: '💎', description: 'Faceted low-poly glass in a smooth gradient.' },
+  { value: 'holo',       label: 'Holo Foil',    icon: '✨', description: 'Iridescent holographic foil with sparkles.' },
 ];
+
+selectedWallpaperStyle: string = 'aurora';
 
 get selectedWallpaperInfo() {
   return this.wallpaperStyles.find(s => s.value === this.selectedWallpaperStyle);
 }
 
-  selectedWallpaperStyle: string = 'stripes';
   selectedWallpaperFormat: 'mobile' | 'desktop' = 'mobile';
   isGeneratingWallpaper: boolean = false;
 
@@ -302,16 +303,25 @@ get selectedWallpaperInfo() {
     this.isCountryModalOpen = false;
   }
 
-  selectCountry(country: string): void {
-    this.selectedCountry = country;
-    this.selectedCity = null;
-    this.isCountryModalOpen = false;
-  }
+isCountrySelected(country: string): boolean {
+  return this._selectedCountries.includes(country);
+}
+
+toggleCountry(country: string): void {
+  this.selectedCity = null;
+  this.selectedCountries = this.isCountrySelected(country)
+    ? this._selectedCountries.filter(c => c !== country)
+    : [...this._selectedCountries, country];
+}
+
+removeCountry(country: string): void {
+  this.selectedCountries = this._selectedCountries.filter(c => c !== country);
+}
 
   selectCity(city: { city: string; country: string }): void {
     this.selectedCity = this.selectedCity?.city === city.city &&
       this.selectedCity?.country === city.country ? null : city;
-    this.selectedCountry = '';
+    this.selectedCountries = [];
     this.isCountryModalOpen = false;
   }
 
@@ -324,11 +334,11 @@ get selectedWallpaperInfo() {
     this.countrySearch = '';
   }
 
-  clearCountryFilter(): void {
-    this.selectedCountry = '';
-    this.selectedCity = null;
-    this.isCountryModalOpen = false;
-  }
+clearCountryFilter(): void {
+  this.selectedCountries = [];
+  this.selectedCity = null;
+  this.isCountryModalOpen = false;
+}
 
   filteredCountries(): string[] {
     if (!this.countrySearch) return this.countries;
@@ -350,13 +360,14 @@ get allFilteredClubs(): any[] {
   filtered = filtered.filter(club => this.isDefunct(club));
 }
 
-  if (this.selectedCountry) {
-    filtered = filtered.filter(club => {
-      const parts = club.city_country.split(',');
-      const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
-      return country === this.selectedCountry.toLowerCase();
-    });
-  }
+if (this.selectedCountries.length) {
+  const wanted = new Set(this.selectedCountries.map(c => c.toLowerCase()));
+  filtered = filtered.filter(club => {
+    const parts = club.city_country.split(',');
+    const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
+    return wanted.has(country);
+  });
+}
 
   if (this.selectedCity) {
     filtered = filtered.filter(club => {
@@ -378,7 +389,7 @@ get allFilteredClubs(): any[] {
         city.includes(searchTermLower)
       );
     });
-  } else if (!this.selectedCountry && !this.selectedCity) {
+} else if (!this.selectedCountries.length && !this.selectedCity) {
     const highlighted = filtered.filter(club =>
       this.highlightedClubs.includes(club.club_name)
     );
@@ -516,7 +527,7 @@ clearSearch(): void {
         return city === this.selectedCity.city.toLowerCase() &&
           country === this.selectedCity.country.toLowerCase();
       }
-      return !this.selectedCountry || country === this.selectedCountry.toLowerCase();
+      return !this.selectedCountries.length || this.selectedCountries.includes(country);
     });
 
     if (pool.length > 0) {
@@ -746,15 +757,149 @@ closeImageModal() {
     return luminance > 0.6 ? '#111111' : '#ffffff';
   }
 
-  private async ensureFontLoaded(): Promise<void> {
-    try {
-await document.fonts.load('700 72px "Oswald"');
-await document.fonts.load('400 40px "Inter"');
-await document.fonts.ready;
-    } catch {
-      // fallback silencioso a serif
-    }
+private async ensureFontLoaded(): Promise<void> {
+  try {
+    await document.fonts.load('700 72px "Oswald"');
+    await document.fonts.load('600 40px "Oswald"');
+    await document.fonts.load('500 30px "Inter"');
+    await document.fonts.ready;
+  } catch {
+    // fallback silencioso
   }
+}
+
+// ============================================================
+// UTILIDADES DE WALLPAPER
+// ============================================================
+
+private rng: () => number = Math.random;
+
+private hashString(s: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+private makeRng(seed: number): () => number {
+  let a = seed >>> 0;
+  return () => {
+    a = (a + 0x6D2B79F5) >>> 0;
+    let t = a;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+// Ruido suave (value noise) con 3 octavas, valores 0..1
+private makeNoise(): (x: number, y: number) => number {
+  const grid = new Float32Array(256 * 256);
+  for (let i = 0; i < grid.length; i++) grid[i] = this.rng();
+  const fade = (t: number) => t * t * (3 - 2 * t);
+  const at = (xi: number, yi: number) => grid[((yi & 255) << 8) | (xi & 255)];
+  const base = (x: number, y: number) => {
+    const xi = Math.floor(x), yi = Math.floor(y);
+    const xf = fade(x - xi), yf = fade(y - yi);
+    const a = at(xi, yi), b = at(xi + 1, yi), c = at(xi, yi + 1), d = at(xi + 1, yi + 1);
+    return a + (b - a) * xf + (c - a) * yf + (a - b - c + d) * xf * yf;
+  };
+  return (x, y) => base(x, y) * 0.55 + base(x * 2.1, y * 2.1) * 0.3 + base(x * 4.3, y * 4.3) * 0.15;
+}
+
+private hslToHex(h: number, s: number, l: number): string {
+  h = ((h % 360) + 360) % 360;
+  const c = (1 - Math.abs(2 * l - 1)) * s;
+  const x = c * (1 - Math.abs(((h / 60) % 2) - 1));
+  const m = l - c / 2;
+  let r = 0, g = 0, b = 0;
+  if (h < 60) { r = c; g = x; }
+  else if (h < 120) { r = x; g = c; }
+  else if (h < 180) { g = c; b = x; }
+  else if (h < 240) { g = x; b = c; }
+  else if (h < 300) { r = x; b = c; }
+  else { r = c; b = x; }
+  return this.rgbToHex((r + m) * 255, (g + m) * 255, (b + m) * 255);
+}
+
+private mixColor(a: string, b: string, t: number): string {
+  const A = this.hexToRgb(a), B = this.hexToRgb(b);
+  return this.rgbToHex(A.r + (B.r - A.r) * t, A.g + (B.g - A.g) * t, A.b + (B.b - A.b) * t);
+}
+
+// Paleta armada a partir del color dominante del escudo
+private makePalette(base: string) {
+  const { r, g, b } = this.hexToRgb(base);
+  const { h, s, l } = this.rgbToHsl(r, g, b);
+  const sat = Math.max(0.55, Math.min(0.95, s));
+  return {
+    main:   this.hslToHex(h, sat, Math.min(0.58, Math.max(0.42, l))),
+    warm:   this.hslToHex(h + 38, sat, 0.58),
+    cool:   this.hslToHex(h - 38, sat, 0.55),
+    accent: this.hslToHex(h + 150, Math.min(1, sat + 0.1), 0.62),
+    light:  this.hslToHex(h, sat * 0.8, 0.82),
+    deep:   this.hslToHex(h, Math.min(sat, 0.6), 0.1),
+    ink:    this.hslToHex(h, 0.35, 0.045),
+    hue: h,
+  };
+}
+
+// Resplandor suave sin usar ctx.filter (funciona en todos los navegadores)
+private glow(ctx: CanvasRenderingContext2D, x: number, y: number, radius: number, color: string, alpha: number): void {
+  const g = ctx.createRadialGradient(x, y, 0, x, y, radius);
+  g.addColorStop(0, this.hexToRgbaString(color, alpha));
+  g.addColorStop(0.4, this.hexToRgbaString(color, alpha * 0.45));
+  g.addColorStop(1, this.hexToRgbaString(color, 0));
+  ctx.fillStyle = g;
+  ctx.fillRect(x - radius, y - radius, radius * 2, radius * 2);
+}
+
+// Destello de cuatro puntas
+private drawSparkle(ctx: CanvasRenderingContext2D, x: number, y: number, r: number, alpha: number): void {
+  const k = r * 0.12;
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.globalAlpha = alpha;
+  ctx.fillStyle = '#fff';
+  ctx.beginPath();
+  ctx.moveTo(0, -r);
+  ctx.quadraticCurveTo(k, -k, r, 0);
+  ctx.quadraticCurveTo(k, k, 0, r);
+  ctx.quadraticCurveTo(-k, k, -r, 0);
+  ctx.quadraticCurveTo(-k, -k, 0, -r);
+  ctx.fill();
+  ctx.restore();
+}
+
+// Viñeta + grano de película sobre el fondo terminado
+private finishBackground(ctx: CanvasRenderingContext2D, w: number, h: number, grain = 0.14, vignette = 0.5): void {
+  const v = ctx.createRadialGradient(w / 2, h * 0.45, Math.min(w, h) * 0.3, w / 2, h * 0.45, Math.max(w, h) * 0.78);
+  v.addColorStop(0, 'rgba(0,0,0,0)');
+  v.addColorStop(1, `rgba(0,0,0,${vignette})`);
+  ctx.fillStyle = v;
+  ctx.fillRect(0, 0, w, h);
+
+  const tile = document.createElement('canvas');
+  tile.width = tile.height = 200;
+  const t = tile.getContext('2d')!;
+  const img = t.createImageData(200, 200);
+  for (let i = 0; i < img.data.length; i += 4) {
+    const n = this.rng() * 255;
+    img.data[i] = img.data[i + 1] = img.data[i + 2] = n;
+    img.data[i + 3] = 255;
+  }
+  t.putImageData(img, 0, 0);
+  const pattern = ctx.createPattern(tile, 'repeat');
+  if (!pattern) return;
+  ctx.save();
+  ctx.globalCompositeOperation = 'overlay';
+  ctx.globalAlpha = grain;
+  ctx.fillStyle = pattern;
+  ctx.fillRect(0, 0, w, h);
+  ctx.restore();
+}
 
   async downloadClubWallpaper(club: any): Promise<void> {
     if (!club || this.isGeneratingWallpaper) return;
@@ -779,17 +924,21 @@ await document.fonts.ready;
       canvas.height = height;
       const ctx = canvas.getContext('2d')!;
 
-      switch (this.selectedWallpaperStyle) {
-        case 'sunburst':   this.drawSunburstBackground(ctx, width, height, baseColor); break;
-        case 'halftone':   this.drawHalftoneBackground(ctx, width, height, baseColor); break;
-        case 'chevron':    this.drawChevronBackground(ctx, width, height, baseColor); break;
-        case 'logos':      this.drawLogoPatternBackground(ctx, width, height, baseColor, logo); break;
-        case 'blackwhite': this.drawBlackWhiteBackground(ctx, width, height, baseColor); break;
-        case 'blurred':    this.drawBlurredBackground(ctx, width, height, baseColor); break;
-        case 'spotlight':  this.drawSpotlightBackground(ctx, width, height, baseColor); break;
-        case 'wordmark':   this.drawWordmarkBackground(ctx, width, height, baseColor, wallpaperClub); break;
-        default:           this.drawStripesBackground(ctx, width, height, baseColor);
-      }
+this.rng = this.makeRng(this.hashString(club.club_name + this.selectedWallpaperStyle));
+
+switch (this.selectedWallpaperStyle) {
+  case 'neon':       this.drawNeonBackground(ctx, width, height, baseColor); break;
+  case 'glass':      this.drawGlassBackground(ctx, width, height, baseColor); break;
+  case 'silk':       this.drawSilkBackground(ctx, width, height, baseColor); break;
+  case 'flow':       this.drawFlowBackground(ctx, width, height, baseColor); break;
+  case 'nightmatch': this.drawNightMatchBackground(ctx, width, height, baseColor); break;
+  case 'editorial':  this.drawEditorialBackground(ctx, width, height, baseColor, wallpaperClub); break;
+  case 'prism':      this.drawPrismBackground(ctx, width, height, baseColor); break;
+  case 'holo':       this.drawHoloBackground(ctx, width, height, baseColor); break;
+  default:           this.drawAuroraBackground(ctx, width, height, baseColor);
+}
+
+this.finishBackground(ctx, width, height);
 
       this.drawCrestBadge(ctx, logo, width / 2, height * 0.42, 460, baseColor);
       this.drawClubBanner(ctx, width, height, wallpaperClub, baseColor);
@@ -807,335 +956,549 @@ await document.fonts.ready;
     }
   }
 
-  // --- Estilos de fondo ---
+  // ============================================================
+// ESTILOS DE FONDO
+// ============================================================
 
-  private drawStripesBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
-    const dark = this.shadeColor(color, -35);
-    const light = this.shadeColor(color, 15);
+// 1) AURORA: cintas de luz que fluyen
+private drawAuroraBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
+  const p = this.makePalette(color);
+  const bg = ctx.createLinearGradient(0, 0, 0, h);
+  bg.addColorStop(0, p.deep);
+  bg.addColorStop(1, p.ink);
+  ctx.fillStyle = bg;
+  ctx.fillRect(0, 0, w, h);
 
-    ctx.fillStyle = dark;
-    ctx.fillRect(0, 0, w, h);
+  const R = Math.max(w, h);
+  ctx.globalCompositeOperation = 'screen';
 
-    ctx.save();
-    ctx.translate(w / 2, h / 2);
-    ctx.rotate(-18 * Math.PI / 180);
-    ctx.translate(-w / 2, -h / 2);
-
-    const stripeWidth = 130;
-    let toggle = false;
-    for (let x = -h; x < w + h; x += stripeWidth) {
-      ctx.fillStyle = toggle ? color : light;
-      ctx.fillRect(x, -h, stripeWidth, h * 3);
-      toggle = !toggle;
+  const ribbons = [
+    { c: p.main, y: 0.26 }, { c: p.cool, y: 0.44 },
+    { c: p.warm, y: 0.62 }, { c: p.accent, y: 0.80 },
+  ];
+  ribbons.forEach((rb, i) => {
+    const phase = this.rng() * Math.PI * 2;
+    for (let k = 0; k <= 28; k++) {
+      const t = k / 28;
+      const x = w * (-0.1 + t * 1.2);
+      const y = h * rb.y + Math.sin(t * Math.PI * (1.6 + i * 0.4) + phase) * h * 0.1;
+      this.glow(ctx, x, y, R * 0.2, rb.c, 0.17);
     }
-    ctx.restore();
+  });
 
-    const vignette = ctx.createRadialGradient(w / 2, h / 2, h / 4, w / 2, h / 2, h);
-    vignette.addColorStop(0, 'rgba(0,0,0,0)');
-    vignette.addColorStop(1, 'rgba(0,0,0,0.45)');
-    ctx.fillStyle = vignette;
-    ctx.fillRect(0, 0, w, h);
+  // Cortinas verticales de luz
+  for (let i = 0; i < 26; i++) {
+    const x = this.rng() * w;
+    const top = h * (0.15 + this.rng() * 0.3);
+    const g = ctx.createLinearGradient(0, top, 0, top + h * 0.45);
+    g.addColorStop(0, this.hexToRgbaString(p.light, 0.1));
+    g.addColorStop(1, this.hexToRgbaString(p.light, 0));
+    ctx.fillStyle = g;
+    ctx.fillRect(x, top, 2 + this.rng() * 5, h * 0.45);
   }
 
-  private drawSunburstBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
-    const dark = this.shadeColor(color, -40);
-    const light = this.shadeColor(color, 20);
-    const cx = w / 2, cy = h * 0.42;
+  // Estrellas
+  for (let i = 0; i < 160; i++) {
+    ctx.fillStyle = `rgba(255,255,255,${0.2 + this.rng() * 0.6})`;
+    ctx.beginPath();
+    ctx.arc(this.rng() * w, this.rng() * h, 0.6 + this.rng() * 1.5, 0, Math.PI * 2);
+    ctx.fill();
+  }
+  ctx.globalCompositeOperation = 'source-over';
+}
 
-    ctx.fillStyle = dark;
-    ctx.fillRect(0, 0, w, h);
+// 2) NEON HORIZON: sol retro y grilla en perspectiva
+private drawNeonBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
+  const p = this.makePalette(color);
+  const horizon = h * 0.66;
 
-    const rays = 28;
-    const maxRadius = Math.hypot(w, h);
-    for (let i = 0; i < rays; i++) {
-      ctx.fillStyle = i % 2 === 0 ? color : light;
-      const a1 = (i / rays) * Math.PI * 2;
-      const a2 = ((i + 1) / rays) * Math.PI * 2;
-      ctx.beginPath();
-      ctx.moveTo(cx, cy);
-      ctx.lineTo(cx + Math.cos(a1) * maxRadius, cy + Math.sin(a1) * maxRadius);
-      ctx.lineTo(cx + Math.cos(a2) * maxRadius, cy + Math.sin(a2) * maxRadius);
-      ctx.closePath();
-      ctx.fill();
-    }
+  const sky = ctx.createLinearGradient(0, 0, 0, horizon);
+  sky.addColorStop(0, p.ink);
+  sky.addColorStop(0.55, p.deep);
+  sky.addColorStop(1, this.shadeColor(p.warm, -30));
+  ctx.fillStyle = sky;
+  ctx.fillRect(0, 0, w, horizon);
 
-    const vignette = ctx.createRadialGradient(cx, cy, h * 0.15, cx, cy, h * 0.75);
-    vignette.addColorStop(0, 'rgba(0,0,0,0)');
-    vignette.addColorStop(1, 'rgba(0,0,0,0.55)');
-    ctx.fillStyle = vignette;
-    ctx.fillRect(0, 0, w, h);
+  for (let i = 0; i < 120; i++) {
+    ctx.fillStyle = `rgba(255,255,255,${0.15 + this.rng() * 0.6})`;
+    ctx.fillRect(this.rng() * w, this.rng() * horizon * 0.8, 2, 2);
   }
 
-  private drawHalftoneBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
-    const gradient = ctx.createLinearGradient(0, 0, 0, h);
-    gradient.addColorStop(0, this.shadeColor(color, -10));
-    gradient.addColorStop(1, this.shadeColor(color, -45));
-    ctx.fillStyle = gradient;
-    ctx.fillRect(0, 0, w, h);
+  // Sol con franjas (se arma aparte para poder "recortarlo")
+  const r = Math.min(w, h) * 0.34, sx = w / 2, sy = h * 0.42;
+  const sunCanvas = document.createElement('canvas');
+  sunCanvas.width = w;
+  sunCanvas.height = h;
+  const s = sunCanvas.getContext('2d')!;
+  const sg = s.createLinearGradient(0, sy - r, 0, sy + r);
+  sg.addColorStop(0, p.accent);
+  sg.addColorStop(0.5, p.warm);
+  sg.addColorStop(1, p.cool);
+  s.fillStyle = sg;
+  s.beginPath();
+  s.arc(sx, sy, r, 0, Math.PI * 2);
+  s.fill();
+  s.globalCompositeOperation = 'destination-out';
+  for (let i = 0; i < 9; i++) {
+    const t = i / 9;
+    s.fillRect(sx - r, sy + r * 0.05 + t * r * 0.95, r * 2, 3 + t * r * 0.075);
+  }
 
-    const spacing = 46;
-    ctx.fillStyle = this.shadeColor(color, 25);
-    for (let y = 0; y < h; y += spacing) {
-      for (let x = 0; x < w; x += spacing) {
-        const dist = Math.hypot(x - w / 2, y - h * 0.42) / (h * 0.75);
-        const radius = Math.max(0, 1 - dist) * (spacing * 0.42);
-        if (radius < 1) continue;
-        ctx.globalAlpha = 0.85;
-        ctx.beginPath();
-        ctx.arc(x, y, radius, 0, Math.PI * 2);
-        ctx.fill();
+  ctx.globalCompositeOperation = 'screen';
+  this.glow(ctx, sx, sy, r * 2.2, p.warm, 0.4);
+  ctx.globalCompositeOperation = 'source-over';
+  ctx.drawImage(sunCanvas, 0, 0);
+
+  // Suelo
+  const floor = ctx.createLinearGradient(0, horizon, 0, h);
+  floor.addColorStop(0, p.deep);
+  floor.addColorStop(1, p.ink);
+  ctx.fillStyle = floor;
+  ctx.fillRect(0, horizon, w, h - horizon);
+
+  // Grilla neón
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(0, horizon, w, h - horizon);
+  ctx.clip();
+  ctx.strokeStyle = this.hexToRgbaString(p.cool, 0.9);
+  ctx.shadowColor = p.cool;
+  ctx.shadowBlur = 14;
+  ctx.lineWidth = 2;
+  for (let i = -16; i <= 16; i++) {
+    ctx.beginPath();
+    ctx.moveTo(w / 2, horizon);
+    ctx.lineTo(w / 2 + i * w * 0.12, h);
+    ctx.stroke();
+  }
+  const rows = 16;
+  for (let k = 1; k <= rows; k++) {
+    const t = k / rows;
+    ctx.lineWidth = 1 + t * 3;
+    ctx.beginPath();
+    ctx.moveTo(0, horizon + (h - horizon) * Math.pow(t, 2.4));
+    ctx.lineTo(w, horizon + (h - horizon) * Math.pow(t, 2.4));
+    ctx.stroke();
+  }
+  ctx.restore();
+
+  // Niebla en el horizonte y línea de luz
+  const fog = ctx.createLinearGradient(0, horizon, 0, horizon + (h - horizon) * 0.35);
+  fog.addColorStop(0, this.hexToRgbaString(p.deep, 1));
+  fog.addColorStop(1, this.hexToRgbaString(p.deep, 0));
+  ctx.fillStyle = fog;
+  ctx.fillRect(0, horizon, w, (h - horizon) * 0.35);
+
+  ctx.save();
+  ctx.strokeStyle = p.accent;
+  ctx.shadowColor = p.accent;
+  ctx.shadowBlur = 30;
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(0, horizon);
+  ctx.lineTo(w, horizon);
+  ctx.stroke();
+  ctx.restore();
+}
+
+// 3) GLASS: paneles de vidrio sobre orbes
+private drawGlassBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
+  const p = this.makePalette(color);
+  const m = Math.min(w, h);
+  const bg = ctx.createLinearGradient(0, 0, w, h);
+  bg.addColorStop(0, p.deep);
+  bg.addColorStop(1, p.ink);
+  ctx.fillStyle = bg;
+  ctx.fillRect(0, 0, w, h);
+
+  const orb = (x: number, y: number, r: number, c1: string, c2: string) => {
+    ctx.globalCompositeOperation = 'screen';
+    this.glow(ctx, x, y, r * 2.2, c1, 0.35);
+    ctx.globalCompositeOperation = 'source-over';
+    const g = ctx.createLinearGradient(x - r, y - r, x + r, y + r);
+    g.addColorStop(0, c1);
+    g.addColorStop(1, c2);
+    ctx.fillStyle = g;
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, Math.PI * 2);
+    ctx.fill();
+    // brillo especular de la esfera
+    const hl = ctx.createRadialGradient(x - r * 0.35, y - r * 0.4, 0, x - r * 0.35, y - r * 0.4, r * 0.8);
+    hl.addColorStop(0, 'rgba(255,255,255,0.45)');
+    hl.addColorStop(1, 'rgba(255,255,255,0)');
+    ctx.fillStyle = hl;
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, Math.PI * 2);
+    ctx.fill();
+  };
+
+  orb(w * 0.18, h * 0.2, m * 0.26, p.main, p.accent);
+  orb(w * 0.86, h * 0.66, m * 0.3, p.warm, p.cool);
+  orb(w * 0.72, h * 0.1, m * 0.1, p.accent, p.main);
+  orb(w * 0.1, h * 0.86, m * 0.14, p.cool, p.main);
+
+  this.glassPane(ctx, w * 0.5, h * 0.42, w * 0.82, Math.min(h * 0.5, w * 0.95), -0.12, 1);
+  this.glassPane(ctx, w * 0.2, h * 0.12, w * 0.4, h * 0.14, 0.2, 0.7);
+  this.glassPane(ctx, w * 0.82, h * 0.88, w * 0.46, h * 0.16, -0.18, 0.7);
+}
+
+private glassPane(ctx: CanvasRenderingContext2D, x: number, y: number, pw: number, ph: number, angle: number, alpha: number): void {
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.rotate(angle);
+
+  const fill = ctx.createLinearGradient(-pw / 2, -ph / 2, pw / 2, ph / 2);
+  fill.addColorStop(0, `rgba(255,255,255,${0.2 * alpha})`);
+  fill.addColorStop(1, `rgba(255,255,255,${0.04 * alpha})`);
+  ctx.fillStyle = fill;
+  ctx.fillRect(-pw / 2, -ph / 2, pw, ph);
+
+  // Reflejo diagonal dentro del panel
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(-pw / 2, -ph / 2, pw, ph);
+  ctx.clip();
+  ctx.transform(1, 0, -0.5, 1, 0, 0);
+  const sheen = ctx.createLinearGradient(-pw * 0.2, 0, pw * 0.05, 0);
+  sheen.addColorStop(0, 'rgba(255,255,255,0)');
+  sheen.addColorStop(0.5, `rgba(255,255,255,${0.16 * alpha})`);
+  sheen.addColorStop(1, 'rgba(255,255,255,0)');
+  ctx.fillStyle = sheen;
+  ctx.fillRect(-pw * 0.2, -ph, pw * 0.25, ph * 2);
+  ctx.restore();
+
+  const edge = ctx.createLinearGradient(-pw / 2, -ph / 2, pw / 2, ph / 2);
+  edge.addColorStop(0, `rgba(255,255,255,${0.75 * alpha})`);
+  edge.addColorStop(0.5, `rgba(255,255,255,${0.08 * alpha})`);
+  edge.addColorStop(1, `rgba(255,255,255,${0.45 * alpha})`);
+  ctx.strokeStyle = edge;
+  ctx.lineWidth = 2;
+  ctx.strokeRect(-pw / 2, -ph / 2, pw, ph);
+  ctx.restore();
+}
+
+// 4) SILK WAVES: capas de seda
+private drawSilkBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
+  const p = this.makePalette(color);
+  const bg = ctx.createLinearGradient(0, 0, 0, h);
+  bg.addColorStop(0, p.deep);
+  bg.addColorStop(1, p.ink);
+  ctx.fillStyle = bg;
+  ctx.fillRect(0, 0, w, h);
+
+  const layers = 16;
+  for (let l = 0; l < layers; l++) {
+    const t = l / (layers - 1);
+    const baseY = h * (0.12 + t * 0.82);
+    const amp = h * (0.05 + 0.03 * Math.sin(l * 1.3));
+    const freq = 1.1 + (l % 4) * 0.22;
+    const phase = l * 0.7 + this.rng() * 0.6;
+    const wave = (x: number) =>
+      baseY +
+      Math.sin((x / w) * Math.PI * 2 * freq + phase) * amp +
+      Math.sin((x / w) * Math.PI * 4 * freq + phase * 1.7) * amp * 0.35;
+
+    ctx.beginPath();
+    ctx.moveTo(-10, h + 10);
+    for (let x = -10; x <= w + 10; x += 12) ctx.lineTo(x, wave(x));
+    ctx.lineTo(w + 10, h + 10);
+    ctx.closePath();
+
+    const tone = this.mixColor(p.deep, l % 2 ? p.main : p.cool, 0.25 + 0.5 * t);
+    const g = ctx.createLinearGradient(0, baseY - amp, 0, baseY + amp * 3.5);
+    g.addColorStop(0, this.hexToRgbaString(tone, 0.95));
+    g.addColorStop(1, this.hexToRgbaString(p.ink, 0.95));
+    ctx.fillStyle = g;
+    ctx.fill();
+
+    // Filo de luz en el borde superior
+    ctx.beginPath();
+    for (let x = -10; x <= w + 10; x += 12) {
+      if (x === -10) ctx.moveTo(x, wave(x));
+      else ctx.lineTo(x, wave(x));
+    }
+    ctx.strokeStyle = this.hexToRgbaString(p.light, 0.1 + 0.25 * t);
+    ctx.lineWidth = 2;
+    ctx.stroke();
+  }
+
+  ctx.globalCompositeOperation = 'screen';
+  this.glow(ctx, w * 0.5, h * 0.42, Math.max(w, h) * 0.45, p.warm, 0.22);
+  ctx.globalCompositeOperation = 'source-over';
+}
+
+// 5) FLOW FIELD: arte generativo
+private drawFlowBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
+  const p = this.makePalette(color);
+  const noise = this.makeNoise();
+  const bg = ctx.createRadialGradient(w / 2, h * 0.42, 0, w / 2, h * 0.42, Math.max(w, h) * 0.8);
+  bg.addColorStop(0, p.deep);
+  bg.addColorStop(1, p.ink);
+  ctx.fillStyle = bg;
+  ctx.fillRect(0, 0, w, h);
+
+  ctx.globalCompositeOperation = 'screen';
+  this.glow(ctx, w / 2, h * 0.42, Math.max(w, h) * 0.5, p.main, 0.25);
+
+  ctx.globalCompositeOperation = 'lighter';
+  ctx.lineCap = 'round';
+  const palette = [p.main, p.cool, p.warm, p.light, p.accent];
+  const scale = 0.0019;
+
+  for (let i = 0; i < 2400; i++) {
+    let x = this.rng() * w, y = this.rng() * h;
+    ctx.strokeStyle = this.hexToRgbaString(palette[Math.floor(this.rng() * palette.length)], 0.07 + this.rng() * 0.1);
+    ctx.lineWidth = 0.8 + this.rng() * 1.6;
+    ctx.beginPath();
+    ctx.moveTo(x, y);
+    for (let s = 0; s < 110; s++) {
+      const a = noise(x * scale + 3.1, y * scale + 7.7) * Math.PI * 5;
+      x += Math.cos(a) * 5;
+      y += Math.sin(a) * 5;
+      ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+  }
+  ctx.globalCompositeOperation = 'source-over';
+}
+
+// 6) NIGHT MATCH: reflectores, neblina y bokeh
+private drawNightMatchBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
+  const p = this.makePalette(color);
+  const bg = ctx.createLinearGradient(0, 0, 0, h);
+  bg.addColorStop(0, p.ink);
+  bg.addColorStop(0.5, p.deep);
+  bg.addColorStop(1, p.ink);
+  ctx.fillStyle = bg;
+  ctx.fillRect(0, 0, w, h);
+
+  ctx.globalCompositeOperation = 'screen';
+
+  // Haces volumétricos
+  const targets = [-2, -1, 0, 1, 2];
+  targets.forEach((k, i) => {
+    const sx = w * (0.1 + i * 0.2);
+    const tx = w / 2 + k * w * 0.2;
+    const ty = h * 0.78;
+    const g = ctx.createLinearGradient(sx, 0, tx, ty);
+    g.addColorStop(0, this.hexToRgbaString(p.light, 0.34));
+    g.addColorStop(1, this.hexToRgbaString(p.light, 0));
+    ctx.fillStyle = g;
+    ctx.beginPath();
+    ctx.moveTo(sx - 20, -10);
+    ctx.lineTo(sx + 20, -10);
+    ctx.lineTo(tx + 190, ty);
+    ctx.lineTo(tx - 190, ty);
+    ctx.closePath();
+    ctx.fill();
+  });
+
+  this.glow(ctx, w / 2, h * 0.42, Math.max(w, h) * 0.45, p.main, 0.3);
+  this.glow(ctx, w / 2, -h * 0.05, Math.max(w, h) * 0.6, p.light, 0.22);
+
+  // Bokeh
+  const tones = [p.light, p.main, p.warm, p.accent, '#ffffff'];
+  for (let i = 0; i < 70; i++) {
+    const x = this.rng() * w;
+    const y = h * Math.pow(this.rng(), 1.5) * 0.92;
+    const r = 14 + Math.pow(this.rng(), 2) * 70;
+    const c = tones[Math.floor(this.rng() * tones.length)];
+    ctx.fillStyle = this.hexToRgbaString(c, 0.04 + this.rng() * 0.1);
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.strokeStyle = this.hexToRgbaString(c, 0.14 + this.rng() * 0.2);
+    ctx.lineWidth = 2;
+    ctx.stroke();
+  }
+
+  // Destellos de cámaras
+  for (let i = 0; i < 26; i++) {
+    this.drawSparkle(ctx, this.rng() * w, this.rng() * h * 0.6, 6 + this.rng() * 16, 0.35 + this.rng() * 0.5);
+  }
+  ctx.globalCompositeOperation = 'source-over';
+}
+
+// 7) EDITORIAL: tipografía gigante tipo póster
+private drawEditorialBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string, club: any): void {
+  const p = this.makePalette(color);
+  const bg = ctx.createLinearGradient(0, 0, w, h);
+  bg.addColorStop(0, this.shadeColor(p.main, -22));
+  bg.addColorStop(1, p.deep);
+  ctx.fillStyle = bg;
+  ctx.fillRect(0, 0, w, h);
+
+  const name = club.club_name.toUpperCase();
+  const fs = Math.round(Math.min(w, h) * 0.2);
+  ctx.font = `700 ${fs}px "Oswald", sans-serif`;
+  ctx.textBaseline = 'middle';
+  ctx.textAlign = 'left';
+  ctx.lineJoin = 'round';
+
+  const unit = `${name}  `;
+  const unitW = Math.max(40, ctx.measureText(unit).width);
+  const rowH = fs * 0.9;
+  const rows = Math.ceil(h / rowH) + 2;
+
+  for (let r = 0; r < rows; r++) {
+    const y = r * rowH - rowH * 0.5;
+    const offset = -((r * unitW * 0.27) % unitW) - unitW;
+    const mode = r % 3;
+    for (let x = offset; x < w + unitW; x += unitW) {
+      if (mode === 0) {
+        ctx.lineWidth = 3;
+        ctx.strokeStyle = 'rgba(255,255,255,0.28)';
+        ctx.strokeText(unit, x, y);
+      } else if (mode === 1) {
+        ctx.fillStyle = 'rgba(255,255,255,0.09)';
+        ctx.fillText(unit, x, y);
+      } else {
+        ctx.fillStyle = this.hexToRgbaString(p.accent, 0.2);
+        ctx.fillText(unit, x, y);
       }
     }
-    ctx.globalAlpha = 1;
   }
 
-  private drawChevronBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
-    const dark = this.shadeColor(color, -35);
-    const light = this.shadeColor(color, 15);
+  // Desvanecido arriba y abajo
+  const fade = ctx.createLinearGradient(0, 0, 0, h);
+  fade.addColorStop(0, this.hexToRgbaString(p.ink, 0.9));
+  fade.addColorStop(0.25, this.hexToRgbaString(p.ink, 0));
+  fade.addColorStop(0.7, this.hexToRgbaString(p.ink, 0));
+  fade.addColorStop(1, this.hexToRgbaString(p.ink, 0.92));
+  ctx.fillStyle = fade;
+  ctx.fillRect(0, 0, w, h);
 
-    ctx.fillStyle = dark;
-    ctx.fillRect(0, 0, w, h);
+  // Marco y datos editoriales
+  const inset = Math.round(Math.min(w, h) * 0.04);
+  ctx.strokeStyle = 'rgba(255,255,255,0.35)';
+  ctx.lineWidth = 2;
+  ctx.strokeRect(inset, inset, w - inset * 2, h - inset * 2);
 
-    const bandHeight = 90, chevronDepth = 55;
-    let toggle = false;
-    for (let y = -bandHeight; y < h + bandHeight; y += bandHeight) {
-      ctx.fillStyle = toggle ? color : light;
-      ctx.beginPath();
-      ctx.moveTo(0, y);
-      ctx.lineTo(w / 2, y + chevronDepth);
-      ctx.lineTo(w, y);
-      ctx.lineTo(w, y + bandHeight);
-      ctx.lineTo(w / 2, y + bandHeight + chevronDepth);
-      ctx.lineTo(0, y + bandHeight);
-      ctx.closePath();
-      ctx.fill();
-      toggle = !toggle;
+  const spaced = (s: string) => s.toUpperCase().split('').join('\u200A');
+  ctx.font = '600 28px "Inter", sans-serif';
+  ctx.fillStyle = 'rgba(255,255,255,0.8)';
+  ctx.textBaseline = 'alphabetic';
+  ctx.textAlign = 'left';
+  ctx.fillText(spaced('Football Clubs Worldwide'), inset + 28, inset + 52);
+  ctx.textAlign = 'right';
+  ctx.fillText(spaced(club.city_country || ''), w - inset - 28, inset + 52);
+}
+
+// 8) PRISM: facetas low-poly
+private drawPrismBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
+  const p = this.makePalette(color);
+  const noise = this.makeNoise();
+
+  const cols = 9;
+  const cell = w / cols;
+  const rows = Math.ceil(h / cell) + 1;
+  const pts: { x: number; y: number }[][] = [];
+  for (let r = 0; r <= rows + 1; r++) {
+    const row: { x: number; y: number }[] = [];
+    for (let c = 0; c <= cols + 1; c++) {
+      row.push({
+        x: (c - 0.5) * cell + (this.rng() - 0.5) * cell * 0.6,
+        y: (r - 0.5) * cell + (this.rng() - 0.5) * cell * 0.6,
+      });
     }
-
-    const vignette = ctx.createRadialGradient(w / 2, h / 2, h / 4, w / 2, h / 2, h);
-    vignette.addColorStop(0, 'rgba(0,0,0,0)');
-    vignette.addColorStop(1, 'rgba(0,0,0,0.4)');
-    ctx.fillStyle = vignette;
-    ctx.fillRect(0, 0, w, h);
+    pts.push(row);
   }
 
-  private drawLogoPatternBackground(
-    ctx: CanvasRenderingContext2D, w: number, h: number, color: string, logo: HTMLImageElement
-  ): void {
-    const dark = this.shadeColor(color, -45);
+  const value = (x: number, y: number) => {
+    const n = noise(x * 0.0016 + 2.3, y * 0.0016 + 9.1);
+    const diag = (x / w) * 0.45 + (y / h) * 0.55;
+    return Math.min(1, Math.max(0, n * 0.55 + diag * 0.45 + (this.rng() - 0.5) * 0.12));
+  };
+  const colorAt = (v: number) =>
+    v < 0.5
+      ? this.mixColor(p.deep, p.main, (v / 0.5) * 0.95)
+      : this.mixColor(p.main, p.light, ((v - 0.5) / 0.5) * 0.65);
 
-    ctx.fillStyle = dark;
-    ctx.fillRect(0, 0, w, h);
+  const tri = (a: { x: number; y: number }, b: { x: number; y: number }, c: { x: number; y: number }) => {
+    const cx = (a.x + b.x + c.x) / 3, cy = (a.y + b.y + c.y) / 3;
+    const fill = colorAt(value(cx, cy));
+    ctx.beginPath();
+    ctx.moveTo(a.x, a.y);
+    ctx.lineTo(b.x, b.y);
+    ctx.lineTo(c.x, c.y);
+    ctx.closePath();
+    ctx.fillStyle = fill;
+    ctx.fill();
+    ctx.strokeStyle = fill;      // evita costuras entre facetas
+    ctx.lineWidth = 1;
+    ctx.stroke();
+    ctx.strokeStyle = 'rgba(255,255,255,0.06)';
+    ctx.stroke();
+  };
 
-    ctx.save();
-    ctx.globalAlpha = 0.9;
-    ctx.translate(w / 2, h / 2);
-    ctx.rotate(-14 * Math.PI / 180);
-    ctx.translate(-w / 2, -h / 2);
-
-    const tileSize = 260, gap = 300;
-    const ratio = Math.min(tileSize / logo.width, tileSize / logo.height);
-    const drawW = logo.width * ratio, drawH = logo.height * ratio;
-
-    for (let y = -h; y < h * 2; y += gap) {
-      for (let x = -w; x < w * 2; x += gap) {
-        ctx.drawImage(logo, x, y, drawW, drawH);
-      }
+  for (let r = 0; r <= rows; r++) {
+    for (let c = 0; c <= cols; c++) {
+      const a = pts[r][c], b = pts[r][c + 1], d = pts[r + 1][c], e = pts[r + 1][c + 1];
+      tri(a, b, d);
+      tri(b, e, d);
     }
-    ctx.restore();
-
-    const overlay = ctx.createLinearGradient(0, 0, 0, h);
-    overlay.addColorStop(0, 'rgba(0,0,0,0.35)');
-    overlay.addColorStop(0.5, 'rgba(0,0,0,0.55)');
-    overlay.addColorStop(1, 'rgba(0,0,0,0.75)');
-    ctx.fillStyle = overlay;
-    ctx.fillRect(0, 0, w, h);
   }
 
-  private drawBlackWhiteBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
-    const black = '#0a0a0a';
-    const white = '#f2f2f2';
-    const gray = '#4d4d4d';
+  ctx.globalCompositeOperation = 'screen';
+  this.glow(ctx, w / 2, h * 0.42, Math.max(w, h) * 0.4, p.light, 0.22);
+  ctx.globalCompositeOperation = 'source-over';
+}
 
-    ctx.fillStyle = black;
-    ctx.fillRect(0, 0, w, h);
+// 9) HOLO FOIL: lámina holográfica iridiscente
+private drawHoloBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
+  const p = this.makePalette(color);
+  const bg = ctx.createLinearGradient(0, 0, w, h);
+  bg.addColorStop(0, p.deep);
+  bg.addColorStop(1, p.ink);
+  ctx.fillStyle = bg;
+  ctx.fillRect(0, 0, w, h);
 
-    ctx.save();
-    ctx.translate(w / 2, h / 2);
-    ctx.rotate(-18 * Math.PI / 180);
-    ctx.translate(-w / 2, -h / 2);
-
-    const stripeWidth = 130;
-    const palette = [black, white, gray];
-    let idx = 0;
-    for (let x = -h; x < w + h; x += stripeWidth) {
-      ctx.fillStyle = palette[idx % palette.length];
-      ctx.fillRect(x, -h, stripeWidth, h * 3);
-      idx++;
-    }
-    ctx.restore();
-
-    const vignette = ctx.createRadialGradient(w / 2, h / 2, h / 4, w / 2, h / 2, h);
-    vignette.addColorStop(0, 'rgba(0,0,0,0)');
-    vignette.addColorStop(1, 'rgba(0,0,0,0.5)');
-    ctx.fillStyle = vignette;
-    ctx.fillRect(0, 0, w, h);
+  const cx = w / 2, cy = h * 0.42;
+  const anyCtx = ctx as any;
+  let foil: CanvasGradient;
+  if (typeof anyCtx.createConicGradient === 'function') {
+    foil = anyCtx.createConicGradient(this.rng() * Math.PI, cx, cy);
+  } else {
+    foil = ctx.createLinearGradient(0, 0, w, h);
   }
-
-  // Fondo difuminado tipo "glow" — manchas de color suaves desenfocadas con canvas filter blur
-  private drawBlurredBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
-    const dark = this.shadeColor(color, -50);
-    const mid = this.shadeColor(color, -10);
-    const light = this.shadeColor(color, 30);
-
-    const base = ctx.createLinearGradient(0, 0, 0, h);
-    base.addColorStop(0, dark);
-    base.addColorStop(1, this.shadeColor(color, -60));
-    ctx.fillStyle = base;
-    ctx.fillRect(0, 0, w, h);
-
-    ctx.save();
-    ctx.filter = 'blur(90px)';
-
-    const blobs = [
-      { x: w * 0.25, y: h * 0.22, r: 380, c: light },
-      { x: w * 0.8,  y: h * 0.35, r: 320, c: mid },
-      { x: w * 0.3,  y: h * 0.68, r: 360, c: color },
-      { x: w * 0.75, y: h * 0.78, r: 300, c: light },
-      { x: w * 0.5,  y: h * 0.5,  r: 420, c: mid },
-    ];
-
-    blobs.forEach(blob => {
-      ctx.beginPath();
-      ctx.fillStyle = blob.c;
-      ctx.globalAlpha = 0.75;
-      ctx.arc(blob.x, blob.y, blob.r, 0, Math.PI * 2);
-      ctx.fill();
-    });
-
-    ctx.restore();
-    ctx.globalAlpha = 1;
-
-    // Grano/textura suave encima para que no se vea "plano"
-    const vignette = ctx.createRadialGradient(w / 2, h / 2, h / 3, w / 2, h / 2, h);
-    vignette.addColorStop(0, 'rgba(0,0,0,0)');
-    vignette.addColorStop(1, 'rgba(0,0,0,0.35)');
-    ctx.fillStyle = vignette;
-    ctx.fillRect(0, 0, w, h);
+  const stops = 12;
+  for (let i = 0; i <= stops; i++) {
+    foil.addColorStop(i / stops, this.hslToHex(p.hue + (i * 360) / stops, 0.85, 0.62));
   }
+  ctx.save();
+  ctx.globalAlpha = 0.6;
+  ctx.fillStyle = foil;
+  ctx.fillRect(0, 0, w, h);
+  ctx.restore();
 
-  // Reflectores de estadio de noche — haces de luz convergiendo desde arriba
-  private drawSpotlightBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
-    ctx.fillStyle = '#050608';
-    ctx.fillRect(0, 0, w, h);
+  // Brillo metálico diagonal
+  const sheen = ctx.createLinearGradient(0, 0, w, h);
+  sheen.addColorStop(0.15, 'rgba(255,255,255,0)');
+  sheen.addColorStop(0.28, 'rgba(255,255,255,0.4)');
+  sheen.addColorStop(0.4, 'rgba(255,255,255,0)');
+  sheen.addColorStop(0.6, 'rgba(255,255,255,0)');
+  sheen.addColorStop(0.72, 'rgba(255,255,255,0.3)');
+  sheen.addColorStop(0.85, 'rgba(255,255,255,0)');
+  ctx.save();
+  ctx.globalCompositeOperation = 'overlay';
+  ctx.fillStyle = sheen;
+  ctx.fillRect(0, 0, w, h);
+  ctx.restore();
 
-    const beamSources = [
-      { x: -w * 0.1, angle: 24 },
-      { x: w * 0.35, angle: 8 },
-      { x: w * 0.65, angle: -8 },
-      { x: w * 1.1,  angle: -24 },
-    ];
+  // Profundidad en los bordes
+  const depth = ctx.createRadialGradient(cx, cy, Math.min(w, h) * 0.25, cx, cy, Math.max(w, h) * 0.75);
+  depth.addColorStop(0, 'rgba(0,0,0,0)');
+  depth.addColorStop(1, 'rgba(0,0,0,0.5)');
+  ctx.fillStyle = depth;
+  ctx.fillRect(0, 0, w, h);
 
-    ctx.save();
-    beamSources.forEach(src => {
-      const beamWidthTop = 70;
-      const beamWidthBottom = 420;
-      const rad = (src.angle * Math.PI) / 180;
-      const dx = Math.sin(rad) * h;
-
-      const grad = ctx.createLinearGradient(src.x, 0, src.x, h);
-      grad.addColorStop(0, this.hexToRgbaString(color, 0.55));
-      grad.addColorStop(1, this.hexToRgbaString(color, 0));
-
-      ctx.fillStyle = grad;
-      ctx.beginPath();
-      ctx.moveTo(src.x - beamWidthTop / 2, 0);
-      ctx.lineTo(src.x + beamWidthTop / 2, 0);
-      ctx.lineTo(src.x + dx + beamWidthBottom / 2, h);
-      ctx.lineTo(src.x + dx - beamWidthBottom / 2, h);
-      ctx.closePath();
-      ctx.fill();
-    });
-    ctx.restore();
-
-    // Brillo central donde convergen los haces
-    const glow = ctx.createRadialGradient(w / 2, h * 0.4, 40, w / 2, h * 0.4, h * 0.5);
-    glow.addColorStop(0, this.hexToRgbaString(color, 0.35));
-    glow.addColorStop(1, 'rgba(0,0,0,0)');
-    ctx.fillStyle = glow;
-    ctx.fillRect(0, 0, w, h);
-
-    // Puntos de "estrellas/flashes" tipo cámaras de fotos en la tribuna
-    ctx.fillStyle = 'rgba(255,255,255,0.5)';
-    for (let i = 0; i < 60; i++) {
-      const x = Math.random() * w;
-      const y = Math.random() * h * 0.5;
-      const r = Math.random() * 1.6 + 0.4;
-      ctx.globalAlpha = Math.random() * 0.6 + 0.2;
-      ctx.beginPath();
-      ctx.arc(x, y, r, 0, Math.PI * 2);
-      ctx.fill();
-    }
-    ctx.globalAlpha = 1;
-
-    const vignette = ctx.createRadialGradient(w / 2, h / 2, h / 4, w / 2, h / 2, h);
-    vignette.addColorStop(0, 'rgba(0,0,0,0)');
-    vignette.addColorStop(1, 'rgba(0,0,0,0.55)');
-    ctx.fillStyle = vignette;
-    ctx.fillRect(0, 0, w, h);
+  // Destellos
+  ctx.globalCompositeOperation = 'screen';
+  for (let i = 0; i < 70; i++) {
+    this.drawSparkle(ctx, this.rng() * w, this.rng() * h, 5 + this.rng() * 18, 0.3 + this.rng() * 0.6);
   }
-
-  // Fondo de texto repetido: nombre, ciudad y país en mosaico rotado (mismo espíritu que logos)
-  private drawWordmarkBackground(
-    ctx: CanvasRenderingContext2D, w: number, h: number, color: string, club: any
-  ): void {
-    const dark = this.shadeColor(color, -45);
-
-    ctx.fillStyle = dark;
-    ctx.fillRect(0, 0, w, h);
-
-    const parts = club.city_country.split(',');
-    const city = (parts[0] || '').trim();
-    const country = (parts[1] || '').trim();
-
-    const words = [club.club_name.toUpperCase(), city.toUpperCase(), country.toUpperCase()]
-      .filter(Boolean);
-    const line = words.join('   •   ');
-
-    ctx.save();
-    ctx.globalAlpha = 0.9;
-    ctx.translate(w / 2, h / 2);
-    ctx.rotate(-14 * Math.PI / 180);
-    ctx.translate(-w / 2, -h / 2);
-
-    ctx.font = '600 52px "Oswald", sans-serif';
-    ctx.textBaseline = 'middle';
-
-    const rowHeight = 90;
-    const textWidth = ctx.measureText(line + '   •   ').width;
-    let toggle = false;
-
-    for (let y = -h; y < h * 2; y += rowHeight) {
-      ctx.fillStyle = toggle ? color : this.shadeColor(color, 25);
-      let x = -w;
-      // repetimos el bloque de texto hasta cubrir todo el ancho rotado
-      while (x < w * 2) {
-        ctx.fillText(line + '   •   ', x, y);
-        x += textWidth;
-      }
-      toggle = !toggle;
-    }
-
-    ctx.restore();
-    ctx.globalAlpha = 1;
-
-    const overlay = ctx.createLinearGradient(0, 0, 0, h);
-    overlay.addColorStop(0, 'rgba(0,0,0,0.4)');
-    overlay.addColorStop(0.5, 'rgba(0,0,0,0.6)');
-    overlay.addColorStop(1, 'rgba(0,0,0,0.8)');
-    ctx.fillStyle = overlay;
-    ctx.fillRect(0, 0, w, h);
-  }
+  ctx.globalCompositeOperation = 'source-over';
+}
 
   // Quita sufijos tipo "(Defunct)", "(defunct)", " - Defunct" del nombre para el wallpaper
   private cleanClubNameForWallpaper(name: string): string {
@@ -1150,31 +1513,42 @@ await document.fonts.ready;
     return `rgba(${r}, ${g}, ${b}, ${alpha})`;
   }
 
-  private drawCrestBadge(
-    ctx: CanvasRenderingContext2D, logo: HTMLImageElement,
-    cx: number, cy: number, size: number, color: string
-  ): void {
-    const radius = size / 2 + 40;
+ private drawCrestBadge(
+  ctx: CanvasRenderingContext2D, logo: HTMLImageElement,
+  cx: number, cy: number, size: number, color: string
+): void {
+  const radius = size / 2 + 40;
 
-    ctx.save();
-    ctx.shadowColor = 'rgba(0,0,0,0.5)';
-    ctx.shadowBlur = 60;
-    ctx.beginPath();
-    ctx.arc(cx, cy, radius, 0, Math.PI * 2);
-    ctx.fillStyle = 'rgba(255,255,255,0.97)';
-    ctx.fill();
-    ctx.restore();
+  ctx.save();
+  ctx.globalCompositeOperation = 'screen';
+  this.glow(ctx, cx, cy, radius * 2.1, this.makePalette(color).light, 0.35);
+  ctx.restore();
 
-    ctx.beginPath();
-    ctx.arc(cx, cy, radius, 0, Math.PI * 2);
-    ctx.lineWidth = 14;
-    ctx.strokeStyle = color;
-    ctx.stroke();
+  ctx.save();
+  ctx.shadowColor = 'rgba(0,0,0,0.5)';
+  ctx.shadowBlur = 60;
+  ctx.beginPath();
+  ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(255,255,255,0.97)';
+  ctx.fill();
+  ctx.restore();
 
-    const ratio = Math.min(size / logo.width, size / logo.height);
-    const drawW = logo.width * ratio, drawH = logo.height * ratio;
-    ctx.drawImage(logo, cx - drawW / 2, cy - drawH / 2, drawW, drawH);
-  }
+  ctx.beginPath();
+  ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+  ctx.lineWidth = 14;
+  ctx.strokeStyle = color;
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.arc(cx, cy, radius + 26, 0, Math.PI * 2);
+  ctx.lineWidth = 2;
+  ctx.strokeStyle = 'rgba(255,255,255,0.35)';
+  ctx.stroke();
+
+  const ratio = Math.min(size / logo.width, size / logo.height);
+  const drawW = logo.width * ratio, drawH = logo.height * ratio;
+  ctx.drawImage(logo, cx - drawW / 2, cy - drawH / 2, drawW, drawH);
+}
 
   private drawClubBanner(ctx: CanvasRenderingContext2D, w: number, h: number, club: any, color: string): void {
     const bannerY = h * 0.72, bannerHeight = h * 0.16;
@@ -1526,13 +1900,9 @@ closeSuggestions(): void {
   this.activeSuggestion = -1;
 }
 get activeFilterCount(): number {
-  return [
-    this.selectedCountry,
-    this.selectedCity,
-    this.selectedColor,
-    this.showFavoritesOnly,
-    this.showDefunctOnly,
-  ].filter(Boolean).length;
+  return this.selectedCountries.length +
+    [this.selectedCity, this.selectedColor, this.showFavoritesOnly, this.showDefunctOnly]
+      .filter(Boolean).length;
 }
 
 get hasActiveFilters(): boolean {
@@ -1541,7 +1911,7 @@ get hasActiveFilters(): boolean {
 
 
 clearAllFilters(): void {
-  this.selectedCountry = '';
+  this.selectedCountries = [];
   this.selectedCity = null;
   this.selectedColor = '';
   this.showFavoritesOnly = false;

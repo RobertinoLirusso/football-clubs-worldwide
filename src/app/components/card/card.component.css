@@ -1064,6 +1064,8 @@ footer p {
   scroll-behavior: smooth;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  padding: 12px 8px 16px;
+  margin: -12px -8px -16px;
 }
 
 .country-carousel-track::-webkit-scrollbar {
@@ -1111,7 +1113,8 @@ footer p {
   border: none;
   overflow: hidden;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .country-chip .fi {
@@ -1121,40 +1124,146 @@ footer p {
 }
 
 .country-chip:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
-}
-
-.country-chip.active {
-  border: 2px solid transparent;
-  background:
-    linear-gradient(#fff, #fff) padding-box,
-    linear-gradient(160deg, #dbe4ea, #bfc3ca 30%, #eceef2 60%, #d4d6da 100%) border-box;
+  transform: translateY(-5px);
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 0.9),
-    0 4px 10px rgba(150, 160, 170, 0.3);
+    0 10px 16px rgba(0, 0, 0, 0.28);
 }
 
-.modal-tabs {
+
+/* Al presionar no se hunde: se mantiene arriba */
+.country-chip:active {
+  transform: translateY(-4px);
+}
+
+/* Seleccionada: queda elevada con un marco platinado y brillo */
+.country-chip.active {
+  border: none;
+  background: #fff;
+  transform: translateY(-5px);
+  box-shadow:
+    0 0 0 2px #fff,
+    0 0 0 3px #8e97a5,
+    0 0 14px rgba(200, 212, 228, 0.9),
+    0 12px 18px rgba(0, 0, 0, 0.3);
+}
+
+.country-chip.active:hover {
+  transform: translateY(-7px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .country-chip {
+    transition: none;
+  }
+}
+
+
+/* Modal de países: selección múltiple */
+.country-item-right {
   display: flex;
-  margin-bottom: 12px;
-  border-bottom: 1px solid #ccc;
+  align-items: center;
+  gap: 12px;
+}
+
+.country-check {
+  width: 16px;
+  color: #000;
+  font-size: 13px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+/* Barra inferior del modal de países */
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #ddd;
+}
+
+/* Pestañas: control segmentado compacto */
+.modal-tabs {
+  display: inline-flex;
+  margin: 0;
+  border: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .modal-tabs button {
-  flex: 1;
-  padding: 8px 12px;
+  flex: 0 0 auto;
+  height: 34px;
+  padding: 0 14px;
   border: 0;
-  border-bottom: 2px solid transparent;
-  background: transparent;
-  color: #777;
+  border-radius: 0;
+  background: #fff;
+  color: #000;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .modal-tabs button.active {
+  background: #000;
+  color: #fff;
+  border: 0;
+}
+
+/* Acciones */
+.modal-actions {
+  display: flex;
+  gap: 6px;
+  margin: 0;
+}
+
+.modal-btn {
+  height: 34px;
+  padding: 0 14px;
+  border: 1px solid #000;
+  border-radius: 0;
+  background: #000;
+  color: #fff;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.modal-btn:hover {
+  background: #fff;
   color: #000;
-  border-bottom-color: #000;
-  font-weight: 600;
+}
+
+.modal-btn.ghost {
+  background: #fff;
+  color: #000;
+}
+
+.modal-btn.ghost:hover {
+  background: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .modal-footer {
+    justify-content: center;
+  }
 }
 
 .country-item {
@@ -2247,5 +2356,30 @@ footer p {
 
   .zoom-name {
     font-size: 1.05rem;
+  }
+}
+
+/* Banderas del slider: grises, a color en hover y al seleccionar */
+.country-chip .fi {
+  filter: grayscale(1) contrast(1.05);
+  transition: filter 0.3s ease;
+}
+
+.country-chip:hover .fi,
+.country-chip:focus-visible .fi,
+.country-chip.active .fi {
+  filter: grayscale(0) contrast(1);
+}
+
+/* Sin hover (móvil): gris parcial para poder reconocerlas */
+@media (hover: none) {
+  .country-chip:not(.active) .fi {
+    filter: grayscale(0.65);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .country-chip .fi {
+    transition: none;
   }
 }
