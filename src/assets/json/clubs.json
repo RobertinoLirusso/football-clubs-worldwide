@@ -3348,7 +3348,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/U.S._Triestina_Calcio"
   },
   {
-    "club_name": "Ternana Calcio (Defunct)",
+    "club_name": "Ternana Calcio",
     "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVV0yXSzoBv1i5yJYyx2PXD5GAEV66CynaO7w9GtJge08Zu2d9nFnhEWk9IKD2wR8Os034tRd6VWj6LtQLoS9Q0_qNzilxMu83gJZNqPXtdvm0gIPcs8tyI-nXIyVabVzftcNapa7nEqA/s256/Ternana+Calcio256x.png",
     "city_country": "Terni, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Ternana_Calcio"
@@ -5593,7 +5593,7 @@
   },
   {
     "club_name": "SD Tarazona (Defunct)",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjURk0xtWtJw1hIJx4VW63qA3wXxAOePO0deXVFOvA3eUJTQX9jsEExnXlmJM1UUjsVFhuRmIfQE47fhtT6Uc_5mcKC41E55lJE5wL1whg2mCAPIIsgnASGGIMdXCF-mKdw2MCHUNp4zhk/s256/SD+Tarazona256x.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e8/SD_Tarazona_logo.svg/250px-SD_Tarazona_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Tarazona, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/SD_Tarazona"
   },
@@ -6631,7 +6631,7 @@
 },
 {
     "club_name": "Górnik Zabrze",
-    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD7aC1NokY7N7cH0XtugE6IvgkT3nRP0zXLuRKCzmwgsnL1ynnOmoJHvUfh17tiDS8w8RFdCn3Y0jU1tKgkMxBa24m8c64c8KaV76uiBtetNl37Inz5oBxsgpaUdZZltDkWAWYwi2RMG8/s1600/Gornik+Zabrze256x.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/58/G%C3%B3rnik_Zabrze_crest.svg/250px-G%C3%B3rnik_Zabrze_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Zabrze, Poland",
     "wiki_url": "https://en.wikipedia.org/wiki/Górnik_Zabrze"
 },
@@ -6768,19 +6768,19 @@
   "wiki_url": "https://en.wikipedia.org/wiki/A.E._Kifisia_F.C."
 },
 {
-  "club_name": "Panionios",
+  "club_name": "Panionios FC",
   "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/70/Panionios_FC.png",
   "city_country": "Nea Smyrni, Greece",
   "wiki_url": "https://en.wikipedia.org/wiki/Panionios_FC"
 },
 {
-  "club_name": "Panargiakos",
-  "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e8/Panargiakoslogofc.png",
+  "club_name": "Panargiakos FC",
+  "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/64/Panargiakos_FC_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
   "city_country": "Argos, Greece",
   "wiki_url": "https://en.wikipedia.org/wiki/Panargiakos_F.C."
 },
 {
-  "club_name": "Xanthi",
+  "club_name": "Xanthi FC",
   "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3i5J7hdI4fbS8sJMud8SOLm5ZLrR40fkzwrHylvdTVzqD2yzkggUohA3qYHALEVFzRyhl7hGi-3WGRVfdrPKDBTVQJP6x7yr5xtpxRwC1ewrJd0omrJ5NyFmkvaa8BSC190QnSegRKRw/s1600/Xanthi+FC256x.png",
   "city_country": "Xanthi, Greece",
   "wiki_url": "https://en.wikipedia.org/wiki/Xanthi_FC"
@@ -13176,8 +13176,8 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Aalesunds_FK"
   },
   {
-    "club_name": "Egersund",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Egersunds_IK_logo.png/250px-Egersunds_IK_logo.png",
+    "club_name": "Egersunds IK",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/41/Egersunds_IK_logo.svg/250px-Egersunds_IK_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Egersund, Norway",
     "wiki_url": "https://en.wikipedia.org/wiki/Egersunds_IK"
   },
@@ -13711,7 +13711,7 @@
     },
     {
       "club_name": "Kalamata FC",
-      "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Kalamata_FC_official_emblem.png/250px-Kalamata_FC_official_emblem.png",
+      "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d7/Kalamata_F.C._logo.svg/250px-Kalamata_F.C._logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "city_country": "Kalamata, Greece",
       "wiki_url": "https://en.wikipedia.org/wiki/Kalamata_F.C."
     },
@@ -14791,7 +14791,7 @@
   },
   {
     "club_name": "Clube Náutico",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Clube_N%C3%A1utico_Capibaribe_%282010%29.svg/250px-Clube_N%C3%A1utico_Capibaribe_%282010%29.svg.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Clube_N%C3%A1utico_Capibaribe_%282010%29.svg/250px-Clube_N%C3%A1utico_Capibaribe_%282010%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Recife, Brazil",
     "wiki_url": "https://en.wikipedia.org/wiki/Clube_N%C3%A1utico_Capibaribe"
   },
@@ -14887,7 +14887,7 @@
   },
     {
     "club_name": "CD San José de Oruro",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Escudo_Club_Deportivo_San_Jos%C3%A9_de_Oruro_PNG.png/250px-Escudo_Club_Deportivo_San_Jos%C3%A9_de_Oruro_PNG.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Escudo_Club_Deportivo_San_Jos%C3%A9_de_Oruro_PNG.png/250px-Escudo_Club_Deportivo_San_Jos%C3%A9_de_Oruro_PNG.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Oruro, Bolivia",
     "wiki_url": "https://en.wikipedia.org/wiki/Club_San_Jos%C3%A9"
   },
@@ -18427,7 +18427,7 @@
   },
   {
     "club_name": "Deportes Concepción",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Escudo_Deportes_Concepci%C3%B3n.svg/250px-Escudo_Deportes_Concepci%C3%B3n.svg.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQm8LthLGipUWGHD8p_d6WKxbAqFLffsOEOli_0vk7hea8_-8txrQHqpygs-VWzUw929d5QaNuV7urXpBXN_zJVIFoG7Trx7KIBEkG9QIV_tTc6FYEhIiqfIBCrIKEzgzWTTA7KUD2kEM/s1600/CSD+Concepcion256x.png",
     "city_country": "Concepción, Chile",
     "wiki_url": "https://en.wikipedia.org/wiki/Deportes_Concepci%C3%B3n_(Chile)"
   },
@@ -19465,7 +19465,7 @@
   },
   {
     "club_name": "Castelfidardo Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e6/GSD_Castelfidardo_Calcio_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/92/GSD_Castelfidardo_Calcio_logo.svg/250px-GSD_Castelfidardo_Calcio_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Castelfidardo, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/GSD_Castelfidardo_Calcio"
   },
@@ -19507,18 +19507,18 @@
   },
   {
     "club_name": "San Marino Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/San_Marino_Calcio_logo.png/250px-San_Marino_Calcio_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/69/San_Marino_Calcio_logo.svg/250px-San_Marino_Calcio_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Acquaviva, San Marino",
     "wiki_url": "https://en.wikipedia.org/wiki/San_Marino_Calcio"
   },
   {
-    "club_name": "Sora",
+    "club_name": "Sora 1907 (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Stemmasora.png/250px-Stemmasora.png",
     "city_country": "Sora, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/ASD_GC_Sora"
   },
   {
-    "club_name": "Teramo",
+    "club_name": "Teramo Calcio",
     "club_logo": "https://upload.wikimedia.org/wikipedia/it/thumb/3/37/Teramostemma.png/250px-Teramostemma.png",
     "city_country": "Teramo, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/SSD_Citt%C3%A0_di_Teramo"
@@ -29763,7 +29763,7 @@
   },
   {
     "club_name": "SSD Martina Calcio 1947",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Martina_Calcio_logo_2021.png/250px-Martina_Calcio_logo_2021.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/40/SSD_Martina_Calcio_1947_logo.svg/250px-SSD_Martina_Calcio_1947_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Martina Franca, Italy",
     "wiki_url": "https://it.wikipedia.org/wiki/Martina_Calcio_1947"
   },
@@ -29775,7 +29775,7 @@
   },
   {
     "club_name": "USD Citta di Fasano",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/U.S.D._Citt%C3%A0_di_Fasano.png/250px-U.S.D._Citt%C3%A0_di_Fasano.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4b/USD_Citt%C3%A0_di_Fasano_logo.svg/250px-USD_Citt%C3%A0_di_Fasano_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Fasano, Italy",
     "wiki_url": "https://it.wikipedia.org/wiki/Citt%C3%A0_di_Fasano"
   },
@@ -29787,7 +29787,7 @@
   },
   {
     "club_name": "ACD Nardò",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/dd/Nuova_Nard%C3%B2_Calcio.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/34/ACD_Nard%C3%B2_logo.svg/250px-ACD_Nard%C3%B2_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Nardò, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/ACD_Nard%C3%B2"
   },
@@ -29799,7 +29799,7 @@
   },
   {
     "club_name": "Virtus Francavilla Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/07/Virtus_Francavilla_Calcio_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b8/Virtus_Francavilla_Calcio_logo.svg/250px-Virtus_Francavilla_Calcio_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Francavilla Fontana, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Virtus_Francavilla_Calcio"
   },
@@ -29817,19 +29817,19 @@
   },
   {
     "club_name": "Manfredonia Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Manfredonia_Calcio_logo.png/250px-Manfredonia_Calcio_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/6a/Manfredonia_Calcio_logo.svg/250px-Manfredonia_Calcio_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Manfredonia, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Manfredonia_Calcio"
   },
   {
     "club_name": "FC Francavilla",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/76/F.C._Francavilla.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/38/FC_Francavilla_logo.svg/250px-FC_Francavilla_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Francavilla in Sinni, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Francavilla"
   },
   {
     "club_name": "ASD Real Normanna",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Real_Aversa_1925_Logo.png/250px-Real_Aversa_1925_Logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fb/ASD_Real_Normanna_logo.svg/250px-ASD_Real_Normanna_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Aversa, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/ASD_Real_Normanna"
   },
@@ -29859,37 +29859,37 @@
   },
   {
     "club_name": "ASD Nuova Igea Virtus",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/A.S.D._Igea_Virtus_Barcellona_logo.png/250px-A.S.D._Igea_Virtus_Barcellona_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fd/ASD_Nuova_Igea_Virtus_logo.svg/250px-ASD_Nuova_Igea_Virtus_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Barcellona Pozzo di Gotto, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/ASD_Nuova_Igea_Virtus"
   },
   {
     "club_name": "SSD Athletic Club Palermo",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Athletic_Club_Palermo_logo.png/250px-Athletic_Club_Palermo_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/cd/SSD_Athletic_Club_Palermo_logo.svg/250px-SSD_Athletic_Club_Palermo_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Palermo, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/SSD_Athletic_Club_Palermo"
   },
   {
     "club_name": "SSD Nissa FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/SSD_Nissa_FC_logo.png/250px-SSD_Nissa_FC_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/8d/SSD_Nissa_FC_logo.svg/250px-SSD_Nissa_FC_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Caltanissetta, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/SSD_Nissa_FC"
   },
   {
     "club_name": "Gelbison Cilento Vallo della Lucania FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Gelbison_Cilento.png/250px-Gelbison_Cilento.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e8/Gelbison_Cilento_Vallo_della_Lucania_logo.svg/250px-Gelbison_Cilento_Vallo_della_Lucania_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Vallo della Lucania, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Gelbison_Cilento_Vallo_della_Lucania"
   },
   {
     "club_name": "SS Milazzo SSD",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/SS_Milazzo_logo.png/250px-SS_Milazzo_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5c/SS_Milazzo_SSD_logo.svg/250px-SS_Milazzo_SSD_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Milazzo, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/SS_Milazzo_SSD"
   },
   {
     "club_name": "SSD Citta di Gela",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/37/Gela_Calcio_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/7d/SSD_Citt%C3%A0_di_Gela_logo.svg/250px-SSD_Citt%C3%A0_di_Gela_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Gela, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/SSD_Citt%C3%A0_di_Gela"
   },
@@ -29907,19 +29907,19 @@
   },
   {
     "club_name": "Enna Calcio SCSD",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Enna_Calcio_SCSD_logo.png/250px-Enna_Calcio_SCSD_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/8e/Enna_Calcio_SCSD_logo.svg/250px-Enna_Calcio_SCSD_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Enna, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Enna_Calcio_SCSD"
   },
   {
     "club_name": "Ragusa Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e0/USD_Ragusa_2014_new_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/39/USD_Ragusa_2014_logo.svg/250px-USD_Ragusa_2014_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Ragusa, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/USD_Ragusa_2014"
   },
   {
     "club_name": "US Vibonese Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9c/U.S._Vibonese_Calcio_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/51/US_Vibonese_Calcio_logo.svg/250px-US_Vibonese_Calcio_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Vibo Valentia, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/US_Vibonese_Calcio"
   },
@@ -29943,7 +29943,7 @@
   },
   {
     "club_name": "ASD Paternò Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/ASD_Patern%C3%B2_Calcio_logo.png/250px-ASD_Patern%C3%B2_Calcio_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/08/ASD_Patern%C3%B2_Calcio_logo.svg/250px-ASD_Patern%C3%B2_Calcio_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Paternò, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/ASD_Patern%C3%B2_Calcio"
   },
@@ -34659,7 +34659,7 @@
   },
   {
     "club_name": "Cassino Calcio 1924",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/A.S.D._Cassino_Calcio_logo.png/250px-A.S.D._Cassino_Calcio_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5c/ASD_Cassino_Calcio_1924_logo.svg/250px-ASD_Cassino_Calcio_1924_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Cassino, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/ASD_Cassino_Calcio_1924"
   },
@@ -34677,7 +34677,7 @@
   },
   {
     "club_name": "Sassari Calcio Latte Dolce",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d2/U.S.D._Latte_Dolce.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/93/Sassari_Calcio_Latte_Dolce_logo.svg/250px-Sassari_Calcio_Latte_Dolce_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Sassari, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/Sassari_Calcio_Latte_Dolce"
   },
@@ -34707,7 +34707,7 @@
   },
   {
     "club_name": "USD Palmese 1914",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/73/USD_Palmese_logo.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/PALMESE_SCUDETTO.jpg/250px-PALMESE_SCUDETTO.jpg?utm_source=it.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Palma Campania, Italy",
     "wiki_url": "https://it.wikipedia.org/wiki/Palmese_1914"
   },
@@ -34719,7 +34719,7 @@
   },
   {
     "club_name": "ASD Trastevere Calcio",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/A.S.D._Trastevere_Calcio.png/250px-A.S.D._Trastevere_Calcio.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2d/ASD_Trastevere_Calcio_logo.svg/250px-ASD_Trastevere_Calcio_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Roma, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/ASD_Trastevere_Calcio"
   },

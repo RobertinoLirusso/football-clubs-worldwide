@@ -3,124 +3,165 @@
 
   <div class="w3-container w3-center w3-padding page-bg">
 
-    <!-- Buscador -->
-    <div class="search-box w3-margin-top">
-      <span class="search-icon" aria-hidden="true"><i class="fa fa-search"></i></span>
+    <!-- Buscador + Random -->
+    <div class="search-row w3-margin-top">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true"><i class="fa fa-search"></i></span>
 
-      <input type="text"
-             class="search-input"
-             placeholder="Search by national team"
-             aria-label="Search national teams"
-             role="combobox"
-             aria-autocomplete="list"
-             aria-controls="search-suggestions"
-             [attr.aria-expanded]="suggestionsOpen"
-             [attr.aria-activedescendant]="activeSuggestion >= 0 ? 'sugg-' + activeSuggestion : null"
-             autocomplete="off"
-             [(ngModel)]="searchTerm"
-             (input)="onSearchInput($event)"
-             (keydown)="onSearchKeydown($event)"
-             (focus)="onSearchFocus()"
-             (blur)="closeSuggestions()">
+        <input type="text"
+               class="search-input"
+               placeholder="Search by national team"
+               aria-label="Search national teams"
+               role="combobox"
+               aria-autocomplete="list"
+               aria-controls="search-suggestions"
+               [attr.aria-expanded]="suggestionsOpen"
+               [attr.aria-activedescendant]="activeSuggestion >= 0 ? 'sugg-' + activeSuggestion : null"
+               autocomplete="off"
+               [(ngModel)]="searchTerm"
+               (input)="onSearchInput($event)"
+               (keydown)="onSearchKeydown($event)"
+               (focus)="onSearchFocus()"
+               (blur)="closeSuggestions()">
 
-      <button *ngIf="searchTerm"
-              type="button"
-              class="clear-icon"
-              (click)="clearSearch()"
-              aria-label="Clear search">
-        <i class="fa fa-times"></i>
-      </button>
+        <button *ngIf="searchTerm"
+                type="button"
+                class="clear-icon"
+                (click)="clearSearch()"
+                aria-label="Clear search">
+          <i class="fa fa-times"></i>
+        </button>
 
-      <ul *ngIf="suggestionsOpen"
-          id="search-suggestions"
-          class="suggestions"
-          role="listbox"
-          (mousedown)="$event.preventDefault()">
-        <li *ngFor="let team of suggestions; let i = index"
-            [id]="'sugg-' + i"
-            role="option"
-            class="suggestion"
-            [class.active]="i === activeSuggestion"
-            [attr.aria-selected]="i === activeSuggestion"
-            (mouseenter)="activeSuggestion = i"
-            (click)="selectSuggestion(team)">
-          <img class="suggestion-logo"
-               [src]="team.club_logo"
-               alt=""
-               loading="lazy"
-               (error)="$any($event.target).style.visibility = 'hidden'">
-          <span class="suggestion-text">
-            <span class="suggestion-name">{{ displayName(team) }}</span>
-            <span class="suggestion-place">{{ team.continent }}</span>
-          </span>
-          <span class="fi suggestion-flag" [ngClass]="'fi-' + getCountryCode(team.club_name)"></span>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Acciones -->
-    <div class="action-container w3-margin">
-      <select [(ngModel)]="selectedContinent" class="filter-btn action-btn" title="Filter by continent">
-        <option value="">All Continents</option>
-        <option *ngFor="let continent of continents" [value]="continent">{{ continent }}</option>
-      </select>
-
-      <button *ngIf="selectedContinent"
-              class="clear-btn action-btn"
-              (click)="clearContinentFilter()">
-        <i class="fa fa-times w3-margin-right"></i> Clear
-      </button>
-
-      <select [(ngModel)]="sortOption" class="filter-btn action-btn" title="Sort teams">
-        <option value="default">Sort by</option>
-        <option value="az">A–Z</option>
-        <option value="za">Z–A</option>
-      </select>
+        <ul *ngIf="suggestionsOpen"
+            id="search-suggestions"
+            class="suggestions"
+            role="listbox"
+            (mousedown)="$event.preventDefault()">
+          <li *ngFor="let team of suggestions; let i = index"
+              [id]="'sugg-' + i"
+              role="option"
+              class="suggestion"
+              [class.active]="i === activeSuggestion"
+              [attr.aria-selected]="i === activeSuggestion"
+              (mouseenter)="activeSuggestion = i"
+              (click)="selectSuggestion(team)">
+            <img class="suggestion-logo"
+                 [src]="team.club_logo"
+                 alt=""
+                 loading="lazy"
+                 (error)="$any($event.target).style.visibility = 'hidden'">
+            <span class="suggestion-text">
+              <span class="suggestion-name">{{ displayName(team) }}</span>
+              <span class="suggestion-place">{{ team.continent }}</span>
+            </span>
+            <span class="fi suggestion-flag" [ngClass]="'fi-' + getCountryCode(displayName(team))"></span>
+          </li>
+        </ul>
+      </div>
 
       <button type="button"
-              class="filter-btn action-btn fav-btn"
+              class="random-btn"
+              (click)="selectRandomTeam()"
+              title="Random team"
+              aria-label="Random team">
+        <i class="fa fa-random"></i>
+      </button>
+    </div>
+
+    <!-- Continentes -->
+    <section class="filter-section w3-margin">
+      <div class="filter-head">
+        <span class="filter-label">Continents</span>
+      </div>
+
+      <div class="chip-row" role="group" aria-label="Continents">
+        <button type="button"
+                class="chip"
+                [class.active]="!selectedContinent"
+                [attr.aria-pressed]="!selectedContinent"
+                (click)="clearContinentFilter()">
+          All
+        </button>
+
+        <button type="button"
+                *ngFor="let continent of continents"
+                class="chip"
+                [class.active]="selectedContinent === continent"
+                [attr.aria-pressed]="selectedContinent === continent"
+                (click)="selectContinent(continent)">
+          {{ continent }}
+        </button>
+      </div>
+    </section>
+
+    <!-- Filtros rápidos -->
+    <div class="quick-filters w3-margin" role="group" aria-label="Quick filters">
+      <button type="button"
+              class="chip chip-fav"
               [class.active]="showFavoritesOnly"
               [attr.aria-pressed]="showFavoritesOnly"
-              (click)="showFavoritesOnly = !showFavoritesOnly"
-              title="Show favorites only">
-        <i class="fa-solid fa-heart w3-margin-right"></i>
-        Favorites
-        <span class="fav-count" *ngIf="favorites.size">{{ favorites.size }}</span>
+              (click)="showFavoritesOnly = !showFavoritesOnly">
+        <i class="fa-solid fa-heart"></i> Favorites
+        <span class="chip-count" *ngIf="favorites.size">{{ favorites.size }}</span>
       </button>
+
       <button type="button"
-        class="filter-btn action-btn defunct-btn"
-        [class.active]="showDefunctOnly"
-        [attr.aria-pressed]="showDefunctOnly"
-        (click)="showDefunctOnly = !showDefunctOnly"
-        title="Show defunct teams only">
-  <i class="fa fa-hourglass-end w3-margin-right"></i>
-  Defunct
-</button>
+              class="chip chip-defunct"
+              [class.active]="showDefunctOnly"
+              [attr.aria-pressed]="showDefunctOnly"
+              (click)="showDefunctOnly = !showDefunctOnly">
+        <i class="fa fa-hourglass-end"></i> Defunct
+      </button>
     </div>
 
-    <!-- Barra de la grid -->
-    <div class="grid-toolbar w3-margin">
-      <span class="results-count">
-        <ng-container *ngIf="selectedContinent">
-          {{ allFilteredTeams.length }} teams
-        </ng-container>
-      </span>
+    <!-- Filtros activos + orden + vista -->
+    <div class="results-bar w3-margin">
+      <div class="active-filters">
+        <span class="results-count" *ngIf="hasActiveFilters">{{ allFilteredTeams.length }} teams</span>
 
-      <div class="view-switch" role="group" aria-label="View mode">
-        <button type="button"
-                [class.active]="viewMode === 'scroll'"
-                [attr.aria-pressed]="viewMode === 'scroll'"
-                (click)="setViewMode('scroll')"
-                title="Scroll">
-          <i class="fa fa-arrows-v"></i>
+        <button type="button" class="active-chip" *ngIf="selectedContinent" (click)="clearContinentFilter()">
+          {{ selectedContinent }} <i class="fa fa-times"></i>
         </button>
-        <button type="button"
-                [class.active]="viewMode === 'pages'"
-                [attr.aria-pressed]="viewMode === 'pages'"
-                (click)="setViewMode('pages')"
-                title="Pages">
-          <i class="fa fa-th"></i>
+
+        <button type="button" class="active-chip" *ngIf="showFavoritesOnly" (click)="showFavoritesOnly = false">
+          Favorites <i class="fa fa-times"></i>
         </button>
+
+        <button type="button" class="active-chip" *ngIf="showDefunctOnly" (click)="showDefunctOnly = false">
+          Defunct <i class="fa fa-times"></i>
+        </button>
+
+        <button type="button" class="clear-all" *ngIf="activeFilterCount > 1" (click)="clearAllFilters()">
+          Clear all
+        </button>
+      </div>
+
+      <div class="results-controls">
+        <label class="sort-box">
+          <i class="fa fa-sort" aria-hidden="true"></i>
+          <select [(ngModel)]="sortOption" aria-label="Sort teams">
+            <option value="default">Default</option>
+            <option value="az">A–Z</option>
+            <option value="za">Z–A</option>
+          </select>
+        </label>
+
+        <div class="view-switch" role="group" aria-label="View mode">
+          <button type="button"
+                  [class.active]="viewMode === 'scroll'"
+                  [attr.aria-pressed]="viewMode === 'scroll'"
+                  (click)="setViewMode('scroll')"
+                  title="Scroll">
+            <i class="fa fa-arrows-v"></i>
+          </button>
+          <button type="button"
+                  [class.active]="viewMode === 'pages'"
+                  [attr.aria-pressed]="viewMode === 'pages'"
+                  (click)="setViewMode('pages')"
+                  title="Pages">
+            <i class="fa fa-th"></i>
+          </button>
+        </div>
       </div>
     </div>
 
@@ -135,11 +176,13 @@
          [class.slide-prev]="slideDir === 'prev'"
          (touchstart)="onTouchStart($event)"
          (touchend)="onTouchEnd($event)">
-<div class="w3-card-2 w3-hover-shadow card"
-     *ngFor="let team of displayedTeams; let i = index; trackBy: trackByTeam"
-     [class.champion]="isChampion(team)"
-     [class.defunct]="isDefunct(team)"
-     (click)="openModal(pageStart + i)">
+      <div class="w3-card-2 w3-hover-shadow card"
+           *ngFor="let team of displayedTeams; let i = index; trackBy: trackByTeam"
+           [class.champion]="isChampion(team)"
+           [class.defunct]="isDefunct(team)"
+           (mouseenter)="hoveredTeam = team.club_name"
+           (mouseleave)="hoveredTeam = null"
+           (click)="openModal(pageStart + i)">
 
         <div class="logo-skeleton"
              *ngIf="!loadedLogos.has(team.club_name) && !failedLogos.has(team.club_name)"></div>
@@ -148,15 +191,24 @@
           <i class="fa-solid fa-shield-halved"></i>
         </div>
 
-        <img [src]="team.club_logo"
-             [alt]="team.club_name"
-             class="w3-image img w3-hover-opacity-off"
-             [class.loaded]="loadedLogos.has(team.club_name)"
-             [class.failed]="failedLogos.has(team.club_name)"
-             (load)="onLogoLoad(team)"
-             (error)="onLogoError(team)"
-             loading="lazy"
-             draggable="false">
+        <div class="logo-wrap" [class.failed]="failedLogos.has(team.club_name)">
+          <img [src]="team.club_logo"
+               [alt]="team.club_name"
+               class="w3-image img w3-hover-opacity-off"
+               [class.loaded]="loadedLogos.has(team.club_name)"
+               [class.failed]="failedLogos.has(team.club_name)"
+               (load)="onLogoLoad(team)"
+               (error)="onLogoError(team)"
+               loading="lazy"
+               draggable="false">
+
+          <img class="logo-shine"
+               *ngIf="hoveredTeam === team.club_name && loadedLogos.has(team.club_name)"
+               [src]="team.club_logo"
+               alt=""
+               aria-hidden="true"
+               draggable="false">
+        </div>
 
         <span class="zoom-icon" (click)="openImageModal(team, $event)">
           <i class="fa fa-search-plus"></i>
@@ -168,14 +220,15 @@
               [title]="isFavorite(team) ? 'Remove from favorites' : 'Add to favorites'">
           <i [ngClass]="isFavorite(team) ? 'fa-solid fa-heart' : 'fa-regular fa-heart'"></i>
         </span>
+
         <span class="shine" *ngIf="isChampion(team)"></span>
 
-<footer class="w3-center">
-  <p>{{ displayName(team) }}</p>
-  <span class="defunct-label" *ngIf="isDefunct(team)">
-    <i class="fa fa-hourglass-end"></i> Defunct
-  </span>
-</footer>
+        <footer class="w3-center">
+          <p>{{ displayName(team) }}</p>
+          <span class="defunct-label" *ngIf="isDefunct(team)">
+            <i class="fa fa-hourglass-end"></i> Defunct
+          </span>
+        </footer>
       </div>
     </div>
 
@@ -212,27 +265,42 @@
     </div>
 
     <!-- Modal Zoom Imagen -->
-    <div *ngIf="selectedImage" class="w3-modal" style="display:block;">
-      <div class="w3-modal-content w3-animate-zoom" style="max-width:500px; margin:auto; text-align:center;">
+    <div *ngIf="selectedImage" id="zoomModal" class="w3-modal" style="display:block;" (click)="closeImageModal()">
+      <div class="w3-modal-content w3-animate-zoom zoom-modal"
+           role="dialog"
+           aria-modal="true"
+           [attr.aria-label]="zoomedTeam ? displayName(zoomedTeam) : 'Logo'"
+           (click)="$event.stopPropagation()">
 
-        <lib-ngx-image-zoom
-          [thumbImage]="selectedImage"
-          [fullImage]="selectedImage"
-          [magnification]="2"
-          [enableScrollZoom]="true"
-          [enableLens]="true"
-          [lensWidth]="120"
-          [lensHeight]="120"
-          [zoomMode]="'hover'"
-          style="display:block; margin:auto; max-width:80%; pointer-events: none;">
-        </lib-ngx-image-zoom>
+        <button type="button" class="modal-close" (click)="closeImageModal()" aria-label="Close">
+          <i class="fa fa-times"></i>
+        </button>
 
-        <div style="margin-top:10px;">
-          <button (click)="closeImageModal()" class="w3-button w3-black title-game" style="width: 100%;">
-            <i class="fa fa-times"></i>
-          </button>
+        <div class="zoom-body">
+          <div class="zoom-stage">
+            <lib-ngx-image-zoom
+              class="zoom-lib"
+              [thumbImage]="selectedImage"
+              [fullImage]="selectedImage"
+              [magnification]="2"
+              [enableScrollZoom]="true"
+              [enableLens]="true"
+              [lensWidth]="120"
+              [lensHeight]="120"
+              [zoomMode]="'hover'">
+            </lib-ngx-image-zoom>
+          </div>
+
+          <div class="zoom-caption" *ngIf="zoomedTeam">
+            <span class="fi" [ngClass]="'fi-' + getCountryCode(displayName(zoomedTeam))"></span>
+            <div class="zoom-caption-text">
+              <span class="zoom-name">{{ displayName(zoomedTeam) }}</span>
+              <span class="zoom-place">{{ zoomedTeam.continent }}</span>
+            </div>
+          </div>
+
+          <p class="zoom-hint">Hover over the crest to zoom</p>
         </div>
-
       </div>
     </div>
 
@@ -241,7 +309,7 @@
       <div class="w3-modal-content w3-animate-zoom team-modal"
            role="dialog"
            aria-modal="true"
-           [attr.aria-label]="selectedTeam.club_name"
+           [attr.aria-label]="displayName(selectedTeam)"
            (click)="$event.stopPropagation()">
 
         <button type="button" class="modal-close" (click)="closeModal()" aria-label="Close">
@@ -250,65 +318,90 @@
 
         <div class="team-modal-body">
 
-          <div class="team-crest">
-            <img *ngIf="!failedLogos.has(selectedTeam.club_name)"
-                 [src]="selectedTeam.club_logo"
-                 [alt]="selectedTeam.club_name"
-                 (error)="onLogoError(selectedTeam)">
+          <div class="team-crest-col">
 
-            <div class="crest-fallback" *ngIf="failedLogos.has(selectedTeam.club_name)">
-              <i class="fa-solid fa-shield-halved"></i>
+            <div class="team-crest"
+                 (pointermove)="onCrestMove($event)"
+                 (pointerleave)="onCrestLeave($event)">
+              <img *ngIf="!failedLogos.has(selectedTeam.club_name)"
+                   [src]="selectedTeam.club_logo"
+                   [alt]="displayName(selectedTeam)"
+                   (error)="onLogoError(selectedTeam)">
+
+              <div class="crest-fallback" *ngIf="failedLogos.has(selectedTeam.club_name)">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+
+              <span class="crest-glare" aria-hidden="true"></span>
             </div>
+
+            <div class="logo-download" *ngIf="!failedLogos.has(selectedTeam.club_name)">
+              <button type="button"
+                      class="logo-dl-btn"
+                      (click)="downloadLogoPng(selectedTeam)"
+                      [disabled]="isDownloadingLogo">
+                <span class="dl-icon">
+                  <i class="fa" [ngClass]="isDownloadingLogo ? 'fa-spinner fa-spin' : 'fa-download'"></i>
+                </span>
+                <span class="dl-text">
+                  <span class="dl-title">{{ isDownloadingLogo ? 'Processing...' : 'Download logo' }}</span>
+                  <span class="dl-sub">PNG · 250×250 · Sticker border</span>
+                </span>
+              </button>
+
+              <p class="logo-dl-msg" *ngIf="logoDownloadMsg" role="status">{{ logoDownloadMsg }}</p>
+            </div>
+
           </div>
 
-<div class="team-info">
-  <div class="team-tags" *ngIf="isChampion(selectedTeam) || isDefunct(selectedTeam)">
-    <span class="team-tag champion" *ngIf="isChampion(selectedTeam)">
-      <i class="fa-solid fa-trophy"></i> World Champion
-    </span>
-    <span class="team-tag defunct" *ngIf="isDefunct(selectedTeam)">
-      <i class="fa fa-hourglass-end"></i> Defunct
-    </span>
-  </div>
+          <div class="team-info">
+            <div class="team-tags" *ngIf="isChampion(selectedTeam) || isDefunct(selectedTeam)">
+              <span class="team-tag champion" *ngIf="isChampion(selectedTeam)">
+                <i class="fa-solid fa-trophy"></i> World Champion
+              </span>
+              <span class="team-tag defunct" *ngIf="isDefunct(selectedTeam)">
+                <i class="fa fa-hourglass-end"></i> Defunct
+              </span>
+            </div>
 
-  <h2 class="modal-title">{{ displayName(selectedTeam) }}</h2>
+            <h2 class="modal-title">{{ displayName(selectedTeam) }}</h2>
 
-  <p class="team-location">
-    <span class="fi" [ngClass]="'fi-' + getCountryCode(displayName(selectedTeam))"></span>
-    {{ selectedTeam.continent }}
-  </p>
+            <p class="team-location">
+              <span class="fi" [ngClass]="'fi-' + getCountryCode(displayName(selectedTeam))"></span>
+              {{ selectedTeam.continent }}
+            </p>
 
-  <div class="team-titles" *ngIf="isChampion(selectedTeam)">
-    <span class="titles-label">
-      {{ championYears(selectedTeam).length }}
-      {{ championYears(selectedTeam).length === 1 ? 'title' : 'titles' }}
-    </span>
-    <span class="year-chip" *ngFor="let y of championYears(selectedTeam)">{{ y }}</span>
-  </div>
+            <div class="team-titles" *ngIf="isChampion(selectedTeam)">
+              <span class="titles-label">
+                {{ championYears(selectedTeam).length }}
+                {{ championYears(selectedTeam).length === 1 ? 'title' : 'titles' }}
+              </span>
+              <span class="year-chip" *ngFor="let y of championYears(selectedTeam)">{{ y }}</span>
+            </div>
 
-  <div class="team-actions">
-    <a class="team-action" [href]="selectedTeam.wiki_url" target="_blank" rel="noopener">
-      <i class="fa-brands fa-wikipedia-w"></i> Wikipedia
-    </a>
-    <a class="team-action" [href]="getGoogleNewsUrl(selectedTeam)" target="_blank" rel="noopener">
-      <i class="fa-brands fa-google"></i> Google
-    </a>
-    <a class="team-action" [href]="getYouTubeUrl(selectedTeam)" target="_blank" rel="noopener">
-      <i class="fa-brands fa-youtube"></i> YouTube
-    </a>
-    <a class="team-action" [href]="getTwitterShareUrl(selectedTeam)" target="_blank" rel="noopener">
-      <i class="fa-brands fa-x-twitter"></i> Share on X
-    </a>
-    <button type="button"
-            class="team-action team-fav"
-            [class.active]="isFavorite(selectedTeam)"
-            [attr.aria-pressed]="isFavorite(selectedTeam)"
-            (click)="toggleFavorite(selectedTeam, $event)">
-      <i class="fa-solid fa-heart"></i>
-      {{ isFavorite(selectedTeam) ? 'In favorites' : 'Add to favorites' }}
-    </button>
-  </div>
-</div>
+            <div class="team-actions">
+              <a class="team-action" [href]="selectedTeam.wiki_url" target="_blank" rel="noopener">
+                <i class="fa-brands fa-wikipedia-w"></i> Wikipedia
+              </a>
+              <a class="team-action" [href]="getGoogleNewsUrl(selectedTeam)" target="_blank" rel="noopener">
+                <i class="fa-brands fa-google"></i> Google
+              </a>
+              <a class="team-action" [href]="getYouTubeUrl(selectedTeam)" target="_blank" rel="noopener">
+                <i class="fa-brands fa-youtube"></i> YouTube
+              </a>
+              <a class="team-action" [href]="getTwitterShareUrl(selectedTeam)" target="_blank" rel="noopener">
+                <i class="fa-brands fa-x-twitter"></i> Share on X
+              </a>
+              <button type="button"
+                      class="team-action team-fav"
+                      [class.active]="isFavorite(selectedTeam)"
+                      [attr.aria-pressed]="isFavorite(selectedTeam)"
+                      (click)="toggleFavorite(selectedTeam, $event)">
+                <i class="fa-solid fa-heart"></i>
+                {{ isFavorite(selectedTeam) ? 'In favorites' : 'Add to favorites' }}
+              </button>
+            </div>
+          </div>
 
         </div>
       </div>

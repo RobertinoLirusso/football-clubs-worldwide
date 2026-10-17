@@ -15,24 +15,22 @@ export class NationalTeamsComponent implements OnInit {
   showBackToTop: boolean = false;
   isFadingOut: boolean = false;
   selectedImage: any = null;
+  zoomedTeam: any = null;
   continents: string[] = [];
+  hoveredTeam: string | null = null;
 
-  private _showDefunctOnly = false;
-get showDefunctOnly(): boolean { return this._showDefunctOnly; }
-set showDefunctOnly(v: boolean) { this._showDefunctOnly = v; this.resetPaging(); }
-
-// Claves en minúscula, sin "(Defunct)". Agregá acá los próximos campeones.
-private readonly worldChampions: Record<string, number[]> = {
-  'uruguay':      [1930, 1950],
-  'italy':        [1934, 1938, 1982, 2006],
-  'germany':      [1954, 1974, 1990, 2014],
-  'west germany': [1954, 1974, 1990],
-  'brasil':       [1958, 1962, 1970, 1994, 2002],
-  'england':      [1966],
-  'argentina':    [1978, 1986, 2022],
-  'france':       [1998, 2018],
-  'spain':        [2010, 2026],
-};
+  // Claves en minúscula, sin "(Defunct)". Agregá acá los próximos campeones.
+  private readonly worldChampions: Record<string, number[]> = {
+    'uruguay':      [1930, 1950],
+    'italy':        [1934, 1938, 1982, 2006],
+    'germany':      [1954, 1974, 1990, 2014],
+    'west germany': [1954, 1974, 1990],
+    'brasil':       [1958, 1962, 1970, 1994, 2002],
+    'england':      [1966],
+    'argentina':    [1978, 1986, 2022],
+    'france':       [1998, 2018],
+    'spain':        [2010, 2026],
+  };
 
   // ============================================================
   // FILTROS (con setter: cualquier cambio vuelve a la primera página)
@@ -42,6 +40,7 @@ private readonly worldChampions: Record<string, number[]> = {
   private _selectedContinent = '';
   private _sortOption = 'default';
   private _showFavoritesOnly = false;
+  private _showDefunctOnly = false;
   private _exactTeam: string | null = null;
 
   get searchTerm(): string { return this._searchTerm; }
@@ -59,6 +58,17 @@ private readonly worldChampions: Record<string, number[]> = {
 
   get showFavoritesOnly(): boolean { return this._showFavoritesOnly; }
   set showFavoritesOnly(v: boolean) { this._showFavoritesOnly = v; this.resetPaging(); }
+
+  get showDefunctOnly(): boolean { return this._showDefunctOnly; }
+  set showDefunctOnly(v: boolean) { this._showDefunctOnly = v; this.resetPaging(); }
+
+  get activeFilterCount(): number {
+    return [this.selectedContinent, this.showFavoritesOnly, this.showDefunctOnly].filter(Boolean).length;
+  }
+
+  get hasActiveFilters(): boolean {
+    return this.activeFilterCount > 0;
+  }
 
   // ============================================================
   // VISTA: SCROLL (Load More) / PÁGINAS
@@ -83,6 +93,14 @@ private readonly worldChampions: Record<string, number[]> = {
   favorites = new Set<string>();
   loadedLogos = new Set<string>();
   failedLogos = new Set<string>();
+
+  // ============================================================
+  // DESCARGA DEL LOGO
+  // ============================================================
+
+  isDownloadingLogo = false;
+  logoDownloadMsg = '';
+  private logoMsgTimer: any;
 
   // ============================================================
   // BUSCADOR: SUGERENCIAS
@@ -168,8 +186,8 @@ private readonly worldChampions: Record<string, number[]> = {
     }
 
     if (this.showDefunctOnly) {
-  filtered = filtered.filter(team => this.isDefunct(team));
-}
+      filtered = filtered.filter(team => this.isDefunct(team));
+    }
 
     if (this.selectedContinent) {
       filtered = filtered.filter(team => team.continent === this.selectedContinent);
@@ -345,8 +363,30 @@ private readonly worldChampions: Record<string, number[]> = {
     this.closeSuggestions();
   }
 
+  selectRandomTeam(): void {
+    const pool = this.teams.filter(t => !this.selectedContinent || t.continent === this.selectedContinent);
+    if (!pool.length) return;
+    const picked = pool[Math.floor(Math.random() * pool.length)];
+    this.searchTerm = picked.club_name;
+    this._exactTeam = picked.club_name;
+  }
+
+  // ============================================================
+  // FILTROS: ACCIONES
+  // ============================================================
+
+  selectContinent(continent: string): void {
+    this.selectedContinent = this.selectedContinent === continent ? '' : continent;
+  }
+
   clearContinentFilter(): void {
     this.selectedContinent = '';
+  }
+
+  clearAllFilters(): void {
+    this.selectedContinent = '';
+    this.showFavoritesOnly = false;
+    this.showDefunctOnly = false;
   }
 
   // ============================================================
@@ -408,15 +448,18 @@ private readonly worldChampions: Record<string, number[]> = {
 
   closeModal(): void {
     this.selectedTeam = null;
+    this.logoDownloadMsg = '';
   }
 
   openImageModal(team: any, event: Event): void {
     event.stopPropagation();
+    this.zoomedTeam = team;
     this.selectedImage = team.club_logo;
   }
 
   closeImageModal(): void {
     this.selectedImage = null;
+    this.zoomedTeam = null;
   }
 
   @HostListener('document:keydown.escape')
@@ -459,6 +502,266 @@ private readonly worldChampions: Record<string, number[]> = {
   }
 
   // ============================================================
+  // ESCUDO DEL MODAL: INCLINACIÓN 3D
+  // ============================================================
+
+  onCrestMove(e: PointerEvent): void {
+    if (e.pointerType !== 'mouse') return;
+    const el = e.currentTarget as HTMLElement;
+    const r = el.getBoundingClientRect();
+    const x = (e.clientX - r.left) / r.width;
+    const y = (e.clientY - r.top) / r.height;
+
+    el.style.setProperty('--ry', `${(x - 0.5) * 18}deg`);
+    el.style.setProperty('--rx', `${(0.5 - y) * 18}deg`);
+    el.style.setProperty('--mx', `${x * 100}%`);
+    el.style.setProperty('--my', `${y * 100}%`);
+  }
+
+  onCrestLeave(e: PointerEvent): void {
+    const el = e.currentTarget as HTMLElement;
+    el.style.setProperty('--rx', '0deg');
+    el.style.setProperty('--ry', '0deg');
+  }
+
+  // ============================================================
+  // DEFUNCT Y CAMPEONES
+  // ============================================================
+
+  isDefunct(team: any): boolean {
+    return /defunct/i.test(team.club_name);
+  }
+
+  displayName(team: any): string {
+    return team.club_name
+      .replace(/\s*\(defunct\)\s*/gi, '')
+      .replace(/\s*-\s*defunct\s*/gi, '')
+      .trim();
+  }
+
+  championYears(team: any): number[] {
+    return this.worldChampions[this.displayName(team).toLowerCase()] ?? [];
+  }
+
+  isChampion(team: any): boolean {
+    return this.championYears(team).length > 0;
+  }
+
+  // ============================================================
+  // DESCARGA DEL LOGO (PNG sin fondo + borde sticker)
+  // ============================================================
+
+  private buildProxiedUrl(url: string): string {
+    const clean = url.replace(/^https?:\/\//, '');
+    return `https://wsrv.nl/?url=${encodeURIComponent(clean)}&output=png`;
+  }
+
+  private loadImageForCanvas(url: string): Promise<HTMLImageElement> {
+    const tryLoad = (src: string): Promise<HTMLImageElement> => {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.crossOrigin = 'anonymous';
+        img.onload = () => resolve(img);
+        img.onerror = () => reject(new Error('load-failed'));
+        img.src = src;
+      });
+    };
+
+    const isWikimedia = url.includes('upload.wikimedia.org');
+    const isLocal = url.startsWith('/');
+    const firstAttempt = (isWikimedia || isLocal) ? url : this.buildProxiedUrl(url);
+
+    return tryLoad(firstAttempt).catch(() => {
+      const fallback = (isWikimedia || isLocal) ? this.buildProxiedUrl(url) : url;
+      return tryLoad(fallback).catch(() => {
+        throw new Error('No se pudo cargar el logo (ni directo ni vía proxy)');
+      });
+    });
+  }
+
+  async downloadLogoPng(team: any): Promise<void> {
+    if (!team || this.isDownloadingLogo) return;
+    this.isDownloadingLogo = true;
+    this.showLogoMsg('');
+
+    const SIZE = 250;     // lado del PNG final
+    const STICKER = 3;    // grosor del borde blanco (px)
+    const PAD = 14;       // margen para que el borde y la sombra no se recorten
+
+    try {
+      const img = await this.loadImageForCanvas(team.club_logo);
+      const nw = img.naturalWidth || SIZE;
+      const nh = img.naturalHeight || SIZE;
+
+      // 1) Logo escalado para entrar en el lienzo manteniendo proporción
+      const inner = SIZE - PAD * 2;
+      const ratio = Math.min(inner / nw, inner / nh);
+      const w = Math.max(1, Math.round(nw * ratio));
+      const h = Math.max(1, Math.round(nh * ratio));
+
+      const logoCanvas = document.createElement('canvas');
+      logoCanvas.width = w;
+      logoCanvas.height = h;
+      const logoCtx = logoCanvas.getContext('2d')!;
+      logoCtx.imageSmoothingEnabled = true;
+      logoCtx.imageSmoothingQuality = 'high';
+      logoCtx.drawImage(img, 0, 0, w, h);
+
+      // 2) Quitar el fondo (siempre)
+      const result = this.removeUniformBackground(logoCtx, w, h);
+      if (result === 'blocked') throw new Error('blocked');
+
+      // 3) Contorno tipo sticker alrededor de la silueta
+      const ox = Math.round((SIZE - w) / 2);
+      const oy = Math.round((SIZE - h) / 2);
+
+      const outline = document.createElement('canvas');
+      outline.width = SIZE;
+      outline.height = SIZE;
+      const outlineCtx = outline.getContext('2d')!;
+      this.dilateInto(outlineCtx, this.tintSilhouette(logoCanvas, '#aeb6c2'), ox, oy, STICKER + 1);
+      this.dilateInto(outlineCtx, this.tintSilhouette(logoCanvas, '#ffffff'), ox, oy, STICKER);
+
+      // 4) Composición final: sombra + borde + logo
+      const canvas = document.createElement('canvas');
+      canvas.width = SIZE;
+      canvas.height = SIZE;
+      const ctx = canvas.getContext('2d')!;
+
+      ctx.save();
+      ctx.shadowColor = 'rgba(80, 90, 110, 0.35)';
+      ctx.shadowBlur = 8;
+      ctx.shadowOffsetY = 3;
+      ctx.drawImage(outline, 0, 0);
+      ctx.restore();
+
+      ctx.drawImage(logoCanvas, ox, oy);
+
+      const blob: Blob = await new Promise((resolve, reject) =>
+        canvas.toBlob(b => (b ? resolve(b) : reject(new Error('empty'))), 'image/png')
+      );
+
+      const name = this.displayName(team)
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9]+/g, '_')
+        .replace(/^_|_$/g, '');
+
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `${name}_logo_${SIZE}.png`;
+      link.click();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+
+      this.showLogoMsg({
+        removed: 'Background removed',
+        already: 'Logo already had a transparent background',
+        complex: 'Background is not plain: border follows the original shape',
+      }[result]);
+    } catch {
+      this.showLogoMsg('Could not process this logo');
+    } finally {
+      this.isDownloadingLogo = false;
+    }
+  }
+
+  private showLogoMsg(msg: string): void {
+    this.logoDownloadMsg = msg;
+    clearTimeout(this.logoMsgTimer);
+    if (msg) this.logoMsgTimer = setTimeout(() => (this.logoDownloadMsg = ''), 4000);
+  }
+
+  // Copia del logo pintada de un solo color, conservando su silueta
+  private tintSilhouette(src: HTMLCanvasElement, color: string): HTMLCanvasElement {
+    const c = document.createElement('canvas');
+    c.width = src.width;
+    c.height = src.height;
+    const x = c.getContext('2d')!;
+    x.drawImage(src, 0, 0);
+    x.globalCompositeOperation = 'source-in';
+    x.fillStyle = color;
+    x.fillRect(0, 0, c.width, c.height);
+    return c;
+  }
+
+  // Engorda la silueta dibujándola desplazada alrededor de un círculo
+  private dilateInto(
+    ctx: CanvasRenderingContext2D, silhouette: HTMLCanvasElement,
+    x: number, y: number, radius: number
+  ): void {
+    const steps = 32;
+    for (let i = 0; i < steps; i++) {
+      const a = (i / steps) * Math.PI * 2;
+      ctx.drawImage(silhouette, x + Math.cos(a) * radius, y + Math.sin(a) * radius);
+    }
+    ctx.drawImage(silhouette, x, y);
+  }
+
+  // Borra un fondo liso conectado a los bordes. Devuelve qué pasó.
+  private removeUniformBackground(
+    ctx: CanvasRenderingContext2D, w: number, h: number, tolerance = 28
+  ): 'removed' | 'already' | 'complex' | 'blocked' {
+    let image: ImageData;
+    try {
+      image = ctx.getImageData(0, 0, w, h);
+    } catch {
+      return 'blocked';
+    }
+    const d = image.data;
+
+    // Si alguna esquina ya es transparente, el logo no tiene fondo que borrar
+    const corners = [0, (w - 1) * 4, (h - 1) * w * 4, ((h - 1) * w + w - 1) * 4];
+    if (corners.some(c => d[c + 3] < 250)) return 'already';
+
+    // Color de fondo = promedio de las 4 esquinas; si no coinciden, no es liso
+    const bg = [0, 1, 2].map(k => Math.round(corners.reduce((s, c) => s + d[c + k], 0) / 4));
+    const dist = (i: number) =>
+      Math.max(Math.abs(d[i] - bg[0]), Math.abs(d[i + 1] - bg[1]), Math.abs(d[i + 2] - bg[2]));
+    if (!corners.every(c => dist(c) <= tolerance)) return 'complex';
+
+    // Relleno desde los bordes: el blanco interior del escudo queda intacto
+    const seen = new Uint8Array(w * h);
+    const stack: number[] = [];
+    const push = (x: number, y: number) => {
+      const p = y * w + x;
+      if (!seen[p] && dist(p * 4) <= tolerance) { seen[p] = 1; stack.push(p); }
+    };
+    for (let x = 0; x < w; x++) { push(x, 0); push(x, h - 1); }
+    for (let y = 0; y < h; y++) { push(0, y); push(w - 1, y); }
+    while (stack.length) {
+      const p = stack.pop()!;
+      const x = p % w, y = (p - x) / w;
+      d[p * 4 + 3] = 0;
+      if (x > 0) push(x - 1, y);
+      if (x < w - 1) push(x + 1, y);
+      if (y > 0) push(x, y - 1);
+      if (y < h - 1) push(x, y + 1);
+    }
+
+    // Suavizado: los píxeles del borde que parecen fondo quedan semitransparentes
+    const soft = tolerance * 2.2;
+    for (let y = 0; y < h; y++) {
+      for (let x = 0; x < w; x++) {
+        const p = y * w + x;
+        if (seen[p]) continue;
+        const touchesBg =
+          (x > 0 && seen[p - 1]) || (x < w - 1 && seen[p + 1]) ||
+          (y > 0 && seen[p - w]) || (y < h - 1 && seen[p + w]);
+        if (!touchesBg) continue;
+        const dd = dist(p * 4);
+        if (dd < soft) {
+          d[p * 4 + 3] = Math.round(255 * Math.max(0, (dd - tolerance) / (soft - tolerance)));
+        }
+      }
+    }
+
+    ctx.putImageData(image, 0, 0);
+    return 'removed';
+  }
+
+  // ============================================================
   // UTILIDADES
   // ============================================================
 
@@ -482,24 +785,4 @@ private readonly worldChampions: Record<string, number[]> = {
     const url = encodeURIComponent(window.location.href);
     return `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
   }
-
-
-  isDefunct(team: any): boolean {
-  return /defunct/i.test(team.club_name);
-}
-
-displayName(team: any): string {
-  return team.club_name
-    .replace(/\s*\(defunct\)\s*/gi, '')
-    .replace(/\s*-\s*defunct\s*/gi, '')
-    .trim();
-}
-
-championYears(team: any): number[] {
-  return this.worldChampions[this.displayName(team).toLowerCase()] ?? [];
-}
-
-isChampion(team: any): boolean {
-  return this.championYears(team).length > 0;
-}
 }

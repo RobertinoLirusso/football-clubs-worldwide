@@ -158,7 +158,7 @@ wallpaperStyles: { value: string; label: string; icon: string; description: stri
   { value: 'nightmatch', label: 'Night Match',  icon: '🏟️', description: 'Floodlight beams, haze and stadium bokeh.' },
   { value: 'editorial',  label: 'Editorial',    icon: '🔤', description: 'Oversized outline typography, magazine style.' },
   { value: 'prism',      label: 'Prism',        icon: '💎', description: 'Faceted low-poly glass in a smooth gradient.' },
-  { value: 'holo',       label: 'Holo Foil',    icon: '✨', description: 'Iridescent holographic foil with sparkles.' },
+  { value: 'obsidian', label: 'Obsidian', icon: '🖤', description: 'Polished black marble with glowing veins in the crest color.' },
 ];
 
 selectedWallpaperStyle: string = 'aurora';
@@ -934,14 +934,14 @@ switch (this.selectedWallpaperStyle) {
   case 'nightmatch': this.drawNightMatchBackground(ctx, width, height, baseColor); break;
   case 'editorial':  this.drawEditorialBackground(ctx, width, height, baseColor, wallpaperClub); break;
   case 'prism':      this.drawPrismBackground(ctx, width, height, baseColor); break;
-  case 'holo':       this.drawHoloBackground(ctx, width, height, baseColor); break;
+  case 'obsidian':   this.drawObsidianBackground(ctx, width, height, baseColor); break;
   default:           this.drawAuroraBackground(ctx, width, height, baseColor);
 }
 
 this.finishBackground(ctx, width, height);
 
       this.drawCrestBadge(ctx, logo, width / 2, height * 0.42, 460, baseColor);
-      this.drawClubBanner(ctx, width, height, wallpaperClub, baseColor);
+      this.drawClubText(ctx, width, height, wallpaperClub, baseColor, this.selectedWallpaperStyle);
 
       const link = document.createElement('a');
       link.download = `${wallpaperClub.club_name.replace(/\s+/g, '_').toLowerCase()}_${this.selectedWallpaperFormat}_wallpaper.png`;
@@ -955,6 +955,344 @@ this.finishBackground(ctx, width, height);
       this.isGeneratingWallpaper = false;
     }
   }
+
+  // ============================================================
+// TEXTO DEL WALLPAPER (un estilo por fondo)
+// ============================================================
+
+private setSpacing(ctx: CanvasRenderingContext2D, px: number): void {
+  (ctx as any).letterSpacing = `${px}px`;
+}
+
+private breakLines(ctx: CanvasRenderingContext2D, text: string, maxWidth: number): string[] {
+  const lines: string[] = [];
+  let line = '';
+  for (const word of text.split(' ')) {
+    const test = line ? `${line} ${word}` : word;
+    if (ctx.measureText(test).width > maxWidth && line) {
+      lines.push(line);
+      line = word;
+    } else {
+      line = test;
+    }
+  }
+  if (line) lines.push(line);
+  return lines;
+}
+
+// Achica la fuente hasta que el texto entre en `maxLines` líneas
+private fitName(
+  ctx: CanvasRenderingContext2D, text: string, family: string, weight: number,
+  maxWidth: number, maxLines: number, maxSize: number, minSize: number, spacingEm = 0
+): { size: number; lh: number; lines: string[]; width: number } {
+  let size = maxSize;
+  let lines: string[] = [];
+  for (; size >= minSize; size -= 2) {
+    ctx.font = `${weight} ${size}px ${family}`;
+    this.setSpacing(ctx, size * spacingEm);
+    lines = this.breakLines(ctx, text, maxWidth);
+    if (lines.length <= maxLines && lines.every(l => ctx.measureText(l).width <= maxWidth)) break;
+  }
+  size = Math.max(size, minSize);
+  ctx.font = `${weight} ${size}px ${family}`;
+  this.setSpacing(ctx, size * spacingEm);
+  lines = this.breakLines(ctx, text, maxWidth).slice(0, maxLines);
+  const width = Math.max(...lines.map(l => ctx.measureText(l).width), 1);
+  return { size, lh: Math.round(size * 1.08), lines, width };
+}
+
+private drawClubText(
+  ctx: CanvasRenderingContext2D, w: number, h: number,
+  club: any, color: string, style: string
+): void {
+  const p = this.makePalette(color);
+  const [city, country] = (club.city_country || '').split(',').map((s: string) => s.trim());
+  const t = {
+    w, h, p,
+    cx: w / 2,
+    top: Math.max(h * 0.42 + 270 + 50, h * 0.7),
+    maxW: Math.min(w - 160, 1300),
+    name: club.club_name as string,
+    place: club.city_country as string,
+    sub: [city, country].filter(Boolean).join(' · ').toUpperCase(),
+  };
+
+  ctx.save();
+
+  // Degradado oscuro suave abajo, para que el texto se lea sin cortar el fondo
+  const scrim = ctx.createLinearGradient(0, t.top - 160, 0, h);
+  scrim.addColorStop(0, 'rgba(0,0,0,0)');
+  scrim.addColorStop(1, 'rgba(0,0,0,0.6)');
+  ctx.fillStyle = scrim;
+  ctx.fillRect(0, t.top - 160, w, h - t.top + 160);
+
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'alphabetic';
+
+  switch (style) {
+    case 'neon':       this.textNeon(ctx, t); break;
+    case 'glass':      this.textGlass(ctx, t); break;
+    case 'silk':       this.textSilk(ctx, t); break;
+    case 'flow':       this.textFlow(ctx, t); break;
+    case 'nightmatch': this.textNightMatch(ctx, t); break;
+    case 'editorial':  this.textEditorial(ctx, t); break;
+    case 'prism':      this.textPrism(ctx, t); break;
+   case 'obsidian':   this.textObsidian(ctx, t); break;
+    default:           this.textAurora(ctx, t);
+  }
+
+  this.setSpacing(ctx, 0);
+  ctx.restore();
+}
+
+// 1) AURORA
+private textAurora(ctx: CanvasRenderingContext2D, t: any): void {
+  const f = this.fitName(ctx, t.name.toUpperCase(), '"Oswald", sans-serif', 600, t.maxW, 2, 100, 54, 0.05);
+  const y0 = t.top + f.size;
+
+  ctx.fillStyle = '#fff';
+  ctx.shadowColor = t.p.light;
+  ctx.shadowBlur = 36;
+  f.lines.forEach((l, i) => ctx.fillText(l, t.cx, y0 + i * f.lh));
+  ctx.shadowBlur = 0;
+
+  const yLine = y0 + (f.lines.length - 1) * f.lh + 38;
+  const g = ctx.createLinearGradient(t.cx - 240, 0, t.cx + 240, 0);
+  g.addColorStop(0, 'rgba(255,255,255,0)');
+  g.addColorStop(0.5, t.p.light);
+  g.addColorStop(1, 'rgba(255,255,255,0)');
+  ctx.fillStyle = g;
+  ctx.fillRect(t.cx - 240, yLine, 480, 3);
+
+  ctx.font = '500 30px "Inter", sans-serif';
+  this.setSpacing(ctx, 9);
+  ctx.fillStyle = 'rgba(255,255,255,0.85)';
+  ctx.fillText(t.sub, t.cx, yLine + 58);
+}
+
+// 2) NEON HORIZON: cartel de neón
+private textNeon(ctx: CanvasRenderingContext2D, t: any): void {
+  const f = this.fitName(ctx, t.name.toUpperCase(), '"Oswald", sans-serif', 700, t.maxW, 2, 96, 52, 0.06);
+  const y0 = t.top + f.size;
+  ctx.lineJoin = 'round';
+
+  for (const blur of [54, 28, 12]) {
+    ctx.shadowColor = t.p.accent;
+    ctx.shadowBlur = blur;
+    ctx.strokeStyle = t.p.accent;
+    ctx.lineWidth = 4;
+    f.lines.forEach((l, i) => ctx.strokeText(l, t.cx, y0 + i * f.lh));
+  }
+  ctx.shadowBlur = 0;
+  ctx.fillStyle = '#fff';
+  f.lines.forEach((l, i) => ctx.fillText(l, t.cx, y0 + i * f.lh));
+
+  ctx.font = '600 30px "Inter", sans-serif';
+  this.setSpacing(ctx, 10);
+  ctx.fillStyle = t.p.cool;
+  ctx.shadowColor = t.p.cool;
+  ctx.shadowBlur = 20;
+  ctx.fillText(`—  ${t.sub}  —`, t.cx, y0 + (f.lines.length - 1) * f.lh + 66);
+  ctx.shadowBlur = 0;
+}
+
+// 3) GLASS: panel de vidrio
+private textGlass(ctx: CanvasRenderingContext2D, t: any): void {
+  const f = this.fitName(ctx, t.name.toUpperCase(), '"Oswald", sans-serif', 600, t.maxW - 140, 2, 84, 48, 0.04);
+  const ph = f.lines.length * f.lh + 150;
+  const pw = Math.min(t.maxW, f.width + 170);
+  const cy = t.top + ph / 2;
+
+  this.glassPane(ctx, t.cx, cy, pw, ph, 0, 1);
+
+  const y0 = cy - ph / 2 + 58 + f.size * 0.8;
+  ctx.font = `600 ${f.size}px "Oswald", sans-serif`;
+  this.setSpacing(ctx, f.size * 0.04);
+  ctx.fillStyle = '#fff';
+  ctx.shadowColor = 'rgba(0,0,0,0.35)';
+  ctx.shadowBlur = 16;
+  f.lines.forEach((l, i) => ctx.fillText(l, t.cx, y0 + i * f.lh));
+  ctx.shadowBlur = 0;
+
+  ctx.font = '500 26px "Inter", sans-serif';
+  this.setSpacing(ctx, 8);
+  ctx.fillStyle = 'rgba(255,255,255,0.8)';
+  ctx.fillText(t.sub, t.cx, cy + ph / 2 - 34);
+}
+
+// 4) SILK: mayúsculas finas y satinadas
+private textSilk(ctx: CanvasRenderingContext2D, t: any): void {
+  const f = this.fitName(ctx, t.name.toUpperCase(), '"Oswald", sans-serif', 500, t.maxW, 2, 78, 40, 0.2);
+  const y0 = t.top + f.size;
+
+  const g = ctx.createLinearGradient(0, t.top, 0, y0 + f.lines.length * f.lh);
+  g.addColorStop(0, '#ffffff');
+  g.addColorStop(1, t.p.light);
+  ctx.fillStyle = g;
+  ctx.shadowColor = 'rgba(0,0,0,0.35)';
+  ctx.shadowBlur = 14;
+  f.lines.forEach((l, i) => ctx.fillText(l, t.cx, y0 + i * f.lh));
+  ctx.shadowBlur = 0;
+
+  const ySub = y0 + (f.lines.length - 1) * f.lh + 66;
+  ctx.font = '500 26px "Inter", sans-serif';
+  this.setSpacing(ctx, 9);
+  const sw = ctx.measureText(t.sub).width;
+  ctx.fillStyle = 'rgba(255,255,255,0.85)';
+  ctx.fillText(t.sub, t.cx, ySub);
+
+  ctx.fillStyle = 'rgba(255,255,255,0.45)';
+  ctx.fillRect(t.cx - sw / 2 - 150, ySub - 10, 110, 2);
+  ctx.fillRect(t.cx + sw / 2 + 40, ySub - 10, 110, 2);
+}
+
+// 5) FLOW: moderno y minimalista
+private textFlow(ctx: CanvasRenderingContext2D, t: any): void {
+  const f = this.fitName(ctx, t.name, '"Inter", sans-serif', 700, t.maxW, 2, 92, 46, -0.02);
+  const y0 = t.top + 30 + f.size;
+
+  ctx.fillStyle = t.p.accent;
+  ctx.fillRect(t.cx - 36, t.top, 72, 6);
+
+  ctx.fillStyle = '#fff';
+  ctx.shadowColor = 'rgba(0,0,0,0.4)';
+  ctx.shadowBlur = 20;
+  f.lines.forEach((l, i) => ctx.fillText(l, t.cx, y0 + i * f.lh));
+  ctx.shadowBlur = 0;
+
+  ctx.font = '500 32px "Inter", sans-serif';
+  this.setSpacing(ctx, 1);
+  ctx.fillStyle = t.p.light;
+  ctx.fillText(t.place, t.cx, y0 + (f.lines.length - 1) * f.lh + 58);
+}
+
+// 6) NIGHT MATCH: gráfico de transmisión
+private textNightMatch(ctx: CanvasRenderingContext2D, t: any): void {
+  const f = this.fitName(ctx, t.name.toUpperCase(), '"Oswald", sans-serif', 700, t.maxW - 140, 2, 84, 46, 0.03);
+  const bw = Math.min(t.maxW, f.width + 150);
+  const bh = f.lines.length * f.lh + 52;
+  const bx = t.cx - bw / 2;
+
+  ctx.fillStyle = 'rgba(5, 8, 12, 0.78)';
+  ctx.fillRect(bx, t.top, bw, bh);
+  ctx.strokeStyle = 'rgba(255,255,255,0.18)';
+  ctx.lineWidth = 2;
+  ctx.strokeRect(bx, t.top, bw, bh);
+  ctx.fillStyle = t.p.main;
+  ctx.fillRect(bx, t.top, 16, bh);
+
+  ctx.font = `700 ${f.size}px "Oswald", sans-serif`;
+  this.setSpacing(ctx, f.size * 0.03);
+  ctx.fillStyle = '#fff';
+  const y0 = t.top + 26 + f.size * 0.82;
+  f.lines.forEach((l, i) => ctx.fillText(l, t.cx + 8, y0 + i * f.lh));
+
+  // Pestaña inferior con la ubicación
+  ctx.font = '600 26px "Inter", sans-serif';
+  this.setSpacing(ctx, 6);
+  const sw = ctx.measureText(t.sub).width + 64;
+  ctx.fillStyle = t.p.main;
+  ctx.fillRect(bx, t.top + bh, sw, 54);
+  ctx.fillStyle = this.getContrastColor(t.p.main);
+  ctx.textAlign = 'left';
+  ctx.fillText(t.sub, bx + 32, t.top + bh + 36);
+  ctx.textAlign = 'center';
+}
+
+// 7) EDITORIAL: bloques sólidos tipo póster
+private textEditorial(ctx: CanvasRenderingContext2D, t: any): void {
+  const f = this.fitName(ctx, t.name.toUpperCase(), '"Oswald", sans-serif', 700, t.maxW - 60, 2, 90, 48, 0.02);
+  const pad = 26;
+
+  f.lines.forEach((l, i) => {
+    const base = t.top + f.size + i * f.lh;
+    const lw = ctx.measureText(l).width;
+    ctx.fillStyle = '#0a0a0a';
+    ctx.fillRect(t.cx - lw / 2 - pad, base - f.size * 0.88, lw + pad * 2, f.size * 1.02);
+    ctx.fillStyle = '#fff';
+    ctx.fillText(l, t.cx, base);
+  });
+
+  ctx.font = '700 26px "Inter", sans-serif';
+  this.setSpacing(ctx, 8);
+  const sw = ctx.measureText(t.sub).width;
+  const ySub = t.top + f.size + (f.lines.length - 1) * f.lh + 76;
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(t.cx - sw / 2 - 28, ySub - 34, sw + 56, 50);
+  ctx.fillStyle = '#0a0a0a';
+  ctx.fillText(t.sub, t.cx, ySub);
+}
+
+// 8) PRISM: panel anguloso
+private textPrism(ctx: CanvasRenderingContext2D, t: any): void {
+  const f = this.fitName(ctx, t.name.toUpperCase(), '"Oswald", sans-serif', 700, t.maxW - 200, 2, 82, 46, 0.04);
+  const ph = f.lines.length * f.lh + 150;
+  const pw = Math.min(t.maxW, f.width + 220);
+  const x0 = t.cx - pw / 2, x1 = t.cx + pw / 2;
+  const y0p = t.top, y1p = t.top + ph;
+  const skew = 42;
+
+  ctx.beginPath();
+  ctx.moveTo(x0 + skew, y0p);
+  ctx.lineTo(x1 + skew, y0p);
+  ctx.lineTo(x1 - skew, y1p);
+  ctx.lineTo(x0 - skew, y1p);
+  ctx.closePath();
+  const g = ctx.createLinearGradient(x0, y0p, x1, y1p);
+  g.addColorStop(0, this.hexToRgbaString(t.p.main, 0.9));
+  g.addColorStop(1, this.hexToRgbaString(t.p.cool, 0.9));
+  ctx.fillStyle = g;
+  ctx.fill();
+  ctx.strokeStyle = 'rgba(255,255,255,0.55)';
+  ctx.lineWidth = 2;
+  ctx.stroke();
+
+  ctx.font = `700 ${f.size}px "Oswald", sans-serif`;
+  this.setSpacing(ctx, f.size * 0.04);
+  ctx.fillStyle = '#fff';
+  ctx.shadowColor = 'rgba(0,0,0,0.3)';
+  ctx.shadowBlur = 12;
+  const yText = y0p + 52 + f.size * 0.82;
+  f.lines.forEach((l, i) => ctx.fillText(l, t.cx, yText + i * f.lh));
+  ctx.shadowBlur = 0;
+
+  const yRule = y1p - 62;
+  ctx.fillStyle = 'rgba(255,255,255,0.45)';
+  ctx.fillRect(t.cx - 90, yRule, 180, 2);
+  ctx.font = '600 26px "Inter", sans-serif';
+  this.setSpacing(ctx, 8);
+  ctx.fillStyle = 'rgba(255,255,255,0.92)';
+  ctx.fillText(t.sub, t.cx, yRule + 38);
+}
+
+// 9) HOLO: texto iridiscente
+private textHolo(ctx: CanvasRenderingContext2D, t: any): void {
+  const f = this.fitName(ctx, t.name.toUpperCase(), '"Oswald", sans-serif', 700, t.maxW, 2, 96, 52, 0.05);
+  const y0 = t.top + f.size;
+
+  const g = ctx.createLinearGradient(t.cx - f.width / 2, 0, t.cx + f.width / 2, 0);
+  for (let i = 0; i <= 6; i++) g.addColorStop(i / 6, this.hslToHex(t.p.hue + i * 55, 0.9, 0.74));
+
+  ctx.lineJoin = 'round';
+  ctx.strokeStyle = 'rgba(255,255,255,0.6)';
+  ctx.lineWidth = 3;
+  ctx.shadowColor = this.hslToHex(t.p.hue + 120, 0.9, 0.7);
+  ctx.shadowBlur = 30;
+  f.lines.forEach((l, i) => ctx.strokeText(l, t.cx, y0 + i * f.lh));
+  ctx.shadowBlur = 0;
+  ctx.fillStyle = g;
+  f.lines.forEach((l, i) => ctx.fillText(l, t.cx, y0 + i * f.lh));
+
+  const midY = t.top + (f.lines.length * f.lh) / 2;
+  this.drawSparkle(ctx, t.cx - f.width / 2 - 56, midY - 10, 22, 0.95);
+  this.drawSparkle(ctx, t.cx + f.width / 2 + 56, midY + 6, 28, 0.95);
+  this.drawSparkle(ctx, t.cx + f.width / 2 + 100, midY - 34, 12, 0.7);
+
+  ctx.font = '500 30px "Inter", sans-serif';
+  this.setSpacing(ctx, 9);
+  ctx.fillStyle = 'rgba(255,255,255,0.88)';
+  ctx.fillText(t.sub, t.cx, y0 + (f.lines.length - 1) * f.lh + 64);
+}
 
   // ============================================================
 // ESTILOS DE FONDO
@@ -1378,8 +1716,6 @@ private drawEditorialBackground(ctx: CanvasRenderingContext2D, w: number, h: num
   ctx.font = '600 28px "Inter", sans-serif';
   ctx.fillStyle = 'rgba(255,255,255,0.8)';
   ctx.textBaseline = 'alphabetic';
-  ctx.textAlign = 'left';
-  ctx.fillText(spaced('Football Clubs Worldwide'), inset + 28, inset + 52);
   ctx.textAlign = 'right';
   ctx.fillText(spaced(club.city_country || ''), w - inset - 28, inset + 52);
 }
@@ -1444,60 +1780,139 @@ private drawPrismBackground(ctx: CanvasRenderingContext2D, w: number, h: number,
   ctx.globalCompositeOperation = 'source-over';
 }
 
-// 9) HOLO FOIL: lámina holográfica iridiscente
-private drawHoloBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
+// 9) OBSIDIAN: mármol negro con vetas luminosas
+private drawObsidianBackground(ctx: CanvasRenderingContext2D, w: number, h: number, color: string): void {
   const p = this.makePalette(color);
-  const bg = ctx.createLinearGradient(0, 0, w, h);
-  bg.addColorStop(0, p.deep);
-  bg.addColorStop(1, p.ink);
-  ctx.fillStyle = bg;
-  ctx.fillRect(0, 0, w, h);
+  const noise = this.makeNoise();
 
-  const cx = w / 2, cy = h * 0.42;
-  const anyCtx = ctx as any;
-  let foil: CanvasGradient;
-  if (typeof anyCtx.createConicGradient === 'function') {
-    foil = anyCtx.createConicGradient(this.rng() * Math.PI, cx, cy);
-  } else {
-    foil = ctx.createLinearGradient(0, 0, w, h);
+  // La textura se calcula a 1/4 de resolución y se amplía: más rápido y las vetas quedan suaves
+  const sw = Math.ceil(w / 4), sh = Math.ceil(h / 4);
+  const small = document.createElement('canvas');
+  small.width = sw;
+  small.height = sh;
+  const sctx = small.getContext('2d')!;
+  const img = sctx.createImageData(sw, sh);
+
+  const ink = this.hexToRgb(p.ink);
+  const deep = this.hexToRgb(p.deep);
+  const main = this.hexToRgb(p.main);
+  const light = this.hexToRgb(p.light);
+
+  const S = 3 / Math.max(sw, sh);
+  const ox = this.rng() * 50, oy = this.rng() * 50;
+
+  for (let y = 0; y < sh; y++) {
+    for (let x = 0; x < sw; x++) {
+      const u = x * S + ox, v = y * S + oy;
+
+      // Deformación del dominio: vetas que serpentean
+      const warp = noise(u * 0.9, v * 0.9);
+      const u2 = u + warp * 1.4, v2 = v + warp * 1.1;
+
+      const ridge = 1 - Math.abs(2 * noise(u2 * 1.1 + 7, v2 * 1.1 + 3) - 1);
+      const vein = Math.pow(ridge, 14);
+      const fine = Math.pow(1 - Math.abs(2 * noise(u2 * 2.6 + 13, v2 * 2.6 + 5) - 1), 24) * 0.5;
+      const a = Math.min(1, vein + fine);
+
+      // Fondo nublado oscuro
+      const cloud = noise(u * 0.7 + 20, v * 0.7 + 11);
+      let r = ink.r + (deep.r - ink.r) * cloud;
+      let g = ink.g + (deep.g - ink.g) * cloud;
+      let b = ink.b + (deep.b - ink.b) * cloud;
+
+      // Veta: del color del escudo al más claro en el centro
+      const t = Math.min(1, vein * 1.2);
+      const vr = main.r + (light.r - main.r) * t;
+      const vg = main.g + (light.g - main.g) * t;
+      const vb = main.b + (light.b - main.b) * t;
+
+      const i = (y * sw + x) * 4;
+      img.data[i]     = r + (vr - r) * a;
+      img.data[i + 1] = g + (vg - g) * a;
+      img.data[i + 2] = b + (vb - b) * a;
+      img.data[i + 3] = 255;
+    }
   }
-  const stops = 12;
-  for (let i = 0; i <= stops; i++) {
-    foil.addColorStop(i / stops, this.hslToHex(p.hue + (i * 360) / stops, 0.85, 0.62));
-  }
+  sctx.putImageData(img, 0, 0);
+
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = 'high';
+  ctx.drawImage(small, 0, 0, w, h);
+
+  // Brillo extra sobre las vetas
   ctx.save();
-  ctx.globalAlpha = 0.6;
-  ctx.fillStyle = foil;
-  ctx.fillRect(0, 0, w, h);
-  ctx.restore();
-
-  // Brillo metálico diagonal
-  const sheen = ctx.createLinearGradient(0, 0, w, h);
-  sheen.addColorStop(0.15, 'rgba(255,255,255,0)');
-  sheen.addColorStop(0.28, 'rgba(255,255,255,0.4)');
-  sheen.addColorStop(0.4, 'rgba(255,255,255,0)');
-  sheen.addColorStop(0.6, 'rgba(255,255,255,0)');
-  sheen.addColorStop(0.72, 'rgba(255,255,255,0.3)');
-  sheen.addColorStop(0.85, 'rgba(255,255,255,0)');
-  ctx.save();
-  ctx.globalCompositeOperation = 'overlay';
-  ctx.fillStyle = sheen;
-  ctx.fillRect(0, 0, w, h);
-  ctx.restore();
-
-  // Profundidad en los bordes
-  const depth = ctx.createRadialGradient(cx, cy, Math.min(w, h) * 0.25, cx, cy, Math.max(w, h) * 0.75);
-  depth.addColorStop(0, 'rgba(0,0,0,0)');
-  depth.addColorStop(1, 'rgba(0,0,0,0.5)');
-  ctx.fillStyle = depth;
-  ctx.fillRect(0, 0, w, h);
-
-  // Destellos
   ctx.globalCompositeOperation = 'screen';
-  for (let i = 0; i < 70; i++) {
-    this.drawSparkle(ctx, this.rng() * w, this.rng() * h, 5 + this.rng() * 18, 0.3 + this.rng() * 0.6);
+  ctx.globalAlpha = 0.3;
+  ctx.drawImage(small, 0, 0, w, h);
+  ctx.restore();
+
+  // Reflejo de piedra pulida
+  const gloss = ctx.createLinearGradient(0, 0, w, h);
+  gloss.addColorStop(0, 'rgba(255,255,255,0.14)');
+  gloss.addColorStop(0.32, 'rgba(255,255,255,0)');
+  gloss.addColorStop(0.62, 'rgba(255,255,255,0)');
+  gloss.addColorStop(0.78, 'rgba(255,255,255,0.05)');
+  gloss.addColorStop(1, 'rgba(255,255,255,0)');
+  ctx.fillStyle = gloss;
+  ctx.fillRect(0, 0, w, h);
+
+  // Luz detrás del escudo y polvo brillante
+  ctx.globalCompositeOperation = 'screen';
+  this.glow(ctx, w / 2, h * 0.42, Math.max(w, h) * 0.4, p.main, 0.2);
+  for (let i = 0; i < 90; i++) {
+    ctx.fillStyle = `rgba(255,255,255,${0.15 + this.rng() * 0.5})`;
+    ctx.beginPath();
+    ctx.arc(this.rng() * w, this.rng() * h, 0.6 + this.rng() * 1.6, 0, Math.PI * 2);
+    ctx.fill();
   }
   ctx.globalCompositeOperation = 'source-over';
+}
+
+// Línea fina con rombo central
+private ornament(ctx: CanvasRenderingContext2D, cx: number, y: number, color: string, half = 200): void {
+  const g = ctx.createLinearGradient(cx - half, 0, cx + half, 0);
+  g.addColorStop(0, 'rgba(255,255,255,0)');
+  g.addColorStop(0.5, color);
+  g.addColorStop(1, 'rgba(255,255,255,0)');
+  ctx.fillStyle = g;
+  ctx.fillRect(cx - half, y, half * 2, 2);
+
+  ctx.fillStyle = color;
+  ctx.beginPath();
+  ctx.moveTo(cx, y - 9);
+  ctx.lineTo(cx + 9, y + 1);
+  ctx.lineTo(cx, y + 11);
+  ctx.lineTo(cx - 9, y + 1);
+  ctx.closePath();
+  ctx.fill();
+}
+
+// Texto OBSIDIAN: placa grabada con degradado metálico
+private textObsidian(ctx: CanvasRenderingContext2D, t: any): void {
+  const f = this.fitName(ctx, t.name.toUpperCase(), '"Oswald", sans-serif', 600, t.maxW, 2, 92, 50, 0.08);
+  const y0 = t.top + 40 + f.size;
+  const yEnd = y0 + (f.lines.length - 1) * f.lh;
+
+  this.ornament(ctx, t.cx, t.top + 6, t.p.light);
+
+  // Sombra de relieve
+  ctx.fillStyle = 'rgba(0,0,0,0.7)';
+  f.lines.forEach((l, i) => ctx.fillText(l, t.cx, y0 + i * f.lh + 4));
+
+  // Relleno metálico
+  const metal = ctx.createLinearGradient(0, y0 - f.size, 0, yEnd + 8);
+  metal.addColorStop(0, '#ffffff');
+  metal.addColorStop(0.55, t.p.light);
+  metal.addColorStop(1, this.mixColor(t.p.main, t.p.light, 0.4));
+  ctx.fillStyle = metal;
+  f.lines.forEach((l, i) => ctx.fillText(l, t.cx, y0 + i * f.lh));
+
+  this.ornament(ctx, t.cx, yEnd + 40, t.p.light);
+
+  ctx.font = '500 28px "Inter", sans-serif';
+  this.setSpacing(ctx, 10);
+  ctx.fillStyle = 'rgba(255,255,255,0.78)';
+  ctx.fillText(t.sub, t.cx, yEnd + 98);
 }
 
   // Quita sufijos tipo "(Defunct)", "(defunct)", " - Defunct" del nombre para el wallpaper
