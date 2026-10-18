@@ -241,93 +241,74 @@
 </div>
 
 <!-- Modal Países -->
-<div *ngIf="isCountryModalOpen" class="w3-modal" style="display:block;">
-  <div class="w3-modal-content w3-animate-zoom" style="max-width:600px; margin:auto;">
+<div *ngIf="isCountryModalOpen" class="w3-modal" style="display:block;" (click)="closeCountryModal()">
+  <div class="w3-modal-content w3-animate-zoom" style="max-width:600px; margin:auto;" (click)="$event.stopPropagation()">
+
     <header class="w3-container w3-center w3-black title-game">
+      <button type="button"
+              class="geo-clear-btn"
+              *ngIf="selectedCountries.length || selectedCity"
+              (click)="selectedCountries = []; selectedCity = null">
+        Clear
+      </button>
+
       <span (click)="closeCountryModal()" class="w3-button w3-display-topright w3-black title-game">
         <i class="fa fa-times"></i>
       </span>
-      <h5>Filter</h5>
+
+      <h5>Filter <small class="geo-result">· {{ allFilteredClubs.length }} clubs</small></h5>
     </header>
 
-<div class="w3-container w3-padding">
-  
+    <div class="w3-container w3-padding">
 
-  <div class="w3-display-container">
-    <input
-      type="text"
-      class="w3-input w3-margin-bottom"
-      [placeholder]="modalTab === 'countries' ? 'Search country...' : 'Search city...'"
-      [(ngModel)]="countrySearch"
-    />
-    <span
-      *ngIf="countrySearch"
-      (click)="clearCountryFilterModal()"
-      class="w3-button w3-display-right w3-center"
-    >
-      <i class="fa fa-times"></i>
-    </span>
-  </div>
+      <div class="w3-display-container">
+        <input
+          type="text"
+          class="w3-input w3-margin-bottom"
+          placeholder="Search country or city..."
+          [(ngModel)]="countrySearch"
+        />
+        <span
+          *ngIf="countrySearch"
+          (click)="clearCountryFilterModal()"
+          class="w3-button w3-display-right w3-center"
+        >
+          <i class="fa fa-times"></i>
+        </span>
+      </div>
 
-  <ul *ngIf="modalTab === 'countries'" class="w3-ul w3-hoverable" style="max-height:300px; overflow-y:auto;">
-  <li *ngFor="let country of filteredCountries()"
-      (click)="toggleCountry(country)"
-      [ngClass]="{'w3-light-grey': isCountrySelected(country)}"
-      class="w3-padding w3-hover-light-grey country-item">
-    <span class="country-item-name">
-      <span class="w3-margin-right fi" [ngClass]="'fi-' + getCountryCode(country)"></span>
-      {{ country }}
-    </span>
-    <span class="country-item-right">
-      <span class="country-item-count">{{ getCountryCount(country) }} teams</span>
-      <i class="fa fa-check country-check" *ngIf="isCountrySelected(country)"></i>
-    </span>
-  </li>
-</ul>
+      <!-- Ciudades -->
+      <div class="geo-cities" *ngIf="filteredCities().length">
+        <button *ngFor="let city of filteredCities()"
+                type="button"
+                class="geo-city"
+                [class.selected]="isCitySelected(city)"
+                (click)="selectCity(city)">
+          {{ city.city }}
+        </button>
+      </div>
 
-  <ul *ngIf="modalTab === 'cities'" class="w3-ul w3-hoverable" style="max-height:300px; overflow-y:auto;">
-    <li *ngFor="let city of filteredCities()"
-        (click)="selectCity(city)"
-        [ngClass]="{'w3-light-grey': isCitySelected(city)}"
-        class="w3-padding w3-hover-light-grey country-item">
-      <span class="country-item-name">
-        <span class="w3-margin-right fi" [ngClass]="'fi-' + getCountryCode(city.country)"></span>
-        {{ city.city }}, {{ city.country }}
-      </span>
-      <span class="country-item-count">{{ getCityCount(city) }} teams</span>
-    </li>
-  </ul>
+      <!-- Países -->
+      <ul class="w3-ul w3-hoverable" style="max-height:300px; overflow-y:auto;">
+        <li *ngFor="let country of filteredCountries()"
+            (click)="toggleCountry(country)"
+            [ngClass]="{'w3-light-grey': isCountrySelected(country)}"
+            class="w3-padding w3-hover-light-grey country-item">
+          <span class="country-item-name">
+            <span class="w3-margin-right fi" [ngClass]="'fi-' + getCountryCode(country)"></span>
+            {{ country }}
+          </span>
+          <span class="country-item-right">
+            <span class="country-item-count">{{ getCountryCount(country) }} teams</span>
+            <i class="fa fa-check country-check" *ngIf="isCountrySelected(country)"></i>
+          </span>
+        </li>
+      </ul>
 
-  <div class="modal-footer">
-    <div class="modal-tabs" role="tablist">
-      <button type="button" role="tab"
-              [class.active]="modalTab === 'countries'"
-              [attr.aria-selected]="modalTab === 'countries'"
-              (click)="setModalTab('countries')">Countries</button>
-      <button type="button" role="tab"
-              [class.active]="modalTab === 'cities'"
-              [attr.aria-selected]="modalTab === 'cities'"
-              (click)="setModalTab('cities')">Cities</button>
-    </div>
-
-    <div class="modal-actions">
-      <button type="button"
-              class="modal-btn ghost"
-              *ngIf="modalTab === 'countries' && selectedCountries.length"
-              (click)="selectedCountries = []">
-        Clear ({{ selectedCountries.length }})
-      </button>
-      <button type="button" class="modal-btn" (click)="closeCountryModal()">
-        {{ modalTab === 'countries' && selectedCountries.length
-            ? 'Show ' + allFilteredClubs.length + ' clubs'
-            : 'Done' }}
-      </button>
     </div>
   </div>
+</div>
 
-</div>   <!-- cierra w3-container w3-padding -->
-  </div> <!-- cierra w3-modal-content -->
-</div>   <!-- cierra w3-modal -->
 
 <!-- Grid de Cards -->
 <div #gridTop
@@ -632,7 +613,7 @@
 <button
   class="back-to-top"
   [ngClass]="{'fade-out': isFadingOut}"
-  *ngIf="showBackToTop || isFadingOut"
+  *ngIf="(showBackToTop || isFadingOut) && !anyModalOpen"
   (click)="scrollToTop()"
   title="Back to Top">
   <i class="fa fa-arrow-up"></i>

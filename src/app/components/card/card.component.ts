@@ -2536,4 +2536,9 @@ private removeUniformBackground(
   return 'removed';
 }
 
+
+get anyModalOpen(): boolean {
+  return !!(this.selectedClub || this.selectedImage || this.isCountryModalOpen || this.isWallpaperModalOpen);
+}
+
 }

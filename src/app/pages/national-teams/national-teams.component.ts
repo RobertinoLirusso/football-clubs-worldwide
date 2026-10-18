@@ -785,4 +785,8 @@ export class NationalTeamsComponent implements OnInit {
     const url = encodeURIComponent(window.location.href);
     return `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
   }
+
+  get anyModalOpen(): boolean {
+  return !!(this.selectedTeam || this.selectedImage);
+}
 }

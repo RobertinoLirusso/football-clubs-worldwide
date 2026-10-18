@@ -50,11 +50,12 @@
 }
 
 .brand-text {
-  font-family: var(--font-display);
-  font-size: 1.25rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
+  font-family: var(--font-brand);
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
   text-transform: uppercase;
+  line-height: 1;
   /* Platino con destello que cruza el texto */
   background: linear-gradient(
     100deg,
@@ -75,7 +76,7 @@
 }
 
 .brand:hover .brand-text {
-  letter-spacing: 0.09em;
+  letter-spacing: 0.03em;
   filter: drop-shadow(0 0 10px rgba(235, 240, 250, 0.55));
 }
 
@@ -106,10 +107,10 @@
   border: 0;
   background: transparent;
   color: #e8e8e8;
-  font-family: var(--font-display);
-  font-size: 15px;
-  font-weight: 500;
-  letter-spacing: 0.08em;
+font-family: var(--font-brand);
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 0.04em;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
@@ -190,6 +191,8 @@
 }
 
 .dropdown-menu .nav-link {
+  font-size: 12px;
+  letter-spacing: 0.03em;
   display: flex;
   padding: 12px 16px;
   text-align: left;
@@ -268,8 +271,8 @@
   }
 
   .brand-text {
-  font-size: clamp(0.9rem, 4.4vw, 1.05rem);
-  letter-spacing: 0.05em;
+  font-size: clamp(0.8rem, 3.9vw, 0.98rem);
+  letter-spacing: 0;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -311,7 +314,7 @@
     width: 100%;
     min-height: 52px;
     padding: 0 20px;
-    font-size: 16px;
+    font-size: 14px;
     border-bottom: 1px solid #1d1f22;
   }
 
@@ -358,8 +361,7 @@
   }
 
   .dropdown-menu .nav-link {
-    padding-left: 32px;
-    font-size: 15px;
+  font-size: 13px;
   }
 }
 

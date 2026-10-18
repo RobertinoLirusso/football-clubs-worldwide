@@ -412,7 +412,7 @@
   <button
     class="back-to-top"
     [ngClass]="{'fade-out': isFadingOut}"
-    *ngIf="showBackToTop || isFadingOut"
+    *ngIf="(showBackToTop || isFadingOut) && !anyModalOpen"
     (click)="scrollToTop()"
     title="Back to Top">
     <i class="fa fa-arrow-up"></i>

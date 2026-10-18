@@ -558,7 +558,7 @@ footer p {
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+  z-index: 900;
   opacity: 0;
   transition: transform 0.3s, background-color 0.3s, opacity 0.4s ease;
   animation: fadeIn 0.4s forwards;
@@ -1178,93 +1178,6 @@ footer p {
   margin-top: 14px;
 }
 
-/* Barra inferior del modal de países */
-.modal-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 12px;
-  padding-top: 12px;
-  border-top: 1px solid #ddd;
-}
-
-/* Pestañas: control segmentado compacto */
-.modal-tabs {
-  display: inline-flex;
-  margin: 0;
-  border: 1px solid #000;
-  border-bottom: 1px solid #000;
-}
-
-.modal-tabs button {
-  flex: 0 0 auto;
-  height: 34px;
-  padding: 0 14px;
-  border: 0;
-  border-radius: 0;
-  background: #fff;
-  color: #000;
-  font-family: inherit;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.modal-tabs button.active {
-  background: #000;
-  color: #fff;
-  border: 0;
-}
-
-/* Acciones */
-.modal-actions {
-  display: flex;
-  gap: 6px;
-  margin: 0;
-}
-
-.modal-btn {
-  height: 34px;
-  padding: 0 14px;
-  border: 1px solid #000;
-  border-radius: 0;
-  background: #000;
-  color: #fff;
-  font-family: inherit;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  white-space: nowrap;
-  cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.modal-btn:hover {
-  background: #fff;
-  color: #000;
-}
-
-.modal-btn.ghost {
-  background: #fff;
-  color: #000;
-}
-
-.modal-btn.ghost:hover {
-  background: #000;
-  color: #fff;
-}
-
-@media screen and (max-width: 480px) {
-  .modal-footer {
-    justify-content: center;
-  }
-}
 
 .country-item {
   display: flex;
@@ -2382,4 +2295,77 @@ footer p {
   .country-chip .fi {
     transition: none;
   }
+}
+
+/* Encabezado del modal de países */
+.geo-result {
+  margin-left: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #bfc3ca;
+}
+
+.geo-clear-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 0 16px;
+  border: 0;
+  background: transparent;
+  color: #ff8a8a;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.geo-clear-btn:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Ciudades: una sola fila deslizable */
+.geo-cities {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+  padding-bottom: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.geo-cities::-webkit-scrollbar {
+  display: none;
+}
+
+.geo-city {
+  flex: 0 0 auto;
+  height: 32px;
+  padding: 0 12px;
+  border: 1px solid #c8cdd2;
+  border-radius: 0;
+  background: #fff;
+  color: #333;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.geo-city:hover {
+  border-color: #000;
+}
+
+.geo-city.selected {
+  background: #000;
+  border-color: #000;
+  color: #fff;
 }
