@@ -29,77 +29,68 @@
   position: relative;
   overflow: hidden;
   min-height: 280px;
-  border: 1px solid transparent;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease, opacity 0.2s ease;
+  border: 2px solid transparent;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.35s ease;
   will-change: transform;
   user-select: none;
+
   background:
-    linear-gradient(#eceef2, #eceef2) padding-box,
-    linear-gradient(160deg, #dbe4ea, #bfc3ca 30%, #e5e6e8 60%, #d4d6da 100%) border-box;
-  border: 2px solid transparent;
+    linear-gradient(165deg, #f4f6f9 0%, #e8ecf1 25%, #dfe4ea 50%, #e6e9ee 75%, #f0f2f5 100%) padding-box,
+    linear-gradient(145deg, #cfd6de, #aeb6c2 30%, #d4d9e0 60%, #b8c0ca 100%) border-box;
+
   box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.92),
-    inset 0 1px 0 rgba(255, 255, 255, 0.99),
-    0 6px 18px rgba(130, 135, 140, 0.17);
+    0 0 0 1px rgba(255, 255, 255, 0.95),
+    inset 0 1px 0 rgba(255, 255, 255, 1),
+    inset 0 -1px 0 rgba(180, 190, 200, 0.25),
+    0 8px 22px rgba(120, 130, 145, 0.18);
 }
 
+/* Franja superior */
 .card::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #e2e8f0, #bfc9d1, #e5e6e8, #dbe4ea);
+  height: 5px;
+  background: linear-gradient(90deg,
+    #e8eef4 0%,
+    #c5ced8 20%,
+    #f0f4f8 40%,
+    #aeb8c4 60%,
+    #e2e8f0 80%,
+    #d0d7e0 100%);
   z-index: 2;
 }
 
-.card {
-  --sticker:
-    drop-shadow(2px 0 0 #fff)
-    drop-shadow(-2px 0 0 #fff)
-    drop-shadow(0 2px 0 #fff)
-    drop-shadow(0 -2px 0 #fff)
-    drop-shadow(0 0 1px rgba(60, 70, 90, 0.45))
-    drop-shadow(0 4px 8px rgba(80, 90, 110, 0.3));
-}
-
+/* Difuminado suave en los bordes del fondo de la card */
 .card::after {
   content: '';
   position: absolute;
   inset: 0;
-  width: 100%;
-  height: 100%;
-  bottom: auto;
-  background:
-    radial-gradient(ellipse at 25% 15%, rgba(255, 255, 255, 0.35) 0%, transparent 55%),
-    repeating-linear-gradient(
-      108deg,
-      transparent,
-      transparent 16px,
-      rgba(255, 255, 255, 0.13) 17px,
-      rgba(255, 255, 255, 0.13) 18px
-    );
-  pointer-events: none;
   z-index: 1;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse 80% 75% at center,
+    transparent 35%,
+    rgba(220, 226, 234, 0.35) 70%,
+    rgba(190, 200, 212, 0.55) 100%
+  );
 }
 
 .card:hover {
-  transform: scale(1.1);
-  background:
-    linear-gradient(#eceef2, #eceef2) padding-box,
-    linear-gradient(160deg, #f3f4f6 0%, #dfe3ec 40%, #bbbfc6 90%) border-box;
-  border: 2px solid transparent;
+  transform: scale(1.07) translateY(-4px);
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 1),
-    0 0 8px rgba(170, 180, 190, 0.38),
+    0 0 18px rgba(190, 205, 220, 0.45),
     inset 0 1px 0 rgba(255, 255, 255, 1),
-    0 14px 28px rgba(170, 175, 180, 0.24);
+    0 18px 36px rgba(130, 145, 160, 0.22);
   z-index: 10;
 }
 
 .card:hover footer p {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 .card.is-dragging {
@@ -122,21 +113,26 @@
 }
 
 /* ============================================================
-   CARD IMAGE
+   CARD IMAGE + HUMO ALREDEDOR DEL LOGO
    ============================================================ */
 
 .img {
   width: 100%;
   height: 180px;
   object-fit: contain;
-  padding: 9px;
+  padding: 12px;
   margin: 0;
   pointer-events: none;
-  filter: var(--sticker);
   position: relative;
   z-index: 3;
   opacity: 0;
   transition: transform 0.3s ease, filter 0.3s ease, opacity 0.4s ease;
+
+  /* Humo suave alrededor del logo (mejora logos blancos y con texto) */
+  filter:
+    drop-shadow(0 0 6px rgba(255, 255, 255, 0.85))
+    drop-shadow(0 0 14px rgba(220, 228, 238, 0.55))
+    drop-shadow(0 4px 12px rgba(140, 150, 165, 0.25));
 }
 
 .img.loaded {
@@ -189,7 +185,11 @@
 
 .card:hover .img {
   transform: scale(1.08) translateY(-3px);
-  filter: brightness(1.04) var(--sticker);
+  filter:
+    brightness(1.04)
+    drop-shadow(0 0 8px rgba(255, 255, 255, 0.9))
+    drop-shadow(0 0 18px rgba(220, 228, 238, 0.6))
+    drop-shadow(0 6px 16px rgba(140, 150, 165, 0.3));
 }
 
 /* ============================================================
@@ -290,7 +290,7 @@ footer p {
 
 .clubs-number {
   font-family: var(--font-display);
-  font-size: clamp(2.8rem, 9vw, 4.2rem);
+  font-size: clamp(2.1rem, 6.5vw, 3.2rem);
   font-weight: 700;
   line-height: 1;
   font-variant-numeric: tabular-nums;
@@ -304,11 +304,11 @@ footer p {
 .clubs-label {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   font-family: var(--font-body);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.25em;
   text-transform: uppercase;
   color: #555;
 }
@@ -316,7 +316,7 @@ footer p {
 .clubs-label::before,
 .clubs-label::after {
   content: '';
-  width: 32px;
+  width: 24px;
   height: 1px;
   background: linear-gradient(90deg, transparent, #8e97a5);
 }
@@ -732,25 +732,27 @@ footer p {
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 0.9),
     0 8px 22px rgba(120, 130, 140, 0.25);
-      --sticker:
-    drop-shadow(3px 0 0 #fff)
-    drop-shadow(-3px 0 0 #fff)
-    drop-shadow(0 3px 0 #fff)
-    drop-shadow(0 -3px 0 #fff)
-    drop-shadow(0 0 1px rgba(60, 70, 90, 0.5))
-    drop-shadow(0 6px 12px rgba(80, 90, 110, 0.35));
   --rx: 0deg;
   --ry: 0deg;
   --mx: 50%;
   --my: 50%;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: perspective(700px) rotateX(var(--rx)) rotateY(var(--ry));
+  transition: transform 0.18s ease-out, box-shadow 0.3s ease;
+  will-change: transform;
 }
 
+/* Logo del modal: SIN sticky border + humo suave */
 .club-crest img {
   display: block;
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  filter: var(--sticker);
+  filter:
+    drop-shadow(0 0 8px rgba(255, 255, 255, 0.9))
+    drop-shadow(0 0 18px rgba(220, 228, 238, 0.6))
+    drop-shadow(0 6px 16px rgba(130, 140, 155, 0.28));
 }
 
 .club-crest.failed {
@@ -1130,20 +1132,14 @@ footer p {
     0 10px 16px rgba(0, 0, 0, 0.28);
 }
 
-
-/* Al presionar no se hunde: se mantiene arriba */
 .country-chip:active {
   transform: translateY(-4px);
 }
 
-/* Seleccionada: queda elevada con un marco platinado y brillo */
 .country-chip.active {
-  border: none;
   background: #fff;
   transform: translateY(-5px);
   box-shadow:
-    0 0 0 2px #fff,
-    0 0 0 3px #8e97a5,
     0 0 14px rgba(200, 212, 228, 0.9),
     0 12px 18px rgba(0, 0, 0, 0.3);
 }
@@ -1158,8 +1154,6 @@ footer p {
   }
 }
 
-
-/* Modal de países: selección múltiple */
 .country-item-right {
   display: flex;
   align-items: center;
@@ -1171,13 +1165,6 @@ footer p {
   color: #000;
   font-size: 13px;
 }
-
-.modal-actions {
-  display: flex;
-  gap: 8px;
-  margin-top: 14px;
-}
-
 
 .country-item {
   display: flex;
@@ -1346,13 +1333,16 @@ footer p {
 }
 
 .card.defunct .img {
-  filter: grayscale(1) var(--sticker);
+  filter: grayscale(1)
+    drop-shadow(0 0 6px rgba(255, 255, 255, 0.7))
+    drop-shadow(0 0 12px rgba(200, 205, 210, 0.4));
 }
 
 .card.defunct:hover .img {
-  filter: grayscale(0) brightness(1.04) var(--sticker);
+  filter: grayscale(0) brightness(1.04)
+    drop-shadow(0 0 8px rgba(255, 255, 255, 0.85))
+    drop-shadow(0 0 16px rgba(220, 228, 238, 0.55));
 }
-
 
 .defunct-label {
   display: block;
@@ -1755,13 +1745,6 @@ footer p {
     width: 180px;
     height: 180px;
     padding: 16px;
-      --sticker:
-    drop-shadow(3px 0 0 #fff)
-    drop-shadow(-3px 0 0 #fff)
-    drop-shadow(0 3px 0 #fff)
-    drop-shadow(0 -3px 0 #fff)
-    drop-shadow(0 0 1px rgba(60, 70, 90, 0.5))
-    drop-shadow(0 6px 12px rgba(80, 90, 110, 0.35));
   }
 
   .club-info {
@@ -1804,21 +1787,20 @@ footer p {
     width: auto;
     transform: none;
   }
-}
 
-@media (max-width: 480px) {
   .search-row {
     max-width: none;
-    padding: 0 8px;
+    padding: 0 10px;
     gap: 6px;
   }
 
   .search-icon {
-    flex-basis: 40px;
-    width: 40px;
+    flex-basis: 42px;
+    width: 42px;
   }
 
   .search-input {
+    font-size: 15px;
     padding: 0 40px 0 10px;
   }
 
@@ -1827,12 +1809,45 @@ footer p {
   }
 
   .random-btn {
-    flex-basis: 44px;
-    width: 44px;
+    flex-basis: 46px;
+    width: 46px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-row {
+    padding: 0 8px;
+    gap: 5px;
+  }
+
+  .search-icon {
+    flex-basis: 38px;
+    width: 38px;
+    font-size: 14px;
+  }
+
+  .search-input {
+    font-size: 14px;
+    padding: 0 36px 0 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .clear-icon {
+    width: 36px;
+    font-size: 14px;
+  }
+
+  .random-btn {
+    flex-basis: 42px;
+    width: 42px;
+    font-size: 14px;
   }
 
   .clubs-label {
-    letter-spacing: 0.2em;
+    letter-spacing: 0.18em;
+    font-size: 10px;
   }
 
   .card.is-dragging {
@@ -1851,21 +1866,27 @@ footer p {
   }
 }
 
+@media (max-width: 360px) {
+  .search-input {
+    font-size: 13px;
+    padding: 0 34px 0 6px;
+  }
+
+  .search-icon,
+  .clear-icon {
+    flex-basis: 34px;
+    width: 34px;
+  }
+
+  .random-btn {
+    flex-basis: 40px;
+    width: 40px;
+  }
+}
+
 /* ============================================================
    ESCUDO DEL MODAL: INCLINACIÓN 3D + REFLEJO + FLOTACIÓN
    ============================================================ */
-
-.club-crest {
-  --rx: 0deg;
-  --ry: 0deg;
-  --mx: 50%;
-  --my: 50%;
-  position: relative;
-  transform-style: preserve-3d;
-  transform: perspective(700px) rotateX(var(--rx)) rotateY(var(--ry));
-  transition: transform 0.18s ease-out, box-shadow 0.3s ease;
-  will-change: transform;
-}
 
 .club-crest:hover {
   box-shadow:
@@ -1874,7 +1895,6 @@ footer p {
     0 14px 30px rgba(100, 110, 125, 0.35);
 }
 
-/* El escudo se despega de la card y flota */
 .club-crest img {
   transform: translateZ(40px);
   animation: crestFloat 4s ease-in-out infinite;
@@ -1885,7 +1905,6 @@ footer p {
   50%      { transform: translateZ(40px) translateY(-6px); }
 }
 
-/* Reflejo de luz que sigue al cursor */
 .crest-glare {
   position: absolute;
   inset: 0;
@@ -1921,7 +1940,6 @@ footer p {
   }
 }
 
-
 /* ============================================================
    BRILLO QUE RECORRE EL ESCUDO
    ============================================================ */
@@ -1948,11 +1966,9 @@ footer p {
   box-sizing: border-box;
   object-fit: contain;
   pointer-events: none;
-  /* silueta blanca del escudo, mismo movimiento que el logo en hover */
   filter: brightness(0) invert(1);
   opacity: 0.85;
   transform: scale(1.08) translateY(-3px);
-  /* banda de luz diagonal */
   -webkit-mask-image: linear-gradient(105deg, transparent 38%, #000 50%, transparent 62%);
   mask-image: linear-gradient(105deg, transparent 38%, #000 50%, transparent 62%);
   -webkit-mask-size: 300% 100%;
@@ -2112,7 +2128,6 @@ footer p {
   overflow: hidden;
 }
 
-/* Franja platinada superior */
 #zoomModal .zoom-modal::before {
   content: '';
   position: absolute;
@@ -2124,7 +2139,6 @@ footer p {
   z-index: 2;
 }
 
-/* Textura satinada */
 #zoomModal .zoom-modal::after {
   content: '';
   position: absolute;
@@ -2180,7 +2194,6 @@ footer p {
   padding: 44px 28px 22px;
 }
 
-/* Recuadro platinado donde vive el escudo */
 .zoom-stage {
   display: flex;
   align-items: center;
@@ -2203,7 +2216,6 @@ footer p {
   pointer-events: none;
 }
 
-/* Nombre y bandera */
 .zoom-caption {
   display: flex;
   align-items: center;
@@ -2272,7 +2284,7 @@ footer p {
   }
 }
 
-/* Banderas del slider: grises, a color en hover y al seleccionar */
+/* Banderas del slider */
 .country-chip .fi {
   filter: grayscale(1) contrast(1.05);
   transition: filter 0.3s ease;
@@ -2284,7 +2296,6 @@ footer p {
   filter: grayscale(0) contrast(1);
 }
 
-/* Sin hover (móvil): gris parcial para poder reconocerlas */
 @media (hover: none) {
   .country-chip:not(.active) .fi {
     filter: grayscale(0.65);
@@ -2297,13 +2308,69 @@ footer p {
   }
 }
 
-/* Encabezado del modal de países */
-.geo-result {
-  margin-left: 4px;
-  font-size: 12px;
+/* ============================================================
+   MODAL DE FILTRO (simplificado y rápido)
+   ============================================================ */
+
+.geo-modal {
+  z-index: 1000;
+  display: block;
+}
+
+.geo-modal-content {
+  max-width: 520px;
+  margin: 40px auto;
+  border-radius: 0;
+  background: #fff;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+/* Header */
+.geo-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 0 48px;
+  background: #111;
+  color: #fff;
+}
+
+.geo-header h5 {
+  margin: 0;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.04em;
-  color: #bfc3ca;
+  text-transform: uppercase;
+}
+
+.geo-header h5 small {
+  margin-left: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.7;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.geo-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 52px;
+  height: 52px;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.geo-close:hover {
+  background: #fff;
+  color: #000;
 }
 
 .geo-clear-btn {
@@ -2315,10 +2382,9 @@ footer p {
   border: 0;
   background: transparent;
   color: #ff8a8a;
-  font-family: inherit;
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -2328,44 +2394,168 @@ footer p {
   text-decoration: underline;
 }
 
-/* Ciudades: una sola fila deslizable */
-.geo-cities {
+/* Body */
+.geo-body {
+  padding: 16px 18px 20px;
+}
+
+/* Search */
+.geo-search {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.geo-search input {
+  width: 100%;
+  height: 42px;
+  padding: 0 40px 0 12px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  font-size: 14px;
+  outline: none;
+}
+
+.geo-search input:focus {
+  border-color: #000;
+}
+
+.geo-search-clear {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 42px;
+  height: 42px;
+  border: 0;
+  background: transparent;
+  color: #666;
+  cursor: pointer;
+}
+
+.geo-search-clear:hover {
+  color: #000;
+}
+
+/* Sections */
+.geo-section {
+  margin-bottom: 18px;
+}
+
+.geo-section:last-child {
+  margin-bottom: 0;
+}
+
+.geo-section-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #777;
+}
+
+/* Chips de ciudades (ahora envuelven) */
+.geo-chips {
   display: flex;
+  flex-wrap: wrap;
   gap: 6px;
-  margin-bottom: 12px;
-  padding-bottom: 4px;
-  overflow-x: auto;
-  scrollbar-width: none;
-  -webkit-overflow-scrolling: touch;
 }
 
-.geo-cities::-webkit-scrollbar {
-  display: none;
-}
-
-.geo-city {
-  flex: 0 0 auto;
+.geo-chip {
   height: 32px;
   padding: 0 12px;
-  border: 1px solid #c8cdd2;
+  border: 1px solid #ccc;
   border-radius: 0;
   background: #fff;
   color: #333;
-  font-family: inherit;
   font-size: 12px;
   font-weight: 600;
-  letter-spacing: 0.04em;
-  white-space: nowrap;
   cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
 
-.geo-city:hover {
+.geo-chip:hover {
   border-color: #000;
 }
 
-.geo-city.selected {
+.geo-chip.selected {
   background: #000;
   border-color: #000;
   color: #fff;
+}
+
+/* Lista de países */
+.geo-list {
+  max-height: 280px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-y: auto;
+  border: 1px solid #eee;
+}
+
+.geo-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.12s ease;
+}
+
+.geo-list-item:last-child {
+  border-bottom: 0;
+}
+
+.geo-list-item:hover {
+  background: #f5f5f5;
+}
+
+.geo-list-item.selected {
+  background: #f0f0f0;
+}
+
+.geo-list-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  font-size: 14px;
+}
+
+.geo-list-left .fi {
+  font-size: 1.15rem;
+  flex-shrink: 0;
+}
+
+.geo-list-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.geo-count {
+  font-size: 12px;
+  color: #888;
+}
+
+.geo-list-item .fa-check {
+  color: #000;
+  font-size: 13px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .geo-modal-content {
+    margin: 16px;
+    max-width: none;
+  }
+
+  .geo-list {
+    max-height: 240px;
+  }
 }

@@ -53,6 +53,11 @@ private logoMsgTimer: any;
   loadedLogos = new Set<string>();
   failedLogos = new Set<string>();
 
+  // Añadir estas propiedades
+filterResultCount: number | null = null;
+visibleCities: { city: string; country: string }[] = [];
+visibleCountries: string[] = [];
+
 colorGroups = [
   { value: 'red',     label: 'Red',      hex: '#d62839' },
   { value: 'orange',  label: 'Orange',   hex: '#f28c28' },
@@ -295,9 +300,12 @@ get selectedWallpaperInfo() {
     this.countries = Array.from(countrySet).sort();
   }
 
-  openCountryModal(): void {
-    this.isCountryModalOpen = true;
-  }
+openCountryModal(): void {
+  this.countrySearch = '';
+  this.updateGeoLists();
+  this.updateFilterResultCount();
+  this.isCountryModalOpen = true;
+}
 
   closeCountryModal(): void {
     this.isCountryModalOpen = false;
@@ -312,27 +320,30 @@ toggleCountry(country: string): void {
   this.selectedCountries = this.isCountrySelected(country)
     ? this._selectedCountries.filter(c => c !== country)
     : [...this._selectedCountries, country];
+  this.updateFilterResultCount();
 }
 
 removeCountry(country: string): void {
   this.selectedCountries = this._selectedCountries.filter(c => c !== country);
 }
 
-  selectCity(city: { city: string; country: string }): void {
-    this.selectedCity = this.selectedCity?.city === city.city &&
-      this.selectedCity?.country === city.country ? null : city;
-    this.selectedCountries = [];
-    this.isCountryModalOpen = false;
-  }
+selectCity(city: { city: string; country: string }): void {
+  this.selectedCity = this.selectedCity?.city === city.city &&
+    this.selectedCity?.country === city.country ? null : city;
+  this.selectedCountries = [];
+  this.updateFilterResultCount();
+  this.isCountryModalOpen = false;
+}
 
   isCitySelected(city: { city: string; country: string }): boolean {
     return this.selectedCity?.city === city.city &&
       this.selectedCity?.country === city.country;
   }
 
-  clearCountryFilterModal(): void {
-    this.countrySearch = '';
-  }
+clearCountryFilterModal(): void {
+  this.countrySearch = '';
+  this.updateGeoLists();
+}
 
 clearCountryFilter(): void {
   this.selectedCountries = [];
@@ -2539,6 +2550,31 @@ private removeUniformBackground(
 
 get anyModalOpen(): boolean {
   return !!(this.selectedClub || this.selectedImage || this.isCountryModalOpen || this.isWallpaperModalOpen);
+}
+
+// Nuevo método
+private updateGeoLists(): void {
+  const q = this.countrySearch.trim().toLowerCase();
+
+  this.visibleCities = q
+    ? this.featuredCities.filter(c =>
+        c.city.toLowerCase().includes(q) || c.country.toLowerCase().includes(q)
+      )
+    : [...this.featuredCities];
+
+  this.visibleCountries = q
+    ? this.countries.filter(c => c.toLowerCase().includes(q))
+    : [...this.countries];
+}
+
+// Nuevo método
+private updateFilterResultCount(): void {
+  // Solo se calcula al abrir o al cambiar filtros dentro del modal
+  this.filterResultCount = this.allFilteredClubs.length;
+}
+
+onCountrySearchChange(): void {
+  this.updateGeoLists();
 }
 
 }
