@@ -1,8 +1,32 @@
 [
+    {
+    "club_name": "Ardas Kastanies",
+    "club_logo": "",
+    "city_country": "Kastanies, Greece",
+    "wiki_url": ""
+  },
+    {
+    "club_name": "A.E. Thraki",
+    "club_logo": "",
+    "city_country": "Koutso, Greece",
+    "wiki_url": ""
+  },
   {
-    "club_name": "FC Lokomotiv Vitebsk (Defunct)",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d1/FK_Lokomotiv_Vitebsk_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
-    "city_country": "Vitebsk, Belarus",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Lokomotiv_Vitebsk_(1986)"
+    "club_name": "Megas Aetos Orfano",
+    "club_logo": "",
+    "city_country": "Ofrynio, Greece",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "PAO Pontioi Nea Amisos",
+    "club_logo": "",
+    "city_country": "Nea Amisos, Greece",
+    "wiki_url": ""
+  },
+    {
+    "club_name": "PAOK Kristoni",
+    "club_logo": "",
+    "city_country": "Kristoni, Greece",
+    "wiki_url": ""
   }
 ]
