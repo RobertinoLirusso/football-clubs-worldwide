@@ -19700,7 +19700,7 @@
   },
   {
     "club_name": "VfR Mannheim",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/VfR_Mannheim.png/250px-VfR_Mannheim.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/VfR_Mannheim.svg/250px-VfR_Mannheim.svg.png?utm_source=de.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Mannheim, Germany",
     "wiki_url": "https://en.wikipedia.org/wiki/VfR_Mannheim"
   },
@@ -36141,7 +36141,7 @@
   },
   {
     "club_name": "Sportfreunde Baumberg",
-    "club_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh86WOQ1ZdZ9yDij8umgr8IQ_mLmCRI-z6lw&s",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/5/54/SF_Baumberg.png?utm_source=de.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
     "city_country": "Monheim am Rhein, Germany",
     "wiki_url": "https://de.wikipedia.org/wiki/Sportfreunde_Baumberg"
   },
@@ -37086,5 +37086,119 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d4/Orfeas_Eleftheroupoli_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
     "city_country": "Eleftheroupoli, Greece",
     "wiki_url": "https://en.wikipedia.org/wiki/Orfeas_Eleftheroupoli_F.C."
+  },
+    {
+    "club_name": "CD Anaitasuna",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d8/CD_Anaitasuna.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Azkoitia, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Anaitasuna"
+  },
+  {
+    "club_name": "Atlético Calatayud",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/89/Atl%C3%A9tico_Calatayud.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Calatayud, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Calatayud"
+  },
+  {
+    "club_name": "Atlético Melilla CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/5a/Atl%C3%A9tico_Melilla_CF.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Melilla, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Melilla_CF"
+  },
+  {
+    "club_name": "EMF Atlético Unión Güímar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/4/47/Atl%C3%A9tico_Uni%C3%B3n_G%C3%BC%C3%ADmar.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Güímar, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/EMF_Atl%C3%A9tico_Uni%C3%B3n_G%C3%BC%C3%ADmar"
+  },
+  {
+    "club_name": "Auriense CA",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d9/Auriense_CA.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Ourense, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Auriense_CA"
+  },
+  {
+    "club_name": "CD Baztán",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/27/CD_Bazt%C3%A1n_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Cirauqui, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Bazt%C3%A1n"
+  },
+  {
+    "club_name": "CD Ceuta 6 de Junio",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/a/a5/CD_Ceuta_6_de_Junio.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Ceuta, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Ceuta_6_de_Junio"
+  },
+  {
+    "club_name": "UB Lebrijana",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/37/UB_Lebrijana_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Lebrija, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UB_Lebrijana"
+  },
+  {
+    "club_name": "UD Maracena",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/60/UD_Maracena.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Maracena, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Maracena"
+  },
+  {
+    "club_name": "UD Pinatar",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/71/UD_Pinatar.svg/250px-UD_Pinatar.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "city_country": "San Pedro del Pinatar, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/UD_Pinatar"
+  },
+  {
+    "club_name": "AE Prat",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/f/f3/AE_Prat.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "El Prat de Llobregat, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/AE_Prat"
+  },
+  {
+    "club_name": "Ribadesella CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/e/e0/Ribadesella_CF.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Ribadesella, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ribadesella_CF"
+  },
+  {
+    "club_name": "CD San José",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/30/CD_San_Jos%C3%A9.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Soria, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_San_Jos%C3%A9"
+  },
+  {
+    "club_name": "CF Sant Rafel",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/86/CF_Sant_Rafel.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Sant Rafel de sa Creu, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CF_Sant_Rafel"
+  },
+  {
+    "club_name": "Sporting de Alcázar CF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/b/bb/Sporting_de_Alc%C3%A1zar_CF.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Alcázar de San Juan, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sporting_de_Alc%C3%A1zar_CF"
+  },
+  {
+    "club_name": "AD Sporting Hortaleza",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/32/AD_Sporting_Hortaleza.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Madrid, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/AD_Sporting_Hortaleza"
+  },
+  {
+    "club_name": "CP Talayuela",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/22/CP_Talayuela.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Talayuela, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CP_Talayuela"
+  },
+  {
+    "club_name": "CF UE Tavernes de la Valldigna",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/73/CF_UE_Tavernes_de_la_Valldigna.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Tavernes de la Valldigna, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CF_UE_Tavernes_de_la_Valldigna"
+  },
+  {
+    "club_name": "CD Tedeón",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/df/CD_Tede%C3%B3n_EF.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Navarrete, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Tede%C3%B3n"
   }
 ]

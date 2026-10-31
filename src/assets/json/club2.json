@@ -1,32 +1,8 @@
 [
-    {
-    "club_name": "Ardas Kastanies",
-    "club_logo": "",
-    "city_country": "Kastanies, Greece",
-    "wiki_url": ""
-  },
-    {
-    "club_name": "A.E. Thraki",
-    "club_logo": "",
-    "city_country": "Koutso, Greece",
-    "wiki_url": ""
-  },
   {
-    "club_name": "Megas Aetos Orfano",
-    "club_logo": "",
-    "city_country": "Ofrynio, Greece",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "PAO Pontioi Nea Amisos",
-    "club_logo": "",
-    "city_country": "Nea Amisos, Greece",
-    "wiki_url": ""
-  },
-    {
-    "club_name": "PAOK Kristoni",
-    "club_logo": "",
-    "city_country": "Kristoni, Greece",
-    "wiki_url": ""
+    "club_name": "CD Anaitasuna",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/d/d8/CD_Anaitasuna.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Azkoitia, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/CD_Anaitasuna"
   }
 ]
