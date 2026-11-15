@@ -9655,7 +9655,7 @@
   },
   {
     "club_name": "AS Pirae",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/37/AS_Pirae.png/250px-AS_Pirae.png",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/54/A.S._Pirae_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
     "city_country": "Pirae, French Polynesia",
     "wiki_url": "https://en.wikipedia.org/wiki/A.S._Pirae"
   },
@@ -12795,7 +12795,7 @@
     "club_name": "Tahiti United FC",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Tahiti_United_FC.png/250px-Tahiti_United_FC.png",
     "city_country": "Pīraʻe, French Polynesia",
-    "wiki_url": "https://en.wikipedia.org/wiki/Tahiti_United_FChttps://en.wikipedia.org/wiki/Tahiti_United_FC"
+    "wiki_url": "https://en.wikipedia.org/wiki/Tahiti_United_FC"
   },
   {
     "club_name": "Christchurch United FC",
@@ -15823,7 +15823,7 @@
   },
   {
     "club_name": "Jaguares de Córdoba",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Jaguares_de_C%C3%B3rdoba.png/250px-Jaguares_de_C%C3%B3rdoba.png",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/65/Jaguares_de_C%C3%B3rdoba.svg/250px-Jaguares_de_C%C3%B3rdoba.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "city_country": "Montería, Colombia",
     "wiki_url": "https://en.wikipedia.org/wiki/Jaguares_de_C%C3%B3rdoba"
   },
@@ -37440,5 +37440,83 @@
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/9f/Bognorregistownfc.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
     "city_country": "Bognor Regis, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Bognor_Regis_Town_F.C."
+  },
+    {
+    "club_name": "AS Jeunes Tahitiens",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/lt/thumb/a/a6/Jeunes_Tahitiens_emblema.png/250px-Jeunes_Tahitiens_emblema.png?utm_source=lt.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "city_country": "Papeete, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Jeunes_Tahitiens"
+  },
+  {
+    "club_name": "AS Pueu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/c/cd/AS_Pueu_emblema.png?utm_source=lt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "city_country": "Taiarapu-Est, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Pueu"
+  },
+  {
+    "club_name": "AS Vénus",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/9/94/A.S._V%C3%A9nus_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Mahina, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._V%C3%A9nus"
+  },
+  {
+    "club_name": "AS Tefana",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/0f/AS_Tefana.svg/250px-AS_Tefana.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "city_country": "Faʼaʼā, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Tefana"
+  },
+  {
+    "club_name": "AS Tamarii Punaruu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/2/28/AS_Tamarii_Punaruu_emblema.png?utm_source=lt.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Punaauia, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Tamarii_Punaruu"
+  },
+  {
+    "club_name": "AS Central Sport",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/0b/AS_Central_Sport.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Papeete, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Central_Sport"
+  },
+  {
+    "club_name": "AS Excelsior Tahiti",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/5/50/AS_Excelsior_Tahiti.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Papeete, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Excelsior"
+  },
+  {
+    "club_name": "AS Arue",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/lt/c/c8/AS_Arue_Tahiti_emblema.png?utm_source=lt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "city_country": "Arue, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Arue"
+  },
+  {
+    "club_name": "AS Taiarapu",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/3/38/AS_Taiarapu.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Taiarapu-Ouest, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Taiarapu"
+  },
+  {
+    "club_name": "AS Mataiea",
+    "club_logo": "https://img.a.transfermarkt.technology/wappen/head/102104.png?lm=1789466081",
+    "city_country": "Teva I Uta, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Mataiea"
+  },
+  {
+    "club_name": "AS Manu-Ura",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/0/01/AS_Manu-Ura_FC_Logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Papeete, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Manu-Ura"
+  },
+  {
+    "club_name": "AS Tiare Tahiti",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/6/66/AS_Tiare_Tahiti.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Afareaitu, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Tiare_Tahiti"
+  },
+  {
+    "club_name": "AS Tamarii Temanava",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Logo_temanava.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "city_country": "Moorea, French Polynesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Temanava"
   }
 ]
