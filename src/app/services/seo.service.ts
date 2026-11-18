@@ -1,14 +1,17 @@
 import { Injectable, Inject } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { DOCUMENT } from '@angular/common';
+import { Router } from '@angular/router';
 
 export interface SeoData {
   title?: string;
   description?: string;
   keywords?: string;
   image?: string;
+  imageAlt?: string;
   url?: string;
   type?: 'website' | 'article';
+  robots?: string;
   author?: string;
   published?: string;
   modified?: string;
@@ -19,21 +22,22 @@ export interface SeoData {
 })
 export class SeoService {
 
-  private defaultTitle =
-    'Football Clubs Worldwide - Discover Football Teams Around the Globe';
+  private readonly defaultTitle =
+    'World Football Directory | Football Clubs Worldwide';
 
-  private defaultDescription =
-    'Explore thousands of football clubs from around the world. Find information about teams, stadiums, national teams, and interactive maps of football worldwide.';
+  private readonly defaultDescription =
+    'Explore football clubs, stadiums, national teams, and interactive maps in a global football database.';
 
-  private defaultKeywords =
+  private readonly defaultKeywords =
     'football, soccer, clubs, teams, stadiums, national teams, world football, leagues';
 
-  private baseUrl = 'https://football-clubs-worldwide.vercel.app';
+  private readonly baseUrl = 'https://football-clubs-worldwide.vercel.app';
 
   constructor(
     private meta: Meta,
     private title: Title,
-    @Inject(DOCUMENT) private document: Document
+    @Inject(DOCUMENT) private document: Document,
+    private router: Router
   ) {}
 
   /* ===========================
@@ -41,6 +45,13 @@ export class SeoService {
   ============================ */
 
   updateSeo(data: SeoData) {
+    const pageUrl = this.resolvePageUrl(data.url);
+    const ogImage = this.resolveAssetUrl(
+      data.image || `${this.baseUrl}/assets/images/og-image.jpg`
+    );
+    const twitterImage = this.resolveAssetUrl(
+      data.image || `${this.baseUrl}/assets/images/twitter-image.jpg`
+    );
     const title =
       data.title ? `${data.title} | Football Clubs Worldwide` : this.defaultTitle;
 
@@ -48,21 +59,27 @@ export class SeoService {
 
     const description = data.description || this.defaultDescription;
     const keywords = data.keywords || this.defaultKeywords;
+    const imageAlt =
+      data.imageAlt || 'Football clubs and national teams from around the world';
+
+    this.removeStructuredData();
+    this.meta.removeTag("property='article:author'");
+    this.meta.removeTag("property='article:published_time'");
+    this.meta.removeTag("property='article:modified_time'");
 
     this.meta.updateTag({ name: 'description', content: description });
     this.meta.updateTag({ name: 'keywords', content: keywords });
+    this.meta.updateTag({
+      name: 'robots',
+      content: data.robots || 'index, follow'
+    });
 
     /* Open Graph */
     this.meta.updateTag({ property: 'og:title', content: title });
     this.meta.updateTag({ property: 'og:description', content: description });
-    this.meta.updateTag({
-      property: 'og:image',
-      content: data.image || `${this.baseUrl}/assets/images/og-image.jpg`
-    });
-    this.meta.updateTag({
-      property: 'og:url',
-      content: data.url || this.baseUrl
-    });
+    this.meta.updateTag({ property: 'og:image', content: ogImage });
+    this.meta.updateTag({ property: 'og:image:alt', content: imageAlt });
+    this.meta.updateTag({ property: 'og:url', content: pageUrl });
     this.meta.updateTag({
       property: 'og:type',
       content: data.type || 'website'
@@ -71,22 +88,15 @@ export class SeoService {
       property: 'og:site_name',
       content: 'Football Clubs Worldwide'
     });
+    this.meta.updateTag({ property: 'og:locale', content: 'en_US' });
 
     /* Twitter */
     this.meta.updateTag({ name: 'twitter:card', content: 'summary_large_image' });
     this.meta.updateTag({ name: 'twitter:title', content: title });
-    this.meta.updateTag({
-      name: 'twitter:description',
-      content: description
-    });
-    this.meta.updateTag({
-      name: 'twitter:image',
-      content: data.image || `${this.baseUrl}/assets/images/twitter-image.jpg`
-    });
-    this.meta.updateTag({
-      name: 'twitter:url',
-      content: data.url || this.baseUrl
-    });
+    this.meta.updateTag({ name: 'twitter:description', content: description });
+    this.meta.updateTag({ name: 'twitter:image', content: twitterImage });
+    this.meta.updateTag({ name: 'twitter:image:alt', content: imageAlt });
+    this.meta.updateTag({ name: 'twitter:url', content: pageUrl });
 
     /* Article */
     if (data.type === 'article') {
@@ -110,7 +120,19 @@ export class SeoService {
       }
     }
 
-    this.setCanonicalUrl(data.url || this.baseUrl);
+    this.setCanonicalUrl(pageUrl);
+  }
+
+  private resolvePageUrl(url?: string): string {
+    const resolved = new URL(url || this.router.url || '/', `${this.baseUrl}/`);
+    resolved.search = '';
+    resolved.hash = '';
+    resolved.pathname = resolved.pathname.replace(/\/+$/, '') || '/';
+    return resolved.toString().replace(/\/$/, '') || this.baseUrl;
+  }
+
+  private resolveAssetUrl(url: string): string {
+    return new URL(url, `${this.baseUrl}/`).toString();
   }
 
   /* ===========================
@@ -161,9 +183,9 @@ export class SeoService {
 
   setHomePageSeo() {
     this.updateSeo({
-      title: 'Home',
+      title: 'World Football Directory',
       description:
-        'Welcome to Football Clubs Worldwide. Explore football teams, stadiums, and national teams from around the globe with our interactive maps and comprehensive database.',
+        'Explore football clubs, stadiums, national teams, and interactive maps in a global football database. Discover teams and test your football knowledge.',
       keywords:
         'football clubs worldwide, soccer teams, stadiums, national teams, football database, interactive maps',
       url: this.baseUrl,

@@ -150,7 +150,6 @@ export class NationalTeamsComponent implements OnInit {
     };
 
     this.seoService.setStructuredData(structuredData);
-    this.seoService.setNationalTeamsPageSeo();
   }
 
   loadNationalTeams(): void {

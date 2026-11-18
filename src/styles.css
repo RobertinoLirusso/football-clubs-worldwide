@@ -3,6 +3,27 @@
   --font-display: "Montserrat", system-ui, sans-serif;
 }
 
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.app-shell > router-outlet + * {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+
+.app-shell > router-outlet + * > :first-child {
+  flex: 1 0 auto;
+}
+
+.app-shell > app-footer {
+  margin-top: auto;
+}
+
 body,
 h1, h2, h3, h4, h5, h6,
 .w3-container,

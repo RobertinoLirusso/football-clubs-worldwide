@@ -33,7 +33,7 @@ export class HangmanComponent implements OnInit {
       this.clubs = data;
     });
     this.seoService.updateSeo({
-      title: 'Football Club Hangman - Minigame',
+      title: 'Football Hangman',
       description:
         'Guess the football club name letter by letter. You have five lives. Hints: city and country.',
       keywords:
@@ -41,7 +41,6 @@ export class HangmanComponent implements OnInit {
       url: 'https://football-clubs-worldwide.vercel.app/hangman',
       type: 'website',
     });
-    this.seoService.setHangmanPageSeo();
   }
 
   get wrongCount(): number {

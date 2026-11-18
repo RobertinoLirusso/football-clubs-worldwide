@@ -153,14 +153,13 @@ export class ChampionsLeagueComponent implements OnInit, OnDestroy {
       this.buildTeams();
     });
     this.setupSeo();
-    this.seoService.setChampionsLeaguePageSeo();
   }
 
   ngOnDestroy(): void { this.clearTimerInterval(); }
 
   private setupSeo(): void {
     this.seoService.updateSeo({
-      title: 'UEFA Champions League 2026-27 Simulator',
+      title: 'Champions League Simulator',
       description: 'Pick your club and simulate the 2026-27 UEFA Champions League — league phase, knockout playoffs and the road to the Metropolitano final!',
       keywords: 'champions league 2026, uefa champions league simulator, football game, soccer simulator',
       url: 'https://football-clubs-worldwide.vercel.app/champions-league',

@@ -203,13 +203,12 @@ export class WorldCupComponent implements OnInit, OnDestroy {
       this.buildTeams();
     });
     this.seoService.updateSeo({
-      title: 'World Cup 2026 Simulator',
+      title: '2026 World Cup Simulator',
       description: 'Choose your national team and simulate the 2026 FIFA World Cup!',
       keywords: 'world cup 2026, football simulator, national teams, soccer game',
       url: 'https://football-clubs-worldwide.vercel.app/world-cup',
       type: 'website',
     });
-    this.seoService.setWorldCupPageSeo();
   }
 
   ngOnDestroy(): void { this.clearTimerInterval(); }

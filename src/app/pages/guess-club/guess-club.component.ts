@@ -56,8 +56,8 @@ export class GuessClubComponent implements OnInit {
 
   private setupSeo(): void {
     this.seoService.updateSeo({
-      title: 'Guess the Football Club - Football Quiz Game',
-      description: 'Test your football knowledge with our interactive quiz game! Guess football clubs from around the world. Challenge yourself and see how many you can get right in a row.',
+      title: 'Guess the Club Quiz',
+      description: 'Test your football knowledge by identifying clubs from around the world. Play the quiz, build a streak, and see how many correct answers you can earn.',
       keywords: 'football quiz, guess the club, football game, soccer quiz, football knowledge test, interactive game',
       url: 'https://football-clubs-worldwide.vercel.app/game',
       type: 'website'

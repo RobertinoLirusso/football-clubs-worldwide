@@ -161,7 +161,7 @@ export class EuropaLeagueComponent implements OnInit, OnDestroy {
 
   private setupSeo(): void {
     this.seoService.updateSeo({
-      title: 'UEFA Europa League 2026-27 Simulator',
+      title: 'Europa League Simulator',
       description: 'Pick your club and simulate the 2026-27 UEFA Europa League — qualifying round, league phase, knockout play-offs and the road to the Frankfurt final!',
       keywords: 'europa league 2026, uefa europa league simulator, football game, soccer simulator',
       url: 'https://football-clubs-worldwide.vercel.app/europa-league',

@@ -30,7 +30,6 @@ import { NgTemplateOutlet } from '@angular/common';
     AppComponent,
     HomeComponent,
     NotfoundComponent,
-    CardComponent,
     HeaderComponent,
     FooterComponent,
     GuessClubComponent,
@@ -52,6 +51,7 @@ import { NgTemplateOutlet } from '@angular/common';
     HttpClientModule,
     FormsModule,
     NgxImageZoomModule,
+    CardComponent,
     NgTemplateOutlet
   ],
   providers: [

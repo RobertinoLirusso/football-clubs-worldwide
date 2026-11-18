@@ -82,7 +82,6 @@ export class GuessCountryComponent implements OnInit, OnDestroy {
       url: 'https://football-clubs-worldwide.vercel.app/guess-country',
       type: 'website',
     });
-    this.seoService.setGuessCountryPageSeo();
   }
 
   ngOnDestroy(): void {
