@@ -18,7 +18,7 @@ export class ThemeService {
 
   constructor() {
     if (this.isBrowser) {
-      let initial: ThemeMode = 'light';
+      let initial: ThemeMode = 'dark';
       try {
         const saved = window.localStorage.getItem(STORAGE_KEY);
         if (saved === 'dark' || saved === 'light') {
