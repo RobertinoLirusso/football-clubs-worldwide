@@ -1,5 +1,6 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, inject } from '@angular/core';
 import { Router } from '@angular/router';
+import { ThemeService } from '../../services/theme.service';
 
 @Component({
   selector: 'app-header',
@@ -7,10 +8,17 @@ import { Router } from '@angular/router';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-    menuOpen = false;
-    gamesOpen = false;
+  private readonly themeService = inject(ThemeService);
+  readonly isDark = this.themeService.isDark;
+
+  menuOpen = false;
+  gamesOpen = false;
 
   constructor(private router: Router) {}
+
+  toggleTheme(): void {
+    this.themeService.toggleTheme();
+  }
 
   isPlayGameActive(): boolean {
     const url = this.router.url;

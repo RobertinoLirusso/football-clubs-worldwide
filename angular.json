@@ -73,6 +73,16 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "host": "0.0.0.0",
+            "port": 3000,
+            "allowedHosts": [
+              ".run.app",
+              ".googleusercontent.com",
+              ".aistudio.google.com",
+              "localhost"
+            ]
+          },
           "configurations": {
             "production": {
               "buildTarget": "clubs-app:build:production"

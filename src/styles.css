@@ -24,12 +24,29 @@
   margin-top: auto;
 }
 
+html,
+body {
+  background-color: #dfe2e8;
+  color: #111;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+html[data-theme='dark'],
+html[data-theme='dark'] body {
+  background-color: #07080b;
+  color: #f1f3f6;
+}
+
 body,
 h1, h2, h3, h4, h5, h6,
 .w3-container,
 .w3-button,
 .w3-btn {
   font-family: var(--font-body);
+}
+
+html[data-theme='dark'] .w3-modal {
+  background-color: rgba(0, 0, 0, 0.78);
 }
 
 button,

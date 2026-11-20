@@ -1,3 +1,14 @@
+.w3-modal-content {
+  background: #fff;
+  color: #111;
+  border: 1px solid #d4d6da;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.25);
+}
+
+.w3-modal-content header {
+  border-bottom: 1px solid #e5e7eb;
+}
+
 .wallpaper-styles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -8,7 +19,7 @@
 .wallpaper-formats {
   display: inline-flex;
   margin: 4px 0 14px;
-  border: 1px solid #777;
+  border: 1px solid #bfc3ca;
 }
 
 .wallpaper-formats button {
@@ -21,8 +32,9 @@
 }
 
 .wallpaper-formats button.active {
-  background: #1a1a1a;
+  background: #000;
   color: #fff;
+  font-weight: 600;
 }
 
 .wallpaper-style-btn {
@@ -36,9 +48,9 @@
   border: 2px solid transparent;
   border-radius: 0;
   background:
-    linear-gradient(#111, #111) padding-box,
-    linear-gradient(160deg, #3a3d42, #1a1a1a) border-box;
-  color: #cfd3d8;
+    linear-gradient(#fafafa, #fafafa) padding-box,
+    linear-gradient(160deg, #dbe4ea, #bfc3ca) border-box;
+  color: #222;
   cursor: pointer;
   transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
@@ -59,8 +71,7 @@
 
 .wallpaper-style-btn:hover {
   transform: translateY(-2px);
-  color: #fff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(80, 90, 110, 0.2);
 }
 
 .wallpaper-style-btn.active {
@@ -68,7 +79,7 @@
     linear-gradient(#000, #000) padding-box,
     linear-gradient(160deg, #dbe4ea, #bfc3ca 40%, #f3f4f6 100%) border-box;
   color: #fff;
-  box-shadow: 0 0 10px rgba(200, 210, 220, 0.5);
+  box-shadow: 0 0 12px rgba(100, 110, 130, 0.35);
 }
 
 .wallpaper-style-desc {
@@ -78,7 +89,8 @@
   margin: 14px 0 0;
   padding: 10px 12px;
   border-left: 3px solid #000;
-  background: rgba(0, 0, 0, 0.05);
+  background: #f5f6f8;
+  color: #333;
   text-align: left;
   font-size: 13px;
 }
@@ -87,4 +99,72 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-size: 12px;
+  color: #000;
+}
+
+/* Modo oscuro */
+:host-context([data-theme='dark']) .w3-modal-content {
+  background: #11141a;
+  color: #f1f3f6;
+  border: 1px solid #343b48;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.65);
+}
+
+:host-context([data-theme='dark']) .w3-modal-content header {
+  border-bottom: 1px solid #242934;
+}
+
+:host-context([data-theme='dark']) .w3-modal-content .w3-btn.w3-black {
+  border: 1px solid #48505e;
+  background-color: #1a1f29 !important;
+  color: #f3f4f6 !important;
+}
+
+:host-context([data-theme='dark']) .w3-modal-content .w3-btn.w3-black:hover {
+  background-color: #f3f4f6 !important;
+  color: #0b0d12 !important;
+}
+
+:host-context([data-theme='dark']) .wallpaper-formats {
+  border: 1px solid #3c4350;
+}
+
+:host-context([data-theme='dark']) .wallpaper-formats button {
+  background: #161a22;
+  color: #d8dde6;
+}
+
+:host-context([data-theme='dark']) .wallpaper-formats button.active {
+  background: #f3f4f6;
+  color: #0b0d12;
+}
+
+:host-context([data-theme='dark']) .wallpaper-style-btn {
+  background:
+    linear-gradient(#141820, #141820) padding-box,
+    linear-gradient(160deg, #3a3d42, #1f242e) border-box;
+  color: #cfd3d8;
+}
+
+:host-context([data-theme='dark']) .wallpaper-style-btn:hover {
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+}
+
+:host-context([data-theme='dark']) .wallpaper-style-btn.active {
+  background:
+    linear-gradient(#0b0d12, #0b0d12) padding-box,
+    linear-gradient(160deg, #dbe4ea, #bfc3ca 40%, #f3f4f6 100%) border-box;
+  color: #fff;
+  box-shadow: 0 0 12px rgba(200, 210, 220, 0.35);
+}
+
+:host-context([data-theme='dark']) .wallpaper-style-desc {
+  border-left: 3px solid #bfc3ca;
+  background: rgba(255, 255, 255, 0.05);
+  color: #d8dde6;
+}
+
+:host-context([data-theme='dark']) .wallpaper-style-desc strong {
+  color: #fff;
 }

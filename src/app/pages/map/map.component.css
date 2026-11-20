@@ -17,12 +17,18 @@
   color: #111;
   background-color: #dfe2e8;
   background-image:
-    /* luz suave arriba */
     radial-gradient(ellipse at 50% -10%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 60%),
-    /* viñeta: bordes laterales y esquinas apenas más oscuros */
     radial-gradient(ellipse at 50% 40%, rgba(255, 255, 255, 0) 55%, rgba(60, 68, 85, 0.16) 100%),
-    /* tono base */
     linear-gradient(180deg, #e9ebef 0%, #d6dae1 100%);
+}
+
+:host-context([data-theme='dark']) .page-bg {
+  color: #f1f3f6;
+  background-color: #07080b;
+  background-image:
+    radial-gradient(ellipse at 50% -10%, rgba(191, 195, 202, 0.11) 0%, rgba(191, 195, 202, 0) 60%),
+    radial-gradient(ellipse at 50% 45%, rgba(255, 255, 255, 0) 55%, rgba(0, 0, 0, 0.55) 100%),
+    linear-gradient(180deg, #0d1015 0%, #050608 100%);
 }
 
 /* Encabezado */
@@ -39,7 +45,14 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   line-height: 1.1;
-  background: linear-gradient(180deg, #000 0%, #3a3d42 55%, #8e97a5 100%);
+  background: linear-gradient(180deg, #2a2d32 0%, #0a0a0a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+:host-context([data-theme='dark']) .map-title {
+  background: linear-gradient(180deg, #ffffff 0%, #d5dce6 55%, #8e97a5 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -54,19 +67,32 @@
   color: #555;
 }
 
+:host-context([data-theme='dark']) .map-subtitle {
+  color: #a7b0bd;
+}
+
 /* Marco del mapa */
 .map-frame {
   position: relative;
   display: flex;
   flex-direction: column;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   border-radius: 0;
   background:
     linear-gradient(#000, #000) padding-box,
     linear-gradient(160deg, #dbe4ea, #bfc3ca 30%, #f3f4f6 60%, #d4d6da 100%) border-box;
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 0.9),
-    0 12px 32px rgba(80, 90, 110, 0.25);
+    0 12px 30px rgba(80, 90, 110, 0.25);
+}
+
+:host-context([data-theme='dark']) .map-frame {
+  background:
+    linear-gradient(#000, #000) padding-box,
+    linear-gradient(160deg, #3c4350, #687385 35%, #2a2f3a 70%, #525a68 100%) border-box;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.06),
+    0 16px 40px rgba(0, 0, 0, 0.65);
 }
 
 /* Barra de herramientas */

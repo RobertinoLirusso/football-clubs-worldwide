@@ -4,17 +4,6 @@
   <span class="brand-text">Football Clubs Worldwide</span>
 </a>
 
-<button type="button"
-        class="menu-toggle"
-        [class.open]="menuOpen"
-        (click)="toggleMenu()"
-        [attr.aria-expanded]="menuOpen"
-        aria-label="Toggle menu">
-  <span class="bar"></span>
-  <span class="bar"></span>
-  <span class="bar"></span>
-</button>
-
     <nav class="main-nav" [class.open]="menuOpen" aria-label="Main" (click)="onNavClick($event)">
       <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link">
         Home
@@ -66,5 +55,29 @@
         </div>
       </div>
     </nav>
+
+    <div class="header-controls">
+      <button type="button"
+              class="theme-toggle"
+              [class.is-dark]="isDark()"
+              (click)="toggleTheme()"
+              [attr.aria-pressed]="isDark()"
+              [attr.aria-label]="isDark() ? 'Switch to light mode' : 'Switch to dark mode'"
+              [title]="isDark() ? 'Switch to light mode' : 'Switch to dark mode'">
+        <i class="fa-solid" [ngClass]="isDark() ? 'fa-sun' : 'fa-moon'" aria-hidden="true"></i>
+        <span class="theme-toggle-text">{{ isDark() ? 'Light' : 'Dark' }}</span>
+      </button>
+
+      <button type="button"
+              class="menu-toggle"
+              [class.open]="menuOpen"
+              (click)="toggleMenu()"
+              [attr.aria-expanded]="menuOpen"
+              aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
   </div>
 </header>

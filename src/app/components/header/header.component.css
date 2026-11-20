@@ -96,6 +96,61 @@
   align-items: stretch;
   align-self: stretch;
   gap: 4px;
+  margin-left: auto;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid #3a3d42;
+  border-radius: 0;
+  background: #0d0f14;
+  color: #e8e8e8;
+  font-family: var(--font-brand);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+.theme-toggle i {
+  font-size: 13px;
+  color: #dbe4ea;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.theme-toggle.is-dark i {
+  color: #f6e27a;
+}
+
+.theme-toggle:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #000;
+}
+
+.theme-toggle:hover i {
+  color: #000;
+  transform: rotate(-15deg);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid #dbe4ea;
+  outline-offset: 2px;
 }
 
 .nav-link {
@@ -261,9 +316,9 @@ letter-spacing: 0.04em;
 
 @media (max-width: 768px) {
   .header-inner {
-    padding: 0 16px;
+    padding: 0 14px;
     min-height: 56px;
-    gap: 12px;
+    gap: 10px;
   }
 
   .brand {
@@ -271,11 +326,13 @@ letter-spacing: 0.04em;
   }
 
   .brand-text {
-  font-size: clamp(0.8rem, 3.9vw, 0.98rem);
-  letter-spacing: 0;
+    font-size: clamp(0.68rem, 3.05vw, 0.94rem);
+    letter-spacing: 0;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  }
+
+  .header-controls {
+    gap: 8px;
   }
 
   .menu-toggle {
@@ -289,6 +346,7 @@ letter-spacing: 0.04em;
     top: 100%;
     left: 0;
     right: 0;
+    margin-left: 0;
     flex-direction: column;
     align-self: auto;
     gap: 0;
@@ -361,12 +419,44 @@ letter-spacing: 0.04em;
   }
 
   .dropdown-menu .nav-link {
-  font-size: 13px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-inner {
+    padding: 0 12px;
+    gap: 8px;
+  }
+
+  .header-controls {
+    gap: 6px;
+  }
+
+  .brand-text {
+    font-size: clamp(0.62rem, 3.1vw, 0.78rem);
+    letter-spacing: -0.01em;
+  }
+
+  .theme-toggle {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+  }
+
+  .theme-toggle-text {
+    display: none;
+  }
+
+  .menu-toggle {
+    width: 38px;
+    height: 36px;
   }
 }
 
 @media (max-width: 360px) {
   .brand-text {
-    letter-spacing: 0.02em;
+    font-size: clamp(0.56rem, 2.95vw, 0.66rem);
+    letter-spacing: -0.015em;
   }
 }

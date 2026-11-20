@@ -45,6 +45,14 @@
 
   gtag('config', 'G-JXB3PWMX0Q');
 </script>
+<script>
+  try {
+    var savedTheme = localStorage.getItem('fcw-theme');
+    document.documentElement.setAttribute('data-theme', savedTheme === 'dark' ? 'dark' : 'light');
+  } catch (e) {
+    document.documentElement.setAttribute('data-theme', 'light');
+  }
+</script>
 <body>
   <app-root></app-root>
 </body>
