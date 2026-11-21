@@ -1,40 +1,21 @@
 /* ═══════════════════════════════════════
    Logo Shuffle — styles
-   Palette: black / white / amber
+   Palette: black / silver / green
    ═══════════════════════════════════════ */
 
    :host {
-    --accent:    #f5a623;
-    --surface:   #0e0e0e;
-    --surface-2: #1a1a1a;
-    --border:    rgba(255,255,255,0.13);
-    --correct:   #27ae60;
-    --radius:    14px;
+    --accent: var(--game-accent);
+    --surface: var(--game-surface);
+    --surface-2: var(--game-surface-raised);
+    --border: var(--game-border);
+    --correct: var(--game-success);
+    --radius: 16px;
   
     /* board piece size — overridden per difficulty via JS vars */
     --piece-size: 100px;
   }
   
   /* ─── Layout ─────────────────────────── */
-  
-  .ls-container {
-    display: flex;
-    flex-direction: column;
-    background: #000;
-    color: #fff;
-  }
-  
-  .ls-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px 16px 40px;
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-  }
   
   .ls-center {
     flex: 1;
@@ -47,18 +28,8 @@
   /* ─── Card shell ─────────────────────── */
   
   .ls-card {
-    background: var(--surface) !important;
-    border: 1px solid var(--border);
     width: 100%;
     max-width: 520px;
-  }
-  
-  /* ─── Home screen ────────────────────── */
-  
-  .ls-home-icon {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 8px;
   }
   
   .ls-diff-grid {
@@ -73,10 +44,10 @@
     align-items: center;
     gap: 14px;
     padding: 16px 20px;
-    border-radius: 12px !important;
-    border: 2px solid var(--border) !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--border) !important;
     background: var(--surface-2) !important;
-    color: #fff !important;
+    color: var(--game-text) !important;
     text-align: left;
     cursor: pointer;
     transition: border-color 0.2s, background 0.2s, transform 0.15s;
@@ -86,9 +57,9 @@
     transform: translateX(4px);
   }
   
-  .ls-diff-btn.easy:hover   { border-color: #27ae60 !important; background: rgba(39,174,96,0.1) !important; }
-  .ls-diff-btn.medium:hover { border-color: var(--accent) !important; background: rgba(245,166,35,0.1) !important; }
-  .ls-diff-btn.hard:hover   { border-color: #e74c3c !important; background: rgba(231,76,60,0.1) !important; }
+  .ls-diff-btn.easy:hover   { border-color: var(--game-success) !important; background: rgba(var(--game-success-rgb), 0.1) !important; }
+  .ls-diff-btn.medium:hover { border-color: var(--accent) !important; background: rgba(var(--game-accent-rgb), 0.1) !important; }
+  .ls-diff-btn.hard:hover   { border-color: var(--game-danger) !important; background: rgba(var(--game-danger-rgb), 0.1) !important; }
   
   .ls-diff-icon { font-size: 1.4rem; flex-shrink: 0; }
   
@@ -100,7 +71,7 @@
   
   .ls-diff-sub {
     font-size: 0.78rem;
-    color: rgba(255,255,255,0.5);
+    color: var(--game-muted);
   }
   
   /* ─── HUD ────────────────────────────── */
@@ -156,7 +127,8 @@
     margin-left: auto;
     background: transparent !important;
     border: 1px solid var(--border) !important;
-    color: rgba(255,255,255,0.5) !important;
+    border-radius: 10px !important;
+    color: var(--game-muted) !important;
     font-size: 0.82rem;
     padding: 6px 14px;
     cursor: pointer;
@@ -164,8 +136,8 @@
   }
   
   .ls-btn-quit:hover {
-    border-color: #e74c3c !important;
-    color: #e74c3c !important;
+    border-color: var(--game-accent) !important;
+    color: var(--game-text) !important;
   }
   
   /* ─── Play area ──────────────────────── */
@@ -287,7 +259,7 @@
   
   .ls-result-card {
     border-color: var(--accent) !important;
-    box-shadow: 0 0 50px rgba(245,166,35,0.18);
+    box-shadow: 0 8px 24px rgba(var(--game-accent-rgb), 0.15);
     text-align: center;
   }
   
@@ -360,20 +332,22 @@
   }
   
   .ls-btn-action {
-    background: #000 !important;
-    color: #fff !important;
-    border: 2px solid #fff !important;
+    background: var(--game-button-bg) !important;
+    color: var(--game-button-text) !important;
+    border: 1px solid var(--game-button-bg) !important;
+    border-radius: 10px !important;
+    min-height: 44px;
     padding: 10px 22px;
     font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
-    transition: background 0.2s, color 0.2s, transform 0.15s;
+    transition: background-color 0.2s, border-color 0.2s, transform 0.2s;
   }
   
   .ls-btn-action:hover {
-    background: #fff !important;
-    color: #000 !important;
-    transform: scale(1.04);
+    background: var(--game-button-hover-bg) !important;
+    border-color: var(--game-button-hover-bg) !important;
+    transform: translateY(-1px);
   }
   
   .accent { color: var(--accent); }

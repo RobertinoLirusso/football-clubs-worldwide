@@ -1,6 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --font-body: "Inter", system-ui, sans-serif;
   --font-display: "Montserrat", system-ui, sans-serif;
+  --font-brand: "Montserrat", system-ui, sans-serif;
+  --page-background: #dfe2e8;
+  --page-foreground: #111;
+  --game-background: #07080b;
+  --game-surface: #0d1015;
+  --game-surface-raised: #141820;
+  --game-border: #3c4350;
+  --game-text: #f3f4f6;
+  --game-muted: #a7b0bd;
+  --game-accent: #bfc3ca;
+  --game-accent-rgb: 191, 195, 202;
+  --game-success: #27ae60;
+  --game-success-rgb: 39, 174, 96;
+  --game-danger: #e74c3c;
+  --game-danger-rgb: 231, 76, 60;
+  --game-button-bg: #f3f4f6;
+  --game-button-text: #0b0d12;
+  --game-button-hover-bg: #dfe2e8;
+}
+
+html[data-theme='dark'] {
+  --page-background: #07080b;
+  --page-foreground: #f1f3f6;
+}
+
+@layer components {
+  .tw-container {
+    @apply w-full px-4;
+  }
+
+  .tw-card {
+    @apply rounded-xl border border-silver-400/40 shadow-silver-sm;
+  }
+
+  .tw-card-2 {
+    @apply rounded-xl border border-silver-400/40 shadow-silver-md;
+  }
+
+  .tw-button {
+    @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-transparent px-4 py-2 font-medium transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-silver-500 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .tw-input {
+    @apply block w-full rounded-lg border border-silver-300 bg-white px-3 py-2 text-slate-950 placeholder:text-slate-500 transition focus:border-silver-500 focus:outline-none focus:ring-2 focus:ring-silver-400/40;
+  }
+
+  .tw-modal {
+    @apply fixed inset-0 z-[1000] overflow-y-auto bg-black/75 p-4;
+  }
+
+  .tw-modal-content {
+    @apply relative mx-auto w-full max-w-3xl rounded-2xl;
+  }
+
+  .tw-table {
+    @apply w-full border-collapse text-left;
+  }
+
+  .game-page {
+    @apply flex min-h-full flex-col;
+    background: var(--game-background);
+    color: var(--game-text);
+  }
+
+  .game-content {
+    @apply mx-auto flex w-full max-w-5xl flex-1 flex-col items-center gap-6 px-4 py-6 sm:px-6 sm:py-10;
+  }
+
+  .game-panel {
+    @apply w-full rounded-2xl border p-6;
+    border-color: var(--game-border);
+    background: var(--game-surface);
+    color: var(--game-text);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  }
+
+  .game-panel-compact {
+    @apply max-w-[520px];
+  }
+
+  .game-panel-wide {
+    @apply max-w-[760px];
+  }
+
+  .game-content.game-panel {
+    @apply my-auto flex-none p-6;
+    width: calc(100% - 2rem);
+  }
+
+  @media (max-width: 480px) {
+    .game-content.game-panel.game-panel-wide {
+      width: calc(100% - 1rem);
+      padding: 1rem;
+    }
+  }
+
+  .game-title {
+    @apply m-0 font-display text-[clamp(1.5rem,3vw,2rem)] font-semibold leading-tight tracking-tight;
+    color: var(--game-text);
+  }
+
+  .game-home-icon {
+    @apply mx-auto mb-4 grid h-12 w-12 place-items-center rounded-xl border text-xl;
+    border-color: var(--game-border);
+    background: var(--game-surface-raised);
+    color: var(--game-accent);
+  }
+
+  .game-button-primary {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border px-5 py-2.5 font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-silver-500 disabled:cursor-not-allowed disabled:opacity-50;
+    border-color: var(--game-button-bg);
+    background: var(--game-button-bg);
+    color: var(--game-button-text);
+  }
+
+  .game-button-primary:hover:not(:disabled) {
+    border-color: var(--game-button-hover-bg);
+    background: var(--game-button-hover-bg);
+  }
+
+  .game-button-secondary {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border px-5 py-2.5 font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-silver-500 disabled:cursor-not-allowed disabled:opacity-50;
+    border-color: var(--game-border);
+    background: transparent;
+    color: var(--game-text);
+  }
+
+  .game-button-secondary:hover:not(:disabled) {
+    background: var(--game-surface-raised);
+  }
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background: var(--page-background);
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--page-background);
+    color: var(--page-foreground);
+    font-family: var(--font-body);
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-body);
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+
+  button {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  ::selection {
+    background: #bfc3ca;
+    color: #111;
+  }
+
+  :focus-visible {
+    outline: 2px solid #6b7078;
+    outline-offset: 3px;
+  }
 }
 
 .app-shell {
@@ -26,34 +211,7 @@
 
 html,
 body {
-  background-color: #dfe2e8;
-  color: #111;
-  transition: background-color 0.25s ease, color 0.25s ease;
-}
-
-html[data-theme='dark'],
-html[data-theme='dark'] body {
-  background-color: #07080b;
-  color: #f1f3f6;
-}
-
-body,
-h1, h2, h3, h4, h5, h6,
-.w3-container,
-.w3-button,
-.w3-btn {
-  font-family: var(--font-body);
-}
-
-html[data-theme='dark'] .w3-modal {
-  background-color: rgba(0, 0, 0, 0.78);
-}
-
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
+  min-height: 100%;
 }
 
 #stadium-map {

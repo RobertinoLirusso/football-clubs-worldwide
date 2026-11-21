@@ -1,4 +1,4 @@
-<div class="w3-container w3-center w3-margin">
+<div class="tw-container text-center my-4">
 
   <!-- Contador -->
   <div class="clubs-counter">
@@ -73,7 +73,7 @@
 </div>
 
 <!-- Países -->
-<section class="filter-section w3-margin">
+<section class="filter-section my-4">
   <div class="filter-head">
     <span class="filter-label">
       Countries<span *ngIf="selectedCountries.length"> · {{ selectedCountries.length }}</span>
@@ -115,7 +115,7 @@
 </section>
 
 <!-- Filtros rápidos -->
-<div class="quick-filters w3-margin" role="group" aria-label="Quick filters">
+<div class="quick-filters my-4" role="group" aria-label="Quick filters">
   <button type="button"
           class="chip chip-fav"
           [class.active]="showFavoritesOnly"
@@ -173,7 +173,7 @@
 </div>
 
 <!-- Filtros activos + orden + vista -->
-<div class="results-bar w3-margin">
+<div class="results-bar my-4">
   <div class="active-filters">
     <span class="results-count" *ngIf="hasActiveFilters">{{ allFilteredClubs.length }} clubs</span>
 
@@ -234,13 +234,13 @@
   </div>
 </div>
 
-<div *ngIf="allFilteredClubs.length === 0" class="w3-container w3-center no-results">
+<div *ngIf="allFilteredClubs.length === 0" class="tw-container text-center no-results">
   <p>No clubs found</p>
 </div>
 
 <!-- Modal Países (simplificado) -->
-<div *ngIf="isCountryModalOpen" class="w3-modal geo-modal" (click)="closeCountryModal()">
-  <div class="w3-modal-content geo-modal-content" (click)="$event.stopPropagation()">
+<div *ngIf="isCountryModalOpen" class="tw-modal geo-modal" (click)="closeCountryModal()">
+  <div class="tw-modal-content geo-modal-content" (click)="$event.stopPropagation()">
 
     <header class="geo-header">
       <button type="button"
@@ -314,12 +314,12 @@
 
 <!-- Grid de Cards -->
 <div #gridTop
-     class="responsive-grid w3-padding-16"
+     class="responsive-grid py-4"
      [class.slide-next]="slideDir === 'next'"
      [class.slide-prev]="slideDir === 'prev'"
      (touchstart)="onTouchStart($event)"
      (touchend)="onTouchEnd($event)">
-  <div class="w3-card-2 w3-hover-shadow card"
+  <div class="tw-card-2 transition-shadow hover:shadow-lg card"
        *ngFor="let club of displayedClubs; let i = index; trackBy: trackByClub"
        draggable="true"
        (click)="openModal(pageStart + i)"
@@ -347,7 +347,7 @@
     <div class="logo-wrap" [class.failed]="failedLogos.has(club.club_name)">
       <img [src]="club.club_logo"
            [alt]="club.club_name"
-           class="w3-image img w3-hover-opacity-off"
+           class="block h-auto max-w-full img transition-opacity hover:opacity-80"
            [class.loaded]="loadedLogos.has(club.club_name)"
            [class.failed]="failedLogos.has(club.club_name)"
            (load)="onLogoLoad(club)"
@@ -376,7 +376,7 @@
 
     <span class="shine" *ngIf="isLegend(club)"></span>
 
-    <footer class="w3-container w3-center">
+    <footer class="tw-container text-center">
       <p>{{ displayName(club) }}</p>
       <span class="defunct-label" *ngIf="isDefunct(club)">
         <i class="fa fa-hourglass-end"></i> Defunct
@@ -407,15 +407,15 @@
 </nav>
 
 <!-- Load More -->
-<div class="w3-center w3-padding" *ngIf="hasMore && (!searchTerm || selectedCountries.length || selectedCity)">
-  <button (click)="loadMore()" class="w3-btn w3-black w3-margin-top title-game">
+<div class="text-center p-4" *ngIf="hasMore && (!searchTerm || selectedCountries.length || selectedCity)">
+  <button (click)="loadMore()" class="tw-button bg-black text-white mt-4 title-game">
     Load More
   </button>
 </div>
 
 <!-- Modal Zoom Imagen -->
-<div *ngIf="selectedImage" id="zoomModal" class="w3-modal" style="display:block;" (click)="closeImageModal()">
-  <div class="w3-modal-content w3-animate-zoom zoom-modal"
+<div *ngIf="selectedImage" id="zoomModal" class="tw-modal" style="display:block;" (click)="closeImageModal()">
+  <div class="tw-modal-content motion-safe:animate-scale-in zoom-modal"
        role="dialog"
        aria-modal="true"
        [attr.aria-label]="zoomedClub ? displayName(zoomedClub) : 'Logo'"
@@ -453,8 +453,8 @@
 </div>
 
 <!-- Modal Club -->
-<div *ngIf="selectedClub" id="clubModal" class="w3-modal" style="display:block;" (click)="closeModal()">
-  <div class="w3-modal-content w3-animate-zoom club-modal"
+<div *ngIf="selectedClub" id="clubModal" class="tw-modal" style="display:block;" (click)="closeModal()">
+  <div class="tw-modal-content motion-safe:animate-scale-in club-modal"
        [class.is-legend]="isLegend(selectedClub)"
        [class.is-defunct]="isDefunct(selectedClub)"
        role="dialog"

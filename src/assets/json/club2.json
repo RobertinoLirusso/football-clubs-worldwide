@@ -1,8 +1,3776 @@
 [
   {
-    "club_name": "AS Jeunes Tahitiens",
-    "club_logo": "https://thumb.wikimedia.org/wikipedia/lt/thumb/a/a6/Jeunes_Tahitiens_emblema.png/250px-Jeunes_Tahitiens_emblema.png?utm_source=lt.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "city_country": "Papeete, French Polynesia",
-    "wiki_url": "https://en.wikipedia.org/wiki/A.S._Jeunes_Tahitiens"
+    "club_name": "Durham W.F.C.",
+    "club_logo": "",
+    "city_country": "Durham, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Durham_W.F.C."
+  },
+  {
+    "club_name": "Coventry United W.F.C.",
+    "club_logo": "",
+    "city_country": "Coventry, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Coventry_United_W.F.C."
+  },
+  {
+    "club_name": "Peamount United W.F.C.",
+    "club_logo": "",
+    "city_country": "Newcastle, Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Peamount_United_F.C."
+  },
+  {
+    "club_name": "Wexford Youths W.F.C.",
+    "club_logo": "",
+    "city_country": "Wexford, Ireland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Galway W.F.C.",
+    "club_logo": "",
+    "city_country": "Galway, Ireland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "1. FFC Turbine Potsdam",
+    "club_logo": "",
+    "city_country": "Potsdam, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/1._FFC_Turbine_Potsdam"
+  },
+  {
+    "club_name": "SGS Essen",
+    "club_logo": "",
+    "city_country": "Essen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SGS_Essen"
+  },
+  {
+    "club_name": "FCR 2001 Duisburg",
+    "club_logo": "",
+    "city_country": "Duisburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FCR_2001_Duisburg"
+  },
+  {
+    "club_name": "Madrid CFF",
+    "club_logo": "",
+    "city_country": "Madrid, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Madrid_CFF"
+  },
+  {
+    "club_name": "Costa Adeje Tenerife",
+    "club_logo": "",
+    "city_country": "Adeje, Spain",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sporting Club Huelva",
+    "club_logo": "",
+    "city_country": "Huelva, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sporting_Club_Huelva"
+  },
+  {
+    "club_name": "FC Rosengård",
+    "club_logo": "",
+    "city_country": "Malmö, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Rosengård"
+  },
+  {
+    "club_name": "Kristianstads DFF",
+    "club_logo": "",
+    "city_country": "Kristianstad, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kristianstads_DFF"
+  },
+  {
+    "club_name": "KIF Örebro DFF",
+    "club_logo": "",
+    "city_country": "Örebro, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/KIF_Örebro_DFF"
+  },
+  {
+    "club_name": "Vittsjö GIK",
+    "club_logo": "",
+    "city_country": "Vittsjö, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vittsjö_GIK"
+  },
+  {
+    "club_name": "Eskilstuna United DFF",
+    "club_logo": "",
+    "city_country": "Eskilstuna, Sweden",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Vålerenga Fotball Damer",
+    "club_logo": "",
+    "city_country": "Oslo, Norway",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Arna-Bjørnar",
+    "club_logo": "",
+    "city_country": "Bergen, Norway",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Zhytlobud-1 Kharkiv",
+    "club_logo": "",
+    "city_country": "Kharkiv, Ukraine",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zhytlobud-1_Kharkiv"
+  },
+  {
+    "club_name": "WFC Rossiyanka",
+    "club_logo": "",
+    "city_country": "Khimki, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/WFC_Rossiyanka"
+  },
+  {
+    "club_name": "Zvezda 2005 Perm",
+    "club_logo": "",
+    "city_country": "Perm, Russia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Zvezda_2005_Perm"
+  },
+  {
+    "club_name": "ALG Spor",
+    "club_logo": "",
+    "city_country": "Gaziantep, Turkey",
+    "wiki_url": "https://en.wikipedia.org/wiki/ALG_Spor"
+  },
+  {
+    "club_name": "Hakkarigücü Spor",
+    "club_logo": "",
+    "city_country": "Hakkari, Turkey",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Dragonas IDV",
+    "club_logo": "",
+    "city_country": "Quito, Ecuador",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "INAC Kobe Leonessa",
+    "club_logo": "",
+    "city_country": "Kobe, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/INAC_Kobe_Leonessa"
+  },
+  {
+    "club_name": "Nippon TV Tokyo Verdy Beleza",
+    "club_logo": "",
+    "city_country": "Tokyo, Japan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nippon_TV_Tokyo_Verdy_Beleza"
+  },
+  {
+    "club_name": "Nojima Stella Kanagawa Sagamihara",
+    "club_logo": "",
+    "city_country": "Sagamihara, Japan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Omiya Ardija Ventus",
+    "club_logo": "",
+    "city_country": "Saitama, Japan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Chifure AS Elfen Saitama",
+    "club_logo": "",
+    "city_country": "Saitama, Japan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Incheon Hyundai Steel Red Angels",
+    "club_logo": "",
+    "city_country": "Incheon, South Korea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Incheon_Hyundai_Steel_Red_Angels"
+  },
+  {
+    "club_name": "Hwacheon KSPO",
+    "club_logo": "",
+    "city_country": "Hwacheon, South Korea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Edo Queens",
+    "club_logo": "",
+    "city_country": "Benin City, Nigeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Bayelsa Queens",
+    "club_logo": "",
+    "city_country": "Yenagoa, Nigeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bayelsa_Queens_F.C."
+  },
+  {
+    "club_name": "Rivers Angels",
+    "club_logo": "",
+    "city_country": "Port Harcourt, Nigeria",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rivers_Angels_F.C."
+  },
+  {
+    "club_name": "Robo Queens",
+    "club_logo": "",
+    "city_country": "Lagos, Nigeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Nasarawa Amazons",
+    "club_logo": "",
+    "city_country": "Lafia, Nigeria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Hasaacas Ladies",
+    "club_logo": "",
+    "city_country": "Sekondi-Takoradi, Ghana",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hasaacas_Ladies_F.C."
+  },
+  {
+    "club_name": "Ampem Darkoa Ladies",
+    "club_logo": "",
+    "city_country": "Techiman, Ghana",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Vihiga Queens",
+    "club_logo": "",
+    "city_country": "Vihiga, Kenya",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Thika Queens",
+    "club_logo": "",
+    "city_country": "Thika, Kenya",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Kenya Police FC",
+    "club_logo": "",
+    "city_country": "Nairobi, Kenya",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kenya_Police_F.C."
+  },
+  {
+    "club_name": "AFC Leopards",
+    "club_logo": "",
+    "city_country": "Nairobi, Kenya",
+    "wiki_url": "https://en.wikipedia.org/wiki/AFC_Leopards"
+  },
+  {
+    "club_name": "Bandari FC",
+    "club_logo": "",
+    "city_country": "Mombasa, Kenya",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bandari_F.C._(Kenya)"
+  },
+  {
+    "club_name": "Kakamega Homeboyz",
+    "club_logo": "",
+    "city_country": "Kakamega, Kenya",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kakamega_Homeboyz_F.C."
+  },
+  {
+    "club_name": "Sofapaka FC",
+    "club_logo": "",
+    "city_country": "Nairobi, Kenya",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sofapaka_F.C."
+  },
+  {
+    "club_name": "Posta Rangers",
+    "club_logo": "",
+    "city_country": "Nairobi, Kenya",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Nairobi City Stars",
+    "club_logo": "",
+    "city_country": "Nairobi, Kenya",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "KCB FC",
+    "club_logo": "",
+    "city_country": "Nairobi, Kenya",
+    "wiki_url": "https://en.wikipedia.org/wiki/KCB_F.C."
+  },
+  {
+    "club_name": "Mathare United",
+    "club_logo": "",
+    "city_country": "Nairobi, Kenya",
+    "wiki_url": "https://en.wikipedia.org/wiki/Mathare_United_F.C."
+  },
+  {
+    "club_name": "Bidco United",
+    "club_logo": "",
+    "city_country": "Thika, Kenya",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Murang'a Seal",
+    "club_logo": "",
+    "city_country": "Murang'a, Kenya",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Azam FC",
+    "club_logo": "",
+    "city_country": "Dar es Salaam, Tanzania",
+    "wiki_url": "https://en.wikipedia.org/wiki/Azam_F.C."
+  },
+  {
+    "club_name": "Singida Black Stars",
+    "club_logo": "",
+    "city_country": "Singida, Tanzania",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Namungo FC",
+    "club_logo": "",
+    "city_country": "Lindi, Tanzania",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tanzania Prisons FC",
+    "club_logo": "",
+    "city_country": "Mbeya, Tanzania",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Kagera Sugar FC",
+    "club_logo": "",
+    "city_country": "Bukoba, Tanzania",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Geita Gold FC",
+    "club_logo": "",
+    "city_country": "Geita, Tanzania",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Dodoma Jiji FC",
+    "club_logo": "",
+    "city_country": "Dodoma, Tanzania",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Mtibwa Sugar FC",
+    "club_logo": "",
+    "city_country": "Morogoro, Tanzania",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Mbeya City FC",
+    "club_logo": "",
+    "city_country": "Mbeya, Tanzania",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "JKT Tanzania",
+    "club_logo": "",
+    "city_country": "Dar es Salaam, Tanzania",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Fountain Gate FC",
+    "club_logo": "",
+    "city_country": "Dodoma, Tanzania",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tabora United",
+    "club_logo": "",
+    "city_country": "Tabora, Tanzania",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Nejmeh SC",
+    "club_logo": "",
+    "city_country": "Beirut, Lebanon",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nejmeh_SC"
+  },
+  {
+    "club_name": "Al Ahed FC",
+    "club_logo": "",
+    "city_country": "Beirut, Lebanon",
+    "wiki_url": "https://en.wikipedia.org/wiki/Al_Ahed_FC"
+  },
+  {
+    "club_name": "Safa SC",
+    "club_logo": "",
+    "city_country": "Beirut, Lebanon",
+    "wiki_url": "https://en.wikipedia.org/wiki/Safa_SC"
+  },
+  {
+    "club_name": "Racing Beirut",
+    "club_logo": "",
+    "city_country": "Beirut, Lebanon",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tadamon Sour SC",
+    "club_logo": "",
+    "city_country": "Tyre, Lebanon",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Bourj FC",
+    "club_logo": "",
+    "city_country": "Beirut, Lebanon",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Akhaa Ahli Aley",
+    "club_logo": "",
+    "city_country": "Aley, Lebanon",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Salam Zgharta FC",
+    "club_logo": "",
+    "city_country": "Zgharta, Lebanon",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sagesse SC",
+    "club_logo": "",
+    "city_country": "Beirut, Lebanon",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Primeiro de Agosto",
+    "club_logo": "",
+    "city_country": "Luanda, Angola",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Primeiro_de_Agosto"
+  },
+  {
+    "club_name": "Sagrada Esperança",
+    "club_logo": "",
+    "city_country": "Dundo, Angola",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Interclube",
+    "club_logo": "",
+    "city_country": "Luanda, Angola",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Recreativo do Libolo",
+    "club_logo": "",
+    "city_country": "Calulo, Angola",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Kabuscorp do Palanca",
+    "club_logo": "",
+    "city_country": "Luanda, Angola",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Recreativo da Caála",
+    "club_logo": "",
+    "city_country": "Caála, Angola",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Bravos do Maquis",
+    "club_logo": "",
+    "city_country": "Luena, Angola",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Académica do Lobito",
+    "club_logo": "",
+    "city_country": "Lobito, Angola",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Desportivo da Huíla",
+    "club_logo": "",
+    "city_country": "Lubango, Angola",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Stade Malien",
+    "club_logo": "",
+    "city_country": "Bamako, Mali",
+    "wiki_url": "https://en.wikipedia.org/wiki/Stade_Malien"
+  },
+  {
+    "club_name": "Djoliba AC",
+    "club_logo": "",
+    "city_country": "Bamako, Mali",
+    "wiki_url": "https://en.wikipedia.org/wiki/Djoliba_AC"
+  },
+  {
+    "club_name": "AS Onze Créateurs",
+    "club_logo": "",
+    "city_country": "Bamako, Mali",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Bakaridjan",
+    "club_logo": "",
+    "city_country": "Bamako, Mali",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Don Bosco FC",
+    "club_logo": "",
+    "city_country": "Pétion-Ville, Haiti",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Capoise",
+    "club_logo": "",
+    "city_country": "Cap-Haïtien, Haiti",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Triomphe Liancourt FC",
+    "club_logo": "",
+    "city_country": "Liancourt, Haiti",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Arcahaie FC",
+    "club_logo": "",
+    "city_country": "Arcahaie, Haiti",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Baltimore SC",
+    "club_logo": "",
+    "city_country": "Saint-Marc, Haiti",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FICA",
+    "club_logo": "",
+    "city_country": "Haiti",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ouanaminthe FC",
+    "club_logo": "",
+    "city_country": "Ouanaminthe, Haiti",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Pinar del Río",
+    "club_logo": "",
+    "city_country": "Pinar del Río, Cuba",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Cienfuegos",
+    "club_logo": "",
+    "city_country": "Cienfuegos, Cuba",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Artemisa FC",
+    "club_logo": "",
+    "city_country": "Artemisa, Cuba",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Camagüey",
+    "club_logo": "",
+    "city_country": "Camagüey, Cuba",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Santiago de Cuba",
+    "club_logo": "",
+    "city_country": "Santiago de Cuba, Cuba",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Holguín",
+    "club_logo": "",
+    "city_country": "Holguín, Cuba",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Ciego de Ávila",
+    "club_logo": "",
+    "city_country": "Ciego de Ávila, Cuba",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Atlético Pantoja",
+    "club_logo": "",
+    "city_country": "Santo Domingo, Dominican Republic",
+    "wiki_url": "https://en.wikipedia.org/wiki/Atlético_Pantoja"
+  },
+  {
+    "club_name": "Moca FC",
+    "club_logo": "",
+    "city_country": "Moca, Dominican Republic",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Jarabacoa FC",
+    "club_logo": "",
+    "city_country": "Jarabacoa, Dominican Republic",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Barcelona Atlético",
+    "club_logo": "",
+    "city_country": "Santo Domingo, Dominican Republic",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Delfines del Este FC",
+    "club_logo": "",
+    "city_country": "La Romana, Dominican Republic",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "O&M FC",
+    "club_logo": "",
+    "city_country": "Santo Domingo, Dominican Republic",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Bayamón FC",
+    "club_logo": "",
+    "city_country": "Bayamón, Puerto Rico",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bayamón_FC"
+  },
+  {
+    "club_name": "Metropolitan FA",
+    "club_logo": "",
+    "city_country": "San Juan, Puerto Rico",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Guaynabo Gol",
+    "club_logo": "",
+    "city_country": "Guaynabo, Puerto Rico",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Vita Club",
+    "club_logo": "",
+    "city_country": "Kinshasa, Democratic Republic of the Congo",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Vita_Club"
+  },
+  {
+    "club_name": "DC Motema Pembe",
+    "club_logo": "",
+    "city_country": "Kinshasa, Democratic Republic of the Congo",
+    "wiki_url": "https://en.wikipedia.org/wiki/DC_Motema_Pembe"
+  },
+  {
+    "club_name": "AS Maniema Union",
+    "club_logo": "",
+    "city_country": "Kindu, Democratic Republic of the Congo",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Saint Éloi Lupopo",
+    "club_logo": "",
+    "city_country": "Lubumbashi, Democratic Republic of the Congo",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Saint_Éloi_Lupopo"
+  },
+  {
+    "club_name": "AS Dauphins Noirs",
+    "club_logo": "",
+    "city_country": "Goma, Democratic Republic of the Congo",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sanga Balende",
+    "club_logo": "",
+    "city_country": "Mbuji-Mayi, Democratic Republic of the Congo",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Renaissance du Congo",
+    "club_logo": "",
+    "city_country": "Kinshasa, Democratic Republic of the Congo",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Adema",
+    "club_logo": "",
+    "city_country": "Antananarivo, Madagascar",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Fosa Juniors",
+    "club_logo": "",
+    "city_country": "Antananarivo, Madagascar",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fosa_Juniors_FC"
+  },
+  {
+    "club_name": "Ajesaia",
+    "club_logo": "",
+    "city_country": "Antananarivo, Madagascar",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CD Plaza Amador",
+    "club_logo": "",
+    "city_country": "Panama City, Panama",
+    "wiki_url": "https://en.wikipedia.org/wiki/C.D._Plaza_Amador"
+  },
+  {
+    "club_name": "Costa del Este FC",
+    "club_logo": "",
+    "city_country": "Panama City, Panama",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Universitario FC",
+    "club_logo": "",
+    "city_country": "Penonomé, Panama",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CAI Horizontes",
+    "club_logo": "",
+    "city_country": "La Chorrera, Panama",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Atlético Independiente",
+    "club_logo": "",
+    "city_country": "La Chorrera, Panama",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Herrera FC",
+    "club_logo": "",
+    "city_country": "Chitré, Panama",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Cape Town City FC",
+    "club_logo": "",
+    "city_country": "Cape Town, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cape_Town_City_F.C._(South_Africa)"
+  },
+  {
+    "club_name": "Royal AM FC",
+    "club_logo": "",
+    "city_country": "Durban, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Royal_AM_F.C."
+  },
+  {
+    "club_name": "Moroka Swallows",
+    "club_logo": "",
+    "city_country": "Johannesburg, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Moroka_Swallows_F.C."
+  },
+  {
+    "club_name": "Free State Stars",
+    "club_logo": "",
+    "city_country": "Bethlehem, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Free_State_Stars_F.C."
+  },
+  {
+    "club_name": "Maritzburg United",
+    "club_logo": "",
+    "city_country": "Pietermaritzburg, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Maritzburg_United_F.C."
+  },
+  {
+    "club_name": "Bloemfontein Celtic",
+    "club_logo": "",
+    "city_country": "Bloemfontein, South Africa",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bloemfontein_Celtic_F.C."
+  },
+  {
+    "club_name": "Platinum Stars",
+    "club_logo": "",
+    "city_country": "Rustenburg, South Africa",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Future FC",
+    "club_logo": "",
+    "city_country": "Cairo, Egypt",
+    "wiki_url": "https://en.wikipedia.org/wiki/Future_FC"
+  },
+  {
+    "club_name": "FUS Rabat",
+    "club_logo": "",
+    "city_country": "Rabat, Morocco",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Aduana Stars",
+    "club_logo": "",
+    "city_country": "Dormaa Ahenkro, Ghana",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aduana_Stars_F.C."
+  },
+  {
+    "club_name": "Africa Sports d'Abidjan",
+    "club_logo": "",
+    "city_country": "Abidjan, Ivory Coast",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SC Gagnoa",
+    "club_logo": "",
+    "city_country": "Gagnoa, Ivory Coast",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Horoya AC",
+    "club_logo": "",
+    "city_country": "Conakry, Guinea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Horoya_AC"
+  },
+  {
+    "club_name": "Hafia FC",
+    "club_logo": "",
+    "city_country": "Conakry, Guinea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Black Bulls",
+    "club_logo": "",
+    "city_country": "Maputo, Mozambique",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ferroviário de Maputo",
+    "club_logo": "",
+    "city_country": "Maputo, Mozambique",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "UD Songo",
+    "club_logo": "",
+    "city_country": "Songo, Mozambique",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "KCCA FC",
+    "club_logo": "",
+    "city_country": "Kampala, Uganda",
+    "wiki_url": "https://en.wikipedia.org/wiki/KCCA_FC"
+  },
+  {
+    "club_name": "URA FC",
+    "club_logo": "",
+    "city_country": "Kampala, Uganda",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Union Douala",
+    "club_logo": "",
+    "city_country": "Douala, Cameroon",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Rail Club du Kadiogo",
+    "club_logo": "",
+    "city_country": "Ouagadougou, Burkina Faso",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Wathba SC",
+    "club_logo": "",
+    "city_country": "Homs, Syria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tishreen SC",
+    "club_logo": "",
+    "city_country": "Latakia, Syria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Karamah SC",
+    "club_logo": "",
+    "city_country": "Homs, Syria",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Hilal Al-Quds Club",
+    "club_logo": "",
+    "city_country": "Jerusalem, Palestine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Shabab Al-Khalil",
+    "club_logo": "",
+    "city_country": "Hebron, Palestine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ahli Al-Khalil",
+    "club_logo": "",
+    "city_country": "Hebron, Palestine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Markaz Balata",
+    "club_logo": "",
+    "city_country": "Balata, Palestine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Thaqafi Tulkarem",
+    "club_logo": "",
+    "city_country": "Tulkarm, Palestine",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Fanja SC",
+    "club_logo": "",
+    "city_country": "Fanja, Oman",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Dhofar Club",
+    "club_logo": "",
+    "city_country": "Salalah, Oman",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Orouba SC",
+    "club_logo": "",
+    "city_country": "Sur, Oman",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Shaab Ibb",
+    "club_logo": "",
+    "city_country": "Ibb, Yemen",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Linköpings FC",
+    "club_logo": "",
+    "city_country": "Linköping, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Linköpings_FC"
+  },
+  {
+    "club_name": "Shabab Al-Sahel FC",
+    "club_logo": "",
+    "city_country": "Beirut, Lebanon",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Cavaly AS",
+    "club_logo": "",
+    "city_country": "Léogâne, Haiti",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Granma",
+    "club_logo": "",
+    "city_country": "Bayamo, Cuba",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Arbroath",
+    "club_logo": "",
+    "city_country": "Arbroath, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Arbroath_F.C."
+  },
+  {
+    "club_name": "Inverness Caledonian Thistle",
+    "club_logo": "",
+    "city_country": "Inverness, Scotland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Inverness_Caledonian_Thistle_F.C."
+  },
+  {
+    "club_name": "Bohemian F.C.",
+    "club_logo": "",
+    "city_country": "Dublin, Ireland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bohemian_F.C."
+  },
+  {
+    "club_name": "Cardiff Metropolitan University",
+    "club_logo": "",
+    "city_country": "Cardiff, Wales",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Guingamp",
+    "club_logo": "",
+    "city_country": "Guingamp, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/En_Avant_Guingamp"
+  },
+  {
+    "club_name": "Troyes",
+    "club_logo": "",
+    "city_country": "Troyes, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/ES_Troyes_AC"
+  },
+  {
+    "club_name": "Caen",
+    "club_logo": "",
+    "city_country": "Caen, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/SM_Caen"
+  },
+  {
+    "club_name": "Niort",
+    "club_logo": "",
+    "city_country": "Niort, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chamois_Niortais_F.C."
+  },
+  {
+    "club_name": "Cholet",
+    "club_logo": "",
+    "city_country": "Cholet, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/SO_Cholet"
+  },
+  {
+    "club_name": "Bourg-en-Bresse",
+    "club_logo": "",
+    "city_country": "Bourg-en-Bresse, France",
+    "wiki_url": "https://en.wikipedia.org/wiki/Football_Bourg-en-Bresse_P%C3%A9ronnas_01"
+  },
+  {
+    "club_name": "Vicenza",
+    "club_logo": "",
+    "city_country": "Vicenza, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/L.R._Vicenza"
+  },
+  {
+    "club_name": "Ascoli",
+    "club_logo": "",
+    "city_country": "Ascoli Piceno, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ascoli_Calcio_1898_F.C."
+  },
+  {
+    "club_name": "Sorrento",
+    "club_logo": "",
+    "city_country": "Sorrento, Italy",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Foggia",
+    "club_logo": "",
+    "city_country": "Foggia, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/Calcio_Foggia_1920"
+  },
+  {
+    "club_name": "Latina",
+    "club_logo": "",
+    "city_country": "Latina, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/U.S._Latina_Calcio"
+  },
+  {
+    "club_name": "Alessandria",
+    "club_logo": "",
+    "city_country": "Alessandria, Italy",
+    "wiki_url": "https://en.wikipedia.org/wiki/U.S._Alessandria_Calcio_1912"
+  },
+  {
+    "club_name": "Siracusa",
+    "club_logo": "",
+    "city_country": "Syracuse, Italy",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Altamura",
+    "club_logo": "",
+    "city_country": "Altamura, Italy",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Clodiense",
+    "club_logo": "",
+    "city_country": "Chioggia, Italy",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SC Cambuur",
+    "club_logo": "",
+    "city_country": "Leeuwarden, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/SC_Cambuur"
+  },
+  {
+    "club_name": "Excelsior Rotterdam",
+    "club_logo": "",
+    "city_country": "Rotterdam, Netherlands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Excelsior_Rotterdam"
+  },
+  {
+    "club_name": "Lokeren-Temse",
+    "club_logo": "",
+    "city_country": "Lokeren, Belgium",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Beveren",
+    "club_logo": "",
+    "city_country": "Beveren, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/K.S.K._Beveren"
+  },
+  {
+    "club_name": "Lierse Kempenzonen",
+    "club_logo": "",
+    "city_country": "Lier, Belgium",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "RWDM",
+    "club_logo": "",
+    "city_country": "Brussels, Belgium",
+    "wiki_url": "https://en.wikipedia.org/wiki/RWDM_Brussels_FC"
+  },
+  {
+    "club_name": "Patro Eisden Maasmechelen",
+    "club_logo": "",
+    "city_country": "Maasmechelen, Belgium",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SC Espinho",
+    "club_logo": "",
+    "city_country": "Espinho, Portugal",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Lusitânia de Lourosa",
+    "club_logo": "",
+    "city_country": "Lourosa, Portugal",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Wil",
+    "club_logo": "",
+    "city_country": "Wil, Switzerland",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Wil"
+  },
+  {
+    "club_name": "Middelfart",
+    "club_logo": "",
+    "city_country": "Middelfart, Denmark",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Åtvidabergs FF",
+    "club_logo": "",
+    "city_country": "Åtvidaberg, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/%C3%85tvidabergs_FF"
+  },
+  {
+    "club_name": "Lyn",
+    "club_logo": "",
+    "city_country": "Oslo, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Lyn_Oslo"
+  },
+  {
+    "club_name": "HIFK",
+    "club_logo": "",
+    "city_country": "Helsinki, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/HIFK_Fotboll"
+  },
+  {
+    "club_name": "PS Kemi",
+    "club_logo": "",
+    "city_country": "Kemi, Finland",
+    "wiki_url": "https://en.wikipedia.org/wiki/PS_Kemi"
+  },
+  {
+    "club_name": "Fram Reykjavík",
+    "club_logo": "",
+    "city_country": "Reykjavik, Iceland",
+    "wiki_url": "https://en.wikipedia.org/wiki/Fram_(sports_club)"
+  },
+  {
+    "club_name": "Þór Akureyri",
+    "club_logo": "",
+    "city_country": "Akureyri, Iceland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Grindavík",
+    "club_logo": "",
+    "city_country": "Grindavík, Iceland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Keflavík",
+    "club_logo": "",
+    "city_country": "Keflavík, Iceland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Leiknir Reykjavík",
+    "club_logo": "",
+    "city_country": "Reykjavik, Iceland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Fjölnir",
+    "club_logo": "",
+    "city_country": "Reykjavik, Iceland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Þróttur Reykjavík",
+    "club_logo": "",
+    "city_country": "Reykjavik, Iceland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Njarðvík",
+    "club_logo": "",
+    "city_country": "Njarðvík, Iceland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Víðir Garður",
+    "club_logo": "",
+    "city_country": "Garður, Iceland",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "HB Tórshavn",
+    "club_logo": "",
+    "city_country": "Tórshavn, Faroe Islands",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "TB Tvøroyri",
+    "club_logo": "",
+    "city_country": "Tvøroyri, Faroe Islands",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "WAPDA FC",
+    "club_logo": "",
+    "city_country": "Lahore, Pakistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/WAPDA_F.C."
+  },
+  {
+    "club_name": "Khan Research Laboratories FC",
+    "club_logo": "",
+    "city_country": "Rawalpindi, Pakistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Khan_Research_Laboratories_F.C."
+  },
+  {
+    "club_name": "K-Electric FC",
+    "club_logo": "",
+    "city_country": "Karachi, Pakistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/K-Electric_F.C."
+  },
+  {
+    "club_name": "Pakistan Army FC",
+    "club_logo": "",
+    "city_country": "Rawalpindi, Pakistan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Pakistan_Army_F.C."
+  },
+  {
+    "club_name": "Pakistan Navy FC",
+    "club_logo": "",
+    "city_country": "Karachi, Pakistan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Pakistan Air Force FC",
+    "club_logo": "",
+    "city_country": "Rawalpindi, Pakistan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SNGPL FC",
+    "club_logo": "",
+    "city_country": "Lahore, Pakistan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sui Southern Gas FC",
+    "club_logo": "",
+    "city_country": "Karachi, Pakistan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Karachi United",
+    "club_logo": "",
+    "city_country": "Karachi, Pakistan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Colombo FC",
+    "club_logo": "",
+    "city_country": "Colombo, Sri Lanka",
+    "wiki_url": "https://en.wikipedia.org/wiki/Colombo_F.C."
+  },
+  {
+    "club_name": "Defenders FC",
+    "club_logo": "",
+    "city_country": "Colombo, Sri Lanka",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Renown SC",
+    "club_logo": "",
+    "city_country": "Colombo, Sri Lanka",
+    "wiki_url": "https://en.wikipedia.org/wiki/Renown_S.C."
+  },
+  {
+    "club_name": "Ratnam SC",
+    "club_logo": "",
+    "city_country": "Colombo, Sri Lanka",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sri Lanka Army SC",
+    "club_logo": "",
+    "city_country": "Colombo, Sri Lanka",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sri Lanka Air Force SC",
+    "club_logo": "",
+    "city_country": "Colombo, Sri Lanka",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Negombo Youth SC",
+    "club_logo": "",
+    "city_country": "Negombo, Sri Lanka",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Kaloum Star",
+    "club_logo": "",
+    "city_country": "Conakry, Guinea",
+    "wiki_url": "https://en.wikipedia.org/wiki/AS_Kaloum_Star"
+  },
+  {
+    "club_name": "Milo FC",
+    "club_logo": "",
+    "city_country": "Kankan, Guinea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Satellite FC",
+    "club_logo": "",
+    "city_country": "Conakry, Guinea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Wakriya AC",
+    "club_logo": "",
+    "city_country": "Conakry, Guinea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CI Kamsar",
+    "club_logo": "",
+    "city_country": "Kamsar, Guinea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Fello Star",
+    "club_logo": "",
+    "city_country": "Labé, Guinea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Jong Holland",
+    "club_logo": "",
+    "city_country": "Willemstad, Curaçao",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SV Centro Dominguito",
+    "club_logo": "",
+    "city_country": "Willemstad, Curaçao",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SV Hubentut Fortuna",
+    "club_logo": "",
+    "city_country": "Willemstad, Curaçao",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SV Undeba",
+    "club_logo": "",
+    "city_country": "Willemstad, Curaçao",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CRKSV Jong Colombia",
+    "club_logo": "",
+    "city_country": "Willemstad, Curaçao",
+    "wiki_url": "https://en.wikipedia.org/wiki/CRKSV_Jong_Colombia"
+  },
+  {
+    "club_name": "SV SUBT",
+    "club_logo": "",
+    "city_country": "Willemstad, Curaçao",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SC Scherpenheuvel",
+    "club_logo": "",
+    "city_country": "Willemstad, Curaçao",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SV Vesta",
+    "club_logo": "",
+    "city_country": "Willemstad, Curaçao",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Big Players FC",
+    "club_logo": "",
+    "city_country": "Castries, Saint Lucia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Northern United All Stars",
+    "club_logo": "",
+    "city_country": "Gros Islet, Saint Lucia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Platinum FC",
+    "club_logo": "",
+    "city_country": "Castries, Saint Lucia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Avenues United",
+    "club_logo": "",
+    "city_country": "Kingstown, Saint Vincent and the Grenadines",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Hope International FC",
+    "club_logo": "",
+    "city_country": "Kingstown, Saint Vincent and the Grenadines",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Camdonia Chelsea",
+    "club_logo": "",
+    "city_country": "Kingstown, Saint Vincent and the Grenadines",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Lupe o le Soaga",
+    "club_logo": "",
+    "city_country": "Apia, Samoa",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Vaivase-tai",
+    "club_logo": "",
+    "city_country": "Apia, Samoa",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Kiwi FC",
+    "club_logo": "",
+    "city_country": "Apia, Samoa",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Lotohaʻapai United",
+    "club_logo": "",
+    "city_country": "Nukuʻalofa, Tonga",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Veitongo FC",
+    "club_logo": "",
+    "city_country": "Nukuʻalofa, Tonga",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tupapa Maraerenga",
+    "club_logo": "",
+    "city_country": "Avarua, Cook Islands",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Nikao Sokattack",
+    "club_logo": "",
+    "city_country": "Avarua, Cook Islands",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Avatiu FC",
+    "club_logo": "",
+    "city_country": "Avarua, Cook Islands",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Titikaveka FC",
+    "club_logo": "",
+    "city_country": "Titikaveka, Cook Islands",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Solomon Warriors",
+    "club_logo": "",
+    "city_country": "Honiara, Solomon Islands",
+    "wiki_url": "https://en.wikipedia.org/wiki/Solomon_Warriors_FC"
+  },
+  {
+    "club_name": "Kossa FC",
+    "club_logo": "",
+    "city_country": "Honiara, Solomon Islands",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Henderson Eels",
+    "club_logo": "",
+    "city_country": "Honiara, Solomon Islands",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Koloale FC",
+    "club_logo": "",
+    "city_country": "Honiara, Solomon Islands",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Hekari United",
+    "club_logo": "",
+    "city_country": "Port Moresby, Papua New Guinea",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hekari_United"
+  },
+  {
+    "club_name": "Lae City Dwellers",
+    "club_logo": "",
+    "city_country": "Lae, Papua New Guinea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Toti City",
+    "club_logo": "",
+    "city_country": "Port Moresby, Papua New Guinea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tafea FC",
+    "club_logo": "",
+    "city_country": "Tanna, Vanuatu",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Erakor Golden Star",
+    "club_logo": "",
+    "city_country": "Port Vila, Vanuatu",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Master 7 FC",
+    "club_logo": "",
+    "city_country": "Vientiane, Laos",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Lao Toyota FC",
+    "club_logo": "",
+    "city_country": "Vientiane, Laos",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Svay Rieng FC",
+    "club_logo": "",
+    "city_country": "Svay Rieng, Cambodia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Svay_Rieng_FC"
+  },
+  {
+    "club_name": "Davao Aguilas",
+    "club_logo": "",
+    "city_country": "Davao City, Philippines",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Loyola Meralco Sparks",
+    "club_logo": "",
+    "city_country": "Quezon City, Philippines",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "United City FC",
+    "club_logo": "",
+    "city_country": "Iloilo City, Philippines",
+    "wiki_url": "https://en.wikipedia.org/wiki/United_City_F.C."
+  },
+  {
+    "club_name": "Mendiola 1991",
+    "club_logo": "",
+    "city_country": "Manila, Philippines",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Albirex Niigata (S)",
+    "club_logo": "",
+    "city_country": "Singapore, Singapore",
+    "wiki_url": "https://en.wikipedia.org/wiki/Albirex_Niigata_(S)"
+  },
+  {
+    "club_name": "MS ABDB",
+    "club_logo": "",
+    "city_country": "Bandar Seri Begawan, Brunei",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Kasuka FC",
+    "club_logo": "",
+    "city_country": "Bandar Seri Begawan, Brunei",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Indera SC",
+    "club_logo": "",
+    "city_country": "Bandar Seri Begawan, Brunei",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tai Po FC",
+    "club_logo": "",
+    "city_country": "Tai Po, Hong Kong",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tai_Po_FC"
+  },
+  {
+    "club_name": "Southern District FC",
+    "club_logo": "",
+    "city_country": "Hong Kong, Hong Kong",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Resources Capital FC",
+    "club_logo": "",
+    "city_country": "Hong Kong, Hong Kong",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "HK Pegasus FC",
+    "club_logo": "",
+    "city_country": "Hong Kong, Hong Kong",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sham Shui Po SA",
+    "club_logo": "",
+    "city_country": "Hong Kong, Hong Kong",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Taipower F.C.",
+    "club_logo": "",
+    "city_country": "Taipei, Taiwan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Hang Yuen FC",
+    "club_logo": "",
+    "city_country": "Taoyuan, Taiwan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tainan City FC",
+    "club_logo": "",
+    "city_country": "Tainan, Taiwan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Suzuka Point Getters",
+    "club_logo": "",
+    "city_country": "Suzuka, Japan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Arterivo Wakayama",
+    "club_logo": "",
+    "city_country": "Wakayama, Japan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Cheongju FC",
+    "club_logo": "",
+    "city_country": "Cheongju, South Korea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Xinjiang Tianshan Leopard",
+    "club_logo": "",
+    "city_country": "Urumqi, China",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Guangxi Pingguo Haliao",
+    "club_logo": "",
+    "city_country": "Nanning, China",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Jiangxi Lushan",
+    "club_logo": "",
+    "city_country": "Jiangxi, China",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Lijiang Jiayunhao",
+    "club_logo": "",
+    "city_country": "Lijiang, China",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Heilongjiang Ice City",
+    "club_logo": "",
+    "city_country": "Harbin, China",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Qingdao Red Lions",
+    "club_logo": "",
+    "city_country": "Qingdao, China",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Churchill Brothers",
+    "club_logo": "",
+    "city_country": "Margao, India",
+    "wiki_url": "https://en.wikipedia.org/wiki/Churchill_Brothers_S.C."
+  },
+  {
+    "club_name": "Dewa United",
+    "club_logo": "",
+    "city_country": "Tangerang, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Persis Solo",
+    "club_logo": "",
+    "city_country": "Surakarta, Indonesia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Persis_Solo"
+  },
+  {
+    "club_name": "Persebaya",
+    "club_logo": "",
+    "city_country": "Surabaya, Indonesia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sri Pahang FC",
+    "club_logo": "",
+    "city_country": "Kuantan, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sri_Pahang_FC"
+  },
+  {
+    "club_name": "Kelantan Darul Naim",
+    "club_logo": "",
+    "city_country": "Kota Bharu, Malaysia",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kelantan_Darul_Naim_F.C."
+  },
+  {
+    "club_name": "Prachuap FC",
+    "club_logo": "",
+    "city_country": "Prachuap Khiri Khan, Thailand",
+    "wiki_url": "https://en.wikipedia.org/wiki/Prachuap_F.C."
+  },
+  {
+    "club_name": "Viettel FC",
+    "club_logo": "",
+    "city_country": "Hanoi, Vietnam",
+    "wiki_url": "https://en.wikipedia.org/wiki/Viettel_FC"
+  },
+  {
+    "club_name": "Becamex Bình Dương",
+    "club_logo": "",
+    "city_country": "Thủ Dầu Một, Vietnam",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Nam Định FC",
+    "club_logo": "",
+    "city_country": "Nam Định, Vietnam",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Đà Nẵng FC",
+    "club_logo": "",
+    "city_country": "Da Nang, Vietnam",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Erchim FC",
+    "club_logo": "",
+    "city_country": "Ulaanbaatar, Mongolia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Khoromkhon FC",
+    "club_logo": "",
+    "city_country": "Ulaanbaatar, Mongolia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ulaanbaatar Titans",
+    "club_logo": "",
+    "city_country": "Ulaanbaatar, Mongolia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ahli Nabatieh",
+    "club_logo": "",
+    "city_country": "Nabatieh, Lebanon",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Ittihad Tripoli",
+    "club_logo": "",
+    "city_country": "Tripoli, Libya",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Nasr Benghazi",
+    "club_logo": "",
+    "city_country": "Benghazi, Libya",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Akhdar SC",
+    "club_logo": "",
+    "city_country": "Al Bayda, Libya",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Madina SC",
+    "club_logo": "",
+    "city_country": "Tripoli, Libya",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Ahli Benghazi",
+    "club_logo": "",
+    "city_country": "Benghazi, Libya",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Kallon",
+    "club_logo": "",
+    "city_country": "Freetown, Sierra Leone",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Bo Rangers",
+    "club_logo": "",
+    "city_country": "Bo, Sierra Leone",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ports Authority FC",
+    "club_logo": "",
+    "city_country": "Freetown, Sierra Leone",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "LISCR FC",
+    "club_logo": "",
+    "city_country": "Monrovia, Liberia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Barrack Young Controllers",
+    "club_logo": "",
+    "city_country": "Monrovia, Liberia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Watanga FC",
+    "club_logo": "",
+    "city_country": "Monrovia, Liberia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Silver Strikers",
+    "club_logo": "",
+    "city_country": "Lilongwe, Malawi",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Mighty Mukuru Wanderers",
+    "club_logo": "",
+    "city_country": "Blantyre, Malawi",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Civo United",
+    "club_logo": "",
+    "city_country": "Lilongwe, Malawi",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Blue Eagles FC",
+    "club_logo": "",
+    "city_country": "Lilongwe, Malawi",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Jwaneng Galaxy",
+    "club_logo": "",
+    "city_country": "Jwaneng, Botswana",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Orapa United",
+    "club_logo": "",
+    "city_country": "Orapa, Botswana",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Police XI",
+    "club_logo": "",
+    "city_country": "Otse, Botswana",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Botswana Defence Force XI",
+    "club_logo": "",
+    "city_country": "Gaborone, Botswana",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Buffles du Borgou",
+    "club_logo": "",
+    "city_country": "Parakou, Benin",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Dragons FC de l'Ouémé",
+    "club_logo": "",
+    "city_country": "Porto-Novo, Benin",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ASPAC",
+    "club_logo": "",
+    "city_country": "Cotonou, Benin",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Mangasport",
+    "club_logo": "",
+    "city_country": "Moanda, Gabon",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC 105 Libreville",
+    "club_logo": "",
+    "city_country": "Libreville, Gabon",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Bitam",
+    "club_logo": "",
+    "city_country": "Bitam, Gabon",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AC Léopards",
+    "club_logo": "",
+    "city_country": "Dolisie, Republic of the Congo",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Diables Noirs",
+    "club_logo": "",
+    "city_country": "Brazzaville, Republic of the Congo",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CARA Brazzaville",
+    "club_logo": "",
+    "city_country": "Brazzaville, Republic of the Congo",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Gazelle FC",
+    "club_logo": "",
+    "city_country": "N'Djamena, Chad",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ACS Ksar",
+    "club_logo": "",
+    "city_country": "Ksar, Mauritania",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Elman FC",
+    "club_logo": "",
+    "city_country": "Mogadishu, Somalia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Heegan SC",
+    "club_logo": "",
+    "city_country": "Mogadishu, Somalia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Malakia FC",
+    "club_logo": "",
+    "city_country": "Juba, South Sudan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Al-Merreikh Juba",
+    "club_logo": "",
+    "city_country": "Juba, South Sudan",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Deportivo Mongomo",
+    "club_logo": "",
+    "city_country": "Mongomo, Equatorial Guinea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Cano Sport Academy",
+    "club_logo": "",
+    "city_country": "Malabo, Equatorial Guinea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Leones Vegetarianos",
+    "club_logo": "",
+    "city_country": "Malabo, Equatorial Guinea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "DFC 8",
+    "club_logo": "",
+    "city_country": "Bangui, Central African Republic",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SCAF Tocages",
+    "club_logo": "",
+    "city_country": "Bangui, Central African Republic",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Volcan Club",
+    "club_logo": "",
+    "city_country": "Moroni, Comoros",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Coin Nord",
+    "club_logo": "",
+    "city_country": "Moroni, Comoros",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Fomboni FC",
+    "club_logo": "",
+    "city_country": "Fomboni, Comoros",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Adulis Club",
+    "club_logo": "",
+    "city_country": "Asmara, Eritrea",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sporting Clube da Praia",
+    "club_logo": "",
+    "city_country": "Praia, Cape Verde",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Académica do Mindelo",
+    "club_logo": "",
+    "city_country": "Mindelo, Cape Verde",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Derby FC",
+    "club_logo": "",
+    "city_country": "Mindelo, Cape Verde",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Batuque FC",
+    "club_logo": "",
+    "city_country": "Mindelo, Cape Verde",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Gambia Armed Forces FC",
+    "club_logo": "",
+    "city_country": "Banjul, Gambia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Gamtel FC",
+    "club_logo": "",
+    "city_country": "Banjul, Gambia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Wallidan FC",
+    "club_logo": "",
+    "city_country": "Banjul, Gambia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Samger FC",
+    "club_logo": "",
+    "city_country": "Banjul, Gambia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Fortune FC",
+    "club_logo": "",
+    "city_country": "Banjul, Gambia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Verdes FC",
+    "club_logo": "",
+    "city_country": "Belize City, Belize",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Belmopan Bandits",
+    "club_logo": "",
+    "city_country": "Belmopan, Belize",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Belize",
+    "club_logo": "",
+    "city_country": "Belize City, Belize",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Bears FC",
+    "club_logo": "",
+    "city_country": "Nassau, Bahamas",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Cavalier FC",
+    "club_logo": "",
+    "city_country": "Nassau, Bahamas",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Western Warriors",
+    "club_logo": "",
+    "city_country": "Nassau, Bahamas",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Real Hope FA",
+    "club_logo": "",
+    "city_country": "Léogâne, Haiti",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Racing FC Aruba",
+    "club_logo": "",
+    "city_country": "Oranjestad, Aruba",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SV Dakota",
+    "club_logo": "",
+    "city_country": "Oranjestad, Aruba",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Atlético Venezuela",
+    "club_logo": "",
+    "city_country": "Caracas, Venezuela",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Atlético FC",
+    "club_logo": "",
+    "city_country": "Cali, Colombia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Internacional de Palmira",
+    "club_logo": "",
+    "city_country": "Palmira, Colombia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Tlaxcala FC",
+    "club_logo": "",
+    "city_country": "Tlaxcala, Mexico",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Central Valley Fuego FC",
+    "club_logo": "",
+    "city_country": "Fresno, United States",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Remo",
+    "club_logo": "",
+    "city_country": "Belém, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Náutico",
+    "club_logo": "",
+    "city_country": "Recife, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sampaio Corrêa",
+    "club_logo": "",
+    "city_country": "São Luís, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Confiança",
+    "club_logo": "",
+    "city_country": "Aracaju, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CRB",
+    "club_logo": "",
+    "city_country": "Maceió, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CSA",
+    "club_logo": "",
+    "city_country": "Maceió, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ABC FC",
+    "club_logo": "",
+    "city_country": "Natal, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "América-RN",
+    "club_logo": "",
+    "city_country": "Natal, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Joinville EC",
+    "club_logo": "",
+    "city_country": "Joinville, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Caxias do Sul",
+    "club_logo": "",
+    "city_country": "Caxias do Sul, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Manaus FC",
+    "club_logo": "",
+    "city_country": "Manaus, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Altos",
+    "club_logo": "",
+    "city_country": "Altos, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Treze FC",
+    "club_logo": "",
+    "city_country": "Campina Grande, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Campinense",
+    "club_logo": "",
+    "city_country": "Campina Grande, Brazil",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Deportivo Riestra",
+    "club_logo": "",
+    "city_country": "Buenos Aires, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Agropecuario",
+    "club_logo": "",
+    "city_country": "Carlos Casares, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "San Martín de San Juan",
+    "club_logo": "",
+    "city_country": "San Juan, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Instituto",
+    "club_logo": "",
+    "city_country": "Córdoba, Argentina",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sud América",
+    "club_logo": "",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Villa Española",
+    "club_logo": "",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Fénix",
+    "club_logo": "",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Wanderers",
+    "club_logo": "",
+    "city_country": "Montevideo, Uruguay",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Nacional Asunción",
+    "club_logo": "",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Recoleta FC",
+    "club_logo": "",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Atlético Colegiales",
+    "club_logo": "",
+    "city_country": "Asunción, Paraguay",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Magallanes",
+    "club_logo": "",
+    "city_country": "Santiago, Chile",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Puerto Montt",
+    "club_logo": "",
+    "city_country": "Puerto Montt, Chile",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Recoleta",
+    "club_logo": "",
+    "city_country": "Santiago, Chile",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ADT",
+    "club_logo": "",
+    "city_country": "Tarma, Peru",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Melgar",
+    "club_logo": "",
+    "city_country": "Arequipa, Peru",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Angostura FC",
+    "club_logo": "",
+    "city_country": "Ciudad Bolívar, Venezuela",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Hermanos Colmenárez",
+    "club_logo": "",
+    "city_country": "Barquisimeto, Venezuela",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Rayo Zuliano",
+    "club_logo": "",
+    "city_country": "Maracaibo, Venezuela",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Platense FC",
+    "club_logo": "",
+    "city_country": "Puerto Cortés, Honduras",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Vida",
+    "club_logo": "",
+    "city_country": "La Ceiba, Honduras",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Honduras Progreso",
+    "club_logo": "",
+    "city_country": "El Progreso, Honduras",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Génesis Comayagua",
+    "club_logo": "",
+    "city_country": "Comayagua, Honduras",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Once Deportivo",
+    "club_logo": "",
+    "city_country": "Ahuachapán, El Salvador",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Jocoro FC",
+    "club_logo": "",
+    "city_country": "Jocoro, El Salvador",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Firpo",
+    "club_logo": "",
+    "city_country": "Usulután, El Salvador",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Municipal",
+    "club_logo": "",
+    "city_country": "Guatemala City, Guatemala",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Xelajú MC",
+    "club_logo": "",
+    "city_country": "Quetzaltenango, Guatemala",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Cobán Imperial",
+    "club_logo": "",
+    "city_country": "Cobán, Guatemala",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Malacateco",
+    "club_logo": "",
+    "city_country": "Malacatán, Guatemala",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Achuapa",
+    "club_logo": "",
+    "city_country": "Achuapa, Guatemala",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Mixco",
+    "club_logo": "",
+    "city_country": "Mixco, Guatemala",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Guastatoya",
+    "club_logo": "",
+    "city_country": "Guastatoya, Guatemala",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Zacapa",
+    "club_logo": "",
+    "city_country": "Zacapa, Guatemala",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Guadalupe FC",
+    "club_logo": "",
+    "city_country": "Guadalupe, Costa Rica",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Diriangén",
+    "club_logo": "",
+    "city_country": "Diriamba, Nicaragua",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Jalapa FC",
+    "club_logo": "",
+    "city_country": "Jalapa, Nicaragua",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sandinista",
+    "club_logo": "",
+    "city_country": "Managua, Nicaragua",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Deportivo Ocotal",
+    "club_logo": "",
+    "city_country": "Ocotal, Nicaragua",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Cherry Valley",
+    "club_logo": "",
+    "city_country": "Port of Spain, Trinidad and Tobago",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Pointe-à-Pitre",
+    "club_logo": "",
+    "city_country": "Pointe-à-Pitre, Guadeloupe",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Franciscain",
+    "club_logo": "",
+    "city_country": "Le François, Martinique",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Club Colonial",
+    "club_logo": "",
+    "city_country": "Fort-de-France, Martinique",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Golden Lion FC",
+    "club_logo": "",
+    "city_country": "Saint-Joseph, Martinique",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Aiglon du Lamentin",
+    "club_logo": "",
+    "city_country": "Le Lamentin, Martinique",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Samaritaine",
+    "club_logo": "",
+    "city_country": "Saint-Pierre, Martinique",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sutherland Sharks",
+    "club_logo": "",
+    "city_country": "Sydney, Australia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Green Gully",
+    "club_logo": "",
+    "city_country": "Melbourne, Australia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "APIA Leichhardt",
+    "club_logo": "",
+    "city_country": "Sydney, Australia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Blacktown City",
+    "club_logo": "",
+    "city_country": "Sydney, Australia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Olympic FC",
+    "club_logo": "",
+    "city_country": "Brisbane, Australia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Brisbane Strikers",
+    "club_logo": "",
+    "city_country": "Brisbane, Australia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Gold Coast Knights",
+    "club_logo": "",
+    "city_country": "Gold Coast, Australia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Melbourne Knights",
+    "club_logo": "",
+    "city_country": "Melbourne, Australia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Oakleigh Cannons",
+    "club_logo": "",
+    "city_country": "Melbourne, Australia",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Hamilton Wanderers",
+    "club_logo": "",
+    "city_country": "Hamilton, New Zealand",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Canterbury United",
+    "club_logo": "",
+    "city_country": "Christchurch, New Zealand",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Southern United",
+    "club_logo": "",
+    "city_country": "Dunedin, New Zealand",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SC Abbeville",
+    "club_logo": "",
+    "city_country": "Abbeville, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "RCO Agde",
+    "club_logo": "",
+    "city_country": "Agde, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SU Agen",
+    "club_logo": "",
+    "city_country": "Agen, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Salinières Aigues Mortes",
+    "club_logo": "",
+    "city_country": "Aigues-Mortes, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Ain Sud",
+    "club_logo": "",
+    "city_country": "Saint-Maurice-de-Beynost, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ASPTT Albi",
+    "club_logo": "",
+    "city_country": "Albi, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Albi",
+    "club_logo": "",
+    "city_country": "Albi, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Alençon",
+    "club_logo": "",
+    "city_country": "Alençon, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Algrange",
+    "club_logo": "",
+    "city_country": "Algrange, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FCUS Ambert",
+    "club_logo": "",
+    "city_country": "Ambert, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AC Amboise",
+    "club_logo": "",
+    "city_country": "Amboise, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "J3S Amilly",
+    "club_logo": "",
+    "city_country": "Amilly, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CSO Amnéville",
+    "club_logo": "",
+    "city_country": "Amnéville, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Antibes",
+    "club_logo": "",
+    "city_country": "Antibes, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Bassin d'Arcachon",
+    "club_logo": "",
+    "city_country": "Arcachon, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "JA Armentières",
+    "club_logo": "",
+    "city_country": "Armentières, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Arras FA",
+    "club_logo": "",
+    "city_country": "Arras, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Aubagne FC",
+    "club_logo": "",
+    "city_country": "Aubagne, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Aurillac Arpajon Cantal Auvergne",
+    "club_logo": "",
+    "city_country": "Aurillac, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Avenir Club Avignonnais",
+    "club_logo": "",
+    "city_country": "Avignon, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CS Avion",
+    "club_logo": "",
+    "city_country": "Avion, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Avoine OCC",
+    "club_logo": "",
+    "city_country": "Avoine, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Bagnols Pont",
+    "club_logo": "",
+    "city_country": "Bagnols-sur-Cèze, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Balagne",
+    "club_logo": "",
+    "city_country": "L'Île-Rousse, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Balma SC",
+    "club_logo": "",
+    "city_country": "Balma, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Bastelicaccia",
+    "club_logo": "",
+    "city_country": "Bastelicaccia, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Stade Beaucairois",
+    "club_logo": "",
+    "city_country": "Beaucaire, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Beaune",
+    "club_logo": "",
+    "city_country": "Beaune, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Bergerac Périgord FC",
+    "club_logo": "",
+    "city_country": "Bergerac, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Béziers",
+    "club_logo": "",
+    "city_country": "Béziers, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Blagnac FC",
+    "club_logo": "",
+    "city_country": "Blagnac, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Football Club 93 Bobigny-Bagnolet-Gagny",
+    "club_logo": "",
+    "city_country": "Bobigny, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FUSC Bois-Guillaume",
+    "club_logo": "",
+    "city_country": "Bois-Guillaume, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ES Bonchamp",
+    "club_logo": "",
+    "city_country": "Bonchamp-lès-Laval, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Stade Bordelais",
+    "club_logo": "",
+    "city_country": "Bordeaux, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Athletic Club de Boulogne-Billancourt",
+    "club_logo": "",
+    "city_country": "Boulogne-Billancourt, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Bourgoin-Jallieu",
+    "club_logo": "",
+    "city_country": "Bourgoin-Jallieu, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ESA Brive",
+    "club_logo": "",
+    "city_country": "Brive-la-Gaillarde, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Bulgnéville Contrex Vittel FC",
+    "club_logo": "",
+    "city_country": "Bulgnéville, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Déolois",
+    "club_logo": "",
+    "city_country": "Déols, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SU Dives-Cabourg",
+    "club_logo": "",
+    "city_country": "Dives-sur-Mer, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SC Douai",
+    "club_logo": "",
+    "city_country": "Douai, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SC Draguignan",
+    "club_logo": "",
+    "city_country": "Draguignan, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "JA Drancy",
+    "club_logo": "",
+    "city_country": "Drancy, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Drouais",
+    "club_logo": "",
+    "city_country": "Dreux, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Échirolles",
+    "club_logo": "",
+    "city_country": "Échirolles, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Écommoy FC",
+    "club_logo": "",
+    "city_country": "Écommoy, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "RC Épernay Champagne",
+    "club_logo": "",
+    "city_country": "Épernay, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Étaples",
+    "club_logo": "",
+    "city_country": "Étaples, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Évreux FC 27",
+    "club_logo": "",
+    "city_country": "Évreux, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Évry FC",
+    "club_logo": "",
+    "city_country": "Évry-Courcouronnes, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Fabrègues",
+    "club_logo": "",
+    "city_country": "Fabrègues, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "USF Fécamp",
+    "club_logo": "",
+    "city_country": "Fécamp, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Feurs",
+    "club_logo": "",
+    "city_country": "Feurs, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "RCP Fontainebleau",
+    "club_logo": "",
+    "city_country": "Fontainebleau, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Vendée Fontenay Foot",
+    "club_logo": "",
+    "city_country": "Fontenay-le-Comte, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Forbach",
+    "club_logo": "",
+    "city_country": "Forbach, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Gardanne Biver Football Club",
+    "club_logo": "",
+    "city_country": "Gardanne, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Gien",
+    "club_logo": "",
+    "city_country": "Gien, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ESM Gonfreville",
+    "club_logo": "",
+    "city_country": "Gonfreville-l'Orcher, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Olympique Grande-Synthe",
+    "club_logo": "",
+    "city_country": "Grande-Synthe, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ES Grau-du-Roi",
+    "club_logo": "",
+    "city_country": "Le Grau-du-Roi, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Union Sportive Gravelines Football",
+    "club_logo": "",
+    "city_country": "Gravelines, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Guichen",
+    "club_logo": "",
+    "city_country": "Guichen, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SC Hazebrouck",
+    "club_logo": "",
+    "city_country": "Hazebrouck, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Hauts Lyonnais",
+    "club_logo": "",
+    "city_country": "Pomeys, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FCF Hénin-Beaumont",
+    "club_logo": "",
+    "city_country": "Hénin-Beaumont, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Illzach Modenheim",
+    "club_logo": "",
+    "city_country": "Illzach, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Is-Selongey Football",
+    "club_logo": "",
+    "city_country": "Selongey, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ASA Issy",
+    "club_logo": "",
+    "city_country": "Issy-les-Moulineaux, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Ivry",
+    "club_logo": "",
+    "city_country": "Ivry-sur-Seine, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Jarville JF",
+    "club_logo": "",
+    "city_country": "Jarville-la-Malgrange, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Jura Dolois Foot",
+    "club_logo": "",
+    "city_country": "Dole, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC La Chapelle-des-Marais",
+    "club_logo": "",
+    "city_country": "La Chapelle-des-Marais, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS La Châtaigneraie",
+    "club_logo": "",
+    "city_country": "La Châtaigneraie, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ES La Ciotat",
+    "club_logo": "",
+    "city_country": "La Ciotat, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "La Flèche RC",
+    "club_logo": "",
+    "city_country": "La Flèche, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ESOF Vendée La Roche-sur-Yon",
+    "club_logo": "",
+    "city_country": "La Roche-sur-Yon, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ES La Rochelle",
+    "club_logo": "",
+    "city_country": "La Rochelle, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Lannion FC",
+    "club_logo": "",
+    "city_country": "Lannion, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Laon",
+    "club_logo": "",
+    "city_country": "Laon, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ASF Le Perreux",
+    "club_logo": "",
+    "city_country": "Le Perreux-sur-Marne, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Le Touquet AC",
+    "club_logo": "",
+    "city_country": "Le Touquet, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Les Lilas",
+    "club_logo": "",
+    "city_country": "Les Lilas, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "TVEC Les Sables-d'Olonne",
+    "club_logo": "",
+    "city_country": "Les Sables-d'Olonne, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CO Les Ulis",
+    "club_logo": "",
+    "city_country": "Les Ulis, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Lesquin",
+    "club_logo": "",
+    "city_country": "Lesquin, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Libourne",
+    "club_logo": "",
+    "city_country": "Libourne, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "La Ligugéenne Football",
+    "club_logo": "",
+    "city_country": "Ligugé, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ESA Linas-Montlhéry",
+    "club_logo": "",
+    "city_country": "Linas, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Loon-Plage",
+    "club_logo": "",
+    "city_country": "Loon-Plage, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Louhans-Cuiseaux FC",
+    "club_logo": "",
+    "city_country": "Louhans, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AF Lozère",
+    "club_logo": "",
+    "city_country": "Mende, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Amicale de Lucé",
+    "club_logo": "",
+    "city_country": "Lucé, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "GC Lucciana",
+    "club_logo": "",
+    "city_country": "Lucciana, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Luçon FC",
+    "club_logo": "",
+    "city_country": "Luçon, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Luzenac AP",
+    "club_logo": "",
+    "city_country": "Luzenac, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Lyon",
+    "club_logo": "",
+    "city_country": "Lyon, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "UF Mâconnais",
+    "club_logo": "",
+    "city_country": "Mâcon, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "USM Malakoff",
+    "club_logo": "",
+    "city_country": "Malakoff, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SC Malesherbes",
+    "club_logo": "",
+    "city_country": "Malesherbes, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "EP Manosque",
+    "club_logo": "",
+    "city_country": "Manosque, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Mantois 78",
+    "club_logo": "",
+    "city_country": "Mantes-la-Ville, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Marck",
+    "club_logo": "",
+    "city_country": "Marck, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Marignane GCB",
+    "club_logo": "",
+    "city_country": "Marignane, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Marmande 47",
+    "club_logo": "",
+    "city_country": "Marmande, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SC Marnaval",
+    "club_logo": "",
+    "city_country": "Saint-Dizier, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Athlético Marseille",
+    "club_logo": "",
+    "city_country": "Marseille, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Marseille Endoume",
+    "club_logo": "",
+    "city_country": "Marseille, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CS Meaux",
+    "club_logo": "",
+    "city_country": "Meaux, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Melun",
+    "club_logo": "",
+    "city_country": "Melun, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Rapid de Menton",
+    "club_logo": "",
+    "city_country": "Menton, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SO Merlebach",
+    "club_logo": "",
+    "city_country": "Freyming-Merlebach, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Monaco FC",
+    "club_logo": "",
+    "city_country": "Monaco, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "USON Mondeville",
+    "club_logo": "",
+    "city_country": "Mondeville, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Montagnarde",
+    "club_logo": "",
+    "city_country": "Inzinzac-Lochrist, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "USM Montargis",
+    "club_logo": "",
+    "city_country": "Montargis, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Montauban FCTG",
+    "club_logo": "",
+    "city_country": "Montauban, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Montceau Bourgogne",
+    "club_logo": "",
+    "city_country": "Montceau-les-Mines, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "UMS Montélimar",
+    "club_logo": "",
+    "city_country": "Montélimar, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Montigny-le-Bretonneux",
+    "club_logo": "",
+    "city_country": "Montigny-le-Bretonneux, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Stade Montois",
+    "club_logo": "",
+    "city_country": "Mont-de-Marsan, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Monts",
+    "club_logo": "",
+    "city_country": "Monts, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Morangis-Chilly",
+    "club_logo": "",
+    "city_country": "Morangis, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Moulins",
+    "club_logo": "",
+    "city_country": "Moulins, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Moulins Yzeure Foot",
+    "club_logo": "",
+    "city_country": "Yzeure, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Muret",
+    "club_logo": "",
+    "city_country": "Muret, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Mutzig",
+    "club_logo": "",
+    "city_country": "Mutzig, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "GS Neuves-Maisons",
+    "club_logo": "",
+    "city_country": "Neuves-Maisons, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Nevers 58",
+    "club_logo": "",
+    "city_country": "Nevers, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Nœux-les-Mines",
+    "club_logo": "",
+    "city_country": "Nœux-les-Mines, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Olympique Noisy-le-Sec",
+    "club_logo": "",
+    "city_country": "Noisy-le-Sec, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FCSR Obernai",
+    "club_logo": "",
+    "city_country": "Obernai, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CMS Oissel",
+    "club_logo": "",
+    "city_country": "Oissel, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "USM Olivet",
+    "club_logo": "",
+    "city_country": "Olivet, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Ornans",
+    "club_logo": "",
+    "city_country": "Ornans, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Pacy Ménilles RC",
+    "club_logo": "",
+    "city_country": "Pacy-sur-Eure, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Panazol",
+    "club_logo": "",
+    "city_country": "Panazol, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CA Paris-Charenton",
+    "club_logo": "",
+    "city_country": "Charenton-le-Pont, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "UJA Maccabi Paris Métropole",
+    "club_logo": "",
+    "city_country": "Alfortville, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Paris Université Club",
+    "club_logo": "",
+    "city_country": "Paris, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ES Paulhan-Pézenas",
+    "club_logo": "",
+    "city_country": "Pézenas, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Pays d'Aix FC",
+    "club_logo": "",
+    "city_country": "Aix-en-Provence, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Périgueux Foot",
+    "club_logo": "",
+    "city_country": "Périgueux, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Stade Plabennécois",
+    "club_logo": "",
+    "city_country": "Plabennec, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Poissy",
+    "club_logo": "",
+    "city_country": "Poissy, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Pont-de-Roide",
+    "club_logo": "",
+    "city_country": "Pont-de-Roide-Vermondans, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CA Pontarlier",
+    "club_logo": "",
+    "city_country": "Pontarlier, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Pontet Grand Avignon 84",
+    "club_logo": "",
+    "city_country": "Le Pontet, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "GSI Pontivy",
+    "club_logo": "",
+    "city_country": "Pontivy, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Prix-lès-Mézières",
+    "club_logo": "",
+    "city_country": "Prix-lès-Mézières, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Quimper Kerfeunteun F.C.",
+    "club_logo": "",
+    "city_country": "Quimper, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Raon-l'Étape",
+    "club_logo": "",
+    "city_country": "Raon-l'Étape, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Reims Sainte-Anne",
+    "club_logo": "",
+    "city_country": "Reims, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Toulouse Rodéo FC",
+    "club_logo": "",
+    "city_country": "Toulouse, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SO Romorantin",
+    "club_logo": "",
+    "city_country": "Romorantin-Lanthenay, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Roye-Noyon",
+    "club_logo": "",
+    "city_country": "Roye, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sablé FC",
+    "club_logo": "",
+    "city_country": "Sablé-sur-Sarthe, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sainte-Geneviève Sports",
+    "club_logo": "",
+    "city_country": "Sainte-Geneviève-des-Bois, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Saint-Alban Aucamville FC",
+    "club_logo": "",
+    "city_country": "Saint-Alban, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "AS Saint-Amandoise",
+    "club_logo": "",
+    "city_country": "Saint-Amand-Montrond, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Saint-Avertin Sports",
+    "club_logo": "",
+    "city_country": "Saint-Avertin, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SR Saint-Dié",
+    "club_logo": "",
+    "city_country": "Saint-Dié-des-Vosges, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Saint-Georges / Les Ancizes",
+    "club_logo": "",
+    "city_country": "Saint-Georges-de-Mons, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Entente Sannois Saint-Gratien",
+    "club_logo": "",
+    "city_country": "Saint-Gratien, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FCO Saint-Jean-de-la-Ruelle",
+    "club_logo": "",
+    "city_country": "Saint-Jean-de-la-Ruelle, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Saint-Jean-le-Blanc",
+    "club_logo": "",
+    "city_country": "Saint-Jean-le-Blanc, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Saint-Louis Neuweg",
+    "club_logo": "",
+    "city_country": "Saint-Louis, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Saint-Lô Manche",
+    "club_logo": "",
+    "city_country": "Saint-Lô, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FR Saint Marcel",
+    "club_logo": "",
+    "city_country": "Saint-Marcel, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Saint-Omer",
+    "club_logo": "",
+    "city_country": "Saint-Omer, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Saint-Pierre-des-Corps",
+    "club_logo": "",
+    "city_country": "Saint-Pierre-des-Corps, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Olympique Saint-Quentin",
+    "club_logo": "",
+    "city_country": "Saint-Quentin, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "USM Saran",
+    "club_logo": "",
+    "city_country": "Saran, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sarreguemines FC",
+    "club_logo": "",
+    "city_country": "Sarreguemines, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Sarre-Union",
+    "club_logo": "",
+    "city_country": "Sarre-Union, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SC Schiltigheim",
+    "club_logo": "",
+    "city_country": "Schiltigheim, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "SC Sélestat",
+    "club_logo": "",
+    "city_country": "Sélestat, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "US Sénart-Moissy",
+    "club_logo": "",
+    "city_country": "Moissy-Cramayel, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FC Sens",
+    "club_logo": "",
+    "city_country": "Sens, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ASJ Soyaux",
+    "club_logo": "",
+    "city_country": "Soyaux, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Stade Français",
+    "club_logo": "",
+    "city_country": "Vaucresson, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "ASPV Strasbourg",
+    "club_logo": "",
+    "city_country": "Strasbourg, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FCO Strasbourg Koenigshoffen 06",
+    "club_logo": "",
+    "city_country": "Strasbourg, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "Sud Nivernais Imphy Decize",
+    "club_logo": "",
+    "city_country": "Decize, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CSM Sully-sur-Loire",
+    "club_logo": "",
+    "city_country": "Sully-sur-Loire, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "CCSP Tours",
+    "club_logo": "",
+    "city_country": "Tours, France",
+    "wiki_url": ""
+  },
+  {
+    "club_name": "FF Yzeure Allier Auvergne",
+    "club_logo": "",
+    "city_country": "Yzeure, France",
+    "wiki_url": ""
   }
 ]

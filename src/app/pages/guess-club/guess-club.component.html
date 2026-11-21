@@ -1,10 +1,11 @@
-<div class="container">
-  <div class="w3-container w3-center w3-card w3-margin-top w3-margin-bottom w3-animate-opacity">
-      <h2><i class="fas fa-gamepad" style="margin-right: 4px;"></i>Guess the Club!</h2>
+<div class="game-page">
+  <div class="game-content game-panel game-panel-compact text-center motion-safe:animate-fade-in">
+      <div class="game-home-icon"><i class="fas fa-gamepad" aria-hidden="true"></i></div>
+      <h2 class="game-title">Guess the Club!</h2>
 
       <!-- START BUTTON -->
       <div *ngIf="clubs.length > 0 && !selectedClub && !gameOver" class="start-screen">
-          <button class="w3-btn w3-black w3-large" (click)="startGame()">
+          <button class="game-button-primary" (click)="startGame()">
               <i class="fas fa-play"></i> Start Game
           </button>
       </div>
@@ -35,8 +36,8 @@
 
 
           <!-- TIMER (solo aparece cuando el juego inició) -->
-          <div class="w3-light-grey w3-round-xlarge w3-margin">
-              <div class="w3-container w3-green w3-round-xlarge" 
+          <div class="bg-slate-200 rounded-3xl my-4">
+              <div class="tw-container bg-green-600 rounded-3xl"
                    [style.width.%]="(timeLeft / maxTime) * 100">
                   {{ timeLeft }}s
               </div>
@@ -129,13 +130,13 @@
 
 
           <!-- Player Level (solo cuando perdió todas las vidas) -->
-          <h3 class="w3-margin-top" *ngIf="lives === 0">
+          <h3 class="mt-4" *ngIf="lives === 0">
               {{ getPlayerLevel() }}
           </h3>
 
 
           <!-- Restart / Next -->
-          <button (click)="startGame()" class="w3-btn w3-margin w3-black">
+          <button (click)="startGame()" class="game-button-primary my-4">
               <i class="fas" 
                  [ngClass]="lives === 0 ? 'fa-redo' : 'fa-arrow-right'"></i> 
               {{ lives === 0 ? 'Play Again' : 'Next' }}
@@ -145,7 +146,7 @@
           <!-- Share -->
           <button *ngIf="lives === 0"
           (click)="shareResult()" 
-          class="w3-btn w3-margin w3-black">
+          class="game-button-secondary my-4">
           <i class="fa-brands fa-x-twitter"></i> Share on X
         </button>
         

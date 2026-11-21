@@ -1,8 +1,8 @@
-<div class="container">
-  <div class="w3-container w3-center w3-padding page-bg">
+<div class="flex flex-col">
+  <div class="tw-container text-center p-4 page-bg">
 
     <!-- Buscador + Random -->
-    <div class="search-row w3-margin-top">
+    <div class="search-row mt-4">
       <div class="search-box">
         <span class="search-icon" aria-hidden="true"><i class="fa fa-search"></i></span>
 
@@ -67,7 +67,7 @@
     </div>
 
     <!-- Continentes -->
-    <section class="filter-section w3-margin">
+    <section class="filter-section my-4">
       <div class="filter-head">
         <span class="filter-label">Continents</span>
       </div>
@@ -93,7 +93,7 @@
     </section>
 
     <!-- Filtros rápidos -->
-    <div class="quick-filters w3-margin" role="group" aria-label="Quick filters">
+    <div class="quick-filters my-4" role="group" aria-label="Quick filters">
       <button type="button"
               class="chip chip-fav"
               [class.active]="showFavoritesOnly"
@@ -113,7 +113,7 @@
     </div>
 
     <!-- Filtros activos + orden + vista -->
-    <div class="results-bar w3-margin">
+    <div class="results-bar my-4">
       <div class="active-filters">
         <span class="results-count" *ngIf="hasActiveFilters">{{ allFilteredTeams.length }} teams</span>
 
@@ -163,18 +163,18 @@
       </div>
     </div>
 
-    <div *ngIf="allFilteredTeams.length === 0" class="w3-container w3-center no-results">
+    <div *ngIf="allFilteredTeams.length === 0" class="tw-container text-center no-results">
       <p>No teams found</p>
     </div>
 
     <!-- Grid de Cards -->
     <div #gridTop
-         class="responsive-grid w3-padding-16"
+         class="responsive-grid py-4"
          [class.slide-next]="slideDir === 'next'"
          [class.slide-prev]="slideDir === 'prev'"
          (touchstart)="onTouchStart($event)"
          (touchend)="onTouchEnd($event)">
-      <div class="w3-card-2 w3-hover-shadow card"
+      <div class="tw-card-2 transition-shadow hover:shadow-lg card"
            *ngFor="let team of displayedTeams; let i = index; trackBy: trackByTeam"
            [class.champion]="isChampion(team)"
            [class.defunct]="isDefunct(team)"
@@ -192,7 +192,7 @@
         <div class="logo-wrap" [class.failed]="failedLogos.has(team.club_name)">
           <img [src]="team.club_logo"
                [alt]="team.club_name"
-               class="w3-image img w3-hover-opacity-off"
+               class="block h-auto max-w-full img transition-opacity hover:opacity-80"
                [class.loaded]="loadedLogos.has(team.club_name)"
                [class.failed]="failedLogos.has(team.club_name)"
                (load)="onLogoLoad(team)"
@@ -221,7 +221,7 @@
 
         <span class="shine" *ngIf="isChampion(team)"></span>
 
-        <footer class="w3-center">
+        <footer class="text-center">
           <p>{{ displayName(team) }}</p>
           <span class="defunct-label" *ngIf="isDefunct(team)">
             <i class="fa fa-hourglass-end"></i> Defunct
@@ -256,15 +256,15 @@
     </nav>
 
     <!-- Load More -->
-    <div class="w3-center w3-padding" *ngIf="hasMore">
-      <button (click)="loadMore()" class="w3-btn w3-black w3-margin-top title-game">
+    <div class="text-center p-4" *ngIf="hasMore">
+      <button (click)="loadMore()" class="tw-button bg-black text-white mt-4 title-game">
         Load More
       </button>
     </div>
 
     <!-- Modal Zoom Imagen -->
-    <div *ngIf="selectedImage" id="zoomModal" class="w3-modal" style="display:block;" (click)="closeImageModal()">
-      <div class="w3-modal-content w3-animate-zoom zoom-modal"
+    <div *ngIf="selectedImage" id="zoomModal" class="tw-modal" style="display:block;" (click)="closeImageModal()">
+      <div class="tw-modal-content motion-safe:animate-scale-in zoom-modal"
            role="dialog"
            aria-modal="true"
            [attr.aria-label]="zoomedTeam ? displayName(zoomedTeam) : 'Logo'"
@@ -303,8 +303,8 @@
     </div>
 
     <!-- Modal Team -->
-    <div *ngIf="selectedTeam" id="teamModal" class="w3-modal" style="display:block;" (click)="closeModal()">
-      <div class="w3-modal-content w3-animate-zoom team-modal"
+    <div *ngIf="selectedTeam" id="teamModal" class="tw-modal" style="display:block;" (click)="closeModal()">
+      <div class="tw-modal-content motion-safe:animate-scale-in team-modal"
            role="dialog"
            aria-modal="true"
            [attr.aria-label]="displayName(selectedTeam)"

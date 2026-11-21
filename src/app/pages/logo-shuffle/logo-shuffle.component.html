@@ -1,38 +1,38 @@
-<div class="ls-container">
+<div class="game-page">
   
-    <div class="ls-content">
+    <div class="game-content">
   
       <!-- ══════ LOADING ══════ -->
       <div *ngIf="clubs.length === 0" class="ls-center">
-        <p class="w3-text-white">Loading clubs…</p>
+        <p class="text-white">Loading clubs…</p>
       </div>
   
       <!-- ══════ HOME ══════ -->
       <div *ngIf="gameState === 'home' && clubs.length > 0" class="ls-center">
-        <div class="ls-card w3-card w3-round-large w3-padding-large">
+        <div class="ls-card game-panel">
   
-          <div class="ls-home-icon">🧩</div>
-          <h2 class="w3-text-white w3-center">Logo Shuffle</h2>
-          <p class="w3-text-light-grey w3-center">
+          <div class="game-home-icon"><i class="fas fa-puzzle-piece" aria-hidden="true"></i></div>
+          <h2 class="game-title text-center">Logo Shuffle</h2>
+          <p class="text-silver-300 text-center">
             Drag and drop the pieces to reconstruct the football club logo.<br>
             Choose your difficulty:
           </p>
   
           <div class="ls-diff-grid">
   
-            <button class="ls-diff-btn easy w3-button w3-round-large" (click)="startGame('easy')">
+            <button class="ls-diff-btn easy tw-button rounded-2xl" (click)="startGame('easy')">
               <span class="ls-diff-icon">🟢</span>
               <span class="ls-diff-label">Easy</span>
               <span class="ls-diff-sub">3 × 4 — 12 pieces</span>
             </button>
             
-            <button class="ls-diff-btn medium w3-button w3-round-large" (click)="startGame('medium')">
+            <button class="ls-diff-btn medium tw-button rounded-2xl" (click)="startGame('medium')">
               <span class="ls-diff-icon">🟡</span>
               <span class="ls-diff-label">Medium</span>
               <span class="ls-diff-sub">4 × 5 — 20 pieces</span>
             </button>
             
-            <button class="ls-diff-btn hard w3-button w3-round-large" (click)="startGame('hard')">
+            <button class="ls-diff-btn hard tw-button rounded-2xl" (click)="startGame('hard')">
               <span class="ls-diff-icon">🔴</span>
               <span class="ls-diff-label">Hard</span>
               <span class="ls-diff-sub">5 × 6 — 30 pieces</span>
@@ -46,7 +46,7 @@
       <div *ngIf="gameState === 'playing'" class="ls-game-wrap">
   
         <!-- HUD -->
-        <div class="ls-hud w3-card w3-round-large">
+        <div class="ls-hud game-panel">
           <div class="ls-hud-item">
             <span class="ls-hud-label">Difficulty</span>
             <span class="ls-hud-value">
@@ -62,7 +62,7 @@
             <span class="ls-hud-label">Moves</span>
             <span class="ls-hud-value">{{ moves }}</span>
           </div>
-          <button class="ls-btn-quit w3-button w3-round" (click)="playAgain()">
+          <button class="ls-btn-quit tw-button rounded-md" (click)="playAgain()">
             ✕ Quit
           </button>
         </div>
@@ -73,7 +73,7 @@
           <!-- Reference: small preview of the full logo -->
           <div class="ls-reference">
             <p class="ls-ref-label">Reference</p>
-            <div class="ls-ref-img-wrap w3-round-large">
+            <div class="ls-ref-img-wrap rounded-2xl">
               <img [src]="currentClub.club_logo" [alt]="currentClub.club_name" class="ls-ref-img" />
             </div>
             <p class="ls-ref-name">{{ currentClub.club_name }}</p>
@@ -104,16 +104,16 @@
   
       <!-- ══════ SOLVED ══════ -->
       <div *ngIf="gameState === 'solved'" class="ls-center">
-        <div class="ls-card w3-card w3-round-large w3-padding-large ls-result-card">
+        <div class="ls-card game-panel ls-result-card">
   
           <div class="ls-result-icon">🏆</div>
-          <h2 class="w3-text-white w3-center">Solved!</h2>
+          <h2 class="game-title text-center">Solved!</h2>
   
           <!-- Completed logo big -->
-          <div class="ls-solved-logo-wrap w3-round-large">
+          <div class="ls-solved-logo-wrap rounded-2xl">
             <img [src]="currentClub.club_logo" [alt]="currentClub.club_name" class="ls-solved-logo" />
           </div>
-          <p class="ls-solved-name w3-text-white w3-center">{{ currentClub.club_name }}</p>
+          <p class="ls-solved-name text-white text-center">{{ currentClub.club_name }}</p>
   
           <div class="ls-solved-stats">
             <div class="ls-stat">
@@ -130,11 +130,11 @@
             </div>
           </div>
   
-          <div class="ls-result-btns w3-center">
-            <button class="ls-btn-action w3-button w3-round" (click)="retryDifficulty()">
+          <div class="ls-result-btns text-center">
+            <button class="ls-btn-action tw-button rounded-md" (click)="retryDifficulty()">
               🔄 Same difficulty
             </button>
-            <button class="ls-btn-action w3-button w3-round" (click)="playAgain()">
+            <button class="ls-btn-action tw-button rounded-md" (click)="playAgain()">
               🎮 Change difficulty
             </button>
           </div>

@@ -2,72 +2,13 @@
    HOST & LAYOUT
    ============================================================ */
 
-   :host .container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  :host .w3-container {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 16px;
-    max-width: 1000px;
-    width: 100%;
-    background-color: black;
-    color: #fff;
-    box-sizing: border-box;
-  }
-  
-  :host .w3-card {
-    width: 100%;
-    max-width: 900px;
-    padding: 18px 22px;
-    box-sizing: border-box;
-    background-color: black;
-    filter: drop-shadow(0 6px 18px rgba(255, 255, 255, 0.35));
-    color: #fff;
-  }
-  
-  
   /* ============================================================
      TYPOGRAPHY
      ============================================================ */
   
-  :host .w3-card h2 {
-    margin: 6px 0;
-  }
-  
-  :host .w3-card h3 {
-    margin: 4px 0;
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #fff;
-  }
-  
-  :host .w3-card h4 {
-    color: rgba(255, 255, 255, 0.9);
-  }
-  
-  
   /* ============================================================
      BUTTONS
      ============================================================ */
-  
-  :host .w3-btn.w3-black {
-    border: 2px solid #fff !important;
-    color: #fff !important;
-    transition: all 0.3s ease;
-  }
-  
-  :host .w3-btn.w3-black:hover {
-    background-color: #fff !important;
-    color: black !important;
-  }
-  
   
   /* ============================================================
      WORD LIST
@@ -121,10 +62,11 @@
     aspect-ratio: 1 / 1;
     width: clamp(20px, 5vw, 42px);   /* se adapta a cualquier pantalla */
   
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    border: 1px solid var(--game-border);
+    background: var(--game-surface-raised);
     font-weight: bold;
     font-size: clamp(10px, 1.8vw, 16px);
-    color: #fff;
+    color: var(--game-text);
   
     display: flex;
     align-items: center;
@@ -140,14 +82,14 @@
   /* Hover solo en desktop */
   @media (hover: hover) {
     .grid-cell:hover {
-      background-color: rgba(255, 255, 255, 0.2) !important;
+      background-color: rgba(var(--game-accent-rgb), 0.14) !important;
     }
   }
   
   /* Celda seleccionada activamente */
   .grid-cell.selected {
-    background-color: rgba(255, 255, 255, 0.35) !important;
-    transform: scale(1.08);
+      background-color: rgba(var(--game-accent-rgb), 0.22) !important;
+      transform: scale(1.04);
   }
   
   /* Celda encontrada (color verde seteado por ngStyle) */
@@ -169,10 +111,6 @@
   
   /* Tablet */
   @media (max-width: 768px) {
-    :host .w3-card {
-      padding: 12px 10px;
-    }
-  
     .words-grid {
       gap: 8px 16px;
     }
@@ -185,10 +123,6 @@
   
   /* Mobile */
   @media (max-width: 480px) {
-    :host .w3-card {
-      padding: 10px 4px;
-    }
-  
     .grid-container {
       /* Ocupa el ancho disponible y centra la grid */
       width: 100%;

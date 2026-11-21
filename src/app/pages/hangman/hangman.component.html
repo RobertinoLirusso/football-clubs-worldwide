@@ -1,17 +1,15 @@
-<div class="container">
+<div class="game-page">
 
-  <div class="w3-container w3-center w3-card w3-margin-top w3-margin-bottom w3-animate-opacity">
-    <h2>
-      <i class="fas fa-font" style="margin-right: 4px;"></i>
-      Club Hangman
-    </h2>
+  <div class="game-content game-panel game-panel-compact text-center motion-safe:animate-fade-in">
+    <div class="game-home-icon"><i class="fas fa-font" aria-hidden="true"></i></div>
+    <h2 class="game-title">Club Hangman</h2>
 
     <div *ngIf="clubs.length === 0" class="start-screen">
       <p class="loading-msg">Loading clubs…</p>
     </div>
 
     <div *ngIf="clubs.length > 0 && !selectedClub" class="start-screen">
-      <button class="w3-btn w3-black w3-large" type="button" (click)="startGame()">
+      <button class="game-button-primary" type="button" (click)="startGame()">
         <i class="fas fa-play"></i> Start Game
       </button>
     </div>
@@ -79,13 +77,13 @@
   </div>
 
   <div class="modal-overlay" *ngIf="showEndModal && selectedClub" role="dialog" aria-modal="true" aria-labelledby="hangman-result-title">
-    <div class="modal-box">
+    <div class="modal-box game-panel">
       <div class="modal-logo-wrap">
         <img [src]="selectedClub.club_logo" [alt]="selectedClub.club_name" class="modal-logo" />
       </div>
       <h3 id="hangman-result-title" class="modal-club-name">{{ selectedClub.club_name }}</h3>
       <p class="modal-msg">{{ gameWon ? 'You guessed it!' : 'Out of lives!' }}</p>
-      <button type="button" class="w3-btn w3-black modal-action" (click)="playAgainFromModal()">
+      <button type="button" class="game-button-primary modal-action" (click)="playAgainFromModal()">
         <i class="fas fa-redo"></i> Play again
       </button>
     </div>

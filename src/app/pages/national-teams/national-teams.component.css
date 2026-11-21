@@ -1,9 +1,4 @@
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
-.w3-container {
+.tw-container {
   flex-grow: 1;
 }
 
@@ -19,6 +14,9 @@
     radial-gradient(ellipse at 50% -10%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 60%),
     radial-gradient(ellipse at 50% 40%, rgba(255, 255, 255, 0) 55%, rgba(60, 68, 85, 0.16) 100%),
     linear-gradient(180deg, #e9ebef 0%, #d6dae1 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
 }
 
 .responsive-grid {
@@ -46,6 +44,7 @@
   position: relative;
   overflow: hidden;
   min-height: 280px;
+  border-radius: 14px;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease, opacity 0.2s ease;
   will-change: transform;
   user-select: none;
@@ -300,7 +299,7 @@ footer p {
    TYPOGRAPHY
    ============================================================ */
 
-.w3-modal p {
+.tw-modal p {
   font-weight: 300;
 }
 
@@ -337,7 +336,7 @@ footer p {
   flex: 1 1 auto;
   min-width: 0;
   border: 2px solid transparent;
-  border-radius: 0;
+  border-radius: 12px;
   background:
     linear-gradient(#fff, #fff) padding-box,
     linear-gradient(160deg, #dbe4ea, #bfc3ca 30%, #f3f4f6 60%, #d4d6da 100%) border-box;
@@ -375,7 +374,7 @@ footer p {
   height: 48px;
   padding: 0 44px 0 12px;
   border: 0;
-  border-radius: 0;
+  border-radius: 0 12px 12px 0;
   outline: none;
   background: transparent;
   color: #000;
@@ -418,7 +417,7 @@ footer p {
   width: 48px;
   padding: 0;
   border: 2px solid transparent;
-  border-radius: 0;
+  border-radius: 12px;
   background:
     linear-gradient(#000, #000) padding-box,
     linear-gradient(160deg, #bdc3c7, #e1e6ed 50%, #eceef2 100%) border-box;
@@ -461,7 +460,7 @@ footer p {
   text-align: left;
   background: #fff;
   border: 1px solid #000;
-  border-radius: 0;
+  border-radius: 12px;
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
 }
 
@@ -559,7 +558,7 @@ footer p {
   height: 38px;
   padding: 0 14px;
   border: 1px solid #c8cdd2;
-  border-radius: 0;
+  border-radius: 9px;
   background: #fff;
   color: #333;
   font-family: inherit;
@@ -636,7 +635,7 @@ footer p {
   height: 30px;
   padding: 0 10px;
   border: 1px solid #000;
-  border-radius: 0;
+  border-radius: 9px;
   background: #000;
   color: #fff;
   font-family: inherit;
@@ -689,6 +688,7 @@ footer p {
   align-items: center;
   height: 42px;
   border: 1px solid #000;
+  border-radius: 10px;
   background: #fff;
   cursor: pointer;
 }
@@ -719,7 +719,7 @@ footer p {
   height: 100%;
   padding: 0 32px 0 34px;
   border: 0;
-  border-radius: 0;
+  border-radius: 10px;
   outline: none;
   background: transparent;
   color: #000;
@@ -732,6 +732,8 @@ footer p {
 .view-switch {
   display: inline-flex;
   border: 1px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .view-switch button {
@@ -829,16 +831,16 @@ footer p {
    MODALES (z-index sobre cards y header)
    ============================================================ */
 
-.w3-modal {
+.tw-modal {
   z-index: 1000;
 }
 
-.w3-modal-content header {
+.tw-modal-content header {
   position: relative;
   padding: 16px;
 }
 
-.w3-modal-content h2 {
+.tw-modal-content h2 {
   margin: 0;
   padding-top: 10px;
   font-size: 1.7rem;
@@ -1679,13 +1681,13 @@ footer p {
   text-shadow: none;
 }
 
-:host-context([data-theme='dark']) .w3-btn.w3-black.title-game {
+:host-context([data-theme='dark']) .tw-button.bg-black.title-game {
   background-color: #141820 !important;
   color: #f3f4f6 !important;
   border: 1px solid #3c4350;
 }
 
-:host-context([data-theme='dark']) .w3-btn.w3-black.title-game:hover {
+:host-context([data-theme='dark']) .tw-button.bg-black.title-game:hover {
   background-color: #f3f4f6 !important;
   color: #0b0d12 !important;
   border-color: #f3f4f6;
@@ -2137,7 +2139,7 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
-  .w3-modal-content {
+  .tw-modal-content {
     width: 90% !important;
     max-width: none !important;
     margin: 20px auto !important;

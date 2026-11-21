@@ -1,16 +1,21 @@
-<div class="container page-bg">
-  <main class="map-page">
+<div class="flex flex-1 flex-col bg-[var(--page-background)] text-[var(--page-foreground)]">
+  <main class="map-page mx-auto flex w-full max-w-[1400px] flex-1 flex-col px-3 py-5 sm:px-6 sm:py-8">
 
-    <section class="map-hero">
-      <h1 class="map-title">Stadiums Map</h1>
-      <p class="map-subtitle">Explore the stadiums of clubs around the world</p>
+    <section class="mb-6 text-center">
+      <h1 class="font-display text-[clamp(2rem,6vw,3rem)] font-semibold leading-tight tracking-[-0.02em]">
+        Stadiums Map
+      </h1>
+      <p class="mt-2 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--map-muted)] sm:tracking-[0.28em]">
+        Explore the stadiums of clubs around the world
+      </p>
     </section>
 
-    <div class="map-frame" [class.fullscreen]="isFullscreen">
+    <div class="map-frame relative flex flex-col overflow-hidden rounded-2xl border border-[var(--map-border)] bg-[var(--map-surface)] shadow-silver-md"
+         [class.fullscreen]="isFullscreen">
 
-      <div class="map-toolbar">
+      <div class="flex flex-wrap justify-center gap-2 border-b border-[var(--map-border)] bg-[var(--map-toolbar-bg)] p-2 sm:justify-end">
         <button type="button"
-                class="map-btn"
+                class="inline-flex min-h-9 items-center gap-2 rounded-lg border border-[var(--map-border)] bg-[var(--map-control-bg)] px-3.5 text-xs font-semibold text-[var(--map-control-text)] transition-colors hover:border-[var(--map-control-hover-border)] hover:bg-[var(--map-control-hover-bg)] hover:text-[var(--map-control-hover-text)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-silver-500"
                 (click)="toggleFullscreen()"
                 [attr.aria-pressed]="isFullscreen"
                 [title]="isFullscreen ? 'Exit full screen' : 'Full screen'">
@@ -18,7 +23,7 @@
           {{ isFullscreen ? 'Exit' : 'Full screen' }}
         </button>
 
-        <a class="map-btn"
+        <a class="inline-flex min-h-9 items-center gap-2 rounded-lg border border-[var(--map-border)] bg-[var(--map-control-bg)] px-3.5 text-xs font-semibold text-[var(--map-control-text)] no-underline transition-colors hover:border-[var(--map-control-hover-border)] hover:bg-[var(--map-control-hover-bg)] hover:text-[var(--map-control-hover-text)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-silver-500"
            href="https://www.google.com/maps/d/viewer?mid=1ysRUssTQUMpe6z20l5uztzu1yiUxpFw"
            target="_blank"
            rel="noopener">
@@ -26,9 +31,9 @@
         </a>
       </div>
 
-      <div class="map-canvas">
-        <div class="map-loading" *ngIf="!mapLoaded">
-          <i class="fa fa-spinner fa-spin"></i>
+      <div class="relative h-[65vh] min-h-[380px] bg-[var(--map-canvas-bg)] min-[601px]:h-[72vh] min-[601px]:min-h-[480px]">
+        <div class="absolute inset-0 flex flex-col items-center justify-center gap-3.5 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--map-muted)]" *ngIf="!mapLoaded">
+          <i class="fa fa-spinner fa-spin text-2xl text-silver-400"></i>
           <span>Loading map…</span>
         </div>
 
@@ -38,7 +43,8 @@
           loading="lazy"
           allowfullscreen
           referrerpolicy="no-referrer-when-downgrade"
-          [class.ready]="mapLoaded"
+          class="block h-full w-full border-0 opacity-0 transition-opacity duration-500 motion-reduce:transition-none"
+          [class.opacity-100]="mapLoaded"
           (load)="mapLoaded = true">
         </iframe>
       </div>

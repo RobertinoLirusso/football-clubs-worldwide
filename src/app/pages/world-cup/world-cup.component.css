@@ -1,41 +1,19 @@
 /* ═══════════════════════════════════════
    World Cup 2026 Simulator — styles
-   Palette: black / white / amber / gold
+   Palette: black / silver / green
    ═══════════════════════════════════════ */
 
    :host {
-    --accent:    #f5a623;
-    --gold:      #ffd700;
-    --surface:   #0e0e0e;
-    --surface-2: #1a1a1a;
-    --surface-3: #242424;
-    --border:    rgba(255,255,255,0.12);
-    --correct:   #27ae60;
-    --wrong:     #c0392b;
-    --radius:    14px;
+    --accent: var(--game-accent);
+    --gold: var(--game-accent);
+    --surface: var(--game-surface);
+    --surface-2: var(--game-surface-raised);
+    --surface-3: #1a1d23;
+    --border: var(--game-border);
+    --correct: var(--game-success);
+    --wrong: var(--game-danger);
+    --radius: 16px;
   }
-  
-  /* ─── Layout ─────────────────────────── */
-  
-  .wc-container {
-    display: flex;
-    flex-direction: column;
-    background: #000;
-    color: #fff;
-  }
-  
-  .wc-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px 16px 48px;
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 860px;
-    margin: 0 auto;
-  }
-  
   .wc-center {
     flex: 1;
     display: flex;
@@ -47,16 +25,10 @@
   /* ─── Card ───────────────────────────── */
   
   .wc-card {
-    background: var(--surface) !important;
-    border: 1px solid var(--border);
     width: 100%;
     max-width: 500px;
     text-align: center;
   }
-  
-  /* ─── Home ───────────────────────────── */
-  
-  .wc-home-icon { font-size: 3.5rem; margin-bottom: 8px; }
   
   .wc-info-pills {
     display: flex;
@@ -78,30 +50,38 @@
   /* ─── Buttons ────────────────────────── */
   
   .wc-btn-primary {
-    background: #fff !important;
-    color: #000 !important;
-    border: none;
-    font-weight: 700;
-    padding: 11px 32px;
-    font-size: 0.95rem;
+    background: var(--game-button-bg) !important;
+    color: var(--game-button-text) !important;
+    border: 1px solid var(--game-button-bg) !important;
+    border-radius: 10px !important;
+    min-height: 44px;
+    font-weight: 600;
+    padding: 10px 24px;
+    font-size: 0.9rem;
     cursor: pointer;
-    transition: opacity 0.2s, transform 0.15s;
+    transition: background-color 0.2s, border-color 0.2s, transform 0.2s;
   }
   
-  .wc-btn-primary:hover { opacity: 0.88; transform: scale(1.04); }
+  .wc-btn-primary:hover {
+    background: var(--game-button-hover-bg) !important;
+    border-color: var(--game-button-hover-bg) !important;
+    transform: translateY(-1px);
+  }
   
   .wc-btn-secondary {
     background: transparent !important;
-    color: #fff !important;
-    border: 2px solid #fff !important;
+    color: var(--game-text) !important;
+    border: 1px solid var(--game-border) !important;
+    border-radius: 10px !important;
+    min-height: 44px;
     font-weight: 600;
-    padding: 10px 28px;
+    padding: 10px 24px;
     font-size: 0.9rem;
     cursor: pointer;
-    transition: background 0.2s, color 0.2s;
+    transition: background-color 0.2s, border-color 0.2s;
   }
   
-  .wc-btn-secondary:hover { background: #fff !important; color: #000 !important; }
+  .wc-btn-secondary:hover { background: var(--game-surface-raised) !important; }
   
   /* ─── Team select ────────────────────── */
   
@@ -160,7 +140,7 @@
   
   .wc-team-row:last-child { border-bottom: none; }
   .wc-team-row:hover { background: var(--surface-2); }
-  .wc-team-row.selected { background: rgba(245,166,35,0.15); border-left: 3px solid var(--accent); }
+  .wc-team-row.selected { background: rgba(var(--game-accent-rgb), 0.12); border-left: 3px solid var(--accent); }
   
   .wc-team-logo {
     width: 24px;
@@ -349,7 +329,7 @@
   }
   
   .wc-event.player-event {
-    background: rgba(245,166,35,0.12);
+    background: rgba(var(--game-accent-rgb), 0.12);
     border-left: 3px solid var(--accent);
   }
   
@@ -516,7 +496,7 @@
     flex-shrink: 0;
   }
   
-  .wc-row-player { background: rgba(245,166,35,0.1) !important; }
+  .wc-row-player { background: rgba(var(--game-accent-rgb), 0.1) !important; }
   .wc-row-advance { border-left: 3px solid #27ae60; }
   
   /* ─── All groups (final standings) ──── */
@@ -567,7 +547,7 @@
   
   .wc-group-standing-row:last-child { border-bottom: none; }
   .wc-group-standing-row.advance { border-left: 3px solid #27ae60; }
-  .wc-group-standing-row.player-row { background: rgba(245,166,35,0.12); }
+  .wc-group-standing-row.player-row { background: rgba(var(--game-accent-rgb), 0.12); }
   
   .wc-pos { color: rgba(255,255,255,0.35); font-size: 0.7rem; min-width: 12px; }
   .wc-mini-logo { width: 16px; height: 16px; object-fit: contain; flex-shrink: 0; }
@@ -673,7 +653,7 @@
   
   .wc-bracket-match.player-bracket {
     border-color: var(--accent);
-    background: rgba(245,166,35,0.08);
+    background: rgba(var(--game-accent-rgb), 0.08);
   }
   
   .wc-bm-team {
@@ -783,7 +763,7 @@
   
   .wc-bracket-slot.player-slot {
     border-color: var(--accent);
-    background: rgba(245,166,35,0.07);
+    background: rgba(var(--game-accent-rgb), 0.07);
   }
   
   .wc-bracket-slot.future-slot {

@@ -1,37 +1,16 @@
 /* ═══════════════════════════════════════
    Guess the Country — styles
-   Uses w3.css for layout utilities
+   Tailwind utilities handle shared layout styles
    ═══════════════════════════════════════ */
 
    :host {
-    --accent:       #f5a623;
-    --surface:      #0e0e0e;
-    --surface-2:    #1a1a1a;
-    --border:       rgba(255,255,255,0.13);
-    --correct:      #2ecc71;
-    --wrong:        #e74c3c;
-    --radius:       14px;
-  }
-  
-  /* ─── Layout ─────────────────────────── */
-  
-  .gc-container {
-    display: flex;
-    flex-direction: column;
-    background: #000;
-    color: #fff;
-  }
-  
-  .gc-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px 16px 40px;
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 640px;
-    margin: 0 auto;
+     --accent: var(--game-accent);
+     --surface: var(--game-surface);
+     --surface-2: var(--game-surface-raised);
+     --border: var(--game-border);
+     --correct: var(--game-success);
+     --wrong: var(--game-danger);
+     --radius: 16px;
   }
   
   .gc-center {
@@ -45,19 +24,11 @@
   /* ─── Card shell ─────────────────────── */
   
   .gc-card {
-    background: var(--surface) !important;
-    border: 1px solid var(--border);
     width: 100%;
     max-width: 520px;
   }
   
   /* ─── Home screen ────────────────────── */
-  
-  .gc-home-icon {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 10px;
-  }
   
   .gc-phase-list {
     margin: 20px 0 10px;
@@ -97,26 +68,15 @@
     flex-shrink: 0;
   }
   
-  .phase-badge.group    { background: #1a3a5c; color: #5dade2; border: 1px solid #5dade2; }
-  .phase-badge.playoff  { background: #3a2a00; color: var(--accent); border: 1px solid var(--accent); }
-  .phase-badge.knockout { background: #2a0d0d; color: #e74c3c; border: 1px solid #e74c3c; }
+  .phase-badge.group,
+  .phase-badge.playoff,
+  .phase-badge.knockout {
+    background: var(--surface-2);
+    color: var(--game-text);
+    border: 1px solid var(--border);
+  }
   
   /* ─── Start button ───────────────────── */
-  
-  .gc-btn-start {
-    padding: 11px 36px;
-    font-size: 1rem;
-    background: #fff !important;
-    color: #000 !important;
-    border: none;
-    cursor: pointer;
-    transition: opacity 0.2s, transform 0.15s;
-  }
-  
-  .gc-btn-start:hover {
-    opacity: 0.88;
-    transform: scale(1.04);
-  }
   
   /* ─── Question wrapper ───────────────── */
   
@@ -210,16 +170,16 @@
     gap: 8px;
     padding: 14px 10px;
     background: var(--surface-2) !important;
-    border: 2px solid var(--border) !important;
-    color: #fff !important;
+    border: 1px solid var(--border) !important;
+    color: var(--game-text) !important;
     cursor: pointer;
     transition: border-color 0.2s, background 0.2s, opacity 0.3s;
-    border-radius: var(--radius) !important;
+    border-radius: 10px !important;
   }
   
   .gc-option:hover:not([disabled]) {
     border-color: var(--accent) !important;
-    background: rgba(245, 166, 35, 0.1) !important;
+    background: rgba(var(--game-accent-rgb), 0.12) !important;
   }
   
   .gc-option[disabled] {
@@ -267,8 +227,8 @@
     text-align: center;
   }
   
-  .gc-result-card.won  { border-color: var(--accent) !important; box-shadow: 0 0 50px rgba(245,166,35,0.18); }
-  .gc-result-card.lost { border-color: var(--wrong)  !important; box-shadow: 0 0 40px rgba(231,76,60,0.15); }
+  .gc-result-card.won  { border-color: var(--correct) !important; box-shadow: 0 8px 24px rgba(var(--game-success-rgb), 0.15); }
+  .gc-result-card.lost { border-color: var(--wrong) !important; box-shadow: 0 8px 24px rgba(var(--game-danger-rgb), 0.15); }
   
   .gc-result-icon {
     font-size: 3.5rem;

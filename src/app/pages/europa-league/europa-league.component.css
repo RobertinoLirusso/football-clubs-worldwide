@@ -1,47 +1,28 @@
 /* ═══════════════════════════════════════
    Europa League 2026-27 Simulator — styles
-   Palette: black / white / UCL blue / silver
+   Palette: black / silver / green
    ═══════════════════════════════════════ */
 
    :host {
-    --accent:    #ee6c2e;   /* naranja Europa League */
-    --gold:      #e8e8e8;
-    --surface:   #0e0e0e;
-    --surface-2: #1a1a1a;
-    --surface-3: #242424;
-    --border:    rgba(255, 255, 255, 0.12);
-    --correct:   #27ae60;
-    --wrong:     #c0392b;
-    --amber:     #f5a623;
-    --radius:    14px;
+    --accent: var(--game-accent);
+    --gold: var(--game-accent);
+    --surface: var(--game-surface);
+    --surface-2: var(--game-surface-raised);
+    --surface-3: #1a1d23;
+    --border: var(--game-border);
+    --correct: var(--game-success);
+    --wrong: var(--game-danger);
+    --amber: var(--game-accent);
+    --radius: 16px;
   }
 
-  .cl-container { display: flex; flex-direction: column; background: #000; color: #fff; }
-  
-  .cl-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px 16px 48px;
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  
   .cl-center { flex: 1; display: flex; align-items: center; justify-content: center; width: 100%; }
   
   .cl-card {
-    background: var(--surface) !important;
-    border: 1px solid var(--border);
     width: 100%;
     max-width: 520px;
     text-align: center;
   }
-  
-  .cl-home-icon { font-size: 3.5rem; margin-bottom: 8px; }
-  
   .cl-info-pills { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 16px 0 10px; }
   
   .cl-pill {
@@ -54,28 +35,36 @@
   }
   
   .cl-btn-primary {
-    background: #fff !important;
-    color: #000 !important;
-    border: none;
-    font-weight: 700;
-    padding: 11px 32px;
-    font-size: 0.95rem;
+    background: var(--game-button-bg) !important;
+    color: var(--game-button-text) !important;
+    border: 1px solid var(--game-button-bg) !important;
+    border-radius: 10px !important;
+    min-height: 44px;
+    font-weight: 600;
+    padding: 10px 24px;
+    font-size: 0.9rem;
     cursor: pointer;
-    transition: opacity 0.2s, transform 0.15s;
+    transition: background-color 0.2s, border-color 0.2s, transform 0.2s;
   }
-  .cl-btn-primary:hover { opacity: 0.88; transform: scale(1.04); }
+  .cl-btn-primary:hover {
+    background: var(--game-button-hover-bg) !important;
+    border-color: var(--game-button-hover-bg) !important;
+    transform: translateY(-1px);
+  }
   
   .cl-btn-secondary {
     background: transparent !important;
-    color: #fff !important;
-    border: 2px solid #fff !important;
+    color: var(--game-text) !important;
+    border: 1px solid var(--game-border) !important;
+    border-radius: 10px !important;
+    min-height: 44px;
     font-weight: 600;
-    padding: 10px 28px;
+    padding: 10px 24px;
     font-size: 0.9rem;
     cursor: pointer;
-    transition: background 0.2s, color 0.2s;
+    transition: background-color 0.2s, border-color 0.2s;
   }
-  .cl-btn-secondary:hover { background: #fff !important; color: #000 !important; }
+  .cl-btn-secondary:hover { background: var(--game-surface-raised) !important; }
   
   /* ─── Team select ────────────────────── */
   
@@ -266,7 +255,7 @@
   
   .cl-advance-banner { text-align: center; padding: 12px 20px; border-radius: var(--radius); font-size: 1rem; font-weight: 600; margin-bottom: 4px; }
   .cl-advance-banner.advance { background: rgba(39,174,96,0.2); border: 1px solid #27ae60; color: #2ecc71; }
-  .cl-advance-banner.mid     { background: rgba(245,166,35,0.15); border: 1px solid var(--amber); color: var(--amber); }
+  .cl-advance-banner.mid     { background: rgba(var(--game-accent-rgb), 0.12); border: 1px solid var(--amber); color: var(--amber); }
   .cl-advance-banner.out     { background: rgba(192,57,43,0.2); border: 1px solid var(--wrong); color: #e74c3c; }
   
   /* ─── Result screens ─────────────────── */
@@ -345,7 +334,7 @@
   .cl-match-card.empty { opacity: 0.45; min-height: 52px; align-items: center; justify-content: center; }
   .cl-match-card.final {
     padding: 12px; background: linear-gradient(145deg, #1a1a1a, #121212);
-    border-color: rgba(245, 166, 35, 0.35);
+    border-color: rgba(var(--game-accent-rgb), 0.35);
   }
   
   .cl-team { display: flex; align-items: center; gap: 6px; min-width: 0; }
@@ -401,7 +390,7 @@
   
   .cl-badge.extratime { background: #2a1a3a; color: #b98cff; border: 1px solid #b98cff; }
   
-  .cl-final-mode { border: 1px solid var(--amber); border-radius: var(--radius); padding: 10px; box-shadow: 0 0 30px rgba(245,166,35,0.15); }
+  .cl-final-mode { border: 1px solid var(--amber); border-radius: var(--radius); padding: 10px; box-shadow: 0 8px 24px rgba(var(--game-accent-rgb), 0.15); }
   .cl-final-banner { text-align: center; padding: 8px; }
   .cl-final-banner-title { font-size: 1.3rem; font-weight: 800; color: var(--amber); letter-spacing: 0.04em; }
   .cl-final-banner-sub { font-size: 0.75rem; color: rgba(255,255,255,0.6); margin-top: 2px; }
@@ -426,7 +415,7 @@
   .cl-badge.extratime { background: #2a1a3a; color: #b98cff; border: 1px solid #b98cff; }
   .cl-badge.shootout { background: #2a1a3a; color: var(--amber); border: 1px solid var(--amber); }
   
-  .cl-final-mode { border: 1px solid var(--amber); border-radius: var(--radius); padding: 10px; box-shadow: 0 0 30px rgba(245,166,35,0.15); }
+  .cl-final-mode { border: 1px solid var(--amber); border-radius: var(--radius); padding: 10px; box-shadow: 0 8px 24px rgba(var(--game-accent-rgb), 0.15); }
   .cl-final-banner { text-align: center; padding: 8px; }
   .cl-final-banner-title { font-size: 1.3rem; font-weight: 800; color: var(--amber); letter-spacing: 0.04em; }
   .cl-final-banner-sub { font-size: 0.75rem; color: rgba(255,255,255,0.6); margin-top: 2px; }

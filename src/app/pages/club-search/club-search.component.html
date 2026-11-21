@@ -1,9 +1,10 @@
-<div class="container">
-  <div class="w3-container w3-center w3-card w3-margin-top w3-margin-bottom w3-animate-opacity">
-    <h3><i class="fas fa-search" style="margin-right: 4px;"></i> Football Club Word Search</h3>
+<div class="game-page">
+  <div class="game-content game-panel game-panel-wide text-center motion-safe:animate-fade-in">
+    <div class="game-home-icon"><i class="fas fa-search" aria-hidden="true"></i></div>
+    <h2 class="game-title">Football Club Word Search</h2>
 
     <!-- Words to find -->
-    <div class="w3-margin">
+    <div class="my-4">
       <h4>Find these 10 clubs:</h4>
       <div class="words-grid">
         <span
@@ -37,9 +38,9 @@
 </div>
 
     <!-- Game completed -->
-    <div *ngIf="gameCompleted" class="w3-margin-top">
+    <div *ngIf="gameCompleted" class="mt-4">
       <h3><i class="fas fa-check-circle"></i> Congratulations! You found all 10 clubs!</h3>
-      <button class="w3-btn w3-black w3-margin title-game" (click)="startGame()">
+      <button class="game-button-primary my-4" (click)="startGame()">
         <i class="fas fa-redo"></i> Play Again
       </button>
     </div>

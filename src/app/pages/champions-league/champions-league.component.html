@@ -1,12 +1,12 @@
-<div class="cl-container">
-  <div class="cl-content">
+<div class="game-page">
+  <div class="game-content">
 
     <!-- ══════ HOME ══════ -->
     <div *ngIf="phase === 'home'" class="cl-center">
-      <div class="cl-card w3-card w3-round-large w3-padding-large">
-        <div class="cl-home-icon">⭐</div>
-        <h2 class="w3-text-white w3-center">UEFA Champions League 2026-27</h2>
-        <p class="w3-text-light-grey w3-center">
+      <div class="cl-card game-panel text-center">
+        <div class="game-home-icon"><i class="fas fa-star" aria-hidden="true"></i></div>
+        <h2 class="game-title text-center">UEFA Champions League 2026-27</h2>
+        <p class="text-silver-300 text-center">
           Pick your club and battle through the<br>
           <strong class="accent">36-team league phase</strong> on the road to the final.
         </p>
@@ -17,16 +17,16 @@
           <span class="cl-pill">🃏 3 power-ups</span>
           <span class="cl-pill">🏟️ Final: {{ FINAL_INFO.venue }}, {{ FINAL_INFO.date }}</span>
         </div>
-        <div class="w3-center w3-margin-top">
-          <button class="cl-btn-primary w3-button w3-round" (click)="phase = 'select'">▶ Pick your club</button>
+        <div class="text-center mt-4">
+          <button class="cl-btn-primary tw-button rounded-md" (click)="phase = 'select'">▶ Pick your club</button>
         </div>
       </div>
     </div>
 
     <!-- ══════ SELECT ══════ -->
     <div *ngIf="phase === 'select'" class="cl-select-wrap">
-      <h3 class="w3-text-white w3-center">Choose your club</h3>
-      <input class="cl-search w3-input w3-round-large" type="text"
+      <h3 class="text-white text-center">Choose your club</h3>
+      <input class="cl-search tw-input rounded-2xl" type="text"
              placeholder="🔍  Search club…" [(ngModel)]="searchQuery" />
 
       <div *ngIf="!searchQuery" class="cl-pots-grid">
@@ -57,14 +57,14 @@
         <div class="cl-selected-preview">
           <img *ngIf="playerTeam.logo" [src]="playerTeam.logo" [alt]="playerTeam.name" class="cl-preview-logo" />
           <div>
-            <div class="w3-text-white cl-preview-name">{{ playerTeam.name }}</div>
-            <div class="w3-text-light-grey cl-preview-sub">
+            <div class="text-white cl-preview-name">{{ playerTeam.name }}</div>
+            <div class="text-silver-300 cl-preview-sub">
               Pot {{ playerTeam.pot }} · {{ playerTeam.country }} ·
               ATK {{ playerTeam.attack }} DEF {{ playerTeam.defense }}
             </div>
           </div>
         </div>
-        <button class="cl-btn-primary w3-button w3-round" (click)="confirmSelection()">✅ Confirm & Play</button>
+        <button class="cl-btn-primary tw-button rounded-md" (click)="confirmSelection()">✅ Confirm & Play</button>
       </div>
     </div>
 
@@ -78,7 +78,7 @@
       </div>
 
       <!-- Pre-match formation -->
-      <div *ngIf="awaitingFormation" class="cl-kickoff-panel w3-card w3-round-large">
+      <div *ngIf="awaitingFormation" class="cl-kickoff-panel tw-card rounded-2xl">
         <div class="cl-kickoff-title">Choose your tactical formation</div>
         <div class="cl-kickoff-matchup" *ngIf="pendingHome && pendingAway">
           <div class="cl-kickoff-team">
@@ -107,13 +107,13 @@
 
         <p class="cl-kickoff-hint">🃏 Power-ups will be available at half-time.</p>
 
-        <div class="w3-center w3-margin-top">
-          <button class="cl-btn-primary w3-button w3-round" (click)="confirmFormation()">▶ Kick off</button>
+        <div class="text-center mt-4">
+          <button class="cl-btn-primary tw-button rounded-md" (click)="confirmFormation()">▶ Kick off</button>
         </div>
       </div>
 
       <!-- Half-time -->
-      <div *ngIf="atHalftime" class="cl-halftime-panel w3-card w3-round-large">
+      <div *ngIf="atHalftime" class="cl-halftime-panel tw-card rounded-2xl">
         <div class="cl-halftime-title">⏸️ Half-time — {{ halftimeHomeGoals }} – {{ halftimeAwayGoals }}</div>
 
         <div class="cl-boosts-row">
@@ -146,8 +146,8 @@
           </div>
         </div>
 
-        <div class="w3-center w3-margin-top">
-          <button class="cl-btn-primary w3-button w3-round" (click)="resumeSecondHalf()">▶ Resume second half</button>
+        <div class="text-center mt-4">
+          <button class="cl-btn-primary tw-button rounded-md" (click)="resumeSecondHalf()">▶ Resume second half</button>
         </div>
       </div>
 
@@ -180,7 +180,7 @@
           </span>
         </div>
 
-        <div class="cl-scoreboard w3-card w3-round-large">
+        <div class="cl-scoreboard tw-card rounded-2xl">
           <div class="cl-score-team" [class.player-side]="currentMatch.home === playerTeam">
             <img *ngIf="currentMatch.home.logo" [src]="currentMatch.home.logo" class="cl-score-logo" alt="" />
             <span class="cl-score-name">{{ currentMatch.home.name }}</span>
@@ -222,8 +222,8 @@
                class="cl-event cl-event-waiting">⏱️ Kick-off is moments away…</div>
         </div>
 
-        <div class="w3-center w3-margin-top" *ngIf="!matchPlaying">
-          <button class="cl-btn-primary w3-button w3-round" (click)="onContinueClick()">
+        <div class="text-center mt-4" *ngIf="!matchPlaying">
+          <button class="cl-btn-primary tw-button rounded-md" (click)="onContinueClick()">
             Continue →
           </button>
         </div>
@@ -236,7 +236,7 @@
         <span class="cl-badge league">Matchday {{ leagueMatchday }} — Results</span>
       </div>
 
-      <div class="cl-my-result w3-card w3-round-large" *ngIf="currentMatch">
+      <div class="cl-my-result tw-card rounded-2xl" *ngIf="currentMatch">
         <div class="cl-my-result-header">Your match</div>
         <div class="cl-result-row">
           <div class="cl-result-team">
@@ -271,7 +271,7 @@
 
       <div class="cl-standings-mini">
         <div class="cl-standings-title">League Table</div>
-        <table class="cl-table w3-table">
+        <table class="cl-table tw-table">
           <thead><tr><th>#</th><th>Club</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
           <tbody>
             <tr *ngFor="let s of leagueStandings; let i = index"
@@ -291,8 +291,8 @@
         </table>
       </div>
 
-      <div class="w3-center w3-margin-top">
-        <button class="cl-btn-primary w3-button w3-round" (click)="continueAfterMatchday()">
+      <div class="text-center mt-4">
+        <button class="cl-btn-primary tw-button rounded-md" (click)="continueAfterMatchday()">
           {{ leagueMatchday < 8 ? 'Next matchday →' : 'Final table →' }}
         </button>
       </div>
@@ -300,7 +300,7 @@
 
     <!-- ══════ LEAGUE STANDINGS ══════ -->
     <div *ngIf="phase === 'league_standings'" class="cl-standings-wrap">
-      <h3 class="w3-text-white w3-center">League Phase Complete</h3>
+      <h3 class="text-white text-center">League Phase Complete</h3>
 
       <div class="cl-advance-banner"
            [class.advance]="playerQualStatus === 'direct'"
@@ -313,7 +313,7 @@
 
       <div class="cl-standings-mini">
         <div class="cl-standings-title">Final League Table</div>
-        <table class="cl-table w3-table">
+        <table class="cl-table tw-table">
           <thead><tr><th>#</th><th>Club</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
           <tbody>
             <tr *ngFor="let s of leagueStandings; let i = index"
@@ -340,12 +340,12 @@
 
       <ng-container *ngIf="fullBracket.length > 0" [ngTemplateOutlet]="bracketTpl"></ng-container>
 
-      <div class="w3-center w3-margin-top">
-        <button *ngIf="playerQualStatus !== 'out'" class="cl-btn-primary w3-button w3-round"
+      <div class="text-center mt-4">
+        <button *ngIf="playerQualStatus !== 'out'" class="cl-btn-primary tw-button rounded-md"
                 (click)="proceedFromLeague()">
           {{ playerQualStatus === 'direct' ? '⚡ Go to Round of 16 →' : '⚡ Play knockout playoff →' }}
         </button>
-        <button *ngIf="playerQualStatus === 'out'" class="cl-btn-secondary w3-button w3-round"
+        <button *ngIf="playerQualStatus === 'out'" class="cl-btn-secondary tw-button rounded-md"
                 (click)="resetGame()">
           🔄 Play Again
         </button>
@@ -358,7 +358,7 @@
         <span class="cl-badge playoff">Knockout Playoff — Aggregate</span>
       </div>
 
-      <div class="cl-my-result w3-card w3-round-large">
+      <div class="cl-my-result tw-card rounded-2xl">
         <div class="cl-my-result-header">Leg 1</div>
         <div class="cl-result-row">
           <div class="cl-result-team">
@@ -390,17 +390,17 @@
         <div class="cl-aggregate-row">
           <span>Aggregate: <strong>{{ tieTeam1?.name }} {{ tieAggregateTeam1 }} – {{ tieAggregateTeam2 }} {{ tieTeam2?.name }}</strong></span>
         </div>
-        <div *ngIf="tiePenalties" class="cl-penalties-note w3-center">
+        <div *ngIf="tiePenalties" class="cl-penalties-note text-center">
           🎯 Won on penalties: {{ tiePenalties.team1Score }}–{{ tiePenalties.team2Score }}
         </div>
       </div>
 
-      <p class="w3-text-light-grey w3-center">You're through to the Round of 16! 🎉</p>
+      <p class="text-silver-300 text-center">You're through to the Round of 16! 🎉</p>
 
       <ng-container *ngTemplateOutlet="bracketTpl"></ng-container>
 
-      <div class="w3-center w3-margin-top">
-        <button class="cl-btn-primary w3-button w3-round" (click)="continuePlayoffResult()">
+      <div class="text-center mt-4">
+        <button class="cl-btn-primary tw-button rounded-md" (click)="continuePlayoffResult()">
           Round of 16 →
         </button>
       </div>
@@ -412,7 +412,7 @@
         <span class="cl-badge knockout">{{ KNOCKOUT_ROUND_NAMES[knockoutRoundIndex - 1] }} — Aggregate</span>
       </div>
 
-      <div class="cl-my-result w3-card w3-round-large" *ngIf="tieLeg1">
+      <div class="cl-my-result tw-card rounded-2xl" *ngIf="tieLeg1">
         <div class="cl-my-result-header">Leg 1</div>
         <div class="cl-result-row">
           <div class="cl-result-team">
@@ -444,15 +444,15 @@
         <div class="cl-aggregate-row">
           <span>Aggregate: <strong>{{ tieTeam1?.name }} {{ tieAggregateTeam1 }} – {{ tieAggregateTeam2 }} {{ tieTeam2?.name }}</strong></span>
         </div>
-        <div *ngIf="tiePenalties" class="cl-penalties-note w3-center">
+        <div *ngIf="tiePenalties" class="cl-penalties-note text-center">
           🎯 Won on penalties: {{ tiePenalties.team1Score }}–{{ tiePenalties.team2Score }}
         </div>
       </div>
 
       <ng-container *ngTemplateOutlet="bracketTpl"></ng-container>
 
-      <div class="w3-center w3-margin-top">
-        <button class="cl-btn-primary w3-button w3-round" (click)="continueKnockout()">
+      <div class="text-center mt-4">
+        <button class="cl-btn-primary tw-button rounded-md" (click)="continueKnockout()">
           Next match →
         </button>
       </div>
@@ -460,11 +460,11 @@
 
     <!-- ══════ ELIMINATED ══════ -->
     <div *ngIf="phase === 'eliminated'" class="cl-center">
-      <div class="cl-card w3-card w3-round-large w3-padding-large cl-result-card lost">
+      <div class="cl-card tw-card rounded-2xl p-6 cl-result-card lost">
         <div class="cl-result-icon">💀</div>
-        <h2 class="w3-text-white w3-center">Eliminated!</h2>
-        <p class="w3-text-light-grey w3-center">
-          <strong class="w3-text-white">{{ playerTeam?.name }}</strong>'s Champions League run ends here.
+        <h2 class="text-white text-center">Eliminated!</h2>
+        <p class="text-silver-300 text-center">
+          <strong class="text-white">{{ playerTeam?.name }}</strong>'s Champions League run ends here.
         </p>
         <div class="cl-final-score-recap" *ngIf="isFinalRound && currentKnockoutMatch">
           <span>{{ currentKnockoutMatch.home.name }} {{ scoreLabel(currentKnockoutMatch) }} {{ currentKnockoutMatch.away.name }}</span>
@@ -473,21 +473,21 @@
             (AET, {{ currentKnockoutMatch.penalties.homeScore }}–{{ currentKnockoutMatch.penalties.awayScore }} pens)
           </span>
         </div>
-        <div class="w3-center w3-margin-top">
-          <button class="cl-btn-primary w3-button w3-round" (click)="resetGame()">🔄 Try Again</button>
+        <div class="text-center mt-4">
+          <button class="cl-btn-primary tw-button rounded-md" (click)="resetGame()">🔄 Try Again</button>
         </div>
       </div>
     </div>
 
     <!-- ══════ CHAMPION ══════ -->
     <div *ngIf="phase === 'champion'" class="cl-center">
-      <div class="cl-card w3-card w3-round-large w3-padding-large cl-result-card won">
+      <div class="cl-card tw-card rounded-2xl p-6 cl-result-card won">
         <div class="cl-result-icon">🏆</div>
-        <h2 class="w3-text-white w3-center">Champions of Europe!</h2>
+        <h2 class="text-white text-center">Champions of Europe!</h2>
         <div class="cl-champion-logo" *ngIf="playerTeam?.logo as championLogo">
           <img [src]="championLogo" [alt]="playerTeam!.name" />
         </div>
-        <p class="w3-text-light-grey w3-center">
+        <p class="text-silver-300 text-center">
           <strong class="accent">{{ playerTeam?.name }}</strong> lifts the trophy at the {{ FINAL_INFO.venue }}, {{ FINAL_INFO.city }}! 🎉
         </p>
         <div class="cl-final-score-recap" *ngIf="currentKnockoutMatch">
@@ -497,8 +497,8 @@
             (AET, {{ currentKnockoutMatch.penalties.homeScore }}–{{ currentKnockoutMatch.penalties.awayScore }} pens)
           </span>
         </div>
-        <div class="w3-center w3-margin-top">
-          <button class="cl-btn-primary w3-button w3-round" (click)="resetGame()">🔄 Play Again</button>
+        <div class="text-center mt-4">
+          <button class="cl-btn-primary tw-button rounded-md" (click)="resetGame()">🔄 Play Again</button>
         </div>
       </div>
     </div>

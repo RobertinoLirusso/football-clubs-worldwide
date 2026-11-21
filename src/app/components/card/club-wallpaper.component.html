@@ -1,13 +1,13 @@
-<div *ngIf="isOpen" class="w3-modal" style="display:block; z-index: 1100;">
-  <div class="w3-modal-content w3-animate-zoom" style="max-width:420px; margin:auto;">
-    <header class="w3-container w3-center">
-      <button type="button" (click)="closed.emit()" class="w3-button w3-display-topright w3-black title-game" aria-label="Close">
+<div *ngIf="isOpen" class="tw-modal z-[1100]">
+  <div class="tw-modal-content max-w-[420px] motion-safe:animate-scale-in">
+    <header class="tw-container text-center">
+      <button type="button" (click)="closed.emit()" class="tw-button absolute right-0 top-0 bg-black text-white title-game" aria-label="Close">
         <i class="fa fa-times"></i>
       </button>
       <h5>Choose a wallpaper style</h5>
     </header>
 
-    <div class="w3-container w3-center w3-padding">
+    <div class="tw-container text-center p-4">
       <div class="wallpaper-formats" role="group" aria-label="Wallpaper format">
         <button type="button"
                 [class.active]="selectedWallpaperFormat === 'mobile'"
@@ -42,7 +42,7 @@
       </p>
 
       <button (click)="downloadClubWallpaper(club)"
-              class="w3-btn w3-black w3-margin-top title-game"
+              class="tw-button bg-black text-white mt-4 title-game"
               [disabled]="isGeneratingWallpaper">
         <i class="fa" [ngClass]="isGeneratingWallpaper ? 'fa-spinner fa-spin' : 'fa-download'"></i>
         {{ isGeneratingWallpaper ? 'Generating...' : 'Download' }}
