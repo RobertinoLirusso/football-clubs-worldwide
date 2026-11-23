@@ -1,3 +1,13 @@
+.game-page > .game-content.game-panel {
+  margin-block: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .game-page > .game-content.game-panel {
+    margin-block: 2.5rem;
+  }
+}
+
 /* ============================================================
    HOST & LAYOUT
    ============================================================ */
