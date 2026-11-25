@@ -9018,7 +9018,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/HNK_Vukovar_1991"
   },
   {
-    "club_name": "ND Gorica",
+    "club_name": "ND Gorica (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/ND_Gorica_logo.svg/250px-ND_Gorica_logo.svg.png",
     "city_country": "Nova Gorica, Slovenia",
     "wiki_url": "https://en.wikipedia.org/wiki/ND_Gorica"
@@ -10320,7 +10320,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Lynx_F.C."
   },
   {
-    "club_name": "Manchester 62 FC",
+    "club_name": "Manchester 62 FC (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/7/71/Manchester_62_FC_badge.png",
     "city_country": "Gibraltar, Gibraltar",
     "wiki_url": "https://en.wikipedia.org/wiki/Manchester_62_F.C."
@@ -19470,7 +19470,7 @@
     "wiki_url": "https://en.wikipedia.org/wiki/GSD_Castelfidardo_Calcio"
   },
   {
-    "club_name": "Chieti",
+    "club_name": "SSD Chieti (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Chietifc1922.png/250px-Chietifc1922.png",
     "city_country": "Chieti, Italy",
     "wiki_url": "https://en.wikipedia.org/wiki/SSD_Chieti_FC_1922"
@@ -32780,10 +32780,16 @@
     "wiki_url": "https://en.wikipedia.org/wiki/Deportivo_Mar%C3%ADtimo"
   },
   {
-    "club_name": "El Palmar CF",
+    "club_name": "El Palmar CF (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/82/ElPalmarCF.png",
     "city_country": "El Palmar, Spain",
     "wiki_url": "https://en.wikipedia.org/wiki/El_Palmar_CF"
+  },
+  {
+    "club_name": "Cotillas CD",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/26/Cotillas_CD.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Cotillas, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cotillas_CD"
   },
   {
     "club_name": "Mazarrón FC",
@@ -32840,7 +32846,7 @@
     "wiki_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Fort_Wayne_FC_monogram.svg/250px-Fort_Wayne_FC_monogram.svg.png"
   },
   {
-    "club_name": "Sarasota Paradise FC",
+    "club_name": "Sarasota Paradise (Defunct)",
     "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Sarasota_Paradise_logo.svg/330px-Sarasota_Paradise_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "city_country": "Sarasota, United States",
     "wiki_url": "https://en.wikipedia.org/wiki/Sarasota_Paradise"
@@ -37686,5 +37692,11 @@
     "club_logo": "https://s2.static-footeo.com/250/uploads/csm-sully-sur-loire-football/logo__76f4vnjjt.png",
     "city_country": "Sully-sur-Loire, France",
     "wiki_url": "https://csm-sully-sur-loire-football.footeo.com/"
+  },
+  {
+    "club_name": "FC Lovech (Defunct)",
+    "club_logo": "https://fclovech.com/wp-content/uploads/elementor/thumbs/fclovech-logo-r7qk0b4zf5j87xhh9m654qoc20hg2gv4gx1aus5nwk.png",
+    "city_country": "Lovech, Bulgaria",
+    "wiki_url": "https://en.wikipedia.org/wiki/FC_Lovech"
   }
 ]
