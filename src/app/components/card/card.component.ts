@@ -7,11 +7,12 @@ import { COUNTRY_FLAG_MAP } from '../../utils/country-flags';
 import { ClubColorAnalysisService } from './club-color-analysis.service';
 import { ClubLogoProcessingService } from './club-logo-processing.service';
 import { ClubWallpaperComponent } from './club-wallpaper.component';
+import { ClubRouletteComponent } from './club-roulette.component';
 
 @Component({
   selector: 'app-card',
   standalone: true,
-  imports: [CommonModule, FormsModule, NgxImageZoomModule, ClubWallpaperComponent],
+  imports: [CommonModule, FormsModule, NgxImageZoomModule, ClubWallpaperComponent, ClubRouletteComponent],
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css'],
 })
@@ -22,6 +23,7 @@ export class CardComponent implements OnInit {
   showBackToTop: boolean = false;
   isFadingOut: boolean = false;
   isSuggestModalOpen: boolean = false;
+  isRouletteOpen: boolean = false;
 
   hoveredClub: string | null = null;
   
@@ -128,6 +130,7 @@ set showDefunctOnly(v: boolean) { this._showDefunctOnly = v; this.resetPaging();
   @HostListener('document:keydown.escape')
   onEscape(): void {
   if (this.isWallpaperModalOpen) { this.closeWallpaperModal(); return; }
+  if (this.isRouletteOpen) { this.closeRoulette(); return; }
   if (this.selectedImage) { this.closeImageModal(); return; }
   if (this.selectedClub) { this.closeModal(); return; }
   if (this.isCountryModalOpen) this.closeCountryModal();
@@ -217,7 +220,7 @@ set selectedCountries(v: string[]) { this._selectedCountries = v; this.resetPagi
     if (['INPUT', 'SELECT', 'TEXTAREA'].includes(tag)) return;
     if (
       this.viewMode !== 'pages' ||
-      this.selectedClub || this.selectedImage || this.isCountryModalOpen || this.isWallpaperModalOpen
+      this.selectedClub || this.selectedImage || this.isCountryModalOpen || this.isWallpaperModalOpen || this.isRouletteOpen
     ) return;
 
     if (e.key === 'ArrowRight') this.goToPage(this.currentPage + 1);
@@ -286,6 +289,27 @@ set selectedCountries(v: string[]) { this._selectedCountries = v; this.resetPagi
 
   closeWallpaperModal(): void {
     this.isWallpaperModalOpen = false;
+  }
+
+  openRoulette(): void {
+    if (!this.clubs.length) return;
+    this.closeSuggestions();
+    this.isRouletteOpen = true;
+  }
+
+  closeRoulette(): void {
+    this.isRouletteOpen = false;
+  }
+
+  onRouletteOpenClub(club: any): void {
+    this.isRouletteOpen = false;
+    this.logoDownloadMsg = '';
+    this.selectedClub = club;
+  }
+
+  onRouletteFilterClub(club: any): void {
+    this.isRouletteOpen = false;
+    this.selectSuggestion(club);
   }
 
   extractCountries(): void {
@@ -530,20 +554,60 @@ clearSearch(): void {
     });
   }
 
-  selectRandomClub(): void {
-    const pool = this.clubs.filter(club => {
-      const [city, country] = club.city_country.split(',').map((part: string) => part.trim().toLowerCase());
-      if (this.selectedCity) {
-        return city === this.selectedCity.city.toLowerCase() &&
-          country === this.selectedCity.country.toLowerCase();
-      }
-      return !this.selectedCountries.length || this.selectedCountries.includes(country);
-    });
+  get roulettePool(): any[] {
+    let filtered = this.clubs;
 
-    if (pool.length > 0) {
-      const randomIndex = Math.floor(Math.random() * pool.length);
-      this.searchTerm = pool[randomIndex].club_name;
+    if (this.showFavoritesOnly) {
+      filtered = filtered.filter(club => this.favorites.has(club.club_name));
     }
+
+    if (this.showDefunctOnly) {
+      filtered = filtered.filter(club => this.isDefunct(club));
+    }
+
+    if (this.selectedCountries.length) {
+      const wanted = new Set(this.selectedCountries.map(c => c.toLowerCase()));
+      filtered = filtered.filter(club => {
+        const parts = club.city_country.split(',');
+        const country = parts.length > 1 ? parts[1].trim().toLowerCase() : '';
+        return wanted.has(country);
+      });
+    }
+
+    if (this.selectedCity) {
+      filtered = filtered.filter(club => {
+        const [city, country] = club.city_country.split(',').map((part: string) => part.trim().toLowerCase());
+        return city === this.selectedCity!.city.toLowerCase() &&
+          country === this.selectedCity!.country.toLowerCase();
+      });
+    }
+
+    if (this.selectedColor) {
+      filtered = filtered.filter(club =>
+        this.clubColors[club.club_name]?.includes(this.selectedColor)
+      );
+    }
+
+    return filtered;
+  }
+
+  get rouletteFilterLabel(): string {
+    const parts: string[] = [];
+    if (this.selectedCity) {
+      parts.push(this.selectedCity.city);
+    } else if (this.selectedCountries.length === 1) {
+      parts.push(this.selectedCountries[0]);
+    } else if (this.selectedCountries.length > 1) {
+      parts.push(`${this.selectedCountries.length} countries`);
+    }
+    if (this.showFavoritesOnly) parts.push('Favorites');
+    if (this.showDefunctOnly) parts.push('Defunct');
+    if (this.selectedColor) parts.push(this.colorLabel(this.selectedColor));
+    return parts.join(' · ');
+  }
+
+  selectRandomClub(): void {
+    this.openRoulette();
   }
 
   getTwitterShareUrl(club: any): string {
@@ -749,10 +813,12 @@ isFavorite(club: any): boolean {
   return this.favorites.has(club.club_name);
 }
 
-toggleFavorite(club: any, event: Event): void {
-  event.stopPropagation();
-  if (this.favorites.has(club.club_name)) this.favorites.delete(club.club_name);
-  else this.favorites.add(club.club_name);
+toggleFavorite(club: any, event?: Event): void {
+  event?.stopPropagation();
+  const next = new Set(this.favorites);
+  if (next.has(club.club_name)) next.delete(club.club_name);
+  else next.add(club.club_name);
+  this.favorites = next;
   this.saveFavorites();
   this.resetPaging();
 }
@@ -946,7 +1012,7 @@ private showLogoMsg(msg: string): void {
 }
 
 get anyModalOpen(): boolean {
-  return !!(this.selectedClub || this.selectedImage || this.isCountryModalOpen || this.isWallpaperModalOpen);
+  return !!(this.selectedClub || this.selectedImage || this.isCountryModalOpen || this.isWallpaperModalOpen || this.isRouletteOpen);
 }
 
 // Nuevo método
