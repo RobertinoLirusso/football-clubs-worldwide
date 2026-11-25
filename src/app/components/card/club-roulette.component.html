@@ -1,0 +1,238 @@
+@if (isOpen) {
+  <div class="tw-modal roulette-backdrop" (click)="close()">
+    <div class="tw-modal-content motion-safe:animate-scale-in roulette-modal"
+         role="dialog"
+         aria-modal="true"
+         aria-label="Random Club Roulette"
+         (click)="$event.stopPropagation()">
+
+      <header class="roulette-header">
+        <div class="roulette-heading">
+          <span class="roulette-badge-icon" aria-hidden="true">
+            <i class="fa fa-dice"></i>
+          </span>
+          <div class="roulette-title-wrap">
+            <h2 class="roulette-title">Club Roulette</h2>
+            <p class="roulette-subtitle">
+              @if (usingFallback()) {
+                <span>Current filters matched 0 clubs · spinning across all {{ effectiveCount() | number }} clubs</span>
+              } @else if (filterLabel) {
+                <span>{{ filterLabel }} · {{ effectiveCount() | number }} clubs in spin</span>
+              } @else {
+                <span>All {{ effectiveCount() | number }} clubs included in every spin</span>
+              }
+            </p>
+          </div>
+        </div>
+
+        <div class="roulette-header-actions">
+          <button type="button"
+                  class="roulette-icon-btn"
+                  (click)="toggleSound()"
+                  [attr.aria-pressed]="!soundEnabled()"
+                  [attr.aria-label]="soundEnabled() ? 'Mute roulette sound' : 'Enable roulette sound'"
+                  [title]="soundEnabled() ? 'Mute sound' : 'Unmute sound'">
+            <i class="fa" [ngClass]="soundEnabled() ? 'fa-volume-up' : 'fa-volume-mute'"></i>
+          </button>
+
+          <button type="button"
+                  class="roulette-close"
+                  (click)="close()"
+                  aria-label="Close roulette">
+            <i class="fa fa-times"></i>
+          </button>
+        </div>
+      </header>
+
+      @if (effectiveCount() === 0) {
+        <div class="roulette-empty">
+          <i class="fa fa-shield-halved" aria-hidden="true"></i>
+          <p>No clubs are available to spin right now.</p>
+          <button type="button" class="roulette-btn-secondary" (click)="close()">Close</button>
+        </div>
+      } @else {
+        <div class="roulette-layout">
+          <!-- Wheel Stage -->
+          <div class="wheel-column">
+            @if (effectiveCount() >= 2) {
+              <div class="wheel-stage">
+                <div class="wheel-pointer" [class.kicked]="clackerKicked()" aria-hidden="true">
+                  <svg viewBox="0 0 36 42" width="36" height="42">
+                    <path d="M18 40 L4 10 A14 14 0 0 1 32 10 Z" class="pointer-body" />
+                    <circle cx="18" cy="13" r="4.5" class="pointer-rivet" />
+                  </svg>
+                </div>
+
+                <div class="wheel-frame">
+                  <div class="wheel-rotor" [style.transform]="'rotate(' + rotationDeg() + 'deg)'">
+                    <svg class="wheel-svg" viewBox="0 0 400 400" aria-hidden="true">
+                      <circle cx="200" cy="200" r="196" class="wheel-outer-rim" />
+                      <circle cx="200" cy="200" r="181" class="wheel-inner-rim" />
+
+                      @for (slice of slices(); track trackBySlice($index, slice)) {
+                        <path [attr.d]="slice.path"
+                              class="wheel-slice"
+                              [ngClass]="{
+                                'slice-a': slice.variant === 'a',
+                                'slice-b': slice.variant === 'b',
+                                'is-winner-slice': state() === 'RESULT' && pointerIndex() === slice.index
+                              }" />
+                      }
+
+                      @for (stud of rimStuds; track $index) {
+                        <circle [attr.cx]="stud.cx" [attr.cy]="stud.cy" r="2.7" class="wheel-stud" />
+                      }
+
+                      <circle cx="200" cy="200" r="40" class="wheel-hub-ring" />
+                    </svg>
+
+                    <div class="wheel-crests" aria-hidden="true">
+                      @for (slice of slices(); track trackBySlice($index, slice)) {
+                        <div class="wheel-crest-slot"
+                             [style.left.%]="slice.badgeLeftPct"
+                             [style.top.%]="slice.badgeTopPct"
+                             [style.transform]="'translate(-50%, -50%) rotate(' + slice.centerDeg + 'deg)'"
+                             [class.is-active-slot]="state() === 'RESULT' && pointerIndex() === slice.index">
+                          <i [class]="slice.iconClass"></i>
+                        </div>
+                      }
+                    </div>
+                  </div>
+
+                  <button type="button"
+                          class="wheel-hub-btn"
+                          [disabled]="state() === 'SPINNING'"
+                          (click)="spin()"
+                          aria-label="Spin the wheel">
+                    @if (state() === 'SPINNING') {
+                      <i class="fa fa-sync fa-spin"></i>
+                    } @else {
+                      <span>SPIN</span>
+                    }
+                  </button>
+                </div>
+              </div>
+
+              <!-- Live ticker under pointer -->
+              <div class="wheel-ticker" [class.is-spinning]="state() === 'SPINNING'" aria-live="off">
+                @if (state() === 'IDLE') {
+                  <i class="fa fa-hand-pointer" aria-hidden="true"></i>
+                  <span class="ticker-place">Press SPIN to launch the wheel</span>
+                } @else {
+                  @if (currentTickerClub(); as liveClub) {
+                    <span class="fi ticker-flag" [ngClass]="'fi-' + getCountryCode(liveClub.city_country)"></span>
+                    <span class="ticker-name">{{ displayName(liveClub) }}</span>
+                    <span class="ticker-place">{{ liveClub.city_country }}</span>
+                  }
+                }
+              </div>
+            } @else {
+              <div class="solo-wheel-notice">
+                <i class="fa fa-bullseye" aria-hidden="true"></i>
+                <span>Only 1 club matches the active filters.</span>
+              </div>
+            }
+          </div>
+
+          <!-- Winner Spotlight / Controls -->
+          <div class="result-column">
+            @if (state() === 'RESULT' && winner(); as wonClub) {
+              <div class="winner-card motion-safe:animate-scale-in">
+                <div class="winner-eyebrow">
+                  <span class="winner-pill">
+                    <i class="fa fa-trophy" aria-hidden="true"></i> Drawn Club
+                  </span>
+                  @if (isLegend(wonClub)) {
+                    <span class="winner-tag legend"><i class="fa fa-star"></i> Legend</span>
+                  }
+                  @if (isDefunct(wonClub)) {
+                    <span class="winner-tag defunct"><i class="fa fa-hourglass-end"></i> Defunct</span>
+                  }
+                </div>
+
+                <div class="winner-stage">
+                  @if (!hasBadgeFailed(wonClub.club_name)) {
+                    <img [src]="wonClub.club_logo"
+                         [alt]="displayName(wonClub)"
+                         (error)="onBadgeError(wonClub.club_name)" />
+                  } @else {
+                    <div class="winner-fallback">
+                      <i class="fa fa-shield-halved"></i>
+                    </div>
+                  }
+                </div>
+
+                <h3 class="winner-name">{{ displayName(wonClub) }}</h3>
+                <p class="winner-location">
+                  <span class="fi" [ngClass]="'fi-' + getCountryCode(wonClub.city_country)"></span>
+                  <span>{{ wonClub.city_country }}</span>
+                </p>
+
+                <div class="winner-actions">
+                  <button type="button"
+                          class="roulette-btn-primary"
+                          (click)="spin()">
+                    <i class="fa fa-rotate-right"></i>
+                    Spin again
+                  </button>
+
+                  <div class="winner-secondary-row">
+                    <button type="button"
+                            class="roulette-btn-secondary"
+                            (click)="onViewDetails()">
+                      <i class="fa fa-id-card"></i>
+                      Club details
+                    </button>
+
+                    <button type="button"
+                            class="roulette-btn-secondary"
+                            (click)="onFilterInGrid()">
+                      <i class="fa fa-filter"></i>
+                      Show in grid
+                    </button>
+                  </div>
+
+                  <button type="button"
+                          class="roulette-btn-fav"
+                          [class.active]="isFavorite(wonClub)"
+                          [attr.aria-pressed]="isFavorite(wonClub)"
+                          (click)="onToggleFavorite($event)">
+                    <i [ngClass]="isFavorite(wonClub) ? 'fa-solid fa-heart' : 'fa-regular fa-heart'"></i>
+                    {{ isFavorite(wonClub) ? 'In favorites' : 'Add to favorites' }}
+                  </button>
+                </div>
+              </div>
+            } @else {
+              <div class="spinning-card">
+                <div class="spinning-crest-preview">
+                  <i class="fa-solid fa-futbol"
+                     [class.fa-spin]="state() === 'SPINNING'"
+                     aria-hidden="true"></i>
+                </div>
+                <p class="spinning-status">
+                  {{ state() === 'SPINNING' ? 'Drawing from all clubs...' : 'Ready to spin' }}
+                </p>
+                <p class="spinning-hint">
+                  @if (effectiveCount() >= 2) {
+                    <span>All {{ effectiveCount() | number }} clubs in the pool are included on every spin.</span>
+                  } @else {
+                    <span>Click below to reveal the matching club.</span>
+                  }
+                </p>
+                <div class="winner-actions">
+                  <button type="button"
+                          class="roulette-btn-primary"
+                          [disabled]="state() === 'SPINNING'"
+                          (click)="spin()">
+                    <i class="fa" [ngClass]="state() === 'SPINNING' ? 'fa-spinner fa-spin' : 'fa-play'"></i>
+                    {{ state() === 'SPINNING' ? 'Spinning...' : 'Spin wheel' }}
+                  </button>
+                </div>
+              </div>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+}

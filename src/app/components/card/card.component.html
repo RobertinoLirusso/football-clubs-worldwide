@@ -64,9 +64,9 @@
 
     <button type="button"
             class="random-btn"
-            (click)="selectRandomClub()"
-            title="Random club"
-            aria-label="Random club">
+            (click)="openRoulette()"
+            title="Random club roulette"
+            aria-label="Open random club roulette">
       <i class="fa fa-random"></i>
     </button>
   </div>
@@ -552,6 +552,19 @@
     (closed)="closeWallpaperModal()">
   </app-club-wallpaper>
 }
+
+<app-club-roulette
+  [isOpen]="isRouletteOpen"
+  [pool]="roulettePool"
+  [fallbackPool]="clubs"
+  [favorites]="favorites"
+  [highlightedClubs]="highlightedClubs"
+  [filterLabel]="rouletteFilterLabel"
+  (closed)="closeRoulette()"
+  (openClubDetails)="onRouletteOpenClub($event)"
+  (filterToClub)="onRouletteFilterClub($event)"
+  (toggleFavoriteClub)="toggleFavorite($event)">
+</app-club-roulette>
 
 <!-- Back to Top -->
 <button class="back-to-top"
