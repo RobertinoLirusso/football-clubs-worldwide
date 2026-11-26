@@ -1,15 +1,21 @@
 [
   {
-    "club_name": "Durham W.F.C.",
-    "club_logo": "",
+    "club_name": "Durham WFC",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/2f/Durham_WFC_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
     "city_country": "Durham, England",
     "wiki_url": "https://en.wikipedia.org/wiki/Durham_W.F.C."
   },
   {
-    "club_name": "Coventry United W.F.C.",
-    "club_logo": "",
+    "club_name": "Coventry United",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/8/87/Coventry_United_F.C._logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
     "city_country": "Coventry, England",
-    "wiki_url": "https://en.wikipedia.org/wiki/Coventry_United_W.F.C."
+    "wiki_url": "https://en.wikipedia.org/wiki/Coventry_United_F.C."
+  },
+  {
+    "club_name": "Rugby Borough FC",
+    "club_logo": "",
+    "city_country": "Rugby, England",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rugby_Borough_F.C."
   },
   {
     "club_name": "Peamount United W.F.C.",
@@ -28,90 +34,6 @@
     "club_logo": "",
     "city_country": "Galway, Ireland",
     "wiki_url": ""
-  },
-  {
-    "club_name": "1. FFC Turbine Potsdam",
-    "club_logo": "",
-    "city_country": "Potsdam, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/1._FFC_Turbine_Potsdam"
-  },
-  {
-    "club_name": "SGS Essen",
-    "club_logo": "",
-    "city_country": "Essen, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/SGS_Essen"
-  },
-  {
-    "club_name": "FCR 2001 Duisburg",
-    "club_logo": "",
-    "city_country": "Duisburg, Germany",
-    "wiki_url": "https://en.wikipedia.org/wiki/FCR_2001_Duisburg"
-  },
-  {
-    "club_name": "Madrid CFF",
-    "club_logo": "",
-    "city_country": "Madrid, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/Madrid_CFF"
-  },
-  {
-    "club_name": "Costa Adeje Tenerife",
-    "club_logo": "",
-    "city_country": "Adeje, Spain",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Sporting Club Huelva",
-    "club_logo": "",
-    "city_country": "Huelva, Spain",
-    "wiki_url": "https://en.wikipedia.org/wiki/Sporting_Club_Huelva"
-  },
-  {
-    "club_name": "FC Rosengård",
-    "club_logo": "",
-    "city_country": "Malmö, Sweden",
-    "wiki_url": "https://en.wikipedia.org/wiki/FC_Rosengård"
-  },
-  {
-    "club_name": "Kristianstads DFF",
-    "club_logo": "",
-    "city_country": "Kristianstad, Sweden",
-    "wiki_url": "https://en.wikipedia.org/wiki/Kristianstads_DFF"
-  },
-  {
-    "club_name": "KIF Örebro DFF",
-    "club_logo": "",
-    "city_country": "Örebro, Sweden",
-    "wiki_url": "https://en.wikipedia.org/wiki/KIF_Örebro_DFF"
-  },
-  {
-    "club_name": "Vittsjö GIK",
-    "club_logo": "",
-    "city_country": "Vittsjö, Sweden",
-    "wiki_url": "https://en.wikipedia.org/wiki/Vittsjö_GIK"
-  },
-  {
-    "club_name": "Eskilstuna United DFF",
-    "club_logo": "",
-    "city_country": "Eskilstuna, Sweden",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Vålerenga Fotball Damer",
-    "club_logo": "",
-    "city_country": "Oslo, Norway",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Arna-Bjørnar",
-    "club_logo": "",
-    "city_country": "Bergen, Norway",
-    "wiki_url": ""
-  },
-  {
-    "club_name": "Zhytlobud-1 Kharkiv",
-    "club_logo": "",
-    "city_country": "Kharkiv, Ukraine",
-    "wiki_url": "https://en.wikipedia.org/wiki/Zhytlobud-1_Kharkiv"
   },
   {
     "club_name": "WFC Rossiyanka",

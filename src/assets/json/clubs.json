@@ -17263,7 +17263,7 @@
   },
   {
     "club_name": "Tivoli Gardens FC",
-    "club_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Tivoli_Gardens_FC.png/250px-Tivoli_Gardens_FC.png",
+    "club_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEie5U9g92JQ_LDGaIkuYcqz8Da5r4kQYq8hbf170nRQmlGTwmqRyoLtz8VM4WMmsrqTBKmlcc9yOBd0YXfexhQQ5aWJZXVVxpp0YMDbh_HO0Wurdzq7QOvl31R_aO3FSdeECVkkCwvF3CUuOhr5rSdbBBc_tDL16oFzOEJSrOkIBztn9gmKyrlntZv9X2A/s1600/Tivoli%20Gardens%20FC256x.png",
     "city_country": "Kingston, Jamaica",
     "wiki_url": "https://en.wikipedia.org/wiki/Tivoli_Gardens_F.C."
   },
@@ -37698,5 +37698,65 @@
     "club_logo": "https://fclovech.com/wp-content/uploads/elementor/thumbs/fclovech-logo-r7qk0b4zf5j87xhh9m654qoc20hg2gv4gx1aus5nwk.png",
     "city_country": "Lovech, Bulgaria",
     "wiki_url": "https://en.wikipedia.org/wiki/FC_Lovech"
+  },
+    {
+    "club_name": "1. FFC Turbine Potsdam",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/dc/1._FFC_Turbine_Potsdam_logo.svg/250px-1._FFC_Turbine_Potsdam_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "city_country": "Potsdam, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/1._FFC_Turbine_Potsdam"
+  },
+  {
+    "club_name": "SGS Essen",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/1b/SGS_Essen_logo.svg/250px-SGS_Essen_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "city_country": "Essen, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/SGS_Essen"
+  },
+  {
+    "club_name": "FCR 2001 Duisburg",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/de/thumb/f/f5/FCRDuisburg.gif/250px-FCRDuisburg.gif?utm_source=de.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "city_country": "Duisburg, Germany",
+    "wiki_url": "https://en.wikipedia.org/wiki/FCR_2001_Duisburg"
+  },
+  {
+    "club_name": "Madrid CFF",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/2/26/Madrid_CFF_Logo.PNG?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Madrid, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Madrid_CFF"
+  },
+  {
+    "club_name": "Sporting Club Huelva",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/en/c/c4/SportingdeHuelva.gif?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "city_country": "Huelva, Spain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sporting_Club_Huelva"
+  },
+  {
+    "club_name": "Kristianstads DFF",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/af/Kristianstads_DFF_logo.svg/250px-Kristianstads_DFF_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "city_country": "Kristianstad, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kristianstads_DFF"
+  },
+  {
+    "club_name": "KIF Örebro DFF",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f0/KIF_Orebro_DFF_logo.svg/250px-KIF_Orebro_DFF_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "city_country": "Örebro, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/KIF_Örebro_DFF"
+  },
+  {
+    "club_name": "Vittsjö GIK",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f0/Vittsjo_GIK_logo.svg/250px-Vittsjo_GIK_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "city_country": "Vittsjö, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Vittsjö_GIK"
+  },
+  {
+    "club_name": "Eskilstuna United DFF",
+    "club_logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/8e/Eskilstuna_United_DFF_logo.svg/250px-Eskilstuna_United_DFF_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "city_country": "Eskilstuna, Sweden",
+    "wiki_url": "https://en.wikipedia.org/wiki/Eskilstuna_United_DFF"
+  },
+  {
+    "club_name": "Arna-Bjørnar",
+    "club_logo": "https://upload.wikimedia.org/wikipedia/fr/b/bc/Arna_Bjornar_logo.png?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "city_country": "Bergen, Norway",
+    "wiki_url": "https://en.wikipedia.org/wiki/Arna-Bj%C3%B8rnar"
   }
 ]
